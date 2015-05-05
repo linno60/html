@@ -5,7 +5,17 @@
 
     switch ($page) 
     {
-        case 'index': $layout = 'layout'; break;
+        case 'index': $layout = 'index'; break; 
+        case 'home': $layout = 'home'; break;
+        case 'category-grid-list': $layout = 'category-grid-list'; break;       
+        case 'product': $layout = 'product'; break;
+        case 'shopping-cart': $layout = 'shopping-cart'; break;
+        case 'compare-products': $layout = 'compare-products'; break;
+        case 'contact-us': $layout = 'contact-us'; break;
+        case 'register-account': $layout = 'register-account'; break;
+        case 'checkout': $layout = 'checkout'; break;
+        case 'blog': $layout = 'blog'; break;
+        case 'blog-post': $layout = 'blog-post'; break;
         default: $layout = '404';
     }
 
