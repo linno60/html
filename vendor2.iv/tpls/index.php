@@ -20,7 +20,7 @@
     <div class="col">
         <h1>Items</h1><hr>
         <ul>
-            <li><a href="../elements">Elements</a></li>
+            <li><a href="/work/elements">Elements</a></li>
             <li>Plugins</li>
             <li>Repeating</li>
             <li>Includes</li>
@@ -107,10 +107,11 @@
     </div>
     <div class="clear"></div>
     <h1>
-        Pages <span class="swrap">
+        Pages 
+        <span class="swrap">
             <span>none</span>
             <span>empty</span>
-            <span class="current">struct</span>
+            <span class="current">layouts</span>
             <span>includes</span>
             <span>pages</span>
             <span>finishing</span>
