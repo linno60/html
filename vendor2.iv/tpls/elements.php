@@ -11,10 +11,7 @@
         <link href="../css/styles.css" rel="stylesheet" type="text/css"/>    
     </head>
     <body>
-        <div class="elements">
-            <h1>Elements</h1>
-            <i class="icon-"></i>
-        </div> 
+        <h1>Elements</h1>
     </body>
 </html>
 

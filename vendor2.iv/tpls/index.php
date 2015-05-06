@@ -20,7 +20,7 @@
     <div class="col">
         <h1>Items</h1><hr>
         <ul>
-            <li><a href="/work/elements">Elements</a></li>
+            <li><a href="/elements">Elements</a></li>
             <li>Plugins</li>
             <li>Repeating</li>
             <li>Includes</li>
