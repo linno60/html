@@ -2,7 +2,236 @@
     width:1170px;
     margin:0 auto;
     background-color:#9ee3dc;
-} 
+}
+.elements hr{
+    border:none;
+}
 i[class*=icon-] {
-     display: inline-block;
- }
+    display: inline-block;
+}
+
+.icon-page-arrow{
+    background: url("/images/icons/8x12/page-arrow.png")
+}
+.icon-page-arrow:hover{
+    background: url("/images/icons/8x12/page-arrow-hover.png")
+}
+.icon-slidearrow-left-large{
+    background: url("/images/icons/8x12/slidearrow-left-large.png")
+}
+.icon-slidearrow-left-large:hover{
+    background: url("/images/icons/8x12/slidearrow-left-large-hover.png")
+}
+.icon-slidearrow-right-large{
+    background: url("/images/icons/8x12/slidearrow-right-large.png")
+}
+.icon-slidearrow-right-large:hover{
+    background: url("/images/icons/8x12/slidearrow-right-large-hover.png")
+}
+
+.icon-accarrow-down{
+    background: url("/images/icons/12x8/accarrow-down.png")
+}
+.icon-accarrow-down:hover{
+    background: url("/images/icons/12x8/accarrow-down-hover.png")
+}
+.icon-accarrow-up{
+    background: url("/images/icons/12x8/accarrow-up.png")
+}
+.icon-accarrow-up:hover{
+    background: url("/images/icons/12x8/accarrow-up-hover.png")
+}
+.icon-selectarrow-small{
+    background: url("/images/icons/12x8/selectarrow-small.png")
+}
+.icon-selectarrow-small:hover{
+    background: url("/images/icons/12x8/selectarrow-small-hover.png")
+}
+.icon-checkbox{
+    background: url("/images/icons/12x8/checkbox.png")
+}
+
+.icon-close{
+    width:12px;
+    height:12px;
+    background: url("/images/icons/12x12/close.png")
+}
+.icon-close:hover{
+    background: url("/images/icons/12x12/close-hover.png")
+}
+
+.icon-likefinger{
+    background: url("/images/icons/16x12/likefinger.png")
+}
+.icon-selectarrow-middle{
+    background: url("/images/icons/16x12/selectarrow-middle.png")
+}
+.icon-selectarrow-middle:hover{
+    background: url("/images/icons/16x12/selectarrow-middle-hover.png")
+}
+
+.icon-topbar-compose{
+    background: url("/images/icons/16x16/topbar-compose.png")
+}
+.icon-topbar-compose:hover{
+    background: url("/images/icons/16x16/topbar-compose-hover.png")
+}
+.icon-topbar-user{
+    background: url("/images/icons/16x16/topbar-user.png")
+}
+.icon-topbar-user:hover{
+    background: url("/images/icons/16x16/topbar-user-hover.png")
+}
+.icon-topbar-cart{
+    background: url("/images/icons/16x16/topbar-cart.png")
+}
+.icon-topbar-cart:hover{
+    background: url("/images/icons/16x16/topbar-cart-hover.png")
+}
+.icon-topbar-checkout{
+    background: url("/images/icons/16x16/topbar-check.png")
+}
+.icon-topbar-checkout:hover{
+    background: url("/images/icons/16x16/topbar-check-hover.png")
+}
+.icon-flag-uk{
+    background: url("/images/icons/16x16/flag-uk.png")
+}
+.icon-flag-it{
+    background: url("/images/icons/16x16/flag-it.png")
+}
+.icon-flag-sp{
+    background: url("/images/icons/16x16/flag-sp.png")
+}
+.icon-flag-fr{
+    background: url("/images/icons/16x16/flag-fr.png")
+}
+.icon-flag-ge{
+    background: url("/images/icons/16x16/flag-ge.png")
+}
+.icon-quick-access{
+    background: url("/images/icons/16x16/quick-access-cart.png")
+}
+.icon-menu-plus{
+    background: url("/images/icons/16x16/menu-plus.png")
+}
+.icon-menu-minus{
+    background: url("/images/icons/16x16/menu-minus.png")
+}
+.icon-grid{
+    background: url("/images/icons/16x16/grid.png")
+}
+.icon-grid:hover{
+    background: url("/images/icons/16x16/grid-hover.png")
+}
+.icon-list{
+    background: url("/images/icons/16x16/list.png")
+}
+.icon-list:hover{
+    background: url("/images/icons/16x16/list-hover.png")
+}
+
+.icon-selectarrow-large{
+    width:20px;
+    height:12px;
+    background: url("/images/icons/20x12/selectarrow-large.png")
+}
+.icon-selectarrow-large:hover{
+    background: url("/images/icons/20x12/selectarrow-large-hover.png")
+}
+
+.icon-product-check{
+    background: url("/images/icons/20x16/product-check.png")
+}
+.icon-product-like{
+    background: url("/images/icons/20x16/product-like.png")
+}
+.icon-support-mail{
+    background: url("/images/icons/20x16/support-mail.png")
+}
+.icon-support-skype{
+    background: url("/images/icons/20x16/support-skype.png")
+}
+.icon-blog-cloud{
+    background: url("/images/icons/20x20/blog-cloud.png")
+}
+.icon-blog-eye{
+    background: url("/images/icons/20x20/blog-eye.png")
+}
+.icon-blog-folder{
+    background: url("/images/icons/20x20/blog-folder.png")
+}
+.icon-blog-like{
+    background: url("/images/icons/20x20/blog-like.png")
+}
+.icon-blog-user{
+    background: url("/images/icons/20x20/blog-user.png")
+}
+.icon-contact-mail{
+    background: url("/images/icons/20x20/contact-mail.png")
+}
+.icon-contact-mobile{
+    background: url("/images/icons/20x20/contact-mobile.png")
+}
+.icon-contact-phone{
+    background: url("/images/icons/20x20/contact-phone.png")
+}
+.icon-contact-skype{
+    background: url("/images/icons/20x20/contact-skype.png")
+}
+.icon-search{
+    background: url("/images/icons/20x20/search.png")
+}
+.icon-social-delicious{
+    background: url("/images/icons/20x20/social-delicious.png")
+}
+.icon-social-facebook{
+    background: url("/images/icons/20x20/social-facebook.png")
+}
+.icon-social-flickr{
+    background: url("/images/icons/20x20/social-flickr.png")
+}
+.icon-social-linkedin{
+    background: url("/images/icons/20x20/social-linkedin.png")
+}
+.icon-social-mail{
+    background: url("/images/icons/20x20/social-mail.png")
+}
+.icon-social-rss{
+    background: url("/images/icons/20x20/social-rss.png")
+}
+.icon-social-skype{
+    background: url("/images/icons/20x20/social-skype.png")
+}
+.icon-social-twitter{
+    background: url("/images/icons/20x20/social-twitter.png")
+}
+.icon-world{
+    background: url("/images/icons/20x20/world.png")
+}
+
+
+.icon-page-arrow, i[class*=icon-slidearrow-]{
+    width:8px;
+    height:12px;
+}
+.icon-selectarrow-small, i[class*=icon-accarrow-], .icon-checkbox{
+    width:12px;
+    height:8px;
+}
+.icon-likefinger, .icon-selectarrow-middle{
+    width:16px;
+    height:12px;
+}
+i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid, .icon-list{
+    width:16px;
+    height:16px;
+}
+i[class*=icon-product-], i[class*=icon-support-]{
+    width:20px;
+    height:16px;
+}
+i[class*=icon-blog-], i[class*=icon-contact-], i[class*=icon-social-], .icon-world, .icon-search{
+    width:20px;
+    height:20px;
+}
