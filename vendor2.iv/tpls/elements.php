@@ -152,7 +152,7 @@
             <hr>
             <label class="label-input label-textarea"><i class="icon-label-compose"></i><span>Your comment</span></label>
             <textarea name="text" rows="10" cols="45" placeholder="Nullam nunc quam, aliquet at diam ac, placerat condimentum velit. Praesent sodales vel lacus eget suscipit. Donec scelerisque, mauris porttitor vulputate ornare, ipsum risus tempus metus."></textarea>
-
+            <div></div>
 
 
 
