@@ -105,7 +105,7 @@ i[class*=icon-] {
     background-image: url("/images/icons/16x16/flag-ge.png")
 }
 .icon-quick-access{
-    background-image: url("/images/icons/16x16/quick-access-cart.png")
+    background-image: url("/images/icons/16x16/quickaccess-cart.png")
 }
 .icon-menu-plus{
     background-image: url("/images/icons/16x16/menu-plus.png")
@@ -304,7 +304,7 @@ i[class*=icon-] {
     width:16px;
     height:12px;
 }
-i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid, .icon-list{
+i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid, .icon-list, .icon-quick-access{
     width:16px;
     height:16px;
 }
@@ -422,7 +422,7 @@ select {
     border-left: 1px solid #e3e1e1;
     padding:7px;
 }
-.select:hover .option {
+.select select:hover + .option{
     background-color:#7bad23;
     border-radius:2px;
     border: 1px solid #7bad23;
@@ -431,13 +431,13 @@ select {
     width: 30px;
     height: 30px;
 }
-.select:hover .option .icon-selectarrow-small{
+.select select:hover + .option .icon-selectarrow-small{
     background-image: url("/images/icons/12x8/selectarrow-small-hover.png")
 }
-.select:hover .option .icon-selectarrow-middle{
+.select select:hover + .option .icon-selectarrow-middle{
     background-image: url("/images/icons/16x12/selectarrow-middle-hover.png")
 }
-.select:hover .option .icon-selectarrow-large{
+.select select:hover + .option .icon-selectarrow-large{
     background-image: url("/images/icons/20x12/selectarrow-large-hover.png")
 }
 .select.select-middle select{
@@ -452,7 +452,7 @@ select {
     height: 36px;
     padding:12px 10px;
 }
-.select.select-middle:hover .option {
+.select.select-middle select:hover + .option {
     width: 38px;
     height: 38px;
 }
@@ -475,7 +475,7 @@ select {
     height: 45px;
     padding:15px 12px;
 }
-.select.select-large:hover .option {
+.select.select-large select:hover + .option {
     width: 47px;
     height: 47px;
 }
@@ -530,3 +530,175 @@ textarea::-ms-input-placeholder {
     color:#7bad23;
     font:14px "Arial"
 }
+
+/*BUTTONS*/
+
+.btn{        
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,.38);
+    color: #e7e7e7;    
+}
+/*height-30*/
+.btn-xxsmall{
+    padding:3px 0px 0px 0px;
+    height:30px;
+    width:30px;
+}
+/*height-35*/
+.btn-xsmall{
+    padding:3px 0px 0px 3px;
+    height:35px;
+    width:35px;
+}
+/*height-35*/
+.btn-small{
+    font:13px "Arial";
+    padding:9px 15px;
+}
+/*height-42*/
+.btn-mid{
+    padding:10px 27px;
+    font:17px "Arial";
+}
+/*height-43*/
+.btn-middle{
+    padding:12px 17px;
+    font:15px "Arial";
+}
+/*height-46*/
+.btn-large{
+    padding:13px 16px;
+    font:15px "Arial";
+}
+/*height-52*/
+.btn-largest{
+    padding:14px 24px;
+    font:19px "Arial";
+}
+.btn-default{
+    background-color:#575959;
+    border: 1px solid #5b5f5d;
+}
+.btn-default:hover{
+    background-color:#7bad23;
+    border:1px solid #7bad23;
+}
+.btn-dark{
+    border: 1px solid #434545;
+    background-color: #434545;
+}
+.btn-alt{
+    background-color:#7bad23;
+    border:1px solid #7bad23;
+}
+.btn-light{
+    background-color:#81b824;
+    border:1px solid #83bb25;
+}
+.btn-medium{
+    border: 1px solid #616563;
+    border-radius: 2px;
+    background-color: #616663;
+}
+.btn-cart{
+    width:152px;
+    color:#ffffff;
+    font:14px "Arial";
+    padding:0px 0px 0px 12px;
+}
+.btn-cart i{
+    float:left;   
+}
+.btn-close{
+    width: 26px;
+    padding:7px;
+    height: 26px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+}
+.btn-close:hover{
+    border: 1px solid #7bad23;
+    background-color: #7bad23;
+}
+.btn-close:hover i{
+    background-image: url("/images/icons/12x12/close-hover.png")
+}
+
+/*TABLES*/
+table{
+    background-color: #ffffff;
+}
+.table-cart, .table-striped{
+    border:1px solid #e0e0e0;
+    width:100%;   
+    border-radius:3px;
+}
+.table-cart td{
+    padding:25px;
+    border:1px solid #e0e0e0;
+}
+.table-cart th{
+    padding:25px;
+    border:1px solid #e0e0e0;
+    color: #555;
+    font:600 15px "PT Sans";
+}
+.table-cart thead{
+    background-color:#f9f9f9;
+
+}
+.table-total{
+    border:1px solid #dcdcdc;
+    width:370px;   
+    border-radius:2px;
+}
+.table-total tfoot{
+    background-color: #f3f3f3;
+}
+.table-total td{
+    text-align:center;
+    padding:20px;
+    border:1px solid #e0e0e0;
+    color: #777;
+    font:600 16px "PT Sans";
+}
+.table-total tfoot td{
+    padding:25px;
+    color: #656565;
+    font:600 22px "PT Sans";
+}
+.table-striped{   
+    border-radius:2px;
+}
+.table-striped td{
+    padding:30px;
+}
+.table-striped td:first-child{
+    border-right:1px solid #e0e0e0;
+    width: 307px;
+    background-color:#ececec;
+    text-align:right;
+    color: #555;
+    font:600 15px "PT Sans";
+}
+.table-striped tr:nth-child(2n){
+    background-color:#f7f7f7;
+}
+.table-striped tr:nth-child(2n) td:first-child{
+    background-color:#e5e5e5;
+}
+
+
+
+li{
+    background: url("/images/icons/point.png")no-repeat 5px 5px;
+padding:0 0 0 20px;
+line-height: 30px;
+}
+li a{
+    text-decoration:none;
+    color: #555957;
+    font:15px "Arial";
+}
+

@@ -110,8 +110,8 @@
         Pages 
         <span class="swrap">
             <span>none</span>
-            <span>empty</span>
-            <span class="current">layouts</span>
+            <span class="current">empty</span>
+            <span>layouts</span>
             <span>includes</span>
             <span>pages</span>
             <span>finishing</span>
