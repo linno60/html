@@ -5,7 +5,7 @@
 
     switch ($page) 
     {
-        case 'index': $layout = 'index'; break; 
+        case 'index': $layout = '_work/index'; break; 
         case 'elements': $layout = 'elements'; break;
         case 'home': $layout = 'home'; break;
         case 'category-grid-list': $layout = 'category-grid-list'; break;       
