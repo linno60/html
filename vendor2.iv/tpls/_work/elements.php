@@ -22,6 +22,11 @@
                 padding-top:20px;
                 padding-bottom:20px;
             }
+            h2{
+                font-size: 20px;
+color: white;
+margin: 15px 0px;
+            }
             .alt-bg {
                 display: inline-block;
                 border: 1px dashed white;
@@ -29,33 +34,35 @@
             }
             .author-label {
                 position: fixed;
-                top: 50px; 
-                left: -23px;
-                background: #xxxxxx;
+                top: 100px;
+                left: -43px;
                 transform: rotate(-90deg);
-                font:600 30px "Arial";
-                color:#ffffff;
-                padding:10px 20px;
-                background-color:#229dee;
-                border-radius:0px 0px 10px 10px;
+                font: 600 20px "Arial";
+                color: #FFF;
+                padding: 5px;
+                background-color: #229DEE;
+                border-radius: 0px 0px 10px 10px;
+                width: 120px;
+                text-align: center;
+                text-transform: uppercase;
             }
         </style>
     </head>
     <body>
         <div class="author-label">Ivan</div>
         <div class="elements clearfix">
-            <div class="padd">
-                <h1>ICONS</h1>
-                <h2>8x12<span></span></h2>
-                <div class="padd elements-icons">
+            <h1>ICONS</h1>
+            <div class="padd elements-icons">
+                <h2>8x12 (<span></span>)</h2>
+                <div class="padd">                    
                     <div class="alt-bg">
                         <i class="icon-page-arrow"></i>
                         <i class="icon-slidearrow-left-large"></i>
                         <i class="icon-slidearrow-right-large"></i>
                     </div>
                 </div>
-                <h2>12x8<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>12x8 (<span></span>)</h2>
+                <div class="padd">
                     <div class="alt-bg">
                         <i class="icon-accarrow-down"></i>
                         <i class="icon-accarrow-up"></i>                
@@ -63,19 +70,19 @@
                     </div>
                     <i class="icon-checkbox"></i>
                 </div>
-                <h2>12x12<span></span></h2>               
-                <div class="padd elements-icons">
+                <h2>12x12 (<span></span>)</h2>               
+                <div class="padd">
                     <div class="alt-bg">
                         <i class="icon-close"></i>
                     </div>
                 </div>
-                <h2>16x12<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>16x12 (<span></span>)</h2>
+                <div class="padd">
                     <i class="icon-likefinger"></i>
                     <i class="icon-selectarrow-middle"></i>
                 </div>
-                <h2>16x16<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>16x16 (<span></span>)</h2>
+                <div class="padd">
                     <div class="alt-bg">
                         <i class="icon-topbar-compose"></i>
                         <i class="icon-topbar-user"></i>
@@ -92,19 +99,19 @@
                     <i class="icon-grid"></i>
                     <i class="icon-list"></i>
                 </div>
-                <h2>20x12<span></span></h2>
+                <h2>20x12 (<span></span>)</h2>
                 <div class="padd elements-icons">
                     <i class="icon-selectarrow-large"></i>
                 </div>
-                <h2>20x16<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>20x16 (<span></span>)</h2>
+                <div class="padd">
                     <i class="icon-product-check"></i>
                     <i class="icon-product-like"></i>
                     <i class="icon-support-mail"></i>
                     <i class="icon-support-skype"></i>
                 </div>
-                <h2>20x20<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>20x20 (<span></span>)</h2>
+                <div class="padd">
                     <i class="icon-blog-cloud"></i>
                     <i class="icon-blog-eye"></i>
                     <i class="icon-blog-folder"></i>
@@ -125,8 +132,8 @@
                     <i class="icon-social-twitter"></i>
                     <i class="icon-world"></i>
                 </div>
-                <h2>24x24<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>24x24 (<span></span>)</h2>
+                <div class="padd">
                     <i class="icon-label-address"></i>
                     <i class="icon-label-attach"></i>
                     <i class="icon-label-city"></i>
@@ -142,8 +149,8 @@
                     <i class="icon-label-subject"></i>
                     <i class="icon-label-username"></i>
                 </div>
-                <h2>Other sizes<span></span></h2>
-                <div class="padd elements-icons">
+                <h2>Other sizes (<span></span>)</h2>
+                <div class="padd">
                     <i class="icon-hidden-cart"></i>
                     <i class="icon-hidden-menu"></i>
                     <i class="icon-marker"></i>
@@ -152,8 +159,8 @@
                     <i class="icon-ears"></i>
                 </div>
             </div>
-            <div class="padd">
-                <h1>FORM ELEMENTS</h1>
+            <h1>FORM ELEMENTS</h1>
+            <div class="padd">               
                 <div class="search">
                     <input type="text" placeholder="Search here">
                 </div>
@@ -205,8 +212,8 @@
                 <hr>            
                 <textarea name="text" rows="10" cols="45" placeholder="Nullam nunc quam, aliquet at diam ac, placerat condimentum velit. Praesent sodales vel lacus eget suscipit. Donec scelerisque, mauris porttitor vulputate ornare, ipsum risus tempus metus."></textarea>
             </div>
-            <div class="padd">
-                <h1>BUTTONS</h1>
+            <h1>BUTTONS</h1>
+            <div class="padd">                
                 <button class="btn btn-largest btn-default">ADD TO CART</button>
                 <button class="btn btn-large btn-light">CREATE MY ACCOUNT</button>
                 <button class="btn btn-middle btn-default">LEARN MORE</button>
@@ -219,8 +226,8 @@
                 <button class="btn-cart btn-xsmall btn-alt"><i class="icon-quick-access"></i><span>0 item(s) - $0.00</span></button>
                 <button class="btn btn-close"><i class="icon-close"></i></button>
             </div>
-            <div class="padd">
-                <h1>TABLES</h1>
+            <h1>TABLES</h1>
+            <div class="padd">               
                 <table class="table-cart">
                     <thead>
                         <tr>
@@ -462,8 +469,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="padd">
-                <h1>LISTS</h1>
+            <h1>LISTS</h1>
+            <div class="padd">               
                 <ul>
                     <li>
                         <a href="#">Dresses</a>
