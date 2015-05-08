@@ -21,13 +21,13 @@
                 font-size:24px;
                 padding-top:20px;
                 padding-bottom:20px;
+                border-bottom: 1px solid white;
+                margin-bottom: 20px;
             }
             h2{
                 font-size: 20px;
                 color: white;
-                margin: 15px 0px;
-                border-bottom: 1px solid white;
-                margin-bottom: 20px;
+                margin: 15px 0px;               
             }
             .alt-bg {
                 display: inline-block;
@@ -148,44 +148,36 @@
                 <input type="text" placeholder="Marek">
                 <label class="label-input clearfix"><i class="icon-label-username"></i><span>Name*</span></label>
                 <hr>
-                <div class="select select-small">             
+                <span class="select">
                     <select>
-                        <option selected>Default</option>
-                        <option>Size</option>
-                        <option>Name</option>
-                        <option>Price</option>
+                        <option selected="">Default</option>
                         <option>Brand</option>
+                        <option>Name</option>
+                        <option>Size</option>
+                        <option>Color</option>
+                        <option>Price</option>            
                     </select>
-                    <span class="option">
-                        <i class="icon-selectarrow-small"></i>
-                    </span>
-                </div>
-                <hr>
-                <div class="select select-middle">               
+                </span>
+                <hr>                
+                <span class="select select-middle">
                     <select>
                         <option selected>--Please Select--</option>
                         <option>Germany</option>
                         <option>Spain</option>
                         <option>Italy</option>
-                        <option>France</option>
+                        <option>France</option>           
                     </select>
-                    <span class="option">
-                        <i class="icon-selectarrow-middle"></i>
-                    </span>
-                </div>
+                </span>
                 <hr>
-                <div class="select select-large">                              
+                <span class="select select-large">
                     <select>
                         <option selected>Great Britain</option>
                         <option>Germany</option>
                         <option>Spain</option>
                         <option>Italy</option>
-                        <option>France</option>
+                        <option>France</option>           
                     </select>
-                    <span class="option">
-                        <i class="icon-selectarrow-large"></i>
-                    </span>
-                </div>
+                </span>
                 <hr>            
                 <textarea name="text" rows="10" cols="45" placeholder="Nullam nunc quam, aliquet at diam ac, placerat condimentum velit. Praesent sodales vel lacus eget suscipit. Donec scelerisque, mauris porttitor vulputate ornare, ipsum risus tempus metus."></textarea>
             </div>
@@ -447,30 +439,122 @@
                 </table>
             </div>
             <h1>LISTS</h1>
-            <div class="padd">               
-                <ul>
-                    <li>
-                        <a href="#">Dresses</a>
+            <div class="padd">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Dresses</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Jeans & Trousers</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Blouses & Shirts</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Tops & T-Shirts</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Jackets & Coats</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Skirts</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="footer">
+                    <ul>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">My account</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Personal information</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Addresses</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Discount</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Orders history</a>
+                        </li>
+                        <li>
+                            <i class="icon-point"></i>
+                            <a href="#">Your Vouchers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h1>PAGINATIONS</h1>
+            <div class="padd">
+                <ul class="pagination clearfix">
+                    <li class="active">
+                        <a href="#">1</a>
                     </li>
                     <li>
-                        <a href="#">Jeans & Trousers</a>
+                        <a href="#">2</a>
                     </li>
                     <li>
-                        <a href="#">Blouses & Shirts</a>
+                        <a href="#">3</a>
                     </li>
                     <li>
-                        <a href="#">Tops & T-Shirts</a>
+                        <a href="#">4</a>
                     </li>
                     <li>
-                        <a href="#">Jackets & Coats</a>
+                        <a href="#">5</a>
                     </li>
-                    <li>
-                        <a href="#">Skirts</a>
+                    <li class="next">
+                        <a href="#">
+                            <i class="icon-page-arrow"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
+            <h1>BREADCRUMBS</h1>
             <div class="padd">
-
+                <ul class="breadcrumb clearfix">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"><span>></span>Electronics</a></li>
+                    <li><a href="#"><span>></span>Mobile</a></li>
+                    <li><span>></span>Samsung Galaxy Ace</li>
+                </ul>
+                <ul class="breadcrumb alt clearfix">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"><span>></span>Electronics</a></li>
+                    <li><span>></span>Mobile</li>
+                </ul>
+            </div>
+            <h1>TABS</h1>
+            <div class="padd">
+                <div class="tabs">
+                    <ul class="tabs-nav">
+                        <li><a href="#tab1">DESCRIPTION</a></li>
+                        <li><a href="#tab2">DETAILS</a></li>
+                        <li><a href="#tab3">COMMENTS</a></li>
+                        <li><a href="#tab4">ACCESSORIES</a></li>
+                        <li><a href="#tab5">VIDEO</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane" id="tab1">1</div>
+                        <div class="tab-pane" id="tab2">2</div>
+                        <div class="tab-pane" id="tab3">3</div>
+                        <div class="tab-pane" id="tab4">4</div>
+                        <div class="tab-pane" id="tab5">5</div>
+                    </div>
+                </div>
             </div>
         </div>
         <script src="/js/jquery/jquery-2.1.1.min.js"></script>
