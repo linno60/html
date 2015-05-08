@@ -10,46 +10,42 @@ i[class*=icon-] {
 }
 
 .icon-page-arrow{
-    background-image: url("/images/icons/8x12/page-arrow.png")
+    background-image: url("/images/icons/12x12/page-arrow.png")
 }
 .icon-page-arrow:hover{
-    background-image: url("/images/icons/8x12/page-arrow-hover.png")
+    background-image: url("/images/icons/12x12/page-arrow-hover.png")
 }
 .icon-slidearrow-left-large{
-    background-image: url("/images/icons/8x12/slidearrow-left-large.png")
+    background-image: url("/images/icons/12x12/slidearrow-left-large.png")
 }
 .icon-slidearrow-left-large:hover{
-    background-image: url("/images/icons/8x12/slidearrow-left-large-hover.png")
+    background-image: url("/images/icons/12x12/slidearrow-left-large-hover.png")
 }
 .icon-slidearrow-right-large{
-    background-image: url("/images/icons/8x12/slidearrow-right-large.png")
+    background-image: url("/images/icons/12x12/slidearrow-right-large.png")
 }
 .icon-slidearrow-right-large:hover{
-    background-image: url("/images/icons/8x12/slidearrow-right-large-hover.png")
+    background-image: url("/images/icons/12x12/slidearrow-right-large-hover.png")
 }
-
 .icon-accarrow-down{
-    background-image: url("/images/icons/12x8/accarrow-down.png")
+    background-image: url("/images/icons/12x12/accarrow-down.png")
 }
 .icon-accarrow-down:hover{
-    background-image: url("/images/icons/12x8/accarrow-down-hover.png")
+    background-image: url("/images/icons/12x12/accarrow-down-hover.png")
 }
 .icon-accarrow-up{
-    background-image: url("/images/icons/12x8/accarrow-up.png")
+    background-image: url("/images/icons/12x12/accarrow-up.png")
 }
 .icon-accarrow-up:hover{
-    background-image: url("/images/icons/12x8/accarrow-up-hover.png")
+    background-image: url("/images/icons/12x12/accarrow-up-hover.png")
 }
 .icon-selectarrow-small{
-    background-image: url("/images/icons/12x8/selectarrow-small.png")
+    background-image: url("/images/icons/12x12/selectarrow-small.png")
 }
 .icon-checkbox{
-    background-image: url("/images/icons/12x8/checkbox.png")
+    background-image: url("/images/icons/12x12/checkbox.png")
 }
-
 .icon-close{
-    width:12px;
-    height:12px;
     background-image: url("/images/icons/12x12/close.png")
 }
 .icon-close:hover{
@@ -57,12 +53,11 @@ i[class*=icon-] {
 }
 
 .icon-likefinger{
-    background-image: url("/images/icons/16x12/likefinger.png")
+    background-image: url("/images/icons/16x16/likefinger.png")
 }
 .icon-selectarrow-middle{
-    background-image: url("/images/icons/16x12/selectarrow-middle.png")
+    background-image: url("/images/icons/16x16/selectarrow-middle.png")
 }
-
 .icon-topbar-compose{
     background-image: url("/images/icons/16x16/topbar-compose.png")
 }
@@ -125,22 +120,19 @@ i[class*=icon-] {
 }
 
 .icon-selectarrow-large{
-    width:20px;
-    height:12px;
-    background-image: url("/images/icons/20x12/selectarrow-large.png")
+    background-image: url("/images/icons/20x20/selectarrow-large.png")
 }
-
 .icon-product-check{
-    background-image: url("/images/icons/20x16/product-check.png")
+    background-image: url("/images/icons/20x20/product-check.png")
 }
 .icon-product-like{
-    background-image: url("/images/icons/20x16/product-like.png")
+    background-image: url("/images/icons/20x20/product-like.png")
 }
 .icon-support-mail{
-    background-image: url("/images/icons/20x16/support-mail.png")
+    background-image: url("/images/icons/20x20/support-mail.png")
 }
 .icon-support-skype{
-    background-image: url("/images/icons/20x16/support-skype.png")
+    background-image: url("/images/icons/20x20/support-skype.png")
 }
 .icon-blog-cloud{
     background-image: url("/images/icons/20x20/blog-cloud.png")
@@ -274,27 +266,17 @@ i[class*=icon-] {
     background-image: url("/images/icons/support-ears.png")
 }
 
-.icon-page-arrow, i[class*=icon-slidearrow-]{
-    width:8px;
-    height:12px;
-}
-.icon-selectarrow-small, i[class*=icon-accarrow-], .icon-checkbox{
+.icon-page-arrow, i[class*=icon-slidearrow-], .icon-selectarrow-small, i[class*=icon-accarrow-], .icon-checkbox, .icon-close{
     width:12px;
-    height:8px;
-}
-.icon-likefinger, .icon-selectarrow-middle{
-    width:16px;
     height:12px;
 }
-i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid, .icon-list, .icon-quick-access{
+i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid,
+.icon-list, .icon-quick-access, .icon-likefinger, .icon-selectarrow-middle{
     width:16px;
     height:16px;
 }
-i[class*=icon-product-], i[class*=icon-support-]{
-    width:20px;
-    height:16px;
-}
-i[class*=icon-blog-], i[class*=icon-contact-], i[class*=icon-social-], .icon-world, .icon-search{
+i[class*=icon-blog-], i[class*=icon-contact-], i[class*=icon-social-],
+.icon-world, .icon-search, .icon-selectarrow-large, i[class*=icon-product-], i[class*=icon-support-]{
     width:20px;
     height:20px;
 }
@@ -409,10 +391,10 @@ select {
     height: 30px;
 }
 .select select:hover + .option .icon-selectarrow-small{
-    background-image: url("/images/icons/12x8/selectarrow-small-hover.png")
+    background-image: url("/images/icons/12x12/selectarrow-small-hover.png")
 }
 .select select:hover + .option .icon-selectarrow-middle{
-    background-image: url("/images/icons/16x12/selectarrow-middle-hover.png")
+    background-image: url("/images/icons/16x16/selectarrow-middle-hover.png")
 }
 .select select:hover + .option .icon-selectarrow-large{
     background-image: url("/images/icons/20x12/selectarrow-large-hover.png")

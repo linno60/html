@@ -24,8 +24,8 @@
             }
             h2{
                 font-size: 20px;
-color: white;
-margin: 15px 0px;
+                color: white;
+                margin: 15px 0px;
             }
             .alt-bg {
                 display: inline-block;
@@ -52,34 +52,19 @@ margin: 15px 0px;
         <div class="author-label">Ivan</div>
         <div class="elements clearfix">
             <h1>ICONS</h1>
-            <div class="padd elements-icons">
-                <h2>8x12 (<span></span>)</h2>
-                <div class="padd">                    
-                    <div class="alt-bg">
-                        <i class="icon-page-arrow"></i>
-                        <i class="icon-slidearrow-left-large"></i>
-                        <i class="icon-slidearrow-right-large"></i>
-                    </div>
-                </div>
-                <h2>12x8 (<span></span>)</h2>
+            <div class="padd elements-icons">               
+                <h2>12x12 (<span></span>)</h2>               
                 <div class="padd">
                     <div class="alt-bg">
                         <i class="icon-accarrow-down"></i>
                         <i class="icon-accarrow-up"></i>                
                         <i class="icon-selectarrow-small"></i>
+                        <i class="icon-page-arrow"></i>
+                        <i class="icon-slidearrow-left-large"></i>
+                        <i class="icon-slidearrow-right-large"></i>
+                        <i class="icon-close"></i>                        
                     </div>
                     <i class="icon-checkbox"></i>
-                </div>
-                <h2>12x12 (<span></span>)</h2>               
-                <div class="padd">
-                    <div class="alt-bg">
-                        <i class="icon-close"></i>
-                    </div>
-                </div>
-                <h2>16x12 (<span></span>)</h2>
-                <div class="padd">
-                    <i class="icon-likefinger"></i>
-                    <i class="icon-selectarrow-middle"></i>
                 </div>
                 <h2>16x16 (<span></span>)</h2>
                 <div class="padd">
@@ -88,7 +73,9 @@ margin: 15px 0px;
                         <i class="icon-topbar-user"></i>
                         <i class="icon-topbar-cart"></i>
                         <i class="icon-topbar-checkout"></i>
+                        <i class="icon-selectarrow-middle"></i>
                     </div>
+                    <i class="icon-likefinger"></i>                    
                     <i class="icon-flag-uk"></i>
                     <i class="icon-flag-it"></i>
                     <i class="icon-flag-ge"></i>
@@ -99,19 +86,13 @@ margin: 15px 0px;
                     <i class="icon-grid"></i>
                     <i class="icon-list"></i>
                 </div>
-                <h2>20x12 (<span></span>)</h2>
-                <div class="padd elements-icons">
-                    <i class="icon-selectarrow-large"></i>
-                </div>
-                <h2>20x16 (<span></span>)</h2>
+                <h2>20x20 (<span></span>)</h2>
                 <div class="padd">
                     <i class="icon-product-check"></i>
                     <i class="icon-product-like"></i>
                     <i class="icon-support-mail"></i>
                     <i class="icon-support-skype"></i>
-                </div>
-                <h2>20x20 (<span></span>)</h2>
-                <div class="padd">
+                    <i class="icon-selectarrow-large"></i>
                     <i class="icon-blog-cloud"></i>
                     <i class="icon-blog-eye"></i>
                     <i class="icon-blog-folder"></i>
@@ -153,9 +134,7 @@ margin: 15px 0px;
                 <div class="padd">
                     <i class="icon-hidden-cart"></i>
                     <i class="icon-hidden-menu"></i>
-                    <i class="icon-marker"></i>
                     <i class="icon-point"></i>
-                    <i class="icon-quote"></i>
                     <i class="icon-ears"></i>
                 </div>
             </div>
