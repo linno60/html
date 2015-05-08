@@ -39,12 +39,6 @@ i[class*=icon-] {
 .icon-accarrow-up:hover{
     background-image: url("/images/icons/12x12/accarrow-up-hover.png")
 }
-.icon-selectarrow-small{
-    background-image: url("/images/icons/12x12/selectarrow-small.png")
-}
-.icon-checkbox{
-    background-image: url("/images/icons/12x12/checkbox.png")
-}
 .icon-close{
     background-image: url("/images/icons/12x12/close.png")
 }
@@ -54,9 +48,6 @@ i[class*=icon-] {
 
 .icon-likefinger{
     background-image: url("/images/icons/16x16/likefinger.png")
-}
-.icon-selectarrow-middle{
-    background-image: url("/images/icons/16x16/selectarrow-middle.png")
 }
 .icon-topbar-compose{
     background-image: url("/images/icons/16x16/topbar-compose.png")
@@ -119,9 +110,6 @@ i[class*=icon-] {
     background-image: url("/images/icons/16x16/list-hover.png")
 }
 
-.icon-selectarrow-large{
-    background-image: url("/images/icons/20x20/selectarrow-large.png")
-}
 .icon-product-check{
     background-image: url("/images/icons/20x20/product-check.png")
 }
@@ -266,17 +254,17 @@ i[class*=icon-] {
     background-image: url("/images/icons/support-ears.png")
 }
 
-.icon-page-arrow, i[class*=icon-slidearrow-], .icon-selectarrow-small, i[class*=icon-accarrow-], .icon-checkbox, .icon-close{
+.icon-page-arrow, i[class*=icon-slidearrow-], i[class*=icon-accarrow-], .icon-close{
     width:12px;
     height:12px;
 }
 i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid,
-.icon-list, .icon-quick-access, .icon-likefinger, .icon-selectarrow-middle{
+.icon-list, .icon-quick-access, .icon-likefinger{
     width:16px;
     height:16px;
 }
 i[class*=icon-blog-], i[class*=icon-contact-], i[class*=icon-social-],
-.icon-world, .icon-search, .icon-selectarrow-large, i[class*=icon-product-], i[class*=icon-support-]{
+.icon-world, .icon-search, i[class*=icon-product-], i[class*=icon-support-]{
     width:20px;
     height:20px;
 }

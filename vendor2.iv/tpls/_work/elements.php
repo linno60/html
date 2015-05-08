@@ -26,6 +26,8 @@
                 font-size: 20px;
                 color: white;
                 margin: 15px 0px;
+                border-bottom: 1px solid white;
+                margin-bottom: 20px;
             }
             .alt-bg {
                 display: inline-block;
@@ -58,13 +60,11 @@
                     <div class="alt-bg">
                         <i class="icon-accarrow-down"></i>
                         <i class="icon-accarrow-up"></i>                
-                        <i class="icon-selectarrow-small"></i>
                         <i class="icon-page-arrow"></i>
                         <i class="icon-slidearrow-left-large"></i>
                         <i class="icon-slidearrow-right-large"></i>
                         <i class="icon-close"></i>                        
                     </div>
-                    <i class="icon-checkbox"></i>
                 </div>
                 <h2>16x16 (<span></span>)</h2>
                 <div class="padd">
@@ -73,7 +73,6 @@
                         <i class="icon-topbar-user"></i>
                         <i class="icon-topbar-cart"></i>
                         <i class="icon-topbar-checkout"></i>
-                        <i class="icon-selectarrow-middle"></i>
                     </div>
                     <i class="icon-likefinger"></i>                    
                     <i class="icon-flag-uk"></i>
@@ -92,7 +91,6 @@
                     <i class="icon-product-like"></i>
                     <i class="icon-support-mail"></i>
                     <i class="icon-support-skype"></i>
-                    <i class="icon-selectarrow-large"></i>
                     <i class="icon-blog-cloud"></i>
                     <i class="icon-blog-eye"></i>
                     <i class="icon-blog-folder"></i>
