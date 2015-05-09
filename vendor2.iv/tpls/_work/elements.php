@@ -27,7 +27,15 @@
             h2{
                 font-size: 20px;
                 color: white;
-                margin: 15px 0px;               
+                margin: 15px 0px;
+            }
+            h3 {
+                display: inline-block;
+                font-size: 16px;
+                color: white;
+                margin: 15px 10px 15px 0;
+                width: 100px;
+                text-align: right;
             }
             .alt-bg {
                 display: inline-block;
@@ -68,22 +76,31 @@
                 </div>
                 <h2>16x16 (<span></span>)</h2>
                 <div class="padd">
-                    <div class="alt-bg">
-                        <i class="icon-topbar-compose"></i>
-                        <i class="icon-topbar-user"></i>
-                        <i class="icon-topbar-cart"></i>
-                        <i class="icon-topbar-checkout"></i>
-                    </div>
-                    <i class="icon-likefinger"></i>                    
-                    <i class="icon-flag-uk"></i>
-                    <i class="icon-flag-it"></i>
-                    <i class="icon-flag-ge"></i>
-                    <i class="icon-flag-fr"></i>
-                    <i class="icon-flag-sp"></i>
-                    <i class="icon-menu-minus"></i>
-                    <i class="icon-menu-plus"></i>
-                    <i class="icon-grid"></i>
-                    <i class="icon-list"></i>
+                        <h3>normal:</h3>
+                        <div class="alt-bg">
+                            <i class="icon-topbar-compose"></i>
+                            <i class="icon-topbar-user"></i>
+                            <i class="icon-topbar-cart"></i>
+                            <i class="icon-topbar-checkout"></i>
+                        </div>
+                        <i class="icon-likefinger"></i>                    
+                        <i class="icon-flag-uk"></i>
+                        <i class="icon-flag-it"></i>
+                        <i class="icon-flag-ge"></i>
+                        <i class="icon-flag-fr"></i>
+                        <i class="icon-flag-sp"></i>
+                        <i class="icon-menu-minus"></i>
+                        <i class="icon-menu-plus"></i>
+                        <i class="icon-grid"></i>
+                        <i class="icon-list"></i>
+                        <br>
+                        <h3>hover:</h3>
+                        <img src="/images/icons/16x16/topbar-compose-hover.png">
+                        <img src="/images/icons/16x16/topbar-user-hover.png">
+                        <img src="/images/icons/16x16/topbar-cart-hover.png">
+                        <img src="/images/icons/16x16/topbar-check-hover.png">
+                        <img src="/images/icons/16x16/grid-hover.png">
+                        <img src="/images/icons/16x16/list-hover.png">
                 </div>
                 <h2>20x20 (<span></span>)</h2>
                 <div class="padd">
@@ -563,8 +580,16 @@
                 $('.elements-icons h2').each(function () {
                     $(this).find('span').text($(this).next().find('i').length);
                 });
+                if (window.clipboardData)
+                {
+                    $('.elements-icons').on('dblclick', 'i', function() {
+                        window.clipboardData.setData("Text", $(this)[0].outerHTML);
+                    });
+                    $('.elements-icons').on('dblclick', 'img', function() {
+                        window.clipboardData.setData("Text", $(this).attr('src'));
+                    });
+                }
             })(jQuery);
         </script>
     </body>
 </html>
-
