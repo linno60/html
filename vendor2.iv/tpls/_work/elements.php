@@ -158,17 +158,31 @@
                         <i class="icon-label-region"></i>
                         <i class="icon-label-subject"></i>
                         <i class="icon-label-username"></i>
+                        <i class="icon-hidden-menu"></i>
                     </div>
                     <h2>Other sizes (<span></span>)</h2>
                     <div class="padd">
-                        <i class="icon-hidden-cart"></i>
-                        <i class="icon-hidden-menu"></i>
+                        <i class="icon-hidden-cart"></i>                       
                         <i class="icon-point"></i>
                         <i class="icon-ears"></i>
                     </div>
                 </div>
+                <h1>IMAGES</h1>
+                <img src="/images/icons/check-plus.png">
+                <img src="/images/icons/quote.png">
+                <img src="/images/icons/marker.png">
+                <img src="/images/twitter-bird.png">
+                <img src="/images/icons/32x32/add-facebook.png">
+                <img src="/images/icons/32x32/add-mail.png">
+                <img src="/images/icons/32x32/add-plus.png">
+                <img src="/images/icons/32x32/add-print.png">
+                <img src="/images/icons/32x32/add-twitter.png">
+                <img src="/images/rating1.png">
+                <img src="/images/rating2.png">
+                <img src="/images/rating3.png">
+                <img src="/images/rating4.png">
                 <h1>FORM ELEMENTS</h1>
-                <h3>Defaults:</h3>
+                <h3>1)Defaults:</h3>
                 <div class="padd clearfix">
                     <input type="text" placeholder="Marek">
                     <textarea name="text" rows="10" cols="45" placeholder="Nullam nunc quam, aliquet at diam ac, placerat condimentum velit. Praesent sodales vel lacus eget suscipit. Donec scelerisque, mauris porttitor vulputate ornare, ipsum risus tempus metus."></textarea>                
@@ -189,17 +203,9 @@
                     <label for="c1"></label>
                     <input type="checkbox" name="checkbox" id="c2">
                     <label for="c2"></label>
-                </div>
-                <h3>Context:</h3>
-                <div class="padd">
-                    <div class="form-set-search">
-                        <input type="text" placeholder="Search here">
-                    </div>
-                    <hr>
-                    <div class="form-set-newsletter">
-                        <input type="text" placeholder="Enter your email address">
-                    </div>                                            
-                    <hr>
+                </div>  
+                <h3>2)Context 1:</h3>
+                <div class="padd">                    
                     <div class="form-set-size clearfix">
                         <input type="radio" name="radio" id="r1">
                         <label for="r1">S</label>
@@ -207,6 +213,9 @@
                         <label for="r2">M</label>
                     </div>
                     <hr>
+                </div>
+                <h3>3)Context 2:</h3>
+                <div class="padd">                    
                     <div class="form-set-product">
                         <span class="select select-middle">
                             <select>
@@ -219,6 +228,9 @@
                         </span>
                     </div>
                     <hr>
+                </div>
+                <h3>4)Context 3:</h3>
+                <div class="padd">                    
                     <div class="form-set-filter">
                         <span class="select">
                             <select>
@@ -233,8 +245,12 @@
                     </div>
                     <hr> 
                 </div>
-                <h3>Separated:</h3>
-                <div class="padd">   
+                <h3>5)Separated:</h3>
+                <div class="padd"> 
+                    <input type="text" class="search-input" placeholder="Search here">
+                    <hr>
+                    <input type="text" class="newsletter-input" placeholder="Enter your email address">                                           
+                    <hr>
                     <input class="subscribe-input" type="checkbox" name="checkbox" id="c3" checked>
                     <label for="c3"></label> 
                     <hr>
@@ -593,20 +609,21 @@
                 <h1>TABS</h1>
                 <div class="padd">
                     <div class="tabs">
-                        <ul class="tabs-nav">
-                            <li><a href="#tab1">DESCRIPTION</a></li>
-                            <li><a href="#tab2">DETAILS</a></li>
-                            <li><a href="#tab3">COMMENTS</a></li>
-                            <li><a href="#tab4">ACCESSORIES</a></li>
-                            <li><a href="#tab5">VIDEO</a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane" id="tab1">1</div>
-                            <div class="tab-pane" id="tab2">2</div>
-                            <div class="tab-pane" id="tab3">3</div>
-                            <div class="tab-pane" id="tab4">4</div>
-                            <div class="tab-pane" id="tab5">5</div>
-                        </div>
+                        <input type="radio" id="tab1" name="tab-label" checked>
+                        <label for="tab1">DESCRIPTION</label>
+                        <input type="radio" id="tab2" name="tab-label">
+                        <label for="tab2">DETAILS</label>
+                        <input type="radio" id="tab3" name="tab-label">
+                        <label for="tab3">COMMENTS</label>
+                        <input type="radio" id="tab4" name="tab-label">
+                        <label for="tab4">ACCESSORIES</label>
+                        <input type="radio" id="tab5" name="tab-label">
+                        <label for="tab5">VIDEO</label>                        
+                        <div class="tab-pane" id="tabc1">1</div>
+                        <div class="tab-pane" id="tabc2">2</div>
+                        <div class="tab-pane" id="tabc3">3</div>
+                        <div class="tab-pane" id="tabc4">4</div>
+                        <div class="tab-pane" id="tabc5">5</div>
                     </div>
                 </div>
             </div>

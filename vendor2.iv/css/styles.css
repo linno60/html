@@ -188,16 +188,14 @@ a{
 .icon-label-username{
     background-image: url("/images/icons/24x24/label-username.png")
 }
+.icon-hidden-menu{       
+    background-image: url("/images/icons/24x24/hidden-menu.png")
+}
 
 .icon-hidden-cart{
     width:24px;
     height:20px;       
     background-image: url("/images/icons/hidden-cart.png")
-}
-.icon-hidden-menu{
-    width:21px;
-    height:21px;       
-    background-image: url("/images/icons/hidden-menu.png")
 }
 .icon-marker{
     width:28px;
@@ -234,7 +232,7 @@ i[class*=icon-blog-], i[class*=icon-contact-], i[class*=icon-social-],
     width:20px;
     height:20px;
 }
-i[class*=icon-label-]{
+i[class*=icon-label-], .icon-hidden-menu{
     width:24px;
     height:24px;
 }
@@ -252,8 +250,7 @@ input[type="text"]{
     display:block;
     height:47px;
 }
-.form-set-search input{
-    width:170px;
+input[type="text"].search-input{
     height:35px;
     border:1px solid #e0e0e0;
     border-radius:0px;
@@ -263,8 +260,7 @@ input[type="text"]{
     font-size:13px;
     font-family:"Arial";
 }
-.form-set-newsletter input{
-    width:228px;
+input[type="text"].newsletter-input{
     height:36px;
     border-radius:2px;
     border:1px solid #e0e0e0;
@@ -290,31 +286,31 @@ input::-ms-input-placeholder {
     font-size:15px;
     font-family:"Arial";
 }
-.form-set-search input::-webkit-input-placeholder {
+.search-input::-webkit-input-placeholder {
     color:#a4a4a4;
     font-size:13px;
     font-family:"Arial";
     font-style:italic;
 } 
-.form-set-search input::-moz-placeholder {
+.search-input::-moz-placeholder {
     color:#a4a4a4;
     font-size:13px;
     font-family:"Arial";
     font-style:italic;
 }
-.form-set-search input::-ms-input-placeholder {
+.search-input::-ms-input-placeholder {
     color:#a4a4a4;
     font-size:13px;
     font-family:"Arial";
     font-style:italic;
 }
-.form-set-newsletter input::-webkit-input-placeholder {
+.newsletter-input::-webkit-input-placeholder {
     color:#a2a4a0;
 } 
-.form-set-newsletter input::-moz-placeholder {
+.newsletter-input::-moz-placeholder {
     color:#a2a4a0;
 }
-.form-set-newsletter input::-ms-input-placeholder {
+.newsletter-input::-ms-input-placeholder {
     color:#a2a4a0;
 }
 
@@ -723,15 +719,22 @@ table{
 }
 
 
-
+.tabs{
+    position:relative;
+}
 .tab-pane {
     display: none;
+    background-color:#ffffff;
+    width:598px;
+    position:absolute;
+    left:270px;
+    top:0px;
+    height:100%;
 }
-
-.tab-pane:target{
-    display: block;
+#tab1:checked ~ .tab-pane#tabc1, #tab2:checked ~ .tab-pane#tabc2, #tab3:checked ~ .tab-pane#tabc3,
+#tab4:checked ~ .tab-pane#tabc4, #tab5:checked ~ .tab-pane#tabc5{
+    display:block;
 }
-
 .tabs{
     width:870px;
     height:462px;
@@ -739,13 +742,11 @@ table{
     border-radius:2px;
     background-color:#f9f9f9;
 }
-.tabs-nav{
+.tabs label{
+    display: block;
     width:270px;
-    float:left;
 }
-.tab-content{
-    width:598px;
-    height:462px;
-    float:left;
+input[name="tab-label"]:checked + label{
     background-color:#ffffff;
 }
+
