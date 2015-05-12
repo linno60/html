@@ -163,11 +163,11 @@
                     <h2>Other sizes (<span></span>)</h2>
                     <div class="padd">
                         <i class="icon-hidden-cart"></i>                       
-                        <i class="icon-point"></i>
                         <i class="icon-ears"></i>
                     </div>
                 </div>
                 <h1>IMAGES</h1>
+                <img src="/images/icons/point.png">
                 <img src="/images/icons/check-plus.png">
                 <img src="/images/icons/quote.png">
                 <img src="/images/icons/marker.png">
@@ -187,9 +187,9 @@
                     <input type="text" placeholder="Marek">
                     <textarea name="text" rows="10" cols="45" placeholder="Nullam nunc quam, aliquet at diam ac, placerat condimentum velit. Praesent sodales vel lacus eget suscipit. Donec scelerisque, mauris porttitor vulputate ornare, ipsum risus tempus metus."></textarea>                
                     <hr>
-                    <label class="label-input clearfix"><i class="icon-label-username"></i><span>Name*</span></label> 
+                    <label><i class="icon-label-username"></i><span>Name*</span></label> 
                     <hr>                    
-                    <span class="select select-large">
+                    <span class="select">
                         <select>
                             <option selected>Great Britain</option>
                             <option>Germany</option>
@@ -199,7 +199,7 @@
                         </select>
                     </span>
                     <hr>
-                    <input type="checkbox" name="checkbox" id="c1" checked="">
+                    <input type="checkbox" name="checkbox" id="c1" checked>
                     <label for="c1"></label>
                     <input type="checkbox" name="checkbox" id="c2">
                     <label for="c2"></label>
@@ -207,6 +207,7 @@
                 <h3>2)Context 1:</h3>
                 <div class="padd">                    
                     <div class="form-set-size clearfix">
+                        <label>Select color:</label>
                         <input type="radio" name="radio" id="r1">
                         <label for="r1">S</label>
                         <input type="radio" name="radio" id="r2" checked>
@@ -216,8 +217,9 @@
                 </div>
                 <h3>3)Context 2:</h3>
                 <div class="padd">                    
-                    <div class="form-set-product">
-                        <span class="select select-middle">
+                    <div class="form-set-quote">
+                        <label>Country<span>*</span></label>
+                        <span class="select">                            
                             <select>
                                 <option selected>--Please Select--</option>
                                 <option>Germany</option>
@@ -226,12 +228,15 @@
                                 <option>France</option>           
                             </select>
                         </span>
+                        <hr>
+                        <input type="text" placeholder="154789">
                     </div>
                     <hr>
                 </div>
                 <h3>4)Context 3:</h3>
                 <div class="padd">                    
                     <div class="form-set-filter">
+                        <label>sort by:</label>
                         <span class="select">
                             <select>
                                 <option selected="">Default</option>
@@ -245,21 +250,30 @@
                     </div>
                     <hr> 
                 </div>
-                <h3>5)Separated:</h3>
+                <h3>5)Context 4:</h3>
+                <div class="padd">                    
+                    <div class="form-set-price-range clearfix">
+                        <label>from</label>
+                        <input type="text">                                           
+                    </div>
+                </div>
+                <h3>6)Separated:</h3>
                 <div class="padd"> 
-                    <input type="text" class="search-input" placeholder="Search here">
+                    <input type="search" class="search-input" placeholder="Search here">
                     <hr>
                     <input type="text" class="newsletter-input" placeholder="Enter your email address">                                           
                     <hr>
                     <input class="subscribe-input" type="checkbox" name="checkbox" id="c3" checked>
                     <label for="c3"></label> 
+                    <input class="subscribe-input" type="checkbox" name="checkbox" id="c4">
+                    <label for="c4"></label>
                     <hr>
                 </div>
                 <h1>BUTTONS</h1>
                 <div class="padd">                
                     <button class="btn btn-largest btn-default">ADD TO CART</button>
-                    <button class="btn btn-large btn-light">CREATE MY ACCOUNT</button>
-                    <button class="btn btn-middle btn-default">LEARN MORE</button>
+                    <a class="btn btn-large btn-light">CREATE MY ACCOUNT</a>
+                    <a class="btn btn-middle btn-default">LEARN MORE</a>
                     <button class="btn btn-mid btn-dark">SUBMIT</button>
                     <button class="btn btn-small btn-default">ADD TO CART</button>
                     <button class="btn btn-xsmall btn-alt"><i class="icon-product-check"></i></button>
@@ -268,80 +282,44 @@
                     <button class="btn-xsmall btn-alt"><i class="icon-search"></i></button>
                     <button class="btn-cart btn-xsmall btn-alt"><i class="icon-quick-access"></i><span>0 item(s) - $0.00</span></button>
                     <button class="btn btn-close"><i class="icon-close"></i></button>
+                    <hr>
+                    <button class="btn btn-small btn-disabled">ADD TO CART</button>
+                    <button class="btn btn-compare">COMPARE</button>
+                    <button class="btn btn-range">OK</button>
                 </div>
                 <h1>TABLES</h1>
                 <div class="padd">               
                     <table class="table-cart">
                         <thead>
                             <tr>
-                                <th>
-                                    PRODUCT NAME
-                                </th>
-                                <th>
-                                    PRODUCT CODE
-                                </th>
-                                <th>
-                                    UNIT PRICE
-                                </th>
-                                <th>
-                                    QUANTITY
-                                </th>
-                                <th>
-                                    SUBTOTAL
-                                </th>
+                                <th>PRODUCT NAME</th>
+                                <th>PRODUCT CODE</th>
+                                <th>UNIT PRICE</th>
+                                <th>QUANTITY</th>
+                                <th>SUBTOTAL</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
@@ -349,38 +327,22 @@
                     <table class="table-total">
                         <tfoot>
                             <tr>
-                                <td>
-                                    TOTAL:
-                                </td>
-                                <td>
-                                    $440.50
-                                </td>
+                                <td>TOTAL:</td>
+                                <td>$440.50</td>
                             </tr>
                         </tfoot>
                         <tbody>
                             <tr>
-                                <td>
-                                    SUBTOTAL:
-                                </td>
-                                <td>
-                                    $434.50
-                                </td>
+                                <td>SUBTOTAL:</td>
+                                <td>$434.50</td>
                             </tr>
                             <tr>
-                                <td>
-                                    SHIPPING:
-                                </td>
-                                <td>
-                                    $6.00
-                                </td>
+                                <td>SHIPPING:</td>
+                                <td>$6.00</td>
                             </tr>
                             <tr>
-                                <td>
-                                    TAX (0%):
-                                </td>
-                                <td>
-                                    $0.00
-                                </td>
+                                <td>TAX (0%):</td>
+                                <td>$0.00</td>
                             </tr>
                         </tbody>
                     </table>            
@@ -388,126 +350,58 @@
                     <table class="table-striped">                      
                         <tbody>
                             <tr>
-                                <td>
-                                    PRODUCT NAME
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td>PRODUCT NAME</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    PRICE
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td>PRICE</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    BRAND
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td>BRAND</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    AVAILABILITY
-                                </td>
-                                <td>
-                                </td>
-                                <td >
-
-                                </td>
-                                <td >
-
-                                </td>
+                                <td>AVAILABILITY</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    RATING
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td>RATING</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    SUMMARY
-                                </td>
-                                <td>
-                                </td>
-                                <td>
-                                </td>
-                                <td>
-                                </td>
+                                <td>SUMMARY</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    WEIGHT
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td>WEIGHT</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-                                    DEMENSIONS
-                                </td>
-                                <td>                                    
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td>DEMENSIONS</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
-                                <td>
-
-                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
@@ -516,85 +410,35 @@
                 <div class="padd">
                     <div class="menu">
                         <ul>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Dresses</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Jeans & Trousers</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Blouses & Shirts</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Tops & T-Shirts</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Jackets & Coats</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Skirts</a>
-                            </li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Jeans & Trousers</a></li>
+                            <li><a href="#">Blouses & Shirts</a></li>
+                            <li><a href="#">Tops & T-Shirts</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Skirts</a></li>
                         </ul>
                     </div>
                     <hr>
                     <div class="footer">
                         <ul>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">My account</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Personal information</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Addresses</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Discount</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Orders history</a>
-                            </li>
-                            <li>
-                                <i class="icon-point"></i>
-                                <a href="#">Your Vouchers</a>
-                            </li>
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Personal information</a></li>
+                            <li><a href="#">Addresses</a></li>
+                            <li><a href="#">Discount</a></li>
+                            <li><a href="#">Orders history</a></li>
+                            <li><a href="#">Your Vouchers</a></li>
                         </ul>
                     </div>
                 </div>
                 <h1>PAGINATIONS</h1>
                 <div class="padd">
                     <ul class="pagination clearfix">
-                        <li class="active">
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#">5</a>
-                        </li>
-                        <li class="next">
-                            <a href="#">
-                                <i class="icon-page-arrow"></i>
-                            </a>
-                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li class="next"><a href="#"><i class="icon-page-arrow"></i></a></li>
                     </ul>
                 </div>
                 <h1>BREADCRUMBS</h1>
@@ -608,23 +452,94 @@
                 </div>
                 <h1>TABS</h1>
                 <div class="padd">
-                    <div class="tabs">
-                        <input type="radio" id="tab1" name="tab-label" checked>
-                        <label for="tab1">DESCRIPTION</label>
-                        <input type="radio" id="tab2" name="tab-label">
-                        <label for="tab2">DETAILS</label>
-                        <input type="radio" id="tab3" name="tab-label">
-                        <label for="tab3">COMMENTS</label>
-                        <input type="radio" id="tab4" name="tab-label">
-                        <label for="tab4">ACCESSORIES</label>
-                        <input type="radio" id="tab5" name="tab-label">
-                        <label for="tab5">VIDEO</label>                        
+                    <div class="tabs home-tabs clearfix">
+                        <input type="radio" id="tab1" name="tab-labelh" checked>
+                        <label for="tab1">ALL</label>
+                        <input type="radio" id="tab2" name="tab-labelh">
+                        <label for="tab2">LATEST</label>
+                        <input type="radio" id="tab3" name="tab-labelh">
+                        <label for="tab3">FEATURED</label>
+                        <input type="radio" id="tab4" name="tab-labelh">
+                        <label for="tab4">BESTSELLERS</label>
+                        <input type="radio" id="tab5" name="tab-labelh">
+                        <label for="tab5">SPECIAL</label> 
+                        <div></div>
                         <div class="tab-pane" id="tabc1">1</div>
                         <div class="tab-pane" id="tabc2">2</div>
                         <div class="tab-pane" id="tabc3">3</div>
                         <div class="tab-pane" id="tabc4">4</div>
                         <div class="tab-pane" id="tabc5">5</div>
                     </div>
+                    <hr>
+                    <div class="tabs">
+                        <input type="radio" id="tab11" name="tab-label">
+                        <label for="tab11">DESCRIPTION</label>
+                        <input type="radio" id="tab12" name="tab-label" checked>
+                        <label for="tab12">DETAILS</label>
+                        <input type="radio" id="tab13" name="tab-label">
+                        <label for="tab13">COMMENTS</label>
+                        <input type="radio" id="tab14" name="tab-label">
+                        <label for="tab14">ACCESSORIES</label>
+                        <input type="radio" id="tab15" name="tab-label">
+                        <label for="tab15">VIDEO</label>                        
+                        <div class="tab-pane" id="tabc11">1</div>
+                        <div class="tab-pane" id="tabc12">2</div>
+                        <div class="tab-pane" id="tabc13">3</div>
+                        <div class="tab-pane" id="tabc14">4</div>
+                        <div class="tab-pane" id="tabc15">5</div>
+                    </div>
+                </div>
+                <h1>CITES</h1>
+                <div class="padd">
+                    <blockquote>
+                        Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti. Phasellus interdum risus at mi ullamcorper lobortis. In et metus aliquet, suscipit leo.
+                    </blockquote>
+                    <div class="slider">
+                        <blockquote>
+                            Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti.
+                        </blockquote> 
+                    </div>
+                </div>
+                <hr>
+                <h1>DEFAULTS</h1>
+                <div class="padd">
+                    <h1 class="hdr">Our Products</h1> 
+                    <h2 class="hdr">SPECIAL OFFER -25%</h2> 
+                    <h3 class="hdr">BE&nbsp;THE&nbsp;FIRST&nbsp;TO&nbsp;KNOW</h3> 
+                    <h4 class="hdr">TESTIMONIALS</h4> 
+                    <h5 class="hdr">INFORMATION</h5>
+                    <hr>
+                    <div class="alt-bg">
+                        <p>Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and other.Based on Bootstrap`s 12 column 1200px responsive grid Template. Great looks on desktops, tablets and mobiles.     Sed interdum magna sit amet orci tristique blandit. Etiam id justo consequat quam viverra elementum. Sed ac magna sed massarhoncus elementum et ac augue. Morbi non tellus nisi. Pellentesque habitant morbi tristique senectus. Buy Venedor Theme!</p>                
+                    </div>
+                </div>
+                <hr>
+                <h1>MESSAGES</h1>
+                <div class="padd">
+                    <h2>none</h2>
+                </div>
+                <hr>
+                <h1>LABELS</h1>
+                <div class="padd">
+                    <span class="label">
+                        <span>$1450</span>
+                    </span>
+                    <hr>
+                    <div class="elastislide">                       
+                        <span class="label">
+                           <span>$378</span>
+                       </span>
+                    </div>
+                    <hr>
+                    <div class="thumbnail">
+                       <span class="label">
+                           <span class="old-price">$870</span>
+                           <span>$710</span>
+                       </span>
+                        <span class="label disable-label">
+                           <span>$378</span>
+                       </span>
+                    </div>                    
                 </div>
             </div>
             <script src="/js/jquery/jquery-2.1.1.min.js"></script>
