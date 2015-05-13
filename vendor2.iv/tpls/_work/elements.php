@@ -196,6 +196,7 @@
                 <h3>1)Defaults:</h3>
                 <div class="padd clearfix">
                     <input type="text" placeholder="Marek">
+                    <hr>
                     <textarea name="text" rows="10" cols="45" placeholder="Nullam nunc quam, aliquet at diam ac, placerat condimentum velit. Praesent sodales vel lacus eget suscipit. Donec scelerisque, mauris porttitor vulputate ornare, ipsum risus tempus metus."></textarea>                
                     <hr>
                     <label><i class="icon-label-username"></i><span>Name*</span></label> 
