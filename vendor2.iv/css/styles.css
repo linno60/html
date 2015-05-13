@@ -812,14 +812,30 @@ p{
 }
 .thumbnail .label{
     width: 90px;
-height: 90px;
-font-size: 18px;
+    height: 90px;
+    font-size: 18px;
 }
 .disable-label{
     background-color: #c3c7c5;
 }
 .elastislide .label{
     width: 135px;
-height: 135px;
-font-size: 27px;
+    height: 135px;
+    font-size: 27px;
+}
+.label-sm{
+    width: 60px;
+    height: 35px;
+    color: #fff;
+    font-family: "Oswald";
+    font-size: 16px;
+    display: block;
+    line-height:35px;
+    text-align: center;
+}
+.label-discount{
+    background-color: #c72828; 
+}
+.label-new{
+    background-color: #7bad23;
 }

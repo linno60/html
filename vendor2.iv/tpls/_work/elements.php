@@ -61,10 +61,21 @@
                     text-align: center;
                     text-transform: uppercase;
                 }
+                .author-label.artur-label{
+                    top:230px;
+                    padding:0px;
+                    left: -48px;
+                    background-color: #15ad00;
+                }
+                .author-label.artur-label a{
+                    color:#fff;
+                    font: 500 13px "Arial";
+                }
             </style>
         </head>
         <body>
             <div class="author-label">Ivan</div>
+            <div class="author-label artur-label"><div><a href="/artur.eug">Artur</a></div></div>
             <div class="elements clearfix">
                 <h1>ICONS</h1>
                 <div class="padd elements-icons">               
@@ -539,7 +550,12 @@
                         <span class="label disable-label">
                            <span>$378</span>
                        </span>
-                    </div>                    
+                    </div>
+                    <hr>
+                    <span class="label-sm label-new">NEW</span>
+                    <hr>
+                    <span class="label-sm label-discount">-30%</span>
+                    <hr>
                 </div>
             </div>
             <script src="/js/jquery/jquery-2.1.1.min.js"></script>
