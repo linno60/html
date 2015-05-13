@@ -21,23 +21,25 @@
                 .padd{
                     padding-left:30px;
                 }
-                h1{
+                .hdr-elements{
                     color:#fff;
+                    font-family:"Arial";
+                    font-weight:600;
+                }
+                h1.hdr-elements{                    
                     font-size:24px;
                     padding-top:20px;
                     padding-bottom:20px;
                     border-bottom: 1px solid white;
                     margin-bottom: 20px;
                 }
-                h2{
+                h2.hdr-elements{
                     font-size: 20px;
-                    color: white;
                     margin: 15px 0px;
                 }
-                h3 {
+                h3.hdr-elements {
                     display: inline-block;
                     font-size: 16px;
-                    color: white;
                     margin: 15px 10px 15px 0;
                     width: 100px;
                     text-align: right;
@@ -75,13 +77,13 @@
         </head>
         <body>
             <div class="author-label">Ivan</div>
-            <div class="author-label artur-label"><div><a href="/artur.eug">Artur</a></div></div>
+            <div class="author-label artur-label"><div><a href="/artur.eug/elements">Artur</a></div></div>
             <div class="elements clearfix">
-                <h1>ICONS</h1>
+                <h1 class="hdr-elements">ICONS</h1>
                 <div class="padd elements-icons">               
-                    <h2>12x12 (<span></span>)</h2>               
+                    <h2 class="hdr-elements">12x12 (<span></span>)</h2>               
                     <div class="padd">
-                        <h3>normal:</h3>
+                        <h3 class="hdr-elements">normal:</h3>
                         <div class="alt-bg">
                             <i class="icon-accarrow-down"></i>
                             <i class="icon-accarrow-up"></i>                
@@ -91,7 +93,7 @@
                             <i class="icon-close"></i>                        
                         </div>
                         <br>
-                        <h3>hover:</h3>
+                        <h3 class="hdr-elements">hover:</h3>
                         <img src="/images/icons/12x12/accarrow-down-hover.png">
                         <img src="/images/icons/12x12/accarrow-up-hover.png">
                         <img src="/images/icons/12x12/page-arrow-hover.png">
@@ -99,9 +101,9 @@
                         <img src="/images/icons/12x12/slidearrow-right-large-hover.png">
                         <img src="/images/icons/12x12/close-hover.png">
                     </div>
-                    <h2>16x16 (<span></span>)</h2>
+                    <h2 class="hdr-elements">16x16 (<span></span>)</h2>
                     <div class="padd">
-                        <h3>normal:</h3>
+                        <h3 class="hdr-elements">normal:</h3>
                         <div class="alt-bg">
                             <i class="icon-topbar-compose"></i>
                             <i class="icon-topbar-user"></i>
@@ -119,7 +121,7 @@
                         <i class="icon-grid"></i>
                         <i class="icon-list"></i>
                         <br>
-                        <h3>hover:</h3>
+                        <h3 class="hdr-elements">hover:</h3>
                         <img src="/images/icons/16x16/topbar-compose-hover.png">
                         <img src="/images/icons/16x16/topbar-user-hover.png">
                         <img src="/images/icons/16x16/topbar-cart-hover.png">
@@ -127,7 +129,7 @@
                         <img src="/images/icons/16x16/grid-hover.png">
                         <img src="/images/icons/16x16/list-hover.png">
                     </div>
-                    <h2>20x20 (<span></span>)</h2>
+                    <h2 class="hdr-elements">20x20 (<span></span>)</h2>
                     <div class="padd">
                         <i class="icon-product-check"></i>
                         <i class="icon-product-like"></i>
@@ -153,7 +155,7 @@
                         <i class="icon-social-twitter"></i>
                         <i class="icon-world"></i>
                     </div>
-                    <h2>24x24 (<span></span>)</h2>
+                    <h2 class="hdr-elements">24x24 (<span></span>)</h2>
                     <div class="padd">
                         <i class="icon-label-address"></i>
                         <i class="icon-label-attach"></i>
@@ -171,13 +173,13 @@
                         <i class="icon-label-username"></i>
                         <i class="icon-hidden-menu"></i>
                     </div>
-                    <h2>Other sizes (<span></span>)</h2>
+                    <h2 class="hdr-elements">Other sizes (<span></span>)</h2>
                     <div class="padd">
                         <i class="icon-hidden-cart"></i>                       
                         <i class="icon-ears"></i>
                     </div>
                 </div>
-                <h1>IMAGES</h1>
+                <h1 class="hdr-elements">IMAGES</h1>
                 <img src="/images/icons/point.png">
                 <img src="/images/icons/check-plus.png">
                 <img src="/images/icons/quote.png">
@@ -192,8 +194,8 @@
                 <img src="/images/rating2.png">
                 <img src="/images/rating3.png">
                 <img src="/images/rating4.png">
-                <h1>FORM ELEMENTS</h1>
-                <h3>1)Defaults:</h3>
+                <h1 class="hdr-elements">FORM ELEMENTS</h1>
+                <h3 class="hdr-elements">1)Defaults:</h3>
                 <div class="padd clearfix">
                     <input type="text" placeholder="Marek">
                     <hr>
@@ -212,11 +214,11 @@
                     </span>
                     <hr>
                     <input type="checkbox" name="checkbox" id="c1" checked>
-                    <label for="c1"></label>
+                    <label for="c1">Checkout as Guest</label>
                     <input type="checkbox" name="checkbox" id="c2">
-                    <label for="c2"></label>
+                    <label for="c2">Register</label>
                 </div>  
-                <h3>2)Context 1:</h3>
+                <h3 class="hdr-elements">2)Context 1:</h3>
                 <div class="padd">                    
                     <div class="form-set-size clearfix">
                         <label>Select color:</label>
@@ -227,7 +229,7 @@
                     </div>
                     <hr>
                 </div>
-                <h3>3)Context 2:</h3>
+                <h3 class="hdr-elements">3)Context 2:</h3>
                 <div class="padd">                    
                     <div class="form-set-quote">
                         <label>Country<span>*</span></label>
@@ -245,7 +247,7 @@
                     </div>
                     <hr>
                 </div>
-                <h3>4)Context 3:</h3>
+                <h3 class="hdr-elements">4)Context 3:</h3>
                 <div class="padd">                    
                     <div class="form-set-filter">
                         <label>sort by:</label>
@@ -262,26 +264,26 @@
                     </div>
                     <hr> 
                 </div>
-                <h3>5)Context 4:</h3>
+                <h3 class="hdr-elements">5)Context 4:</h3>
                 <div class="padd">                    
                     <div class="form-set-price-range clearfix">
                         <label>from</label>
                         <input type="text">                                           
                     </div>
                 </div>
-                <h3>6)Separated:</h3>
+                <h3 class="hdr-elements">6)Separated:</h3>
                 <div class="padd"> 
                     <input type="search" class="search-input" placeholder="Search here">
                     <hr>
                     <input type="text" class="newsletter-input" placeholder="Enter your email address">                                           
                     <hr>
                     <input class="subscribe-input" type="checkbox" name="checkbox" id="c3" checked>
-                    <label for="c3"></label> 
+                    <label for="c3">I wish to subscribe to the Venedor newsletter</label> 
                     <input class="subscribe-input" type="checkbox" name="checkbox" id="c4">
-                    <label for="c4"></label>
+                    <label for="c4">I wish to subscribe to the Venedor newsletter</label>
                     <hr>
                 </div>
-                <h1>BUTTONS</h1>
+                <h1 class="hdr-elements">BUTTONS</h1>
                 <div class="padd">                
                     <button class="btn btn-largest btn-default">ADD TO CART</button>
                     <a class="btn btn-large btn-light">CREATE MY ACCOUNT</a>
@@ -299,7 +301,7 @@
                     <button class="btn btn-compare">COMPARE</button>
                     <button class="btn btn-range">OK</button>
                 </div>
-                <h1>TABLES</h1>
+                <h1 class="hdr-elements">TABLES</h1>
                 <div class="padd">               
                     <table class="table-cart">
                         <thead>
@@ -418,7 +420,7 @@
                         </tbody>
                     </table>
                 </div>
-                <h1>LISTS</h1>
+                <h1 class="hdr-elements">LISTS</h1>
                 <div class="padd">
                     <div class="menu">
                         <ul>
@@ -442,7 +444,7 @@
                         </ul>
                     </div>
                 </div>
-                <h1>PAGINATIONS</h1>
+                <h1 class="hdr-elements">PAGINATIONS</h1>
                 <div class="padd">
                     <ul class="pagination clearfix">
                         <li class="active"><a href="#">1</a></li>
@@ -453,7 +455,7 @@
                         <li class="next"><a href="#"><i class="icon-page-arrow"></i></a></li>
                     </ul>
                 </div>
-                <h1>BREADCRUMBS</h1>
+                <h1 class="hdr-elements">BREADCRUMBS</h1>
                 <div class="padd">
                     <ul class="breadcrumb clearfix">
                         <li><a href="#">Home</a></li>
@@ -462,7 +464,7 @@
                         <li><span>></span>Samsung Galaxy Ace</li>
                     </ul>
                 </div>
-                <h1>TABS</h1>
+                <h1 class="hdr-elements">TABS</h1>
                 <div class="padd">
                     <div class="tabs home-tabs clearfix">
                         <input type="radio" id="tab1" name="tab-labelh" checked>
@@ -474,7 +476,7 @@
                         <input type="radio" id="tab4" name="tab-labelh">
                         <label for="tab4">BESTSELLERS</label>
                         <input type="radio" id="tab5" name="tab-labelh">
-                        <label for="tab5">SPECIAL</label> 
+                        <label for="tab5">SPECIAL</label>                         
                         <div></div>
                         <div class="tab-pane" id="tabc1">1</div>
                         <div class="tab-pane" id="tabc2">2</div>
@@ -493,7 +495,7 @@
                         <input type="radio" id="tab14" name="tab-label">
                         <label for="tab14">ACCESSORIES</label>
                         <input type="radio" id="tab15" name="tab-label">
-                        <label for="tab15">VIDEO</label>                        
+                        <label for="tab15">VIDEO</label>  
                         <div class="tab-pane" id="tabc11">1</div>
                         <div class="tab-pane" id="tabc12">2</div>
                         <div class="tab-pane" id="tabc13">3</div>
@@ -501,7 +503,7 @@
                         <div class="tab-pane" id="tabc15">5</div>
                     </div>
                 </div>
-                <h1>CITES</h1>
+                <h1 class="hdr-elements">CITES</h1>
                 <div class="padd">
                     <blockquote>
                         Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti. Phasellus interdum risus at mi ullamcorper lobortis. In et metus aliquet, suscipit leo.
@@ -513,25 +515,37 @@
                     </div>
                 </div>
                 <hr>
-                <h1>DEFAULTS</h1>
+                <h1 class="hdr-elements">DEFAULTS</h1>
                 <div class="padd">
-                    <h1 class="hdr">Our Products</h1> 
-                    <h2 class="hdr">SPECIAL OFFER -25%</h2> 
-                    <h3 class="hdr">BE&nbsp;THE&nbsp;FIRST&nbsp;TO&nbsp;KNOW</h3> 
-                    <h4 class="hdr">TESTIMONIALS</h4> 
-                    <h5 class="hdr">INFORMATION</h5>
+                    <h1>Our Products</h1> 
+                    <h2>SPECIAL OFFER -25%</h2> 
+                    <h3>BE&nbsp;THE&nbsp;FIRST&nbsp;TO&nbsp;KNOW</h3> 
+                    <h4>TESTIMONIALS</h4> 
+                    <h5>INFORMATION</h5>
                     <hr>
                     <div class="alt-bg">
                         <p>Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and other.Based on Bootstrap`s 12 column 1200px responsive grid Template. Great looks on desktops, tablets and mobiles.     Sed interdum magna sit amet orci tristique blandit. Etiam id justo consequat quam viverra elementum. Sed ac magna sed massarhoncus elementum et ac augue. Morbi non tellus nisi. Pellentesque habitant morbi tristique senectus. Buy Venedor Theme!</p>                
                     </div>
+                    <hr>
+                    <a href="#">login</a>
+                    <hr>
+                    <div class="blog">
+                        <a href="#">By admin</a>
+                    </div>                    
+                    <hr>
+                    <a href="#" class="name">Anna Retallick</a>
+                    <hr>
+                    <a href="#" class="read">Read More</a>
+                    <hr>
+                    <a href="#" class="privacy">Privacy Policy</a>
                 </div>
                 <hr>
-                <h1>MESSAGES</h1>
+                <h1 class="hdr-elements">MESSAGES</h1>
                 <div class="padd">
-                    <h2>none</h2>
+                    <h2 class="hdr-elements">none</h2>
                 </div>
                 <hr>
-                <h1>LABELS</h1>
+                <h1 class="hdr-elements">LABELS</h1>
                 <div class="padd">
                     <span class="label">
                         <span>$1450</span>
@@ -545,7 +559,7 @@
                     <hr>
                     <div class="thumbnail">
                        <span class="label">
-                           <span class="old-price">$870</span>
+                           <strong>$870</strong>
                            <span>$710</span>
                        </span>
                         <span class="label disable-label">
@@ -556,6 +570,10 @@
                     <span class="label-sm label-new">NEW</span>
                     <hr>
                     <span class="label-sm label-discount">-30%</span>
+                    <hr>
+                    <div class="label-contact"><i class="icon-contact-phone"></i></div>
+                    <hr>
+                    <div class="label-date">15 <strong>AUG</strong></div>
                     <hr>
                 </div>
             </div>

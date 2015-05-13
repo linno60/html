@@ -21,7 +21,7 @@
         <h1>Items</h1><hr>
         <ul>
             <li><a href="/elements" target="_blank">Elements</a></li>
-            <li>Plugins</li>
+            <li><a href="/plugins" target="_blank">Plugins</a></li>
             <li>Repeating</li>
             <li>Includes</li>
         </ul>
