@@ -73,13 +73,13 @@
             <div class="author-label">Ivan</div>
             <div class="author-label artur-label"><div><a href="http://artur.eug/elements">Artur</a></div></div>
             <div class="elements clearfix">
-                <input type="radio" name="main" id="mainl1" checked>
+                <input type="radio" name="main" id="mainl1">
                 <label class="label-main" for="mainl1">ICONS</label>                        
                 <input type="radio" name="main" id="mainl2">
                 <label class="label-main" for="mainl2">IMAGES</label>
                 <input type="radio" name="main" id="mainl3">
                 <label class="label-main" for="mainl3">FORM ELEMENTS</label>
-                <input type="radio" name="main" id="mainl4">
+                <input type="radio" name="main" id="mainl4" checked>
                 <label class="label-main" for="mainl4">BUTTONS</label>
                 <input type="radio" name="main" id="mainl5">
                 <label class="label-main" for="mainl5">TABLES</label>
@@ -315,23 +315,23 @@
                         <hr>
                     </div>
                 </div>
-                <div class="tab-content" id="maint4">
+                <div class="tab-content" id="maint4">                    
                     <div class="padd">                
-                        <button class="btn btn-largest btn-default">ADD TO CART</button>
-                        <a class="btn btn-large btn-light">CREATE MY ACCOUNT</a>
-                        <a class="btn btn-middle btn-default">LEARN MORE</a>
-                        <button class="btn btn-mid btn-dark">SUBMIT</button>
-                        <button class="btn btn-small btn-default">ADD TO CART</button>
-                        <button class="btn btn-xsmall btn-alt"><i class="icon-product-check"></i></button>
-                        <button class="btn btn-xsmall btn-medium"><i class="icon-social-facebook"></i></button>
-                        <button class="btn btn-xxsmall btn-medium"><i class="icon-world"></i></button>
-                        <button class="btn-xsmall btn-alt"><i class="icon-search"></i></button>
-                        <button class="btn-cart btn-xsmall btn-alt"><i class="icon-quick-access"></i><span>0 item(s) - $0.00</span></button>
-                        <button class="btn btn-close"><i class="icon-close"></i></button>
+                        <button><strong class="btn btn-addlg"><span>ADD TO CART</span></strong></button>
+                        <a href="#" class="btn btn-account"><span>CREATE MY ACCOUNT</span></a>
+                        <a href="#" class="btn btn-more"><span>LEARN MORE</span></a>
+                        <button><strong class="btn btn-submit"><span>SUBMIT</span></strong></button>
+                        <button><strong class="btn btn-add"><span>ADD TO CART</span></strong></button>
+                        <button><strong class="btn btn-check"></strong></button>
+                        <button><strong class="btn btn-footerfacebook"></strong></button>
+                        <button><strong class="btn btn-postfacebook"></strong></button>
+                        <button><strong class="btn btn-search"></strong></button>
+                        <button><strong class="btn btn-cart"><span>0 item(s) - $0.00</span></strong></button>
+                        <button><strong class="btn btn-close"></strong></button>
                         <hr>
-                        <button class="btn btn-small btn-disabled">ADD TO CART</button>
-                        <button class="btn btn-compare">COMPARE</button>
-                        <button class="btn btn-range">OK</button>
+                        <button><strong class="btn btn-disabled"><span>ADD TO CART</span></strong></button>
+                        <button><strong class="btn btn-compare"><span>COMPARE</span></strong></button>
+                        <button><strong class="btn btn-range"><span>OK</span></strong></button>
                     </div>
                 </div>
                 <div class="tab-content" id="maint5">
@@ -514,7 +514,6 @@
                             <label for="tab4">BESTSELLERS</label>
                             <input type="radio" id="tab5" name="tab-labelh">
                             <label for="tab5">SPECIAL</label>                         
-                            <div></div>
                             <div class="tab-pane" id="tabc1">1</div>
                             <div class="tab-pane" id="tabc2">2</div>
                             <div class="tab-pane" id="tabc3">3</div>
@@ -615,9 +614,6 @@
                         <hr>
                     </div>
                 </div>
-
-
-
             </div>
             <script src="/js/jquery/jquery-2.1.1.min.js"></script>
             <script>
