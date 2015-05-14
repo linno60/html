@@ -79,7 +79,7 @@
         </head>
         <body>
             <div class="author-label">Ivan</div>
-            <div class="author-label artur-label"><div><a href="/artur.eug/elements">Artur</a></div></div>
+            <div class="author-label artur-label"><div><a href="http://artur.eug/plugins">Artur</a></div></div>
             <div class="elements">
                 <h1 class="hdr-elements">SEQUENCE</h1>
             </div>                
