@@ -64,8 +64,9 @@
                     background-color:lightgray;
                 }
                 .author-label.artur-label a{
+                    display:block;
                     color:#555;
-                    font: 500 13px "Arial";
+                    font: 500 13px/22px "Arial";
                 }
             </style>
         </head>
@@ -73,13 +74,13 @@
             <div class="author-label">Ivan</div>
             <div class="author-label artur-label"><div><a href="http://artur.eug/elements">Artur</a></div></div>
             <div class="elements clearfix">
-                <input type="radio" name="main" id="mainl1">
+                <input type="radio" name="main" id="mainl1" checked>
                 <label class="label-main" for="mainl1">ICONS</label>                        
                 <input type="radio" name="main" id="mainl2">
                 <label class="label-main" for="mainl2">IMAGES</label>
                 <input type="radio" name="main" id="mainl3">
                 <label class="label-main" for="mainl3">FORM ELEMENTS</label>
-                <input type="radio" name="main" id="mainl4" checked>
+                <input type="radio" name="main" id="mainl4">
                 <label class="label-main" for="mainl4">BUTTONS</label>
                 <input type="radio" name="main" id="mainl5">
                 <label class="label-main" for="mainl5">TABLES</label>
@@ -109,8 +110,7 @@
                                 <i class="icon-accarrow-up"></i>                
                                 <i class="icon-page-arrow"></i>
                                 <i class="icon-slidearrow-left-large"></i>
-                                <i class="icon-slidearrow-right-large"></i>
-                                <i class="icon-close"></i>                        
+                                <i class="icon-slidearrow-right-large"></i>                       
                             </div>
                             <br>
                             <h3 class="hdr-elements">hover:</h3>
@@ -118,8 +118,7 @@
                             <img src="/images/icons/12x12/accarrow-up-hover.png">
                             <img src="/images/icons/12x12/page-arrow-hover.png">
                             <img src="/images/icons/12x12/slidearrow-left-large-hover.png">
-                            <img src="/images/icons/12x12/slidearrow-right-large-hover.png">
-                            <img src="/images/icons/12x12/close-hover.png">
+                            <img src="/images/icons/12x12/slidearrow-right-large-hover.png">                            
                         </div>
                         <h2 class="hdr-elements">16x16 (<span></span>)</h2>
                         <div class="padd">
@@ -138,21 +137,15 @@
                             <i class="icon-flag-sp"></i>
                             <i class="icon-menu-minus"></i>
                             <i class="icon-menu-plus"></i>
-                            <i class="icon-grid"></i>
-                            <i class="icon-list"></i>
                             <br>
                             <h3 class="hdr-elements">hover:</h3>
                             <img src="/images/icons/16x16/topbar-compose-hover.png">
                             <img src="/images/icons/16x16/topbar-user-hover.png">
                             <img src="/images/icons/16x16/topbar-cart-hover.png">
                             <img src="/images/icons/16x16/topbar-check-hover.png">
-                            <img src="/images/icons/16x16/grid-hover.png">
-                            <img src="/images/icons/16x16/list-hover.png">
                         </div>
                         <h2 class="hdr-elements">20x20 (<span></span>)</h2>
-                        <div class="padd">
-                            <i class="icon-product-check"></i>
-                            <i class="icon-product-like"></i>
+                        <div class="padd">                            
                             <i class="icon-support-mail"></i>
                             <i class="icon-support-skype"></i>
                             <i class="icon-blog-cloud"></i>
@@ -163,17 +156,7 @@
                             <i class="icon-contact-mail"></i>
                             <i class="icon-contact-mobile"></i>
                             <i class="icon-contact-phone"></i>
-                            <i class="icon-contact-skype"></i>
-                            <i class="icon-search"></i>
-                            <i class="icon-social-delicious"></i>
-                            <i class="icon-social-facebook"></i>
-                            <i class="icon-social-flickr"></i>
-                            <i class="icon-social-linkedin"></i>
-                            <i class="icon-social-mail"></i>
-                            <i class="icon-social-rss"></i>
-                            <i class="icon-social-skype"></i>
-                            <i class="icon-social-twitter"></i>
-                            <i class="icon-world"></i>
+                            <i class="icon-contact-skype"></i>                            
                         </div>
                         <h2 class="hdr-elements">24x24 (<span></span>)</h2>
                         <div class="padd">
@@ -190,17 +173,14 @@
                             <i class="icon-label-post"></i>
                             <i class="icon-label-region"></i>
                             <i class="icon-label-subject"></i>
-                            <i class="icon-label-username"></i>
-                            <i class="icon-hidden-menu"></i>
+                            <i class="icon-label-username"></i> 
                         </div>
                         <h2 class="hdr-elements">Other sizes (<span></span>)</h2>
-                        <div class="padd">
-                            <i class="icon-hidden-cart"></i>                       
+                        <div class="padd">                                                  
                             <i class="icon-ears"></i>
                         </div>
                     </div>
                 </div>
-
                 <div class="tab-content" id="maint2">
                     <img src="/images/icons/point.png">
                     <img src="/images/icons/check-plus.png">
@@ -216,6 +196,29 @@
                     <img src="/images/rating2.png">
                     <img src="/images/rating3.png">
                     <img src="/images/rating4.png">
+                    <img src="/images/icons/12x12/close.png">
+                    <img src="/images/icons/12x12/close-hover.png">
+                    <img src="/images/icons/20x20/product-check.png">
+                    <img src="/images/icons/20x20/product-like.png">
+                    <img src="/images/icons/20x20/search.png">
+                    <img src="/images/icons/20x20/social-delicious.png">
+                    <img src="/images/icons/20x20/social-facebook.png">
+                    <img src="/images/icons/20x20/social-flickr.png">
+                    <img src="/images/icons/20x20/social-linkedin.png">
+                    <img src="/images/icons/20x20/social-mail.png">
+                    <img src="/images/icons/20x20/social-rss.png">
+                    <img src="/images/icons/20x20/social-skype.png">
+                    <img src="/images/icons/20x20/social-twitter.png">
+                    <img src="/images/icons/20x20/post-facebook.png">
+                    <img src="/images/icons/20x20/post-twitter.png">
+                    <img src="/images/icons/20x20/post-rss.png">
+                    <img src="/images/icons/20x20/post-mail.png">
+                    <img src="/images/icons/24x24/hidden-cart.png">
+                    <img src="/images/icons/24x24/hidden-menu.png">
+                    <img src="/images/icons/16x16/list.png">
+                    <img src="/images/icons/16x16/grid.png">
+                    <img src="/images/icons/16x16/list-hover.png">
+                    <img src="/images/icons/16x16/grid-hover.png">
                 </div>
 
                 <div class="tab-content" id="maint3">
@@ -317,21 +320,38 @@
                 </div>
                 <div class="tab-content" id="maint4">                    
                     <div class="padd">                
-                        <button><strong class="btn btn-addlg"><span>ADD TO CART</span></strong></button>
+                        <button><strong class="btn btn-add-lg"><span>ADD TO CART</span></strong></button>
                         <a href="#" class="btn btn-account"><span>CREATE MY ACCOUNT</span></a>
                         <a href="#" class="btn btn-more"><span>LEARN MORE</span></a>
                         <button><strong class="btn btn-submit"><span>SUBMIT</span></strong></button>
                         <button><strong class="btn btn-add"><span>ADD TO CART</span></strong></button>
-                        <button><strong class="btn btn-check"></strong></button>
-                        <button><strong class="btn btn-footerfacebook"></strong></button>
-                        <button><strong class="btn btn-postfacebook"></strong></button>
-                        <button><strong class="btn btn-search"></strong></button>
-                        <button><strong class="btn btn-cart"><span>0 item(s) - $0.00</span></strong></button>
-                        <button><strong class="btn btn-close"></strong></button>
-                        <hr>
                         <button><strong class="btn btn-disabled"><span>ADD TO CART</span></strong></button>
                         <button><strong class="btn btn-compare"><span>COMPARE</span></strong></button>
-                        <button><strong class="btn btn-range"><span>OK</span></strong></button>
+                        <button><strong class="btn btn-range"><span>OK</span></strong></button>                        
+                        <hr>
+                        <button><strong class="btn btn-check"></strong></button>
+                        <button><strong class="btn btn-like"></strong></button>
+                        <button><strong class="btn btn-hidden-add"></strong></button>
+                        <button><strong class="btn btn-hidden-menu"></strong></button>
+                        <button><strong class="btn btn-search"></strong></button>
+                        <button><strong class="btn btn-cart"><span>0 item(s) - $0.00</span></strong></button>
+                        <button><strong class="btn btn-close"></strong></button>  
+                        <button><strong class="btn btn-grid"></strong></button>
+                        <button><strong class="btn btn-list"></strong></button>
+                        <hr>
+                        <button><strong class="btn btn-social btn-facebook"></strong></button>
+                        <button><strong class="btn btn-social btn-twitter"></strong></button>
+                        <button><strong class="btn btn-social btn-rss"></strong></button>
+                        <button><strong class="btn btn-social btn-delicious"></strong></button>
+                        <button><strong class="btn btn-social btn-linkedin"></strong></button>
+                        <button><strong class="btn btn-social btn-flickr"></strong></button>
+                        <button><strong class="btn btn-social btn-skype"></strong></button>
+                        <button><strong class="btn btn-social btn-mail"></strong></button>
+                        <hr>
+                        <button><strong class="btn btn-post btn-facebook"></strong></button>
+                        <button><strong class="btn btn-post btn-twitter"></strong></button>
+                        <button><strong class="btn btn-post btn-rss"></strong></button>
+                        <button><strong class="btn btn-post btn-mail"></strong></button>
                     </div>
                 </div>
                 <div class="tab-content" id="maint5">
@@ -584,33 +604,37 @@
                 </div>
                 <div class="tab-content" id="maint13">
                     <div class="padd">
-                        <span class="label">
+                        <span class="lbl lbl-circle">
                             <span>$1450</span>
                         </span>
                         <hr>
                         <div class="elastislide">                       
-                            <span class="label">
+                            <span class="lbl lbl-circle">
                                 <span>$378</span>
                             </span>
                         </div>
                         <hr>
                         <div class="thumbnail">
-                            <span class="label">
-                                <strong>$870</strong>
-                                <span>$710</span>
+                            <span class="lbl lbl-circle">
+                                <span>
+                                    <dl>
+                                        <dt>$870</dt>
+                                        <dd>$710</dd>
+                                    </dl>
+                                </span>
                             </span>
-                            <span class="label disable-label">
+                            <span class="lbl lbl-circle lbl-disable">
                                 <span>$378</span>
                             </span>
                         </div>
                         <hr>
-                        <span class="label-sm label-new">NEW</span>
+                        <span class="lbl lbl-sm lbl-new">NEW</span>
                         <hr>
-                        <span class="label-sm label-discount">-30%</span>
+                        <span class="lbl lbl-sm lbl-discount">-30%</span>
                         <hr>
-                        <div class="label-contact"><i class="icon-contact-phone"></i></div>
+                        <div class="lbl lbl-contact"><i class="icon-contact-phone"></i></div>
                         <hr>
-                        <div class="label-date">15 <strong>AUG</strong></div>
+                        <div class="lbl lbl-date">15 <strong>AUG</strong></div>
                         <hr>
                     </div>
                 </div>

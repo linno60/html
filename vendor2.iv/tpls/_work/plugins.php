@@ -53,7 +53,7 @@
                 .author-label {
                     position: fixed;
                     top: 100px;
-                    left: -44px;
+                    left: -43px;
                     transform: rotate(-90deg);
                     font: 600 20px "Arial";
                     color: #FFF;
@@ -63,17 +63,17 @@
                     width: 120px;
                     text-align: center;
                     text-transform: uppercase;
-                    z-index:4;
                 }
                 .author-label.artur-label{
                     top:230px;
                     padding:0px;
                     left: -48px;
-                    background-color: #15ad00;
+                    background-color:lightgray;
                 }
                 .author-label.artur-label a{
-                    color:#fff;
-                    font: 500 13px "Arial";
+                    display:block;
+                    color:#555;
+                    font: 500 13px/22px "Arial";
                 }
             </style>
         </head>
