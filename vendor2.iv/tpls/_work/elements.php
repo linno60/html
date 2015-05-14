@@ -26,10 +26,6 @@
                     font-family:"Arial";
                     font-weight:600;
                 }
-                h1.hdr-elements{                    
-                    font-size:24px;
-                    margin-bottom: 20px;
-                }
                 h2.hdr-elements{
                     font-size: 20px;
                     margin: 15px 0px;
@@ -77,57 +73,31 @@
             <div class="author-label artur-label"><div><a href="http://artur.eug/elements">Artur</a></div></div>
             <div class="elements clearfix">
                 <input type="radio" name="main" id="mainl1" checked>
-                <label class="label-main" for="mainl1">
-                    <h1 class="hdr-elements">ICONS</h1>
-                </label>                        
+                <label class="label-main" for="mainl1">ICONS</label>                        
                 <input type="radio" name="main" id="mainl2">
-                <label class="label-main" for="mainl2">
-                    <h1 class="hdr-elements">IMAGES</h1>
-                </label>
+                <label class="label-main" for="mainl2">IMAGES</label>
                 <input type="radio" name="main" id="mainl3">
-                <label class="label-main" for="mainl3">
-                    <h1 class="hdr-elements">FORM ELEMENTS</h1>
-                </label>
+                <label class="label-main" for="mainl3">FORM ELEMENTS</label>
                 <input type="radio" name="main" id="mainl4">
-                <label class="label-main" for="mainl4">
-                    <h1 class="hdr-elements">BUTTONS</h1>
-                </label>
+                <label class="label-main" for="mainl4">BUTTONS</label>
                 <input type="radio" name="main" id="mainl5">
-                <label class="label-main" for="mainl5">
-                    <h1 class="hdr-elements">TABLES</h1>
-                </label>
+                <label class="label-main" for="mainl5">TABLES</label>
                 <input type="radio" name="main" id="mainl6">
-                <label class="label-main" for="mainl6">
-                    <h1 class="hdr-elements">LISTS</h1>
-                </label>
+                <label class="label-main" for="mainl6">LISTS</label>
                 <input type="radio" name="main" id="mainl7">
-                <label class="label-main" for="mainl7">
-                    <h1 class="hdr-elements">PAGINATIONS</h1>
-                </label>
+                <label class="label-main" for="mainl7">PAGINATIONS</label>
                 <input type="radio" name="main" id="mainl8">
-                <label class="label-main" for="mainl8">
-                    <h1 class="hdr-elements">BREADCRUMBS</h1>
-                </label>
+                <label class="label-main" for="mainl8">BREADCRUMBS</label>
                 <input type="radio" name="main" id="mainl9">
-                <label class="label-main" for="mainl9">
-                    <h1 class="hdr-elements">TABS</h1>
-                </label>
+                <label class="label-main" for="mainl9">TABS</label>
                 <input type="radio" name="main" id="mainl10">
-                <label class="label-main" for="mainl10">
-                    <h1 class="hdr-elements">CITES</h1>
-                </label>
+                <label class="label-main" for="mainl10">CITES</label>
                 <input type="radio" name="main" id="mainl11">
-                <label class="label-main" for="mainl11">
-                    <h1 class="hdr-elements">DEFAULTS</h1>
-                </label>
+                <label class="label-main" for="mainl11">DEFAULTS</label>
                 <input type="radio" name="main" id="mainl12">
-                <label class="label-main" for="mainl12">
-                    <h1 class="hdr-elements">MESSAGES</h1>
-                </label>
+                <label class="label-main" for="mainl12">MESSAGES</label>
                 <input type="radio" name="main" id="mainl13">
-                <label class="label-main" for="mainl13">
-                    <h1 class="hdr-elements">LABELS</h1>
-                </label> 
+                <label class="label-main" for="mainl13">LABELS</label> 
                 <div class="tab-content" id="maint1">
                     <div class="padd elements-icons">               
                         <h2 class="hdr-elements">12x12 (<span></span>)</h2>               
