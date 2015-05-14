@@ -12,8 +12,9 @@
             <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css'>
-            <link href="../css/reset.css" rel="stylesheet" type="text/css"/>
-            <link href="../css/styles.css" rel="stylesheet" type="text/css"/>    
+            <link href="/css/reset.css" rel="stylesheet" type="text/css"/>
+            <link href="/css/reset-elements.css" rel="stylesheet" type="text/css"/>
+            <link href="/css/styles.css" rel="stylesheet" type="text/css"/>    
             <style>
                 body{
                     background-color:#808080;
@@ -456,7 +457,7 @@
                 <div class="tab-content" id="maint6">
                     <div class="padd">
                         <div class="menu">
-                            <ul>
+                            <ul class="list">
                                 <li><a href="#">Dresses</a></li>
                                 <li><a href="#">Jeans & Trousers</a></li>
                                 <li><a href="#">Blouses & Shirts</a></li>
@@ -467,7 +468,7 @@
                         </div>
                         <hr>
                         <div class="footer">
-                            <ul>
+                            <ul class="list">
                                 <li><a href="#">My account</a></li>
                                 <li><a href="#">Personal information</a></li>
                                 <li><a href="#">Addresses</a></li>
