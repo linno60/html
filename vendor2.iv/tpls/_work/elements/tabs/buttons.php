@@ -17,16 +17,16 @@
 <button><strong class="btn btn-grid"></strong></button>
 <button><strong class="btn btn-list"></strong></button>
 <hr>
-<button><strong class="btn btn-social btn-facebook"></strong></button>
-<button><strong class="btn btn-social btn-twitter"></strong></button>
-<button><strong class="btn btn-social btn-rss"></strong></button>
-<button><strong class="btn btn-social btn-delicious"></strong></button>
-<button><strong class="btn btn-social btn-linkedin"></strong></button>
-<button><strong class="btn btn-social btn-flickr"></strong></button>
-<button><strong class="btn btn-social btn-skype"></strong></button>
-<button><strong class="btn btn-social btn-mail"></strong></button>
+<a href="#" class="btn btn-social btn-facebook"></a>
+<a href="#" class="btn btn-social btn-twitter"></a>
+<a href="#" class="btn btn-social btn-rss"></a>
+<a href="#" class="btn btn-social btn-delicious"></a>
+<a href="#" class="btn btn-social btn-linkedin"></a>
+<a href="#" class="btn btn-social btn-flickr"></a>
+<a href="#" class="btn btn-social btn-skype"></a>
+<a href="#" class="btn btn-social btn-mail"></a>
 <hr>
-<button><strong class="btn btn-post btn-facebook"></strong></button>
-<button><strong class="btn btn-post btn-twitter"></strong></button>
-<button><strong class="btn btn-post btn-rss"></strong></button>
-<button><strong class="btn btn-post btn-mail"></strong></button>
+<a href="#" class="btn btn-post btn-facebook"></a>
+<a href="#" class="btn btn-post btn-twitter"></a>
+<a href="#" class="btn btn-post btn-rss"></a>
+<a href="#" class="btn btn-post btn-mail"></a>

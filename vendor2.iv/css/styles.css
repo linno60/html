@@ -508,7 +508,7 @@ textarea::-ms-input-placeholder {
 .btn-list{
     border-radius:0px 2px 2px 0px;
 }
-.btn-social, .btn-post{
+a.btn-social, a.btn-post{
     border: 1px solid #616563;
     border-radius: 2px;
     background-color: #616663;
