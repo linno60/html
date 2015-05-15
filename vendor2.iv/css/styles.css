@@ -1036,11 +1036,11 @@ a{
 .lbl span{
     display: block;
 }
-.lbl dt{
+.lbl strong{
     color: #616563;
     text-decoration:line-through;
 }
-.thumbnail .lbl{
+.lbl-thumb{
     width: 90px;
     height: 90px;
     font-size: 18px;
@@ -1049,7 +1049,7 @@ a{
 .lbl-disable{
     background-color: #c3c7c5;
 }
-.elastislide .lbl{
+.lbl-product{
     width: 135px;
     height: 135px;
     font-size: 27px;
@@ -1060,7 +1060,6 @@ a{
     height: 35px;
     color: #fff;
     font-size: 16px;
-    display: block;
     line-height:35px;
     text-align: center;
 }
@@ -1095,7 +1094,9 @@ a{
     line-height:20px;
 }
 .lbl-date strong{
-    font-size: 18px;   
+    font-size: 18px;
+    text-decoration: none;
+    color:#ffffff;
 }
 
 #sequence {
