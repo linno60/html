@@ -991,9 +991,6 @@ a{
     font-family: "Gudea";
     font-size: 30px;
 }
-.lbl span{
-    display: block;
-}
 .lbl strong{
     color: #616563;
     text-decoration:line-through;
@@ -1018,7 +1015,6 @@ a{
     height: 35px;
     color: #fff;
     font-size: 16px;
-    line-height:35px;
     text-align: center;
 }
 .lbl-discount{
@@ -1037,7 +1033,6 @@ a{
     border-radius: 2px;
     background-color: #a7bf00;
     box-shadow: 0 1px 1px rgba(0,0,0,.15), inset 0 0 0 1px rgba(255,255,255,.2); 
-    padding:7px;
 }
 .lbl-date{
     width: 85px;
