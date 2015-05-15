@@ -1,0 +1,116 @@
+<table class="table-cart">
+    <thead>
+        <tr>
+            <th>PRODUCT NAME</th>
+            <th>PRODUCT CODE</th>
+            <th>UNIT PRICE</th>
+            <th>QUANTITY</th>
+            <th>SUBTOTAL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<table class="table-total">
+    <tfoot>
+        <tr>
+            <td>TOTAL:</td>
+            <td>$440.50</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>SUBTOTAL:</td>
+            <td>$434.50</td>
+        </tr>
+        <tr>
+            <td>SHIPPING:</td>
+            <td>$6.00</td>
+        </tr>
+        <tr>
+            <td>TAX (0%):</td>
+            <td>$0.00</td>
+        </tr>
+    </tbody>
+</table>            
+<hr>
+<table class="table-striped">                      
+    <tbody>
+        <tr>
+            <td>PRODUCT NAME</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>PRICE</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>BRAND</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>AVAILABILITY</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>RATING</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SUMMARY</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>WEIGHT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DEMENSIONS</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
