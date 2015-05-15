@@ -36,6 +36,12 @@
                 if (window.location.hash === '')
                     document.location.href = '#_tab-icons';
                 
+                // Open the same tab if switching between Ivan & Artur
+                $('body').on('click', '._eugene-nav', function(e){
+                     e.preventDefault();
+                     document.location.href = $(this).attr('href') + window.location.hash;
+                });
+                
                 // Copy fn for images and icons
                 $('#_tab-icons h2').each(function () {
                     $(this).find('span').text($(this).next().find('i').length);
