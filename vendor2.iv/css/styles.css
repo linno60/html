@@ -610,7 +610,7 @@ a.btn-social, a.btn-post{
     height:20px;
     background: url('../images/icons/20x20/search.png') no-repeat;
 }
-.btn-cart{
+a.btn-cart{
     height:35px;
     width:152px;
     background-color:#7bad23;
@@ -620,7 +620,7 @@ a.btn-social, a.btn-post{
     padding:0 10px;
 }
 .btn-cart span{
-    padding-left:30px;
+    padding-left:25px;
 }
 .btn-cart span:before{
     width: 16px;

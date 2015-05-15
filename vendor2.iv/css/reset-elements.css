@@ -72,7 +72,7 @@ a.btn {
     vertical-align: middle;
     text-align: center;
 }
-.lbl span {
+.lbl > * {
     position: relative;
     display: inline-block;
     top: 50%;
