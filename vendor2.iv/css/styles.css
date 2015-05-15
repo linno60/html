@@ -338,7 +338,6 @@ input[type="checkbox"]:checked + label:before{
     background:#7bad23 url('../images/icons/12x12/selectarrow-small-hover.png') no-repeat 8px 8px;
 }
 label{
-    display:block;
     width: 149px;
     height: 47px;
     border: 1px solid #e3e1e1;

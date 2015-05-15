@@ -66,8 +66,8 @@ a.btn {
     color: inherit;
 }
 
-/* SIMPLE LABELS */
-.lbl {
+/*SIMPLE LABELS*/
+.lbl, label {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -77,4 +77,6 @@ a.btn {
     display: inline-block;
     top: 50%;
     transform: translateY(-50%);
+    vertical-align: top;
+    line-height: 1;
 }
