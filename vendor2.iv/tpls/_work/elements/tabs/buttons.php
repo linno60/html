@@ -1,19 +1,19 @@
 <h2 class="_h">Butttons</h2>
-<button><strong class="btn btn-add-lg"><span>ADD TO CART</span></strong></button>
-<button><strong class="btn btn-submit"><span>SUBMIT</span></strong></button>
-<button><strong class="btn btn-compare"><span>COMPARE</span></strong></button>
-<button><strong class="btn btn-range"><span>OK</span></strong></button>                        
-<button><strong class="btn btn-search"></strong></button>
+<button><span class="btn btn-add-lg">ADD TO CART</span></button>
+<button><span class="btn btn-submit">SUBMIT</span></button>
+<button><span class="btn btn-compare">COMPARE</span></button>
+<button><span class="btn btn-range">OK</span></button>                        
+<button><span class="btn btn-search"></span></button>
 <h2 class="_h">Links</h2>
-<a href="#" class="btn btn-account"><span>CREATE MY ACCOUNT</span></a>
-<a href="#" class="btn btn-more"><span>LEARN MORE</span></a>
-<a href="#" class="btn btn-add"><span>ADD TO CART</span></a>
-<a href="#" class="btn btn-disabled"><span>ADD TO CART</span></a>
+<a href="#" class="btn btn-account">CREATE MY ACCOUNT</a>
+<a href="#" class="btn btn-more">LEARN MORE</a>
+<a href="#" class="btn btn-add">ADD TO CART</a>
+<a href="#" class="btn btn-add disabled">ADD TO CART</a>
 <a href="#" class="btn btn-check"></a>
 <a href="#" class="btn btn-like"></a>
 <a href="#" class="btn btn-hidden-add"></a>
 <a href="#" class="btn btn-hidden-menu"></a>
-<a href="#" class="btn btn-cart"><span>0 item(s) - $0.00</span></a>
+<a href="#" class="btn btn-cart"><em>0 item(s) - $0.00</em></a>
 <a href="#" class="btn btn-close"></a> 
 <hr>
 <a href="#" class="btn btn-social btn-facebook"></a>

@@ -31,52 +31,30 @@
 .select select::-ms-expand{display:none;}
 
 /* --- BTN */
-.btn {
-    cursor: pointer;
-    position: relative;
-    display: inline-block; 
-    text-align: center; 
-    vertical-align: middle;
-}
-.btn > span {display: inline-block;}
-.btn span, .btn:before, .btn:after, .btn span:before, .btn span:after {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    box-sizing: border-box;
-}
-.btn:before, .btn:after, .btn span:before, .btn span:after {
-    content: '';
-    position: absolute;   
-}
-.btn:before, .btn span:before {left: 0;}
-.btn:after, .btn span:after {right: 0;}
-
-button {vertical-align: middle; background: none; outline: none;padding:0;border:none;}
-strong.btn {
-    display: block;
-    font-weight: normal;
-}
-.btn:empty:before {
-    left: 50%;
-    transform: translate(-50%, -50%);
+button {
+    vertical-align: middle; 
+    background: none; 
+    outline: none;
+    padding: 0;
+    border:none;
 }
 a.btn {
     text-decoration: none;
     color: inherit;
 }
+.btn, .btn > em {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-style: normal;
+}
+.btn > em {flex-grow: 1;}
 
 /*SIMPLE LABELS*/
-.lbl, label {
-    display: inline-block;
+.lbl {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     vertical-align: middle;
-    text-align: center;
-}
-.lbl > * {
-    position: relative;
-    display: inline-block;
-    top: 50%;
-    transform: translateY(-50%);
-    vertical-align: top;
-    line-height: 1;
 }
