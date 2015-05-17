@@ -6,7 +6,8 @@
     <i class="icon-accarrow-up"></i>                
     <i class="icon-page-arrow"></i>
     <i class="icon-slidearrow-left-large"></i>
-    <i class="icon-slidearrow-right-large"></i>                       
+    <i class="icon-slidearrow-right-large"></i> 
+    <i class="icon-close"></i>
 </div>
 <br>
 <h3 class="_h">hover:</h3>
@@ -14,7 +15,8 @@
 <img src="/images/icons/12x12/accarrow-up-hover.png">
 <img src="/images/icons/12x12/page-arrow-hover.png">
 <img src="/images/icons/12x12/slidearrow-left-large-hover.png">
-<img src="/images/icons/12x12/slidearrow-right-large-hover.png">                            
+<img src="/images/icons/12x12/slidearrow-right-large-hover.png"> 
+<img src="/images/icons/12x12/close-hover.png"> 
 
 <h2 class="_h">16x16 (<span></span>)</h2>
 <h3 class="_h">normal:</h3>
@@ -24,7 +26,8 @@
     <i class="icon-topbar-cart"></i>
     <i class="icon-topbar-checkout"></i>
 </div>
-<i class="icon-likefinger"></i>                    
+<i class="icon-likefinger"></i>
+<i class="icon-cart"></i> 
 <i class="icon-flag-uk"></i>
 <i class="icon-flag-it"></i>
 <i class="icon-flag-ge"></i>
@@ -52,7 +55,24 @@
 <i class="icon-contact-mail"></i>
 <i class="icon-contact-mobile"></i>
 <i class="icon-contact-phone"></i>
-<i class="icon-contact-skype"></i>                            
+<i class="icon-contact-skype"></i>
+<i class="icon-social-facebook"></i> 
+<i class="icon-social-twitter"></i>
+<i class="icon-social-rss"></i>
+<i class="icon-social-delicious"></i>
+<i class="icon-social-linkedin"></i>
+<i class="icon-social-flickr"></i>
+<i class="icon-social-skype"></i>
+<i class="icon-social-mail"></i>
+<i class="icon-post-facebook"></i>
+<i class="icon-post-twitter"></i>
+<i class="icon-post-rss"></i>
+<i class="icon-post-mail"></i>
+<i class="icon-search"></i>
+<i class="icon-product-like"></i>
+<i class="icon-product-check"></i>
+<i class="icon-hidden-add"></i>
+
 
 <h2 class="_h">24x24 (<span></span>)</h2>
 <h3 class="_h">normal:</h3>
@@ -71,6 +91,7 @@
 <i class="icon-label-region"></i>
 <i class="icon-label-subject"></i>
 <i class="icon-label-username"></i> 
+<i class="icon-hidden-menu"></i>
 
 <h2 class="_h">Other sizes (<span></span>)</h2>
 

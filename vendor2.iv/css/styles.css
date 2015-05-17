@@ -1,10 +1,12 @@
 .disable{background-color: #c3c7c5;}
 i[class*=icon-] {display: inline-block;}
 .icon-page-arrow{background-image: url("/images/icons/12x12/page-arrow.png")}
+.icon-close{background-image: url("/images/icons/12x12/close.png")}
 .icon-slidearrow-left-large{background-image: url("/images/icons/12x12/slidearrow-left-large.png")}
 .icon-slidearrow-right-large{background-image: url("/images/icons/12x12/slidearrow-right-large.png")}
 .icon-accarrow-down{background-image: url("/images/icons/12x12/accarrow-down.png")}
 .icon-accarrow-up{background-image: url("/images/icons/12x12/accarrow-up.png")}
+.icon-cart{background-image: url("/images/icons/16x16/cart.png")}
 .icon-likefinger{background-image: url("/images/icons/16x16/likefinger.png")}
 .icon-topbar-compose{background-image: url("/images/icons/16x16/topbar-compose.png")}
 .icon-topbar-user{background-image: url("/images/icons/16x16/topbar-user.png")}
@@ -29,6 +31,23 @@ i[class*=icon-] {display: inline-block;}
 .icon-contact-mobile{background-image: url("/images/icons/20x20/contact-mobile.png")}
 .icon-contact-phone{background-image: url("/images/icons/20x20/contact-phone.png")}
 .icon-contact-skype{background-image: url("/images/icons/20x20/contact-skype.png")}
+.icon-social-facebook{background-image: url("/images/icons/20x20/social-facebook.png")}
+.icon-social-twitter{background-image: url("/images/icons/20x20/social-twitter.png")}
+.icon-social-rss{background-image: url("/images/icons/20x20/social-rss.png")}
+.icon-social-delicious{background-image: url("/images/icons/20x20/social-delicious.png")}
+.icon-social-linkedin{background-image: url("/images/icons/20x20/social-linkedin.png")}
+.icon-social-flickr{background-image: url("/images/icons/20x20/social-flickr.png")}
+.icon-social-skype{background-image: url("/images/icons/20x20/social-skype.png")}
+.icon-social-mail{background-image: url("/images/icons/20x20/social-mail.png")}
+.icon-post-facebook{background-image: url("/images/icons/20x20/post-facebook.png")}
+.icon-post-twitter{background-image: url("/images/icons/20x20/post-twitter.png")}
+.icon-post-rss{background-image: url("/images/icons/20x20/post-rss.png")}
+.icon-post-mail{background-image: url("/images/icons/20x20/post-mail.png")}
+.icon-search{background-image: url("/images/icons/20x20/search.png")}
+.icon-product-check{background-image: url("/images/icons/20x20/product-like.png")}
+.icon-product-like{background-image: url("/images/icons/20x20/product-check.png")}
+.icon-hidden-menu{background-image: url("/images/icons/24x24/hidden-menu.png")}
+.icon-hidden-add{background-image: url("/images/icons/24x24/hidden-add.png")}
 .icon-label-address{background-image: url("/images/icons/24x24/label-address.png")}
 .icon-label-attach{background-image: url("/images/icons/24x24/label-attach.png")}
 .icon-label-city{background-image: url("/images/icons/24x24/label-city.png")}
@@ -65,16 +84,16 @@ i[class*=icon-] {display: inline-block;}
     height:12px;
 }
 i[class*=icon-topbar-], i[class*=icon-flag-], i[class*=icon-menu], .icon-grid,
-.icon-list, .icon-quick-access, .icon-likefinger{
+.icon-list, .icon-cart, .icon-likefinger{
     width:16px;
     height:16px;
 }
 i[class*=icon-blog-], i[class*=icon-contact-], i[class*=icon-social-],
-.icon-post-world, .icon-search, i[class*=icon-product-], i[class*=icon-support-]{
+i[class*=icon-post-], .icon-search, i[class*=icon-product-], i[class*=icon-support-]{
     width:20px;
     height:20px;
 }
-i[class*=icon-label-], .icon-hidden-menu, .icon-hidden-cart{
+i[class*=icon-label-], i[class*=icon-hidden-]{
     width:24px;
     height:24px;
 }
@@ -324,11 +343,11 @@ input[type="checkbox"]:checked + label:before{
 .form-set-filter .select:after{
     width: 28px;
     height: 28px;
-    background:#f2f2f2 url('../images/icons/12x12/selectarrow-small.png') no-repeat 8px 8px;
+    background:#f2f2f2 url('/images/icons/12x12/selectarrow-small.png') no-repeat 8px 8px;
 }
 .form-set-filter .select:hover:after{
     height: 30px;
-    background:#7bad23 url('../images/icons/12x12/selectarrow-small-hover.png') no-repeat 8px 8px;
+    background:#7bad23 url('/images/icons/12x12/selectarrow-small-hover.png') no-repeat 8px 8px;
 }
 .lbl-form{
     justify-content:flex-start;
@@ -561,7 +580,9 @@ a.btn-cart{
     border: 1px solid #dbdbdb;
     border-radius: 2px;
     background-color: #f9f9f9;
-    padding-top:4px;
+}
+.btn-close:hover i{
+    background:url('/images/icons/12x12/close-hover.png')
 }
 .btn.disabled{
     background-color:#c2c8c6;

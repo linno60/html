@@ -3,32 +3,32 @@
 <button><span class="btn btn-submit">SUBMIT</span></button>
 <button><span class="btn btn-compare">COMPARE</span></button>
 <button><span class="btn btn-range">OK</span></button>                        
-<button><span class="btn btn-search"></span></button>
+<button><span class="btn btn-search"><i class="icon-search"></i></span></button>
 <h2 class="_h">Links</h2>
 <a href="#" class="btn btn-account">CREATE MY ACCOUNT</a>
 <a href="#" class="btn btn-more">LEARN MORE</a>
 <a href="#" class="btn btn-add">ADD TO CART</a>
 <a href="#" class="btn btn-add disabled">ADD TO CART</a>
-<a href="#" class="btn btn-check"></a>
-<a href="#" class="btn btn-like"></a>
-<a href="#" class="btn btn-hidden-add"></a>
-<a href="#" class="btn btn-hidden-menu"></a>
-<a href="#" class="btn btn-cart"><em>0 item(s) - $0.00</em></a>
-<a href="#" class="btn btn-close"></a> 
+<a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+<a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+<a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+<a href="#" class="btn btn-hidden-menu"><i class="icon-hidden-menu"></i></a>
+<a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
+<a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
 <hr>
-<a href="#" class="btn btn-social btn-facebook"></a>
-<a href="#" class="btn btn-social btn-twitter"></a>
-<a href="#" class="btn btn-social btn-rss"></a>
-<a href="#" class="btn btn-social btn-delicious"></a>
-<a href="#" class="btn btn-social btn-linkedin"></a>
-<a href="#" class="btn btn-social btn-flickr"></a>
-<a href="#" class="btn btn-social btn-skype"></a>
-<a href="#" class="btn btn-social btn-mail"></a>
+<a href="#" class="btn btn-social btn-facebook"><i class="icon-social-facebook"></i></a>
+<a href="#" class="btn btn-social btn-twitter"><i class="icon-social-twitter"></i></a>
+<a href="#" class="btn btn-social btn-rss"><i class="icon-social-rss"></i></a>
+<a href="#" class="btn btn-social btn-delicious"><i class="icon-social-delicious"></i></a>
+<a href="#" class="btn btn-social btn-linkedin"><i class="icon-social-linkedin"></i></a>
+<a href="#" class="btn btn-social btn-flickr"><i class="icon-social-flickr"></i></a>
+<a href="#" class="btn btn-social btn-skype"><i class="icon-social-skype"></i></a>
+<a href="#" class="btn btn-social btn-mail"><i class="icon-social-mail"></i></a>
 <hr>
-<a href="#" class="btn btn-post btn-facebook"></a>
-<a href="#" class="btn btn-post btn-twitter"></a>
-<a href="#" class="btn btn-post btn-rss"></a>
-<a href="#" class="btn btn-post btn-mail"></a>
+<a href="#" class="btn btn-post btn-facebook"><i class="icon-post-facebook"></i></a>
+<a href="#" class="btn btn-post btn-twitter"><i class="icon-post-twitter"></i></a>
+<a href="#" class="btn btn-post btn-rss"><i class="icon-post-rss"></i></a>
+<a href="#" class="btn btn-post btn-mail"><i class="icon-post-mail"></i></a>
 <h2 class="_h">Divs</h2>
 <div class="btn btn-grid"></div>
 <div class="btn btn-list"></div>
