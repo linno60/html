@@ -35,12 +35,16 @@
 <i class="icon-flag-sp"></i>
 <i class="icon-menu-minus"></i>
 <i class="icon-menu-plus"></i>
+<i class="icon-grid"></i>
+<i class="icon-list"></i>
 <br>
 <h3 class="_h">hover:</h3>
 <img src="/images/icons/16x16/topbar-compose-hover.png">
 <img src="/images/icons/16x16/topbar-user-hover.png">
 <img src="/images/icons/16x16/topbar-cart-hover.png">
 <img src="/images/icons/16x16/topbar-check-hover.png">
+<img src="/images/icons/16x16/grid-hover.png">
+<img src="/images/icons/16x16/list-hover.png">
 
 <h2 class="_h">20x20 (<span></span>)</h2>
 <h3 class="_h">normal:</h3>

@@ -30,5 +30,5 @@
 <a href="#" class="btn btn-post btn-rss"><i class="icon-post-rss"></i></a>
 <a href="#" class="btn btn-post btn-mail"><i class="icon-post-mail"></i></a>
 <h2 class="_h">Divs</h2>
-<div class="btn btn-grid"></div>
-<div class="btn btn-list"></div>
+<div class="btn btn-grid"><i class="icon-grid"></i></div>
+<div class="btn btn-list"><i class="icon-list"></i></div>

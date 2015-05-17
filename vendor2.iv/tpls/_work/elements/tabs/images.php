@@ -12,7 +12,3 @@
 <img src="/images/rating2.png">
 <img src="/images/rating3.png">
 <img src="/images/rating4.png">
-<img src="/images/icons/16x16/list.png">
-<img src="/images/icons/16x16/grid.png">
-<img src="/images/icons/16x16/list-hover.png">
-<img src="/images/icons/16x16/grid-hover.png">
