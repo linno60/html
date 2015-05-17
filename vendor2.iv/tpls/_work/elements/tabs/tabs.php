@@ -1,4 +1,4 @@
-<div class="tabs home-tabs clearfix">
+<div class="tabs-home clearfix">
     <input type="radio" id="tab1" name="tab-labelh" checked>
     <label for="tab1">ALL</label>
     <input type="radio" id="tab2" name="tab-labelh">

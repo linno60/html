@@ -1,4 +1,4 @@
-<table class="table-cart">
+<table class="tbl-cart">
     <thead>
         <tr>
             <th>PRODUCT NAME</th>
@@ -23,17 +23,10 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
     </tbody>
 </table>
 <hr>
-<table class="table-total">
+<table class="tbl-total">
     <tfoot>
         <tr>
             <td>TOTAL:</td>
@@ -56,7 +49,7 @@
     </tbody>
 </table>            
 <hr>
-<table class="table-striped">                      
+<table class="tbl-striped">                      
     <tbody>
         <tr>
             <td>PRODUCT NAME</td>
