@@ -1,14 +1,14 @@
 <h2 class="_h">Butttons</h2>
-<button><span class="btn btn-add-lg">ADD TO CART</span></button>
-<button><span class="btn btn-submit">SUBMIT</span></button>
-<button><span class="btn btn-compare">COMPARE</span></button>
-<button><span class="btn btn-range">OK</span></button>                        
+<button><span class="btn btn-add-lg">add to cart</span></button>
+<button><span class="btn btn-submit">submit</span></button>
+<button><span class="btn btn-compare">compare</span></button>
+<button><span class="btn btn-range">ok</span></button>                        
 <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
 <h2 class="_h">Links</h2>
-<a href="#" class="btn btn-account">CREATE MY ACCOUNT</a>
-<a href="#" class="btn btn-more">LEARN MORE</a>
-<a href="#" class="btn btn-add">ADD TO CART</a>
-<a href="#" class="btn btn-add disabled">ADD TO CART</a>
+<a href="#" class="btn btn-account">create my account</a>
+<a href="#" class="btn btn-more">learn more</a>
+<a href="#" class="btn btn-add">add to cart</a>
+<a href="#" class="btn btn-add disabled">add to cart</a>
 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
 <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>

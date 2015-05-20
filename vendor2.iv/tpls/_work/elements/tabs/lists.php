@@ -1,5 +1,5 @@
-<div class="menu">
-    <ul class="list list-lnk list-menu">
+<div class="nav-dropdown">
+    <ul class="list list-lnk list-nav">
         <li><a href="#">Dresses</a></li>
         <li><a href="#">Jeans & Trousers</a></li>
         <li><a href="#">Blouses & Shirts</a></li>
@@ -20,13 +20,13 @@
     </ul>
 </div>
 <hr>
-<dl class="list">
+<dl>
     <dt>Availability: </dt><dd>In Stock</dd>
     <dt>Product Code: </dt><dd>483512569</dd>
     <dt>Brand: </dt><dd>Apple</dd>
 </dl>
 <hr>
-<dl class="list list-cart">
+<dl class="list-cart">
     <dt>Color: </dt><dd>Black</dd>
     <dt>Size: </dt><dd>XL</dd>
 </dl>

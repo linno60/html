@@ -12,9 +12,9 @@
             <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
             <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css'>
-            <link href="../css/reset.css" rel="stylesheet" type="text/css"/>
+            <link href="/css/reset.css" rel="stylesheet" type="text/css"/>
             <link rel="stylesheet" href="/js/jquery/plugins/sequence/modern-slide-in/css/sequencejs-theme.modern-slide-in.css"> 
-            <link href="../css/styles.css" rel="stylesheet" type="text/css"/>    
+            <link href="/css/styles.css" rel="stylesheet" type="text/css"/>    
             <style>
                 body{
                     background-color:#808080;

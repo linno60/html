@@ -1,11 +1,11 @@
 <table class="tbl-cart">
     <thead>
         <tr>
-            <th>PRODUCT NAME</th>
-            <th>PRODUCT CODE</th>
-            <th>UNIT PRICE</th>
-            <th>QUANTITY</th>
-            <th>SUBTOTAL</th>
+            <th>product name</th>
+            <th>product code</th>
+            <th>unit price</th>
+            <th>quantity</th>
+            <th>subtotal</th>
         </tr>
     </thead>
     <tbody>
@@ -29,21 +29,21 @@
 <table class="tbl-total">
     <tfoot>
         <tr>
-            <td>TOTAL:</td>
+            <td>total:</td>
             <td>$440.50</td>
         </tr>
     </tfoot>
     <tbody>
         <tr>
-            <td>SUBTOTAL:</td>
+            <td>subtotal:</td>
             <td>$434.50</td>
         </tr>
         <tr>
-            <td>SHIPPING:</td>
+            <td>shipping:</td>
             <td>$6.00</td>
         </tr>
         <tr>
-            <td>TAX (0%):</td>
+            <td>tax (0%):</td>
             <td>$0.00</td>
         </tr>
     </tbody>
@@ -52,49 +52,49 @@
 <table class="tbl-striped">                      
     <tbody>
         <tr>
-            <td>PRODUCT NAME</td>
+            <td>product name</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>PRICE</td>
+            <td>price</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>BRAND</td>
+            <td>brand</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>AVAILABILITY</td>
+            <td>availability</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>RATING</td>
+            <td>rating</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>SUMMARY</td>
+            <td>summary</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>WEIGHT</td>
+            <td>weight</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>DEMENSIONS</td>
+            <td>demensions</td>
             <td></td>
             <td></td>
             <td></td>
