@@ -63,126 +63,129 @@
                     </div>
                 </div>                
             </div>
-            <div class="nav-wrap">   
-                <nav>   
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a href="#">fashion</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>clothing</h3>
-                                    <ul class="list list-lnk list-nav">
-                                        <li><a href="#">Dresses</a></li>
-                                        <li><a href="#">Jeans & Trousers</a></li>
-                                        <li><a href="#">Blouses & Shirts</a></li>
-                                        <li><a href="#">Tops & T-Shirts</a></li>
-                                        <li><a href="#">Jackets & Coats</a></li>
-                                        <li><a href="#">Skirts</a></li>
-                                    </ul>
+            <div class="fixed-menu"> 
+                <div class="nav-wrap">
+                    <nav> 
+                        <a href="#" class="logo"><img src="/images/logo.png"></a>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#">fashion</a>
+                                <div class="nav-dropdown">
+                                    <div class="dropdown-item">
+                                        <h3>clothing</h3>
+                                        <ul class="list list-lnk list-nav">
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Jeans & Trousers</a></li>
+                                            <li><a href="#">Blouses & Shirts</a></li>
+                                            <li><a href="#">Tops & T-Shirts</a></li>
+                                            <li><a href="#">Jackets & Coats</a></li>
+                                            <li><a href="#">Skirts</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <h3>shoes</h3>
+                                        <ul class="list list-lnk list-nav">
+                                            <li><a href="#">Formal Shoes</a></li>
+                                            <li><a href="#">Casual Shoes</a></li>
+                                            <li><a href="#">Sandals</a></li>
+                                            <li><a href="#">Boots</a></li>
+                                            <li><a href="#">Wide Fit</a></li>
+                                            <li><a href="#">Slippers</a></li>
+                                        </ul> 
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <h3>accessories</h3>
+                                        <ul class="list list-lnk list-nav">
+                                            <li><a href="#">Bags & Purses</a></li>
+                                            <li><a href="#">Belts</a></li>
+                                            <li><a href="#">Gloves</a></li>
+                                            <li><a href="#">Jewellery</a></li>
+                                            <li><a href="#">Sunglasses</a></li>
+                                            <li><a href="#">Hair Accessories</a></li>
+                                        </ul> 
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <h3>sports</h3>
+                                        <ul class="list list-lnk list-nav">
+                                            <li><a href="#">Sport Tops & Vests</a></li>
+                                            <li><a href="#">Hoodies</a></li>
+                                            <li><a href="#">Swimwear</a></li>
+                                            <li><a href="#">Footwear</a></li>
+                                            <li><a href="#">Sports Underwear</a></li>
+                                            <li><a href="#">Bags</a></li>
+                                        </ul> 
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <h3>maternity</h3>
+                                        <ul class="list list-lnk list-nav">
+                                            <li><a href="#">Tops & Skirts</a></li>
+                                            <li><a href="#">Jeans</a></li>
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Trousers & Shorts</a></li>
+                                            <li><a href="#">Knitwear</a></li>
+                                            <li><a href="#">Jackets & Coats</a></li>
+                                        </ul> 
+                                    </div>
                                 </div>
-                                <div class="dropdown-item">
-                                    <h3>shoes</h3>
-                                    <ul class="list list-lnk list-nav">
-                                        <li><a href="#">Formal Shoes</a></li>
-                                        <li><a href="#">Casual Shoes</a></li>
-                                        <li><a href="#">Sandals</a></li>
-                                        <li><a href="#">Boots</a></li>
-                                        <li><a href="#">Wide Fit</a></li>
-                                        <li><a href="#">Slippers</a></li>
-                                    </ul> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">electronics</a>
+                                <div class="nav-dropdown">
+                                    <div class="dropdown-item">
+                                        <ul class="list-lnk">
+                                            <li><a href="#"><h3>Mobile</h3></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="dropdown-item">
-                                    <h3>accessories</h3>
-                                    <ul class="list list-lnk list-nav">
-                                        <li><a href="#">Bags & Purses</a></li>
-                                        <li><a href="#">Belts</a></li>
-                                        <li><a href="#">Gloves</a></li>
-                                        <li><a href="#">Jewellery</a></li>
-                                        <li><a href="#">Sunglasses</a></li>
-                                        <li><a href="#">Hair Accessories</a></li>
-                                    </ul> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">gifts</a>
+                                <div class="nav-dropdown">
+                                    <div class="dropdown-item">
+                                        <ul class="list list-lnk">
+                                            <li><a href="#"><h3>Mobile</h3></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="dropdown-item">
-                                    <h3>sports</h3>
-                                    <ul class="list list-lnk list-nav">
-                                        <li><a href="#">Sport Tops & Vests</a></li>
-                                        <li><a href="#">Hoodies</a></li>
-                                        <li><a href="#">Swimwear</a></li>
-                                        <li><a href="#">Footwear</a></li>
-                                        <li><a href="#">Sports Underwear</a></li>
-                                        <li><a href="#">Bags</a></li>
-                                    </ul> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">books</a>
+                                <div class="nav-dropdown">
+                                    <div class="dropdown-item">
+                                        <ul class="list list-lnk">
+                                            <li><a href="#"><h3>Mobile</h3></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="dropdown-item">
-                                    <h3>maternity</h3>
-                                    <ul class="list list-lnk list-nav">
-                                        <li><a href="#">Tops & Skirts</a></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li><a href="#">Dresses</a></li>
-                                        <li><a href="#">Trousers & Shorts</a></li>
-                                        <li><a href="#">Knitwear</a></li>
-                                        <li><a href="#">Jackets & Coats</a></li>
-                                    </ul> 
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">at home</a>
+                                <div class="nav-dropdown">
+                                    <div class="dropdown-item">
+                                        <ul class="list list-lnk">
+                                            <li><a href="#"><h3>Mobile</h3></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">electronics</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <ul class="list-lnk">
-                                        <li><a href="#"><h3>Mobile</h3></a></li>
-                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">music</a>
+                                <div class="nav-dropdown">
+                                    <div class="dropdown-item">
+                                        <ul class="list list-lnk">
+                                            <li><a href="#"><h3>Mobile</h3></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">gifts</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <ul class="list list-lnk">
-                                        <li><a href="#"><h3>Mobile</h3></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">books</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <ul class="list list-lnk">
-                                        <li><a href="#"><h3>Mobile</h3></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">at home</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <ul class="list list-lnk">
-                                        <li><a href="#"><h3>Mobile</h3></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">music</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <ul class="list list-lnk">
-                                        <li><a href="#"><h3>Mobile</h3></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="quick-access">
-                        <input type="search" class="input-search" placeholder="Search here">
-                        <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
-                        <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
-                    </div>
-                </nav>
+                            </li>
+                        </ul>
+                        <div class="quick-access">
+                            <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
+                            <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
+                            <input type="search" class="input-search" placeholder="Search here">
+                        </div>
+                    </nav>
+                </div>
             </div>
         </header>
         <div id="sequence">
@@ -539,14 +542,27 @@
                 </div>
                 <div class="flexslider banners">
                     <ul class="slides clearfix">
-                        <li class="banner1"> 
-                            <img src="/images/banner1.png" width="270" height="400" alt="">
+                        <li class="shipping"> 
+                            <h1>free <span>shipping</span></h1>
+                            <p>on orders over <span>$150</p>
+                            <img src="/images/truck.png" width="168" height="120" alt="">
+                            <p>The offers is valid on all our store item!</p>
                         </li>
-                        <li class="banner2">
-                            <img src="/images/banner2.png" width="270" height="400" alt="">
+                        <li class="sale">
+                            <h1>sale<br><span>Many items</span></h1>
+                            <h3 class="box">
+                                <b>40</b>
+                                <span>
+                                    <sup>%</sup>
+                                    <sub>off</sub>
+                                </span>
+                            </h3>
+                            <p>Discount are subject to all kinds of electronics except smartphones.</p>
                         </li>
-                        <li class="banner3">
-                            <img src="/images/banner3.png" width="270" height="400" alt="">                 
+                        <li class="offer">
+                            <h1>special offer</h1> 
+                            <p>by new digital cameras & get lenses or accessories</p>
+                            <h2>free</h2>
                         </li>
                     </ul>
                 </div>
@@ -653,8 +669,8 @@
         <script src="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
         <script src="/js/jquery/plugins/flexslider/jquery.flexslider.js"></script>
         <script>
-            $('.nav-wrap').scrollToFixed();
-            $('.shadow').scrollToFixed();
+            $('.fixed-menu').scrollToFixed();
+
             $("#currency").selectBoxIt({
                 defaultText: "US Dollar"
             });
