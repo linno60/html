@@ -61,7 +61,9 @@
                             </span>
                         </span> 
                     </div>
-                </div>
+                </div>                
+            </div>
+            <div class="nav-wrap">   
                 <nav>   
                     <ul class="nav">
                         <li class="nav-item">
@@ -180,8 +182,8 @@
                         <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
                         <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
                     </div>
-                </nav>               
-            </div>            
+                </nav>
+            </div>
         </header>
         <div id="sequence">
             <a class="sequence-prev btn-prev"></a>
@@ -616,9 +618,12 @@
                         <address>
                             <span>United Kingdom</span>
                             <span>Greater London</span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <span>London  028587</span>
+                            <span>Oxford Street 48/188</span>
+                            <dl>
+                                <dt>Working days:</dt><dd>Mon. - Sun.</dd>
+                                <dt>Working hours:</dt><dd>9.00AM - 8.00PM</dd>
+                            </dl>
                         </address>
                     </div>
                     <div>
@@ -642,11 +647,14 @@
         </footer>
         <script src="/js/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
         <script src="/js/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+        <script src="/js/jquery/plugins/scrollToFixed/jquery-scrolltofixed-min.js"></script>
         <script src="/js/jquery/plugins/selectBoxIt/src/javascripts/jquery.selectBoxIt.min.js"></script>
         <script src="/js/jquery/plugins/sequence/modern-slide-in/scripts/jquery.sequence-min.js"></script>
         <script src="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
         <script src="/js/jquery/plugins/flexslider/jquery.flexslider.js"></script>
         <script>
+            $('.nav-wrap').scrollToFixed();
+            $('.shadow').scrollToFixed();
             $("#currency").selectBoxIt({
                 defaultText: "US Dollar"
             });

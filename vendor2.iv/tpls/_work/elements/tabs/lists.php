@@ -20,7 +20,7 @@
     </ul>
 </div>
 <hr>
-<dl>
+<dl class="list-product">
     <dt>Availability: </dt><dd>In Stock</dd>
     <dt>Product Code: </dt><dd>483512569</dd>
     <dt>Brand: </dt><dd>Apple</dd>
@@ -31,7 +31,7 @@
     <dt>Size: </dt><dd>XL</dd>
 </dl>
 <hr>
-<ul class="list list-product">
+<ul class="list list-product-tab">
     <li>3rd gen Intel® Core&trade; i7 quad core processor available;</li>
     <li>Windows 8 Pro available;</li>
     <li>13.3" and 15.5" screen sizes available;</li>
