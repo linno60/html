@@ -22,7 +22,7 @@
                 <div class="top-bar">
                     <div class="top-bar-links">
                         <a href="#"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
-                        <a href="#"><i class="icon-topbar-user"></i>My account</a>
+                        <a href="#"><i class="icon-topbar-user"></i>My Account</a>
                         <a href="#"><i class="icon-topbar-cart"></i>Shopping Cart</a>
                         <a href="#"><i class="icon-topbar-checkout"></i>Checkout</a>
                     </div>
@@ -181,6 +181,49 @@
                         </ul>
                         <div class="quick-access">
                             <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
+                            <div class="shopping-cart">
+                                <table>
+                                    <caption align="left">Recently added item(s)</caption>
+                                    <tr>
+                                        <td width="97" height="105">
+                                            <img src="images/shape3.png" alt="" width="85" height="85">
+                                        </td>
+                                        <td>
+                                            <h6>Cam Optia AF Webcam</h6>
+                                            <dl>
+                                                <dt>1x</dt><dd>$710</dd>
+                                            </dl>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="delete"><i class="icon-close"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="97" height="105">
+                                            <img src="images/shape3.png" alt="" width="85" height="85">
+                                        </td>
+                                        <td>
+                                            <h6>Iphone Case Cover Original</h6>
+                                            <dl>
+                                                <dt>1x</dt><dd>$19</dd>
+                                            </dl>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="delete"><i class="icon-close"></i></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="cart-total">
+                                    <dl>
+                                        <dt>shipping:</dt><dd>$7</dd>
+                                        <dt>total:</dt><dd>$736</dd>
+                                    </dl>
+                                    <div class="btns-total">
+                                        <a href="#" class="btn btn-total-cart">cart</a>
+                                        <a href="#" class="btn btn-total-check">checkout</a>
+                                    </div>
+                                </div>
+                            </div>
                             <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
                             <input type="search" class="input-search" placeholder="Search here">
                         </div>
@@ -211,7 +254,7 @@
                         <a href="#" class="btn btn-more">learn more</a>
                     </div>
                     <div class="model">
-                        <div class="lbl lbl-price1">$1450</div>                            
+                        <div class="lbl lbl-price1">$1150</div>                            
                         <img class="balls" src="images/slide2_2.png" alt="" width="802" height="471">
                         <img class="transparent" src="images/slide2_1.png" alt="" width="357" height="559">
                     </div>
@@ -252,7 +295,7 @@
                     <input id="tab4" type="radio" name="tab">
                     <label for="tab4">bestsellers</label>
                     <input id="tab5" type="radio" name="tab">
-                    <label for="tab5">special</label>
+                    <label for="tab5">spesial</label>
                     <div class="tab-content">
                         <div id="tabc1" class="tab-pane">
                             <div class="grid">
@@ -364,88 +407,92 @@
                     </article>
                     <img src="images/welcome.png" alt="" width="369" height="276">
                 </section>
-                <hgroup>
-                    <h1 class="h1">On Sale</h1>
-                    <p>Only with us you can get a new model with a discount.</p>
-                </hgroup>
-                <div class="owl-carousel sale-slider">
-                    <figure>
-                        <div class="lbl lbl-price3">$40</div>
-                        <div class="lbl lbl-discount">-45%</div>
-                        <img src="images/shape1.png" alt="">
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
-                            </div>                                        
-                        </div>
-                        <h5>Sony VAIO Tap 20</h5>
-                        <div class="btns">
-                            <a href="#" class="btn btn-add">add to cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="lbl lbl-price3">$435</div>
-                        <div class="lbl lbl-discount">-30%</div>
-                        <img src="images/shape1.png" alt="">
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
-                            </div>                                        
-                        </div>
-                        <h5>BenQ E2220HD</h5>
-                        <div class="btns">
-                            <a href="#" class="btn btn-add">add to cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="lbl lbl-price3">$19</div>
-                        <img src="images/shape1.png" alt="">
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
-                            </div>                                        
-                        </div>
-                        <h5>Philips MP Digital Camera</h5>
-                        <div class="btns">
-                            <a href="#" class="btn btn-add">add to cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="lbl lbl-price3">$40</div>
-                        <img src="images/shape1.png" alt="">
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
-                            </div>                                        
-                        </div>
-                        <h5>Lowlands Lace Blouse</h5>
-                        <div class="btns">
-                            <a href="#" class="btn btn-add">add to cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="lbl lbl-price3">$40</div>
-                        <img src="images/shape1.png" alt="">
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
-                            </div>                                        
-                        </div>
-                        <h5>Lowlands Lace Blouse</h5>
-                        <div class="btns">
-                            <a href="#" class="btn btn-add">add to cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>                                
+                <div class="sale">
+                    <div class="hdr-wrap">
+                        <hgroup>
+                            <h1 class="h1">On Sale</h1>
+                            <p>Only with us you can get a new model with a discount.</p>
+                        </hgroup>
+                    </div>
+                    <div class="owl-carousel sale-slider">
+                        <figure>
+                            <div class="lbl lbl-price3">$40</div>
+                            <div class="lbl lbl-discount">-45%</div>
+                            <img src="images/shape1.png" alt="">
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result" data-result="80"></div>
+                                </div>                                        
+                            </div>
+                            <h5>Sony VAIO Tap 20</h5>
+                            <div class="btns">
+                                <a href="#" class="btn btn-add">add to cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="lbl lbl-price3">$435</div>
+                            <div class="lbl lbl-discount">-30%</div>
+                            <img src="images/shape1.png" alt="">
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result" data-result="80"></div>
+                                </div>                                        
+                            </div>
+                            <h5>BenQ E2220HD</h5>
+                            <div class="btns">
+                                <a href="#" class="btn btn-add">add to cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="lbl lbl-price3">$19</div>
+                            <img src="images/shape1.png" alt="">
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result" data-result="80"></div>
+                                </div>                                        
+                            </div>
+                            <h5>Philips MP Digital Camera</h5>
+                            <div class="btns">
+                                <a href="#" class="btn btn-add">add to cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="lbl lbl-price3">$40</div>
+                            <img src="images/shape1.png" alt="">
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result" data-result="80"></div>
+                                </div>                                        
+                            </div>
+                            <h5>Lowlands Lace Blouse</h5>
+                            <div class="btns">
+                                <a href="#" class="btn btn-add">add to cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="lbl lbl-price3">$40</div>
+                            <img src="images/shape1.png" alt="">
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result" data-result="80"></div>
+                                </div>                                        
+                            </div>
+                            <h5>Lowlands Lace Blouse</h5>
+                            <div class="btns">
+                                <a href="#" class="btn btn-add">add to cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>                                
+                    </div>
                 </div>
             </div>
             <aside>
@@ -548,7 +595,7 @@
                             <img src="/images/truck.png" width="168" height="120" alt="">
                             <p>The offers is valid on all our store item!</p>
                         </li>
-                        <li class="sale">
+                        <li class="sales">
                             <h1>sale<br><span>Many items</span></h1>
                             <h3 class="box">
                                 <b>40</b>
@@ -569,21 +616,23 @@
             </aside>
         </div>
         <div class="manufacturers">
-            <hgroup>
-                <h1 class="h1">Manufacturers</h1>
-            </hgroup>
-            <div class="owl-carousel manufacturers-slider">
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-            </div>  
+            <div class="hdr-wrap">
+                <hgroup>
+                    <h1 class="h1">Manufacturers</h1>
+                </hgroup>
+                <div class="owl-carousel manufacturers-slider">
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                </div>  
+            </div>
         </div>
         <div class="tw-slider-wrap">
             <div class="flexslider tw-slider">
@@ -634,16 +683,46 @@
                         <address>
                             <span>United Kingdom</span>
                             <span>Greater London</span>
-                            <span>London  028587</span>
+                            <span>London  02587</span>
                             <span>Oxford Street 48/188</span>
                             <dl>
-                                <dt>Working days:</dt><dd>Mon. - Sun.</dd>
-                                <dt>Working hours:</dt><dd>9.00AM - 8.00PM</dd>
+                                <dt>Working days: </dt><dd>Mon. - Sun.</dd>
+                                <dt>Working hours: </dt><dd>9.00AM - 8.00PM</dd>
                             </dl>
                         </address>
                     </div>
                     <div>
                         <h5>facebook</h5>
+                        <div class="like-box-wrap">
+                            <span class="likes">1452 people like <a href="#">PromoKit</a></span>
+                            <button><span class="btn btn-likefinger"><i class="icon-likefinger"></i><em>Like!</em></span></button>
+                            <div class="like-box">
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Anna</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Tom</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Antuan</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Milla</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Justine</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Maria</span>
+                            </a>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>

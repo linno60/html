@@ -4,15 +4,19 @@
 <button><span class="btn btn-compare">compare</span></button>
 <button><span class="btn btn-range">ok</span></button>                        
 <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
+<button><span class="btn btn-likefinger"><i class="icon-likefinger"></i><em>Like !</em></span></button>
 <h2 class="_h">Links</h2>
 <a href="#" class="btn btn-account">create my account</a>
 <a href="#" class="btn btn-more">learn more</a>
 <a href="#" class="btn btn-add">add to cart</a>
 <a href="#" class="btn btn-add disabled">add to cart</a>
+<a href="#" class="btn btn-total-cart">cart</a>
+<a href="#" class="btn btn-total-check">checkout</a>
 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
 <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
 <a href="#" class="btn btn-hidden-menu"><i class="icon-hidden-menu"></i></a>
+<hr>
 <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
 <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
 <hr>
