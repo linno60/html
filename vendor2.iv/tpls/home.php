@@ -179,6 +179,7 @@
                                 </div>
                             </li>
                         </ul>
+                        <a href="#" class="btn btn-hidden-menu"><i class="icon-hidden-menu"></i></a>
                         <div class="quick-access">
                             <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
                             <div class="shopping-cart">
@@ -224,8 +225,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
+                            <form action="#" method="post">
+                                <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
                             <input type="search" class="input-search" placeholder="Search here">
+                            </form>
                         </div>
                     </nav>
                 </div>
@@ -235,7 +238,7 @@
             <a class="sequence-prev btn-prev"></a>
             <a class="sequence-next btn-next"></a>
             <ul class="sequence-canvas">
-                <li class="slide-one animate-in">
+<!--                <li class="slide-one animate-in">
                     <div class="slide-wrap">
                         <div class="model">
                             <div class="lbl lbl-price1">$1450</div>                                                        
@@ -252,7 +255,7 @@
                     <div class="slide-wrap">
                         <div class="title">                            
                             <h2 class="h2">the next big thing...</h2> 
-                            <p>Take, view and share photos with<br>
+                            <p>Take, view and share photos with
                                 the 13MP camera and stunning 5" display.</p>
                             <a href="#" class="btn btn-more">learn more</a>
                         </div>
@@ -262,7 +265,7 @@
                             <img class="transparent" src="images/slide2_1.png" alt="" width="357" height="559">
                         </div>
                     </div>
-                </li>
+                </li>-->
                 <li class="slide-three">
                     <div class="slide-wrap">
                         <div class="title">                            
@@ -285,6 +288,7 @@
                 <li><a href="#"></a></li>
             </ul>
         </div>
+
         <div class="wrap-base">
             <div class="content">
                 <hgroup>
@@ -712,6 +716,25 @@
                         </figure>                                
                     </div>
                 </div>
+                <div class="manufacturers hidden">
+            <div class="hdr-wrap">
+                <hgroup>
+                    <h1 class="h1">Manufacturers</h1>
+                </hgroup>
+                <div class="owl-carousel manufacturers-slider">
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                </div>  
+            </div>
+        </div>
             </div>
             <aside>
                 <div class="newsletter">
@@ -761,13 +784,13 @@
                         <li> 
                             <img src="/images/shape2.png" width="270" height="120" alt="">
                             <h5>35% Discount on second purchase!</h5>
-                            <p>Sed blandit nulla nec nunc ullamcorper tristique. Mauris adipiscing cursus ante ultricies dictum sed lobortis.</p>
+                            <p>Sed blandit nulla nec nunc ullam corper tristique. Mauris adipiscing cursus ante ultricies dictum sed lobortis.</p>
                             <div class="caption">
                                 <a href="#" class="lnk-read">Read More</a>
                                 <time>12.05.2013</time>
                             </div>
                             <h5>Free shipping for regular customers.</h5>
-                            <p>Aiquam mauris libero, suscipit sed ornare ac, suscipit non felis. Fusce sit amet orci justo, a ultrices urna cursus. Suspendisse mauris nibh, tristique eget consectetur a fermentum.</p>
+                            <p>Aiquam mauris libero, suscipit sed ornare ac, suscipit non felis. Fusce sit amet orci justo, a ultrices urna cursus. Suspendisse mauris nibh, tristique eget consectetur.</p>
                             <div class="caption">
                                 <a href="#" class="lnk-read">Read More</a>
                                 <time>12.05.2013</time>
@@ -832,8 +855,8 @@
                     </ul>
                 </div>
             </aside>
-        </div>
-        <div class="manufacturers">
+        </div> 
+        <div class="manufacturers visible">
             <div class="hdr-wrap">
                 <hgroup>
                     <h1 class="h1">Manufacturers</h1>
@@ -938,6 +961,18 @@
                                 <a href="#">
                                     <img src="/images/shape4.png" width="60" height="60" alt="">
                                     <span>Maria</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Antuan</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Milla</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Justine</span>
                                 </a>
                             </div>
                         </div>

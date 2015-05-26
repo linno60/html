@@ -286,13 +286,13 @@ h3 {
 @media only screen and (min-width: 992px) {
   #sequence .title {
     width: 42%; } }
-@media only screen and (max-width: 838px) {
+/*@media only screen and (max-width: 838px) {
   #sequence {
     height: 550px; }
     #sequence .model {
       max-height: 530px !important;
-      width: auto; } }
-@media only screen and (max-width: 768px) {
+      width: auto; } }*/
+/*@media only screen and (max-width: 768px) {
   #sequence {
     height: 500px; }
     #sequence .title {
@@ -305,12 +305,12 @@ h3 {
       margin-top: -40px; }
     #sequence .model {
       max-height: 480px !important;
-      width: auto; } }
-@media only screen and (max-width: 568px) {
+      width: auto; } }*/
+/*@media only screen and (max-width: 568px) {
   #sequence .model {
     left: 50%;
     min-width: 40%;
-    /*prevents the model from shrinking when the browser is resized*/
+    prevents the model from shrinking when the browser is resized
     width: 40%; }
   #sequence .animate-in .model {
     left: 50%;
@@ -336,7 +336,7 @@ h3 {
   #sequence .sequence-pagination {
     bottom: 40px; }
     #sequence .sequence-pagination li img {
-      height: 100px; } }
+      height: 100px; } }*/
 @media only screen and (max-width: 518px) {
   #sequence {
     height: 450px; } }

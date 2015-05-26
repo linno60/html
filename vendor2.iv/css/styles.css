@@ -437,7 +437,7 @@ button:hover .btn-add-lg, .btn-add:hover, .btn-more:hover, .btn-close:hover, but
     background-color:#575959;
     border: 1px solid #5b5f5d;
     height:43px;
-    font:15px "Arial";
+    font: 600 15px "Arial";
     padding:0 17px;
 }
 .btn-submit{
@@ -1517,6 +1517,11 @@ div[class*=lbl-price] span{
 .btn-cart:focus + .shopping-cart, .btn-cart:hover + .shopping-cart, .shopping-cart:focus, .shopping-cart:hover {
     display: block;
 }
+form{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
 .shopping-cart{
     display:none;
     position: absolute;
@@ -1631,6 +1636,9 @@ nav{
     display:flex;
     position:relative;
 }
+nav .hidden-menu{
+    display: none;
+}
 .nav-wrap{
     position: relative;
     background-color: #fff;   
@@ -1692,20 +1700,7 @@ nav{
 .nav > .nav-item a:hover + .nav-dropdown, .nav-dropdown:hover{
     visibility: visible; 
 }
-.wrap-base{ 
-    max-width: 1170px;
-    margin: auto;
-    padding:59px 0px 26px 0px;
-    display:flex;
-    justify-content:space-between;
-}
-.content { 
-    display: flex;
-    justify-content:flex-start;
-    align-items:flex-start;
-    flex-direction: column;
-    max-width:900px;
-}
+
 hgroup .h1:before{
     content:"";
     width: 4px;
@@ -1726,23 +1721,26 @@ hgroup p{
 }
 .content .tabs-home .tab-content{
     margin-top:32px;
-    width:auto;
 }
-.tabs-home .grid {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .tabs-home #tab1 + label{
     width:100px;
 }
 .tabs-home label{
     margin-right:-1px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-between;
+}
 figure {  
     border: 1px solid transparent;
     background-color: #fff;
     height: 400px;
-    flex: 1 1 25%;   
+    flex: 1 1 25%; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1750,6 +1748,26 @@ figure {
     padding:20px 20px 0px 20px;
     position:relative;
     margin: 0 30px 31px 0;
+}
+.wrap-base {
+    max-width: 1170px;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding:59px 0px 26px 0px;
+}
+.content {
+    width: 76.6%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    display: -webkit-flex;
+    display: flex;
+    width: 23.4%;
+    flex-direction: column;
 }
 figure .btn-hidden-add{
     display:none;
@@ -1885,7 +1903,9 @@ figure h5{
     z-index: 1;
     padding: 0 0 0 20px;
 }
-
+.manufacturers.hidden{
+    display:none;
+}
 
 .owl-controls .owl-buttons{
     background-color: #ffffff;    
@@ -1937,9 +1957,8 @@ figure h5{
 }
 .tw-slider{
     margin: auto;
-    height: 130px;
     max-width: 1170px;
-    padding:56px 100px 0px 84px;
+    padding:56px 100px 30px 84px;
     background: url(/images/twitter-bird.png) no-repeat -2px bottom;
 }
 .tw-slider .flex-direction-nav{
@@ -1973,11 +1992,7 @@ figure h5{
 }
 
 /*ASIDE*/
-aside {    
-    display: flex;
-    flex-basis:270px;
-    flex-direction: column;
-}
+
 .newsletter{
     border: 1px solid #dcdcdc;
     border-radius: 3px;
@@ -2199,7 +2214,6 @@ time{
     box-shadow: inset 0 1px 0 0 rgba(255,255,255,.38);
 }
 
-
 footer {
     background: #434545;
 }
@@ -2212,7 +2226,7 @@ footer {
     margin:auto;
     display:flex;
     justify-content:flex-start;
-    padding:74px 0px 70px 0px;
+    padding:74px 0px 78px 0px;
     position: relative;
 }
 .footer h5{
@@ -2265,7 +2279,7 @@ footer {
     position: relative;
     margin-top: 25px;
 }
-.like-box-wrap .btn-likefinger{
+.like-box-wrap button{
     position: absolute;
     top: -54px;
     right: 40px;
@@ -2282,6 +2296,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-top: 11px;
+    max-height:190px;
+    overflow: hidden;
 }
 .footer .like-box a{
     margin: 0 25px 11px 0;
@@ -2296,9 +2312,23 @@ footer {
 .footer .like-box a:hover span{
     color: #ffffff;
 }
-@media screen and (max-width: 940px) {   
+
+
+@media screen and (max-width: 1044px) { 
     .hidden-desktop {
         display:none;
+    }
+    .login{
+        text-transform: capitalize;
+    }
+}
+@media screen and (max-width: 940px) {  
+
+    .selectboxit-container .selectboxit{  
+        padding:0 8px 0 9px;
+    }
+    .btn-cart {
+        margin-left: 5px;
     }
     figure:hover .btn-hidden-add {
         display: flex;
@@ -2309,14 +2339,15 @@ footer {
     figure .btn-like {
         margin: 0 10px 0 10px;
     }
-    .login{
-        text-transform: capitalize;
-    }
+
     .logo{
         left:-35px;
     }
     .top-bar{
-        width: 940px;
+        width: 100%;
+    }
+    .quick-access button:focus + .input-search{
+        display: flex;
     }
     .input-search{
         display:none;
@@ -2325,55 +2356,118 @@ footer {
         height: 483px;
     }
     #sequence .slide-one .model img{
-        max-height: 480px !important;
-        max-width: 530px;
-        top: -2%;
+        max-height: 535px !important;
+        max-width: 520px;
+        top: -9%;
     } 
-    #sequence .slide-one .lbl.lbl-price1{
+    #sequence .lbl.lbl-price1{
         width: 116px;
         height: 116px;
         font-size: 25px;
-        left: 26.2%;
+    }
+    #sequence .slide-one .lbl.lbl-price1{
+        left: 25.7%;
         top: 3%;
+    }
+    #sequence .slide-two .lbl.lbl-price1{
+        left: 27.5%;
+        top: 9.0%;
+    }
+    #sequence .slide-two .model .balls{
+        height: 380px !important;
+        width: 645px;
+        top: 4%;
+        left: -1.1%;
+    } 
+    #sequence .slide-two .model .transparent{
+        height: 450px !important;
+        width: 290px;   
+        top: 5.5%;
+        left: 32.5%;
+    }
+    #sequence .slide-three .title {
+        top: 6.4%;
+        left: 0%;
+        width: 70%;
+    }
+    #sequence .slide-three .title .h2{
+        font-size:33px;
+        margin-bottom:13px;
+    }
+    #sequence .slide-three .title p {
+        font: 26px/28px "Gudea";
+        margin-bottom: 16px;
+    }
+    #sequence .slide-three .man{
+        max-height: 328px !important;
+        max-width: 436px;
+        bottom:19.5%;
+        left: 0.1%;
+    } 
+    .slide-three .img-1 {
+        top: 44%;
+        left: 53.8%;
+        max-height: 118px !important;
+        max-width: 62px;
+    }
+    .slide-three .img-2 {
+        top: 35%;
+        left: 61.6%;
+        max-height: 165px !important;
+        max-width: 81px;
+    }
+    .slide-three .img-3 {
+        top: 13%;
+        left: 69.3%;
+        max-height: 294px !important;
+        max-width: 299px;
     }
     .sequence-pagination {
         left: 50%;
-        transform: translateX(-5%);
+        transform: translateX(-7%);
         bottom: 3.8%;
     }
     .slide-one .title{
-        left:64.4%;
+        left:63.2%;
         top: 26.2%;
     }
+    .slide-two .title {
+        top: 24%;
+        left: 65.1%;
+    }
     .slide-one .title p{
-        color: #707170;
         font: 26px/28px "Gudea";
         width:350px;
         margin-bottom:15px;
     }
+    .slide-two .title .h2{
+        margin-bottom:16px;
+    }
+    .slide-two .title p{
+        width:350px;
+        font: 22px/27px "Gudea";
+        margin-bottom: 15px;
+    }
     .wrap-base {
-        padding: 67px 0px 13px 0px;
+        padding: 67px 0px 33px 0px;
     }
     hgroup .h1 {
         font-size: 40px;
-        margin:2px 0 4px 0;
+        margin:2px 0 3px 0;
     }
     hgroup p {
-        margin-bottom: 16px;
-        color: #999;
+        margin-bottom: 15px;
         font: 16px "PT Sans";
     }
     figure {  
         padding:15px 14px 0px 14px;
         margin: 0 20px 31px 0;
         height: 367px;
+        flex: 1 1 25%;
     }
     figure img{
         width: 190px!important;
         height: 190px;
-    }
-    aside {
-        flex-basis: 253px;
     }
     .content .tabs-home .tab-content {
         margin-top: 24px;
@@ -2381,6 +2475,7 @@ footer {
     }
     .tabs-home label{
         width: 100px;
+        font-size: 13px;
     }
     figure .ratings-container {
         margin: 15px 0px 12px 0px;
@@ -2438,12 +2533,15 @@ footer {
         top: -82px;
         right: -10px;
     }
+    .sale figure .lbl.lbl-new, .sale figure .lbl.lbl-discount {
+        left: 14px;
+    }
     .manufacturers-slider .owl-controls .owl-buttons {
-        top: -42px;
-        right: -17px;
+        top: -41px;
+        right: 0px;
     }
     .newsletter {
-        padding: 16px 5px 25px 5px;
+        padding: 15px 5px 24px 5px;
         margin: 3px 0px 70px 0px;
     }
     .newsletter .h3 {
@@ -2454,10 +2552,11 @@ footer {
         font-size: 14px;
         letter-spacing: -0.2px;
         line-height: 17px;
+        padding:0 5px;
     }
     .newsletter .input-newsletter {
-        width:168px;
-        margin: 20px 0px 15px 0px;
+        width:178px;
+        margin: 21px 5px 14px 5px;
         font-size: 13px;
     }
     .input-newsletter::-webkit-input-placeholder {
@@ -2472,15 +2571,48 @@ footer {
     .newsletter .btn-submit {
         font: 14px "Arial";
         height: 34px;
-        padding: 0 22px;
+        padding: 0 23px;
     }
     .h4 {
         font-size: 22px;
     }
-    .bq-slider {
-        color: #8e9290;
-        font:14px/16px "Arial";
+    .testimonials {
+        margin-bottom: 58px;
+    }
+    .testimonials .bq-slider {
+        padding: 20px 5px 33px 36px;
+        font:13px/17px "Arial";
+        letter-spacing:0.45px;
         background: #f6f6f6 url("/images/icons/20x20/quote-small.png")no-repeat 7px 25px;
+    }
+    .testimonials .bq-slider h6 {
+        font: 600 20px "PT Sans";
+        margin-bottom: 11px;
+        letter-spacing: -0.16px;
+    }
+    .bq-slider::after {
+        left: 33px;
+    }
+    .news .caption {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 34px;
+    }
+    .news img{
+        width:220px;
+        height: 98px;
+    }
+    .news {
+        margin-bottom: 12px;
+    }
+    .news h5 {
+        font: 600 18px/22px "PT Sans";
+        margin: 13px 0px 12px 0;
+    }
+    .news p {
+        font: 14px/19px "Arial";
+        letter-spacing: -0.1px;
+        margin-bottom: 9px;
     }
     .avatar{
         flex-basis: 80px;
@@ -2491,17 +2623,821 @@ footer {
     }
     .flex-direction-nav {
         top: 0px;
-        right: -16px;
+        right: 0px;
     }
     .flex-direction-nav li a {
         width: 30px;
         height: 22px;
     }
+    .banners ul li{
+        height: 326px;
+        padding: 18px 10px 20px 12px;
+    }
+    .shipping h1 {
+        font: 600 50px/38px "PT Sans";
+    }
+    .shipping h1 span {
+        font: 600 36px "Gudea";
+    }
+    .shipping img + p {
+        font: 15px/18px "Arial";
+        margin: 11px 2px 0px 0px;
+        letter-spacing: 0.2px;
+    }
+    .shipping h1 + p {
+        font: 600 20px/12px "PT Sans";
+        margin: 0px 0px 31px 0px;
+    }
+    .shipping img{
+        width:131px;
+        height: 94px;
+        margin-right:1px;
+    }
+    .sales h1 {
+        font: 70px/31px "Oswald";
+        margin: 16px 0px 12px 0px;
+    }
+    .sales h3 b {
+        font: 600 96px/90px "Arial";
+        letter-spacing: 0px;
+    }
+    .sales h3 sup {
+        margin: 30px 2px 1px 0px;
+        font: 600 53px/5px "Verdana";
+    }
+    .sales h3 sub {
+        font: 600 29px/5px "Arial";
+    }
+    .sales p {
+        font: 13px/18px "Arial";
+        margin: 14px 15px 0px;
+        letter-spacing: 0.4px;
+    }
+    .offer h1 {
+        font: 50px/50px "Oswald";
+        margin: 4px 0px 28px 0;
+    }
+    .offer p {
+        font: 600 15px/20px "PT Sans";
+    }
     .manufacturers-slider {
-        padding: 44px 0px 87px 0px;
+        padding: 45px 0px 87px 1px;
+    }
+    .manufacturers .owl-item {
+        width: 192px !important;
+    }
+    .tw-slider {
+        padding: 55px 70px 0px 69px;
+        letter-spacing: 0.15px;
+    }
+    .tw-slider p, .tw-slider p a {
+        font: 15px "Arial";
+    }
+    .tw-slider .flex-direction-nav {
+        top: 55px;
+        right: 3px;
+    }
+    .tw-slider .flex-direction-nav li a{
+        margin: 0px 0px 0px 7px;
+    }
+    .footer > div {
+        flex-basis: 295px;
+    }
+    .footer .like-box a {
+        margin: 0px 0px 11px 0px;
+    }
+    .footer .like-box {
+        justify-content: space-between;
+    }
+    .like-box-wrap {
+        margin-top: 24px;
+    }
+    .like-box-wrap button{
+        top: -55px;
+        right: -3px;
     }
     .footer-bottom span {
-        font: 13px "Arial";
+        font: 12px "Arial";
         letter-spacing: 0.36px;
+    }
+    .footer h5 {
+        color: #E3E3E3;
+        font: 19px "Oswald";
+        text-transform: uppercase;
+        margin-bottom: 17px;
+        letter-spacing: 0.6px;
+    }
+}
+@media screen and (max-width: 886px) {
+    .top-bar-links a {
+        margin: 0px 10px 0px 0px;
+    }
+}
+@media screen and (max-width: 802px) {
+    .top-bar-drops p{
+        position:absolute;
+        top:40px;
+        right: -1px;
+        padding: 4px 0 0 0;
+        font-size: 14px;       
+    }
+}
+@media screen and (max-width: 724px) {
+
+    .top-bar-links a {
+        margin: 0px 27px 0px 0px;
+    }
+    .support{
+        display:none;
+    }
+    .logo{
+        left:-20px;
+    }
+    .nav-wrap::after {
+        top: -20px;
+    }
+    .quick-access{
+        position: absolute;
+        top: -88px;
+        right: 0px;
+        z-index: 10001
+    }
+    .nav {
+        height: 80px;
+    }
+    .nav > .nav-item > a {
+        padding: 13px 15px 0px 0px;
+    }
+    #sequence{
+        height: 372px;
+    }
+    #sequence .slide-one .model img{
+        max-height: 420px !important;
+        max-width: 400px;
+        top: -9.5%;
+    } 
+    #sequence .lbl.lbl-price1{
+        width: 104px;
+        height: 104px;
+        font-size: 23px;
+    }
+    #sequence .slide-one .lbl.lbl-price1{
+        left: 80.5%;
+        top: 2.8%;
+    }
+    #sequence .slide-two .lbl.lbl-price1{
+        left: 83.5%;
+        top: 8.5%;
+    }
+    #sequence .slide-two .model .balls{
+        height: 292px !important;
+        width: 497px;
+        top: 4%;
+        left: -1.5%;
+    } 
+    #sequence .slide-two .model .transparent{
+        height: 345px !important;
+        width: 223px;   
+        top: 5.4%;
+        left: 106.8%;
+    }
+    #sequence .slide-three .title {
+        top: 5.3%;
+        left: 7%;
+    }
+    #sequence .slide-three .title .h2{
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    #sequence .slide-two .title .h2{
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    #sequence .slide-two .title p{
+        font: 18px/22px "Gudea";
+        width: 250px;
+    }
+    #sequence .slide-three .title p{
+        font: 23px/28px "Gudea";
+        width: 80%;
+        margin-bottom: 13px;
+    }
+    #sequence .slide-three .man{
+        max-height: 270px !important;
+        max-width: 340px;
+        bottom: 38%;
+        left: 5%;
+    } 
+    .slide-three .img-1 {
+        top: 34%;
+        left: 53.2%;
+        max-height: 92px !important;
+        max-width: 48px;
+    }
+    .slide-three .img-2 {
+        top: 27%;
+        left: 60.6%;
+        max-height: 129px !important;
+        max-width: 63px;
+    }
+    .slide-three .img-3 {
+        top: 8%;
+    }
+    #sequence .sequence-next, #sequence .sequence-prev {
+        height: 45px;
+        top: 54.7%;
+    }
+    .btn-next{
+        background-position: 20px center;
+        width: 39px;
+    }
+    .btn-prev{
+        background-position: 2px center;
+        width: 39px;
+    }
+    .sequence-pagination {
+        left: 50%;
+        transform: translateX(-9%);
+        bottom: 4.9%;
+    }
+    .slide-one .title{
+        left:57.1%;
+        top: 17.5%;
+    }
+    .slide-two .title{
+        left: 61.2%;
+        top: 16.9%;
+    }
+    .title{
+        width:40%;
+    }
+    .slide-one .title .h2{
+        font-size:32px;
+        margin-bottom: 13px;
+    }
+    .slide-one .title p{
+        font: 23px/28px "Gudea";
+        width:250px;
+        margin-bottom:18px;
+    }
+    #sequence .btn-more {
+        height: 40px;
+        font: 600 14px "Arial";
+    }
+    .wrap-base {
+        padding: 47px 0px 11px 1px;
+    }
+    hgroup .h1 {
+        font-size: 38px;
+        margin:3px 0 10px 0;
+    }
+    hgroup p {
+        margin-bottom: 14px;
+        font: 15px/18px "PT Sans";
+    }
+    .tabs-home label{
+        width: 84px;
+        font-size: 12px;
+        margin-right:1px;
+    }
+    .tabs-home #tab1 + label {
+        width: 84px;
+    }
+    .content {
+        width: 68.5%;
+        padding-right:27px;
+    }
+    aside {
+        width: 31.5%;
+    }
+    figure{
+        margin:0px 9px 0px -4px;
+    }
+    .tab-pane{
+        max-height:740px;
+        overflow: hidden;
+    }
+    .welcome {
+        flex-direction: column;
+        margin: 47px 0px 82px 0;
+    }
+    .welcome img {
+        justify-content: flex-start;
+        margin: -80px 0px 0px 50px;
+        flex: auto;
+        height: 257px;
+        width:340px;
+    }
+    .welcome hgroup {
+        margin-bottom: 22px;
+    }
+    .welcome p {
+        text-indent: 16px;
+        font:15px/22px "Arial";
+        letter-spacing: 0.2px;
+        padding: 0px 10px 8px 0px;
+    }
+    .sale hgroup .h1 {
+        margin: 3px 0px 6px 0;
+    }
+    .sale-slider .owl-controls .owl-buttons {
+        right: -17px;
+    }
+    .manufacturers-slider {
+        padding: 39px 0px 90px 0px;
+    }
+    .manufacturers-slider .owl-item{
+        height:98px;
+    }
+    .manufacturers .owl-item {
+        width: 186px !important;
+    }
+    .tw-slider {
+        padding: 34px 100px 0px 62px;
+        letter-spacing: 0.15px;
+    }
+    .tw-slider .flex-direction-nav {
+        top: 57px;
+        right: -10px;
+    }
+    .footer > div {
+        flex-basis: 33.33%;
+    }
+    .footer > div:last-child {
+        flex-basis: 100%;
+        margin: 38px 0 0 0;
+    }
+    .footer {
+        flex-wrap: wrap;
+        padding: 74px 0px 30px 0px;
+    }
+    .footer .like-box a {
+        margin: 0px 20px 11px 0;
+    }
+    .footer .like-box {
+        justify-content: flex-start;
+    }
+    .footer-bottom span{
+        max-width: 33%;
+        margin-right:-18px;
+    }
+}
+@media screen and (max-width: 685px) {
+    .top-bar-links a {
+        margin: 0px 10px 0px 0px;
+    }
+    .top-bar {
+        padding:0 10px;
+    }
+    .tabs-home label{
+        margin-bottom:5px;
+    } 
+}
+@media screen and (max-width: 616px) {
+    .top-bar-links a {
+        margin: 0px 10px 0px 0px;
+        font-size:0px;
+        border-left: 1px solid #dcdcdc;
+        margin: 0px;
+    }
+    .top-bar-links a:last-child {
+        border-right: 1px solid #dcdcdc;
+    }
+    .top-bar-links a i {
+        margin:0px 11px 0 13px;
+    }
+    #sequence {
+        height: 164px;
+    }
+    #sequence .sequence-next, #sequence .sequence-prev {
+        height: 38px;
+        top: 68%;
+        width:51px;
+    }
+    .btn-next{
+        background-position: 15px center;
+    }
+    .btn-prev{
+        background-position: 18px center;
+    }
+    #sequence .lbl.lbl-price1 {
+        width: 70px;
+        height: 70px;
+        font-size: 17px;
+    }
+    #sequence .slide-one .lbl.lbl-price1 {
+        left:115%;
+        top:0.2%;
+    }
+    #sequence .slide-one .model img{
+        max-height: 180px !important;
+        max-width: 200px;
+        top: -1%;
+        left:20%;
+    } 
+    #sequence .slide-one .title {
+        top: 11%;
+        left: 43%;
+        width: 50%;
+    }
+    #sequence .title .h2, #sequence .slide-two .title .h2, #sequence .slide-three .title .h2{
+        font: 20px/24px "Oswald";
+        letter-spacing:0.6px;
+        margin-bottom: 7px;
+    }
+    #sequence .title p{
+        display:none;
+    }
+    #sequence .title .btn{
+        height: 28px;
+        font-size: 11px;
+        padding: 0 6px;
+        letter-spacing: 0.5px;
+        margin-left: 1px;
+        border-radius: 1px;
+    }
+    #sequence .slide-two .lbl.lbl-price1 {
+        width: 58px;
+        height: 58px;
+        font-size: 15px;
+        left:105%;
+        top:8px;
+    }
+    #sequence .slide-two .model .balls{
+        height: 130px !important;
+        width: 218px;
+        top: 1.5%;
+        left: 53%;
+    } 
+    #sequence .slide-two .model .transparent{
+        height: 151px !important;
+        width: 98px;   
+        top: 2%;
+        left: 128%;
+    }
+    #sequence .slide-two .title {
+        top: 9.3%;
+        left: 41.9%;
+        width: 50%;
+    }
+    #sequence .slide-three .title {
+        top: 1.5%;
+        left: 18.7%;
+        width: 60%;
+    }
+    #sequence .slide-three .man{
+        max-height: 80px !important;
+        max-width: 100px;
+       bottom: -100%;
+       top: 15%;
+       left: 18%;
+    } 
+    .slide-three .img-1 {
+        top: 15%;
+        left: 61%;
+        max-height: 40px !important;
+        max-width: 22px;
+    }
+    .slide-three .img-2 {
+        top: 11.5%;
+        left: 65%;
+        max-height: 60px !important;
+        max-width: 30px;
+    }
+    .slide-three .img-3 {
+        top: 4.2%;
+        left: 69%;
+        max-height: 150px !important;
+        max-width: 100px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .wrap-base{
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+        padding-right: 0px;
+    }
+    aside {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 414px) {
+    .quick-access{
+        position:static;    
+    }
+    nav .hidden-menu{
+        display: flex;
+    }
+    .nav{
+        display:none;
+    }
+    .header {
+        height: 221px;
+    }
+    form{
+        position: absolute;
+        top:-48px;
+        right:37px;
+    }
+    .input-search{
+        display:flex;
+        width:200px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .selectboxit-container .selectboxit {
+        width:50px !important;
+    }
+    .selectboxit-container .selectboxit {
+        padding: 0px 11px 0px 9px;
+    }
+    #currencySelectBoxItContainer.selectboxit-container span {
+        text-indent: 0px;
+    }
+    #currencySelectBoxItText {
+        white-space: nowrap;
+        word-spacing: -4px;
+        padding: 0px 2px 0px 2px;
+    }
+    #languageSelectBoxItContainer.selectboxit-container .selectboxit {
+        padding: 0px 3px 0px 2px;
+    }
+    .selectboxit-text {
+        text-overflow: clip;    
+    }
+    .top-bar-drops p {
+        right: 9px;
+        padding: 5px 0px 0px 0px;
+        font-size: 15px;
+        letter-spacing: 0.25px;
+    }
+    .logo {
+        left: 41px;
+        top:74px;
+    }
+    nav {
+        align-items: center;
+    }
+#sequence .slide-three .man{
+       
+    } 
+    .slide-three .img-1 {
+        left: 152%;
+    }
+    .slide-three .img-2 {
+        left: 165%;
+    }
+    .slide-three .img-3 {
+        left: 180%;
+    }
+    .wrap-base {
+        padding: 45px 10px 11px 10px;
+    }
+    hgroup .h1 {
+        font-size: 30px;
+        margin: 3px 0px 8px;
+    }
+    hgroup .h1::before {
+        height: 26px;
+        margin-right: 4px;
+    }
+    hgroup p {
+        margin:0 12px 19px 0;
+        font: 14px/16px "PT Sans";
+    }
+    figure img {
+        width: 228px !important;
+        height: 228px;
+    }
+    figure {
+        padding: 20px 20px 17px 20px;
+        margin: 0px 10px 31px 0px;
+        height: auto;
+    }
+    .content .tabs-home .tab-content {
+        margin-top: 14px;
+    }
+    figure .ratings-container {
+        margin: 20px 0px 12px;
+    }
+    .tab-pane {
+        max-height: 100%;
+        overflow: visible;
+    }
+    figure h5 {
+        margin: 0px 15px 16px 15px;
+    }
+    .welcome {
+        margin: 45px 0px 88px 0px;
+    }
+    .welcome p {
+        font: 16px/22px "Arial";
+        letter-spacing: 0px;
+        padding: 0px 0px 8px 0px;
+    }
+    .welcome img {
+        margin: 36px 5px 0px 0px;
+        flex: 1 1 auto;
+        height: 226px;
+        width: 342px;
+    }
+    .manufacturers.visible{
+        display:none;
+    }
+    .manufacturers.hidden{
+        display:block;
+        margin:34px 0px 0px 0px;
+    }
+    .manufacturers-slider {
+        padding: 30px 0px 87px 0px;
+    }
+    .manufacturers .manufacturers-slider .owl-item {
+        height: 82px;
+        width: 160px !important;
+    }
+    .manufacturers .manufacturers-slider .owl-item img{
+        width: 140px !important;
+        height: 82px;
+    }
+    .newsletter {
+        padding: 46px 20px 44px 20px;
+        margin: 3px 0px 70px;
+    }
+    .newsletter .h3 {
+        font: 30px/35px "Oswald";
+        margin-bottom: 17px;
+    }
+    .newsletter p {
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 23px;
+    }
+    .newsletter .input-newsletter {
+        width: 230px;
+        margin: 35px 5px 19px 5px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .input-newsletter::-webkit-input-placeholder {font-size:15px;}
+    .input-newsletter::-moz-placeholder {font-size:15px;}
+    .input-newsletter::-ms-input-placeholder {font-size:15px;}
+    .newsletter .btn-submit {
+        font: 17px "Arial";
+        height: 45px;
+        padding: 0px 27px;
+    }
+    .h4 {
+        font-size: 25px;
+    }
+    .testimonials {
+        margin-bottom: 67px;
+    }
+    .testimonials .bq-slider {
+        padding: 16px 15px 46px 44px;
+        max-width:100%;
+        margin-bottom:29px;
+        background: #F6F6F6 url("/images/icons/quote.png") no-repeat scroll 9px 20px;
+    }
+    .testimonials .bq-slider h6 {
+        font: 600 23px "PT Sans";
+        margin-bottom: 7px;
+    }
+    .testimonials .bq-slider:after {
+        left: 23px;
+    }
+    .testimonials .bq-slider{
+        font: 16px/23px "Arial";
+        letter-spacing: -0.03px;
+    }
+    .testimonials .h4, .news .h4 {
+        margin-bottom: 20px;
+    }
+    .avatar img {
+        width: 70px;
+        height: 70px;
+    }
+    .avatar {
+        flex-basis: 88px;
+    }
+    .news {
+        margin-bottom: 27px;
+    }
+    .news img {
+        width: 300px;
+        height: 133px;
+    }
+    .news h5 {
+        font: 600 20px/25px "PT Sans";
+        margin: 12px 5px 10px 0px;
+    }
+    .news p {
+        font: 16px/23px "Arial";
+        letter-spacing: -0.08px;
+        margin:0 15px 12px 0px;
+    }
+    .news .caption {
+        margin-bottom: 39px;
+    }
+    .banners{
+        margin-bottom: 89px;
+    }
+    .banners ul li {
+        height: 444px;
+        padding: 36px 10px 20px 12px;
+    }
+    .shipping h1{
+        font: 600 60px/37px "PT Sans";
+    }
+    .shipping h1 span{
+        font: 600 38px "Gudea";
+    }
+    .shipping p{
+        font: 16px/19px "Arial";
+        margin: 29px 2px 0 0;
+    }
+    .shipping h1 + p{
+        font:600 22px/26px "PT Sans";
+        margin: 0 0 32px 0;
+    }
+    .shipping img {
+        width: 195px;
+        height: 140px;
+    }
+    .shipping img + p {
+        font: 16px/19px "Arial";
+        margin: 28px 25px 0px 25px;
+        letter-spacing: 0px;
+    }
+    .tw-slider {
+        max-width: 1170px;
+        padding: 45px 10px 31px 71px;
+        background: transparent url("/images/twitter-bird.png") no-repeat scroll 9px bottom;
+    }
+    .tw-slider p, .tw-slider p a {
+        font: 16px/23px "Arial";
+        letter-spacing:-0.05px;
+    }
+    .tw-slider time {
+        font: italic 14px/48px "Arial";
+    }
+    .tw-slider .flex-direction-nav {
+        top: auto;
+        right: 11px;
+        bottom: 42px;
+    }
+    .tw-slider .flex-direction-nav li a {
+        margin: 0px 0px 0px 14px;
+    }
+    .footer {
+        flex-wrap: wrap;
+        padding: 60px 0px 62px 0px;
+    }
+    .footer h5 {
+        font: 23px "Oswald";
+        margin-bottom: 16px;
+        letter-spacing: 0.6px;
+    }
+    .footer > div {
+        flex-basis: 100%;
+        margin-bottom: 48px;
+        padding: 0px 10px 0px 9px;
+    }
+    .footer > div:last-child {
+        margin-top: 7px;
+        padding: 0px 2px 0px 10px;
+    }
+    .list-footer li a {
+        font: 17px "Gudea";
+    }
+    .footer .like-box a {
+        margin: 0px 8px 23px 0px;
+    }
+    .footer .like-box {
+        justify-content: space-between;
+    }
+    .footer-bottom {
+        padding: 26px 20px;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    .footer-bottom > div{
+        width:100%;
+        flex-wrap: wrap;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-social{
+        margin:0 4px 20px 4px;
+    }
+    .footer-bottom span {
+        max-width: 80%;
+        text-align:center;
+        margin: 7px 0px 0 1px;
+        font: 12px/18px "Arial";
     }
 }
