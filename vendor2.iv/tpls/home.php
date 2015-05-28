@@ -21,12 +21,12 @@
             <div class="top-bar-wrap">
                 <div class="top-bar">
                     <div class="top-bar-links">
-                        <a href="#"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
-                        <a href="#"><i class="icon-topbar-user"></i>My Account</a>
-                        <a href="#"><i class="icon-topbar-cart"></i>Shopping Cart</a>
-                        <a href="#"><i class="icon-topbar-checkout"></i>Checkout</a>
+                        <a href="#" data-tooltip="MyWishlist(0)"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
+                        <a href="#" data-tooltip="My&nbsp;Account"><i class="icon-topbar-user"></i>My Account</a>
+                        <a href="#" data-tooltip="Shopping&nbsp;Cart"><i class="icon-topbar-cart"></i>Shopping Cart</a>
+                        <a href="#" data-tooltip="Checkout"><i class="icon-topbar-checkout"></i>Checkout</a>
                     </div>
-                    <div class="top-bar-drops">
+                    <form method="post" action="#" class="top-bar-drops">
                         <p><span class="hidden-desktop">Welcome visitor you can </span><a href="#" class="login">login</a> or <a href="#">create an account</a>.</p>                        
                         <select id="currency" class="select-top">
                             <option value="Euro">Euro</option>
@@ -38,7 +38,18 @@
                             <option value="French" data-icon="icon-flag-fr">French</option>
                             <option value="German" data-icon="icon-flag-ge">German</option>
                         </select>
-                    </div>                
+                        <select id="currency-phone" class="select-top">
+                            <option value="Euro">EUR</option>
+                            <option value="Pound St.">GBP</option>
+                        </select>
+                        <select id="language-phone" class="select-top">
+                            <option value="Italian" data-icon="icon-flag-it">It</option>
+                            <option value="Spanish" data-icon="icon-flag-sp">Sp</option>
+                            <option value="French" data-icon="icon-flag-fr">Fr</option>
+                            <option value="German" data-icon="icon-flag-ge">Ge</option>
+                        </select>
+                    </form>
+
                 </div>            
             </div>
             <div class="header">
@@ -179,7 +190,96 @@
                                 </div>
                             </li>
                         </ul>
-                        <a href="#" class="btn btn-hidden-menu"><i class="icon-hidden-menu"></i></a>
+                        <div class="menu-hidden-wrap">
+                            <input type="checkbox" id="menu" name="menu">
+                            <label for="menu"><span>menu</span><div class="btn btn-hidden-menu"><i class="icon-hidden-menu"></i></div></label>
+                            <div class="menu-hidden">  
+                                <input type="checkbox" id="acc1" name="accordion">
+                                <label for="acc1">fashion</label>
+                                <div class="inner">
+                                    <input type="checkbox" id="ac1" name="accordion-inner">
+                                    <label for="ac1">clothing</label>
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Jeans & Trousers</a></li>
+                                        <li><a href="#">Blouses & Shirts</a></li>
+                                        <li><a href="#">Tops & T-Shirts</a></li>
+                                        <li><a href="#">Jackets & Coats</a></li>
+                                        <li><a href="#">Skirts</a></li>
+                                    </ul>
+                                    <input type="checkbox" id="ac2" name="accordion-inner">
+                                    <label for="ac2">accessories</label>
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Formal Shoes</a></li>
+                                        <li><a href="#">Casual Shoes</a></li>
+                                        <li><a href="#">Sandals</a></li>
+                                        <li><a href="#">Boots</a></li>
+                                        <li><a href="#">Wide Fit</a></li>
+                                        <li><a href="#">Slippers</a></li>
+                                    </ul>
+                                    <input type="checkbox" id="ac3" name="accordion-inner">
+                                    <label for="ac3">shoes</label>
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Bags & Purses</a></li>
+                                        <li><a href="#">Belts</a></li>
+                                        <li><a href="#">Gloves</a></li>
+                                        <li><a href="#">Jewellery</a></li>
+                                        <li><a href="#">Sunglasses</a></li>
+                                        <li><a href="#">Hair Accessories</a></li>
+                                    </ul>
+                                    <input type="checkbox" id="ac4" name="accordion-inner">
+                                    <label for="ac4">maternity</label>
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Tops & Skirts</a></li>
+                                        <li><a href="#">Jeans</a></li>
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Trousers & Shorts</a></li>
+                                        <li><a href="#">Knitwear</a></li>
+                                        <li><a href="#">Jackets & Coats</a></li>
+                                    </ul>
+                                    <input type="checkbox" id="ac5" name="accordion-inner">
+                                    <label for="ac5">sports</label>
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Sport Tops & Vests</a></li>
+                                        <li><a href="#">Hoodies</a></li>
+                                        <li><a href="#">Swimwear</a></li>
+                                        <li><a href="#">Footwear</a></li>
+                                        <li><a href="#">Sports Underwear</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                    </ul>
+                                </div>
+                                <input type="checkbox" id="acc2" name="accordion">
+                                <label for="acc2">electronics</label>
+                                <div class="inner">
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Dresses</a></li>
+                                    </ul>
+                                </div>
+                                <input type="checkbox" id="acc3" name="accordion">
+                                <label for="acc3">music</label>
+                                <div class="inner">
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Dresses</a></li>
+                                    </ul>
+                                </div>
+                                <input type="checkbox" id="acc4" name="accordion">
+                                <label for="acc4">gifts</label>
+                                <div class="inner">
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Dresses</a></li>
+                                    </ul>
+                                </div>
+                                <input type="checkbox" id="acc5" name="accordion">
+                                <label for="acc5">books</label>
+                                <div class="inner">
+                                    <ul class="list list-lnk list-nav">
+                                        <li><a href="#">Dresses</a></li>
+                                    </ul>
+                                </div>
+                                <label><a href="#">at home</a></label>
+                            </div>
+                        </div>
+
                         <div class="quick-access">
                             <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
                             <div class="shopping-cart">
@@ -225,9 +325,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <form action="#" method="post">
+                            <form action="#" method="post" class="search">
                                 <button><span class="btn btn-search"><i class="icon-search"></i></span></button>
-                            <input type="search" class="input-search" placeholder="Search here">
+                                <input type="search" class="input-search" placeholder="Search here">
                             </form>
                         </div>
                     </nav>
@@ -250,7 +350,7 @@
                             <a href="#" class="btn btn-more">learn more</a>
                         </div>
                     </div>                    
-                </li>
+                </li>-->
                 <li class="slide-two">
                     <div class="slide-wrap">
                         <div class="title">                            
@@ -265,7 +365,7 @@
                             <img class="transparent" src="images/slide2_1.png" alt="" width="357" height="559">
                         </div>
                     </div>
-                </li>-->
+                </li>
                 <li class="slide-three">
                     <div class="slide-wrap">
                         <div class="title">                            
@@ -717,24 +817,24 @@
                     </div>
                 </div>
                 <div class="manufacturers hidden">
-            <div class="hdr-wrap">
-                <hgroup>
-                    <h1 class="h1">Manufacturers</h1>
-                </hgroup>
-                <div class="owl-carousel manufacturers-slider">
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                    <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
-                </div>  
-            </div>
-        </div>
+                    <div class="hdr-wrap">
+                        <hgroup>
+                            <h1 class="h1">Manufacturers</h1>
+                        </hgroup>
+                        <div class="owl-carousel manufacturers-slider">
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                            <div><img src="/images/brand.png" width="170" height="100" alt=""></div>
+                        </div>  
+                    </div>
+                </div>
             </div>
             <aside>
                 <div class="newsletter">
@@ -1009,6 +1109,15 @@
 
             $("#language").selectBoxIt({
                 defaultText: "English",
+                defaultIcon: "icon-flag-uk"
+            });
+
+            $("#currency-phone").selectBoxIt({
+                defaultText: "USD"
+            });
+
+            $("#language-phone").selectBoxIt({
+                defaultText: "En",
                 defaultIcon: "icon-flag-uk"
             });
 
