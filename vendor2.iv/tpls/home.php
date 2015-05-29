@@ -9,8 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css'>
         <link type="text/css" rel="stylesheet" href="/css/reset.css">
         <link type="text/css" rel="stylesheet" href="/css/reset-elements.css">
-        <link type="text/css" rel="stylesheet" href="http://gregfranko.com/jquery.selectBoxIt.js/css/jquery.selectBoxIt.css" />
-        <link type="text/css" rel="stylesheet" href="/js/juery/plugins/selectBoxIt/src/stylesheets/jquery.selectBoxIt.css">
+        <link type="text/css" rel="stylesheet" href="/js/jquery/plugins/selectBoxIt/src/stylesheets/jquery.selectBoxIt.css">
         <link type="text/css" rel="stylesheet" href="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.css">
         <link type="text/css" rel="stylesheet" href="/js/jquery/plugins/owl.carousel/owl-carousel/owl.theme.css">
         <link type="text/css" rel="stylesheet" href="/js/jquery/plugins/sequence/modern-slide-in/css/sequencejs-theme.modern-slide-in.css"> 
@@ -338,7 +337,7 @@
             <a class="sequence-prev btn-prev"></a>
             <a class="sequence-next btn-next"></a>
             <ul class="sequence-canvas">
-<!--                <li class="slide-one animate-in">
+                <li class="slide-one animate-in">
                     <div class="slide-wrap">
                         <div class="model">
                             <div class="lbl lbl-price1">$1450</div>                                                        
@@ -350,7 +349,7 @@
                             <a href="#" class="btn btn-more">learn more</a>
                         </div>
                     </div>                    
-                </li>-->
+                </li>
                 <li class="slide-two">
                     <div class="slide-wrap">
                         <div class="title">                            
@@ -849,7 +848,7 @@
                         <li> 
                             <blockquote class="bq-slider">
                                 <h6>Best Service!</h6>
-                                Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti.
+                                <p>Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti.</p>
                             </blockquote> 
                             <div class="author">
                                 <a href="#" class="avatar">
@@ -1181,6 +1180,5 @@
                 nextText: " "
             });
         </script>
-
     </body>
 </html>

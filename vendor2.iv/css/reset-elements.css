@@ -38,6 +38,10 @@ button {
     padding: 0;
     border:none;
 }
+button::-moz-focus-inner {
+    border: none;
+    padding:0;
+}
 a.btn {
     text-decoration: none;
     color: inherit;

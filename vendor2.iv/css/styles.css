@@ -1,5 +1,4 @@
 .disable{background-color: #c3c7c5;}
-button::-moz-focus-inner {padding:0;}
 i[class*=icon-] {display: inline-block;}
 .icon-page-arrow{background-image: url("/images/icons/12x12/page-arrow.png")}
 .icon-close{background-image: url("/images/icons/12x12/close.png")}
@@ -143,7 +142,7 @@ input::-moz-placeholder {
     font-size:15px;
     font-family:"Arial";
 }
-input::-ms-input-placeholder {
+input:-ms-input-placeholder {
     color:#777;
     font-size:15px;
     font-family:"Arial";
@@ -160,7 +159,7 @@ input::-ms-input-placeholder {
     font-family:"Arial";
     font-style:italic;
 }
-.input-search::-ms-input-placeholder {
+.input-search:-ms-input-placeholder {
     color:#a4a4a4;
     font-size:13px;
     font-family:"Arial";
@@ -172,7 +171,7 @@ input::-ms-input-placeholder {
 .input-newsletter::-moz-placeholder {
     color:#a2a4a0;
 }
-.input-newsletter::-ms-input-placeholder {
+.input-newsletter:-ms-input-placeholder {
     color:#a2a4a0;
 }
 .input-quote{
@@ -188,7 +187,7 @@ input::-ms-input-placeholder {
     color:#747474;
     font-size:16px;
 }
-.input-quote::-ms-input-placeholder {
+.input-quote:-ms-input-placeholder {
     color:#747474;
     font-size:16px;
 }
@@ -989,7 +988,7 @@ dd{
     font-style:normal;
     position:relative;
     max-width: 270px;
-    padding:18px 15px 32px 44px;
+    padding: 21px 15px 32px 42px;
     border: 1px solid #dcdcdc;
     border-radius: 2px;
     background-color: #f6f6f6;
@@ -1010,15 +1009,13 @@ dd{
 /*DEFAULTS*/
 .h1, .h2, .h3, .h4, .h5{
     color: #434645;
-    font-family: "Oswald";
-    font-weight:500;
 
 }
-.h1 {font-size:42px;}
-.h2 {font-size:35px;text-transform: uppercase;}
-.h3 {font-size:28px;text-transform: uppercase;}
-.h4 {font-size:25px;}
-.h5 {font-size:20px;}
+.h1 {font: 500 42px/42px "Oswald";}
+.h2 {font: 500 35px/38px "Oswald";text-transform: uppercase;}
+.h3 {font: 500 28px/30px "Oswald";text-transform: uppercase;}
+.h4 {font: 500 25px/26px "Oswald";}
+.h5 {font: 500 20px/22px "Oswald";}
 p{
     color: #7b7f7e;
     font:15px/21px "Arial";
@@ -1371,7 +1368,7 @@ div[class*=lbl-price] span{
 .selectboxit-container .selectboxit{
     width: auto!important;
     height: 36px;    
-    padding:0 13px 0 9px;
+    padding:0 13px 0 8px;
     background-color:#7bad23;
     color:#ffffff;
     display:flex;
@@ -1380,7 +1377,7 @@ div[class*=lbl-price] span{
     border-radius:0px;
 }
 #languageSelectBoxItContainer.selectboxit-container .selectboxit{
-    padding:0 12px 0 10px;
+    padding:0 12px 0 13px;
 }
 .selectboxit-container .selectboxit-options {
     width: 100%;
@@ -1394,7 +1391,7 @@ div[class*=lbl-price] span{
     border-radius:0px;
     z-index: 100;
 }
-#currencySelectBoxItContainer .selectboxit-text {
+.selectboxit-text {
     text-indent:0px;
 }
 .selectboxit-btn{
@@ -1408,7 +1405,6 @@ div[class*=lbl-price] span{
     line-height: 16px;
     display: inline-block;
     max-width:100%!important;
-    text-indent:4px;
 }
 #currencySelectBoxItContainer.selectboxit-container .selectboxit-options a {
     height: 26px;
@@ -1435,8 +1431,7 @@ div[class*=lbl-price] span{
     border-top-left-radius: 0px;
 }
 .selectboxit .selectboxit-option-icon-container {
-    margin: 0;
-    text-indent: 3px;
+    margin: 0 4px 0 0;
 }
 .selectboxit-btn.selectboxit-enabled:hover,
 .selectboxit-btn.selectboxit-enabled:focus{
@@ -1622,7 +1617,13 @@ div[class*=lbl-price] span{
     width: 100% !important;
 }
 .scroll-to-fixed-fixed nav{
+    height: 75px;
+}
+.scroll-to-fixed-fixed nav{
     padding-left: 315px;
+}
+.scroll-to-fixed-fixed .nav-wrap:after{
+    top:-24px;
 }
 .scroll-to-fixed-fixed .btn-cart, .scroll-to-fixed-fixed .input-search{
     display:none;
@@ -1632,6 +1633,13 @@ div[class*=lbl-price] span{
 }
 .scroll-to-fixed-fixed nav .logo{
     display:block;
+    top: 19px;
+}
+.scroll-to-fixed-fixed .search{
+    margin-top: 17px;
+}
+.scroll-to-fixed-fixed .nav > .nav-item > a {
+    height: 38px;
 }
 .menu-hidden-wrap{
     position:relative;
@@ -1681,13 +1689,12 @@ nav .hidden-menu{
 }
 .nav > .nav-item > a{
     color: #48483f;
-    font:600 17px "PT Sans";
-    margin-right: 33px;
+    font:600 17px/30px "PT Sans";
+    margin-right: 48px;
     text-transform:uppercase;
     letter-spacing:0.1px;
-    display: inline-block;
+    display: block;
     height: 57px;
-    padding: 4px 15px 0px 0px;
 }
 .nav > li.nav-item:last-child > a{
     margin-right:0px;
@@ -1811,7 +1818,7 @@ hgroup p{
     letter-spacing: -0.05px;
     margin-bottom:20px;
     color: #999;
-    font: 17px "PT Sans";
+    font: 17px/22px "PT Sans";
 }
 .content .tabs-home .tab-content{
     margin-top:32px;
@@ -1848,22 +1855,20 @@ figure {
 .wrap-base {
     max-width: 1170px;
     margin: auto;
-    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     padding:59px 0px 26px 0px;
 }
 .content {
     width: 77%;
-    display: -webkit-flex;
     display: flex;
     flex-direction: column;
 }
 aside{
-    display: -webkit-flex;
     display: flex;
     width: 23%;
     flex-direction: column;
+    max-width:270px;
 }
 figure .btn-hidden-add{
     display:none;
@@ -1924,6 +1929,7 @@ figure h5{
     font-size: 19px;
     margin:0 5px 16px 5px;
     text-align:center;
+        max-width:230px;
 }
 
 .welcome{
@@ -2079,7 +2085,7 @@ figure h5{
 }
 .tw-slider p, .tw-slider p a{
     color: #434645;
-    font:16px "Arial";
+    font:16px/18px "Arial";
     text-shadow: 0 1px 0 rgba(255,255,255,.2);
 }
 .tw-slider time{
@@ -2100,16 +2106,19 @@ figure h5{
     padding:30px 20px 35px 20px;
     text-align:center;
     margin: 3px 0px 69px 0px;
+    width: 100%;
 }
 .newsletter .h3{
     line-height:35px;
     letter-spacing:0.8px;
     margin-bottom:20px;
+    max-width: 205px;
 }
 .newsletter p{
     color: #838383;
     font-size: 16px;
     line-height:22px;
+    max-width: 205px;
 }
 .newsletter .input-newsletter{
     width:100%;
@@ -2137,13 +2146,16 @@ time{
     margin-bottom:67px;   
 }
 .testimonials .h4, .news .h4{
-    margin-bottom:21px;
+    margin-bottom:20px;
     letter-spacing: 0.5px;
 }
 .testimonials .bq-slider h6{
     color: #747977;
-    font:600 23px "PT Sans";
-    margin-bottom: 9px;
+    font:600 23px/24px "PT Sans";
+    margin-bottom: 11px;
+}
+.testimonials .bq-slider p{
+    margin-left: 2px;
 }
 .testimonials .bq-slider{
     letter-spacing:0.15px;
@@ -2193,10 +2205,11 @@ time{
     background-color: #f9f9f9;
     box-shadow: inset 0 1px 0 0 rgba(255,255,255,.48);
     padding: 27px 19px 20px 21px;
-    text-align:center;
+    text-align:center;    
 }
 .shipping h1{
     color: #83bb26;
+    max-width: 230px;
     font: 600 60px/37px "PT Sans";
     text-shadow: 0 1px 1px #fff;
     text-transform: uppercase;
@@ -2209,6 +2222,7 @@ time{
     color:#838383;
     font: 16px/19px "Arial";
     margin: 29px 2px 0 0;
+    max-width: 230px;
 }
 .shipping h1 + p{
     color: #666a68;
@@ -2232,6 +2246,7 @@ time{
     font: 15px/19px "Arial";
     margin: 14px 15px 0 15px; 
     letter-spacing: 0.3px;
+    max-width: 230px;
 }
 .sales h1 span{
     color: #909894;
@@ -2244,6 +2259,7 @@ time{
     color: #83bb26;	
     display: flex;   
     margin-left: 6px;
+    max-width: 230px;
 }
 .sales h3 b{
     font: 600 121px/120px "Arial";
@@ -2253,7 +2269,8 @@ time{
 .sales h3 span {
     display: flex;
     flex-direction: column;
-    justify-content: center;     
+    justify-content: center; 
+    max-width: 100px;
 }
 .sales h3 sup{
     letter-spacing: -2px;
@@ -2274,12 +2291,14 @@ time{
     text-transform: uppercase;
     margin: 10px 0 32px 0;
     letter-spacing: 1.2px;
+    max-width: 230px;
 }
 .offer p{
     color: #434645;
     font:600 16px "PT Sans";
     text-shadow: 0 1px 1px #fff;
     text-transform: uppercase;
+    max-width: 230px;
 }
 .offer h2{
     color: #7bae23;
@@ -2554,12 +2573,18 @@ footer {
     .wrap-base {
         padding: 67px 0px 33px 0px;
     }
+    .content{
+        width:76.6%; 
+    }
+    aside{
+        width:23.4%;
+    }
     hgroup .h1 {
-        font-size: 40px;
+        font: 500 40px/39px "Oswald";
         margin:2px 0 4px 0;
     }
     hgroup p {
-        margin-bottom: 16px;
+        margin-bottom: 15px;
         font: 16px "PT Sans";
     }
     figure {  
@@ -2677,16 +2702,27 @@ footer {
         padding: 0 23px;
     }
     .h4 {
-        font-size: 22px;
+
+    }
+    .testimonials .h4, .news .h4 {
+        margin-bottom: 21px;
+        font: 500 22px/22px "Oswald";
     }
     .testimonials {
-        margin-bottom: 58px;
+        margin-bottom: 13px;
     }
     .testimonials .bq-slider {
-        padding: 20px 5px 33px 36px;
+        padding: 20px 5px 33px 36px;       
+        background: #f6f6f6 url("/images/icons/20x20/quote-small.png")no-repeat 7px 25px;
+    }
+    .testimonials .bq-slider p {
+        margin-left: 0px;
         font:13px/17px "Arial";
         letter-spacing:0.45px;
-        background: #f6f6f6 url("/images/icons/20x20/quote-small.png")no-repeat 7px 25px;
+    }
+    time {
+        font: italic 13px "Arial";
+        letter-spacing: 0.1px;
     }
     .testimonials .bq-slider h6 {
         font: 600 20px "PT Sans";
@@ -2790,7 +2826,7 @@ footer {
         width: 192px !important;
     }
     .tw-slider {
-        padding: 56px 70px 31px 69px;
+        padding: 55px 70px 30px 69px;
         letter-spacing: 0.15px;
     }
     .tw-slider p, .tw-slider p a {
@@ -2880,10 +2916,11 @@ footer {
         padding: 74px 0px 30px 0px;
     }
     .footer .like-box a {
-        margin: 0px 18px 11px 0;
+        margin: 0px 0px 11px 0;
     }
     .footer .like-box {
-        justify-content: flex-start;
+        justify-content: space-between;
+        padding-right:24px;
     }
     .footer-bottom span{
         max-width: 33%;
@@ -2909,10 +2946,24 @@ footer {
     }
 }
 @media screen and (max-width: 724px) {
-
+    #currencySelectBoxItContainer.selectboxit-container .selectboxit {
+        padding: 0px 13px 0px 9px;
+    }
+    .tabs-home figure .lbl.lbl-discount {
+        top: 25px;
+        right: auto;
+        left: 19px;
+    }
+    .tabs-home figure .lbl.lbl-new {
+        left: 25px;
+        top: 15px;
+    }
     .top-bar-links a {
         margin: 0px 27px 0px 0px;
     }
+    .btn-cart{
+        margin-left:8px;
+    }    
     .support{
         display:none;
     }
@@ -2932,8 +2983,10 @@ footer {
         height: 80px;
     }
     .nav > .nav-item > a {
-        padding: 13px 15px 0px 0px;
-    }    
+        padding: 20px 15px 0px 0px;
+        margin-right: 33px;
+        height: 78px;
+    }  
     #sequence{
         height: 372px;
     }
@@ -3013,6 +3066,9 @@ footer {
         height: 45px;
         top: 54.7%;
     }
+    figure {  
+        height: 366px;
+    }
     .btn-next{
         background-position: 20px center;
         width: 39px;
@@ -3052,11 +3108,11 @@ footer {
         font: 600 14px "Arial";
     }
     .wrap-base {
-        padding: 47px 0px 11px 1px;
+        padding: 47px 0px 11px 0px;
     }
     hgroup .h1 {
         font-size: 38px;
-        margin:3px 0 10px 0;
+        margin:3px 0 9px 0;
     }
     hgroup p {
         margin-bottom: 14px;
@@ -3083,6 +3139,22 @@ footer {
     .tab-pane{
         max-height:740px;
         overflow: hidden;
+    }
+    .testimonials {
+        margin-bottom: 34px;
+    }
+    .news img {
+        width: 230px;
+        height: 102px;
+    }
+    .news .caption {
+        margin-bottom: 31px;
+    }
+    .news {
+        margin-bottom: 15px;
+    }
+    .banners ul li {
+        height: 338px;
     }
     .welcome {
         flex-direction: column;
@@ -3120,8 +3192,12 @@ footer {
         width: 186px !important;
     }
     .tw-slider {
-        padding: 34px 100px 30px 62px;
+        padding: 37px 100px 30px 62px;
         letter-spacing: 0.15px;
+    }
+    .tw-slider p, .tw-slider p a {
+        font: 15px/18px "Arial";
+        margin-bottom:2px;
     }
     .tw-slider .flex-direction-nav {
         top: 57px;
@@ -3251,24 +3327,24 @@ footer {
         width: 58px;
         height: 58px;
         font-size: 15px;
-        left: 24.9%;
+        left: 24.7%;
         top:8px;
     }
     #sequence .slide-two .model .balls{
         height: 130px !important;
         width: 218px;
         top: 1.5%;
-        left: 2.4%;
+        left: 1.5%;
     } 
     #sequence .slide-two .model .transparent{
         height: 151px !important;
         width: 98px;   
         top: 2%;
-        left: 28%;
+        left: 35%;
     }
     #sequence .slide-two .title {
         top: 9.3%;
-        left: 41.9%;
+        left: 41.3%;
         width: 50%;
     }
     #sequence .slide-three .title {
@@ -3277,11 +3353,10 @@ footer {
         width: 60%;
     }
     #sequence .slide-three .man{
-        max-height: 80px !important;
-        max-width: 100px;
-        bottom: -100%;
-        top: 15%;
-        left: 18%;
+        max-height: 105px !important;
+        max-width: 110px;
+        bottom: 72.5%;
+        left: 15%;       
     } 
     .slide-three .img-1 {
         left: 152%;
@@ -3304,19 +3379,19 @@ footer {
     }
     .slide-three .img-1 {
         top: 15%;
-        left: 61%;
+        left: 50%;
         max-height: 40px !important;
         max-width: 22px;
     }
     .slide-three .img-2 {
         top: 11.5%;
-        left: 65%;
+        left: 57%;
         max-height: 60px !important;
         max-width: 30px;
     }
     .slide-three .img-3 {
         top: 4.2%;
-        left: 69%;
+        left: 66%;
         max-height: 150px !important;
         max-width: 100px;
     }
@@ -3354,12 +3429,13 @@ footer {
     }
     .search{
         position: absolute;
-        top:-48px;
-        right:37px;
+        top:-47px;
+        right: 40px;
     }
     .input-search{
         display:flex;
-        width:200px;
+        width:204px;
+        padding: 0px 14px;
     }
 }
 @media screen and (max-width: 320px) {
@@ -3379,7 +3455,6 @@ footer {
         z-index: 10000;
     }
     #currency-phone + span.selectboxit-container span {
-        text-indent: 0px;
         display:flex;
         justify-content: center;
     }
@@ -3408,9 +3483,6 @@ footer {
     .selectboxit-container .selectboxit-options .selectboxit-option-icon-container .selectboxit-option-icon {
         margin-right: 0px;
     }
-    .selectboxit-option {
-        text-indent: 2px;
-    }
     .selectboxit-container .selectboxit {
         width:50px !important;
         padding: 0px 0px 0px 0px;
@@ -3432,11 +3504,11 @@ footer {
         align-items: center;
     }
     .wrap-base {
-        padding: 45px 10px 11px 10px;
+        padding: 40px 10px 11px 10px;
     }
     hgroup .h1 {
         font-size: 30px;
-        margin: 3px 0px 8px;
+        margin: 3px 0px 4px 0;
     }
     hgroup .h1::before {
         height: 26px;
@@ -3452,8 +3524,19 @@ footer {
     }
     figure {
         padding: 20px 20px 17px 20px;
-        margin: 0px 10px 31px 0px;
+        margin: 0px 10px 31px 10px;
         height: auto;
+    }
+    figure .lbl.lbl-price3 {
+        right: 10px;
+        top: 168px;
+        font-size: 18px;
+        width: 90px;
+        height: 90px;
+    }
+    .tabs-home figure .lbl.lbl-new {
+        top: 25px;
+        left:20px;
     }
     .content .tabs-home .tab-content {
         margin-top: 14px;
@@ -3469,9 +3552,15 @@ footer {
         margin: 0px 15px 16px 15px;
     }
     .welcome {
-        margin: 45px 0px 88px 0px;
+        margin: 41px 0px 84px 0px;
     }
-    .welcome p {
+    .welcome hgroup {
+        margin-bottom: 17px;
+    }
+    .sale hgroup {
+        margin-bottom: 2px;
+    }
+    .welcome p, .welcome p a{
         font: 16px/22px "Arial";
         letter-spacing: 0px;
         padding: 0px 0px 8px 0px;
@@ -3481,13 +3570,30 @@ footer {
         flex: 1 1 auto;
         height: 226px;
         width: 342px;
+    }    
+    .sale-slider {
+        margin-top: 4px;
+    }
+    .sale hgroup p {
+        margin: 0px 12px 16px 0px;
+    }
+    .sale-slider .owl-controls .owl-buttons {
+        top: -85px;
+        right: -30px;
+    }
+    .sale figure .lbl.lbl-discount {
+        left: 20px;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        width: 40px;
+        height: 30px;
     }
     .manufacturers.visible{
         display:none;
     }
     .manufacturers.hidden{
         display:block;
-        margin:34px 0px 0px 0px;
+        margin: 8px 0px 0px 0px;
     }
     .manufacturers-slider {
         padding: 30px 0px 87px 0px;
@@ -3500,9 +3606,13 @@ footer {
         width: 140px !important;
         height: 82px;
     }
+    .manufacturers-slider .owl-controls .owl-buttons {
+        top: -36px;
+    }
     .newsletter {
-        padding: 46px 20px 44px 20px;
+        padding: 46px 20px 46px 20px;
         margin: 3px 0px 70px;
+        width: 300px;
     }
     .newsletter .h3 {
         font: 30px/35px "Oswald";
@@ -3512,6 +3622,7 @@ footer {
         font-size: 17px;
         letter-spacing: 0px;
         line-height: 23px;
+        max-width: 100%;
     }
     .newsletter .input-newsletter {
         width: 230px;
@@ -3532,6 +3643,7 @@ footer {
     }
     .testimonials {
         margin-bottom: 67px;
+        width:300px;
     }
     .testimonials .bq-slider {
         padding: 16px 15px 46px 44px;
@@ -3546,13 +3658,18 @@ footer {
     .testimonials .bq-slider:after {
         left: 23px;
     }
-    .testimonials .bq-slider{
+    .testimonials .bq-slider p{
         font: 16px/23px "Arial";
         letter-spacing: -0.03px;
     }
     .testimonials .h4, .news .h4 {
-        margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
+    font: 500 25px/25px "Oswald";
+}
+.flex-direction-nav li a {
+    width: 35px;
+    height: 25px;
+}
     .avatar img {
         width: 70px;
         height: 70px;
@@ -3562,6 +3679,7 @@ footer {
     }
     .news {
         margin-bottom: 27px;
+        width:300px;
     }
     .news img {
         width: 300px;
@@ -3581,6 +3699,7 @@ footer {
     }
     .banners{
         margin-bottom: 89px;
+        width:300px;
     }
     .banners ul li {
         height: 444px;
@@ -3623,11 +3742,11 @@ footer {
     }
     .tw-slider .flex-direction-nav {
         top: auto;
-        right: 11px;
+        right: 8px;
         bottom: 42px;
     }
     .tw-slider .flex-direction-nav li a {
-        margin: 0px 0px 0px 14px;
+        margin: 0px 0px 0px 8px;
     }
     .footer {
         flex-wrap: wrap;
@@ -3638,6 +3757,10 @@ footer {
         margin-bottom: 16px;
         letter-spacing: 0.6px;
     }
+    .footer h6 {
+    font: 600 17px "Gudea";
+    margin: 22px 0px 6px;
+}
     .footer > div {
         flex-basis: 100%;
         margin-bottom: 48px;
@@ -3653,9 +3776,20 @@ footer {
     .footer .like-box a {
         margin: 0px 8px 23px 0px;
     }
+    .footer .like-box a span {
+    font: 14px/28px "Gudea";
+}
+.like-box-wrap .likes {
+    font: 17px "Gudea";
+    letter-spacing: -0.2px;
+}
+.like-box-wrap {
+    margin-top: 21px;
+}
     .footer .like-box {
-        justify-content: space-between;
-    }
+    padding-right: 0px;
+    margin-top:10px;
+}
     .footer-bottom {
         padding: 26px 20px;
         flex-direction: column;
@@ -3677,4 +3811,8 @@ footer {
         margin: 7px 0px 0 1px;
         font: 12px/18px "Arial";
     }
+    .like-box-wrap button {
+    right: 8px;
+top:-52px;
+}
 }
