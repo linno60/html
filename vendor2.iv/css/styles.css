@@ -3360,7 +3360,7 @@ footer {
         margin:0px 11px 0 13px;
     }
 }
-@media screen and (max-width: 650px) { 
+@media screen and (max-width: 658px) { 
     .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown{
         min-width: 650px;
     }
@@ -3373,6 +3373,11 @@ footer {
     .shipping h1 + p {
         margin: 0px 0px 11px 0px;
     }
+    .sale figure img {
+    max-width: 180px;
+    width: 180px !important;
+    height: 180px;
+}
 }
 @media screen and (max-width: 638px) {
     .content {
@@ -3449,7 +3454,12 @@ footer {
     }
     .offer h2{
         font:600 39px/34px "PT Sans";
-    }    
+    }   
+    .sale figure img {
+        width: 190px !important;
+        height: 190px;
+        max-width: 190px;
+    }
 }
 @media screen and (max-width: 616px) {        
     [data-tooltip] {
@@ -3691,12 +3701,7 @@ footer {
         margin: 0px 10px 31px 10px;
         height: auto;
         max-width: 270px;
-    }
-    .sale figure img {
-        width: 190px !important;
-        height: 190px;
-        max-width: 190px;
-    }
+    }    
     figure .lbl.lbl-price3 {
         font-size: 18px;
         width: 90px;
@@ -3708,18 +3713,16 @@ footer {
     figure .ratings-container {
         margin: 20px 0px 12px;
     }
+    .sale figure {
+    min-width: 200px;
+}
     .tab-pane {
         max-height: 100%;
         overflow: visible;
     }
     figure h5 {
         margin: 0px 15px 16px 15px;
-    }
-    .sale figure img {
-        width: 228px !important;
-        height: 228px;
-        max-width: 228px;
-    }
+    }    
     .owl-theme .owl-controls .owl-buttons div {
         width: 40px;
         height: 30px;
@@ -3733,6 +3736,13 @@ footer {
         margin-top: 7px;
         padding: 0px 2px 0px 10px;
     }    
+}
+@media screen and (max-width: 414px) {
+    .sale figure img {
+    width: 228px !important;
+    height: 228px;
+    max-width: 228px;
+}
 }
 @media screen and (max-width: 360px) {
     #currency + span, #language + span{
@@ -3791,7 +3801,7 @@ footer {
         padding: 5px 0px 0px 0px;
         font-size: 15px;
         letter-spacing: 0.25px;
-    }
+    }   
     .manufacturers, .footer, .footer-bottom {
         padding-left: 0px;
         padding-right: 0px;
