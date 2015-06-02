@@ -1749,7 +1749,7 @@ nav .hidden-menu{
 }
 #menu + label span{
     color: #48483f;
-    font: 600 20px"PT Sans";
+    font: 600 20px "PT Sans";
     text-transform: uppercase;
     padding: 5px 18px 0px 0px;
     display:inline-block;
@@ -2449,7 +2449,6 @@ footer {
     .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown{
         left:-270px;
     }
-
     .logo{
         left: 0px;
     }
@@ -2463,7 +2462,7 @@ footer {
         padding-right:10px;
     }
 }
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1124px) {
     figure img{
         max-width:220px;
     }
@@ -2478,10 +2477,31 @@ footer {
         position: absolute;
         right: 36px;
     }
+    .footer .like-box {
+        justify-content: space-between;
+    }
+    .footer .like-box a {
+        margin: 0px 10px 11px 0px;
+    }
 }
 @media screen and (max-width: 1090px) {
     figure img{
         max-width:200px;
+    }
+    .dropdown-item {
+        min-width: 186px;
+    } 
+    .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown{
+        left:-200px;
+    }
+    figure:hover .btn-hidden-add {
+        display: flex;
+    }
+    figure:hover .btn-add {
+        display: none;
+    }
+    figure .btn-like {
+        margin: 0 10px 0 10px;
     }
 }
 @media screen and (max-width: 1055px) { 
@@ -2494,10 +2514,7 @@ footer {
     .nav-item .nav-dropdown{ 
         padding:36px 0px 48px 19px;
         max-width: 940px;
-    }
-    .dropdown-item {
-        min-width: 186px;
-    } 
+    }    
     .testimonials .h4, .news .h4 {
         margin-bottom: 21px;
         font: 500 22px/22px "Oswald";
@@ -2514,32 +2531,7 @@ footer {
         display:none;
     }
 }
-@media screen and (max-width: 880px) {
-    figure img{
-        max-width: 180px;
-    }
-}
-@media screen and (max-width: 880px) {
-    figure img{
-        max-width: 190px;
-    }
-    figure{
-        max-width: 220px;
-    }
-}
-@media screen and (max-width: 1090px) { 
-    .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown{
-        left:-200px;
-    }
-}
-@media screen and (max-width: 650px) { 
-    .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown{
-        min-width: 650px;
-    }
-    .scroll-to-fixed-fixed nav {
-        padding-left: 10px;
-    }
-}
+
 @media screen and (max-width: 960px) {
     .top-bar, nav{
         padding:0 10px;
@@ -2549,16 +2541,7 @@ footer {
     }
     .selectboxit-container .selectboxit{  
         padding:0 13px 0 9px;
-    }        
-    figure:hover .btn-hidden-add {
-        display: flex;
-    }
-    figure:hover .btn-add {
-        display: none;
-    }
-    figure .btn-like {
-        margin: 0 10px 0 10px;
-    }
+    }            
     .lbl-price3 {
         width: 81px;
         height: 81px;
@@ -2948,6 +2931,22 @@ footer {
         letter-spacing: 0.6px;
     }
 }
+@media screen and (max-width: 950px) { 
+    .nav-item  .nav-dropdown {
+        border-top: 5px solid #7bad23;
+        padding: 33px 0px 48px 30px;
+        flex-wrap:wrap;
+        min-width:741px;
+        z-index:1000;
+    }
+    .dropdown-item {
+        min-width: 237px;
+        margin-bottom: 40px;
+    }
+    .dropdown-item h3 {
+        margin: 0px 0px 10px 1px;
+    }
+}
 @media screen and (max-width: 906px) {    
     .top-bar-drops p{
         position:absolute;
@@ -2976,6 +2975,9 @@ footer {
         right: 10px;
         z-index: 10001
     }
+    .nav-item .nav-dropdown{
+        top:80px;
+    }
     #currencySelectBoxItContainer.selectboxit-container .selectboxit {
         padding: 0px 13px 0px 9px;
     }
@@ -2985,149 +2987,12 @@ footer {
     .btn-cart{
         margin-left:8px;
     } 
-
     .scroll-to-fixed-fixed .quick-access{
         top: 20px;
     }
     .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown {
         left: -220px;
     }
-}
-@media screen and (max-width: 881px) {
-    .content {
-        width: 74%;
-        padding-right:25px;
-    }
-    aside {
-        width: 26%;
-    }
-    .grid {
-        justify-content: space-around;
-    }
-}
-@media screen and (max-width: 816px) {    
-    .top-bar-links a {
-        margin: 0px 27px 0px 0px;
-    }
-    .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown {
-        left:0px;
-    }
-    .footer > div {
-        flex-basis: 33.33%;
-    }    
-    .nav-item  .nav-dropdown {
-        border-top: 5px solid #7bad23;
-        padding: 33px 0px 48px 30px;
-        flex-wrap:wrap;
-        min-width:741px;
-        z-index:1000;
-    }
-    .dropdown-item {
-        min-width: 237px;
-        margin-bottom: 40px;
-    }
-    .dropdown-item h3 {
-        margin: 0px 0px 10px 1px;
-    }
-    .footer > div:last-child {
-        flex-basis: 100%;
-        margin: 38px 0 0 0;
-    }
-    .footer {
-        flex-wrap: wrap;
-        padding: 74px 0px 30px 10px;
-    }
-    .footer .like-box a {
-        margin: 0px 0px 11px 0;
-    }
-    .footer .like-box {
-        justify-content: space-between;
-        align-items: center;
-        padding-right:24px;
-    }
-    .footer-bottom span{
-        max-width: 33%;
-        margin-right:-18px;
-    }
-}
-
-@media screen and (max-width: 802px) {    
-    .welcome {
-        flex-direction: column;
-        margin: 47px 0px 82px 0;
-    }
-    .welcome img {
-        justify-content: flex-start;
-        margin: -80px 0px 0px 50px;
-        flex: auto;
-        height: 257px;
-        width:340px;
-    }
-    .welcome hgroup {
-        margin-bottom: 22px;
-    }
-    .welcome p {
-        text-indent: 16px;
-        font:15px/22px "Arial";
-        letter-spacing: 0.2px;
-        padding: 0px 10px 8px 0px;
-        max-width: 550px;
-    }
-    .footer .like-box {
-        padding-right: 0px;
-    }
-    .footer .like-box  a{
-        padding-right: 5px;
-    }
-}
-@media screen and (max-width: 785px) {
-    .content {
-        width: 72%;
-        padding-right:27px;
-    }
-    aside {
-        width: 28%;
-    }
-}
-@media screen and (max-width: 720px) {
-    .quick-access{
-        position:static;
-        height: 70px;
-        margin-top:6px;
-    }
-    .scroll-to-fixed-fixed nav .logo{
-        display:none;
-    }      
-    .menu-hidden-wrap{
-        display: flex;
-    }
-    .scroll-to-fixed-fixed .search{
-        display:none;
-    }
-    nav{
-        align-items:center;
-    }
-    .scroll-to-fixed-fixed nav {
-        padding-bottom: 20px;
-    }   
-    .scroll-to-fixed-fixed .btn-cart, .scroll-to-fixed-fixed .input-search {
-        display: flex;
-    }
-    .scroll-to-fixed-fixed .search {
-        margin-top: 0px;
-    }
-    .scroll-to-fixed-fixed nav {
-        padding-left: 0px;
-    } 
-    .scroll-to-fixed-fixed nav {
-        padding-bottom: 0px;
-    }    
-    .nav{
-        display:none;
-    }
-}
-
-@media screen and (max-width: 744px) {    
     #currencySelectBoxItContainer.selectboxit-container .selectboxit {
         padding: 0px 13px 0px 9px;
     }         
@@ -3216,9 +3081,6 @@ footer {
         top: 56.8%;
         width: 49px;
     }
-    figure {  
-        height: 366px;        
-    }
     .btn-next, .btn-next:hover{
         background-position: 21px center;    
     }
@@ -3255,6 +3117,100 @@ footer {
         height: 40px;
         font: 600 14px "Arial";
     }
+}
+@media screen and (max-width: 881px) {
+    .content {
+        width: 74%;
+        padding-right:25px;
+    }
+    aside {
+        width: 26%;
+    }
+    .grid {
+        justify-content: space-around;
+    }
+    figure img{
+        max-width: 190px;
+    }
+    figure{
+        max-width: 220px;
+    } 
+}
+@media screen and (max-width: 816px) {    
+    .top-bar-links a {
+        margin: 0px 27px 0px 0px;
+    }
+    .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown {
+        left:0px;
+    }
+    .footer > div {
+        flex-basis: 33.33%;
+    }        
+    .footer > div:last-child {
+        flex-basis: 100%;
+        margin: 38px 0 0 0;
+    }
+    .footer {
+        flex-wrap: wrap;
+        padding: 74px 0px 30px 10px;
+    }
+    .footer .like-box a {
+        margin: 0px 0px 11px 0;
+    }
+    .footer .like-box {
+        justify-content: space-between;
+        align-items: center;
+        padding-right:24px;
+    }
+    .footer-bottom span{
+        max-width: 33%;
+        margin-right:-18px;
+    }
+}
+
+@media screen and (max-width: 802px) {    
+    .welcome {
+        flex-direction: column;
+        margin: 47px 0px 82px 0;
+    }
+    .welcome img {
+        justify-content: flex-start;
+        margin: -80px 0px 0px 50px;
+        flex: auto;
+        height: 257px;
+        width:340px;
+    }
+    .welcome hgroup {
+        margin-bottom: 22px;
+    }
+    .welcome p {
+        text-indent: 16px;
+        font:15px/22px "Arial";
+        letter-spacing: 0.2px;
+        padding: 0px 10px 8px 0px;
+        max-width: 550px;
+    }
+    .footer .like-box {
+        padding-right: 0px;
+    }
+    .footer .like-box  a{
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 785px) {
+    .content {
+        width: 72%;
+        padding-right:27px;
+    }
+    aside {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 744px) {    
+    figure {  
+        height: 366px;        
+    }   
     .wrap-base {
         padding: 47px 10px 11px 10px;
     }
@@ -3341,6 +3297,51 @@ footer {
         right: 1px;
     }    
 }
+@media screen and (max-width: 720px) {
+    .quick-access{
+        position:static;
+        height: 70px;
+        margin-top:6px;
+    }
+    .shopping-cart{
+        right:10px;
+    }
+    .scroll-to-fixed-fixed nav .logo{
+        display:none;
+    }      
+    .menu-hidden-wrap{
+        display: flex;
+    }
+    .scroll-to-fixed-fixed .search{
+        display:none;
+    }
+    nav{
+        align-items:center;
+    }
+    .scroll-to-fixed-fixed nav {
+        padding-bottom: 20px;
+    }   
+    .scroll-to-fixed-fixed .btn-cart, .scroll-to-fixed-fixed .input-search {
+        display: flex;
+    }
+    .scroll-to-fixed-fixed .search {
+        margin-top: 0px;
+    }
+    .scroll-to-fixed-fixed nav {
+        padding-left: 0px;
+    } 
+    .scroll-to-fixed-fixed nav {
+        padding-bottom: 0px;
+    }    
+    .nav{
+        display:none;
+    }
+    .footer .like-box {
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media screen and (max-width: 704px) {
     .top-bar {
         padding:0 10px;
@@ -3357,6 +3358,20 @@ footer {
     }
     .top-bar-links a i {
         margin:0px 11px 0 13px;
+    }
+}
+@media screen and (max-width: 650px) { 
+    .scroll-to-fixed-fixed .nav-item:first-child .nav-dropdown{
+        min-width: 650px;
+    }
+    .scroll-to-fixed-fixed nav {
+        padding-left: 10px;
+    }
+    .shipping h1 + p  span{
+        line-height:38px;
+    }
+    .shipping h1 + p {
+        margin: 0px 0px 11px 0px;
     }
 }
 @media screen and (max-width: 638px) {
@@ -3434,7 +3449,7 @@ footer {
     }
     .offer h2{
         font:600 39px/34px "PT Sans";
-    }
+    }    
 }
 @media screen and (max-width: 616px) {        
     [data-tooltip] {
@@ -3600,11 +3615,7 @@ footer {
         padding: 26px 20px;
         flex-direction: column;
         justify-content:flex-start;
-    }
-    .footer .like-box {
-        justify-content: center;
-        align-items: center;
-    }
+    }    
     .footer-bottom > div{
         width:100%;
         flex-wrap: wrap;
@@ -3681,6 +3692,11 @@ footer {
         height: auto;
         max-width: 270px;
     }
+    .sale figure img {
+        width: 190px !important;
+        height: 190px;
+        max-width: 190px;
+    }
     figure .lbl.lbl-price3 {
         font-size: 18px;
         width: 90px;
@@ -3699,6 +3715,11 @@ footer {
     figure h5 {
         margin: 0px 15px 16px 15px;
     }
+    .sale figure img {
+        width: 228px !important;
+        height: 228px;
+        max-width: 228px;
+    }
     .owl-theme .owl-controls .owl-buttons div {
         width: 40px;
         height: 30px;
@@ -3711,7 +3732,7 @@ footer {
     .footer > div:last-child {
         margin-top: 7px;
         padding: 0px 2px 0px 10px;
-    } 
+    }    
 }
 @media screen and (max-width: 360px) {
     #currency + span, #language + span{
@@ -3778,6 +3799,10 @@ footer {
     .flex-control-nav {
         margin-top: -27px;
     }
+    .footer .like-box {
+        margin-top:10px;
+        justify-content: space-between;
+    } 
 }
 @media screen and (max-width: 320px) {        
     #sequence .slide-one .model img{
@@ -3980,12 +4005,7 @@ footer {
     }
     .like-box-wrap {
         margin-top: 21px;
-    }
-    .footer .like-box {
-        padding-right: 0px;
-        margin-top:10px;
-        justify-content: space-between;
-    }     
+    }        
     .like-box-wrap button {
         right: 8px;
         top:-52px;

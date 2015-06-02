@@ -777,7 +777,7 @@
                         <figure>                           
                             <a href="#" class="figure-wrapper">
                                 <div class="lbl lbl-price3">$40</div>
-                            <div class="lbl lbl-discount">-45%</div>
+                                <div class="lbl lbl-discount">-45%</div>
                                 <img src="images/shape1.png" alt="">
                             </a>
                             <div class="ratings-container clearfix">
@@ -787,6 +787,7 @@
                             </div>
                             <h5>Sony VAIO Tap 20</h5>
                             <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                                 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
                                 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
@@ -803,6 +804,7 @@
                             </div>
                             <h5>BenQ E2220HD</h5>
                             <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                                 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
                                 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
@@ -820,6 +822,7 @@
                             </div>
                             <h5>Philips MP Digital Camera</h5>
                             <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                                 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
                                 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
@@ -837,6 +840,7 @@
                             </div>
                             <h5>Lowlands Lace Blouse</h5>
                             <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                                 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
                                 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
@@ -854,6 +858,7 @@
                             </div>
                             <h5>Lowlands Lace Blouse</h5>
                             <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                                 <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
                                 <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
