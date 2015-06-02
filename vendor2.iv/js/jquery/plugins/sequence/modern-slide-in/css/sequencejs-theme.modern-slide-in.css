@@ -281,11 +281,12 @@ h3 {
   -moz-transition-duration: 0.5s;
   -ms-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
+  transition-duration: 0.5s; 
+}
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
   #sequence .title {
-    width: 42%; } }
+    width: 42%; } }*/
 /*@media only screen and (max-width: 838px) {
   #sequence {
     height: 550px; }
