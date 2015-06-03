@@ -20,7 +20,7 @@
                     <a href="#" data-tooltip="Shopping&nbsp;Cart"><i class="icon-topbar-cart"></i>Shopping Cart</a>
                     <a href="#" data-tooltip="Checkout"><i class="icon-topbar-checkout"></i>Checkout</a>
                 </div>
-                <div method="post" action="#" class="top-bar-drops">
+                <div class="top-bar-drops">
                     <p><span class="hidden-desktop">Welcome visitor you can </span><a href="#" class="login">login</a> or <a href="#">create an account</a>.</p>                        
                     <div class="top-item currency">
                         <span class="hidden-phone">US Dollar</span><span class="visible-phone">USD</span>
@@ -30,6 +30,28 @@
                     </div>
                 </div>
             </div>            
+        </div>
+        <div class="header">
+            <div class="header-top">
+                <a href="#" class="logo"><img src="/images/logo.png"></a> 
+                <div class="support">
+                    <span class="lbl lbl-support">
+                        <i class="icon-ears"></i>
+                        +(404) 158 14 25 78<br>
+                        +(404) 851 21 48 15
+                    </span>
+                    <span class="lbl lbl-support alt">
+                        <span>
+                            <i class="icon-support-skype"></i>                                   
+                            <a href="#">venedor_support</a>
+                        </span>
+                        <span>
+                            <i class="icon-support-mail"></i>
+                            <a href="mailto:venedor@gmail.com">venedor@gmail.com</a>
+                        </span>
+                    </span> 
+                </div>
+            </div>                
         </div>
     </body>
 </html>
