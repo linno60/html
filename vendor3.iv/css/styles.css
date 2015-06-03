@@ -357,7 +357,6 @@ nav{
         display: none;
     }
     .quick-access{
-
         top: auto;
         right: 10px;
     }
@@ -373,6 +372,7 @@ nav{
     .search{
         position: absolute;
         top: -60px;
+right: 40px;
     }
 }
 @media screen and (max-width: 380px) {
