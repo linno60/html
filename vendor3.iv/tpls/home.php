@@ -4,6 +4,7 @@
         <title>Home</title>
         <meta name="HandheldFriendly" content="True">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css'>
@@ -31,27 +32,25 @@
                 </div>
             </div>            
         </div>
-        <div class="header">
-            <div class="header-top">
-                <a href="#" class="logo"><img src="/images/logo.png"></a> 
-                <div class="support">
-                    <span class="lbl lbl-support">
-                        <i class="icon-ears"></i>
-                        +(404) 158 14 25 78<br>
-                        +(404) 851 21 48 15
+        <div class="header-top">
+            <a href="#" class="logo"><strong>Venedor</strong><span>.</span></a> 
+            <div class="support">
+                <span class="lbl lbl-support">
+                    <i class="icon-ears"></i>
+                    +(404) 158 14 25 78<br>
+                    +(404) 851 21 48 15
+                </span>
+                <span class="lbl lbl-support alt">
+                    <span>
+                        <i class="icon-support-skype"></i>                                   
+                        <a href="#">venedor_support</a>
                     </span>
-                    <span class="lbl lbl-support alt">
-                        <span>
-                            <i class="icon-support-skype"></i>                                   
-                            <a href="#">venedor_support</a>
-                        </span>
-                        <span>
-                            <i class="icon-support-mail"></i>
-                            <a href="mailto:venedor@gmail.com">venedor@gmail.com</a>
-                        </span>
-                    </span> 
-                </div>
-            </div>                
-        </div>
+                    <span>
+                        <i class="icon-support-mail"></i>
+                        <a href="mailto:venedor@gmail.com">venedor@gmail.com</a>
+                    </span>
+                </span> 
+            </div>
+        </div>                
     </body>
 </html>
