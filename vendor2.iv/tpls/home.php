@@ -48,7 +48,6 @@
                             <option value="German" data-icon="icon-flag-ge">Ge</option>
                         </select>
                     </form>
-
                 </div>            
             </div>
             <div class="header">
