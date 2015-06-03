@@ -114,8 +114,6 @@ i[class*=icon-] {display: inline-block;}
     .top-bar-links a i {
         margin: 0px 11px 0 13px;
     }
-}
-@media screen and (max-width: 616px) {        
     [data-tooltip] {
         position: relative;
         z-index: 2;
@@ -158,6 +156,7 @@ i[class*=icon-] {display: inline-block;}
         opacity: 1;
     }
 }
+
 @media screen and (max-width: 380px) {
     .visible-phone{
         display: flex;
