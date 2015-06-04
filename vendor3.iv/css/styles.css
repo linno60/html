@@ -82,31 +82,10 @@ i[class*=icon-] {display: inline-block;}
 /*HEADER*/
 .header-top{
     align-items: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .logo{
-    position: relative;
-    margin: 0px 0px 0px 13px;
-    letter-spacing:-1.5px;
-}
-.logo strong{
-    color: #434645;    
-    z-index: 1;
-    position: relative;
-    font: 60px "Rokkitt";
-}
-.logo span{
-    color: #7bae23;
-    font: 60px "Rokkitt";
-}
-.logo:before{
-    position: absolute;
-    left: -35px;
-    top: 15px;
-    content:"";
-    width: 105px;
-    height: 73px;
-    background-image: url("/images/logo.png");
+    margin: 11px 0px 0px -24px;
 }
 .support{
     display: flex;
@@ -222,10 +201,15 @@ nav{
 .nav-short{
     display: none;
 }
+.nav-short label{
+    display: flex;
+    align-items: center;
+}
 .nav-short label span{
     text-transform: uppercase;
     color: #48483f;
-    font: 600 20px/30px "PT Sans";
+    font: 600 20px "PT Sans";
+    padding: 0 18px 0 0;
 }
 .btn-hidden-menu{
     border-radius:2px;
@@ -242,7 +226,7 @@ nav{
         padding: 0 10px;
     }
     .logo{
-        margin: 0px 0px 0px 25px;
+        margin: 11px 0px 0px -10px;
     }
 }
 @media screen and (max-width: 1100px) { 
@@ -367,12 +351,21 @@ nav{
 
 @media screen and (max-width: 500px) {
     .header-top{
-        margin-bottom: 120px;
+        margin-bottom: 82px;
     }
     .search{
         position: absolute;
-        top: -60px;
-right: 40px;
+        top: -65px;
+        right: 22px;
+    }
+    .logo{
+        margin: 27px 0px 0px 0px;
+    }
+    a.btn-cart{
+        margin-top: 5px;
+    }
+    .input-search{
+        width: 204px;
     }
 }
 @media screen and (max-width: 380px) {
@@ -385,4 +378,19 @@ right: 40px;
     .header-top{
         justify-content: center;
     }
+    .top-item {
+    padding: 0px 8px 0px 8px;
+}
+.top-item.currency {
+    padding: 0px 10px 0px 11px;
+}
+.top-item i {
+    margin-right: 2px;
+}
+.top-bar-drops p {
+    top: 42px;
+    right: 9px;
+    font: 15px "Arial";
+    letter-spacing: 0.2px;
+}    
 }

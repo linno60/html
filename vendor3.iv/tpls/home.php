@@ -34,7 +34,7 @@
                 </div>            
             </div>
             <div class="header-top">
-                <a href="#" class="logo"><strong>Venedor</strong><span>.</span></a> 
+                <a href="#" class="logo"><img src="/images/logo.png" alt="venedor"></a> 
                 <div class="support">
                     <span class="lbl lbl-support">
                         <i class="icon-ears"></i>
