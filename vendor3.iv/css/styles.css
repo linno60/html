@@ -357,11 +357,11 @@ nav{
 
 @media screen and (max-width: 500px) {
     .header-top{
-        margin-bottom: 82px;
+        margin-bottom: 87px;
     }
     .search{
         position: absolute;
-        top: -65px;
+        top: -70px;
         right: 0;
     }
     .logo{
@@ -396,9 +396,11 @@ nav{
         font: 15px "Arial";
         letter-spacing: 0.2px;
     } 
+    .quick-access{
+        position: static;
+    }
     .search{
-        width:240px;
         right: 50%;
-        transform: translateX(15%);
+        transform: translateX(50%);
     }
 }
