@@ -468,14 +468,14 @@ footer{
         align-items: flex-start
     }
     .footer-contacts address {
-    text-align: left;
-}
-.footer-contacts address + span{
-    text-align: left;
-}
-.social a {
-    margin: 0 6px 0 0;
-}
+        text-align: left;
+    }
+    .footer-contacts address + span{
+        text-align: left;
+    }
+    .social a {
+        margin: 0 6px 0 0;
+    }
 }
 @media (max-width: 520px) {
     .header{
@@ -490,7 +490,7 @@ footer{
     .input-wrap, .btn-login{
         margin: 0 4px;
     }
-.nav{
+    .nav{
         flex-wrap: wrap;
     }
     .nav a{
@@ -524,8 +524,8 @@ footer{
         margin-bottom: 10px
     }
     .slider-content h1 {
-    margin-bottom: 5px;
-}   
+        margin-bottom: 5px;
+    }   
 }
 @media (max-width: 430px) {
     .header form{
@@ -538,6 +538,12 @@ footer{
     }
     .input-wrap, .btn-login{
         margin: 5px 0;
+    }
+    .search-bar form {
+        padding: 0px 5px;
+    }
+    .search-bar form input {
+        margin-right: 3px;
     }
     .search-bar button .btn{
         font: 600 13px "Helvetica";
@@ -556,21 +562,21 @@ footer{
         font-size: 13px;
     }
     .slider {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
     .slider-content {
-    padding: 10px 20px 0px 20px;
-}
-.slider-arrow{
-    visibility: hidden;
-}
-.slider:hover .slider-arrow{
-    visibility: visible;
-    opacity: 0.9;
-}   
-.content section figure{
-    min-width: auto;    
-}
+        padding: 10px 20px 0px 20px;
+    }
+    .slider-arrow{
+        visibility: hidden;
+    }
+    .slider:hover .slider-arrow{
+        visibility: visible;
+        opacity: 0.9;
+    }   
+    .content section figure{
+        min-width: auto;    
+    }
 }
 @media (max-width: 360px) {
     .slider-content .btns-group{
