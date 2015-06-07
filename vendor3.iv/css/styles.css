@@ -9,7 +9,7 @@ button::-moz-focus-inner {
     background-color: #f5f5f5;
     margin-bottom: 46px;
 }
-.top-bar, .header-top, .header-bottom, .footer, .footer-bottom{  
+.top-bar, .header-top, .header-bottom, .footer, .footer-bottom,.tw-slider, .manufacturers{  
     max-width: 1170px;
     display: flex;
     justify-content: space-between;
@@ -123,13 +123,15 @@ i[class*=icon-] {display: inline-block;}
     margin-right: 12px;
 }
 .icon-hidden-menu{width: 24px;height: 24px;}
-i[class*=icon-support-], .icon-search, i[class*=icon-social-]{width: 20px;height: 20px;}
+i[class*=icon-support-], .icon-search, i[class*=icon-social-], i[class*=icon-twitterarrow-]{width: 20px;height: 20px;}
 .icon-support-mail{background-image: url("/images/icons/20x20/support-mail.png")}
 .icon-support-skype{background-image: url("/images/icons/20x20/support-skype.png")}
 .icon-ears{width: 24px; height: 28px;background-image: url("/images/icons/support-ears.png")}
 .icon-search{background-image: url("/images/icons/20x20/search.png")}
 .icon-cart{background-image: url("/images/icons/16x16/cart.png")}
 .icon-hidden-menu{background-image: url("/images/icons/24x24/hidden-menu.png")}
+.icon-twitterarrow-left{background-image: url("/images/icons/20x20/twitterarrow-left.png")}
+.icon-twitterarrow-right{background-image: url("/images/icons/20x20/twitterarrow-right.png")}
 
 header{    
     position: relative;
@@ -265,18 +267,128 @@ nav{
     box-shadow:none;
     cursor: pointer;
 }
-.slider-arrow.left:hover .icon-sliderarrow-left{background-image: url("/images/icons/16x16/sliderarrow-left-large-hover.png")}
-.slider-arrow.right:hover .icon-sliderarrow-right{background-image: url("/images/icons/16x16/sliderarrow-right-large-hover.png")}
-.slider-arrow.right{
+.slider-arrow:hover .icon-sliderarrow-left{background-image: url("/images/icons/16x16/sliderarrow-left-large-hover.png")}
+.slider-arrow:hover .icon-sliderarrow-right{background-image: url("/images/icons/16x16/sliderarrow-right-large-hover.png")}
+.slider .slider-arrow.right{
     border-right: none;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; 
 }
-.slider-arrow.left{
+.slider .slider-arrow.left{
     border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+.manufacturers{
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 80px;
+}
+.manufacturers .hdr-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+.manufacturers .arrows{
+    display: flex;
+    background-color: #fff;
+    padding-left: 20px;
+}
+.manufacturers .arrows .slider-arrow{
+    margin-left: 1px;
+    width: 56px;
+    height: 41px;
+    box-shadow: none;
+}
+.manufacturers-slider {
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+    flex-wrap: wrap;
+    height: 120px;
+    margin: 0 -11px;
+}
+.manufacturers-slider a{
+    margin: 0 11px 20px 11px;
+    display: flex;
+    width: 170px;
+    height: 100px;
+}
+
+.hdr-wrap {
+    position: relative;
+}
+.hdr-wrap .h1{
+    display: inline-block;
+    background-color: #ffffff;
+    padding-right:20px; 
+    position: relative;
+    color: #434645;
+    font: 500 42px/36px "Oswald";
+}
+.hdr-wrap .h1:before{
+    content:"";
+    width: 4px;
+    height: 37px;
+    background-color: #7bad23;
+    display:inline-block;
+    margin-right:7px;
+}
+.hdr-wrap hgroup:after{
+    content: '';
+    background: #dcdcdc;
+    position: absolute;
+    left:0px;
+    top: 21px;
+    margin-top: -.5px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+}
+
+.tw-slider-wrap{
+    background-color: #83bb25;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,.25);
+}
+.tw-slider{  
+    align-items: center;
+    min-height: 130px;
+    background: url(/images/twitter-bird.png) no-repeat -2px bottom;   
+}
+.tw-slider-arrow{
+    width: 35px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 2px;
+}
+.tw-slider-arrow:hover {
+    background-color: #434545;
+}
+.tw-slider-arrow:hover .icon-twitterarrow-right{
+    background: url(/images/icons/20x20/twitterarrow-right-hover.png) no-repeat center center;
+}
+.tw-slider-arrow:hover .icon-twitterarrow-left{
+    background: url(/images/icons/20x20/twitterarrow-left-hover.png) no-repeat center center;
+}
+.tw-item{
+    padding: 23px 20px 0px 83px;
+}
+.tw-arrows{
+    display: flex;
+}
+.tw-slider p, .tw-slider p a{
+    color: #434645;
+    font:16px/18px "Arial";
+    text-shadow: 0 1px 0 rgba(255,255,255,.2);
+}
+.tw-slider time{
+    color: #ccf97d;
+    font:italic 14px/26px "Arial";
+}
+
+
 .footer-wrap{
     border-bottom: 1px solid #383938;
     box-shadow: 0px 1px 0px 0px #535554;
@@ -290,10 +402,11 @@ footer{
     background-color: #434545;
 }
 .footer > div{
-    width: 25.6%;
+    width: 25.6%;    
 }
 .footer > div:last-child{
     width: 23.2%;
+    padding-right: 15px;
 }
 .footer h5{
     color: #e3e3e3;
@@ -335,10 +448,17 @@ footer{
 .footer address dl dd, .footer address dl dt{
     font: 15px/29px "Gudea";
 }
+.facebook-hdr{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
 .btn-likefinger{
     font:15px "Arial";
     height: 28px;
     color: #fff;
+    margin-right: 25px;
     border: 1px solid #7bad23;
     border-radius: 2px;
     text-transform: none;
@@ -347,21 +467,12 @@ footer{
     text-indent:4px;
     box-shadow: 0 1px 1px rgba(0,0,0,.1), inset 0 1px 0 0 rgba(255,255,255,.25);
 }
-.like-box-wrap{
-    position: relative;
-    margin-top: 25px;
-}
-.like-box-wrap button{
-    position: absolute;
-    top: -54px;
-    right: 20px;
-}
-.like-box-wrap .likes{
+.likes{
     color: #cbcbcb;
     font: 15px "Gudea";
     letter-spacing:-0.33px;
 }
-.like-box-wrap .likes a{
+.likes a{
     color: #7bae23;
 }
 .footer .like-box{
@@ -410,7 +521,7 @@ footer{
 a.btn-social{
     height:36px;
     width:36px;
-    margin: 10px 6px 10px 0;
+    margin: 10px 10px 10px 0;
     border: 1px solid #616563;
     border-radius: 2px;
     background-color: #616663;
@@ -454,17 +565,26 @@ a.btn-social{
 
 
 @media screen and (max-width: 1220px) { 
-    .top-bar, .header-top, .header-bottom, .footer, .footer-bottom{
+    .top-bar, .header-top, .header-bottom, .footer, .footer-bottom, .manufacturers, .tw-slider{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .tw-slider{  
+        background: url(/images/twitter-bird.png) no-repeat 10px bottom;   
+    }
     .logo{
         margin: 11px 0px 0px -10px;
+    }
+    .footer .like-box a{
+        margin: 0 20px 11px 0;
     }
 }
 @media screen and (max-width: 1120px) {
     .footer .like-box a{
         margin: 0 20px 11px 0;
+    }
+    .footer > div:last-child{
+        padding-right: 0px;
     }
 }
 @media screen and (max-width: 1100px) { 
@@ -500,8 +620,31 @@ a.btn-social{
         width: 25%;
     }
     .like-box-wrap button{
-    right: 10px;
-}
+        right: 10px;
+    }
+    .manufacturers-slider a{
+        margin: 0 10px 22px 10px;
+        width:168px;
+        height: 98px;
+    }
+    .manufacturers-slider {
+        margin: 0 -10px;
+    }
+
+    .btn-likefinger {
+        margin-right: 5px;
+    }
+    .tw-item {
+        padding: 23px 20px 0px 70px;
+    }
+    .tw-slider p, .tw-slider p a {
+        font: 15px/18px "Arial";
+    }
+    .manufacturers .arrows .slider-arrow {
+        margin-left: 1px;
+        width: 50px;
+        height: 37px;
+    }
 }
 @media screen and (max-width: 910px) {    
     .top-bar-drops p{
@@ -536,11 +679,15 @@ a.btn-social{
     }
     .footer > div:last-child{
         width: 100%;
-        margin: 50px 0px;
+        margin: 35px 0px 30px 0px;
     }
 }
 @media screen and (max-width: 860px) {      
-
+    .manufacturers-slider a{
+        margin: 0 10px 24px 10px;
+        width:164px;
+        height: 96px;
+    }
     .footer .like-box a{
         margin: 0 20px 11px 0;
     }
@@ -554,7 +701,13 @@ a.btn-social{
     }
     .footer-bottom span{
         max-width: 32%;
-    }    
+    } 
+    .tw-item {
+        padding: 5px 20px 0px 63px;
+    }
+    .hdr-wrap .h1 {
+        font: 500 38px/36px "Oswald";
+    }
 }
 @media screen and (max-width: 740px) {
     .footer .like-box{
@@ -697,11 +850,43 @@ a.btn-social{
         width: 51px;
         height: 37px;
     }
-    .slider-arrow.left .icon-sliderarrow-left{background-image: url("/images/icons/16x16/sliderarrow-left-middle.png")}
-    .slider-arrow.right .icon-sliderarrow-right{background-image: url("/images/icons/16x16/sliderarrow-right-middle.png")}
-    .slider-arrow.left:hover .icon-sliderarrow-left{background-image: url("/images/icons/16x16/sliderarrow-left-middle-hover.png")}
-    .slider-arrow.right:hover .icon-sliderarrow-right{background-image: url("/images/icons/16x16/sliderarrow-right-middle-hover.png")}
+    .slider-arrow .icon-sliderarrow-left{background-image: url("/images/icons/16x16/sliderarrow-left-middle.png")}
+    .slider-arrow .icon-sliderarrow-right{background-image: url("/images/icons/16x16/sliderarrow-right-middle.png")}
+    .slider-arrow:hover .icon-sliderarrow-left{background-image: url("/images/icons/16x16/sliderarrow-left-middle-hover.png")}
+    .slider-arrow:hover .icon-sliderarrow-right{background-image: url("/images/icons/16x16/sliderarrow-right-middle-hover.png")}
+    .hdr-wrap .h1 {
+        font: 500 30px/36px "Oswald";
+    }
+    .manufacturers .arrows .slider-arrow {
+        width: 40px;
+        height: 30px;
+    }
+    .manufacturers .arrows {
+        padding-left: 2px;
+        padding-top: 5px;
+    }
+    .hdr-wrap .h1::before {
+        height: 25px;
+        margin-right: 4px;
+    }
+    .manufacturers .hdr-wrap {
+        margin-bottom: 36px;
+    }
+    .tw-item {
+        padding: 48px 0px 10px 60px;
+    }
+    .tw-slider p, .tw-slider p a {
+        font: 16px/22px "Arial";
+    }
+    .footer {
+        padding: 60px 10px 10px 10px;
+    }
+    .footer > div:last-child {
+        width: 100%;
+        margin: 0 0px 45px 0;
+    }
 }
+
 @media screen and (max-width: 380px) {
     .visible-phone{
         display: flex;
@@ -736,13 +921,21 @@ a.btn-social{
     }  
     .footer .like-box a{
         margin: 0 10px 11px 0;
-    }    
+    } 
+    .manufacturers-slider a {
+        margin: 0 5px 39px 5px;
+        width:138px;
+        height: 81px;
+    }
 }
 @media screen and (max-width: 340px) {
     .footer .like-box{
         justify-content: space-between;        
     }
-    .footer .like-box a{
+    .footer .like-box a {
         margin: 0 5px 11px 0;
+    }
+    .hdr-wrap hgroup::after {
+        height: 0px;
     }
 }

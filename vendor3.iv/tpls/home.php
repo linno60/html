@@ -84,92 +84,123 @@
             <span class="slider-arrow left"><i class="icon-sliderarrow-left"></i></span>
             <span class="slider-arrow right"><i class="icon-sliderarrow-right"></i></span>
         </div>
-        <footer>
-            <div class="footer-wrap">
-            <div class="footer">
-                <div>
-                    <h5>my account</h5>
-                    <ul class="list list-lnk list-footer">
-                        <li><a href="#">My account</a></li>
-                        <li><a href="#">Personal information</a></li>
-                        <li><a href="#">Addresses</a></li>
-                        <li><a href="#">Discount</a></li>
-                        <li><a href="#">Orders history</a></li>
-                        <li><a href="#">Your Vouchers</a></li>
-                    </ul>
+        <div class="manufacturers">
+            <div class="hdr-wrap">
+                <hgroup>
+                    <h1 class="h1">Manufacturers</h1>
+                </hgroup>
+                <div class="arrows">
+                    <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
+                    <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
                 </div>
-                <div>
-                    <h5>information</h5>
-                    <ul class="list list-lnk list-footer">
-                        <li><a href="#">New products</a></li>
-                        <li><a href="#">Top sellers</a></li>
-                        <li><a href="#">Specials</a></li>
-                        <li><a href="#">Manufacturers</a></li>
-                        <li><a href="#">Suppliers</a></li>
-                        <li><a href="#">Our stores</a></li>
-                    </ul>
+            </div>
+            <div class="manufacturers-slider">
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+            </div>              
+        </div>
+        <div class="tw-slider-wrap">
+            <div class="tw-slider">
+                <div class="tw-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit euismod tristique eget pretium erat <a href="#">http://pretium/ferm</a></p>
+                    <time>15 days ago</time>
                 </div>
-                <div>
-                    <h5>contact information</h5>
-                    <h6>venedor ltd</h6>
-                    <address>
-                        <span>United Kingdom</span>
-                        <span>Greater London</span>
-                        <span>London  02587</span>
-                        <span>Oxford Street 48/188</span>
-                        <dl>
-                            <dt>Working days: </dt><dd>Mon. - Sun.</dd>
-                            <dt>Working hours: </dt><dd>9.00AM - 8.00PM</dd>
-                        </dl>
-                    </address>
-                </div>
-                <div>
-                    <h5>facebook</h5>
-                    <div class="like-box-wrap">
-                        <span class="likes">1452 people like <a href="#">PromoKit</a></span>
-                        <button><span class="btn btn-likefinger"><i class="icon-likefinger"></i><em>Like!</em></span></button>
-                        <div class="like-box">
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Anna</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Tom</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Antuan</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Milla</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Justine</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Maria</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Antuan</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Milla</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Justine</span>
-                            </a>
-                        </div>
-                    </div>
+                <div class="tw-arrows">
+                    <a href="#" class="btn tw-slider-arrow"><i class="icon-twitterarrow-left"></i></a>
+                    <a href="#" class="btn tw-slider-arrow"><i class="icon-twitterarrow-right"></i></a>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-wrap">
+                <div class="footer">
+                    <div>
+                        <h5>my account</h5>
+                        <ul class="list list-lnk list-footer">
+                            <li><a href="#">My account</a></li>
+                            <li><a href="#">Personal information</a></li>
+                            <li><a href="#">Addresses</a></li>
+                            <li><a href="#">Discount</a></li>
+                            <li><a href="#">Orders history</a></li>
+                            <li><a href="#">Your Vouchers</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>information</h5>
+                        <ul class="list list-lnk list-footer">
+                            <li><a href="#">New products</a></li>
+                            <li><a href="#">Top sellers</a></li>
+                            <li><a href="#">Specials</a></li>
+                            <li><a href="#">Manufacturers</a></li>
+                            <li><a href="#">Suppliers</a></li>
+                            <li><a href="#">Our stores</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>contact information</h5>
+                        <h6>venedor ltd</h6>
+                        <address>
+                            <span>United Kingdom</span>
+                            <span>Greater London</span>
+                            <span>London  02587</span>
+                            <span>Oxford Street 48/188</span>
+                            <dl>
+                                <dt>Working days: </dt><dd>Mon. - Sun.</dd>
+                                <dt>Working hours: </dt><dd>9.00AM - 8.00PM</dd>
+                            </dl>
+                        </address>
+                    </div>
+                    <div>
+                        <div class="facebook-hdr">
+                            <h5>facebook</h5>
+                            <button><span class="btn btn-likefinger"><i class="icon-likefinger"></i><em>Like!</em></span></button>
+                        </div>
+                            <span class="likes">1452 people like <a href="#">PromoKit</a></span>
+                            <div class="like-box">
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Anna</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Tom</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Antuan</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Milla</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Justine</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Maria</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Antuan</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Milla</span>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/shape4.png" width="60" height="60" alt="">
+                                    <span>Justine</span>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
             <div class="footer-bottom">
                 <div class="social">
                     <a href="#" class="btn btn-social btn-facebook"><i class="icon-social-facebook"></i></a>
