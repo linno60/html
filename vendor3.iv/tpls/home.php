@@ -86,9 +86,7 @@
         </div>
         <div class="manufacturers">
             <div class="hdr-wrap">
-                <hgroup>
-                    <h1 class="h1">Manufacturers</h1>
-                </hgroup>
+                <h1 class="h1">Manufacturers</h1>
                 <div class="arrows">
                     <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
                     <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
@@ -103,6 +101,7 @@
                 <a href="#"><img src="/images/brand.png" alt=""></a>
             </div>              
         </div>
+
         <div class="tw-slider-wrap">
             <div class="tw-slider">
                 <div class="tw-item">
@@ -159,45 +158,45 @@
                             <h5>facebook</h5>
                             <button><span class="btn btn-likefinger"><i class="icon-likefinger"></i><em>Like!</em></span></button>
                         </div>
-                            <span class="likes">1452 people like <a href="#">PromoKit</a></span>
-                            <div class="like-box">
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Anna</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Tom</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Antuan</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Milla</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Justine</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Maria</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Antuan</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Milla</span>
-                                </a>
-                                <a href="#">
-                                    <img src="/images/shape4.png" width="60" height="60" alt="">
-                                    <span>Justine</span>
-                                </a>
-                            </div>
+                        <span class="likes">1452 people like <a href="#">PromoKit</a></span>
+                        <div class="like-box">
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Anna</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Tom</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Antuan</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Milla</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Justine</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Maria</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Antuan</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Milla</span>
+                            </a>
+                            <a href="#">
+                                <img src="/images/shape4.png" width="60" height="60" alt="">
+                                <span>Justine</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
