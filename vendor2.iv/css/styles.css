@@ -1684,14 +1684,10 @@ nav .hidden-menu{
 .nav{
     height:60px;
     display:flex;
-    justify-content:flex-start;
-    align-items:stretch;
-    align-items: stretch;
 }
 .nav > .nav-item{
     position:relative;
     display: flex;
-    justify-content: flex-start;
 }
 .nav > .nav-item > a{
     color: #48483f;

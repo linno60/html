@@ -79,10 +79,257 @@
                     <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
                 </div>
             </div>
+
+            <nav class="menu">
+                <div class="nav-full">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#">fashion</a>
+                            <div class="nav-dropdown">
+                                <div class="dropdown-item">
+                                    <h3>clothing</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Jeans & Trousers</a></li>
+                                        <li><a href="#">Blouses & Shirts</a></li>
+                                        <li><a href="#">Tops & T-Shirts</a></li>
+                                        <li><a href="#">Jackets & Coats</a></li>
+                                        <li><a href="#">Skirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-item">
+                                    <h3>shoes</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Formal Shoes</a></li>
+                                        <li><a href="#">Casual Shoes</a></li>
+                                        <li><a href="#">Sandals</a></li>
+                                        <li><a href="#">Boots</a></li>
+                                        <li><a href="#">Wide Fit</a></li>
+                                        <li><a href="#">Slippers</a></li>
+                                    </ul> 
+                                </div>
+                                <div class="dropdown-item">
+                                    <h3>accessories</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Bags & Purses</a></li>
+                                        <li><a href="#">Belts</a></li>
+                                        <li><a href="#">Gloves</a></li>
+                                        <li><a href="#">Jewellery</a></li>
+                                        <li><a href="#">Sunglasses</a></li>
+                                        <li><a href="#">Hair Accessories</a></li>
+                                    </ul> 
+                                </div>
+                                <div class="dropdown-item">
+                                    <h3>sports</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Sport Tops & Vests</a></li>
+                                        <li><a href="#">Hoodies</a></li>
+                                        <li><a href="#">Swimwear</a></li>
+                                        <li><a href="#">Footwear</a></li>
+                                        <li><a href="#">Sports Underwear</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                    </ul> 
+                                </div>
+                                <div class="dropdown-item">
+                                    <h3>maternity</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Tops & Skirts</a></li>
+                                        <li><a href="#">Jeans</a></li>
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Trousers & Shorts</a></li>
+                                        <li><a href="#">Knitwear</a></li>
+                                        <li><a href="#">Jackets & Coats</a></li>
+                                    </ul> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">electronics</a>
+                            <div class="nav-dropdown">
+                                <div class="dropdown-item">
+                                    <h3>Mobile</h3>
+                                    <ul class="list-lnk">
+                                        <li><a href="#">Phone</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">gifts</a>
+                            <div class="nav-dropdown">
+                                <div class="dropdown-item">
+                                    <h3>Mobile</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Phone</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">books</a>
+                            <div class="nav-dropdown">
+                                <div class="dropdown-item">
+                                    <h3>Mobile</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Phone</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">at&nbsp;home</a>
+                            <div class="nav-dropdown">
+                                <div class="dropdown-item">
+                                    <h3>Mobile</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Phone</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">music</a>
+                            <div class="nav-dropdown">
+                                <div class="dropdown-item">
+                                    <h3>Mobile</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Phone</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>                    
+            </nav>                
+
         </header>
         <div class="slider">
             <span class="slider-arrow left"><i class="icon-sliderarrow-left"></i></span>
             <span class="slider-arrow right"><i class="icon-sliderarrow-right"></i></span>
+        </div>
+        <div class="wrap-base">
+            <div class="content">
+                <h1 class="h1">Our Products</h1>
+                <p>Save your money and time with our store. Here's the best part of our impressive assortment.</p>
+                <div class="tabs">
+                    <a href="#">all</a>
+                    <a href="#">latest</a>
+                    <a href="#">featured</a>
+                    <a href="#">bestsellers</a>
+                    <a href="#">special</a>
+                </div>
+                <div class="grid">
+                    <figure>
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-price">$40</div>
+                            <img src="images/shape1.png" alt="">                            
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result" data-result="80"></div>
+                            </div>                                        
+                        </div>
+                        <h5>Lowlands Lace Blouse</h5>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure> 
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-price">$435</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings"></div>                                        
+                        </div>
+                        <h5>Samsung Galaxy Ace</h5>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-discount">-25%</div>
+                            <div class="lbl lbl-price">$19</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result" data-result="100"></div>
+                            </div>                                        
+                        </div>
+                        <h5>Iphone Case Cover Original</h5>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>                                   
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-new">NEW</div>
+                            <div class="lbl lbl-price">$1050</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings"></div>                                        
+                        </div>
+                        <h5>PowerMac Desktop Computer</h5>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-price"><span>$870</span>$710</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result" data-result="100"></div>
+                            </div>                                        
+                        </div>
+                        <h5>Cam Optia AF Webcam</h5>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>   
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-price">$168</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result" data-result="80"></div>
+                            </div>                                        
+                        </div>
+                        <h5>Cuisinart Brew Central Coffeemaker</h5>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>                                
+                </div>
+            </div>
+            <aside>
+
+            </aside>
         </div>
         <div class="manufacturers">
             <div class="hdr-wrap">
