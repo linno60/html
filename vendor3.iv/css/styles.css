@@ -291,12 +291,12 @@ nav{
     justify-content: space-between;
     margin-bottom: 46px;
 }
-.manufacturers .arrows{
+.arrows{
     display: flex;
     background-color: #fff;
     padding-left: 20px;
 }
-.manufacturers .arrows .slider-arrow{
+.arrows .slider-arrow{
     margin-left: 1px;
     width: 56px;
     height: 41px;
@@ -642,7 +642,8 @@ aside{
 }
 .tabs{
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
 }
 .tabs a{
     font: 600 14px "Arial";
@@ -652,9 +653,10 @@ aside{
     width: 120px;
     height: 30px;
     background-color: #575959;
-    margin-right: 4px;
+    margin: 0 4px 4px 0;
     color: #fff;
     text-transform: uppercase;
+    letter-spacing: -0.3px;
 }
 .tabs a:hover, .tabs a:first-child{
     background-color: #83bb25;
@@ -663,6 +665,7 @@ aside{
 .grid{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 figure{
     display: flex;
@@ -724,7 +727,7 @@ figure .btns{
     display: flex;
     justify-content: center;
 }
-figure h5{
+figcaption{
     color: #646464;
     font:19px/22px "PT Sans";
     margin:0 5px 16px 5px;
@@ -794,6 +797,50 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
 .btn-hidden-add{
     background-color:#575959;
     border: 1px solid #5b5f5d;
+}
+
+.welcome{
+    align-items: flex-start;
+    justify-content:space-between;
+    display:flex;
+    margin:58px 0px 82px 0px;
+}
+.welcome .h1{
+    margin-bottom:22px;
+}
+.welcome article{
+    flex: 1 1 501px;
+}
+.welcome img{
+    margin:3px 30px 0 0;
+    flex: 1 1 369px;
+}
+.welcome article p, .welcome article .h1 + p{
+    text-indent:16px;
+    letter-spacing: 0.2px;
+    padding:0px 22px 0px 0px;
+    color: #7b7f7e;
+    font:15px/21px "Arial";
+}
+.welcome p a{
+    color:#7bae23;
+}
+
+
+.sale{
+    padding-right: 30px;
+    margin-bottom: 70px;
+}
+.sale-row{
+    display: flex;
+    height: 400px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+.sale-row figure:last-child{
+    margin-right: 0px;
 }
 
 
@@ -881,7 +928,7 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     .tw-slider p, .tw-slider p a {
         font: 15px/18px "Arial";
     }
-    .manufacturers .arrows .slider-arrow {
+    .arrows .slider-arrow {
         margin-left: 1px;
         width: 50px;
         height: 37px;
@@ -907,7 +954,7 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
         padding: 5px 0px 15px;
     }
     .tabs {
-        margin-bottom: 22px;
+        margin-bottom: 18px;
     }
     .tabs a {
         width: 100px;
@@ -924,12 +971,59 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
         margin: 0px 10px 7px 0px;
         height: 390px;
     }
-    figure h5 {
-    margin: 0px 0px 16px 0px;
-}
+    figcaption {
+        margin: 0px 0px 16px 0px;
+    }
     figure .ratings-container {
-    margin: 12px 0px 12px 0px;
+        margin: 12px 0px 12px 0px;
+    }
+    .welcome article {
+        flex: 1 1 367px;
+    }
+    .welcome img {
+        margin: 70px 25px 0 0;
+        flex: 1 1 353px;
+        height:255px;
+    }
+    .welcome {
+        margin: 47px 0px 79px 0px;
+    }
+    .welcome p {
+        font: 14px/20px "Arial";
+        padding: 0px 22px 5px 0px;
+        letter-spacing: -0.13px;
+        text-indent: 14px;
+    }
+    .sale{
+    padding-right: 23px;
 }
+}
+@media screen and (max-width: 950px) { 
+.welcome {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 65px 0px 82px 0;
+    }
+    .welcome article{
+        flex: 1;
+    }
+    .welcome img {
+        height: 257px;
+        width:340px;        
+        flex: 1;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .welcome .h1{
+        margin-bottom: 12px;
+    }
+    .welcome article p, .welcome article .h1 + p  {
+        text-indent: 16px;
+        font:15px/22px "Arial";
+        letter-spacing: 0.2px;
+        padding: 0px 10px 8px 0px;
+        max-width: 550px;
+    }
 }
 @media screen and (max-width: 910px) {    
     .top-bar-drops p{
@@ -981,12 +1075,24 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     aside{
         width:23.4%;
     }
+    .grid, .sale-row{
+        justify-content: space-around;
+    }
+    .sale-row{
+        height: 370px;
+    }
     figure {  
         max-width: 220px;
         padding:15px 14px 0px 14px;
         margin: 0 20px 31px 0;
         height: 367px;
     } 
+    .sale figure{
+        min-width: 210px;
+    }
+    .sale{
+    padding-right: 60px;
+}
 }
 @media screen and (max-width: 860px) {      
     .manufacturers-slider a{
@@ -1026,22 +1132,42 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     }
     .nav-item .nav-dropdown{
         left: -50%;
-    }    
+    }  
+    .slider{
+        margin-bottom: 40px;
+    }
+    .h1{
+        font: 500 38px "Oswald";
+    }
+    .h1 + p {
+        font: 15px/17px "PT Sans";
+        padding: 0px 0px 15px 0px;
+    }
+    figure {
+        margin: 0px 20px 15px 0px;
+        height: 350px;
+    }
 }
 @media screen and (max-width: 785px) {
     .content {
-        width: 72%;
+        width: 67%;
         padding-right:27px;
     }
     aside {
-        width: 28%;
-    }
-    .tabs {
-        margin-bottom: 17px;
+        width: 33%;
     }
     .tabs a {
         width: 84px;
         font: 600 12px "Arial";
+    }
+    .grid{
+        height:715px;
+    }
+    .sale-row{
+        height: 360px;
+    }
+    .grid, .sale-row{
+        justify-content: flex-start;
     }
 }
 @media screen and (max-width: 740px) {
@@ -1060,11 +1186,8 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
         width: 31.5%;
     }
     figure{
-        margin:0px 9px 0px -4px;
+        margin:0px 9px 0px 0px;
     }
-    .h1{
-    font: 500 38px/36px "Oswald";
-}
 }
 @media screen and (max-width: 710px) {
     .top-bar-links a {
@@ -1158,6 +1281,19 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     .footer-bottom span{
         padding: 20px 35px;   
     }
+    .grid{
+        height: auto;
+    }
+    .sale{
+    padding-right: 0px;
+}
+}
+@media screen and (max-width: 670px) {
+    figure {
+        max-width: 268px;
+        min-width: 202px;
+        margin: 0px 5px 31px 5px;
+    }
 }
 @media screen and (max-width: 650px) {
     .footer > div, .footer > div:last-child{
@@ -1188,6 +1324,20 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     }
     aside {
         width: 100%;
+    } 
+    .grid, .sale-row{
+        justify-content: space-around;
+    }
+    figure {
+        padding: 20px 20px 17px 20px;
+        margin: 0px 10px 31px 10px;
+        height: auto;
+        max-width: 270px;
+        min-width: 220px;
+    } 
+    .figure-wrapper img {
+        max-width: 200px;
+        max-height: 200px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -1223,14 +1373,17 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     .hdr-wrap .h1 {
         font: 500 30px/36px "Oswald";
     }
-    .manufacturers .arrows .slider-arrow {
+    .h1 {
+        font: 500 30px "Oswald";
+    }
+    .arrows .slider-arrow {
         width: 40px;
         height: 30px;
     }
-    .manufacturers .arrows {
+    .arrows {
         padding-top: 5px;
     }
-    .hdr-wrap .h1::before {
+    .h1::before {
         height: 25px;
         margin-right: 4px;
     }
@@ -1243,20 +1396,24 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     .footer > div:last-child {
         width: 100%;
         margin: 0 0px 45px 0;
-    }
-    .grid{
+    }   
+}
+@media screen and (max-width: 510px) {
+    .grid, .sale-row{
         flex-direction: column;
         align-items: center;
+
     }
-    .figure-wrapper img {
-        max-width: 228px;
-        max-height: 228px;
+    .sale{
+        height: 500px;
+        overflow: hidden;
     }
-    figure {
-        padding: 20px 20px 17px 20px;
-        margin: 0px 10px 31px 10px;
+    .sale-row{
+        flex-wrap: nowrap;
         height: auto;
-        max-width: 270px;
+    }
+    .sale-row figure{
+       height: 400px; 
     }    
     figure .lbl.lbl-price {
         font-size: 18px;
@@ -1266,8 +1423,11 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     figure .ratings-container {
         margin: 20px 0px 12px;
     }
+    .figure-wrapper img {
+        max-width: 228px;
+        max-height: 228px;
+    }
 }
-
 @media screen and (max-width: 380px) {
     .visible-phone{
         display: flex;
@@ -1330,5 +1490,21 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     }
     .tw-slider p, .tw-slider p a {
         font: 16px/22px "Arial";
+    }
+    .h1 + p {
+        font: 14px/17px "PT Sans";
+        padding: 0px 0px 17px 0px;
+    }
+    figcaption {
+        margin: 0px 5px 16px 5px;
+    }
+    .welcome {
+        margin: 40px 0px 92px 0;
+    }
+    .welcome img {
+        padding-top: 40px;
+    }
+    .sale{
+        margin-bottom: 50px;
     }
 }

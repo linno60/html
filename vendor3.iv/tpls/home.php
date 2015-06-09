@@ -208,7 +208,7 @@
             <span class="slider-arrow right"><i class="icon-sliderarrow-right"></i></span>
         </div>
         <div class="wrap-base">
-            <div class="content">
+            <section class="content">
                 <h1 class="h1">Our Products</h1>
                 <p>Save your money and time with our store. Here's the best part of our impressive assortment.</p>
                 <div class="tabs">
@@ -226,10 +226,10 @@
                         </a>
                         <div class="ratings-container clearfix">
                             <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
+                                <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <h5>Lowlands Lace Blouse</h5>
+                        <figcaption>Lowlands Lace Blouse</figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -245,7 +245,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <h5>Samsung Galaxy Ace</h5>
+                        <figcaption>Samsung Galaxy Ace</figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -261,10 +261,10 @@
                         </a>
                         <div class="ratings-container clearfix">
                             <div class="ratings">
-                                <div class="ratings-result" data-result="100"></div>
+                                <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <h5>Iphone Case Cover Original</h5>
+                        <figcaption>Iphone Case Cover Original</figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -281,7 +281,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <h5>PowerMac Desktop Computer</h5>
+                        <figcaption>PowerMac Desktop Computer</figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -296,10 +296,10 @@
                         </a>
                         <div class="ratings-container clearfix">
                             <div class="ratings">
-                                <div class="ratings-result" data-result="100"></div>
+                                <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <h5>Cam Optia AF Webcam</h5>
+                        <figcaption>Cam Optia AF Webcam</figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -314,10 +314,10 @@
                         </a>
                         <div class="ratings-container clearfix">
                             <div class="ratings">
-                                <div class="ratings-result" data-result="80"></div>
+                                <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <h5>Cuisinart Brew Central Coffeemaker</h5>
+                        <figcaption>Cuisinart Brew Central Coffeemaker</figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -326,7 +326,86 @@
                         </div>
                     </figure>                                
                 </div>
-            </div>
+                <section class="welcome">
+                    <article>
+                        <h1 class="h1">Welcome to Venedor</h1>
+                        <p>Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and other. Based on Bootstrap's 12 column 1200px responsive grid Template. Great looks on desktops, tablets and mobiles. </p>
+                        <p>Sed interdum magna sit amet orci tristique blandit. Etiam id justo consequat quam viverra elementum. Sed ac magna sed massa rhoncus elementum et ac augue. Morbi non tellus nisi. Pellentesque habitant morbi tristique senectus.
+                            <a href="#">Buy Venedor Theme!</a>
+                        </p>                        
+                    </article>
+                    <img src="images/welcome.png" alt="" width="369" height="276">
+                </section>
+                <section class="sale">
+                    <div class="hdr-wrap">
+                        <div>
+                        <h1 class="h1">On Sale</h1>
+                        <p>Only with us you can get a new model with a discount.</p>
+                        </div>
+                        <div class="arrows">
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="sale-row">
+                        <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-discount">-45%</div>
+                            <div class="lbl lbl-price">$40</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result"></div>
+                            </div>                                        
+                        </div>
+                        <figcaption>Sony VAIO Tap 20</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                        <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-discount">-30%</div>
+                            <div class="lbl lbl-price">$435</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings"></div>                                        
+                        </div>
+                        <figcaption>BenQ E2220HD</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                        <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-price">$19</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result"></div>
+                            </div>                                        
+                        </div>
+                        <figcaption>Philips MP Digital Camera</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    </div>
+                </section>
+            </section>
+
             <aside>
 
             </aside>
