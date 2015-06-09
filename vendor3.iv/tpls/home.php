@@ -196,6 +196,12 @@
                                         <li><a href="#">Phone</a></li>
                                     </ul>
                                 </div>
+                                <div class="dropdown-item">
+                                    <h3>Mobile</h3>
+                                    <ul class="list list-lnk">
+                                        <li><a href="#">Phone</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -339,8 +345,8 @@
                 <section class="sale">
                     <div class="hdr-wrap">
                         <div>
-                        <h1 class="h1">On Sale</h1>
-                        <p>Only with us you can get a new model with a discount.</p>
+                            <h1 class="h1">On Sale</h1>
+                            <p>Only with us you can get a new model with a discount.</p>
                         </div>
                         <div class="arrows">
                             <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
@@ -349,65 +355,133 @@
                     </div>
                     <div class="sale-row">
                         <figure>                                    
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-discount">-45%</div>
-                            <div class="lbl lbl-price">$40</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result"></div>
-                            </div>                                        
-                        </div>
-                        <figcaption>Sony VAIO Tap 20</figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
+                            <a href="#" class="figure-wrapper">
+                                <div class="lbl lbl-discount">-45%</div>
+                                <div class="lbl lbl-price">$40</div>
+                                <img src="images/shape1.png" alt="">
+                            </a>
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result"></div>
+                                </div>                                        
+                            </div>
+                            <figcaption>Sony VAIO Tap 20</figcaption>
+                            <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
                         <figure>                                    
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-discount">-30%</div>
-                            <div class="lbl lbl-price">$435</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings"></div>                                        
-                        </div>
-                        <figcaption>BenQ E2220HD</figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
+                            <a href="#" class="figure-wrapper">
+                                <div class="lbl lbl-discount">-30%</div>
+                                <div class="lbl lbl-price">$435</div>
+                                <img src="images/shape1.png" alt="">
+                            </a>
+                            <div class="ratings-container clearfix">
+                                <div class="ratings"></div>                                        
+                            </div>
+                            <figcaption>BenQ E2220HD</figcaption>
+                            <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
                         <figure>                                    
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-price">$19</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result"></div>
-                            </div>                                        
-                        </div>
-                        <figcaption>Philips MP Digital Camera</figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
+                            <a href="#" class="figure-wrapper">
+                                <div class="lbl lbl-price">$19</div>
+                                <img src="images/shape1.png" alt="">
+                            </a>
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result"></div>
+                                </div>                                        
+                            </div>
+                            <figcaption>Philips MP Digital Camera</figcaption>
+                            <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
                     </div>
                 </section>
             </section>
 
             <aside>
-
+                <section class="newsletter">
+                    <h2>be the first to know</h2>
+                    <p>Get all the latest information on Events, Sales and Offers. Sign up for the Venedor storenewsletter today.</p>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Enter your email address">
+                        <button><span class="btn btn-submit">submit</span></button>
+                    </form>
+                </section>
+                <section class="testimonials">
+                    <div class="hdr-wrap">
+                        <h3>testimonials</h3>
+                        <div class="arrows">
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-left"></i></a>
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-right"></i></a>
+                        </div>
+                    </div>
+                    <blockquote>
+                        <h6>Best Service!</h6>
+                        <p>Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti.</p>
+                    </blockquote> 
+                    <div class="author">
+                        <a href="#" class="avatar">
+                            <img src="images/avatar.png" alt="">
+                        </a>
+                        <div>
+                            <a href="#" class="lnk-name">Anna Retallick</a>
+                            <time>12.05.2013</time>
+                        </div>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="hdr-wrap">
+                        <h3>latest news</h3>
+                        <div class="arrows">
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-left"></i></a>
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-right"></i></a>
+                        </div>
+                    </div>
+                    <article>
+                        <img src="/images/shape2.png" alt="">
+                        <h5>35% Discount on second purchase!</h5>
+                        <p>Sed blandit nulla nec nunc ullam corper tristique. Mauris adipiscing cursus ante ultricies dictum sed lobortis.</p>
+                        <div>
+                            <a href="#" class="lnk-read">Read More</a>
+                            <time>12.05.2013</time>
+                        </div>
+                    </article>
+                    <article>
+                        <h5>Free shipping for regular customers.</h5>
+                        <p>Aiquam mauris libero, suscipit sed ornare ac, suscipit non felis. Fusce sit amet orci justo, a ultrices urna cursus. Suspendisse mauris nibh, tristique eget consectetur.</p>
+                        <div>
+                            <a href="#" class="lnk-read">Read More</a>
+                            <time>12.05.2013</time>
+                        </div>
+                    </article>
+                </section>
+                <section class="banners">
+                    <div>
+                        <h1>free <span>shipping</span></h1>
+                    <p>on orders over <span>$150</p>
+                    <img src="/images/truck.png" width="168" height="120" alt="">
+                    <p>The offers is valid on all our store item!</p>
+                    </div>                    
+                    <div class="controls">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </section>
             </aside>
         </div>
         <div class="manufacturers">
