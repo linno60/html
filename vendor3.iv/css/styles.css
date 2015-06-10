@@ -319,6 +319,9 @@ nav{
     width: 170px;
     height: 100px;
 }
+.manufacturers.short{
+        display: none;
+    }
 
 .h1{
     color: #434645;
@@ -635,7 +638,7 @@ a.btn-social{
 .h1 + p{
     font: 17px "PT Sans";
     color: #999;
-    padding: 10px 0 20px 0;
+    padding: 10px 10px 20px 0;
 }
 .content{
     width: 77%;
@@ -813,7 +816,7 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     align-items: flex-start;
     justify-content:space-between;
     display:flex;
-    margin:58px 0px 82px 0px;
+    margin: 63px 0px 82px 0px;
 }
 .welcome .h1{
     margin-bottom:22px;
@@ -922,6 +925,7 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
 }
 aside .hdr-wrap{
     margin-bottom: 15px;
+    align-items: center;
 }
 aside .arrows{
     padding-left: 5px;
@@ -990,7 +994,7 @@ aside time{
     color: #bdbdbd;
 }
 .news{
-    margin: 60px 0 27px 0;
+    margin: 60px 0 25px 0;
 }
 .news article img { 
     width: 100%; 
@@ -1029,6 +1033,10 @@ aside time{
     text-align:center; 
     width: 100%;
 }
+.banners img{
+        width: 100%;
+        max-width: 168px;
+    }
 .banners h1{
     color: #83bb26;
     max-width: 230px;
@@ -1118,7 +1126,8 @@ aside time{
         display: block;
     }
     .slider{
-        height: 483px;    
+        height: 483px; 
+        margin-bottom: 70px;
     }
     .slider-arrow{
         top: 45.3%;
@@ -1173,7 +1182,7 @@ aside time{
     }
     .h1 + p {
         font: 15px "PT Sans";
-        padding: 5px 0px 15px;
+        padding: 5px 10px 15px 0;
     }
     .tabs {
         margin-bottom: 18px;
@@ -1201,12 +1210,12 @@ aside time{
         flex: 1 1 367px;
     }
     .welcome img {
-        margin: 70px 25px 0 0;
+        margin: 65px 25px 0 0;
         flex: 1 1 353px;
         height:255px;
     }
     .welcome {
-        margin: 47px 0px 79px 0px;
+        margin: 57px 0px 82px 0px;
     }
     .welcome p {
         font: 14px/20px "Arial";
@@ -1216,10 +1225,14 @@ aside time{
     }
     .sale{
         padding-right: 23px;
+        margin-bottom: 47px;
     }
     .content{
         width: 76.7%;        
     }
+    .manufacturers {
+    margin-bottom: 83px;
+}
     .grid{
         padding-right: 5px;
     }
@@ -1236,7 +1249,8 @@ aside time{
         font: 14px/18px "Arial";
     }
     .newsletter form input{
-        margin: 20px 0px 15px 0;
+        margin: 20px 0px 15px 0px;
+        max-width: 176px;
     }
     .newsletter form .btn-submit {
         height: 34px;
@@ -1273,10 +1287,10 @@ aside time{
     .avatar{
         max-width: 60px;
         max-height: 60px;
-        margin-right: 20px;
+        margin-right: 21px;
     }
     .news {
-        margin: 65px 0px 27px 0;
+        margin: 65px 0px 20px 0;
     }
     .news article h5 {
         font: 600 18px/22px "PT Sans";
@@ -1289,6 +1303,10 @@ aside time{
     .news article div {
         margin-bottom: 30px;
     }
+    .banners {
+        height: 328px;
+    padding: 20px 19px 13px 21px;
+}
     .banners h1 {
         font: 600 50px/37px "PT Sans";
     }
@@ -1296,12 +1314,16 @@ aside time{
         font: 600 36px "Gudea";
     }
     .banners h1 + p {
-        font: 600 20px/24px "PT Sans";
-        margin: 0px 0px 25px 0px;
+        font: 600 20px/14px "PT Sans";
+        margin: 0px 0px 28px 0px;
+    }
+    .banners img{
+        max-width: 130px;
+        max-height: 96px;
     }
     .banners p {
         font: 15px/18px "Arial";
-        margin: 13px 0px 0px 0px;
+        margin: 8px 0px 0px 0px;
     }
 }
 @media screen and (max-width: 1080px) { 
@@ -1341,7 +1363,7 @@ aside time{
     .welcome {
         flex-direction: column;
         justify-content: flex-start;
-        margin: 65px 0px 82px 0;
+        margin: 44px 30px 90px 0;
     }
     .welcome article{
         flex: 1;
@@ -1360,8 +1382,11 @@ aside time{
         text-indent: 16px;
         font:15px/22px "Arial";
         letter-spacing: 0.2px;
-        padding: 0px 30px 8px 0px;
+        padding: 0px 0px 8px 0px;
         max-width: 550px;
+    }
+    .news {
+        margin: 65px 0px 40px 0;
     }
 }
 
@@ -1427,7 +1452,7 @@ aside time{
         max-height: 220px;
     }    
     .sale{
-        padding-right: 60px;
+        padding-right: 40px;
     }    
 }
 @media screen and (max-width: 860px) {      
@@ -1478,12 +1503,15 @@ aside time{
     .slider{
         margin-bottom: 40px;
     }
+    .sale {
+    margin-bottom: 0px;
+}
     .h1{
         font: 500 38px "Oswald";
     }
     .h1 + p {
         font: 15px/17px "PT Sans";
-        padding: 0px 0px 15px 0px;
+        padding: 0px 10px 15px 0px;
     }
     figure {
         margin: 0px 20px 15px 0px;
@@ -1660,6 +1688,18 @@ aside time{
     .footer > div, .footer > div:last-child{
         width: 100%;
     }
+    .manufacturers.short{
+        display: flex;
+    }
+    .manufacturers.full{
+        display: none;
+    }
+    .manufacturers .arrows{
+        padding-left: 2px;
+    }
+    .manufacturers {
+    margin-bottom: 53px;
+}
     .footer > div{
         margin-bottom: 50px;
     }   
@@ -1760,7 +1800,7 @@ aside time{
     }
     .banners{
         height: 445px;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
     .banners h1 {
         font: 600 60px/37px "PT Sans";
@@ -1776,6 +1816,14 @@ aside time{
         font: 16px/18px "Arial";
         margin: 26px 0px 0px 0px;
     }
+    .banners {
+    padding: 40px 19px 13px 21px;
+}
+.banners img {
+    max-width: 194px;
+    max-height: 140px;
+    height: 140px;
+}
     .grid, .sale-row{
         justify-content: space-around;
     }
@@ -1791,7 +1839,15 @@ aside time{
         max-height: 228px;
     }
 }
+@media screen and (max-width: 580px) {
+    .manufacturers-slider{
+        justify-content: space-around;
+    }
+}
 @media screen and (max-width: 500px) {
+    .menu{
+        display: none;
+    }
     .header-top{
         margin-bottom: 87px;
     }
@@ -1879,6 +1935,14 @@ aside time{
         max-height: 228px;
     }
 }
+@media screen and (max-width: 390px) {
+    
+    .manufacturers-slider a {
+        margin: 0 0px 39px 5px;
+        width:138px;
+        height: 81px;
+    }
+}
 @media screen and (max-width: 380px) {
     .visible-phone{
         display: flex;
@@ -1914,11 +1978,7 @@ aside time{
     .footer .like-box a{
         margin: 0 10px 11px 0;
     } 
-    .manufacturers-slider a {
-        margin: 0 5px 39px 5px;
-        width:138px;
-        height: 81px;
-    }
+    
     .manufacturers-slider {
         margin: 0px -5px;
     }
@@ -1958,4 +2018,18 @@ aside time{
     .sale{
         margin-bottom: 50px;
     }
+    .manufacturers-slider{
+        justify-content: space-between;
+    }
+    .manufacturers {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sale {
+    padding-right: 0px;
+}
+aside .arrows .slider-arrow {
+    width: 35px;
+    height: 25px;
+}
 }

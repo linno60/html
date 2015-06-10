@@ -410,6 +410,23 @@
                         </figure>
                     </div>
                 </section>
+                <div class="manufacturers short">
+            <div class="hdr-wrap">
+                <h1 class="h1">Manufacturers</h1>
+                <div class="arrows">
+                    <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
+                    <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
+                </div>
+            </div>
+            <div class="manufacturers-slider">
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+                <a href="#"><img src="/images/brand.png" alt=""></a>
+            </div>              
+        </div>
             </section>
 
             <aside>
@@ -484,7 +501,7 @@
                 </section>
             </aside>
         </div>
-        <div class="manufacturers">
+        <div class="manufacturers full">
             <div class="hdr-wrap">
                 <h1 class="h1">Manufacturers</h1>
                 <div class="arrows">
