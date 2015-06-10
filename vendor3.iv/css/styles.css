@@ -1694,9 +1694,6 @@ aside time{
     .manufacturers.full{
         display: none;
     }
-    .manufacturers .arrows{
-        padding-left: 2px;
-    }
     .manufacturers {
     margin-bottom: 53px;
 }
@@ -1978,7 +1975,12 @@ aside time{
     .footer .like-box a{
         margin: 0 10px 11px 0;
     } 
-    
+    .manufacturers .arrows{
+        padding-left: 2px;
+    }
+    .manufacturers .arrows:before{
+        height: 0px;
+    }
     .manufacturers-slider {
         margin: 0px -5px;
     }
