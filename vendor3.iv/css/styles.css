@@ -1314,8 +1314,8 @@ aside time{
         font: 600 36px "Gudea";
     }
     .banners h1 + p {
-        font: 600 20px/14px "PT Sans";
-        margin: 0px 0px 28px 0px;
+        font: 600 20px/20px "PT Sans";
+        margin: 0px 0px 18px 0px;
     }
     .banners img{
         max-width: 130px;
