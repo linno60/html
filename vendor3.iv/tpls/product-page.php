@@ -13,337 +13,293 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>
-        <header>
-            <div class="top-bar-wrap">
-                <div class="top-bar">
-                    <div class="top-bar-links">
-                        <a href="#" data-tooltip="MyWishlist(0)"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
-                        <a href="#" data-tooltip="My&nbsp;Account"><i class="icon-topbar-user"></i>My Account</a>
-                        <a href="#" data-tooltip="Shopping&nbsp;Cart"><i class="icon-topbar-cart"></i>Shopping Cart</a>
-                        <a href="#" data-tooltip="Checkout"><i class="icon-topbar-checkout"></i>Checkout</a>
-                    </div>
-                    <div class="top-bar-drops">
-                        <p><span class="hidden-desktop">Welcome visitor you can </span><a href="#" class="login">login</a> or <a href="#">create an account</a>.</p>                        
-                        <div class="top-item currency">
-                            <span class="hidden-phone">US Dollar</span><span class="visible-phone">USD</span>
-                        </div> 
-                        <div class="top-item language">
-                            <i class="icon-flag-uk"></i><span class="hidden-phone">English</span><span class="visible-phone">En</span>
-                        </div>
-                    </div>
-                </div>            
-            </div>
-            <div class="header-top">
-                <a href="#" class="logo"><img src="/images/logo.png" alt="venedor"></a> 
-                <div class="support">
-                    <span class="lbl lbl-support">
-                        <i class="icon-ears"></i>
-                        +(404) 158 14 25 78<br>
-                        +(404) 851 21 48 15
-                    </span>
-                    <span class="lbl lbl-support alt">
-                        <span>
-                            <i class="icon-support-skype"></i>                                   
-                            <a href="#">venedor_support</a>
-                        </span>
-                        <span>
-                            <i class="icon-support-mail"></i>
-                            <a href="mailto:venedor@gmail.com">venedor@gmail.com</a>
-                        </span>
-                    </span> 
-                </div>
-            </div>  
-            <div class="header-bottom">
-                <nav>
-                    <div class="nav-full">
-                        <a href="#">fashion</a>
-                        <a href="#">electronics</a>
-                        <a href="#">gifts</a>
-                        <a href="#">books</a>
-                        <a href="#">at home</a>
-                        <a href="#">music</a>
-                    </div>                    
-                    <div class="nav-short">
-                        <input type="checkbox" id="menu" name="menu">
-                        <label for="menu">
-                            <span>menu</span>
-                            <div class="btn btn-hidden-menu"><i class="icon-hidden-menu"></i></div>
-                        </label>
-                    </div>
-                </nav>
-                <div class="quick-access">
-                    <form action="#" method="post" class="search">
-                        <button><span class="btn btn-search"><i class="icon-search"></i></span></button>   
-                        <input type="search" class="input-search" placeholder="Search here">                        
-                    </form>
-                    <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
-                </div>
-            </div>
-
-            <nav class="menu">
-                <div class="nav-full">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a href="#">fashion</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>clothing</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Dresses</a></li>
-                                        <li><a href="#">Jeans & Trousers</a></li>
-                                        <li><a href="#">Blouses & Shirts</a></li>
-                                        <li><a href="#">Tops & T-Shirts</a></li>
-                                        <li><a href="#">Jackets & Coats</a></li>
-                                        <li><a href="#">Skirts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown-item">
-                                    <h3>shoes</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Formal Shoes</a></li>
-                                        <li><a href="#">Casual Shoes</a></li>
-                                        <li><a href="#">Sandals</a></li>
-                                        <li><a href="#">Boots</a></li>
-                                        <li><a href="#">Wide Fit</a></li>
-                                        <li><a href="#">Slippers</a></li>
-                                    </ul> 
-                                </div>
-                                <div class="dropdown-item">
-                                    <h3>accessories</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Bags & Purses</a></li>
-                                        <li><a href="#">Belts</a></li>
-                                        <li><a href="#">Gloves</a></li>
-                                        <li><a href="#">Jewellery</a></li>
-                                        <li><a href="#">Sunglasses</a></li>
-                                        <li><a href="#">Hair Accessories</a></li>
-                                    </ul> 
-                                </div>
-                                <div class="dropdown-item">
-                                    <h3>sports</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Sport Tops & Vests</a></li>
-                                        <li><a href="#">Hoodies</a></li>
-                                        <li><a href="#">Swimwear</a></li>
-                                        <li><a href="#">Footwear</a></li>
-                                        <li><a href="#">Sports Underwear</a></li>
-                                        <li><a href="#">Bags</a></li>
-                                    </ul> 
-                                </div>
-                                <div class="dropdown-item">
-                                    <h3>maternity</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Tops & Skirts</a></li>
-                                        <li><a href="#">Jeans</a></li>
-                                        <li><a href="#">Dresses</a></li>
-                                        <li><a href="#">Trousers & Shorts</a></li>
-                                        <li><a href="#">Knitwear</a></li>
-                                        <li><a href="#">Jackets & Coats</a></li>
-                                    </ul> 
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">electronics</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>Mobile</h3>
-                                    <ul class="list-lnk">
-                                        <li><a href="#">Phone</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">gifts</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>Mobile</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Phone</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">books</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>Mobile</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Phone</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">at&nbsp;home</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>Mobile</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Phone</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">music</a>
-                            <div class="nav-dropdown">
-                                <div class="dropdown-item">
-                                    <h3>Mobile</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Phone</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown-item">
-                                    <h3>Mobile</h3>
-                                    <ul class="list list-lnk">
-                                        <li><a href="#">Phone</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>                    
-            </nav>                
-
-        </header>
-        <div class="slider-mobile-wrap">
-            <div class="slider-mobile">
-                <div>
-                    <img src="images/iphone4.png" alt=""> 
-                </div>
-                <div>
-                    <h1>Mobile</h1>
-                    <p>Aenean dictum libero vitae magna sagittis, eu convallis dolor blandit. Fusce consectetur tincidunt pretium. Etiam non tellus massa. Aenean tincidunt in augue nec tempus. Nulla porta libero sit amet lorem pellentesque posuere...</p>
-                    <a href="#" class="btn btn-more">learn more</a>
-                </div>
-            </div>
-        </div>
-        <div class="breadcrumb-wrap alt">
+        <?= require_tpl('common/header') ?>
+        <div class="breadcrumb-wrap">
             <ul class="breadcrumb">
                 <li><a href="#">Home</a><span>></span></li>
                 <li><a href="#">Electronics</a><span>></span></li>
-                <li>Mobile</li>
+                <li><a href="#">Mobile</a><span>></span></li>
+                <li>Samsung Galaxy Ace</li>
             </ul> 
         </div>
-        <div class="wrap-base">
-            
-        </div>
-
-        <div class="tw-slider-wrap">
-            <div class="tw-slider">
-                <div class="tw-item">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit euismod tristique eget pretium erat <a href="#">http://pretium/ferm</a></p>
-                    <time>15 days ago</time>
+        <div class="wrap-base product">
+            <div class="product-viewer">
+                <div class="product-slider">
+                    <div class="side-slider">
+                        <a href="#" class="btn"><i class="icon-accarrow"></i></a>
+                        <img src="images/shape7.png" alt="" width="122" height="122">
+                        <img src="images/shape7.png" alt="" width="122" height="122">
+                        <img src="images/shape7.png" alt="" width="122" height="122">
+                        <img src="images/shape7.png" alt="" width="122" height="122">
+                        <a href="#" class="btn"><i class="icon-accarrow"></i></a>
+                    </div>
+                    <div>
+                        <img src="images/shape6.png" alt="" width="530" height="530">
+                        <div class="lbl lbl-price">$478</div>
+                    </div>
                 </div>
-                <div class="tw-arrows">
-                    <a href="#" class="btn tw-slider-arrow"><i class="icon-twitterarrow-left"></i></a>
-                    <a href="#" class="btn tw-slider-arrow"><i class="icon-twitterarrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="footer-wrap">
-                <div class="footer">
-                    <div>
-                        <h5>my account</h5>
-                        <ul class="list list-lnk list-footer">
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Personal information</a></li>
-                            <li><a href="#">Addresses</a></li>
-                            <li><a href="#">Discount</a></li>
-                            <li><a href="#">Orders history</a></li>
-                            <li><a href="#">Your Vouchers</a></li>
-                        </ul>
+                <div class="product-description">
+                    <h1>Samsung Galaxy Ace</h1>
+                    <div class="reviews">
+                        <div class="ratings-result"></div>
+                        <a href="#">2 Review(s)</a>|
+                        <a href="#">Add Your Review</a>
                     </div>
-                    <div>
-                        <h5>information</h5>
-                        <ul class="list list-lnk list-footer">
-                            <li><a href="#">New products</a></li>
-                            <li><a href="#">Top sellers</a></li>
-                            <li><a href="#">Specials</a></li>
-                            <li><a href="#">Manufacturers</a></li>
-                            <li><a href="#">Suppliers</a></li>
-                            <li><a href="#">Our stores</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h5>contact information</h5>
-                        <h6>venedor ltd</h6>
-                        <address>
-                            <span>United Kingdom</span>
-                            <span>Greater London</span>
-                            <span>London  02587</span>
-                            <span>Oxford Street 48/188</span>
-                            <dl>
-                                <dt>Working days: </dt><dd>Mon. - Sun.</dd>
-                                <dt>Working hours: </dt><dd>9.00AM - 8.00PM</dd>
-                            </dl>
-                        </address>
-                    </div>
-                    <div>
-                        <div class="facebook-hdr">
-                            <h5>facebook</h5>
-                            <button><span class="btn btn-likefinger"><i class="icon-likefinger"></i><em>Like!</em></span></button>
+                    <dl>
+                        <dt>Availability:</dt><dd> In Stock</dd>
+                        <dt>Product Code:</dt><dd> 483512569</dd>
+                        <dt>Brand:</dt><dd> Apple</dd>
+                    </dl>
+                    <div class="switch-wrap">
+                        <h2>Select Color:</h2>
+                        <div class="switch color">
+                            <a href="#" id="c1"></a>
+                            <a href="#" id="c16"></a>
+                            <a href="#" id="c17"></a>
+                            <a href="#" id="c18"></a>
+                            <a href="#" id="c19"></a>
+                            <a href="#" id="c20"></a>
+                            <a href="#" id="c21"></a>
                         </div>
-                        <span class="likes">1452 people like <a href="#">PromoKit</a></span>
-                        <div class="like-box">
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Anna</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Tom</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Antuan</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Milla</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Justine</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Maria</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Antuan</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Milla</span>
-                            </a>
-                            <a href="#">
-                                <img src="/images/shape4.png" width="60" height="60" alt="">
-                                <span>Justine</span>
-                            </a>
+                        <h2>Select Size:</h2>
+                        <div class="switch">
+                            <a href="#" class="btn btn-size">xs</a>
+                            <a href="#" class="btn btn-size">s</a>
+                            <a href="#" class="btn btn-size">m</a>
+                            <a href="#" class="btn btn-size">l</a>
+                            <a href="#" class="btn btn-size">xl</a>
+                            <a href="#" class="btn btn-size">xxl</a>
+                        </div>
+                    </div>
+                    <div class="spinner-wrap">
+                        <div class="spinner">
+                            <div>1</div>
+                            <div class="btns">
+                                <div class="btn"><i class="icon-spinner-up"></i></div>
+                                <div class="btn"><i class="icon-spinner-down"></i></div>
+                            </div>
+                        </div>
+                        <button><span class="btn btn-add-lg">add to cart</span></button>
+                    </div>
+                    <div class="share-wrap">
+                        <div>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                        <div class="add-this">
+                            <span>Share:</span>
+                            <a href="#" class="btn btn-add-facebook"></a>
+                            <a href="#" class="btn btn-add-twitter"></a>
+                            <a href="#" class="btn btn-add-mail"></a>
+                            <a href="#" class="btn btn-add-print"></a>
+                            <a href="#" class="btn btn-add-this"></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="social">
-                    <a href="#" class="btn btn-social btn-facebook"><i class="icon-social-facebook"></i></a>
-                    <a href="#" class="btn btn-social btn-twitter"><i class="icon-social-twitter"></i></a>
-                    <a href="#" class="btn btn-social btn-rss"><i class="icon-social-rss"></i></a>
-                    <a href="#" class="btn btn-social btn-delicious"><i class="icon-social-delicious"></i></a>
-                    <a href="#" class="btn btn-social btn-linkedin"><i class="icon-social-linkedin"></i></a>
-                    <a href="#" class="btn btn-social btn-flickr"><i class="icon-social-flickr"></i></a>
-                    <a href="#" class="btn btn-social btn-skype"><i class="icon-social-skype"></i></a>
-                    <a href="#" class="btn btn-social btn-mail"><i class="icon-social-mail"></i></a>
+            <div class="product-middle">
+                <div class="tab">
+                    <input type="radio" id="tab1" name="tab-label">
+                    <label for="tab1">description</label>
+                    <div class="tab-pane">
+                        <p>Sed volutpat ac massa eget lacinia. Suspendisse non purus semper, tellus vel, tristique urna. Aenean <a href="#">volutpat lacus</a> at dolor blandit, vitae lobortisante semper. In ut rutrum diam, ac congue turpis. Ut bibendum metusfringilla, blandit elit at, commodo neque. Maecenas vehicula volutpat elit, in interdum lacus faucibus sit amet.</p>
+                        <p>Sed sed interdum diam. Donec sit amet enim tempor, dapibus nunc eu, tincidunt mi. Vivamus dignissim nisl eu euismod ullamcorper. Donec pellentesque diam id est tristique vestibulum. Donec eget feugiat ante. Integerarcu libero, dictum nec congue sed, faucibus sit amet lectus. </p>
+                        <p>Phasellus consequat id purus in convallis. Nulla quis nunc auctor, pretium enimnec, tristique magna. Vivamus vitae arcu faucibus, dictum magna vel, adipiscing justo. Sed nec ullamcorper lacus. Aenean tincidunt tincidunt ligula.</p>
+                    </div>
+                    <input type="radio" id="tab2" name="tab-label">
+                    <label for="tab2">details</label>
+                    <div class="tab-pane">
+                        <p>The perfect mix of portability and performance in a slim 1" form factor:</p>
+                        <ul>
+                            <li>3rd gen Intel® Core™ i7 quad core processor available;</li>
+                            <li>Windows 8 Pro available;</li>
+                            <li>13.3" and 15.5" screen sizes available;</li>
+                            <li>Double your battery life with available sheet battery;</li>
+                            <li>4th gen Intel® Core™ i7 processor available;</li>
+                            <li>Windows 8 Pro available;</li>
+                            <li>Full HD TRILUMINOS IPS touchscreen (1920 x 1080);</li>
+                            <li>Super fast 512GB PCIe SSD available;</li>
+                            <li>Ultra-light at just 2.34 lbs.</li>
+                        </ul>
+                    </div>
+                    <input type="radio" id="tab3" name="tab-label" checked>
+                    <label for="tab3">comments</label>
+                    <div class="tab-pane">
+                        <div class="hdr">
+                            <h3>1 Review for <a href="#">"Samsung Galaxy Ace"</a></h3>
+                        </div>
+                    </div>
+                    <input type="radio" id="tab4" name="tab-label">
+                    <label for="tab4">accessories</label>
+                    <div class="tab-pane">
+                        <figure>                                    
+                            <a href="#" class="figure-wrapper">
+                                <div class="lbl lbl-price">$19</div>
+                                <img src="images/shape1.png" alt="">
+                            </a>
+                            <div class="ratings-container clearfix">
+                                <div class="ratings">
+                                    <div class="ratings-result"></div>
+                                </div>                                        
+                            </div>
+                            <figcaption>Philips MP Digital Camera</figcaption>
+                            <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
+                        <figure>                                    
+                            <a href="#" class="figure-wrapper">
+                                <div class="lbl lbl-discount">-30%</div>
+                                <div class="lbl lbl-price">$75</div>
+                                <img src="images/shape1.png" alt="">
+                            </a>
+                            <div class="ratings-container clearfix">
+                                <div class="ratings"></div>                                        
+                            </div>
+                            <figcaption>BenQ E2220HD</figcaption>
+                            <div class="btns">
+                                <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            </div>
+                        </figure>
+                    </div>
+                    <input type="radio" id="tab5" name="tab-label">
+                    <label for="tab5">video</label> 
+                    <div class="tab-pane">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vUkjWypJjKk" frameborder="0" allowfullscreen></iframe>                                                
+                    </div>
                 </div>
-                <span>В© 2012 Powered by WooCommerceв„ў. All Rights Reserved.</span>
+                <aside class="featured">
+                    <div class="hdr-wrap">
+                        <h3>featured</h3>
+                        <div class="arrows">
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-left"></i></a>
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Jacket Suiting Blazer</h5>
+                            <div class="ratings-result"></div>
+                            <span>$40</span>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Gap Graphic Cuffed</h5>
+                            <div class="ratings-result"></div>
+                            <span>$18.5</span>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Women's Lauren Dress</h5>
+                            <span>$30</span>
+                        </div>
+                    </div>
+                </aside>
             </div>
-        </footer>
+            <section class="sale">
+                <div class="hdr-wrap">
+                    <div>
+                        <h1 class="h1">Also Purchased</h1>
+                        <p>Only with us you can get a new model with a discount.</p>
+                    </div>
+                    <div class="arrows">
+                        <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
+                        <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="sale-row">
+                    <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-discount">-45%</div>
+                            <div class="lbl lbl-price">$40</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result"></div>
+                            </div>                                        
+                        </div>
+                        <figcaption>Sony VAIO Tap 20</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-discount">-30%</div>
+                            <div class="lbl lbl-price">$435</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings"></div>                                        
+                        </div>
+                        <figcaption>BenQ E2220HD</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-price">$19</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings">
+                                <div class="ratings-result"></div>
+                            </div>                                        
+                        </div>
+                        <figcaption>Philips MP Digital Camera</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                    <figure>                                    
+                        <a href="#" class="figure-wrapper">
+                            <div class="lbl lbl-discount">-30%</div>
+                            <div class="lbl lbl-price">$75</div>
+                            <img src="images/shape1.png" alt="">
+                        </a>
+                        <div class="ratings-container clearfix">
+                            <div class="ratings"></div>                                        
+                        </div>
+                        <figcaption>BenQ E2220HD</figcaption>
+                        <div class="btns">
+                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                        </div>
+                    </figure>
+                </div>
+            </section> 
+        </div>
+        <?= require_tpl('common/footer') ?>
     </body>
 </html>
 
