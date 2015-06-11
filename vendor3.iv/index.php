@@ -6,6 +6,7 @@
     switch ($page) 
     {
         case 'index': $layout = 'home'; break; 
+        case 'category-grid-list': $layout = 'category-grid-list'; break;
     }
 
     require_tpl($layout);
