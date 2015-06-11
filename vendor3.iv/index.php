@@ -7,6 +7,8 @@
     {
         case 'index': $layout = 'home'; break; 
         case 'category-grid-list': $layout = 'category-grid-list'; break;
+        case 'product-page': $layout = 'product-page'; break;
+        case 'header': $layout = 'common/header'; break;
     }
 
     require_tpl($layout);

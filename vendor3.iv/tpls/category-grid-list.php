@@ -583,17 +583,17 @@
                 </div>
                 <div class="filter bottom">
                     <div class="select-wrap">
-                    <label class="lbl-filter">view:</label>
-                    <span class="select select-filter view">
-                        <select>
-                            <option selected="">15</option>
-                            <option>20</option>
-                            <option>30</option>
-                            <option>40</option>
-                            <option>50</option>
-                            <option>all</option>            
-                        </select>
-                    </span>
+                        <label class="lbl-filter">view:</label>
+                        <span class="select select-filter view">
+                            <select>
+                                <option selected="">15</option>
+                                <option>20</option>
+                                <option>30</option>
+                                <option>40</option>
+                                <option>50</option>
+                                <option>all</option>            
+                            </select>
+                        </span>
                     </div>
                     <ul class="pagination clearfix">
                         <li class="active"><a href="#">1</a></li>
@@ -608,31 +608,113 @@
 
             <aside>
                 <div class="aside-accordion">
-                    <label for="acc1">category<span class="btn"><i class="icon-accarrow"></i></span></label>
-                    <input type="checkbox" name="accordion" id="acc1">
-                    <div class="acc-panel">
+                    <input type="checkbox" name="accordion" id="acc1" checked>
+                    <label for="acc1">category<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel list-panel">
                         <ul>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l1">
-                                <label for="l1"><span><i class="icon-checkbox-plus">+</i></span>M</label>
+                                <input type="checkbox" name="list-lnk" id="l1" checked>
+                                <label for="l1"><span>+</span>Mobile Phones (341)</label>
                             </li>
-                        </ul>
-                    </div>
-                    <label for="acc2">category<span class="btn"><i class="icon-accarrow"></i></span></label>
-                    <input type="checkbox" name="accordion" id="acc2">
-                    <div class="acc-panel">
-                        <ul>
                             <li>
                                 <input type="checkbox" name="list-lnk" id="l2">
-                                <label for="l2"><span><i class="icon-checkbox-plus">+</i></span>M</label>
+                                <label for="l2"><span>+</span>Smartphones (55)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l3">
+                                <label for="l3"><span>+</span>Communicators (24)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l4">
+                                <label for="l4"><span>+</span>CDMA Phones (14)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l5">
+                                <label for="l5"><span>+</span>Accessories (83)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l6">
+                                <label for="l6"><span>+</span>Chargers (8)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l7">
+                                <label for="l7"><span>+</span>Memory Cards (6)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l8">
+                                <label for="l8"><span>+</span>Protectors (12)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="list-lnk" id="l9">
+                                <label for="l9"><span>+</span>Travelism (5)</label>
                             </li>
                         </ul>
+                        <div class="scroll-wrap">
+                            <div class="scroll"></div>
+                        </div>
                     </div>
+                    <input type="checkbox" name="accordion" id="acc2">
+                    <label for="acc2">brand<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel">
+                        <ul>
+                            <li><a href="#">Apple (20)</a></li>
+                        </ul>
+                    </div>
+                    <input type="checkbox" name="accordion" id="acc3" checked>
+                    <label for="acc3">price<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel range-panel">
+                        <form action="#" method="post">
+                            <div class="range-wrap">
+                                <div class="range">
+                                    <div class="range-handle"></div>
+                                    <div class="range-handle"></div>
+                                </div>
+                            </div>
+                            <div class="wrap-input">
+                                <label for="r1">from</label>
+                                <input type="text" id="r1">
+                                <label for="r2">to</label>
+                                <input type="text" id="r2">
+                            </div>
+                            <div>
+                                <button><span class="btn btn-range">ok</span></button> 
+                                <button><span class="btn btn-range">clear</span></button> 
+                            </div>
+                        </form>
+                    </div>
+                    <input type="checkbox" name="accordion" id="acc4" checked>
+                    <label for="acc4">color<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel color-panel">
+                        <a href="#" id="c1"></a>
+                        <a href="#" id="c2"></a>
+                        <a href="#" id="c3"></a>
+                        <a href="#" id="c4"></a>
+                        <a href="#" id="c5"></a>
+                        <a href="#" id="c6"></a>
+                        <a href="#" id="c7"></a>
+                        <a href="#" id="c8"></a>
+                        <a href="#" id="c9"></a>
+                        <a href="#" id="c10"></a>
+                        <a href="#" id="c11"></a>
+                        <a href="#" id="c12"></a>
+                        <a href="#" id="c13"></a>
+                        <a href="#" id="c14"></a>
+                        <a href="#" id="c15"></a>
+                    </div>
+                    <input type="checkbox" name="accordion" id="acc5">
+                    <label for="acc5">size<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel"></div>
+                    <input type="checkbox" name="accordion" id="acc6">
+                    <label for="acc6">weight<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel"></div>
+                    <input type="checkbox" name="accordion" id="acc7">
+                    <label for="acc7">processor<span class="btn"><i class="icon-accarrow"></i></span></label>                    
+                    <div class="acc-panel"></div>
                 </div>
                 <section class="">
 
                 </section>
-                <section class="">
+                <section class="featured">
                     <div class="hdr-wrap">
                         <h3>featured</h3>
                         <div class="arrows">
@@ -640,19 +722,58 @@
                             <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-right"></i></a>
                         </div>
                     </div>
-                    <article>
-
-                    </article>
-                    <article>
-
-                    </article>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Jacket Suiting Blazer</h5>
+                            <div class="ratings-result"></div>
+                            <span>$</span>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Gap Graphic Cuffed</h5>
+                            <div class="ratings-result"></div>
+                            <span>$</span>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Women's Lauren Dress</h5>
+                            <div class="ratings-result"></div>
+                            <span>$</span>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <a href="#">
+                            <img src="images/shape5.png" alt="">
+                        </a>
+                        <div>
+                            <h5>Woman's Tulip Dress</h5>
+                            <div class="ratings-result"></div>
+                            <span>$</span>
+                        </div>
+                    </div>
                 </section>
-                <section class="banners">
+                <section class="banners alt">
                     <div>
-                        <h1>free <span>shipping</span></h1>
-                        <p>on orders over <span>$150</p>
-                        <img src="/images/truck.png" width="168" height="120" alt="">
-                        <p>The offers is valid on all our store item!</p>
+                        <h1>sale<br><span>Many items</span></h1>
+                        <h3>
+                            <b>40</b>
+                            <span>
+                                <sup>%</sup>
+                                <sub>off</sub>
+                            </span>
+                        </h3>
+                        <p>Discount are subject to all kinds of electronics except smartphones.</p>
                     </div>                    
                     <div class="controls">
                         <a href="#"></a>
@@ -772,7 +893,7 @@
                     <a href="#" class="btn btn-social btn-skype"><i class="icon-social-skype"></i></a>
                     <a href="#" class="btn btn-social btn-mail"><i class="icon-social-mail"></i></a>
                 </div>
-                <span>© 2012 Powered by WooCommerce™. All Rights Reserved.</span>
+                <span>В© 2012 Powered by WooCommerceв„ў. All Rights Reserved.</span>
             </div>
         </footer>
     </body>
