@@ -3,9 +3,9 @@
         <div class="top-bar">
             <div class="top-bar-links">
                 <a href="#" data-tooltip="MyWishlist(0)"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
-                <a href="#" data-tooltip="My&nbsp;Account"><i class="icon-topbar-user"></i>My Account</a>
-                <a href="#" data-tooltip="Shopping&nbsp;Cart"><i class="icon-topbar-cart"></i>Shopping Cart</a>
-                <a href="#" data-tooltip="Checkout"><i class="icon-topbar-checkout"></i>Checkout</a>
+                <a href="register-account" data-tooltip="My&nbsp;Account"><i class="icon-topbar-user"></i>My Account</a>
+                <a href="shopping-cart" data-tooltip="Shopping&nbsp;Cart"><i class="icon-topbar-cart"></i>Shopping Cart</a>
+                <a href="checkout" data-tooltip="Checkout"><i class="icon-topbar-checkout"></i>Checkout</a>
             </div>
             <div class="top-bar-drops">
                 <p><span class="hidden-desktop">Welcome visitor you can </span><a href="#" class="login">login</a> or <a href="#">create an account</a>.</p>                        
@@ -44,8 +44,8 @@
                 <a href="#">fashion</a>
                 <a href="#">electronics</a>
                 <a href="#">gifts</a>
-                <a href="#">books</a>
-                <a href="#">at home</a>
+                <a href="blog">books</a>
+                <a href="contact-us">at home</a>
                 <a href="#">music</a>
             </div>                    
             <div class="nav-short">
@@ -61,7 +61,7 @@
                 <button><span class="btn btn-search"><i class="icon-search"></i></span></button>   
                 <input type="search" class="input-search" placeholder="Search here">                        
             </form>
-            <a href="#" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
+            <a href="shopping-cart" class="btn btn-cart"><i class="icon-cart"></i> <em>0 item(s) - $0.00</em></a>
         </div>
     </div>
 
@@ -151,7 +151,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#">books</a>
+                    <a href="blog">books</a>
                     <div class="nav-dropdown">
                         <div class="dropdown-item">
                             <h3>Mobile</h3>
@@ -162,7 +162,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#">at&nbsp;home</a>
+                    <a href="contact-us">at&nbsp;home</a>
                     <div class="nav-dropdown">
                         <div class="dropdown-item">
                             <h3>Mobile</h3>

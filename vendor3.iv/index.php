@@ -8,6 +8,13 @@
         case 'index': $layout = 'home'; break; 
         case 'category-grid-list': $layout = 'category-grid-list'; break;
         case 'product-page': $layout = 'product-page'; break;
+        case 'shopping-cart': $layout = 'shopping-cart'; break;
+        case 'compare-product': $layout = 'compare-product'; break;
+        case 'contact-us': $layout = 'contact-us'; break;
+        case 'register-account': $layout = 'register-account'; break;
+        case 'checkout': $layout = 'checkout'; break;
+        case 'blog': $layout = 'blog'; break;
+        case 'blog-post': $layout = 'blog-post'; break;
     }
 
     require_tpl($layout);

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Home</title>
+        <title>Category</title>
         <meta name="HandheldFriendly" content="True">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
@@ -10,7 +10,7 @@
         <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css'>
         <link type="text/css" rel="stylesheet" href="/css/reset.css">
         <link type="text/css" rel="stylesheet" href="/css/reset-elements.css">
-        <link type="text/css" rel="stylesheet" href="/css/styles.css">    
+        <link type="text/css" rel="stylesheet" href="/css/styles.css?<?=time()?>">    
     </head>
     <body>
         <?=require_tpl('common/header') ?>
@@ -33,27 +33,30 @@
                 <li>Mobile</li>
             </ul> 
         </div>
-        <div class="wrap-base">
+        <div class="wrap-base category">
             <section class="content">
-                <div class="filter main">
-                    <form action="#" method="post" class="filter-left">
+                <form action="#" method="post" class="filter main">
+                    <div class="filter-left">
                         <button><span class="btn btn-compare">compare</span></button>
                         <div>
                             <label class="lbl-filter">sort by:</label>
                             <span class="select select-filter">
                                 <select>
                                     <option selected="">Default</option>
-                                    <option>Brand</option>
-                                    <option>Name</option>
-                                    <option>Size</option>
-                                    <option>Color</option>
-                                    <option>Price</option>            
+                                    <option>Name (A - Z)</option>
+                                <option>Name (Z - A)</option>
+                                <option>Price (Low &gt; High)</option>
+                                <option>Price (High &gt; Low)</option>
+                                <option>Rating (Highest)</option>
+                                <option>Rating (Lowest)</option>
+                                <option>Model (A - Z)</option>
+                                <option>Model (Z - A)</option>           
                                 </select>
                             </span>
                         </div>
                         <div class="btn btn-grid active"><i class="icon-grid"></i></div>
                         <div class="btn btn-list"><i class="icon-list"></i></div>
-                    </form>
+                    </div>
                     <div class="filter-right">
                         <div class="select-wrap">
                             <label class="lbl-filter">view:</label>
@@ -81,9 +84,9 @@
                             <div class="btn btn-list"><i class="icon-list"></i></div>
                         </div>
                     </div>
-                </div>
-                <div class="filter alt">
-                    <form action="#" method="post" class="filter-left">
+                </form>
+                <form action="#" method="post" class="filter alt">
+                    <div class="filter-left">
                         <button><span class="btn btn-compare">compare</span></button>
                         <label class="lbl-filter">view:</label>
                         <span class="select select-filter view">
@@ -99,7 +102,7 @@
                         </span>
                         <div class="btn btn-grid active"><i class="icon-grid"></i></div>
                         <div class="btn btn-list"><i class="icon-list"></i></div>
-                    </form>
+                    </div>
                     <div class="filter-right">
                         <label class="lbl-filter">view:</label>
                         <span class="select select-filter">
@@ -121,7 +124,7 @@
                             <li class="next"><a href="#"><i class="icon-page-arrow"></i></a></li>
                         </ul>
                     </div>
-                </div>
+                </form>
                 <div class="grid">
                     <figure>
                         <a href="#" class="figure-wrapper">
@@ -227,7 +230,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure> 
-                    <figure>
+                    <figure class="hidden-category">
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-discount">-45%</div>
                             <div class="lbl lbl-price">$40</div>
@@ -246,7 +249,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure> 
+                    <figure class="hidden-category"> 
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-discount">-30%</div>
                             <div class="lbl lbl-price">$435</div>
@@ -263,7 +266,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>                                    
+                    <figure class="hidden-category">                                    
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price">$19</div>
                             <img src="images/shape1.png" alt="">
@@ -281,7 +284,8 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>                                   
+                    <div></div>
+                    <figure class="hidden-category">                                   
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price">$1875</div>
                             <img src="images/shape1.png" alt="">
@@ -297,7 +301,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>                                    
+                    <figure class="hidden hidden-category">                                    
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price">$75</div>
                             <img src="images/shape1.png" alt="">
@@ -315,7 +319,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>   
+                    <figure class="hidden hidden-category">   
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price disable">$378</div>
                             <img src="images/shape1.png" alt="">
@@ -333,7 +337,7 @@
                             <a href="#" class="btn btn-check disable"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>                                   
+                    <figure class="hidden hidden-category">                                   
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price">$1054</div>
                             <img src="images/shape1.png" alt="">
@@ -349,7 +353,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>                                    
+                    <figure class="hidden hidden-category">                                    
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price">$147</div>
                             <img src="images/shape1.png" alt="">
@@ -367,7 +371,7 @@
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
-                    <figure>   
+                    <figure class="hidden hidden-category">   
                         <a href="#" class="figure-wrapper">
                             <div class="lbl lbl-price">$38</div>
                             <img src="images/shape1.png" alt="">
@@ -412,45 +416,45 @@
             </section>
 
             <aside>
-                <div class="aside-accordion">
+                <div class="accordion category">
                     <input type="checkbox" name="accordion" id="acc1" checked>
                     <label for="acc1">category<span class="btn"><i class="icon-accarrow"></i></span></label>                    
                     <div class="acc-panel list-panel">
                         <ul>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l1" checked>
+                                <input type="checkbox" name="check-plus" id="l1" checked>
                                 <label for="l1"><span>+</span>Mobile Phones (341)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l2">
+                                <input type="checkbox" name="check-plus" id="l2">
                                 <label for="l2"><span>+</span>Smartphones (55)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l3">
+                                <input type="checkbox" name="check-plus" id="l3">
                                 <label for="l3"><span>+</span>Communicators (24)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l4">
+                                <input type="checkbox" name="check-plus" id="l4">
                                 <label for="l4"><span>+</span>CDMA Phones (14)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l5">
+                                <input type="checkbox" name="check-plus" id="l5">
                                 <label for="l5"><span>+</span>Accessories (83)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l6">
+                                <input type="checkbox" name="check-plus" id="l6">
                                 <label for="l6"><span>+</span>Chargers (8)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l7">
+                                <input type="checkbox" name="check-plus" id="l7">
                                 <label for="l7"><span>+</span>Memory Cards (6)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l8">
+                                <input type="checkbox" name="check-plus" id="l8">
                                 <label for="l8"><span>+</span>Protectors (12)</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="list-lnk" id="l9">
+                                <input type="checkbox" name="check-plus" id="l9">
                                 <label for="l9"><span>+</span>Travelism (5)</label>
                             </li>
                         </ul>
@@ -519,9 +523,6 @@
                     <label for="acc7">processor<span class="btn"><i class="icon-accarrow"></i></span></label>                    
                     <div class="acc-panel"></div>
                 </div>
-                <section class="">
-
-                </section>
                 <section class="featured">
                     <div class="hdr-wrap">
                         <h3>featured</h3>
@@ -569,17 +570,12 @@
                         </div>
                     </div>
                 </section>
-                <section class="banners alt">
+                <section class="banners">
                     <div>
-                        <h1>sale<br><span>Many items</span></h1>
-                        <h3>
-                            <b>40</b>
-                            <span>
-                                <sup>%</sup>
-                                <sub>off</sub>
-                            </span>
-                        </h3>
-                        <p>Discount are subject to all kinds of electronics except smartphones.</p>
+                        <h1>free <span>shipping</span></h1>
+                    <p>on orders over <span>$150</p>
+                    <img src="/images/truck.png" width="168" height="120" alt="">
+                    <p>The offers is valid on all our store item!</p>
                     </div>                    
                     <div class="controls">
                         <a href="#"></a>

@@ -107,7 +107,7 @@
                     <a href="#" class="btn btn-social btn-skype"><i class="icon-social-skype"></i></a>
                     <a href="#" class="btn btn-social btn-mail"><i class="icon-social-mail"></i></a>
                 </div>
-                <span>В© 2012 Powered by WooCommerceв„ў. All Rights Reserved.</span>
+                <span>&copy; 2012 Powered by WooCommerc&trade;. All Rights Reserved.</span>
             </div>
         </footer>
 

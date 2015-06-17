@@ -1010,7 +1010,6 @@ dd{
 /*DEFAULTS*/
 .h1, .h2, .h3, .h4, .h5{
     color: #434645;
-
 }
 .h1 {font: 500 42px/42px "Oswald";}
 .h2 {font: 500 35px/38px "Oswald";text-transform: uppercase;}
