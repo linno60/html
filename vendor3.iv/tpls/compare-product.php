@@ -20,7 +20,7 @@
                 <li>Compare Product</li>
             </ul> 
         </div>
-        <div class="wrap-base column">
+        <div class="wrap-base column compare">
             <h1 class="h1">Compare Product</h1>
             <p>If after products comparing you find it hard to choose, you can write to our live support.</p>
             <table class="tbl-striped">                      

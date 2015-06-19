@@ -86,7 +86,9 @@
                     <div class="share-wrap">
                         <div>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                            <span>favorite</span>
                             <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <span>wishlist</span>
                         </div>
                         <div class="add-this">
                             <span>Share:</span>
@@ -94,8 +96,10 @@
                             <a href="#" class="btn btn-add-twitter"></a>
                             <a href="#" class="btn btn-add-mail"></a>
                             <a href="#" class="btn btn-add-print"></a>
-                            <a href="#" class="btn btn-add-this"></a>
+                            <div class="share-counter-wrap">
+                                <a href="#" class="btn btn-add-this"></a>
                             <div class="share-counter">2m</div>
+                            </div>
                         </div>
                     </div>
                 </div>

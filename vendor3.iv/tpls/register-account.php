@@ -20,7 +20,7 @@
                 <li>Register Account</li>
             </ul> 
         </div>
-        <div class="wrap-base column">
+        <div class="wrap-base column account">
             <h1 class="h1">Register Account</h1>
             <p>If you already have an account with us, please login at the <a href="#">login page</a>.</p>
             <div class="register-account">

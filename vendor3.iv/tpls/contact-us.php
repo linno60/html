@@ -20,7 +20,7 @@
                 <li>Contact Us</li>
             </ul> 
         </div>
-        <div class="wrap-base cart">
+        <div class="wrap-base column contact-us">
             <h1 class="h1">Contact Us</h1>
             <p>If after products comparing you find it hard to choose, you can write to our live support.</p>
             <div class="map"></div>
@@ -32,7 +32,7 @@
                             <div class="form-wrap">
                                 <div>
                                 <label class="lbl lbl-form"><i class="icon-label-username"></i>Name*</label> 
-                                <input type="text" placeholder="Marek">
+                                <input type="text" placeholder="Marek Mnishek">
                             </div>
                             <div>
                                 <label class="lbl lbl-form"><i class="icon-label-mail"></i>Email*</label> 
@@ -46,7 +46,7 @@
                             </div>
                             <div class="attach">
                                 <a href="#" class="lbl lbl-form"><i class="icon-label-attach"></i>Attach File</a> 
-                                <label>No file chosen.</label>
+                                <label>No file chousen.</label>
                             </div>
                             </div>
                             <p class="visible">Your email address will not be published. Required fields are marked <span>*</span></p>

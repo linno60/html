@@ -20,7 +20,7 @@
                 <li>Checkout</li>
             </ul> 
         </div>
-        <div class="wrap-base cart">
+        <div class="wrap-base column checkout">
             <h1 class="h1">Checkout</h1>
             <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra.</p>
             <div class="accordion">

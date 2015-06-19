@@ -20,7 +20,7 @@
                 <li>Shopping Cart</li>
             </ul> 
         </div>
-        <div class="wrap-base cart">
+        <div class="wrap-base column cart">
             <h1 class="h1">Shopping Cart</h1>
             <p>Just this week, you can use the free premium delivery.</p>
             <table class="tbl-cart">
@@ -81,8 +81,10 @@
                             </div>
                         </td>
                         <td>
-                            <span class="subtotal">$130</span>
+                            <div class="subtotal-wrap">
+                                <span class="subtotal">$130</span>
                             <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
+                            </div>                            
                         </td>
                     </tr>
                     <tr>
@@ -102,7 +104,7 @@
                                         <dt>Unit Price:</dt><dd class="price"> $130</dd>
                                     </dl>
                                     <div class="spinner">
-                                        <input type="text" placeholder="1">
+                                        <input type="text" placeholder="2">
                                         <div class="btns">
                                             <div class="btn"><i class="icon-spinner-up"></i></div>
                                             <div class="btn"><i class="icon-spinner-down"></i></div>
@@ -119,11 +121,11 @@
                             mp125984154
                         </td>
                         <td>
-                            $1475
+                            <span class="price">$1475</span>
                         </td>
                         <td>
                             <div class="spinner">
-                                <input type="text" placeholder="1">
+                                <input type="text" placeholder="2">
                                 <div class="btns">
                                     <div class="btn"><i class="icon-spinner-up"></i></div>
                                     <div class="btn"><i class="icon-spinner-down"></i></div>
@@ -131,8 +133,10 @@
                             </div>
                         </td>
                         <td>
-                            <span>$1475</span>
+                            <div class="subtotal-wrap">
+                            <span class="subtotal">$1475</span>
                             <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
+                            </div>
                         </td>
                     </tr>
                     <tr>
@@ -169,7 +173,7 @@
                             mp125984154
                         </td>
                         <td>
-                            $1475
+                            <span class="price">$1475</span>
                         </td>
                         <td>
                             <div class="spinner">
@@ -181,8 +185,10 @@
                             </div>
                         </td>
                         <td>
-                            <span>$1475</span>
+                            <div class="subtotal-wrap">
+                            <span class="subtotal">$1475</span>
                             <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
+                            </div>
                         </td>
                     </tr>
                 </tbody>

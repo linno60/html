@@ -20,12 +20,12 @@
                 <li>Blog</li>
             </ul> 
         </div>
-        <div class="wrap-base cart"> 
+        <div class="wrap-base column blog"> 
             <div>
                 <h1 class="h1">Blog</h1>
                 <p>Curibatur sit amet urna at sem dignissim aliquam.</p> 
             </div>
-            <div class="wrap-base blog">
+            <div class="wrap-base blog-inner">
                 <section class="content blog">
                     <div class="blog-item">
                         <div class="lbl lbl-date">15<span>AUG</span></div>
@@ -119,6 +119,29 @@
                                 <a href="#">Read More... </a></p>
                         </div>
                     </div>
+                    <div class="blog-item hidden">
+                        <div class="lbl lbl-date">30<span>AUG</span></div>
+                        <div class="post">
+                            <div class="post-wrap">
+                                <div class="lbl lbl-date hidden">15<span>AUG</span></div>
+                                <img src="images/shape11.png" alt="">
+                            </div> 
+                            <h1>Aliquam erat voluptat.</h1>
+                            <div class="blog-links">
+                                <div>
+                                    <a href="#"><i class="icon-blog-user"></i>By Admin</a>
+                                    <a href="#"><i class="icon-blog-cloud"></i>3 Comments</a>
+                                    <a href="#"><i class="icon-blog-folder"></i>Category</a>
+                                </div>
+                                <div>
+                                    <a href="#"><i class="icon-blog-eye"></i>151</a>
+                                    <a href="#"><i class="icon-blog-like"></i>87</a>
+                                </div>
+                            </div>
+                            <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra. Mauris neque felis, volutpat nec ullamcorper eget, sagittis vel enim. Nam sit amet ante egestas, gravida tellus vitae, semper eros. Nullam mattis mi at metus egestas, in porttitor lectus sodales 
+                                <a href="#">Read More... </a></p>
+                        </div>
+                    </div>
                     <div class="filter bottom">
                         <span>Page 1 of 2</span>
                         <ul class="pagination clearfix">
@@ -140,12 +163,12 @@
                         <label for="acc1">electronics<span class="btn"></span></label>                    
                         <div class="acc-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
-                                <li><a href="#">CDMA Phones</a></li>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Charges</a></li>
-                                <li><a href="#">Memory Cards</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>CDMA Phones</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Accessories</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Chargers</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Memory Cards</a></li>
                             </ul>
                         </div>
                         <input type="checkbox" name="accordion" id="acc2">
@@ -175,7 +198,7 @@
                     </div>
                     <section class="news">
                         <div class="hdr-wrap">
-                            <h3>recent post</h3>
+                            <h3>resent post</h3>
                             <div class="arrows">
                                 <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-left"></i></a>
                                 <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-small-right"></i></a>
@@ -228,21 +251,21 @@
                         <div>
                             <a href="#">Category</a>
                             <a href="#">Phones</a>
-                            <a href="#">Camera</a>
+                            <a href="#" class="hidden">Camera</a>
                             <a href="#">Chargers</a>
                             <a href="#">Accessiries</a>
                             <a href="#">Memory</a>
                             <a href="#">Communicators</a>
                             <a href="#">Players</a>
                             <a href="#">Tablets</a>
-                            <a href="#">laptops</a>
+                            <a href="#" class="hidden">laptops</a>
                             <a href="#">Consoles</a>
                             <a href="#">Samsung</a>
                         </div>
                     </section>
                     <section class="flickr">
                         <div class="hdr-wrap">
-                            <h3>flickr</h3>                            
+                            <h3>fiickr</h3>                            
                         </div>
                         <div>
                            <img src="images/shape12.png" alt=""> 

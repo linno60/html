@@ -20,7 +20,7 @@
                 <li>Blog Post</li>
             </ul> 
         </div>
-        <div class="wrap-base cart">
+        <div class="wrap-base column blog">
             <h1 class="h1">Blog Post</h1>
             <p>Curibatur sit amet urna at sem dignissim aliquam.</p>
             <div class="wrap-base blog">
