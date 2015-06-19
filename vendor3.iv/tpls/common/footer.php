@@ -16,7 +16,7 @@
                     <div>
                         <h5>my account</h5>
                         <ul class="list list-lnk list-footer">
-                            <li><a href="#">My account</a></li>
+                            <li><a href="register-account">My account</a></li>
                             <li><a href="#">Personal information</a></li>
                             <li><a href="#">Addresses</a></li>
                             <li><a href="#">Discount</a></li>

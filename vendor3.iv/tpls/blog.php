@@ -70,7 +70,7 @@
                                 </div>
                             </div>
                             <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra. Mauris neque felis, volutpat nec ullamcorper eget, sagittis vel enim. Nam sit amet ante egestas, gravida tellus vitae, semper eros. Nullam mattis mi at metus egestas, in porttitor lectus sodales 
-                                <a href="#">Read More... </a></p>
+                                <a href="blog-post">Read More... </a></p>
                         </div>
                     </div>
                     <div class="blog-item">
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                             <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra. Mauris neque felis, volutpat nec ullamcorper eget, sagittis vel enim. Nam sit amet ante egestas, gravida tellus vitae, semper eros. Nullam mattis mi at metus egestas, in porttitor lectus sodales 
-                                <a href="#">Read More... </a></p>
+                                <a href="blog-post">Read More... </a></p>
                         </div>
                     </div>
                     <div class="blog-item">
@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                             <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra. Mauris neque felis, volutpat nec ullamcorper eget, sagittis vel enim. Nam sit amet ante egestas, gravida tellus vitae, semper eros. Nullam mattis mi at metus egestas, in porttitor lectus sodales 
-                                <a href="#">Read More... </a></p>
+                                <a href="blog-post">Read More... </a></p>
                         </div>
                     </div>
                     <div class="blog-item hidden">
@@ -126,7 +126,7 @@
                                 <div class="lbl lbl-date hidden">15<span>AUG</span></div>
                                 <img src="images/shape11.png" alt="">
                             </div> 
-                            <h1>Aliquam erat voluptat.</h1>
+                            <h1>Sed dapibus lorem ultrices.</h1>
                             <div class="blog-links">
                                 <div>
                                     <a href="#"><i class="icon-blog-user"></i>By Admin</a>
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                             <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra. Mauris neque felis, volutpat nec ullamcorper eget, sagittis vel enim. Nam sit amet ante egestas, gravida tellus vitae, semper eros. Nullam mattis mi at metus egestas, in porttitor lectus sodales 
-                                <a href="#">Read More... </a></p>
+                                <a href="blog-post">Read More... </a></p>
                         </div>
                     </div>
                     <div class="filter bottom">
@@ -175,24 +175,24 @@
                         <label for="acc2">fasion<span class="btn"></span></label>                    
                         <div class="acc-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
                             </ul>
                         </div>
                         <input type="checkbox" name="accordion" id="acc3">
                         <label for="acc3">at home<span class="btn"></span></label>                    
                         <div class="acc-panel range-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
                             </ul>
                         </div>
                         <input type="checkbox" name="accordion" id="acc4">
                         <label for="acc4">books<span class="btn"></span></label>                    
                         <div class="acc-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
                             </ul>
                         </div>
                     </div>

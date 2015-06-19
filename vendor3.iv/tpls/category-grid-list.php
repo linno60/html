@@ -141,7 +141,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure> 
@@ -157,7 +157,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>                                    
@@ -175,7 +175,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>                                   
@@ -191,7 +191,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>                                    
@@ -209,7 +209,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>   
@@ -227,7 +227,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure> 
                     <figure class="hidden-category">
@@ -246,7 +246,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden-category"> 
@@ -263,7 +263,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden-category">                                    
@@ -281,7 +281,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <div></div>
@@ -298,7 +298,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden hidden-category">                                    
@@ -316,7 +316,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden hidden-category">   
@@ -334,7 +334,7 @@
                             <a href="#" class="btn btn-hidden-add disable"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add disable">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like disable"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check disable"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check disable"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden hidden-category">                                   
@@ -350,7 +350,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden hidden-category">                                    
@@ -368,7 +368,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure class="hidden hidden-category">   
@@ -386,7 +386,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                 </div>

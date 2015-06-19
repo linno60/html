@@ -9,7 +9,12 @@ input[type="checkbox"]{
 .lbl.disable{
     background-color: #c3c7c5;
 }
-.btn.disable{
+.btn.disable, .btn.disable:hover{
+    background-color: #c3c7c5;
+    border-color: #c2c8c6;
+    color: #ffffff;
+}
+.btn.disable:hover{
     background-color: #c3c7c5;
     border-color: #c2c8c6;
     color: #ffffff;
@@ -20,6 +25,9 @@ input[type="checkbox"]{
     border-radius: 3px;
     box-shadow: inset 0 1px 0 0 rgba(255,255,255,.38);
     color: #e7e7e7;
+}
+.btn:hover, a.btn:hover{
+    color: #fff;
 }
 .btn:hover, a.btn:hover, button:hover .btn{
     color: #ffffff;
@@ -871,6 +879,10 @@ figure .btn:hover, figure a.btn:hover, figure button:hover .btn{
     font: 600 13px "Arial";
     padding:0 15px;
 }
+.btn-add:hover{
+    background-color:#7bad23;
+    border: 1px solid #7bad23;
+}
 .btn-check, .btn-like, .btn-hidden-add{
     background-color:#7bad23;
     border:1px solid #7bad23;
@@ -1447,7 +1459,7 @@ time{
     border-bottom: 1px solid #dcdcdc;
     padding: 16px 20px 33px 20px;
 }
-.acc-panel ul li input:checked + label {
+.acc-panel ul li input:checked + label, .acc-panel ul li input:hover + label {
     color: #7bad23;
 }
 input[name="check-plus"]:checked + label span{
@@ -1498,7 +1510,7 @@ input[name="check-plus"] + label span{
     background-color: #83bb25;
     box-shadow: 0 1px 1px rgba(0,0,0,.2);
     position: absolute;
-    left: -50%;
+    left: -70%;
     top: 38px;
     display: flex;
     flex-direction: column;
@@ -1568,7 +1580,7 @@ input[name="check-plus"] + label span{
 .btn-range.ok{
     padding: 0 10px;
 }
-.btn-range:hover{
+.range-panel button:hover .btn-range{
     border: 1px solid #7bad23;
     background-color: #7bad23;
 }
@@ -1667,6 +1679,9 @@ input[name="check-plus"] + label span{
 .main-slider img{
     height: 530px;
     width: 530px;
+}
+.side-slider a img {
+    width: 100%;
 }
 .side-slider{
     height: 530px;
@@ -1810,6 +1825,11 @@ input[name="check-plus"] + label span{
     font: 19px "Arial";
     padding: 0 23px; 
 }
+.spinner-wrap button:hover .btn-add-lg{
+    border: 1px solid #7bad23;
+    background-color: #7bad23;
+    color: #fff;
+}
 .spinner-wrap button{
     margin-left: 27px;    
 }
@@ -1947,7 +1967,7 @@ input[type="radio"]{
     display: flex;
     flex-direction: column;
     margin-right: 30px;
-    height: 462px;
+    min-height: 462px;
 }
 .tab .tab-pane { 
     overflow-y: scroll;
@@ -1978,6 +1998,9 @@ input[type="radio"]{
 }
 .tab #tab4:checked + label + .tab-pane{
     display: flex;
+}
+.tab > label:last-child{
+    margin-bottom: 20px;
 }
 .tab > label{
     display: flex;
@@ -2326,6 +2349,21 @@ table{
 .tbl-total + div > button:last-child .btn-add{
     padding: 0 40px;
 }
+.tbl-total + div > button:last-child .btn-add {
+  border: 1px solid #7bad23;
+color: #fff;
+background-color: #7bad23;
+}
+.tbl-total + div > button:last-child:hover .btn-add {
+color: #e7e7e7;
+background-color: #575959;
+  border: 1px solid #5b5f5d;
+}
+.cart button:hover .btn{
+    border: 1px solid #7bad23;
+color: #fff;
+background-color: #7bad23;
+}
 .tab-pane form > div{
     display: flex;
     align-items: center;
@@ -2389,15 +2427,15 @@ table{
     padding-left: 30px
 }
 .product-middle.cart .tab input:checked + label {
-    width: 36.1%;
+    width: 36.2%;
 }
 .product-middle.cart .tab .tab-pane {
     width: 64%;
     left: 36%;
-    padding: 20px 30px 30px 50px;
+    padding: 20px 46px 30px 50px;
 }
 .product-middle.cart .tab  {
-    height: 314px
+    min-height: 314px
 }
 .select-quote select{
     height:38px;
@@ -2676,6 +2714,11 @@ input[type="password"]:-ms-input-placeholder {
     border-radius: 2px;
     font: 17px "Arial";
 }
+.contacts-wrap form button:hover .btn-submit {
+    border: 1px solid #83bb25;
+    background-color: #83bb25;
+    color: #fff;
+}
 .textarea{
     border: 1px solid #dcdcdc;
     border-top:none;
@@ -2780,7 +2823,7 @@ input[type="password"]:-ms-input-placeholder {
     margin-bottom: 61px;
 }
 .register-account input{
-    width:100%;
+    width: 73%;
 }
 .register-account .select{
     width: 73%;
@@ -3036,13 +3079,13 @@ input[name="check-plus"]:checked + label span i{
     color: #a3a3a3;
 }
 .blog aside .news .hdr-wrap {
-  margin-bottom: 21px;
+    margin-bottom: 21px;
 }
 .accordion.blog {
     margin: 6px 0 34px 0;
 }
 .blog aside .testimonials .hdr-wrap {
-  margin-bottom: 21px;
+    margin-bottom: 21px;
 }
 .accordion.blog label span{
     width: 16px;
@@ -3138,7 +3181,7 @@ aside .accordion.blog .acc-panel {
     letter-spacing: 0.2px;
 }
 .blog .add-this{
-    margin: 10px 0 10px 0;
+    margin: 5px 0 8px 0;
 }
 .about img{
     width: 100%;
@@ -3244,7 +3287,7 @@ a.btn-post{
     padding:0px 30px 35px 0px;
 }
 .blog .contacts-wrap {
-    margin-bottom: 18px;
+    margin-bottom: 42px;
 }
 .blog .contacts-wrap > div {
     width: 100%;
@@ -3252,7 +3295,7 @@ a.btn-post{
 .blog .contacts-wrap form > div, .blog .contacts-wrap form > div:last-child  {
     width: 50%; 
 }
-.blog .contacts-wrap form > div:last-child {
+.blog .commentss-wrap form > div:last-child {
     margin-right: 0px;
 }
 .blog .textarea{
@@ -3274,6 +3317,20 @@ a.btn-post{
 .post-wrap{
     display: flex;
 }
+.blog .contacts-wrap form > div:last-child {
+    margin-right: 0px;
+}
+.blog .contacts-wrap .lbl-form + input{        
+    width: 100%;
+}
+.blog .contacts-wrap form .textarea + div input {
+    width: 100%;
+    max-width: 220px;
+}
+.blog .share-wrap > div:first-child .btn {
+    margin: 5px 0px 5px 4px;
+}
+
 @media screen and (max-width: 1220px) { 
     .top-bar, .header-top, .header-bottom, .footer, .footer-bottom, .manufacturers, .tw-slider, .menu, .wrap-base, .wrap-base.cart,
     .breadcrumb{
@@ -3299,6 +3356,10 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 1150px) {
+    .product-middle.cart .tab .tab-pane {
+
+    padding: 20px 30px 30px 30px;
+}
     .filter.alt{
         display: flex;
     }
@@ -3402,6 +3463,9 @@ a.btn-post{
     .footer > div:last-child{
         padding-right: 0px;
     }
+    .tab-pane .slider-arrow {
+    top: 30%;
+}
 }
 
 @media screen and (max-width: 1100px) { 
@@ -3527,33 +3591,38 @@ a.btn-post{
         letter-spacing: 0.05px;
     }
     .blog-links > div:first-child a {
-    margin-right: 15px;
-}
-.blog-links > div:last-child a {
-    margin-left: 15px;
-}
-.post {
-    margin-bottom: 52px;
-}
-.blog .news {
-    margin: 29px 0px 23px;
-}
-.tags {
-    margin: 69px 0px 66px 0px;
-}
-.blog-item + .filter.bottom {
-    margin: 0px 0px 81px;
-}
+        margin-right: 15px;
+    }
+    .blog-links > div:last-child a {
+        margin-left: 15px;
+    }
+    .post {
+        margin-bottom: 52px;
+    }
+    .blog .news {
+        margin: 29px 0px 23px;
+    }
+    .tags {
+        margin: 69px 0px 66px 0px;
+    }
+    .blog-item + .filter.bottom {
+        margin: 0px 0px 81px;
+    }
     .about {
         margin: 26px 0px 50px;
-        letter-spacing: 0.05px;
     }
     .about p {
         color: #777;
         font: 15px/21px "Arial";
-        letter-spacing: 0.25px;
+        letter-spacing: 0.12px;
         padding: 0px 0px 13px 0px;
     }
+    .thread p {
+    padding: 0px 10px 35px 0px;
+}
+.comments-wrap ul li {
+    padding: 40px 0px 30px 30px;
+}
     figure{
         margin: 0px 25px 7px 0px;
         min-height: 390px;
@@ -3756,11 +3825,9 @@ a.btn-post{
     .select-quote select, .tab-pane form .input-quote {
         width: 190px;
     }
-    .product-middle.cart aside {
-        width:63%;
-    }
+    
     .product-middle.cart .tab input:checked + label {
-        width: 38.2%;
+        width: 38.3%;
     }
     .tab {
         margin-right: 40px;
@@ -3786,9 +3853,6 @@ a.btn-post{
     }
     .tab input:checked + label {
         width: 31.2%;
-    }
-    .tab {
-        height: 462px;
     }
     .tab-pane form > button {
         margin-top: 0px;
@@ -3843,6 +3907,7 @@ a.btn-post{
         width: 225px;
         font-size: 14px;
     }
+
     .textarea {
         padding: 17px 39px 17px 19px;
         margin-bottom: 15px;
@@ -3895,19 +3960,29 @@ a.btn-post{
     .contacts-wrap aside ul li span, .contacts-wrap aside ul li a {
         font: 16px "Arial";
     }
-    .blog .contacts-wrap form > div, .blog .contacts-wrap form > div:last-child  {
-        width: 100%; 
-    }
+
     .contacts-wrap form .textarea + div > div img {
         max-width: 140px;
         max-height: 47px;
     }
+    .blog .contacts-wrap form .textarea + div > div img {
+        max-width: 140px;
+        min-width: 140px;
+    }
     .blog .contacts-wrap form > div > div.form-wrap, .blog .contacts-wrap form > div:last-child  {
         padding-right: 0px;
     }
-    .blog .contacts-wrap form > div > div.form-wrap:first-child {
-        padding-right: 25px;
+    .blog .contacts-wrap form > div > .form-wrap:first-child {
+        padding-right: 45px;
     }
+    .blog .contacts-wrap form > div {
+    padding-right: 0px;
+}
+.blog .contacts-wrap form .textarea + div input {
+    max-width: 220px;
+    min-width: 220px;
+    margin-right: 10px;
+}
     .blog .contacts-wrap form > div .textarea + div {
         padding-right: 0px;
     }
@@ -3915,6 +3990,9 @@ a.btn-post{
         height: 47px;
         padding: 0px 34px;
     }
+    .blog .contacts-wrap form .btn-submit {
+    padding: 0px 24px;
+}
     .contacts-wrap form .textarea + div input {
         width: 310px;
     }
@@ -3957,7 +4035,22 @@ a.btn-post{
         padding: 0px 20px;
     }
     .wrap-base.blog aside h3 {
-    font: 22px/17px "Oswald";
+        font: 22px/17px "Oswald";
+    }
+    .blog .contacts-wrap form > div:first-child {
+        flex-direction: row;
+    }
+    .blog .contacts-wrap form > div, .blog .contacts-wrap form > div:last-child {
+        width: 100%;
+    }
+    .blog .contacts-wrap .lbl-form  {
+    min-width: 96px;
+}
+.blog .contacts-wrap .lbl-form  {
+    width: 96px;
+}
+.tab-pane .slider-arrow {
+    top: 25%;
 }
 }
 @media screen and (max-width: 1080px) { 
@@ -4090,6 +4183,12 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 950px) { 
+    .product-middle.cart aside {
+        width:100%;
+    }
+    .select-quote select, .tab-pane form .input-quote {
+        width: 273px;
+    }
     .welcome {
         flex-direction: column;
         justify-content: flex-start;
@@ -4144,10 +4243,34 @@ a.btn-post{
         width: 100%;
     }
     .side-slider-wrap .btn-down {
-        bottom: -18px;
-    }
+        bottom: -20px;
+    }    
+.side-slider-wrap .btn-up {
+    top: -20px;
+}
+.side-slider-wrap .btn {
+    width: 44px;
+    height: 40px;
+    margin-left:-22px;
+}
+.side-slider-wrap .btn i{
+    width: 16px;
+    height: 16px;
+}
+.side-slider-wrap .btn-down i {
+    background: transparent url("/images/icons/16x16/slider-down.png");
+}
+.side-slider-wrap .btn-up i {
+    background: transparent url("/images/icons/16x16/slider-up.png");
+}
+.side-slider-wrap .btn-down:hover i {
+    background: transparent url("/images/icons/16x16/slider-down-hover.png");
+}
+.side-slider-wrap .btn-up:hover i {
+    background: transparent url("/images/icons/16x16/slider-up.png");
+}
     .side-slider {
-        height: 554px;
+        height: 559px;
         width: 128px;
     }
     .side-slider-wrap {
@@ -4161,6 +4284,10 @@ a.btn-post{
         width: 128px;
         height: 128px;
     }
+    .side-slider a {
+    height: 128px;
+    width: 128px;
+}
     .product-slider{
         width: 100%;
         margin-bottom:  70px;
@@ -4214,7 +4341,7 @@ a.btn-post{
     .spinner input {
         height: 52px;
     }
-    .featured a img {
+    .product-middle .featured a img {
         max-width: 100px;
     }
     .product-middle aside h3 {
@@ -4228,15 +4355,24 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 920px) {  
-    .blog .content {
+/*    .blog .content {
         width: 68.5%;
-    }
+    }*/
     .blog aside {
         width: 31.5%
     }
-     .flickr img {
+    .flickr img {
         max-width: 72px;
     }
+    .blog .contacts-wrap form > div:first-child {
+    flex-direction: column
+}
+.contacts-wrap form > div > .form-wrap {
+    width: 100%;
+}
+.blog .contacts-wrap form > div > .form-wrap:first-child {
+    padding-right: 0px;
+}
 }
 @media screen and (max-width: 910px) {    
     .top-bar-drops p{
@@ -4306,9 +4442,6 @@ a.btn-post{
         flex-direction: column;
         align-items: flex-start;
     }
-    .product-middle.cart aside {
-        width: 100%;
-    }
     .product-middle.cart aside > div {
         justify-content: flex-end;
     }
@@ -4347,6 +4480,9 @@ a.btn-post{
         min-width: 60px;
         height: 60px;
     }
+.blog .contacts-wrap form > div:first-child {
+        padding-right: 0px;
+    }
 }
 @media screen and (max-width: 860px) {      
     .manufacturers-slider a{
@@ -4358,36 +4494,36 @@ a.btn-post{
         margin: 0 20px 11px 0;
     }
     .wrap-base.blog {
-    margin-top: 40px;
-}
-.wrap-base.blog-inner {
-    margin-top: 26px;
-}
-.post h1 {
-    font: 600 24px "PT Sans";
-    margin: 14px 0px 10px;
-}
-.blog-links a i {
-    width: 16px;
-    height: 16px;
-    background-size: 100%;
-    margin-right: 2px;
-}
-.blog-links > div:first-child a {
-    margin-right: 13px;
-}
-.blog-links > div:last-child a {
-    margin-left: 13px;
-}
-.blog-links {
-    margin-bottom: 7px;
-}
-.post {
-    margin-bottom: 50px;
-}
-.blog-item.hidden{
-    display: flex;
-}
+        margin-top: 40px;
+    }
+    .wrap-base.blog-inner {
+        margin-top: 26px;
+    }
+    .post h1 {
+        font: 600 24px "PT Sans";
+        margin: 14px 0px 10px;
+    }
+    .blog-links a i {
+        width: 16px;
+        height: 16px;
+        background-size: 100%;
+        margin-right: 2px;
+    }
+    .blog-links > div:first-child a {
+        margin-right: 13px;
+    }
+    .blog-links > div:last-child a {
+        margin-left: 13px;
+    }
+    .blog-links {
+        margin-bottom: 7px;
+    }
+    .post {
+        margin-bottom: 50px;
+    }
+    .blog-item.hidden{
+        display: flex;
+    }
     .content {
         width: 68.5%;
     }
@@ -4571,8 +4707,20 @@ a.btn-post{
     .register-account input {
         width: 67%;
     }
+    .lbl-date {
+        font: 600 17px/17px "PT Sans";
+    }
+    .lbl-date span {
+        font-size: 17px;
+    }
+    .blog .news {
+        margin: 29px 0px 34px 0px;
+    }
 }
-@media screen and (max-width: 820px) {    
+@media screen and (max-width: 820px) {  
+    .tbl-cart .btn-close {
+    margin-left: 10px;
+}
     .top-bar-links a {
         margin: 0px 25px 0px 0px;
     }
@@ -4646,9 +4794,7 @@ a.btn-post{
     .product-middle.cart .tab .tab-pane {
         padding: 22px 30px 19px 30px;
     }
-    .select-quote select, .tab-pane form .input-quote {
-        width: 273px;
-    }
+    
     .product-middle.cart .tbl-total {
         margin-bottom: 15px;
     }
@@ -4713,6 +4859,24 @@ a.btn-post{
         font: 600 30px "PT Sans";
         margin: 5px 0px 10px;
     }
+    .blog-links ~ p.hidden {
+    display: none;
+}
+.about img {
+    max-width: 110px;
+    max-height: 110px;
+    margin-right: 20px;
+}
+.about {
+    margin: 56px 0px 50px 0;
+}
+.post blockquote {
+    padding: 36px 5px 20px 33px;
+    color: #8E9290;
+    font: italic 15px/21px "Arial";
+    background: transparent url("/images/icons/quote.png") no-repeat scroll 28px 10px;
+    letter-spacing: 0.2px;
+}
 }
 @media screen and (max-width: 750px) {
     .figure-wrapper img{
@@ -4818,8 +4982,15 @@ a.btn-post{
     .flickr img {
         max-width: 68px;
     }
+    .tbl-cart .btn-close {
+    margin-left: 5px;
+}
 }
 @media (max-width: 710px) {
+    .tab-pane .hdr {
+    flex-direction: column;
+    padding-bottom: 20px;
+}
     .top-bar-links a {
         margin: 0px 10px 0px 0px;
         font-size: 0px;
@@ -4981,6 +5152,17 @@ a.btn-post{
     .register-account input {
         width: 80%;
     }
+    .blog-item .post {
+width: 85%;
+}
+.blog .contacts-wrap form .textarea + div input {
+    margin-right: 5px;
+    max-width: 198px;
+min-width: 198px;
+}
+.category .grid{
+        padding-right: 0px;
+    }
 }
 @media (max-width: 670px) {
     figure {
@@ -4990,10 +5172,24 @@ a.btn-post{
         width: 70%;
     }
     aside {
-        width: 30%;
-    }
+        width: 30%;        
+    }   
+.flickr img {
+    max-width: 60px;
+}
 }
 @media (max-width: 650px) {
+    .checkout .tbl-cart {
+    margin: 11px 0px 0px 0;
+}
+      .blog-item .post {
+width: 100%;
+}
+.blog .contacts-wrap form .textarea + div input {
+    margin-right: 10px;
+    max-width: 220px;
+min-width: 220px;
+}
     .footer > div, .footer > div:last-child{
         width: 100%;
     }
@@ -5186,6 +5382,33 @@ a.btn-post{
         height: 490px;
         width: 110px;
     }
+    .side-slider-wrap .btn-down {
+        bottom: -14px;
+    }    
+.side-slider-wrap .btn-up {
+    top: -14px;
+}
+.side-slider-wrap .btn {
+    width: 34px;
+    height: 28px;
+    margin-left:-17px;
+}
+.side-slider-wrap .btn i{
+    width: 12px;
+    height: 12px;
+}
+.side-slider-wrap .btn-down i {
+    background: transparent url("/images/icons/12x12/accarrow-down.png");
+}
+.side-slider-wrap .btn-up i {
+    background: transparent url("/images/icons/12x12/accarrow-up.png");
+}
+.side-slider-wrap .btn-down:hover i {
+    background: transparent url("/images/icons/12x12/accarrow-down-hover.png");
+}
+.side-slider-wrap .btn-up:hover i {
+    background: transparent url("/images/icons/12x12/accarrow-up-hover.png");
+}
     .main-slider img{
         width: 480px;
         height: 480px;
@@ -5285,6 +5508,9 @@ a.btn-post{
     .lbl-form + input {
         padding: 0px 10px;
         width: 70%;
+    }
+    .register-account .lbl-form + input {
+        width: 80%;
     }
     .lbl-form {
         width: 30%;
@@ -5435,11 +5661,36 @@ a.btn-post{
     .contacts-wrap form > div:first-child {
         padding-right: 0px;
     }
+    .flickr img {
+        max-width: 94px;
+        min-width: 94px;
+        max-height: 94px;
+        min-height: 94px;
+        margin: 0 5px 9px 0;
+    }
+    .wrap-base.blog-inner {
+        margin-bottom: 91px;
+    }
+    .flickr .hdr-wrap + div {
+        margin-right: -5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .blog .news {
+        margin: 23px 0px 24px 0px;
+    }
+    .tags a {
+        margin: 0px 7px 10px 0px;
+    }
+    .tags a.hidden{
+        display: inline-flex;
+    }
+    .contacts-wrap .lbl-form + input {
+    width: 90%;
+}
 }
 @media screen and (max-width: 620px) {
-    .side-slider-wrap .btn-down {
-        bottom: -1px;
-    }
     .side-slider {
         height: 440px;
         width: 100px;
@@ -5460,9 +5711,6 @@ a.btn-post{
     .slider-mobile p{
         display: none;
     }
-    .side-slider-wrap .btn-down {
-        bottom: -1px;
-    }
     .side-slider {
         height: 412px;
         width: 90px;
@@ -5476,7 +5724,7 @@ a.btn-post{
         height: 90px;
     }
     .tab {
-        height: auto;
+        min-height: auto;
     }
     .tab .tab-pane{
         height: auto;
@@ -5664,7 +5912,6 @@ a.btn-post{
     .grid, .sale-row{
         flex-direction: column;
         align-items: center;
-
     }
     .sale{
         height: 500px;
@@ -5701,6 +5948,7 @@ a.btn-post{
     .share-wrap > div:first-child span{
         display: inline-flex;
     }
+    
 }
 @media screen and (max-width: 450px) {
     .side-slider {
@@ -5720,6 +5968,24 @@ a.btn-post{
         height: 100px;
         font: 600 23px "Gudea";
     }
+    .tab-pane iframe {
+    max-width: 300px;
+    height: 150px;   
+}
+ .blog .contacts-wrap form .textarea + div input {
+    margin-right: 0px;
+    max-width: 180px;
+    min-width: 180px;
+}
+.blog .contacts-wrap form .textarea + div > div img {
+    max-width: 120px;
+    min-width: 120px;
+    height: 47px;
+}
+.blog .contacts-wrap p {
+    font: 14px/16px "Arial";
+    margin-bottom: 10px;
+}
 }
 @media screen and (max-width: 390px) {
     .manufacturers-slider a {
@@ -5745,6 +6011,15 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 380px) {
+    .side-slider-wrap .btn-down {
+        bottom: -10px;
+    } 
+    .panel-table {
+    align-items: center;
+}
+    .wrap-base.checkout {
+    margin-top: 20px;
+}
     .visible-phone{
         display: flex;
     }
@@ -5805,8 +6080,44 @@ a.btn-post{
     .breadcrumb {
         height: 40px;
     }
+    .spinner-wrap .btn-add-lg {
+    height: 42px;
+    font: 15px "Arial";
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+.spinner {
+    height: 42px;
+}
+.spinner input {
+    height: 42px;
+}
+.spinner-wrap {
+    margin-bottom:10px;
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+.share-wrap > div:first-child span {
+    padding: 0px 30px 0px 0px;
+}
+.spinner-wrap button {
+    margin-left: 10px;
+}
+    .switch-wrap {
+        
+    margin: 25px 0px 25px;
+    padding: 16px 0px 10px;
+}
+    .product-description dl dd, .product-description dl dt {
+    display: inline;
+    font: 17px/25px "Arial";
+}
+.product-description dl dt {
+    font-weight: bold;
+}
     .product-slider {
-        margin-bottom: 30px;
+        margin-bottom: 37px;
     }
     .product-description h1 {
         font: 600 25px "PT Sans";
@@ -5819,7 +6130,7 @@ a.btn-post{
         margin-bottom: 10px;
     }
     .product-viewer {
-        margin: 50px 0px 55px;
+        margin: 44px 0px 55px;
     }
     .tab .tab-pane {
         padding: 10px;
@@ -5837,7 +6148,7 @@ a.btn-post{
         padding-right: 0px;
     }
     .tw-item {
-        padding: 48px 0px 10px 60px;
+        padding: 44px 0px 30px 60px;
     }
     .tw-slider p, .tw-slider p a {
         font: 16px/22px "Arial";
@@ -5904,18 +6215,17 @@ a.btn-post{
     .product-slider .lbl-price {
         width: 90px;
         height: 90px;
+        right: -10px;
+        bottom: -5px;
     }
     .side-slider-wrap{
         margin-right: 5px;
     }
     .side-slider {        
-        height: 258px;
+        height: 243px;
         width: 55px;
     }
-    .product-slider .lbl-price {
-        bottom: -15px;
-    }
-    .main-slider {
+    .main-slider img{
         width: 238px;
         height: 238px;
     }
@@ -5977,4 +6287,36 @@ a.btn-post{
     .register-account .lbl-form {
         width: 110px;
     }
+    .wrap-base.blog {
+        margin-top: 20px;
+    }
+    .wrap-base.blog-inner {
+        margin-top: 10px;
+    }
+    .post-wrap img {
+        max-height: 98px;
+    }
+    .post h1 {
+        font: 600 24px/29px "PT Sans";
+        margin: 13px 0px 14px 0px;
+    }
+    .blog-links div{
+        margin-bottom: 2px;
+    }
+    .blog-links ~ p {
+        font: 16px/22px "Arial";
+    }
+    .blog-item + .filter.bottom span {
+        display: none;
+    }
+    .blog-item + .filter.bottom {
+        margin: 0px 0px 89px;
+        justify-content: center;
+    }
+    .wrap-base.blog aside h3 {
+        font: 25px/17px "Oswald";
+    }
+    .arrows {
+    padding-left: 5px;
+}
 }

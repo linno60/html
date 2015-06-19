@@ -23,7 +23,7 @@
         <div class="wrap-base column blog">
             <h1 class="h1">Blog Post</h1>
             <p>Curibatur sit amet urna at sem dignissim aliquam.</p>
-            <div class="wrap-base blog">
+            <div class="wrap-base blog-inner">
                 <section class="content blog">
                     <div class="blog-item">
                         <div class="lbl lbl-date">15<span>AUG</span></div>
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                             <p>Quisque elementum nibh at dolor pellentesque, a eleifend libero pharetra. Mauris neque felis, volutpat nec ullamcorper eget, sagittis vel enim. Nam sit amet ante egestas, gravida tellus vitae, semper eros. Nullam mattis mi at metus egestas, in porttitor lectus sodales.</p>
-                            <p>Aliquam sed sem odio. Morbi et ligula at quam adipiscing commodo vitae et enim. Donec lectus arcu, pretium iderat et, hendrerit tempus eros. Nullam ut pretium arcu, ac pretium tortor. Fusce sed nulla ac lorem porta auctor. Aliquam pulvinar lectus sed est aliquet faucibus.</p>
+                            <p class="hidden">Aliquam sed sem odio. Morbi et ligula at quam adipiscing commodo vitae et enim. Donec lectus arcu, pretium iderat et, hendrerit tempus eros. Nullam ut pretium arcu, ac pretium tortor. Fusce sed nulla ac lorem porta auctor. Aliquam pulvinar lectus sed est aliquet faucibus.</p>
                             <blockquote>Maecenas semper aliquam massa. Praesent pharetra sem vitae nisi eleifend molestie. Aliquam molestie scelerisque ultricies. Suspendisse potenti. Phasellus interdum risus at mi ullamcorper lobortis. In et metus aliquet, suscipit leo.</blockquote>
                             <p>Donec mauris ante, pretium in interdum porta, hendrerit vitae quam. Ut lobortis sapien eu est laoreet feugiat. Ut non elementum tellus, vitae vulputate ipsum. Mauris varius eros vel risus ultricies, pulvinar gravida sapien aliquet. Vestibulum hendrerit ultrices turpis sit amet tempor. In convallis sem vehicula semper feugiat. Quisque venenatis orci mauris, ut venenatis lectus luctus id.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar ultrices felis, ac luctus ipsum aliquam sed. Sed vitae orci faucibus, vulputate metus eget, ultrices purus. Aliquam egestas tempus orci, feugiat rhoncus felis scelerisque id. Suspendisse potenti. Donec lectus lacus, sodales nec accumsan in, posuere tempus urna.</p>
@@ -120,6 +120,7 @@
                                     </li>
                                 </ul>
                             </div>
+
                             <div class="contacts-wrap">
                                 <div>
                                     <h3 class="h3">leave a reply</h3>
@@ -140,8 +141,9 @@
                                                     <label class="lbl lbl-form"><i class="icon-label-subject"></i>Subject</label> 
                                                     <input type="text" placeholder="Interdum et Malesuada">
                                                 </div>
+                                                <p>Your email address will not be published. Required fields are marked <span>*</span></p>
                                             </div>
-                                            <p class="visible">Your email address will not be published. Required fields are marked <span>*</span></p>
+                                            
                                         </div>
                                         <div>
                                             <label class="lbl lbl-form"><i class="icon-label-compose"></i>Your comment*</label> 
@@ -151,11 +153,9 @@
                                                     <input type="text" placeholder="Enter the code">
                                                     <img src="images/captcha.png" alt="">
                                                 </div>
-                                                <p class="hidden-tablet">Your email address will not be published. Required fields are marked <span>*</span></p>
                                                 <button><span class="btn btn-submit">post comment</span></button>
                                             </div>
-                                            <p class="hidden-desktop">Your email address will not be published. Required fields are marked <span>*</span></p>
-                                        </div>
+                                         </div>
                                     </form>
                                 </div>
                             </div>
@@ -171,36 +171,36 @@
                         <label for="acc1">electronics<span class="btn"></span></label>                    
                         <div class="acc-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
-                                <li><a href="#">CDMA Phones</a></li>
-                                <li><a href="#">Accessories</a></li>
-                                <li><a href="#">Charges</a></li>
-                                <li><a href="#">Memory Cards</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>CDMA Phones</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Accessories</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Charges</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Memory Cards</a></li>
                             </ul>
                         </div>
                         <input type="checkbox" name="accordion" id="acc2">
                         <label for="acc2">fasion<span class="btn"></span></label>                    
                         <div class="acc-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
                             </ul>
                         </div>
                         <input type="checkbox" name="accordion" id="acc3">
                         <label for="acc3">at home<span class="btn"></span></label>                    
                         <div class="acc-panel range-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
                             </ul>
                         </div>
                         <input type="checkbox" name="accordion" id="acc4">
                         <label for="acc4">books<span class="btn"></span></label>                    
                         <div class="acc-panel">
                             <ul>
-                                <li><a href="#">Mobile</a></li>
-                                <li><a href="#">Communicators</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Mobile</a></li>
+                                <li><a href="#"><i class="icon-list-point"></i>Communicators</a></li>
                             </ul>
                         </div>
                     </div>

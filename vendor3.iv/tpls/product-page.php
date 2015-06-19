@@ -111,7 +111,7 @@
                     <div class="tab-pane">
                         <p>Sed volutpat ac massa eget lacinia. Suspendisse non purus semper, tellus vel, tristique urna. Aenean <a href="#">volutpat lacus</a> at dolor blandit, vitae lobortisante semper. In ut rutrum diam, ac congue turpis. Ut bibendum metusfringilla, blandit elit at, commodo neque. Maecenas vehicula volutpat elit, in interdum lacus faucibus sit amet.</p>
                         <p>Sed sed interdum diam. Donec sit amet enim tempor, dapibus nunc eu, tincidunt mi. Vivamus dignissim nisl eu euismod ullamcorper. Donec pellentesque diam id est tristique vestibulum. Donec eget feugiat ante. Integerarcu libero, dictum nec congue sed, faucibus sit amet lectus. </p>
-                        <p>Phasellus consequat id purus in convallis. Nulla quis nunc auctor, pretium enimnec, tristique magna. Vivamus vitae arcu faucibus, dictum magna vel, adipiscing justo. Sed nec ullamcorper lacus. Aenean tincidunt tincidunt ligula.</p>
+                        <p>Phasellus consequat id purus in convallis. Nulla quis nunc auctor, pretium enimnec, tristique magna. Vivamus vitae arcu faucibus, dictum magna vel, adipiscing justo. Sed nec ullamcorper lacus. Aenean tincidunt tincidunt ligula.</p>                    
                     </div>
                     <input type="radio" id="tab2" name="tab-label">
                     <label for="tab2">details</label>
@@ -271,7 +271,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>                                    
@@ -288,7 +288,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>                                    
@@ -306,7 +306,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                     <figure>                                    
@@ -323,7 +323,7 @@
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
                             <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                         </div>
                     </figure>
                 </div>

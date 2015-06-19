@@ -275,7 +275,7 @@
             <section class="sale">
                 <div class="hdr-wrap">
                     <div>
-                        <h1 class="h1">Also Purchased</h1>
+                        <h1 class="h1">Also Purchesed</h1>
                         <p>Note the similar products - after buying for more than $500 you can get a discount.</p>
                     </div>
                     <div class="arrows">

@@ -2,13 +2,13 @@
     <div class="top-bar-wrap">
         <div class="top-bar">
             <div class="top-bar-links">
-                <a href="#" data-tooltip="MyWishlist(0)"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
+                <a href="compare-product" data-tooltip="MyWishlist(0)"><i class="icon-topbar-compose"></i>My Wishlist (0)</a>
                 <a href="register-account" data-tooltip="My&nbsp;Account"><i class="icon-topbar-user"></i>My Account</a>
                 <a href="shopping-cart" data-tooltip="Shopping&nbsp;Cart"><i class="icon-topbar-cart"></i>Shopping Cart</a>
                 <a href="checkout" data-tooltip="Checkout"><i class="icon-topbar-checkout"></i>Checkout</a>
             </div>
             <div class="top-bar-drops">
-                <p><span class="hidden-desktop">Welcome visitor you can </span><a href="#" class="login">login</a> or <a href="#">create an account</a>.</p>                        
+                <p><span class="hidden-desktop">Welcome visitor you can </span><a href="register-account" class="login">login</a> or <a href="register-account">create an account</a>.</p>                        
                 <div class="top-item currency">
                     <span class="hidden-phone">US Dollar</span><span class="visible-phone">USD</span>
                 </div> 
@@ -29,7 +29,7 @@
             <span class="lbl lbl-support alt">
                 <span>
                     <i class="icon-support-skype"></i>                                   
-                    <a href="#">venedor_support</a>
+                    <a href="contact-us">venedor_support</a>
                 </span>
                 <span>
                     <i class="icon-support-mail"></i>
