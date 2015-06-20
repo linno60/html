@@ -6023,7 +6023,7 @@ a.btn-post{
         max-height: 200px;   
     }
     .blog .contacts-wrap form .textarea + div input {
-        margin-right: 0px;
+        margin-right: 0;
         max-width: 180px;
         min-width: 180px;
     }
