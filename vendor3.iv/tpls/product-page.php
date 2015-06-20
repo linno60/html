@@ -159,6 +159,9 @@
                     <input type="radio" id="tab4" name="tab-label">
                     <label for="tab4">accessories</label>
                     <div class="tab-pane">
+                        <div>
+                            
+                        </div>
                         <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
                         <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
                         <figure>                                    

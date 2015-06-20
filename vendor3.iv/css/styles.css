@@ -4968,7 +4968,7 @@ a.btn-post{
         bottom: -16px;
     }
     .side-slider {
-        height: 548px;
+        height: 553px;
         width: 126px;
     }
     .main-slider img{
@@ -5114,7 +5114,7 @@ a.btn-post{
         bottom: -12px;
     }
     .side-slider {
-        height: 500px;
+        height: 504px;
         width: 120px;
     }
     .main-slider img{
@@ -5692,7 +5692,7 @@ a.btn-post{
 }
 @media screen and (max-width: 620px) {
     .side-slider {
-        height: 440px;
+        height: 439px;
         width: 100px;
     }
     .main-slider img{
@@ -5703,11 +5703,17 @@ a.btn-post{
         width: 100px;
         height: 100px;
     }
+.side-slider-wrap .btn-down {
+    bottom: -4px;
+}
 }
 @media screen and (max-width: 580px) {
     .manufacturers-slider{
         justify-content: space-around;
     }
+    .side-slider-wrap .btn-down {
+    bottom: -2px;
+}
     .slider-mobile p{
         display: none;
     }
@@ -5782,6 +5788,9 @@ a.btn-post{
     .header-top{
         margin-bottom: 87px;
     }
+    .side-slider-wrap .btn-down {
+    bottom: 2px;
+}
     .search{
         position: absolute;
         top: -70px;
@@ -5986,6 +5995,9 @@ a.btn-post{
         font: 14px/16px "Arial";
         margin-bottom: 10px;
     }
+    .side-slider-wrap .btn-down {
+    bottom: -10px;
+}
 }
 @media screen and (max-width: 390px) {
     .manufacturers-slider a {
@@ -6319,4 +6331,7 @@ a.btn-post{
     .arrows {
         padding-left: 5px;
     }
+    .side-slider-wrap .btn-down {
+    bottom: -8px;
+}
 }
