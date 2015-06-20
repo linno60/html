@@ -10,10 +10,10 @@
         <link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css'>
         <link type="text/css" rel="stylesheet" href="/css/reset.css">
         <link type="text/css" rel="stylesheet" href="/css/reset-elements.css">
-        <link type="text/css" rel="stylesheet" href="/css/styles.css?<?=time()?>">    
+        <link type="text/css" rel="stylesheet" href="/css/styles.css?<?= time() ?>">    
     </head>
     <body>
-        <?=require_tpl('common/header') ?>
+        <?= require_tpl('common/header') ?>
         <div class="slider-mobile-wrap">
             <div class="slider-mobile">
                 <div>
@@ -44,13 +44,13 @@
                                 <select>
                                     <option selected="">Default</option>
                                     <option>Name (A - Z)</option>
-                                <option>Name (Z - A)</option>
-                                <option>Price (Low &gt; High)</option>
-                                <option>Price (High &gt; Low)</option>
-                                <option>Rating (Highest)</option>
-                                <option>Rating (Lowest)</option>
-                                <option>Model (A - Z)</option>
-                                <option>Model (Z - A)</option>           
+                                    <option>Name (Z - A)</option>
+                                    <option>Price (Low &gt; High)</option>
+                                    <option>Price (High &gt; Low)</option>
+                                    <option>Rating (Highest)</option>
+                                    <option>Rating (Lowest)</option>
+                                    <option>Model (A - Z)</option>
+                                    <option>Model (Z - A)</option>           
                                 </select>
                             </span>
                         </div>
@@ -497,21 +497,36 @@
                     <input type="checkbox" name="accordion" id="acc4" checked>
                     <label for="acc4">color<span class="btn"><i class="icon-accarrow"></i></span></label>                    
                     <div class="acc-panel color-panel">
-                        <a href="#" id="c1"></a>
-                        <a href="#" id="c2"></a>
-                        <a href="#" id="c3"></a>
-                        <a href="#" id="c4"></a>
-                        <a href="#" id="c5"></a>
-                        <a href="#" id="c6"></a>
-                        <a href="#" id="c7"></a>
-                        <a href="#" id="c8"></a>
-                        <a href="#" id="c9"></a>
-                        <a href="#" id="c10"></a>
-                        <a href="#" id="c11"></a>
-                        <a href="#" id="c12"></a>
-                        <a href="#" id="c13"></a>
-                        <a href="#" id="c14"></a>
-                        <a href="#" id="c15"></a>
+                        <input type="checkbox" id="c1" name="color">
+                            <label for="c1"></label>
+                        <input type="checkbox" id="c2" name="color">
+                            <label for="c2"></label>
+                        <input type="checkbox" id="c3" name="color">
+                            <label for="c3"></label>
+                        <input type="checkbox" id="c4" name="color">
+                            <label for="c4"></label>
+                        <input type="checkbox" id="c5" name="color">
+                            <label for="c5"></label>
+                        <input type="checkbox" id="c6" name="color">
+                            <label for="c6"></label>
+                        <input type="checkbox" id="c7" name="color">
+                            <label for="c7"></label>
+                        <input type="checkbox" id="c8" name="color">
+                            <label for="c8"></label>
+                        <input type="checkbox" id="c9" name="color">
+                            <label for="c9"></label>
+                        <input type="checkbox" id="c10" name="color">
+                            <label for="c10"></label>
+                        <input type="checkbox" id="c11" name="color">
+                            <label for="c11"></label>
+                        <input type="checkbox" id="c12" name="color">
+                            <label for="c12"></label>
+                        <input type="checkbox" id="c13" name="color">
+                            <label for="c13"></label>
+                        <input type="checkbox" id="c14" name="color">
+                            <label for="c14"></label>
+                        <input type="checkbox" id="c15" name="color">
+                            <label for="c15"></label>
                     </div>
                     <input type="checkbox" name="accordion" id="acc5">
                     <label for="acc5">size<span class="btn"><i class="icon-accarrow"></i></span></label>                    
@@ -573,9 +588,9 @@
                 <section class="banners">
                     <div>
                         <h1>free <span>shipping</span></h1>
-                    <p>on orders over <span>$150</p>
-                    <img src="/images/truck.png" width="168" height="120" alt="">
-                    <p>The offers is valid on all our store item!</p>
+                        <p>on orders over <span>$150</p>
+                        <img src="/images/truck.png" width="168" height="120" alt="">
+                        <p>The offers is valid on all our store item!</p>
                     </div>                    
                     <div class="controls">
                         <a href="#"></a>
@@ -585,6 +600,6 @@
                 </section>
             </aside>
         </div>
-        <?=require_tpl('common/footer') ?>
+        <?= require_tpl('common/footer') ?>
     </body>
 </html>

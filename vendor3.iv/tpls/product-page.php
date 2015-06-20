@@ -55,22 +55,35 @@
                     <div class="switch-wrap">
                         <h2>Select Color:</h2>
                         <div class="switch color">
-                            <a href="#" id="c1"></a>
-                            <a href="#" id="c16"></a>
-                            <a href="#" id="c17"></a>
-                            <a href="#" id="c18"></a>
-                            <a href="#" id="c19"></a>
-                            <a href="#" id="c20"></a>
-                            <a href="#" id="c21"></a>
+                            <input type="checkbox" id="c1" name="color">
+                            <label for="c1"></label>
+                            <input type="checkbox" id="c16" name="color">
+                            <label for="c16"></label>
+                            <input type="checkbox" id="c17" name="color">
+                            <label for="c17"></label>
+                            <input type="checkbox" id="c18" name="color">
+                            <label for="c18"></label>
+                            <input type="checkbox" id="c19" name="color">
+                            <label for="c19"></label>
+                            <input type="checkbox" id="c20" name="color">
+                            <label for="c20"></label>
+                            <input type="checkbox" id="c21" name="color">
+                            <label for="c21"></label>
                         </div>
                         <h2>Select Size:</h2>
-                        <div class="switch">
-                            <a href="#" class="btn btn-size">xs</a>
-                            <a href="#" class="btn btn-size">s</a>
-                            <a href="#" class="btn btn-size">m</a>
-                            <a href="#" class="btn btn-size">l</a>
-                            <a href="#" class="btn btn-size">xl</a>
-                            <a href="#" class="btn btn-size">xxl</a>
+                        <div class="switch size">
+                            <input type="checkbox" id="s1" name="size">
+                            <label class="lbl lbl-size" for="s1">xs</label>
+                            <input type="checkbox" id="s2" name="size">
+                            <label class="lbl lbl-size" for="s2">s</label>
+                            <input type="checkbox" id="s3" name="size">
+                            <label class="lbl lbl-size" for="s3">m</label>
+                            <input type="checkbox" id="s4" name="size">
+                            <label class="lbl lbl-size" for="s4">l</label>
+                            <input type="checkbox" id="s5" name="size">
+                            <label class="lbl lbl-size" for="s5">xl</label>
+                            <input type="checkbox" id="s6" name="size">
+                            <label class="lbl lbl-size" for="s6">xxl</label>
                         </div>
                     </div>
                     <div class="spinner-wrap">

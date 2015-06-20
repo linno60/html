@@ -126,7 +126,7 @@
                                     <label class="lbl lbl-form"><i class="icon-label-post"></i>Post Code</label> 
                                     <input type="text" placeholder="125795">
                                 </div>
-                                <div>
+                                <div class="select-wrapper">
                                     <label class="lbl lbl-form"><i class="icon-label-country"></i>Country*</label> 
                                     <span class="select">
                                         <select>
@@ -138,7 +138,7 @@
                                         </select>
                                     </span>
                                 </div>
-                                <div>
+                                <div class="select-wrapper">
                                     <label class="lbl lbl-form"><i class="icon-label-region"></i>Region / State*</label> 
                                     <span class="select">
                                         <select>
@@ -151,7 +151,7 @@
                                     </span>
                                 </div>
                                 <input type="checkbox" name="check-plus" id="l6">
-                                <label for="l6"><span><i class="icon-checkbox"></i></span>I have reed and agree to the <a href="#">Privacy Policy</a></label>
+                                <label for="l6"><span><i class="icon-checkbox"></i></span><div>I have reed and agree to the <a href="#">Privacy Policy</a></div></label>
                                 <a href="#" class="btn btn-account">continue</a>
                             </form>
                         </div>

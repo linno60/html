@@ -93,7 +93,7 @@
                             <label class="lbl lbl-form"><i class="icon-label-post"></i>Post Code</label> 
                             <input type="text" placeholder="125795">
                         </div>
-                        <div>
+                        <div class="select-wrapper">
                             <label class="lbl lbl-form"><i class="icon-label-country"></i>Country*</label> 
                             <span class="select">
                                 <select>
@@ -105,7 +105,7 @@
                                 </select>
                             </span>
                         </div>
-                        <div>
+                        <div class="select-wrapper">
                             <label class="lbl lbl-form"><i class="icon-label-region"></i>Region / State*</label> 
                             <span class="select">
                                 <select>
