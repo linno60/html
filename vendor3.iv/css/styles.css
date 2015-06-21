@@ -1483,8 +1483,8 @@ input[name="check-plus"] + label {
     color: #939292;
 }
 .list-panel input[name="check-plus"] + label {
-  font: 16px/28px "Gudea";
-  align-items:center;
+    font: 16px/28px "Gudea";
+    align-items:center;
 }
 input[name="check-plus"] + label span{
     width: 16px;
@@ -2142,9 +2142,9 @@ input[type="radio"]{
 .product-middle + .sale{
     padding-right:0;
 }
-    .tab-pane iframe{
-        width: 100%;
-    }
+.tab-pane iframe{
+    width: 100%;
+}
 
 .wrap-base.cart{
     padding: 50px 0 30px 0;
@@ -3403,7 +3403,7 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 1165px) {
-.lbl.lbl-size {
+    .lbl.lbl-size {
         margin: 0px 8px 8px 0px;
     }
 }
@@ -4126,18 +4126,18 @@ a.btn-post{
         width: 110px;
         height: 110px;
     }
-.tab-pane figure {
-    margin: 5px;
-}    
+    .tab-pane figure {
+        margin: 5px;
+    }    
 }
 @media screen and (max-width: 1030px) { 
     .figure-wrapper img{
         max-width: 210px;
         max-height: 210px;
     }
-#tab4 + label + .tab-pane {
-    padding: 15px;
-}
+    #tab4 + label + .tab-pane {
+        padding: 15px;
+    }
     figure{
         margin: 0px 15px 7px 0px;
     }
@@ -4156,10 +4156,10 @@ a.btn-post{
         width: 105px;
         height: 105px;
     }
-        .lbl.lbl-size {
-            width: 52px;
-    margin: 0px 5px 5px 0px;
-}
+    .lbl.lbl-size {
+        width: 52px;
+        margin: 0px 5px 5px 0px;
+    }
 }
 @media screen and (max-width: 1000px) { 
     .figure-wrapper img{
@@ -4193,8 +4193,8 @@ a.btn-post{
     }
     .lbl.lbl-size {
         width: 56px;
-    margin: 0px 8px 8px 0px;
-}
+        margin: 0px 8px 8px 0px;
+    }
     .slider-mobile{
         min-height: 362px;
     }
@@ -4252,15 +4252,15 @@ a.btn-post{
         width:100%;
     }
     .tab .tab-pane {
-    padding: 27px 34px 27px 28px;
-}
-.figure-wrapper img {
-    max-width: 2280px;
-    max-height: 2280px;
-}
-.tab-pane figure {
-    margin: 10px;
-}
+        padding: 27px 34px 27px 28px;
+    }
+    .figure-wrapper img {
+        max-width: 2280px;
+        max-height: 2280px;
+    }
+    .tab-pane figure {
+        margin: 10px;
+    }
     .select-quote select, .tab-pane form .input-quote {
         width: 273px;
     }
@@ -4405,8 +4405,8 @@ a.btn-post{
         justify-content: flex-start;
     }
     .share-wrap > div:first-child {
-    margin-right: 60px;
-}
+        margin-right: 60px;
+    }
     .add-this span {
         display: inline-flex;
     }
@@ -4442,7 +4442,7 @@ a.btn-post{
     .blog .contacts-wrap form > div:first-child {
         flex-direction: column
     }
-    
+
     .blog .contacts-wrap form > div > .form-wrap:first-child {
         padding-right: 0px;
     }
@@ -4455,8 +4455,8 @@ a.btn-post{
         padding: 4px 0 0 0;     
     }
     .range-panel form input {
-    max-width: 55px;
-}
+        max-width: 55px;
+    }
     figure.hidden{
         display: none;
     }
@@ -4570,9 +4570,9 @@ a.btn-post{
         height: 96px;
     }
     .range-panel form input {
-    max-width: 84px;
-}
-.contacts-wrap form > div > .form-wrap {
+        max-width: 84px;
+    }
+    .contacts-wrap form > div > .form-wrap {
         width: 100%;
     }
     .footer .like-box a{
@@ -4801,17 +4801,17 @@ a.btn-post{
     .blog .news {
         margin: 29px 0px 34px 0px;
     }
-        .register-account .select select {
-    padding: 0px 10px;
-}
+    .register-account .select select {
+        padding: 0px 10px;
+    }
 }
 @media screen and (max-width: 820px) {  
     .tbl-cart .btn-close {
         margin-left: 10px;
     }
     .range-panel form input {
-    max-width: 65px;
-}
+        max-width: 65px;
+    }
     .top-bar-links a {
         margin: 0px 25px 0px 0px;
     }
@@ -4923,7 +4923,7 @@ a.btn-post{
         min-width: 84px;
         font: 600 12px "Arial";
     }
-    
+
     .sale-row{
         height: 405px;
     }
@@ -4967,11 +4967,11 @@ a.btn-post{
         letter-spacing: 0.2px;
     }
     .tab-pane figure {
-    margin: 10px;
-}
-#tab4 + label + .tab-pane {
-    padding: 15px;
-}
+        margin: 10px;
+    }
+    #tab4 + label + .tab-pane {
+        padding: 15px;
+    }
 }
 @media screen and (max-width: 750px) {
     .figure-wrapper img{
@@ -5012,11 +5012,11 @@ a.btn-post{
         font: 12px "Arial";
     }
     input[name="check-plus"] + label {
-    font: 15px/20px "Gudea";
-}
-.list-panel input[name="check-plus"] + label {
-  font: 15px/28px "Gudea";
-}
+        font: 15px/20px "Gudea";
+    }
+    .list-panel input[name="check-plus"] + label {
+        font: 15px/28px "Gudea";
+    }
 }
 @media screen and (max-width: 740px) {
     .footer .like-box{
@@ -5055,10 +5055,10 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 730px) {
-    
-.range-panel form input {
-    max-width: 65px;
-}
+
+    .range-panel form input {
+        max-width: 65px;
+    }
     .product-slider .lbl-price {
         width: 130px;
         height: 130px;
@@ -5089,17 +5089,17 @@ a.btn-post{
 }
 @media (max-width: 710px) {
     .tab-pane .comment .hdr {
-    margin-bottom: 0px;
-}
-.register-account .select-wrapper .lbl-form{
+        margin-bottom: 0px;
+    }
+    .register-account .select-wrapper .lbl-form{
         width: 130px;
     }
-.side-slider-wrap {
+    .side-slider-wrap {
         margin-right: 5px;
     }
-.range-panel form input {
-    max-width: 60px;
-}
+    .range-panel form input {
+        max-width: 60px;
+    }
     .tab-pane .hdr {
         flex-direction: column;
         padding-bottom: 20px;
@@ -5274,12 +5274,12 @@ a.btn-post{
         padding-right: 0px;
     }
     #tab4 + label + .tab-pane {
-    justify-content: center;  
-}
-.accessories-wrap{
-    max-width: 300px;
-}
-.blog-links > div:first-child a {
+        justify-content: center;  
+    }
+    .accessories-wrap{
+        max-width: 300px;
+    }
+    .blog-links > div:first-child a {
         margin-right: 15px;
     }
     .blog-links {
@@ -5309,20 +5309,20 @@ a.btn-post{
         max-width: 60px;
     }
     .range-panel form input {
-    max-width: 55px;
-}
-.content.blog {
-    padding-right: 20px;
-}
+        max-width: 55px;
+    }
+    .content.blog {
+        padding-right: 20px;
+    }
 }
 @media (max-width: 650px) {
-        input[name="check-plus"] + label {
-    font: 16px/18px "Gudea";
-}
-.list-panel input[name="check-plus"] + label {
-  font: 16px/28px "Gudea";
-}
-.scroll{
+    input[name="check-plus"] + label {
+        font: 16px/18px "Gudea";
+    }
+    .list-panel input[name="check-plus"] + label {
+        font: 16px/28px "Gudea";
+    }
+    .scroll{
         left:-50%;
     }
     .checkout .tbl-cart {
@@ -5698,7 +5698,7 @@ a.btn-post{
     .lbl-date.hidden{
         display: flex;
     }
-    
+
     .blog-links ~ p {
         padding: 0px 0px 13px 0px;
     }
@@ -5831,18 +5831,18 @@ a.btn-post{
         width: 100px;
         height: 100px;
     }
-.side-slider-wrap .btn-down {
-    bottom: -4px;
-}
+    .side-slider-wrap .btn-down {
+        bottom: -4px;
+    }
 }
 @media screen and (max-width: 580px) {
     .manufacturers-slider{
         justify-content: space-around;
     }
     .side-slider-wrap .btn-down {
-    bottom: -2px;
-}
-.select-quote select, .tab-pane form .input-quote, .select-quote {
+        bottom: -2px;
+    }
+    .select-quote select, .tab-pane form .input-quote, .select-quote {
         width: 100%;
     }
     .tab-pane form > div {
@@ -5922,8 +5922,8 @@ a.btn-post{
         margin-bottom: 87px;
     }
     .side-slider-wrap .btn-down {
-    bottom: 2px;
-}
+        bottom: 2px;
+    }
     .search{
         position: absolute;
         top: -70px;
@@ -6096,25 +6096,25 @@ a.btn-post{
         display: inline-flex;
     }
     .share-wrap > div:first-child {
-    margin-right: 0px;
-}
+        margin-right: 0px;
+    }
 }
 @media screen and (max-width: 450px) {
     .tab-pane > .hdr{
-    display: none;  
-}
-.accordion .reminder {
-    margin:  0px  0px 10px 0px;
-}
-.contacts-wrap form .textarea + div input {
-    border-radius: 2px 0px 0px 2px; 
-    margin-right:-1px;
-    position:relative;
-    z-index: 2;
-}
-.tab-pane > .hdr.hidden{
-    display: flex;  
-}
+        display: none;  
+    }
+    .accordion .reminder {
+        margin:  0px  0px 10px 0px;
+    }
+    .contacts-wrap form .textarea + div input {
+        border-radius: 2px 0px 0px 2px; 
+        margin-right:-1px;
+        position:relative;
+        z-index: 2;
+    }
+    .tab-pane > .hdr.hidden{
+        display: flex;  
+    }
     .side-slider {
         height: 295px;
         width: 70px;
@@ -6130,7 +6130,7 @@ a.btn-post{
     .side-slider-wrap {
         margin-right: 5px;
     }
-    
+
     .tab-pane iframe {
         max-height: 200px;   
     }
@@ -6149,8 +6149,8 @@ a.btn-post{
         margin-bottom: 20px;
     }
     .side-slider-wrap .btn-down {
-    bottom: -10px;
-}
+        bottom: -10px;
+    }
 }
 @media screen and (max-width: 390px) {
     .manufacturers-slider a {
@@ -6264,7 +6264,7 @@ a.btn-post{
     .breadcrumb {
         height: 40px;
     }
-    
+
     .share-wrap > div:first-child span {
         padding: 0px 30px 0px 0px;
     }
@@ -6487,6 +6487,6 @@ a.btn-post{
         padding-left: 5px;
     }
     .side-slider-wrap .btn-down {
-    bottom: -8px;
-}
+        bottom: -8px;
+    }
 }

@@ -19,7 +19,7 @@
         </div>            
     </div>
     <div class="header-top">
-        <a href="index" class="logo"><img src="/images/logo.png" alt="venedor"></a> 
+        <a href="home" class="logo"><img src="/images/logo.png" alt="venedor"></a> 
         <div class="support">
             <span class="lbl lbl-support">
                 <i class="icon-ears"></i>
