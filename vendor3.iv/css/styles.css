@@ -2149,7 +2149,7 @@ input[type="radio"]{
 }
 .accessories-wrap figure{
     min-height: 100px;
-    
+
 }
 .tabs-product ._content > .active .slider-arrow{
     position: absolute;
@@ -2432,16 +2432,16 @@ table{
     min-height: 315px;
 }
 .cart .tabs-product {
-  margin-right: 30px;
+    margin-right: 30px;
 }
 .cart .tabs-product ._nav {
-  width: 42%;
+    width: 42%;
 }
 .cart .tabs-product ._nav a {
     height: 64px;
 }
 .cart .tabs-product ._content > .active {
-  padding: 20px 50px 20px 50px;
+    padding: 20px 50px 20px 50px;
 }
 .tabs-product ._content > .active form > button{
     margin-top: 4px;
@@ -3567,14 +3567,14 @@ a.btn-post{
         display: none;
     }
     .cart .tabs-product ._content > .active {
-  padding: 25px 20px 20px 20px;
-}
-.cart .tabs-product {
-    margin-right: 40px;
-}
-.cart .tabs-product ._nav {
-    width: 45%;
-}
+        padding: 25px 20px 20px 20px;
+    }
+    .cart .tabs-product {
+        margin-right: 40px;
+    }
+    .cart .tabs-product ._nav {
+        width: 45%;
+    }
     .login{
         text-transform: capitalize;
     }
@@ -4227,9 +4227,9 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 960px) { 
-.tabs-product ._content > .active {
-    padding: 30px;
-}
+    .tabs-product ._content > .active {
+        padding: 30px;
+    }
 }
 @media screen and (max-width: 960px) { 
     .figure-wrapper img{
@@ -4435,8 +4435,8 @@ a.btn-post{
         max-width: 100%;
     }
     .tabs-product ._content > .active {
-    padding: 30px 25px;
-}
+        padding: 30px 25px;
+    }
     .featured-wrap{
         display: flex;
     }
@@ -5136,19 +5136,19 @@ a.btn-post{
         margin-left: 5px;
     }
     .tabs-product ._content > .active {
-    padding: 20px;
-}
+        padding: 20px;
+    }
 }
 @media (max-width: 710px) {
     .tabs-product ._content > .active .comment .hdr {
         margin-bottom: 0px;
     }
     .tabs-product ._content > .active figure {
-    margin: 0px;
-}
-.tabs-product ._content > #tab4 {
-    padding: 10px;
-}
+        margin: 0px;
+    }
+    .tabs-product ._content > #tab4 {
+        padding: 10px;
+    }
     .register-account .select-wrapper .lbl-form{
         width: 130px;
     }
@@ -5348,8 +5348,8 @@ a.btn-post{
         flex-direction: row;
     }
     .tabs-product ._content > .active {
-    padding: 25px;
-}
+        padding: 25px;
+    }
 
 }
 @media (max-width: 670px) {
@@ -5377,8 +5377,8 @@ a.btn-post{
         font: 16px/18px "Gudea";
     }
     .tabs-product ._content > #tab4 {
-    padding: 30px;
-}
+        padding: 30px;
+    }
     .filter.alt {
         margin: 0px 0px 20px 0px;
     }
@@ -5972,19 +5972,19 @@ a.btn-post{
         width: 386px;
         height: 386px;
     }
-.accessories-wrap{
-    flex-wrap: wrap;
-    overflow: hidden;
-    max-height: 420px;
-    justify-content: center;
-    max-width: 300px;
-}
-.tabs-product ._content > .active figure{
-    margin-bottom: 30px;
-}
-.tabs ._content > #tab4 {
-   align-items: center;
-}
+    .accessories-wrap{
+        flex-wrap: wrap;
+        overflow: hidden;
+        max-height: 420px;
+        justify-content: center;
+        max-width: 300px;
+    }
+    .tabs-product ._content > .active figure{
+        margin-bottom: 30px;
+    }
+    .tabs ._content > #tab4 {
+        align-items: center;
+    }
 }
 @media screen and (max-width: 500px) {
     .menu{
@@ -6571,21 +6571,22 @@ aside{
 }
 .top{ 
     margin-top: 10px;
-    min-height: 45px;
+    min-height: 450px;
     position: relative;
-    
+
 }
 .bottom{    
     min-height: 150px;
     position: absolute;
-    top: 130%;
+    top: calc(100% + 15px);
     left: -2px;
     width: 101.8%;
     max-width: 302px;
 }
-.bottom:before{ width:15px;
-                height:20px;
-                content:"";
+.bottom:before{ 
+    width:15px;
+    height:20px;
+    content:"";
     background: url(/images/test.png) no-repeat;
     position: absolute;
     top:-9px;
