@@ -126,8 +126,7 @@
                         <p>Sed sed interdum diam. Donec sit amet enim tempor, dapibus nunc eu, tincidunt mi. Vivamus dignissim nisl eu euismod ullamcorper. Donec pellentesque diam id est tristique vestibulum. Donec eget feugiat ante. Integerarcu libero, dictum nec congue sed, faucibus sit amet lectus. </p>
                         <p>Phasellus consequat id purus in convallis. Nulla quis nunc auctor, pretium enimnec, tristique magna. Vivamus vitae arcu faucibus, dictum magna vel, adipiscing justo. Sed nec ullamcorper lacus. Aenean tincidunt tincidunt ligula.</p>                    
                     </div>
-                    <input type="radio" id="tab2" name="tab-label">
-                    <label for="tab2">details</label>
+                    
                     <div class="tab-pane">
                         <p>The perfect mix of portability and performance in a slim 1" form factor:</p>
                         <ul>
@@ -238,7 +237,7 @@
                                 <img src="images/shape5.png" alt="">
                             </a>
                             <div>
-                                <h5>Jacket Suiting Blazer</h5>
+                                <h5><a href="#">Jacket Suiting Blazer</a></h5>
                                 <div class="ratings-result"></div>
                                 <span>$40</span>
                             </div>
@@ -248,7 +247,7 @@
                                 <img src="images/shape5.png" alt="">
                             </a>
                             <div>
-                                <h5>Gap Graphic Cuffed</h5>
+                                <h5><a href="#">Gap Graphic Cuffed</a></h5>
                                 <div class="ratings-result"></div>
                                 <span>$18.5</span>
                             </div>
@@ -258,7 +257,7 @@
                                 <img src="images/shape5.png" alt="">
                             </a>
                             <div>
-                                <h5>Women's Lauren Dress</h5>
+                                <h5><a href="#">Women's Lauren Dress</a></h5>
                                 <span>$30</span>
                             </div>
                         </div>
@@ -288,7 +287,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Sony VAIO Tap 20</figcaption>
+                        <figcaption><a href="#">Sony VAIO Tap 20</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -305,7 +304,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>BenQ E2220HD</figcaption>
+                        <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -323,7 +322,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Philips MP Digital Camera</figcaption>
+                        <figcaption><a href="#">Philips MP Digital Camera</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -340,7 +339,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>BenQ E2220HD</figcaption>
+                        <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>

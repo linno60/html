@@ -29,15 +29,15 @@
                         <td>product name</td>
                         <td>
                             <img src="images/shape10.png" alt="">
-                            <h2>Lowlands Lace Blouse</h2>
+                            <h2><a href="#">Lowlands Lace Blouse</a></h2>
                         </td>
                         <td>
                             <img src="images/shape10.png" alt="">
-                            <h2>Samsung Galaxy Ace</h2>
+                            <h2><a href="#">Samsung Galaxy Ace</a></h2>
                         </td>
                         <td>
                             <img src="images/shape10.png" alt="">
-                            <h2>Iphone Case Cover Original</h2>
+                            <h2><a href="#">Iphone Case Cover Original</a></h2>
                         </td>
                     </tr>
                     <tr>
@@ -133,11 +133,11 @@
                 <tr>
                     <td>
                         <img src="images/shape10.png" alt="">
-                            <h2>Lowlands Lace Blouse</h2>
+                            <h2><a href="#">Lowlands Lace Blouse</a></h2>
                     </td>
                     <td>
                         <img src="images/shape10.png" alt="">
-                            <h2>Samsung Galaxy Ace</h2>
+                        <h2><a href="#">Samsung Galaxy Ace</a></h2>
                     </td>
                 </tr>
                 <tr>

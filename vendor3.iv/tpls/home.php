@@ -40,7 +40,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Lowlands Lace Blouse</figcaption>
+                        <figcaption><a href="#">Lowlands Lace Blouse</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -56,7 +56,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>Samsung Galaxy Ace</figcaption>
+                        <figcaption><a href="#">Samsung Galaxy Ace</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -75,7 +75,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Iphone Case Cover Original</figcaption>
+                        <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -92,7 +92,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>PowerMac Desktop Computer</figcaption>
+                        <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -110,7 +110,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Cam Optia AF Webcam</figcaption>
+                        <figcaption><a href="#">Cam Optia AF Webcam</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -128,7 +128,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Cuisinart Brew Central Coffeemaker</figcaption>
+                        <figcaption><a href="#">Cuisinart Brew Central Coffeemaker</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -172,7 +172,7 @@
                                     <div class="ratings-result"></div>
                                 </div>                                        
                             </div>
-                            <figcaption>Sony VAIO Tap 20</figcaption>
+                            <figcaption><a href="#">Sony VAIO Tap 20</a></figcaption>
                             <div class="btns">
                                 <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -189,7 +189,7 @@
                             <div class="ratings-container clearfix">
                                 <div class="ratings"></div>                                        
                             </div>
-                            <figcaption>BenQ E2220HD</figcaption>
+                            <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                             <div class="btns">
                                 <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -207,7 +207,7 @@
                                     <div class="ratings-result"></div>
                                 </div>                                        
                             </div>
-                            <figcaption>Philips MP Digital Camera</figcaption>
+                            <figcaption><a href="#">Philips MP Digital Camera</a></figcaption>
                             <div class="btns">
                                 <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                                 <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>

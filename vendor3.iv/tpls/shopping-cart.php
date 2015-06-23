@@ -40,7 +40,7 @@
                             <div>
                                 <img src="images/shape9.png" alt=""> 
                                 <div>
-                                    <h2>Lowlands Lace Blouse</h2>
+                                    <h2><a href="#">Lowlands Lace Blouse</a></h2>
                                     <dl>
                                         <dt>Color:</dt><dd> Black</dd>
                                         <dt>Size:</dt><dd> XL</dd>
@@ -83,7 +83,7 @@
                         <td>
                             <div class="subtotal-wrap">
                                 <span class="subtotal">$130</span>
-                            <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
+                                <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
                             </div>                            
                         </td>
                     </tr>
@@ -92,7 +92,7 @@
                             <div>
                                 <img src="images/shape9.png" alt=""> 
                                 <div>
-                                    <h2>Samsung Galaxy Ace</h2>
+                                    <h2><a href="#">Samsung Galaxy Ace</a></h2>
                                     <dl>
                                         <dt>Color:</dt><dd> Black</dd>
                                         <dt>Size:</dt><dd> XL</dd>
@@ -134,8 +134,8 @@
                         </td>
                         <td>
                             <div class="subtotal-wrap">
-                            <span class="subtotal">$1475</span>
-                            <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
+                                <span class="subtotal">$1475</span>
+                                <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
                             </div>
                         </td>
                     </tr>
@@ -144,7 +144,7 @@
                             <div>
                                 <img src="images/shape9.png" alt=""> 
                                 <div>
-                                    <h2>Iphone Case Cover Original</h2>
+                                    <h2><a href="#">Iphone Case Cover Original</a></h2>
                                     <dl>
                                         <dt>Color:</dt><dd> Black</dd>
                                         <dt>Size:</dt><dd> XL</dd>
@@ -186,8 +186,8 @@
                         </td>
                         <td>
                             <div class="subtotal-wrap">
-                            <span class="subtotal">$1475</span>
-                            <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
+                                <span class="subtotal">$1475</span>
+                                <a href="#" class="btn btn-close"><i class="icon-close"></i></a> 
                             </div>
                         </td>
                     </tr>
@@ -242,6 +242,7 @@
                         3
                     </div>                    
                 </div>
+
                 <aside>
                     <table class="tbl-total">                       
                         <tbody>
@@ -270,8 +271,7 @@
                         <button><span class="btn btn-add">checkout</span></button>
                     </div>
                 </aside>
-            </div>
-
+            </div>            
             <section class="sale">
                 <div class="hdr-wrap">
                     <div>
@@ -295,7 +295,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Sony VAIO Tap 20</figcaption>
+                        <figcaption><a href="#">Sony VAIO Tap 20</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -312,7 +312,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>BenQ E2220HD</figcaption>
+                        <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -330,7 +330,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Philips MP Digital Camera</figcaption>
+                        <figcaption><a href="#">Philips MP Digital Camera</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -347,7 +347,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>BenQ E2220HD</figcaption>
+                        <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>

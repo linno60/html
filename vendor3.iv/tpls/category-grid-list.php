@@ -136,7 +136,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Lowlands Lace Blouse</figcaption>
+                        <figcaption><a href="#">Lowlands Lace Blouse</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -152,7 +152,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>Samsung Galaxy Ace</figcaption>
+                        <figcaption><a href="#">Samsung Galaxy Ace</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -170,7 +170,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Iphone Case Cover Original</figcaption>
+                        <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -186,7 +186,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>PowerMac Desktop Computer</figcaption>
+                        <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -204,7 +204,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Cam Optia AF Webcam</figcaption>
+                        <figcaption><a href="#">Cam Optia AF Webcam</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -222,7 +222,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Cuisinart Brew Central Coffeemaker</figcaption>
+                        <figcaption><a href="#">Cuisinart Brew Central Coffeemaker</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -241,7 +241,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Sony VAIO Tap 20</figcaption>
+                        <figcaption><a href="#">Sony VAIO Tap 20</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -258,7 +258,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>BenQ E2220HD</figcaption>
+                        <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -276,7 +276,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Philips MP Digital Camera</figcaption>
+                        <figcaption><a href="#">Philips MP Digital Camera</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -293,7 +293,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>Asus UX 21 Tap</figcaption>
+                        <figcaption><a href="#">Asus UX 21 Tap</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -311,7 +311,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>BenQ E2220HD</figcaption>
+                        <figcaption><a href="#">BenQ E2220HD</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -329,7 +329,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Nikon COOLPIX Digital Camera</figcaption>
+                        <figcaption><a href="#">Nikon COOLPIX Digital Camera</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add disable"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add disable">add&nbsp;to&nbsp;cart</a>
@@ -345,7 +345,7 @@
                         <div class="ratings-container clearfix">
                             <div class="ratings"></div>                                        
                         </div>
-                        <figcaption>Maytag French Door Refrigerator</figcaption>
+                        <figcaption><a href="#">Maytag French Door Refrigerator</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -363,7 +363,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Focal 706 V Stand Mount Speakers</figcaption>
+                        <figcaption><a href="#">Focal 706 V Stand Mount Speakers</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -381,7 +381,7 @@
                                 <div class="ratings-result"></div>
                             </div>                                        
                         </div>
-                        <figcaption>Nikon COOLPIX Digital Camera</figcaption>
+                        <figcaption><a href="#">Nikon COOLPIX Digital Camera</a></figcaption>
                         <div class="btns">
                             <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
                             <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
@@ -490,7 +490,7 @@
                             </div>
                             <div>
                                 <button><span class="btn btn-range ok">ok</span></button> 
-                                <button><span class="btn btn-range">clear</span></button> 
+                                <button type="reset"><span class="btn btn-range">clear</span></button> 
                             </div>
                         </form>
                     </div>
@@ -551,7 +551,7 @@
                             <img src="images/shape5.png" alt="">
                         </a>
                         <div>
-                            <h5>Jacket Suiting Blazer</h5>
+                            <h5><a href="#">Jacket Suiting Blazer</a></h5>
                             <div class="ratings-result"></div>
                             <span>$40</span>
                         </div>
@@ -561,7 +561,7 @@
                             <img src="images/shape5.png" alt="">
                         </a>
                         <div>
-                            <h5>Gap Graphic Cuffed</h5>
+                            <h5><a href="#">Gap Graphic Cuffed</a></h5>
                             <div class="ratings-result"></div>
                             <span>$18.5</span>
                         </div>
@@ -571,7 +571,7 @@
                             <img src="images/shape5.png" alt="">
                         </a>
                         <div>
-                            <h5>Women's Lauren Dress</h5>
+                            <h5><a href="#">Women's Lauren Dress</a></h5>
                             <span>$30</span>
                         </div>
                     </div>
@@ -580,7 +580,7 @@
                             <img src="images/shape5.png" alt="">
                         </a>
                         <div>
-                            <h5>Woman's Tulip Dress</h5>
+                            <h5><a href="#">Woman's Tulip Dress</a></h5>
                             <span>$22.8</span>
                         </div>
                     </div>
