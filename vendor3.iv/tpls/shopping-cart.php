@@ -194,55 +194,55 @@
                 </tbody>
             </table>
             <div class="product-middle cart">
-                <div class="tab">
-                    <input type="radio" id="tab1" name="tab-label" checked>
-                    <label for="tab1">estimate shipping & taxes</label>
-                    <div class="tab-pane">
-                        <span>Enter your destination to get a shipping estimate</span>
-                        <form action="#" method="post">  
-                            <div>
-                                <label>Country<span>*</span></label>
-                                <span class="select select-quote">                            
-                                    <select>
-                                        <option selected>--Please Select--</option>
-                                        <option>Germany</option>
-                                        <option>Spain</option>
-                                        <option>Italy</option>
-                                        <option>France</option>           
-                                    </select>
-                                </span>
-                            </div>
-                            <div>
-                                <label>Region/State<span>*</span></label>
-                                <span class="select select-quote">                            
-                                    <select>
-                                        <option selected>--Please Select--</option>
-                                        <option>Texas</option>
-                                        <option>Main</option>
-                                        <option>Massachusets</option>
-                                        <option>Virginia</option>           
-                                    </select>
-                                </span>
-                            </div>
-                            <div>
-                                <label>Post code</label>
-                                <input class="input-quote" type="text" placeholder="154789">
-                            </div>
-                            <button><span class="btn btn-add">get quotes</span></button>
-                        </form>
+                <div class="tabs tabs-product left">
+                    <div class="_nav">
+                        <a href="#tab1" class="active">description</a>
+                        <a href="#tab2">details</a>
+                        <a href="#tab3">comments</a>
                     </div>
-                    <input type="radio" id="tab2" name="tab-label">
-                    <label for="tab2">discount code</label>
-                    <div class="tab-pane">
-                        2
+                    <div class=" _content">
+                        <div id="tab1" class="tab-pane">
+                            <span>Enter your destination to get a shipping estimate</span>
+                            <form action="#" method="post">  
+                                <div>
+                                    <label>Country<span>*</span></label>
+                                    <span class="select select-quote">                            
+                                        <select>
+                                            <option selected>--Please Select--</option>
+                                            <option>Germany</option>
+                                            <option>Spain</option>
+                                            <option>Italy</option>
+                                            <option>France</option>           
+                                        </select>
+                                    </span>
+                                </div>
+                                <div>
+                                    <label>Region/State<span>*</span></label>
+                                    <span class="select select-quote">                            
+                                        <select>
+                                            <option selected>--Please Select--</option>
+                                            <option>Texas</option>
+                                            <option>Main</option>
+                                            <option>Massachusets</option>
+                                            <option>Virginia</option>           
+                                        </select>
+                                    </span>
+                                </div>
+                                <div>
+                                    <label>Post code</label>
+                                    <input class="input-quote" type="text" placeholder="154789">
+                                </div>
+                                <button><span class="btn btn-add">get quotes</span></button>
+                            </form>
+                        </div>
+                        <div id="tab2" class="tab-pane">
+                            2
+                        </div>
+                        <div id="tab3" class="tab-pane">
+                            3
+                        </div>
                     </div>
-                    <input type="radio" id="tab3" name="tab-label">
-                    <label for="tab3">gift voucher</label>
-                    <div class="tab-pane">
-                        3
-                    </div>                    
                 </div>
-
                 <aside>
                     <table class="tbl-total">                       
                         <tbody>
@@ -359,5 +359,15 @@
             </section>
         </div>
         <?= require_tpl('common/footer') ?>
+        <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="/js/functions.js" type="text/javascript"></script>
+        <script src="/js/jq.functions.js" type="text/javascript"></script>
+        <script src="/js/jquery.gfx_tabs.js" type="text/javascript"></script>
+        <script>
+            $('.tabs').GFX_tabs({
+                accordion_width: 630,
+                accordion_tab_height: 300
+            });
+        </script>
     </body>
 </html>
