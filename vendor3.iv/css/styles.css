@@ -6573,11 +6573,12 @@ aside{
     margin-top: 10px;
     min-height: 45px;
     position: relative;
+    
 }
 .bottom{    
     min-height: 150px;
     position: absolute;
-    top: 60px;
+    top: 120%;
     left: -2px;
     width: 101.8%;
     max-width: 302px;
