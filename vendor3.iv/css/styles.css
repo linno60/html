@@ -1982,7 +1982,7 @@ input[name="check-plus"] + label span{
     border-radius: 2px;
     background-color: #f9f9f9;
     margin-right: 40px;
-    min-height: 400px;
+    min-height: 460px;
 }
 .tabs-product.accordion{
     min-height: 100px;
@@ -1991,7 +1991,8 @@ input[name="check-plus"] + label span{
     flex-direction: column;
     width: 26%;
 }
-.tabs-product.accordion ._nav, .tabs-product.accordion ._nav a, .tabs-product.accordion ._nav a.active {
+.tabs-product.accordion ._nav, .tabs-product.accordion ._nav a, .tabs-product.accordion ._nav a.active ,
+.cart .tabs-product.accordion ._nav, .cart .tabs-product.accordion ._nav a, .cart .tabs-product.accordion ._nav a.active{
     width: 100%;
 }
 .tabs-product.left.accordion {
@@ -2144,10 +2145,11 @@ input[type="radio"]{
 .accessories-wrap{
     display: flex;
     position: relative;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .accessories-wrap figure{
     min-height: 100px;
+    
 }
 .tabs-product ._content > .active .slider-arrow{
     position: absolute;
@@ -2425,6 +2427,21 @@ table{
     justify-content: space-between;
     margin-bottom: 20px;
     width: 100%;
+}
+.cart .tabs-product {
+    min-height: 315px;
+}
+.cart .tabs-product {
+  margin-right: 30px;
+}
+.cart .tabs-product ._nav {
+  width: 42%;
+}
+.cart .tabs-product ._nav a {
+    height: 64px;
+}
+.cart .tabs-product ._content > .active {
+  padding: 20px 50px 20px 50px;
 }
 .tabs-product ._content > .active form > button{
     margin-top: 4px;
@@ -3549,6 +3566,15 @@ a.btn-post{
     .hidden-desktop {
         display: none;
     }
+    .cart .tabs-product ._content > .active {
+  padding: 25px 20px 20px 20px;
+}
+.cart .tabs-product {
+    margin-right: 40px;
+}
+.cart .tabs-product ._nav {
+    width: 45%;
+}
     .login{
         text-transform: capitalize;
     }
@@ -4199,7 +4225,11 @@ a.btn-post{
         width: 100px;
         height: 100px;
     }
-
+}
+@media screen and (max-width: 960px) { 
+.tabs-product ._content > .active {
+    padding: 30px;
+}
 }
 @media screen and (max-width: 960px) { 
     .figure-wrapper img{
@@ -4404,6 +4434,9 @@ a.btn-post{
     aside.featured > div{
         max-width: 100%;
     }
+    .tabs-product ._content > .active {
+    padding: 30px 25px;
+}
     .featured-wrap{
         display: flex;
     }
@@ -4445,6 +4478,9 @@ a.btn-post{
     }
     .flickr img {
         max-width: 68px;
+    }
+    .cart .tabs{
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 920px) {  
@@ -5099,11 +5135,20 @@ a.btn-post{
     .tbl-cart .btn-close {
         margin-left: 5px;
     }
+    .tabs-product ._content > .active {
+    padding: 20px;
+}
 }
 @media (max-width: 710px) {
     .tabs-product ._content > .active .comment .hdr {
         margin-bottom: 0px;
     }
+    .tabs-product ._content > .active figure {
+    margin: 0px;
+}
+.tabs-product ._content > #tab4 {
+    padding: 10px;
+}
     .register-account .select-wrapper .lbl-form{
         width: 130px;
     }
@@ -5285,10 +5330,7 @@ a.btn-post{
     }
     #tab4 + label + .tabs-product ._content > .active {
         justify-content: center;  
-    }
-    .accessories-wrap{
-        max-width: 300px;
-    }
+    }    
     .blog-links > div:first-child a {
         margin-right: 15px;
     }
@@ -5300,10 +5342,15 @@ a.btn-post{
         margin-left: 0px;
         margin-right: 25px;
     }
-    .tab #tab4:checked + label + .tabs-product ._content > .active{
+    .tabs-product #tab4 ._content > .active{
         justify-content: center;
         display: flex;
+        flex-direction: row;
     }
+    .tabs-product ._content > .active {
+    padding: 25px;
+}
+
 }
 @media (max-width: 670px) {
     figure {
@@ -5329,6 +5376,9 @@ a.btn-post{
     input[name="check-plus"] + label {
         font: 16px/18px "Gudea";
     }
+    .tabs-product ._content > #tab4 {
+    padding: 30px;
+}
     .filter.alt {
         margin: 0px 0px 20px 0px;
     }
@@ -5922,6 +5972,19 @@ a.btn-post{
         width: 386px;
         height: 386px;
     }
+.accessories-wrap{
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-height: 420px;
+    justify-content: center;
+    max-width: 300px;
+}
+.tabs-product ._content > .active figure{
+    margin-bottom: 30px;
+}
+.tabs ._content > #tab4 {
+   align-items: center;
+}
 }
 @media screen and (max-width: 500px) {
     .menu{

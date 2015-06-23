@@ -5,6 +5,7 @@
         {
             var settings = $.extend({
                 accordion_width: false,
+                width_type: 'screen', // 'screen' OR 'box'
                 accordion_tab_height: false
             }, options);
             
@@ -29,7 +30,6 @@
                         if (cond !== false)
                         {
                             $this.GFX_tabs('accordion');
-                            
                         }    
                     });
 
@@ -68,11 +68,22 @@
             
             box.find('._nav > a, ._content > *').removeAttr('style');
             
-            var box_width = box.getHiddenDimensions('outerWidth');
+            var cond = data.settings.accordion_width;
+            var type = data.settings.width_type;
             
-            if (box_width <= data.settings.accordion_width && !box.hasClass('accordion'))
-                box.addClass('accordion')
-            else if (box_width > data.settings.accordion_width)
+            if (cond !== false && type === 'box')
+            {
+                var box_width = box.getHiddenDimensions('outerWidth');
+
+                if (box_width <= data.settings.accordion_width && !box.hasClass('accordion'))
+                    box.addClass('accordion')
+                else if (box_width > data.settings.accordion_width)
+                    box.removeClass('accordion');
+            }
+            else if (cond !== false && type === 'screen' && window.matchMedia('(max-width: '+cond+'px)').matches) {
+                box.addClass('accordion');
+            }
+            else if (cond !== false)
                 box.removeClass('accordion');
             
             // Positioning (in case of 'accordion'

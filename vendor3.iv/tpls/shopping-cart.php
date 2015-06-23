@@ -196,9 +196,9 @@
             <div class="product-middle cart">
                 <div class="tabs tabs-product left">
                     <div class="_nav">
-                        <a href="#tab1" class="active">description</a>
-                        <a href="#tab2">details</a>
-                        <a href="#tab3">comments</a>
+                        <a href="#tab1" class="active">estimate shipping & taxes</a>
+                        <a href="#tab2">discount code</a>
+                        <a href="#tab3">gift voucher</a>
                     </div>
                     <div class=" _content">
                         <div id="tab1" class="tab-pane">
@@ -366,7 +366,7 @@
         <script>
             $('.tabs').GFX_tabs({
                 accordion_width: 630,
-                accordion_tab_height: 300
+                accordion_tab_height: 380
             });
         </script>
     </body>

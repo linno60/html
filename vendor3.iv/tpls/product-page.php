@@ -358,8 +358,8 @@
         <script src="/js/jquery.gfx_tabs.js" type="text/javascript"></script>
         <script>
             $('.tabs').GFX_tabs({
-                accordion_width: 630,
-                accordion_tab_height: 400
+                accordion_width: 650,
+                accordion_tab_height: 600
             });
         </script>
     </body>
