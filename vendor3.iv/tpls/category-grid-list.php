@@ -598,6 +598,9 @@
                         <a href="#"></a>
                     </div>
                 </section>
+                <div class=top>
+                <div class=bottom></div>                    
+            </div>
             </aside>
         </div>
         <?= require_tpl('common/footer') ?>

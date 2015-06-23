@@ -203,7 +203,8 @@
                             </div>
                         </div>
                         <div id="tab3">
-                            <figure>                                   
+                            <div class="grid home">
+                                <figure>                                   
                                 <a href="#" class="figure-wrapper">
                                     <div class="lbl lbl-new">NEW</div>
                                     <div class="lbl lbl-price">$1050</div>
@@ -254,6 +255,7 @@
                                     <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
                                 </div>
                             </figure> 
+                            </div>
                         </div>
                         <div id="tab4">
                             <div class="grid home">
