@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(/fonts/bebas/BebasNeueBold.otf);
+}
+a{
+    text-decoration: none;
+}
+header{   
+    background-color: #f8f9fa;
+    border-bottom: #e6e7e7;
+}
+.header{
+    max-width:980px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87px;
+    padding: 0px 10px;
+}
+nav a{
+    color: #262123;
+    font: 600 16px "Arial";
+    text-shadow: 0 1px 0 rgba(255,255,255,.44);
+    min-width: 71px;
+    margin:5px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0 3px;
+    align-items: center;
+    height: 29px;
+}
+nav a.active, nav a:hover{
+    background-color: #c8c6c6;
+}
+nav a.sign{
+    color: #2864b1;
+    border-left:1px solid #adaeae;
+    border-radius: 0px;
+    height: 35px;
+}
+nav a.sign:hover{
+    text-decoration: underline;
+    background-color: transparent;
+}
+.top-info-wrap{
+    height: 427px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid #cfcfcf;
+    background-image: url("/images/bg1.png")
+}
+.top-info-wrap h1{
+    color: #362f2d;
+    font: 70px "BebasNeue";
+
+    text-shadow: -1px 1px 0 #fff;
+    text-align: center;
+    margin: 20px 0px;
+}
+.top-info-wrap h1 + p{
+    color: #362f2d;
+    font: 16px/20px "Arial";
+    text-align: center;
+}
+.top-info-wrap h1 + p a{
+    color: #157fc6;
+}
+.top-info-wrap h1 + p a:hover{
+    text-decoration: underline;
+}
+.top-info{
+    margin: auto;
+    max-width: 914px;
+    margin-bottom: 20px;
+}
+.figure-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    max-width:280px;
+}
+.figure-wrapper{
+    padding: 13px;    
+    background-image: url("/images/stamp.png");
+    position: relative;  
+    z-index: 1;
+}
+figcaption{
+    padding: 10px;
+}
+figure > div{
+    position: relative;
+}
+figure > div:after{
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 356px;
+    background-image: url("/images/shadow.png");
+    bottom: -10px;
+    left: -10px;
+    z-index: 0;
+}
+figure h2{
+    color: #2763b1;
+    font: 20px "Nothing You Could Do";
+}
+figure p a:hover{
+    text-decoration: underline;
+}
+.account-wrap > div{
+    background-color: #f4f4f4;
+    width: 53%;
+    position:relative;
+}
+.account-wrap > form{
+    
+    background-color: #fbfbfb;
+    width: 47%;
+}
+.account-wrap > div:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -50px;
+    z-index: 1;
+    border-left: 50px solid #f4f4f4;
+    border-top: 38px solid transparent;
+    border-bottom: 38px solid transparent;
+}
+.account-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 77px;
+    border: 1px solid #dedede;
+    border-radius: 1px;
+}
+@media (max-width: 760px) {
+    .header{
+        flex-direction: column;
+        padding: 10px;
+    }
+    nav a.sign{
+        height: 30px;
+    }
+}
