@@ -13,7 +13,7 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>
-<?=require_tpl('common/header') ?>
+        <?= require_tpl('common/header') ?>
         <div class="slider">
             <span class="slider-arrow left"><i class="icon-sliderarrow-left"></i></span>
             <span class="slider-arrow right"><i class="icon-sliderarrow-right"></i></span>
@@ -22,122 +22,356 @@
             <section class="content">
                 <h1 class="h1">Our Products</h1>
                 <p>Save your money and time with our store. Here's the best part of our impressive assortment.</p>
-                <div class="tabs">
-                    <a href="#">all</a>
-                    <a href="#">latest</a>
-                    <a href="#">featured</a>
-                    <a href="#">bestsellers</a>
-                    <a href="#">special</a>
+                <div class="tabs tabs-home">
+                    <div class="_nav">
+                        <a href="#tab1" class="active" >All</a>
+                        <a href="#tab2">Latest</a>
+                        <a href="#tab3">Featured</a>
+                        <a href="#tab4">Bestsellers</a>
+                        <a href="#tab5">Special</a>
+                    </div>
+                    <div class="_content">
+                        <div id="tab1">
+                            <div class="grid home">
+                                <figure>
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-price">$40</div>
+                                        <img src="images/shape1.png" alt="">                            
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Lowlands Lace Blouse</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure> 
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-price">$435</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings"></div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Samsung Galaxy Ace</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                   
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-new">NEW</div>
+                                        <div class="lbl lbl-price">$1050</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings"></div>                                        
+                                    </div>
+                                    <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>                    
+                                <figure class="hidden">                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-price"><span>$870</span>$710</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Cam Optia AF Webcam</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure class="hidden">   
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-price">$168</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Cuisinart Brew Central Coffeemaker</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>                                
+                            </div>
+                        </div>
+                        <div id="tab2">
+                            <div class="grid home">
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                        <div id="tab3">
+                            <figure>                                   
+                                <a href="#" class="figure-wrapper">
+                                    <div class="lbl lbl-new">NEW</div>
+                                    <div class="lbl lbl-price">$1050</div>
+                                    <img src="images/shape1.png" alt="">
+                                </a>
+                                <div class="ratings-container clearfix">
+                                    <div class="ratings"></div>                                        
+                                </div>
+                                <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                <div class="btns">
+                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                    <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                </div>
+                            </figure> 
+                            <figure>                                   
+                                <a href="#" class="figure-wrapper">
+                                    <div class="lbl lbl-new">NEW</div>
+                                    <div class="lbl lbl-price">$1050</div>
+                                    <img src="images/shape1.png" alt="">
+                                </a>
+                                <div class="ratings-container clearfix">
+                                    <div class="ratings"></div>                                        
+                                </div>
+                                <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                <div class="btns">
+                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                    <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                </div>
+                            </figure> 
+                            <figure>                                   
+                                <a href="#" class="figure-wrapper">
+                                    <div class="lbl lbl-new">NEW</div>
+                                    <div class="lbl lbl-price">$1050</div>
+                                    <img src="images/shape1.png" alt="">
+                                </a>
+                                <div class="ratings-container clearfix">
+                                    <div class="ratings"></div>                                        
+                                </div>
+                                <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                <div class="btns">
+                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                    <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                </div>
+                            </figure> 
+                        </div>
+                        <div id="tab4">
+                            <div class="grid home">
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-discount">-25%</div>
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                        <div id="tab5">
+                            <figure>                                   
+                                <a href="#" class="figure-wrapper">
+                                    <div class="lbl lbl-new">NEW</div>
+                                    <div class="lbl lbl-price">$1050</div>
+                                    <img src="images/shape1.png" alt="">
+                                </a>
+                                <div class="ratings-container clearfix">
+                                    <div class="ratings"></div>                                        
+                                </div>
+                                <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                <div class="btns">
+                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                    <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                </div>
+                            </figure> 
+                            <figure>                                   
+                                <a href="#" class="figure-wrapper">
+                                    <div class="lbl lbl-new">NEW</div>
+                                    <div class="lbl lbl-price">$1050</div>
+                                    <img src="images/shape1.png" alt="">
+                                </a>
+                                <div class="ratings-container clearfix">
+                                    <div class="ratings"></div>                                        
+                                </div>
+                                <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                <div class="btns">
+                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                    <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                </div>
+                            </figure> 
+                            <figure>                                   
+                                <a href="#" class="figure-wrapper">
+                                    <div class="lbl lbl-new">NEW</div>
+                                    <div class="lbl lbl-price">$1050</div>
+                                    <img src="images/shape1.png" alt="">
+                                </a>
+                                <div class="ratings-container clearfix">
+                                    <div class="ratings"></div>                                        
+                                </div>
+                                <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
+                                <div class="btns">
+                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                    <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                </div>
+                            </figure> 
+                        </div>
+                    </div>
                 </div>
-                <div class="grid home">
-                    <figure>
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-price">$40</div>
-                            <img src="images/shape1.png" alt="">                            
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result"></div>
-                            </div>                                        
-                        </div>
-                        <figcaption><a href="#">Lowlands Lace Blouse</a></figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure> 
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-price">$435</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings"></div>                                        
-                        </div>
-                        <figcaption><a href="#">Samsung Galaxy Ace</a></figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure>                                    
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-discount">-25%</div>
-                            <div class="lbl lbl-price">$19</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result"></div>
-                            </div>                                        
-                        </div>
-                        <figcaption><a href="#">Iphone Case Cover Original</a></figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure>                                   
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-new">NEW</div>
-                            <div class="lbl lbl-price">$1050</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings"></div>                                        
-                        </div>
-                        <figcaption><a href="#">PowerMac Desktop Computer</a></figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>                    
-                    <figure class="hidden">                                    
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-price"><span>$870</span>$710</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result"></div>
-                            </div>                                        
-                        </div>
-                        <figcaption><a href="#">Cam Optia AF Webcam</a></figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>
-                    <figure class="hidden">   
-                        <a href="#" class="figure-wrapper">
-                            <div class="lbl lbl-price">$168</div>
-                            <img src="images/shape1.png" alt="">
-                        </a>
-                        <div class="ratings-container clearfix">
-                            <div class="ratings">
-                                <div class="ratings-result"></div>
-                            </div>                                        
-                        </div>
-                        <figcaption><a href="#">Cuisinart Brew Central Coffeemaker</a></figcaption>
-                        <div class="btns">
-                            <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                            <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                            <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                            <a href="compare-product" class="btn btn-check"><i class="icon-product-check"></i></a>
-                        </div>
-                    </figure>                                
-                </div>
-                
+
                 <section class="welcome">
                     <article>
                         <h1 class="h1">Welcome to Venedor</h1>
@@ -148,7 +382,7 @@
                     </article>
                     <img src="images/welcome.png" alt="" width="369" height="276">
                 </section>
-                
+
                 <section class="sale">
                     <div class="hdr-wrap">
                         <div>
@@ -218,22 +452,22 @@
                     </div>
                 </section>
                 <div class="manufacturers short">
-            <div class="hdr-wrap">
-                <h1 class="h1">Manufacturers</h1>
-                <div class="arrows">
-                    <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
-                    <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
+                    <div class="hdr-wrap">
+                        <h1 class="h1">Manufacturers</h1>
+                        <div class="arrows">
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
+                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="manufacturers-slider">
+                        <a href="#"><img src="/images/brand.png" alt=""></a>
+                        <a href="#"><img src="/images/brand.png" alt=""></a>
+                        <a href="#"><img src="/images/brand.png" alt=""></a>
+                        <a href="#"><img src="/images/brand.png" alt=""></a>
+                        <a href="#"><img src="/images/brand.png" alt=""></a>
+                        <a href="#"><img src="/images/brand.png" alt=""></a>
+                    </div>              
                 </div>
-            </div>
-            <div class="manufacturers-slider">
-                <a href="#"><img src="/images/brand.png" alt=""></a>
-                <a href="#"><img src="/images/brand.png" alt=""></a>
-                <a href="#"><img src="/images/brand.png" alt=""></a>
-                <a href="#"><img src="/images/brand.png" alt=""></a>
-                <a href="#"><img src="/images/brand.png" alt=""></a>
-                <a href="#"><img src="/images/brand.png" alt=""></a>
-            </div>              
-        </div>
             </section>
 
             <aside>
@@ -296,9 +530,9 @@
                 <section class="banners">
                     <div>
                         <h1>free <span>shipping</span></h1>
-                    <p>on orders over <span>$150</p>
-                    <img src="/images/truck.png" width="168" height="120" alt="">
-                    <p>The offers is valid on all our store item!</p>
+                        <p>on orders over <span>$150</p>
+                        <img src="/images/truck.png" width="168" height="120" alt="">
+                        <p>The offers is valid on all our store item!</p>
                     </div>                    
                     <div class="controls">
                         <a href="#"></a>
@@ -325,6 +559,13 @@
                 <a href="#"><img src="/images/brand.png" alt=""></a>
             </div>              
         </div>
-<?=require_tpl('common/footer') ?>
+        <?= require_tpl('common/footer') ?>
+        <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="/js/functions.js" type="text/javascript"></script>
+        <script src="/js/jq.functions.js" type="text/javascript"></script>
+        <script src="/js/jquery.gfx_tabs.js" type="text/javascript"></script>
+        <script>
+            $('.tabs').GFX_tabs();
+        </script>
     </body>
 </html>

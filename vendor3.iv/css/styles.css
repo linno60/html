@@ -733,7 +733,7 @@ aside{
 aside > section{
     width: 100%;
 }
-.tabs{
+/*.tabs{
     display: flex;
     margin-bottom: 28px;
     flex-wrap: wrap;
@@ -754,11 +754,12 @@ aside > section{
 }
 .tabs a:hover, .tabs a:first-child{
     background-color: #83bb25;
-}
+}*/
 
 .grid{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 figure {  
     border: 1px solid transparent;
@@ -1965,6 +1966,7 @@ input[name="check-plus"] + label span{
 }
 .product-middle{
     display: flex;
+    align-items: flex-start;
     margin-bottom: 90px;
 }
 .product-middle aside{
@@ -1978,82 +1980,23 @@ input[name="check-plus"] + label span{
 input[type="radio"]{
     display:none;
 }
-.tab{
-    position:relative; 
-    width:100%;   
-    border:1px solid #e0e0e0;
-    border-radius:2px;
-    background-color:#f9f9f9;   
-    margin-right: 30px;
-    min-height: 462px;
-    height: auto;
-}
-.tab .tab-pane { 
-    display: none;
-    background-color:#ffffff;
-    width: 73.7%;
-    position:absolute;
-    left: 26.3%;
-    top:0px;
-    height: 100%;
-    padding:35px 35px 35px 35px;    
-    border-left:1px solid #e0e0e0;
-}
-.tab:after {
-    content:"";
-    width: 18px;
-    height: 100%;
-    background-color: #fff;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0px;
-    z-index: 2;
-}
-.tab input:checked + label + .tab-pane{
-    display:block;
-}
-
-.tab > label:last-child{
-    margin-bottom: 20px;
-}
-.tab > label{
-    display: flex;
-    align-items: center;
-    width: 26.3%;
-    border-bottom:1px solid #e0e0e0;
-    background-color:#f9f9f9;
-    height:54px;
-    padding: 0 25px;
-    color: #858783;
-    font: 600 15px "PT Sans";
-    text-transform: uppercase;
-}
-.tab input:checked + label{
-    background-color:#ffffff;
-    border-right:1px solid #ffffff;
-    color:#555555;
-    width: 26.4%;
-    position:relative;
-    z-index:1;
-}
-.tab-pane p{
+.tabs-product ._content > .active p{
     font: 16px/22px "Arial";
     color: #727272;
     margin-bottom: 16px;
 }
-.tab-pane > span{
+.tabs-product ._content > .active > span{
     font: 18px "PT Sans";
     color: #777;
 }
-.tab-pane ul li{
+.tabs-product ._content > .active ul li{
     font: 16px/30px "Arial";
     color: #727272;
     padding-left:10px;
     display: flex;
     align-items: center;
 }
-.tab-pane ul li:before{
+.tabs-product ._content > .active ul li:before{
     content: "";
     display: block;
     margin-right: 10px;
@@ -2061,66 +2004,66 @@ input[type="radio"]{
     width:4px;
     height:5px;
 }
-.tab-pane p a{
+.tabs-product ._content > .active p a{
     color: #7bad23;
     font-style: italic;
 }
-.tab-pane .hdr{
+.tabs-product ._content > .active .hdr{
     border-bottom: 1px solid #e8e8e8;
     display: flex;
     justify-content: space-between;
     padding: 0 0 10px 0;
 }
-.tab-pane .hdr h3{
+.tabs-product ._content > .active .hdr h3{
     color: #535351;
     font: 20px "PT Sans";
 }
-.tab-pane .hdr h3 a{
+.tabs-product ._content > .active .hdr h3 a{
     color: #646464;
     font: 600 20px "PT Sans";
 }
-.tab-pane .hdr .ratings-result{
+.tabs-product ._content > .active .hdr .ratings-result{
     width: 94px;
     height: 15px;
     background: url(/images/rating3.png) no-repeat;
 }
-.tab-pane .comment{
+.tabs-product ._content > .active .comment{
     display: flex;
     padding: 20px 0;
 }
-.tab-pane .comment > div{
+.tabs-product ._content > .active .comment > div{
     width: 100%;
 }
-.tab-pane .comment .hdr .ratings-result{
+.tabs-product ._content > .active .comment .hdr .ratings-result{
     width: 88px;
     height: 16px;
     background: url(/images/rating1.png) no-repeat;
 }
-.tab-pane .comment .hdr {
+.tabs-product ._content > .active .comment .hdr {
     border-bottom: none;
 }
-.tab-pane .comment > a {
+.tabs-product ._content > .active .comment > a {
     margin-right: 20px;
 }
-.tab-pane .comment .hdr h4 + div {
+.tabs-product ._content > .active .comment .hdr h4 + div {
     display: flex;
 }
-.tab-pane .comment .hdr h4 {
+.tabs-product ._content > .active .comment .hdr h4 {
     color: #777;
     font: 600 18px "Gudea";  
     margin-bottom: 20px;
 }
-.tab-pane .comment .hdr{
+.tabs-product ._content > .active .comment .hdr{
     margin-bottom: 20px;   
 }
-.tab-pane > .hdr.hidden{
+.tabs-product ._content > .active > .hdr.hidden{
     display: none;  
 }
-.tab-pane > .hdr.hidden > div{
+.tabs-product ._content > .active > .hdr.hidden > div{
     display: flex;
     justify-content: space-between;
 }
-.tab-pane .comment .hdr .lnk-name{
+.tabs-product ._content > .active .comment .hdr .lnk-name{
     margin-right: 10px;    
 }
 .accessories-wrap{
@@ -2131,7 +2074,7 @@ input[type="radio"]{
 .accessories-wrap figure{
     min-height: 100px;
 }
-.tab-pane .slider-arrow{
+.tabs-product ._content > .active .slider-arrow{
     position: absolute;
     z-index: 1;
     width: 52px;
@@ -2139,19 +2082,19 @@ input[type="radio"]{
     top: 33%;
     transform: translateY(-50%)
 }
-.tab-pane figure{
+.tabs-product ._content > .active figure{
     margin: 10px;
 }
-.tab-pane .slider-arrow:first-child{
+.tabs-product ._content > .active .slider-arrow:first-child{
     left: 5px;
 }
-.tab-pane .slider-arrow{
+.tabs-product ._content > .active .slider-arrow{
     right: 5px;
 }
 .product-middle + .sale{
     padding-right:0;
 }
-.tab-pane iframe{
+.tabs-product ._content > .active iframe{
     width: 100%;
 }
 
@@ -2401,20 +2344,20 @@ table{
     color: #fff;
     background-color: #7bad23;
 }
-.tab-pane form > div{
+.tabs-product ._content > .active form > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
     width: 100%;
 }
-.tab-pane form > button{
+.tabs-product ._content > .active form > button{
     margin-top: 4px;
 }
-.tab-pane form .btn-add{
+.tabs-product ._content > .active form .btn-add{
     padding: 0 16px;
 }
-.tab-pane form .input-quote{
+.tabs-product ._content > .active form .input-quote{
     display: flex;
     height: 38px;
     border: 1px solid #e3e1e1;
@@ -2452,7 +2395,7 @@ table{
     display: flex;
     justify-content: space-between;
 }
-.product-middle.cart .tab-pane form{
+.product-middle.cart .tabs-product ._content > .active form{
     margin: 27px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -2466,7 +2409,7 @@ table{
 .product-middle.cart .tab input:checked + label {
     width: 36.2%;
 }
-.product-middle.cart .tab .tab-pane {
+.product-middle.cart .tab .tabs-product ._content > .active {
     width: 64%;
     left: 36%;
     padding: 20px 46px 30px 50px;
@@ -2499,12 +2442,12 @@ table{
     border-right: 1px solid #7bad23;
     background:#7bad23 url("/images/icons/16x16/selectarrow-middle-hover.png") no-repeat 10px 10px
 }
-.tab-pane form label{
+.tabs-product ._content > .active form label{
     color: #777;
     font-family: "Arial";
     font-size: 15px;
 }
-.tab-pane form label span{
+.tabs-product ._content > .active form label span{
     color:#7bad23;
 }
 
@@ -3419,7 +3362,7 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 1150px) {
-    .product-middle.cart .tab .tab-pane {
+    .product-middle.cart .tab .tabs-product ._content > .active {
 
         padding: 20px 30px 30px 30px;
     }
@@ -3597,10 +3540,10 @@ a.btn-post{
     figure .btn-like {
         margin: 0 10px 0 10px;
     }
-    .tabs {
+    .tabs-home ._nav {
         margin-bottom: 18px;
     }
-    .tabs a {
+    .tabs-home ._nav a {
         min-width: 100px;
         font: 600 13px "Arial";
     }
@@ -3872,7 +3815,7 @@ a.btn-post{
     .panel-table .tbl-cart .tbl-total td:last-child{
         padding: 16px 16px 16px 24px;
     }
-    .select-quote select, .tab-pane form .input-quote {
+    .select-quote select, .tabs-product ._content > .active form .input-quote {
         width: 190px;
     }
 
@@ -3885,18 +3828,18 @@ a.btn-post{
     .product-middle.cart .tab > label {
         width: 38%;
     }
-    .product-middle.cart .tab .tab-pane {
+    .product-middle.cart .tab .tabs-product ._content > .active {
         width: 62%;
         left: 38%;
         padding: 22px 19px 19px 19px;
     }
-    .tab-pane > span{
+    .tabs-product ._content > .active > span{
         font: 17px/18px "PT Sans";
     }
     .tab > label {
         width: 31%;
     }
-    .tab .tab-pane {
+    .tab .tabs-product ._content > .active {
         width: 69%;
         left: 31%;
         padding: 27px 34px 27px 28px;
@@ -3904,10 +3847,10 @@ a.btn-post{
     .tab input:checked + label {
         width: 31.2%;
     }
-    .tab-pane form > button {
+    .tabs-product ._content > .active form > button {
         margin-top: 0px;
     }
-    .product-middle.cart .tab-pane form {
+    .product-middle.cart .tabs-product ._content > .active form {
         margin: 22px 0px 0px;
     }
     .select-quote select{
@@ -4123,7 +4066,7 @@ a.btn-post{
         width: 110px;
         height: 110px;
     }
-    .tab-pane figure {
+    .tabs-product ._content > .active figure {
         margin: 5px;
     }    
 }
@@ -4132,7 +4075,7 @@ a.btn-post{
         max-width: 210px;
         max-height: 210px;
     }
-    #tab4 + label + .tab-pane {
+    #tab4 + label + .tabs-product ._content > .active {
         padding: 15px;
     }
     figure{
@@ -4248,17 +4191,17 @@ a.btn-post{
     .product-middle.cart aside {
         width:100%;
     }
-    .tab .tab-pane {
+    .tab .tabs-product ._content > .active {
         padding: 27px 34px 27px 28px;
     }
     .figure-wrapper img {
         max-width: 2280px;
         max-height: 2280px;
     }
-    .tab-pane figure {
+    .tabs-product ._content > .active figure {
         margin: 10px;
     }
-    .select-quote select, .tab-pane form .input-quote {
+    .select-quote select, .tabs-product ._content > .active form .input-quote {
         width: 273px;
     }
     .welcome {
@@ -4847,9 +4790,7 @@ a.btn-post{
         font: 15px/17px "PT Sans";
         padding: 0px 10px 15px 0px;
     }
-    .wrap-base.account {
-        margin-top: 40px;
-    }
+
     figure {
         margin: 0px 20px 15px 0px;
         min-height: 360px;
@@ -4863,13 +4804,13 @@ a.btn-post{
     .tbl-cart {
         margin: 25px 0px 20px 0;
     }
-    .product-middle.cart .tab-pane form {
+    .product-middle.cart .tabs-product ._content > .active form {
         margin: 26px 0px 0px 0;
     }
     .select-quote select {
         padding: 0px 8px;
     }
-    .tab-pane form .input-quote {
+    .tabs-product ._content > .active form .input-quote {
         padding: 0px 10px;
     }
     .tbl-cart td:first-child > div img {
@@ -4879,7 +4820,7 @@ a.btn-post{
         max-width: 150px;
         max-height: 150px;
     }
-    .product-middle.cart .tab .tab-pane {
+    .product-middle.cart .tab .tabs-product ._content > .active {
         padding: 22px 30px 19px 30px;
     }
 
@@ -4916,7 +4857,7 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 785px) {   
-    .tabs a {
+    ._nav a {
         min-width: 84px;
         font: 600 12px "Arial";
     }
@@ -4963,10 +4904,10 @@ a.btn-post{
         background: transparent url("/images/icons/quote.png") no-repeat scroll 28px 10px;
         letter-spacing: 0.2px;
     }
-    .tab-pane figure {
+    .tabs-product ._content > .active figure {
         margin: 10px;
     }
-    #tab4 + label + .tab-pane {
+    #tab4 + label + .tabs-product ._content > .active {
         padding: 15px;
     }
 }
@@ -5085,7 +5026,7 @@ a.btn-post{
     }
 }
 @media (max-width: 710px) {
-    .tab-pane .comment .hdr {
+    .tabs-product ._content > .active .comment .hdr {
         margin-bottom: 0px;
     }
     .register-account .select-wrapper .lbl-form{
@@ -5097,7 +5038,7 @@ a.btn-post{
     .range-panel form input {
         max-width: 60px;
     }
-    .tab-pane .hdr {
+    .tabs-product ._content > .active .hdr {
         flex-direction: column;
         padding-bottom: 20px;
     }
@@ -5195,11 +5136,11 @@ a.btn-post{
     figure{
         margin:0px 0px 0px 0px;
     }
-    .tab #tab4 + label + .tab-pane figure img{
+    .tab #tab4 + label + .tabs-product ._content > .active figure img{
         max-width: 228px;
         max-height: 228px;
     }
-    .tab #tab4 + label + .tab-pane figure:last-child{
+    .tab #tab4 + label + .tabs-product ._content > .active figure:last-child{
         display: none;
     }
     .tbl-striped-hidden{
@@ -5232,7 +5173,7 @@ a.btn-post{
     .share-wrap {
         max-width: 100%;
     }
-    .select-quote select, .tab-pane form .input-quote {
+    .select-quote select, .tabs-product ._content > .active form .input-quote {
         width: 220px;
     }
     .register-account {
@@ -5267,7 +5208,7 @@ a.btn-post{
     .category .grid{
         padding-right: 0px;
     }
-    #tab4 + label + .tab-pane {
+    #tab4 + label + .tabs-product ._content > .active {
         justify-content: center;  
     }
     .accessories-wrap{
@@ -5284,7 +5225,7 @@ a.btn-post{
         margin-left: 0px;
         margin-right: 25px;
     }
-    .tab #tab4:checked + label + .tab-pane{
+    .tab #tab4:checked + label + .tabs-product ._content > .active{
         justify-content: center;
         display: flex;
     }
@@ -5732,19 +5673,19 @@ a.btn-post{
     .product-middle.cart .tab > label {
         padding-left: 15px;
     }
-    .product-middle.cart .tab .tab-pane {
+    .product-middle.cart .tab .tabs-product ._content > .active {
         padding: 15px 15px 50px 15px;
     }
-    .product-middle.cart .tab-pane form {
+    .product-middle.cart .tabs-product ._content > .active form {
         margin: 20px 0px 0px 0px;
     }
-    .product-middle.cart .tab-pane form label {
+    .product-middle.cart .tabs-product ._content > .active form label {
         margin-bottom: 6px;
     }
-    .product-middle.cart .tab-pane form {
+    .product-middle.cart .tabs-product ._content > .active form {
         align-items: flex-start;
     }
-    .product-middle.cart .tab-pane form > button {
+    .product-middle.cart .tabs-product ._content > .active form > button {
         margin-top: 5px;
     }
     .product-middle.cart .tbl-total {
@@ -5835,10 +5776,10 @@ a.btn-post{
     .side-slider-wrap .btn-down {
         bottom: -2px;
     }
-    .select-quote select, .tab-pane form .input-quote, .select-quote {
+    .select-quote select, .tabs-product ._content > .active form .input-quote, .select-quote {
         width: 100%;
     }
-    .tab-pane form > div {
+    .tabs-product ._content > .active form > div {
         flex-direction: column;
         width: 100%;
         align-items: flex-start;
@@ -5861,7 +5802,7 @@ a.btn-post{
     .tab {
         min-height: auto;
     }
-    .tab .tab-pane{
+    .tab .tabs-product ._content > .active{
         height: auto;
     }
     .tab label, .product-middle.cart .tab > label, .product-middle.cart .tab input:checked + label  {
@@ -5870,14 +5811,14 @@ a.btn-post{
     .tab{
         border-bottom: none;
     }
-    .tab .tab-pane {
+    .tab .tabs-product ._content > .active {
         display: none;
         width: 100%;
         position: static;
         border-left:none;
         border-bottom: 1px solid #E0E0E0;
     }
-    .product-middle.cart .tab .tab-pane {
+    .product-middle.cart .tab .tabs-product ._content > .active {
         width: 100%;
         left: 0;
     }
@@ -6087,7 +6028,7 @@ a.btn-post{
     }
 }
 @media screen and (max-width: 450px) {
-    .tab-pane > .hdr{
+    .tabs-product ._content > .active > .hdr{
         display: none;  
     }
     .accordion .reminder {
@@ -6099,7 +6040,7 @@ a.btn-post{
         position:relative;
         z-index: 2;
     }
-    .tab-pane > .hdr.hidden{
+    .tabs-product ._content > .active > .hdr.hidden{
         display: flex;  
     }
     .side-slider {
@@ -6118,7 +6059,7 @@ a.btn-post{
         margin-right: 5px;
     }
 
-    .tab-pane iframe {
+    .tabs-product ._content > .active iframe {
         max-height: 200px;   
     }
     .blog .contacts-wrap form .textarea + div input {
@@ -6289,7 +6230,7 @@ a.btn-post{
     .product-viewer {
         margin: 44px 0px 55px;
     }
-    .tab .tab-pane {
+    .tab .tabs-product ._content > .active {
         padding: 10px;
     }
     .footer .like-box{
@@ -6479,4 +6420,100 @@ a.btn-post{
     .side-slider-wrap .btn-down {
         bottom: -8px;
     }
+}
+
+.tabs-home ._nav{
+    margin-bottom: 28px;
+}
+.tabs-home ._nav a {
+    width: 100px;
+    height: 30px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    background: #575959;
+    font: bold 14px "PT Sans";
+    color: white;
+    text-transform: uppercase;
+}
+.tabs-home ._nav a:hover, 
+.tabs-home ._nav a.active {
+    background: #83bb25;
+}
+
+.tabs ._content > * {
+    background: white;
+    color: black;
+}
+.tabs-product{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    margin-right: 40px;
+    min-height: 400px;
+}
+.tabs-product.accordion{
+    min-height: 100px;
+}
+.tabs-product ._nav {
+    flex-direction: column;
+    width: 26%;
+}
+.tabs-product.accordion ._nav, .tabs-product.accordion ._nav a, .tabs-product.accordion ._nav a.active {
+    width: 100%;
+}
+.tabs-product.left.accordion {
+    flex-direction: column;
+}
+.tabs-product.left.accordion ._nav a:last-child, .tabs-product.left.accordion ._nav a:last-child {
+    border-bottom: none;
+}
+.tabs-product.accordion ._content {
+    width: 100%;
+}
+.tabs-product ._content{
+    background-color: #ffffff;
+    border-left: 1px solid #e0e0e0;
+}
+.tabs-product.accordion ._content{
+    border-left: none;    
+}
+.tabs-product.accordion ._content > .active, .tabs-product.left.accordion ._nav a.active:last-child {
+    border-bottom: 1px solid #e0e0e0;
+}
+.tabs-product.accordion ._content > .active:last-child {
+    border-bottom: none;
+}
+.tabs-product ._content {
+    width: 74%;
+}
+.tabs-product ._content > .active {
+    flex-direction: column;
+    padding:35px 35px 35px 35px;
+}
+.tab > label:last-child{
+    margin-bottom: 20px;
+}
+.tabs-product ._nav a{
+    justify-content: flex-start;
+    border-bottom:1px solid #e0e0e0;
+    background-color:#f9f9f9;
+    height:54px;
+    padding: 0 25px;
+    color: #858783;
+    font: 600 15px "PT Sans";
+    text-transform: uppercase;
+}
+.tabs-product ._nav a.active{
+    background-color: #ffffff;
+    position: relative;
+}
+.tabs-product ._nav a.active:after{
+    background-color: #ffffff;  
+    content: "";
+    width: 1px;
+    height: 100%;
+    position:absolute;
+    right: -1px;
+    top: 0px;
 }

@@ -118,109 +118,110 @@
                 </div>
             </div>
             <div class="product-middle">
-                <div class="tab">
-                    <input type="radio" id="tab1" name="tab-label" checked>
-                    <label for="tab1">description</label>
-                    <div class="tab-pane">
-                        <p>Sed volutpat ac massa eget lacinia. Suspendisse non purus semper, tellus vel, tristique urna. Aenean <a href="#">volutpat lacus</a> at dolor blandit, vitae lobortisante semper. In ut rutrum diam, ac congue turpis. Ut bibendum metusfringilla, blandit elit at, commodo neque. Maecenas vehicula volutpat elit, in interdum lacus faucibus sit amet.</p>
-                        <p>Sed sed interdum diam. Donec sit amet enim tempor, dapibus nunc eu, tincidunt mi. Vivamus dignissim nisl eu euismod ullamcorper. Donec pellentesque diam id est tristique vestibulum. Donec eget feugiat ante. Integerarcu libero, dictum nec congue sed, faucibus sit amet lectus. </p>
-                        <p>Phasellus consequat id purus in convallis. Nulla quis nunc auctor, pretium enimnec, tristique magna. Vivamus vitae arcu faucibus, dictum magna vel, adipiscing justo. Sed nec ullamcorper lacus. Aenean tincidunt tincidunt ligula.</p>                    
+                <div class="tabs tabs-product left">
+                    <div class="_nav">
+                        <a href="#tab1" class="active">description</a>
+                        <a href="#tab2">details</a>
+                        <a href="#tab3">comments</a>
+                        <a href="#tab4">accessories</a>
+                        <a href="#tab5">video</a>
                     </div>
-                    
-                    <div class="tab-pane">
-                        <p>The perfect mix of portability and performance in a slim 1" form factor:</p>
-                        <ul>
-                            <li>3rd gen Intel&reg; Core&trade; i7 quad core processor available;</li>
-                            <li>Windows 8 Pro available;</li>
-                            <li>13.3" and 15.5" screen sizes available;</li>
-                            <li>Double your battery life with available sheet battery;</li>
-                            <li>4th gen Intel&reg; Core&trade; i7 processor available;</li>
-                            <li>Windows 8 Pro available;</li>
-                            <li>Full HD TRILUMINOS IPS touchscreen (1920 x 1080);</li>
-                            <li>Super fast 512GB PCIe SSD available;</li>
-                            <li>Ultra-light at just 2.34 lbs.</li>
-                        </ul>
-                    </div>
-                    <input type="radio" id="tab3" name="tab-label">
-                    <label for="tab3">comments</label>
-                    <div class="tab-pane">
-                        <div class="hdr">
-                            <h3>1 Review for <a href="#">"Samsung Galaxy Ace"</a></h3>
-                            <div class="ratings-result"></div>
+                    <div class=" _content">
+                        <div id="tab1" class="tab-pane">
+                            <p>Sed volutpat ac massa eget lacinia. Suspendisse non purus semper, tellus vel, tristique urna. Aenean <a href="#">volutpat lacus</a> at dolor blandit, vitae lobortisante semper. In ut rutrum diam, ac congue turpis. Ut bibendum metusfringilla, blandit elit at, commodo neque. Maecenas vehicula volutpat elit, in interdum lacus faucibus sit amet.</p>
+                            <p>Sed sed interdum diam. Donec sit amet enim tempor, dapibus nunc eu, tincidunt mi. Vivamus dignissim nisl eu euismod ullamcorper. Donec pellentesque diam id est tristique vestibulum. Donec eget feugiat ante. Integerarcu libero, dictum nec congue sed, faucibus sit amet lectus. </p>
+                            <p>Phasellus consequat id purus in convallis. Nulla quis nunc auctor, pretium enimnec, tristique magna. Vivamus vitae arcu faucibus, dictum magna vel, adipiscing justo. Sed nec ullamcorper lacus. Aenean tincidunt tincidunt ligula.</p>                    
                         </div>
-                        <div class="hdr hidden">
-                            <div>
-                                <h3>1 Review for </h3>
+                        <div id="tab2" class="tab-pane">
+                            <p>The perfect mix of portability and performance in a slim 1" form factor:</p>
+                            <ul>
+                                <li>3rd gen Intel&reg; Core&trade; i7 quad core processor available;</li>
+                                <li>Windows 8 Pro available;</li>
+                                <li>13.3" and 15.5" screen sizes available;</li>
+                                <li>Double your battery life with available sheet battery;</li>
+                                <li>4th gen Intel&reg; Core&trade; i7 processor available;</li>
+                                <li>Windows 8 Pro available;</li>
+                                <li>Full HD TRILUMINOS IPS touchscreen (1920 x 1080);</li>
+                                <li>Super fast 512GB PCIe SSD available;</li>
+                                <li>Ultra-light at just 2.34 lbs.</li>
+                            </ul> 
+                        </div>
+                        <div id="tab3" class="tab-pane">
+                            <div class="hdr">
+                                <h3>1 Review for <a href="#">"Samsung Galaxy Ace"</a></h3>
                                 <div class="ratings-result"></div>
                             </div>
-                            <h3><a href="#">"Samsung Galaxy Ace"</a></h3>                            
-                        </div>
-                        <div class="comment">
-                            <a href="#">
-                                <img src="images/avatar.png" alt="">
-                            </a>
-                            <div>
-                                <div class="hdr">                                    
-                                    <div>
-                                        <h4>Duis tincidunt augue purus</h4>
-                                        <div>
-                                            <a href="#" class="lnk-name">Anna Retallick</a>
-                                            <time>12.05.2013</time>
-                                        </div>
-                                    </div>
+                            <div class="hdr hidden">
+                                <div>
+                                    <h3>1 Review for </h3>
                                     <div class="ratings-result"></div>
                                 </div>
-                                <p>Cgestas metus id nunc vestibulum dictum. Etiam dapibus nunc nec risus egestas vel bibend eros vehicula. Suspendissefacilisis neque in augue feugiat tempor. Donec velit diam,pharetra lobortis non, ullamcorper eget lectus...</p>
-                                <a href="#" class="btn btn-add">add&nbsp;review</a>
+                                <h3><a href="#">"Samsung Galaxy Ace"</a></h3>                            
+                            </div>
+                            <div class="comment">
+                                <a href="#">
+                                    <img src="images/avatar.png" alt="">
+                                </a>
+                                <div>
+                                    <div class="hdr">                                    
+                                        <div>
+                                            <h4>Duis tincidunt augue purus</h4>
+                                            <div>
+                                                <a href="#" class="lnk-name">Anna Retallick</a>
+                                                <time>12.05.2013</time>
+                                            </div>
+                                        </div>
+                                        <div class="ratings-result"></div>
+                                    </div>
+                                    <p>Cgestas metus id nunc vestibulum dictum. Etiam dapibus nunc nec risus egestas vel bibend eros vehicula. Suspendissefacilisis neque in augue feugiat tempor. Donec velit diam,pharetra lobortis non, ullamcorper eget lectus...</p>
+                                    <a href="#" class="btn btn-add">add&nbsp;review</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <input type="radio" id="tab4" name="tab-label">
-                    <label for="tab4">accessories</label>
-                    <div class="tab-pane">
-                        <div class="accessories-wrap">
-                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
-                            <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
-                            <figure>                                    
-                                <a href="#" class="figure-wrapper">
-                                    <div class="lbl lbl-price">$108</div>
-                                    <img src="images/shape1.png" alt="">
-                                </a>
-                                <div class="ratings-container clearfix">
-                                    <div class="ratings"></div>                                        
-                                </div>
-                                <figcaption>Apple TV 3.0 with Blu-ray and HD tuner</figcaption>
-                                <div class="btns">
-                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                                    <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                                </div>
-                            </figure>
-                            <figure>                                    
-                                <a href="#" class="figure-wrapper">
-                                    <div class="lbl lbl-price">$19</div>
-                                    <img src="images/shape1.png" alt="">
-                                </a>                            
-                                <div class="ratings-container clearfix">
-                                    <div class="ratings">
-                                        <div class="ratings-result"></div>
-                                    </div>                                        
-                                </div>
-                                <figcaption>Ipnone Case Cover Original</figcaption>
-                                <div class="btns">
-                                    <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
-                                    <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
-                                    <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
-                                    <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
-                                </div>
-                            </figure>
+                        <div id="tab4" class="tab-pane">
+                            <div class="accessories-wrap">
+                                <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-left"></i></a>
+                                <a href="#" class="btn slider-arrow"><i class="icon-sliderarrow-right"></i></a>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-price">$108</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings"></div>                                        
+                                    </div>
+                                    <figcaption>Apple TV 3.0 with Blu-ray and HD tuner</figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                                <figure>                                    
+                                    <a href="#" class="figure-wrapper">
+                                        <div class="lbl lbl-price">$19</div>
+                                        <img src="images/shape1.png" alt="">
+                                    </a>                            
+                                    <div class="ratings-container clearfix">
+                                        <div class="ratings">
+                                            <div class="ratings-result"></div>
+                                        </div>                                        
+                                    </div>
+                                    <figcaption>Ipnone Case Cover Original</figcaption>
+                                    <div class="btns">
+                                        <a href="#" class="btn btn-hidden-add"><i class="icon-hidden-add"></i></a>
+                                        <a href="#" class="btn btn-add">add&nbsp;to&nbsp;cart</a>
+                                        <a href="#" class="btn btn-like"><i class="icon-product-like"></i></a>
+                                        <a href="#" class="btn btn-check"><i class="icon-product-check"></i></a>
+                                    </div>
+                                </figure>
+                            </div>
                         </div>
-                    </div>
-                    <input type="radio" id="tab5" name="tab-label">
-                    <label for="tab5">video</label> 
-                    <div class="tab-pane">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vUkjWypJjKk" frameborder="0" allowfullscreen></iframe>                                                
+                        <div id="tab5" class="tab-pane">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vUkjWypJjKk" frameborder="0" allowfullscreen></iframe>                                                                    
+                        </div>
+
                     </div>
                 </div>
                 <aside class="featured">
@@ -351,6 +352,16 @@
             </section> 
         </div>
         <?= require_tpl('common/footer') ?>
+        <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="/js/functions.js" type="text/javascript"></script>
+        <script src="/js/jq.functions.js" type="text/javascript"></script>
+        <script src="/js/jquery.gfx_tabs.js" type="text/javascript"></script>
+        <script>
+            $('.tabs').GFX_tabs({
+                accordion_width: 650,
+                accordion_tab_height: 300
+            });
+        </script>
     </body>
 </html>
 
