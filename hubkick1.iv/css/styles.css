@@ -45,10 +45,11 @@ nav a.sign:hover{
     background-color: transparent;
 }
 .top-info-wrap{
-    height: 427px;
+    min-height: 427px;
     border-top: 1px solid rgba(0,0,0,0.2);
     border-bottom: 1px solid #cfcfcf;
-    background-image: url("/images/bg1.png")
+    background-image: url("/images/bg1.png");
+    padding-bottom: 140px;
 }
 .top-info-wrap h1{
     color: #362f2d;
@@ -58,34 +59,45 @@ nav a.sign:hover{
     text-align: center;
     margin: 20px 0px;
 }
-.top-info-wrap h1 + p{
+.top-info-wrap h1 ~ p{
     color: #362f2d;
     font: 16px/20px "Arial";
     text-align: center;
 }
-.top-info-wrap h1 + p a{
+.top-info-wrap h1 ~ p a{
     color: #157fc6;
 }
-.top-info-wrap h1 + p a:hover{
+.top-info-wrap h1 ~ p a:hover{
     text-decoration: underline;
 }
 .top-info{
     margin: auto;
-    max-width: 914px;
+    max-width: 934px;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 .figure-wrap{
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    max-width: 934px;
+    margin-top: -140px;
+    padding: 0 10px;
 }
 figure{
     max-width:280px;
 }
-.figure-wrapper{
-    padding: 13px;    
+.figure-wrapper{   
     background-image: url("/images/stamp.png");
+    background-size: 100%;
     position: relative;  
     z-index: 1;
+    max-width: 278px;
+    display: flex;
+    padding: 13px;
+}
+.figure-wrapper img{
+    width: 100%;   
 }
 figcaption{
     padding: 10px;
@@ -115,8 +127,7 @@ figure p a:hover{
     width: 53%;
     position:relative;
 }
-.account-wrap > form{
-    
+.account-wrap > form{    
     background-color: #fbfbfb;
     width: 47%;
 }
@@ -125,6 +136,7 @@ figure p a:hover{
     position: absolute;
     width: 0;
     height: 0;
+    top: 0;
     right: -50px;
     z-index: 1;
     border-left: 50px solid #f4f4f4;
@@ -137,6 +149,22 @@ figure p a:hover{
     height: 77px;
     border: 1px solid #dedede;
     border-radius: 1px;
+}
+.reasons-wrap{
+    background-image: url("/images/bg2.png");
+}
+.reasons{
+    margin: auto;
+    max-width: 934px;
+    padding: 0 10px;
+}
+.reasons h1{
+    color: #362f2d;
+font: 60px "BebasNeue";
+text-shadow: -1px 1px 0 #b7b5b5;
+text-align:center;
+max-width: 650px;
+margin: auto;
 }
 @media (max-width: 760px) {
     .header{
