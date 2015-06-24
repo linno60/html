@@ -16,7 +16,7 @@
         <?= require_tpl('common/header') ?>
         <div class="slider-mobile-wrap">
             <div class="slider-mobile">
-                <div>
+                <div> 
                     <img src="images/iphone4.png" alt=""> 
                 </div>
                 <div>
