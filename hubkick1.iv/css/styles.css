@@ -609,7 +609,7 @@ footer{
 }
 
 
-@media screen and(max-width: 920px) {
+@media screen and (max-width: 920px) {
     .header{
         background: red;
     }
