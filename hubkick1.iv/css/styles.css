@@ -29,7 +29,7 @@ a{
     height: 44px;
     font: 30px "MyriadPro";
     color: #231f20;
-    padding: 0px 41px;
+    padding: 0 0 0px 41px;
     background: url("/images/logo.png") no-repeat left center;
     display: inline-flex;
     align-items: center;
@@ -78,14 +78,14 @@ nav a.sign:hover{
     border-top: 1px solid rgba(0,0,0,0.2);
     border-bottom: 1px solid #cfcfcf;
     background-image: url("/images/bg1.png");
-    padding-bottom: 140px;
+    padding-bottom: 100px;
 }
 .top-info-wrap h1{
     color: #362f2d;
     font: 70px "BebasNeue";
     text-shadow: -1px 1px 0 #fff;
     text-align: center;
-    margin: 20px 0px;
+    margin: 12px 0px 2px 0px;
 }
 .top-info-wrap h1 ~ p{
     color: #362f2d;
@@ -111,7 +111,7 @@ nav a.sign:hover{
     justify-content: space-between;
     margin: auto;
     max-width: 934px;
-    margin-top: -140px;
+    margin-top: -134px;
     padding: 0 10px;
     position: relative;
     z-index: 0;
@@ -157,7 +157,7 @@ figcaption p a:hover{
 }
 figcaption p, figcaption p a{
     color: #454545;
-    font: 12px/16px "Arial";
+    font: 12px/18px "Arial";
     padding-bottom: 10px;
 }
 .account{
@@ -240,28 +240,31 @@ figcaption p, figcaption p a{
     border-bottom: 38px solid transparent;
 }
 .account-wrap{
-    margin: 20px 0;
+    margin: 46px 0 30px 0px;
     display: flex;
     justify-content: space-between;
-    height: 77px;
+    min-height: 77px;
     border: 1px solid #dedede;
     border-radius: 1px;
 }
 .reasons-wrap{
     background-image: url("/images/bg2.png");
+    border-bottom: 1px solid #434647;
+    border-top: 1px solid #93999b;
 }
 .reasons{
     margin: 0 auto;
     max-width: 934px;
-    padding: 0 10px;
+    padding: 32px 10px 20px 10px;
 }
 .reasons h1{
     color: #362f2d;
-    font: 60px "BebasNeue";
+    font: 60px/50px "BebasNeue";
     text-shadow: -1px 1px 0 #b7b5b5;
     text-align:center;
     max-width: 650px;
     margin: auto;
+    padding-bottom: 30px;
 }
 .reasons-box{
     display: flex;
@@ -270,21 +273,25 @@ figcaption p, figcaption p a{
 .reasons-box > div{
     width: 55%;
 }
+.reasons-box img{
+    width: 100%;
+}
 .reasons-box > div:last-child{
     width: 45%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
     padding-left: 50px;
 }
 .reasons-box article{
-    width: 50%;
+    width: 48%;
 }
 .reasons-box > div:first-child{
     position:relative;
     z-index: 1;
 }
-.reasons-box > div:first-child:after{
+/*.reasons-box > div:first-child:after{
     content: "";
     position: absolute;
     width: 100%;
@@ -293,18 +300,29 @@ figcaption p, figcaption p a{
     background-image: url("/images/shadowscreen.png");
     bottom: -30px;
     left: -5px;
-}
+}*/
 .reasons-box article p{
     color: #101010;
     font: 12px/14px "Arial";
-    padding: 0 20px 20px 0;
+    padding: 0 0px 20px 0;
 }
 .reasons-box article p a{
     color: #6dcff6;
 }
 .reasons-box article p.go{
     position:relative;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+.reasons .form input{
+    width: 66%;
+}
+.reasons button{
+    margin-top: -1px;
+}
+.reasons .btn-form{
+    padding: 0 10px;
+    height: 37px;
 }
 .go:after{
     content: "";
@@ -312,22 +330,23 @@ figcaption p, figcaption p a{
     width: 24px;
     height: 36px;
     background-image: url("/images/arrow.png");
-    bottom: -10px;
-    right: 45px;
+    bottom: -15px;
+    right: -15px;
 }
 .reasons h3{
     color: #fff;
-    font: 36px/30px "BebasNeue";
+    font: 36px/28px "BebasNeue";
     margin-bottom: 10px;
 }
 .reasons blockquote{
-    padding: 58px 0 33px 0;
+    padding: 58px 0 0 0;
     color: #fff;
     font: 36px "BebasNeue";
+    text-align: center;
 }
 .reasons blockquote cite{
     color: #fff;
-    font:italic 20px "Arial";
+    font:italic 13px "Arial";
 }
 
 .started-wrap{
@@ -336,12 +355,12 @@ figcaption p, figcaption p a{
 .started{
     margin: 0 auto;
     max-width: 934px;
-    padding: 60px 10px 25px 10px;
+    padding: 57px 10px 25px 10px;
 
 }
 .started h1{
     color: #362f2d;
-    font: 60px "BebasNeue";
+    font: 60px/60px "BebasNeue";
     text-shadow: -1px 1px 0 #fff;
     text-align: center;
 }
@@ -359,7 +378,7 @@ table{
     z-index: 2;
     margin-bottom: 90px; 
 }
-table:after{
+/*table:after{
     content: "";
     position: absolute;
     width: 700px;
@@ -367,7 +386,7 @@ table:after{
     background-image: url("/images/shadowtbl.png");
     bottom: -20px;
     z-index: -1;
-}
+}*/
 tbody tr{
     border: 6px solid #fff;
     background-color: #eaf1fb;
@@ -376,15 +395,15 @@ tbody tr{
     position: relative;
 }
 td{
-    width: 35.7%;
+    width: 45%;
     padding: 15px;
 }
 td:first-child{
-    width: 33.8%;
-    padding: 15px;
+    width: 25%;
+    padding: 0 10px 0px 15px;
 }
 td:last-child{
-    width: 30.5%;
+    width: 30%;
     padding: 15px;
 }
 .divider, .divider td{
@@ -429,6 +448,9 @@ td ul li.bold{
 th:first-child{
     background-color: #f5f4f4;
     border-left: 6px solid #f5f4f4;
+}
+table .btn-form{
+    padding: 0 13px;
 }
 th{
     background-color: #edeaea;
@@ -512,6 +534,10 @@ tr:last-child td:first-child, tr:last-child td:last-child{
 }
 footer{
     background-image: url("/images/bg3.png");
+    border-top: 1px solid #cbcbcb;
+}
+.footer .btn-form{
+    padding: 0 15px;
 }
 .footer{
     margin: auto;
@@ -521,27 +547,35 @@ footer{
 }
 .footer-form{
     width: 50%;
+    margin-right: 10px;
 }
 .footer-form form {
     display: flex;
 }
 .footer-form form > div{
     display: flex;
+    width: 45%;
     flex-direction: column;
+}
+.footer-form form > div:last-child{
+    
     align-items: flex-end;
+    width: 48%;
 }
 .footer-form form > div:first-child{
-    margin-right: 25px;
+    margin-right: 10px;
 }
 .footer h5{
     color: #555;
     font: 18px "BebasNeue";
+    margin-bottom: 15px;
 }
 .footer input, .footer textarea{
-    width: 212px;
+    max-width: 212px;
+    width: 100%;
     height: 38px;
     padding: 0px 10px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     border: 1px solid #cfcece;
     border-radius: 5px;
     color: #8e8c8c;
@@ -551,7 +585,7 @@ footer{
     box-shadow: inset 0 1px 2px rgba(29,29,29,.33), -1px 1px 0px 0px  #fff;
 }
 .footer textarea{
-    height: 140px;
+    height: 142px;
     padding: 10px;
 }
 .contacts span:after {
@@ -567,6 +601,9 @@ footer{
     justify-content: space-between;
     width: 50%;
 }
+.contacts > div:first-child{
+    margin-right: 5px;
+}
 .map-wrap{
     background: #fff;
     width: 100%;
@@ -581,7 +618,7 @@ footer{
     width: 100%;
     height: 100%;
 }
-.map-wrap:after{
+/*.map-wrap:after{
     content: "";
     position: absolute;
     width: 280px;
@@ -590,30 +627,192 @@ footer{
     bottom: -20px;
     left: 0;
     z-index: -1;
-}
+}*/
 .footer-bottom{
     margin: auto;
     max-width: 960px;
-    padding: 40px 10px 90px 10px;
+    padding: 60px 10px 90px 10px;
     display: flex;
     justify-content: space-between;
 }
 .footer-bottom > div:first-child a{
     color: #545454;
-    font: 600 13px "Arial";
-    margin-right: 10px;
+    font: 600 12px "Arial";
+    margin-right: 25px;
+    padding: 15px 0;
+    display: inline-flex;
+}
+.footer-bottom > div:first-child a:hover{
+    text-decoration: underline;
 }
 .footer-bottom .logo ~ span{
     color: #555;
     font: 600 12px "Arial";
 }
+.footer-bottom > div:last-child{
+   text-align: right      
+}
+.footer-bottom .logo{
+    margin-bottom: 5px;
+}
 
-
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 780px) {
+    .account p {
+    font: 600 20px "Arial";
+}
+.reasons-box > div:last-child {
+    padding-left: 20px;
+}
+.footer-form {
+    margin-right: 0px;
+}
+}
+@media screen and (max-width: 720px) {
     .header{
-        background: red;
+        flex-direction: column;
+        min-height: 117px;
+        justify-content: space-around;
+        padding: 10px;
     }
-    nav a{
-        color: blue;
-    }
+    .top-info-wrap h1 {
+    font: 50px "BebasNeue";
+}
+}
+@media screen and (max-width: 650px) {
+    .account p {
+    font: 600 16px "Arial";
+    letter-spacing: -0.5px;
+}
+.account {
+    width:45%;
+    padding: 0px 0px 0px 10px;
+}
+.account-wrap > form {
+    padding: 0px 10px 0px 55px;
+    width: 55%;
+}
+.figure-wrap{
+    flex-direction: column;
+    align-items: center;
+}
+figure > div{   
+    max-width: 278px;
+}
+figure {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reasons-box {
+    flex-direction: column;
+    align-items: center;
+}
+.reasons-box > div, .reasons-box > div:last-child {
+    width: 100%;
+}
+.reasons-box > div:first-child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.reasons-box > div:last-child {
+    padding-left: 0px;
+}
+.reasons blockquote {
+    padding: 20px 0px 0px;
+    font: 26px "BebasNeue";
+}
+.reasons-box form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.started h1 ~ p {
+    font: 16px "Arial";
+}
+.reasons h1, .started h1 {
+    font: 40px/40px "BebasNeue";
+}
+table .logo {
+    font: 22px "MyriadPro";
+}
+.footer {
+    flex-direction: column;
+}
+.footer-form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer-form form {
+    justify-content: space-between;
+}
+.footer-form form > div:first-child {
+    margin-right: 0px;
+}
+.footer-form form > div,.footer-form form > div:last-child {
+    width: 49%;
+}
+.contacts {
+    width: 100%;
+}
+.footer input, .footer textarea {
+    max-width: 350px;
+}
+}
+@media screen and (max-width: 530px) {
+    .top-info-wrap h1 {
+    font: 40px "BebasNeue";
+}
+.account-wrap{
+    margin: 20px 0;
+    flex-direction: column;
+}
+.account, .account-wrap > form{
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+.account span {
+    padding: 0 10px;
+}
+.account-wrap > form::after {
+    display: none;
+}
+table .logo {
+    font: 16px "MyriadPro";
+}
+td, td:last-child, td:first-child {
+    padding: 5px;
+}
+tr:last-child .price, .price{
+    font: 20px/20px "BebasNeue";
+    padding-right: 5px;
+}
+table .btn-form {
+    padding: 0px 3px;
+}
+.figure-wrap{
+    margin-top: -110px;
+}
+}
+@media screen and (max-width: 380px) {
+    table .logo {
+    font: 14px "MyriadPro";
+}
+tr:last-child .price, .price{
+    font: 14px/14px "BebasNeue";
+}
+td ul li.bold, td ul li {
+    font: 600 11px "Arial";
+}
+.footer-form form, .contacts {
+    flex-direction: column;
+}
+.map-wrap{
+    margin-top: 20px;
+}
+.footer-form form > div,.footer-form form > div:last-child {
+    width: 100%;
+}
 }

@@ -87,7 +87,7 @@
                     <div>
                         <article>
                             <h3>what</h3>
-                            <p>HubKick is a free online tool that by simply adding an @hubkick.com email address that you make up, gets you acting on what’s important.</p>
+                            <p>HubKick is a free online tool that by simply adding an @hubkick.com email address that you make up, gets you acting on what's important.</p>
                         </article>
                         <article>
                             <h3>who</h3>
@@ -163,7 +163,7 @@
                             </td>
                             <td>
                                 <div>
-                                    <span class="price"><strong>$ 19.00</strong><small>/mo</small></span>                                
+                                    <span class="price"><strong>$19.00</strong><small>/mo</small></span>                                
                                     <button><span class="btn btn-form">Get it</span></button>  
                                 </div>                                
                             </td>
