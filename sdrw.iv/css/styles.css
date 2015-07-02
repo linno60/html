@@ -2,6 +2,10 @@
     font-family: "BebasNeue";
     src: url(/fonts/bebas/BebasNeueBold.otf);
 }
+@font-face {
+    font-family: "Epidemia";
+    src: url(/fonts/EPIDEMIA.otf);
+}
 a{
     text-decoration: none;
 }
@@ -64,10 +68,56 @@ border: 1px solid #cdcbcb;
 background-color: #fff;
 box-shadow: 0 0 5px rgba(0,0,0,.14);
 }
-.content{
+.content-wrap{
     max-width: 960px;
 min-height: 400px;
 margin: auto;
 margin-bottom: 35px;
 background-color: #fff;
+display: flex;
+justify-content: space-between;
+padding: 13px 13px 30px 18px;
+}
+.content{
+    width: 67%;
+}
+.content article{
+    background: url("/images/border.png")repeat-x center bottom;
+}
+.content article h2{
+    color: #0481af;
+    font: 36px "Epidemia";
+    margin-bottom: 20px;
+}
+.content article p{
+    color: #888;
+    font: 14px "Arial";
+    padding-bottom: 25px;
+}
+.sponsors-wrap{
+    max-width: 960px;
+margin: auto;
+}
+.sponsors-wrap h1{
+    color: #0481af;
+    font: 36px "Epidemia";
+}
+footer{
+background-image: linear-gradient(to top, #221205, #4d2b11); 
+}
+.footer{
+    max-width: 960px;
+    display: flex;
+margin: auto;
+justify-content: space-between;
+color: #fff;
+font: 12px "Arial";
+text-transform: uppercase;
+padding: 20px 0 50px 0;
+}
+.footer ul li{
+    line-height: 30px;
+}
+.footer a{
+    color: #fff;
 }
