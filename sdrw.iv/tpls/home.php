@@ -41,9 +41,75 @@
                     </div>
                 <aside>
                     <iframe src="//www.youtube.com/embed/VIPdDb1Z_ck" frameborder="0" allowfullscreen></iframe>
+                    <img src="images/banner-side.png">
+                    <div>
+                        <h1>dine out <span>free</span></h1>
+                        <h2>every weekend for a year!</h2>
+                        <p><span>enter to win 52 </span>gift certificates from the most notable restaurants in San Diego and sample their delicious fare!</p>
+                        <a href="#" class="btn">Click to enter</a>
+                    </div>
                 </aside>
             </div>
         </header>
+        <section class="social">
+            <div class="facebook">
+                <div class="hdr">
+                    <h1><img src="images/facebook.png">get social</h1>
+                    <a href="#">like</a>
+                </div>
+            </div>
+            <div class="twitter">
+                <div class="hdr">
+                    <h1><img src="images/twitter.png">sdrw on twitter</h1>
+                    <span>Hashtag<a href="#">#sdrw</a></span>
+                </div>
+                <ul>
+                    <li>
+                        <img src="images/tw-icon.png">
+                        <div>
+                            <div class="hdr">
+                                <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
+                                <time>24th Jan</time>
+                            </div>
+                            <p>Make sure you sign up for our Newsletter for a chance to dine out every weekend for an entire year!!</p>
+                            <a href="#">sandiegorestaurantweek.com/contest</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/tw-icon.png">
+                        <div>
+                            <div class="hdr">
+                                <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
+                                <time>19th Jan</time>
+                            </div>
+                            <p>The event has been an enormous success thus far! We <3 San Diego! Only two more days left for week 1! Make your reservations!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/tw-icon.png">
+                        <div>
+                            <div class="hdr">
+                                <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
+                                <time>16th Jan</time>
+                            </div>
+                            <p>Warm up this chilly Monday with a reservation at one of our participating restaurants! </p>
+                            <a href="#">http://www.sandiegorestaurantweek.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/tw-icon.png">
+                        <div>
+                            <div class="hdr">
+                                <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
+                                <time>16th Jan</time>
+                            </div>
+                            <p>Warm up this chilly Monday with a reservation at one of our participating restaurants! </p>
+                            <a href="#">http://www.sandiegorestaurantweek.com</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
         <section class="sponsors-wrap">
             <h1>thanks to our sponsors</h1>
             <img src="images/sp1.png">

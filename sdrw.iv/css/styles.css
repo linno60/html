@@ -11,7 +11,7 @@ a{
 }
 header{
     min-height: 873px;
-    background: url("/images/bg-top.png");
+    background: url("/images/bg-top.png") no-repeat;
     background-size: 100%;
 }
 nav{
@@ -79,7 +79,7 @@ justify-content: space-between;
 padding: 13px 13px 30px 18px;
 }
 .content{
-    width: 67%;
+    width: 62%;
 }
 .content article{
     background: url("/images/border.png")repeat-x center bottom;
@@ -93,6 +93,103 @@ padding: 13px 13px 30px 18px;
     color: #888;
     font: 14px "Arial";
     padding-bottom: 25px;
+}
+.content-wrap aside{
+  width: 36%;  
+}
+.content-wrap aside > iframe{
+  width: 100%; 
+  min-height: 209px;
+}
+.content-wrap aside > img{
+  margin: 23px 0 10px 0; 
+}
+.content-wrap aside > div{
+    background-color: #0381af;
+    padding: 13px;
+}
+.content-wrap aside > div h1{
+    color: #fff;
+    font: 100px "Epidemia"; 
+    letter-spacing: -0.5px;
+}
+.content-wrap aside > div h1 span{
+    color: #f36f21;
+}
+.content-wrap aside > div .btn{
+    width: 100%;
+height: 45px;
+border: 1px solid #123b08;
+border-radius: 5px;
+color: #fff;
+font: 600 18px "Helvetica";
+text-shadow: 1px -1px 0 rgba(0,0,0,.31);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.56);
+background-image: linear-gradient(to top, #a3ab43, #cbd65f);
+}
+.content-wrap aside > div h2{
+    color: #fff;
+    font: 48px "Epidemia";
+}
+.content-wrap aside > div p{
+    color: #fff;
+    font: 14px "Arial";
+}
+.content-wrap aside > div p span{
+    font: 600 14px "Arial";
+    text-transform: uppercase;
+}
+.social{
+    max-width: 960px;
+margin: auto;
+display:flex;
+justify-content: space-between;
+}
+.facebook, .twitter{
+    width: 48%;
+}
+.social .hdr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social .hdr h1{
+    display: flex;
+    align-items: center;
+    color: #0481af;
+    font: 36px "Epidemia";
+}
+.twitter ul li{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
+}
+.twitter ul li:last-child{
+    border-bottom: none;
+}
+.twitter ul li > div{
+    width: 85%;
+    margin-left: 15px;
+}
+.twitter ul li h3{
+    color: #363636;
+    font: 700 15px "Arial";
+}
+.twitter ul li p{
+    color: #898989;
+    font: 12px/14px "Arial";
+}
+.twitter ul li time{
+    color: #898989;
+    font: 12px "Arial";
+}
+.twitter ul li a{
+    color: #0481af;
+    font: 600 12px "Arial";
+}
+.twitter ul li h3 span{
+    font: 600 12px "Arial";
 }
 .sponsors-wrap{
     max-width: 960px;
