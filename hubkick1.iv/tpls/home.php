@@ -12,7 +12,7 @@
     <body>
         <header>
             <div class="header">
-                <a href="#" class='logo'>Hubkick</a>
+                <a href="#" class='logo'>HubKick</a>
                 <nav>
                     <a href="#" class="active">Home</a>
                     <a href="#">Benefits</a>
@@ -139,8 +139,8 @@
                             </td>
                             <td>
                                 <div>
-                                  <span class="price">free</span>
-                                <button><span class="btn btn-form">Get it</span></button>  
+                                    <span class="price">free</span>
+                                    <button><span class="btn btn-form">Get it</span></button>  
                                 </div>
                             </td>
                         </tr> 
@@ -203,9 +203,8 @@
                         <span>Email: info@teamhubkick.com </span>
                     </div>
                     <div class="map-wrap">
-<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d171337.03543942622!2d35.1753535!3d47.856229!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1435165406163" frameborder="0" style="border:0" allowfullscreen></iframe>                   
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d171337.03543942622!2d35.1753535!3d47.856229!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1435165406163" frameborder="0" style="border:0" allowfullscreen></iframe>                   
                     </div>
-                    
                 </div>
             </div>
             <div class="footer-bottom">
@@ -221,7 +220,6 @@
                     <a href="#" class='logo'>Hubkick</a><br>
                     <span>&copy;2011 HubKick, Inc All rights reserved.</span>
                 </div>
-
             </div>
         </footer>
     </body>
