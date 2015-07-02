@@ -29,7 +29,7 @@
                         <p><span class="hidden-desktop">Welcome visitor you can </span><a href="#" class="login">login</a> or <a href="#">create an account</a>.</p>                        
                         <select id="currency" class="select-top">
                             <option value="Euro">Euro</option>
-                            <option value="Pound St.">Pound St.</option>
+                            <option value="Pound St.">Pound St</option>
                         </select>
                         <select id="language" class="select-top">
                             <option value="Italian" data-icon="icon-flag-it">Italian</option>
