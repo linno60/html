@@ -35,7 +35,7 @@
                 <div class="content">
                     <article>
                         <h2>what to expect</h2>
-                    <p>Experience cuisine that delights your palate and defines the art of dining in San Diego. Held twice annually, this beloved culinary tradition features discounted prix fixe menus from more than 180 of San Diego’s best restaurants in 12 unique regions throughout San Diego County.</p>
+                    <p>Experience cuisine that delights your palate and defines the art of dining in San Diego. Held twice annually, this beloved culinary tradition features discounted prix fixe menus from more than 180 of San Diegoâ€™s best restaurants inÂ 12 unique regions throughout San Diego County.</p>
                     <p>No tickets or passes are required. Food lovers may simply dine out at as many participating restaurants as they like during San Diego Restaurant Week.</p>                
                     </article>
                     </div>
@@ -150,7 +150,7 @@
                     <li><a href="#">contact</a></li>
                     <li><a href="#">contest</a></li>
                 </ul>
-                <span>©2012 San Diego restaurant week, all rights reserved</span>
+                <span>Â©2012 San Diego restaurant week, all rights reserved</span>
             </div>
         </footer>
     </body>
