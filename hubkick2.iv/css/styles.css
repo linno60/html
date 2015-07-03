@@ -44,7 +44,8 @@ header{
     padding-left:10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;  
+    margin-bottom: 20px;
 }
 nav{
     min-height: 54px;
@@ -255,8 +256,11 @@ nav a:hover{
 .article-wrap {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     border-bottom: 1px solid rgba(0,0,0,.25);    
+}
+h2 + .article-wrap {
+    align-items: center;  
 }
 .article-wrap:nth-child(2n) {
     flex-direction: row-reverse;
