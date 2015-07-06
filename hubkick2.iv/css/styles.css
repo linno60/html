@@ -55,14 +55,15 @@ nav{
     background-color: #fefefe;
     display: flex;
     flex-wrap: wrap;
+    padding: 0 5px;
     align-items: center;
     justify-content: center;
 }
 nav a{
     color: #4f3d2d;
     font: 15px "Open Sans";    
-    min-width: 68px;
-    margin: 2px;
+    min-width: 61px;
+    margin: 5px;
     border-radius: 5px;
     display: inline-flex;
     justify-content: center;
@@ -72,9 +73,9 @@ nav a{
     height: 32px;
     border: 1px solid transparent;
 }
-nav a:hover{
+nav a:hover, nav a.active{
     color: #fff;
-    font: 600 16px "Open Sans"; 
+    font: 600 15px "Open Sans"; 
     border: 1px solid #61383e;
     text-shadow: 1px -1px 0 rgba(160,23,85,.75);
     background: linear-gradient(to top, #d64888, #f06ea9);

@@ -20,7 +20,7 @@
                         <a href="#pricing">Pricing</a>
                         <a href="#footer">Contact</a>
                         <a href="#">Sign up</a>
-                        <a href="#">Log in</a>
+                        <a href="#" class="active">Log in</a>
                     </nav>
                 </div>
                 <div class='header-bottom'>

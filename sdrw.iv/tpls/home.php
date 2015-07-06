@@ -60,8 +60,7 @@
         <header>
             <nav>
                 <div class="nav-wrap"> 
-                    <img class="banner-main" src="images/banner1.png">
-                    
+                 <img class="banner-main" src="images/banner1.png">                       
                     <div class="nav">
                         <a href="#">restaurants</a>
                         <a href="#">california restaurant association</a>
@@ -71,18 +70,20 @@
                         <a href="#">charity</a>
                         <a href="#">contact</a>
                         <a href="#">contest</a>
-                    </div>
+                    </div>                   
                 </div>
             </nav>
             <div class="banners"> 
                 <div class="banner-add"></div>
             </div>
-            <div class="map-wrap">
+            <div class="map-padding">
+              <div class="map-wrap">
                 <div class="map">
                     <h1>6 days <br>over 180 restaurants</h1>
                     <h2>where to start?</h2>
                     <p>Choose a region and start exploring...this is just placeholer copy lorem ipsum dolor sit amet consectecur a non lorem! </p>
                 </div>
+            </div>  
             </div>
             <div class="content-wrap">
                 <div class="content">
@@ -222,7 +223,7 @@
                         <div>
                             <div class="hdr">
                                 <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
-                                <time>24th Jan</time>
+                                <time>24th&nbsp;Jan</time>
                             </div>
                             <p>Make sure you sign up for our Newsletter for a chance to dine out every weekend for an entire year!!</p>
                             <a href="#">sandiegorestaurantweek.com/contest</a>
@@ -233,7 +234,7 @@
                         <div>
                             <div class="hdr">
                                 <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
-                                <time>19th Jan</time>
+                                <time>19th&nbsp;Jan</time>
                             </div>
                             <p>The event has been an enormous success thus far! We <3 San Diego! Only two more days left for week 1! Make your reservations!</p>
                         </div>
@@ -243,7 +244,7 @@
                         <div>
                             <div class="hdr">
                                 <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
-                                <time>16th Jan</time>
+                                <time>16th&nbsp;Jan</time>
                             </div>
                             <p>Warm up this chilly Monday with a reservation at one of our participating restaurants! </p>
                             <a href="#">http://www.sandiegorestaurantweek.com</a>
@@ -254,7 +255,7 @@
                         <div>
                             <div class="hdr">
                                 <h3>SD Restaurant Week <span>@SDRestaurantWk</span></h3>
-                                <time>16th Jan</time>
+                                <time>16th&nbsp;Jan</time>
                             </div>
                             <p>Warm up this chilly Monday with a reservation at one of our participating restaurants! </p>
                             <a href="#">http://www.sandiegorestaurantweek.com</a>

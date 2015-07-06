@@ -10,7 +10,6 @@ a{
     text-decoration: none;
 }
 .search-bar-wrap{
-    display: none;
     position: fixed;
     top: 670px;
     width: 100%;    
@@ -23,8 +22,9 @@ a{
     text-shadow: 1px -1px 0 rgba(0,0,0,.31);
 }
 .search-bar{
-    height: 78px;
-    max-width: 960px;
+    min-height: 78px;
+    max-width: 980px;
+    padding: 0 10px;
     margin:auto;
     display: flex;
     justify-content: space-between;
@@ -120,6 +120,7 @@ nav{
     color: #fff;
     font: 16px "BebasNeue";
     margin: 10px;
+    letter-spacing: 0.3px;
 }
 .banners{
     max-width:  980px; 
@@ -133,7 +134,7 @@ nav{
     width: 100%;
     max-width: 726px;
     min-height: 91px;
-    margin-left: 235px;
+    margin-left: 230px;
     border: 1px solid rgba(0,0,0,.19);
     background-color: #fff;
 }
@@ -144,9 +145,6 @@ nav{
     top: 0;
     left: 10px;
     position: absolute;
-}
-.map > *{
-    max-width: 36%;
 }
   .map h1 {
   font: 60px/45px "Epidemia";
@@ -159,15 +157,20 @@ nav{
   margin-bottom: 20px;
   -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
 }
-.map p {
+.map > *{
+    max-width: 38%;
+}
+.map > p {
   color: #fff;
   font: 14px/22px "Arial";
-  padding-right: 20px;
+  max-width: 33.5%;
+}
+.map-padding{
+    max-width: 980px;    
+    margin: auto;
+    padding: 0 10px;
 }
 .map-wrap{
-    max-width: 960px;
-    height: 400px;
-    margin: auto;
     padding: 10px;
     margin-bottom: 12px;
     border: 1px solid #cdcbcb;
@@ -175,8 +178,9 @@ nav{
     box-shadow: 0 0 5px rgba(0,0,0,.14);
 }
 .map{
-    padding: 25px;
+    padding: 70px 25px 75px 25px;
     background: url("/images/map.png");
+    background-size: 100% 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -201,7 +205,7 @@ nav{
 .content article h2{
     color: #0481af;
     font: 36px "Epidemia";
-    margin-bottom: 25px;
+    margin: 5px 0 20px 0;
 }
 .content article p{
     color: #888;
@@ -214,6 +218,9 @@ nav{
     justify-content: space-between;
     padding: 25px 0 35px 0;
     background: url("/images/border.png")repeat-x center bottom;
+}
+.menu:first-child{
+    margin-right: 20px;
 }
 .menu .hdr h3, .gallery .hdr h3{
     color: #0481af;
@@ -231,6 +238,11 @@ nav{
 }
 .gallery .hdr{
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 550px;
+}
+.menu .hdr a{
+    margin-left: 10px;
 }
 .menu .hdr a, .gallery .hdr a {
     display: inline-flex;
@@ -246,14 +258,20 @@ text-decoration: underline;
 }
 .gallery{
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .gallery .hdr + div{
     background: url("/images/slide.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
 min-height: 369px;
+max-width: 548px;
 border: 1px solid #dad6d6;
 border-radius: 1px;
 display: flex;
+width: 100%;
 justify-content: space-between;
 align-items: center;
 padding: 10px;
@@ -262,6 +280,7 @@ padding: 10px;
     width: 37px;
 height: 38px;
 border-radius: 4px;
+cursor: pointer;
 }
 .gallery .btn:first-child{
     background: #000 url("/images/left.png")no-repeat center center;
@@ -287,7 +306,7 @@ border-radius: 4px;
 }
 .content-wrap aside > div h1{
     color: #fff;
-    font: 100px "Epidemia"; 
+    font: 100px/70px "Epidemia";     
     letter-spacing: -0.5px;
 }
 .content-wrap aside > div h1 span{
@@ -307,20 +326,22 @@ border-radius: 4px;
 .content-wrap aside > div h2{
     color: #fff;
     font: 48px "Epidemia";
+    margin-bottom: 10px;
 }
 .content-wrap aside > div p{
     color: #fff;
-    font: 14px "Arial";
+    font: 14px/20px "Arial";
+    margin-bottom: 10px;
 }
 .content-wrap aside > div p span{
     font: 600 14px "Arial";
     text-transform: uppercase;
 }
 .social{
-    max-width: 920px;
+    max-width: 940px;
     margin: auto;
     display:flex;
-    padding: 25px 0px 40px 0px;
+    padding: 25px 10px 40px 10px;
     justify-content: space-between;
     background: url("/images/border.png")repeat-x center top;
 }
@@ -403,6 +424,7 @@ border-radius: 4px;
 }
 .facebook ul li img{
     margin-right: 10px;
+    min-width: 50px;
 }
 .facebook ul li p{
     color: #353535;
@@ -434,9 +456,17 @@ border-radius: 4px;
     min-height: 32px;
     margin-bottom: 5px;
 }
+.more span i{
+    width: 9px;
+    height: 6px;
+    display: inline-flex;
+    margin-left: 3px;
+    background: url("/images/more.png");
+}
 .facebook-footer i{
     width: 14px;
     height: 14px;
+    margin-right: 3px;
     background: url("/images/plugin.png");
 }
 .facebook-footer{
@@ -458,6 +488,9 @@ border-radius: 4px;
     text-decoration: underline;
     text-transform: uppercase;
 }
+.twitter ul li img{
+    min-width: 48px;
+}
 .twitter ul li{   
     display: flex;
     align-items: flex-start;
@@ -475,9 +508,12 @@ border-radius: 4px;
     color: #363636;
     font: 700 15px "Arial";
 }
+.twitter ul li .hdr{
+    margin-bottom: 5px;
+}
 .twitter ul li p{
     color: #898989;
-    font: 12px/14px "Arial";
+    font: 12px/16px "Arial";
 }
 .twitter ul li time{
     color: #898989;
@@ -521,7 +557,7 @@ footer{
     color: #fff;
     font: 12px "Arial";
     text-transform: uppercase;
-    padding: 25px 10px 50px 10px;
+    padding: 25px 10px 80px 10px;
 }
 .footer ul{
     margin-right: 30px;
@@ -535,24 +571,184 @@ footer{
 .footer span{
     text-align: right;
 }
-
-@media screen and (max-width: 650px) {
-    .nav {
+@media screen and (max-width: 930px) {
+    .content-wrap aside > div h1 {
+    font: 90px/70px "Epidemia";
+}
+.content-wrap aside > div h2 {
+    font: 40px "Epidemia";
+}
+}
+@media screen and (max-width: 905px) {
+.map > *{
+    max-width: 40%;
+}
+.map > p {
+  font: 13px/20px "Arial";
+  max-width: 35%;
+}
+  .map h1 {
+  font: 50px/45px "Epidemia";
+}
+.map h2 {
+  font: 60px/57px "Epidemia";
+}
+.select-wrap input {
+    padding: 0px 5px;
+}
+.select select {
+    padding: 0px;
+}
+}
+@media screen and (max-width: 840px) {
+    .content-wrap aside > div h1 {
+    font: 80px/70px "Epidemia";
+}
+.content-wrap aside > div h2 {
+    font: 30px "Epidemia";
+}
+.select select, .select-wrap input {
+    font: 600 10px "Arial";
+}
+.select-wrap label {
+    font: 600 12px "Arial";
+}
+.search-bar h1 {
+    font: 50px "Epidemia";
+}
+.btn-search {
+    font: 600 12px "Helvetica";
+    padding: 0px 10px 0px 10px;
+}
+.search-bar-wrap{
+    top: 470px;
+}
+}
+@media screen and (max-width: 800px) {
+.map > p {
+  font: 12px/18px "Arial";
+}
+  .map h1 {
+  font: 40px/35px "Epidemia";
+}
+.map h2 {
+  font: 50px/57px "Epidemia";
+  margin-bottom: 10px;
+}
+.map {
+    padding: 35px 15px 55px 15px;
+}
+    .content-wrap aside > div h1 {
+    font: 70px/70px "Epidemia";
+}
+}
+@media screen and (max-width: 740px) {
+.map > p {
+  font: 11px/16px "Arial";
+}
+  .map h1 {
+  font: 30px/30px "Epidemia";
+}
+.map h2 {
+  font: 40px/45px "Epidemia";
+}
+.social{
+    flex-direction: column;
+}
+.facebook, .twitter {
+    width: 100%;
+}
+.facebook{
+    margin-bottom: 20px;
+}
+.content-wrap{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.content-wrap aside {
+    width: 100%;
+    max-width: 350px;
+}
+.search-bar{
+    flex-direction: column;
+    padding: 10px;
+}
+.search-bar form {
     margin-left: 0px;
 }
-.banner-main {
-    top: 80px;
-    min-height: 110px;
 }
-.banners {
-    margin-bottom: 57px;
+@media screen and (max-width: 700px) {
+      .content-wrap aside > div h1 {
+    font: 60px/60px "Epidemia";
+}
+.select select, .select-wrap input {
+    letter-spacing: -1px;
+}
+.btn-search {
+    font: 600 10px "Helvetica";
+    padding: 0px 5px;
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 567px) {
     .banner-add{
-        margin-top: 150px;
         margin-left: 0px;
     }
+    .map {
+    padding: 25px 15px 25px 15px;
+}
+.nav-wrap{
+    flex-direction: column;
+    justify-content: row-reverse;
+}
+.nav{
+    margin-left: 0px;
+}
+.banner-main{
+    position: static;
+}
+.search-bar form{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.btn-search{
+    margin: 3px;
+}
+.select-wrap {
+    min-width: 102px;
+    margin: 3px;
+}
+}
+@media screen and (max-width: 480px) {
+    .map {
+    padding: 10px;
+}
+.map > p {
+  font: 10px/14px "Arial";
+}
+  .map h1 {
+  font: 20px/20px "Epidemia";
+}
+.map h2 {
+  font: 25px/25px "Epidemia";
+  margin-bottom: 5px;
+}
+.menu .hdr h3{
+    font: 30px "Epidemia";
+}
+.menu .hdr + span {
+    font: 30px/30px "Epidemia";
+}
+.menu .hdr a {
+    font: 10px "Arial";
+}
+.gallery .hdr + div {
+    min-height: 300px;
+}
 }
 @media screen and (max-width: 380px) {
     .footer{
@@ -561,5 +757,11 @@ footer{
     .footer span{
     text-align: center;
     margin-top: 20px;
+}
+.social .hdr h1 {
+    font: 30px "Epidemia";
+}
+.gallery .hdr + div {
+    min-height: 250px;
 }
 }
