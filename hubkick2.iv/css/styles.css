@@ -88,6 +88,13 @@ nav a:hover, nav a.active{
 .header-bottom > div{
     width: 50%;
 }
+.organizer-wrap{
+    padding: 7px 7px 0 7px;
+    min-height: 347px;
+    border-radius: 14px 14px 0 0;
+    background-color: #33200d;
+    box-shadow: 0 -6px 5px rgba(0,0,0,.44);
+}
 .organizer{  
     position: relative;
     background-color: #fff;
@@ -141,13 +148,6 @@ nav a:hover, nav a.active{
     left: 0px;
     bottom: -1px;
     background: url("/images/orgshadow.png");
-}
-.organizer-wrap{
-    padding: 7px 7px 0 7px;
-    min-height: 347px;
-    border-radius: 14px 14px 0 0;
-    background-color: #33200d;
-    box-shadow: 0 -6px 5px rgba(0,0,0,.44);
 }
 .organizer > *{
     width: 50%;    
