@@ -11,7 +11,7 @@ a{
 }
 .search-bar-wrap{
     position: fixed;
-    top: 670px;
+    bottom: 0;
     width: 100%;    
     box-shadow: 3px -4px 5px rgba(0,0,0,.15), inset 0px 2px 0 rgba(181,106,47,.75);
     background-image: linear-gradient(to top, #221205, #65340d);

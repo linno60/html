@@ -143,9 +143,10 @@
                     </div>
                 </div>
             </div>
+            
         </section>
-        <a name='pricing'></a>
-        <section class='pricing'>    
+        <section class='pricing'>
+            <a name='pricing'></a>
             <article>
                 <h2>Get started. Free.</h2>
                 <p>HubKick is always free for you and whoever you work with.  Want some more group features? Try our premium plan and ditch your complicated one.</p>

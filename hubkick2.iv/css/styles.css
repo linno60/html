@@ -6,6 +6,10 @@
     font-family: "MyriadPro";
     src: url(/fonts/MyriadPro/MyriadProBold/MyriadProBold.ttf);
 }
+a[name="pricing"], a[name="footer"]{
+    position: absolute;
+    top: 0px;
+}
 a{
     text-decoration: none;
 }
@@ -185,6 +189,7 @@ nav a:hover, nav a.active{
     height: 42px;
     border: 1px solid #aa7818;
     border-radius: 6px;
+    text-align: center;
     background-image: linear-gradient(to top, #ff8300, #ffc100);
 }
 .organizer form .btn-form{
@@ -368,8 +373,8 @@ h2 + .article-wrap {
 .benefits-footer-item > div img{
     margin: 3px;
 }
-
 .pricing {
+    position: relative;
     max-width: 950px;
     padding: 155px 10px 193px 10px;
     margin: auto;
@@ -447,6 +452,7 @@ tr:last-child .price{
     font: 300 30px "Open Sans";
 }
 footer{
+    position: relative;
     background-image: url("/images/bg3.png");
 }
 .footer .btn-form{

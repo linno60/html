@@ -31,13 +31,13 @@
 .select select::-ms-expand{display:none;}
 
 /* --- BTN */
-button {
+/*button {
     vertical-align: middle; 
     background: none; 
     outline: none;
     padding: 0;
     border:none;
-}
+}*/
 button::-moz-focus-inner {
     border: none;
     padding:0;
