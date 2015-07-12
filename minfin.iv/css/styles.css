@@ -4,7 +4,11 @@
 }
 @font-face {
     font-family: "Open Sans";
-    src: url(/fonts/open-sans/OpenSans-Light.ttf);
+    src: url(/fonts/open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(/fonts/open-sans/OpenSans-Bold.ttf);
 }
 i:before{      
     font-family: "mf-icons";
@@ -23,7 +27,7 @@ body{
     font-family: "Open Sans"
 }
 .bold{
-    font-weight: bold;
+    font-family: "Open Sans Bold"
 }
 a{
     text-decoration: none;
@@ -419,9 +423,7 @@ time{
     color: #4078cd;
     margin-bottom: 11px;
 }
-.news ul li a.bold{
-    font: 600 12px "Open Sans";
-}
+
 .news ul.all-news {
   margin-bottom: 3px;
 }
@@ -467,7 +469,6 @@ article h5{
     margin: 3px 0 0 0;
 }
 article h2 a{
-    font-family: "Open Sans";
     font: 18px "Open Sans";
     font-size: 18px;
     font-weight: 400;
@@ -633,7 +634,7 @@ footer{
     padding: 30px 10px 80px 10px;
 }
 footer h6{
-    font-size: 11px;
+    font: 11px "Open Sans Bold";
     color: #222;
     margin: 10px 0 3px 0;
 }
@@ -642,9 +643,6 @@ footer ul li a{
 }
 footer ul li a{
     line-height:20px;
-}
-footer ul li a.bold {
-    font:600 11px "Open Sans";
 }
 .form-footer{
     padding: 0px 20px 12px 20px;
