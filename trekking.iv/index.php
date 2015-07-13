@@ -6,7 +6,6 @@
     switch ($page) 
     {
         case 'index': $layout = 'home'; break;
-        case 'home2': $layout = 'home2'; break;
     }
 
     require_tpl($layout);

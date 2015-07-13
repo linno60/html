@@ -1,0 +1,338 @@
+a{
+    text-decoration: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.icon-shoe{
+    width: 56px;
+    height: 56px;
+    background: url('/images/shoe.png'); 
+}
+.icon-down{
+    width: 12px;
+    height: 12px;
+    background: url('/images/down.png'); 
+}
+.icon-cart{
+    width: 24px;
+    height: 24px;
+    background: url('/images/shopping-cart.png'); 
+}
+.icon-left{
+    width: 12px;
+    height: 12px;
+    background: url('/images/left.png'); 
+}
+.icon-right{
+    width: 12px;
+    height: 12px;
+    background: url('/images/right.png'); 
+}
+.icon-check{
+    width: 36px;
+    height: 36px;
+    background: url('/images/check.png'); 
+}
+.icon-checkbox{
+    width: 16px;
+    height: 16px;
+    background: url('/images/checkbox.png'); 
+}
+.icon-twitter{
+    width: 32px;
+    height: 32px;
+    background: url('/images/twitter.png'); 
+}
+header{
+    padding: 30px 10px 45px 10px;
+    height: 790px;
+    background: url('/images/bg.png')no-repeat; 
+    background-size: cover;
+}
+nav{    
+    max-width: 1170px;
+    width: 100%;
+        flex-wrap: wrap;
+}
+nav div a{
+    font: 700 16px "Quicksand";
+    color: #fff;
+    margin-left: 50px;
+}
+header h1{
+    text-align: center;
+    font: 700 54px "Quicksand";
+    color: #fff;
+}
+header p{
+    max-width: 600px;
+    text-align: center;
+    font: 400 18px "Quicksand";
+    color: #fff;
+}
+.filter-wrap{
+    background-color: #f5f5f7;    
+}
+.filter{
+    min-height: 143px;
+    margin: auto;
+    max-width: 1110px;
+    padding: 10px;
+}
+.checks label span{
+    width: 23px;
+    height: 22px;
+    border: 2px solid #cbcbcb;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.checks label{
+    font: 700 16px "Quicksand";
+    color: #333;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.checks label span .icon-checkbox{
+    display: none;
+}
+.checks input:checked + label span .icon-checkbox{
+    display: inline-block;
+}
+.checks input:checked + label span{
+    border: 2px solid #a99b77;
+}
+a.btn-products{
+    text-transform: uppercase;
+    height: 52px;
+    min-width: 204px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #a99b77;
+    font: 700 12px "Quicksand";
+}
+.products{
+    margin: auto;
+    max-width: 1110px;
+    padding:40px 10px 90px 10px;
+}
+.hdr{
+    min-height: 112px;
+}
+.hdr.women{
+    flex-direction: row-reverse;
+}
+.hdr.women h2{
+    padding-left: 52px;
+    padding-right: 0;
+}
+.hdr h2{
+    color: #414141;
+    text-transform: uppercase;
+    font: 700 18px "Quicksand";
+    padding-right: 52px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #cbcbcb;
+}
+
+.pagination{
+    margin-bottom: 15px;
+}
+.pagination span{
+    color: #a99b77;
+    font: 700 14px "Quicksand";
+}
+.grid{
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.product{ 
+    flex: 1 1 0%;
+    min-width: 320px;
+    max-width: 400px;
+    min-height: 366px;
+    padding: 24px;
+    border: 6px solid #f5f5f7;
+    border-radius: 3px;
+    background-color: #f5f5f7;
+    margin: 0 10px 10px 10px;
+}
+.product:hover{
+    border: 6px solid #a99b77; 
+}
+.product > div{
+    width: 100%;
+}
+.color span{
+    display: inline-block;
+    width:22px;
+    height: 21px;
+    border-radius: 50%;    
+}
+.blue{
+    background-color: #155db9;
+}
+.yellow{
+    background-color: #ffe537;
+}
+.black{
+    background-color: #535135;
+}
+.pink{
+    background-color: #d3a7ab;
+}
+.white{
+    background-color: #fff;
+}
+.size{
+    color: #414141;
+    text-transform: uppercase;
+    font: 700 16px "Quicksand";
+}
+.price{
+    color: #414141;
+    font: 700 20px "Quicksand";
+}
+.name{
+    color: #a99b77;
+    text-transform: uppercase;
+    font: 700 18px "Quicksand";
+}
+.size .icon-down{
+    margin-left: 5px;
+}
+.about-wrap{
+    min-height: 402px;
+    background-color: #a99b77;
+    padding: 10px;
+}
+.about{
+    border: 3px solid #918363;
+    max-width: 712px;
+    min-height: 252px;
+    position: relative;
+}
+.about p{
+    text-align: center;
+    max-width: 67%;
+    color: #414141;
+    font: 700 16px/22px "Quicksand";
+}
+.about h3{
+    background-color: #a99b77;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    color: #837658;
+    padding: 0 10px;
+    font: 700 20px "Quicksand";
+}
+.twitter-wrap{
+    background-color: #535153;
+}
+.twitter{
+    min-height:72px;
+    max-width: 1170px;
+    margin: auto;
+    padding: 10px;
+}
+.twitter p{
+    font: 700 16px "Quicksand";
+    color: #fff;
+    padding-left: 20px;
+}
+footer{
+    background-color: #414141;
+}
+.footer > .description{
+    max-width: 27%;
+}
+.footer{
+    min-height: 352px;
+    max-width: 1170px;
+    padding: 10px;
+    margin: auto;
+}
+.footer h4{
+    text-transform: uppercase;
+    font: 700 20px "Quicksand";
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer p{
+    text-transform: uppercase;
+    font: 400 10px/20px "Quicksand";
+    color: #fff;
+}
+.footer a{
+    text-transform: uppercase;
+    font: 700 13px "Quicksand";
+    color: #fff;    
+}
+.footer a span{
+    color: #a99b77;
+    margin: 0 3px;
+}
+.footer span{
+    font: 700 18px "Quicksand";
+    color: #fff;
+    margin-top: 10px;
+}
+@media (max-width: 1119px) {
+    .grid{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 700px) {
+    .filter{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .checks{
+        margin-bottom: 20px;
+    }
+    .checks label{
+        margin: 0 5px;
+    }
+    .checks label span {
+    margin-right: 5px;
+}
+.footer{
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+.footer > .description {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.footer-nav{
+    align-items: flex-start;
+}
+}
+@media (max-width: 400px) {
+    .nav {
+   flex-direction: column;
+    }
+    .nav div a {
+    margin: 20px;
+}
+.nav div {
+    justify-content: space-between;
+}
+header h1 {
+    font: 700 44px "Quicksand";
+}
+.product {
+    min-width: 300px;
+}
+}
