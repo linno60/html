@@ -1,0 +1,206 @@
+a{
+    text-decoration: none;
+}
+.icon-logo{
+    width: 67px;
+    height: 70px;
+    background: url('/images/icon1.png')no-repeat;
+    margin-bottom: 90px
+}
+.icon-logo-alt{
+    width: 35px;
+    height: 37px;
+    background: url('/images/icon5.png')no-repeat;
+    margin-right: 10px;
+}
+.icon-design{
+    width: 80px;
+    height: 83px;
+    background: url('/images/icon2.png')no-repeat;
+}
+.icon-develope{
+    width: 79px;
+    height: 76px;
+    background: url('/images/icon3.png')no-repeat;
+}
+.icon-product{
+    width: 79px;
+    height: 91px;
+    background: url('/images/icon4.png')no-repeat;
+}
+header{
+    padding: 30px 10px 45px 10px;
+    height: 1072px;
+    background: url('/images/img1.png')no-repeat; 
+    background-size: cover;
+}
+header h1, header p{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+header h1{
+    font: 700 54px "Lato";
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+header p{
+    font: 15px/30px "Lato";
+    max-width: 600px;
+}
+.works{    
+    margin: 0 -14px 70px -14px;
+}
+.works a{
+    margin:0 5px 9px 5px;
+    position: relative;
+}
+.works a span{
+    text-transform: uppercase;
+    font: 700 34px "Lato";
+    left: 44px;
+    bottom: 42px;
+    position: absolute;
+    color: #fff;
+}
+.works a img{
+    width: 100%;
+}
+.about-wrap{
+    min-height: 630px;
+}
+.about{
+    min-height: 312px;
+}
+.services-wrap{
+    min-height: 488px;
+    background: url('/images/img2.png')no-repeat; 
+}
+.direction-wrap{
+    min-height: 1414px;
+}
+.contacts-wrap{
+    min-height: 419px;
+}
+.contacts p, .direction p, .about p, .services p{
+    font: 15px/24px "Lato";
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+.contacts p:last-child, .direction p:last-child, .about p:last-child, .services p:last-child{
+    margin-bottom: 0px;
+}
+.direction h3{
+    font: 700 20px "Lato";
+    text-transform: uppercase;
+    margin: 35px 0;
+}
+.direction i{
+    margin-top: 20px;
+}
+.contacts h2, .direction h2, .about h2, .services h2{
+    position: absolute;
+    background-color: #fff;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    color: #3c3c3c;
+    padding: 0 30px;
+    font: 700 30px "Lato";
+    min-width: 420px;
+}
+.contacts-wrap, .direction-wrap, .about-wrap, .services-wrap{
+    padding: 30px 10px;
+}
+.contacts, .direction, .about, .services{
+    border: 3px solid #3c3c3c;
+    max-width: 902px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+}
+.direction{
+    padding: 120px 50px 90px 50px;
+    min-height: 1180px;
+}
+.contacts{
+    min-height: 285px;
+}
+.services {
+    border: 3px solid #fff;
+    border-top: none;
+    color: #fff;
+    min-height: 250px;
+}
+.services h2{
+    background-color: transparent;
+    color: #fff;
+}
+.services:after, .services:before{
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 26.35%;
+    background-color: #fff;
+}
+.services:before{
+    left: 0;
+    top: 0px;
+}
+.services:after{
+    right: 0;
+    top: 0px;
+}
+a.btn-contact{
+    background-color: #3c3c3c;
+    color: #fff;
+    min-width: 395px;
+    height: 58px;
+    text-transform:uppercase;
+    padding: 5px 10px;
+}
+footer{
+    text-align: center;
+      max-width: 902px; 
+    margin: auto;
+    margin-bottom: 65px;
+}
+@media (max-width: 1000px) {
+    .works a span {
+    font: 700 24px "Lato";
+    left: 20px;
+    bottom: 20px;
+}
+}
+@media (max-width: 600px) {
+    .works a span {
+    font: 700 16px "Lato";
+    left: 15px;
+    bottom: 10px;
+}
+.contacts h2, .direction h2, .about h2, .services h2 {
+    min-width: 200px;
+    font: 700 24px "Lato";
+    top: -14px;
+}
+.direction {
+    padding: 50px;
+}
+a.btn-contact {
+    min-width: 320px;
+}
+}
+@media (max-width: 400px) {
+    .works a span {
+    font: 700 14px "Lato";
+    left: 15px;
+    bottom: 5px;
+}
+a.btn-contact {
+    min-width: 260px;
+}
+}
