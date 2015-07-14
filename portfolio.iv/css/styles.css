@@ -165,42 +165,42 @@ a.btn-contact{
 }
 footer{
     text-align: center;
-      max-width: 902px; 
+    max-width: 902px; 
     margin: auto;
     margin-bottom: 65px;
 }
 @media (max-width: 1000px) {
     .works a span {
-    font: 700 24px "Lato";
-    left: 20px;
-    bottom: 20px;
-}
+        font: 700 24px "Lato";
+        left: 20px;
+        bottom: 20px;
+    }
 }
 @media (max-width: 600px) {
     .works a span {
-    font: 700 16px "Lato";
-    left: 15px;
-    bottom: 10px;
-}
-.contacts h2, .direction h2, .about h2, .services h2 {
-    min-width: 200px;
-    font: 700 24px "Lato";
-    top: -14px;
-}
-.direction {
-    padding: 50px;
-}
-a.btn-contact {
-    min-width: 320px;
-}
+        font: 700 16px "Lato";
+        left: 15px;
+        bottom: 10px;
+    }
+    .contacts h2, .direction h2, .about h2, .services h2 {
+        min-width: 200px;
+        font: 700 24px "Lato";
+        top: -14px;
+    }
+    .direction {
+        padding: 50px;
+    }
+    a.btn-contact {
+        min-width: 320px;
+    }
 }
 @media (max-width: 400px) {
     .works a span {
-    font: 700 14px "Lato";
-    left: 15px;
-    bottom: 5px;
-}
-a.btn-contact {
-    min-width: 260px;
-}
+        font: 700 14px "Lato";
+        left: 15px;
+        bottom: 5px;
+    }
+    a.btn-contact {
+        min-width: 260px;
+    }
 }
