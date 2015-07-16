@@ -1,0 +1,51 @@
+@font-face {
+font-family: 'Bazar';
+src: url('/fonts/Bazar.eot');
+src: url('/fonts/Bazar.eot?#iefix') format('embedded-opentype'),
+     url('/fonts/Bazar.woff') format('woff'),
+     url('/fonts/Bazar.ttf') format('truetype'),
+     url('/fonts/Bazar.svg#bazarmedium') format('svg');
+font-weight: normal;
+font-style: normal;
+
+}
+@font-face {
+    font-family: 'Seaside Resort NF';
+    src: url('/fonts/seasideresortnf.ttf');
+}
+a{
+    text-decoration: none;
+}
+header{
+    min-height: 1827px;
+    background: url('/images/bg1.png')
+}
+.header{
+    max-width: 1940px;
+    padding: 0 10px;
+    margin: auto;
+}
+.header nav a{
+    color: #f8ead8;
+font: 54px 'Bazar';
+text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}
+.about-wrap{
+    min-height: 1605px;
+    background: url('/images/bg2.png')
+}
+.portfolio-wrap{
+    min-height: 1696px;
+    background: url('/images/bg3.png')
+}
+.blog-wrap{
+    min-height: 2104px;
+    background: url('/images/bg4.png')
+}
+footer{
+    min-height: 2104px;
+    background: url('/images/bg5.png')
+}
+h1{
+    font: 224px "Seaside Resort NF";
+}
