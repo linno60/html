@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <div class="tabs tabs-home">
-                    <div class="_nav" data-flex='row-center-center'>
+                    <div class="_nav">
                         <a href="#tab1" class="btn" >All</a>
                         <a href="#tab2" class='btn'>Mobile Apps</a>
                         <a href="#tab3" class='btn active'>Identities</a>
