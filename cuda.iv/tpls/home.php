@@ -178,86 +178,7 @@
                                     <a href='#' class='btn btn-default'>Read More</a>
                                 </div>
                             </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
+                            
                         </div>
                         <div id="tab2" class="grid" data-flex='row--around'>
                             <figure data-flex='row-start'>
@@ -270,26 +191,7 @@
                                     <a href='#' class='btn btn-default'>Read More</a>
                                 </div>
                             </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>                          
+                                                     
                         </div>        
                     </div>
                 </div>
