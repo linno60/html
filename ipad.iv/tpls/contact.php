@@ -47,6 +47,7 @@
                                     <a href="mailto:mail@yourdomainname.com">into@yourdomainname.com</a>
                                 </div>
                             </div>
+                            <span>Phone: +99 54412477, +99 984561142</span>
                             </div>
                             <div class="border"></div>
                         </div>

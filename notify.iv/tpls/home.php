@@ -22,7 +22,7 @@
                         <a href="#" class="btn btn-system"><i class="icon-windows"></i></a>
                     </div>
                 </div>
-                <div data-flex="row-end">
+                <div data-flex="row-end-end">
                     <img src="images/hand.png">
                 </div>
             </section>
@@ -150,14 +150,19 @@
                     <a href="#" class="overlay"></a>
                 </div>
             </div>
-            <div class="social" data-flex="row-center-center">
-                <a href="#" class="btn btn-social"><i class="icon-twitter"></i></a>
-                <a href="#" class="btn btn-social"><i class="icon-facebook"></i></a>
-                <a href="#" class="btn btn-social"><i class="icon-pinterest"></i></a>
-                <a href="#" class="btn btn-social"><i class="icon-google"></i></a>
-                <a href="#" class="btn btn-social"><i class="icon-linkedin"></i></a>
-                <a href="#" class="btn btn-social"><i class="icon-youtube"></i></a>
+            <div class='social-wrap'>
+                <h2>Say Hi & Get in Touch</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipising elit suspendisse.</span>
+                <div class="social" data-flex="row-center-center">
+                    <a href="#" class="btn btn-social"><i class="icon-twitter"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-facebook"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-pinterest"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-google"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-linkedin"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-youtube"></i></a>
+                </div>
             </div>
+
         </section>
         <footer>
             <nav class="footer" data-flex="row-center-center">

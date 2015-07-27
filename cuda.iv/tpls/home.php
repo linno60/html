@@ -27,7 +27,6 @@
                     <h1>Hi there! We are the new kids on the block<br> and we build awesome websites and mobile apps.</h1>
                     <a href='#' class='btn btn-work'>work with us!</a>
                 </div>
-
             </div>
         </header>
         <section class='services-wrap'>
@@ -37,7 +36,7 @@
                     <div class='divider'></div>
                     <p>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
                 </div>
-                <div class='grid' data-flex='row--between'>
+                <div class='grid' data-flex='row--around'>
                     <article data-flex='col-center'>
                         <img src="images/flag.png">
                         <h4>branding</h4>
@@ -68,7 +67,7 @@
                     <div class='divider'></div>
                     <p>We are a small team fo designers and developers, who help brands with big ideas.</p>
                 </div>
-                <div class='grid' data-flex='row--between'>
+                <div class='grid' data-flex='row--around'>
                     <article data-flex='col-center'>
                         <img src="images/anne.jpg">
                         <h4>anne hathaway</h4>
@@ -162,43 +161,202 @@
                 <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
             </div>
             <div class="tabs">
-                    <div class="_nav">
-                        <a href="#tab1" class="btn active" >All</a>
-                        <a href="#tab2" class='btn'>Mobile Apps</a>
+                <div class="_nav" data-flex='row-center-center'>
+                    <a href="#tab1" class="btn active">all</a>
+                    <a href="#tab2" class='btn'>web</a>
+                    <a href="#tab3" class="btn">apps</a>
+                    <a href="#tab4" class='btn'>icons</a>
+                </div>
+                <div class="_content">
+                    <div id="tab1" class="grid" data-flex='row--around'>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/2.png">
+                            <figcaption>
+                                <a href="#">time zone upp ui</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/3.png">
+                            <figcaption>
+                                <a href="#">viro media players ui</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/4.png">
+                            <figcaption>
+                                <a href="#">blog / magazine flat ui kit</a>
+                            </figcaption>
+                        </figure>                            
                     </div>
-                    <div class="_content">
-                        <div id="tab1" class="grid" data-flex='row--between'>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                            
-                        </div>
-                        <div id="tab2" class="grid" data-flex='row--around'>
-                            <figure data-flex='row-start'>
-                                <img src="images/img6.png">
-                                <div>
-                                    <figcaption>
-                                        <h4>iphone apps</h4>
-                                        <span>Lorem Ipsum is simply</span>
-                                    </figcaption>
-                                    <a href='#' class='btn btn-default'>Read More</a>
-                                </div>
-                            </figure>
-                                                     
-                        </div>        
+                    <div id="tab2" class="grid" data-flex='row--around'>
+                        <figure data-flex='col-center'>
+                            <img src="images/2.png">
+                            <figcaption>
+                                <a href="#">time zone upp ui</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>                       
+                    </div> 
+                    <div id="tab3" class="grid" data-flex='row--around'>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/2.png">
+                            <figcaption>
+                                <a href="#">time zone upp ui</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/3.png">
+                            <figcaption>
+                                <a href="#">viro media players ui</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/4.png">
+                            <figcaption>
+                                <a href="#">blog / magazine flat ui kit</a>
+                            </figcaption>
+                        </figure>                            
+                    </div>
+                    <div id="tab4" class="grid" data-flex='row--around'>
+                        <figure data-flex='col-center'>
+                            <img src="images/2.png">
+                            <figcaption>
+                                <a href="#">time zone upp ui</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex='col-center'>
+                            <img src="images/1.png">
+                            <figcaption>
+                                <a href="#">isometric perspective mock-up</a>
+                            </figcaption>
+                        </figure>                       
                     </div>
                 </div>
-
+            </div>
+            <a href='#' class='btn btn-work'>load more projects</a>
         </div>
     </div>
 </section>
+<section class='testimonials-wrap'>
+    <div class='testimonials' data-flex='col-center-center'>
+<div class='hdr' data-flex='col-center'>
+                <h2>what people say about us</h2>
+                <div class='divider'></div>
+                <p>Our clients love us!</p>
+            </div>
+        <div class='grid' data-flex="row--around">
+            <article data-flex='row-start'>
+                <img src="images/chanel.png">
+                <blockquote>
+                    <p>"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque."</p>
+                    <cite data-flex='col'>
+                        <span class='name'>chanel iman</span>
+                        <span class='function'>CEO of Pinterest</span>
+                    </cite>
+                </blockquote>
+            </article>
+            <article data-flex='row-start'>
+                <img src="images/adriana.jpg">
+                <blockquote>
+                    <p>"Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta."</p>
+                    <cite data-flex='col'>
+                        <span class='name'>adriana lima</span>
+                        <span class='function'>Founder of Instagram</span>
+                    </cite>
+                </blockquote>
+            </article>
+            <article data-flex='row-start'>
+                <img src="images/anne.png">
+                <blockquote>
+                    <p>"Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta."</p>
+                    <cite data-flex='col'>
+                        <span class='name'>anne hathaway</span>
+                        <span class='function'>Lead Designer at Behance</span>
+                    </cite>
+                </blockquote>
+            </article>
+            <article data-flex='row-start'>
+                <img src="images/emma.png">
+                <blockquote>
+                    <p>"Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque."</p>
+                    <cite data-flex='col'>
+                        <span class='name'>emma stone</span>
+                        <span class='function'>Co-Founder of Shazam</span>
+                    </cite>
+                </blockquote>
+            </article>
+        </div>
+    </div>
+</section>
+        <footer>
+            <section class="footer" data-flex="col-center-center">
+                <div class='hdr' data-flex='col-center'>
+                <h2>get in touch</h2>
+                <div class='divider'></div>
+                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-111</p>
+            </div>
+                <form action="#" method="post" data-flex="col-center">
+                    <div data-flex="row--between">
+                        <input type="text" placeholder="Your name">
+                        <input type="text" placeholder="Your Email">
+                    </div>
+                    <textarea placeholder="Your Message"></textarea>
+                    <a href='#' class='btn btn-work'>send message</a>
+                </form>
+            </section>
+            <section class="footer-social-wrap">
+                <div class="footer-social" data-flex="row-center-center">
+                   <a href="#">Facebook</a>
+                   <a href="#">Twitter</a> 
+                   <a href="#">Google+</a> 
+                   <a href="#">LinkdedIn</a> 
+                   <a href="#">Behance</a>
+                   <a href="#">Dribble</a> 
+                   <a href="#">Github</a> 
+                </div>
+            </section>
+        </footer>
 <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="/js/functions.js" type="text/javascript"></script>
 <script src="/js/jq.functions.js" type="text/javascript"></script>

@@ -66,9 +66,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <section class='specification-wrap'>
-                        <div data-flex='row--between' class='specification'>
+                        <div data-flex='row-start-between' class='specification'>
                             <div data-flex='row--center'>
-                                <img src="images/img4.png">
+                                <img src="images/img10.png">
                             </div>
                             <div data-flex="col">
                                 <h1 data-flex='col'>

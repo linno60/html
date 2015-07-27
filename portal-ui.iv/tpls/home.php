@@ -10,7 +10,9 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>
+        <a href='#top' class='btn btn-anchor'><i class='icon-arrow'></i></a>
         <header>
+            <a name='top'></a>
             <section class='top-bar-wrap'>
                 <div class='top-bar' data-flex='row-center-between'>
                     <div class='top-links' data-flex='row-center'>

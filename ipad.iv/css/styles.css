@@ -158,8 +158,8 @@ header{
     font: 17px 'Franklin Gothic Book';
 }
 .slider-main > div:first-child{
-    width: 35%;
-    padding: 0 35px 0 10px;
+    width: 25%;
+    padding: 20px 35px 0 10px;
 }
 .slider-main > div:last-child{
     width: 65%;
@@ -183,7 +183,7 @@ nav a.btn.active, nav a.btn:hover{
 .slider-main{
     max-width: 1070px;
     position: relative; 
-    padding-top: 65px;
+    padding-top: 25px;
 }
 .slider-main .btn-slider-left{
     left: 10px;
@@ -215,13 +215,13 @@ nav a.btn.active, nav a.btn:hover{
 .slider-main p{
     margin-bottom: 25px;
     color: #e6e7e9;
-    max-width: 60%;
+    max-width: 180px;
     text-align: right;
     font: 23px "Colaborate Thin";
 }
 .slider-main a.btn-default{
     font: 23px "Colaborate Medium";
-    min-height: 49px;
+    min-height: 45px;
     min-width: 185px;
     border-radius: 5px;
     border: 1px solid #6e9ad8;
@@ -242,7 +242,7 @@ nav a.btn.active, nav a.btn:hover{
 .box{
     position: relative;
     min-width: 240px;
-    height: 168px;
+    height: 155px;
     border-radius: 5px;
     margin: 0px 5px 20px 5px;
     border: 3px solid #fff;
@@ -276,7 +276,7 @@ nav a.btn.active, nav a.btn:hover{
     transform: rotate(45deg)
 }
 .categories{
-    padding-top: 45px;
+    padding-top: 35px;
     flex-wrap: wrap;
 }
 .categories article{
@@ -515,7 +515,7 @@ footer button{
 .slider-product{
     position: relative;
 }
-.content > .hdr{
+.content > .hdr, .content > .slider-product > .hdr{
     min-height: 102px;
     padding: 10px 40px 10px 35px;
     border-bottom: 1px solid #f7f7f7;
@@ -874,7 +874,7 @@ a.btn-page:first-child, a.btn-page:last-child{
 
 /*PRODUCT INNER*/
 .product-inner{
-    padding: 40px 60px;
+    padding: 40px 60px 90px 60px;
 }
 .product-inner img{
     margin: 15px 0; 
@@ -888,6 +888,23 @@ a.btn-page:first-child, a.btn-page:last-child{
     color: #5e7390;
     text-align: center;
     font: 15px/20px "Colaborate Regular";
+}
+.product-inner > div:first-child{
+    position: relative;
+}
+.lbl-price{
+    position: absolute;
+    width: 131px;
+height: 131px;
+top: 30%;
+right: 18%;
+background-color: #3a3a48;
+border-radius: 50%;
+color: #fff;
+font: 39px "Colaborate light";
+}
+.lbl-price small{
+    font: 15px "Colaborate light";
 }
 .product-inner p{
     color: #818181;
@@ -912,7 +929,7 @@ a.btn-page:first-child, a.btn-page:last-child{
 
 /*CONTACT*/
 .contact{
-    padding: 60px 40px 75px 60px;
+    padding: 40px 40px 75px 60px;
 }
 .contact > *, .web-elements > *{
     width: 50%;
@@ -970,7 +987,7 @@ a.btn-page:first-child, a.btn-page:last-child{
 .contact-cloud{
     width: 100%;
     color: #868484;
-font: 15px/17px "Colaborate Light";
+font: 17px/23px "Colaborate Light";
     border-radius: 10px;
     padding: 10px 25px 0px 25px;
 border: 1px solid #d5d7d9;

@@ -28,6 +28,11 @@
                         <b>Dublin's iphone applications</b>
                         <small>Lorem Ipsum is simply dummy</small>
                     </h1>
+                        <div class='lbl lbl-price' data-flex='col-center-center'>
+                            <span>250$</span>
+                            <small>Special Season </small>
+                            <small>Offer</small>
+                        </div>
                     <img src="images/img9.png">
                     <a href='#' class='btn btn-default'>Buy now</a>
                 </div>

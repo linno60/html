@@ -33,9 +33,9 @@
                                         <span>written by : Anonimas</span>
                                     </div>
                                 </div>
-                                <div data-flex>
-                                    <a href='#' class='btn'><i class='icon-blog-tw'></i></a>
+                                <div>
                                     <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
+                                    <a href='#' class='btn'><i class='icon-blog-tw'></i></a>  
                                 </div> 
                             </div>  
                             <img src="images/img3.png"> 
