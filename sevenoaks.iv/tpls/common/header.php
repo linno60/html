@@ -11,11 +11,11 @@
                 <span>|</span>
                 <a href="#">Blog</a>
                 <span>|</span>
-                <a href="#">Contact us</a>
+                <a href="#">Contact&nbsp;us</a>
                 <input type="text">
                 <i class="icon-search"></i>
             </div>
-            <nav>
+            <nav class="nav" data-flex>
                 <a href="#">about</a>
                 <a href="#">media</a>
                 <a href="#">events</a>

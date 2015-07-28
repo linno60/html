@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>About</title>
+        <title>Events</title>
         <meta name="HandheldFriendly" content="True">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link type="text/css" rel="stylesheet" href="/css/reset.css">

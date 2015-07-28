@@ -9,10 +9,10 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>    
-        <header data-flex="col-center-between">
+        <header data-flex="col-center-between">            
+            <?= require_tpl('common/header') ?>
             <a href="#" class="btn btn-arrow left"><i class="icon-arrow-left"></i></a>
             <a href="#" class="btn btn-arrow right"><i class="icon-arrow-right"></i></a>
-            <?= require_tpl('common/header') ?>
             <section class="banner" data-flex="col-start-end">
                 <div class="banner-box">
                     <h1>Welcome to SevenOaks website <span>which is run by the friends of SevenOaks</span></h1>
