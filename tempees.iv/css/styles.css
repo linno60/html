@@ -1,0 +1,296 @@
+a{
+    text-decoration: none;
+}
+.header{
+    min-height: 90px;
+    margin: auto;
+    max-width: 960px;
+    padding: 10px;
+}
+header{
+    background-color: #5b6069;
+}
+.nav a{
+    margin: 21px 0 21px 42px;
+    font: 16px "Open Sans";
+    color: #fff;
+}
+.logo{
+    color: #d4d4d4;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.logo b{
+    font: 24px "Open Sans";
+}
+.logo small{
+    font: 14px "Open Sans";
+}
+.logo b span{
+    text-transform: uppercase;
+}
+.slider-wrap{
+    background: url('/images/bg.png');    
+    background-size: cover;
+}
+.slider{
+    margin: auto;
+    padding: 0 10px;
+    max-width: 960px;
+    min-height: 471px;
+}
+.slider > div{
+    width: 50%;
+    position: relative;
+}
+.slider > div:last-child{
+    padding: 10px;
+}
+.slider h1{
+    color: #fff;
+    font: 48px "Open Sans";
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+    margin-bottom: 15px;
+}
+.slider p{
+    color: #335565;
+    font: 18px/21px "Open Sans";
+    margin-bottom: 30px;
+}
+a.btn-more{
+    min-width: 170px;
+min-height: 40px;
+font: 18px "Open Sans";
+background-color: rgba(54,116,186,.5);
+text-shadow: 0 1px 2px rgba(0,0,0,.3);
+color: #fff;
+}
+.controls{
+    position: absolute;
+    bottom: 31px;
+    right: 0px;
+}
+.controls a{
+    width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #8bbfe9;
+margin: calc(3px/2)
+}
+.controls a.active{
+    background-color: #3573b9;
+}
+.hdr {
+    margin-bottom: 50px;
+    position: relative;    
+}
+.hdr:before, .hdr:after{
+    height: 1px;
+    display: block;
+    width: 100%;
+    max-width: 225px;
+    position: absolute;
+    top: 50%;
+    content: "";
+    background-color: #5b6169;
+}
+.hdr:before{
+    left: -225px;
+}
+.hdr:after{
+    right: -225px;
+}
+.hdr h1{
+   color: #5b6169;
+   padding: 0 18px;
+font: 300 48px "Open Sans";
+text-transform: uppercase; 
+}
+.services .hdr h1{
+    background-color: #fff;
+}
+.services, .about{
+    margin: auto;
+    max-width: 960px;
+    padding: 10px;
+}
+.services {
+    padding: 45px 10px 15px 10px;
+}
+.about {
+    padding: 45px 10px 63px 10px;
+}
+a.btn-default, .btn-default{
+    font: 14px "Open Sans";
+    color: #fff;
+    min-width: 127px;
+min-height: 30px;
+background-color: #3573b9;
+text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+.services article p{
+    color: #4d4d4d;
+    font: 14px/18px "Arial";
+    margin-bottom: 25px;
+    text-align: center;
+}
+.services article h3{
+    color: #3573b9;
+    text-transform: uppercase;
+     font: 22px "Open Sans";
+    margin: 25px 0;
+    text-align: center;   
+}
+.services article{
+    max-width: 300px;
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+.grid{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.about-wrap{
+    background-color: #d1d1d1;
+}
+.about .hdr + div > div{
+    width: 49%;
+}
+.about .hdr + div > div img {
+    width: 100%;
+}
+.about p{
+     color: #4d4d4d;
+    font: 14px/21px "Arial";
+    margin-bottom: 25px;
+}
+.about h2{
+     color: #3573b9;
+     margin-bottom: 10px;
+     font: 36px "Open Sans";
+}
+.about h3{
+     color: #3573b9;
+     margin-bottom: 7px;
+     font: 24px "Open Sans";
+     text-transform: uppercase;
+}
+.about form input, .about form textarea{
+    width: 100%;
+background-color: #f1f1f1;
+margin-top: 10px;
+border: none;
+font-family: "Open Sans"; 
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.about form input{
+    height: 30px;
+    padding: 0 10px;
+}
+.about form textarea{
+    height: 79px;
+    resize:none;
+    padding: 10px;
+}
+.about form textarea + div{
+    margin-right: 1px;
+    background-color: #f1f1f1;
+}
+.about form input::-webkit-input-placeholder, .about form textarea::-webkit-input-placeholder {
+    font-family: "Open Sans"; 
+    font-size: 14px;
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+.about form input::-moz-placeholder, .about form textarea::-moz-placeholder {
+         opacity: 1;
+         font-family: "Open Sans"; 
+    font-size: 14px;
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+.about form input:-ms-input-placeholder, .about form textarea:-ms-input-placeholder {
+    font-family: "Open Sans"; 
+    font-size: 14px;
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+.skill{
+    width: 100%;
+height: 30px;
+background-color: #3573b9;
+margin-bottom: 10px;
+position: relative;
+padding: 10px;
+font: 14px "Open Sans";  
+color: #fff;
+text-transform: uppercase;
+}
+.skill:after{
+    content: "";
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 30px;
+background-color: #818181;
+}
+.skill:nth-child(1):after{
+    width: 7%;
+}
+.skill:nth-child(2):after{
+    width: 4%;
+}
+.skill:nth-child(3):after{
+    width: 15%;
+}
+.skill:nth-child(4):after{
+    width: 20%;
+}
+.skill:last-child{
+    margin-bottom: 0px;
+}
+footer{
+    min-height: 100px;
+background-color: #fff;
+box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+}
+footer span, footer span a{
+    text-align: center;
+    color: #6e6e6e;
+    font: 12px "Open Sans";    
+}
+footer span a{
+    text-decoration: underline;
+}
+@media (max-width: 920px) {
+    .services .grid{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 720px) {
+    .about .hdr + div > div {
+    width: 100%;
+}
+.about .hdr + div {
+    flex-direction: column;
+}
+.about .hdr + div > div img {
+    margin-top: 20px;
+}
+}
+@media (max-width: 500px) {
+    .slider{
+        flex-direction: column-reverse;
+    }
+    .slider > div {
+    width: 100%;
+}
+.hdr h1 {
+    padding: 0px 10px;
+    font: 300 30px "Open Sans";
+}
+.skill {
+    font: 12px "Open Sans";
+}
+}

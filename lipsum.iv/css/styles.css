@@ -1,0 +1,398 @@
+@font-face {
+    font-family: 'Novecento Wide';
+    src: url('/fonts/Novecento/Novecento Normal.otf');
+}
+@font-face {
+    font-family: 'Helvetica CE';
+    src: url('/fonts/Helvetica-CE-Regular.ttf');
+}
+@font-face {
+    font-family: 'Helvetica Narrow';
+    src: url('/fonts/Helvetica Narrow CE Regular.ttf');
+}
+@font-face {
+    font-family: 'Helvetica Neue LT';
+    src: url('/fonts/HelveticaNeueLT.otf');
+}
+@font-face {
+    font-family: 'Swiss721BT Thin';
+    src: url('/fonts/Swiss 721 Thin.ttf');
+}
+@font-face {
+    font-family: 'Swiss721BT Extended';
+    src: url('/fonts/Swiss 721 Extended.ttf');
+}
+@font-face {
+    font-family: 'Swiss721BT Bold';
+    src: url('/fonts/Swiss 721 Bold.ttf');
+}
+@font-face {
+    font-family: 'Interstate Cond Mono';
+    src: url('/fonts/Interstate Cond Mono/Interstate-Cond-Mono.ttf');
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/fonts/MyriadPro/MyriadPro-Regular.otf');
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url('/images/bg.png');
+    padding: 50px 10px 54px 10px;
+}
+.icon-left, .icon-right{
+    width: 24px;
+    height: 24px;
+}
+.icon-address, .icon-fax, .icon-mail, .icon-phone{
+    width: 28px;
+    height: 28px;
+}
+.icon-arrow{
+    width: 12px;
+    height: 12px;
+    background: url('/images/icons/arrow.png');
+}
+.icon-phone{background: url('/images/icons/28x28/phone.png');}
+.icon-mail{background: url('/images/icons/28x28/mail.png');}
+.icon-fax{background: url('/images/icons/28x28/fax.png');}
+.icon-address{background: url('/images/icons/28x28/address.png');}
+.icon-left{background: url('/images/icons/24x24/left.png');}
+.icon-right{background: url('/images/icons/24x24/right.png');}
+
+.wrap{
+    margin: auto;
+    max-width: 1003px;
+    padding: 0 35px;
+    border-top: 8px solid #f2ac04;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    background-color: #fff;
+}
+.header{
+    padding: 10px 0;
+    min-height: 132px;
+}
+.logo{
+    color: #3b3b3b;
+    font: 34px "Helvetica CE"
+}
+.logo img{
+    margin-right: 25px;
+}
+footer .logo img{
+    margin-right: 14px;
+}
+footer .logo{
+    font: 20px "Helvetica CE";
+    margin-bottom: 18px;
+}
+.header h2{
+    color: #f2ab03;
+    font: 20px 'Novecento Wide';
+}
+.nav a{
+    text-transform: uppercase;
+    font: 18px 'Swiss721BT Thin';
+    color: #6b6b6b;
+    margin: 5px 77px 5px 0px;
+}
+.nav {
+    flex-wrap: wrap;
+    min-height: 43px;
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+}
+.header > div{
+    margin-left: 40px;
+    padding-left: 26px;
+    border-left: 1px solid #cac8c5;
+    min-height: 52px;
+}
+.header h2 ~ span{
+    color: #929292;
+    font: 14px "Myriad Pro";
+}
+.clients{
+    flex-wrap: wrap;
+    min-height: 107px;
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;   
+    position: relative;
+}
+.clients h3{
+    color: #333;
+    font: 14px "Tahoma";
+    padding: 0px 7px 0px 6px;
+    background-color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: -9px;
+    left: 37px;
+}
+.figure{
+    border: 1px solid #b0b0b0;
+    padding: 1px;
+    max-width: 448px;
+}
+figure{
+    position: relative;   
+}
+.preview figure{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+}
+.banners > div:last-child figure img{
+    width: 100%;
+}
+.banners > div:first-child{
+    border: 1px solid #d4d4d4; 
+}
+figcaption{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+figcaption small{
+    font: 300 20px "Novecento Wide";
+}
+figcaption span{
+    font: 30px "Novecento Wide";
+}
+.banners > div > *{
+    width: 49%;
+}
+.banners p{
+    color: #3b3b3b;
+    font: 600 14px/23px "Helvetica Narrow";
+}
+.caption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 48px;
+    padding-left: 83px;
+    background-color: rgba(255,255,255,.99)
+}
+.caption .btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.caption a{
+    font: 18px "Tahoma";
+    color: #555;
+}
+.banners h2{
+    font: 18px "Tahoma";
+    color: #555;
+    margin: 50px 0 10px 0;
+    text-transform: uppercase;
+}
+.btn-right{
+    right: 21px;
+}
+.btn-left{
+    left: 23px;
+}
+.content{    
+    padding: 37px 0 65px 0;    
+}
+.description p{
+    color: #3b3b3b;
+    font: 16px/23px "Helvetica CE";
+    margin-bottom: 15px;
+}
+.content > div{
+    min-width: 250px;
+    max-width: 350px;
+    border-left: 1px solid #e5e5e5;
+}
+.content > div:first-child{
+    border-left: none;
+}
+.content > div > h4{
+    color: #555;
+    font: 18px "Helvetica Neue LT";
+    margin-bottom: 38px;
+    text-transform: uppercase;
+}
+.news{
+    padding-right: 10px;  
+}
+.date{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #c7c7c7;
+}
+.date span{
+    color: #f1ab04;
+    font: 18px "Helvetica Neue LT";
+}
+.date small{
+    color: #777;
+    text-transform: uppercase;
+    font: 10px "Interstate Cond Mono";
+}
+.news h5 a{
+    color: #333;
+    font: 16px "Myriad Pro";
+}
+.news article p{
+    color: #939393;
+    font: 12px "Tahoma";
+    max-width: 250px;
+}
+.news > article{
+    padding: 18px 0;
+    min-height: 80px;
+    background: url('/images/border.png') repeat-x left bottom;
+}
+.description{
+    padding: 0 40px 0 37px;
+}
+.contact{
+    padding: 0 14px 0 50px;
+}
+.contact > div{
+    min-height: 43px;
+    padding: 5px 0;
+    background: url('/images/border-contact.png') no-repeat 5px bottom;
+}
+.contact > div:last-child{
+    background: none;
+}
+.contact span{
+    color: #757575;
+    font: 600 16px "Swiss721BT Bold";
+}
+.contact i{
+    margin-right: 17px;
+    min-width: 28px;
+}
+.contact a, .contact address span{
+    color: #747474;
+    font: 16px "Myriad Pro";
+}
+.content > .contact > h4{   
+    text-transform: capitalize;
+}
+a.btn-more{
+    color: #fff;
+    font: 12px/7px "Tahoma";
+    width: 57px;
+    height: 15px;
+    background-color: #2b2a29;
+}
+a.btn-more em{
+    height: 15px;
+    border-right: 1px solid #fff;
+}
+.nav-footer{
+    flex-wrap: wrap;
+}
+.nav-footer a{
+    text-transform: uppercase;
+    border-left: 1px solid #535353;
+    padding: 0 8px;
+    margin: 2px 0;
+    color: #535353;
+    font: 10px "Swiss721BT Thin";
+}
+.nav-footer a:first-child{
+    border-left: none;
+}
+.copyright{
+    color: #535353;
+    font: 12px "Swiss721BT Thin";
+}
+footer{
+    min-height: 124px; 
+}
+@media (max-width: 950px) {
+    .wrap {
+        padding: 0px 15px;
+    }
+    .nav a {
+        margin: 5px 30px 5px 0px;
+    }
+    .description {
+        padding: 0px 20px 0px 20px;
+    }
+    .contact {
+        padding: 0px 20px 0px 20px;
+    } 
+}
+@media (max-width: 780px) {
+    .banners > div{
+        flex-direction: column;
+    }
+    .banners > div > * {
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 800px;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+    .content > div{
+        margin-bottom: 30px;
+    }
+    .content > div.contact {
+        border-left: none;
+    }
+}
+@media (max-width: 700px) {
+    .content > div.description {
+        border-left: none;
+    }
+    .content > div.news {
+        max-width: 450px;
+    }
+    .news article p {
+        max-width: 450px;
+    }
+}
+@media (max-width: 649px) {
+    .content > div.description{
+        max-width: 600px;
+    }
+}
+@media (max-width: 600px) {
+    .header{
+        flex-direction: column;
+        justify-content: center;        
+    }
+    .header > div {
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: none;
+        min-height: 70px;
+        margin-top: 10px;
+        border-top: 1px solid #CAC8C5;
+    }
+    .header h2 {
+        text-align: center;
+    }
+    .header h2 ~ span{
+        text-align: center;
+    }
+}
+@media (max-width: 400px) {
+    .caption {
+        padding: 0 60px;
+    }
+    .btn-right {
+        right: 5px;
+    }
+    .btn-left {
+        left: 5px;
+    }
+    figcaption span {
+        font: 25px "Novecento Wide";
+    }
+}
