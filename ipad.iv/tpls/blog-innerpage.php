@@ -101,26 +101,26 @@
                     <aside class='side-bar' data-flex="col">
                         <h3>Slidebar</h3>
                         <ul class='list list-bullet'>
-                            <li>Lorem Ipsum dolor</li>
-                            <li>Consectetuadipisicing</li>
-                            <li>Eiusmod</li>
-                            <li>Tempor incididunt</li>
-                            <li>Labore et dolore</li>
-                            <li>Magna aliua</li>
-                            <li>Ut enim ad minim</li>
-                            <li>Nostud exercitation</li>
-                            <li>Ullamco laboris</li>
-                            <li>Commodo consequ</li>
+                            <li><a href="#">Lorem Ipsum dolor</a></li>
+                            <li><a href="#">Consectetuadipisicing</a></li>
+                            <li><a href="#">Eiusmod</a></li>
+                            <li><a href="#">Tempor incididunt</a></li>
+                            <li><a href="#">Labore et dolore</a></li>
+                            <li><a href="#">Magna aliua</a></li>
+                            <li><a href="#">Ut enim ad minimv</a></li>
+                            <li><a href="#">Nostud exercitation</a></li>
+                            <li><a href="#">Ullamco laboris</a></li>
+                            <li><a href="#">Commodo consequ</a></li>
                         </ul>
                         <h3>Slidebar</h3>
                         <ul class='list list-bullet'>
-                            <li>Lorem Ipsum dolor</li>
-                            <li>Consectetuadipisicing</li>
-                            <li>Eiusmod</li>
-                            <li>Tempor incididunt</li>
-                            <li>Labore et dolore</li>
-                            <li>Magna aliua</li>
-                            <li>Ut enim ad minim</li>
+                            <li><a href="#">Lorem Ipsum dolor</a></li>
+                            <li><a href="#">Consectetuadipisicing</a></li>
+                            <li><a href="#">Eiusmod</a></li>
+                            <li><a href="#">Tempor incididunt</a></li>
+                            <li><a href="#">Labore et dolore</a></li>
+                            <li><a href="#">Magna aliua</a></li>
+                            <li><a href="#">Ut enim ad minim</a></li>
                         </ul>
                         <div>
                             <img src="images/img8.png">

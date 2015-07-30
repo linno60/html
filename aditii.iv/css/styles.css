@@ -235,6 +235,9 @@ font: 15px/28px "Open Sans";
     color: #fff;
     font: 15px/25px "Open Sans";
 }
+.footer li a:hover{
+    text-decoration: underline;
+}
 @media (max-width: 1010px) {
     .nav{
         justify-content: flex-start;

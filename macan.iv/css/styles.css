@@ -252,8 +252,8 @@ a.btn-default{
     margin: 90px 0 45px 0;
 }
 .tabs + a{
-    margin: auto;
     margin-bottom: 90px;
+    width: auto;
 }
 .tabs + a span{
     font: 600 18px "Open Sans";
@@ -273,7 +273,7 @@ a.btn-default{
     color: #323232;
 }
 .testimonials{
-    margin-top: 55px;
+    margin: 55px 0;
 }
 .testimonials img{
     max-width: 276px;
@@ -294,6 +294,16 @@ a.btn-default{
 .testimonials blockquote cite{
     font: 600 24px "Open Sans";
     color: #323232;
+}
+.controls a{
+    margin: 6px;
+    width: 23px;
+height: 23px;
+border-radius: 50%;
+background-color: #7b7b7b;
+}
+.controls a.active{
+    background-color: #313131;
 }
 footer{
     background-color: #475a85;

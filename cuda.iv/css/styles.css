@@ -177,14 +177,14 @@ a.btn-work:before{
     margin: 20px;
 }
 .percentage {
-    width: 160px;
-    height: 160px;  
+    width: 140px;
+    height: 140px;  
     position: relative;
 }
 .percentage:before, .percentage:after {
     content: " ";
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%; 
     position: absolute;
     top:-10px;
@@ -206,7 +206,7 @@ a.btn-work:before{
 .percentage.web:after {
     border-right: 10px solid #30bae7;
     border-bottom: 10px solid #30bae7; 
-    transform: rotate(90deg);
+    transform: rotate(100deg);
 }
 .percentage.html:before{    
     border-right: 10px solid #d74680;
@@ -215,7 +215,7 @@ a.btn-work:before{
 .percentage.html:after {
     border-right: 10px solid #d74680;
     border-bottom: 10px solid #d74680; 
-    transform: rotate(75deg);
+    transform: rotate(48deg);
 }
 .percentage.graphic:before{    
     border-right: 10px solid #15c7a8;
@@ -224,7 +224,7 @@ a.btn-work:before{
 .percentage.graphic:after {
     border-right: 10px solid #15c7a8;
     border-bottom: 10px solid #15c7a8; 
-    transform: rotate(70deg);
+    transform: rotate(20deg);
 }
 .percentage.ui:before{    
     border-right: 10px solid #eb7d4b;
@@ -233,7 +233,7 @@ a.btn-work:before{
 .percentage.ui:after {
     border-right: 10px solid #eb7d4b;
     border-bottom: 10px solid #eb7d4b; 
-    transform: rotate(85deg);
+    transform: rotate(75deg);
 }
 .value{
     color: #3b4761;

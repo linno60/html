@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="portfolio-wrap">
-                <div class="portfolio">
+                <div class="portfolio" data-flex="col-center">
                     <div class="hdr" data-flex="col-center">
                         <h2>Portfolio</h2>
                         <span>our awesome works</span>
@@ -247,6 +247,12 @@
                                 </div>
                             </blockquote>
                         </article>
+                    </div>
+                    <div class="controls" data-flex>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#" class="active"></a>
                     </div>
                 </div>
             </div>
