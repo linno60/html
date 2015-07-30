@@ -30,6 +30,11 @@ body{
     height: 16px;
     background: url('/images/icons/arrow.png');
 }
+.icon-list{
+    height: 12px;
+    width: 12px;
+     background: url('/images/icons/list.png');
+}
 .icon-arrow-left{
     width: 40px;
     height: 40px;
@@ -166,6 +171,9 @@ nav a:last-child{
 .grid figure{
     margin: 10px;
     position: relative;
+    flex: 1;
+    min-width: 282px;
+    max-width: 320px;
 }
 .grid figure img{
     width: 100%;
@@ -176,10 +184,10 @@ nav a:last-child{
     bottom: 0;
 }
 .grid figcaption h4{
-    margin: 20px;
+    margin: 10px 20px;
     text-transform: uppercase;
     color: #fff;
-    font: 34px "ProximaNova Bold";    
+    font: 45px "ProximaNova Bold";    
     text-shadow: 0 1px 5px rgba(0,0,0,.6);
 }
 a.btn-info{
@@ -337,26 +345,20 @@ a.btn-social{
 .about aside .list li{
     min-height: 50px;
     border-bottom: 1px solid #d2cdc9;  
-    padding: 5px 5px 5px 21px;
 }
 .about aside .list li a{
     color: #4999af;
     text-transform: uppercase;
     font: 20px "ProximaNova Regular";    
 }
-.about aside .list li:before{
-    height: 12px;
-    width: 12px;
-    display: none;
-     background: url('/images/icons/list.png');
+.about aside .list li a i{
+    visibility: hidden;
+    margin-right: 10px;
 }
-.about aside .list li:hover:before{
-    display: block
+.about aside .list li a:hover i{
+    visibility: visible;
 }
-.about .list li:hover{
-    cursor: pointer;
-}
-.about .list li:hover a{
+.about .list li a:hover{
     color: #f1715e;
 }
 .grid.events figcaption, .grid.shop figcaption{

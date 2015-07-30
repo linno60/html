@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'STHeiti';
+    src: url('/fonts/stheitimedium.ttf');
+}
+@font-face {
+    font-family: 'Aller';
+    src: url('/fonts/aller/Aller_Std_Rg.ttf');
+}
+@font-face {
+    font-family: 'Aller Light';
+    src: url('/fonts/aller/Aller_Std_Lt.ttf');
+}
+@font-face {
+    font-family: 'Aller Bold';
+    src: url('/fonts/aller/Aller_Std_Bd.ttf');
+}
+.icon-search{
+    background: url('/images/icons/.png');
+}
+a{
+    text-decoration: none;
+}
+.icon-arrow{
+    width: 12px;
+    height: 12px;
+}
+.icon-cart, .icon-down, .icon-eye, .icon-grid, .icon-list, .icon-search, .icon-share, .icon-sort, .icon-star{
+    width: 16px;
+    height: 16px;
+}
+.icon-fb, .icon-fl, .icon-gp, .icon-in, .icon-tw{
+    width: 20px;
+    height: 20px;
+}
+.icon-arrow{background: url('/images/icons/12x12/arrow.png');}
+.icon-cart{background: url('/images/icons/16x16/cart.png');}
+.icon-down{background: url('/images/icons/16x16/down.png');}
+.icon-eye{background: url('/images/icons/16x16/eye.png');}
+.icon-grid{background: url('/images/icons/16x16/grid.png');}
+.icon-list{background: url('/images/icons/16x16/list.png');}
+.icon-search{background: url('/images/icons/16x16/search.png');}
+.icon-share{background: url('/images/icons/16x16/share.png');}
+.icon-sort{background: url('/images/icons/16x16/sort.png');}
+.icon-star{background: url('/images/icons/16x16/star.png');}
+.icon-fb{background: url('/images/icons/20x20/fb.png');}
+.icon-fl{background: url('/images/icons/20x20/fl.png');}
+.icon-gp{background: url('/images/icons/20x20/gp.png');}
+.icon-in{background: url('/images/icons/20x20/in.png');}
+.icon-tw{background: url('/images/icons/20x20/tw.png');}
+header{   
+    background-color: #242424;
+}
+.header, .nav, .top{
+    margin: auto;
+    max-width: 960px;
+}
+.header{       
+    padding: 0 10px;
+}
+.logo{
+    background: url('/images/logo.png');
+    width: 156px;
+    height: 20px;
+}
+.login{
+    min-height: 45px;
+    border-right: 1px solid #383838;
+    border-left: 1px solid #383838;
+    width: 141px;
+    padding: 5px;
+    color: #7e7e7e;
+    font: 11px "Aller";
+}
+.header .icon-search{
+    margin: 0px 22px;
+}
+.header input{
+    border: none;
+    background: transparent;
+    color: #7e7e7e;
+    font: 11px "Aller";
+}
+.nav nav{
+    border-left: 1px solid #eee;
+}
+.nav nav a{
+    min-height: 60px;
+    padding: 5px 23px;
+    border-right: 1px solid #eee;
+}
+.top-wrap{
+    background: url('/images/bg.png') no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #ebe7df;
+}
+.top-wrap h1{
+    color: #232323;
+    font: 40px/40px "Aller Light";
+    max-width: 290px;
+}
+.top > div{
+    min-height: 461px;
+    width: 50%;
+}
+.lbl-default{
+    width: 68px;
+    height: 67px;
+    font: 13px "Aller";
+    color: #fff;
+    background-color: #57c59f;
+}

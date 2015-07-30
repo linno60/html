@@ -27,11 +27,11 @@
             </article>
             <aside>
                 <ul class="list">
-                    <li data-flex="row-center"><a href="#">missionary & vision</a></li>
-                    <li data-flex="row-center"><a href="#">membership</a></li>
-                    <li data-flex="row-center"><a href="#">our history</a></li>
-                    <li data-flex="row-center"><a href="#">our staff</a></li>
-                    <li data-flex="row-center"><a href="#">job opportunities</a></li>
+                    <li data-flex="row-center"><a href="#" data-flex="row-center"><i class="icon-list"></i>missionary & vision</a></li>
+                    <li data-flex="row-center"><a href="#" data-flex="row-center"><i class="icon-list"></i>membership</a></li>
+                    <li data-flex="row-center"><a href="#" data-flex="row-center"><i class="icon-list"></i>our history</a></li>
+                    <li data-flex="row-center"><a href="#" data-flex="row-center"><i class="icon-list"></i>our staff</a></li>
+                    <li data-flex="row-center"><a href="#" data-flex="row-center"><i class="icon-list"></i>job opportunities</a></li>
                 </ul>
             </aside>
         </section>        
