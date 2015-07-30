@@ -345,6 +345,9 @@ nav a.btn.active, nav a.btn:hover{
 .specification > div{
     width: 48%;
 } 
+.specification > div img{
+    max-width: 381px;
+}
 .list-plus{
     margin-top: 45px;
     border-top: 1px solid #d7d8da;
@@ -1002,10 +1005,10 @@ position: relative;
     color: #868484;
 }
 .map{
-    max-width: 341px;
-height: 288px;
-width: 100%;
 border: 1px solid #d1cccc;
+}
+.map img{
+    width: 100%;
 }
 .contact-cloud:after, .contact-cloud:before {
     content: '';

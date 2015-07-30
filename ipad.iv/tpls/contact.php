@@ -51,8 +51,8 @@
                             </div>
                             <div class="border"></div>
                         </div>
-                        <div class="map">
-                            
+                        <div class="map" data-flex>
+                            <img src="images/map.png">
                         </div>
                     </div>                  
                 </div>

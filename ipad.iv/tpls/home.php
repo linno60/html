@@ -26,32 +26,32 @@
             <a href="#" class="btn btn-slider-right"><i class="icon-arrow-sliderright"></i></a>
         </section>
         <section class='boxes-wrap' data-flex='row--around'>
-            <div class='box' data-flex="col-center">
+            <a href="#" class='box' data-flex="col-center">
                 <div data-flex="row-start-between">
                     <i class="icon-e"></i>
                     <img src="images/img1.png">                    
                 </div>
                 <span class="title">E Book Reader pro</span>
-            </div>
-            <div class='box' data-flex="col-center-center">
+            </a>
+            <a href="#" class='box' data-flex="col-center-center">
                 <div data-flex="row-center-center">
                 <img src="images/img2.png">
                 </div>
                 <span class="title">Image viewer pro</span>
-            </div>
-            <div class='box' data-flex="col-center-center">
+            </a>
+            <a href="#" class='box' data-flex="col-center-center">
                 <div data-flex="row-center-center">
                     <img src="images/media.png">
                 </div>
                 <span class="title">Media mannager</span>
-            </div>
-            <div class='box' data-flex="col-center-center">                
+            </a>
+            <a href="#" class='box' data-flex="col-center-center">                
                 <div data-flex="row-center-center">
                     <img src="images/leo.png">
                 </div>
                 <span class="title">Leo Entertainment</span>
                 <div class="lbl lbl-corner"><span>New</span></div>
-            </div>
+            </a>
         </section>
         <section class='categories' data-flex='row--around'>
             <article>

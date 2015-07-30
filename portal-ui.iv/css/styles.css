@@ -87,6 +87,9 @@ i[class*=icon-contacts-point]{width: 36px;height: 36px;}
     min-width: 65px;
     border-left: 1px solid #dee0e6;
 }
+.top-links a em{
+    padding: 0 3px;
+}
 .middle-header{
     max-width: 1210px;
     padding: 0 10px;
