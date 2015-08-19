@@ -111,7 +111,7 @@
                 <a href="#"><i class="icon-right"></i></a>
             </div>
         </section>
-        <section class="slider-wrap" data-flex="row--between">
+        <section class="slider-wrap blog" data-flex="row--between">
             <div class="slider-side" data-flex="row-center-center">
                 <a href="#"><i class="icon-left"></i></a>
             </div>

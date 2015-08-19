@@ -15,7 +15,7 @@ z-index: 1000;
 a{
     text-decoration: none;
 }
-.icon-mail, .icon-phone, .icon-point{
+.icon-mail, .icon-phone, .icon-point, .icon-quotes{
     width: 20px;
     height: 20px;
 }
@@ -34,32 +34,33 @@ a{
 .icon-down{
     width: 52px;
     height: 52px;
-    background: url('/images/icons/down.png');
+    background: url('../images/icons/down.png');
 }
 .icon-location{
     width: 72px;
     height: 72px;
-    background: url('/images/icons/location.png');
+    background: url('../images/icons/location.png');
 }
 .icon-rocket{
     width: 48px;
     height: 48px;
-    background: url('/images/icons/rocket.png');
+    background: url('../images/icons/rocket.png');
 }
-.icon-point{background: url('/images/icons/20x20/point.png');}
-.icon-mail{background: url('/images/icons/20x20/mail.png');}
-.icon-phone{background: url('/images/icons/20x20/phone.png');}
-.icon-fb{background: url('/images/icons/36x36/fb.png');}
-.icon-tw{background: url('/images/icons/36x36/tw.png');}
-.icon-gp{background: url('/images/icons/36x36/gp.png');}
-.icon-up{background: url('/images/icons/36x36/up.png');}
-.icon-eye{background: url('/images/icons/40x40/eye.png');}
-.icon-heart{background: url('/images/icons/40x40/heart.png');}
-.icon-globe{background: url('/images/icons/44x44/globe.png');}
-.icon-monitor{background: url('/images/icons/44x44/monitor.png');}
-a.btn:hover .icon-fb{background: url('/images/icons/36x36/fbh.png');}
-a.btn:hover .icon-tw{background: url('/images/icons/36x36/twh.png');}
-a.btn:hover .icon-gp{background: url('/images/icons/36x36/gph.png');}
+.icon-point{background: url('../images/icons/20x20/point.png');}
+.icon-mail{background: url('../images/icons/20x20/mail.png');}
+.icon-phone{background: url('../images/icons/20x20/phone.png');}
+.icon-quotes{background: url('../images/icons/20x20/quotes.png');}
+.icon-fb{background: url('../images/icons/36x36/fb.png');}
+.icon-tw{background: url('../images/icons/36x36/tw.png');}
+.icon-gp{background: url('../images/icons/36x36/gp.png');}
+.icon-up{background: url('../images/icons/36x36/up.png');}
+.icon-eye{background: url('../images/icons/40x40/eye.png');}
+.icon-heart{background: url('../images/icons/40x40/heart.png');}
+.icon-globe{background: url('../images/icons/44x44/globe.png');}
+.icon-monitor{background: url('../images/icons/44x44/monitor.png');}
+a.btn:hover .icon-fb{background: url('../images/icons/36x36/fbh.png');}
+a.btn:hover .icon-tw{background: url('../images/icons/36x36/twh.png');}
+a.btn:hover .icon-gp{background: url('../images/icons/36x36/gph.png');}
 
 .top-bar-wrap{
     background-color: #0d0b11;
@@ -72,6 +73,9 @@ a.btn:hover .icon-gp{background: url('/images/icons/36x36/gph.png');}
 .top-bar{
     min-height: 80px;
 }
+.logo{
+    margin: 8px 0px 0px 0px;
+}
 .nav{
     flex-wrap: wrap;
 }
@@ -81,14 +85,16 @@ nav a:hover{
 nav a{
     color: #fff;
     font: 14px "Open Sans";
-    margin: 27px 0 27px 54px;
+    margin: 20px 0 20px 53px;
 }
 .header-wrap{
     background-color: #161828;
 }
 .header{
-    min-height: 474px;
-    background: url('/images/bg-header.png') no-repeat left bottom;
+    /* min-height: 474px; */
+    padding: 31px 10px 44px 10px;    
+    max-width: 1196px;
+    background: url('../images/bg-header.png') no-repeat left bottom;
 }
 .header > div{
     width: 48%;
@@ -96,12 +102,14 @@ nav a{
 .header h1{
     color: #fff;
     font: 600 36px "Open Sans";
-    margin-bottom: 30px;
+    margin-bottom: 27px;
+    /* margin-top: 21px; */
+    letter-spacing: 0.022em;
 }
 .header span{
     color: #fff;
     font: 24px "Open Sans";
-    margin-bottom: 60px;
+    margin: 0px 0px 64px 4px;
 }
 a.btn-default{
     color: #fff;
@@ -109,26 +117,31 @@ a.btn-default{
 }
 .header a.btn-default{
     min-width: 145px;
+    margin: 0px 0px 20px 3px;
     height: 54px;
     border-radius: 4px;
     font: 18px "Open Sans";
 }
 .header > div > img{
     width: 100%;
-    max-width: 512px;
+    max-width: 488px;
+    margin-right: 4px;
 }
 .services-wrap{
     background-color: #475a85;
 }
 .services{
-    min-height: 553px;
+    /* min-height: 553px; */
+    max-width: 1218px;
+    padding: 62px 10px 62px 10px;
 }
 .services .hdr{
-    margin-bottom: 75px;
+    margin-bottom: 83px;
 }
 .hdr h2 {
-    font: 600 30px "Open Sans";
-    margin-bottom: 10px;
+    font: 700 30px "Open Sans";
+    margin-bottom: 4px;
+    letter-spacing: 0.02em;
 }
 .hdr h2 ~ span{
     font: 18px "Open Sans";
@@ -164,7 +177,7 @@ a.btn-default{
     flex-wrap: wrap;
 }
 .services .grid article{
-    max-width: 250px;
+    max-width: 247px;
     padding: 0 5px 35px 5px;
 }
 .services .grid article a.btn-default{
@@ -179,46 +192,63 @@ a.btn-default{
 }
 .services .grid article h3{
     font: 600 18px "Open Sans";
+    margin-top: 20px;
 }
 .services .grid article p{
-    padding: 10px 0px 25px 0px;
+    padding: 11px 0px 31px 0px;
     font: 14px/18px "Open Sans";
+    letter-spacing: -0.03em;
 }
 .works-header-wrap{
-    background: #7b7b7b url('/images/pattern.png');
+    background: #7b7b7b url('../images/pattern.png');
 }
 .works-header{
     min-height: 425px;
 }
 .portfolio{
-    min-height: 1792px;
-    max-width: 1250px;
+    max-width: 1221px;
+    padding: 82px 10px 93px 10px;
+}
+.portfolio .hdr h2 {
+  letter-spacing: 0.01em;
 }
 .portfolio-wrap{
     background-color: #fff;
 }
+.portfolio .hdr h2 ~ span {
+  margin-bottom: 14px;
+}
 .works-footer-wrap{
-    background: #7b7b7b url('/images/pattern.png');
+    background: #7b7b7b url('../images/pattern.png');
 }
 .works-footer{
-    min-height: 421px;
+    min-height: 422px;
 }
 .works-header h1, .works-footer h1, .works-header span, .works-footer span{
     text-align: center;
     color: #fff;
 }
 .works-header h1, .works-footer h1{
-    font: 600 48px "Open Sans";    
+    font: 600 48px/48px "Open Sans";    
+    margin-top: 38px;
+    margin-bottom: 5px;
+    letter-spacing: 0.06em;
+}
+.works-footer h1{   
+    margin-top: 1px;
+    margin-bottom: 18px;
+    letter-spacing: 0.02em;
 }
 .works-header span, .works-footer span{
     font: 24px "Open Sans";
+    letter-spacing: 0.02em;
 }
 .portfolio .divider, .portfolio .divider:after, .portfolio .divider:before{
     background-color: #000;
 }
 .tabs .grid figure{
     position: relative;
-    margin: 20px;
+    margin: 20px 15px 14px 15px;
 }
 .tabs .grid figure img{
     width: 100%;
@@ -230,7 +260,7 @@ a.btn-default{
     position: absolute;
     left:0;
     top: 0;
-    display: none;
+/*    display: none;*/
     padding: 50px;
     height: 98.5%;
     opacity: .82;
@@ -238,30 +268,30 @@ a.btn-default{
 }
 .overlay p{
     color: #fff;
-    margin-bottom: 20px;   
+    margin-bottom: 36px;   
     text-align: center;
     font: 14px/18px "Open Sans";
 }
 .overlay h6{
     color: #fff;
-    margin-bottom: 20px;
+    margin: 15px 0px 27px 0px;
     text-align: center;
-    font: 600 24px/24px "Open Sans";
+    font: 600 25px "Open Sans";
 }
 .tabs{
-    margin: 90px 0 45px 0;
+    margin: 85px 0 45px 0;
 }
 .tabs + a{
-    margin-bottom: 90px;
+    margin-bottom: 84px;
     width: auto;
 }
 .tabs + a span{
-    font: 600 18px "Open Sans";
+    font: 700 18px "Open Sans";
     color: #323232;
-    margin: 2px;
+    margin: 0px;
 }
 ._nav{
-    margin-bottom: 45px;
+    margin-bottom: 23px;
 }
 ._nav a, ._nav span{
     font: 18px "Open Sans";
@@ -272,8 +302,15 @@ a.btn-default{
 ._nav a.active, ._nav a:hover, ._nav span{
     color: #323232;
 }
+.portfolio .hdr.customer h2{
+    margin-bottom: 13px;
+    letter-spacing: 0em;
+}
+.portfolio .hdr.customer h2 ~ span {
+  margin-bottom: 22px;
+}
 .testimonials{
-    margin: 55px 0;
+    margin: 53px 0px 53px 58px;
 }
 .testimonials img{
     max-width: 276px;
@@ -281,15 +318,17 @@ a.btn-default{
     max-height: 276px;
     margin-right: 90px;
 }
+.testimonials blockquote {
+  margin-bottom: 12px;
+}
 .testimonials blockquote span{
-    color: #323232;
-    font: 60px "Perpetua";
-    margin-right: 20px;
+    margin: 4px 25px 0px 0px;
 }
 .testimonials blockquote p{
     font: italic 18px/30px "Open Sans";
     color: #323232;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
+    letter-spacing: 0.025em;
 }
 .testimonials blockquote cite{
     font: 600 24px "Open Sans";
@@ -309,11 +348,13 @@ footer{
     background-color: #475a85;
 }
 .footer{
-    min-height: 669px;
+    /* min-height: 669px; */
+    padding: 89px 10px 95px 10px;
+    max-width: 1189px;
 }
 .footer h5{
     color: #fff;
-    margin: 10px 0;
+    margin: 12px 0 11px 0;
     font: 600 18px "Open Sans";
 }
 .footer h5 ~ span{
@@ -323,18 +364,18 @@ footer{
 }
 .contacts span{
     color: #fff;
-    font: 18px/34px "Open Sans";
+    font: 18px/44px "Open Sans";
 }
 .contacts{
     margin: 20px 0 40px 0;
 }
 .map{
     position: relative;
-    min-height: 512px;
+    /* min-height: 516px; */
 }
 .map .icon-location{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
@@ -342,10 +383,11 @@ footer{
 .map iframe{
     width: 100%;
     height: 100%;
-    min-height: 520px;
+    min-height: 509px;
 }
 .social{
     flex-wrap: wrap;
+    margin-left: 2px;
 }
 .social a.btn{
     margin: 0 19px 19px 0;
@@ -356,7 +398,7 @@ footer{
 }
 .copyright span{
     color: #76777f;
-    margin-bottom: 25px;
+    margin: 9px 0 25px 0;
 font: 14px "Open Sans";
 }
 .form-wrap{
@@ -364,11 +406,11 @@ font: 14px "Open Sans";
     margin-top: 73px;
 }
 .form-wrap > *{
-    width: 48%;
+    width: 48.9%;
 }
 .form-wrap > form > div{
     width: 100%;    
-    max-width: 571px;
+    max-width: 573px;
 }
 .form-wrap input, .form-wrap textarea{
     border: none;
@@ -388,13 +430,19 @@ font: 14px "Open Sans";
     width: 100%;
     margin-bottom: 20px;
     height: 163px;
-    padding: 20px 25px;
+    padding: 16px 23px;
 }
 .form-wrap form a.btn-default{
     min-width: 156px;
     font: 18px "Open Sans";
     height: 57px;
     border-radius: 4px;
+}
+.footer .hdr h2 {
+  margin-bottom: 2px;
+}
+.footer .hdr h2 ~ span {
+  margin-bottom: 25px;
 }
 .footer form input::-webkit-input-placeholder, .footer form textarea::-webkit-input-placeholder {
     color: #737373;
@@ -413,7 +461,7 @@ font: 14px "Open Sans";
     font-size: 18px;
 }
 .contacts i{
-    margin: 7px 10px 0 0;
+    margin: 12px 10px 0 0;
 }
 @media (max-width: 1200px) {
     .top-bar{

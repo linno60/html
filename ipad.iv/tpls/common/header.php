@@ -9,7 +9,7 @@
     <nav data-flex="row-center">
         <a class="btn" href="#">Home</a>
         <a class="btn" href="#">ipad apps</a>
-        <a class="btn" href="#">Demostrations</a>
+        <a class="btn" href="#">Demonstrations</a>
         <a class="btn" href="#">Leopards media</a>
         <a class="btn" href="#">Connect us</a>
     </nav>

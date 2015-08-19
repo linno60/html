@@ -5,56 +5,62 @@ a{
     min-height: 90px;
     margin: auto;
     max-width: 960px;
-    padding: 10px;
+    padding: 10px 10px 10px 12px;
 }
 header{
     background-color: #5b6069;
 }
 .nav a{
-    margin: 21px 0 21px 42px;
+    margin: 21px 0 21px 36px;
     font: 16px "Open Sans";
     color: #fff;
+    letter-spacing: -0.01em;
 }
 .logo{
     color: #d4d4d4;
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
 .logo b{
-    font: 24px "Open Sans";
+    font: 24px/28px "Open Sans";
 }
 .logo small{
-    font: 14px "Open Sans";
+    font: 14px/19px "Open Sans";
+    letter-spacing: -0.028em;
 }
 .logo b span{
     text-transform: uppercase;
 }
 .slider-wrap{
-    background: url('/images/bg.png');    
+    background: url('../images/bg.png');    
     background-size: cover;
 }
 .slider{
     margin: auto;
-    padding: 0 10px;
+    padding: 1px 10px 1px 9px;
     max-width: 960px;
-    min-height: 471px;
+    min-height: 472px;
 }
 .slider > div{
     width: 50%;
     position: relative;
 }
 .slider > div:last-child{
-    padding: 10px;
+    padding: 10px 0px 22px 11px;
 }
 .slider h1{
     color: #fff;
     font: 48px "Open Sans";
     text-shadow: 0 1px 2px rgba(0,0,0,.3);
-    margin-bottom: 15px;
+    margin: 0px 0px 15px -3px;
 }
 .slider p{
     color: #335565;
     font: 18px/21px "Open Sans";
     margin-bottom: 30px;
+    letter-spacing: -0.005em;
+}
+.slider a.btn-more{
+    margin: 0px 0px 0px 2px;
 }
 a.btn-more{
     min-width: 170px;
@@ -63,11 +69,12 @@ font: 18px "Open Sans";
 background-color: rgba(54,116,186,.5);
 text-shadow: 0 1px 2px rgba(0,0,0,.3);
 color: #fff;
+letter-spacing: -0.02em;
 }
 .controls{
     position: absolute;
-    bottom: 31px;
-    right: 0px;
+    bottom: 30px;
+    right: -1px;
 }
 .controls a{
     width: 10px;
@@ -79,8 +86,11 @@ margin: calc(3px/2)
 .controls a.active{
     background-color: #3573b9;
 }
+.about .hdr {
+    margin-bottom: 38px;   
+}
 .hdr {
-    margin-bottom: 50px;
+    margin-bottom: 42px;
     position: relative;    
 }
 .hdr:before, .hdr:after{
@@ -89,15 +99,23 @@ margin: calc(3px/2)
     width: 100%;
     max-width: 225px;
     position: absolute;
-    top: 50%;
+    top: 52%;
     content: "";
     background-color: #5b6169;
 }
 .hdr:before{
-    left: -225px;
+    left: -221px;
 }
 .hdr:after{
-    right: -225px;
+    right: -223px;
+}
+.about .hdr:before{
+    left: -192px;
+    max-width: 276px;
+}
+.about .hdr:after{
+    right: -193px;
+    max-width: 225px;
 }
 .hdr h1{
    color: #5b6169;
@@ -114,10 +132,10 @@ text-transform: uppercase;
     padding: 10px;
 }
 .services {
-    padding: 45px 10px 15px 10px;
+    padding: 44px 10px 13px 10px;
 }
 .about {
-    padding: 45px 10px 63px 10px;
+    padding: 46px 10px 63px 10px;
 }
 a.btn-default, .btn-default{
     font: 14px "Open Sans";
@@ -130,14 +148,15 @@ text-shadow: 0 1px 2px rgba(0,0,0,.3);
 .services article p{
     color: #4d4d4d;
     font: 14px/18px "Arial";
-    margin-bottom: 25px;
+    margin-bottom: 29px;
     text-align: center;
+    letter-spacing: -0.01em;
 }
 .services article h3{
     color: #3573b9;
     text-transform: uppercase;
      font: 22px "Open Sans";
-    margin: 25px 0;
+    margin: 24px 0 21px 0;
     text-align: center;   
 }
 .services article{
@@ -154,24 +173,30 @@ text-shadow: 0 1px 2px rgba(0,0,0,.3);
     background-color: #d1d1d1;
 }
 .about .hdr + div > div{
+    width: 48.9%;
+}
+.about .hdr + div > div:first-child{
     width: 49%;
 }
 .about .hdr + div > div img {
     width: 100%;
+    margin: 11px 0px -2px 0px;
 }
 .about p{
      color: #4d4d4d;
     font: 14px/21px "Arial";
-    margin-bottom: 25px;
+    
+     margin-bottom: 26px;
+     letter-spacing: 0.008em;
 }
 .about h2{
      color: #3573b9;
-     margin-bottom: 10px;
+     margin-bottom: 11px;
      font: 36px "Open Sans";
 }
 .about h3{
      color: #3573b9;
-     margin-bottom: 7px;
+     margin-bottom: 11px;
      font: 24px "Open Sans";
      text-transform: uppercase;
 }
@@ -186,16 +211,20 @@ font-family: "Open Sans";
 }
 .about form input{
     height: 30px;
-    padding: 0 10px;
+    padding: 0 9px;
 }
 .about form textarea{
-    height: 79px;
+    height: 80px;
     resize:none;
-    padding: 10px;
+    padding: 6px 10px 10px 10px;
 }
 .about form textarea + div{
     margin-right: 1px;
     background-color: #f1f1f1;
+}
+.about form .btn-default{
+    min-width: 91px;
+    text-transform:  uppercase;
 }
 .about form input::-webkit-input-placeholder, .about form textarea::-webkit-input-placeholder {
     font-family: "Open Sans"; 
@@ -236,16 +265,16 @@ text-transform: uppercase;
 background-color: #818181;
 }
 .skill:nth-child(1):after{
-    width: 7%;
+    width: 6.5%;
 }
 .skill:nth-child(2):after{
-    width: 4%;
+    width: 4.4%;
 }
 .skill:nth-child(3):after{
-    width: 15%;
+    width: 13%;
 }
 .skill:nth-child(4):after{
-    width: 20%;
+    width: 15%;
 }
 .skill:last-child{
     margin-bottom: 0px;

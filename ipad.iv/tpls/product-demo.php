@@ -11,7 +11,7 @@
     <body>
         <?= require_tpl('common/header') ?>
         <section class="content-wrap">
-            <div class='content'>
+            <div class='content product-demo'>
                 <div class="hdr" data-flex="row-center-between">
                     <h1 data-flex='col'>
                         <b>Dublin's iphone apps Online Demonstration</b>
@@ -38,6 +38,7 @@
                                 <li>Dummy text ever since the 1500s, when an unknown printer </li>
                                 <li>Took a galley of type and scrambled it to make a type specimen book. </li>
                                 <li>It has survived not only five centuries, but also the </li>
+                                <li>Dummy text ever since the 1500s, when an unknown printer</li>
                             </ul>
                         </div>
                     </div>
@@ -65,9 +66,9 @@
                         <h2>Play now</h2>
                         <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <section class='specification-wrap'>
-                        <div data-flex='row-start-between' class='specification'>
-                            <div data-flex='row--center'>
+                    <section class='specification-wrap variations'>
+                        <div data-flex='row-start' class='specification'>
+                            <div data-flex>
                                 <img src="images/img10.png">
                             </div>
                             <div data-flex="col">
@@ -79,10 +80,9 @@
                                     <li>Industry. Lorem Ipsum has been the industry's standard </li>
                                     <li>Dummy text ever since the 1500s, when an unknown printer </li>
                                     <li>Took a galley of type and scrambled it to make a type specimen book. </li>
-                                    <li>It has survived not only five centuries, but also the </li>
                                 </ul>
                                 <div data-flex>
-                                    <a href='#' class='btn btn-default'>Read More</a>
+                                    <a href='#' class='btn btn-default'>Buy now</a>
                                     <a href='#' class='btn btn-default alt'>Download</a>
                                 </div>
                             </div>

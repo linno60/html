@@ -15,6 +15,7 @@
                 <i class="icon-logo"></i>
                 <h1>working<br> with design lab</h1>
                 <p>we've been helping startups launch and grow their businesses. we help you to fill the gap between development, design and product management.</p>
+            <i class="icon-mouse"></i>
             </div>
         </header>
         <section class='about-wrap' data-flex='col-center-center'>

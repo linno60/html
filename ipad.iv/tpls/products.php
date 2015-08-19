@@ -24,7 +24,7 @@
                         </form>
                     </div>
                 <div class="slider-grid" data-flex="row--around">
-                    <figure>
+                    <figure data-flex="col-start">
                         <img src="images/img4.png">
                         <figcaption data-flex-col>
                             <h2>ipad image viewer</h2>
@@ -32,7 +32,7 @@
                         </figcaption>
                         <a href='#' class='btn btn-default'>Read More</a>
                     </figure>
-                    <figure>
+                    <figure data-flex="col-start">
                         <img src="images/img5.png">
                         <figcaption data-flex-col>
                             <h2>ipad image viewer</h2>
@@ -40,7 +40,7 @@
                         </figcaption>
                         <a href='#' class='btn btn-default'>Read More</a>
                     </figure>
-                    <figure>
+                    <figure data-flex="col-start">
                         <img src="images/img4.png">
                         <figcaption data-flex-col>
                             <h2>ipad image viewer</h2>
@@ -54,8 +54,8 @@
             </div> 
             <div class="tabs">
                     <div class="_nav">
-                        <a href="#tab1" class="btn active" >All</a>
-                        <a href="#tab2" class='btn'>Mobile Apps</a>
+                        <a href="#tab1" class="btn active" >Most Popular</a>
+                        <a href="#tab2" class='btn'>Recent</a>
                     </div>
                     <div class="_content">
                         <div id="tab1" class="grid" data-flex='row--between'>

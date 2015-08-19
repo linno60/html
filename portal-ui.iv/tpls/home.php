@@ -103,13 +103,13 @@
             <div class='hdr' data-flex='row-center'>
                 <img src="images/target.png">
                 <div>
-                    <h2>What we do?</h2>
+                    <h2>What we do ?</h2>
                     <p>Everything you need to do business intelligence right.</p>
                 </div>
             </div>
             <div class='column-wrap' data-flex='row--between'>
                 <div class='column'>
-                    <article data-flex='row'>
+                    <article data-flex='row-start'>
                         <div class='image' data-flex='row-center-center'>
                             <img src="images/setting.png">
                         </div>                       
@@ -118,7 +118,7 @@
                             <p>ISAMA Pvt. Ltd. designs and develops creative websites utilizing the latest technologies.</p>
                         </div>                        
                     </article>
-                    <article data-flex='row'>
+                    <article data-flex='row-start'>
                         <div class='image' data-flex='row-center-center'>
                             <img src="images/coub.png">
                         </div>                        
@@ -127,7 +127,7 @@
                             <p>with our software for professional services and consulting firms. Grow your revenue and profit margins by assigning the right people to the right projects at the right time.</p>
                         </div>                        
                     </article>
-                    <article data-flex='row'>
+                    <article data-flex='row-start'>
                         <div class='image' data-flex='row-center-center'>
                             <img src="images/mouse.png">
                         </div>
@@ -137,8 +137,9 @@
                         </div>                        
                     </article>
                 </div>
+                <div class="divider"></div>
                 <div class='column'>
-                    <article data-flex='row'>
+                    <article data-flex='row-start'>
                         <div class='image' data-flex='row-center-center'>
                             <img src="images/mobile.png">
                         </div>
@@ -147,7 +148,7 @@
                             <p>Our Developers helps you to Design, Develop & Distribute Mobile Applications - Smarter & Faster.</p>
                         </div>                        
                     </article>
-                    <article data-flex='row'>
+                    <article data-flex='row-start'>
                         <div class='image' data-flex='row-center-center'>
                             <img src="images/chair.png"> 
                         </div>
@@ -156,7 +157,7 @@
                             <p>We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.</p>
                         </div>                        
                     </article>
-                    <article data-flex='row'>
+                    <article data-flex='row-start'>
                         <div class='image' data-flex='row-center-center'>
                             <img src="images/globe.png">  
                         </div>
@@ -170,7 +171,7 @@
         </section>
         <section class='projects-wrap'>
             <div class='projects'>
-                <div class='hdr' data-flex='row-center'>
+                <div class='hdr' data-flex='row-center-center'>
                     <img src="images/projects.png">
                     <div>
                         <h2>Our Projects</h2>
@@ -178,7 +179,7 @@
                     </div>
                 </div>
                 <div class="tabs tabs-home">
-                    <div class="_nav">
+                    <div class="_nav" data-flex="row-center-center">
                         <a href="#tab1" class="btn" >All</a>
                         <a href="#tab2" class='btn'>Mobile Apps</a>
                         <a href="#tab3" class='btn active'>Identities</a>
@@ -564,7 +565,7 @@
             <div class='hdr' data-flex='row-center'>
                 <img src="images/head.png">
                 <div>
-                    <h2>Meat Our Team</h2>
+                    <h2>Meet Our Team</h2>
                     <p>We have highly qualified staff with distinguished significant experiences in their field who work under pressure.</p>
                 </div>
             </div>

@@ -60,7 +60,7 @@
                         <li>Regular Updates</li>
                         <li>Round The Clock Support</li>
                     </ul>
-                    <a href='#' class='btn btn-default'>view more</a>
+                    <a href='#' class='btn btn-default'>learn more</a>
                 </div>
             </div>
         </section>
@@ -141,14 +141,14 @@
                 </div>
                 <div class="testimonial" data-flex="row-center">  
                   <blockquote data-flex="col--center">
-                      <p>"Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
+                      <p data-flex><span>"</span>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
                       <cite>- Jamie Richardson, Founder of Cocoa Media</cite>
                   </blockquote>
                     <img src="images/circle.png"> 
                 </div>
                 <div class="testimonial" data-flex="row-center">                   
                     <blockquote data-flex="col--center">
-                      <p>"Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
+                      <p data-flex><span>"</span>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
                       <cite>- Kim Thompson, Founder of Rainel</cite>
                   </blockquote> 
                      <img src="images/circle.png"> 
@@ -179,15 +179,15 @@
                             </div>
                         </div>
                         <span data-flex="row-center"><i class="icon-phone"></i><span>(416)&nbsp;555-5252</span></span>
-                        <span data-flex="row-center"><i class="icon-email"></i><a href="mailto:hello@treedhouse.com">hello@treedhouse.com</a></span>
+                        <span data-flex="row-center"><i class="icon-email"></i><a href="mailto:hello@treedhouse.com">hello@treehouse.com</a></span>
                     </div>
                     <div class="posts">
                         <h4>latest posts</h4>
                         <span data-flex="row-start"><i class="icon-news"></i><a href="#">Made With Love In Toronto</a></span>
                         <span data-flex="row-start"><i class="icon-photo"></i><a href="#">Startup News & Emerging Tech</a></span>
-                        <span data-flex="row-start"><i class="icon-photo"></i><a href="#">Bitcoin Will Soon Rule The World</a></span>
-                        <span data-flex="row-start"><i class="icon-photo"></i><a href="#">Wearable technology On The Rise</a></span>
-                        <span data-flex="row-start"><i class="icon-photo"></i><a href="#">Learn web Design In 30 Days!</a></span>
+                        <span data-flex="row-start"><i class="icon-news"></i><a href="#">Bitcoin Will Soon Rule The World</a></span>
+                        <span data-flex="row-start"><i class="icon-news"></i><a href="#">Wearable Technology On The Rise</a></span>
+                        <span data-flex="row-start"><i class="icon-play"></i><a href="#">Learn web Design In 30 Days!</a></span>
                     </div>
                     <div class="tweets">
                         <h4>latest tweets</h4>
@@ -206,9 +206,10 @@
                             <div data-flex="col">
                                 <p>Grab the Free Treehouse web template at FreebiesXpress! </p>
                                 <div>
-                                    <a href="#" class="hashtag">#famousquotes</a>   
+                                    <a href="#" class="hashtag">#freebies</a>
+                                    <a href="#" class="hashtag">#templates</a>
                                 </div>
-                                <time>8 mins ago</time>
+                                <time>2 days ago</time>
                             </div>
                         </div>
                     </div>

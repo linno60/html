@@ -12,7 +12,7 @@
         <header>
             <div class='header'>
                 <div data-flex='row-center-between'>
-                    <a href='#'>
+                    <a href='#' class="logo">
                         <img src="images/logo.png">
                     </a>
                     <nav data-flex='row-center'>
@@ -73,7 +73,7 @@
                         <h4>anne hathaway</h4>
                         <span>CEO / Marketing Guru</span>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-                        <div class='social'>
+                        <div class='social' data-flex>
                             <a href='#' class='btn btn-social'><i class='icon-facebook'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-twitter'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-linkedin'></i></a>
@@ -85,7 +85,7 @@
                         <h4>kate upton</h4>
                         <span>Creative Director</span>
                         <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
-                        <div class='social'>
+                        <div class='social' data-flex>
                             <a href='#' class='btn btn-social'><i class='icon-twitter'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-linkedin'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-mail'></i></a>
@@ -94,9 +94,9 @@
                     <article data-flex='col-center'>
                         <img src="images/olivia.jpg">
                         <h4>olivia wilde</h4>
-                        <span>lead Designer</span>
+                        <span>Lead Designer</span>
                         <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
-                        <div class='social'>
+                        <div class='social' data-flex>
                             <a href='#' class='btn btn-social'><i class='icon-facebook'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-twitter'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-linkedin'></i></a>
@@ -108,7 +108,7 @@
                         <h4>ashley greene</h4>
                         <span>SEO / Developer</span>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                        <div class='social'>
+                        <div class='social' data-flex>
                             <a href='#' class='btn btn-social'><i class='icon-facebook'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-twitter'></i></a>
                             <a href='#' class='btn btn-social'><i class='icon-mail'></i></a>
@@ -120,9 +120,9 @@
         <section class='skills-wrap'>
             <div class='skills' data-flex='col-center-center'>
                 <div class='hdr' data-flex='col-center'>
-                    <h2>we got skills</h2>
+                    <h2>we got skills !</h2>
                     <div class='divider'></div>
-                    <p>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class='grid' data-flex='row--around'>
                     <article data-flex="col-center">
@@ -178,7 +178,7 @@
                         <figure data-flex='col-center'>
                             <img src="images/2.png">
                             <figcaption>
-                                <a href="#">time zone upp ui</a>
+                                <a href="#">time zone app ui</a>
                             </figcaption>
                         </figure>
                         <figure data-flex='col-center'>
@@ -334,11 +334,11 @@
                 <div class='hdr' data-flex='col-center'>
                 <h2>get in touch</h2>
                 <div class='divider'></div>
-                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-111</p>
+                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
             </div>
                 <form action="#" method="post" data-flex="col-center">
                     <div data-flex="row--between">
-                        <input type="text" placeholder="Your name">
+                        <input type="text" placeholder="Your Name">
                         <input type="text" placeholder="Your Email">
                     </div>
                     <textarea placeholder="Your Message"></textarea>
@@ -350,10 +350,10 @@
                    <a href="#">Facebook</a>
                    <a href="#">Twitter</a> 
                    <a href="#">Google+</a> 
-                   <a href="#">LinkdedIn</a> 
+                   <a href="#">LinkedIn</a> 
                    <a href="#">Behance</a>
-                   <a href="#">Dribble</a> 
-                   <a href="#">Github</a> 
+                   <a href="#">Dribbble</a> 
+                   <a href="#">GitHub</a> 
                 </div>
             </section>
         </footer>

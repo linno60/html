@@ -45,7 +45,7 @@
             </div>
             <div>
                 <h1>cowhide standard crew</h1>
-                <p>White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </p>
+                <p>White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of or&shy;ganic cotton and comes in a regular fit. </p>
                 <a href='#' class='btn btn-shop'>shop now</a>
                 <div class='controls' data-flex='row-center'>
                     <a href='#'></a>
@@ -57,7 +57,7 @@
             </div>
         </section>
         <section class='slider-product-wrap'>
-            <div class='slider-product' data-flex='row--between'>
+            <div class='slider-product' data-flex='row--center'>
                 <div class='slider-side' data-flex='row-center-center'>
                     <a href='#' class='btn btn-arrow'><i class='icon-left'></i></a>
                 </div>
@@ -96,7 +96,7 @@
             </div>
         </section>
         <section class='heading' data-flex='row-center'>
-            <h1>feature products</h1>
+            <h1>featured products</h1>
         </section>
         <section class='futured-wrap'>
             <div class='futured' data-flex='row--around'>

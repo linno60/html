@@ -15,7 +15,7 @@
             <a href="#" class="btn btn-arrow right"><i class="icon-arrow-right"></i></a>
             <section class="banner" data-flex="col-start-end">
                 <div class="banner-box">
-                    <h1>Welcome to SevenOaks website <span>which is run by the friends of SevenOaks</span></h1>
+                    <h1>Welcome to SevenOaks website <span>which is run by the friends of SevenOaks.</span></h1>
                 </div>
             </section>
         </header>
@@ -32,14 +32,14 @@
                     <img src="images/img2.png">
                     <figcaption data-flex="col-end-end">
                         <h4>give online</h4>                        
-                        <a href="#" class="btn btn-info"><em>Quick & easy online ginving</em><div class="lbl lbl-info"><i class="icon-arrow"></i></div></a>
+                        <a href="#" class="btn btn-info"><em>Quick & easy online giving</em><div class="lbl lbl-info"><i class="icon-arrow"></i></div></a>
                     </figcaption>                    
                 </figure>
                 <figure class="prayer" data-flex>
                      <img src="images/img3.png">
                     <figcaption data-flex="col-end-end">
                         <h4>prayer</h4>                       
-                        <a href="#" class="btn btn-info"><em>Submint your prayer request</em><div class="lbl lbl-info"><i class="icon-arrow"></i></div></a>
+                        <a href="#" class="btn btn-info"><em>Submit your prayer request</em><div class="lbl lbl-info"><i class="icon-arrow"></i></div></a>
                     </figcaption>                   
                 </figure>
             </div>

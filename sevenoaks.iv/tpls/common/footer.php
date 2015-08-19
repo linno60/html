@@ -4,7 +4,7 @@
             <h4>signup to our newsletter</h4>
             <a href="#" class="btn btn-default">email signup</a>
         </div>
-        <div>
+        <div class="service">
             <h4>service times</h4>
             <span class="time">Sundays at 9:30 & 11:30 AM</span><br>
             <span>Lorem ipsum dolor sit amet.</span>

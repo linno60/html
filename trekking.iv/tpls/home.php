@@ -21,7 +21,7 @@
             </nav>
             <div data-flex='col-center-center'>
                 <h1>Our clothing , your comfort</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua.</p>
             </div>
             <a href='#'><i class='icon-check'></i></a>
         </header>
@@ -50,7 +50,7 @@
                     <a href='#'><i class='icon-right'></i></a>
                 </div>
             </div>
-            <div class='grid' data-flex='row-start'>
+            <div class='grid' data-flex='row-start-between'>
                 <a href='#' class='product' data-flex='col-center-between'>
                     <div data-flex='row-center-between'>
                         <span class='size' data-flex='row-center'>size<i class='icon-down'></i></span>
@@ -79,7 +79,7 @@
                 </a>
                 <a href='#' class='product' data-flex='col-center-between'>
                     <div data-flex='row-center-between'>
-                        <span class='size' data-flex='row-center'>10 litr<i class='icon-down'></i></span>
+                        <span class='size' data-flex='row-center'>10 litri<i class='icon-down'></i></span>
                         <div class='color'></div>
                     </div>
                     <img src="images/3.png">
@@ -159,12 +159,16 @@
                 </div>
                 <div class="footer-nav" data-flex="col-end">
                     <div>
-                        <a href="#">credits<span>|</span></a>
-                    <a href="#">privacy<span>|</span></a>
-                    <a href="#">our teams</a>
+                        <a href="#">credits</a>
+                        <span>|</span>
+                        <a href="#">privacy</a>
+                        <span>|</span>
+                        <a href="#">about</a>
+                        <span>|</span>
+                        <a href="#">contact</a>
                     </div>
-                    <span>Copyright by phototime - all right reserved</span>
-                </div> 
+                    <span>Design by gianluca cosetta</span>
+                </div>  
             </div>
         </footer>
     </body>

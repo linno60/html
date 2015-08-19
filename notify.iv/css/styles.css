@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('/fonts/HelveticaNeue.ttf');
+    src: url('../fonts/HelveticaNeue.ttf');
 }
 a{
     text-decoration: none;
@@ -20,30 +20,30 @@ a{
 .icon-gear{
     width: 44px;
     height: 44px;
-    background: url('/images/icons/gear.png');
+    background: url('../images/icons/gear.png');
 }
 .icon-linkedin{
     width: 16px;
     height: 16px;
-    background: url('/images/icons/16x16/linkedin.png');
+    background: url('../images/icons/16x16/linkedin.png');
 }
 .icon-youtube{
     width: 24px;
     height: 24px;
-    background: url('/images/icons/24x24/youtube.png');
+    background: url('../images/icons/24x24/youtube.png');
 }
-.icon-apple{background: url('/images/icons/28x28/apple.png');}
-.icon-android{background: url('/images/icons/28x28/android.png');}
-.icon-windows{background: url('/images/icons/28x28/windows.png');}
-.icon-facebook{background: url('/images/icons/20x20/facebook.png');}
-.icon-google{background: url('/images/icons/20x20/google.png');}
-.icon-pinterest{background: url('/images/icons/20x20/pinterest.png');}
-.icon-twitter{background: url('/images/icons/20x20/twitter.png');}
-.icon-globe{background: url('/images/icons/48x48/globe.png');}
-.icon-star{background: url('/images/icons/48x48/star.png');}
+.icon-apple{background: url('../images/icons/28x28/apple.png');}
+.icon-android{background: url('../images/icons/28x28/android.png');}
+.icon-windows{background: url('../images/icons/28x28/windows.png');}
+.icon-facebook{background: url('../images/icons/20x20/facebook.png');}
+.icon-google{background: url('../images/icons/20x20/google.png');}
+.icon-pinterest{background: url('../images/icons/20x20/pinterest.png');}
+.icon-twitter{background: url('../images/icons/20x20/twitter.png');}
+.icon-globe{background: url('../images/icons/48x48/globe.png');}
+.icon-star{background: url('../images/icons/48x48/star.png');}
 header{
     border-top: 10px solid #2dcb71;
-    background: url('/images/bg.png') no-repeat;
+    background: url('../images/bg.png') no-repeat;
     background-size: cover;
 }
 .header{
@@ -59,6 +59,8 @@ header{
 }
 .header > div:first-child{
     padding: 50px 0px 10px 120px
+;
+    width: 49%;
 }
 .header > div > img{
     width: 100%;
@@ -69,16 +71,18 @@ header{
 .header h1{
     color: #fff;
 font: 60px "Pacifico";
-margin-bottom: 30px;
+
+    margin-bottom: 27px;
 }
 .header h1 span{
     color: #2dcb71;
 }
 .header p{
-    max-width: 590px;
+    /* max-width: 460px; */
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     font: 24px/36px "Helvetica Neue";
+    letter-spacing: 0.012em;
 }
 .systems{
     flex-wrap: wrap;
@@ -97,19 +101,19 @@ margin: 8px 16px 8px 0;
 }
 .features{
     flex-wrap: wrap;
-    padding: 60px 10px 20px 10px;
-    max-width: 1220px;
+    padding: 61px 10px 26px 10px;
+    max-width: 1227px;
 }
 .features article{
     max-width: 350px;
     margin-bottom: 30px;
 }
 .features article h3{
-    margin: 30px 0 25px 0;
+    margin: 30px 0 22px 0;
 }
 .features article h3, .form h3{
     color: #212121;    
-    font: 600 22px/18px "Raleway";
+    font: 600 22px/17px "Raleway";
 }
 .features article p{
     text-align: center;
@@ -128,16 +132,19 @@ margin: 8px 16px 8px 0;
     background-color: #e3e3e3;
 }
 .form{
-    padding: 60px 10px;
+    padding: 60px 10px 60px 10px;
 }
-.form > *{
+.form > form{
     width: 48%;
 }
+.form > .video{
+    width: 42.5%;
+}
 .form p{
-    margin-bottom: 20px;
+    margin: 0 20px 23px 0px;
 }
 .form h3{
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 .form form{
     padding-bottom: 85px;
@@ -180,29 +187,30 @@ margin: 8px 16px 8px 0;
 }
 .form iframe{
     width: 100%;
-    max-height: 361px;
+    max-height: 360px;
     max-width: 545px;
+    border-radius: 10px;
 }
 .testimonials{
-    padding: 50px 10px 60px 10px;
+    padding: 52px 10px 56px 10px;
 }
 .testimonials blockquote{
     text-align: center;
     max-width: 840px;
     margin: auto;
     color: #838383; 
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     font: italic 18px/30px "Helvetica Neue";
 }
 .testimonials blockquote p{
-    margin-bottom: 16px;
+    margin-bottom: 13px;
 }
 .testimonials blockquote cite{
     color: #2d2d2d;    
     font: 700 18px/20px "Raleway";
 }
 .images {
-    margin-bottom: 55px;
+    margin-bottom: 49px;
     flex-wrap: wrap; 
 }
 .images > div{
@@ -211,7 +219,7 @@ margin: 8px 16px 8px 0;
 }
 .images > div:hover .overlay{
     display: block;
-    cursor:url(/images/cursor.cur), pointer;
+    cursor:url(../images/cursor.cur), pointer;
 }
 .overlay{
     position: absolute;
@@ -238,7 +246,8 @@ margin: 8px 16px 8px 0;
     color: #000;
 font: 600 24px "Raleway";
 text-align: center;
-margin-bottom: 15px;
+
+    margin-bottom: 18px;
 }
 .social-wrap span{
     color: #848484;
@@ -246,7 +255,7 @@ font:16px "Helvetica Neue";
 text-align: center;
 }
 .social{
-    margin-top: 20px;
+    margin-top: 21px;
     flex-wrap: wrap;
 }
 .btn-social{

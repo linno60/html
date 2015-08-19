@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('/fonts/BebasNeue.otf');
+    src: url('../fonts/BebasNeue.otf');
 }
 @font-face {
     font-family: 'Lobster 1.4';
-    src: url('/fonts/Lobster1.4.otf');
+    src: url('../fonts/Lobster1.4.otf');
 }
 .icon-search{
     width: 24px;
     height: 24px;
-    background: url('/images/search.png');
+    background: url('../images/search.png');
 }
 .icon-left, .icon-right{
     width: 32px;
     height: 88px;
 }
 .icon-left{
-    background: url('/images/left.png');
+    background: url('../images/left.png');
 }
 .icon-right{
-    background: url('/images/right.png');
+    background: url('../images/right.png');
 }
 .icon-cart{
     width: 44px;
     height: 44px;
-    background: url('/images/cart.png');
+    background: url('../images/cart.png');
 }
 body{
     background-color: #3dbfb4;
@@ -39,9 +39,12 @@ a {
     max-width: 1024px;
     margin: auto;
 }
+.heading{
+    max-width: 1009px;
+}
 .header{
-    min-height: 81px;
-    padding: 0 21px;
+    min-height: 82px;
+    padding: 0px 12px 0px 31px;
 }
 .logo{
    color: #3bc3b4;
@@ -52,10 +55,11 @@ background-color: #4ccfc1;
 box-shadow: 0 1px 3px rgba(0,0,0,.08);
 }
 .search{
-    margin: 0 20px;
+    margin: 2px 20px 0px 36px;
     width: 100%;
-    max-width: 434px;
-height: 31px;
+    max-width: 436px;
+
+    height: 33px;
 border: 1px solid #e1e1e1;
 background-color: #fff;
 padding: 0 7px 0 15px;
@@ -65,18 +69,20 @@ padding: 0 7px 0 15px;
     border: none;
 }
 .cart span{
-    margin-left: 15px;
+    margin-left: 14px;
+    margin-top: 5px;
     font: 33px "Bebas Neue";
     color: #a0a0a0;
 }
 .nav{
     min-height: 36px;
     flex-wrap:wrap;
+    padding: 0px 0px 0px 13px;
 }
 .nav a{
     font: 21px/19px "Bebas Neue";
     color: #fff;
-    padding: 0 21px;
+    padding: 0px 14px 0px 14px;
     border-left: 1px solid #fff;
     margin: 5px 0;
 }
@@ -84,13 +90,13 @@ padding: 0 7px 0 15px;
     border-left: none;
 }
 .slider-top{
-    min-height: 444px;
+    /* min-height: 449px; */
 }
 .slider-top img{
     width: 100%;
     max-width: 280px;
     max-height: 328px;
-    margin: 10px;
+    margin: 20px 19px 6px 10px;
 }
 .slider-top p{
     color: #fff;
@@ -101,7 +107,7 @@ max-width: 410px;
 .slider-top h1{
     color: #fff;
     max-width: 350px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font: 61px/54px "Bebas Neue";
 }
 .slider-top > div:first-child{
@@ -109,19 +115,21 @@ max-width: 410px;
 }
 .slider-top > div:last-child{
     width: 55%;
-    padding: 80px 20px 20px 10px;
+    padding: 80px 20px 32px 4px;
 }
 a.btn-shop{
-   min-width: 133px;
+   min-width: 139px;
 min-height: 46px;
 border: 3px solid #fff;
 border-radius: 8px; 
 color: #fff;
 margin-bottom: 48px;
-    font: 27px "Bebas Neue";
+    
+   margin-left: 4px;
+   font: 27px "Bebas Neue";
 }
 .controls a{
-    margin: 2px 5px;
+    margin: 2px 5px 2px 8px;
     width: 9px;
 height: 9px;
 border-radius: 50%;
@@ -141,6 +149,7 @@ background-color: #fff;
 .slider{
     max-width: 1024px;
     width: 100%;
+    margin: 0 54px 0 54px;
 }
 .slider figure:first-child{
     border-left: none;
@@ -159,7 +168,8 @@ figure h2, figure span{
     font: 27px/25px "Bebas Neue";
 }
 .slider figure h2{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 11px;
 }
 .slider figure > figcaption{
     max-width: 35%;
@@ -177,8 +187,8 @@ background-color: #3cc394;
     margin: 10px;
 }
 .heading{
-    min-height: 66px;
-    padding: 10px 58px;
+    min-height: 67px;
+    padding: 16px 58px 10px 58px;
 }
 .heading h1{
     font: 31px "Bebas Neue";
@@ -189,20 +199,21 @@ background-color: #3cc394;
 }
 .futured{
     flex-wrap: wrap;
-    padding: 20px 40px;
+    padding: 22px 40px 52px 40px;
 }
 .futured figure{
     padding: 20px;
     max-width: 300px;
     min-width: 253px;
 min-height: 260px;
-margin: 26px;
+
+    margin: 26px 34px 21px 27px;
 border-bottom: 5px solid #3cc395;
 background-color: #fff;
 box-shadow: 0 0 3px rgba(0,0,0,.16);
 }
 .futured figure h2{
-    margin: 12px 0;
+    margin: 6px 0 7px 0;
 }
 .futured figure span{
     display: inline-block;
@@ -219,21 +230,22 @@ color: #fff;
 font: 15px/28px "Open Sans";
 }
 .footer{
-    padding: 40px 60px 0 60px;
+    padding: 36px 89px 0 60px;
     flex-wrap: wrap;
 }
 .footer > div{
     min-width: 150px;
-    margin: 5px 5px 40px 5px;
+    margin: 5px 5px 33px 5px;
 }
 .footer h3{
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     font: 27px/25px "Bebas Neue";
 }
 .footer li a{
     color: #fff;
-    font: 15px/25px "Open Sans";
+    font: 15px/28px "Open Sans";
+    padding-left: 5px;
 }
 .footer li a:hover{
     text-decoration: underline;

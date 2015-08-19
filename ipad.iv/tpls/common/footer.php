@@ -9,7 +9,7 @@
         <div class="footer" data-flex='row--between'>
             <div class='newsletter'>
                 <h3>Newsletter</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typeset&shy;ting industry. Lorem Ipsum has been the industry's </p>
                 <form action='#' method='post' data-flex='row-center'>
                     <input type='text' placeholder='enter your email address'>
                     <button><span class='btn btn-form'>Subscribe</span></button>

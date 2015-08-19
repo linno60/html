@@ -11,7 +11,7 @@
     <body>        
         <header>
             <div class="header" data-flex="row-center-between">
-                <a href="#" class="logo">Pulse&nbsp;*</a>
+               <a href="#" class="logo" data-flex><span>Pulse&nbsp;</span><small>*</small></a>
                 <nav class="nav" data-flex="row-center">
                     <a href="#" class="active">home</a>
                     <a href="#">services</a>
@@ -28,9 +28,9 @@
                       <img src="images/img3.png">
                 </div>
                 <div data-flex="col-start">
-                    <h1>Download Excellent PSD Template</h1>
-                    <p>GraphicsFuel.com is a design blog where you can download high quality “Photoshop Freebies” with the original source files in .PSD format.  Absolutely free!</p>
-                    <a href="#" class="btn btn-browse"><em>Browse Template</em><span data-flex="row-center-center"><i class="icon-browse"></i></span></a>
+                    <h1>Download Excellent PSD Templates</h1>
+                    <p>GraphicsFuel.com is a design blog where you can download high quality “Photoshop Freebies” with the original source files in .PSD format.&ensp;Absolutely free!</p>
+                    <a href="#" class="btn btn-browse"><em>Browse Templates</em><span data-flex="row-center-center"><i class="icon-browse"></i></span></a>
                     <div class="controls" data-flex>
                         <a href="#"></a>
                         <a href="#" class="active"></a>
@@ -52,17 +52,17 @@
                     <article>
                         <h4>Service Text Heading #1</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id accumsan massa. Donec suscipit commodo velit. Fusce pharetra mi sit amet felis auctor tempor. Donec vel odio enim, id ultricies odio. </p>
-                        <a href="#" class="btn btn-default">More ::</a>
+                        <a href="#" class="btn btn-default">More&ensp;::</a>
                     </article>
                     <article>
-                        <h4>Service Text Heading #1</h4>
+                        <h4>Service Text Heading #2</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id accumsan massa. Donec suscipit commodo velit. Fusce pharetra mi sit amet felis auctor tempor. Donec vel odio enim, id ultricies odio. </p>
-                        <a href="#" class="btn btn-default">More ::</a>
+                        <a href="#" class="btn btn-default">More&ensp;::</a>
                     </article>
                     <article>
-                        <h4>Service Text Heading #1</h4>
+                        <h4>Service Text Heading #3</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id accumsan massa. Donec suscipit commodo velit. Fusce pharetra mi sit amet felis auctor tempor. Donec vel odio enim, id ultricies odio. </p>
-                        <a href="#" class="btn btn-default">More ::</a>
+                        <a href="#" class="btn btn-default">More&ensp;::</a>
                     </article>
                 </div>
                 <div class="slideshow">
@@ -129,10 +129,11 @@
                 </div>
                 <div>
                     <h5>Get In Touch With Us</h5>
-                    <form action="#" method="post" data-flex="col">
+                    <form action="#" method="post" data-flex="col-start">
                         <input type="text" placeholder="Your Name">
                         <input type="text" placeholder="Your Email">
                         <textarea type="text" placeholder="Your Message"></textarea>
+                        <button><span class="btn btn-default">Sumbit&nbsp;::</span></button>
                     </form>
                 </div>
             </div>

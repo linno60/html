@@ -30,7 +30,7 @@
                     <img src="images/phone.png">
                 </div>
                 <div data-flex="col-start-center">
-                    <h1>iOs apps for free</h1>
+                    <h1>iOS apps for free</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus augue vitae est volutpat eleifend.</p>
                     <a href="#" class="btn btn-more">more info</a>
                     <div class="controls" data-flex>
@@ -54,13 +54,13 @@
                 </article>
                 <article data-flex="col-center">
                     <img src="images/android.png">
-                    <h3>heading 1</h3>
+                    <h3>heading 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus augue vitae est volutpat eleifend. </p>
                     <a href="#" class="btn btn-default">more info</a>
                 </article>
                 <article data-flex="col-center">
                     <img src="images/win8.png">
-                    <h3>heading 1</h3>
+                    <h3>heading 3</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus augue vitae est volutpat eleifend. </p>
                     <a href="#" class="btn btn-default">more info</a>
                 </article>
@@ -74,7 +74,7 @@
                 <div data-flex="row--between">
                     <div>
                         <h2>Tempees.com</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus augue vitae est volutpat eleifend. Donec lobortis tellus quis nulla varius nec sagittis dui vestibulum. Mauris volutpat tellus id est suscipit placerat. Integer ut feugiat nisi. Etiam dictum condimentum mauris, nec pellentesque augue dignissim ut. Integer commodo vulputate ipsum at vehicula. Fusce sit amet metus quam. In hac habitasse platea dictumst.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi faucibus augue vitae est volutpat eleifend. Donec lobortis tellus quis nulla varius nec sagittis dui vestibulum. Mauris volutpat tellus id est suscipit placerat. Integer ut feugiat nisi. Etiam dictum condimentum mauris, nec pellen&shy;tesque augue dignissim ut. Integer commodo vulputate ipsum at vehicula. Fusce sit amet metus quam. In hac habitasse platea dictumst.</p>
                         <h3>skills</h3>
                         <div data-flex="col">
                             <a href="#" data-flex="row-center" class="skill">html / html5</a>

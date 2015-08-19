@@ -4,52 +4,65 @@ a{
 .icon-logo{
     width: 67px;
     height: 70px;
-    background: url('/images/icon1.png')no-repeat;
-    margin-bottom: 90px
+    background: url('../images/icon1.png')no-repeat;
+    margin-bottom: 80px;
+    margin-top: 260px;
 }
 .icon-logo-alt{
     width: 35px;
     height: 37px;
-    background: url('/images/icon5.png')no-repeat;
-    margin-right: 10px;
+    background: url('../images/icon5.png')no-repeat;
+    margin-right: 35px;
 }
 .icon-design{
     width: 80px;
     height: 83px;
-    background: url('/images/icon2.png')no-repeat;
+    background: url('../images/icon2.png')no-repeat;
+}
+.icon-mouse{
+    width: 23px;
+    height: 37px;
+    background: url('../images/mouse.png')no-repeat;
+    margin-top: 236px;
 }
 .icon-develope{
     width: 79px;
     height: 76px;
-    background: url('/images/icon3.png')no-repeat;
+    background: url('../images/icon3.png')no-repeat;
 }
 .icon-product{
     width: 79px;
     height: 91px;
-    background: url('/images/icon4.png')no-repeat;
+    background: url('../images/icon4.png')no-repeat;
 }
 header{
-    padding: 30px 10px 45px 10px;
-    height: 1072px;
-    background: url('/images/img1.png')no-repeat; 
+    padding: 30px 10px 42px 10px;
+    height: 1073px;
+    background: url('../images/img1.png')no-repeat; 
     background-size: cover;
+}
+header > div{
+    margin-bottom: 79px;
 }
 header h1, header p{
     text-transform: uppercase;
     color: #fff;
     text-align: center;
+    letter-spacing:  0.2em;
 }
 header h1{
-    font: 700 54px "Lato";
-    max-width: 500px;
-    margin-bottom: 50px;
+    font: 700 54px/64px "Lato";
+    max-width: 650px;
+    margin-bottom: 33px;
+    letter-spacing: 0.16em;
 }
 header p{
-    font: 15px/30px "Lato";
+    font: 15px/29px "Lato";
     max-width: 600px;
+    letter-spacing: 0.057em;
 }
 .works{    
-    margin: 0 -14px 70px -14px;
+    margin: 0 -14px 10px -14px;
 }
 .works a{
     margin:0 5px 9px 5px;
@@ -58,34 +71,40 @@ header p{
 .works a span{
     text-transform: uppercase;
     font: 700 34px "Lato";
-    left: 44px;
-    bottom: 42px;
+    left: 48px;
+    bottom: 35px;
     position: absolute;
     color: #fff;
+    letter-spacing: 0.15em;
 }
 .works a img{
     width: 100%;
 }
 .about-wrap{
     min-height: 630px;
-}
-.about{
-    min-height: 312px;
+    padding: 30px 10px 30px 10px;
 }
 .services-wrap{
     min-height: 488px;
-    background: url('/images/img2.png')no-repeat; 
+    padding: 47px 10px 30px 10px;
+    background: url('../images/img2.png')no-repeat; 
 }
 .direction-wrap{
-    min-height: 1414px;
+    /* min-height: 1414px; */
 }
 .contacts-wrap{
     min-height: 419px;
+    padding: 119px 10px 63px 10px;
 }
 .contacts p, .direction p, .about p, .services p{
-    font: 15px/24px "Lato";
+    font: 16px/26px "Lato";
     margin-bottom: 20px;
-    max-width: 550px;
+    max-width: 557px;
+    letter-spacing: 0.003em;
+}
+.contacts p{
+    margin-bottom: 38px;
+    letter-spacing: -0.014em;
 }
 .contacts p:last-child, .direction p:last-child, .about p:last-child, .services p:last-child{
     margin-bottom: 0px;
@@ -93,7 +112,8 @@ header p{
 .direction h3{
     font: 700 20px "Lato";
     text-transform: uppercase;
-    margin: 35px 0;
+    margin: 33px 0px 25px 0px;
+    letter-spacing: 0.16em;
 }
 .direction i{
     margin-top: 20px;
@@ -101,20 +121,25 @@ header p{
 .contacts h2, .direction h2, .about h2, .services h2{
     position: absolute;
     background-color: #fff;
-    top: -20px;
+    top: -24px;
     left: 50%;
     transform: translateX(-50%);
     text-transform: uppercase;
     color: #3c3c3c;
     padding: 0 30px;
-    font: 700 30px "Lato";
+    font: 700 34px "Lato";
     min-width: 420px;
+    letter-spacing: 0.16em;
 }
-.contacts-wrap, .direction-wrap, .about-wrap, .services-wrap{
-    padding: 30px 10px;
+.contacts h2{
+    font: 700 30px "Lato";
+    top: -15px;
+}
+.direction-wrap{
+    padding: 119px 10px 114px 10px;
 }
 .contacts, .direction, .about, .services{
-    border: 3px solid #3c3c3c;
+    border: 2px solid #3c3c3c;
     max-width: 902px;
     width: 100%;
     margin: auto;
@@ -122,15 +147,22 @@ header p{
     position: relative;
     padding: 50px;
 }
+.about{
+    min-height: 312px;
+    padding: 50px 50px 50px 50px;
+}
+.contacts{
+    padding: 67px 50px 48px 50px;
+}
 .direction{
-    padding: 120px 50px 90px 50px;
-    min-height: 1180px;
+    padding: 103px 50px 90px 50px;
+    min-height: 1182px;
 }
 .contacts{
     min-height: 285px;
 }
 .services {
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     border-top: none;
     color: #fff;
     min-height: 250px;
@@ -160,14 +192,23 @@ a.btn-contact{
     color: #fff;
     min-width: 395px;
     height: 58px;
+    font:  16px "Lato";
     text-transform:uppercase;
-    padding: 5px 10px;
+    padding: 3px 10px;
+    letter-spacing: 0.14em;
 }
 footer{
     text-align: center;
     max-width: 902px; 
     margin: auto;
     margin-bottom: 65px;
+}
+footer span{
+    color: #3b3b3b;
+
+    font: 14px "Lato";
+
+    margin-right: 14px;
 }
 @media (max-width: 1000px) {
     .works a span {

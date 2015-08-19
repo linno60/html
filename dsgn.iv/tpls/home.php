@@ -52,9 +52,9 @@
                                 </nav>
                             </div>
                             <address data-flex="col">
-                                <span>9082 california</span>
+                                <span>90802 california</span>
                                 <span>long-beach</span>
-                                <span>po box 6879</span>
+                                <span>po box 68799</span>
                                 <span>300 east ocean</span>
                                 <span>boulevard</span>
                             </address>
@@ -283,7 +283,7 @@
                         <div class="column">
                             <img src="images/img10.png">
                             <h5>awards</h5>
-                            <div data-flex class="awards">
+                            <div data-flex="row--between" class="awards">
                                 <div data-flex="col">
                                     <span>aenean ullamcorper porta</span>
                                     <span>nisl,</span>
@@ -307,7 +307,7 @@
         <section class="designers-wrap">
             <div class="designers" data-flex="row--around">
                 <div>
-                    <h4>staff</h4>
+                    <h5>staff</h5>
                     <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus. </p>
                     <p>Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut. </p>
                     <p>Morbi sagittis diam mauris, in adipiscing nulla convallis ut.</p>
@@ -315,7 +315,7 @@
                 <div>
                     <img src="images/img11.png">
                     <h4>philippe stark</h4>
-                    <span>desingner</span>
+                    <span>designer</span>
                     <div data-flex="row--between">
                         <a data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
                         <div class="social-article" data-flex="row-center">
@@ -386,25 +386,25 @@
         <footer data-flex>
             <div>
                 <i class="icon-point"></i>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8505.038451901682!2d43.965580613990085!3d26.328825230878778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1436953049202" allowfullscreen></iframe>   
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8505.038451901682!2d43.965580613990085!3d26.328825230878778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1436953049202" allowfullscreen></iframe>   
             </div>
             <div data-flex="col">
                 <div class="footer">
                     <div data-flex="row--between">
                         <address data-flex="col">
-                            <span>9082 california</span>
+                            <span>90802 california</span>
                             <span>long-beach</span>
                             <span>po box 6879</span>
                             <span>300 east ocean</span>
                             <span>boulevard</span>
                             <div data-flex="col">
                                 <span>+64 9 345 6758</span>
-                            <a href="mailto:info@design-studio.com">info@design-studio.com</a>
+                                <a href="mailto:info@design-studio.com">info@dsgn-studio.com</a>
                             </div>
                         </address> 
                         <div data-flex="col-center">
                             <div data-flex="col">
-                                <a href="#" class="logo"><img src="images/logo.png"></a>
+                                <a href="#" class="logo" data-flex><img src="images/logo.png"></a>
                                 <span>associates</span>
                                 <span>studio</span>
                                 <span>design</span>
@@ -417,7 +417,7 @@
                             </div>
                         </div>                  
                     </div>
-                    <span class="copy">&copy; 2014  DSGN. All rights reserved - Designed by theuncreativelab.com</span> 
+                    <span class="copy" data-flex="row-center"><span>&copy;</span> 2014&ensp;DSGN. All rights reserved - Designed by theuncreativelab.com</span> 
                 </div>  
             </div>
         </footer>

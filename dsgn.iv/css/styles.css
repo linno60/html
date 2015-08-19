@@ -32,22 +32,22 @@ body{
     width: 60px;
     height: 60px;
 }
-.icon-fb{background: url('/images/icons/16x16/fb.png');}
-.icon-tw{background: url('/images/icons/16x16/tw.png');}
-.icon-in{background: url('/images/icons/16x16/in.png');}
-.icon-gp{background: url('/images/icons/16x16/gp.png');}
-.icon-facebook{background: url('/images/icons/24x24/facebook.png');}
-.icon-heart{background: url('/images/icons/24x24/heart.png');}
-.icon-heart-alt{background: url('/images/icons/24x24/heart-alt.png');}
-.icon-linkedin{background: url('/images/icons/24x24/linkedin.png');}
-.icon-gplus{background: url('/images/icons/20x20/gplus.png');}
-.icon-arrow1{background: url('/images/icons/20x20/arrow1.png');}
-.icon-arrow2{background: url('/images/icons/20x20/arrow2.png');}
-.icon-arrow3{background: url('/images/icons/20x20/arrow3.png');}
-.icon-twitter{background: url('/images/icons/twitter.png');}
-.icon-close{background: url('/images/icons/close.png');}
-.icon-nav{background: url('/images/icons/nav.png');}
-.icon-point{background: url('/images/icons/point.png');}
+.icon-fb{background: url('../images/icons/16x16/fb.png');}
+.icon-tw{background: url('../images/icons/16x16/tw.png');}
+.icon-in{background: url('../images/icons/16x16/in.png');}
+.icon-gp{background: url('../images/icons/16x16/gp.png');}
+.icon-facebook{background: url('../images/icons/24x24/facebook.png');}
+.icon-heart{background: url('../images/icons/24x24/heart.png');margin-bottom: 4px;}
+.icon-heart-alt{background: url('../images/icons/24x24/heart-alt.png');}
+.icon-linkedin{background: url('../images/icons/24x24/linkedin.png');}
+.icon-gplus{background: url('../images/icons/20x20/gplus.png');}
+.icon-arrow1{background: url('../images/icons/20x20/arrow1.png');}
+.icon-arrow2{background: url('../images/icons/20x20/arrow2.png');margin-right: 7px;}
+.icon-arrow3{background: url('../images/icons/20x20/arrow3.png');}
+.icon-twitter{background: url('../images/icons/twitter.png');}
+.icon-close{background: url('../images/icons/close.png');}
+.icon-nav{background: url('../images/icons/nav.png');}
+.icon-point{background: url('../images/icons/point.png');}
 
 header{
     max-height: 500px;
@@ -72,8 +72,8 @@ header{
 }
 .header-right > div{
     max-width: 465px;
-    padding-bottom: 92px;
-    background: url('/images/line1.png') no-repeat -2px 0;
+    padding-bottom: 100px;
+    background: url('../images/line1.png') no-repeat -2px 0;
 }
 .header-right span, .header-right a{
     color: #fff;
@@ -82,6 +82,7 @@ header{
 }
 .logo{
     margin-top: 50px;
+    margin-bottom: 2px;
 }
 .logo ~ span{
     text-transform: uppercase;
@@ -89,22 +90,22 @@ header{
     font: 700 18px/18px "Roboto Condensed";
 }
 .social{
-    margin-top: 55px;
+    margin-top: 50px;
     flex-wrap: wrap;
 }
 .social a{
-    margin: 7px;
+    margin: 7px 8px 7px 2px;
 }
 input[type="radio"]{
     display: none;
 }
 .nav{    
-    padding: 50px 50px 50px 60px;
+    padding: 50px 50px 42px 60px;
 }
 .nav-wrap{
     position: relative;
     width: 125px;
-    margin:0 0 50px 115px;
+    margin: 0 0px 50px 115px;
 }
 nav{
     display: none;
@@ -134,15 +135,15 @@ nav a.btn{
 #r2 + label{
     margin: 0 45px;
 }
-address{
-    margin-top: 40px;
-}
+.mail{
+    margin-right: 47px;}
 section{
     position: relative;
     z-index: 1;
 }
 .header-right address{
     color: #fff;
+    margin-top: 40px;
 }
 .header-right .half a, .header-right .half span{
     color: #fff;
@@ -163,15 +164,16 @@ address{
 .description dd, .description dt{
     display: inline;
 }
-.description dt{
+.description dl dt{
     color: #333;
     text-transform:uppercase;
-    font: 700 12px/10px "Roboto Condensed";
+    font: 700 12px/8px "Roboto Condensed";  
+    height: 10px!important;
 }
-.description dd{
-    color: #333;
+.description dl dd{
+    color: #333;   
     text-transform:uppercase;
-    font:  12px/10px "Roboto Condensed";
+    font: 12px/7px "Roboto Condensed";
 }
 .description h2{
     color: #333;
@@ -188,15 +190,17 @@ address{
     color: #333;
     text-transform:uppercase;
     font:  18px "Roboto Condensed";
+    letter-spacing: -0.02em;
 }
 .description .like{
     color: #f00;
     font:  11px "Roboto Condensed";
 }
-.description dd:after{
-    content: "\A";
+/*.description dd:after{
+     content: "\A"; 
     white-space: pre;
-}
+    height: 10px
+}*/
 
 .projects-left{
     width: 65%
@@ -244,11 +248,15 @@ address{
 }
 .projects-hdr{
     width: 45%;
-    background: #ebb240 url('/images/line2.png') no-repeat;
+    background: #ebb240 url('../images/line2.png') no-repeat;
     background-size: 100%;
 }
+.projects-hdr > div:first-child{
+    height: 60%;
+    min-height: 200px;
+}
 .projects-hdr > div{
-    height: 50%;
+    height: 40%;
     min-height: 250px;
 }
 .half{
@@ -261,6 +269,7 @@ address{
     color: #fff;
     text-transform:uppercase;
     font: 13px/14px "Roboto Condensed";
+    height: 14px;
 }
 .projects-hdr .half a.active, .projects-hdr .half a:hover, .timeline-right .half a.active, .timeline-right .half a:hover{
     color: #000;
@@ -272,19 +281,25 @@ address{
 .projects-hdr .half a.active .icon-arrow1, .projects-hdr .half a:hover .icon-arrow1, .timeline-right .half a.active .icon-arrow1, .timeline-right .half a:hover .icon-arrow1{
     opacity: 1;
 }
+.projects-hdr > div:first-child .half{
+    margin: 172px 0px 0px 34px;
+}
+.projects-hdr > div .half{
+    margin: 50px 19px 0px 0px;
+}
 .fondue{ 
     width: 55%;
     background: #fff; 
 }
 .fondue .description{
-    left: 17%;
-    top: 17%;
+    left: 17.7%;
+    top: 16.4%;
 }
 .fondue .description .view{
-    margin: 70px 0 110px 0;
+    margin: 59px 0 110px 8px;
 }
 .fondue .description .view + div{
-    max-width: 140px;
+    max-width: 159px;
 }
 .louis .description{
     left: 10%;
@@ -294,9 +309,9 @@ address{
     margin: 30px 0;
 }
 .set .description{
-    right: 9%;
+    right: 9.5%;
     left: auto;
-    top: 20%;
+    top: 19%;
 }
 .set .view{
     margin: 0 0 30px 30px;
@@ -305,14 +320,14 @@ address{
     margin: 0 50px 0 30px;
 }
 .potter .description{
-    left: 10%;
-    top: 15%;
+    left: 9%;
+    top: 12%;
     max-width: 40%;
 }
 .tabano .description{
-    left: 12%;
+    left: 13%;
     top: auto;
-    bottom: 7%;
+    bottom: 6%;
 }
 .tabano .view{
     margin: 0 20px;
@@ -321,17 +336,17 @@ address{
     margin: 20px 0;
 }
 .fiji .description{
-    left: 50%;
-    top: 20%;
+    left: 53%;
+    top: 18%;
     max-width: 40%;
 }
 .sesann .description{
-    left: 20%;
+    left: 20.5%;
     top: auto;
-    bottom: 5%;
+    bottom: 1%;
 }
 .alessi .description{
-    left: 50%;
+    left: 52%;
     top: 25%;
     max-width: 50%;
 }
@@ -345,7 +360,7 @@ address{
     color: #fff;
 }
 .set{
-    width: 72.12%;
+    width: 71.3%;
     max-height: 465px;
     min-height: 465px;
     background-color: #eaeaea;
@@ -355,7 +370,7 @@ address{
     max-height: 300px;
 }
 .alessi{
-    width: 28.9%;
+    width: 29.4%;
     background-color: #cecece;
     max-height: 300px;
 }
@@ -371,21 +386,21 @@ address{
 .timeline-right > div{
     max-width: 465px;
     width:100%;  
-    background: url('/images/line3.png') no-repeat -180px 0px;
+    background: url('../images/line3.png') no-repeat -189px 0px;
 }
 .timeline-right h3{
     color: #333; 
     font: 14px "Roboto Condensed";
-    padding-left: 30px;
     text-transform: uppercase;
 }
 .timeline-right .projects-hdr .half a.active {
     color: #fff;
 }
 .timeline-right .half{
-    height: 50%;
-    width: 30%;
-    padding: 50px 50px 0 0;
+    height: 33%;
+    width: 33%;
+    max-width: 140px;
+    padding: 59px 13px 0 0;
 }
 .studio-left{
     background-color: #ff9b6d;
@@ -399,21 +414,22 @@ address{
 .studio-left > div {
     max-width: 465px;
     width:100%;
-    background: url('/images/line4.png') no-repeat 0px 0px;
+    background: url('../images/line4.png') no-repeat 0px 0px;
 }
 .studio-right > div {
     max-width: 1035px;
     width:100%;
-    padding: 100px 10px 50px 120px;
+    padding: 94px 10px 50px 103px;
 }
 .studio-right > div > div {
     width:100%;
-    max-width: 750px;
+    max-width: 777px;
 }
 .studio-right p{
     color: #333; 
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     font: 18px/16px "Roboto Condensed";
+    letter-spacing: -0.025em;
 }
 .studio-right span{
     color: #333; 
@@ -427,50 +443,64 @@ address{
     text-transform: uppercase;
     font: 700 14px/18px "Roboto Condensed";
     border-bottom: 1px solid #bfc0b9;
+    padding-left: 5px;
 }
 .studio-right p.italic.last{
     margin-bottom: 30px;
 }
 .studio-right p.italic{ 
-    font:italic 700 18px/16px "Roboto Condensed";
+    font: italic 700 18px/18px "Roboto Condensed";
+    letter-spacing: -0.013em;
 }
 .studio-right .column{
     max-width: 360px; 
     width: 48%;
 }
 .awards > div{
-    width: 50%;
+    width: 43.5%;
+    padding-right: 1px;
+}
+.awards > div:first-child{
+    width: 46%;
     padding-right: 10px;
 }
-
 .designers-wrap {
     flex-wrap: wrap;
-    max-width: 1190px;
-    padding: 30px 10px 70px 10px;
+    max-width: 1184px;
+    padding: 31px 10px 32px 10px;
     margin: auto;
 }
 .designers{
-    margin: 0 -30px;
+    margin: 0 -17px;
     flex-wrap: wrap;
 }
 .designers > div{
     flex: 1 1 0%;
-    margin: 30px; 
+    margin: 30px 17px 30px 17px; 
     max-width: 300px;
 }
 .designers > div:first-child{
     min-width: 150px;    
+    /* margin: 30px 17px 30px 17px; */
 }
 .designers > div p{
     color: #333;   
-    font: 14px "Roboto Condensed";
-    margin-top: 20px;
+    font: 14px/18px "Roboto Condensed";
+    margin-top: 15px;
+    margin-bottom: 18px;
+    letter-spacing: -0.025em;
 }
 .designers > div h4{
     color: #333;
     text-transform: uppercase;
     margin-top: 15px;
     font: 700 13px "Roboto Condensed";
+}
+.designers > div h5{
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 1px;
+    font: 600 14px "Roboto Condensed";
 }
 .designers > div h4 + span{
     color: #333;
@@ -494,8 +524,11 @@ address{
     min-height: 500px;
     width: 35%;       
 }
-.news-left > div h3, .studio-left > div h3{
-    margin: 0 30% 30% 0;
+.news-left > div h3{
+    margin: 0 29% 34% 0;
+}
+.studio-left > div h3{
+    margin: 0 23% 34% 0;
 }
 .studio-left h3, .news-left h3, .projects-left h3{
     font: 48px "Roboto Condensed";
@@ -510,17 +543,18 @@ address{
     max-width: 465px;
     width:100%;
     max-height: 500px;
-    background: url('/images/line5.png') no-repeat 0px 0px;
+    background: url('../images/line5.png') no-repeat 0px 0px;
 }
 .news-right > div {
     max-width: 1035px;
     min-height: 500px;
     width:100%;
-    padding: 30px 10px;
+    padding: 54px 73px 18px 10px;
 }
 .article-wrap{
     max-width: 800px;
     flex-wrap: wrap;
+    width: 100%;
 }
 .article-wrap article{
     width: 48%;  
@@ -531,19 +565,21 @@ address{
 .article-wrap article h2{
     color: #333;
     text-transform: uppercase;
-    min-height: 70px;
-    font:  700 24px "Roboto Condensed";
+    min-height: 51px;
+    font: 700 24px/24px "Roboto Condensed";
+    letter-spacing: -0.008em;
 }
 .article-wrap article time{
     color: #6a6969;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     font:  12px "Roboto Condensed";
 }
 .article-wrap article p{
     color: #6a6969;
-    margin: 20px 0 10px 0;
+    margin: 21px 0 8px 2px;
     font:  12px "Roboto Condensed";
+    word-spacing: 6px;
 }
 .article-wrap article a{
     color: #fd4f00;
@@ -553,13 +589,19 @@ address{
     width: 100%;
     display: inline-block;
 }
-.footer address div{
-    margin-top: 20px;
+.footer address{
+    margin-top: 48px;
+}
+.footer address span{
+    line-height: 14px;
+}
+.footer address > div{
+    margin-top: 15px;
 }
 .footer address div span, .footer address div a{
     color: #333;
-  text-transform: uppercase;
-  font: 13px "Roboto Condensed";
+    text-transform: uppercase;
+    font: 13px "Roboto Condensed";
 }
 footer > div{
     width: 50%;
@@ -575,16 +617,24 @@ footer > div:first-child {
     background-color: #dbdcd5;
 }
 .footer{
-    padding: 110px 10px 10px 120px;
+    padding: 100px 10px 10px 117px;
 }
 .footer > div{
     width: 100%;
-    max-width: 465px;
-    margin-bottom: 50px;
+    max-width: 463px;
+    margin-bottom: 64px;
+}
+.footer .logo ~ span {
+  margin-left: 2px;
 }
 .copy{
     color: #191919;
-    font: 400 13px "Roboto Condensed";
+    font: 400 12px "Roboto Condensed";
+    margin-left: 13px;
+}
+.copy span{
+    font-size: 18px;
+    margin-right: 4px;
 }
 iframe{
     width: 100%;
@@ -592,178 +642,184 @@ iframe{
 }
 @media (max-width: 1480px) {
     .projects-hdr , .timeline-right > div, .news-left > div, .studio-left > div{
-    background: none;
-}
-.sesann .view {
-    margin: 0 20px;
-}
-.timeline-right .half {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.projects-hdr > div {
-    min-height: 10px;
-}
-.projects-hdr > div {
-    margin: 10px;
-}
-.sesann .description {
-    left: 2%;
-    bottom: 2%;
-}
-.projects-hdr .half {
-    width: 100%;   
-}
-.potter .description {
-    left: 3%;
-    top: 3%;
-    max-width: 40%;
-}
-.set {
-    min-height: 510px;
-}
-.description p {
-    display: none;
-}
-.fondue .description .view {
-    margin: 10px;
-}
+        background: none;
+    }
+    .sesann .view {
+        margin: 0 20px;
+    }
+    .timeline-right .half {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .projects-hdr > div {
+        min-height: 10px;
+    }
+    .projects-hdr > div {
+        margin: 10px;
+    }
+    .sesann .description {
+        left: 2%;
+        bottom: 2%;
+    }
+    .projects-hdr .half {
+        width: 100%;   
+    }
+    .potter .description {
+        left: 3%;
+        top: 3%;
+        max-width: 40%;
+    }
+    .set {
+        min-height: 510px;
+    }
+    .description p {
+        display: none;
+    }
+    .fondue .description .view {
+        margin: 10px;
+    }
 }
 @media (max-width: 1450px) {
     .set {
-    min-height: 550px;
-}
+        min-height: 550px;
+    }
 }
 @media (max-width: 1250px) {
     .set {
-    min-height: 540px;
-}
-.footer {
-    padding: 30px;
-}
-.tabano .like{
-    margin-right: 10px;
-}
+        min-height: 540px;
+    }
+    .footer {
+        padding: 30px;
+    }
+    .tabano .like{
+        margin-right: 10px;
+    }
 }
 @media (max-width: 1090px) {
     header{
         max-height: 400px;
     }
     .nav {
-    padding: 10px 10px 100px 10px;
-}
-.studio-right > div {
-    padding: 30px 10px 30px 30px;
-}
-.header-right > div {
-    padding-bottom: 125px;
-    background: url("/images/line1.png") no-repeat scroll -95px 0px;
-}
-.nav-wrap {
-    margin: 0px;
-}
-.social {
-    margin-top: 20px;
-}
-.social a {
-    margin: 5px;
-}
+        padding: 10px 10px 100px 10px;
+    }
+    .studio-right > div {
+        padding: 30px 10px 30px 30px;
+    }
+    .header-right > div {
+        padding-bottom: 125px;
+        background: url("../images/line1.png") no-repeat scroll -95px 0px;
+    }
+    .nav-wrap {
+        margin: 0px;
+    }
+    .social {
+        margin-top: 20px;
+    }
+    .social a {
+        margin: 5px;
+    }
 }
 @media (max-width: 850px) {
     nav a.btn {
-    margin: 5px;
-    min-width: 50px;
-    font: 12px "Roboto Condensed";
-}
-.alessi {
-    max-height: 300px;
-}
-.timeline-right > div {
-    max-width: 800px;
-}
-.timeline-right{
-    width: 100%;
-}
-.alessi img{
-    max-height: 100%;
-}
-.projects-left, .projects-right, .timeline-left, .sesann, .alessi, .fiji {
-    width: 100%;
-}
-.sesann {
-    max-height: 600px;
-}
-footer{
-    flex-direction: column;
-}
-.fiji {
-    max-height: 549px;
-}
-.wrapper.four .wrap, .wrapper.five .wrap, .wrapper.six .wrap{
-    justify-content: center;
-}
-footer > div {
-    width: 100%;
-    min-height: 300px;
-}
-.footer > div {
-    max-width: 800px;
-}
-.projects, .timeline-wrap, .wrapper.three .wrap{
-    flex-direction: column;
-}
-.projects-right .wrap, .timeline-right .wrap {
-    max-width: 800px;
-}
+        margin: 5px;
+        min-width: 50px;
+        font: 12px "Roboto Condensed";
+    }
+    .alessi {
+        max-height: 300px;
+    }
+    .timeline-right > div {
+        max-width: 800px;
+    }
+    .timeline-right{
+        width: 100%;
+    }
+    .alessi img{
+        max-height: 100%;
+    }
+    .projects-left, .projects-right, .timeline-left, .sesann, .alessi, .fiji {
+        width: 100%;
+    }
+    .sesann {
+        max-height: 600px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .fiji {
+        max-height: 549px;
+    }
+    .wrapper.four .wrap, .wrapper.five .wrap, .wrapper.six .wrap{
+        justify-content: center;
+    }
+    .footer address{
+        margin-top: 20px;
+    }
+    address .red{
+        color: red
+    }
+    footer > div {
+        width: 100%;
+        min-height: 300px;
+    }
+    .footer > div {
+        max-width: 800px;
+    }
+    .projects, .timeline-wrap, .wrapper.three .wrap{
+        flex-direction: column;
+    }
+    .projects-right .wrap, .timeline-right .wrap {
+        max-width: 800px;
+    }
 }
 @media (max-width: 750px) {
     .header-right > div {
-    background: none;
-}
-.studio-left h3, .news-left h3, .projects-left h3 {
-    font: 24px "Roboto Condensed";
-}
-.projects-hdr {
-    width: 50%;
-}
-.projects-hdr > div {
-    height: auto
-}
-header{
+        background: none;
+    }
+    .studio-left h3, .news-left h3, .projects-left h3 {
+        font: 24px "Roboto Condensed";
+    }
+    .projects-hdr {
+        width: 50%;
+    }
+    .projects-hdr > div {
+        height: auto
+    }
+    header{
         max-height: 350px;
     }
-.nav {
-    padding: 10px;
-}
-.mail{
-    justify-content: flex-start;
-    padding: 10px;
-}
-.logo {
-    margin-top: 10px;
-}
-.logo ~ span {
-    font: 700 14px/14px "Roboto Condensed";
-}
-.social a {
-    margin: 3px;
-}
-#r1 + label {
-    width: 60px;
-    height: 60px;
-}
-.nav-wrap {
-    width: 60px;
-}
-#r2 + label {
-    margin: 0px 20px;
-}
-nav {
-    min-height: 60px;
-}
+    .nav {
+        padding: 10px;
+    }
+    .mail{
+        justify-content: flex-start;
+        padding: 10px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .logo ~ span {
+        font: 700 14px/14px "Roboto Condensed";
+    }
+    .social a {
+        margin: 3px;
+    }
+    #r1 + label {
+        width: 60px;
+        height: 60px;
+    }
+    .nav-wrap {
+        width: 60px;
+    }
+    #r2 + label {
+        margin: 0px 20px;
+    }
+    nav {
+        min-height: 60px;
+    }
 }
 @media (max-width: 580px) {
     .header-left img{
@@ -774,21 +830,21 @@ nav {
         justify-content: flex-start;
     }
     .studio-left > div, .news-left > div {
-    max-width: 800px;
-}
-.studio-left, .news-left {
-    width: 100%;
-    min-height: 70px;
-}
-.studio-right > div{
-    padding: 10px;
-}
-.studio-right, .news-right {
-    width: 100%;
-}
-.news-left > div h3, .studio-left > div h3 {
-    margin: auto;
-}
+        max-width: 800px;
+    }
+    .studio-left, .news-left {
+        width: 100%;
+        min-height: 70px;
+    }
+    .studio-right > div{
+        padding: 10px;
+    }
+    .studio-right, .news-right {
+        width: 100%;
+    }
+    .news-left > div h3, .studio-left > div h3 {
+        margin: auto;
+    }
     .logo-wrap{
         flex-direction: row;
         max-width: 100%;
@@ -808,16 +864,16 @@ nav {
 }
 @media (max-width: 480px) {
     .nav-wrap nav > div{
-    flex-direction: column;
-}
-header {
-    max-height: 320px;
-}
-.studio-right > div > div {
-    flex-direction: column;
-}
-.studio-right .column {
-    max-width: 480px;
-    width: 100%;
-}
+        flex-direction: column;
+    }
+    header {
+        max-height: 320px;
+    }
+    .studio-right > div > div {
+        flex-direction: column;
+    }
+    .studio-right .column {
+        max-width: 480px;
+        width: 100%;
+    }
 }

@@ -14,7 +14,7 @@
         <header>
             <div class="header">
                 <nav data-flex="row-center-around">
-                    <a href="#about">about</a>
+                    <a href="#about">about me</a>
                     <a href="#portfolio">portfolio</a>
                     <a href="#" class="logo" data-flex="row-center-center">jd</a>
                     <a href="#blog">my blog</a>
@@ -28,7 +28,9 @@
                         <i class="icon-dot"></i>
                         <i class="icon-dot"></i>
                         <i class="icon-dot"></i>
+                        <i class="icon-dot"></i>
                         <span class="hdr-caption" data-flex="row-center-center">old style portfolio</span>
+                        <i class="icon-dot"></i>
                         <i class="icon-dot"></i>
                         <i class="icon-dot"></i>
                         <i class="icon-dot"></i>
@@ -58,7 +60,7 @@
                 <div class="divider"></div>
                 <p>i am graphic designer from baltimore</p>
             </div>
-            <div class="about" data-flex="row--around">
+            <div class="about" data-flex="row--between">
                 <article data-flex="col-center">
                     <div class="lbl">
                         <i class="icon-tv"></i>
@@ -66,7 +68,7 @@
                     <h2>movies</h2>
                     <span>what i watch</span>
                     <div class="separator"></div>
-                    <p>Clutter is honest! I do believe that has to the users <a href="#" class="link-bold">selfexpression</a>. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. <a href="#" class="link-underline">Good design</a> should be different levels. There's no rational alternative. That's come to complexity.</p>
+                    <p>Clutter is honest! I do believe &emsp; that has to the users <a href="#" class="link-bold">selfexpression</a>. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. <a href="#" class="link-underline">Good design</a> should be different levels. There's no rational alternative. That's come to complexity.</p>
                 </article>
                 <article data-flex="col-center">
                     <div class="lbl">
@@ -75,7 +77,7 @@
                     <h2>music</h2>
                     <span>what i listen</span>
                     <div class="separator"></div>
-                    <p>Good design. The content, you'll love <a href="#" class="link-bold">powerpoint should be different</a>. It's about design is that part? Good design is making something looks. And aesthetic. And <a href="#" class="link-italic">colour defines</a> your interface. That cannot be overtly different. That has to chance. And restrained, low resolution, but you get rid of materials.</p>
+                    <p>Good design. The content, you'll love <a href="#" class="link-bold">powerpoint should be differ&shy;ent</a>. It's about design is that part? Good design is making some&shy;thing looks. And aesthetic. And <a href="#" class="link-italic">colour defines</a> your interface. That cannot be overtly different. That has to chance. And restrained, low resolution, but you get rid of materials.</p>
                 </article>
                 <article data-flex="col-center">
                     <div class="lbl">
@@ -83,7 +85,7 @@
                     </div>
                     <h2>clothes</h2>
                     <span>what i wear</span><div class="separator"></div>
-                    <p>Very honest approach and product. The <a href="#" class="link-underline">other product</a> that changes function like the absence of function. And frustrating that products that it's the functional imperative, we kept going and frustrating that we are about bringing order to be better and less complicated to understand.</p>
+                    <p>Very honest approach and product. The <a href="#" class="link-underline">other product</a> that changes function like the absence of function. And frus&shy;trating that products that it's the functional imperative, we kept going and frustrating that we are about bringing order to be better and less complicated to understand.</p>
                 </article>
                 <article data-flex="col-center">
                     <div class="lbl">
@@ -92,7 +94,7 @@
                     <h2>food</h2>
                     <span>what i eat</span>
                     <div class="separator"></div>
-                    <p>Simplicity. Its context. From so many different levels. There's real simplicity is. Designing and place of the objects we're surrounded by seem trivial. There's <a href="#" class="link-bold">no rational alternative</a>. I think that's a very complicated problems without letting people have a very easy to mean so much that acknowledges.</p>
+                    <p>Simplicity. Its context. From so many different levels. There's real simplicity is. Designing and place of the objects we're sur&shy;rounded by seem trivial. There's <a href="#" class="link-bold">no rational alternative</a>. I think that's a very complicated problems without letting people have a very easy to mean so much that acknowledges.</p>
                 </article>
             </div>
         </section>
@@ -211,7 +213,7 @@
                                 <h4><a href="#">The lonely road</a></h4>
                                 <div data-flex="row--between">
                                     <span>july 28, 2014 // admin // fun, travel, trends, web-design</span>
-                                    <span>3 response</span>
+                                    <span>3 responses</span>
                                 </div>
                                 <div class="separator"></div>                               
                             </div>
@@ -226,7 +228,7 @@
                             <div class="hdr-article">                                
                                 <h4><a href="#">I love gasoline smell</a></h4>
                                 <div data-flex="row--between">
-                                    <span>july 28, 2014 // admin // fun,, trends, web-design</span>
+                                    <span>july 28, 2014 // admin // fun, trends, web-design</span>
                                 <span>no responses</span>
                                 </div>
                                 <div class="separator"></div>

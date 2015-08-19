@@ -91,13 +91,13 @@
                 </div>
                 <div class="description">
                     <h4>who we are ?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consec&shy;tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <div data-flex="row--end">
                         <a href="#" class="btn btn-more"><em>More</em><i class="icon-arrow"></i></a>
                     </div>    
                 </div>
                 <div class="contact">
-                    <h4>contuct us</h4>
+                    <h4>contact us</h4>
                     <div data-flex="row-center">
                         <i class="icon-phone"></i>
                         <span>(626) 921-4592</span>
@@ -141,7 +141,7 @@
                     <a href="#">articles</a>
                     <a href="#">contact</a>
                 </nav>
-                <span class="copyright">© 2009 Orlin Research, Inc </span>
+                <span class="copyright"><span>&copy; 2009</span> Orlin Research, Inc </span>
             </footer>
         </div>
     </body>

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Myriad Pro Semibold';
-    src: url('/fonts/MyriadPro/MyriadPro-Semibold.otf');
+    src: url('../fonts/MyriadPro/MyriadPro-Semibold.otf');
 }
 @font-face {
     font-family: 'Wingdings 3';
-    src: url('/fonts/Wingdings3.ttf');
+    src: url('../fonts/Wingdings3.ttf');
 }
 a{
     text-decoration: none;
@@ -20,23 +20,23 @@ a{
 .icon-browse{
     width: 32px;
     height: 32px;
-    background: url('/images/icons/arrow-lg.png');
+    background: url('../images/icons/arrow-lg.png');
 }
 .icon-arrow{
     width: 10px;
     height: 10px;
     margin-left: 5px;
-    background: url('/images/icons/arrow.png');
+    background: url('../images/icons/arrow.png');
 }
-.icon-left{background: url('/images/icons/left.png');}
-.icon-right{background: url('/images/icons/right.png');}
-.icon-learn{background: url('/images/icons/arrow-sm.png');}
-.icon-tw{background: url('/images/icons/24x24/tw.png');}
-.icon-fb{background: url('/images/icons/24x24/fb.png');}
-.icon-mail{background: url('/images/icons/24x24/mail.png');}
-.icon-in{background: url('/images/icons/24x24/in.png');}
+.icon-left{background: url('../images/icons/left.png');}
+.icon-right{background: url('../images/icons/right.png');}
+.icon-learn{background: url('../images/icons/arrow-sm.png');}
+.icon-tw{background: url('../images/icons/24x24/tw.png');}
+.icon-fb{background: url('../images/icons/24x24/fb.png');}
+.icon-mail{background: url('../images/icons/24x24/mail.png');}
+.icon-in{background: url('../images/icons/24x24/in.png');}
 header{
-    background: url('/images/bg.png');
+    background: url('../images/bg.png');
     background-size: cover;
     border-bottom: 1px solid #494949;
 }
@@ -54,37 +54,43 @@ header{
 }
 .logo{
     color: #979797;
-    font: 50px "Myriad Pro Semibold";
     text-shadow: 0 2px 5px #000; 
-    display: inline-block;
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
+    margin: 0px 0px 7px -2px;
+}
+.logo span{
+    font: 50px "Myriad Pro Semibold";
+}
+.logo small{
+    font: 31px "Myriad Pro Semibold";
+    margin: 5px 0px 0px -1px;
 }
 .nav{
     flex-wrap: wrap;
-    min-height: 45px;
-    padding: 5px 5px 5px 10px;
+    padding: 3px 5px 3px 10px;
     box-shadow: 0 2px 3px #000, inset 0 1px 2px #fff;
     background-image: linear-gradient(to top, #717171, #bdbdbd);
     border-radius: 3px;
 }
 .nav a{
-    margin: 10px 22px;
+    margin: 10px 22px 10px 23px;
     color: #000;
     font: 12px "Trebuchet MS";
     text-transform: uppercase;
+    letter-spacing: -0.02em;
 }
 .nav a.active, .nav a:hover{
     color: #fff;
 }
 .controls{
     position: absolute;
-    right: 180px;
-    bottom: 65px
-}
+    right: 188px;
+    bottom: 59px;}
 .controls a{
-    margin: 6px;
-    width: 22px;
-height: 22px;
+    margin: 7px;
+    width: 17px;
+
+    height: 17px;
 border-radius: 50%;
 box-shadow: 1px 2px 3px rgba(0,0,0,.5), inset 0 2px 2px #fff;
 background-image: linear-gradient(to top, #717171, #bdbdbd);
@@ -93,52 +99,58 @@ background-image: linear-gradient(to top, #717171, #bdbdbd);
     background-image: linear-gradient(to top, #ababab, #fff);
 }
 a.btn-browse{
-    min-width: 318px;
-min-height: 81px;
+    min-width: 312px;
+
+    min-height: 55px;
 border: 10px solid #000;
 border-radius: 40px;
 color: #151515;
-font: 25px "Myriad Pro Semibold";
+
+    margin:  0px 0px 0px 21px;
+    font: 25px/25px "Myriad Pro Semibold";
 text-shadow: 0 1px 0 #f5eed2;
 box-shadow: 0 0 0 1px rgba(130,130,130,.1), inset 0 2px 2px #fff;
 background-image: linear-gradient(to top, #ddc245, #d5d5d5);
 }
 a.btn-browse span{
-    width: 60px;
-height: 61px;
+    width: 57px;
+
+    height: 55px;
 border-radius: 0 30px 30px 0;
 box-shadow: inset 0 2px 2px #fff;
 background-image: linear-gradient(to top, #717171, #bdbdbd);
 }
 .slider h1{
 color: #fff;
-font: 39px "Georgia";
-margin: 0px 0px 40px -200px;
+font: 39px/40px "Georgia";
+margin: 0px 0px 44px -218px;
 }
 .slider p{
     color: #727272;
-font-family: "Trebuchet MS";
-font-size: 20px;
-margin-bottom: 50px;
+font: 20px/30px "Trebuchet MS";
+
+    margin-bottom: 49px;
 }
 .slider > div{
     width: 50%;
     position: relative;
     min-height: 478px;
-    padding: 10px 10px 10px 50px;
+    padding: 0px 8px 10px 81px;
 }
 .slider > div:first-child img{
     position: absolute;
     bottom: 0px;
 }
 .slider > div:first-child img:first-child{
-    left: -15px;
+    left: -18px;
 }
 .slider > div:first-child img:nth-child(2){
-    left: 30px;
+    left: 21px;
+    max-width: 514px;
 }
 .slider > div:first-child img:last-child{
-    left: 270px;
+    left: 294px;
+    bottom: -1px;
 }
 .about-wrap{
     border-top: 10px solid #000;
@@ -147,13 +159,14 @@ margin-bottom: 50px;
     background-image: linear-gradient(to top, #999, #d5d5d5);
 }
 .about {
-    padding: 10px;
-    min-height: 170px;
+    padding: 11px 10px 10px 10px;
+    min-height: 150px;
 }
 .about p{
     color: #000;
-    font: 15px/24px "Trebuchet MS";
+    font: 600 15px/24px "Trebuchet MS";
     text-shadow: 0 1px 0 #e3e3e3;
+    letter-spacing: -0.02em;
 }
 .about img{
     width: 100%;
@@ -165,16 +178,16 @@ a.btn-learn{
     min-width: 219px;
     min-height: 113px;
     border-left: 1px solid #1b1c1c;
-    margin-left: 20px;
+    margin: 5px 0px 0px 20px;
     text-transform: uppercase;
     color: #1b1b1b;
     font: 600 20px "Trebuchet MS";
     text-shadow: 0 1px 0 #e3e3e3;
-    padding: 5px 30px;
+    padding: 3px 13px 10px 35px;
 }
-a.btn-default{
-    min-width: 97px;
-    height: 38px;
+a.btn-default, .btn-default{
+    min-width: 89px;
+    height: 30px;
     border: 3px solid #000;
     box-shadow: 0 0 0 2px rgba(130,130,130,.1), inset 0 1px 1px #fff;
     background-image: linear-gradient(to top, #5f5f5f, #939393);
@@ -182,48 +195,50 @@ a.btn-default{
     color: #1b1b1b;
     font: 600 13px "Trebuchet MS";
     text-shadow: 0 1px 0 #959595;
+    padding: 0px 0px 0px 8px;
 }
 .content-wrap{
-    background: url('/images/bg2.png');
+    background: url('../images/bg2.png');
 }
 .content{
     max-width: 1010px;
     padding: 52px 25px 34px 25px;    
 }
 .content > div{
-    margin-bottom: 33px;
+    margin-bottom: 34px;
     background-color: #1b1b1c;
     border: 1px solid #000;
     box-shadow: 0px 1px 0px 0px #8a8a8a;
 }
 .content > .grid{
-    padding: 15px 15px 0 15px;
+    padding: 13px 6px 0 14px;
 }
 .grid article{
-    padding: 20px 28px;
+    padding: 20px 28px 23px 28px;
     max-width: 308px;
 }
 .grid p{
     color: #8e8e8e;
     font: 13px/20px "Trebuchet MS";
-    margin-bottom: 15px;
+    margin: 0px 0px 20px 0px;
 }
 .grid h4{
     color: #b7b7b7;
     font: 600 20px "Trebuchet MS";
     text-shadow: 1px 2px 3px rgba(0,0,0,.5);
-    margin-bottom: 20px;
+    margin: 0px 0px 19px 2px;
+    letter-spacing: -0.003em;
 }
 .slideshow{
-    padding: 3px;
+    padding: 4px 5px 5px 5px;
     position: relative;
 }
 a.btn-slide{
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-85%);
     box-shadow: 0 2px 2px #000, inset 0 1px 0 rgba(255,255,255,.75);
     background-image: linear-gradient(to top, #717171, #bdbdbd);
     text-shadow: 0 1px 0 #d8d8d8;
@@ -231,10 +246,10 @@ a.btn-slide{
     cursor:pointer;
 }
 a.btn-slide.left{
-    left: -15px;
+    left: -14px;
 }
 a.btn-slide.right{
-    right: -15px;
+    right: -14px;
 }
 .slideshow > .grid > a{
     width: 25%;
@@ -248,7 +263,7 @@ a.btn-slide.right{
     height: 38px;
     box-shadow: inset 0 1px 0 rgba(255,255,255,.75);
     background-image: linear-gradient(to top, #717171, #bdbdbd);
-    padding: 0px 18px;
+    padding: 0px 11px;
     color: #fff;
     font: 600 15px "Trebuchet MS";
     text-shadow: 0 1px 0 #181818;
@@ -261,46 +276,51 @@ footer{
     background-color: #1b1c1c;
 }
 .footer{
-    padding: 25px 10px 17px 10px;
+    padding: 28px 9px 20px 10px;
     flex-wrap: wrap;
 }
 .footer h5{
     color: #b7b7b7;
     font: 600 20px "Trebuchet MS";
     text-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    letter-spacing: -0.003em;
+}
+.footer .textual h5{
+    margin: 0px 0px 0px 2px;
+    /* letter-spacing:-0.003em; */
 }
 a.btn-social{
-    width: 39px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
     background-color: #000;
     border-radius: 6px;
     box-shadow: 0 1px 0 #434343, inset 0 3px 3px rgba(0,0,0,.1);
 }
 .copyright{
-    border-top: #242426;
+    border-top: 1px solid #242426;
     background-color: #161617;
     min-height: 68px;
-    padding: 10px;
+    padding: 10px 10px 18px 41px;
 }
 .copyright span, .copyright a{
     color: #464646;
     font: 13px "Trebuchet MS";
 }
 .footer > .textual{
-    max-width: 300px;
+    max-width: 299px;
     min-width: 250px;
 }
 .textual p{
     color: #8e8e8e;
     font: 13px/20px "Trebuchet MS";
-    margin-top: 25px;
+    margin: 24px 34px 0px 0px;
 }
 .footer > .browse{
-    max-width: 120px;
+    max-width: 100px;
     min-width: 100px;
 }
 .browse ul{
-    margin-top: 25px;
+    margin-top: 23px;
 }
 .browse ul li{
     line-height: 24px;
@@ -311,22 +331,23 @@ a.btn-social{
 }
 .social{
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin-top: 24px;
     max-width: 100px;
 }
 a.btn-social{
-    margin: 0 7px 7px 0;
+    margin: 0 15px 8px 0;
 }
 .footer > .connect{
     max-width: 120px; 
     min-width: 100px;
+    margin-right: 34px;
 }
 .footer > div{
     width: 33%;
-    max-width: 296px;
+    max-width: 290px;
 }
 .footer form{
-    margin-top: 10px;
+    margin-top: 7px;
     min-width: 250px;
 }
 .footer form input, .footer form textarea{
@@ -337,31 +358,38 @@ a.btn-social{
     color: #494949;
     font: 12px "Trebuchet MS";
 }
+.footer form .btn-default{
+    padding: 0px 0px 0px 0px;
+}
 .footer form textarea{
     resize: none;
     min-height: 68px;
-    padding: 8px;
+    padding: 6px 8px 6px 9px;
+    margin: 0px 0px 18px 0px;
 }
 .footer form input{
-    height: 27px;
-    padding: 0 8px;
+    height: 21px;
+    padding: 0px 9px 1px 9px;
     margin-bottom: 10px;
 }
 .footer form input::-webkit-input-placeholder, .footer form textarea::-webkit-input-placeholder {
     color: #494949;
     font-family: "Trebuchet MS";
     font-size: 12px;
+    letter-spacing: -0.03em;
 }
 .footer form input::-moz-placeholder, .footer form textarea::-moz-placeholder {
     opacity: 1;
     color: #494949;
     font-family: "Trebuchet MS";
     font-size: 12px;
+    letter-spacing: -0.03em;
 }
 .footer form input:-ms-input-placeholder, .footer form textarea:-ms-input-placeholder {
     color: #494949;
     font-family: "Trebuchet MS";
     font-size: 12px;
+    letter-spacing: -0.03em;
 }
 @media (max-width: 940px) {
     .slider h1 {

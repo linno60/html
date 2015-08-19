@@ -33,23 +33,25 @@
                                         <span>written by : Anonimas</span>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="blog-social">
                                     <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
                                     <a href='#' class='btn'><i class='icon-blog-tw'></i></a>  
                                 </div> 
                             </div>  
                             <img src="images/img3.png"> 
-                            <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <h1>Dublin's iphone apps Online Demo</h1>
-                            <ul class='list list-bullet'>
-                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
-                                <li>Industry. Lorem Ipsum has been the industry's standard </li>
-                                <li>Dummy text ever since the 1500s, when an unknown printer </li>
-                                <li>Took a galley of type and scrambled it to make a type specimen book. </li>
-                                <li>It has survived not only five centuries, but also the </li>
-                                <li>Dummy text ever since the 1500s, when an unknown printer </li>
-                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <div class="demo">
+                                <h1>Dublin's iphone apps Online Demo</h1>
+                                <ul class='list list-bullet'>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
+                                    <li>Industry. Lorem Ipsum has been the industry's standard </li>
+                                    <li>Dummy text ever since the 1500s, when an unknown printer </li>
+                                    <li>Took a galley of type and scrambled it to make a type specimen book. </li>
+                                    <li>It has survived not only five centuries, but also the </li>
+                                    <li>Dummy text ever since the 1500s, when an unknown printer </li>
+                                </ul>
+                            </div>
                             <h1 data-flex='col'>
                                 <b>Related Products</b>
                                 <small>Lorem Ipsum is simply dummy</small>

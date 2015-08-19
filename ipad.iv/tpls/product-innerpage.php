@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Blog inner</title>
+        <title>Product inner</title>
         <meta name="HandheldFriendly" content="True">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link type="text/css" rel="stylesheet" href="/css/reset.css">
@@ -14,7 +14,7 @@
             <div class='content'>
                 <div class="hdr" data-flex="row-center-between">
                     <h1 data-flex='col'>
-                        <b>Dublin's iphone apps Online Demmonstration</b>
+                        <b>Dublin's iphone applications</b>
                         <small>Lorem Ipsum is simply dummy</small>
                     </h1>
                     <form action="#" method="post" data-flex='row-center' class="search-wrap">

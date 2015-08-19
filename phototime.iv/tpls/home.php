@@ -32,13 +32,13 @@
                 <a href="#" class="rss"></a>
             </div>
         </header>
-        <section class="article-wrap">
+        <section class="article-wrap photo">
             <div>
                 <article>
                     <h1>rappresent your life with a simple photo</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, quis 
+                        magna aliqua. Ut <a href="#">enim ad minim</a> veniam, quis 
                         nostrud exercitation ullamco laboris nisi 
                         ut aliquip ex ea commodo consequat.</p>
                     <a href="#" class="btn btn-default">get started</a>
@@ -54,10 +54,10 @@
                     <h1>design</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Ut enim ad minim veniam, quis 
+                        magna aliqua. Ut <a href="#">enim ad minim</a> veniam, quis 
                         nostrud exercitation ullamco laboris nisi 
                         ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" class="btn btn-default">get started</a>
+                    <a href="#" class="btn btn-default">learn more</a>
                     <time>01/05</time>
                     <div class="arrows">
                         <a href="#" class="btn btn-left"></a>
@@ -116,7 +116,7 @@
                 <a href="#">our teams</a>
                 <span>Copyright by phototime - all right reserved</span>
             </div> 
-            <img src="images/camerag.png">
+            <img src="images/camera2.png">
         </footer>
     </body>
 </html>

@@ -24,8 +24,8 @@
                 </div>
                 <div class='blog-wrap' data-flex>
                     <div class='blog'>
-                        <div class='blog-item' data-flex>
-                            <div>
+                        <div class='blog-item' data-flex="row-start">
+                            <div data-flex>
                                 <img src="images/img7.png"> 
                             </div>
                             <div class='post'>
@@ -34,18 +34,18 @@
                                     <time>29 / may / 2011</time>
                                     <span>written by : Anonimas</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in </p>
-                                <div data-flex='row-center-between'>
-                                    <div data-flex>
-                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in </p>
+                                <div data-flex='row-start-between'>
+                                    <div data-flex class="blog-social">
                                         <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
+                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>   
                                     </div>
-                                    <a href='#' class='btn btn-default'>Read More</a>
+                                    <a href='#' class='btn btn-default'>Read more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class='blog-item' data-flex>
-                            <div>
+                        <div class='blog-item' data-flex="row-start">
+                            <div data-flex>
                                 <img src="images/img7.png"> 
                             </div>
                             <div class='post'>
@@ -54,18 +54,18 @@
                                     <time>29 / may / 2011</time>
                                     <span>written by : Anonimas</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in </p>
-                                <div data-flex='row-center-between'>
-                                    <div data-flex>
-                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in </p>
+                                <div data-flex='row-start-between'>
+                                    <div data-flex class="blog-social">
                                         <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
+                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>   
                                     </div>
-                                    <a href='#' class='btn btn-default'>Read More</a>
+                                    <a href='#' class='btn btn-default'>Read more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class='blog-item' data-flex>
-                            <div>
+                        <div class='blog-item' data-flex="row-start">
+                            <div data-flex>
                                 <img src="images/img7.png"> 
                             </div>
                             <div class='post'>
@@ -74,18 +74,18 @@
                                     <time>29 / may / 2011</time>
                                     <span>written by : Anonimas</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in </p>
-                                <div data-flex='row-center-between'>
-                                    <div data-flex>
-                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in </p>
+                                <div data-flex='row-start-between'>
+                                    <div data-flex class="blog-social">
                                         <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
+                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>   
                                     </div>
-                                    <a href='#' class='btn btn-default'>Read More</a>
+                                    <a href='#' class='btn btn-default'>Read more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class='blog-item' data-flex>
-                            <div>
+                        <div class='blog-item' data-flex="row-start">
+                            <div data-flex>
                                 <img src="images/img7.png"> 
                             </div>
                             <div class='post'>
@@ -94,18 +94,18 @@
                                     <time>29 / may / 2011</time>
                                     <span>written by : Anonimas</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in </p>
-                                <div data-flex='row-center-between'>
-                                    <div data-flex>
-                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in </p>
+                                <div data-flex='row-start-between'>
+                                    <div data-flex class="blog-social">
                                         <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
+                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>   
                                     </div>
-                                    <a href='#' class='btn btn-default'>Read More</a>
+                                    <a href='#' class='btn btn-default'>Read more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class='blog-item' data-flex>
-                            <div>
+                        <div class='blog-item' data-flex="row-start">
+                            <div data-flex>
                                 <img src="images/img7.png"> 
                             </div>
                             <div class='post'>
@@ -114,13 +114,13 @@
                                     <time>29 / may / 2011</time>
                                     <span>written by : Anonimas</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea commodo consequat. Duis aute irure dolor in </p>
-                                <div data-flex='row-center-between'>
-                                    <div data-flex>
-                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliua. Ut enim ad minim veniam, quis nostud exercitation ullamco laboris nisi ut aluip ex ea com&shy;modo consequat. Duis aute irure dolor in </p>
+                                <div data-flex='row-start-between'>
+                                    <div data-flex class="blog-social">
                                         <a href='#' class='btn'><i class='icon-blog-fb'></i></a>
+                                        <a href='#' class='btn'><i class='icon-blog-tw'></i></a>   
                                     </div>
-                                    <a href='#' class='btn btn-default'>Read More</a>
+                                    <a href='#' class='btn btn-default'>Read more</a>
                                 </div>
                             </div>
                         </div>

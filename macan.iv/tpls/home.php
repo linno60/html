@@ -34,7 +34,7 @@
                         <span>Semangat terus saudara-saudara!</span>
                         <a href="#" class="btn btn-default">More</a>
                     </div>
-                    <div>
+                    <div data-flex="row--end">
                         <img src="images/img-slider.png">
                     </div>
                 </div>
@@ -85,7 +85,7 @@
             <div class="portfolio-wrap">
                 <div class="portfolio" data-flex="col-center">
                     <div class="hdr" data-flex="col-center">
-                        <h2>Portfolio</h2>
+                        <h2>Portofolio</h2>
                         <span>our awesome works</span>
                         <div class="divider"></div>
                     </div>
@@ -231,7 +231,7 @@
                         <span>300+</span>
                         <i class="icon-down"></i>
                     </a>
-                    <div class="hdr" data-flex="col-center">
+                    <div class="hdr customer" data-flex="col-center">
                         <h2>What Our Happy Customer Say</h2>
                         <span>lorem ipsum dolor sit amet</span>
                         <div class="divider"></div>
@@ -240,7 +240,7 @@
                         <img src="images/circle.png">
                         <article>
                             <blockquote data-flex>
-                                <span>"</span>
+                                <span><i class="icon-quotes"></i></span>
                                 <div>
                                     <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
                                     <cite>John Doe</cite>
@@ -279,7 +279,7 @@
                         <h5>Office Hours</h5>
                         <span>Monday to Friday / 7:00 - 18:00 Saturday / 9:00 - 15:00</span>
                         <div data-flex='col' class='contacts'>
-                            <span data-flex><i class='icon-point'></i><span>25 Silver Coast Avenue, MD 20910 Indonesia</span></span>
+                            <span data-flex><i class='icon-point'></i><span>25 Silver Cost Avenue, MD 20910 Indonesia</span></span>
                             <span data-flex><i class='icon-phone'></i><span>(621) 555 6789</span></span>
                             <a href='mailto:hello@macankumbang.net' data-flex><i class='icon-mail'></i><span>hello@macankumbang.net</span></a>
                         </div>
