@@ -182,7 +182,7 @@
                         <li><a href='#'>Alexis Hudson</a></li>
                         <li><a href='#'>American Apparel</a></li>
                         <li><a href='#'>Ben Sherman</a></li>
-                        <li><a href='#'>Big Buddah</a></li>
+                        <li><a href='#'>Big Buddha</a></li>
                         <li><a href='#'>Chanel</a></li>
                         <li><a href='#'>Christian Audigier</a></li>
                         <li><a href='#'>Coach</a></li>
@@ -195,7 +195,7 @@
                         <li><a href='#'>Alexis Hudson</a></li>
                         <li><a href='#'>American Apparel</a></li>
                         <li><a href='#'>Ben Sherman</a></li>
-                        <li><a href='#'>Big Buddah</a></li>
+                        <li><a href='#'>Big Buddha</a></li>
                         <li><a href='#'>Chanel</a></li>
                         <li><a href='#'>Christian Audigier</a></li>
                         <li><a href='#'>Coach</a></li>
@@ -208,7 +208,7 @@
                         <li><a href='#'>Alexis Hudson</a></li>
                         <li><a href='#'>American Apparel</a></li>
                         <li><a href='#'>Ben Sherman</a></li>
-                        <li><a href='#'>Big Buddah</a></li>
+                        <li><a href='#'>Big Buddha</a></li>
                         <li><a href='#'>Chanel</a></li>
                         <li><a href='#'>Christian Audigier</a></li>
                         <li><a href='#'>Coach</a></li>
@@ -221,7 +221,7 @@
                         <li><a href='#'>Alexis Hudson</a></li>
                         <li><a href='#'>American Apparel</a></li>
                         <li><a href='#'>Ben Sherman</a></li>
-                        <li><a href='#'>Big Buddah</a></li>
+                        <li><a href='#'>Big Buddha</a></li>
                         <li><a href='#'>Chanel</a></li>
                         <li><a href='#'>Christian Audigier</a></li>
                         <li><a href='#'>Coach</a></li>

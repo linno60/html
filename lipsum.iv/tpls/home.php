@@ -34,7 +34,7 @@
                             <img src="images/img1.png">
                             <div class="caption" data-flex="row-center">
                                 <a href="#" class="btn btn-left"><i class="icon-left"></i></a>
-                                <a href="#">Lorem comoodo Manager</a>
+                                <a href="#">Lipsum comoodo Manager</a>
                                 <a href="#" class="btn btn-right"><i class="icon-right"></i></a>    
                             </div>
                         </figure>

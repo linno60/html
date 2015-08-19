@@ -9,7 +9,7 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>    
-        <header data-flex="col-center-between">
+        <header data-flex="col-center-between" class="header-alt">
             <?= require_tpl('common/header') ?>
             <section class="banner" data-flex="col-start-end">
                 <div class="banner-box">

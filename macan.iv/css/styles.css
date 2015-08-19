@@ -32,6 +32,7 @@ a{
     height: 44px;
 }
 .icon-down{
+    margin: 1px 0px 0px 0px;
     width: 52px;
     height: 52px;
     background: url('../images/icons/down.png');
@@ -260,7 +261,7 @@ a.btn-default{
     position: absolute;
     left:0;
     top: 0;
-/*    display: none;*/
+    display: none;
     padding: 50px;
     height: 98.5%;
     opacity: .82;
@@ -282,7 +283,7 @@ a.btn-default{
     margin: 85px 0 45px 0;
 }
 .tabs + a{
-    margin-bottom: 84px;
+    margin-bottom: 83px;
     width: auto;
 }
 .tabs + a span{
