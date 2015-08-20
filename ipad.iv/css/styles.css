@@ -377,11 +377,13 @@ nav a.btn.active, nav a.btn:hover{
     max-width: 381px;
     margin-top: -5px;
     margin-left: 26px;
+    width: 100%;
 }
 .list-plus{
     margin-top: 46px;
     margin-left: 11px;
     border-top: 1px solid #d7d8da;
+    max-width: 812px;
 }
 .specification .list-bullet{
     margin: 36px 5px 23px 0;
@@ -392,8 +394,7 @@ nav a.btn.active, nav a.btn:hover{
 .list li{
     padding-left: 25px;
     color: #818181;
-    font: 15px/30px "Colaborate Light";
-    /* width: auto; */
+    font: 15px/30px "Colaborate Light";    
 }
 .list-plus li{
     font: 15px/35px "Colaborate Light";
@@ -894,6 +895,9 @@ a.btn-default.alt{
 }
 .side-bar > div img{
     margin: 0px 0px 20px 6px;
+}
+.blog-item img{
+    width: 100%;
 }
 .blog{
     width: 76%;
@@ -1423,6 +1427,48 @@ footer > div{
     body{
         background-size: 150%;
     }
+    .footer {
+    padding-left: 0px;
+}
+.specification {
+        flex-direction: column;
+        align-items: center;
+    }
+    .specification > div {
+        width: 100%;
+        align-items: center;
+    }
+    .specification-wrap h1 {
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.product-demo .specification > div {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.content.product-demo .specification-wrap {
+    padding: 55px 10px 73px 10px;
+}
+.product-demo .specification-wrap h1 {
+    max-width: 100%;
+    padding: 20px 10px 0px 10px;
+}
+.product-demo .variations .specification > div {
+    padding: 0px 0px 30px 0px;
+}
+.variations .specification .list-bullet {
+    margin: 18px 10px 29px 10px;
+}
+.steps-wrap .specification-wrap h1 {
+    margin-top: 0px;
+}
+.variations .specification .list-bullet + div {
+    margin: 0px 0px 0px 0px;
+}
+.product-demo .variations .specification > div {
+    width: 100%;
+}
 }
 @media (max-width: 900px) {
     body{
@@ -1510,22 +1556,10 @@ footer > div{
 @media (max-width: 700px) {
     body{
         background-size: 170%;
-    }
-    .specification {
-        flex-direction: column;       
-    }
+    }    
     nav a.btn {
         margin: 2px;
-    }
-    .specification > div {
-        width: 100%;
-        align-items: center;
-    }
-    .specification-wrap h1 {
-        max-width: 100%;
-        align-items: center;
-        margin-bottom: 20px;
-    }
+    }    
     .content .hdr{
         flex-direction: column;
     }
@@ -1541,9 +1575,6 @@ footer > div{
     }
     .steps-wrap {
         padding: 0px 10px;
-    }
-    .steps-wrap .specification-wrap h1 {
-        margin-top: 30px;
     }
     .content .hdr form input {
         width: 90%;
