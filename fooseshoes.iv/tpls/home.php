@@ -5,47 +5,47 @@
         <title>Home</title>
         <meta name="HandheldFriendly" content="True">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-        <link type="text/css" rel="stylesheet" href="css/reset.css">
-        <link type="text/css" rel="stylesheet" href="css/reset-elements.css">
-        <link type="text/css" rel="stylesheet" href="css/styles.css">    
+        <link type="text/css" rel="stylesheet" href="/css/reset.css">
+        <link type="text/css" rel="stylesheet" href="/css/reset-elements.css">
+        <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>          
         <header>
-    <div class="header" data-flex="row-center-between">
-        <a href="#" class="logo"></a>
-        <div data-flex="row-center">
-            <input type="search">
-            <i class="icon-search"></i>
-            <a href="#" class="login" data-flex="row-center-center">LOGIN or REGISTER</a>
-        </div>
-    </div>            
-</header> 
-<section class="nav-wrap">
-    <div class="nav" data-flex="row--between">
-        <nav data-flex>
-            <a href="#" class="btn">Home</a>
-            <a href="#" class="btn">Products</a>
-            <a href="#" class="btn">About</a>
-            <a href="#" class="btn">Pages</a>
-            <a href="#" class="btn">Blog</a>
-            <a href="#" class="btn">Contact</a>
-        </nav>
-        <div class="wishlist" data-flex>
-            <div class="wishlist-item" data-flex="row-center-center">
-                <a href="#" class="btn">
-                    <i class="icon-star"></i>
-                    <span class="lbl lbl-counter">30</span>
-                </a>
+            <div class="header" data-flex="row-center-between">
+                <a href="#" class="logo"></a>
+                <div data-flex="row-center">
+                    <input type="search">
+                    <i class="icon-search"></i>
+                    <a href="#" class="login" data-flex="row-center-center">LOGIN or REGISTER</a>
+                </div>
+            </div>            
+        </header> 
+        <section class="nav-wrap">
+            <div class="nav" data-flex="row--between">
+                <nav data-flex>
+                    <a href="#" class="btn">Home</a>
+                    <a href="#" class="btn">Products</a>
+                    <a href="#" class="btn">About</a>
+                    <a href="#" class="btn">Pages</a>
+                    <a href="#" class="btn">Blog</a>
+                    <a href="#" class="btn">Contact</a>
+                </nav>
+                <div class="wishlist" data-flex>
+                    <div class="wishlist-item" data-flex="row-center-center">
+                        <a href="#" class="btn">
+                            <i class="icon-star"></i>
+                            <span class="lbl lbl-counter">30</span>
+                        </a>
+                    </div>
+                    <div class="wishlist-item" data-flex="row-center-center">
+                        <a href="#" class="btn">
+                            <i class="icon-cart"></i>
+                            <span class="lbl lbl-counter">0</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="wishlist-item" data-flex="row-center-center">
-                <a href="#" class="btn">
-                    <i class="icon-cart"></i>
-                    <span class="lbl lbl-counter">0</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>        <section class="top-wrap">
+        </section>        <section class="top-wrap">
             <div class="top" data-flex>
                 <div></div>
                 <div data-flex="col--center">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
                 <div class="_content" data-flex="row-center-around">
-                    <div id="tab1" class="grid active" data-flex='row--around'>
+                    <div id="tab1" class="grid" data-flex='row--around'>
                         <figure>
                             <img src="images/img13.png">
                             <a href="#" class="btn">on sale</a>
@@ -227,114 +227,115 @@
             </div>
         </section>               
         <section class="addon" data-flex="row--between">            
-    <div>
-        <h4>free shipping</h4>
-        <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, </p>
-    </div>
-    <div>
-        <h4>testimonials</h4>
-        <blockquote>
-            <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit <a href="#">[...]</a></p>
-            <cite>- John Doe -</cite>
-        </blockquote>
-    </div>
-    <div class="blog">
-        <h4>blog news</h4>
-        <div data-flex>
-            <div class="lbl lbl-default">apr o1</div>
-            <article>
-                <h5>Nice & clean. The best for you blog!</h5>
-                <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
-            </article>
-        </div>
-        <div data-flex>
-            <div class="lbl lbl-default">apr 01</div>
-            <article>
-                <h5>What an Ecommerce theme!</h5>
-                <p>Vulputate vel nibh. Class aptent taciti sociosqu ad litora</p>
-            </article>
-        </div>
-    </div>
-</section>
-<footer>
-    <section class="footer-top-wrap">
-        <div class="footer-top" data-flex="row--between">
             <div>
-                <h4>text widget</h4>
-                <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                <h4>free shipping</h4>
+                <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, </p>
             </div>
             <div>
-                <h4>twitter widget</h4>
-                <div class="tweet">
-                    <p><a href="#" class="tag">@ericafustero</a> Why thank you. Your work looks awesome by the way! <a href="#" class="tag">@treemelody</a></p>
-                    <time>19 days ago</time>
-                </div>
-                <div class="tweet">
-                    <p><a href="#" class="tag">@roymarvelous</a> You can seek a refund through TF if it is not as advertised - but it is :)</p>
-                    <time>21 days ago</time>
-                </div>
+                <h4>testimonials</h4>
+                <blockquote>
+                    <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit <a href="#">[...]</a></p>
+                    <cite>- John Doe -</cite>
+                </blockquote>
             </div>
-            <div>
-                <h4>flickr widget</h4>
-                <div class="grid" data-flex>
-                    <a href="#" data-flex>
-                        <img src="images/img7.png">
-                    </a>
-                    <a href="#" data-flex>
-                        <img src="images/img8.png">
-                    </a>
-                    <a href="#" data-flex>
-                        <img src="images/img9.png">
-                    </a>
-                    <a href="#" data-flex>
-                        <img src="images/img10.png">
-                    </a>
-                    <a href="#" data-flex>
-                        <img src="images/img11.png">
-                    </a>
-                    <a href="#" data-flex>
-                        <img src="images/img12.png">
-                    </a>
+            <div class="blog">
+                <h4>blog news</h4>
+                <div data-flex>
+                    <div class="lbl lbl-default">apr o1</div>
+                    <article>
+                        <h5>Nice & clean. The best for you blog!</h5>
+                        <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
+                    </article>
+                </div>
+                <div data-flex>
+                    <div class="lbl lbl-default">apr 01</div>
+                    <article>
+                        <h5>What an Ecommerce theme!</h5>
+                        <p>Vulputate vel nibh. Class aptent taciti sociosqu ad litora</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="footer-bottom" data-flex="row-center-between">
-        <form action="#" method="post" data-flex="row-center">
-            <input type="text" placeholder="Enter email for newsletter">
-            <button><span class="btn"><i class="icon-arrow"></i></span></button>
-        </form> 
-        <div data-flex="row-center" class="social">
-            <a href="#" class="btn btn-social"><i class="icon-fb"></i></a>
-            <a href="#" class="btn btn-social"><i class="icon-tw"></i></a>
-            <a href="#" class="btn btn-social"><i class="icon-gp"></i></a>
-            <a href="#" class="btn btn-social"><i class="icon-in"></i></a>
-            <a href="#" class="btn btn-social"><i class="icon-fl"></i></a>
-        </div>
-    </section>
-    <section class="copyright-wrap">
-        <div class="copyright"data-flex="row-center-between">
-            <div data-flex="col">
-                <span>Copyright &copy; Fooseshoes 2013.</span>
-                <span>Designed by EnzoLiVolti.</span>
-            </div>
-            <nav data-flex="row-center">
-                <a href="#">Home</a>
-                <span>&nbsp;/&nbsp;</span>
-                <a href="#">Support</a>
-                <span>&nbsp;/&nbsp;</span>
-                <a href="#">Terms and Conditions</a>
-                <span>&nbsp;/&nbsp;</span>
-                <a href="#">Faqs</a>
-                <span>&nbsp;/&nbsp;</span>
-                <a href="#">Contact us</a>
-            </nav>
-        </div>
-    </section>
-</footer>        <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
-        <script src="js/functions.js" type="text/javascript"></script>
-        <script src="js/jq.functions.js" type="text/javascript"></script>
-        <script src="js/jquery.gfx_tabs.js" type="text/javascript"></script>
+        </section>
+        <footer>
+            <section class="footer-top-wrap">
+                <div class="footer-top" data-flex="row--between">
+                    <div>
+                        <h4>text widget</h4>
+                        <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                    </div>
+                    <div>
+                        <h4>twitter widget</h4>
+                        <div class="tweet">
+                            <p><a href="#" class="tag">@ericafustero</a> Why thank you. Your work looks awesome by the way! <a href="#" class="tag">@treemelody</a></p>
+                            <time>19 days ago</time>
+                        </div>
+                        <div class="tweet">
+                            <p><a href="#" class="tag">@roymarvelous</a> You can seek a refund through TF if it is not as advertised - but it is :)</p>
+                            <time>21 days ago</time>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>flickr widget</h4>
+                        <div class="grid" data-flex>
+                            <a href="#" data-flex>
+                                <img src="images/img7.png">
+                            </a>
+                            <a href="#" data-flex>
+                                <img src="images/img8.png">
+                            </a>
+                            <a href="#" data-flex>
+                                <img src="images/img9.png">
+                            </a>
+                            <a href="#" data-flex>
+                                <img src="images/img10.png">
+                            </a>
+                            <a href="#" data-flex>
+                                <img src="images/img11.png">
+                            </a>
+                            <a href="#" data-flex>
+                                <img src="images/img12.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-bottom" data-flex="row-center-between">
+                <form action="#" method="post" data-flex="row-center">
+                    <input type="text" placeholder="Enter email for newsletter">
+                    <button><span class="btn"><i class="icon-arrow"></i></span></button>
+                </form> 
+                <div data-flex="row-center" class="social">
+                    <a href="#" class="btn btn-social"><i class="icon-fb"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-tw"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-gp"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-in"></i></a>
+                    <a href="#" class="btn btn-social"><i class="icon-fl"></i></a>
+                </div>
+            </section>
+            <section class="copyright-wrap">
+                <div class="copyright"data-flex="row-center-between">
+                    <div data-flex="col">
+                        <span>Copyright &copy; Fooseshoes 2013.</span>
+                        <span>Designed by EnzoLiVolti.</span>
+                    </div>
+                    <nav data-flex="row-center">
+                        <a href="#">Home</a>
+                        <span>&nbsp;/&nbsp;</span>
+                        <a href="#">Support</a>
+                        <span>&nbsp;/&nbsp;</span>
+                        <a href="#">Terms and Conditions</a>
+                        <span>&nbsp;/&nbsp;</span>
+                        <a href="#">Faqs</a>
+                        <span>&nbsp;/&nbsp;</span>
+                        <a href="#">Contact us</a>
+                    </nav>
+                </div>
+            </section>
+        </footer> 
+        <script src="/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="/js/functions.js" type="text/javascript"></script>
+        <script src="/js/jq.functions.js" type="text/javascript"></script>
+        <script src="/js/jquery.gfx_tabs.js" type="text/javascript"></script>
         <script>
             $('.tabs').GFX_tabs();
         </script>
