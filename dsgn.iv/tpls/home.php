@@ -364,8 +364,8 @@
             <div class="designers" data-flex="row--around">
                 <div>
                     <h5>staff</h5>
-                    <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus. </p>
-                    <p>Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut. </p>
+                    <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincid&shy;unt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus. </p>
+                    <p>Aenean diam tortor, hendrerit ac pulvinar vel, con&shy;dimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut. </p>
                     <p>Morbi sagittis diam mauris, in adipiscing nulla convallis ut.</p>
                 </div>
                 <div>
@@ -373,7 +373,7 @@
                     <h4>philippe stark</h4>
                     <span>designer</span>
                     <div data-flex="row--between">
-                        <a data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
+                        <a class="arrow" data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
                         <div class="social-article" data-flex="row-center">
                             <a href="#" class="btn"><i class="icon-fb"></i></a>
                             <a href="#" class="btn"><i class="icon-tw"></i></a>
@@ -387,7 +387,7 @@
                     <h4>mario bellini</h4>
                     <span>designer</span>
                     <div data-flex="row--between">
-                        <a data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
+                        <a class="arrow" data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
                         <div class="social-article" data-flex="row-center">
                             <a href="#" class="btn"><i class="icon-fb"></i></a>
                             <a href="#" class="btn"><i class="icon-tw"></i></a>
@@ -400,7 +400,7 @@
                     <img src="images/img13.png">
                     <h4>patricia urquiola</h4>
                     <span>designer</span>
-                    <div data-flex="row--between">
+                    <div class="arrow" data-flex="row--between">
                         <a data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
                         <div class="social-article" data-flex="row-center">
                             <a href="#" class="btn"><i class="icon-fb"></i></a>
@@ -428,7 +428,7 @@
                             <p>Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum scelerisque eu id massa. Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. </p>
                             <a href="#">read more</a>
                         </article>
-                        <article>
+                        <article data-flex="col">
                             <h2>Proin vehicula nibh massa </h2>
                             <time>11.06.2014</time>
                             <img src="images/img15.png">
@@ -450,7 +450,7 @@
                         <address data-flex="col">
                             <span>90802 california</span>
                             <span>long-beach</span>
-                            <span>po box 6879</span>
+                            <span>po box 68789</span>
                             <span>300 east ocean</span>
                             <span>boulevard</span>
                             <div data-flex="col">
