@@ -38,7 +38,7 @@ body{
 .icon-gp{background: url('../images/icons/16x16/gp.png');}
 .icon-facebook{background: url('../images/icons/24x24/facebook.png');}
 .icon-heart{background: url('../images/icons/24x24/heart.png');margin-bottom: 4px;}
-.icon-heart-alt{background: url('../images/icons/24x24/heart-alt.png');}
+.icon-heart-alt{margin:  0px 0px 4px 0px;background: url('../images/icons/24x24/heart-alt.png');}
 .icon-linkedin{background: url('../images/icons/24x24/linkedin.png');}
 .icon-gplus{background: url('../images/icons/20x20/gplus.png');}
 .icon-arrow1{background: url('../images/icons/20x20/arrow1.png');}
@@ -88,6 +88,8 @@ header{
     text-transform: uppercase;
     color: #383d3c;
     font: 700 18px/18px "Roboto Condensed";
+    padding: 0px 0px 0px 2px;
+    letter-spacing: -0.03em;
 }
 .social{
     margin-top: 50px;
@@ -105,7 +107,7 @@ input[type="radio"]{
 .nav-wrap{
     position: relative;
     width: 125px;
-    margin: 0 0px 50px 115px;
+    margin: 0 0px 50px 114px;
 }
 nav{
     display: none;
@@ -136,7 +138,7 @@ nav a.btn{
     margin: 0 45px;
 }
 .mail{
-    margin-right: 47px;}
+    margin-right: 57px;}
 section{
     position: relative;
     z-index: 1;
@@ -162,29 +164,32 @@ address{
     top: 0;    
 }
 .description dd, .description dt{
-    display: inline;
+    display: block;
 }
 .description dl dt{
     color: #333;
     text-transform:uppercase;
-    font: 700 12px/8px "Roboto Condensed";  
-    height: 10px!important;
+    font: 700 12px/12px "Roboto Condensed";  
+    letter-spacing: -0.03em;
 }
 .description dl dd{
     color: #333;   
     text-transform:uppercase;
-    font: 12px/7px "Roboto Condensed";
+    font: 12px/12px "Roboto Condensed";
+    letter-spacing: -0.015em;
 }
 .description h2{
     color: #333;
     text-transform:uppercase;
     font: 300 24px "Roboto Condensed";
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
 }
 .description p{
     color: #333;
-    font:  12px "Roboto Condensed";
-    margin-bottom: 20px;
+    font: 12px/12px "Roboto Condensed";
+    margin: 0px 29px 14px 0px;
+    letter-spacing: -0.015em;
 }
 .description .view{
     color: #333;
@@ -196,11 +201,6 @@ address{
     color: #f00;
     font:  11px "Roboto Condensed";
 }
-/*.description dd:after{
-     content: "\A"; 
-    white-space: pre;
-    height: 10px
-}*/
 
 .projects-left{
     width: 65%
@@ -271,6 +271,9 @@ address{
     font: 13px/14px "Roboto Condensed";
     height: 14px;
 }
+.timeline-right .half a{
+    padding-right: 28px;
+}
 .projects-hdr .half a.active, .projects-hdr .half a:hover, .timeline-right .half a.active, .timeline-right .half a:hover{
     color: #000;
 }
@@ -296,44 +299,71 @@ address{
     top: 16.4%;
 }
 .fondue .description .view{
-    margin: 59px 0 110px 8px;
+    margin: 72px 0 110px 8px;
 }
 .fondue .description .view + div{
     max-width: 159px;
 }
 .louis .description{
-    left: 10%;
-    top: 8%;
+    left: 10.2%;
+    top: 7.8%;
+}
+.louis .description .view + div{
+    margin: 0px 0px 0px 30px;
+}
+.potter .description .view + div{
+    margin: 21px 40px 0px 0px;
 }
 .louis .description .view{
-    margin: 30px 0;
+    margin: 34px 0 27px 0;
 }
 .set .description{
-    right: 9.5%;
+    right: 9.2%;
     left: auto;
-    top: 19%;
+    top: 18.8%;
+}
+.set .description .view + div{
+    margin: 0px 0px 0px 48px;
 }
 .set .view{
-    margin: 0 0 30px 30px;
+    margin: 6px 0px 21px 37px;
 }
 .sesann .view{
-    margin: 0 50px 0 30px;
+    margin: -4px 50px 0px 53px;
+}
+.sesann .description h2{
+    margin-bottom: 4px;
+}
+.sesann .description .view + div{
+    margin: -4px 0px 0px 1px;
+}
+.alessi .description .view + div{
+    margin: 0px 23px 0px 0px;
+}
+.tabano .description .view + div{
+    margin: -4px 0px 0px 0px;
+}
+.fiji .description .view + div{
+    margin: 0px 0px 0px 25px;
 }
 .potter .description{
-    left: 9%;
-    top: 12%;
+    left: 9.1%;
+    top: 12.3%;
     max-width: 40%;
 }
+.potter .description h2{
+    margin-bottom: 8px;
+}
 .tabano .description{
-    left: 13%;
+    left: 12.8%;
     top: auto;
-    bottom: 6%;
+    bottom: 8.5%;
 }
 .tabano .view{
-    margin: 0 20px;
+    margin: -4px 20px 0 28px;
 }
 .fiji .view{
-    margin: 20px 0;
+    margin: 23px 0px 19px 5px;
 }
 .fiji .description{
     left: 53%;
@@ -343,15 +373,15 @@ address{
 .sesann .description{
     left: 20.5%;
     top: auto;
-    bottom: 1%;
+    bottom: 6.9%;
 }
 .alessi .description{
-    left: 52%;
+    left: 52.2%;
     top: 25%;
     max-width: 50%;
 }
 .alessi .view{
-    margin: 20px 0;
+    margin: 28px 0px 21px -31px;
 }
 .louis{
     width: 28.88%;    
@@ -360,7 +390,7 @@ address{
     color: #fff;
 }
 .set{
-    width: 71.3%;
+    width: 71.12%;
     max-height: 465px;
     min-height: 465px;
     background-color: #eaeaea;
@@ -384,7 +414,7 @@ address{
     max-height: 249px;
 }
 .timeline-right > div{
-    max-width: 465px;
+    max-width: 460px;
     width:100%;  
     background: url('../images/line3.png') no-repeat -189px 0px;
 }
@@ -392,44 +422,44 @@ address{
     color: #333; 
     font: 14px "Roboto Condensed";
     text-transform: uppercase;
+    margin: 0px 0px 4px 0px;
 }
 .timeline-right .projects-hdr .half a.active {
     color: #fff;
 }
 .timeline-right .half{
     height: 33%;
-    width: 33%;
-    max-width: 140px;
-    padding: 59px 13px 0 0;
+    width: 40%;
+    max-width: 154px;
+    padding: 58px 0px 0 0;
 }
 .studio-left{
     background-color: #ff9b6d;
     max-height: 500px;
-    width: 35%
-}
+    width: 35.05%;}
 .studio-right{
     background-color: #e9eae2;    
-    width: 65%;
+    width: 64.95%;
 }
 .studio-left > div {
     max-width: 465px;
     width:100%;
-    background: url('../images/line4.png') no-repeat 0px 0px;
+    background: url('../images/line4.png') no-repeat 0px -3px;
 }
 .studio-right > div {
     max-width: 1035px;
     width:100%;
-    padding: 94px 10px 50px 103px;
+    padding: 93px 10px 50px 103px;
 }
 .studio-right > div > div {
     width:100%;
-    max-width: 777px;
+    max-width: 776px;
 }
 .studio-right p{
     color: #333; 
-    margin-bottom: 17px;
+    margin: 0px 13px 16px 0px;
     font: 18px/16px "Roboto Condensed";
-    letter-spacing: -0.025em;
+    letter-spacing: -0.019em;
 }
 .studio-right span{
     color: #333; 
@@ -439,22 +469,27 @@ address{
 .studio-right h5{
     color: #333; 
     max-width: 360px;
-    margin: 40px 0 25px 0;
+    margin: 38px 5px 23px 0px;
     text-transform: uppercase;
     font: 700 14px/18px "Roboto Condensed";
     border-bottom: 1px solid #bfc0b9;
     padding-left: 5px;
+    letter-spacing: -0.015em;
 }
 .studio-right p.italic.last{
-    margin-bottom: 30px;
+    margin-bottom: 37px;
 }
 .studio-right p.italic{ 
     font: italic 700 18px/18px "Roboto Condensed";
-    letter-spacing: -0.013em;
+    letter-spacing: -0.018em;
+    margin: 0px 13px 18px 0px;
 }
 .studio-right .column{
     max-width: 360px; 
     width: 48%;
+}
+.studio-right .column img{
+    margin: 3px 0px 0px 0px;
 }
 .awards > div{
     width: 43.5%;

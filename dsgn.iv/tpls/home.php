@@ -15,7 +15,7 @@
                 <div data-flex="row--end">
                     <div data-flex="col-center" class="logo-wrap">
                         <div data-flex="col">
-                            <a href="#" class="logo"><img src="images/logo.png"></a>
+                            <a href="#" class="logo" data-flex><img src="images/logo.png"></a>
                             <span>associates</span>
                             <span>studio</span>
                             <span>design</span>
@@ -63,7 +63,7 @@
                     <div data-flex="row--center" class="mail">
                         <div data-flex="col">
                             <span>+64 9 345 6758</span>
-                            <a href="mailto:info@design-studio.com">info@design-studio.com</a>
+                            <a href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
                         </div>                   
                     </div>
                 </div>
@@ -94,11 +94,21 @@
                             <div class="description">
                                 <h2>fondue</h2>
                                 <dl>
-                                    <dt>project assistant:</dt><dd>francesco dompieri</dd>
-                                    <dt>material:</dt><dd>glass and metal</dd>
-                                    <dt>typology:</dt><dd>suspension lamp</dd>
-                                    <dt>client:</dt><dd>david design</dd>
-                                    <dt>year:</dt><dd>2014</dd>
+                                    <div data-flex>
+                                        <dt>project assistant:</dt><dd>francesco dompieri</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>material:</dt><dd>glass and metal</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>typology:</dt><dd>suspension lamp</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>client:</dt><dd>david design</dd>
+                                    </div>
+                                    <div data-flex>
+                                         <dt>year:</dt><dd>2014</dd>
+                                    </div>
                                 </dl>
                                 <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                 <div data-flex="col-center">                                    
@@ -115,10 +125,18 @@
                             <div class="description">
                                 <h2>louis xx</h2>
                                 <dl>
-                                    <dt>designer:</dt><dd>philippe starck</dd>
-                                    <dt>ypology:</dt><dd>chairs</dd>
-                                    <dt>client:</dt><dd>vitra</dd>
-                                    <dt>year:</dt><dd>2012</dd>
+                                    <div data-flex>
+                                       <dt>designer:</dt><dd>philippe starck</dd> 
+                                    </div>
+                                    <div data-flex>
+                                        <dt>ypology:</dt><dd>chairs</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>client:</dt><dd>vitra</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>year:</dt><dd>2012</dd>
+                                    </div>
                                 </dl>
                                 <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                 <div data-flex="col-center">                                    
@@ -132,10 +150,18 @@
                                 <div>
                                     <h2>395-396 p22</h2>
                                     <dl>
+                                        <div data-flex>
                                         <dt>designer:</dt><dd>patrick norguet</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>typology:</dt><dd>armchairs</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>client:</dt><dd>cassina</dd>
-                                        <dt>year:</dt><dd>2013</dd>
+                                    </div>
+                                        <div data-flex>
+                                         <dt>year:</dt><dd>2013</dd>
+                                    </div>
                                     </dl> 
                                 </div>
                                 <div>
@@ -157,9 +183,11 @@
                             <div class="description">
                                 <h2>potter</h2>
                                 <dl>
-                                    <dt>for</dt><dd>stelton</dd>
+                                    <div data-flex>
+                                        <dt>for</dt><dd>&nbsp;stelton</dd>
+                                    </div>
                                 </dl>
-                                <p>Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.</p>
+                                <p>Potter focuses on the functionali&shy;ty and process of preparing tea. a big sieve allows the flavor of to evenly brewed.</p>
                                 <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                 <div data-flex="col-center">                                    
                                     <a href="#" class="like" data-flex="col-center"><i class="icon-heart"></i>+&nbsp;200</a>
@@ -176,10 +204,18 @@
                                 <h2>tabano</h2>
                                 <div data-flex="row-start-around">
                                     <dl>
+                                        <div data-flex>
                                         <dt>designer:</dt><dd>patricia urquiola</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>typology:</dt><dd>armchairs</dd>
-                                        <dt>client:</dt><dd>b&b italia</dd>
+                                    </div>
+                                        <div data-flex>
+                                         <dt>client:</dt><dd>b&b italia</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>year:</dt><dd>2014</dd>
+                                    </div>
                                     </dl>
                                     <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                     <div data-flex="col-center">                                    
@@ -197,9 +233,15 @@
                             <div class="description">
                                 <h2>fiji</h2>
                                 <dl>
-                                    <dt>designer:</dt><dd>cuno frommherz</dd>
-                                    <dt>typology:</dt><dd>armchairs</dd>
-                                    <dt>year:</dt><dd>2012</dd>
+                                    <div data-flex>
+                                        <dt>designer:</dt><dd>cuno frommherz</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>typology:</dt><dd>armchairs</dd>
+                                    </div>
+                                    <div data-flex>
+                                        <dt>year:</dt><dd>2012</dd>
+                                    </div>
                                 </dl>
                                 <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                 <div data-flex="col-center">                                    
@@ -220,11 +262,19 @@
                             <div class="description">
                                 <h2>sesann</h2>
                                 <div data-flex="row-start-around">
-                                    <dl>
+                                    <dl>                                        
+                                        <div data-flex>
                                         <dt>designer:</dt><dd>gianfranco frattini</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>typology:</dt><dd>armchairs</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>client:</dt><dd>cassina</dd>
+                                    </div>
+                                        <div data-flex>
                                         <dt>year:</dt><dd>1970</dd>
+                                    </div>
                                     </dl>
                                     <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                     <div data-flex="col-center">                                    
@@ -238,9 +288,15 @@
                             <div class="description">
                                 <h2>alessi</h2>
                                 <dl>
-                                    <dt>designer:</dt><dd>piero lissoni</dd>
-                                    <dt>client:</dt><dd>alessi</dd>
-                                    <dt>year:</dt><dd>2013</dd>
+                                    <div data-flex>
+                                     <dt>designer:</dt><dd>piero lissoni</dd>   
+                                    </div>
+                                    <div data-flex>
+                                       <dt>client:</dt><dd>alessi</dd> 
+                                    </div>
+                                    <div data-flex>
+                                      <dt>year:</dt><dd>2013</dd>  
+                                    </div>
                                 </dl>
                                 <a href="#" class="view" data-flex="row-center"><i class="icon-arrow2"></i>view project</a>
                                 <div data-flex="col-center">                                    
@@ -274,9 +330,9 @@
                 <div data-flex>                    
                     <div data-flex="row-start-around">
                         <div class="column">
-                            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p>
+                            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipisc&shy;ing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p>
                             <p class="italic last">Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</p>
-                            <p>Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat. </p>
+                            <p>Aenean ullamcorper porta nisl, ac lobortis elit com&shy;modo placerat. </p>
                             <p>Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi.</p>
                             <p>Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.</p>
                         </div>

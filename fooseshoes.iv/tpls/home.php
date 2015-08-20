@@ -45,7 +45,8 @@
                     </div>
                 </div>
             </div>
-        </section>        <section class="top-wrap">
+        </section> 
+        <section class="top-wrap">
             <div class="top" data-flex>
                 <div></div>
                 <div data-flex="col--center">
@@ -62,9 +63,9 @@
             </div>
         </section>
         <section class="tabs-wrap">
-            <div class="tabs tabs-home">
-                <div class="_nav">
-                    <div class="nav-inner" data-flex="row-start-between">
+            <div class="tabs">
+                <div class="_nav-wrap" data-flex="row--center">
+                    <div class="_nav" data-flex="row--center">                    
                         <a href="#tab1" class="btn active" data-flex="col">
                             <div class="line" data-flex="row-center-center">
                                 <div class="inner"></div>
@@ -99,7 +100,7 @@
                             </div>
                             <span>Mellow Yellow</span>
                             <small>Free delivery</small>
-                        </a>
+                        </a>                    
                     </div>
                 </div>
                 <div class="_content" data-flex="row-center-around">
@@ -118,16 +119,60 @@
                         </figure>
                     </div>
                     <div id="tab2" class="grid" data-flex='row--around'>
-
+                        <figure>
+                            <img src="images/img13.png">
+                            <a href="#" class="btn">on sale</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img13.png">
+                            <a href="#" class="btn">on sale</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img13.png">
+                            <a href="#" class="btn">on sale</a>
+                        </figure>
                     </div>
                     <div id="tab3" class="grid" data-flex='row--around'>
-
+                        <figure>
+                            <img src="images/img14.png">
+                            <a href="#" class="btn">special&nbsp;offers</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img14.png">
+                            <a href="#" class="btn">special&nbsp;offers</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img14.png">
+                            <a href="#" class="btn">special&nbsp;offers</a>
+                        </figure>
                     </div>
                     <div id="tab4" class="grid" data-flex='row--around'>
-
+                        <figure>
+                            <img src="images/img15.png">
+                            <a href="#" class="btn">must have</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img15.png">
+                            <a href="#" class="btn">must have</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img15.png">
+                            <a href="#" class="btn">must have</a>
+                        </figure>
                     </div>
                     <div id="tab5" class="grid" data-flex='row--around'>                            
-
+                        <figure>
+                            <img src="images/img13.png">
+                            <a href="#" class="btn">on sale</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img13.png">
+                            <a href="#" class="btn">on sale</a>
+                        </figure>
+                        <figure>
+                            <img src="images/img13.png">
+                            <a href="#" class="btn">on sale</a>
+                        </figure>
                     </div>
                 </div>
             </div>
