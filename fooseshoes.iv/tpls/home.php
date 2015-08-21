@@ -66,35 +66,35 @@
             <div class="tabs">
                 <div class="_nav-wrap" data-flex="row--center">
                     <div class="_nav" data-flex="row--center">                    
-                        <a href="#tab1" class="btn active" data-flex="col">
+                        <a href="#tab1" class="active" data-flex="col--start">
                             <div class="line" data-flex="row-center-center">
                                 <div class="inner"></div>
                             </div>
                             <span>Pink Shoes</span>
                             <small>Now af $145,99</small>
                         </a>
-                        <a href="#tab2" class="btn" data-flex="col">
+                        <a href="#tab2" data-flex="col">
                             <div class="line" data-flex="row-center-center">
                                 <div class="inner"></div>
                             </div>
                             <span>Anna Field</span>
                             <small>Limited Edition</small>
                         </a>
-                        <a href="#tab3" class="btn" data-flex="col">
+                        <a href="#tab3" data-flex="col">
                             <div class="line" data-flex="row-center-center">
                                 <div class="inner"></div>
                             </div>
                             <span>Prada</span>
                             <small>Summer is coming</small>
                         </a>
-                        <a href="#tab4" class="btn" data-flex="col">
+                        <a href="#tab4" data-flex="col">
                             <div class="line" data-flex="row-center-center">
                                 <div class="inner"></div>
                             </div>
                             <span>Casadei</span>
                             <small>All Colors avaiable</small>
                         </a>
-                        <a href="#tab5" class="btn" data-flex="col">
+                        <a href="#tab5" data-flex="col">
                             <div class="line" data-flex="row-center-center">
                                 <div class="inner"></div>
                             </div>
@@ -182,7 +182,7 @@
                 <h2>New arrivals on FooseShoes</h2>
                 <a href="#" class="btn btn-view">Show&nbsp;All</a>
             </div>
-            <div class="grid" data-flex="row--between">
+            <div class="grid" data-flex="row--around">
                 <figure href="#" data-flex="col">                    
                     <img src="images/img1.png">
                     <div class="caption" data-flex="row-center">
@@ -228,7 +228,7 @@
                 <h2>Best sellers of the month</h2>
                 <a href="#" class="btn btn-view">Show&nbsp;All</a>
             </div>
-            <div class="grid" data-flex="row--between">
+            <div class="grid" data-flex="row--around">
                 <figure href="#" data-flex="col">                    
                     <img src="images/img4.png">
                     <div class="caption" data-flex="row-center">

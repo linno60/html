@@ -54,7 +54,7 @@
                     <h2>All Products</h2>
                     <ul class="breadcrumb" data-flex="row-center">
                         <li><a href="#">Home</a></li>
-                        <li>> All Products</li>
+                        <li>>&ensp;All Products</li>
                     </ul>
                 </div>
                 <form action="#" method="post" data-flex="row-center">
@@ -70,7 +70,7 @@
                     </span>
                 </form>
             </div>
-            <div class="grid" data-flex="row--between">
+            <div class="grid" data-flex="row--around">
                 <figure href="#" data-flex="col">                    
                     <img src="images/img1.png">
                     <div class="caption" data-flex="row-center">
