@@ -50,11 +50,23 @@
             <a href="#"><i class="icon-close"></i></a>
             <div data-flex="row-center-between">
                 <a href="#" class="btn btn-prev"></a>
-                <img src="images/board1.png">
-                <img src="images/board2.png">
-                <img src="images/board3.png">
-                <img src="images/board4.png">
-                <img src="images/board5.png">
+                <div class="img-wrap" data-flex="row-center-between">
+                    <div>
+                        <img src="images/board1.png">
+                    </div>
+                    <div>
+                        <img src="images/board2.png">
+                    </div>
+                    <div>
+                        <img src="images/board3.png">
+                    </div>
+                    <div>
+                        <img src="images/board4.png">
+                    </div>
+                    <div>
+                        <img src="images/board5.png">
+                    </div>
+                </div>                
                 <a href="#" class="btn btn-next"></a>
             </div>
             <span>snowboard extreme series</span>

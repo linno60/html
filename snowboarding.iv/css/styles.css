@@ -128,6 +128,12 @@ background-color: #000;
     position: relative;
     padding: 117px 0px 54px 0px;
 }
+.img-wrap{
+    width: 100%;
+}
+.img-wrap img{
+    width: 100%;
+}
 .snowboards h2{
     color: #000;
     text-transform: uppercase;
@@ -135,6 +141,7 @@ background-color: #000;
     margin: 0px 0px 26px 0px;
 }
 .snowboards p{
+    text-align: center;
     color: #000;
     text-transform: uppercase;
     font: 15px "Proxima Nova Regular";
@@ -142,6 +149,7 @@ background-color: #000;
     letter-spacing: -0.037em;
 }
 .snowboards span{
+    text-align: center;
     color: #000;
     text-transform: uppercase;
     font: 24px "Proxima Nova Semibold";
@@ -304,6 +312,22 @@ footer{
     .footer{
         flex-direction: column;
     }
+}
+@media (max-width: 650px) {
+    .slider > div {
+    margin: 18px 10px 0px 10px;
+}
+.slider h1 {
+    font: 46px/50px "Proxima Nova Extrabold";
+}
+}
+@media (max-width: 450px) {
+    .snowboards h2 {
+    font: 40px "Proxima Nova Extrabold";
+}
+.company h3 {
+    font: 34px/40px "Proxima Nova Extrabold";
+}
 }
 
 
