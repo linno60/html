@@ -1,0 +1,14 @@
+<img src="/images/icons/point.png">
+<img src="/images/icons/check-plus.png">
+<img src="/images/icons/quote.png">
+<img src="/images/icons/marker.png">
+<img src="/images/twitter-bird.png">
+<img src="/images/icons/32x32/add-facebook.png">
+<img src="/images/icons/32x32/add-mail.png">
+<img src="/images/icons/32x32/add-plus.png">
+<img src="/images/icons/32x32/add-print.png">
+<img src="/images/icons/32x32/add-twitter.png">
+<img src="/images/rating1.png">
+<img src="/images/rating2.png">
+<img src="/images/rating3.png">
+<img src="/images/rating4.png">

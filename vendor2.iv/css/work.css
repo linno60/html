@@ -1,0 +1,103 @@
+body{background-color:#808080;}
+._padd{padding-left:30px;}
+#_tab-form-elements ._padd {padding-left: 90px;}
+._elements hr{border:none;}
+._alt-bg {
+    display: inline-block;
+    border: 1px dashed white;
+    background: #4d5a9e;
+}
+
+/* HEADLINES */
+._h{
+    color:#fff;
+    font-family:"Arial";
+    font-weight:600;
+}
+h2._h{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+h3._h {
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 10px 15px 0;
+    width: 130px;
+    text-align: right;
+}
+
+/* EUGENE NAV */
+._eugene-nav {
+    position: fixed;
+    left: -43px;
+    transform: rotate(-90deg);
+    font: 600 20px "Arial";
+    color: #FFF;
+    padding: 5px;
+    background-color:lightgray;
+    border-radius: 0px 0px 10px 10px;
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+._eugene-nav._ivan {top: 100px;}
+._eugene-nav._artur{top: 230px;}
+._eugene-nav._active {background-color: #229DEE;}
+._eugene-nav:not(._active) {color: gray;}
+._eugene-nav:not(._active):hover {background-color: lightblue; color: white;}
+
+/* TABS */
+._tabs {
+    width:1170px;
+    margin:0 auto;
+    position:relative;
+    padding-top:10px;
+}
+._tabs > div {
+    display: inline;
+}
+._tabs > div > a {
+    background-color:transparent;
+    border:none;
+    float:left;
+    width:auto;
+    padding:10px;
+    text-shadow: none;
+    font-weight:600;
+    font-size: 14px;
+    background-color:#229dee;
+    color: white;
+    border-radius:7px 7px 0px 0px;
+    border:1px solid #ccc;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+._tabs > div:not(:target) > a {
+    border-bottom: 1px solid #ccc;
+}
+._tabs > div:target > a {
+    background-color:#808080;
+    color:white;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    position: relative;
+    top: -1px;
+    padding: 11px 10px;
+}
+._tabs > div > div {
+    background-color: #808080;
+    border: 1px solid #ccc;
+    left: 0;
+    right: 0;
+    top: 48px;
+    padding: 30px;
+    display: none;
+    color: white;
+}
+._tabs > div:target > div {display: block;}
+._tabs > div:not(:target) > div {position: absolute;}
+._tabs > div:target > div {
+    position: absolute;
+    z-index: -1;
+}

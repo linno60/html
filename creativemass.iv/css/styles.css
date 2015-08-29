@@ -1,0 +1,68 @@
+/*@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../fonts/MyriadPro/MyriadPro-Bold.otf');
+}
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    src: url('../fonts/MyriadPro/MyriadPro-Semibold.otf');
+}*/
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: 'MyriadPro-BoldCondIt';
+    src: url('../fonts/MyriadPro/MyriadPro-BoldCondIt.otf');
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-color: #1b1b1b;
+}
+.icon-arrow{
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons/20x20/arrow.png')no-repeat;
+}
+.icon-info{
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/24x24/info.png')no-repeat;
+}
+.icon-oscar{
+    width: 48px;
+    height: 48px;
+    background: url('../images/icons/48x48/oscar.png')no-repeat;
+}
+.icon-fb, .icon-in, .icon-rss, .icon-sk, .icon-tw, .icon-yt{
+    width: 32px;
+    height: 32px;
+}
+.icon-fb{background: url('../images/icons/32x32/fb.png')no-repeat;}
+.icon-in{background: url('../images/icons/32x32/in.png')no-repeat;}
+.icon-rss{background: url('../images/icons/32x32/rss.png')no-repeat;}
+.icon-sk{background: url('../images/icons/32x32/sk.png')no-repeat;}
+.icon-tw{background: url('../images/icons/32x32/tw.png')no-repeat;}
+.icon-yt{background: url('../images/icons/32x32/yt.png')no-repeat;}
+
+.wrap{
+    max-width: 980px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+.logo b{
+    color: #f0f0f0;
+font: 54px "MyriadPro-BoldCondIt";
+text-shadow: 0 1px 0 #353535;
+text-shadow: 0 0 32px rgba(255,255,255,.64);
+}
+.logo span{
+    color: #6a6969;
+font: 10px "Myriad Pro Regular";
+}
+.nav a{
+    text-transform: uppercase;
+    color: #fff;
+font: 14px "Myriad Pro Regular";
+}
