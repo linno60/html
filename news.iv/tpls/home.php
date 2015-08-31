@@ -16,7 +16,7 @@
                     <p>Having trouble viewing this email?<a href="#"> View it in your browser</a></p>
                     <div data-flex>
                         <a href="#"><i class="icon-arrow"></i><span>Online version</span></a>
-                        <a href="#"><i class="icon-arrow"></i><span>Forward to a Friend</span></a>
+                        <a href="#"><i class="icon-arrow"></i><span>Forwrd to a Friend</span></a>
                     </div>
                 </div>
             </section>
@@ -25,7 +25,7 @@
                     <a href="#" class="logo" data-flex="row-center">
                         <i class="icon-logo"></i>
                         <h1 data-flex="col">
-                            <b>E-Mail Template</b>
+                            <b>E-mail Template</b>
                             <small>Free Email Template</small>
                         </h1>
                     </a>
@@ -34,7 +34,7 @@
             </section>
         </header>
         <section class="featured-wrap">
-            <div class="featured" data-flex>
+            <div class="featured" data-flex="row-start-between">
                 <div>
                     <h1>Featured Title Goes Right Here Like This</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
@@ -43,39 +43,95 @@
                         <a href="#" class="btn btn-default">Online Demo</a>
                     </div>
                 </div>
-                <div>
+                <div data-flex="row--end">
                     <img src="images/img.png">
                 </div>
             </div>
         </section>
         <section class="content-wrap" data-flex="row--between">
-            <div>
+            <div class="content">
                 <h2>Heading Title Goes Right Here</h2>
-                <article data-flex="row--between">
+                <article data-flex="row-start-between">
                     <div>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+                        <span>Lorem ipsum dolor sit amet, con&shy;sectetur adipisicing elit</span>
                         <p>Dor do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                         <a href="#"><i class="icon-list"></i><span>Read More</span></a>
                     </div>
+                    <figure data-flex>
+                        <img src="images/img3.png">
+                    </figure>
+                </article>
+                <h2>Successful Email Marketing Template</h2>
+                <article>                    
+                    <figure data-flex>
+                        <img src="images/img4.png">
+                    </figure>                    
+                    <p>Dor do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod donec id lectus malesuada magna mollis lacinia ac sed tellus.</p>
+                    <a href="#"><i class="icon-list"></i><span>Read More</span></a>  
+                </article>
+                <h2>Email Template That Stands Out From The Crowd</h2>
+                <article data-flex="row-start-between">
+                    <figure data-flex>
+                        <img src="images/img3.png">
+                    </figure>
                     <div>
-                        <img src="images/img.png">
-                    </div>
+                        <span>Lorem ipsum dolor sit amet, con&shy;sectetur adipisicing elit</span>
+                        <p>Dor do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        <a href="#"><i class="icon-list"></i><span>Read More</span></a>
+                    </div>                   
                 </article>
             </div>
-            <aside>
+            <aside class="aside">
                 <article>
-                   <h2>Sidebar List</h2>
-                <span></span> 
-                <ul>
-                    <li><a href="#">Lorem Ipsum dolor</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
+                    <h2>Sidebar List</h2>
+                    <span>Quisque vitae ligula arcu, in dona  eu rutrum magna.</span> 
+                    <ul class="list list-default">
+                        <li><a href="#">Lorem lipsum dolor</a></li>
+                        <li><a href="#">Etiam in diam lacus in amet</a></li>
+                        <li><a href="#">Praesent lobortis enim nec</a></li>
+                        <li><a href="#">Quisque eget sapien dolor</a></li>
+                        <li><a href="#">Cras non nisl diam male</a></li>
+                        <li><a href="#">Etiam in diam lacus felis.</a></li>
+                    </ul>
                 </article>
+                <article>
+                    <h2>Sidebar Widget</h2>
+                    <figure data-flex>
+                        <img src="images/img5.png">
+                    </figure>
+                    <p>Quisque igula arcu, in rutrum magna. Ut varius imperdiet dor nor lorem ipsum dolor sit am et, consectetur adipiscing elit.</p>
+                    <a href="#"><i class="icon-list"></i>View Latest Products</a>
+                </article>
+                <h2>Advertisement</h2>
+                <div class="advertisement" data-flex="row--between">
+                    <img src="images/img1.png">
+                    <img src="images/img2.png">
+                </div>
             </aside>
         </section>
+        <footer>
+            <section class="footer" data-flex="row-center-between">
+                <a href="#" class="logo" data-flex="row-center">
+                    <i class="icon-logo-footer"></i>
+                    <h1 data-flex="col">
+                        <b>E-mail Template</b>
+                        <small>Free Email Template</small>
+                    </h1>
+                </a>
+                <div data-flex="row-center" class="social">
+                    <a href="#"><i class="icon-fb"></i></a>
+                    <a href="#"><i class="icon-in"></i></a>
+                    <a href="#"><i class="icon-tw"></i></a>
+                    <a href="#"><i class="icon-mail"></i></a>
+                    <a href="#"><i class="icon-gp"></i></a>
+                    <a href="#"><i class="icon-yt"></i></a>
+                </div>
+            </section>
+            <section class="copyright-wrap">
+                <div class="copyright" data-flex="row-center-center">
+                    <p>This daily newsletter was sent to johndoe@sitename.com from Company Name because you subscribed. Rather not receive our newsletter anymore? <a href="#">Unsubscribe instantly</a></p>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: '';
+    src: url('../fonts/.otf');
+}
+.icon-{
+    width: 0px;
+    height: 0px;
+}
+.icon-{background: url('../images/icons/.png');}
+.icon-{
+    width: 0px;
+    height: 0px;
+    background: url('../images/icons/.png');
+}
+
+@media (max-width: 0px) {
+    
+}
