@@ -14,13 +14,19 @@
             <header data-flex="col-center">
                 <a name='top'></a>
                 <a href="#" class="logo" data-flex="col-center"><b>creativemass</b><span>core unstable be prepared</span></a>
-                <nav class="nav" data-flex="row-center-center">
-                    <a href="#">work</a>
-                    <a href="#">services</a>
+                <div class="nav-wrap" data-flex="row--center">
+                    <nav class="nav" data-flex="row-center-between">
+                    <div data-flex>
+                        <a href="#" class="active">work</a>
+                        <a href="#">services</a>
+                    </div>                    
                     <img src="images/orbit.png">
-                    <a href="#">about</a>
-                    <a href="#">contact</a>
+                    <div data-flex>
+                        <a href="#">about</a>
+                        <a href="#">contact</a>
+                    </div>                    
                 </nav>
+                </div> 
             </header>
             <section class="works-wrap"> 
                 <h2 data-flex="row-center-between">latest works
@@ -99,7 +105,7 @@
                     <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur”</blockquote>
                     <cite>John Doe  <a href="#">- InspiredCore.com</a></cite>
                     <h2>awards</h2>
-                    <div data-flex>
+                    <div data-flex class="awards">
                         <i class="icon-oscar"></i>
                         <span>Academy Award for Best Animated Short Film</span>
                     </div>
@@ -154,7 +160,7 @@
                         <div data-flex class="info">
                             <div class="lbl lbl-default"><i class="icon-info"></i></div>
                             <div data-flex="col">
-                                <a href="mailto:contact@inspiredcore.ocm">contact@inspiredcore.ocm</a>
+                                <a href="mailto:contact@inspiredcore.com">contact@inspiredcore.com</a>
                                 <span>+40(744)123xxx</span>
                             </div>
                         </div>
