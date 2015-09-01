@@ -116,7 +116,7 @@
                             <li><a href="#">Quisque eget sapien dolor</a></li>
                         </ul>
                     </article>
-                    <article data-flex="col">
+                    <article class="additions" data-flex="col">
                         <h2>New Additions</h2>
                         <figure data-flex>
                             <img src="images/img3.png">
