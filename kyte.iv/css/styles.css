@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: '';
+    src: url('../fonts/.otf');
+}
+.icon-heart, .icon-letter, .icon-phone{
+    width: 12px;
+    height: 12px;
+}
+.icon-dribble, .icon-dribble-footer, .icon-instagram, .icon-instagram-footer, .icon-mail, .icon-mail-footer{
+    width: 28px;
+    height: 28px;
+}
+.icon-twitter, .twitter-footer{
+    width: 32px;
+    height: 32px;
+}
+.icon-heart{background: url('../images/icons/12x12/heart.png');}
+.icon-letter{background: url('../images/icons/12x12/letter.png');}
+.icon-phone{background: url('../images/icons/12x12/phone.png');}
+.icon-dribble{background: url('../images/icons/28x28/dribble.png');}
+.icon-dribble-footer{background: url('../images/icons/28x28/dribble-footer.png');}
+.icon-instagram{background: url('../images/icons/28x28/instagram.png');}
+.icon-instagram-footer{background: url('../images/icons/28x28/instagram-footer.png');}
+.icon-mail{background: url('../images/icons/28x28/mail.png');}
+.icon-mail-footer{background: url('../images/icons/28x28/mail-footer.png');}
+.icon-twitter{background: url('../images/icons/40x40/twitter.png');}
+.icon-twitter-footer{background: url('../images/icons/40x40/twitter-footer.png');}
+.icon-location{
+    width: 16px;
+    height: 16px;
+    background: url('../images/icons/16x16/location.png');
+}
+.icon-mail-alt{
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons/20x20/mail-alt.png');
+}
+.icon-logo{
+    width: 40px;
+    height: 40px;
+    background: url('../images/icons/40x40/logo.png');
+}
+header{
+    background-color: #fff;
+}
+.header, .slider, .hdr h2{
+    margin: auto;
+    max-width: 1220px;
+    padding: 10px 10px 10px 10px;
+}
+.header{
+    min-height: 86px;
+}
+.slider{
+    min-height: 700px;
+}
+.slider-wrap{
+    background-color: #8f8f8f;
+    box-shadow: inset 0px 4px 0px 0px #7f7f7f;
+}
+.hdr h2{
+    color: #fff;
+font: 25px "Lato";
+width: 100%;
+text-transform: uppercase;
+}
+.hdr{
+    background-color: #1abc9c;
+}
+.logo{
+   color: #cacaca;
+font: 25px "AvenirNext-Bold";
+text-transform: uppercase;
+}
+.nav a{
+    color: #c5c5c5;
+    font: 13px "Lato";
+    text-transform: uppercase;
+}
+.nav a.active{
+    color: #1abb9c;
+}
+.slider h1, .slider span{
+    color: #fff;
+    background-color: #646464;
+    text-transform: uppercase;
+}
+.slider h1{
+    margin: 0px 0px 10px 0px;
+}
+.slider span{
+    margin: 0px 0px 25px 0px;
+}
+
+
+
+@media (max-width: 0px) {
+    
+}
