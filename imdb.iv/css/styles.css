@@ -15,6 +15,23 @@ a{
     height: 0px;
     background: url('../images/icons/.png');
 }
+body{
+    background: url('../images/bg.png');
+    background-size: cover;
+}
+header{
+    height: 50px;
+}
+.lwrap{
+    max-width: 868px;
+    padding: 0px 45px 0px 45px;
+}
+figure{
+    margin: 1px;
+}
+figure img{
+    width: 100%;
+}
 @media (max-width: 0px) {
     
 }

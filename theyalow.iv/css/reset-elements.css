@@ -112,11 +112,6 @@ i[class*="icon-"] {
     display: inline-block;
 }
 
-.lwrap {
-    margin: 0 auto;
-    height: 100%;
-}
-
 [data-flex] {display: flex;}
 [data-flex^='col'] {flex-direction: column;}
 [data-flex^='row'] {flex-direction: row;}
@@ -138,8 +133,3 @@ i[class*="icon-"] {
 [data-flex='row--center'],[data-flex='row-start-center'],[data-flex='row-end-center'],[data-flex='row-center-center'],[data-flex='row-stretch-center'],[data-flex='row-baseline-center'] {justify-content: center;}
 [data-flex='row--between'],[data-flex='row-start-between'],[data-flex='row-end-between'],[data-flex='row-center-between'],[data-flex='row-stretch-between'],[data-flex='row-baseline-between'] {justify-content: space-between;}
 [data-flex='row--around'],[data-flex='row-start-around'],[data-flex='row-end-around'],[data-flex='row-center-around'],[data-flex='row-stretch-around'],[data-flex='row-baseline-around'] {justify-content: space-around;}
-
-[data-flex='2cols'], [data-flex='3cols'], [data-flex='4cols'] {display: flex; align-items: flex-start;}
-[data-flex='2cols'] > * {width: 50%;}
-[data-flex='3cols'] > * {width: calc(100% / 3);}
-[data-flex='4cols'] > * {width: 25%;}
