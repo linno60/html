@@ -315,9 +315,10 @@ footer{
     font-size: 12px;
 }
 .footer-form input::-moz-placeholder, .footer-form textarea::-moz-placeholder {
-    color: #545454;
+    color: #000;
     font-family: "Arial";
     font-size: 12px;
+    opacity: 1;
 }
 .footer-form input:-ms-input-placeholder, .footer-form textarea:-ms-input-placeholder {
     color: #545454;

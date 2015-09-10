@@ -155,9 +155,9 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 input:-moz-placeholder { color:#a9a9a9; }
 textarea:-moz-placeholder { color:#a9a9a9; }
 
-input::-moz-placeholder {
-    opacity:1;
-}
+::-webkit-input-placeholder {color: #a9a9a9; opacity: 1;}
+::-moz-placeholder {color: #a9a9a9; opacity: 1;}
+:-ms-input-placeholder {color: #a9a9a9; opacity: 1;}
 
 /* Print styles!
 -------------------------------------------------------------------------------*/

@@ -15,6 +15,16 @@ a{
     height: 0px;
     background: url('../images/icons/.png');
 }
+
+input::-webkit-input-placeholder {
+    
+}
+input::-moz-placeholder {
+    
+}
+input:-ms-input-placeholder {
+    
+}
 @media (max-width: 0px) {
     
 }

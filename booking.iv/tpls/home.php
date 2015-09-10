@@ -131,12 +131,12 @@
                                     <div class="grid" data-flex="row--between">
                                         <figure data-flex="col">
                                             <a href="#" data-flex>
-                                                <img src="images/img1.png">
+                                                <img src="/images/img1.png">
                                             </a>
                                             <figcaption>
                                                 <div class="figcaption-hdr" data-flex="row-center-between">
                                                     <h5><a href="#">river north</a></h5>
-                                                    <img src="images/rating.png">
+                                                    <img src="/images/rating.png">
                                                 </div>
                                                 <div class="figcaption-details" data-flex="row--between">
                                                     <span class="country" data-flex="row-center">United States</span>
@@ -146,12 +146,12 @@
                                         </figure>
                                         <figure data-flex="col">
                                             <a href="#" data-flex>
-                                                <img src="images/img2.png">
+                                                <img src="/images/img2.png">
                                             </a>
                                             <figcaption>
                                                 <div class="figcaption-hdr" data-flex="row-center-between">
                                                     <h5><a href="#">streeterville</a></h5>
-                                                    <img src="images/rating.png">
+                                                    <img src="/images/rating.png">
                                                 </div>
                                                 <div class="figcaption-details" data-flex="row--between">
                                                     <span class="country" data-flex="row-center">Canada</span>
@@ -161,12 +161,12 @@
                                         </figure>
                                         <figure data-flex="col">
                                             <a href="#" data-flex>
-                                                <img src="images/img3.png">
+                                                <img src="/images/img3.png">
                                             </a>
                                             <figcaption>
                                                 <div class="figcaption-hdr" data-flex="row-center-between">
                                                     <h5><a href="#">cold coast</a></h5>
-                                                    <img src="images/rating.png">
+                                                    <img src="/images/rating.png">
                                                 </div>
                                                 <div class="figcaption-details" data-flex="row--between">
                                                     <span class="country" data-flex="row-center">United Kingdom</span>
@@ -176,12 +176,12 @@
                                         </figure>
                                         <figure data-flex="col">
                                             <a href="#" data-flex>
-                                                <img src="images/img4.png">
+                                                <img src="/images/img4.png">
                                             </a>
                                             <figcaption>
                                                 <div class="figcaption-hdr" data-flex="row-center-between">
                                                     <h5><a href="#">lakeshore east</a></h5>
-                                                    <img src="images/rating.png">
+                                                    <img src="/images/rating.png">
                                                 </div>
                                                 <div class="figcaption-details" data-flex="row--between">
                                                     <span class="country" data-flex="row-center">Miami City</span>
@@ -225,19 +225,19 @@
                             <h3 class="hdr">Our <span>Clients</span></h3>
                             <div class="clients" data-flex="row--between">
                                 <div data-flex="row-center-center">
-                                    <img src="images/aflac.png">
+                                    <img src="/images/aflac.png">
                                 </div>
                                 <div data-flex="row-center-center">
-                                    <img src="images/saeco.png">
+                                    <img src="/images/saeco.png">
                                 </div>
                                 <div data-flex="row-center-center">
-                                    <img src="images/turnstyle.png">
+                                    <img src="/images/turnstyle.png">
                                 </div>
                                 <div data-flex="row-center-center">
-                                    <img src="images/ncr.png">
+                                    <img src="/images/ncr.png">
                                 </div>
                                 <div data-flex="row-center-center">
-                                    <img src="images/mosswarner.png">
+                                    <img src="/images/mosswarner.png">
                                 </div>
                             </div>
                         </section>

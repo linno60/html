@@ -36,10 +36,16 @@ a{
     height: 12px;
     min-width: 12px;
 }
-.icon-location, .icon-tw{
+.icon-location{
     width: 16px;
     height: 16px;
     min-width: 16px;
+    background: url('../images/icons/16x16/location.png');
+}
+.icon-tw{
+    width: 13px;
+    height: 10px;
+    background: url('../images/icons/tw.png');
 }
 .icon-bottle, .icon-clock, .icon-lamp, .icon-star, .icon-quotes{
     width: 42px;
@@ -47,12 +53,26 @@ a{
 }
 .icon-letter{background: url('../images/icons/12x12/letter.png');}
 .icon-phone{background: url('../images/icons/12x12/phone.png');}
-.icon-location{background: url('../images/icons/16x16/location.png');}
-.icon-tw{background: url('../images/icons/16x16/tw.png');}
-.icon-bottle{background: url('../images/icons/42x42/bottle.png');}
-.icon-clock{background: url('../images/icons/42x42/clock.png');}
-.icon-lamp{background: url('../images/icons/42x42/lamp.png');}
-.icon-star{background: url('../images/icons/42x42/star.png');}
+.icon-bottle{
+    background: url('../images/icons/bottle.png');
+    width: 36px;
+    height: 37px;
+}
+.icon-clock{
+    background: url('../images/icons/clock.png');
+    width: 28px;
+    height: 32px;
+}
+.icon-lamp{
+    background: url('../images/icons/lamp.png');
+    width: 27px;
+    height: 41px;
+}
+.icon-star{
+    background: url('../images/icons/star.png');
+    width: 37px;
+    height: 20px;
+}
 .icon-quotes{background: url('../images/icons/42x42/quotes.png');}
 header{
     background: url('../images/bg-header.png');
@@ -250,8 +270,9 @@ font: 14px/24px "Roboto";
    margin: 18px 26px 22px 1px;
 }
 .tweet i{
-    min-width: 16px;
-    margin: 0px 8px 0px 0px;}
+    min-width: 13px;
+    margin: 6px 11px 0px 0px;
+}
 .post time{
     color: #cacaca;    
     font: 12px/20px "Roboto Slab";
