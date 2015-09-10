@@ -52,20 +52,21 @@ a{
 .icon-prev{background: url('../images/icons/11x18/prev.png');}
 .icon-next{background: url('../images/icons/11x18/next.png');}
 body{
-    background: url('../images/bg.png')repeat;
+    background: url('../images/bg.png')no-repeat;
+    background-size: cover;
 }
 .pull {
-    margin: 0px 0px 42px 0px;
+    margin: 0px 1px 32px 0px;
 }
 .logo{
-    margin: 0px 38px 0px 0px;
+    margin: 14px 41px 0px 0px;
 }
 .logo b{
     text-shadow: 0.5px 0.9px 2px rgba(0, 0, 0, 0.22);
-color: white;
+    color: white;
 
     font: 80px/46px "SFSpeedwaystar";
-text-transform: uppercase;
+    text-transform: uppercase;
     margin: 0px 0px 15px 0px;
 }
 .logo small{
@@ -77,26 +78,30 @@ text-transform: uppercase;
     width:30px;
     height: 28px;
     background: url('../images/flag.png');
+    padding: 0px 0px 4px 0px;
 }
 .lwrap{
     max-width: 870px;
-    padding: 0px 10px 106px 10px;
+    padding: 0px 9px 104px 10px;
 }
 header{
-    padding: 0px 0px 31px 0px;
+    padding: 0px 35px 24px 32px;
 }
 .pull em{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
     color: #bcbcbc;
     font: italic 12px "Arial";
-    padding: 0px 20px 0px 0px;
+    padding: 2px 12px 0px 0px;
 }
 .nav-wrap{
-    margin: 0px 0px 24px 0px;
+    flex-wrap: wrap;
+}
+.nav{
+    flex-wrap: wrap;
 }
 a.btn-nav{
-    height: 23px;    
-    padding: 2px 5px 2px 5px;
+    height: 11px;    
+    padding: 2px 13px 2px 5px;
     border-right: 1px solid #bababa;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
     color: #767676;
@@ -104,24 +109,26 @@ a.btn-nav{
     text-transform: uppercase;
 }
 .nav a.btn-nav{
-    margin: 0px 22px 0px 0px;
+    margin: 0px 14px 0px 0px;
 }
 .nav a.btn-nav.active, .nav a.btn-nav:hover{
     text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
-color: #f6f6f6;
+    color: #f6f6f6;
     border-radius: 3px;
+    height: 23px;
     border-right: 1px solid transparent;
     background:url('../images/grid.png'), linear-gradient(to top, #468899 0%, #4fa0b5 100%);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 .nav a.btn-nav i{
-    margin: 0px 0px 0px 4px;
+    margin: 0px 0px 0px 5px;
 }
 .nav-add a.btn-nav i{
     margin: 0px 0px 0px 4px;
 }
 .nav-add{
-    margin: 18px 0px 0px 0px;
+    flex-wrap: wrap;
+    margin: 15px 0px 0px 0px;
 }
 .nav-add a.btn-nav{
     color: #478c9d;
@@ -131,7 +138,7 @@ color: #f6f6f6;
     border: 1px solid transparent;
 }
 .nav-add a.btn-nav.active, .nav-add a.btn-nav:hover{
-color: #797979;
+    color: #797979;
     border-radius: 3px;
     border: 1px solid #c2c2c2;
 }
@@ -139,21 +146,24 @@ color: #797979;
     background: url('../images/icons/9x5/down-active.png')
 }
 .title{
+    margin: 13px 0px 0px 0px;
     text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
-color: white;
-font: 28px/36px "PFDinDisplayProBold";
-    padding: 3px 11px 5px 13px;
-text-transform: uppercase;
-border-radius: 3px;
+    color: white;
+    font: 28px/36px "PFDinDisplayProBold";
+    padding: 1px 11px 3px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
     background:url('../images/grid.png'), linear-gradient(to top, #468899 0%, #4fa0b5 100%);
+    display: inline-block;
 }
 .search{
     width: 205px;
-height: 24px;
-background-color: white;
-padding: 0px 5px 0px 5px;
-box-shadow: inset 1px 1px 1px rgba(0, 0, 1, 0.28);
-border-radius: 10px;
+    height: 24px;
+    background-color: white;
+margin: 10px 0px 10px 0px;
+    padding: 0px 8px 0px 12px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 1, 0.28);
+    border-radius: 10px;
 }
 .search input{
     width: 90%;
@@ -187,76 +197,88 @@ border-radius: 10px;
     position:relative;
     margin: 0px 0px 16px 0px;
 }
+.header-wrap, .header-wrap > div{
+    flex-wrap: wrap;
+}
 .rating-wrap{
     border-top: 1px solid rgba(0,0,0,.2);
     border-bottom: 1px solid rgba(0,0,0,.2);
-    padding: 10px 0px; 
+    padding: 7px 0px 7px 0px; 
     position: relative;    
+    margin: 9px 12px 0px 30px;
 }
 .own-rating{
     border-left: 1px solid rgba(0,0,0,.2);
     border-right: 1px solid rgba(0,0,0,.2);   
-    margin: 0px -11px;
+    margin: 0px -10px;
+    padding: 0px 0px 6px 0px;
 }
 .arc {
     border: 1px solid rgba(0,0,0,.2);
-    width: 24px;
-    height: 23px;
+    width: 22px;
+    height: 20px;
     position: absolute;
-    border-radius: 60%;
+    border-radius: 50%;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
 }
 .arc.tl{
     top: -12px;
-    left: -23px;
-    transform: rotate(45deg);
+    left: -21px;
+    transform: rotate(50deg);
 }
 .arc.tr{
     top: -12px;
-    right: -23px;
+    right: -22px;
     transform: rotate(135deg);
 }
 .arc.bl{
     bottom: -12px;
-    left: -23px;
+    left: -22px;
     transform: rotate(-45deg);
 }
 .arc.br{
     bottom: -12px;
-    right: -23px;
+    right: -21px;
     transform: rotate(-135deg);
 }
 .rating{
-    margin: 10px 10px 10px 10px;
+    margin: 0px 13px 8px 9px;
     border-bottom: 1px solid rgba(0,0,0,.2);    
+    padding: 0px 0px 3px 0px;
 }
 .rating b{
     color: #448697;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-font: 18px "PFDinDisplayProBold";
-text-transform: uppercase;
+    font: 27px "PFDinDisplayProBold";
+    text-transform: uppercase;
+}
+.rating i{
+    margin: 0px 6px 7px 3px;
 }
 .rating + span{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-color: #acacac;
-font: 10px/18px "PFDinDisplayProBold";
-text-transform: uppercase;
+    color: #acacac;
+
+    font: 10px/11px "PFDinDisplayProBold";
+    text-transform: uppercase;
 }
 .rating small{
     color: #acacac;   
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-font: 15px "PFDinDisplayProBold";
-text-transform: uppercase;
+
+    font: 15px/25px "PFDinDisplayProBold";
+    text-transform: uppercase;
+    padding: 0px 4px 0px 0px;
 }
 .year{
     text-align: center;
-    width: 90%;
+    width: 79%;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-color: #acacac;
-font: 15px "PFDinDisplayProBold";
-text-transform: uppercase;
+    color: #acacac;
+    font: 15px "PFDinDisplayProBold";
+    text-transform: uppercase;
     position: relative;
 }
 .year:after, .year:before{
@@ -275,10 +297,11 @@ text-transform: uppercase;
     left: 0px;
 }
 .btn-slide{
-    width: 36px;
-height: 37px;
-background-color: #efefef;
-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    width: 33px;
+    height: 37px;
+    background-color: #efefef;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    margin: 0px 0px 17px 0px;
 }
 .btn-slide.prev{
     border-radius: 20px 0px 0px 20px;
@@ -286,43 +309,76 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
 .btn-slide{
     border-radius: 0px 20px 20px 0px;
 }
-.insert-wrap{
+.insert-wrap, .actions{
     position: relative;
 }
-.insert-wrap p, .insert p, .insert-wrap > div{
+.insert-wrap p, .insert p, .insert-wrap > div, .actions > ul{
     position:absolute;
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 100%;
-    padding: 10px 10px 10px 10px;
+    height: 100%;  
+    overflow: hidden;
 }
 .insert-wrap p, .insert p{
     text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.18);
-color: #e0e0e0;
-font: 9px/15px "Arial";
+    color: #e0e0e0;
+    font: 9px/15px "Arial";
+    text-transform: uppercase;
+    text-overflow: ellipsis;    
+}
+.actions ul li{
+    padding: 11px 0px 10px 0px;
+    border-bottom: 1px solid #414141;
+}
+.actions ul li:last-child{
+    border-bottom: none;
+}
+.actions ul li span{
+    color: #757575;
+font: 9px "Arial";
 text-transform: uppercase;
-text-overflow: ellipsis;
+}
+.actions ul li a{
+    font-family: PFDinDisplayPro;
+font: 14px "PFDinDisplayProBold";
+text-transform: uppercase;
+color: #ccc;
+}
+.actions ul li a:hover{
+color: #4f9eb2;
+}
+.actions > ul{
+    padding: 5px 16px 10px 18px;
+    max-width: 190px;
+    max-height: 130px;
 }
 .insert p{
-max-width: 250px;
-max-height: 130px;
+    max-width: 255px;
+    max-height: 130px;
+    padding: 29px 30px 20px 33px;
+    letter-spacing: 0.01em;
 }
 .insert-wrap p{
-max-width: 130px;
-max-height: 130px;
+    max-width: 130px;
+    max-height: 130px;
+    padding: 20px 12px 10px 16px;
+    letter-spacing: 0.015em;
 }
 .insert-wrap h2{
     text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
-color: white;
-font: 28px "PFDinDisplayProBold";
-text-transform: uppercase;
+    color: white;
+    font: 28px/29px "PFDinDisplayProBold";
+    text-transform: uppercase;
+    margin: 0px 0px 1px 0px;
 }
 .insert-wrap span{
     text-shadow: 0.5px 0.9px 0 rgba(8, 8, 8, 0.26);
-color: white;
-font: 9px/14px "Arial";
-text-transform: uppercase;
+    color: white;
+    font: 9px/13px "Arial";
+    text-transform: uppercase;
+    letter-spacing: 0.59em;
+    margin: 0px 0px 3px 4px;
 }
 .insert{
     position: absolute;
@@ -332,32 +388,42 @@ text-transform: uppercase;
 figure{
     margin: 1px;
 }
+.tabs figure{
+    margin: 3px 3px 5px 3px;
+}
 figure img{
     width: 100%;
 }
 .rate{
-    margin: 0px 0px 47px 0px;
+    margin: 0px 0px 49px 36px;
 }
 .rate span{
     color: #767676;
     text-transform: uppercase;
     font: 15px "PFDinDisplayProBold";
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    letter-spacing: -0.04em;
+    padding:  0px 8px 0px 0px;
+}
+.tabs.accordion > ._content > .active {
+    left: 36px;
 }
 .tabs ._nav > a {
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0,0,0,.1);
-  border-top: 1px solid rgba(255,255,255,.1);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(255,255,255,.1);
 }
 .tabs ._nav > a:first-child {
-  border-top: none;
+    border-top: none;
 }
 .tabs ._nav > a:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
 .tabs a span{
-    min-width: 100px;
+    min-width: 102px;
     color: #767676;
+    padding: 0px 0px 4px 0px;
     text-transform: uppercase;
     font: 21px/21px "PFDinDisplayProBold";
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
@@ -369,28 +435,40 @@ figure img{
     text-transform: uppercase;
 }
 .tabs a small i{ 
-margin: 0px 0px 0px 15px;
+    margin: 6px 3px 0px 17px;
 }
 footer{
     background-color: #fff;
+}
+.figure-wrap{
+    flex-wrap: wrap;
+    min-width: 50%;
 }
 .footer > div{
     flex: 1;
 }
 .posts{
+    min-width: 250px;
     padding: 0px 20px 0px 0px;
 }
 .copyright{
-    max-width: 235px;
-    margin: 0px 47px 25px 0px;
+    max-width: 190px;
+    margin: 0px 50px 25px 0px;
 }
 .footer .logo{
-    margin: 0px 0px 33px 0px;
+    margin: 4px -4px 33px 0px;    
+}
+.footer .logo b{
+    color: #dfdfdf;
+    box-shadow: none;
+
+    font: 78px/46px "SFSpeedwaystar";
 }
 .footer{
+    flex-wrap: wrap;
     margin: auto;
-    max-width: 949px;
-    padding: 49px 18px 30px 10px;
+    max-width: 950px;
+    padding: 49px 18px 30px 52px;
 }
 .posts h6{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
@@ -409,27 +487,28 @@ footer{
 }
 .posts a, .posts time{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-font: italic 11px "Georgia";
-color: #919191;
+    font: italic 11px "Georgia";
+    color: #919191;
 }
 .posts a:hover{
     text-decoration: underline;
 }
 .posts > div{
-    margin: 0px 0px 5px 0px;
-    padding: 0px 0px 5px 0px;
+    margin: 0px 42px 16px 0px;
+    padding: 0px 0px 11px 0px;
     border-bottom: 1px solid #f2f2f2;
 }
 .copyright span{
-    padding: 14px 0px 0px 0px;
+    padding: 14px 0px 6px 0px;
     border-top: 1px solid #f2f2f2;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-font: italic 11px/18px "Georgia";
+    font: italic 11px/18px "Georgia";
     text-align: right;
     color: #a7a7a7;
+    letter-spacing: -0.001em;
 }
 .social a{
-    margin: 2px 2px 2px 2px;
+    margin: 4px 2px 2px 3px;
 }
 .posts > .social{
     border-bottom: none;
@@ -437,7 +516,40 @@ font: italic 11px/18px "Georgia";
 .copyright span a{
     color: #478c9d;
 }
+@media (max-width: 860px) {
+    .insert-wrap p, .insert p, .actions > ul {
+    padding: 5px;
+}
+.actions ul li {
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #414141;
+}
+.insert-wrap h2 {
+    font: 20px/22px "PFDinDisplayProBold";
+}
+.insert-wrap span {
+    letter-spacing: 0em;
+}
+}
 @media (max-width: 670px) {
+    a.btn-nav {
+    height: 23px;
+}
+.rate {
+    margin: 0px 0px 49px 0px;
+}
+.tabs.accordion {
+    padding: 0px;
+}
+.insert {
+    position: absolute;
+    width: 49.2%;
+    left: 33.6%;
+    height: 11%;
+}
+.insert img{
+    height: 100%;
+}
     .complicated-grid{        
         align-items: center;
     }
@@ -451,4 +563,12 @@ font: italic 11px/18px "Georgia";
     .complicated-grid > div > div{
         width: 100%;
     } 
+}
+@media (max-width: 370px) {
+    .btn-slide {
+    width: 20px;
+}
+.lwrap {
+    padding: 0px 10px 0px 1px;
+}
 }

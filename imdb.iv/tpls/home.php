@@ -33,7 +33,7 @@
                         <i class="icon-search"></i>
                     </form>
                 </section>
-                <section data-flex="row-start-between">
+                <section class="header-wrap" data-flex="row-start-between">
                     <div data-flex="row-start-between">
                         <a href="#" class="logo" data-flex="col">
                             <b>imdb</b>
@@ -52,7 +52,7 @@
                         <div class="arc tl"></div>
                         <div class="arc tr"></div>
                         <div class="own-rating" data-flex="col-center">                          
-                            <div class="rating" data-flex='row-center'>
+                            <div class="rating" data-flex='row-end'>
                                 <i class='icon-star'></i>
                                 <b>8,1</b>
                                 <small>/10</small>
@@ -310,8 +310,13 @@
                                 </div>
                             </div>
                             <div data-flex="col">
-                                <figure data-flex>
+                                <figure class="actions" data-flex>
                                     <img src="/images/grid/bg4.png">
+                                    <ul>
+                                        <li data-flex="row-center-between"><a href="#">buy on amazon</a><span>15 $</span></li>
+                                        <li data-flex="row-center-between"><a href="#">watch on netflix</a><span>7 $</span></li>
+                                        <li data-flex="row-center-between"><a href="#">subscribe on updates</a></li>
+                                    </ul>
                                 </figure>
                                 <div data-flex="row-start">
                                     <div data-flex="col">
@@ -356,7 +361,7 @@
                     <a href="#tab1" data-flex="row-center-between">
                         <div data-flex='row-center'>
                             <span>cast</span>
-                            <div data-flex='row-center'>
+                            <div class="figure-wrap" data-flex='row-center'>
                                 <figure data-flex><img src="/images/grid/s1.png"></figure>
                                 <figure data-flex><img src="/images/grid/s2.png"></figure>
                                 <figure data-flex><img src="/images/grid/s3.png"></figure>
@@ -365,11 +370,12 @@
                                 <figure data-flex><img src="/images/grid/s6.png"></figure>
                             </div>
                         </div>
-                        <small>show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small>
+                    </a>
                     <a href="#tab2" data-flex="row-center-between">
                         <div data-flex='row-center'>
                             <span>media</span>
-                            <div data-flex='row-center'>
+                            <div class="figure-wrap" data-flex='row-center'>
                                 <figure data-flex><img src="/images/grid/s7.png"></figure>
                                 <figure data-flex><img src="/images/grid/s8.png"></figure>
                                 <figure data-flex><img src="/images/grid/s9.png"></figure>
@@ -387,15 +393,15 @@
                                 <figure data-flex><img src="/images/grid/s21.png"></figure>
                             </div>
                         </div>
-                        <small>show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small></a>
                     <a href="#tab3" data-flex="row-center-between">
                         <span>details</span>
 
-                        <small>show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small></a>
                     <a href="#tab4" data-flex="row-center-between">
-                        <span>recomendation</span>
+                        <span>recommendations</span>
 
-                        <small>show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small></a>
                 </div>
                 <div class="_content">
                     <div id="tab1"></div>
@@ -434,9 +440,9 @@
                         <span data-flex><time>June 9, 2011</time>&middot<a href="#">12 comments</a></span>
                     </div>
                     <div class="social" data-flex="row-center">
+                        <a href="#"><i class="icon-tw"></i></a>
                         <a href="#"><i class="icon-fb"></i></a>
                         <a href="#"><i class="icon-rss"></i></a>
-                        <a href="#"><i class="icon-tw"></i></a>
                     </div>
                 </div>
                 <div class="posts">
