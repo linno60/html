@@ -1,0 +1,124 @@
+@font-face {
+    font-family: '';
+    src: url('../fonts/.otf');
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url('../images/bg.png')no-repeat;
+    background-size: cover;
+}
+.icon-fb{background: url('../images/icons/fb.png');}
+.icon-tw{background: url('../images/icons/tw.png');}
+.icon-rss{background: url('../images/icons/rss.png');}
+.icon-ms{background: url('../images/icons/ms.png');}
+.icon-su{background: url('../images/icons/su.png');}
+.icon-fb, .icon-tw, .icon-rss, .icon-ms, .icon-su{
+    width: 49px;
+    height: 49px;
+}
+.hdr{
+    color: #7db122;
+    font: 18px "Calibri";
+    text-transform: uppercase;
+}
+.lwrap{
+    max-width: 1026px;
+    padding: 0px 10px;
+}
+.header-top, .nav-wrap, .content-wrap{    
+    min-height: 47px;
+    background-color: white;
+}
+.header{
+    min-height: 200px;
+}
+.header-top > span{
+    font: 14px "Calibri";
+    color: #ababab;    
+}
+.header-top{
+    padding: 5px 5px 5px 20px;
+}
+.nav-top a{
+    color: #ababab;
+font: 14px "Calibri";
+text-transform: uppercase;
+margin: 2px 5px;
+}
+.social a{
+    margin: 6px;
+}
+.nav-top a:hover{
+    color: #4cb1ca;
+}
+.logo span{
+    color: #f02b63;
+    font: 15px "Calibri";   
+}
+.nav-wrap{
+    box-shadow: 0px 5px 0px 0px #f02b63;
+    border-bottom: 1px solid #fbc6d5;
+}
+.nav a{
+    margin: 5px 38px;
+    font: 18px "Calibri";
+    color: #1d1d1d;
+    text-transform: uppercase;
+    position: relative;
+}
+.nav a:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -13px;
+    border-bottom: 5px solid #f02b63; 
+   border-left: 7px solid transparent; 
+   border-right: 7px solid transparent; 
+}
+.nav a.active, .nav a:hover{
+    color: #f02b63;
+}
+.page-wrap{
+    min-height: 47px;
+}
+.content{
+    width: 70%;
+    padding: 34px 30px 30px 24px;
+}
+.aside{
+    width: 30%;
+    padding: 34px 30px 30px 24px;
+}
+.grid{
+    flex-wrap: wrap;
+}
+.products .grid figcaption{
+    min-height: 40px;
+    padding: 2px 7px 2px 9px;
+    background-color: rgba(0,0,0,.08);
+    border-right: 1px solid #eee;
+}
+.products .grid figcaption a{
+    font: 14px "Calibri";
+    color: #818181;
+}
+.products .grid figcaption span{
+    font: 14px "Calibri";
+    color: #f02b63;
+}
+.products .grid figure > a{
+    min-height: 150px;
+}
+.products .grid figure{
+    margin: 5px 5px 5px 5px;
+    min-width: 180px;
+    background-color: #fcfcfc;
+    border: 1px solid #f6f6f6;
+    box-shadow: 0 1px 0 gainsboro;
+}
+@media (max-width: 0px) {
+
+}
