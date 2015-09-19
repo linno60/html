@@ -1,0 +1,366 @@
+@font-face {
+    font-family: '';
+    src: url('../fonts/.otf');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v10/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato Black';
+    src: url('../fonts/Lato_Black/Lato-Black.ttf');
+}
+@font-face {
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2');
+}
+a{
+    text-decoration: none;
+}
+p{
+    font: 14px/24px "Lato";
+    color: #767c7e;
+}
+p a{
+    color: #e84c3d;
+}
+.icon-address{
+    width: 27px;
+    height: 22px;
+    background: url('../images/icons/address.png');
+}
+.icon-arrow{
+    width: 15px;
+    height: 7px;
+    background: url('../images/icons/arrow.png');
+}
+.icon-fb{
+    width: 9px;
+    height: 19px;
+    background: url('../images/icons/fb.png');
+}
+.icon-grenade{
+    width: 26px;
+    height: 29px;
+    background: url('../images/icons/grenade.png');
+}
+.icon-in{
+    width: 18px;
+    height: 18px;
+    background: url('../images/icons/in.png');
+}
+.icon-mail{
+    width: 24px;
+    height: 19px;
+    background: url('../images/icons/mail.png');
+}
+.icon-next{
+    width: 34px;
+    height: 70px;
+    background: url('../images/icons/next.png');
+}
+.icon-phone{
+    width: 22px;
+    height: 23px;
+    background: url('../images/icons/phone.png');
+}
+.icon-prev{
+    width: 34px;
+    height: 70px;
+    background: url('../images/icons/prev.png');
+}
+.icon-rocket{
+    width: 30px;
+    height:30px;
+    background: url('../images/icons/rocket.png');
+}
+.icon-shield{
+    width: 23px;
+    height: 28px;
+    background: url('../images/icons/shield.png');
+}
+.icon-tw{
+    width: 18px;
+    height: 15px;
+    background: url('../images/icons/tw.png');
+}
+.icon-user{
+    width: 26px;
+    height: 28px;
+    background: url('../images/icons/user.png');
+}
+.btn-default, a.btn-default{
+    font: 14px "Oswald";
+    color: white;
+text-transform: uppercase;
+min-width: 70px;
+min-height: 37px;
+padding: 2px 5px;
+background-color: #e84c3d;
+border-radius: 18px;
+}
+.subscribe .btn-default {
+    background-color: #202628;
+}
+.lwrap{
+    max-width: 1200px;
+    padding: 0px 10px;
+}
+.grid{
+    flex-wrap: wrap;
+}
+.grid > *{
+    flex: 1;
+}
+header{   
+    background-color: #202628;
+}
+.logo{
+    font: 25px "Fjalla One";
+    color: #e7e7e7;
+    text-transform: uppercase;
+}
+a.btn-nav{
+    padding: 20px;
+    font: 13px "Fjalla One";
+    color: #e7e7e7;
+    text-transform: uppercase;
+    min-height: 80px;
+}
+.nav a.active{
+    background-color: #e84c3d;
+}
+.slider-wrap{   
+    background: url('../images/bg.png')no-repeat;
+    background-size:cover;
+}
+.slider-wrap .lwrap{
+    padding: 10px 10px 50px 10px;
+}
+.slider{
+    max-width: 1200px;
+    margin: auto;
+     min-height: 560px;
+     padding: 10px 10px 40px 10px;
+}
+.slider h1{
+    color: #e7e7e7;
+font: 31px "Fjalla One";
+text-transform: uppercase;
+}
+.slider h1 > div{
+    height: 2px;
+    background-color: #fff;
+    flex: 1;
+}
+.slider a{
+    color: #e84c3d;
+    font: 15px "Fjalla One";
+}
+.services{
+    background-color: #e7e7e7;
+}
+.lbl-service{
+    width: 70px;
+    min-width: 70px;
+height: 70px;
+margin: 0px 10px 0px 0px;
+border-radius: 50%;
+background-color: #e84c3d;
+}
+.lbl-subscribe{
+    width: 70px;
+    min-width: 70px;
+    margin: 0px 10px 0px 0px;
+border-radius: 50%;
+height: 69px;
+background-color: #202628;
+}
+.services h3, .info h3{
+    margin: 0px 0px 20px 0px;
+    color: #202628;
+    font: 21px "Fjalla One";
+    text-transform: uppercase;
+}
+.services .lwrap{
+    padding: 30px 10px 30px 10px;
+}
+.about{
+    padding: 30px 0px 30px 0px;
+}
+.about article{
+    margin: 0px 40px 20px 0px;
+}
+.about h2{
+    color: #202628;
+    font: 21px "Fjalla One";
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+.about h4{
+    color: #e84c3d;
+    font: 20px/24px "Lato";
+    border-top: 1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7;
+      padding: 2px 0px 3px 0px;
+      margin: 0px 0px 10px 0px;
+}
+.about article h6{
+    color: #202628;
+    font: 700 16px/24px "Lato";
+    margin: 0px 0px 10px 0px;
+}
+.about p{
+    margin: 0px 0px 10px 0px;
+}
+.about figure{
+    width: 30%;
+}
+.about figure > img{
+    width: 100%;
+}
+.about > div{
+    width: 70%;
+    padding: 0px 30px 0px 0px;
+}
+.subscribe{
+    background-color: #e84c3d;
+border-radius: 10px;
+padding: 20px 20px 20px 20px;
+}
+.subscribe h3{
+    color: #fff;
+    font: 21px "Fjalla One";
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+.subscribe blockquote{
+     color: #fff;
+    font: 16px/24px "Lato";
+}
+.subscribe blockquote cite{
+     color: #fff;
+    font: italic 14px/24px "Lato";
+}
+form input, form textarea{
+   color: #9faaad;
+font-family: "Lato";
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+border: none;
+height: 41px;
+background-color: white;
+}
+form input{
+    border-radius: 20px;
+    padding: 0px 5px 0px 5px;
+}
+form textarea{
+    resize: none;
+    border-radius: 8px;
+    padding: 0px 5px 0px 5px;
+}
+.subscribe form input{    
+width: 70%;
+margin: 0px 5px 0px 0px;
+}
+.info .item{
+    border-bottom: 1px solid #e7e7e7;
+}
+.info .item:first-child{
+    border-top: 1px solid #e7e7e7;
+}
+.info article.item{
+    padding: 20px 0px 20px 0px;
+}
+.info .contacts .item{
+    padding: 20px 0px 20px 0px;
+}
+.item figure{
+    min-width: 70px;
+    margin: 0px 5px 0px 0px;
+}
+.info form{
+    background-color: #e7e7e7;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+}
+.info form input, .info form textarea{
+    margin: 0px 0px 10px 0px;
+}
+.info form label{
+    color: #767c7e;
+     font: 14px/24px "Lato";
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+font-family: "Lato";
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+font-family: "Lato";
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+font-family: "Lato";
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+}
+.contacts h5{
+    color: #e84c3d;
+    font: 700 16px/24px "Lato";
+}
+.contacts span, .contacts div a{
+    color: #767c7e;
+     font: 14px/24px "Lato";
+}
+.contacts .item i{
+    margin: 0px 5px 0px 0px;
+}
+footer .btn-social{
+    margin: 3px;
+}
+.btn-social{
+    width: 43px;
+height: 43px;
+background-color: #e84c3d;
+border-radius: 50%;
+}
+footer{
+    background-color: #202628;
+    min-height: 204px;
+    height: 1px;
+}
+footer .lwrap{
+       
+}
+@media (max-width: 0px) {
+
+}
