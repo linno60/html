@@ -3,10 +3,10 @@
     src: url('../fonts/.otf');
 }
 @font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v10/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v10/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Lato Black';
@@ -19,22 +19,22 @@
     src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2');
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2');
 }
 a{
     text-decoration: none;
@@ -45,6 +45,7 @@ p{
 }
 p a{
     color: #e84c3d;
+    padding: 0px 0px 0px 2px;
 }
 .icon-address{
     width: 27px;
@@ -111,22 +112,32 @@ p a{
     height: 28px;
     background: url('../images/icons/user.png');
 }
+.btn-default i{
+    margin: 0px 0px 0px 5px;
+}
 .btn-default, a.btn-default{
     font: 14px "Oswald";
     color: white;
-text-transform: uppercase;
-min-width: 70px;
-min-height: 37px;
-padding: 2px 5px;
-background-color: #e84c3d;
-border-radius: 18px;
+    letter-spacing: 0.012em;
+    text-transform: uppercase;
+    min-width: 70px;
+    min-height: 37px;
+    padding: 5px 19px;
+    background-color: #e84c3d;
+    border-radius: 18px;
 }
 .subscribe .btn-default {
     background-color: #202628;
+    min-height: 41px;
+    padding: 5px 20px 5px 22px;
+    border-radius: 20px;
 }
 .lwrap{
-    max-width: 1200px;
+    max-width: 1190px;
     padding: 0px 10px;
+}
+header .lwrap, .nav{
+    flex-wrap: wrap;
 }
 .grid{
     flex-wrap: wrap;
@@ -141,13 +152,20 @@ header{
     font: 25px "Fjalla One";
     color: #e7e7e7;
     text-transform: uppercase;
+    padding:  2px 0px 0px 1px;
+}
+.nav a{
+    padding: 20px 22px 20px 23px;
+}
+.nav a:last-child{
+    padding: 20px 10px 20px 23px;
 }
 a.btn-nav{
-    padding: 20px;
     font: 13px "Fjalla One";
     color: #e7e7e7;
     text-transform: uppercase;
     min-height: 80px;
+    letter-spacing: 0.02em;
 }
 .nav a.active{
     background-color: #e84c3d;
@@ -155,29 +173,35 @@ a.btn-nav{
 .slider-wrap{   
     background: url('../images/bg.png')no-repeat;
     background-size:cover;
+    min-height: 560px;
+    height: 1px;
 }
-.slider-wrap .lwrap{
-    padding: 10px 10px 50px 10px;
+.btns{
+    margin: 0px 0px 21px 0px;
+}
+.btns .btn{
+    margin: 0px 1px 0px 0px;
 }
 .slider{
-    max-width: 1200px;
-    margin: auto;
-     min-height: 560px;
-     padding: 10px 10px 40px 10px;
+    padding: 10px 10px 59px 10px;
 }
 .slider h1{
     color: #e7e7e7;
-font: 31px "Fjalla One";
-text-transform: uppercase;
+    font: 31px/47px "Fjalla One";
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 .slider h1 > div{
     height: 2px;
     background-color: #fff;
     flex: 1;
+    margin: 0px 0px 5px 0px;
 }
-.slider a{
+.slider h1 + a{
     color: #e84c3d;
     font: 15px "Fjalla One";
+    letter-spacing: 0.08em;
+    padding: 7px 0px 0px 0px;
 }
 .services{
     background-color: #e7e7e7;
@@ -185,107 +209,144 @@ text-transform: uppercase;
 .lbl-service{
     width: 70px;
     min-width: 70px;
-height: 70px;
-margin: 0px 10px 0px 0px;
-border-radius: 50%;
-background-color: #e84c3d;
+    height: 70px;
+    margin: 4px 31px 0px 0px;
+    border-radius: 50%;
+    background-color: #e84c3d;
 }
 .lbl-subscribe{
     width: 70px;
     min-width: 70px;
-    margin: 0px 10px 0px 0px;
-border-radius: 50%;
-height: 69px;
-background-color: #202628;
+    margin: 5px 29px 0px 0px;
+    border-radius: 50%;
+    height: 69px;
+    background-color: #202628;
 }
 .services h3, .info h3{
-    margin: 0px 0px 20px 0px;
     color: #202628;
     font: 21px "Fjalla One";
     text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.info h3{
+    margin: 0px 0px 25px 1px;
+}
+.services h3{
+    margin: 0px 0px 18px 0px;
 }
 .services .lwrap{
-    padding: 30px 10px 30px 10px;
+    padding: 77px 10px 64px 10px;
+}
+.services article{
+    margin: 0px 30px 20px 0px;
+}
+.services .grid article:last-child{
+    margin: 0px 0px 20px 0px;
 }
 .about{
-    padding: 30px 0px 30px 0px;
+    padding: 78px 0px 60px 0px;
 }
 .about article{
     margin: 0px 40px 20px 0px;
 }
+.about .grid article:last-child{
+    margin: 0px 10px 20px 0px;
+}
 .about h2{
     color: #202628;
-    font: 21px "Fjalla One";
+    font: 21px/25px "Fjalla One";
     text-transform: uppercase;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 20px 25px 2px;
+    letter-spacing: 0.04em;
+    max-width: 630px;
 }
 .about h4{
     color: #e84c3d;
     font: 20px/24px "Lato";
     border-top: 1px solid #e7e7e7;
-      border-bottom: 1px solid #e7e7e7;
-      padding: 2px 0px 3px 0px;
-      margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 6px 0px 9px 0px;
+    margin: 0px 0px 22px 0px;
 }
 .about article h6{
     color: #202628;
     font: 700 16px/24px "Lato";
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 4px 0px;
 }
 .about p{
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 33px 0px;
 }
 .about figure{
-    width: 30%;
+    width: 31%;
+    margin: 3px -1px 0px 27px;
 }
 .about figure > img{
     width: 100%;
 }
 .about > div{
-    width: 70%;
-    padding: 0px 30px 0px 0px;
+    width: 69%;
+    padding: 0px 19px 0px 0px;
 }
 .subscribe{
+    flex-wrap: wrap;
     background-color: #e84c3d;
-border-radius: 10px;
-padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    padding: 45px 30px 50px 30px;
+}
+.subscribe > div:last-child{
+    padding: 0px 0px 0px 45px;
 }
 .subscribe h3{
     color: #fff;
     font: 21px "Fjalla One";
     text-transform: uppercase;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 14px 0px;
+    letter-spacing: 0.04em;
 }
 .subscribe blockquote{
-     color: #fff;
+    color: #fff;
     font: 16px/24px "Lato";
 }
 .subscribe blockquote cite{
-     color: #fff;
+    color: #fff;
+    display:  inline-block;
     font: italic 14px/24px "Lato";
+    margin: 0px 0px 0px -1px;
 }
 form input, form textarea{
-   color: #9faaad;
-font-family: "Lato";
-font-size: 14px;
-font-style: italic;
-line-height: 24px;
-border: none;
-height: 41px;
-background-color: white;
+    color: #9faaad;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    border: none;
+    height: 41px;
+    background-color: white;
 }
 form input{
     border-radius: 20px;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 8px 0px 20px;
+    width:  100%;
 }
 form textarea{
     resize: none;
     border-radius: 8px;
     padding: 0px 5px 0px 5px;
+    height: 82px;
+}
+.subscribe form{
+    margin: 25px 0px 0px 1px;
 }
 .subscribe form input{    
-width: 70%;
-margin: 0px 5px 0px 0px;
+    width: 75%;
+    margin: 0px 5px 0px 0px;
+    max-width: 381px;
+}
+.info{
+    margin: 61px -15px 56px -13px;
+}
+.info > div{
+    margin: 5px 15px 5px 14px;
 }
 .info .item{
     border-bottom: 1px solid #e7e7e7;
@@ -294,73 +355,173 @@ margin: 0px 5px 0px 0px;
     border-top: 1px solid #e7e7e7;
 }
 .info article.item{
-    padding: 20px 0px 20px 0px;
+    padding: 34px 0px 23px 0px;
 }
 .info .contacts .item{
-    padding: 20px 0px 20px 0px;
+    padding: 24px 47px 24px 0px;
 }
 .item figure{
     min-width: 70px;
-    margin: 0px 5px 0px 0px;
+    margin: -4px 31px 0px -1px;
 }
 .info form{
     background-color: #e7e7e7;
-border-radius: 5px;
-padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 25px 30px 29px 30px;
 }
 .info form input, .info form textarea{
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
+}
+.info form input{
+    padding: 0px 16px 0px 16px;
+}
+.info form textarea{
+    padding: 7px 5px 0px 16px;
 }
 .info form label{
     color: #767c7e;
-     font: 14px/24px "Lato";
+    font: 14px/24px "Lato";
+    padding: 0px 0px 24px 0px;
+}
+.info .btn-default{
+    min-height: 41px;
+    border-radius: 20px;
+    letter-spacing: 0.05em;
+}
+.info .btn-default i{
+    margin: 0px 1px 0px 14px;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-font-family: "Lato";
-font-size: 14px;
-font-style: italic;
-line-height: 24px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
-font-family: "Lato";
-font-size: 14px;
-font-style: italic;
-line-height: 24px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: italic;    
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-font-family: "Lato";
-font-size: 14px;
-font-style: italic;
-line-height: 24px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
 }
 .contacts h5{
     color: #e84c3d;
-    font: 700 16px/24px "Lato";
+    font: 700 17px/24px "Lato";
+    margin: 0px 0px 1px 0px;
 }
 .contacts span, .contacts div a{
     color: #767c7e;
-     font: 14px/24px "Lato";
+    font: 14px/24px "Lato";
 }
 .contacts .item i{
-    margin: 0px 5px 0px 0px;
+    margin: 5px 27px 0px 0px;
 }
 footer .btn-social{
-    margin: 3px;
+    margin: 1px 0px 4px 10px;
 }
 .btn-social{
     width: 43px;
-height: 43px;
-background-color: #e84c3d;
-border-radius: 50%;
+    height: 43px;
+    background-color: #e84c3d;
+    border-radius: 50%;
 }
-footer{
+footer nav{
+    flex-wrap: wrap;
+    margin: 0px 0px 6px 0px;
+}
+footer{    
     background-color: #202628;
     min-height: 204px;
     height: 1px;
 }
-footer .lwrap{
-       
+.social{
+    flex-wrap: wrap;
 }
-@media (max-width: 0px) {
-
+footer .lwrap{
+    flex-wrap: wrap;
+    padding: 10px;
+}
+footer .lwrap > div:first-child{
+    padding: 0px 30px 0px 0px;
+}
+footer nav + div{
+    flex-wrap: wrap;
+    margin:  0px 0px 4px 0px;
+}
+footer nav a, footer nav span{
+    font: 14px/24px "Lato";
+}
+footer nav a{
+    color: #e7e7e7;
+    letter-spacing: 0.05em;
+}
+footer nav span{
+    color: #545a5c;
+    padding: 0px 16px;
+}
+.images, .images a, .design, .design a{
+    font: 14px/24px "Lato";
+}
+.design, .design a{
+    color: #e84c3d;
+}
+.images, .images a{
+    color: #767c7e;
+}
+.design a:hover, .images a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 800px) {
+    .about, .subscribe{
+        flex-direction: column;
+    }
+    .subscribe{
+        padding: 10px;
+    }
+    .subscribe > div{
+        width: 100%;
+    }
+    .subscribe > div:first-child{
+        margin: 0px 0px 20px 0px;
+    }
+    .subscribe > div:last-child {
+    padding: 0px 0px 0px 0px;
+}
+.subscribe form {
+    justify-content: flex-start;
+}
+.subscribe .btn-default {
+    padding: 5px 10px 5px 10px;
+}
+    .about > div{
+        width: 100%;
+        padding: 0px;
+    }
+    .about > figure{
+        width: 100%;
+        margin: 0px;
+        max-width: 500px;
+    }
+}
+@media (max-width: 770px) {
+    .info{
+        flex-direction: column;
+        margin: 61px 0px 56px 0px;
+    }
+    .info > div{
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+}
+@media (max-width: 500px) {
+    .about .grid{
+        flex-direction: column;
+    }
+    .about article {
+    margin: 0px 0px 40px 0px;
+}
 }

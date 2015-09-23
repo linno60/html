@@ -22,11 +22,11 @@
             </div>
         </header>
         <div class="slider-wrap">
-            <div class="slider" data-flex="row-end">
+            <div class="slider lwrap" data-flex="row-end">
                 <div data-flex="col">
-                    <div class="btns">
-                        <a href="#"><i class="icon-prev"></i></a>
-                        <a href="#"><i class="icon-next"></i></a>                    
+                    <div class="btns" data-flex>
+                        <a href="#" class="btn"><i class="icon-prev"></i></a>
+                        <a href="#" class="btn"><i class="icon-next"></i></a>                    
                     </div>
                     <h1 data-flex="row-center-between"><span>clivuam tinc&ensp;</span><div></div></h1>
                     <h1 data-flex="row-center-between"><span>nunc dignissim risus id metus</span><div></div></h1> 
@@ -96,8 +96,8 @@
                         <div>
                             <h3>Donec nec justo eget</h3>
                             <blockquote>
-                                “ Ede semper est, vitae luctus metus libero eu augue. Morb sipo ipiscing, commodo quis, gravida  ...”
-                                <cite>Kohn Doe / company name</cite>
+                                “ Ede semper est, vitae luctus metus libero eu augue. Morb sipo ipiscing, commodo quis, gravida&nbsp;&nbsp;...”
+                                <cite>-Kohn Doe / company name</cite>
                             </blockquote>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                         <h3>Morbi vitae luctus</h3>
                         <form action="#" method="post" data-flex="row--between">
                             <input type="text" placeholder="enter your email id here...">
-                            <button><span class="btn btn-default"><em>subscribe</em><i class="icon-arrow"></i></span></button>
+                            <button><span class="btn btn-default"><em>subcribe</em><i class="icon-arrow"></i></span></button>
                         </form>
                     </div>
                 </div>
@@ -117,19 +117,19 @@
                                 <figure data-flex>
                                     <img src="/images/img1.png">
                                 </figure>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor<a href="#"> more =></a></p>
+                                <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#"> more =></a></p>
                             </article>
                             <article class="item" data-flex="row-start">
                                 <figure data-flex>
                                     <img src="/images/img2.png">
                                 </figure>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor<a href="#"> more =></a></p>
+                                <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#"> more =></a></p>
                             </article>
                             <article class="item" data-flex="row-start">
                                 <figure data-flex>
                                     <img src="/images/img3.png">
                                 </figure>
-                                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor<a href="#"> more =></a></p>
+                                <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#"> more =></a></p>
                             </article>
                         </div>                        
                     </div>
@@ -150,7 +150,7 @@
                                 <i class="icon-address"></i>
                                 <div data-flex="col-start">
                                     <h5>Address</h5>
-                                    <span>some block, steet number, city name country</span>
+                                    <span>some block, steet number, city name, country</span>
                                 </div>
                             </div>
                             <div class="item" data-flex="row-start">
@@ -179,20 +179,20 @@
             <div class="lwrap" data-flex="row-center-between">
                 <div>
                     <nav data-flex>
-                        <a href="#"></a>
+                        <a href="#">Home</a>
                         <span>/</span>
-                        <a href="#"></a>
+                        <a href="#">About</a>
                         <span>/</span>
-                        <a href="#"></a>
+                        <a href="#">Services</a>
                         <span>/</span>
-                        <a href="#"></a>
+                        <a href="#">Portfolio</a>
                         <span>/</span>
-                        <a href="#"></a>
-                        <span>/</span>
+                        <a href="#">Contact</a>
                     </nav>
-                    <p>
-                        <span></span>
-                    </p>
+                    <div data-flex>
+                        <span class="design">Designed by: <a href="#">www.alltemplateneeds.com / </a></span>
+                        <span class="images"> Images from: <a href="#"> www.wallpaperswide.com /</a>Copyright(c) website name.</span>
+                    </div>
                 </div>
                 <div  class="social" data-flex="row-center">
                     <a href="#" class="btn btn-social"><i class="icon-fb"></i></a>

@@ -1,0 +1,421 @@
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Regular'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v7/yQOMOX5hR0-6LTD879t-PQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Cabin Medium'), local('Cabin-Medium'), url(https://fonts.gstatic.com/s/cabin/v7/XHvvZj_uvRvYentxl9M1VvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(https://fonts.gstatic.com/s/cabin/v7/82B-3YlzWJm8zbCrVEmc_vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url('../images/bg.png');
+}
+.icon-heart{
+    width: 11px;
+    height: 9px;
+    background: url('../images/icons/heart.png');
+}
+.icon-dl, .icon-fb, .icon-fl, .icon-pin, .icon-rss, .icon-t, .icon-tw{
+    width: 24px;
+    height: 24px;
+}
+.icon-dl{background: url('../images/icons/24x24/dl.png');}
+.icon-fb{background: url('../images/icons/24x24/fb.png');}
+.icon-fl{background: url('../images/icons/24x24/fl.png');}
+.icon-pin{background: url('../images/icons/24x24/pin.png');}
+.icon-rss{background: url('../images/icons/24x24/rss.png');}
+.icon-t{background: url('../images/icons/24x24/t.png');}
+.icon-tw{background: url('../images/icons/24x24/tw.png');}
+.icon-logo{
+    width: 13px;
+    height: 24px;
+    background: url('../images/icons/logo.png');
+}
+h1{
+    color: #6b6b6b;
+    font: 25px "Cabin";
+    margin: 0px 0px 10px -2px;
+    letter-spacing: 0.01em;
+}
+h2{
+    color: #6b6b6b;
+    font: 500 21px "Cabin";
+    margin:  0px 0px 16px 0px;
+    letter-spacing: 0.005em;
+}
+h3{
+    color: #6b6b6b;
+    font: 500 17px "Cabin";
+    margin: 0px 0px 22px 0px;
+}
+h4{
+    color: #6b6b6b;
+      font: 15px "Cabin";
+}
+h4 a{
+    color: #6b6b6b;
+}
+.btn-default{
+    font: 13px "Cabin";
+    color: white;
+    min-width: 112px;
+    padding: 2px 5px;
+min-height: 31px;
+background-color: #7dae59;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
+border: 1px solid #648a49;
+border-radius: 2px;
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+p{
+    margin: 0px 1px 23px 0px;
+}
+.list-default li, p, label{
+    color: #898989;
+    font: 14px/23px "Cabin";
+    letter-spacing: 0.01em;
+}
+.list-default li{
+    padding: 0px 0px 0px 20px;
+}
+.list-default li:before{
+    width: 12px;
+    height: 9px;
+    top: 12px;
+    margin: 0px 5px 0px 0px;
+    background: url('../images/icons/check.png');
+}
+.hdr{
+    flex-wrap: wrap;
+    padding: 12px 0px 12px 0px;
+    background: url('../images/border.png'), url('../images/border.png');
+    background-repeat: repeat-x, repeat-x;
+    background-position: center top, center bottom;
+    margin: 0px 0px 15px 0px;
+}
+.hdr > div{
+    flex-wrap: wrap;
+}
+.posts{
+    padding: 29px 0px 29px 0px;
+    background: url('../images/border.png'), url('../images/border.png');
+    background-repeat: repeat-x, repeat-x;
+    background-position: center top, center bottom;
+}
+.hdr > div > *{
+    color: #c4c4c4;
+    font: 700 11px "Cabin";
+    padding: 0px 9px 0px 0px;
+}
+.hdr > div > a:hover, .posts article a:hover, .aside a:hover, h4 a:hover{
+    text-decoration: underline;
+}
+.like{
+     font: 11px "Cabin";
+     color: #e59191;
+     padding: 2px 13px 2px 5px;
+}
+.like i{
+    margin: 0px 5px 0px 0px;
+}
+figure img{
+    width: 100%;
+}
+.hdr + figure{
+    margin: 0px 0px 19px 0px;
+}
+header{
+background-color: white;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+}
+header .lwrap{
+    min-height: 79px;
+    max-width: 1015px;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+.lwrap{
+    max-width: 982px;
+    padding: 24px 10px 25px 10px;
+}
+.content-wrap, .aside{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 13px rgba(0, 0, 0, 0.05), inset 0 0 0 1px white;
+}
+.content-wrap{
+    width: 68.9%;
+    padding: 20px 25px 24px 25px;
+    margin: 0px 5px 0px 0px;
+}
+.aside{
+    width: 28.7%;
+    padding: 11px 25px 10px 25px;
+    margin: 0px 0px 0px 5px;
+}
+.logo{
+    color: #939393;
+    font: 500 22px "Cabin";
+    margin: 4px 0px 0px 16px;
+}
+.logo i{
+    margin: 4px 4px -4px 3px;
+}
+.nav{
+    flex-wrap: wrap;
+}
+.nav a{
+    margin: 8px 17px 2px 17px;
+    font: 700 14px "Cabin";
+    color: #707070;
+}
+.nav a.active, .nav a:hover{
+    color: #7dae59;
+}
+.thread{
+    padding: 27px 0px 5px 0px;
+}
+.posts article span, .posts article > div a{
+    color: #c4c4c4;
+    font: 700 11px "Cabin";
+    padding: 0px 9px 0px 0px;
+}
+form input{
+    height: 35px;
+    margin: 0px 0px 17px 0px;
+    padding: 0px 10px 0px 11px;
+}
+form input, form textarea{  
+   background-color: #fbfbfb;
+   border: 1px solid rgba(0, 0, 0, 0.07);
+   color: #898989;
+   font-family: "Cabin";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+}
+form textarea{
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
+    height: 185px;
+}
+.post > .post{
+    padding: 0px 0px 0px 40px;
+}
+.post > .post .message{    
+background-color: whitesmoke;
+border: 2px solid rgba(0, 0, 0, 0.07);
+}
+.post figure{
+    min-width: 70px;
+    margin: 0px 25px 0px 0px;
+}
+.message{
+    margin: 0px 0px 25px 0px;
+    background-color: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    padding: 21px 24px 8px 23px;
+}
+.post > .post .message a{
+    padding: 0px 0px 5px 0px;
+}
+.message a{
+    color: #6b6b6b;
+    font: 700 15px "Cabin";
+    padding: 0px 0px 7px 0px;
+}
+.message p{
+    line-height: 22px;
+    margin: 0px 0px 10px 1px;
+}
+input::-webkit-input-placeholder{
+    font-family: "Cabin";
+font-size: 14px;
+font-weight: 400;
+}
+input::-moz-placeholder{
+   font-family: "Cabin";
+font-size: 14px;
+font-weight: 400;
+}
+input:-ms-input-placeholder{
+    font-family: "Cabin";
+font-size: 14px;
+font-weight: 400;
+}
+.search-wrap input::-webkit-input-placeholder{
+font-size: 13px;
+}
+.search-wrap input::-moz-placeholder{
+font-size: 13px;
+}
+.search-wrap input:-ms-input-placeholder{
+font-size: 13px;
+}
+.aside > div{
+    background: url('../images/border.png')repeat-x, center bottom;
+}
+.aside > div:first-child{
+    background: none;
+}
+.aside h3{
+    margin: 0px 0px 21px 0px;
+}
+.popular-wrap{
+    padding: 11px 0px 12px 0px;
+}
+.search-wrap{
+    padding: 28px 0px 12px 0px;
+}
+.search-wrap input{
+    font-size: 13px;
+    height: 33px;
+    padding: 0px 10px 0px 9px;
+}
+.search-wrap h3{
+    margin: 0px 0px 22px 0px;
+}
+.about-wrap{
+    padding: 28px 0px 1px 0px;
+}
+.categories{
+    padding: 28px 0px 8px 0px;
+}
+.categories h3{
+    margin: 0px 0px 16px 0px;
+}
+.about-wrap p{
+    margin: 0px 0px 23px 0px;
+    font: 14px/22px "Cabin";
+}
+.about-wrap h3{
+    margin: 0px 0px 17px 0px;
+}
+.popular figure{
+    min-width: 70px;
+    margin: 1px 11px 0px 0px;
+}
+.popular{
+    padding: 0px 0px 19px 0px;
+}
+.popular a{
+   color: #898989;
+    font: 700 14px/22px "Cabin"; 
+}
+.popular time{
+    color: #c4c4c4;
+    font: 700 11px/20px "Cabin";
+    padding: 4px 0px 0px 2px;
+}
+.aside ul li a{
+    color: #898989;
+    font:14px "Cabin";     
+}
+.aside ul li{
+    line-height: 23px;
+}
+.social{
+    flex-wrap: wrap;
+}
+.social .btn{
+    margin: 2px 1px 2px 5px;
+}
+footer{    
+    background-color: white;
+box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.13);
+}
+footer .lwrap{
+    min-height: 50px;
+    padding: 12px 10px 10px 11px;
+    flex-wrap: wrap;
+}
+footer span{
+   color: #898989; 
+   font:12px "Cabin"; 
+}
+.grid{
+    margin: -6px -2px 19px -2px;
+}
+.grid figure{
+    margin: 2px 2px 2px 2px;
+}
+.list-default{
+    margin: -10px 0px 24px -1px;
+}
+.posts h4{
+    margin: 9px 0px 4px 0px;
+    letter-spacing: 0.01em;
+}
+.thread h3{
+    margin: 0px 0px 19px 0px;
+    letter-spacing: 0.006em;
+}
+.form-wrap {
+    padding: 29px 0px 0px 0px;
+    background: url('../images/border.png')repeat-x, center top;
+}
+.form-wrap h3 {
+    color: #6b6b6b;
+    font: 500 17px "Cabin";
+    margin: 0px 0px 12px 0px;
+    letter-spacing: 0.01em;
+}
+label{
+    margin: 0px 0px 18px 0px;
+}
+.posts figure img, .grid figure img{
+    width: 100%;
+}
+.posts article {
+    flex: 1;
+    margin: 10px;
+    min-width: 110px;
+    max-width: 200px;
+}
+.posts > div{
+    margin: -10px -10px;
+}
+.posts article > div{
+    flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+    .posts > div, .grid {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 850px) {
+    .main{
+        flex-direction: column;
+    }
+    .content-wrap, .aside {
+    width: 100%;
+    margin: 0px;
+}
+.content-wrap{
+    margin: 0px 0px 20px 0px;
+}
+}
+@media (max-width: 450px) {
+    .post figure {
+    margin: 0px 10px 0px 0px;
+}
+.message {
+    padding: 10px 10px 10px 10px;
+}
+.post > .post {
+    padding: 0px 0px 0px 20px;
+}
+}
