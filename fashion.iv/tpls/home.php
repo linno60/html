@@ -38,16 +38,16 @@
                 </div>
             </header>
             <div class="content-wrap">
-                <div class="slider">    
+                <div class="slider" data-flex="row--between">    
                     <figure data-flex>
                         <img src="/images/img1.png">
-                        <div class='slider-title' data-flex='col'>
+                        <div class='slider-title' data-flex='col-start'>
                             <h1>dolce&gabbana</h1>
                             <span>new winter 2011 collection</span>
                         </div>
                     </figure>
                     <div class="slider-sidebar" data-flex="col">
-                        <a href="#" data-flex="col--center">
+                        <a href="#" class="active" data-flex="col--center">
                             <span>dolce & gabbana</span>
                             <small>New winter collection of 2011</small>
                         </a>
@@ -61,7 +61,7 @@
                         </a>
                         <a href="#" data-flex="col--center">
                             <span>freja beha</span>
-                            <small>cover this month's British Vogue</small>
+                            <small>Cover this month's British Vogue</small>
                         </a>
                         <a href="#" data-flex="col--center">
                             <span>new calvin klein watches</span>
@@ -84,7 +84,7 @@
                             <p>Earlier this summer, the announcement that the John Barrett Salon inside Bergdorf Goodman</p>
                             <div class='description' data-flex='col'>
                                 <span>by <a href='#' class='link'>Sergio La Puerta</a></span>
-                                <span><time>on Jun 4, 2011 </time><a href='#' class='link'>24 comments</a></span>
+                                <span><time>on Jun 4, 2011 </time><a href='#' class='link'>&ensp;24 comments</a></span>
                             </div>
                         </article>
                         <article>
@@ -95,7 +95,7 @@
                             <p>Earlier this summer, the announcement that the John Barrett Salon inside Bergdorf Goodman</p>
                             <div class='description' data-flex='col'>
                                 <span>by <a href='#' class='link'>Sergio La Puerta</a></span>
-                                <span><time>on Jun 4, 2011 </time><a href='#' class='link'>24 comments</a></span>
+                                <span><time>on Jun 4, 2011 </time><a href='#' class='link'>&ensp;24 comments</a></span>
                             </div>
                         </article>
                         <article>
@@ -106,7 +106,7 @@
                             <p>Earlier this summer, the announcement that the John Barrett Salon inside Bergdorf Goodman</p>
                             <div class='description' data-flex='col'>
                                 <span>by <a href='#' class='link'>Sergio La Puerta</a></span>
-                                <span><time>on Jun 4, 2011 </time><a href='#' class='link'>24 comments</a></span>
+                                <span><time>on Jun 4, 2011 </time><a href='#' class='link'>&ensp;24 comments</a></span>
                             </div>
                         </article>
                         <a href='#' class='btn btn-default'>more offers<i class='icon-arrow'></i></a>
@@ -208,7 +208,7 @@
                         </ul>
                         <h3 class='title'>from twitter</h3>
                         <p class='tweet'><a href='#' class='link'>@hummer: </a>Earlier this summer the announcement that the John Barrett Salon inside Bergdorf Goodman</p>
-                        <p class='tweet'><a href='#' class='link'>@hummer:</a>Earlier this summer the announcement that the John Barrett Salon inside Bergdorf Goodman</p>
+                        <p class='tweet'><a href='#' class='link'>@hummer: </a>Earlier this summer the announcement that the John Barrett Salon inside Bergdorf Goodman</p>
                     </aside>
                 </div>
                 <footer data-flex>
@@ -226,20 +226,20 @@
                             <a href="#">privacy policy</a>
                             <a href="#">terms of use</a>
                         </nav>
-                        <div data-flex='2cols'>
-                            <div>
+                        <div data-flex class='footer-item-wrap'>
+                            <div data-flex='col-start'>
                                 <h6>about this site</h6>
-                                <div class='footer-item'>
+                                <div class='footer-item' data-flex='row-center'>
                                     <p>The best blog about wine. We love wine and we can’t live without it. See always the latest news and reviews</p>
                                 </div>
                             </div>
-                            <div>
+                            <div data-flex='col-start'>
                                 <h6>subscribe</h6>
-                                <div class='footer-item'>
+                                <div class='footer-item' data-flex='row-center'>
                                     <span>Follow us: </span>
-                                    <a href='#'><i class='icon-tw'></i>Twitter</a>
-                                    <a href='#'><i class='icon-fb'></i>Facebook</a>
-                                    <a href='#'><i class='icon-rss'></i>RSS</a>
+                                    <a href='#' data-flex='row-center'><i class='icon-tw'></i>Twitter</a>
+                                    <a href='#' data-flex='row-center'><i class='icon-fb'></i>Facebook</a>
+                                    <a href='#' data-flex='row-center'><i class='icon-rss'></i>RSS</a>
                                 </div>
                             </div>
                         </div>
