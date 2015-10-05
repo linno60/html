@@ -1,0 +1,767 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(/fonts/bebas/BebasNeueBold.otf);
+}
+@font-face {
+    font-family: "Epidemia";
+    src: url(/fonts/EPIDEMIA.otf);
+}
+a{
+    text-decoration: none;
+}
+.search-bar-wrap{
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+    box-shadow: 3px -4px 5px rgba(0,0,0,.15), inset 0px 2px 0 rgba(181,106,47,.75);
+    background-image: linear-gradient(to top, #221205, #65340d);
+}
+.search-bar h1{
+    color: #fff;
+    font: 60px "Epidemia";
+    text-shadow: 1px -1px 0 rgba(0,0,0,.31);
+}
+.search-bar{
+    min-height: 78px;
+    max-width: 980px;
+    padding: 0 10px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar form{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.btn-search{  
+    color: #fff;
+font: 600 14px "Helvetica";
+text-shadow: 1px -1px 0 rgba(0,0,0,.31);
+height: 36px;
+padding: 0 27px 0 16px;
+border: 1px solid #123b08;
+border-radius: 4px;
+box-shadow: inset 0 1px 0 rgba(255,255,255,.56);
+background-image: linear-gradient(to top, #a3ab43, #cbd65f);
+}
+.btn-search i{
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+   background: url('/images/search.png'); 
+}
+.select select, .select-wrap input {
+    color: #ababab;
+    font: 600 12px "Arial";
+    outline: none;
+    border: 1px solid #e3e1e1;
+    height: 32px;
+    width: 100%;
+    max-width: 180px;
+    border: none;
+    padding: 0 10px;
+    box-shadow: inset -1px 1px 3px rgba(0,0,0,.75);
+}
+.select, .select-wrap input {
+    margin-bottom: 2px;
+}
+.select:after{
+    width: 31px;
+    height: 31px;
+    border: 1px solid rgba(188,188,188,.82);
+    box-shadow: 0 1px 1px rgba(0,0,0,.15), inset 0 1px 0 #fff;
+    background: #f5f5f5 url('/images/select.png') no-repeat center center;
+}
+.select-wrap label{
+    font: 600 14px "Arial";
+    text-shadow: 1px -1px 0 rgba(0,0,0,.31);
+    color: #fff;
+}
+.select-wrap{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+.select-wrap label:after{
+    content: '\A';
+  white-space: pre;
+}
+header{
+    min-height: 873px;
+    background: url("/images/bg-top.png") no-repeat;
+    background-size: 100%;
+}
+nav{
+    background-color: #4d2b11;
+    box-shadow: -1px 1px 5px rgba(0,0,0,.7);
+    margin-bottom: 5px;
+}
+
+.nav-wrap{
+    min-height: 51px; 
+    max-width:  980px;
+    padding: 0 10px;
+    margin:auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    padding: 0 20px 0 0px;
+    margin-left: 235px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav a{
+    color: #fff;
+    font: 16px "BebasNeue";
+    margin: 10px;
+    letter-spacing: 0.3px;
+}
+.banners{
+    max-width:  980px; 
+    padding: 0 10px;
+    margin:auto;   
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-add{
+    width: 100%;
+    max-width: 726px;
+    min-height: 91px;
+    margin-left: 230px;
+    border: 1px solid rgba(0,0,0,.19);
+    background-color: #fff;
+}
+.banner-main{
+    width: 100%;
+    max-width: 226px;
+    max-height: 151px;
+    top: 0;
+    left: 10px;
+    position: absolute;
+}
+  .map h1 {
+  font: 60px/45px "Epidemia";
+  color: #d8df21;
+  text-shadow: 0 0 5px rgba(0,0,0,.25);
+}
+.map h2 {
+  font: 70px/57px "Epidemia";
+  color: #fff;
+  margin-bottom: 20px;
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
+}
+.map > *{
+    max-width: 38%;
+}
+.map > p {
+  color: #fff;
+  font: 14px/22px "Arial";
+  max-width: 33.5%;
+}
+.map-padding{
+    max-width: 980px;    
+    margin: auto;
+    padding: 0 10px;
+}
+.map-wrap{
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #cdcbcb;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0,0,0,.14);
+}
+.map{
+    padding: 70px 25px 75px 25px;
+    background: url("/images/map.png");
+    background-size: 100% 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-wrap{
+    max-width: 960px;
+    min-height: 400px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 13px 30px 18px;    
+}
+.content{
+    width: 59%;
+}
+.content article{
+    background: url("/images/border.png")repeat-x center bottom;
+    padding-bottom: 10px;
+}
+.content article h2{
+    color: #0481af;
+    font: 36px "Epidemia";
+    margin: 5px 0 20px 0;
+}
+.content article p{
+    color: #888;
+    letter-spacing: -0.45px;
+    font: 14px/22px "Arial";
+    padding-bottom: 20px;
+}
+.menu-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 35px 0;
+    background: url("/images/border.png")repeat-x center bottom;
+}
+.menu:first-child{
+    margin-right: 20px;
+}
+.menu .hdr h3, .gallery .hdr h3{
+    color: #0481af;
+    font: 36px "Epidemia";
+}
+.menu .hdr + span{
+    color: #d9e021;
+    font: 36px/30px "Epidemia";
+    letter-spacing: -0.2px;
+}
+.menu .hdr, .gallery .hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery .hdr{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 550px;
+}
+.menu .hdr a{
+    margin-left: 10px;
+}
+.menu .hdr a, .gallery .hdr a {
+    display: inline-flex;
+    color: #0481af;
+font: 12px "Arial";
+text-decoration: underline;
+}
+.menu .hdr a i, .gallery .hdr a i{
+    display: inline-flex;
+    width: 8px;
+    height: 16px;
+    background: url("/images/arrow.png")
+}
+.gallery{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery .hdr + div{
+    background: url("/images/slide.jpg");
+    background-size: 100% 100%;
+min-height: 369px;
+max-width: 548px;
+border: 1px solid #dad6d6;
+border-radius: 1px;
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.gallery .btn{
+    width: 37px;
+height: 38px;
+border-radius: 4px;
+cursor: pointer;
+}
+.gallery .btn:first-child{
+    background: #000 url("/images/left.png")no-repeat center center;
+}
+.gallery .btn:last-child{
+    background: #000 url("/images/right.png")no-repeat center center;
+}
+.content-wrap aside{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+}
+.content-wrap aside > iframe{
+    width: 100%; 
+    min-height: 209px;
+}
+.content-wrap aside > img{
+    margin: 23px 0 10px 0; 
+}
+.content-wrap aside > div{
+    background-color: #0381af;
+    padding: 13px;
+}
+.content-wrap aside > div h1{
+    color: #fff;
+    font: 100px/70px "Epidemia";     
+    letter-spacing: -0.5px;
+}
+.content-wrap aside > div h1 span{
+    color: #f36f21;
+}
+.content-wrap aside > div .btn{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #123b08;
+    border-radius: 5px;
+    color: #fff;
+    font: 600 18px "Helvetica";
+    text-shadow: 1px -1px 0 rgba(0,0,0,.31);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.56);
+    background-image: linear-gradient(to top, #a3ab43, #cbd65f);
+}
+.content-wrap aside > div h2{
+    color: #fff;
+    font: 48px "Epidemia";
+    margin-bottom: 10px;
+}
+.content-wrap aside > div p{
+    color: #fff;
+    font: 14px/20px "Arial";
+    margin-bottom: 10px;
+}
+.content-wrap aside > div p span{
+    font: 600 14px "Arial";
+    text-transform: uppercase;
+}
+.social{
+    max-width: 940px;
+    margin: auto;
+    display:flex;
+    padding: 25px 10px 40px 10px;
+    justify-content: space-between;
+    background: url("/images/border.png")repeat-x center top;
+}
+.facebook, .twitter{
+    width: 48%;
+}
+.social .hdr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facebook > .hdr, .twitter > .hdr{
+    padding-bottom: 10px;
+}
+.social .hdr h1{
+    display: flex;
+    align-items: center;
+    color: #0481af;
+    font: 36px "Epidemia";
+}
+.twitter .hdr h1 img{
+    margin-right: 5px;
+}
+.facebook .hdr h1 img{
+    margin-right: 10px;
+}
+.expand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+.expand span{
+    font: 600 11px "Lucida Sans Unicode";
+    color: #333;
+}
+.expand span.add{
+    color: #3b649e;
+}
+.facebook .hdr a{
+    color: #405d9a;
+    height: 28px;
+    padding: 0px 5px;
+    font: 11px "Lucida Sans Unicode";
+    border: 1px solid #dde2ef;
+    display: inline-flex;
+    align-items: center;
+    background-color: #eceef5;
+    border-radius: 3px;
+}
+.facebook .hdr a i{
+    width: 18px;
+    height: 19px;
+    margin-right: 3px;
+        background: url("/images/like.png");
+}
+.facebook ul{
+    padding-left: 60px;
+}
+.facebook > ul{
+    padding-left: 10px;    
+    margin-bottom: 10px;
+}
+.facebook ul li{
+    border-top: 1px solid #e2e2e2;
+    padding: 10px 0;
+}
+.facebook > ul > li:first-child{
+    border-top: none;
+}
+.facebook > ul > li:last-child{
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+.facebook ul li > div{
+    display: flex;
+    align-items: flex-start;
+}
+.facebook ul li img{
+    margin-right: 10px;
+    min-width: 50px;
+}
+.facebook ul li p{
+    color: #353535;
+    font: 11px "Lucida Sans Unicode";
+}
+.links{
+    font: 11px "Lucida Sans Unicode";
+    color: #8a8a8a;
+}
+.links a{
+    color: #3b649e;
+}
+.author{
+    color: #2e5c98;
+  font: 600 11px "Lucida Sans Unicode";
+}
+.author + span{
+      font: 11px "Lucida Sans Unicode";
+  color: #8a8a8a;
+}
+.more{
+    background-color: #eceff4;
+    border: 1px solid #d6dfea;
+    font: 11px "Lucida Sans Unicode";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3b649e;
+    min-height: 32px;
+    margin-bottom: 5px;
+}
+.more span i{
+    width: 9px;
+    height: 6px;
+    display: inline-flex;
+    margin-left: 3px;
+    background: url("/images/more.png");
+}
+.facebook-footer i{
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+    background: url("/images/plugin.png");
+}
+.facebook-footer{
+    padding: 5px;
+    display: flex;
+    border-top: 1px solid #ccc;
+    color: #aeaeae;
+        font: 10px "Lucida Sans Unicode";
+}
+.twitter > .hdr{
+    background: url("/images/border.png")repeat-x center bottom;
+}
+.twitter .hdr span{
+    color: #888;
+    font: 14px "Arial";
+}
+.twitter .hdr span a{
+    color: #0481af;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.twitter ul li img{
+    min-width: 48px;
+}
+.twitter ul li{   
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
+}
+.twitter ul li:last-child{
+    border-bottom: none;
+}
+.twitter ul li > div{
+    width: 85%;
+    margin-left: 15px;
+}
+.twitter ul li h3{
+    color: #363636;
+    font: 700 15px "Arial";
+}
+.twitter ul li .hdr{
+    margin-bottom: 5px;
+}
+.twitter ul li p{
+    color: #898989;
+    font: 12px/16px "Arial";
+}
+.twitter ul li time{
+    color: #898989;
+    font: 12px "Arial";
+}
+.twitter ul li a{
+    color: #0481af;
+    font: 600 12px "Arial";
+}
+.twitter ul li h3 span{
+    font: 600 12px "Arial";
+}
+.sponsors-wrap{
+    max-width: 940px;
+    margin: auto; 
+    padding: 40px 10px 80px 10px;
+    background: #fff url("/images/border.png")repeat-x center top;
+}
+.sponsors-wrap h1{
+    color: #0481af;
+    font: 36px "Epidemia";
+    margin-bottom: 15px;
+}
+.sponsors-wrap span{
+    margin-top: 5px;
+      color: #363636;
+  font: 12px "Arial";
+  display: flex;
+}
+.sponsors-wrap img{
+      margin: 3px 10px 3px 0px;
+}
+footer{
+    background-image: linear-gradient(to top, #221205, #4d2b11); 
+}
+.footer{
+    max-width: 980px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    color: #fff;
+    font: 12px "Arial";
+    text-transform: uppercase;
+    padding: 25px 10px 80px 10px;
+}
+.footer ul{
+    margin-right: 30px;
+}
+.footer ul li{
+    line-height: 22px;
+}
+.footer a{
+    color: #fff;
+}
+.footer span{
+    text-align: right;
+}
+@media screen and (max-width: 930px) {
+    .content-wrap aside > div h1 {
+    font: 90px/70px "Epidemia";
+}
+.content-wrap aside > div h2 {
+    font: 40px "Epidemia";
+}
+}
+@media screen and (max-width: 905px) {
+.map > *{
+    max-width: 40%;
+}
+.map > p {
+  font: 13px/20px "Arial";
+  max-width: 35%;
+}
+  .map h1 {
+  font: 50px/45px "Epidemia";
+}
+.map h2 {
+  font: 60px/57px "Epidemia";
+}
+.select-wrap input {
+    padding: 0px 5px;
+}
+.select select {
+    padding: 0px;
+}
+}
+@media screen and (max-width: 840px) {
+    .content-wrap aside > div h1 {
+    font: 80px/70px "Epidemia";
+}
+.content-wrap aside > div h2 {
+    font: 30px "Epidemia";
+}
+.select select, .select-wrap input {
+    font: 600 10px "Arial";
+}
+.select-wrap label {
+    font: 600 12px "Arial";
+}
+.search-bar h1 {
+    font: 50px "Epidemia";
+}
+.btn-search {
+    font: 600 12px "Helvetica";
+    padding: 0px 10px 0px 10px;
+}
+.search-bar-wrap{
+    top: 470px;
+}
+}
+@media screen and (max-width: 800px) {
+.map > p {
+  font: 12px/18px "Arial";
+}
+  .map h1 {
+  font: 40px/35px "Epidemia";
+}
+.map h2 {
+  font: 50px/57px "Epidemia";
+  margin-bottom: 10px;
+}
+.map {
+    padding: 35px 15px 55px 15px;
+}
+    .content-wrap aside > div h1 {
+    font: 70px/70px "Epidemia";
+}
+}
+@media screen and (max-width: 740px) {
+.map > p {
+  font: 11px/16px "Arial";
+}
+  .map h1 {
+  font: 30px/30px "Epidemia";
+}
+.map h2 {
+  font: 40px/45px "Epidemia";
+}
+.social{
+    flex-direction: column;
+}
+.facebook, .twitter {
+    width: 100%;
+}
+.facebook{
+    margin-bottom: 20px;
+}
+.content-wrap{
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.content {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.content-wrap aside {
+    width: 100%;
+    max-width: 350px;
+}
+.search-bar{
+    flex-direction: column;
+    padding: 10px;
+}
+.search-bar form {
+    margin-left: 0px;
+}
+}
+@media screen and (max-width: 700px) {
+      .content-wrap aside > div h1 {
+    font: 60px/60px "Epidemia";
+}
+.select select, .select-wrap input {
+    letter-spacing: -1px;
+}
+.btn-search {
+    font: 600 10px "Helvetica";
+    padding: 0px 5px;
+}
+}
+@media screen and (max-width: 567px) {
+    .banner-add{
+        margin-left: 0px;
+    }
+    .map {
+    padding: 25px 15px 25px 15px;
+}
+.nav-wrap{
+    flex-direction: column;
+    justify-content: row-reverse;
+}
+.nav{
+    margin-left: 0px;
+}
+.banner-main{
+    position: static;
+}
+.search-bar form{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.btn-search{
+    margin: 3px;
+}
+.select-wrap {
+    min-width: 102px;
+    margin: 3px;
+}
+}
+@media screen and (max-width: 480px) {
+    .map {
+    padding: 10px;
+}
+.map > p {
+  font: 10px/14px "Arial";
+}
+  .map h1 {
+  font: 20px/20px "Epidemia";
+}
+.map h2 {
+  font: 25px/25px "Epidemia";
+  margin-bottom: 5px;
+}
+.menu .hdr h3{
+    font: 30px "Epidemia";
+}
+.menu .hdr + span {
+    font: 30px/30px "Epidemia";
+}
+.menu .hdr a {
+    font: 10px "Arial";
+}
+.gallery .hdr + div {
+    min-height: 300px;
+}
+}
+@media screen and (max-width: 380px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer span{
+    text-align: center;
+    margin-top: 20px;
+}
+.social .hdr h1 {
+    font: 30px "Epidemia";
+}
+.gallery .hdr + div {
+    min-height: 250px;
+}
+}

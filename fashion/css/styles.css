@@ -1,0 +1,629 @@
+@font-face {
+    font-family: 'Interstate Mono';
+    src: url('../fonts/Interstate Mono.ttf');
+}
+@font-face {
+    font-family: 'Roadway';
+    src: url('../fonts/Roadway.ttf');
+}
+@font-face {
+    font-family: 'Officina Sans Bold';
+    src: url('../fonts/OfficinaSans/OfficinaSansBold/OfficinaSansBold.ttf');
+}
+a{
+    text-decoration: none;
+}
+p{
+    font: 12px/18px "Arial";
+    color: #767676;
+    letter-spacing: -0.002em;
+    margin:  0px 0px 11px 0px;
+}
+.link:hover{
+    text-decoration: underline; 
+}
+.link{
+    font: 12px "Arial";
+    color: #649671;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+}
+.hdr{
+    padding: 5px 5px 5px 12px;
+    color: #447751;
+    font: 15px "Interstate Mono";
+    text-transform: uppercase;
+    min-height: 32px;
+    border-radius: 4px;
+    margin: 23px 0px 25px 0px;
+    letter-spacing: 0.145em;
+    background-image: linear-gradient(to top, #a1c7ac 0%, #b1d6bc 100%);
+}
+figure{
+    position: relative;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    border-radius: 0px 0px 3px 3px;
+    background-color: rgba(0,0,0,.8);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 7px 10px 5px 10px;
+    width: 100%;
+}
+figcaption a{
+    color: #f6f6f6;
+    font: 15px "Roadway";
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.lbl-discount{
+    flex-direction: column;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    right: 7.7%;
+    bottom: 26.8%;
+    background: url('../images/label.png');
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    padding: 0px 0px 4px 0px;
+    font: 700 41px/33px "Officina Sans Bold";
+    text-transform: uppercase;
+}
+.lbl-discount small{
+    padding: 0px 3px;
+    font: 700 20px/11px "Officina Sans Bold";
+    background-color: #a7cdb2;
+}
+.lbl-discount span{
+    margin: 10px 0px 0px 0px;
+    height: 1px;
+    background-color: #87ab92;
+    width: 34%;
+}
+a.btn-lang{
+    min-width: 81px;
+    min-height: 25px;
+    margin: 2px 2px 4px 4px;
+    padding: 2px 5px 2px 5px;
+    color: #dbdbdb;
+    font: 12px "Arial";
+}
+.btn-lang i{
+    margin: 0px 9px 0px 0px;
+}
+a.btn-lang.active, a.btn-lang:hover{
+    background-color: rgba(0,0,0,.5); 
+}
+a.btn-default, .btn-default{
+    min-height: 24px;
+    padding: 2px 5px;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.22);
+    color: #447751;
+    border-radius: 2px;
+    font: 15px "Roadway";
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-image: linear-gradient(to top, #7ba686 0%, #9ec5a8 100%);
+}
+.title{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #767676;
+    font: 16px "Interstate Mono";
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0px 0px 12px 0px;
+}
+.icon-mail, .icon-sp, .icon-uk{
+    width: 16px;
+    height: 11px;
+}
+.icon-fb, .icon-rss, .icon-tw{
+    width: 16px;
+    height: 16px;
+}
+.icon-fb-lg, .icon-rss-lg, .icon-tw-lg{
+    width: 32px;
+    height: 32px;
+}
+.icon-mail{background: url('../images/icons/16x11/mail.png');}
+.icon-sp{background: url('../images/icons/16x11/sp.png');}
+.icon-uk{background: url('../images/icons/16x11/uk.png');}
+.icon-fb{background: url('../images/icons/16x16/fb.png');}
+.icon-rss{background: url('../images/icons/16x16/rss.png');}
+.icon-tw{background: url('../images/icons/16x16/tw.png');}
+.icon-fb-lg{background: url('../images/icons/32x32/fb-lg.png');}
+.icon-rss-lg{background: url('../images/icons/32x32/rss-lg.png');}
+.icon-tw-lg{background: url('../images/icons/32x32/tw-lg.png');}
+.icon-search{
+    width: 14px;
+    height: 14px;
+    background: url('../images/icons/14x14/search.png');
+}
+.icon-arrow{
+    width: 10px;
+    height: 5px;
+    background: url('../images/icons/arrow.png');
+}
+body {
+    background: #000 url('../images/bg.png')no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.lwrap{
+    max-width: 1020px;
+    padding: 0px 10px 73px 10px;
+}
+.top-bar{
+    min-height: 79px;
+    flex-wrap: wrap;
+}
+.top-bar > div{
+    flex-wrap: wrap;
+}
+.form-search{
+    width: 242px;
+    height: 27px;
+    padding: 0px 8px 0px 8px;
+    background-color: white;
+    margin: 0px 0px 0px 13px;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 1, 0.28);
+}
+.form-search input{
+    width: 90%;
+    color: #b2b2b2;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    letter-spacing: -0.005em;
+}
+.form-search input::-webkit-input-placeholder{
+    color: #b2b2b2;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+}
+.form-search input::-moz-placeholder{
+    color: #b2b2b2;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+}
+.form-search input:-ms-input-placeholder{
+    color: #b2b2b2;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+}
+.header{
+    flex-wrap: wrap;
+    padding: 5px 13px 5px 13px;
+    background-image: linear-gradient(to top, #000001 0%, #232323 100%);
+    min-height: 43px;
+}
+.logo{
+    color: #f9f9f9;
+    font: 700 34px/30px "Officina Sans Bold";
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+.nav{
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 7px;
+}
+.nav a{
+    color: darkgrey;
+    font: 18px "Roadway";
+    text-transform: uppercase;
+    margin: 2px 16px 2px 16px;
+    letter-spacing: 0.04em;
+}
+.nav a.active, .nav a:hover{
+    color: white;
+}
+.header form{
+    flex-wrap: wrap;
+}
+.header form button{
+    color: #f6f6f6;
+    font: 13px "Roadway";
+    text-transform: uppercase;
+    margin: 2px 4px 3px 7px;
+    letter-spacing: 0.015em;
+}
+.header form a{
+    margin: 6px 5px 2px 5px;
+}
+.slider{
+    position: relative;
+}
+.slider-sidebar{
+    position: absolute;
+    width: 25.9%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+}
+.slider-sidebar a{
+    flex: 1;
+    position: relative;
+    padding: 4px 2px 2px 18px;
+    background-image: linear-gradient(to top, rgba(0,0,1,.8) 0%, rgba(35,35,35,.8) 100%);
+}
+.slider-sidebar a.active:before, .slider-sidebar a:hover:before{
+    content: "";
+    left: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: 9px solid #ededed;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+}
+.slider-sidebar a.active, .slider-sidebar a:hover{
+    background-image: linear-gradient(to top, #d8d8d8 0%, white 100%);
+}
+.slider-sidebar a.active span, .slider-sidebar a:hover span{
+    color: #1b1b1b;
+}
+.slider-sidebar a.active small, .slider-sidebar a:hover small{
+    color: #423e3e;
+}
+.slider-sidebar a span{
+    color: #f6f6f6;
+    font: 15px/19px "Roadway";
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+}
+.slider-sidebar a small{
+    color: #b1b1b1;
+    font: 12px/18px "Arial";
+    letter-spacing: -0.007em;
+}
+.slider-title{
+    position: absolute;
+    bottom: 13%;
+    left: 5.5%;  
+    margin: 0px 20px 0px 0px;
+}
+.slider-title h1{
+    padding: 0px 6px 3px 8px;
+    color: #eee;
+    font: 81px/85px "Roadway";
+    text-transform: uppercase;
+    letter-spacing: 0.049em;
+    background-color: rgba(0,0,0,.8);
+}
+.slider-title span{ 
+    padding: 0px 10px 10px 10px;
+    background-color: rgba(0,0,0,.8);
+    color: #868585;
+    font: 26px/20px "Roadway";
+    text-transform: uppercase;
+    letter-spacing: 0.058em;
+}
+.content-wrap{       
+    box-shadow: 0 0 7px rgba(0, 0, 1, 0.76);
+}
+.content{
+    padding: 20px 37px 59px 17px;
+    background-color: #fff;
+}
+.sidebar{
+    width: 21.4%;
+    padding: 11px 0px 0px 0px;
+}
+.main{
+    width: 52%;
+    padding: 11px 8px 10px 12px;
+}
+.sidebar.left{
+    width: 21.1%;
+    border-radius: 3px;
+    padding: 11px 10px 24px 18px;
+    background-color: #e7f5eb;
+}
+.sidebar.left article h6{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    font: 12px "Arial";
+    margin: 0px 0px 7px 0px;
+    color: #649671;
+    letter-spacing: -0.01em;
+}
+.sidebar.left article p{
+    font: 11px/18px "Arial";
+    padding: 0px 0px 11px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    letter-spacing: 0.005em;
+    margin: 0px 0px 9px 0px;
+}
+.sidebar.left article{
+    padding: 0px 3px 36px 2px;
+}
+.sidebar.left article figure{
+    padding: 0px 8px 21px 0px;
+}
+.description{
+    border-bottom: 2px solid #7ba686;
+    margin: 0px 7px 0px 0px;
+    padding: 0px 0px 9px 0px;
+}
+.description span{
+    color: #969696;
+    font: italic 11px/16px "Arial";
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+}
+.description .link{
+    font: italic 11px "Arial";
+    letter-spacing: 0.02em;
+}
+.content figure, .content figure img{
+    border-radius: 3px;
+}
+.main > div > figure{
+    margin: 12px 5px 14px 5px;
+}
+.main > div{
+    margin: 0px -5px 0px -5px;
+}
+.form-subscribe{
+    height: 30px;
+    background-color: whitesmoke;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 1, 0.28);
+    padding: 0px 7px 0px 14px;
+    margin: 0px 0px 9px 0px;
+}
+.form-subscribe input{
+    width: 87%;
+    background-color: transparent;
+    border: none;
+    color: #8b8b8b;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0px 0px 5px 0px;
+    border-right: 1px solid rgba(0,0,0,.15);
+    letter-spacing: -0.01em;
+}
+.form-subscribe-wrap a{
+    margin: 2px 7px 2px 0px;
+}
+.form-subscribe input::-webkit-input-placeholder{
+    color: #8b8b8b;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-subscribe input::-moz-placeholder{
+    color: #8b8b8b;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-subscribe input:-ms-input-placeholder{
+    color: #8b8b8b;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-vote{
+    background-color: #e7f5eb;
+    border-radius: 2px;
+    padding: 13px 10px 23px 15px;
+    margin: 31px 0px 48px 0px;
+}
+.form-vote ul{
+    padding: 7px 0px 14px 0px;
+}
+.form-vote .btn{
+    width: 100%;
+}
+.form-vote button{
+    margin: 0px 8px 0px 5px;
+}
+.form-vote p{
+    font: 700 12px/16px "Arial";
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #4c4c4c;
+    margin: -1px 11px 0px 3px;
+    letter-spacing: 0.007em;
+}
+.form-vote input{
+    width: 11px;
+    min-width: 11px;
+}
+.form-vote label{
+    color: #8d8c8c;
+    font: 12px/16px "Arial";
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #4c4c4c;
+    padding: 0px 0px 0px 15px;
+}
+.form-vote li{
+    padding: 6px 4px 5px 4px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.list-popular{
+    padding: 5px 0px 32px 0px;
+}
+.list-popular li {
+    border-bottom: 1px solid #e5ede7;
+    padding: 6px 2px 7px 3px;
+}
+.list-popular li span{
+    width: 28px;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #b1b6b2;
+    font: 10px/10px "Arial";
+}
+.list-popular li .link{
+    letter-spacing: -0.011em;
+}
+.tweet{
+    font: 11px/16px "Arial";
+    margin: 26px 11px 36px 3px;
+    padding: 16px 17px 18px 18px;
+    background-image: linear-gradient(to top, #e7ecd6 0%, #f3f8e2 100%);
+    position: relative;
+}
+.tweet:before{
+    position: absolute;
+    border-bottom: 8px solid #f3f8e2;
+    border-left: 8px solid transparent;
+    border-right: 4px solid transparent;
+    content: "";
+    top: -7px;
+    left: 14px;
+}
+.tweet .link{
+  font: 11px "Arial";
+}
+footer{
+    padding: 41px 20px 39px 20px;
+    background-color: #202020;
+}
+footer > div:first-child{
+    width: 21%;
+    padding: 0px 9px 0px 0px;
+}
+footer > div:first-child span{
+    text-align: right;
+    font: italic 11px/18px "Arial";
+    color: grey;
+    max-width:  150px;
+}
+footer > div{
+    width: 79%;
+    padding: 2px 0px 0px 31px;
+}
+footer h6{
+    color: #f6f6f6;
+    font: 13px "Roadway";
+    background-color: #000;
+    padding: 3px 11px 2px 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.footer-item-wrap{
+    flex-wrap: wrap;
+}
+.footer-item-wrap > div{
+    width: 47.8%;
+    padding: 0px 39px 0px 0px;
+}
+footer .nav{
+    margin: 0px 0px 16px -8px;
+}
+footer .nav a{
+    font: 14px "Roadway";
+    letter-spacing: 0.046em;
+    margin: 2px 8px 2px 8px;
+}
+.footer-item{
+    background-color: #000;
+    padding: 4px 5px 5px 13px;
+    min-height: 47px;
+    flex-wrap: wrap;
+}
+.footer-item span, .footer-item a{
+    color: grey;
+    font: 11px/11px "Arial";
+}
+.footer-item a{
+    padding: 2px 13px 2px 2px;
+}
+.footer-item span{
+    padding: 2px 19px 2px 3px;
+}
+.footer-item a i{
+    margin: 0px 6px 2px 0px;
+}
+footer p{
+        font: 11px/14px "Arial";
+        margin: 0px;
+        letter-spacing: 0.01em;
+}
+footer .logo{
+    text-align: right;
+        font: 700 25px/30px "Officina Sans Bold";
+        letter-spacing: 0.018em;
+        margin: 0px 0px 9px 0px;
+}
+@media (max-width: 900px) {
+   .content {
+       flex-wrap: wrap;
+    padding: 20px 10px 59px 10px;
+} 
+.main {
+    width: 56%;
+    padding: 11px 5px 10px 5px;
+}
+}
+@media (max-width: 865px) {
+   .slider-title {
+    bottom: 2%;
+    left: 1%;
+}
+.sidebar, .sidebar.left{
+    width: 40%;
+}
+.slider-sidebar {
+    width: 30%;
+}
+.slider-sidebar a {
+    padding: 2px 5px 2px 5px;
+}
+.slider-title h1 {
+    font: 40px/45px "Roadway";
+}
+.slider-title span {
+    font: 12px/10px "Roadway";
+}
+figcaption a {
+    font: 12px "Roadway";
+}
+.lbl-discount {
+    bottom: 20%;
+}
+.slider-sidebar{
+        position: static;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .slider-sidebar a{
+        min-width: 50%;
+    }
+    .slider{
+        flex-direction: column;
+    }
+}
+@media (max-width: 760px) {
+    .footer-item-wrap  > div{
+    width: 100%;
+    padding: 0px 10px 10px 0px;
+}
+footer > div:first-child span {
+    max-width: 500px;
+}
+footer > div {
+    width: 79%;
+    padding: 20px 0px 0px 0px;
+}
+}
+@media (max-width: 550px) {  
+    footer{
+        flex-direction: column;
+    }
+    footer > div:first-child {
+    width: 100%;
+}
+    
+    .main, .sidebar, .sidebar.left{
+        width: 100%;
+    }
+}

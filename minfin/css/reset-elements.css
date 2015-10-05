@@ -1,0 +1,108 @@
+/* --- UL WITH MARKER --- */
+.list li {position: relative;}
+.list li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+        box-sizing: border-box;
+}
+
+/* --- SELECT WITH CUSTOM ARROW --- */
+.select {
+    position:relative; 
+    display: inline-block;
+}
+.select:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    pointer-events: none;
+}
+.select select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+.select select::-ms-expand{display:none;}
+
+/* --- BTN */
+/*button {
+    vertical-align: middle; 
+    background: none; 
+    outline: none;
+    padding: 0;
+    border:none;
+}*/
+button::-moz-focus-inner {
+    border: none;
+    padding:0;
+}
+a.btn {
+    text-decoration: none;
+    color: inherit;
+}
+.btn, .btn > em {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-style: normal;
+}
+.btn > em {flex-grow: 1;}
+
+/*SIMPLE LABELS*/
+.lbl {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+/*TABS*/
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+.tabs ._nav {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.tabs ._nav > a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.tabs ._nav > a:first-child {margin-left: 0;}
+.tabs ._nav > a:last-child {margin-right: 0;}
+.tabs ._content {flex-grow: 1;}
+.tabs ._content > * {display: none;}
+.tabs ._content > .active {display: flex;}
+
+
+.tabs.left {flex-direction: row;}
+.tabs.right {flex-direction: row-reverse;}
+.tabs.bottom {flex-direction: column-reverse;}
+
+.tabs.left .nav, .tabs.right .nav {flex-direction: column;}
+
+
+.tabs.accordion {
+    position: relative;
+}
+.tabs.accordion > ._nav {flex-direction: column; align-items: stretch;}
+.tabs.accordion > ._nav > a {width: auto; margin-right: 0; margin-left: 0;}
+
+.tabs.accordion > ._content > .active {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+}

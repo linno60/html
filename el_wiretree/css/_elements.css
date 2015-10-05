@@ -1,0 +1,113 @@
+.btn-social{
+    width: 31px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 4px 4px 4px 4px;
+}
+a.btn-nav{
+    font: 900 12px 'Source Sans Pro';
+    text-transform: uppercase;
+    color: #efefef;
+    min-width: 96px;
+    min-height: 33px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+    margin: 1px 1px 1px 1px;
+    position: relative;
+}
+a.btn-nav.active, a.btn-nav:hover, a.btn-nav:active, a.btn-nav:focus{
+    color: #ca6666;
+    background-color: #f6f6f6;
+}
+a.btn-nav.active:after, a.btn-nav:hover:after, a.btn-nav:active:after, a.btn-nav:focus:after{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 8px solid #f6f6f6;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+a.btn-default{
+    width: 147px;
+    height: 38px;
+    background-color: #ca6666;
+    color: white;
+    font: 700 15px 'Source Sans Pro';
+}
+.lbl-time{
+    min-width: 70px;
+    min-height: 33px;
+    color: white;
+    background-color: #ca6666;
+    font: 900 12px 'Source Sans Pro';
+    text-transform: uppercase;
+    border-radius: 3px;
+    position: relative;
+}
+.lbl-time:before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    display: block;
+    transform: translateX(-50%);
+    border-bottom: 8px solid #ca6666;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+.list-default li{
+    color: #616161;
+    font: 14px/24px 'Source Sans Pro';
+    padding: 0px 0px 0px 20px;
+}
+.marker li:before{
+    width: 12px;
+    height: 9px;
+    top: 10px;
+    left: 0px;
+    background: url(/images/icons/check.png);
+}
+.about div blockquote:nth-child(odd) cite {
+    text-align: right;
+}
+.about{
+    max-width: 400px;
+}
+blockquote q{
+    background-color: #efefef;
+    padding: 10px 10px 10px 10px;
+    color: #616161;
+    font: 14px/22px 'Source Sans Pro';
+    position: relative;
+}
+blockquote cite{
+    color: #616161;
+    padding: 20px 0px 20px 10px;
+    font: 700 14px/22px 'Source Sans Pro';
+}
+.about div blockquote:nth-child(even) q:after {
+    border-right: 15px solid transparent;
+    left: 35px;
+}
+.about div blockquote:nth-child(odd) q:after {
+    border-left: 15px solid transparent;
+    right: 34px;
+}
+.about blockquote q:after {
+    content: "";
+    bottom: -15px;
+    position: absolute;
+    border-top: 15px solid #e4e4e4;
+}
+.divider{
+    width: 40px;
+    height: 1px;
+    background-color: rgba(0,0,0,.15);
+}
+time{
+    color: #ca6666;
+    font: 14px/25px 'Source Sans Pro';
+}

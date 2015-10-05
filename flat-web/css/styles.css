@@ -1,0 +1,299 @@
+a{
+    text-decoration: none;
+}
+.icon-search{
+    width: 16px;
+    height: 16px;
+    background: url('../images/icons/16x16/search.png');
+}
+.icon-music, .icon-record, .icon-sun, .icon-video{
+    width: 120px;
+    height: 120px;
+    min-height: 120px;
+}
+.icon-music{background: url('../images/icons/120x120/music.png');}
+.icon-record{background: url('../images/icons/120x120/record.png');}
+.icon-sun{background: url('../images/icons/120x120/sun.png');}
+.icon-video{background: url('../images/icons/120x120/video.png');}
+.nav{
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1144px;
+    min-height: 100px;
+    padding: 10px 10px 10px 11px;
+}
+.header{
+    margin: auto;
+    max-width: 1430px;
+    min-height: 300px;
+    padding: 10px 10px 10px 10px;   
+    background: url('../images/img1.png')no-repeat right center;
+}
+.nav-wrap{
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 0 rgba(0,0,0,.15);
+}
+.header-wrap{
+    background: url('../images/bg1.png');
+    box-shadow: 0 4px 0 rgba(0,0,0,.15);
+}
+.logo{
+    color: #53add7;
+    font: 36px "Montserrat Alternates";
+    text-shadow: 0 2px 0 #25799f;
+    margin: 0px 11px 4px 0px;
+}
+.nav form{
+    width: 260px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 0px 16px 0px 8px;
+}
+.nav form input{
+    width: 90%;
+    border: none;
+    color: #9f9f9f;
+    font-family: "Arial";
+    font-size: 12px;
+}
+.nav form input::-webkit-input-placeholder {
+    color: #9f9f9f;
+    font-family: "Arial";
+    font-size: 12px;
+}
+.nav form input::-moz-placeholder {
+    color: #9f9f9f;
+    font-family: "Arial";
+    font-size: 12px;
+}
+.nav form input:-ms-input-placeholder {
+    color: #9f9f9f;
+    font-family: "Arial";
+    font-size: 12px;
+}
+.nav nav{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.nav nav a{
+    color: #6a6766;
+font: 14px "Open Sans";
+position: relative;
+    padding: 10px 21px 10px 21px;
+border-radius: 4px;
+border: 2px solid transparent; 
+}
+.nav nav a.active, .nav nav a:hover{
+    color: #2f8db3;
+    border: 2px solid #53add7;    
+}
+.nav nav a.active:after, .nav nav a.active:before, .nav nav a:hover:after, .nav nav a:hover:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 7px 3px 0px 3px;
+    border-color: #fff transparent transparent transparent;
+}
+.nav nav a.active:before, .nav nav a:hover:before {
+    bottom: -9px;
+    border-color: #53add7 transparent transparent transparent;
+}
+.header h1{
+    color: #fff;
+font: 300 66px "Open Sans";
+text-shadow: 0 2px 0 #25799f;
+    margin: 0px 0px 19px 140px;
+    letter-spacing:  -0.0035em;
+}
+.info-wrap{
+    background-color: #eee;
+}
+.info{
+    margin: auto;
+    max-width:1150px;
+flex-wrap: wrap;
+    padding: 46px 9px 49px 10px;   
+}
+.info figure{
+    margin: 5px 5px 5px 5px;
+    max-width: 265px;
+border: 1px solid #cecece;
+background-color: #fff;
+
+    padding: 0px 0px 27px 0px;
+box-shadow: 0 2px 0 rgba(0,0,0,.1);
+min-height: 350px;
+}
+.info figcaption{
+   width: 100%;
+
+   min-height: 54px;
+border: 1px solid #4793b7;
+background-color: #53add7;
+box-shadow: 0 2px 0 #4793b7;
+color: #fff;
+text-transform: uppercase;
+font: 600 22px "Open Sans";
+text-shadow: 0 1px 0 #25b12f;
+
+   margin: 0px 0px 31px 0px;
+}
+.info figure p{
+    text-align: center;
+  
+    font: 13px/16px "Open Sans";  
+  color: #6e6e6e;
+  
+    margin: 26px 0px 29px 0px;
+    letter-spacing: -0.018em;
+}
+.info figure a{
+    display: inline-block;
+    color: #53add7;
+    font: 600 13px "Open Sans";    
+}
+.advantages-wrap{
+    background-color: #6ec3ed;
+    box-shadow: inset 0 4px 0 0 rgba(0,0,0,.15);
+}
+.advantages{
+    margin: auto;
+    max-width: 1140px;
+    padding: 32px 10px 54px 10px;
+}
+.advantages h2{
+    text-align: center;
+    text-shadow: 0 1px 0 #49b11f;
+    color: #fff;
+    margin:  0px 0px 25px 0px;
+    font: 300 36px "Open Sans"; 
+    letter-spacing: -0.015em;
+}
+.advantages h2 span{
+    font: 600 36px "Open Sans"; 
+}
+.advantages .grid > div{
+    width: 49%;
+border: 1px solid #5da5c9;
+background-color: #fff;
+
+    padding: 33px 10px 35px 15px;
+box-shadow: 0 2px 0 rgba(0,0,0,.13);
+}
+.customers-wrap{
+    background-color: #255e7a;
+}
+.customers{
+    margin: auto;
+    max-width: 1140px;
+    padding: 35px 10px 36px 10px;
+}
+.customers p{
+    color: #fff;
+    font: 300 36px "Open Sans";
+    text-align: center;
+}
+.customers p span{
+    font: 500 36px "Open Sans"; 
+    letter-spacing: 0.01em;
+}
+.logos{
+    margin: auto;
+    max-width: 1140px;
+    padding: 31px 10px 30px 10px;
+}
+footer{
+    background-color: #3a3a3a;
+}
+.footer{
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1140px;
+    padding: 60px 10px 53px 10px;
+}
+.footer .hdr{
+    width: 100%;
+    min-height: 44px;
+border: 1px solid #2f2f2f;
+background-color: #656565;
+box-shadow: 0 2px 0 rgba(0,0,0,.15);
+    margin: 0px 0px 27px 0px;
+    padding:  2px 20px;
+}
+.footer .hdr h3{
+    text-transform: uppercase;
+    color: #fff;
+    font: 300 18px "Open Sans"; 
+}
+.footer > div{
+    max-width: 265px;
+    min-width: 200px;
+    flex: 1;
+}
+.list-footer{
+    padding: 0px 0px 0px 21px;
+}
+.list-footer li a, .footer a, .footer span{
+    color: #8d8d8d;
+    font: 14px/24px "Open Sans";
+    letter-spacing: -0.02em;
+}
+.mail{
+    text-decoration: underline;
+}
+.list-footer li {
+    padding: 0px 0px 0px 17px;
+}
+.list-footer li:before{
+    width:8px;
+    height: 8px;
+    top: 12px;
+    background: url('../images/icons/8x8/arrow.png');
+}
+.list-default li {
+    color: #9b9b9b;
+    font: 18px/30px "Open Sans";
+    padding: 0px 0px 0px 28px;
+}
+.list-default li:before{
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    background: url('../images/icons/20x20/check.png');
+}
+.footer b{
+    color: #8d8d8d;
+    font: 600 18px/20px "Open Sans";
+    margin:  0px 0px 4px 0px;
+}
+.footer img{
+    width: 100%;
+    max-width: 140px;
+    max-height: 160px;
+    margin: 7px 32px 0px 0px;
+}
+@media (max-width: 1150px) {
+    .info {
+    justify-content: space-around;
+}
+}
+@media (max-width: 1050px) {
+    .header h1 {
+    margin: 0px 0px 19px 0px;
+}
+}
+@media (max-width: 500px) {
+    .advantages .grid{
+        flex-direction: column;
+    }
+    .advantages .grid > div {
+    width: 100%;
+}
+}

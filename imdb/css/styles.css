@@ -1,0 +1,574 @@
+@font-face {
+    font-family: 'PFDinDisplayProBold';
+    src: url('../fonts/pfdindisplaypro-bold.ttf');
+}
+@font-face {
+    font-family: 'PFDinDisplayProLight';
+    src: url('../fonts/pfdindisplaypro-light.ttf');
+}
+@font-face {
+    font-family: 'PFDinTextCondProBold';
+    src: url('../fonts/PFDinTextCondPro-Bold.ttf');
+}
+@font-face {
+    font-family: 'SFSpeedwaystar';
+    src: url('../fonts/sfspeedwaystar/SF Speedwaystar.ttf');
+}
+a{
+    text-decoration: none;
+}
+.icon-down{
+    width: 9px;
+    height: 5px;
+    background: url('../images/icons/9x5/down.png');
+}
+.icon-down-lg{
+    width: 18px;
+    height: 11px;
+    background: url('../images/icons/18x11/down-lg.png');
+}
+.icon-search{
+    width: 14px;
+    height: 14px;
+    background: url('../images/icons/14x14/search.png');
+}
+.icon-off, .icon-star{
+    width: 16px;
+    height: 17px;
+}
+.icon-fb, .icon-rss, .icon-tw{
+    width: 16px;
+    height: 16px;
+}
+.icon-prev, .icon-next{
+    width: 11px;
+    height: 18px;
+}
+.icon-off{background: url('../images/icons/16x17/off.png');}
+.icon-star{background: url('../images/icons/16x17/star.png');}
+.icon-fb{background: url('../images/icons/16x16/fb.png');}
+.icon-rss{background: url('../images/icons/16x16/rss.png');}
+.icon-tw{background: url('../images/icons/16x16/tw.png');}
+.icon-prev{background: url('../images/icons/11x18/prev.png');}
+.icon-next{background: url('../images/icons/11x18/next.png');}
+body{
+    background: url('../images/bg.png')no-repeat;
+    background-size: cover;
+}
+.pull {
+    margin: 0px 1px 32px 0px;
+}
+.logo{
+    margin: 14px 41px 0px 0px;
+}
+.logo b{
+    text-shadow: 0.5px 0.9px 2px rgba(0, 0, 0, 0.22);
+    color: white;
+
+    font: 80px/46px "SFSpeedwaystar";
+    text-transform: uppercase;
+    margin: 0px 0px 15px 0px;
+}
+.logo small{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #bcbcbc;
+    font: italic 12px "Arial";
+}
+.btn-pull{
+    width:30px;
+    height: 28px;
+    background: url('../images/flag.png');
+    padding: 0px 0px 4px 0px;
+}
+.lwrap{
+    max-width: 870px;
+    padding: 0px 9px 104px 10px;
+}
+header{
+    padding: 0px 35px 24px 32px;
+}
+.pull em{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #bcbcbc;
+    font: italic 12px "Arial";
+    padding: 2px 12px 0px 0px;
+}
+.nav-wrap{
+    flex-wrap: wrap;
+}
+.nav{
+    flex-wrap: wrap;
+}
+a.btn-nav{
+    height: 11px;    
+    padding: 2px 13px 2px 5px;
+    border-right: 1px solid #bababa;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #767676;
+    font: 14px/12px "PFDinDisplayProBold";
+    text-transform: uppercase;
+}
+.nav a.btn-nav{
+    margin: 0px 14px 0px 0px;
+}
+.nav a.btn-nav.active, .nav a.btn-nav:hover{
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
+    color: #f6f6f6;
+    border-radius: 3px;
+    height: 23px;
+    border-right: 1px solid transparent;
+    background:url('../images/grid.png'), linear-gradient(to top, #468899 0%, #4fa0b5 100%);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.nav a.btn-nav i{
+    margin: 0px 0px 0px 5px;
+}
+.nav-add a.btn-nav i{
+    margin: 0px 0px 0px 4px;
+}
+.nav-add{
+    flex-wrap: wrap;
+    margin: 15px 0px 0px 0px;
+}
+.nav-add a.btn-nav{
+    color: #478c9d;
+    padding: 2px 7px 3px 8px;
+    height: 25px;
+    margin: 2px 10px 2px 0px;
+    border: 1px solid transparent;
+}
+.nav-add a.btn-nav.active, .nav-add a.btn-nav:hover{
+    color: #797979;
+    border-radius: 3px;
+    border: 1px solid #c2c2c2;
+}
+.nav a.btn-nav.active .icon-down, .nav a.btn-nav:hover .icon-down{
+    background: url('../images/icons/9x5/down-active.png')
+}
+.title{
+    margin: 13px 0px 0px 0px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    font: 28px/36px "PFDinDisplayProBold";
+    padding: 1px 11px 3px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background:url('../images/grid.png'), linear-gradient(to top, #468899 0%, #4fa0b5 100%);
+    display: inline-block;
+}
+.search{
+    width: 205px;
+    height: 24px;
+    background-color: white;
+margin: 10px 0px 10px 0px;
+    padding: 0px 8px 0px 12px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 1, 0.28);
+    border-radius: 10px;
+}
+.search input{
+    width: 90%;
+    border:none;
+    color: #bcbcbc;
+    font-style: italic;
+    font-size: 12px;
+    font-family: "Arial";
+}
+.search input::-webkit-input-placeholder {
+    color: #bcbcbc;
+    font-style: italic;
+    font-size: 12px;
+    font-family: "Arial";
+}
+.search input::-moz-placeholder {
+    opacity:1;
+    color: #bcbcbc;
+    font-style: italic;
+    font-size: 12px;
+    font-family: "Arial";
+}
+.search input:-ms-input-placeholder {
+    color: #bcbcbc;
+    font-style: italic;
+    font-size: 12px;
+    font-family: "Arial";
+}
+.complicated-grid{
+    border-radius: 3px;
+    position:relative;
+    margin: 0px 0px 16px 0px;
+}
+.header-wrap, .header-wrap > div{
+    flex-wrap: wrap;
+}
+.rating-wrap{
+    border-top: 1px solid rgba(0,0,0,.2);
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 7px 0px 7px 0px; 
+    position: relative;    
+    margin: 9px 12px 0px 30px;
+}
+.own-rating{
+    border-left: 1px solid rgba(0,0,0,.2);
+    border-right: 1px solid rgba(0,0,0,.2);   
+    margin: 0px -10px;
+    padding: 0px 0px 6px 0px;
+}
+.arc {
+    border: 1px solid rgba(0,0,0,.2);
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.arc.tl{
+    top: -12px;
+    left: -21px;
+    transform: rotate(50deg);
+}
+.arc.tr{
+    top: -12px;
+    right: -22px;
+    transform: rotate(135deg);
+}
+.arc.bl{
+    bottom: -12px;
+    left: -22px;
+    transform: rotate(-45deg);
+}
+.arc.br{
+    bottom: -12px;
+    right: -21px;
+    transform: rotate(-135deg);
+}
+.rating{
+    margin: 0px 13px 8px 9px;
+    border-bottom: 1px solid rgba(0,0,0,.2);    
+    padding: 0px 0px 3px 0px;
+}
+.rating b{
+    color: #448697;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    font: 27px "PFDinDisplayProBold";
+    text-transform: uppercase;
+}
+.rating i{
+    margin: 0px 6px 7px 3px;
+}
+.rating + span{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #acacac;
+
+    font: 10px/11px "PFDinDisplayProBold";
+    text-transform: uppercase;
+}
+.rating small{
+    color: #acacac;   
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+
+    font: 15px/25px "PFDinDisplayProBold";
+    text-transform: uppercase;
+    padding: 0px 4px 0px 0px;
+}
+.year{
+    text-align: center;
+    width: 79%;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #acacac;
+    font: 15px "PFDinDisplayProBold";
+    text-transform: uppercase;
+    position: relative;
+}
+.year:after, .year:before{
+    content: "";
+    width: 20px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,0,.2);
+    top: 50%;
+}
+.year:after{
+    right: 0px;
+}
+.year:before{
+    left: 0px;
+}
+.btn-slide{
+    width: 33px;
+    height: 37px;
+    background-color: #efefef;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    margin: 0px 0px 17px 0px;
+}
+.btn-slide.prev{
+    border-radius: 20px 0px 0px 20px;
+}
+.btn-slide{
+    border-radius: 0px 20px 20px 0px;
+}
+.insert-wrap, .actions{
+    position: relative;
+}
+.insert-wrap p, .insert p, .insert-wrap > div, .actions > ul{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;  
+    overflow: hidden;
+}
+.insert-wrap p, .insert p{
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.18);
+    color: #e0e0e0;
+    font: 9px/15px "Arial";
+    text-transform: uppercase;
+    text-overflow: ellipsis;    
+}
+.actions ul li{
+    padding: 11px 0px 10px 0px;
+    border-bottom: 1px solid #414141;
+}
+.actions ul li:last-child{
+    border-bottom: none;
+}
+.actions ul li span{
+    color: #757575;
+font: 9px "Arial";
+text-transform: uppercase;
+}
+.actions ul li a{
+    font-family: PFDinDisplayPro;
+font: 14px "PFDinDisplayProBold";
+text-transform: uppercase;
+color: #ccc;
+}
+.actions ul li a:hover{
+color: #4f9eb2;
+}
+.actions > ul{
+    padding: 5px 16px 10px 18px;
+    max-width: 190px;
+    max-height: 130px;
+}
+.insert p{
+    max-width: 255px;
+    max-height: 130px;
+    padding: 29px 30px 20px 33px;
+    letter-spacing: 0.01em;
+}
+.insert-wrap p{
+    max-width: 130px;
+    max-height: 130px;
+    padding: 20px 12px 10px 16px;
+    letter-spacing: 0.015em;
+}
+.insert-wrap h2{
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    font: 28px/29px "PFDinDisplayProBold";
+    text-transform: uppercase;
+    margin: 0px 0px 1px 0px;
+}
+.insert-wrap span{
+    text-shadow: 0.5px 0.9px 0 rgba(8, 8, 8, 0.26);
+    color: white;
+    font: 9px/13px "Arial";
+    text-transform: uppercase;
+    letter-spacing: 0.59em;
+    margin: 0px 0px 3px 4px;
+}
+.insert{
+    position: absolute;
+    width: 33.1%;
+    left: 41.7%;
+}
+figure{
+    margin: 1px;
+}
+.tabs figure{
+    margin: 3px 3px 5px 3px;
+}
+figure img{
+    width: 100%;
+}
+.rate{
+    margin: 0px 0px 49px 36px;
+}
+.rate span{
+    color: #767676;
+    text-transform: uppercase;
+    font: 15px "PFDinDisplayProBold";
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    letter-spacing: -0.04em;
+    padding:  0px 8px 0px 0px;
+}
+.tabs.accordion > ._content > .active {
+    left: 36px;
+}
+.tabs ._nav > a {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.tabs ._nav > a:first-child {
+    border-top: none;
+}
+.tabs ._nav > a:last-child {
+    border-bottom: none;
+}
+.tabs a span{
+    min-width: 102px;
+    color: #767676;
+    padding: 0px 0px 4px 0px;
+    text-transform: uppercase;
+    font: 21px/21px "PFDinDisplayProBold";
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+}
+.tabs a small{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #a7a7a7;
+    font: 9px/40px "Arial";
+    text-transform: uppercase;
+}
+.tabs a small i{ 
+    margin: 6px 3px 0px 17px;
+}
+footer{
+    background-color: #fff;
+}
+.figure-wrap{
+    flex-wrap: wrap;
+    min-width: 50%;
+}
+.footer > div{
+    flex: 1;
+}
+.posts{
+    min-width: 250px;
+    padding: 0px 20px 0px 0px;
+}
+.copyright{
+    max-width: 190px;
+    margin: 0px 50px 25px 0px;
+}
+.footer .logo{
+    margin: 4px -4px 33px 0px;    
+}
+.footer .logo b{
+    color: #dfdfdf;
+    box-shadow: none;
+
+    font: 78px/46px "SFSpeedwaystar";
+}
+.footer{
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 950px;
+    padding: 49px 18px 30px 52px;
+}
+.posts h6{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #898989;
+    font: 10px/12px "Arial";
+    text-transform: uppercase;
+    margin: 0px 0px 13px 0px;
+}
+.posts p{
+    margin: 0px 0px 3px 0px;
+}
+.posts p a{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #3d3d3d;
+    font: 700 12px/18px "Arial";
+}
+.posts a, .posts time{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    font: italic 11px "Georgia";
+    color: #919191;
+}
+.posts a:hover{
+    text-decoration: underline;
+}
+.posts > div{
+    margin: 0px 42px 16px 0px;
+    padding: 0px 0px 11px 0px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.copyright span{
+    padding: 14px 0px 6px 0px;
+    border-top: 1px solid #f2f2f2;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    font: italic 11px/18px "Georgia";
+    text-align: right;
+    color: #a7a7a7;
+    letter-spacing: -0.001em;
+}
+.social a{
+    margin: 4px 2px 2px 3px;
+}
+.posts > .social{
+    border-bottom: none;
+}
+.copyright span a{
+    color: #478c9d;
+}
+@media (max-width: 860px) {
+    .insert-wrap p, .insert p, .actions > ul {
+    padding: 5px;
+}
+.actions ul li {
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #414141;
+}
+.insert-wrap h2 {
+    font: 20px/22px "PFDinDisplayProBold";
+}
+.insert-wrap span {
+    letter-spacing: 0em;
+}
+}
+@media (max-width: 670px) {
+    a.btn-nav {
+    height: 23px;
+}
+.rate {
+    margin: 0px 0px 49px 0px;
+}
+.tabs.accordion {
+    padding: 0px;
+}
+.insert {
+    position: absolute;
+    width: 49.2%;
+    left: 33.6%;
+    height: 11%;
+}
+.insert img{
+    height: 100%;
+}
+    .complicated-grid{        
+        align-items: center;
+    }
+    .lwrap {
+        padding: 0px 10px;
+    }
+    .complicated-grid > div{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .complicated-grid > div > div{
+        width: 100%;
+    } 
+}
+@media (max-width: 370px) {
+    .btn-slide {
+    width: 20px;
+}
+.lwrap {
+    padding: 0px 10px 0px 1px;
+}
+}

@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'Reklame Script Regular Demo';
+    src: url('../fonts/Reklame-Script-Regular-Demo.otf');
+}
+@font-face {
+    font-family: 'Lato Black';
+    src: url('../fonts/Lato-Black.ttf');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+a{
+    text-decoration: none;
+}
+.icon-logo{
+    width: 39px;
+    height: 33px;
+    background: url('../images/icons/logo.png');
+}
+.icon-fill{
+    width: 9px;
+    height: 13px;
+    background: url('../images/icons/fill.png');
+}
+.icon-phone{
+    width: 10px;
+    height: 11px;
+    background: url('../images/icons/phone.png');
+}
+.icon-db, .icon-fb, .icon-pin, .icon-rss, .icon-tw{
+    width: 12px;
+    height: 12px;
+}
+.icon-android, .icon-camera, .icon-screen, .icon-watch{
+    width: 62px;
+    height: 65px;
+}
+.icon-db{background: url('../images/icons/12x12/db.png');}
+.icon-fb{background: url('../images/icons/12x12/fb.png');}
+.icon-pin{background: url('../images/icons/12x12/pin.png');}
+.icon-rss{background: url('../images/icons/12x12/rss.png');}
+.icon-tw{background: url('../images/icons/12x12/tw.png');}
+.icon-android{background: url('../images/icons/62x65/android.png');}
+.icon-camera{background: url('../images/icons/62x65/camera.png');}
+.icon-screen{background: url('../images/icons/62x65/screen.png');}
+.icon-watch{background: url('../images/icons/62x65/watch.png');}
+.lwrap{
+    max-width: 1130px;
+    padding: 0px 10px;
+}
+header{
+    background-color: #262626;
+}
+header .lwrap{
+    min-height: 100px;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+.tabs figure{
+    width: 25%;
+}
+.grid{
+    flex-wrap:wrap;
+}
+.logo{
+    color: #d9d9d9;
+    font: 28px 'Reklame Script Regular Demo';
+    letter-spacing: 0.025em;
+}
+.logo i{
+    margin: 6px 3px 0px 0px;
+}
+.nav{
+    flex-wrap: wrap;
+}
+.nav a{
+    font: 900 13px "Lato";
+    color: #d9d9d9;
+    text-transform: uppercase;
+    margin: 2px 26px;
+    letter-spacing: 0.015em;
+}
+.nav a:last-child{
+     margin: 2px 0px 2px 26px;
+}
+.nav a.active, .nav a:hover{
+    color: #ff6760;
+}
+.slider{
+    background-color: #2a2a2a;
+}
+.slider h1, .slider p{
+    text-align: center;
+    color: #d9d9d9;
+}
+.slider h1{
+    font: 300 60px "Lato";
+    margin: 0px 0px 17px 0px;
+    letter-spacing: 0.033em;
+}
+.slider p{
+    font: 300 40px/50px "Lato";
+    margin: 0px 0px 51px 0px;
+    max-width: 1100px;
+    letter-spacing: 0.026em;
+}
+.slider h1 span{
+    font: 900 60px "Lato";
+}
+.slider p span{
+    font:italic 300 40px "Lato";
+}
+.slider .lwrap{
+    padding: 46px 10px 60px 10px;
+}
+.slider .btn-default{
+    min-width: 198px;
+    min-height: 50px;
+    font: 900 14px/16px "Lato";
+    letter-spacing: 0.025em;
+}
+a.btn-default{
+    min-width: 60px;
+    min-height: 35px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font: 900 13px/15px "Lato Black";
+    color: white;
+    background-color: #ff6760;
+    padding: 2px 17px;
+    letter-spacing: 0.015em;
+}
+a.btn-default.active, a.btn-default:hover{
+    background-color: #595959;
+}
+.services{
+    background-color: #f8f8f8;
+}
+.services .lwrap article{
+    flex: 1;
+    min-width: 156px;
+    max-width: 350px;
+    margin: 5px 26px 20px 26px;
+}
+.services .lwrap{
+    padding: 82px 32px 70px 10px;
+    max-width: 1192px;
+}
+.services h3{
+    color: #616161;
+    text-align: center;
+    font: 900 18px "Lato Black";
+    margin: 24px 0px 9px 0px;
+    letter-spacing: 0.025em;
+}
+.services p{
+    color: #616161;
+    text-align: center;
+    font: 14px/24px "Lato";
+    letter-spacing: 0.025em;
+}
+.works h2{
+    text-align: center;
+    color: #616161;
+    font: 900 30px "Lato Black";
+    margin: 0px 0px 15px 0px;
+    letter-spacing: 0.025em;
+}
+.works p{
+    font: 300 20px "Lato";
+    text-align: center;
+    color: #616161;
+    margin: 0px 0px 54px 0px;
+    letter-spacing: 0.025em;
+}
+.works .lwrap{
+    padding: 53px 10px 75px 10px;
+}
+._nav{
+    margin: 0px 0px 18px 0px;
+}
+._nav a{
+    margin: 2px 3px 2px 3px;
+}
+.tabs figure{
+    margin: 5px 5px 5px 5px;
+    max-width: 270px;
+    min-width: 200px;
+}
+.tabs .grid{
+    margin: 0px -5px 0px -5px;
+}
+figure img{
+    width: 100%;
+}
+footer{
+    background-color: #313131;
+}
+.copyright{
+    min-height: 82px;
+    background-color: #2c2c2c;
+    padding: 10px 10px 12px 10px;
+}
+footer span{
+    color: #bebebe;
+    font: 14px/24px "Lato";
+    padding: 0px 26px 0px 10px;
+    letter-spacing: 0.02em;
+}
+footer span i{
+    margin: 0px 7px 0px 0px;
+}
+footer .lwrap{
+    padding: 53px 10px 58px 10px;
+}
+footer .lwrap > div{
+    flex-wrap: wrap;
+}
+footer h2{
+    text-align: center;
+    color: #e0e0e0;
+    font: 900 30px "Lato Black";
+    margin: 0px 0px 14px 0px;
+    letter-spacing: 0.025em;
+}
+footer p{
+     font: 300 20px "Lato";
+     text-align: center;
+     color: #bebebe;
+     margin: 0px 0px 20px 0px;
+     letter-spacing: 0.025em;
+}
+.social .btn{
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    margin: 2px 3px 2px 4px;
+}
+.btn-rss{
+    background-color: #f3b25b;
+}
+.btn-fb{
+    background-color: #5883c0;
+}
+.btn-tw{
+    background-color: #63bee0;
+}
+.btn-db{
+    background-color: #e9a0c4;
+}
+.btn-pin{
+    background-color: #d35051;
+}
+.social {
+    flex-wrap: wrap;
+    padding: 23px 0px 0px 0px;
+}
+.copyright span{
+    padding: 0px;
+}
+@media (max-width: 1106px) {
+    
+}
+@media (max-width: 900px) {
+    .services .lwrap {
+    justify-content: space-around;
+}
+.services .lwrap article {
+    margin: 5px 10px 20px 10px;
+}
+.services .lwrap {
+    padding: 82px 10px 70px 10px;
+}
+}
