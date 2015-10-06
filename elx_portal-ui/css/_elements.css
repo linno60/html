@@ -1,0 +1,168 @@
+a.btn-topbar{
+    min-width: 98px;
+    min-height: 32px;
+    background-color: white;
+    border-radius: 5px;
+    color: #6d6e71;
+    font: 700 12px OpenSans;
+    padding: 2px 8px 2px 8px;
+}
+.btn-anchor{
+    width: 98px;
+    height: 98px;
+    background-color: white;
+    border-radius: 50%;
+}
+.tabs ._nav > a{
+    min-width: 122px;
+    min-height: 45px;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    color: #bbb;
+    font: 700 15px OpenSans;
+    margin: 7px;
+}
+.tabs ._nav > a.active, .tabs ._nav > a:active, .tabs ._nav > a:hover, .tabs ._nav > a:focus{
+    color: #6d6e71;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+.btn-contactlg{
+    width: 63px;
+    height: 63px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 0.13);
+}
+.btn-contactlg.active, .btn-contactlg:active, .btn-contactlg:hover, .btn-contactlg:focus{
+    background-color: #1fa9e0;
+    border: 1px solid #1fa9e0;
+}
+.btn-contactlg.active .icon-phonelg, .btn-contactlg:active .icon-phonelg, .btn-contactlg:hover .icon-phonelg, .btn-contactlg:focus .icon-phonelg{
+    background: url('/images/icons/phonelg-hover.png');
+}
+.btn-contactlg.active .icon-pointlg, .btn-contactlg:active .icon-pointlg, .btn-contactlg:hover .icon-pointlg, .btn-contactlg:focus .icon-pointlg{
+    background: url('/images/icons/pointlg-hover.png');
+}
+.btn-contactlg.active .icon-letterlg, .btn-contactlg:active .icon-letterlg, .btn-contactlg:hover .icon-letterlg, .btn-contactlg:focus .icon-letterlg{
+    background: url('/images/icons/letterlg-hover.png');
+}
+.btn-submit{
+    min-width: 77px;
+    height: 45px;
+    background-color: #494c4d;
+    border-radius: 10px;
+    color: #6d6e71;
+    font: 700 14px OpenSans;
+}
+.links-socialheader{
+    border-left: 1px solid #dee0e6;
+}
+.links-socialheader a{
+    border-right: 1px solid #dee0e6;
+    height: 63px;
+    width: 64px;
+}
+.links-socialfooter{
+    border-left: 1px solid #3c3e3f;
+}
+.links-socialfooter a{
+    border-right: 1px solid #3c3e3f;
+    height: 63px;
+    width: 64px;
+}
+.links-socialteam a{
+    margin: 5px 10px 5px 10px;
+}
+.links-nav a{
+    color: #6d6e71;
+    font: 700 13px OpenSans;
+    min-height: 86px;
+    padding: 10px 25px 10px 25px;
+    border-left: 1px solid #eceef4;
+}
+.links-nav a:first-child{
+    border-left: none;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #1faae2;
+    background: url(/images/icons/active.png)no-repeat center bottom;
+}
+.links-footer{
+    align-items: flex-end;
+}
+.links-footer i{
+    margin: 0px 8px 3px 8px;
+}
+.links-footer a:active, .links-footer a:hover, .links a:focus{
+    text-decoration: underline;
+}
+.links-footer a{
+    color: #6d6e71;
+    font: 300 13px OpenSans;
+}
+input[type="search"]{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    width: 190px;
+    border: none;
+    background: none;
+    padding: 0px 5px;
+}
+input[type="search"]::-webkit-input-placeholder{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+input[type="search"]::-moz-placeholder{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+input[type="search"]:-ms-input-placeholder{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+input[type="email"]{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    width: 260px;
+    border: none;
+    background: none;
+    padding: 0px 5px;
+}
+input[type="email"]::-webkit-input-placeholder{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+}
+input[type="email"]::-moz-placeholder{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+}
+input[type="email"]:-ms-input-placeholder{
+    color: #6d6e71;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+}
