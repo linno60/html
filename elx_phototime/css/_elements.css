@@ -10,21 +10,21 @@
 }
 .btn-download{
     width: 300px;
-height: 56px;
-background-color: #1abc9c;
-padding: 0px 0px 0px 20px;
- font: 700 16px "GothamRounded";
+    height: 56px;
+    background-color: #1abc9c;
+    padding: 0px 0px 0px 20px;
+    font: 700 16px "GothamRounded";
     color: #fff;
-     text-transform: uppercase;
-     border-radius: 3px;
-     justify-content: space-between;
+    text-transform: uppercase;
+    border-radius: 3px;
+    justify-content: space-between;
 }
 .btn-download .lbl{
     content:"";
     width: 56px;
-height: 56px;
-border-radius: 0px 3px 3px 0px;
-background-color: #16a085;
+    height: 56px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #16a085;
 }
 .links-nav{
     align-items: center;

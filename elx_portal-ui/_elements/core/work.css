@@ -129,7 +129,7 @@ pre {
     border-radius: inherit;
     font: inherit;
 }
-#_tab-fonts input[type=url] {width: 1020px; margin-left: 20px;}
+#_tab-fonts input[type=url] {width: 1015px; margin-left: 20px;}
 #_tab-fonts form ._row {margin-bottom: 10px;}
 
 ._tabs > div > a[href='#_tab-js'] {margin-right: 30px;}
