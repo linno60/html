@@ -16,9 +16,9 @@ a.btn-default{
     color: white;
     font: 700 14px "Quicksand";
     text-transform: uppercase;
+    margin: 0px 3px 3px 3px
 }
-.links-footer span{
-    padding: 0px 3px;
+.links-footer{
     color: #aa9b77;
     font: 14px "Quicksand";
 }
