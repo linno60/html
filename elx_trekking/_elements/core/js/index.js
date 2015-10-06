@@ -1,7 +1,10 @@
 (function ($) {
  
      // Prevent actions from buttons
-    $('.btn, button, .links > a, .hlinks > a').on('click', function(e){e.preventDefault();});
+    $('[id^=_tab-] > div button, [id^=_tab-] > div a').on('click', function(e){
+        if ($('#_edit_mode').prop('checked') === true)
+            e.preventDefault(); 
+    });
 
     // Init tooltips with delay (because some plugins using 'click' event too
     setTimeout(function(){_H_Tooltips.init()}, 100);

@@ -1,11 +1,5 @@
-.links-nav a{
-    font: 16px "Gotham Rounded Medium";
-    color: #fff;
-    text-transform: uppercase;
-    margin: 5px 20px 5px 20px;
-}
 .btn-default{
-    font: 12px "Gotham Rounded Book";
+    font: 700 12px "GothamRounded";
     color: #fff;
     text-transform: uppercase;
     min-width: 166px;
@@ -14,20 +8,49 @@
     border-radius: 3px;
     padding: 2px 5px;
 }
-.title{
-    color: #16a085;
+.btn-download{
+    width: 300px;
+height: 56px;
+background-color: #1abc9c;
+padding: 0px 0px 0px 20px;
+ font: 700 16px "GothamRounded";
+    color: #fff;
+     text-transform: uppercase;
+     border-radius: 3px;
+     justify-content: space-between;
+}
+.btn-download .lbl{
+    content:"";
+    width: 56px;
+height: 56px;
+border-radius: 0px 3px 3px 0px;
+background-color: #16a085;
+}
+.links-nav{
+    align-items: center;
+}
+.links-social{
+    align-items: center;
+}
+.links-social a{
+    margin: 0px 5px 5px 5px;
+}
+.links-nav a{
+    font: 700 16px "GothamRounded";
+    color: #fff;
     text-transform: uppercase;
-    font: 18px "Gotham Rounded Medium";
+    margin: 5px 20px 5px 20px;
 }
 .links-footer a{
     text-transform: uppercase;
     color: #373737;
-    font: 14px "Gotham Rounded Medium";
+    font: 700 14px "GothamRounded";
+    margin: 3px 3px 3px 3px;
 }
-.links-footer span{
+.links-footer{
+    align-items: center;
     color: #16a085;
-    padding: 0px 5px 0px 5px;
-    font: 14px "Gotham Rounded Medium";
+    font: 700 14px "GothamRounded";
 }
 .btn-check{
     width: 63px;
@@ -44,40 +67,29 @@ input[type="email"]{
     padding: 0px 20px 0px 20px;
     text-transform: uppercase;
     color: #373737;
-    font-family: "Gotham Rounded Book";
+    font-family: "GothamRounded";
     font-size: 16px;
+    font-weight: 500;
 }
 input[type="email"]::-webkit-input-placeholder{
     text-transform: uppercase;
     color: #373737;
-    font-family: "Gotham Rounded Book";
+    font-family: "GothamRounded";
     font-size: 16px;
+    font-weight: 500;
 }
 input[type="email"]::-moz-placeholder{
     text-transform: uppercase;
     color: #373737;
-    font-family: "Gotham Rounded Book";
+    font-family: "GothamRounded";
     font-size: 16px;
+    font-weight: 500;
 }
 input[type="email"]:-ms-input-placeholder{
     text-transform: uppercase;
     color: #373737;
-    font-family: "Gotham Rounded Book";
+    font-family: "GothamRounded";
     font-size: 16px;
+    font-weight: 500;
 }
-.btn-download{
-    width: 300px;
-height: 56px;
-background-color: #1abc9c;
-padding: 0px 0px 0px 20px;
- font: 16px "Gotham Rounded Book";
-    color: #fff;
-     text-transform: uppercase;
-     border-radius: 3px;
-}
-.btn-download .lbl{
-    width: 56px;
-height: 56px;
-border-radius: 0px 3px 3px 0px;
-background-color: #16a085;
-}
+

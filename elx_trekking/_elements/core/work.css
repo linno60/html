@@ -19,6 +19,7 @@ h {
 ._hdr {width: 1280px; margin: 0 auto; height: 50px;}
 ._hdr label {color: white; margin-right: 5px; font-size: 14px;}
 ._hdr label:hover {text-decoration: underline;}
+._hdr input[type=checkbox] {width: auto; height: auto;}
 
 /* TABS */
 ._tabs {
@@ -116,10 +117,18 @@ pre {
     white-space: pre;
 }
 
-#_tab-fonts ::-webkit-input-placeholder {color: lightgray; text-transform: uppercase;}
-#_tab-fonts ::-moz-placeholder {color: lightgray; text-transform: uppercase;}
-#_tab-fonts :-ms-input-placeholder {color: lightgray; text-transform: uppercase;}
-#_tab-fonts input {padding: 5px;}
+#_tab-fonts ::-webkit-input-placeholder {color: lightgray; text-transform: uppercase; font: inherit;}
+#_tab-fonts ::-moz-placeholder {color: lightgray; text-transform: uppercase; font: inherit;}
+#_tab-fonts :-ms-input-placeholder {color: lightgray; text-transform: uppercase; font: inherit;}
+#_tab-fonts input {
+    padding: 5px;
+    width: inherit;
+    height: inherit;
+    font: inherit;
+    border: inherit;
+    border-radius: inherit;
+    font: inherit;
+}
 #_tab-fonts input[type=url] {width: 1020px; margin-left: 20px;}
 #_tab-fonts form ._row {margin-bottom: 10px;}
 
