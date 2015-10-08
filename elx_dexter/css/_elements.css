@@ -1,0 +1,31 @@
+a.btn-default{
+    min-width: 200px;
+    min-height: 60px;
+    background-color: #49b9e6;
+    border-radius: 5px;
+    color: white;
+    font: 700 18px Asap;
+    padding: 5px 10px;
+}
+blockquote{
+    max-width: 490px;
+}
+blockquote q{
+    display: inline-block;
+    color: rgba(0,0,0,.6);
+    font: italic 18px/30px Asap;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 0px 0px 15px 0px;
+}
+blockquote cite{
+    color: #00a3e4;
+    padding: 0px 0px 0px 30px;
+    font: 18px Asap;
+}
+.more{
+    color: #00a3e4;
+    font: 18px Asap;
+    text-decoration: none;
+}

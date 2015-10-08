@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'NovecentoWide';
+    src: url('/fonts/Novecento/Novecento Normal.otf');
+}
+@font-face {
+    font-family: 'NovecentoLight';
+    src: url('/fonts/Novecento/Novecento Light.otf');
+}
+@font-face {
+    font-family: 'HelveticaCE';
+    src: url('/fonts/Helvetica-CE-Regular.ttf');
+}
+@font-face {
+    font-family: 'HelveticaNarrow';
+    src: url('/fonts/Helvetica Narrow CE Regular.ttf');
+}
+@font-face {
+    font-family: 'HelveticaNeueLT';
+    src: url('/fonts/HelveticaNeueLT.otf');
+}
+@font-face {
+    font-family: 'Swiss721BTThin';
+    src: url('/fonts/Swiss 721 Thin.ttf');
+}
+@font-face {
+    font-family: 'Swiss721BTExtended';
+    src: url('/fonts/Swiss 721 Extended.ttf');
+}
+@font-face {
+    font-family: 'Swiss721BTBold';
+    src: url('/fonts/Swiss 721 Bold.ttf');
+}
+@font-face {
+    font-family: 'InterstateCondMono';
+    src: url('/fonts/Interstate Cond Mono/Interstate-Cond-Mono.ttf');
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('/fonts/MyriadPro/MyriadPro-Regular.otf');
+}

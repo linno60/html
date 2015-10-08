@@ -1,0 +1,115 @@
+.links-nav{
+    max-width: 568px;
+    width: 100%;
+    min-height: 40px;
+    background-image: linear-gradient(to top, #717171 0%, #bebebe 100%);
+    box-shadow: 0 2px 3px black, inset 0 1px 2px white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    align-items: center;
+}
+.links-nav a{
+    color: #000;
+    font: 12px "Trebuchet MS";
+    text-transform: uppercase;
+    margin: 5px 22px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #fff;
+}
+.links-footer a.active, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-footer a{
+    color: #9e9e9e;
+    font: 13px/24px "Trebuchet MS";
+}
+.links-social{
+    flex-wrap: wrap;
+    max-width: 90px;
+}
+.links-social a:first-child, .links-social a:last-child{
+    margin: 4px;
+}
+.links-social a{
+    width: 34px;
+    height: 34px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 1px 0 #434343, inset 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+a.btn-default{
+    min-width: 89px;
+    min-height: 30px;
+    border: 3px solid #000;
+    box-shadow: 0 0 0 2px rgba(130,130,130,.1), inset 0 1px 1px #fff;
+    background-image: linear-gradient(to top, #5f5f5f, #939393);
+    border-radius: 22px;
+    color: #1b1b1b;
+    font: 600 13px "Trebuchet MS";
+    text-shadow: 0 1px 0 #959595;
+    padding: 2px 5px;
+}
+a.btn-slider{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background-image: linear-gradient(to top, #717171 0%, #bebebe 100%);
+    box-shadow: 0 2px 2px black, inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+a.btn-browse{
+    min-width: 312px;
+    min-height: 55px;
+    border: 10px solid #000;
+    border-radius: 40px;
+    color: #151515;
+    font: 600 25px MyriadProSemibold;
+    text-shadow: 0 1px 0 #f5eed2;
+    box-shadow: 0 0 0 1px rgba(130,130,130,.1), inset 0 2px 2px #fff;
+    background-image: linear-gradient(to top, #ddc245, #d5d5d5);
+}
+a.btn-browse span{
+    width: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    border-radius: 0 30px 30px 0;
+    box-shadow: inset 0 2px 2px #fff;
+    background-image: linear-gradient(to top, #717171, #bdbdbd);
+}
+input[type="text"], input[type="email"], textarea{    
+    width: 100%;
+    max-width: 290px;
+    border: 1px solid black;
+    box-shadow: 0 1px 0 #2d2d2d;
+    background-color: #031000;
+    margin: 0px 0px 10px 0px;
+    color: #494949;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}
+input[type="text"], input[type="email"]{
+    height: 21px;
+    padding: 0px 8px;
+}
+textarea{    
+    height: 68px;
+    padding: 8px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #494949;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #494949;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #494949;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}

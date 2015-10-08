@@ -1,0 +1,31 @@
+.links-nav a{
+    color: white;
+    font: 600 13px ProximaNova;
+    text-transform: uppercase;
+    margin: 5px 14px;
+}
+.links-nav{
+    align-items: center;
+}
+.btn-default{
+    min-width: 149px;
+    min-height: 50px;
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    font: 600 14px ProximaNova;
+    text-transform: uppercase;
+}
+.links-social{
+    align-items: center;
+}
+.links-social a{
+    margin: 5px 14px;
+}
+.links-footer a{
+    color: #c9c9c9;
+    font: 14px/30px ProximaNova;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}

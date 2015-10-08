@@ -1,0 +1,94 @@
+.links-nav a{
+    color: #777;
+font: 14px Montserrat;
+text-transform: uppercase;
+margin: 5px 18px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #222;
+}
+a.btn-default{
+    width: 168px;
+    padding: 5px 10px;
+height: 60px;
+background-color: #7cc576;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+color: white;
+font: 15px Montserrat;
+text-transform: uppercase;
+border-radius: 30px;
+}
+a.btn-default:active, a.btn-default:hover, a.btn-default:focus{
+    color: #222;
+    background-color: #fff;
+}
+a.btn-contact{
+    min-width: 179px;
+min-height: 52px;
+padding: 5px 10px;
+border: 3px solid white;
+border-radius: 4px;
+    color: #fff;
+font: 700 18px Montserrat;
+text-transform: uppercase;
+}
+a.btn-contact:active, a.btn-contact:hover, a.btn-contact:focus{
+    color: #7cc576;
+    background-color: #fff;
+}
+.list.marker li:before{
+    width: 31px;
+height: 31px;
+border: 1px solid #ccc;
+border-radius: 50%;
+background: url(/images/icons/check.png)no-repeat center center;
+}
+.list.marker li{
+    color: #ccc;
+font: 16px/40px RobotoSlab;
+padding: 0px 0px 0px 40px;
+}
+blockquote{
+    background-color: #f9f9f9;
+    padding: 40px;
+    position: relative;
+    max-width: 640px;
+}
+blockquote q, blockquote span{
+    color: #777;
+    font: 22px/28px RobotoSlab;
+}
+blockquote cite{
+    color: #7cc576;
+    font: 18px/36px RobotoSlab;
+    padding: 0px 0px 0px 50px;
+}
+blockquote:after {
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: -20px;
+    border-right: 20px solid #f9f9f9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.links-social a{
+    margin: 4px;
+    width: 40px;
+height: 40px;
+background-color: #222;
+border-radius: 50%;
+}
+.tw:active, .tw:hover, .tw:focus{
+    background-color: #00aced;
+}
+.fb:active, .fb:hover, .fb:focus{
+    background-color: #3b5998;
+}
+.pin:active, .pin:hover, .pin:focus{
+  background-color: #cb2028;
+}
+.gp:active, .gp:hover, .gp:focus{
+    background-color: #da2713;
+}

@@ -1,0 +1,77 @@
+.links-nav a{
+    color: white;
+    font: 14px/24px OpenSans;
+    margin: 10px 25px;
+}
+.links-social a{
+    margin: 9px;
+}
+a.btn-default{
+    width: 88px;
+    height: 33px;
+    background-color: #ea5b58;
+    border-radius: 2px; 
+    color: white;
+    font: 11px OpenSans;
+}
+.tabs > ._nav a{
+    margin: 0px 3px;
+    color: #a7a7a7;
+}
+.tabs > ._nav{
+    color: #323232;
+    font: 14px/24px OpenSans;
+}
+.tabs > ._nav a.active, .tabs > a:active, .tabs > ._nav a:hover, .tabs > ._nav a:focus{
+    color: #323232;
+}
+blockquote q span{
+    color: #323232;
+    font: 60px/50px Perpetua;
+    padding: 0px 10px 0px 0px;
+}
+blockquote q{
+    color: #323232;
+    font: italic 18px/30px OpenSans;
+    margin: 0px 0px 20px 0px;
+}
+blockquote cite{
+    color: #323232;
+    font: 700 24px OpenSans;
+    padding:0px 0px 0px 35px;
+}
+input[type="text"], input[type="email"], textarea{    
+    width: 100%;
+    background-color: #eee;
+    border-radius: 4px;
+    margin: 0px 0px 19px 0px;
+    border: none;
+    color: #747474;
+    font-family: OpenSans;
+    font-size: 18px;
+}
+input[type="text"], input[type="email"]{
+    height: 60px;
+    padding: 0px 20px;
+    max-width: 274px;
+}
+textarea{
+    max-width: 571px;
+    height: 163px;
+    padding: 20px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #747474;
+    font-family: OpenSans;
+    font-size: 18px;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #747474;
+    font-family: OpenSans;
+    font-size: 18px;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #747474;
+    font-family: OpenSans;
+    font-size: 18px;
+}

@@ -1,0 +1,110 @@
+.links-nav a{
+    color: white;
+    font: 16px TitilliumWeb;
+    text-transform: uppercase;
+    min-width: 77px;
+    min-height: 32px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 5px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background-color: #643a79;
+}
+.links-footer a{
+    margin: 10px 27px;color: white;
+    font: 600 24px/30px TitilliumWeb;
+}
+.links-footer a.active, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    color: #30bae7;
+}
+a.btn-default{
+    color: white;
+    font: 600 18px TitilliumWeb;
+    text-transform: uppercase;
+    min-width: 293px;
+    min-height: 70px;
+    padding: 5px 10px;
+    background-color: #eb7d4b;
+    border-radius: 4px;
+    position: relative;
+}
+a.btn-default:before {
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 4px 4px;
+    background-color: rgba(0,0,0,.15);
+}
+.links-social a{
+    width: 32px;
+    height: 32px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    margin: 6px;
+}
+.tabs > ._nav a{
+    width: 84px;
+    height: 38px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    color: #393939;
+    font: 18px TitilliumWeb;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.tabs > ._nav a.active, .tabs > ._nav a:active, .tabs > ._nav a:hover, .tabs > ._nav a:focus{
+    background-color: #fff;
+}
+blockquote q{
+    margin: 0px 0px 15px 0px;
+    color: white;
+    font: 21px/31px TitilliumWebItalic;
+}
+blockquote cite span{
+    color: white;
+    font: 700 24px/26px TitilliumWeb;
+    text-transform: uppercase;
+}
+blockquote cite small{
+    color: #fd9;
+    font: 18px/26px TitilliumWeb;
+}
+input[type="text"], input[type="email"], textarea{    
+    width: 100%;
+    background-color: #273a71;
+    border-radius: 4px;
+    margin: 0px 0px 25px 0px;
+    border: none;
+    color: white;
+    font-family: TitilliumWeb;
+    font-size: 18px;
+}
+input[type="text"], input[type="email"]{
+    height: 56px;
+    padding: 0px 25px;
+    max-width: 414px;
+}
+textarea{
+    max-width: 860px;
+    height: 200px;
+    padding: 25px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: white;
+    font-family: TitilliumWeb;
+    font-size: 18px;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: white;
+    font-family: TitilliumWeb;
+    font-size: 18px;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: white;
+    font-family: TitilliumWeb;
+    font-size: 18px;
+}
