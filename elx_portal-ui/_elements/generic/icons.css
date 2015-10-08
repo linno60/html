@@ -1,6 +1,6 @@
 .icon-active {width: 36px; height: 8px; background: url('/images/icons/active.png');}
+.icon-anchor {width: 42px; height: 24px; background: url('/images/icons/anchor.png');}
 .icon-arabic {width: 20px; height: 20px; background: url('/images/icons/arabic.png');}
-.icon-arrow {width: 40px; height: 40px; background: url('/images/icons/arrow.png');}
 .icon-blog {width: 20px; height: 20px; background: url('/images/icons/blog.png');}
 .icon-chair {width: 96px; height: 72px; background: url('/images/icons/chair.png');}
 .icon-coub {width: 88px; height: 100px; background: url('/images/icons/coub.png');}
@@ -28,6 +28,7 @@
 .icon-projects {width: 140px; height: 152px; background: url('/images/icons/projects.png');}
 .icon-search {width: 28px; height: 28px; background: url('/images/icons/search.png');}
 .icon-setting {width: 88px; height: 88px; background: url('/images/icons/setting.png');}
+.icon-slider {width: 23px; height: 40px; background: url('/images/icons/slider.png');}
 .icon-support {width: 20px; height: 20px; background: url('/images/icons/support.png');}
 .icon-target {width: 132px; height: 116px; background: url('/images/icons/target.png');}
 .icon-tree {width: 96px; height: 116px; background: url('/images/icons/tree.png');}

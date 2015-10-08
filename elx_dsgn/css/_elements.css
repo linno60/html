@@ -1,0 +1,79 @@
+a{
+    text-decoration: none;
+}
+.links-nav a{
+    color: white;
+font: 14px/25px Roboto;
+text-transform: uppercase;
+margin: 0px 34px 0px 34px;
+}
+.links-social {
+    align-items: center;
+}
+.links-social a{
+    margin: 3px 3px 3px 3px;
+}
+.links-socialsm {
+    align-items: center;
+}
+.links-socialsm a{
+    margin: 3px 3px 3px 3px;
+}
+.links-side a{
+    text-transform: uppercase;
+    font: 13px RobotoCondensed;
+    color: #fff;
+}
+.links-side i{
+    margin: 0px 5px 0px 0px;
+    visibility: hidden;
+}
+.links-side a.active, .links-side a:active, .links-side a:hover, .links-side:focus{
+    color: #000;
+}
+.links-side a.active i, .links-side a:active i, .links-side a:hover i, .links-side:focus i{
+    visibility: visible;
+}
+.view{
+    color: #333;
+font: 300 18px/10px RobotoCondensed;
+text-transform: uppercase;
+}
+.view i{
+    margin: 0px 5px 0px 0px;
+}
+.like{
+    max-width: 30px;
+    color: red;
+font: 300 11px RobotoCondensed;
+text-transform: uppercase;
+}
+.like i{
+    margin: 0px 0px 3px 0px;
+}
+.more{
+    color: #fd5000;
+font: 12px RobotoCondensed;
+text-transform: uppercase;
+}
+.cv{
+    color: #fd5000;
+font: 14px RobotoCondensed;
+text-transform: uppercase;
+}
+.cv i{
+    margin: 0px 0px 0px 3px;
+}
+dd, dt{
+    display: block;
+}
+dl dt{
+    color: #333;
+    text-transform:uppercase;
+    font: 700 12px/12px RobotoCondensed;  
+}
+dl dd{
+    color: #333;   
+    text-transform:uppercase;
+    font: 12px/12px RobotoCondensed;
+}

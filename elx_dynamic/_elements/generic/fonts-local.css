@@ -1,0 +1,12 @@
+@font-face {
+    font-family: CoffeeService;
+    src: url('/fonts/CoffeeService.otf');
+}
+@font-face {
+    font-family: HomesteadInline;
+    src: url('/fonts/Homestead-Inline.ttf');
+}
+@font-face {
+    font-family: HomesteadDisplay;
+    src: url('/fonts/Homestead-Display.ttf');
+}

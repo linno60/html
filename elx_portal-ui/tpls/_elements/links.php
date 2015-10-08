@@ -36,7 +36,14 @@
     <a href="#">Policy</a>
 </nav>
 <div class="hlinks links-contacts">
-    <a href="#" class="btn btn-contactsm"><i class="icon-phone1"></i></a>
-<a href="#" class="btn btn-contactsm"><i class="icon-point1"></i></a>
-<a href="#" class="btn btn-contactsm"><i class="icon-letter1"></i></a>
+    <a href="#"><i class="icon-phonesm"></i></a>
+    <span></span>
+    <a href="#"><i class="icon-pointsm"></i></a>
+    <span></span>
+    <a href="#"><i class="icon-lettersm"></i></a>
+</div>
+<div class="hlinks links-map">
+    <a href="#"><i class="icon-phonelg"></i></a>
+    <a href="#"><i class="icon-pointlg"></i></a>
+    <a href="#"><i class="icon-letterlg"></i></a>
 </div>

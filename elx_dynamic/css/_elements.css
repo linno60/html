@@ -1,0 +1,122 @@
+.links-nav{
+    margin: 0px 0px 20px 0px;
+    max-width: 940px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #929292;
+    border-top: 1px solid #c5c5c5;
+    box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.5);
+    background-image: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.5));
+}
+.links-nav:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px; 
+    left: 0;
+    bottom: -20px;
+    background: url('../images/shadow1.png');
+}
+.links-nav .logo{
+    color: #686868;
+    text-transform: lowercase;
+    font: 32px CoffeeService;
+    text-shadow: 0 1px 1px rgba(0,0,0,.75);
+}
+.links-nav a:first-child{
+    border-left: 1px solid #b4b4b4;
+}
+.links-nav a:last-child{
+    border-right: 1px solid #b4b4b4;
+}
+.links-nav a{
+    height: 41px;
+    color: #909090;
+    font: 12px HomesteadInline;
+    text-shadow: 0 1px 0 #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #dedede;
+    text-transform: uppercase;
+    flex: 1;
+}
+.links-nav a.active, .links-nav a:hover, .links-nav a:active, .links-nav a:focus{
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+    background-image: linear-gradient(to top, rgba(255,255,255,.11), rgba(0,0,0,.11));
+}
+.links-controls a{
+    margin: calc(3px/2);
+    width: 11px;
+    height: 11px;
+    border: 1px solid rgba(139,139,139,.52);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.75);
+    background-image: linear-gradient(to top, rgba(0,0,0,.07), rgba(255,255,255,.07));
+}
+.links-controls a.active span, .links-controls a:hover span, .links-controls a:active span, .links-controls a:focus span{
+    width: 9px;
+    height: 9px;
+    border: 1px solid #fff;
+    background-color: #42a0a6;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.26);
+    background-image: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.2));
+}
+.links-footer a{
+    margin: 0px 3px;
+}
+.links-footer, .links-footer a{
+    color: #9e9e9e;
+    font: 11px Arial;
+}
+.links-footer a:hover, .links-footer a:active, .links-footer a:focus{
+    text-decoration: underline;
+}
+.tabs{
+        background-color: rgba(255,255,255,.5);
+        max-width: 940px;
+    padding: 12px 12px 14px 12px;
+    border: 1px solid rgba(131,129,129,.52);
+    box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.5);
+}
+.tabs ._nav > a, .tabs ._nav{
+    font: 14px HomesteadInline;
+    color: #909090;
+    text-transform: uppercase;
+}
+.tabs ._nav > a{
+    margin: 0px 8px;
+}
+.tabs ._nav > a.active, .tabs ._nav > a:hover, .tabs ._nav > a:active, .tabs ._nav > a:focus{
+    color: #333;
+}
+a.btn-overlay{
+   min-width: 168px;
+min-height: 34px;
+padding: 5px 10px;
+font: 12px HomesteadInline;
+    color: #000;
+    text-transform: uppercase;
+background-color: #ffde00;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.04) 0%, rgba(255, 255, 255, 0.04) 100%);
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.75); 
+}
+a.btn-read{
+    width: 120px;
+height: 32px;
+background-color: white;
+background-image: linear-gradient(to top, #e7e7e7 0%, #f7f7f7 100%);
+border: 1px solid gainsboro;
+border-radius: 3px;
+color: #666;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.6);
+font: 11px Arial;
+}
+.links-social a{
+    margin: calc(9px/2);width: 32px;
+height: 30px;
+background-color: white;
+background-image: linear-gradient(to top, #e7e7e7 0%, #f7f7f7 100%);
+border: 1px solid gainsboro;
+border-radius: 3px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.6);
+    
+}

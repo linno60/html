@@ -1,0 +1,1 @@
+<blockquote><span>"hello, i am john doe</span><br>welcome to retro, my wonderful theme!"</blockquote>

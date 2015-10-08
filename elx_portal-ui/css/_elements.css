@@ -27,25 +27,26 @@ a.btn-topbar{
     border: 2px solid #fff;
     background-color: #fff;
 }
-.btn-contactlg{
+.links-map a{
     width: 63px;
     height: 63px;
     background-color: white;
     border: 1px solid #dbdbdb;
     border-radius: 10px;
+    margin: 6px;
     box-shadow: 0 0 40px rgba(1, 1, 1, 0.13);
 }
-.btn-contactlg.active, .btn-contactlg:active, .btn-contactlg:hover, .btn-contactlg:focus{
+.links-map a.active, .links-map a:active, .links-map a:hover, .links-map a:focus{
     background-color: #1fa9e0;
     border: 1px solid #1fa9e0;
 }
-.btn-contactlg.active .icon-phonelg, .btn-contactlg:active .icon-phonelg, .btn-contactlg:hover .icon-phonelg, .btn-contactlg:focus .icon-phonelg{
+.links-map a.active .icon-phonelg, .links-map a:active .icon-phonelg, .links-map a:hover .icon-phonelg, .links-map a:focus .icon-phonelg{
     background: url('/images/icons/phonelg-hover.png');
 }
-.btn-contactlg.active .icon-pointlg, .btn-contactlg:active .icon-pointlg, .btn-contactlg:hover .icon-pointlg, .btn-contactlg:focus .icon-pointlg{
+.links-map a.active .icon-pointlg, .links-map a:active .icon-pointlg, .links-map a:hover .icon-pointlg, .links-map a:focus .icon-pointlg{
     background: url('/images/icons/pointlg-hover.png');
 }
-.btn-contactlg.active .icon-letterlg, .btn-contactlg:active .icon-letterlg, .btn-contactlg:hover .icon-letterlg, .btn-contactlg:focus .icon-letterlg{
+.links-map a.active .icon-letterlg, .links-map a:active .icon-letterlg, .links-map a:hover .icon-letterlg, .links-map a:focus .icon-letterlg{
     background: url('/images/icons/letterlg-hover.png');
 }
 .btn-submit{
@@ -55,6 +56,27 @@ a.btn-topbar{
     border-radius: 10px;
     color: #6d6e71;
     font: 700 14px OpenSans;
+}
+.btn-slider{
+    width: 111px;
+height: 241px;
+background-color: #f4f4f4;
+}
+.btn-like{
+    width: 322px;
+min-height: 65px;
+font: 600 14px OpenSans;
+}
+.btn-like.green{
+    background-color: rgba(138, 202, 81, 0.9);
+    color: white;
+}
+.btn-like.yellow{
+    color: #cc9800;    
+    background-color: rgba(254, 235, 117, 0.9);
+}
+.btn-like i{
+    margin: 0px 5px 0px 0px;
 }
 .links-socialheader{
     border-left: 1px solid #dee0e6;
@@ -102,7 +124,18 @@ a.btn-topbar{
     color: #6d6e71;
     font: 300 13px OpenSans;
 }
-input[type="search"]{
+.links-contacts{
+    align-items: center;
+}
+.links-contacts a{
+    margin: 0px 20px 0px 20px;
+}
+.links-contacts span{
+    width: 1px;
+    height: 24px;
+    background-color: #bcbec3;
+}
+.form-search input[type="search"]{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 15px;
@@ -113,28 +146,35 @@ input[type="search"]{
     background: none;
     padding: 0px 5px;
 }
-input[type="search"]::-webkit-input-placeholder{
+.form-search input[type="search"]::-webkit-input-placeholder{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 15px;
     font-weight: 300;
     line-height: 27px;
 }
-input[type="search"]::-moz-placeholder{
+.form-search input[type="search"]::-moz-placeholder{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 15px;
     font-weight: 300;
     line-height: 27px;
 }
-input[type="search"]:-ms-input-placeholder{
+.form-search input[type="search"]:-ms-input-placeholder{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 15px;
     font-weight: 300;
     line-height: 27px;
 }
-input[type="email"]{
+.form-mail{
+    max-width: 594px;
+min-height: 66px;
+background-color: #393b3c;
+border-radius: 10px;
+padding: 10px 10px 10px 20px;
+}
+.form-mail input[type="email"]{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 14px;
@@ -145,21 +185,21 @@ input[type="email"]{
     background: none;
     padding: 0px 5px;
 }
-input[type="email"]::-webkit-input-placeholder{
+.form-mail input[type="email"]::-webkit-input-placeholder{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 14px;
     font-weight: 700;
     line-height: 27px;
 }
-input[type="email"]::-moz-placeholder{
+.form-mail input[type="email"]::-moz-placeholder{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 14px;
     font-weight: 700;
     line-height: 27px;
 }
-input[type="email"]:-ms-input-placeholder{
+.form-mail input[type="email"]:-ms-input-placeholder{
     color: #6d6e71;
     font-family: OpenSans;
     font-size: 14px;

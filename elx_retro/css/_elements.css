@@ -1,19 +1,46 @@
+.btn-submit{
+    min-width: 282px;
+    min-height: 72px;
+    background-color: #fcfaf7;
+    border-radius: 6px;
+    box-shadow: 2.1px 2.1px 2px rgba(0, 0, 0, 0.2);
+    color: #383a3c;
+    font: 700 32px RobotoSlab;
+    padding: 5px 10px 5px 10px;
+}
 .links-social a{
     width: 150px;
-height: 150px;
-border: 4px solid #383a3c;
-border-radius: 50%;
-background-color: #f5eee3;
+    height: 150px;
+    border: 4px solid #383a3c;
+    border-radius: 50%;
+    background-color: #f5eee3;
     box-shadow: 0px 0px 0px 4px #f5eee3;
     margin: 15px;
+}
+.links-nav{
+    align-items: center;
+}
+.links-nav a{
+    text-shadow: 1.4px 1.4px 2px rgba(0, 0, 0, 0.2);
+    color: #f9ebd9;
+    font: 54px 'Bazar';
+    text-transform: uppercase;
+    margin: 0px 2px;
+}
+.links-nav .logo{
+    background: url("/images/circle.png");
+    width: 294px;
+    height: 294px;
+    color: #f6edd8;
+    font: 188px SeasideResortNF;
 }
 .lbl-about{
     border-radius: 50%;
     width: 284px;
-height: 284px;
-border: 8px solid #f5eee3;
-box-shadow: 0px 0px 0px 8px #d45244;
-background-color: #d45244;
+    height: 284px;
+    border: 8px solid #f5eee3;
+    box-shadow: 0px 0px 0px 8px #d45244;
+    background-color: #d45244;
 }
 input[type="text"], input[type="email"]{
     height: 74px;
@@ -21,13 +48,13 @@ input[type="text"], input[type="email"]{
 }
 input[type="text"], input[type="email"], textarea{
     width: 960px;
-border-radius: 6px;
-border: none;
-margin: 0px 0px 20px 0px;
-box-shadow: 1.4px 1.4px 0 rgba(255, 255, 255, 0.4), inset 1.4px 1.4px 0 rgba(0, 0, 0, 0.2);
-color: darkgrey;
-font-family: RobotoSlab;
-font-size: 32px;
+    border-radius: 6px;
+    border: none;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 1.4px 1.4px 0 rgba(255, 255, 255, 0.4), inset 1.4px 1.4px 0 rgba(0, 0, 0, 0.2);
+    color: darkgrey;
+    font-family: RobotoSlab;
+    font-size: 32px;
 }
 textarea{
     height: 326px;
@@ -35,16 +62,25 @@ textarea{
 }
 input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: darkgrey;
-font-family: RobotoSlab;
-font-size: 32px;
+    font-family: RobotoSlab;
+    font-size: 32px;
 }
 input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder {
-   color: darkgrey;
-font-family: RobotoSlab;
-font-size: 32px;
+    color: darkgrey;
+    font-family: RobotoSlab;
+    font-size: 32px;
 }
 input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: darkgrey;
-font-family: RobotoSlab;
-font-size: 32px;
+    font-family: RobotoSlab;
+    font-size: 32px;
+}
+blockquote{
+    color: #f7ebd8;
+    font: 53px/90px Bazar;
+    text-transform: uppercase;
+    text-align: center;
+}
+blockquote span{
+    font: 64px Bazar;
 }
