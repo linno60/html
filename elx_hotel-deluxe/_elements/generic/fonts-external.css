@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'DroidSans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(https://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'DroidSans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(https://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMfEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Quicksand Light'), local('Quicksand-Light'), url(https://fonts.gstatic.com/s/quicksand/v5/qhfoJiLu10kFjChCCTvGlInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvW6CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v5/32nyIRHyCu6iqEka_hbKsonF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}

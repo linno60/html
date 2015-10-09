@@ -1,0 +1,82 @@
+.links-nav a{
+    color: #6a6867;
+    font: 14px OpenSans;
+    margin: 10px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    position: relative;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    border: 2px solid #54add7;
+    color: #308eb4;
+}
+.links-nav a.active:after, .links-nav a.active:before, .links-nav a:hover:after, .links-nav a:hover:before,
+.links-nav a:active:after, .links-nav a:active:before, .links-nav a:focus:after, .links-nav a:focus:before {
+    content: '';
+    position: absolute;    
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 7px 3px 0px 3px;    
+}
+.links-nav a.active:after, .links-nav a:hover:after, .links-nav a:active:after, .links-nav a:focus:after{
+    bottom: -5px;
+    border-color: #fff transparent transparent transparent;
+}
+.links-nav a.active:before, .links-nav a:hover:before, .links-nav a:active:before, .links-nav a:focus:before {
+    bottom: -9px;
+    border-color: #53add7 transparent transparent transparent;
+}
+.form-search{
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 15px 5px 10px;
+}
+.form-search input{
+    color: #a0a0a0;
+    font-family: Arial;
+    font-size: 12px;
+    border: none;
+    width: 100%;
+}
+.form-search input[type="search"]::-webkit-input-placeholder{
+    color: #a0a0a0;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-search input[type="search"]::-moz-placeholder{
+    color: #a0a0a0;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-search input[type="search"]:-ms-input-placeholder{
+    color: #a0a0a0;
+    font-family: Arial;
+    font-size: 12px;
+}
+.list-default li{
+    color: #9b9b9b;
+font: 18px/30px OpenSans;
+padding: 0px 0px 0px 30px;
+}
+.list-default.marker li:before{
+    background: url(/images/icons/check.png);
+    width: 20px;
+    height: 20px;
+}
+.links-footer.marker a:before{
+    background: url(/images/icons/arrow.png);
+    width: 8px;
+    height: 8px;
+}
+.links-footer a{
+    padding: 0px 0px 0px 15px;
+    color: #8e8e8e;
+    font: 14px/24px OpenSans;
+}

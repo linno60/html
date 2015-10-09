@@ -1,0 +1,23 @@
+.form-search input{
+    width: 329px;
+height: 36px;
+border: 1px solid rgba(0, 0, 1, 0.1);
+border-right: none;
+}
+.btn-search{
+    min-width: 120px;
+height: 36px;
+background-color: #00aedb;
+color: white;
+font: 700 19px HelveticaLTStd;
+text-transform: uppercase;
+}
+.links-nav{
+    min-height: 36px;
+    background-color: #898989;
+}
+.links-nav a{
+    padding: 5px 15px;
+    font: 700 19px HelveticaLTStd;
+text-transform: uppercase;
+}

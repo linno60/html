@@ -1,0 +1,1 @@
+<blockquote>“Hospitality, Quality & Good Locations. We only provide you with the best hotels”<cite> - John Doe</cite></blockquote>
