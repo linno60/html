@@ -1,0 +1,1 @@
+<span class="lbl lbl-default">15 calories</span>

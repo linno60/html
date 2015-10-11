@@ -1,0 +1,80 @@
+.links-nav a{
+    color: white;
+    font: 14px MyriadPro;
+    text-transform: uppercase;
+    margin: 20px 50px;
+}
+.links-nav{
+    position: relative;
+    background: url('../images/nav-border.png')no-repeat center bottom;
+}
+.links-nav img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -118%;
+}
+.title{
+    color: white;
+    font: italic 28px/44px MyriadPro;
+    border-bottom: 1px solid #0a0a0a;
+    box-shadow: 0px 1px 0px 0px #2f2f2f;
+    margin: 0px 0px 20px 0px;
+}
+.links-social a{
+    margin: 10px;
+}
+.lbl-default{
+    width: 31px;
+    height: 31px;
+    background-color: #151515;
+    background-image: linear-gradient(to top, #d85c1e 0%, #c79200 100%);
+    border-radius: 6px;
+}
+.btn-default{
+    width: 75px;
+    height: 30px;
+    background-color: black;
+    background-image: linear-gradient(to top, #d85c1e 0%, #c79200 100%);
+    border-radius: 5px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.24);
+    color: white;
+    font: 18px MyriadPro;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+input[type="email"], input[type="text"], textarea{
+    max-width: 285px;  
+    width: 100%;
+    background-color: #101010;
+    border: 1px solid #222;
+    border-radius: 5px;
+    box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.95);
+    color: #555;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+}
+input[type="email"], input[type="text"]{
+    padding: 0px 10px;
+    height: 35px;
+}
+textarea{
+    height: 170px;
+    padding: 10px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #555;
+    font-family: Arial;
+    font-size: 12px;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #555;
+    font-family: Arial;
+    font-size: 12px;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #555;
+    font-family: Arial;
+    font-size: 12px;
+}

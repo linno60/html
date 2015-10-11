@@ -1,0 +1,93 @@
+.links-nav a{
+    margin: 5px 18px;
+    font: 900 13px Lato;
+    text-transform: uppercase;
+    color: #c5c5c5;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #1abb9c;
+}
+.links-social a{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,.3);
+}
+.links-footer a{
+    margin: 20px;
+}
+a.btn-default{
+    min-width: 140px;
+    min-height: 45px;
+    background-color: #3f8dbf;
+    padding: 2px 5px;
+    border-radius: 3px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    font: 14px Lato;
+    text-transform: uppercase;
+}
+a.btn-default i{
+    margin: 0px 5px 0px 0px;
+}
+.hdr h2{
+    color: white;
+    font: 900 25px Lato;
+    text-transform: uppercase;
+    min-height: 90px;
+    padding: 10px;
+    position: relative;
+}
+.hdr h2:after {
+    content: "";
+    position: absolute;
+    left: 83px;
+    bottom: -8px;
+    border-top: 9px solid #1abc9c;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.hdr{
+    background-color: #1abc9c;
+}
+input[type="email"], input[type="text"], textarea{
+    max-width: 770px;  
+    width: 100%;
+    background-color: rgba(0,0,0,.11);
+    border: none;
+    margin: 0px 0px 20px 0px;
+    color: #a1a1a1;    
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+input[type="email"], input[type="text"]{
+    padding: 0px 15px;
+    height: 50px;
+}
+textarea{
+    height: 212px;
+    padding: 20px 15px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #a1a1a1;    
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #a1a1a1;    
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #a1a1a1;    
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}

@@ -1,0 +1,108 @@
+.links-nav{
+    background-color: white;
+    background-image: linear-gradient(to top, #e3e3e3 0%, white 100%);
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+}
+.links-nav a{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    color: #525252;
+    font: 600 19px Qlassik;
+    padding: 2px 19px 2px 19px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    min-height: 32px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #e3e3e3 0%, #c0c0c0 50%, #fff 100%) 1 100%;
+}
+.links-nav a:first-child{
+    border-width: 0px;
+    padding: 2px 19px 2px 31px;
+}
+.links-nav a:last-child{
+    padding: 2px 28px 2px 19px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background-image: linear-gradient(to top, #e3e3e3 0%, #dadada 50%, #ffffff 100%);
+    border-width: 0px 0px 0px 1px;
+}
+.links-nav a:first-child.active, .links-nav a:first-child:active, .links-nav a:first-child:hover, .links-nav a:first-child:focus{
+    border-radius: 8px 0px 0px 8px;
+    border-width: 0px;
+}
+.links-nav a:last-child.active, .links-nav a:last-child:active, .links-nav a:last-child:hover, .links-nav a:last-child:focus{
+    border-radius: 0px 8px 8px 0px;
+}
+.links-controls a{
+    width: 12px;
+    height: 12px;
+    background-color: #c5c5c5;
+    margin: 1px;
+    border-radius: 50%;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background-color: #8d8d8d;
+}
+.links-social a{
+    margin: 5px;
+}
+.links.marker a{
+    color: #aaa;
+    font: 14px/35px "Trebuchet MS";
+    padding: 0px 0px 0px 25px;
+}
+.links.marker a:before{
+    background: url(/images/icons/check.png);
+    width: 16px;
+    height: 16px;
+}
+.links.marker a:active, .links.marker a:hover, .links.marker a:focus{
+    text-decoration: underline;
+}
+a.btn-default{
+    font: 20px Qlassik;
+    color: #3a3a3a;
+    min-width: 118px;
+    min-height: 35px;
+    background-color: white;
+    background-image: linear-gradient(to top, #e3e3e3 0%, white 100%);
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+    padding: 2px 5px;
+}
+blockquote{
+    position: relative;   
+    background-color: #202020;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    max-width: 280px;
+}
+blockquote:after{
+    content: "";
+    position: absolute;
+    right: 66px;
+    bottom: -25px;
+    border-top: 50px solid #202020;
+    border-left: 30px solid transparent;
+    transform: rotate(-20deg);
+}
+blockquote q{
+    color: #a9a9a9;
+    font: italic 14px/20px "Georgia";
+}
+blockquote a{
+    text-decoration: none;
+}
+blockquote a:hover{
+    text-decoration: underline;
+}
+blockquote a, blockquote time{    
+    color: #6d9120;
+}
+blockquote cite a, blockquote time{
+    font: 12px "Arial";
+}
+blockquote cite{
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+}

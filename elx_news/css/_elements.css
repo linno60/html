@@ -1,0 +1,42 @@
+.links-social a{
+    margin: 2px;
+}
+.links-sidebar a{
+    color: #007bc5;
+    width: 100%;
+    font: 12px/25px Arial;
+    justify-content: flex-start;
+    background: url("/images/separator-list.png") repeat-x left top;
+    padding: 0px 10px 0px 15px;
+}
+.marker a:before{
+    width: 8px;
+    height: 8px;
+    background: url(/images/icons/arrow2.png);
+}
+.more{
+    background: url(/images/icons/arrow2.png) no-repeat left center; 
+    padding: 0px 0px 0px 11px;
+    color: #007bc5;
+    font: 12px/18px Arial;
+}
+a.btn-default, a.btn-alt{
+    border-radius: 2px;
+    font: 700 15px Arial;
+    padding: 2px 5px;
+}
+a.btn-default{
+    min-width: 136px;
+min-height: 33px;
+color: #0f141c;
+background-image: linear-gradient(to top, #d0d0d0 0%, #d0d0d0 13%, #f7f9f8 100%);
+border: 1px solid rgba(255, 255, 255, 0.9);
+box-shadow: 0.5px 0.9px 4.9px 0.1px rgba(0, 0, 0, 0.6);
+}
+a.btn-alt{
+    min-width: 134px;
+min-height: 31px;
+color: #233041;
+background-image: linear-gradient(to top, #a7bddc 0%, #d9e9ff 100%);
+border: 1px solid #d7e8ff;
+}
