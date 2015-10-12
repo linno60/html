@@ -1,0 +1,64 @@
+.links-nav a{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    color: #b1885c;
+    font: 14px CoffeeService;
+    text-transform: uppercase;
+    margin: 5px 10px;
+}
+.links-social a{
+    margin: 5px;
+}
+.links-footer a, .links-footer{
+    color: #b7926c;
+    font: 11px Helvetica;
+}
+.links-footer a{
+    margin: 0px 5px;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.form-search{
+    max-width: 387px;
+    width: 100%;
+    min-height: 38px;
+    background-color: rgba(255, 220, 162, 0.6);
+    background-image: linear-gradient(to top, transparent 0%, transparent 100%);
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 1px 4px rgba(3, 3, 3, 0.2);
+}
+.form-search input{
+    color: #c2a281;
+    font-family: Helvetica;
+    font-size: 12px;
+    padding: 0px 10px;
+    border: none;
+    background: none;
+}
+.form-search input::-webkit-input-placeholder{
+    color: #c2a281;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+.form-search input::-moz-placeholder{
+    color: #c2a281;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+.form-search input:-ms-input-placeholder{
+    color: #c2a281;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+.btn-submit{
+    font: 700 12px Helvetica;
+    color: #c2a281;
+    min-width: 90px;
+    min-height: 28px;
+    padding: 2px 5px;
+    background-image: linear-gradient(to top, #3e1116 0%, #7d4249 100%);
+    border: 1px solid #3e1116;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.2);
+}

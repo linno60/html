@@ -1,0 +1,12 @@
+@font-face {
+    font-family: LaoUI;
+    src: url('/fonts/LaoUI.ttf');
+}
+@font-face {
+    font-family: SegoeUI;
+    src: url('/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.ttf');
+}
+@font-face {
+    font-family: SegoeWP;
+    src: url('/fonts/SegoeWP/SegoeWP.ttf');
+}

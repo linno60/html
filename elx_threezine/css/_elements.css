@@ -1,0 +1,83 @@
+.links-top a{
+    margin: 4px;
+    color: #535353;
+    font: 9px Verdana;
+}
+.links-social a{
+    margin: 2px;    
+}
+.links-top a:active, .links-top a:hover, .links-top a:focus{
+    text-decoration: underline;
+}
+.links-nav{
+    padding: 0px 20px;
+    border-top: 1px solid #f9f9f9;
+    background-color: white;
+    box-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.07);
+}
+.links-nav a{
+    color: #5c5c5c;
+    min-height:  34px;
+    font: 19px YanoneKaffeesatz;
+    text-transform: uppercase;
+    margin: 5px 22px;
+}
+.links-default a{
+    color: #717171;
+    font: 11px/25px Verdana;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.hdr{
+    color: #535353;
+    font: 19px/28px YanoneKaffeesatz;
+    text-transform: uppercase;
+    background: url("/images/dashed.png")repeat-x left bottom;
+}
+input[type="text"], input[type="email"], textarea{    
+    width: 100%;
+    background-color: #e8e8e8;
+    max-width: 470px;
+    margin: 0px 0px 15px 0px;
+    border: none;
+    color: #717171;
+    font-family: Verdana;
+    font-size: 11px;
+}
+input[type="text"], input[type="email"]{
+    height: 30px;
+    padding: 0px 10px;
+}
+textarea{
+    height: 125px;
+    padding: 10px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #717171;
+    font-family: Verdana;
+    font-size: 11px;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #717171;
+    font-family: Verdana;
+    font-size: 11px;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #717171;
+    font-family: Verdana;
+    font-size: 11px;
+}
+.btn-default{
+    min-width: 90px;
+min-height: 30px;
+background-color: #7da1bc;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
+border: 1px solid #7094b1;
+border-radius: 3px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.38);
+padding: 2px 5px;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+color: white;
+font: 13px Georgia;
+}

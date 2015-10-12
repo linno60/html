@@ -1,0 +1,130 @@
+.links-help a, .links-help{
+    color: #e3bba5;
+    font: 13px/30px Georgia;
+}
+.links-help a{
+    margin: 0px 12px;
+}
+.links-help a:active, .links-help a:hover, .links-help a:focus{
+    text-decoration: underline;
+}
+.links-nav a, .links-nav{
+    color: #513a2d;
+}
+.links-nav a{    
+    font: 14px Fertigo;
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
+.links-nav{
+    background: url("/images/nav.png");
+    min-height:  44px;
+    align-items: center;
+    position: relative;
+    font: 23px/10px Fertigo;
+    padding: 0px 20px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #af182a;
+}
+.links-nav:before, .links-nav:after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;    
+    left: 0px;
+    background: url('../images/nav-border.png');
+}
+.links-nav:before{
+    top: -5px;
+}
+.links-nav:after {
+    bottom: -6px;
+}
+.links-default a{
+    color: #513a2d;
+    font: 13px/20px Georgia;
+}
+.links-default a.active, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-footer a{    
+    font: 12px Georgia;   
+    margin: 0px 12px;
+}
+.links-footer, .links-footer a{
+    color: #e2baa4;
+}
+.links-footer a.active, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.form-search{
+    max-width: 252px;
+    height: 38px;
+    background-color: rgba(0,0,0,.65);
+    border: 1px solid #a2745a;
+    border-radius: 8px;
+    padding: 5px 12px 5px 20px;
+}
+input[type="search"]{
+    color: #a2745a;
+    font-family: Georgia;
+    font-size: 13px;
+    border: none;
+    background: none;
+}
+input[type="search"]::-webkit-input-placeholder{
+    color: #a2745a;
+    font-family: Georgia;
+    font-size: 13px;
+}
+input[type="search"]::-moz-placeholder{
+    color: #a2745a;
+    font-family: Georgia;
+    font-size: 13px;
+}
+input[type="search"]:-ms-input-placeholder{
+    color: #a2745a;
+    font-family: Georgia;
+    font-size: 13px;
+}
+a.btn-default{
+    color: #3c2219;
+    font: 25px Fertigo;
+    min-width: 156px;
+    min-height: 43px;
+    padding: 5px 10px;
+    background-color: #fefefe;
+    border-radius: 8px;
+}
+.more{
+    font: 700 italic 13px/18px Georgia;
+    color: #af182a;
+    text-decoration: none;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: underline;
+}
+blockquote{
+    max-width: 270px;
+    font: italic 13px/18px Georgia;
+    color: #513a2d;
+}
+blockquote cite{
+    font: 700 italic 13px/38px Georgia;
+}
+.links-social{
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+}
+.links-social a{
+    margin: 9px;
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    background-color: #a2745a;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.social {    
+    background: url('../images/border.png')repeat-x left center;
+}
