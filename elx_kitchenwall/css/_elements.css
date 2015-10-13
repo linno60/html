@@ -1,0 +1,106 @@
+.links-nav a{
+    margin: 5px 15px;
+    font: 700 14px Cabin;
+    color: #707070;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #7dae59;
+}
+.links-social a{
+    margin: 2px;
+}
+.post figure{
+    min-width: 70px;
+    margin: 0px 25px 0px 0px;
+}
+.post .post{
+    padding: 25px 0px 0px 40px;
+}
+.message h4{
+    font: 15px Cabin;
+    color: #6b6b6b;
+    margin: 0px 0px 10px 0px;
+}
+.message p{
+    color: #898989;
+    font: 14px/22px Cabin;
+}
+.message{
+    padding: 20px 20px 20px 20px;
+    background-color: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.post .post .message{
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0, 0.07);
+}
+.marker li:before{
+    background: url(/images/icons/check.png);
+    width: 12px;
+    height: 9px;
+}
+.list li{
+    padding: 0px 0px 0px 20px;
+    color: #898989;
+    font: 14px/23px Cabin;
+}
+.links-default a{
+    color: #898989;
+    font: 14px/23px Cabin;    
+}
+.links-default a:active, .links-default a:hover, .links-default:focus{
+    text-decoration: underline;
+}
+input[type="text"], textarea{    
+    background-color: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: #898989;
+    font-family: Cabin;
+    font-size: 14px;
+    max-width: 610px;
+    width: 100%;
+}
+input[type="text"]{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 17px 0px;
+    height: 35px;
+}
+textarea{
+    margin: 0px 0px 20px 0px;
+    height: 185px;
+    padding: 10px 10px 10px 10px;
+}
+label{
+    color: #898989;
+    font: 14px/22px Cabin;
+}
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #898989;
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: 400;
+}
+input[type="text"]::-moz-placeholder, textarea::-moz-placeholder {
+    color: #898989;
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: 400;
+}
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #898989;
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn-default{
+    min-width: 112px;
+min-height: 31px;
+color: white;
+font: 13px Cabin;
+background-color: #7dae59;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
+border: 1px solid #648a49;
+border-radius: 2px;
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+padding: 2px 5px;
+}

@@ -1,0 +1,11 @@
+.links-social a{
+    margin: 5px;
+}
+.links-nav a{
+    color: #a9a5a5;
+    font: 300 17px Absara;
+    margin: 10px 40px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}

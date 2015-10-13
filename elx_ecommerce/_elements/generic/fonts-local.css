@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Bebas;
+    src: url('/fonts/Bebas/BebasRegular/BebasRegular.ttf');
+}
+@font-face {
+    font-family: HelveticaCondensed;
+    src: url('/fonts/Helvetica CondensedBold.ttf');
+}
+@font-face {
+    font-family: ArialNarrow;
+    src: url('/fonts/Arial Narrow Bold.ttf');
+}

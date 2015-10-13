@@ -1,0 +1,28 @@
+.links-top{
+    font: 25px/8px "Arial";
+}
+.links-top a{
+    font: 13px "Arial"; 
+    margin: 0px 6px;
+}
+.links-top, .links-top a{
+    color: silver;
+}
+.links-top a:active, .links-top a:hover, .links-top a:focus{
+    text-decoration: underline;
+}
+.links-nav a{
+    color: white;
+    font: 700 16px ArialNarrow;
+    text-transform: uppercase;
+    margin: 5px;
+    min-width: 74px;
+    min-height: 28px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-top: 1px solid transparent;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background-image: linear-gradient(to top, #700000 0%, #cb0000 50%, #ec2f2f 50%, #ff6363 100%);  
+    border-top: 1px solid #ffab63;
+}
