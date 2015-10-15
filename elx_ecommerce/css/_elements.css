@@ -26,3 +26,170 @@
     background-image: linear-gradient(to top, #700000 0%, #cb0000 50%, #ec2f2f 50%, #ff6363 100%);  
     border-top: 1px solid #ffab63;
 }
+.form-search{
+    border-top: 1px solid #42413e;
+    max-width: 292px;
+    border-radius: 9px;
+}
+.form-search input{
+    height: 31px;
+    width: 100%;
+    max-width: 250px;
+    border: none;
+    border-radius: 9px 0px 0px 9px;
+    background-image: linear-gradient(to top, white 0%, white 50%, #efeeeb 51%, #c2bfb5 100%);
+    padding: 0px 20px;
+    color: #3a3a3a;
+    font-family: Arial;
+    font-size: 13px;
+}
+.btn-search{
+    border-bottom: 1px solid #861111;
+    width: 42px;
+    height: 31px;
+    border-radius: 0px 9px 9px 0px;
+    background-image: linear-gradient(to top, #8d1313 0%, #710c0c 24%, #7c1919 50%, #913b3b 50%, #b16c6c 100%);
+}
+input[type="search"]::-webkit-input-placeholder{
+    color: #3a3a3a;
+    font-family: Arial;
+    font-size: 13px;
+}
+input[type="search"]::-moz-placeholder{
+    color: #3a3a3a;
+    font-family: Arial;
+    font-size: 13px;
+}
+input[type="search"]:-ms-input-placeholder{
+    color: #3a3a3a;
+    font-family: Arial;
+    font-size: 13px;
+}
+.links-categories{
+    max-width: 209px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #f3dc94;
+    border-top: 1px solid white;
+    background-color: #ffeeb7;
+    border-radius: 0px 0px 9px 9px;
+}
+.links-categories a{
+    color: #434343;
+    font: 700 12px/30px Arial;
+    padding: 0px 0px 0px 20px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    justify-content: flex-start;
+}
+.links-categories a:last-child{
+    border-bottom: none;
+}
+.links-categories a:active, .links-categories a:hover, .links-categories a:focus{
+    color: #b20e00;
+}
+.hdr{
+    color: white;
+    font: 700 15px/30px Arial;
+    max-width: 209px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(to top, white 0%, white 3%, #ca2a29 5%, #ce2a27 50%, #d76166 51%, #dd767a 100%);
+}
+a.btn-check {
+    color: #ffc200;
+    font: 700 15px Arial;
+    padding: 2px 5px;
+    min-width: 114px;
+    min-height: 15px;
+    border-radius: 15px;
+    background-color: #b20e00;
+    box-shadow: 0px 1px 0px 0px #d98780, 0px -1px 0px 0px #3d0500;
+}
+.btn-default{
+    min-width: 88px;
+    min-height: 25px;
+    padding: 2px 5px;
+    font: 700 15px Arial;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #700000 0%, #cb0000 50%, #ec2f2f 50%, #ff6363 100%);
+}
+.links-footer a{
+    color: #cfcfcf;
+    font: 15px/20px Arial;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.select select {
+    width: 109px;
+    height: 19px;
+    border: 1px solid #ccc;
+    color: #747474;
+    font: 12px Arial;
+}
+.select:after {
+    width: 19px;
+    height: 19px;
+    background-image: url('../images/icons/select.png'), linear-gradient(to top, #0e0e0e 0%, #7d7e7d 99%, #7d7e7d 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: -1px 0px 0px 0px;
+}
+.links-pagination a{
+    color: #b20e00;
+    font: 12px/20px Arial;
+    min-width: 20px;
+    padding: 0px 3px;
+}
+.links-pagination a.active, .links-pagination a:hover, .links-pagination a:active, .links-pagination a:focus{
+    background-color: #b20e00;
+    color: white;
+}
+.thumb{
+    margin: 0px 3px;
+}
+.links-social{
+    max-width: 210px;
+}
+.links-social a{
+    font: 13px/20px Arial;
+    min-height: 50px;
+    padding:10px 10px 10px 10px;
+    border-top: 1px solid white;
+    color: #434343;
+    width: 100%;
+    justify-content: flex-start;
+}
+.links-social a i{
+    margin: 0px 25px 0px 10px;
+    min-width: 32px;
+}
+.btn-slider{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-image: linear-gradient(to left, silver 0%, #7d7e7d 99%, #7d7e7d 100%);
+}
+.btn-slider.next{
+    border-radius: 5px 5px 0px 5px;
+}
+.btn-slider.prev{
+    border-radius: 5px 5px 5px 0px;
+}
+.btn-slider.next:after {
+    border-top: 9px solid #151515;
+    border-right: 8px solid transparent;
+    right: 0px;
+}
+.btn-slider.prev:after {
+    border-top: 9px solid #151515;
+    border-left: 8px solid transparent;
+    left: 0px;
+}
+.btn-slider:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+}
