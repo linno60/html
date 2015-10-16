@@ -1,0 +1,12 @@
+@font-face {
+    font-family: InterstateMono;
+    src: url('/fonts/Interstate Mono.ttf');
+}
+@font-face {
+    font-family: Roadway;
+    src: url('/fonts/Roadway.ttf');
+}
+@font-face {
+    font-family: OfficinaSans;
+    src: url('/fonts/OfficinaSans/OfficinaSansBold/OfficinaSansBold.ttf');
+}

@@ -1,0 +1,197 @@
+.links-nav a{
+    color: #3e3e3e;
+    font: 14px Strait;
+    text-transform: uppercase;
+    padding: 9px;
+    min-height: 33px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background-color: #8c8c8c;
+    color: lightgray;
+}
+.links-breadcrumbs{
+    color: #ababab;
+}
+.links-breadcrumbs a, .links-breadcrumbs{
+    font: 14px Anaheim;
+}
+.links-breadcrumbs a{
+    color: #3e3e3e;
+    margin: 0px 3px;
+}
+.links-breadcrumbs a:last-child{
+    color: #ababab;
+}
+.lbl-date, .lbl-default{
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    width: 60px;
+    padding: 3px;
+}
+.lbl-date{    
+    min-height: 63px;
+    background-color: #91cd29;
+}
+.lbl-date span{
+    font: 35px/34px Strait;
+}
+.lbl-date small{
+    font: 21px/20px Strait;
+}
+.lbl-default span{
+    font: 28px/28px Strait;
+}
+.lbl-default small{
+    font: 11px/12px Strait;
+}
+.lbl-default{
+    min-height: 49px;
+    background-color: #8c8c8c;
+}
+a.btn-default, .btn-default{
+    min-width: 60px;
+    min-height: 22px;
+    padding: 2px 5px;
+    background-color: #91cd29;
+    color: white;
+    font: 14px Strait;
+    text-transform: uppercase;
+}
+.hdr{
+    min-height: 36px;
+    border-top: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(0,0,0,.3);    
+}
+.hdr span{
+    color: #8c8c8c;
+    text-transform: uppercase;
+    font: 12px Anaheim;
+}
+.hdr span a{
+    color: #3e3e3e;
+    text-decoration: none;
+}
+blockquote{
+    color: #8c8c8c;
+    font: 21px/28px Strait;
+    max-width: 550px;
+}
+blockquote:before {
+    min-width: 12px;
+    background-color: #d4d4d4;
+    content: "";
+    margin: 6px 24px 7px 10px;
+}
+.post{
+    max-width: 600px;
+}
+.post figure{
+    min-width: 58px;
+    margin: 0px 20px 0px 0px;
+}
+.post p, .post span{
+    color: #8c8c8c;
+    font: 14px/21px Anaheim;
+}
+.post span a{
+    color: #3e3e3e;
+    text-decoration: none;
+}
+.post .name{
+    text-transform: uppercase;
+}
+input[type="text"], textarea{
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase;
+    max-width: 300px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(140, 140, 140, 0.3);
+    margin: 0px 0px 20px 0px;
+}
+input[type="text"]{
+    height: 31px;
+    padding: 0px 10px;
+}
+textarea{
+    height: 121px;
+    padding: 5px 10px;
+}
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+input[type="text"]::-moz-placeholder, textarea::-moz-placeholder {
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase; 
+}
+.links-social{
+    color: #8c8c8c;
+}
+.links-social a{
+    color: #e8e8e8;
+    font: 12px Anaheim;
+    margin: 0px 3px;
+}
+.form-search{
+    width: 100%;
+    max-width: 219px;
+    height: 29px;
+    border: 1px solid rgba(140, 140, 140, 0.3);
+    background-color: #fff;
+    padding:8px;
+}
+.form-search input{
+    padding: 0px 5px;
+    border: none;
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.form-search input::-webkit-input-placeholder{
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.form-search input::-moz-placeholder{
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.form-search input:-ms-input-placeholder{
+    color: #8c8c8c;
+    font-family: Anaheim;
+    font-size: 12px;
+    text-transform: uppercase; 
+}
+.links-sidebar{
+    width: 100%;
+    max-width: 220px;
+}
+.links-sidebar a{
+    color: #8c8c8c;
+    font: 12px/35px Anaheim;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    width: 100%;
+    justify-content: flex-start;
+}
+.links-sidebar a:last-child{
+    border-bottom: none;
+}

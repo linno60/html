@@ -1,20 +1,20 @@
 <div class="tabs accordion">
     <div class="_nav">
-        <a href="#acc1" class="active" data-flex="row-center-between">
+        <a href="#acc1" class="active">
             <span>Accordion1</span>
-            <span class="btn btn-acc"><i class="icon-down"></i></span>
+            <span class="lbl lbl-acc"><i class="icon-down"></i></span>
         </a>
-        <a href="#acc2" data-flex="row-center-between">
+        <a href="#acc2">
             <span>Accordion2</span>
-            <span class="btn btn-acc"><i class="icon-down"></i></span>
+            <span class="lbl lbl-acc"><i class="icon-down"></i></span>
         </a>
-        <a href="#acc3" data-flex="row-center-between">
+        <a href="#acc3">
             <span>Accordion3</span>
-            <span class="btn btn-acc"><i class="icon-down"></i></span>
+            <span class="lbl lbl-acc"><i class="icon-down"></i></span>
         </a>
-        <a href="#acc4" data-flex="row-center-between">
+        <a href="#acc4">
             <span>Accordion4</span>
-            <span class="btn btn-acc"><i class="icon-down"></i></span>
+            <span class="lbl lbl-acc"><i class="icon-down"></i></span>
         </a>
     </div>
     <div class="_content">

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Strait';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Strait'), local('Strait-Regular'), url(https://fonts.gstatic.com/s/strait/v4/akoj8DmzSjm0QpDBXzBYKw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Anaheim';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anaheim'), local('Anaheim-Regular'), url(https://fonts.gstatic.com/s/anaheim/v4/Cvwn58PR0rYLGpoTMF4KMA.ttf) format('truetype');
+}
