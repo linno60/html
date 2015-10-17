@@ -1,0 +1,23 @@
+.more{
+    color: white;
+    font: 24px BrandonPrinted;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.links-social a{
+    margin: 4px;
+    width: 24px;
+    height: 24px;
+}
+.facebook{
+    background-color: #34526f;
+}
+.twitter{
+    background-color: #26a6d1;
+}
+.tumblr{
+    background-color: #34526f;
+}
+.rss{
+    background-color: #f4b459;
+}

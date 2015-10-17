@@ -55,12 +55,12 @@
     <a href='#'>terms of use</a>
 </nav>
 <div class='links links-popular'>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
-    <a href='#'><span></span></a>
+    <a href='#'><span>34</span>Interview with Freja Beha</a>
+    <a href='#'><span>67</span>Top summer discounts in Paris</a>
+    <a href='#'><span>47</span>Alexander McQueen Exhibit</a>
+    <a href='#'><span>3</span>Best runway shows in Moscow</a>
+    <a href='#'><span>43</span>Interview with Freja Beha</a>
+    <a href='#'><span>27</span>Top summer discounts in Paris</a>
+    <a href='#'><span>79</span>Alexander McQueen Exhibit</a>
+    <a href='#'><span>3</span>Best runway shows in Moscow</a>
 </div>

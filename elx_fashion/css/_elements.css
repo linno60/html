@@ -174,7 +174,7 @@ a.btn-default{
     font-size: 12px; 
 }
 .form-subscribe input:-ms-input-placeholder{
-      color: #8b8b8b;
+    color: #8b8b8b;
     font-family: Arial;
     font-size: 12px; 
 }
@@ -188,17 +188,51 @@ a.btn-default{
 }
 .list-check label{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-color: #8d8c8c;
-font: 12px Arial;
+    color: #8d8c8c;
+    font: 12px Arial;
 }
 .list-check input{
     margin: 0px 17px 0px 0px;
     min-width: 13px;
 }
 .links-popular a{
+    width: 100%;
+    justify-content: flex-start;
+    color: #649671;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
     min-height: 28px;
+    font: 12px Arial;
     border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 2px 2px 2px 0px;
 }
 .links-popular a:last-child, .list-check li:last-child{
     border-bottom: none;
+}
+.links-popular a span{
+    color: #b1b6b2;
+    font: 12px Arial;
+    min-width: 30px;
+}
+.tweet a {
+    font: 11px Arial;
+    color: #649671;
+    text-decoration: none;
+}
+.tweet {
+    max-width: 190px;
+    color: #969696;
+    font: 11px/16px Arial;
+    padding: 18px 18px 18px 18px;
+    background-image: linear-gradient(to top, #e7ecd6 0%, #f3f8e2 100%);
+    position: relative;
+    border-radius: 3px;
+}
+.tweet:before {
+    position: absolute;
+    border-bottom: 8px solid #f3f8e2;
+    border-left: 8px solid transparent;
+    border-right: 4px solid transparent;
+    content: "";
+    top: -7px;
+    left: 14px;
 }

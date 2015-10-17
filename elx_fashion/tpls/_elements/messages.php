@@ -1,0 +1,1 @@
+<p class="tweet"><a href="#">@hummer:</a> Earlier this summer the announcement that the John Barrett Salon inside Bergdorf Goodman</p>

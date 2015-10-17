@@ -1,12 +1,12 @@
 .links-nav a{
     color: white;
-font: 300 16px OpenSans;
-margin: 0px 20px;
+    font: 300 16px OpenSans;
+    margin: 0px 20px;
 }
 a.btn-default{
     min-width: 127px;
-min-height: 30px;
-background-color: #3674ba;
-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-font: 300 14px OpenSans;
+    min-height: 30px;
+    background-color: #3674ba;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    font: 300 14px OpenSans;
 }

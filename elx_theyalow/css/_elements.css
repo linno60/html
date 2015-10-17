@@ -34,40 +34,40 @@
 .lbl-date{
     background-color: #ddb101;
     min-width: 113px;
-min-height: 86px;
-padding: 2px;
-flex-direction: column;
+    min-height: 86px;
+    padding: 2px;
+    flex-direction: column;
 }
 .lbl-date span{
-color: white;
-font: 700 51px/46px SegoeUI;
+    color: white;
+    font: 700 51px/46px SegoeUI;
 }
 .lbl-date small{
     color: #b26529;
     text-transform: uppercase;
-font: 21px/30px SegoeUI;
+    font: 21px/30px SegoeUI;
 }
 .lbl-default{
     width: 116px;
-height: 116px;
-background-color: #f5c506;
-border-radius: 50%;
-color: white;
-font: 700 19px PTSansNarrow;
-text-transform: uppercase;
+    height: 116px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    color: white;
+    font: 700 19px PTSansNarrow;
+    text-transform: uppercase;
 }
 .list{
     max-width: 380px;
 }
 .list li{
     color: #a9a9a7;
-font: 22px/28px OpenSans;
-padding: 0px 0px 0px 20px;
+    font: 22px/28px OpenSans;
+    padding: 0px 0px 0px 20px;
 }
 .marker li:before{
     width: 14px;
-height: 14px;
-background-color: #f5c506;
-border-radius: 50%;
-top: 15px;
+    height: 14px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    top: 15px;
 }
