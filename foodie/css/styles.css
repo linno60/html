@@ -1,0 +1,242 @@
+/* FONTS */
+
+@font-face {
+    font-family: Rockwell;
+    src: url('/fonts/rockwell.ttf');
+}
+ 
+/* ICONS */
+ 
+.icon-arrow {width: 21px; height: 21px; background: url('/images/icons/arrow.png');}
+.icon-cart {width: 15px; height: 15px; background: url('/images/icons/cart.png');}
+.icon-fb {width: 10px; height: 17px; background: url('/images/icons/fb.png');}
+.icon-lock {width: 10px; height: 15px; background: url('/images/icons/lock.png');}
+.icon-mail {width: 16px; height: 12px; background: url('/images/icons/mail.png');}
+.icon-pen {width: 16px; height: 17px; background: url('/images/icons/pen.png');}
+.icon-phone {width: 16px; height: 22px; background: url('/images/icons/phone.png');}
+.icon-rss {width: 15px; height: 16px; background: url('/images/icons/rss.png');}
+.icon-search {width: 19px; height: 16px; background: url('/images/icons/search.png');}
+.icon-secured {width: 56px; height: 55px; background: url('/images/icons/secured.png');}
+.icon-top {width: 30px; height: 47px; background: url('/images/icons/top.png');}
+.icon-tw {width: 9px; height: 17px; background: url('/images/icons/tw.png');}
+ 
+/* ELEMENTS */
+ 
+.links-social a{
+    margin: 2px 5px;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    background-color: #3d5778;
+    box-shadow: 0 1px 1px #90abcd;
+}
+a.btn-cart, a.btn-total{
+    height: 26px;
+    padding: 2px 5px;
+    color: white;
+    border: 1px solid #881c04;
+}
+.btn-cart{
+    min-width: 72px;
+    background-image: linear-gradient(to top, #d74525 0%, #f17b61 100%);    
+    box-shadow: inset 0 1px 2px white;
+    font: 12px Arial;    
+    border-radius: 13px 0px 0px 13px;
+}
+.btn-cart i{
+    margin: 0px 5px 0px 0px;
+}
+.btn-total{
+    min-width: 69px;    
+    background-image: linear-gradient(to top, #fe6847 0%, #ffc6b9 100%);
+    box-shadow: 0 1px 2px rgba(96, 122, 155, 0.75), inset 0 2px 2px white;
+    text-shadow: 1px 1.7px 2px rgba(254, 148, 124, 0.75);    
+    font: 700 15px Arial;
+    border-radius: 0px 13px 13px 0px;
+}
+.links-nav a{
+    border-radius: 3px;
+    padding: 2px 12px;
+    margin: 2px 12px;
+    min-height: 28px;
+    text-shadow: 0.5px 0.9px 2px rgba(111, 204, 204, 0.75);
+    font: 700 13px Arial;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+a.btn-sign, a.btn-register{
+    padding: 2px 6px;
+    min-width: 92px;
+    min-height: 27px;
+    font: 700 11px Arial;
+    text-transform: uppercase;
+    border: 1px solid #007f7e;
+    justify-content: flex-start;
+}
+a.btn-sign{    
+    background-image: linear-gradient(to top, #add6d6 0%, #e6f3f3 35%, #e6f3f3 100%);
+    border: 1px solid #007f7e;
+    box-shadow: inset 0 1px 0 white;
+    text-shadow: 0 1px 1px white;
+    color: #fe6847;    
+    border-radius: 3px 3px 0px 0px;
+}
+a.btn-register{
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.65);
+    color: #008281;
+    background-image: linear-gradient(to top, #39aeae 0%, #58c5c5 22%, #92dbdb 100%);    
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 white;
+    border-top: none;
+    border-radius: 0px 0px 3px 3px;
+}
+a.btn-sign i, a.btn-register i{
+    min-width: 16px;
+    background-repeat: no-repeat;
+    margin: 0px 2px 0px 0px;
+}
+.links-nav a:hover, .links-nav a:focus{
+    color: #f8f5c6;
+}
+.links-nav a.active:hover, .links-nav a.active:focus{
+    color: #f1f1f1;
+}
+.links-nav a.active{
+    background-color: rgba(0,0,0,.2);
+    box-shadow: 0 1px 0 #6ce6e6, inset 0 1px 1px rgba(19, 123, 122, 0.75);
+}
+.form-search input, .form-email input{    
+    height: 26px;
+    background-image: linear-gradient(to top, white 0%, white 60%, #e9e9e9 100%);    
+    border-right: none;
+    padding: 0px 10px 0px 10px;
+    color: #979797;
+    font-family: Arial;
+    font-size: 13px;
+}
+.form-search input{
+    border: 1px solid #aca856;
+    width: 402px;
+}
+.form-email input{
+    border: 1px solid #395070;
+    width: 240px;
+}
+input[type="search"]::-webkit-input-placeholder{
+    color: #979797;
+    font-family: Arial;
+    font-size: 13px;
+}
+input[type="search"]::-moz-placeholder{
+    color: #979797;
+    font-family: Arial;
+    font-size: 13px;
+}
+input[type="search"]:-ms-input-placeholder{
+    color: #979797;
+    font-family: Arial;
+    font-size: 13px;
+}
+.btn-submit{    
+    height: 26px;
+    background-image: linear-gradient(to top, #fe6847 0%, #ffc6b9 100%);    
+    box-shadow: inset 0 2px 2px white;
+    color: #901c03;
+    font: 700 11px Arial;
+    text-transform: uppercase;
+}
+.form-search .btn-submit{
+    min-width: 81px;
+    border: 1px solid #e8360f;
+}
+.form-email .btn-submit{
+    min-width: 58px;
+    border: 1px solid #395070;
+}
+.btn-submit i{
+    margin: 0px 0px 0px 2px;
+}
+.links-categories a{
+    color: #707070;
+    font: 13px Arial;
+    margin: 5px 0px 5px 0px;
+}
+.links-categories a:active, .links-categories a:hover, .links-categories a:focus{
+    color: #fe6847;
+}
+.links-footer a{
+    font: 13px/20px Arial;
+    color: #cfcfcf;
+}
+a.btn-default{
+    padding: 2px 9px;
+    min-width: 60px;
+    min-height: 20px;
+    background-image: linear-gradient(to top, #f2f0cb 0%, white 100%);
+    border: 1px solid #cbc892;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    color: #fe6847;
+    font: 700 10px Arial;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+a.btn-slider{
+    text-shadow: 1px 1.7px 2px rgba(254, 148, 124, 0.75);
+    color: white;
+    font: 700 18px Rockwell;
+    min-width: 178px;
+    min-height: 36px;
+    border-radius: 18px;
+    padding: 2px 5px;
+    background-image: linear-gradient(to top, #fe6847 0%, #ffc6b9 100%);
+    border: 1px solid #d00e0e;
+    box-shadow: inset 0 2px 2px white, 0 0 0 5px rgba(200, 196, 73, 0.75);
+}
+.links-pagination a{
+    color: #fe6847;
+    font: 12px/20px Arial;
+    min-width: 20px;
+    padding: 0px 3px;
+}
+.links-pagination a.active, .links-pagination a:hover, .links-pagination a:active, .links-pagination a:focus{
+    background-color: #c2be67;
+    color: white;
+}
+.lwrap{
+    max-width: 980px;
+    padding: 0px 10px;
+}
+/* $------------------------------------------------------------------------- */
+body{
+    background: url("/images/bg.png")
+}
+a{
+    text-decoration: none;
+}
+.top{
+    background:url("/images/bg1.png");
+}
+.top .lwrap{
+    min-height: 40px;
+    padding: 5px 10px;
+}
+.divider{
+    height: 15px;
+    background: url("/images/divider.png");
+}
+.header{
+    background: url("/images/bg3.png");
+}
+.header .lwrap{
+    min-height:  120px;
+}
+.logo{
+    background: url("/images/logo.png");
+    width: 116px;
+    height: 117px;
+}
+.logo strong{
+    
+}
+.logo small{
+    
+}
