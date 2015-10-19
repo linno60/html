@@ -1,0 +1,1 @@
+<div class="lbl lbl-default">featured</div>

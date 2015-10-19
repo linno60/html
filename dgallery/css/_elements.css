@@ -1,0 +1,70 @@
+.links-nav a{
+    margin: 5px 15px;
+    color: silver;
+    font: 13px Arial;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+}
+.links-footer a{
+    color: #c3c3c3;
+    font: 15px/24px Arial;
+}
+.links-pagination{
+    justify-content: center;
+}
+.links-pagination a{
+    color: #0061ce;
+    font: 700 15px Arial;
+    margin: 2px;
+}
+.links-pagination a.active, .links-pagination a:active, .links-pagination a:hover, .links-pagination a:focus{
+    color: black;
+}
+.links-files a{
+    margin: 3px 0px 5px 0px;
+    color: #2f2f3c;
+    font: 13px Arial;
+}
+.links-files a:active, .links-files a:hover, .links-files a:focus, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.form-search{
+    width: 236px;
+    height: 23px;
+    background-color: #353541;
+    border: 1px solid #474754;
+    padding: 0px 5px 0px 0px;
+}
+.form-search input{
+    border: none;
+    background: none;
+    color: silver;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0px 9px;
+}
+.form-search input::-webkit-input-placeholder{
+    color: silver;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-search input::-moz-placeholder{
+    color: silver;
+    font-family: Arial;
+    font-size: 12px;
+}
+.form-search input:-ms-input-placeholder{
+   color: silver;
+    font-family: Arial;
+    font-size: 12px;  
+}
+.lbl-default{
+    width: 134px;
+    height: 41px;
+    background-color: #ff5c58;
+    padding: 5px 10px;
+    color: white;
+    font: 700 15px Arial;
+    text-transform: uppercase;
+}
