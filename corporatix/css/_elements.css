@@ -1,0 +1,94 @@
+.links-nav a{
+    font: 700 13px Arial;
+    color: #2f57a1;
+    min-height: 22px;
+    padding: 2px 15px;
+    margin: 5px;
+    border-radius: 11px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: black;    
+    background-image: linear-gradient(to top, #c7c7c7 0%, white 100%);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+}
+.links-controls a{
+    width: 16px;
+    height: 16px;
+    margin: 2px 8px;
+    background-image: linear-gradient(to top, #c7c7c7 0%, white 100%);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
+    border-radius: 50%;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background-image: linear-gradient(to top, #a0b0e6 0%, #4e63aa 51%, #5574b0 100%);
+    box-shadow: 0 2px 0 white, inset 1px 1.7px 2px rgba(0, 0, 0, 0.75);
+}
+a{
+    text-decoration: none;
+}
+.start{
+    display: inline-flex;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+}
+.start > div{
+    border-radius: 8px;
+    padding: 5px;
+    background-image: linear-gradient(to top, #b0c7f9 0%, #777cbd 38%, #2c539e 100%);
+}
+.btn-start{    
+    padding: 20px 20px 20px 20px;
+    background-image: linear-gradient(to top, transparent 0%, rgba(255,255,255,.1) 50%, rgba(255,255,255,.1) 100%);
+    border-radius: 8px;
+}
+.btn-start small{
+    color: #fff;
+    font: 25px ArialNarrow;
+    text-transform: uppercase;
+    text-shadow: 1px 1.7px 2px rgba(47, 85, 159, 0.75);
+}
+.btn-start strong{
+    color: #edf1fc;
+    font: 34px ArialNarrow;
+    text-transform: uppercase;
+    text-shadow: 1px 1.7px 2px rgba(47, 85, 159, 0.75);
+}
+.btn-start i{
+    margin: 0px 10px 0px 0px;
+}
+a.btn-default{
+    padding: 2px 20px;
+    height: 24px;
+    background-image: linear-gradient(to top, #ccd0d9 0%, #ccd0d9 0%, white 100%);
+    border: 1px solid #c6ccdc;
+    box-shadow: 0 2px 2px rgba(60, 71, 98, 0.75);
+    color: #2945c0;
+    font: 13px Arial;
+    border-radius: 12px;
+}
+.more{
+    color: #2945c0;
+    font: 13px Arial;
+    text-decoration: underline;
+}
+.links-footer{
+    color: #dadfeb;
+}
+.links-footer a{
+    color: #dadfeb;
+    font: 13px Arial;
+    margin: 0px 6px;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    margin: 2px calc(9px/2);
+    width: 34px;
+height: 34px;
+background-color: #373d56;
+border-radius: 5px;
+box-shadow: 0 1px 0 #70799a, inset 0 3px 3px rgba(0, 0, 0, 0.1);
+}
