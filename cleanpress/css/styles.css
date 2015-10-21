@@ -88,8 +88,7 @@ a.btn-login{
     background-color: #f6f8fa;
 }
 .btn-default, .btn-more{
-    text-transform: uppercase;
-    padding: 5px 25px;
+    text-transform: uppercase;    
     min-height: 35px;
     font: 12px DroidSans;
     border-radius: 17px;
@@ -98,11 +97,13 @@ a.btn-login{
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px white;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
 }
-a.btn-default{    
+a.btn-default{
+    padding: 5px 21px;
     color: white;
     background-color: #303030;
 }
 a.btn-more{
+    padding: 5px 28px;
     color: #3d3d3d;    
     background-color: #f77430;
 }
@@ -111,7 +112,8 @@ a.btn-thumb{
     width: 44px;
     height: 44px;
     color: #313132;
-    font: 20px DroidSans;
+    font: 26px DroidSans;
+    /* padding: 0px 0px 2px 10px; */
 }
 .add{
     color: #3f454b;
@@ -125,7 +127,7 @@ a.btn-thumb{
     height: 20px;
     background-image: linear-gradient(to top, #eee 0%, #fafafa 100%);
     border: 1px solid rgba(220, 220, 220, 0.8);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 1px white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px white;
 }
 .btn-submit{
     min-width: 63px;
@@ -170,14 +172,12 @@ input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, tex
     color: #3f454b;
     font-family: DroidSans;
     font-size: 10px;
-    line-height: 11px;
 }
 input[type="text"]:-ms-input-placeholder,input[type="email"] textarea:-ms-input-placeholder {
     text-shadow: 0.5px 0.9px 1px white;
     color: #3f454b;
     font-family: DroidSans;
     font-size: 10px; 
-    line-height: 11px;
 }
 .links-footer a{
     border-bottom: 1px solid #e8e8e3;
@@ -288,7 +288,7 @@ header .lwrap{
     width: 39%;
 }
 .slider .btn{
-    margin: 0px 18px 0px 0px;
+    margin: 0px 16px 0px 0px;
 }
 .slider h2{
     color: #3d3d3d;
@@ -307,20 +307,22 @@ header .lwrap{
     position: absolute;
     width: 100%;
     bottom: -75px;
+    left: 50%;
+    transform: translateX(-51%);
 }
 .controls:before{
     content: "";
-    width: 90%;
+    width: 87%;
     height: 1px;
     background-color: #f1f1f2;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 50%;
+    top: 45%;
 }
 .links-controls{
     background-color: white;
-    padding: 0px 20px;
+    padding: 0px 33px;
     z-index: 1;
 }
 .content{
@@ -335,6 +337,7 @@ header .lwrap{
 .about article{
     flex: 1;
     margin: 5px 10px 5px 5px;
+    min-width: 200px;
 }
 .about article h4{
     color: #3f454b;
@@ -396,7 +399,7 @@ header .lwrap{
     letter-spacing: 0.011em;
 }
 .works{
-    padding: 29px 20px 44px 17px;
+    padding: 29px 20px 38px 17px;
     border-bottom: 1px solid #e9ebed;
 }
 .works article h3{
@@ -414,11 +417,16 @@ header .lwrap{
     margin: 4px 12px 0px 10px;
 }
 .works .grid{
-    padding: 23px 0px 0px 0px;
+    padding: 17px 21px 0px 23px;
+    position: relative;
+}
+.works > .grid > div{
+    min-width: 100px;
+    margin: 5px;
 }
 .works .grid figure{
     border: 1px solid rgba(0, 0, 0, 0.13);
-    padding: 5px;
+    padding: 6px;
     border-radius: 50%;
     background-color: #fff;
     z-index: 1;
@@ -427,11 +435,18 @@ header .lwrap{
 .works .grid figure img{
     border-radius: 50%;
 }
+.works .grid .btn-thumb{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-69%);
+}
 .works .grid .btn-thumb:first-child{
-    margin: 0px -30px 0px 0px;
+    left: 0px;
+    padding: 0px 8px 0px 0px;
 }
 .works .grid .btn-thumb:last-child{
-    margin: 0px 0px 0px -30px;
+    right: 0px;
+    padding: 0px 0px 2px 10px;
 }
 .works .add{
     margin: 0px 20px 0px 0px;
@@ -464,7 +479,7 @@ header .lwrap{
     background-color: #fff;
 }
 .footer{
-    padding: 35px 167px 11px 21px;
+    padding: 35px 167px 0px 21px;
 }
 .links-footer{
     width: 100%;
@@ -472,6 +487,8 @@ header .lwrap{
 }
 .footer > div{
     flex: 1;
+    margin: 0px 20px 11px 0px;
+    min-width: 176px;
 }
 .footer h5{
     text-shadow: 0.5px 0.9px 1px white;
@@ -484,12 +501,16 @@ header .lwrap{
     padding: 23px 0px 30px 0px;
     border-top: 1px solid #e8e8e3;
     margin: 0px 14px 0px 26px;
+    flex-wrap: wrap;
 }
 .copyright span, .copyright a{
     color: #848d9a;
     text-shadow: 0.5px 0.9px 1px white;
     font: 12px DroidSans;
     letter-spacing: 0.014em;
+}
+.copyright span:first-child{
+    margin: 0px 20px 0px 0px;
 }
 .copyright .wp{
     color: #555b63;
@@ -508,6 +529,18 @@ header .lwrap{
 @media (max-width: 920px) {
     .hdr {
         padding: 5px 10px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        padding: 35px 100px 11px 0px;
+    }
+}
+@media (max-width: 810px) {
+    .portfolio{
+        flex-direction: column;
+    }
+    .portfolio article{
+        background: none;
     }
 }
 @media (max-width: 730px) {
@@ -529,6 +562,25 @@ header .lwrap{
     }
     .slider figure:last-child {
         left: -32px;
+    }
+    .about {
+        padding: 0px 10px 32px 10px;
+        flex-wrap: wrap;
+    }
+    .works {
+        padding: 29px 10px 44px 10px;
+    }
+    .works article i {
+        margin: 4px 5px 0px 0px;
+    }
+    .copyright {
+        margin: 0px;
+    }
+}
+@media (max-width: 600px) {
+    .works .grid {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 @media (max-width: 400px) {

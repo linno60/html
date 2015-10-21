@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+}
+.links-social a{
+    margin: 6px;
+}
+.links-social{
+    align-items: center;
+}
+blockquote{
+    color: #f39c12;
+    font: 16px/24px Oswald;
+    text-transform: uppercase;
+}
+.links-nav a{
+    font: 15px/20px Oswald;
+    text-transform: uppercase;
+    color: white;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #f39c12;
+}
+.btn-submit{
+    min-width: 128px;
+    min-height: 42px;
+    background-color: #f39c12;
+    padding: 5px 10px;
+    color: #202020;
+    font: 14px OpenSans;
+}
+.message{
+    max-width: 600px;
+}
+.message p{
+    color: white;
+    font: 14px/21px PTSans;
+}
+.message a{
+    color: #f39c12;    
+    font: 14px PTSans;
+}
+.message a:active, .message a:hover, .message a:focus{
+    text-decoration: underline;
+}
+.message figure{
+    min-width: 58px;
+    margin: 0px 20px 0px 0px;
+}
+.input-wrap, textarea{
+    width: 100%;
+    max-width: 380px;    
+    background-color: #202020;
+    margin: 0px 0px 14px 0px;
+    border: none;
+    color: #848484;
+    font-family: OpenSans;
+    font-size: 14px;
+}
+.input-wrap{
+    height: 36px;
+    padding: 0px 12px;
+}
+textarea{
+    height: 167px;
+    padding: 12px; 
+}
+.input-wrap input{
+    padding: 0px 7px;    
+    border: none;
+    background: none;
+}
+.input-wrap input::-webkit-input-placeholder{
+    color: #848484;
+    font-family: OpenSans;
+    font-size: 14px;
+}
+.input-wrap input::-moz-placeholder{
+    color: #848484;
+    font-family: OpenSans;
+    font-size: 14px;
+}
+.input-wrap input:-ms-input-placeholder{
+    color: #848484;
+    font-family: OpenSans;
+    font-size: 14px;
+}
+.post-details{
+    flex-wrap: wrap;
+}
+.post-details{
+    color: #848484;
+    font: 14px HelveticaNeue;
+}
+.post-details a{
+    color: #f39c12;
+}
+.post-details > span{
+    margin: 0px 20px 0px 0px;
+}
+.post-details i{
+    margin:0px 5px 0px 0px;
+}

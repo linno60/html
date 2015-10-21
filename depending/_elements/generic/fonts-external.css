@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'SignikaNegative';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Signika Negative Light'), local('SignikaNegative-Light'), url(https://fonts.gstatic.com/s/signikanegative/v5/q5TOjIw4CenPw6C-TW06FkYcuY_p1FpnGh_-AVRTy68.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SignikaNegative';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Signika Negative'), local('SignikaNegative-Regular'), url(https://fonts.gstatic.com/s/signikanegative/v5/Z-Q1hzbY8uAo3TpTyPFMXStgOkza8-IgufpcxDXwA4k.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SignikaNegative';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Signika Negative Semibold'), local('SignikaNegative-Semibold'), url(https://fonts.gstatic.com/s/signikanegative/v5/q5TOjIw4CenPw6C-TW06FmXsbhz3CPIl2p9zz1-595g.ttf) format('truetype');
+}
