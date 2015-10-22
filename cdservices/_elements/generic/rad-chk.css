@@ -1,0 +1,8 @@
+.checkbox + label::before,
+.fcheckbox + label::before {
+    width: 16px;
+    height: 16px;
+    background: url(/images/choices/checkbox-on.png);
+}
+.checkbox:checked + label::before,
+.fcheckbox:checked + label::before {background: url(/images/choices/checkbox-off.png);}

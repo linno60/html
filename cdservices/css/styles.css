@@ -1,0 +1,104 @@
+/* ICONS */
+ 
+.icon-arrow1 {width: 11px; height: 7px; background: url('/images/icons/arrow1.png');}
+.icon-arrow2 {width: 9px; height: 5px; background: url('/images/icons/arrow2.png');}
+.icon-db {width: 32px; height: 32px; background: url('/images/icons/db.png');}
+.icon-fb {width: 32px; height: 32px; background: url('/images/icons/fb.png');}
+.icon-rss {width: 32px; height: 32px; background: url('/images/icons/rss.png');}
+.icon-tw {width: 32px; height: 32px; background: url('/images/icons/tw.png');}
+ 
+/* ELEMENTS */
+ 
+a{
+    text-decoration: none;
+}
+.links-nav a{
+    margin: 5px 30px;
+    font: 700 12px Arial;
+    text-transform: uppercase;
+    color: #fe9b00;
+}
+.links-footer a{
+    margin: 0px 5px;
+}
+.links-footer, .links-footer a{
+    color: #5d5d5d;
+    font: 12px/20px Arial;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #090909;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.title, .title-border, .title-sm{
+    text-transform: uppercase;    
+    color: #090909;
+}
+.title, .title-border{
+    font: 700 18px Arial;
+    min-height: 44px;
+}
+.title-border{    
+    border-bottom: 6px solid #090909;    
+}
+.title-border i, .title i, .title-sm i{
+    margin: 0px 10px 0px 0px;
+}
+.title-sm{
+    font: 12px Arial;
+}
+.read{
+    color: #fe9b00;
+    text-transform: uppercase;
+    font: 700 12px Arial;    
+}
+.read i{
+    margin: 0px 10px 0px 0px;
+}
+.view{
+    min-width: 62px;
+    min-height: 21px;
+    color: #090909;
+    text-transform: uppercase;
+    font: 700 12px Arial;
+    padding: 2px 5px;
+    background-color: #fe9b00;
+}
+.view i{
+    margin: 0px 0px 0px 10px;
+}
+p{
+    color: #5d5d5d;
+    font: 12px/20px Arial;
+}
+blockquote{
+    font: 12px Arial;
+}
+blockquote q{
+    color: #5d5d5d;    
+}
+blockquote cite{
+    color: #090909;
+    padding: 20px 0px 0px 0px;
+}
+.fcheckbox + label{
+    align-items: flex-start;
+    color: #5d5d5d;
+    font: 12px/16px Arial;
+}
+.checkbox + label::before,
+.fcheckbox + label::before {
+    width: 16px;
+    height: 16px;
+    margin: 0px 10px 0px 0px;
+    background: url(/images/choices/checkbox-on.png);
+}
+.checkbox:checked + label::before,
+.fcheckbox:checked + label::before {background: url(/images/choices/checkbox-off.png);}
+ 
+/* $------------------------------------------------------------------------- */
+body{
+    border-bottom: 17px solid #090909;
+    background-color: #f4f4f4;
+}

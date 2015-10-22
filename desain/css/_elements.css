@@ -1,0 +1,96 @@
+.form-search{
+    width: 100%;
+    max-width: 250px;
+    background-color: #efefef;
+    border: 1px solid #9c9c9c;
+    box-shadow: 0 1px 1px white;
+    border-radius: 16px;
+}
+.form-search input{
+    width: 85%;
+    color: #c5c3c3;
+    font: italic 14px Georgia;
+    border: none;
+    background: none;
+    padding: 0px 10px 0px 10px;
+}
+.form-search a{
+    height: 32px;
+    width: 35px;
+    background-color: #d7d7d7;
+    border-radius: 0px 16px 16px 0px;
+    border-left: 1px solid #c1c1c1;
+}
+.title-sm, .title-lg{
+    text-shadow: 0 1px 1px white;
+    color: #898484;
+    font: 24px/50px Lobster;
+    background: url("/images/border.png")repeat-x left bottom;
+}
+.title-lg{
+    font: 36px/60px Lobster;
+    text-align: center;
+}
+.title-sm{
+    font: 24px/50px Lobster;
+}
+.links-nav a{
+    color: #898484;
+    font: 14px/18px Georgia;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.lbl-default{
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48), 0 0 5px rgba(0, 0, 0, 0.09);
+    color: white;
+    font: italic 700 13px Georgia;
+    width: auto;
+    background: #70c176;
+    border: 1px solid #70c176;
+    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.3), 2px 4px 5px 0px rgba(0,0,0,0.15);
+    position: relative;
+    width: 95px;  
+    min-height: 29px;  
+    padding: 2px 5px;
+    position: relative;
+    width: 95px;
+}
+.lbl-default:before, .lbl-default:after{
+    content: "";
+    position: absolute;
+}
+.lbl-default:after{    
+    height: 100%;  
+    width: 200%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -1px;
+    background: radial-gradient(circle at center -100%, #fff, transparent, transparent);
+}
+.lbl-default:before{
+    background: url("/images/corner.png");
+    width: 15px;
+    height: 5px;
+    z-index: 1;
+    bottom: -5px;
+    left: 0px;
+}
+p{
+    color: #898484;
+    font: 14px/18px Georgia;
+    text-shadow: 0 1px 1px white;    
+}
+.details{
+    padding: 10px 10px 10px 10px;
+    max-width: 140px; 
+    background-color: #d1d1d1;
+    color: #898484;
+    font: 14px/18px Georgia;
+}
+.details a{
+    color: #898484;
+}
+.details > div{
+    margin: 0px 0px 10px 0px;
+}
