@@ -7,10 +7,10 @@
     <a href="#">contact us</a>
 </nav>
 <div class="hlinks links-social">
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
-    <a href="#"></a>
+    <a href="#"><i class="icon-tw"></i></a>
+    <a href="#"><i class="icon-fb"></i></a>
+    <a href="#"><i class="icon-db"></i></a>
+    <a href="#"><i class="icon-rss"></i></a>
 </div>
 <nav class="hlinks links-footer">
     <a href="#">Home</a>|

@@ -1,0 +1,1 @@
+<a data-flex="row-center" href="#" class="btn btn-view">view<i class="icon-arrow2"></i></a>

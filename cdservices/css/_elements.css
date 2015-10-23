@@ -45,8 +45,9 @@ a{
 .read i{
     margin: 0px 10px 0px 0px;
 }
-.view{
+.btn-view{
     min-width: 62px;
+    max-width: 80px;
     min-height: 21px;
     color: #090909;
     text-transform: uppercase;
@@ -54,7 +55,7 @@ a{
     padding: 2px 5px;
     background-color: #fe9b00;
 }
-.view i{
+.btn-view i{
     margin: 0px 0px 0px 10px;
 }
 p{

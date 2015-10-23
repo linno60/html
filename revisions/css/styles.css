@@ -1,0 +1,208 @@
+/* ICONS */
+
+.icon-fb {width: 62px; height: 62px; background: url('../images/icons/fb.png');}
+.icon-info {min-width: 63px; width: 63px; height: 62px; background: url('../images/icons/info.png');}
+.icon-rss {width: 62px; height: 62px; background: url('../images/icons/rss.png');}
+.icon-tick {min-width: 56px; width: 56px; height: 56px; background: url('../images/icons/tick.png');}
+.icon-tw {width: 62px; height: 62px; background: url('../images/icons/tw.png');}
+
+/* ELEMENTS */
+
+.links-nav a{
+    margin: 0px 12px 0px 15px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.21);
+    color: #190b01;
+    font: 700 24px Calibri;
+    position: relative;
+}
+.links-nav a span{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: #873b11;
+}
+.links-social a{
+    margin: 1px;
+}
+.btn-sm span{   
+    color: #683823;
+    font: 700 18px Calibri;
+    position: relative;
+    text-transform: uppercase;
+}
+.btn-sm span small{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: #4b2616;
+    font: 700 18px Calibri;
+}
+.btn-sm{
+    min-width: 97px;
+    min-height: 37px;
+    padding: 2px 5px;
+    background-image: linear-gradient(to top, #200b02 0%, #351305 100%);
+    border: 1px solid #280e03;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.74);
+}
+.btn-lg span{   
+    color: #78310c;
+    font: 700 30px Calibri;
+    position: relative;
+    text-transform: uppercase;
+}
+.btn-lg span small{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: #b0a7a7;
+    font: 700 30px Calibri;    
+}
+.btn-lg{
+    min-width: 237px;
+    min-height: 67px;
+    background-image: linear-gradient(to top, #2a1408 0%, #51260f 100%);
+    border: 1px solid #51260f;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+    padding: 5px 10px;
+}
+.title{
+    font: 700 24px Calibri;
+    position: relative;
+    color: white;
+    margin: 0px 0px 2px 0px;
+}
+.title span{
+    position: absolute;
+    left: -1px;
+    bottom: 1px;
+    color: #545252;
+}
+.more{
+    color: black;
+    font: 700 14px Calibri;
+}
+
+/* $------------------------------------------------------------------------- */
+a{
+    text-decoration: none;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url("../images/bg.png");
+    background-size: cover;
+}
+.lwrap{
+    max-width: 921px;
+    padding: 0px 50px 0px 10px;
+}
+.content-wrap{
+    background-color: #e5e2e2;
+    border-radius: 8px;
+    position: relative;
+}
+.logo{
+    margin: 0px 0px -14px -11px;
+}
+.links-nav{
+    margin: 0px 10px 38px 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.links-nav > a:first-child {
+    margin-left: 15px;
+}
+header{
+    padding: 79px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+.header{
+    border-radius: 8px 8px 0px 0px;
+    padding: 0px 38px 23px 46px;
+    background: url("../images/light.png"), linear-gradient(to top, #2b1408 0%, #792b02 100%);
+}
+.header > div{
+    width: 40%;
+    padding: 25px 18px 0px 0px;
+}
+.header h2{
+    color: white;
+    font: 700 24px Calibri;
+    margin: 0px 0px 10px 0px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+.header p{
+    color: white;
+    font: 14px/17px Calibri;
+    margin: 0px 0px 27px 0px;
+}
+.header figure{
+    margin: -23px 0px 0px 0px;
+}
+.info-bar{
+    background: url("../images/noise.png"), linear-gradient(to top, #d5d5d4 0%, #e9e9e7 100%);
+}
+.info-bar > div{
+    padding: 27px 34px 24px 24px;
+    width: 50%;
+    border: 1px solid #d5d3d3;
+}
+.info-bar p{
+    color: #2d2d2d;
+    font: 14px/17px Calibri;
+    margin: 0px 7px 5px 0px;
+}
+.info-bar i{
+    margin: 28px 20px 0px 0px;
+}
+.links-social{
+    position: absolute;
+    top: 14px;
+    right: -47px;
+    z-index: -1;
+}
+.grid{
+    margin: 0px 0px 34px 0px;
+}
+.content{
+    padding: 47px 47px 74px 37px;
+}
+.content .title{
+    margin: 0px 0px 35px 15px;
+    width: 100%;
+}
+.content p{
+    color: #545252;
+    font: 14px/17px Calibri;
+    margin: 0px 15px 40px 7px;
+    letter-spacing: -0.001em;
+}
+footer span, footer span a{
+    color: #545252;
+    font: 14px Calibri;
+}
+footer{
+    padding: 17px 0px 84px 0px;
+}
+@media (max-width: 800px) {
+    .header {
+        padding: 0px 10px 23px 10px;
+    }
+}
+@media (max-width: 600px) {
+    .header, .info-bar, .grid {
+        flex-direction: column;
+    }
+    .header figure {
+        margin: 10px 0px 0px 0px;
+    }
+    .header > div, .info-bar > div{
+        width: 100%;
+    }
+}

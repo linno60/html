@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Agenda;
+    src: url('/fonts/agenda.ttf');
+}
+@font-face {
+    font-family: DIN;
+    src: url('/fonts/din.ttf');
+}
+@font-face {
+    font-family: KlavikaLight;
+    src: url('/fonts/klavika-light.otf');
+}
+@font-face {
+    font-family: KlavikaMedium;
+    src: url('/fonts/klavika-medium.otf');
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url('/fonts/MyriadProRegular.ttf');
+}

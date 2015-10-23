@@ -1,0 +1,58 @@
+.links-nav a{
+    margin: 5px 14px;
+    color: #748891;
+    font: 12px Arial;
+}
+.links-social a{
+    margin: 5px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-top a{
+    color: #38515b;
+    font: 18px Klavika;
+    margin: 0px 10px;
+}
+.links-top a{
+    font: 300 18px KlavikaLight;
+}
+.links-top strong{
+    font: 700 18px KlavikaMedium;
+}
+.links-product a{
+    color: #252525;
+    font: 13px/24px DIN;
+    width: 100%;
+    min-height: 27px;
+    justify-content: flex-start;
+    padding: 1px 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.links-product{
+    max-width: 214px;
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+    border-top: 6px solid rgba(0,0,0,.25); 
+    box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33), inset 0 0 18px rgba(0, 0, 0, 0.17);
+}
+.links-product a.active, .links-product a:hover{
+    color: white;   
+    background-image: linear-gradient(to top, #607703 0%, #90a606 100%);
+}
+.links-footer a{
+    color: #7a7979;
+    font: 11px Arial;
+}
+.links-footer a:active,
+.hdr{
+    max-width: 214px;
+    min-height: 42px;
+    box-shadow: inset 0 0 9px rgba(0, 0, 0, 0.75);
+    font: 300 18px KlavikaLight;
+    color: white;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #a60871;
+}

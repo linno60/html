@@ -1,0 +1,75 @@
+.links-nav a{
+    margin: 0px 16px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.21);
+    color: #190b01;
+    font: 700 24px Calibri;
+    position: relative;
+}
+.links-nav a span{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: #873b11;
+}
+.links-social a{
+    margin: 6px;
+}
+.btn-sm span{   
+    color: #683823;
+    font: 700 18px Calibri;
+    position: relative;
+    text-transform: uppercase;
+}
+.btn-sm span small{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: #4b2616;
+    font: 700 18px Calibri;
+}
+.btn-sm{
+    min-width: 95px;
+    min-height: 35px;
+    padding: 2px 5px;
+    background-image: linear-gradient(to top, #200b02 0%, #351305 100%);
+    border: 1px solid #280e03;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.74);
+}
+.btn-lg span{   
+    color: #78310c;
+    font: 700 30px Calibri;
+    position: relative;
+    text-transform: uppercase;
+}
+.btn-lg span small{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: #b0a7a7;
+    font: 700 30px Calibri;    
+}
+.btn-lg{
+    min-width: 237px;
+    min-height: 67px;
+    background-image: linear-gradient(to top, #2a1408 0%, #51260f 100%);
+    border: 1px solid #51260f;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+    padding: 5px 10px;
+}
+.title{    
+    font: 700 24px Calibri;
+    position: relative;
+    color: white;
+}
+.title span{
+    position: absolute;
+    left: -1px;
+    bottom: 1px;
+    color: #545252;
+}
+.more{
+    color: black;
+    font: 700 14px Calibri;
+}
