@@ -1,0 +1,42 @@
+.links-nav a{
+    font: 900 14px Lato;
+    color: silver;
+    margin: 5px 32px; 
+    text-transform: uppercase;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #88d5c2;
+}
+a.btn-default{
+    min-width: 134px;
+min-height: 35px;
+background-color: #ebebeb;
+font: 900 12px Lato;
+    color: #616161;
+    padding: 2px 5px; 
+    text-transform: uppercase;
+}
+.tweet p a{
+    color: #d9d9d9;
+}
+.tweet i{
+    margin: 0px 5px 0px 0px;
+}
+p{
+    font: 14px/24px Merriweather;
+}
+.title{
+    color: #88d5c2;
+font: 900 20px Lato;
+text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+.read{
+    color: #88d5c2;
+font: 12px Merriweather;
+}
+.read:active, .read:hover, .read:focus, .tweet a:active, .tweet a:hover, .tweet a:focus{
+    text-decoration: underline;
+}

@@ -53,16 +53,23 @@
     <a href="#">İletişim</a>
 </div>
 <div class="hlinks links-footer">
-    <a href="#">Ses ve Görüntü Sistemleri</a>
-    <a href="#">Elektrikli Ev Aletleri</a>
-    <a href="#">Uydu Alıcıları</a>
-    <a href="#">Foto ve Kamera</a>
-    <a href="#">Mp3 Player</a>
-    <a href="#">Isıtma ve Soğutma</a>
-    <a href="#">Ofis Makineleri</a>
-    <a href="#">Oyun Konsollar</a>
+    <a href="#">Ses ve Görüntü Sistemleri</a>|
+    <a href="#">Elektrikli Ev Aletleri</a>|
+    <a href="#">Uydu Alıcıları</a>|
+    <a href="#">Foto ve Kamera</a>|
+    <a href="#">Mp3 Player</a>|
+    <a href="#">Isıtma ve Soğutma</a>|
+    <a href="#">Ofis Makineleri</a>|
+    <a href="#">Oyun Konsollar</a>|
+    <a href="#">Hava Temizleme Cihazları</a>|
+    <a href="#">Hava Temizleme Cihazları</a>|
+    <a href="#">Hava Temizleme Cihazları</a>|
     <a href="#">Hava Temizleme Cihazları</a>
-    <a href="#">Hava Temizleme Cihazları</a>
-    <a href="#">Hava Temizleme Cihazları</a>
-    <a href="#">Hava Temizleme Cihazları</a>
+</div>
+<div class="hlinks links-controls">
+    <a href="#"></a>
+    <a href="#" class="active"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
 </div>

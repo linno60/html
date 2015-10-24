@@ -1,10 +1,22 @@
 @font-face {
+    font-family: SegoeScript;
+    src: url('/fonts/segoe-script.ttf');
+}
+@font-face {
     font-family: Agenda;
     src: url('/fonts/agenda.ttf');
 }
 @font-face {
+    font-family: DaxPro;
+    src: url('/fonts/dax.ttf');
+}
+@font-face {
     font-family: DIN;
     src: url('/fonts/din.ttf');
+}
+@font-face {
+    font-family: KlavikaRegular;
+    src: url('/fonts/klavika-regular.otf');
 }
 @font-face {
     font-family: KlavikaLight;
