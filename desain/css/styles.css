@@ -1,18 +1,18 @@
 /* FONTS */
- 
+
 @font-face {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v15/TSDaXhyJuDJ-NBU0popSWA.ttf) format('truetype');
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v15/TSDaXhyJuDJ-NBU0popSWA.ttf) format('truetype');
 }
 
 /* ICONS */
- 
+
 .icon-search {width: 21px; height: 21px; background: url('../images/icons/search.png');}
- 
+
 /* ELEMENTS */
- 
+
 .form-search{
     width: 100%;
     max-width: 250px;
@@ -118,11 +118,11 @@ figure img, .logo img{
 } 
 /* $------------------------------------------------------------------------- */
 .side-wrap{
-    width: 32%;
+    width: 36%;
     background:url("../images/side-bg.png");
 }
 .content-wrap{
-    width: 68%;
+    width: 64%;
 }
 .content{
     max-width: 649px;
@@ -180,9 +180,9 @@ figure img{
     letter-spacing: 0.008em;
 }
 .sidebar p{
-        font: 14px/17px Georgia;
-        letter-spacing: 0.01em;
-        padding: 0px 5px 10px 0px;
+    font: 14px/17px Georgia;
+    letter-spacing: 0.01em;
+    padding: 0px 5px 10px 0px;
 }
 .post-wrap{
     margin: 0px 0px 37px 0px;
@@ -195,16 +195,16 @@ nav{
 }
 .post figure:before,
 .post figure:after {
-        content:"";
-        position:absolute;
-        z-index:-2;
-        bottom: 12px;
-        left: 7px;
-        width:50%;
-        height:20%;
-        max-width:300px;
-        box-shadow:0 15px 10px rgba(0, 0, 0, 0.3);
-        transform:rotate(-3deg);
+    content:"";
+    position:absolute;
+    z-index:-2;
+    bottom: 12px;
+    left: 7px;
+    width:50%;
+    height:20%;
+    max-width:300px;
+    box-shadow:0 15px 10px rgba(0, 0, 0, 0.3);
+    transform:rotate(-3deg);
 }         
 .post figure:after {
     right: 7px;
@@ -216,17 +216,17 @@ nav{
         flex-direction: column;
     }
     .sidebar {
-    padding: 0px 10px 10px 10px;
-}
-.details {
-    margin: 0px 0px 0px 10px;
-}
-.side-wrap {
-    width: 40%;
-}
-.content-wrap {
-    width: 60%;
-}
+        padding: 0px 10px 10px 10px;
+    }
+    .details {
+        margin: 0px 0px 0px 10px;
+    }
+    .side-wrap {
+        width: 40%;
+    }
+    .content-wrap {
+        width: 60%;
+    }
 }
 @media (max-width: 630px) {
     .post-main{

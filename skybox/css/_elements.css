@@ -1,0 +1,62 @@
+.links-social a{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    background-image: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    margin: 2px;
+    border-radius: 50%;
+}
+.links-nav a{
+    font: 500 13px Ubuntu;
+    text-transform: uppercase;
+    color: #636363;
+    margin: 0px 25px;
+    min-height: 23px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #6094b4;
+}
+.links-nav > div{
+    content: "";
+    width: 2px;
+    height: 23px;
+    background: url("/images/nav.png");
+}
+.links-nav{
+    align-items: center;
+    min-height: 50px;
+    background-color: white;
+    background-image: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    padding: 5px 25px;
+}
+.title{
+    min-height: 40px;
+    color: #505050;
+    font: 700 22px Ubuntu;
+    background: url("/images/border.png")repeat-x left bottom;
+}
+.lbl-default{
+    width: 35px;
+    height: 35px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    flex-direction: column;
+    color: #505050;
+    text-transform: uppercase;
+}
+.lbl-default strong{
+    font: 700 19px/18px Ubuntu;
+}
+.lbl-default small{
+    font: 700 10px/11px Ubuntu;
+}
+p{
+    color: #505050;
+    font: 13px/22px Ubuntu;
+}
+p a{
+    color: #6094b4;
+}

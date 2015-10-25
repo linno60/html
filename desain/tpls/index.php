@@ -86,7 +86,7 @@
                         </div>
                     </div>
                 </section>                
-                <section class="post-wrap">
+<!--                <section class="post-wrap">
                     <div class="hdr" data-flex="row--between">
                         <div class="post-side">
                             <div class="lbl lbl-default"><div>Article</div></div>
@@ -123,7 +123,7 @@
                             <p>Proin metus sapien, vulputate sed malesuada at, bibendum eu erat. Duis consequat, sapien eget blandit eleifend, ipsum nisi pulvinar mi, nec aliquam erat lacus non turpis. Etiam eget ligula turpis, vitae pretium sapien. Nunc adipiscing porta volutpat. Integer vulputate mi sit amet libero laoreet nec vehicula urna iaculis. Cras sed turpis vel ante rhoncus vehicula at non mauris. Donec volutpat felis id dolor ornare auctor.</p>
                         </div>
                     </div>
-                </section>
+                </section>-->
             </div>
         </div>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
