@@ -30,6 +30,18 @@
     background: none;
     padding: 0px 10px 0px 18px;
 }
+.form-search input::-webkit-input-placeholder{
+   color: #c5c3c3;
+    font: italic 14px Georgia;
+}
+.form-search input::-moz-placeholder{
+    color: #c5c3c3;
+    font: italic 14px Georgia;
+}
+.form-search input:-ms-input-placeholder{
+    color: #c5c3c3;
+    font: italic 14px Georgia;
+}
 .form-search a{
     height: 30px;
     width: 36px;

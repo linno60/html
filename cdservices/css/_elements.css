@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
 }
+.links-social a {
+    margin: -2px 7px 7px 7px;
+}
 .links-nav a{
     margin: 5px 30px;
     font: 700 12px Arial;

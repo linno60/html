@@ -14,6 +14,18 @@
     background: none;
     padding: 0px 10px 0px 10px;
 }
+.form-search input::-webkit-input-placeholder{
+   color: #c5c3c3;
+    font: italic 14px Georgia;
+}
+.form-search input::-moz-placeholder{
+    color: #c5c3c3;
+    font: italic 14px Georgia;
+}
+.form-search input:-ms-input-placeholder{
+    color: #c5c3c3;
+    font: italic 14px Georgia;
+}
 .form-search a{
     height: 32px;
     width: 35px;
