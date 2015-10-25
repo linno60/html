@@ -138,7 +138,9 @@ body, html {
 .side-wrap{
     width: 36%;    
     position: relative;
-    background:url("../images/side-bg.png");
+    background:url("../images/top.png"), url("../images/side-bg.png") ;
+    background-repeat: repeat-x, repeat;
+    background-position: left top, left top
 }
 .content-wrap{
     width: 64%;
