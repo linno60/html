@@ -59,7 +59,7 @@
                     <div class="post-main" data-flex="row--between">
                         <div class="post-side">
                             <div class="details">
-                                <div data-flex="col">
+                                <div>
                                     <span>Date:</span>
                                     <time>15/03/2010</time>
                                 </div>
@@ -98,7 +98,7 @@
                     <div class="post-main" data-flex="row--between">
                         <div class="post-side">
                             <div class="details">
-                                <div data-flex="col">
+                                <div>
                                     <span>Date:</span>
                                     <time>15/03/2010</time>
                                 </div>

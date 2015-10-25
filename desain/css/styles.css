@@ -124,13 +124,20 @@ p{
 .details > div{
     margin: 0px 0px 17px 0px;
 }
+.details time{
+    display: block;
+}
 figure img, .logo img{
     width: 100%;
     height: 100%;
 } 
 /* $------------------------------------------------------------------------- */
+body, html { 
+    height: 100%;
+}
 .side-wrap{
-    width: 36%;
+    width: 36%;    
+    position: relative;
     background:url("../images/side-bg.png");
 }
 .content-wrap{
