@@ -60,3 +60,110 @@ p{
 p a{
     color: #6094b4;
 }
+.btn-thumb{
+    border-radius: 50%;
+    margin: 1px;
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    background-image: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.05) 100%);
+    border: 3px solid rgba(0, 0, 0, 0.09);
+}
+._content{
+    background-color: whitesmoke;
+    border-radius:0px 5px 5px 5px;
+    padding: 10px 10px 10px;
+}
+._nav a{
+    margin: 0px 5px 0px 0px;
+    min-width: 100px;
+    height: 45px;
+    background-color: #ebebeb;
+    border-radius: 5px 5px 0px 0px;
+    color: #505050;
+    font: 700 15px Ubuntu;
+    padding: 3px;
+}
+._nav a.active, ._nav a:active, ._nav a:hover, ._nav a:focus{
+    color: #6094b4;
+}
+blockquote p{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+blockquote cite{
+    display: block;
+    color: #505050;
+    font: 700 13px/22px Ubuntu;
+    padding: 20px 0px 0px 0px;
+}
+blockquote:nth-child(odd) cite{
+    text-align: right;
+}
+blockquote:nth-child(odd) p:after{
+    right: 40px;
+    border-left: 16px solid transparent; 
+}
+blockquote:nth-child(even) p:after{
+    left: 40px;
+    border-right: 16px solid transparent; 
+}
+blockquote p:after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    border-top: 16px solid #ebebeb;     
+}
+.links-default{
+    padding: 5px 20px 5px 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.links-default a{
+    min-height: 53px;
+    color: #505050;
+    width: 100%;
+    justify-content: flex-start;
+    font: 700 15px Ubuntu;
+    border-top: 1px solid rgba(0,0,0,.11);
+}
+.links-default a:first-child{
+    border: none;
+}
+.links-default a span{
+    color: #6094b4;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+input[type="text"], textarea{
+    width: 219px;
+    margin: 0px 0px 10px 0px;
+    background-color: rgba(0,0,0,.25);
+    margin: 0px 0px 10px 0px;
+    font: 12px Ubuntu;
+    border: none;
+    color: white;
+}
+input[type="text"]{
+    height: 35px;
+    padding: 0px 10px;
+}
+textarea{
+    height: 140px;
+    padding: 10px;
+}
+.btn-submit{
+    min-width: 116px;
+    min-height: 35px;
+    background-color: #5f8197;
+    padding: 2px 10px;
+    background-image: linear-gradient(to top, transparent 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0px 0px 0px 3px rgba(0,0,0,0.09);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.22);
+    color: white;
+    font: 13px Ubuntu;
+}

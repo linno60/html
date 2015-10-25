@@ -61,7 +61,7 @@
     margin: 5px 4px 5px 4px;
 }
 .links-nav a:first-child{
-   margin: 5px 14px 8px 16px;
+    margin: 5px 14px 8px 16px;
 }
 .links-nav{
     justify-content: flex-start;
@@ -810,33 +810,36 @@ footer{
 .fb-like{
     background-color: white;
     padding: 10px 5px 6px 7px;
-    margin: 4px 0px 0px 5px;
+    margin: 4px 0px 0px 4px;
 }
 @media (max-width: 958px) {
     .cart{
         min-width: 160px;
     }
     .login-wrap {
-    margin: 0px 25px 0px 0px;
-}
-.shopping-cart {
-    padding: 9px 5px 14px 5px;
-}
-.grid{
-    justify-content: space-around;
-}
+        margin: 0px 25px 0px 0px;
+    }
+    .shopping-cart {
+        padding: 9px 5px 14px 5px;
+    }
+    .grid{
+        justify-content: space-around;
+    }
 }
 @media (max-width: 900px) {
     .offer-wrap{
-    flex-wrap: wrap;
-}
-.slider, .offers{
-    width:100%;
-}
-.offers{
-    padding: 40px 0px 0px 0px;
-}
-.slider:after{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .slider, .offers{
+        width:100%;
+        max-width: 490px;
+    }
+    .offers{
+        padding: 40px 0px 0px 0px;
+    }
+    .slider:after{
         bottom: -20px;
     }
 }
@@ -858,27 +861,27 @@ footer{
         min-width: 300px;
         margin: 0px 5px 20px 5px;
     }
-    
+
 }
 @media (max-width: 550px) {
-  .tweet {
-    margin: 27px 0px 40px 14px;
-}
+    .tweet {
+        margin: 27px 0px 40px 14px;
+    }
 }
 @media (max-width: 440px) {
     .links-controls {
-    padding: 5px 20px;
-}
+        padding: 5px 20px;
+    }
 }
 @media (max-width: 340px) {
-.shopping-cart{
-    flex-wrap: wrap;
-    margin: 0px 10px 0px 0px;
-}
-.btn-cart{
-    margin: 5px 0px 0px 0px;
-}
-.search-wrap {
-    width: 240px;
-}
+    .shopping-cart{
+        flex-wrap: wrap;
+        margin: 0px 10px 0px 0px;
+    }
+    .btn-cart{
+        margin: 5px 0px 0px 0px;
+    }
+    .search-wrap {
+        width: 240px;
+    }
 }

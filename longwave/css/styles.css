@@ -3,12 +3,6 @@
 @font-face {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(https://fonts.gstatic.com/s/lato/v11/zJY4gsxBiSo5L7tNutxFNg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
   font-weight: 300;
   src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
 }
@@ -21,20 +15,8 @@
 @font-face {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
   font-weight: 900;
   src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/4cKlrioa77J2iqTqBgkRWg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 100;
-  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(https://fonts.gstatic.com/s/lato/v11/gc5ZVKiLNkRdGlU3GaSVBfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lato';
@@ -47,18 +29,6 @@
   font-style: italic;
   font-weight: 400;
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 900;
-  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v11/VNUH7ZAcagYBWsAiBBCEY6CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
 }
  
 @font-face {
@@ -116,7 +86,7 @@ a.btn-default{
 }
 p{
     font: 17px/24px Merriweather;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
 }
 .title{
     color: #88d5c2;
@@ -199,7 +169,7 @@ box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(0, 0, 0, 0.07);
     padding: 45px 0px 0px 0px;
 }
 .articles > article{
-    width: 49%;
+    width: 47.5%;
     margin: 0px 0px 48px 0px;
 }
 .articles > article > div{
@@ -240,11 +210,11 @@ footer{
 .footer p{
     color: #d9d9d9;
     margin: 0px 0px 24px 0px;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.06em;
     font: 16px/24px Merriweather;
 }
 footer address{
-    max-width: 210px;
+    max-width: 250px;
     margin: 24px 0px 0px 0px;
 }
 footer address div{
@@ -254,6 +224,7 @@ footer address div{
 footer p, footer p a, footer address a, footer address span{
     color: #d9d9d9;
     font: 15px/24px Merriweather;
+    letter-spacing: 0.06em;
 }
 .footer > div {
     flex: 1;
@@ -270,6 +241,9 @@ footer p, footer p a, footer address a, footer address span{
 @media (max-width: 700px) {
   .articles > article {
     width: 100%;
+}
+.links-nav a, .links-nav a:first-child {
+    margin: 5px 10px;
 }
 }
  
