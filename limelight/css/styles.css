@@ -1,0 +1,244 @@
+/* FONTS */
+
+@font-face {
+    font-family: NexaBold;
+    src: url('/fonts/Nexa Bold.otf');
+}
+@font-face {
+    font-family: NexaSlab;
+    src: url('/fonts/Nexa Slab Bold.otf');
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('/fonts/proximanova-regular.otf');
+}
+
+/* ICONS */
+
+.icon-arrow-alt {width: 12px; height: 16px; background: url('/images/icons/arrow-alt.png');}
+.icon-arrow-more {width: 23px; height: 22px; background: url('/images/icons/arrow-more.png');}
+.icon-arrow {width: 12px; height: 19px; background: url('/images/icons/arrow.png');}
+.icon-comment {width: 14px; height: 13px; background: url('/images/icons/comment.png');}
+.icon-download {width: 13px; height: 12px; background: url('/images/icons/download.png');}
+.icon-eye {width: 22px; height: 12px; background: url('/images/icons/eye.png');}
+.icon-fb {width: 11px; height: 19px; background: url('/images/icons/fb.png');}
+.icon-gp {width: 17px; height: 16px; background: url('/images/icons/gp.png');}
+.icon-home {width: 14px; height: 12px; background: url('/images/icons/home.png');}
+.icon-logo {width: 34px; height: 33px; background: url('/images/icons/logo.png');}
+.icon-pin {width: 16px; height: 21px; background: url('/images/icons/pin.png');}
+.icon-quote1 {width: 23px; height: 20px; background: url('/images/icons/quote1.png');}
+.icon-quote2 {width: 24px; height: 20px; background: url('/images/icons/quote2.png');}
+.icon-tw {width: 19px; height: 16px; background: url('/images/icons/tw.png');}
+.icon-tweet {width: 18px; height: 15px; background: url('/images/icons/tweet.png');}
+
+/* ELEMENTS */
+
+a{
+    text-decoration: none;
+}
+.links-nav a{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 12px;
+    margin: 5px 20px;
+    position: relative;
+}
+.links-nav, .links-footer, .links-social{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.links-nav a:after{    
+    width: 10px;
+    height: 9px;
+    background-color: #86c840;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -30px;
+    cursor: default;
+}
+.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
+    content: "";
+}
+.links-social a{
+    width: 40px;
+    height: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    margin: 5px;
+}
+.links-footer a{
+    color: #555;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 5px 15px;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+input[type="email"]::-webkit-input-placeholder{
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 16px;
+}
+input[type="email"]::-moz-placeholder{
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 16px;
+}
+input[type="email"]:-ms-input-placeholder{
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 16px;
+}
+input[type="email"]{
+    color: #333;
+    font-family: ProximaNova;
+    font-size: 16px;
+    width: 251px;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding: 0px 13px;
+}
+.btn-default{
+    min-width: 105px;
+    min-height: 37px;
+    background-color: #86c840;
+    border-radius: 2px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 2px 5px;
+}
+.btn-arrow{
+    width: 32px;
+    height: 32px;
+    background-color: #86c840;
+    border-radius: 50%;
+}
+hgroup{
+    border-left: 6px solid #86c840;
+    padding: 0px 0px 0px 20px;
+}
+hgroup h2{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+hgroup span{
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.figcaption{
+    background-color: rgba(34,34,34,.85);
+    padding: 5px 5px 5px 5px;
+    border-radius: 0px 0px 3px 3px;
+    min-height: 40px;
+}
+.figcaption time, .figcaption a{
+    color: white;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 8px 0px 0px;
+}
+.figcaption i{
+    margin: 0px 3px 0px 0px;
+}
+.lbl-default{
+    min-width: 46px;
+    height: 46px;
+    background-color: #86c840;
+    border-radius: 50%;
+}
+blockquote q{
+    color: #111;
+    font-family: ProximaNova;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 800px;
+    padding: 10px;
+}
+.more{
+    color: #222;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.more i{
+    margin: 0px 5px 0px 0px;
+}
+
+/* $------------------------------------------------------------------------- */
+figure img{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0px 10px;
+}
+header .lwrap{
+    padding: 20px 10px 50px 10px;
+}
+.logo{
+    font-family: NexaBold;
+    font-size: 24px;
+    color: #86c840;
+    text-transform: uppercase;
+}
+.logo span{
+    color: #222; 
+}
+.logo i{
+    margin: 0px 5px 0px 0px;
+}
+.signup-wrap{
+    background-color: #f7f7f7;
+}
+.signup-wrap .lwrap{
+    padding: 30px 10px 30px 10px;
+}
+.signup{
+    max-width: 380px;
+}
+.signup h1{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 0px 0px 10px 0px;
+}
+.signup p{
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 0px 30px 0px;
+}
+.signup form label{
+    color: #aaa;
+    font-family: ProximaNova;
+    line-height: 24px;
+    margin: 0px 0px 5px 0px;
+}
+.signup form input{
+    margin: 0px 5px 0px 0px;
+}

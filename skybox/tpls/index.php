@@ -64,9 +64,19 @@
         </div>
         <div class="projects">
             <div class="lwrap">
-                <h3 class="title">Latest Stuff from Our Projects</h3> 
+                <div class="hdr" data-flex="row-center-between">
+                    <h3 class="title">Latest Stuff from Our Projects</h3>
+                    <div class="btns" data-flex>
+                        <a href="#" class="btn btn-thumb"><i class="icon-prev"></i></a>
+                        <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
+                    </div>
+                </div>
+            </h3>
             </div>
             <div data-flex="row--center">
+                <figure data-flex>
+                    <img src="images/img5.png" width="216" height="250" alt="">
+                </figure> 
                 <figure data-flex>
                     <img src="/images/img1.png" width="290" height="250" alt="">
                 </figure>
@@ -81,6 +91,9 @@
                 </figure>
                 <figure data-flex>
                     <img src="/images/img5.png" width="216" height="250" alt="">
+                </figure> 
+                <figure data-flex>
+                    <img src="images/img5.png" width="216" height="250" alt="">
                 </figure> 
             </div>
         </div>
@@ -111,8 +124,7 @@
                     </article>
                 </div>
             </div>
-            <div class="testimonials">                
-                <div class="grid" data-flex="row--between">
+            <div class="testimonials" data-flex="row--between">                
                     <div>
                         <h3 class="title">Where You Can Find Us</h3>
                         <div class="tabs">
@@ -154,10 +166,15 @@
                             </blockquote> 
                         </div>
                     </div>   
-                </div>
             </div>
             <div class="about">
-                <h3 class="title">General Process of Our Works</h3> 
+                <div class="hdr" data-flex="row-center-between">
+                    <h3 class="title">General Process of Our Works</h3>
+                    <div class="btns" data-flex>
+                        <a href="#" class="btn btn-thumb"><i class="icon-prev"></i></a>
+                        <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
+                    </div>
+                </div>
                 <div class="grid" data-flex="row-start-between">
                     <div class="links links-default">
                         <a href="#"><span>01.&nbsp;</span>Inceptos Parturient</a>
@@ -194,23 +211,20 @@
                         <time>22 May, 2012</time>
                     </div>
                     <div class="post">
-                        <p><a href="#">Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, </a></p>
+                        <p><a href="#">Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce </a></p>
                         <time>15 July, 2012</time>
                     </div>
                 </div>
                 <div>
                     <h5>Twitter</h5>
                     <div class="tweet">
-                        <p><a href="#">Praesent commodo cursus magna Morbi leo risus nulla consectetur.</a></p>
-                        <time><span>- </span>21 hours ago</time>
+                        <p><a href="#">Praesent commodo cursus magna Morbi leo risus nulla consectetur.</a> <time> <span> - </span>21 hours ago</time></p>                        
                     </div>
                     <div class="tweet">
-                        <p><a href="#">Vestibulum id ligula porta euismod semper. auctor dolor fermentum. </a></p>
-                        <time><span>- </span>2 hours ago</time>
+                        <p><a href="#">Vestibulum id ligula porta euismod semper. auctor dolor fermentum. </a><time><span>- </span>2 days ago</time></p>                        
                     </div>
                     <div class="tweet">
-                        <p><a href="#">Donec ullamcorper nulla non metus auctor. - </a></p>
-                        <time><span>- </span>3 hours ago</time>
+                        <p><a href="#">Donec ullamcorper nulla non metus auctor. </a><time><span>- </span>3 days ago</time></p>                        
                     </div>
                 </div>
                 <div>
@@ -230,7 +244,7 @@
             </div>
             <div class="copyright">
                 <div class="lwrap" data-flex="row-center">
-                    <span>&copy; 2012 Skybox. Theme by elemis <a href="#"> elemis</a></span>
+                    <span>&copy; 2012 Skybox. Theme by <a href="#"> elemis</a></span>
                 </div>
             </div>
         </footer>

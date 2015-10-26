@@ -1,0 +1,12 @@
+@font-face {
+    font-family: NexaBold;
+    src: url('/fonts/Nexa Bold.otf');
+}
+@font-face {
+    font-family: NexaSlab;
+    src: url('/fonts/Nexa Slab Bold.otf');
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('/fonts/proximanova-regular.otf');
+}
