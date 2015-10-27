@@ -2,39 +2,43 @@
 
 @font-face {
     font-family: NexaBold;
-    src: url('/fonts/Nexa Bold.otf');
+    src: url('../fonts/Nexa Bold.otf');
 }
 @font-face {
     font-family: NexaSlab;
-    src: url('/fonts/Nexa Slab Bold.otf');
+    src: url('../fonts/Nexa Slab Bold.otf');
 }
 @font-face {
     font-family: ProximaNova;
-    src: url('/fonts/proximanova-regular.otf');
+    src: url('../fonts/proximanova-regular.otf');
 }
 
 /* ICONS */
 
-.icon-arrow-alt {width: 12px; height: 16px; background: url('/images/icons/arrow-alt.png');}
-.icon-arrow-more {width: 23px; height: 22px; background: url('/images/icons/arrow-more.png');}
-.icon-arrow {width: 12px; height: 19px; background: url('/images/icons/arrow.png');}
-.icon-comment {width: 14px; height: 13px; background: url('/images/icons/comment.png');}
-.icon-download {width: 13px; height: 12px; background: url('/images/icons/download.png');}
-.icon-eye {width: 22px; height: 12px; background: url('/images/icons/eye.png');}
-.icon-fb {width: 11px; height: 19px; background: url('/images/icons/fb.png');}
-.icon-gp {width: 17px; height: 16px; background: url('/images/icons/gp.png');}
-.icon-home {width: 14px; height: 12px; background: url('/images/icons/home.png');}
-.icon-logo {width: 34px; height: 33px; background: url('/images/icons/logo.png');}
-.icon-pin {width: 16px; height: 21px; background: url('/images/icons/pin.png');}
-.icon-quote1 {width: 23px; height: 20px; background: url('/images/icons/quote1.png');}
-.icon-quote2 {width: 24px; height: 20px; background: url('/images/icons/quote2.png');}
-.icon-tw {width: 19px; height: 16px; background: url('/images/icons/tw.png');}
-.icon-tweet {width: 18px; height: 15px; background: url('/images/icons/tweet.png');}
+.icon-arrow-alt {width: 12px; height: 16px; background: url('../images/icons/arrow-alt.png');}
+.icon-arrow-more {width: 23px; height: 22px; background: url('../images/icons/arrow-more.png');}
+.icon-arrow {width: 12px; height: 19px; background: url('../images/icons/arrow.png');}
+.icon-comment {width: 14px; height: 13px; background: url('../images/icons/comment.png');}
+.icon-download {width: 13px; height: 12px; background: url('../images/icons/download.png');}
+.icon-eye {width: 22px; height: 12px; background: url('../images/icons/eye.png');}
+.icon-fb {width: 11px; height: 19px; background: url('../images/icons/fb.png');}
+.icon-gp {width: 17px; height: 16px; background: url('../images/icons/gp.png');}
+.icon-home {width: 14px; height: 12px; background: url('../images/icons/home.png');}
+.icon-logo {width: 34px; height: 33px; background: url('../images/icons/logo.png');}
+.icon-pin {width: 16px; height: 21px; background: url('../images/icons/pin.png');}
+.icon-quote1 {width: 23px; height: 20px; background: url('../images/icons/quote1.png');}
+.icon-quote2 {width: 24px; height: 20px; background: url('../images/icons/quote2.png');}
+.icon-tw {width: 19px; height: 16px; background: url('../images/icons/tw.png');}
+.icon-tweet {min-width: 18px; width: 18px; height: 15px; background: url('../images/icons/tweet.png');}
 
 /* ELEMENTS */
 
 a{
     text-decoration: none;
+}
+.links-nav, .links-social, .links-footer{
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .links-nav a{
     color: #222;
@@ -42,22 +46,22 @@ a{
     font-size: 16px;
     font-weight: 700;
     line-height: 12px;
-    margin: 5px 20px;
+    margin: 5px 20px 1px 20px;
     position: relative;
 }
 .links-nav, .links-footer, .links-social{
     flex-wrap: wrap;
     align-items: center;
 }
-.links-nav a:after{    
-    width: 10px;
+.links-nav a:after{
+    width: 9px;
     height: 9px;
     background-color: #86c840;
     border-radius: 50%;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: -30px;
+    bottom: -18px;
     cursor: default;
 }
 .links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
@@ -70,6 +74,9 @@ a{
     border-radius: 50%;
     margin: 5px;
 }
+.links-social a:first-child{
+    margin: 5px;
+}
 .links-footer a{
     color: #555;
     font-family: ProximaNova;
@@ -77,6 +84,7 @@ a{
     font-weight: 600;
     line-height: 22px;
     margin: 5px 15px;
+    letter-spacing: -0.015em;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
@@ -104,8 +112,9 @@ input[type="email"]{
     height: 37px;
     border: 1px solid #ccc;
     padding: 0px 13px;
+    letter-spacing: -0.02em;
 }
-.btn-default{
+.btn-default, a.btn-default{
     min-width: 105px;
     min-height: 37px;
     background-color: #86c840;
@@ -118,33 +127,39 @@ input[type="email"]{
     text-transform: uppercase;
     padding: 2px 5px;
 }
+.btn-default i{
+    margin: 0px -3px 0px 15px;
+}
 .btn-arrow{
-    width: 32px;
+    min-width: 32px;
     height: 32px;
     background-color: #86c840;
     border-radius: 50%;
+    margin: 0px 0px 5px 0px;
 }
 hgroup{
     border-left: 6px solid #86c840;
-    padding: 0px 0px 0px 20px;
+    padding: 1px 0px 2px 18px;
 }
 hgroup h2{
     color: #222;
     font-family: NexaSlab;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 43px;
+    letter-spacing: -0.025em;
 }
 hgroup span{
     color: #aaa;
     font-family: ProximaNova;
     font-size: 16px;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 15px;
+    letter-spacing: -0.015em;
 }
 .figcaption{
     background-color: rgba(34,34,34,.85);
-    padding: 5px 5px 5px 5px;
+    padding: 6px 0px 5px 11px;
     border-radius: 0px 0px 3px 3px;
     min-height: 40px;
 }
@@ -153,10 +168,10 @@ hgroup span{
     font-family: ProximaNova;
     font-size: 12px;
     font-weight: 600;
-    margin: 0px 8px 0px 0px;
+    margin: 0px 15px 0px 0px;
 }
 .figcaption i{
-    margin: 0px 3px 0px 0px;
+    margin: 0px 4px 0px 0px;
 }
 .lbl-default{
     min-width: 46px;
@@ -170,8 +185,10 @@ blockquote q{
     font-size: 28px;
     font-weight: 300;
     text-align: center;
-    max-width: 800px;
-    padding: 10px;
+    max-width: 780px;
+    padding: 12px 10px 10px 10px;
+    line-height: 39px;
+    letter-spacing: -0.032em;
 }
 .more{
     color: #222;
@@ -181,7 +198,7 @@ blockquote q{
     line-height: 20px;
 }
 .more i{
-    margin: 0px 5px 0px 0px;
+    margin: -1px 8px 0px 0px;
 }
 
 /* $------------------------------------------------------------------------- */
@@ -194,9 +211,11 @@ figure img{
     padding: 0px 10px;
 }
 header .lwrap{
-    padding: 20px 10px 50px 10px;
+    padding: 33px 10px 82px 10px;
+    flex-wrap: wrap;
 }
 .logo{
+    margin: 0px 10px 0px 0px;
     font-family: NexaBold;
     font-size: 24px;
     color: #86c840;
@@ -212,7 +231,7 @@ header .lwrap{
     background-color: #f7f7f7;
 }
 .signup-wrap .lwrap{
-    padding: 30px 10px 30px 10px;
+    padding: 75px 10px 79px 8px;
 }
 .signup{
     max-width: 380px;
@@ -222,8 +241,9 @@ header .lwrap{
     font-family: NexaSlab;
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
-    margin: 0px 0px 10px 0px;
+    line-height: 47px;
+    margin: 0px 0px 9px 0px;
+    letter-spacing: -0.023em;
 }
 .signup p{
     color: #aaa;
@@ -231,14 +251,271 @@ header .lwrap{
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 35px 3px;
+    letter-spacing: -0.017em;
 }
 .signup form label{
     color: #aaa;
     font-family: ProximaNova;
     line-height: 24px;
-    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 10px 3px;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    display: inline-block;
 }
 .signup form input{
-    margin: 0px 5px 0px 0px;
+    margin: 0px 6px 0px 2px;
+}
+.freebies{
+    padding: 85px 10px 80px 10px;
+}
+.freebies .grid{
+    flex-wrap: wrap;
+}
+.freebies figure{
+    position: relative;
+}
+.freebies .figcaption{
+    position: absolute;
+    width: 96.3%;
+    left: 7px;
+    bottom: 5px;
+    display: none;
+}
+.freebies figure:hover .figcaption{
+    display: flex;
+}
+.figure-title{
+    padding: 19px 16px 24px 15px;
+}
+.figure-title h4{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 16px;
+    font-weight: 700;
+}
+.figure-title h4 span{
+    font-family: NexaBold;
+    color: #222;
+}
+.figure-title span{
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.freebies .grid + .btn-default{
+    margin: auto;
+    min-width: 200px;
+    min-height: 40px;
+    letter-spacing: 0.02em;
+}
+.freebies .grid{
+    margin: -12px;
+    padding: 56px 0px 19px 0px;
+}
+.freebies .grid > div{
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+}
+.statement{
+    background-color: #f1f1f1;
+}
+.statement .lwrap{
+    min-height: 149px;
+}
+.news article h2{
+    margin: 0px 0px 8px 0px;
+    color: #111;
+    font-family: NexaSlab;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.022em;
+}
+.news h2 span{
+    font-family: NexaBold;
+}
+.news hgroup{
+    margin: 0px 0px 76px 0px;
+}
+.news article{
+    padding: 0px 0px 80px 0px;
+}
+.news article > div{
+    width: 70%;
+    padding: 0px 0px 0px 7px;
+}
+.news article > figure{
+    width: 27%;
+    padding: 0px 2px 0px 0px;
+}
+.news{
+    padding: 85px 10px 2px 10px;
+}
+.caption{
+    flex-wrap: wrap;
+    color: #aaa;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 27px 0px;
+    letter-spacing: 0.01em;
+}
+.news p{
+    color: #222;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px 5px 17px 1px;
+    letter-spacing: -0.025em;
+}
+.dot{
+    min-width: 5px;
+    height: 5px;
+    background-color: #86c840;
+    margin: 5px 17px;
+    border-radius: 50%;
+}
+.footer h5{
+    color: white;
+    font-family: NexaSlab;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 0px 17px 0px;
+    letter-spacing: -0.02em;
+}
+footer{
+    background-color: #222;
+}
+.tweet i{
+    margin: 3px 7px 0px 0px;
+}
+.footer > div{
+    width: 46.9%;
+}
+.footer p{
+    color: #eee;
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0px 21px 0px;
+    letter-spacing: -0.025em;
+}
+.footer figure{
+    width: 32%;
+    padding: 5px 1px 0px 0px;
+}
+.footer article > div{
+    width: 62%;
+    padding: 0px 0px 0px 3px;
+}
+.tweet{
+    color: gainsboro;
+    font-family: ProximaNova;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 2px 0px 9px 0px;
+}
+.tweet p{   
+    line-height: 20px;
+    margin: 0px 0px 0px 0px;letter-spacing: -0.01em;}
+.tweet a{
+    font-weight: 600;
+    color: gainsboro;
+    margin: 0px 0px 2px 1px;
+}
+.tweet time{
+    font-size: 12px;
+}
+footer .lwrap{
+    padding: 49px 10px 34px 10px;
+}
+.copyright{
+    background-color: #fff;
+}
+.copyright .lwrap{
+    min-height: 112px;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+.copyright span{
+    color: #555;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.016em;
+    line-height: 22px;
+    padding: 0px 0px 0px 48px;
+}
+.copyright .links-social{
+    padding: 0px 0px 2px 10px;
+}
+.footer .btn-default{
+    min-width: 141px;
+    min-height: 30px;
+    font-size: 13px;
+}
+@media (max-width: 800px) {
+    .links-nav a {
+        margin: 5px 10px 1px 10px;
+    }
+    .copyright span {
+        padding: 0px 0px 0px 10px;
+    }
+}
+@media (max-width: 500px) {
+    .links-nav a {
+        margin: 5px 10px 20px 10px;
+    }
+    header .lwrap {
+        padding: 33px 10px 30px;
+    }
+    .links-nav{
+        flex-direction: column;
+    }
+    header .lwrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .links-nav > a:first-child {
+        margin-left: 10px;
+    }
+    .news article > figure {
+        width: 35%;
+    }
+    .news article > div {
+        width: 65%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer > div {
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+    }
+    .links-footer a:first-child{
+        margin: 5px 15px;
+    }
+}
+@media (max-width: 400px) {
+    .news article > figure {
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+    }
+    .news article > div {
+        width: 100%;
+        padding: 0px;
+    }
+    .news article{
+        flex-direction: column;
+    }
+}
+@media (max-width: 330px) {
+    input[type="email"] {
+        width: 190px;
+    }
 }

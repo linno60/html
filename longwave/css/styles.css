@@ -239,11 +239,11 @@ footer p, footer p a, footer address a, footer address span{
     flex-wrap: wrap;
 }
 @media (max-width: 700px) {
-  .articles > article {
-    width: 100%;
-}
-.links-nav a, .links-nav a:first-child {
-    margin: 5px 10px;
-}
+    .articles > article {
+        width: 100%;
+    }
+    .links-nav a, .links-nav a:first-child {
+        margin: 5px 10px;
+    }
 }
  

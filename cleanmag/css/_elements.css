@@ -1,0 +1,172 @@
+a{
+    text-decoration: none;
+}
+.links-social a{
+    margin: 1px 5px 1px 5px;
+}
+.links-social, .links-nav, .links-top{
+    flex-wrap: wrap;
+}
+.links-top a, .links-default a{
+    color: #373737;
+    font-family: Arial;
+    font-size: 13px;
+}
+.links-top a{
+    margin: 5px 30px 5px 0px;
+}
+.links-default a{
+    margin: 5px 0px 5px 0px;
+}
+.nav{
+    background-image: linear-gradient(to top, #d0380c 0%, #ff7121 100%);
+    border-bottom: 1px solid #ba1706;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{   
+    background-image: linear-gradient(to top, #b42800 0%, #d84210 100%);
+    border-right: 1px solid #ba1706;
+    border-left: 1px solid #ba1706;
+}
+.links-top a:active, .links-top a:hover, .links-top a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{   
+    text-decoration: underline;
+}
+.links-nav a{
+    min-height: 46px;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    padding: 5px 20px;
+}
+.pagination-slider a{
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    background-color: #eb4900;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-slider a.active, .pagination-slider a:active, .pagination-slider a:hover, .pagination-slider:focus{
+    color: #373737;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #e6e6e6;
+}
+.pagination a, .pagination span{
+    color: #868686;
+    margin: 5px 10px;
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: 700;
+}
+.pagination a:active, .pagination a:hover, .pagination a:focus{
+    color: #eb4900;
+}
+.more{
+    color: #eb4900;
+    font-size: 13px;
+    font-family: Arial;
+}
+.more:active, .more:hover, .more:focus, .article-link a:active, .article-link a:hover, .article-link a:focus{
+    text-decoration: underline;
+}
+.article-link a{
+    color: #eb4900;
+    margin: 0px 0px 0px 5px;
+}
+.article-link{
+    font-family: Arial;
+    font-size: 11px;
+}
+.article-link span{
+    color: #1450a3;
+}
+.article-link time{
+    color: #868686;
+}
+.title{
+    border-bottom: 7px solid #e6e6e6;
+    color: #01b2bf;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-submit{
+    min-width: 119px;
+    min-height: 33px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-image: linear-gradient(to top, #d5d5d5 0%, #f4f4f4 100%);
+    border: 1px solid #d8d8d8;
+    color: #eb4900;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form-search{
+    border: 5px solid #e6e6e6;
+    background-color: #fff;
+    padding: 0px 3px 0px 0px;
+    max-width: 300px;
+}
+input[type="search"]{
+    padding: 0px 3px;
+    border: none;
+    height: 27px;
+    width: 90%;
+}
+input[type="email"]{
+    max-width: 203px;
+    width: 90%;
+    height: 37px;
+    background-color: white;
+    border: 1px solid silver;
+    padding: 0px 8px;
+}
+input[type="email"], input[type="search"]{
+    color: black;
+}
+input[type="email"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder {
+    color: #535353;
+    font-family: Arial;
+    font-size: 12px;
+}
+input[type="email"]::-moz-placeholder, input[type="search"]::-moz-placeholder {
+    color: #535353;
+    font-family: Arial;
+    font-size: 12px;
+}
+input[type="email"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder {
+    color: #535353;
+    font-family: Arial;
+    font-size: 12px;
+}
+.lbl-default{
+    min-width: 154px;
+    min-height: 28px;
+    background-image: linear-gradient(to top, #00b4bf 0%, #00d8ef 100%);
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding: 2px 5px;
+}
+.lbl-default:after{
+    content: "";
+    position: absolute;
+    border-top: 10px solid #007880; 
+    border-left: 12px solid transparent; 
+    bottom: -10px;
+    left: 0px;
+}

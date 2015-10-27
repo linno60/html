@@ -1,0 +1,1 @@
+<button><span  class='btn btn-submit'>+ submit news</span></button>
