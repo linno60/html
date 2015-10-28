@@ -92,11 +92,15 @@
         
         <script src="/js/jquery/plugins/GFX_tabs/jquery.gfx_tabs.js"></script>
         <script src="/_elements/core/js/plugins/tooltipster/js/jquery.tooltipster.min.js"></script>
+        
+        <script src="/js/jquery/plugins/pxgradient-1.0.3.js"></script>
 
         <script src="/_elements/core/js/tooltips.js"></script>
         <script src="/_elements/core/js/index.js"></script>
         
         <script src="/_elements/generic/js.js"></script>
+        
+        
         
     </body>
 </html>

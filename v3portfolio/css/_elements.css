@@ -1,0 +1,64 @@
+.links-social a{
+    margin: 5px 4px 5px 5px;
+}
+.links-nav > a{
+    margin: 5px 38px;
+    min-height: 62px;
+    color: silver;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.links-nav a.logo{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo-wrap{
+    width: 120px;    
+}
+.links-nav{
+    position: relative;     
+}
+.links-default a{
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 24px;
+    color: #515151;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+a.btn-default{
+    position: relative;
+    min-width: 180px;
+    min-height: 42px;
+    color: #b60000;
+    font-family: Museo;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-image: linear-gradient(to top, #020202 0%, #535353 4%, #505050 6%, #c9c9c9 35%, white 100%);
+}
+.btn-default:before{
+    content: "";
+    width: 115%;
+    height: 22px;
+    position: absolute;
+    background: url("/images/btn-shadow.png")no-repeat center center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    z-index: -1;
+}
+.btn-anchor{
+    width: 29px;
+    height: 29px;
+    background-image: linear-gradient(to top, #161616 0%, #161616 100%);
+    border: 1px solid #212121;
+    box-shadow: inset 0 0 14px 6px black;
+    border-radius: 50%;
+}
