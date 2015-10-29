@@ -14,23 +14,27 @@
                 <div class="lwrap">
                     <a href="#" class="logo"><img src="/images/logo.png" width="214" height="114" alt=""></a>
                     <nav class="hlinks links-nav">
-                        <a href="#" class="active">home</a>
-                        <a href="#">about</a>
-                        <a href="#">portfolio</a>
-                        <div class="logo-wrap"></div>
-                        <a href="#">services</a>
-                        <a href="#">blog</a>
-                        <a href="#">contact</a>
+                        <a href="#" class="active"><span>home</span></a>
+                        <a href="#"><span>about</span></a>
+                        <a href="#"><span>portfolio</span></a>
+                        <div class="logo-wrap">
+                            <a href="#" class="logo"><img src="/images/logo.png" width="214" height="114" alt=""></a>
+                        </div>
+                        <a href="#"><span>services</span></a>
+                        <a href="#"><span>blog</span></a>
+                        <a href="#"><span>contact</span></a>
                     </nav>
                 </div>
             </div>
             <div class="header">
                 <div class="lwrap" data-flex="col-center-center">
-                    <h1>
-                        <small>Hello I am Rafi, a</small><br>
-                        <span>Graphic adn Web Desinger</span>
+                     <h2 data-text="Hello I am Rafi, a">                        
+                        <span>Hello I am Rafi, a</span>
+                    </h2>
+                    <h1  data-text="Graphic and Web Desinger">                        
+                        <span>Graphic and Web Desinger</span>
                     </h1>
-                    <a href="#" class="btn btn-default">Hire Me</a>
+                    <a href="#" class="btn btn-default"><span>Hire Me</span></a>
                 </div> 
             </div>
         </header>
@@ -74,11 +78,11 @@
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>  
         <footer>   
             <div class="footer">
                 <div class="lwrap" data-flex="row--between">
-                    <div data-flex>
+                    <div data-flex="row-start">
                         <figure data-flex>
                             <img src="/images/cup.png" width="140" height="113" alt="">
                         </figure>
@@ -92,8 +96,8 @@
                         </div>
                     </div>
                     <div>
-                        <h2>Thank You!</h2>
-                        <a href="#" class="btn btn-default">Hire Me</a>
+                        <h2 data-text="Thank You!"><span>Thank You!</span></h2>
+                        <a href="#" class="btn btn-default"><span>See My Works</span></a>
                     </div>
                     <div>
                         <h5>recent post</h5>
@@ -102,31 +106,14 @@
                     </div>
                 </div>
             </div>
-            <div class="copyright" data-flex="row-center-center">
-                <div class="lwrap">
+            <div class="copyright">
+                <div class="lwrap" data-flex="row-center-center">
                     <span>Copyright © Portfolio Theme. All Rights Reserved. Designed by GraphicsFuel.com</span>
+                    <a href="#" class="btn btn-anchor"><i class="icon-top"></i></a>
                 </div>
             </div>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>
-        <script src="/js/jquery/plugins/pxgradient-1.0.3.js"></script>
-        <script type="text/javascript">
-            $(".links-nav a, .footer h2, .header h1 span, .header h1 small").pxgradient({
-                step: 1,
-                colors: ["cecece", "606060"],
-                dir: "y"
-            });
-            $(".btn-default").pxgradient({
-                step: 1,
-                colors: ["6d0019", "a70329"],
-                dir: "y"
-            });
-            $(".links-nav a.active").pxgradient({
-                step: 1,
-                colors: ["e1e1e1", "929292"],
-                dir: "y"
-            });
-        </script>
     </body>
 </html>

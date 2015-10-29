@@ -4,11 +4,22 @@
 .links-nav > a{
     margin: 5px 38px;
     min-height: 62px;
-    color: silver;
+    color: #686868;
     font-family: Arial;
     font-size: 13px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase;    
+}
+.links-nav > a > span{
+    display: inline-block;    
+    background: -webkit-linear-gradient(top, #848484 0%, #484848 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.links-nav > a.active span, .links-nav > a:active span, .links-nav > a:hover span, .links-nav > a:focus span{
+    background: -webkit-linear-gradient(top, #e1e1e1 0%, #929292 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
 }
 .links-nav a.logo{
     position: absolute;
@@ -35,12 +46,17 @@ a.btn-default{
     position: relative;
     min-width: 180px;
     min-height: 42px;
-    color: #b60000;
+    color: #920223;
     font-family: Museo;
     font-size: 30px;
     border-radius: 5px;
     padding: 2px 5px;
     background-image: linear-gradient(to top, #020202 0%, #535353 4%, #505050 6%, #c9c9c9 35%, white 100%);
+}
+a.btn-default span{
+    background: -webkit-linear-gradient(top, #6d0019 0%, #a70329 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 .btn-default:before{
     content: "";

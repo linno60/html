@@ -42,3 +42,9 @@
     <a href="#">birinci</a>
     <a href="#">htc</a>
 </div>
+<div class="hlinks links-social">
+    <a href="#"><i class="icon-ff"></i></a>
+    <a href="#"><i class="icon-tw"></i></a>
+    <a href="#"><i class="icon-mail"></i></a>
+    <a href="#"><i class="icon-rss"></i></a>
+</div>
