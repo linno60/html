@@ -137,10 +137,37 @@ a.btn-print{
     border: 3px solid white;
     border-radius: 50%;
 }
-.btn-blog{
-    width: 24px;
-    height: 38px;
+a.btn-blog{    
+    background-color: #4d4d4d;
+    min-width: 150px;
+}
+a.btn-blog span{
     background-color: #21c1d3;
+    height: 100%;
+    min-height: 38px;
+    display: flex;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+}
+a.btn-blog em{
+    justify-content: flex-end;
+    padding: 5px;
+    color: #f0f0f0;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+}
+a.btn-author{
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    min-width: 150px;
+    min-height: 38px;
+    padding: 5px;
+    background: #21c1d3;
 }
 .hdr{
     display: flex;
@@ -161,17 +188,6 @@ input[type="radio"] + label{
     font-weight: 700;
     line-height: 18px;
     padding: 0px 5px;
-}
-.lbl-default{
-    color: white;
-    font-family: Arial;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 18px;
-    min-width: 150px;
-    min-height: 38px;
-    padding: 5px;
-    background: #21c1d3;
 }
 .lbl-footer{
     min-width: 71px;
