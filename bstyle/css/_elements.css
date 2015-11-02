@@ -6,7 +6,7 @@
     min-height: 50px;
     padding: 5px;
     color: #569d00;
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 14px;
     font-weight: 300;
     border-radius: 5px;
@@ -27,7 +27,7 @@
 .links-submenu a{
     min-height: 35px;
     color: black;
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     flex: 1;
     padding: 2px 5px;
@@ -48,7 +48,7 @@
 }
 .links-smallmenu a{
     color: #548317;
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     line-height: 20px;
     text-align: right;
@@ -59,19 +59,19 @@
 }
 .links-footer a{
     color: #767676;
-    font-family: OpenSans;
-font-size: 12px;
-margin: 5px 20px;
+    font-family: Open Sans;
+    font-size: 12px;
+    margin: 5px 20px;
 }
 .links-footer a.active, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
     color: #2e6700;
 }
 a.btn-comments{
-    width: 166px;
-    height: 45px;
+    min-width: 166px;
+    min-height: 45px;
     background-color: #9aff00;
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     text-transform: uppercase;
     color: black;
@@ -95,8 +95,9 @@ a.btn-more{
     min-height: 45px;
     background-color: #e2e2e2;
     border-left: 1px solid white;
+    box-shadow: -1px 0px 0px 0px #c6c6c6;
     color: #5e5e5e;
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 12px;
     border-radius: 0px 5px 5px 0px;
 }
@@ -113,7 +114,7 @@ a.btn-contact{
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     color: black;
-    font-family: OpenSans;
+    font-family: Open Sans;
     font-size: 14px;
     text-transform: uppercase;
 }
