@@ -1,0 +1,90 @@
+.links-nav a{
+    min-width: 120px;
+    min-height: 50px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
+    color: #e6e6e6;
+    font-family: Bebas;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-left: 1px solid rgba(255,255,255,.2);
+    border-right: 1px solid rgba(0,0,0,.2)
+}
+.links-nav{
+    width: 100%;
+    justify-content: flex-start;
+    background: url("/images/shape1.png"), linear-gradient(to top, #484848 0%, #5e5e5e 100%);
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: url("/images/shape1.png"), linear-gradient(to top, #494949 0%, #454545 100%);
+}
+.links-nav a:first-child{
+    border-left: none;
+}
+.links-nav a:last-child{
+    box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.2);
+}
+.hdr{
+    font-weight: normal;
+    min-height: 50px;
+    padding: 10px 20px 10px 20px;
+    background: url("/images/shape2.png"), linear-gradient(to top, #4a7766 0%, #618d7c 100%);
+}
+.hdr strong{
+    font-weight: normal;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
+    color: #e6e6e6;
+    font-family: Bebas;
+    font-size: 18px;
+}
+.hdr small{
+    color: #e6e6e6;
+    font-family: PT Sans;
+    font-size: 14px;
+}
+.btn-anchor{
+    width: 36px;
+    height: 28px;
+    background-color: #3e3e3e;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid #212121;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+a.btn-default, .btn-submit{
+    min-width: 120px;
+    min-height: 30px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.22);
+    color: white;
+    font-family: ApparatusSILItalic;
+    font-size: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+.btn-submit{
+    background:url("/images/shape3.png"), linear-gradient(to top, #533a64 0%, #614872 50%, #684f79 51%, #735a84 100%);
+}
+a.btn-default{
+    background:url("/images/shape3.png"), linear-gradient(to top, #34745b 0%, #44846c 50%, #498970 51%, #54937b 100%);
+}
+input[type="text"], textarea{
+    max-width: 330px;
+    width: 100%;
+    background-color: #1f1f1f;
+    margin: 0px 0px 15px 0px;
+    color: #fff;
+    border: none;
+}
+input[type="text"]{
+    height: 40px;
+    padding: 0px 10px;
+}
+textarea{
+    height: 170px;
+    padding: 10px;
+}
+label{
+    color: #b2b2b2;
+    font-family: ApparatusSIL;
+    font-size: 15px;
+}

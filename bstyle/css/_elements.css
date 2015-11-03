@@ -17,6 +17,7 @@
     background-color: #78db00;
 }
 .links-submenu{
+    flex-wrap: wrap;
     width: 100%;
     max-width: 980px;
     background-color: #5ebd00;
@@ -29,16 +30,32 @@
     color: black;
     font-family: Open Sans;
     font-size: 12px;
-    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
     padding: 2px 5px;
+    letter-spacing: -0.02em;
+}
+.links-submenu a:last-child{
+    padding: 2px 28px 2px 5px;
+}
+.links-submenu a:first-child{
+    padding: 2px 5px 2px 3px;
+    border-radius: 5px 0px 0px 5px;
 }
 .links-submenu a.active, .links-submenu a:active, .links-submenu a:hover, .links-submenu a:focus{
     color: #2e5c00;
     font-weight: 700;
     background-color: white;
 }
-.links-submenu a:first-child{
-    border-radius: 5px 0px 0px 5px;
+.links-submenu a::after { 
+    display: block; 
+    content: attr(title); 
+    font-weight: bold; 
+    height: 1px; 
+    color: transparent; 
+    overflow: hidden; 
+    visibility: hidden; 
+    margin-bottom: -1px; 
 }
 .links-smallmenu{
     align-items:flex-end;

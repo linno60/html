@@ -39,12 +39,12 @@
         <div class="submenu">
             <div class="lwrap" data-flex>
                 <nav class="hlinks links-submenu">
-                    <a href="#">Proin eu</a>
-                    <a href="#">Justo mollis ullamcorper</a>
-                    <a href="#" class="active">Nunc volutpat</a>
-                    <a href="#">Pellentesque et nisl</a>
-                    <a href="#">Cras nec</a>
-                    <a href="#">Etiam feugiat justo</a>
+                    <a href="#" title="Proin eu">Proin eu</a>
+                    <a href="#" title="Justo mollis ullamcorper">Justo mollis ullamcorper</a>
+                    <a href="#" title="Nunc volutpat" class="active">Nunc volutpat</a>
+                    <a href="#" title="Pellentesque et nisl">Pellentesque et nisl</a>
+                    <a href="#" title="Cras nec">Cras nec</a>
+                    <a href="#" title="Etiam feugiat justo">Etiam feugiat justo</a>
                 </nav>
                 <a href="#" class="btn btn-comments">comments<i class="icon-arrowg"></i></a>
             </div>
@@ -77,7 +77,7 @@
                     </div>
                 </hgroup>
                 <p>Proin posuere odio vel risus rutrum molestie. Nullam sodales ullamcorper pretium. Donec at sagittis turpis. Nullam blandit purus et orci dapibus mattis. Nullam tempus nulla eu turpis dapibus in tincidunt ligula aliquet. Pellentesque tincidunt augue non sapien tincidunt sed rhoncus libero lacinia. Sed dapibus erat ut enim molestie vitae faucibus elit hendrerit. Integer fermentum mi vitae diam hendrerit eu imperdiet libero euismod. In non lorem a magna ornare semper. </p>
-                <p> Nullam in arcu ipsum. Vestibulum sed lorem eget turpis vulputate bibendum ac in odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ut erat ac dui sodales vulputate ac vel lectus. Etiam imperdiet, purus sed pharetra consequat, sapien turpis lobortis mi, eu malesuada nibh magna varius quam. </p>
+                <p>Nullam in arcu ipsum. Vestibulum sed lorem eget turpis vulputate bibendum ac in odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ut erat ac dui sodales vulputate ac vel lectus. Etiam imperdiet, purus sed pharetra consequat, sapien turpis lobortis mi, eu malesuada nibh magna varius quam. </p>
                 <div class="review" data-flex="row-center-between">
                     <div data-flex="row-center">
                         <span>Review:</span>

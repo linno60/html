@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@font-face {
+    font-family: Bebas;
+    src: url('/fonts/BebasRegular.ttf');
+}
+@font-face {
+    font-family: ApparatusSIL;
+    src: url('/fonts/apparatus-sil/AppSILR.ttf');
+}
+@font-face {
+    font-family: ApparatusSILItalic;
+    src: url('/fonts/apparatus-sil/AppSILI.ttf');
+}

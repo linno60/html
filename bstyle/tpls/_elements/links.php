@@ -5,12 +5,12 @@
     <a href="#">Contact</a>
 </nav>
 <nav class="hlinks links-submenu">
-    <a href="#">Proin eu</a>
-    <a href="#">Justo mollis ullacorper</a>
-    <a href="#" class="active">Nunc voluptat</a>
-    <a href="#">Pellentesque et nisi</a>
-    <a href="#">Cras nec</a>
-    <a href="#">Etiam feugiat justo</a>
+    <a href="#" title="Proin eu">Proin eu</a>
+    <a href="#" title="Justo mollis ullamcorper">Justo mollis ullamcorper</a>
+    <a href="#" title="Nunc volutpat" class="active">Nunc volutpat</a>
+    <a href="#" title="Pellentesque et nisl">Pellentesque et nisl</a>
+    <a href="#" title="Cras nec">Cras nec</a>
+    <a href="#" title="Etiam feugiat justo">Etiam feugiat justo</a>
 </nav>
 <nav class="links links-smallmenu">
     <a href="#">Aenean ut</a>

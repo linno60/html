@@ -74,28 +74,18 @@ input[type="search"]::-webkit-search-results-decoration {
     height: 19px;
 }
 .title{
-    position: relative;
-    background-color: white;
+    margin: 0px 0px 13px 0px;
 }
-.title:after{
+.title .divider{
     border-top: 1px solid #e3e3e3;
     border-bottom: 1px solid #e3e3e3;
     height: 3px;
-    content: "";
-    display: block;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    transform: translateY(-50%)
+    flex: 1;
 }
 .title span{
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 14px 0px 0px;
     color: #4a8b86;
     font-family: Delicious;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
 }

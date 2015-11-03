@@ -1,1 +1,1 @@
-<h2 class="title"><span>popular posts</span></h2>
+<h2 class="title" data-flex="row-center-between"><span>popular posts</span><div class="divider"></div></h2>
