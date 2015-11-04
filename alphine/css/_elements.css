@@ -27,7 +27,7 @@
     font-weight: normal;
     min-height: 50px;
     padding: 10px 20px 10px 20px;
-    background: url("/images/shape2.png"), linear-gradient(to top, #4a7766 0%, #618d7c 100%);
+    background: url("/images/shape1.png"), linear-gradient(to top, #4a7766 0%, #618d7c 100%);
 }
 .hdr strong{
     font-weight: normal;

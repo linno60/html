@@ -3,59 +3,59 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @font-face {
     font-family: Bebas;
-    src: url('/fonts/BebasRegular.ttf');
+    src: url('../fonts/BebasRegular.ttf');
 }
 @font-face {
     font-family: ApparatusSIL;
-    src: url('/fonts/apparatus-sil/AppSILR.ttf');
+    src: url('../fonts/apparatus-sil/AppSILR.ttf');
 }
 @font-face {
     font-family: ApparatusSILItalic;
-    src: url('/fonts/apparatus-sil/AppSILI.ttf');
+    src: url('../fonts/apparatus-sil/AppSILI.ttf');
 }
 
 /* ICONS */
 
-.icon-anchor {width: 16px; height: 11px; background: url('/images/icons/anchor.png');}
+.icon-anchor {width: 16px; height: 11px; background: url('../images/icons/anchor.png');}
 
 /* ELEMENTS */
 
 .links-nav a{
-    min-width: 120px;
+    min-width: 121px;
     min-height: 50px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
     color: #e6e6e6;
     font-family: Bebas;
-    font-size: 16px;
+    font-size: 19px;
     text-transform: uppercase;
-    border-left: 1px solid rgba(255,255,255,.2);
-    border-right: 1px solid rgba(0,0,0,.2)
+    border-right: 1px solid rgba(0,0,0,.2);
+    box-shadow: 1px 0px 0px 0px rgba(255,255,255,.2);
+    letter-spacing: 0.05em;
+    padding: 5px;
 }
 .links-nav{
     width: 100%;
     justify-content: flex-start;
-    background: url("/images/shape1.png"), linear-gradient(to top, #484848 0%, #5e5e5e 100%);
+    flex-wrap: wrap;
+    background: url("../images/shape1.png"), linear-gradient(to top, #484848 0%, #5e5e5e 100%);
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
-    background: url("/images/shape1.png"), linear-gradient(to top, #494949 0%, #454545 100%);
-}
-.links-nav a:first-child{
-    border-left: none;
-}
-.links-nav a:last-child{
-    box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.2);
+    background: url("../images/shape1.png"), linear-gradient(to top, #494949 0%, #454545 100%);
 }
 .hdr{
+    flex-wrap: wrap;
     font-weight: normal;
     min-height: 50px;
-    padding: 10px 20px 10px 20px;   
+    padding: 11px 20px 10px 21px;
 }
 .hdr strong{
     font-weight: normal;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
     color: #e6e6e6;
     font-family: Bebas;
-    font-size: 18px;
+    font-size: 23px;
+    letter-spacing: 0.028em;
+    padding: 0px 12px 0px 0px;
 }
 .hdr small{
     color: #e6e6e6;
@@ -83,10 +83,10 @@ a.btn-default, .btn-submit{
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 .btn-submit{
-    background:url("/images/shape3.png"), linear-gradient(to top, #533a64 0%, #614872 50%, #684f79 51%, #735a84 100%);
+    background:url("../images/shape3.png"), linear-gradient(to top, #533a64 0%, #614872 50%, #684f79 51%, #735a84 100%);
 }
 a.btn-default{
-    background:url("/images/shape3.png"), linear-gradient(to top, #34745b 0%, #44846c 50%, #498970 51%, #54937b 100%);
+    background:url("../images/shape3.png"), linear-gradient(to top, #34745b 0%, #44846c 50%, #498970 51%, #54937b 100%);
 }
 input[type="text"], textarea{
     width: 100%;
@@ -101,7 +101,7 @@ input[type="text"]{
 textarea{
     height: 170px;
     padding: 10px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 12px 0px;
 }
 label{
     color: #b2b2b2;
@@ -123,9 +123,13 @@ body{
     max-width: 980px;
     padding: 0px 10px;
 }
+.logo{
+    margin: 29px 0px 27px 3px;
+}
 .grid{
     flex-wrap: wrap;
     margin: 0px -10px;
+    padding: 10px 0px 17px 0px;
 }
 .grid > figure{
     flex: 1;
@@ -138,66 +142,81 @@ header + blockquote{
     font-family: ApparatusSILItalic;
     font-size: 22px;
     line-height: 28px;
-    padding: 20px 0px 20px 0px;
+    padding: 28px 0px 23px 0px;
+    font-style: italic;
+    letter-spacing: 0.01em;
 }
 .filter{
+    flex-wrap: wrap;
     min-height: 45px;
-    background: url("/images/border.png"), url("/images/border.png");
+    background: url("../images/border.png"), url("../images/border.png");
     background-position: left top, left bottom;
     background-repeat: repeat-x;
     padding: 5px 0px;
     color: #5d5d5d;
     font-family: Bebas;
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
 }
 .filter a{
     color: #5d5d5d;
-    margin: 2px 10px;
+    margin: 2px 8px;
 }
 .filter span{
-    padding: 0px 20px 0px 0px;
+    padding: 0px 7px 0px 0px;
 }
 .filter a:active, .filter a:hover, .filter a:focus{
     text-decoration: underline;
 }
 .footer > div{
-    width: 49%;
+    width: 48.5%;
 }
 .footer {
-    padding: 20px 10px 20px 10px;
+    padding: 40px 10px 28px 10px;
 }
 .footer-item{
-    margin: 0px 0px 15px 0px;
-    background-color: rgba(0,0,0,.2);    
+    margin: 0px 0px 20px 0px;
+    background-color: rgba(0,0,0,.2);
 }
 .footer-item .hdr + div{
-    padding: 10px 10px 10px 10px;
+    padding: 15px 20px 20px 20px;
+}
+.footer-item.services .hdr + div{
+    padding: 15px 20px 13px 20px;
 }
 .about .hdr{
-    background: url("/images/shape2.png"), linear-gradient(to top, #4a7766 0%, #618d7c 100%);
+    background: url("../images/shape1.png"), linear-gradient(to top, #4a7766 0%, #618d7c 100%);
 }
 .contact .hdr{
-    background: url("/images/shape2.png"), linear-gradient(to top, #664a77 0%, #7c618d 100%);
+    background: url("../images/shape1.png"), linear-gradient(to top, #664a77 0%, #7c618d 100%);
 }
 .services .hdr{
-    background: url("/images/shape2.png"), linear-gradient(to top, #425777 0%, #586e8d 100%);
+    background: url("../images/shape1.png"), linear-gradient(to top, #425777 0%, #586e8d 100%);
 }
 .posts .hdr{
-    background: url("/images/shape2.png"), linear-gradient(to top, #8d4141 0%, #a35757 100%);
+    background: url("../images/shape1.png"), linear-gradient(to top, #8d4141 0%, #a35757 100%);
 }
 .services h3{
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
     color: #e6e6e6;
     font-family: Bebas;
-    font-size: 18px;
+    font-size: 23px;
+    margin:0px 0px 5px 0px;
+    font-weight: normal;
+    letter-spacing: 0.025em;
 }
 .posts figure{
     min-width: 72px;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 18px 0px 0px;
+}
+form{
+    padding: 27px 0px 0px 0px;
 }
 form label{
-    min-width: 100px;
-    width: 100px;
+    min-width: 95px;
+    width: 95px;
+    padding: 0px 5px 0px 1px;
 }
 form label + div{
     width: 100%;
@@ -205,11 +224,20 @@ form label + div{
 form > div{
     margin: 0px 0px 15px 0px;
 }
+form > div:last-child{
+    margin: 0px 0px 1px 0px;
+}
+form > div:last-child label{
+    padding: 17px 5px 0px 1px;
+}
 .posts h4{
     font-weight: 400;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
     font-family: Bebas;
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0px 0px 8px 1px;
+    letter-spacing: 0.04em;
 }
 .posts h4 a{
     color: #e6e6e6;
@@ -218,19 +246,35 @@ form > div{
     color: #b2b2b2;
     font-family: ApparatusSILItalic;
     font-size: 13px;
+    letter-spacing: 0.015em;
 }
 .posts a:active, .posts a:hover, .posts a:focus{
     text-decoration: underline;
 }
 .post{
-    margin: 0px 0px 20px 0px;
+    margin: 7px 0px 18px 0px;
+}
+.post:last-child{
+    margin: 7px 0px -1px 0px;
 }
 .footer p{
     color: #b2b2b2;
     font-family: ApparatusSIL;
     font-size: 15px;
-    line-height: 24px;
-    margin: 0px 0px 20px 0px;
+    line-height: 24px;    
+    letter-spacing: 0.01em;
+}
+.footer .about p{
+    margin: 0px 0px 24px 0px;
+}
+.footer .services p{
+    margin: 0px 0px 17px 0px;
+}
+.footer .services p:last-child{
+    margin: 0px 0px 0px 0px;
+}
+.footer .about .btn-default{
+    margin: -2px 0px 0px 0px;
 }
 footer{
     background-color: #333;
@@ -246,4 +290,23 @@ footer{
     color: #737373;
     font-size: 13px;
     font-family: ApparatusSIL;
+    padding: 2px 10px 0px 0px;
+    letter-spacing: 0.01em;
+}
+@media (max-width: 800px) {
+    .grid{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 680px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer > div {
+    width: 100%;
+}
+form label {
+    min-width: 78px;
+    width: 78px;
+}
 }
