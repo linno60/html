@@ -1,0 +1,20 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('/fonts/HelveticaNeue.ttf');
+}
+@font-face {
+    font-family: HoeflerText;
+    src: url('/fonts/Hoefler Text Black.ttf');
+}
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url('/fonts/HelveticaNeueBold.ttf');
+}
+@font-face {
+    font-family: GothamBlack;
+    src: url('/fonts/gotham-black.ttf');
+}
+@font-face {
+    font-family: GothamNarrow;
+    src: url('/fonts/GothamNarrow-Medium.otf');
+}

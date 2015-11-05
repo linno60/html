@@ -124,6 +124,15 @@
                         <a href="#">6</a>
                         <a href="#">Next</a>
                     </div>
+                    <div class="social" data-flex="row-center-center">
+                        <span>Social&nbsp;Sharing</span> 
+                        <div class="links links-social">
+                            <a href="#" class="tw"><i class="icon-tw"></i></a>
+                            <a href="#" class="fb"><i class="icon-fb"></i></a>
+                            <a href="#" class="rss"><i class="icon-rss"></i></a>
+                        </div>                     
+                    </div>
+                    <span class="copyright hidden">All rights reserved 2012<br> visit our website <a href="#">www.blugraphic.com </a> follow us at twitter, <a href="#">@blugraphic</a></span>            
                 </div>
                 <div class="rightbar" data-flex="col-center">
                     <div class="links links-social">
