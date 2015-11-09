@@ -39,7 +39,7 @@
                         <a href="#">Home</a>
                         <a href="#">Culture</a>
                         <a href="#">Lifestyle</a>
-                        <a href="#" class="active">Worls News</a>
+                        <a href="#" class="active">Worlds News</a>
                         <a href="#">Sport</a>
                         <a href="#">Travel</a>
                         <a href="#">Health</a>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="blog"> 
                     <h3 class="hdr-lg">Fly Fishers Serving as Transports for Noxious LIttle Invaders</h3>
-                    <span data-flex class="description">Written by Orman on 23 Oct 2010 in &nbsp;<a href="#">Category One</a>, &nbsp;<a href="#">Category Two</a> - 27 Comments</span>
+                    <span data-flex class="description">Written by Orman on 23 Oct 2010 in &nbsp;<a href="#">Category One</a>, &nbsp;<a href="#">Category Two&nbsp;</a> - 27 Comments</span>
                     <figure data-flex class="figure">
                         <img src="/images/imglg.png" width="604" height="272" alt="">
                     </figure>
@@ -81,9 +81,9 @@
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id</p>
                     </div>
                     <div class="threecol">
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla</p>
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla</p>
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla</p>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla</p>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla</p>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla</p>
                     </div>
                 </div>
                 <div class="about">
@@ -130,37 +130,46 @@
                         <figure data-flex class="figure"><img src="/images/img4.png" width="60" height="60" alt=""></figure>
                         <div>
                             <a href="#"><strong>Orman Clark </strong><time>August 4, 2010 at 4:32 pm &middot; </time><em>Reply</em></a>
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula </p>
-                        <div class="message" data-flex="row-start">
+                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est not</p>
+                            <div class="message" data-flex="row-start">
+                                <figure data-flex class="figure"><img src="/images/img4.png" width="60" height="60" alt=""></figure>
+                                <div>
+                                    <a href="#"><strong>Orman Clark </strong><time>August 4, 2010 at 4:32 pm &middot; </time><em>Reply</em></a>
+                                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message" data-flex="row-start">
                         <figure data-flex class="figure"><img src="/images/img4.png" width="60" height="60" alt=""></figure>
                         <div>
                             <a href="#"><strong>Orman Clark </strong><time>August 4, 2010 at 4:32 pm &middot; </time><em>Reply</em></a>
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula </p>
-                        </div>
-                    </div>
+                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est not</p>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="form-wrap">
                     <h3 class="hdr-lg">Leave a Comment</h3>
-                    <div data-flex="row-center">
-                        <input type="text" placeholder="Orman Clark (on focus)" id="i1">
-                        <label for="i1">Name</label>
-                    </div>
-                    <div data-flex="row-center">
-                        <input type="email" id="i2">
-                        <label for="i2">Email</label>
-                    </div> 
-                    <textarea></textarea>
-                    <button><span class="btn btn-submit">Submit Comment</span></button>
-                    <button><span class="btn btn-submit">Submit Comment</span></button>
+                    <form action="#" method="post">
+                        <div data-flex="row-center">
+                            <input type="text" placeholder="Orman Clark (on focus)" id="i1">
+                            <label for="i1">Name</label>
+                        </div>
+                        <div data-flex="row-center">
+                            <input type="email" id="i2">
+                            <label for="i2">Email</label>
+                        </div> 
+                        <textarea></textarea>
+                        <button><span class="btn btn-submit">Submit Comment</span></button>
+                        <button><span class="btn btn-submit">Submit Comment</span></button>
+                    </form>
                 </div>
             </div>
             <aside class="sidebar">
                 <form action="#" method="post">
                     <input type="search" placeholder="to search, type adn hit enter">
                 </form>
-                <div class="subscribe" data-flex="row--between">
+                <div class="subscribe" data-flex>
                     <div data-flex="row-center-center">
                         <a href="#" class="btn btn-rss"><i class="icon-rsslg"></i></a>
                         <span data-flex="col">
@@ -241,14 +250,14 @@
                 <iframe src="https://www.youtube.com/embed/ribBsxWlwwg" frameborder="0" allowfullscreen></iframe>
                 <h3 class="hdr-sm" data-flex="row-center"><span>Flickr</span></h3>
                 <div class="flickr" data-flex="row--between">
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
-                    <figure class="figure" data-flex><img src="/images/img5.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
+                    <figure class="figure" data-flex><img src="/images/img4.png" width="45" height="45" alt=""></figure>
                 </div>
                 <div class="links-wrap" data-flex="row--between">
                     <div>
@@ -284,18 +293,18 @@
                 </div>
                 <div class="tweets">
                     <h3 class="hdr-sm" data-flex="row-center"><span>Twitter</span></h3>
-                    <p><a href="#">@laurakalbag</a> I will be very soon. As a result of your previous recommendation on a blog post so it happens :)<time>31 minutes ago</time></p>
-                    <p><a href="#">@laurakalbag</a> you got chocolates!? That's it, I'm signing up.<time>37 minutes ago</time></p>
-                    <p>RT <a href="#">@tullet</a>: Emails that start with "Dear contact" make me feel so special <time>50 minutes ago</time></p>
+                    <p><a href="#">@laurakalbag</a> I will be very soon. As a result of your previous recommendation on a blog post so it happens :) <time> 31 minutes ago</time></p>
+                    <p><a href="#">@laurakalbag</a> you got chocolates!? That's it, I'm signing up. <time> 37 minutes ago</time></p>
+                    <p>RT <a href="#">@tullett</a>: Emails that start with "Dear contact" make me feel so special <time> 50 minutes ago</time></p>
                     <p><a href="#">@ormanclark on Twitter</a></p>
                 </div>
-               <div>
+                <div>
                     <h3 class="hdr-sm" data-flex="row-center"><span>About</span></h3>
                     <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
                     <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
                 </div>
-                <div>
-                    <a href="#" data-flex><img src="/images/logoalt.png" width="169" height="51" alt=""></a>
+                <div data-flex="row--end">
+                    <a href="#" title="Return to the homepage" id="logo-alt" data-flex><img src="/images/logoalt.png" width="169" height="51" alt="Repro"></a>
                 </div>
             </div>
             <div class="copyright">

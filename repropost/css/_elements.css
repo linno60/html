@@ -141,23 +141,13 @@ blockquote q{
     font-family: HelveticaNeue;
     font-size: 14px;
     font-weight: 700;
-    position: relative;
+    height: 10px;
+     background: url("/images/border.png");    
 }
 .hdr-sm span{
     padding: 0px 10px;
-}
-.hdr-sm:before, .hdr-sm:after{
-    content: "";
-    display: block;
-    height: 10px;
-    width: 100%;
-    background: url("/images/border.png");    
-}
-.hdr-sm:after{
-    width: 100%;
-}
-.hdr-sm:before{
-    width: 20px;
+    background: url("/images/bg.png"); 
+    margin: 0px 0px 0px 20px;
 }
 label{
     color: #444;
