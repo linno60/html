@@ -103,3 +103,10 @@ input[type="search"]:-ms-input-placeholder{
     color: #d0cfd1;
      font-size: 14px;
 }
+.btn-follow{
+    box-shadow: inset 0px 0px 0px 3px #f8f8f8;
+    border: 1px solid #d8d8d9;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}

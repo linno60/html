@@ -1,0 +1,27 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=e453e2b2-c71a-4f6f-aa62-0326fe468ff1");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Humanist521BT";
+    src: url("/fonts/fonts.com/3f390d05-5dbd-48ac-867b-98666d9dd441.woff2") format("woff2"), url("/fonts/fonts.com/6cf4abc5-593b-4a24-bfed-16f0e690d627.woff") format("woff");
+}
+@font-face {
+    font-family: "LucidaSans";
+    src: url("/fonts/fonts.com/3179f9fa-1ce2-445f-845c-88154d1d07bb.woff2") format("woff2"), url("/fonts/fonts.com/bd1ce450-c10a-479e-a870-58bc58464ac1.woff") format("woff");
+}
+@font-face {
+    font-family: "Lucida Sans Italic";
+    src: url("/fonts/fonts.com/de96fb49-63c0-4471-aa4c-26a2b5623524.woff2") format("woff2"), url("/fonts/fonts.com/63e272f0-d31b-4902-964f-87e6d2b51bc7.woff") format("woff");
+}
+@font-face {
+    font-family: "Lucida Sans Bold";
+    src: url("/fonts/fonts.com/478b09eb-3c03-4010-b4bf-cd162ce827a5.woff2") format("woff2"), url("/fonts/fonts.com/c0d6cf3e-16b1-43d5-b7d5-a673e1af58f4.woff") format("woff");
+}
+@font-face {
+    font-family: "Lucida Sans BoldItalic";
+    src: url("/fonts/fonts.com/d3e8614f-e22e-46e4-b58c-41d30e961247.woff2") format("woff2"), url("/fonts/fonts.com/720878bf-5157-4741-a373-6fb1a4a4682f.woff") format("woff");
+}

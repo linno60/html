@@ -1,0 +1,1 @@
+<blockquote data-flex='row-center-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.  </blockquote>
