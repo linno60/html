@@ -1,0 +1,394 @@
+/* ICONS */
+
+.icon-arrowb {width: 9px; height: 8px; background: url('../images/icons/arrowb.png');}
+.icon-arroww {width: 9px; height: 8px; background: url('../images/icons/arroww.png');}/* ELEMENTS */
+
+.links-nav a{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    min-height: 55px;
+    padding: 3px 10px 5px 10px;
+    margin: 0px 7px 0px 7px;
+    align-items: stretch;
+    letter-spacing: -0.005em;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+    background-color: #c0c0c0;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-footer a{
+    color: silver;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 5px 16px;
+}
+.links-default a{
+    font-family: Arial;
+    line-height: 20px;
+    color: #fccb04;
+    font-size: 12px;
+}
+a.btn-alt{
+    color: black;
+    background: White;
+}
+.btn-default i{
+    margin: 0px 17px 0px 29px;
+}
+.btn-alt i{
+    margin: 0px 17px 0px 8px;
+}
+a.btn-default{
+    color: #fccb04;
+    background: #0a131d;
+}
+.btn-default, .btn-alt{
+    min-width: 252px;
+    height: 61px;
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 27px 0px 0px;
+}
+.btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
+    content: "";
+    position: absolute;
+}
+.btn-default:before{
+    background: #0a131d;
+}
+.btn-alt:before{
+    background: white;
+}
+.btn-default:after{
+    border-top: 13px solid white;
+}
+.btn-alt:after{
+    border-top: 12px solid #0a131d;
+}
+.btn-default:before, .btn-alt:before{
+    width: 12px;
+    height: 49px;
+    right: -10px;
+    top: 0px;
+}
+.btn-default:after, .btn-alt:after{
+    right: -10px;
+    bottom: 0px;
+    border-right: 11px solid transparent;
+}
+.title{
+    color: #0a131d;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 0px 7px 0px;
+    border-bottom: 4px solid #0a131d;
+    margin: 0px 0px 21px 0px;
+}
+.title i{
+    margin: 0px 13px 0px 0px;
+}
+.more{
+    font-family: Arial;
+    font-size: 12px;
+    color: #0465b0;
+    text-decoration: underline;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: none;
+}
+figure > *{
+    width: 100%;
+    height: 100%;
+} 
+a{
+    text-decoration: none;
+}
+/* $------------------------------------------------------------------------- */
+body{
+    background:url("../images/bg.png");
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 980px
+}
+.header > div{
+    min-height: 96px;
+}
+.header{
+    width: 100%;
+    background: white;
+    padding: 0px 11px 0px 25px;
+}
+header > div:first-child, header > div:last-child{
+    width: 18px;
+    margin: 0px 0px 17px 0px;
+    background: white;
+    position: relative;
+}
+header > div:first-child:after, header > div:last-child:after{
+    content: "";
+    position:absolute;
+    border-top: 18px solid silver;
+    bottom: -18px;
+}
+header > div:first-child:after{
+    border-left: 18px solid transparent;
+}
+header > div:last-child:after{
+    border-right: 18px solid transparent; 
+}
+.demo{
+    margin: 20px 0px 46px 0px;
+    padding: 15px 44px 20px 38px;
+    min-height: 352px;
+    background-color: #09f;
+    border: 1px solid #09f;
+    box-shadow: inset 0 0 100px rgba(0, 133, 221, 0.75);
+}
+.demo h1{
+    color: white;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 18px 0px 46px 0px;
+}
+.demo > div{
+    width: 60%;
+}
+.demo > figure{
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+    height: 259px;
+}
+.demo > figure:before{
+    content: "";
+    position: absolute;
+    width:109%;
+    height: 25px;
+    bottom: -26px;
+    background: url("../images/shadow.png")no-repeat center center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.demo .btn-default{
+    margin: 0px 0px 0px 54px;
+}
+.content{
+    width: 68.86%;
+    background: #c0c0c0;
+}
+.sidebar{
+    width: 31.15%;
+    background: #fff;
+}
+.content .hdr + div{
+    padding: 0px 35px 14px 39px;
+}
+.sidebar .hdr + div{
+    padding: 0px 21px 5px 25px;
+}
+.sidebar .hdr + div > div{
+    padding: 0px 0px 26px 0px;
+}
+.hdr{
+    height: 26px;
+    top: -26px;
+    position: relative;
+}
+.content .hdr:before, .sidebar .hdr:after{
+    content: "";
+    position: absolute; 
+}
+.content .hdr:before{
+    left:-26px;
+    border-left: 26px solid transparent;
+    border-bottom: 26px solid #fff; 
+}
+.sidebar .hdr:after{ 
+    right: -26px;
+    border-right: 26px solid transparent;
+    border-bottom: 26px solid #c0c0c0; 
+}
+.content .hdr{
+    margin: 0px 0px -3px 26px;
+    background-color: #c0c0c0;
+}
+.sidebar .hdr{
+    margin: 0px 26px -2px 0px;
+    background: white;
+}
+.articles{
+    border-bottom: 1px solid #fff;
+    padding: 0px 0px 22px 0px;
+}
+.articles article{
+    width: 50%;
+    margin: 0px 5px 20px 5px;
+    padding: 0px 19px 0px 0px;
+}
+.articles article:first-child{
+    margin: 0px 4px 20px 0px;
+}
+.articles article:last-child{
+    margin: 0px -15px 20px 4px;
+}
+.articles .title{
+    max-width: 252px;
+}
+.articles p{
+    color: #383838;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 0px 0px 3px;
+    letter-spacing: -0.0055em;
+}
+.grid{
+    padding: 36px 0px 20px 0px;
+}
+.grid article{
+    width: 48%;
+    margin: 0px 11px 20px 11px;
+}
+.grid article:first-child{
+    margin: 0px 11px 20px 0px;
+}
+.grid article:last-child{
+    margin: 0px 0px 20px 11px;
+}
+.grid p{
+    margin: 7px 0px 2px 3px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+    color: #383838;
+    letter-spacing: -0.0055em;
+}
+.grid .more{
+    margin: 0px 0px 0px 3px;
+}
+.sidebar .title {
+    border-bottom: 4px solid #c0c0c0;
+    margin: 0px 0px 14px 0px;
+}
+.sidebar blockquote{
+    color: #9d9d9d;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 10px 0px 4px 3px;
+}
+.sidebar blockquote p{
+    margin: 0px 0px 17px 0px;
+    line-height: 14px;
+    letter-spacing: -0.005em;
+}
+.sidebar blockquote cite a:active, .sidebar blockquote cite a:hover, .sidebar blockquote cite a:focus{
+    text-decoration: underline;
+}
+.sidebar blockquote cite a{
+    color: #9d9d9d;
+}
+.sidebar figure.video{
+    height: 155px;
+    margin:0px 2px 0px 0px
+}
+.clients .title{
+    margin: 0px 0px 21px 0px;
+}
+.banner{
+    background-color: #fccb04;
+    padding: 12px 3px 13px 26px;
+}
+.banner h2{
+    color: black;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: -0.005em;
+}
+.footer > div{
+    flex: 1;
+    max-width: 258px;
+    margin: 0px 48px 20px 0px;
+}
+.footer > div:last-child{
+    max-width: 288px;
+    margin: 0px 9px 20px 0px;
+    padding: 0px 20px 0px 0px;
+}
+.footer > div:first-child{
+    margin: 0px 10px 20px 0px;
+}
+.footer address, .footer address em{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+    font-style: normal;
+}
+.footer address em, .footer address a{
+    color: #fccb04;
+}
+.footer address{
+    padding: 0px 0px 0px 48px;
+    color: silver;
+    letter-spacing: -0.01em;
+}
+.footer address a:active, .footer address a:hover, .footer address a:focus{
+    text-decoration: underline;
+}
+.footer {
+    background-color: #000;
+    padding: 30px 1px 15px 32px;
+}
+.footer h5{
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+    text-transform: uppercase;
+}
+.footer p{
+    font-family: Arial;
+    color: silver;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 3px 3px 0px 0px;
+    margin: 0px 0px 2px 0px;
+    letter-spacing: -0.005em;
+}
+.footer .more{
+    color: #fccb04;
+}
+.copyright{
+    background-color: #323232;
+    min-height: 35px;
+    padding: 5px 23px 5px 26px;
+}
+.copyright span{
+    color: silver;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+}
+.links-default{
+    padding: 3px 0px 0px 0px;
+}

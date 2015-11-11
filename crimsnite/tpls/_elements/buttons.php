@@ -1,1 +1,1 @@
-<a href='#' class='btn btn-default'>download <span>&nbsp;free trial</span></a>
+<a href='#' class='btn btn-download'>download <span>&nbsp;free trial</span></a>

@@ -1,5 +1,5 @@
 /* FONTS */
- 
+
 @font-face {
     font-family: 'HelveticaNeueLTStd-Bd';
     src: local('â˜º'), url('../fonts/HelveticaNeueLTStd-Bd.woff') format('woff');
@@ -30,9 +30,9 @@
     font-weight: normal;
     font-style: normal;
 }/* ICONS */
- 
+
 .icon-heart {width: 14px; height: 14px; background: url('../images/icons/heart.png');}/* ELEMENTS */
- 
+
 a.btn-default{
     min-width: 71px;
     min-height: 27px;
@@ -174,7 +174,7 @@ header + iframe{
     line-height: 15px;
 }
 .tags a, .tags h4{
-        color: #ea4e37;
+    color: #ea4e37;
 }
 .tags dl{
     padding: 18px 0px 18px 0px;
@@ -243,8 +243,8 @@ header + iframe{
     padding: 17px 3px 0px 0px;
 }
 .post .post:last-child{
-    
-padding: 9px 0px 0px 56px;
+
+    padding: 9px 0px 0px 56px;
 }
 .post:first-child{
     border-top: none;
@@ -282,15 +282,15 @@ padding: 9px 0px 0px 56px;
 }
 .reply{
     color: #bababa;
-font-family: HelveticaNeueLTStd-It;
-font-size: 11px;
+    font-family: HelveticaNeueLTStd-It;
+    font-size: 11px;
 }
 .post time{
     padding: 0px 10px 0px 0px;
     color: #bababa;
-font-family: HelveticaNeueLTStd;
-font-size: 10px;
-text-transform: uppercase;
+    font-family: HelveticaNeueLTStd;
+    font-size: 10px;
+    text-transform: uppercase;
 }
 .details, .details > div{
     flex-wrap: wrap;
@@ -300,26 +300,26 @@ text-transform: uppercase;
         flex-direction: column;
     }
     .form-wrap > .tags {
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-}
-.form-wrap > form {
-    width: 100%;
-    padding: 3px 0px 0px 0px;
-}
-.form-wrap > form > div{
-    width: 100%;
-}
-input[type="text"], input[type="email"], textarea {
-    max-width: 400px;
-}
-.post figure {
-    margin: 0px 5px 0px 1px;
-}
-.post .post figure {
-    margin: 3px 5px 0px -1px;
-}
-.post .post:last-child {
-    padding: 9px 0px 0px 20px;
-}
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .form-wrap > form {
+        width: 100%;
+        padding: 3px 0px 0px 0px;
+    }
+    .form-wrap > form > div{
+        width: 100%;
+    }
+    input[type="text"], input[type="email"], textarea {
+        max-width: 400px;
+    }
+    .post figure {
+        margin: 0px 5px 0px 1px;
+    }
+    .post .post figure {
+        margin: 3px 5px 0px -1px;
+    }
+    .post .post:last-child {
+        padding: 9px 0px 0px 20px;
+    }
 }

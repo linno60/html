@@ -80,7 +80,7 @@ label{
     font-family: LucidaSans;
     font-size: 12px;
 }
-a.btn-default{
+a.btn-download{
     font-family: Humanist521BT;
     font-size: 15px;
     font-weight: 700;
@@ -95,7 +95,7 @@ a.btn-default{
     border: 6px solid #9a1709;
     box-shadow: 0 2px 1px #ffd072, inset 0 0 0 2px #dd4900;
 }
-a.btn-default span{
+a.btn-download span{
     color: #fc0;
 }
 .links-default a{
