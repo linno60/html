@@ -21,7 +21,3 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     font-family: "Lucida Sans Bold";
     src: url("/fonts/fonts.com/478b09eb-3c03-4010-b4bf-cd162ce827a5.woff2") format("woff2"), url("/fonts/fonts.com/c0d6cf3e-16b1-43d5-b7d5-a673e1af58f4.woff") format("woff");
 }
-@font-face {
-    font-family: "Lucida Sans BoldItalic";
-    src: url("/fonts/fonts.com/d3e8614f-e22e-46e4-b58c-41d30e961247.woff2") format("woff2"), url("/fonts/fonts.com/720878bf-5157-4741-a373-6fb1a4a4682f.woff") format("woff");
-}
