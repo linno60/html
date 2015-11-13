@@ -20,6 +20,10 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     font-family: "Helvetica";
     src: url("../fonts/fonts.com/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2") format("woff2"), url("/fonts/fonts.com/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff");
 }
+@font-face {
+    font-family: "Helvetica Condensed";
+    src: url("../fonts/fonts.com/cc8baf39-7363-4096-9272-744ba5d42550.woff2") format("woff2"), url("/fonts/fonts.com/c3e64e07-d679-43dc-982a-6d21239f752e.woff") format("woff");
+}
 /* ICONS */
 
 .icon-arrow {width: 19px; height: 14px; background: url('../images/icons/arrow.png');}
@@ -30,17 +34,16 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 
 .links-nav a{
     height: 35px;
-    border-top: 1ps solid transparent;
+    border-top: 1px solid transparent;
     position: relative;
-    padding: 1px 1px 1px 1px;
+    padding: 6px 5px 1px 5px;
     text-shadow: #fff 1px 1px 0px;
     color: #6b4848;
     font-family: Helvetica;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 26px;
     line-height: 32px;
     text-transform: uppercase;
-    font-weight: 300;
+    letter-spacing: -0.05em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background-image: linear-gradient(to top, #e0e0e0 0%, #f6f6f6 90%, white 92%, white 100%);
@@ -64,6 +67,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     right: -46px;
 }
 .links-filter{
+    flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
     padding: 0px 0px 8px 15px;
@@ -93,14 +97,14 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     background-color: #6b4848;
     box-shadow: 0 1px 0 white, inset 0 2px 2px rgba(0, 0, 0, 0.75);
     color: white;
-    font-family: Helvetica;
+    font-family: Helvetica Condensed;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 21px;
 }
 .btn-default i{
-    margin: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 2px;
 }
 .btn-top, a.btn-top{
     min-width: 96px;
@@ -112,14 +116,15 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     box-shadow: 0 -3px 2.9px 0.1px rgba(118, 118, 118, 0.15);
     text-shadow: 0 2px 0 white;
     color: #b2b2b2;
-    font-family: Helvetica;
-    font-size: 15px;
+    font-family: Helvetica Condensed;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 2px 5px;
+    padding: 2px 5px 3px 5px;
     border-radius: 16px;
+    letter-spacing: -0.07em;
 }
-.form-wrap input[type="text"], .form-wrap input[type="email"], textarea{
+.form-wrap input[type="text"], .form-wrap input[type="email"], .form-wrap textarea{
     max-width: 422px;
     width: 100%;
     background-color: #e0e0e0;
@@ -131,32 +136,33 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     outline: none;
     box-shadow: 0.5px 0.9px 0 white, inset 0 3px 3px rgba(0, 0, 0, 0.1);
 }
-input[type="text"], .form-wrap input[type="email"]{
+.form-wrap input[type="text"], .form-wrap input[type="email"]{
     height: 33px;
     margin: 0px 0px 17px 0px;
     padding: 0px 23px;
 }
-textarea{
+.form-wrap textarea{
     height: 180px;
     margin: 4px 0px 27px 0px;
     padding: 13px 23px;
 }
-input[type="text"]::-webkit-input-placeholder, .form-wrap input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+.form-wrap input[type="text"]::-webkit-input-placeholder, .form-wrap input[type="email"]::-webkit-input-placeholder, .form-wrap textarea::-webkit-input-placeholder {
     color: #686767;
     font-family: Lucida Sans Unicode;
     font-size: 12px;
 }
-input[type="text"]::-moz-placeholder, .form-wrap input[type="email"]::-moz-placeholder, textarea::-moz-placeholder {
+.form-wrap input[type="text"]::-moz-placeholder, .form-wrap input[type="email"]::-moz-placeholder, .form-wrap textarea::-moz-placeholder {
     color: #686767;
     font-family: Lucida Sans Unicode;
     font-size: 12px;    
 }
-input[type="text"]:-ms-input-placeholder,  .form-wrap input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+.form-wrap input[type="text"]:-ms-input-placeholder,  .form-wrap input[type="email"]:-ms-input-placeholder, .form-wrap textarea:-ms-input-placeholder {
     color: #686767;
     font-family: Lucida Sans Unicode;
     font-size: 12px;
 }
 .lbl-available{
+    padding: 2px 16px 10px 2px;
     min-width: 326px;
     height: 79px;
     position: relative;
@@ -172,6 +178,7 @@ input[type="text"]:-ms-input-placeholder,  .form-wrap input[type="email"]:-ms-in
     width: 36px;
     height: 80px;
     left: -30px;
+    top: 0px;
 }
 .lbl-available:after{    
     background: url("../images/tail.png");
@@ -180,25 +187,38 @@ input[type="text"]:-ms-input-placeholder,  .form-wrap input[type="email"]:-ms-in
     right: 0px;
     bottom: -16px;
 }
-.lbl-available span{
+.lbl-available h6{
     color: #e3e3e3;
     font-family: GillSansMT Bold;
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 700;
+    position: relative;
+    letter-spacing: -0.03em;
+}
+.lbl-available h6 span{
     background: -webkit-linear-gradient(top, #fff 0%, #cdcdcd 100%);
-    text-shadow: 0.5px 0.9px 1px rgba(77, 77, 99, 0.75);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;   
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+}
+.lbl-available h6:before {
+    background: none;
+    content: attr(data-text);
+    left: 0px;
+    position: absolute;
+    text-shadow: 1px 2px 1px rgba(77, 77, 99, 0.75);
+    top: 0px;
+    z-index: 0;
 }
 .lbl-wrap{
-    width: 357px;
     position: relative;
 }
 .lbl-wrap:after{
     width: 313px;
     height: 16px;
     background: url("../images/shadow.png");
-    right: 13px;
+    right: 42px;
     bottom: -17px;
 }
 blockquote q{
@@ -207,7 +227,7 @@ blockquote q{
     font-size: 15px;
     font-style: italic;
     line-height: 18px;
-    padding: 12px 53px 10px 33px;
+    padding: 9px 20px 10px 32px;
 }
 a{text-decoration: none;}
 /* $------------------------------------------------------------------------- */
@@ -223,7 +243,10 @@ figure img{
     padding: 7px 10px 10px 10px;
 }
 header .links-nav{
-    padding: 34px 44px 10px 44px;
+    padding: 31px 44px 13px 41px;
+}
+#logo{
+    margin: 0px 0px 0px 1px;
 }
 .links-nav{
     width: 100%;
@@ -286,6 +309,7 @@ header .links-nav{
     z-index: -1;
 }
 .preview{
+    padding: 10px;
     width: 100%;
     min-height: 361px;
     margin: 0px 0px 39px 0px;
@@ -296,18 +320,31 @@ header .links-nav{
     padding: 49px 54px 35px 55px;
 }
 .preview h1{
-    text-shadow: 1px 1px 1px rgba(77, 77, 99, 0.75);
     color: #e0e0e0;
-    font-family: Helvetica;
+    font-family: Helvetica Condensed;
     font-size: 150px;
     font-weight: 700;
     line-height: 130px;
-    margin: 7px 0px 0px 0px;
+    margin: 8px 0px 0px 0px;
     text-transform: uppercase;
+    position: relative;
+    letter-spacing: -0.052em;
+}
+preview h1 span{
     background: -webkit-linear-gradient(top, #fff 0%, #cdcdcd 100%);
-    text-shadow: 0.5px 0.9px 1px rgba(77, 77, 99, 0.75);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
+    position: relative;
+    display: inline-block;
+}
+.preview h1:before {
+    background: none;
+    content: attr(data-text);
+    left: 0px;
+    position: absolute;
+    text-shadow: 1px 3px 2px rgba(77, 77, 99, 0.75);
+    top: 0px;
+    z-index: 0;
 }
 .preview p{
     text-shadow: 2px 2px 1px rgba(77, 77, 99, 0.75);
@@ -326,6 +363,7 @@ header .links-nav{
     font-size: 15px;
     color: #858383;
     letter-spacing: -0.051em;
+    text-align: center;
 }
 .banner .item-wrapper > p a{
     color: #858383;
@@ -336,9 +374,12 @@ header .links-nav{
 .banner .item-wrapper > p a:active, .banner .item-wrapper > p a:hover, .banner .item-wrapper > p a:focus{
     text-decoration: underline;
 }
+.portfolio .links-nav{
+    padding: 34px 44px 36px 44px;
+}
 .grid{
     flex-wrap: wrap;
-    padding: 0px 0px 4px 0px;
+    padding: 0px 0px 5px 0px;
 }
 .grid > article{
     flex: 1;
@@ -348,11 +389,12 @@ header .links-nav{
 }
 .grid h4{
     color: black;
-    font-family: Helvetica;
+    font-family: Helvetica Condensed;
     font-size: 16px;
     font-weight: 700;
     margin: 8px 0px 2px 7px;
     line-height: 15px;
+    letter-spacing: -0.03em;
 }
 .grid p{
     color: #686767;
@@ -375,34 +417,39 @@ header .links-nav{
 .title{
     text-shadow: 1px 1.7px 0 white;
     color: #6b4848;
-    font-family: GillSansMT;
+    font-family: GillSansMT Bold;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 37px;
     text-align: center;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 14px 39px 0px;
+    letter-spacing: 0.007em;
 }
 .title span{
-    font-size: 60px;
+    font-size: 58px;
 }
-.item.testimonials-wrap{    
-margin: 95px 0px 30px 0px;
+.testimonials-wrap .links-nav{
+    padding: 29px 44px 33px 44px;
+}
+.item.testimonials-wrap{
+    margin: 91px 0px 30px 0px;
 }
 .item-wrapper.testimonials{
-        padding: 39px 59px 20px 59px;
+    padding: 39px 55px 20px 59px;
 }
 .testimonials blockquote{
-    padding: 2px 0px 45px 10px;
+    padding: 0px 0px 44px 10px;
 }
 .testimonials article{
-    margin: 0px 75px 37px 11px;
+    margin: 0px 20px 39px 11px;
+    max-width: 220px;
 }
 .testimonials article:last-child{
-    margin: 0px 0px 20px 11px;
+    margin: 0px 0px 20px 3px;
 }
 .testimonials article h3{
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 2px 0px;
     color: black;
-    font-family: Helvetica;
+    font-family: Helvetica Condensed;
     font-size: 25px;
 }
 .testimonials article p{
@@ -411,30 +458,40 @@ margin: 95px 0px 30px 0px;
     font-size: 12px;
     line-height: 24px;
 }
-.form-wrap, .contact{
-    width: 50%;
+.articles{
+    width: 100%;
+}
+.footer .links-nav{
+    padding: 40px 44px 33px 44px;
+}
+.form-wrap{
+    width: 56%;
+}
+.contact{
+    width: 44%;
 }
 .contact-wrap{
     width: 100%;
 }
 .form-wrap .title{
     text-align: left;
-    margin: 0px 0px 17px 0px;
+    margin: 0px 0px 21px 14px;
+    letter-spacing: 0.015em;
 }
 .form-wrap{
-    padding: 12px 0px 0px 14px;
+    padding: 12px 0px 0px 0px;
 }
 .contact{
     position: relative;
-    padding: 247px 10px 10px 10px;
+    padding: 247px 10px 10px 2px;
 }
 .lbl-wrap{
     position: absolute;
     top: 98px;
-    right: -85px;
+    right: -54px;
 }
 .social{
-    padding: 0px 0px 0px 113px;
+    padding: 0px 0px 0px 69px;
 }
 .social span{
     color: #686767;
@@ -443,7 +500,7 @@ margin: 95px 0px 30px 0px;
     padding: 0px 20px 16px 0px;
 }
 .copyright{
-    padding: 52px 4px 52px 8px;
+    padding: 52px 4px 52px 0px;
 }
 .copyright p, .copyright span{
     text-align: right;
@@ -456,8 +513,183 @@ margin: 95px 0px 30px 0px;
     margin: 13px 0px 21px 0px;
 }
 .item.footer {
-    margin: 114px 0px 30px 0px;
+    margin: 111px 0px 88px 0px;
 }
 .links-social{
     padding: 0px 0px 0px 2px;
+}
+.form-wrap form{
+    padding: 0px 38px 0px 0px;
+}
+.footer .item-wrapper{
+    padding: 23px 40px 49px 41px;
+}
+.portfolio .item-wrapper{
+    padding: 23px 40px 31px 41px;
+    background: linear-gradient(to bottom, #eee 0%, #eee 95%, transparent 100%);
+}
+.footer .btn-default{    
+min-width: 184px;    
+}
+.footer button{       
+margin: 0px 48px 0px 0px;
+}
+
+@media (max-width: 990px) {
+    .lbl-wrap {
+    right: -42px;
+}
+.lbl-available::after{
+    display:none;
+}
+}
+@media (max-width: 800px) {
+    .grid{
+        justify-content: space-around;
+    }  
+    .portfolio .item-wrapper {
+    padding: 23px 10px 31px 10px;
+}
+.footer .item-wrapper {
+    padding: 23px 10px 49px 10px;
+}
+.item-wrapper.testimonials {
+    padding: 39px 10px 20px 10px;
+}
+    .lbl-wrap {
+    right: -11px;
+}
+}
+@media (max-width: 740px) {  
+.lbl-available {
+    min-width: 200px;
+}
+.lbl-available h6 {
+    font-size: 22px;
+    letter-spacing: 0.03em;
+}
+.lbl-wrap::after{
+    display: none;
+}
+    .lbl-wrap {
+    right: -12px;
+    left: auto;
+}
+}
+@media (max-width: 650px) {    
+.links-nav a {
+    font-size: 20px;
+}
+.social {
+    padding: 0px 0px 0px 20px;
+}
+header .links-nav {
+    padding: 31px 10px 13px 10px;
+}
+.links-nav {
+    flex-wrap: wrap;
+    padding: 40px 20px 30px 20px;
+}
+.portfolio .links-nav {
+    padding: 34px 20px 36px 20px;
+}
+.testimonials-wrap .links-nav {
+    padding: 29px 20px 33px 20px;
+}
+.footer .links-nav {
+    padding: 40px 20px 33px 20px;
+}
+.banner .item-wrapper {
+    padding: 20px 20px 35px 20px;
+}
+.links-filter{
+    justify-content: center;
+}
+.links-filter a, .links-filter > a:first-child, .links-filter > a:last-child {
+    margin: 5px 10px;
+}
+}
+@media (max-width: 600px) {
+    .articles{
+        flex-direction: column;
+    }
+    .testimonials article, .testimonials article:last-child {
+    margin: 0px 10px 39px 10px;
+    max-width: 600px;
+}
+}
+@media (max-width: 580px) {
+    .testimonials blockquote {
+    padding: 0px 0px 44px 0px;
+}
+blockquote q {
+    padding: 9px 0px 10px 10px;
+}
+.contact-wrap{
+    flex-direction: column;
+}
+.form-wrap {
+    width: 100%;
+}
+.contact {
+   width: 100%;
+    padding: 247px 0px 10px 0px;
+}
+.form-wrap form {
+    padding: 0px 0px 0px 0px;
+}
+.footer button{       
+margin: 0px 10px 0px 10px;
+}
+}
+@media (max-width: 480px) {
+.links-nav a::before, .links-nav a:after{
+    display: none;
+}
+header .links-nav {
+    padding: 31px 0px 13px 0px;
+}
+.portfolio .links-nav {
+    padding: 34px 0px 36px 0px;
+}
+.testimonials-wrap .links-nav {
+    padding: 29px 0px 33px 0px;
+}
+.footer .links-nav {
+    padding: 40px 0px 33px 0px;
+}
+.links-nav a, .links-nav > a:first-child, .links-nav a:last-child{
+    margin: 0px 1px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    border-radius: 5px 5px 0px 0px;
+    border-left: 1px solid #B2B2B2;
+    border-right: 1px solid #B2B2B2;
+}
+.preview h1{
+    font-size: 90px;
+    margin: 0px;
+}
+.preview p {
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    line-height: 30px;
+}
+blockquote{
+    text-align: center;
+}
+blockquote img{
+    display: none;
+}
+.title span {
+    font-size: 40px;
+}
+.title{
+    margin: 0px 0px 39px 0px;
+}
+blockquote q {
+    padding: 9px 10px 10px 10px;
+}
 }

@@ -1,0 +1,137 @@
+/* FONTS */
+ 
+@font-face {
+    font-family: 'LucidaGrande';
+    src: local(''), url('/fonts/lucida-grande.woff') format('woff');
+}
+@font-face {
+    font-family: 'LucidaGrande Bold';
+    src: local(''), url('/fonts/lucida-grande-bold.woff') format('woff');
+}/* ICONS */
+ 
+.icon-cloud {width: 38px; height: 37px; background: url('/images/icons/cloud.png');}
+.icon-fb {width: 28px; height: 28px; background: url('/images/icons/fb.png');}
+.icon-in {width: 28px; height: 28px; background: url('/images/icons/in.png');}
+.icon-location {width: 37px; height: 36px; background: url('/images/icons/location.png');}
+.icon-monitor {width: 37px; height: 36px; background: url('/images/icons/monitor.png');}
+.icon-next {width: 36px; height: 35px; background: url('/images/icons/next.png');}
+.icon-prev {width: 36px; height: 35px; background: url('/images/icons/prev.png');}
+.icon-tw {width: 28px; height: 28px; background: url('/images/icons/tw.png');}/* ELEMENTS */
+ 
+.links-nav{
+    width: 100%;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, #a7a5a5, #6c6c6c);
+    border-radius: 6px;
+    padding: 0px 30px 0px 30px;
+}
+.links-nav a{
+    min-height: 46px;
+    font-family: LucidaGrande;
+    font-size: 15px;
+    font-weight: 700;
+    color:  #292828;
+    margin: 0px 12px;
+    padding: 0px 5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color:  #ffffff;
+    border-bottom: 5px solid #fff;
+}
+.links-social a{
+    margin: 3px;
+}
+.links-controls a{
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 13px 13px, #fff, #d8d8d8);
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background: radial-gradient(circle at 3px 3px, #9c9c9c, #616060);
+}
+figure img{
+    width: 100%;
+    height: 100%;
+}
+/* $------------------------------------------------------------------------- */
+body{
+    background: #f5f6f7;
+}
+header{
+    margin: 0px 0px -30px 0px;
+    min-height: 263px;
+    background:  #3a3938 url("/images/highlight.png")no-repeat 0% -200px;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 988px;
+}
+header .lwrap > div{
+    min-height: 150px;
+}
+.content-wrap{
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+        background-color: #fff;
+        border-radius: 5px 5px 0px 0px;
+        padding: 20px 20px 20px 20px;
+}
+.slider{
+    position: relative;
+}
+.slider figure{
+    position: relative;
+}
+.slider figcaption{
+    position: absolute; 
+    left: 30px;
+    bottom: 30px;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px 20px 20px 20px;
+}
+.slider figcaption h2{
+    color: white;
+font-family: LucidaGrande;
+font-size: 25px;
+}
+.slider figcaption span{
+    color: #aeaeae;
+font-family: LucidaGrande;
+font-size: 25px;
+}
+.slider > a{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider > a.prev{
+    left: 10px;
+}
+.slider > a.next{
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    min-height: 52px;
+background-color: #3a3938;
+padding: 10px 20px 10px 20px;
+}
+footer span{
+    color: white;
+font-family: LucidaGrande;
+font-size: 10px;
+}

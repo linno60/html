@@ -28,17 +28,17 @@
                 <div class="item-wrap">
                     <div class="item-wrapper" data-flex="col-center-between">
                         <div class="preview" data-flex="col-center-center">
-                            <h1>hello</h1>
+                            <h1 data-text='hello'><span>hello</span></h1>
                             <p>My name is Rafi. I am a Graphic Designer, and this is my online space to showcase my works.</p>
-                            <a href="#" class="btn btn-default"><em>see all works</em><i class="icon-arrow"></i></a>
+                            <a href="#" class="btn btn-default"><em>see my works</em><i class="icon-arrow"></i></a>
                         </div>
-                        <p><span>Pixelatic’s Blog Update: </span>Complete Guide to Blog Advertising <a href="#">http://bit.ly/bINts7</a></p>
+                        <p><span>Pixelatic's Blog Update: </span>Complete Guide to Blog Advertising <a href="#">http://bit.ly/bINts7</a></p>
                         <a href="#top" class="btn btn-top">go to top</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="item">
+        <div class="item portfolio">
             <div class="lwrap" data-flex="col-center">
                 <nav class="hlinks links-nav">
                     <a href="#" class="active">home.</a>
@@ -128,7 +128,7 @@
                     <div class="item-wrapper testimonials" data-flex="col-center">
                         <h2 class="title"><span>Clean, Wonderful & Effective</span><br>websites that can really improve your business</h2>
                         <blockquote data-flex="row-center">
-                            <img src="/images/testimonial.png" width="266" height="66" alt="">
+                            <img src="/images/testimonial.png" width="266" height="66" alt="Testimonial">
                             <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate. </q>
                         </blockquote>
                         <div class="articles" data-flex="row--between">
@@ -173,7 +173,7 @@
                             </div>
                             <div class="contact">
                                 <div class="lbl-wrap">
-                                    <div class="lbl lbl-available"><span>Available For Hire</span></div>
+                                    <div class="lbl lbl-available"><h6 data-text="Available For Hire"><span>Available For Hire</span></h6></div>
                                 </div>
                                 <div class="social" data-flex="col-start">
                                     <span>Connect with me via:</span>
@@ -188,7 +188,7 @@
                                     <a href="#" title="Return to the homepage" id="logoalt" data-flex>
                                         <img src="/images/logoalt.png" width="103" height="33" alt="Sleeko">
                                     </a>
-                                    <p>This is a FREE single page website design created in Photoshop format exclusively for Pixelactic.com’s readers. This deisgn is created by Rafi. Hope you’ll like this design. Thanks!</p>
+                                    <p>This is a FREE single page website design created in Photoshop format exclusively for Pixelactic.com's readers. This deisgn is created by Rafi. Hope you'll like this design. Thanks!</p>
                                     <span>&copy; Copyright. All rights reserved.</span>
                                 </div>   
                             </div>

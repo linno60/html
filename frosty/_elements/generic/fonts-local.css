@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'LucidaGrande';
+	src: local(''), url('/fonts/lucida-grande.woff') format('woff');
+}
+@font-face {
+	font-family: 'LucidaGrande Bold';
+	src: local(''), url('/fonts/lucida-grande-bold.woff') format('woff');
+}
