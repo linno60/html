@@ -40,7 +40,7 @@
                     <figure data-flex>
                         <img src="/images/photo.png" width="907" height="416" alt="">
                         <figcaption data-flex='col--center'>
-                            <h2>Here is come of our recent work</h2>
+                            <h2>Here is some of our recent work</h2>
                             <span>Snow on the ground</span>
                         </figcaption>
                     </figure>
@@ -53,23 +53,35 @@
                     </div>
                 </div>
                 <h1 class='title'><span>We work with your to create stunning results</span></h1>
-                <div class='grid'>
+                <div class='grid' data-flex='row--between'>
                     <article>
-                        <h3></h3>
+                        <h3 data-flex='row-center'><i class="icon-monitor"></i>How we work</h3>
+                        <p>tis antiis aut quidemo blaborem dolutemporum illese voluptate dolori dolores volupit optatur sus explabo. Pis nim ut quatem nos repratus alissimus venihil lorunti orecull uptaepudae illuptatios magnitibus doloribusae nessime sequias deliquis vollaut lab inventi omnihilitem es era dici int. Nam, sam inullab inti officiet lab il ma comnis autem ea vitiati tetur</p>
+                        <span class='more'>&raquo;<a href='#'>read more</a></span>
                     </article>
-                </div>
-                <div class='grid'>
                     <article>
-                        <h3></h3>
+                        <h3 data-flex='row-center'><i class="icon-location"></i>Our offices</h3>
+                        <div class='item' data-flex='col'>
+                            <span>London, UK</span>
+                            <span class='more'>&raquo;<a href='#'>more details</a></span>
+                        </div>
+                        <div class='item' data-flex='col'>
+                            <span>Paris, France</span>
+                           <span class='more'>&raquo;<a href='#'>more details</a></span>
+                        </div>
+                        <div class='item' data-flex='col'>
+                            <span>New York, USA</span>
+                            <span class='more'>&raquo;<a href='#'>more details</a></span>
+                        </div>
                     </article>
-                </div>
-                <div class='grid'>
                     <article>
-                        <h3></h3>
+                        <h3 data-flex='row-center'><i class="icon-cloud"></i>What people say</h3>
+                        <blockquote>“Ciationseque in repera derore, qui idelendae eaquias adisit odit molupic tet pratis eic to ea volore et que nobit imin et la de dolectusto eatur mod experch illuptatae parcipsum quatis alique mos et aut occaeqexpero odi solorpori blab id quametu sdamus atisciliam, sunt quostia venectur, officatem. Muscips aectotatet antoreperum rerunt offic te voloritibus, quuntur?”<cite> - LC</cite></blockquote>
+                       <span class='more'>&raquo;<a href='#'>read more</a></span>
                     </article>
                 </div>
             </div>
-            <footer>
+            <footer data-flex='row-center'>
                 <span>Copyright &copy; Ian Barnard Design</span>
             </footer>
         </div>

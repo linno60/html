@@ -1,38 +1,40 @@
 /* FONTS */
- 
+
 @font-face {
     font-family: 'LucidaGrande';
-    src: local(''), url('/fonts/lucida-grande.woff') format('woff');
+    src: local(''), url('../fonts/lucida-grande.woff') format('woff');
 }
 @font-face {
     font-family: 'LucidaGrande Bold';
-    src: local(''), url('/fonts/lucida-grande-bold.woff') format('woff');
+    src: local(''), url('../fonts/lucida-grande-bold.woff') format('woff');
 }/* ICONS */
- 
-.icon-cloud {width: 38px; height: 37px; background: url('/images/icons/cloud.png');}
-.icon-fb {width: 28px; height: 28px; background: url('/images/icons/fb.png');}
-.icon-in {width: 28px; height: 28px; background: url('/images/icons/in.png');}
-.icon-location {width: 37px; height: 36px; background: url('/images/icons/location.png');}
-.icon-monitor {width: 37px; height: 36px; background: url('/images/icons/monitor.png');}
-.icon-next {width: 36px; height: 35px; background: url('/images/icons/next.png');}
-.icon-prev {width: 36px; height: 35px; background: url('/images/icons/prev.png');}
-.icon-tw {width: 28px; height: 28px; background: url('/images/icons/tw.png');}/* ELEMENTS */
- 
+
+.icon-cloud {width: 38px; height: 37px; background: url('../images/icons/cloud.png');}
+.icon-fb {width: 28px; height: 28px; background: url('../images/icons/fb.png');}
+.icon-in {width: 28px; height: 28px; background: url('../images/icons/in.png');}
+.icon-location {width: 37px; height: 36px; background: url('../images/icons/location.png');}
+.icon-monitor {width: 37px; height: 36px; background: url('../images/icons/monitor.png');}
+.icon-next {width: 36px; height: 35px; background: url('../images/icons/next.png');}
+.icon-prev {width: 36px; height: 35px; background: url('../images/icons/prev.png');}
+.icon-tw {width: 28px; height: 28px; background: url('../images/icons/tw.png');}/* ELEMENTS */
+
 .links-nav{
+    flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
     background: linear-gradient(to bottom, #a7a5a5, #6c6c6c);
     border-radius: 6px;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 24px 0px 24px;
+    margin: 0px 0px 10px 0px;
 }
 .links-nav a{
-    min-height: 46px;
+    min-height: 40px;
     font-family: LucidaGrande;
     font-size: 15px;
     font-weight: 700;
     color:  #292828;
-    margin: 0px 12px;
-    padding: 0px 5px;
+    margin: 0px 18px 0px 18px;
+    padding: 0px 5px 2px 5px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
 }
@@ -40,18 +42,62 @@
     color:  #ffffff;
     border-bottom: 5px solid #fff;
 }
+.links-social{
+    padding: 15px 0px 0px 0px;
+    flex-wrap: wrap;
+}
 .links-social a{
     margin: 3px;
 }
 .links-controls a{
-    margin: 2px;
-    width: 20px;
-    height: 20px;
+    margin: 2px 2px 2px 2px;
+    width: 17px;
+    height: 17px;
     border-radius: 50%;
     background: radial-gradient(circle at 13px 13px, #fff, #d8d8d8);
 }
 .links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
     background: radial-gradient(circle at 3px 3px, #9c9c9c, #616060);
+}
+.more a, .more{
+    color: #848484;
+    font-family: LucidaGrande;
+    font-size: 14px;
+}
+.more a{
+    text-decoration: none;
+    padding: 0px 0px 2px 0px;
+    margin: 0px 0px 0px 4px;
+    letter-spacing: -0.02em;
+    border-bottom: 1px solid #848484;
+    display: inline-block;
+}
+.more a:active, .more a:hover, .more a:focus{
+    border-bottom: 1px solid transparent;
+}
+.title{
+    margin: 0px 3px 49px -2px;
+    text-align: center;
+    color: #585858;
+    font-family: LucidaGrande;
+    font-size: 25px;
+    position: relative;
+    font-weight: 300;
+    letter-spacing: -0.035em;
+}
+.title span{
+    background-color: #fff;
+    padding: 2px 14px 2px 14px;
+    position: relative;
+    text-align: center;
+}
+.title:before{
+    position: absolute;
+    content: "";
+    border-top: 1px solid #d3d3d3;
+    width: 100%;
+    left: 0px;
+    top: 61%;
 }
 figure img{
     width: 100%;
@@ -61,77 +107,204 @@ figure img{
 body{
     background: #f5f6f7;
 }
+#logo{
+    margin: 0px 20px 0px -3px;
+}
 header{
-    margin: 0px 0px -30px 0px;
+    padding: 0px 0px 60px 0px;
+    margin: 0px 0px -60px 0px;
     min-height: 263px;
-    background:  #3a3938 url("/images/highlight.png")no-repeat 0% -200px;
+    background:  #3a3938 url("../images/highlight.png")no-repeat 0% -200px;
 }
 .lwrap{
     padding: 0px 10px;
-    max-width: 988px;
+    max-width: 980px;
 }
 header .lwrap > div{
-    min-height: 150px;
+    flex-wrap: wrap;
+    min-height: 148px;
+    padding: 16px 4px 10px 0px;
 }
 .content-wrap{
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
-        background-color: #fff;
-        border-radius: 5px 5px 0px 0px;
-        padding: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 27px 26px 0px 27px;
 }
 .slider{
     position: relative;
+    padding: 0px 0px 40px 0px;
 }
 .slider figure{
     position: relative;
 }
 .slider figcaption{
-    position: absolute; 
-    left: 30px;
-    bottom: 30px;
+    position: absolute;
+    left: 31px;
+    bottom: 38px;
+    margin: 0px 10px 0px 0px;
     background-color: rgba(0,0,0,.5);
-    padding: 20px 20px 20px 20px;
+    padding: 19px 23px 20px 29px;
 }
 .slider figcaption h2{
     color: white;
-font-family: LucidaGrande;
-font-size: 25px;
+    font-family: LucidaGrande;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
 }
 .slider figcaption span{
     color: #aeaeae;
-font-family: LucidaGrande;
-font-size: 25px;
+    font-family: LucidaGrande;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: -0.05em;
 }
 .slider > a{
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-136%);
 }
 .slider > a.prev{
-    left: 10px;
+    left: 20px;
 }
 .slider > a.next{
-    right: 10px;
+    right: 21px;
 }
-
-
-
-
-
-
-
-
-
-
-
+.slider .links-controls{
+    padding: 12px 0px 0px 9px;
+}
+.grid{
+    flex-wrap: wrap;
+    font-family: LucidaGrande;
+    font-size: 14px;
+    color: #666;
+}
+.grid article blockquote cite{
+    font-style: normal;
+}
+.grid article p, .grid article blockquote{
+    margin: 0px 0px 20px 0px;
+    letter-spacing: -0.025em;
+    line-height: 17px;
+}
+.grid article p{
+    margin: 0px 0px 6px 0px;
+}
+.grid article blockquote{
+    margin: 0px 0px 1px 0px;
+}
+.grid > article{
+    flex: 1;
+    max-width: 257px;
+    margin: 0px 20px 37px 0px;
+}
+.grid > article:last-child{
+    max-width: 262px;
+    margin: 0px 14px 30px 0px;
+}
+.grid article h3{
+    color: #999;
+    font-family: LucidaGrande;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0px 0px 32px 0px;
+    letter-spacing: -0.025em;
+}
+.grid article h3 i{
+    min-width: 37px;
+    margin: 0px 6px 0px 0px;
+}
+.item{
+    padding: 0px 0px 18px 0px;
+    background:url("../images/border.png") repeat-x left bottom;
+    margin: 0px 5px 18px 2px;
+}
+.item .more{
+    padding: 2px 0px 0px 0px;
+}
+.item span{
+    letter-spacing: -0.022em;
+}
+.item:last-child{
+    background: none;
+    margin: 0px 5px 0px 2px;
+    padding: 0px 0px 0px 0px;
+}
 footer{
     min-height: 52px;
-background-color: #3a3938;
-padding: 10px 20px 10px 20px;
+    background-color: #3a3938;
+    padding: 10px 20px 10px 20px;
 }
 footer span{
     color: white;
-font-family: LucidaGrande;
-font-size: 10px;
+    font-family: LucidaGrande;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: -0.022em;
+}
+@media (max-width: 840px) {
+    .links-nav {
+    padding:0px;
+    justify-content: center;
+}
+.links-nav a, .links-nav > a:first-child, .links-nav > a:last-child{
+margin: 0px 10px;
+}
+.slider figcaption {
+    left: 10px;    
+    bottom: 10px;
+    padding: 5px;
+}
+.slider figcaption h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.slider figcaption span {
+    font-size: 12px;
+}
+.grid article h3 {
+    font-size: 20px;
+}
+.grid article h3 i {
+    margin: 0px 3px 0px 0px;
+}
+}
+@media (max-width: 710px) {
+    .grid article h3 {
+    font-size: 16px;
+}
+}
+@media (max-width: 615px) {
+    .title span{
+    padding: 2px 2px 2px 2px;
+}
+.title:before{
+    display: none;
+}
+.grid{
+    flex-direction: column;
+}
+.grid > article, .grid > article:last-child {
+    max-width: 600px;
+    margin: 0px 0px 37px 0px;
+}
+}
+@media (max-width: 440px) {
+ .content-wrap {
+    padding: 10px 10px 0px 10px;
+}
+.slider figcaption {
+    left: 5px;    
+    bottom: 5px;
+}
+.slider figcaption h2 {
+    font-size: 14px;
+    line-height: 14px;
+}
+.slider figcaption span {
+    font-size: 10px;
+}
 }

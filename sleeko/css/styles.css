@@ -529,167 +529,167 @@ preview h1 span{
     background: linear-gradient(to bottom, #eee 0%, #eee 95%, transparent 100%);
 }
 .footer .btn-default{    
-min-width: 184px;    
+    min-width: 184px;    
 }
 .footer button{       
-margin: 0px 48px 0px 0px;
+    margin: 0px 48px 0px 0px;
 }
 
 @media (max-width: 990px) {
     .lbl-wrap {
-    right: -42px;
-}
-.lbl-available::after{
-    display:none;
-}
+        right: -42px;
+    }
+    .lbl-available::after{
+        display:none;
+    }
 }
 @media (max-width: 800px) {
     .grid{
         justify-content: space-around;
     }  
     .portfolio .item-wrapper {
-    padding: 23px 10px 31px 10px;
-}
-.footer .item-wrapper {
-    padding: 23px 10px 49px 10px;
-}
-.item-wrapper.testimonials {
-    padding: 39px 10px 20px 10px;
-}
+        padding: 23px 10px 31px 10px;
+    }
+    .footer .item-wrapper {
+        padding: 23px 10px 49px 10px;
+    }
+    .item-wrapper.testimonials {
+        padding: 39px 10px 20px 10px;
+    }
     .lbl-wrap {
-    right: -11px;
-}
+        right: -11px;
+    }
 }
 @media (max-width: 740px) {  
-.lbl-available {
-    min-width: 200px;
-}
-.lbl-available h6 {
-    font-size: 22px;
-    letter-spacing: 0.03em;
-}
-.lbl-wrap::after{
-    display: none;
-}
+    .lbl-available {
+        min-width: 200px;
+    }
+    .lbl-available h6 {
+        font-size: 22px;
+        letter-spacing: 0.03em;
+    }
+    .lbl-wrap::after{
+        display: none;
+    }
     .lbl-wrap {
-    right: -12px;
-    left: auto;
-}
+        right: -12px;
+        left: auto;
+    }
 }
 @media (max-width: 650px) {    
-.links-nav a {
-    font-size: 20px;
-}
-.social {
-    padding: 0px 0px 0px 20px;
-}
-header .links-nav {
-    padding: 31px 10px 13px 10px;
-}
-.links-nav {
-    flex-wrap: wrap;
-    padding: 40px 20px 30px 20px;
-}
-.portfolio .links-nav {
-    padding: 34px 20px 36px 20px;
-}
-.testimonials-wrap .links-nav {
-    padding: 29px 20px 33px 20px;
-}
-.footer .links-nav {
-    padding: 40px 20px 33px 20px;
-}
-.banner .item-wrapper {
-    padding: 20px 20px 35px 20px;
-}
-.links-filter{
-    justify-content: center;
-}
-.links-filter a, .links-filter > a:first-child, .links-filter > a:last-child {
-    margin: 5px 10px;
-}
+    .links-nav a {
+        font-size: 20px;
+    }
+    .social {
+        padding: 0px 0px 0px 20px;
+    }
+    header .links-nav {
+        padding: 31px 10px 13px 10px;
+    }
+    .links-nav {
+        flex-wrap: wrap;
+        padding: 40px 20px 30px 20px;
+    }
+    .portfolio .links-nav {
+        padding: 34px 20px 36px 20px;
+    }
+    .testimonials-wrap .links-nav {
+        padding: 29px 20px 33px 20px;
+    }
+    .footer .links-nav {
+        padding: 40px 20px 33px 20px;
+    }
+    .banner .item-wrapper {
+        padding: 20px 20px 35px 20px;
+    }
+    .links-filter{
+        justify-content: center;
+    }
+    .links-filter a, .links-filter > a:first-child, .links-filter > a:last-child {
+        margin: 5px 10px;
+    }
 }
 @media (max-width: 600px) {
     .articles{
         flex-direction: column;
     }
     .testimonials article, .testimonials article:last-child {
-    margin: 0px 10px 39px 10px;
-    max-width: 600px;
-}
+        margin: 0px 10px 39px 10px;
+        max-width: 600px;
+    }
 }
 @media (max-width: 580px) {
     .testimonials blockquote {
-    padding: 0px 0px 44px 0px;
-}
-blockquote q {
-    padding: 9px 0px 10px 10px;
-}
-.contact-wrap{
-    flex-direction: column;
-}
-.form-wrap {
-    width: 100%;
-}
-.contact {
-   width: 100%;
-    padding: 247px 0px 10px 0px;
-}
-.form-wrap form {
-    padding: 0px 0px 0px 0px;
-}
-.footer button{       
-margin: 0px 10px 0px 10px;
-}
+        padding: 0px 0px 44px 0px;
+    }
+    blockquote q {
+        padding: 9px 0px 10px 10px;
+    }
+    .contact-wrap{
+        flex-direction: column;
+    }
+    .form-wrap {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+        padding: 247px 0px 10px 0px;
+    }
+    .form-wrap form {
+        padding: 0px 0px 0px 0px;
+    }
+    .footer button{       
+        margin: 0px 10px 0px 10px;
+    }
 }
 @media (max-width: 480px) {
-.links-nav a::before, .links-nav a:after{
-    display: none;
-}
-header .links-nav {
-    padding: 31px 0px 13px 0px;
-}
-.portfolio .links-nav {
-    padding: 34px 0px 36px 0px;
-}
-.testimonials-wrap .links-nav {
-    padding: 29px 0px 33px 0px;
-}
-.footer .links-nav {
-    padding: 40px 0px 33px 0px;
-}
-.links-nav a, .links-nav > a:first-child, .links-nav a:last-child{
-    margin: 0px 1px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-}
-.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
-    border-radius: 5px 5px 0px 0px;
-    border-left: 1px solid #B2B2B2;
-    border-right: 1px solid #B2B2B2;
-}
-.preview h1{
-    font-size: 90px;
-    margin: 0px;
-}
-.preview p {
-    font-size: 20px;
-    margin: 0px 0px 15px 0px;
-    line-height: 30px;
-}
-blockquote{
-    text-align: center;
-}
-blockquote img{
-    display: none;
-}
-.title span {
-    font-size: 40px;
-}
-.title{
-    margin: 0px 0px 39px 0px;
-}
-blockquote q {
-    padding: 9px 10px 10px 10px;
-}
+    .links-nav a::before, .links-nav a:after{
+        display: none;
+    }
+    header .links-nav {
+        padding: 31px 0px 13px 0px;
+    }
+    .portfolio .links-nav {
+        padding: 34px 0px 36px 0px;
+    }
+    .testimonials-wrap .links-nav {
+        padding: 29px 0px 33px 0px;
+    }
+    .footer .links-nav {
+        padding: 40px 0px 33px 0px;
+    }
+    .links-nav a, .links-nav > a:first-child, .links-nav a:last-child{
+        margin: 0px 1px;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+    }
+    .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+        border-radius: 5px 5px 0px 0px;
+        border-left: 1px solid #B2B2B2;
+        border-right: 1px solid #B2B2B2;
+    }
+    .preview h1{
+        font-size: 90px;
+        margin: 0px;
+    }
+    .preview p {
+        font-size: 20px;
+        margin: 0px 0px 15px 0px;
+        line-height: 30px;
+    }
+    blockquote{
+        text-align: center;
+    }
+    blockquote img{
+        display: none;
+    }
+    .title span {
+        font-size: 40px;
+    }
+    .title{
+        margin: 0px 0px 39px 0px;
+    }
+    blockquote q {
+        padding: 9px 10px 10px 10px;
+    }
 }

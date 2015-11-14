@@ -33,3 +33,35 @@
 .links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
     background: radial-gradient(circle at 3px 3px, #9c9c9c, #616060);
 }
+.more a, .more{
+    color: #848484;
+    font-family: LucidaGrande;
+    font-size: 14px;
+}
+.more a{
+    padding: 0px 0px 0px 5px;
+}
+.more a:active, .more a:hover, .more a:focus{
+    text-decoration: none;
+}
+.title{
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    color: #585858;
+    font-family: LucidaGrande;
+    font-size: 25px;
+    position: relative;
+}
+.title span{
+    background-color: #fff;
+    padding: 2px 20px;
+    position: relative;
+}
+.title:before{
+    position: absolute;
+    content: "";
+    border-top: 1px solid #d3d3d3;
+    width: 100%;
+    left: 0px;
+    top: 50%;
+}
