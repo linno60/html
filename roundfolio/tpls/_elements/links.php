@@ -5,3 +5,10 @@
     <a href="#"><i class="icon-fl"></i></a>
     <a href="#"><i class="icon-tw"></i></a>
 </div>
+<div class="hlinks links-controls">
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#" class="active"></a>
+    <a href="#"></a>
+</div>

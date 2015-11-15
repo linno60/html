@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Cantarell);
+ 
+/* FONTS */
+ 
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('/fonts/fontsquirel.com/leaguegothic-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/leaguegothic-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}/* ICONS */
+ 
+.icon-fb {width: 28px; height: 30px; background: url('/images/icons/fb.png');}
+.icon-fl {width: 28px; height: 30px; background: url('/images/icons/fl.png');}
+.icon-mail {width: 16px; height: 12px; background: url('/images/icons/mail.png');}
+.icon-rss {width: 12px; height: 12px; background: url('/images/icons/rss.png');}
+.icon-support {width: 28px; height: 30px; background: url('/images/icons/support.png');}
+.icon-sv {width: 28px; height: 30px; background: url('/images/icons/sv.png');}
+.icon-tw {width: 28px; height: 30px; background: url('/images/icons/tw.png');}
+.icon-user {width: 13px; height: 13px; background: url('/images/icons/user.png');}/* ELEMENTS */
+ 
+.links-social a{
+    margin: 3px;
+}
+.links-controls a{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 2px 2px 3px 2px;
+    background: #afaeae;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background: #535353;
+}
+.btn-submit{
+    min-width: 83px;
+    min-height: 41px;
+    background-color: #ff7800;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.47);
+    color: white;
+    font-family: LeagueGothic;
+    font-size: 25px;
+    padding: 2px 5px;
+    text-transinput: uppercase;
+}
+.title{
+    color: #535353;
+    font-family: LeagueGothic;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.title:after{
+    content: "";
+    height: 16px;
+    flex: 1;
+    margin: 0px 0px 0px 10px;
+    background:url("/images/hdrbg.png")repeat-x left center; 
+}
+.input-wrap{ 
+    margin: 0px 0px 19px 0px;
+    height: 49px;
+    background: white url(/images/icons/user.png)no-repeat 10px center;
+    padding: 0px 20px 0px 30px;
+}
+textarea{
+    padding: 10px;
+    height: 125px;
+    margin: 0px 0px 17px 0px;
+}
+.input-wrap, textarea{
+    max-width: 432px;
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    box-shadow: inset 2.5px 4.3px 5px rgba(0, 0, 0, 0.1);   
+}
+.input-wrap input, textarea{
+    color: #333;
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+}
+.input-wrap input{
+    height: 100%;
+    width: 100%;
+    border:none;
+    outline: none;
+    background: none;    
+}
+.input-wrap input[type="text"]::-webkit-input-placeholder, .input-wrap input[type="email"]::-webkit-input-placeholder,  textarea::-webkit-input-placeholder {
+    color: rgba(83,83,83,.5);
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+}
+.input-wrap input[type="text"]::-moz-placeholder, .input-wrap input[type="email"]::-moz-placeholder,  textarea::-moz-placeholder {
+    color: rgba(83,83,83,.5);
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;    
+}
+.input-wrap input[type="text"]:-ms-input-placeholder,  .input-wrap input[type="email"]:-ms-input-placeholder,  textarea:-ms-input-placeholder {
+    color: rgba(83,83,83,.5);
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+figure img{
+    height: 100%;
+    width: 100%;
+}
+/* $------------------------------------------------------------------------- */
+.border-top{
+    border-top: 5px solid #ff7800;
+    background: url("/images/hdrbg.png")repeat-x left bottom;
+    height: 23px;
+    position: relative;
+}
+header{
+    background: #e7e7e7;
+    border-bottom: 1px solid white;
+    margin: -1px 0px -100px 0px;
+    position: relative;
+}
+header .lwrap{
+    min-height: 188px;
+    padding: 20px 10px 100px 10px;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 960px;
+}
+.wrap{
+    background: linear-gradient(to bottom, #cbcbcb 0%, #cbcbcb 100px, #fefefe 468px, #fff 100%);
+}
+.slider{
+    position: relative;
+}
