@@ -1,0 +1,49 @@
+.links-nav a{
+    color: #423329;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 2px 20px;
+    text-transform: uppercase;
+}
+.links-nav > div{
+    width: 1px;
+    height: 19px;
+    background:url("/images/divider.png");
+}
+.links-nav{
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    background:url("/images/dashed.png")repeat-x left top;
+}
+.links-nav a:first-child{
+    background: none;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-default a{
+    color: #4a4a4a;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 24px;
+}
+a.btn-more, a.btn-default{
+    padding: 5px 10px;  
+    height: 43px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+a.btn-more{
+    text-shadow: 0.5px 0.9px 0 #ebebeb;
+    color: #7e7e7e;
+    min-width: 147px;
+    background-color: #d9d9d9;
+}
+a.btn-default{
+    min-width: 174px;
+    background-color: #75533d;
+    text-shadow: 0.5px 0.9px 1px #553b29;
+    color: white;
+}

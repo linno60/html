@@ -11,6 +11,16 @@
 .links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
     background: #535353;
 }
+.links-accounts a{
+    color: #ff7800;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+}
+.links-accounts a:active, .links-accounts a:hover, .links-accounts a:focus{
+    text-decoration: underline;
+}
 .btn-submit{
     min-width: 83px;
     min-height: 41px;
@@ -21,7 +31,7 @@
     font-family: LeagueGothic;
     font-size: 25px;
     padding: 2px 5px;
-    text-transinput: uppercase;
+    text-transform: uppercase;
 }
 .title{
     color: #535353;
@@ -59,12 +69,12 @@ textarea{
     font-family: Georgia;
     font-size: 16px;
     font-style: italic;
+    outline: none;
 }
 .input-wrap input{
     height: 100%;
     width: 100%;
-    border:none;
-    outline: none;
+    border:none;    
     background: none;    
 }
 .input-wrap input[type="text"]::-webkit-input-placeholder, .input-wrap input[type="email"]::-webkit-input-placeholder,  textarea::-webkit-input-placeholder {

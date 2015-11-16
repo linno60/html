@@ -12,3 +12,10 @@
     <a href="#" class="active"></a>
     <a href="#"></a>
 </div>
+<div class="links links-accounts">
+    <a href="#">@Roundfolio</a>
+    <a href="#">Facebook</a>
+    <a href="#">Behance</a>
+    <a href="#">deviantART</a>
+    <a href="#">Dribble</a>
+</div>
