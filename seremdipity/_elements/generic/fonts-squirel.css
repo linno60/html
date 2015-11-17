@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'MarketDeco';
+    src: url('/fonts/fontsquirel.com/market_deco.woff2') format('woff2'), url('/fonts/fontsquirel.com/market_deco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
