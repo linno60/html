@@ -34,7 +34,7 @@
     margin: 0px 0px 2px 0px;
 }
 .links-nav{
-    padding: 2px 0px 0px 0px;
+    padding: 2px 0px 2px 0px;
     width: 100%;
     max-width: 196px;
     background:url("../images/nav.png") no-repeat left top;
@@ -156,14 +156,12 @@ blockquote{
     letter-spacing: 0.02em;
 }
 .slider > div{
-    flex-wrap: wrap;
     margin: 0px -5px 0px -5px;
 }
 .slider > div > figure{
     margin: 5px;
     flex: 1;
     max-width: 163px;
-    min-width: 100px;
 }
 .grid h2{
     margin: 0px 0px 9px 0px;
@@ -182,16 +180,16 @@ blockquote{
     padding: 2px 0px 0px 0px;
 }
 @media (max-width: 800px) {
-   .sidebar {
-    padding: 51px 10px 20px 10px;
-}
-.content {
-    width: 73.9%;
-    padding: 53px 0px 48px 15px;
-}
-.slider > div {
-    justify-content: space-around;
-}
+    .sidebar {
+        padding: 51px 10px 20px 10px;
+    }
+    .content {
+        width: 73.9%;
+        padding: 53px 0px 48px 15px;
+    }
+    .slider > div {
+        justify-content: space-around;
+    }
 }
 @media (max-width: 600px) {
     .lwrap{
@@ -201,6 +199,30 @@ blockquote{
         width: 100%;
     }
     .content {
-    padding: 30px 0px 48px 0px;
+        padding: 30px 0px 48px 0px;
+    }
+    #logo {
+        margin: 10px 10px 10px 10px;
+    }
+    .sidebar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 10px 20px 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+        box-shadow: 0px -1px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.28) inset;
+    }
 }
+@media (max-width: 450px) {
+    .slider > div > figure{
+        min-width: 140px;
+    }
+    .slider > div{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 400px) {
+    .sidebar{
+        flex-direction: column;
+    }
 }
