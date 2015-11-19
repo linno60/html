@@ -1,0 +1,64 @@
+.links-nav a{
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    margin: 5px 19px;
+}
+.links-footer a{
+    font-family: Lucida Sans Unicode;    
+    color: silver;
+    font-size: 13px;
+    line-height: 24px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #b72706;
+    text-decoration: underline;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.btn-submit{
+    background: #fff600;
+    border-radius: 0px 4px 4px 0px;
+    height: 25px;
+    min-width: 59px;
+    color: #010100;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    padding: 0px 5px;
+}
+label{
+    color: #f1f1f1;
+font-family: Lucida Sans Unicode;
+font-size: 15px;
+}
+input[type="email"]{
+    width: 252px;
+height: 23px;
+background-color: white;
+border: none;
+padding: 0px 9px;
+color: #000;
+font-family: Lucida Sans Unicode;
+font-size: 12px;
+outline: none;
+}
+input[type="email"]::-webkit-input-placeholder{
+    color: #50504f;
+font-family: Lucida Sans Unicode;
+font-size: 12px;
+font-style: italic;
+}
+input[type="email"]::-moz-placeholder{
+    color: #50504f;
+font-family: Lucida Sans Unicode;
+font-size: 12px;
+font-style: italic;
+}
+input[type="email"]:-ms-input-placeholder{
+     color: #50504f;
+font-family: Lucida Sans Unicode;
+font-size: 12px;
+font-style: italic; 
+}

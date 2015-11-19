@@ -1,0 +1,101 @@
+.links-nav a{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    min-height: 55px;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 5px 0px 5px;
+    align-items: stretch;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+    background-color: #c0c0c0;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-footer a{
+    color: silver;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 5px 16px;
+}
+.links-default a{
+    font-family: Arial;
+    line-height: 20px;
+    color: #fccb04;
+    font-size: 12px;
+}
+a.btn-alt{
+    color: black;
+    background: White;
+}
+.btn-alt i, .btn-default i{
+    margin: 0px 20px;
+}
+a.btn-default{
+    color: #fccb04;
+    background: #0a131d;
+}
+.btn-default, .btn-alt{
+    min-width: 262px;
+    height: 61px;
+    position: relative;   
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    margin: 0px 10px 0px 0px;
+}
+.btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
+    content: "";
+    position: absolute;
+}
+.btn-default:before{
+    background: #0a131d;
+}
+.btn-alt:before{
+    background: white;
+}
+.btn-default:after{
+    border-top: 11px solid white; 
+}
+.btn-alt:after{
+    border-top: 11px solid #0a131d; 
+}
+.btn-default:before, .btn-alt:before{
+    width: 10px;
+    height:50px;
+    right: -10px;
+    top: 0px;
+}
+.btn-default:after, .btn-alt:after{
+    right: -10px;
+    bottom: 0px;    
+    border-right: 10px solid transparent; 
+}
+.title{
+    color: #0a131d;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 4px solid #0a131d;
+}
+.title i{
+    margin: 0px 10px 0px 0px;
+}
+.more{
+    font-family: Arial;
+    font-size: 12px;
+    color: #0465b0;
+    text-decoration: underline;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: none;
+}

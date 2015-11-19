@@ -16,24 +16,27 @@
                         <a href="#" title="Return to the homepage" id="logo" data-flex>
                             <img src="/images/logo.png" width="103" height="30" alt="Target">
                         </a> 
+                        <span>Premium landing page template</span>
                     </div>
                     <span class="call">Call Now! 1-800-123-456</span>
                 </header>
-                <div class="slider-wrap" data-flex="row-center-between">
+                <div class="slider-wrap" data-flex="row-start-between">
                     <div>
-                        <h1>The perfect way to convent your traffic into sales</h1>
+                        <h1>The perfect way to convert your traffic into sales</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                         <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-                        <div class="btn-group" data-flex="row-center">
+                        <div class="btn-group" data-flex="row-center-between">
                             <div class="btn-wrap"><a href="#" class="btn btn-default">Purchase now!</a></div>
                             <strong>or</strong>
                             <div class="btn-wrap"><a href="#" class="btn btn-alt">Take a tour</a></div>
                         </div>
                     </div>
-                    <div class="slider" data-flex="row-center-between">
-                        <a href="#" class="btn btn-thumb"><i class="icon-prev"></i></a>
-                        <figure data-flex><img src="/images/img2.png" width="460" height="288" alt=""></figure>
-                        <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
+                    <div class="slider" data-flex>
+                        <figure data-flex>
+                            <a href="#" class="btn btn-thumb"><i class="icon-prev"></i></a>
+                            <img src="/images/img2.png" width="460" height="288" alt="">
+                            <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
+                        </figure>
                     </div>
                 </div>
                 <div class="services" data-flex="row--between">
@@ -41,7 +44,7 @@
                         <i class="icon-comp"></i>
                         <div>                            
                             <h3>Quick and easy</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            <p>Lorem ipsum dolor sit amet, con&shy;sectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                         </div>
                     </article>
                     <article data-flex>
@@ -62,8 +65,9 @@
                 <div class="features" data-flex="row--between">
                     <article>
                         <h3>Check out the features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate.</p>
-                    </article>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+                            <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuit ous octopus niacin, sodium glutimate.</p>
+                        </article>
                     <ul class="list marker">
                         <li>Lorem ipsum dolor sit amet</li> 
                         <li>Consectetuer adipiscing elit sed diam</li> 
@@ -117,7 +121,7 @@
                             <h5>Design details</h5>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
                         </div>
-                        <div>
+                        <div data-flex="col-center">
                             <a href="#" title="Return to the homepage" id="logoalt" data-flex>
                                 <img src="/images/logofooter.png" width="103" height="30" alt="Target">
                             </a> 
