@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Mentone Italic';
+    src: url('/fonts/fontsquirel.com/mentone_semibold_italic.woff2') format('woff2'), url('/fonts/fontsquirel.com/mentone_semibold_italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Mentone';
+    src: url('/fonts/fontsquirel.com/mentone-semibold.woff2') format('woff2'), url('/fonts/fontsquirel.com/mentone-semibold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

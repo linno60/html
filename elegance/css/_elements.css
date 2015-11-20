@@ -18,11 +18,23 @@
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
 }
+.links-social{
+    flex-wrap: wrap;
+}
+.links-social a{
+    margin: 4px 4px 4px 4px;
+}
+.lbl-default{
+    min-width: 31px;
+    height: 31px;
+    background: #fff600;
+    border-radius: 50%;
+}
 .btn-submit{
     background: #fff600;
     border-radius: 0px 4px 4px 0px;
-    height: 25px;
-    min-width: 59px;
+    height: 23px;
+    min-width: 57px;
     color: #010100;
     font-family: Lucida Sans Unicode;
     font-size: 12px;
@@ -30,35 +42,46 @@
 }
 label{
     color: #f1f1f1;
-font-family: Lucida Sans Unicode;
-font-size: 15px;
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
 }
 input[type="email"]{
-    width: 252px;
-height: 23px;
-background-color: white;
-border: none;
-padding: 0px 9px;
-color: #000;
-font-family: Lucida Sans Unicode;
-font-size: 12px;
-outline: none;
+    width: 225px;
+    height: 23px;
+    background-color: white;
+    border: none;
+    padding: 0px 9px;
+    color: #000;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    outline: none;
 }
 input[type="email"]::-webkit-input-placeholder{
     color: #50504f;
-font-family: Lucida Sans Unicode;
-font-size: 12px;
-font-style: italic;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    font-style: italic;
 }
 input[type="email"]::-moz-placeholder{
     color: #50504f;
-font-family: Lucida Sans Unicode;
-font-size: 12px;
-font-style: italic;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    font-style: italic;
 }
 input[type="email"]:-ms-input-placeholder{
-     color: #50504f;
-font-family: Lucida Sans Unicode;
-font-size: 12px;
-font-style: italic; 
+    color: #50504f;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    font-style: italic; 
+}
+.title{
+    max-width: 360px;
+    min-height: 54px;
+    background-color: black;
+    border-radius: 4px;
+    color: #fff600;
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
 }

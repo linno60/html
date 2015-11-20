@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Graphixcorp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/reset-elements.css">
+        <link rel="stylesheet" href="/css/styles.css">    
+    </head>
+    <body>
+        <div class="header-wrap">
+            <div class="lwrap">
+                <header class="header" data-flex="row-center-between">
+                    <a href="#" title="Return to the homepage" id="logo" data-flex>
+                        <img src="/images/logo.png" width="221" height="60" alt="Graphixcorp">
+                    </a>
+                    <span class="call">Call: <span>123-456-7890</span>
+                </header>
+                <div class="nav" data-flex="row-center-between">
+                    <nav class="hlinks links-nav">
+                        <a href="#" class="active">home</a>
+                        <a href="#">about us</a>
+                        <a href="#">services</a>
+                        <a href="#">products</a>
+                        <a href="#">testimonials</a>
+                        <a href="#">blog</a>
+                        <a href="#">contact us</a>
+                    </nav>
+                    <form action="#" method="post">
+
+                    </form>
+                </div>
+                <div class="slider-wrap" data-flex="col-center">
+                    <div class="slider" data-flex="row-center-between">
+                        <div>
+                            <h1></h1>
+                        </div>
+                        <figure data-flex><img src="/images/bags.png" width="360" height="316" alt=""></figure>
+                    </div>
+                    <div class="hlinks links-categories">
+                        <a href="#"><i class="icon-globe"></i>web design</a>
+                        <a href="#" class="active"><i class="icon-clock"></i>graphic design</a>
+                        <a href="#"><i class="icon-target"></i>icon design</a>
+                        <a href="#"><i class="icon-note"></i>logo design</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lwrap">
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tortor tellus, ut consectetur arcu. Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra.<cite>--  John Doe, <a href="#">Graphicsfuel.comcom</a></cite></blockquote>
+            <div class="content" data-flex="row--between">
+                
+            </div> 
+        </div>
+        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
