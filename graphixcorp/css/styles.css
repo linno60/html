@@ -56,6 +56,9 @@
 .links-social a{
     margin: 3px 6px;
 }
+.links-social{
+    justify-content: flex-start;
+}
 a.btn-more{
     padding: 0px 5px;
     min-width: 177px;
@@ -79,7 +82,7 @@ a.btn-more{
 .more a:active, .more a:hover, .more a:focus{
     text-decoration: none;
 }
-input[type="text"]{
+.footer form input{
     max-width: 336px;
     width: 100%;
     height: 36px;
@@ -91,19 +94,19 @@ input[type="text"]{
     border: none;
     outline: none;
 }
-input[type="text"]::-webkit-input-placeholder{
+.footer form input::-webkit-input-placeholder{
     color: #737373;
     font-family: Arial;
     font-size: 13px;
     font-style: italic;
 }
-input[type="text"]::-moz-placeholder{
+.footer form input::-moz-placeholder{
     color: #737373;
     font-family: Arial;
     font-size: 13px;
     font-style: italic;
 }
-input[type="text"]:-ms-input-placeholder{
+.footer form input:-ms-input-placeholder{
     color: #737373;
     font-family: Arial;
     font-size: 13px;
@@ -213,4 +216,55 @@ blockquote cite{
 }
 blockquote a:active, blockquote a:hover, blockquote a:focus{
     text-decoration: underline;
+}
+.content{
+    padding: 0px 0px 50px 0px;
+}
+.content > article{
+    width: 20%;
+}
+footer:before {
+    content: "";
+    width: 100%;
+    height: 162px;
+    background: #d3efff;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0px;
+}
+footer{
+    position: relative;    
+    background:linear-gradient(to bottom, white 0%, white 79px, #d3efff 80px,  #d3efff 100%);   
+    padding: 50px 0px 0px 0px;
+}
+.footer{
+    background: black;
+    position: relative;
+    height: 100%;
+    margin: 0px 25px 0px 0px;
+    padding: 21px 19px 10px 39px;
+}
+.footer:after, .footer:before{
+    content: "";
+    position: absolute;
+    right: -25px;
+}
+.footer:after{    
+    width: 25px;
+    height: calc(100% - 25px);
+    background: black;   
+    top: 25px;
+}
+.footer:before{
+    top: 0px;
+    border-bottom: 25px solid #f2da36; 
+	border-right: 25px solid transparent;
+}
+.footer form{
+    padding: 11px 13px 10px 14px;
+    min-height: 57px;
+    background-color: #232323;
+    border-radius: 3px;
 }

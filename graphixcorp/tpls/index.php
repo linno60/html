@@ -50,9 +50,71 @@
         <div class="lwrap">
             <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tortor tellus, ut consectetur arcu. Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra.<cite>--  John Doe, <a href="#">Graphicsfuel.comcom</a></cite></blockquote>
             <div class="content" data-flex="row--between">
-                
+                <article>
+                    <h2 data-flex="row-center"><i class="icon-user"></i>Who we are</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tortor tellus, ut consectetur arcu. </p>
+                    <p>Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra. Vivamus leo lacus, interdum ac interdum </p>
+                    <span class="more"><a href="#">read more</a> ></span>
+                </article>
+                <img src="/images/shadowarticle.png" width="10" height="190" alt="">
+                <article>
+                    <h2 data-flex="row-center"><i class="icon-gear"></i>Our Services</h2>
+                    <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus. Sed vitae nisi hendrerit magna interdum sodales a sed diam. Donec at ligula nibh, quis ullamcorper odio. Fusce ullamcorper condimentum eleifend. Aliquam erat volutpat.</p>
+                    <span class="more"><a href="#">read more</a> ></span>
+                </article>
+                <img src="/images/shadowarticle.png" width="10" height="190" alt="">
+                <article>
+                    <h2 data-flex="row-center"><i class="icon-star"></i>From the blog</h2>
+                    <div class="post" data-flex="col">
+                        <time>6th June</time>
+                        <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus.<span class="more"><a href="#">read more</a> ></span></p>
+                    </div>
+                    <div class="post" data-flex="col">
+                        <time>6th June</time>
+                        <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus.<span class="more"><a href="#">read more</a> ></span></p>
+                    </div>
+                    <div class="post" data-flex="col">
+                        <time>6th June</time>
+                        <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus.<span class="more"><a href="#">read more</a> ></span></p>
+                    </div>
+                </article>
             </div> 
         </div>
+        <footer>
+            <div class="lwrap">
+                <div class="footer">
+                    <form action='#' method='post' data-flex='row-center-between'>
+                        <input type="text" placeholder="Your Name" name='input'>
+                        <input type="email" placeholder="Email address"  name='input'>
+                        <button><span class="btn btn-submit">subscribe</span></button>
+                    </form>
+                    <div data-flex='row--between'>
+                        <div data-flex='col'>
+                            <nav class="hlinks links-footer">
+                                <a href="#" class="active">Home</a>|
+                                <a href="#">About Us</a>|
+                                <a href="#">Services</a>|
+                                <a href="#">Products</a>|
+                                <a href="#">Testimonials</a>|
+                                <a href="#">Blog</a>|
+                                <a href="#">Contact Us</a>
+                            </nav>
+                            <span>Copyright &copy; GraphixPSD. All rights reserved. This design is created by <a href='#'>GraphicsFuel.com</a></span>
+                            <div class="hlinks links-social">
+                                <a href="#"><i class="icon-tw"></i></a>
+                                <a href="#"><i class="icon-rss"></i></a>
+                                <a href="#"><i class="icon-fb"></i></a>
+                                <a href="#"><i class="icon-in"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Our Locations</h5>
+                            <figure data-flex><img src="/images/map.png" width="226" height="104" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>
     </body>
