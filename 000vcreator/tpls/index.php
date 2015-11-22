@@ -67,7 +67,7 @@
                 <aside class="sidebar">
                     <div>
                         <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>featured video</h3>
-                       <figure class="video" data-flex><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" frameborder="0" allowfullscreen></iframe></figure>
+                        <figure class="video" data-flex><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" frameborder="0" allowfullscreen></iframe></figure>
                     </div>
                     <div>
                         <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>testimonials</h3>

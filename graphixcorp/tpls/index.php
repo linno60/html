@@ -34,7 +34,9 @@
                 <div class="slider-wrap" data-flex="col-center">
                     <div class="slider" data-flex="row-center-between">
                         <div>
-                            <h1></h1>
+                            <h1>Quality Graphic Design</h1>
+                            <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus. Sed vitae nisi hendrerit magna interdum sodales a sed diam. Donec at ligula nibh, quis ullamcorper odio. </p>
+                            <a href="#" class="btn btn-more">Read More ></a>
                         </div>
                         <figure data-flex><img src="/images/bags.png" width="360" height="316" alt=""></figure>
                     </div>
@@ -48,7 +50,7 @@
             </div>
         </div>
         <div class="lwrap">
-            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tortor tellus, ut consectetur arcu. Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra.<cite>--  John Doe, <a href="#">Graphicsfuel.comcom</a></cite></blockquote>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tortor tellus, ut consectetur arcu. Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra.<cite> --  &ensp;John Doe, <a href="#">Graphicsfuel.comcom</a></cite></blockquote>
             <div class="content" data-flex="row--between">
                 <article>
                     <h2 data-flex="row-center"><i class="icon-user"></i>Who we are</h2>
@@ -56,13 +58,17 @@
                     <p>Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra. Vivamus leo lacus, interdum ac interdum </p>
                     <span class="more"><a href="#">read more</a> ></span>
                 </article>
-                <img src="/images/shadowarticle.png" width="10" height="190" alt="">
+                <figure class="divider" data-flex="row-center">
+                    <img src="/images/shadowarticle.png" width="10" height="190" alt="">
+                </figure>
                 <article>
                     <h2 data-flex="row-center"><i class="icon-gear"></i>Our Services</h2>
                     <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus. Sed vitae nisi hendrerit magna interdum sodales a sed diam. Donec at ligula nibh, quis ullamcorper odio. Fusce ullamcorper condimentum eleifend. Aliquam erat volutpat.</p>
                     <span class="more"><a href="#">read more</a> ></span>
                 </article>
-                <img src="/images/shadowarticle.png" width="10" height="190" alt="">
+                <figure class="divider" data-flex="row-center">
+                    <img src="/images/shadowarticle.png" width="10" height="190" alt="">
+                </figure>
                 <article>
                     <h2 data-flex="row-center"><i class="icon-star"></i>From the blog</h2>
                     <div class="post" data-flex="col">
@@ -82,6 +88,7 @@
         </div>
         <footer>
             <div class="lwrap">
+                <div class="arc"></div>
                 <div class="footer">
                     <form action='#' method='post' data-flex='row-center-between'>
                         <input type="text" placeholder="Your Name" name='input'>
@@ -99,7 +106,7 @@
                                 <a href="#">Blog</a>|
                                 <a href="#">Contact Us</a>
                             </nav>
-                            <span>Copyright &copy; GraphixPSD. All rights reserved. This design is created by <a href='#'>GraphicsFuel.com</a></span>
+                            <span class="copyright">Copyright &copy; GrafixPSD. All rights reserved. This design is created by <a href='#'>GraphicsFuel.com</a></span>
                             <div class="hlinks links-social">
                                 <a href="#"><i class="icon-tw"></i></a>
                                 <a href="#"><i class="icon-rss"></i></a>

@@ -263,10 +263,10 @@ body{
 .banner{
     min-height: 105px;
     background:#fccb04;
-    padding: 5px 2px 5px 26px;
+    padding: 5px 18px 5px 26px;
 }
-.banner > .btn{
-    margin: 5px 27px 5px 0px;
+.banner .btn{
+    margin: 5px 12px 5px 15px;
 }
 .banner h2{
     color: black;
@@ -275,8 +275,6 @@ body{
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
-    margin: 0px 10px 0px 0px;
-    width: 40%;
 }
 .footer{
     font-family: Arial;
@@ -291,7 +289,7 @@ body{
     margin: 0px 0px 20px 0px;
 }
 .footer > div:last-child{
-    width: 28.37%;
+    width: 28.1%;
 }
 .footer h5{
     color: white;
@@ -323,8 +321,7 @@ body{
         font-size: 6.1vw;
     }
     .banner h2{
-        font-size: 4.1vw;
-        width: 36%;
+        font-size: 4.1vw;        
     }
     .header{
         padding: 0px 2.86vw 0px 4.28vw;
@@ -349,30 +346,31 @@ body{
     .banner{
         padding: 5px;
     }
+    .banner .btn {
+        margin: 5px 12px 5px 5px;
+    }
+    .banner h2{
+        font-size: 3.9vw;        
+    }
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .banner{
         flex-wrap: wrap;
         justify-content: center;
     }
     .banner h2{
         width: 100%;
-        margin: 0px;
         text-align: center;
         font-size: 34px;
-    }
-    .banner > .btn {
-        margin: 5px 22px 5px 10px;
     }
     .footer > div:last-child > div{
         flex-wrap: wrap;
     } 
     .header{
         flex-direction: column;
-        padding: 10px 2.86vw 0px 4.28vw;
     }
     #logo {
-        margin: 0px 0px 30px 0px;
+        margin: 10px 0px 30px 0px;
     }
     .nav {
         min-height: 30px;
@@ -383,10 +381,9 @@ body{
     .copyright span{
         padding: 10px 0px 20px 0px;
     }
-}
-@media (max-width: 768px) {
     .demo-wrap{
         flex-direction: column;
+        padding: 5px 10px 20px 10px;
     }
     .demo-wrap > div:first-child {
         width: 100%;
@@ -397,6 +394,7 @@ body{
     .demo-wrap > div > h1 {
         text-align: center;
         line-height: 36px;
+        margin: 1.73vw 0px 4.69vw 0px;
     }
     .demo-wrap .btn-default {
         margin: 0px 12px 20px 0px;
