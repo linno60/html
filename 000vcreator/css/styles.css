@@ -3,7 +3,11 @@
 .icon-arrowb {min-width: 9px; width: 9px; height: 8px; background: url('../images/icons/arrowb.png');}
 .icon-arroww {min-width: 9px; width: 9px; height: 8px; background: url('../images/icons/arroww.png');}/* ELEMENTS */
 
-.links-nav, .links-footer{
+.links-nav{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.links-footer{
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -47,10 +51,10 @@ a.btn-alt{
     background: White;
 }
 .btn-default i{
-    margin: 0px 17px 0px 29px;
+    margin: 0px 2px 0px 44px;
 }
 .btn-alt i{
-    margin: 0px 17px 0px 8px;
+    margin: 0px 2px 0px 21px;
 }
 a.btn-default{
     color: #fccb04;
@@ -65,8 +69,9 @@ a.btn-default{
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
-    padding: 0px 5px 0px 5px;  
+    padding: 0px 20px 0px 20px;  
     margin: 0px 0px 12px 0px;
+    text-align: center;
 }
 .btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
     content: "";
@@ -117,7 +122,7 @@ a.btn-default{
 .more:active, .more:hover, .more:focus{
     text-decoration: none;
 }
-figure > *{
+figure > img{
     width: 100%;
     height: 100%;
 } 
@@ -136,7 +141,6 @@ body{
     background: white;
     padding: 0px 28px 0px 42px;
     margin: 0px 0px 20px 0px;
-    flex-wrap: wrap;
 }
 #logo{
     margin: 0px 20px 0px 0px;
@@ -145,11 +149,10 @@ body{
     min-height: 96px;
 }
 .demo-wrap{
-    min-height: 352px;
     background-color: #09f;
     border: 1px solid #09f;
     box-shadow: inset 0 0 100px rgba(0, 133, 221, 0.75);
-    padding: 5px 32px 10px 26px;
+    padding: 43px 21px 22px 37px;
     margin: 0px 0px 20px 0px;
 }
 .demo-wrap > div > h1{
@@ -159,32 +162,41 @@ body{
     line-height: 70px;
     text-transform: uppercase;
     color: white;
-    margin: 17px 10px 46px 0px;
+    margin: 0px 0px 46px 0px;
 }
 .demo-wrap > div:first-child{
     width: 57%;
+    padding: 0px 0px 7px 0px;
 }
 .demo-wrap > div:last-child{
-    width: 37.2%;
-    min-width: 340px;
+    width: 42.5%;
+    padding: 0px 0px 26px 0px;
+    background: url("../images/shadow.png")no-repeat center bottom;
+    background-size: 100%;
+}
+.demo-wrap figure, .video{
+    display: block;    
+    height: 0;    
+    position: relative;
+    margin: auto;
 }
 .demo-wrap figure{
-    height: 259px;
-    position: relative;
+    width: 88.8%;
+    padding: 33.8%;
 }
-.demo-wrap figure:after{
-    content: "";
+.video{
+    width: 99%;
+    padding: 30.6%;
+}
+.demo-wrap iframe, .video iframe{
+    width: 100%;
+    height: 100%;
     position: absolute;
-    background: url("../images/shadow.png")no-repeat center center;
-    background-size: cover;
-    width: 120%;
-    height: 25px;
-    max-width: 383px;
-    left: -6.5%;
-    bottom: -26px;
+    top: 0;
+    left: 0;
 }
 .demo-wrap .btn-default{
-    margin: 0px 0px 0px 55px;
+    margin: 0px 0px 0px 54px;
 }
 .content{
     padding: 49px 35px 20px 39px;
@@ -251,9 +263,6 @@ body{
 .sidebar blockquote cite a {
     color: #9d9d9d;
 }
-.sidebar .video{
-    height: 155px;
-}
 .sidebar > div{
     margin: 0px 0px 26px 0px;
 }
@@ -317,20 +326,24 @@ body{
 }
 
 @media (max-width: 980px) { 
-    .demo-wrap > div > h1{
-        font-size: 6.1vw;
-    }
     .banner h2{
-        font-size: 4.1vw;        
+        font-size: 4.1vw; 
+        line-height: 4.17vw;
     }
     .header{
         padding: 0px 2.86vw 0px 4.28vw;
     }
     .demo-wrap {
-        padding: 5px 3.26vw 20px 2.65vw;
+        padding: 4.38vw 2.14vw 2.34vw 3.77vw;
     }
     .demo-wrap > div > h1 {
-        margin: 1.73vw 10px 4.69vw 0px;
+        font-size: 6.1vw;
+        margin: 0px 0px 4.69vw 0px;
+        line-height: 7.14vw;
+    }
+    .demo-wrap > div:first-child{
+        width: 57%;
+        padding: 0px 0px 0.61vw 0px;
     }
     .demo-wrap .btn-default{
         margin: 0px 0px 0px 5.6vw;
@@ -341,89 +354,53 @@ body{
     .sidebar {
         padding: 5.1vw 2.14vw 0.51vw 2.55vw;
     }
+    .demo-wrap > div:last-child{
+        padding: 0px 0px 2.65vw 0px;
+    }
 }
 @media (max-width: 960px) {
-    .banner{
-        padding: 5px;
+    .banner .btn-default, .banner .btn-alt {
+        margin: 5px;
+        min-width: 26.25vw;
+        font-size: 2.08vw;
+        height: 6.35vw;
+        min-height: 40px;
     }
-    .banner .btn {
-        margin: 5px 12px 5px 5px;
+.banner .btn-default::before, .banner .btn-alt::before, .banner .btn-default::after,
+    .banner .btn-alt::after, .banner .btn-alt i, .banner .btn-default i {
+        display: none;
     }
-    .banner h2{
-        font-size: 3.9vw;        
-    }
+    .banner {
+    padding: 5px 1.87vw 5px 2.7vw;
+}
 }
 @media (max-width: 768px) {
-    .banner{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .banner h2{
-        width: 100%;
-        text-align: center;
-        font-size: 34px;
-    }
     .footer > div:last-child > div{
         flex-wrap: wrap;
     } 
-    .header{
-        flex-direction: column;
-    }
-    #logo {
-        margin: 10px 0px 30px 0px;
-    }
-    .nav {
-        min-height: 30px;
-    }
     .copyright{
-        flex-direction: column;
-    }
-    .copyright span{
-        padding: 10px 0px 20px 0px;
-    }
-    .demo-wrap{
         flex-direction: column;
         padding: 5px 10px 20px 10px;
     }
-    .demo-wrap > div:first-child {
-        width: 100%;
-        display: flex;
+    .copyright span{
+        padding: 10px 0px 0px 0px;
+    }
+    .nav{
         align-items: center;
-        flex-direction: column;
     }
-    .demo-wrap > div > h1 {
-        text-align: center;
-        line-height: 36px;
-        margin: 1.73vw 0px 4.69vw 0px;
-    }
-    .demo-wrap .btn-default {
-        margin: 0px 12px 20px 0px;
-    }
-    .demo-wrap > div:last-child {
-        width: 100%;
-        max-width: 340px;
-    }
-    .demo-wrap > div > h1 {
-        font-size: 36px;
-    }
-}
-@media (max-width: 640px) {    
     .links-nav a, .links-nav a:first-child, .links-nav a:last-child {
-        min-height: 30px;
+        min-height: 24px;
         align-items: center;
-        margin: 7px;
-    }
+        margin: 1px;
+        padding: 0px 5px;
+    }    
+}
+@media (max-width: 640px) {        
     .content-wrap{
         flex-direction: column;
     }
     .content, .sidebar{
         width: 100%;
-    }
-    .sidebar figure{
-        max-width: 400px;
-    }
-    .sidebar .video {
-        height: 200px;
     }
     .footer{
         flex-direction: column;
@@ -435,15 +412,43 @@ body{
     .footer > div:last-child > div {
         justify-content: flex-start;
     }
+    .demo-wrap .btn-default, .demo-wrap .btn-alt{
+        min-width: 9.8vw;
+        height: 50px;
+    }
+    .demo-wrap .btn-default::before, .demo-wrap .btn-alt::before, .demo-wrap .btn-default::after,
+    .demo-wrap .btn-alt::after, .demo-wrap .btn-alt i, .demo-wrap .btn-default i {
+        display: none;
+    }
+    .title i {
+        display: none;
+    }
 }
 @media (max-width: 480px) {
-    .demo-wrap > div:last-child {
-        width: 100%;
-        max-width: 280px;
-        min-width: 280px;
+    .demo-wrap{
+        flex-direction: column-reverse;
+        padding: 4.38vw 0px 2.34vw 0px;
     }
-    .demo-wrap figure::after{
-        display: none;
+    .demo-wrap > div:first-child {
+        padding: 0px 10px 0px 10px;
+    }
+    .demo-wrap > div:last-child {
+        padding: 0px 0px 6vw;
+    }
+    .demo-wrap > div:first-child{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .demo-wrap > div:first-child, .demo-wrap > div:last-child{
+        width: 100%;
+    }
+    .demo-wrap h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .demo-wrap .btn-default {
+        margin: 0px;
     }
     .articles{
         align-items: center;
@@ -452,16 +457,25 @@ body{
     .articles > article{
         width: 100%;   
     }
-}
-@media (max-width: 360px) {    
     .grid{
         align-items: center;
         flex-direction: column;
     }
     .grid > article{
-        width: 100%;   
+        width: 100%;        
     }
-    .grid > article{
-        max-width: 280px;
+    .grid figure{
+        width: 35%;
+        float: left;
+        margin: 0px 10px 0px 0px;
     }
+    .banner h2{
+        font-size: 20px; 
+        line-height: 22px;
+    }
+    .banner .btn-default, .banner .btn-alt {
+        margin: 5px;
+        font-size: 12px;
+    }
+    
 }
