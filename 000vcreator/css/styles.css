@@ -1,7 +1,9 @@
 /* ICONS */
 
 .icon-arrowb {min-width: 9px; width: 9px; height: 8px; background: url('../images/icons/arrowb.png');}
-.icon-arroww {min-width: 9px; width: 9px; height: 8px; background: url('../images/icons/arroww.png');}/* ELEMENTS */
+.icon-arroww {min-width: 9px; width: 9px; height: 8px; background: url('../images/icons/arroww.png');}
+
+/* ELEMENTS */
 
 .links-nav{
     flex-wrap: wrap;
@@ -48,7 +50,7 @@
 }
 a.btn-alt{
     color: black;
-    background: White;
+    background: white;
 }
 .btn-default i{
     margin: 0px 2px 0px 44px;

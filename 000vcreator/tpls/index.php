@@ -11,7 +11,7 @@
     <body>
         <div class="lwrap">
             <header class="header" data-flex="row-center-between">
-                <a href="#" title="Return to the homepage" id="logo" data-flex>
+                <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="106" height="45" alt="Vcreator">
                 </a>
                 <div class="nav" data-flex="row-end">
@@ -78,7 +78,7 @@
                     </div>
                     <div>
                         <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>clients</h3>
-                        <figure data-flex><img src="/images/img4.png" width="253" height="82" alt=""></figure>
+                        <figure><img src="/images/img4.png" width="253" height="82" alt=""></figure>
                     </div>
                 </aside>
             </div>
