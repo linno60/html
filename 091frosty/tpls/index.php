@@ -62,17 +62,19 @@
                     </div>
                     <div>
                         <h2 data-flex="row-center"><i class="icon-location"></i>Our offices</h2>
-                        <div class="item" data-flex="col">
-                            <span>London, UK</span>
-                            <span class='more'>&raquo;<a href='#'>read more</a></span>
-                        </div>
-                        <div class="item" data-flex="col">
-                            <span>Paris, France</span>
-                            <span class='more'>&raquo;<a href='#'>read more</a></span>
-                        </div>
-                        <div class="item" data-flex="col">
-                            <span>New York, USA</span>
-                            <span class='more'>&raquo;<a href='#'>read more</a></span>
+                        <div>
+                            <div class="item" data-flex="col">
+                                <span>London, UK</span>
+                                <span class='more'>&raquo;<a href='#'>more details</a></span>
+                            </div>
+                            <div class="item" data-flex="col">
+                                <span>Paris, France</span>
+                                <span class='more'>&raquo;<a href='#'>more details</a></span>
+                            </div>
+                            <div class="item" data-flex="col">
+                                <span>New York, USA</span>
+                                <span class='more'>&raquo;<a href='#'>more details</a></span>
+                            </div>
                         </div>
                     </div>
                     <div>

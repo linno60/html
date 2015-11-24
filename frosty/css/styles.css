@@ -7,7 +7,8 @@
 @font-face {
     font-family: 'LucidaGrande Bold';
     src: local(''), url('../fonts/lucida-grande-bold.woff') format('woff');
-}/* ICONS */
+}
+/* ICONS */
 
 .icon-cloud {width: 38px; height: 37px; background: url('../images/icons/cloud.png');}
 .icon-fb {width: 28px; height: 28px; background: url('../images/icons/fb.png');}
@@ -247,64 +248,64 @@ footer span{
 }
 @media (max-width: 840px) {
     .links-nav {
-    padding:0px;
-    justify-content: center;
-}
-.links-nav a, .links-nav > a:first-child, .links-nav > a:last-child{
-margin: 0px 10px;
-}
-.slider figcaption {
-    left: 10px;    
-    bottom: 10px;
-    padding: 5px;
-}
-.slider figcaption h2 {
-    font-size: 20px;
-    line-height: 20px;
-}
-.slider figcaption span {
-    font-size: 12px;
-}
-.grid article h3 {
-    font-size: 20px;
-}
-.grid article h3 i {
-    margin: 0px 3px 0px 0px;
-}
+        padding:0px;
+        justify-content: center;
+    }
+    .links-nav a, .links-nav > a:first-child, .links-nav > a:last-child{
+        margin: 0px 10px;
+    }
+    .slider figcaption {
+        left: 10px;    
+        bottom: 10px;
+        padding: 5px;
+    }
+    .slider figcaption h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .slider figcaption span {
+        font-size: 12px;
+    }
+    .grid article h3 {
+        font-size: 20px;
+    }
+    .grid article h3 i {
+        margin: 0px 3px 0px 0px;
+    }
 }
 @media (max-width: 710px) {
     .grid article h3 {
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
 }
 @media (max-width: 615px) {
     .title span{
-    padding: 2px 2px 2px 2px;
-}
-.title:before{
-    display: none;
-}
-.grid{
-    flex-direction: column;
-}
-.grid > article, .grid > article:last-child {
-    max-width: 600px;
-    margin: 0px 0px 37px 0px;
-}
+        padding: 2px 2px 2px 2px;
+    }
+    .title:before{
+        display: none;
+    }
+    .grid{
+        flex-direction: column;
+    }
+    .grid > article, .grid > article:last-child {
+        max-width: 600px;
+        margin: 0px 0px 37px 0px;
+    }
 }
 @media (max-width: 440px) {
- .content-wrap {
-    padding: 10px 10px 0px 10px;
-}
-.slider figcaption {
-    left: 5px;    
-    bottom: 5px;
-}
-.slider figcaption h2 {
-    font-size: 14px;
-    line-height: 14px;
-}
-.slider figcaption span {
-    font-size: 10px;
-}
+    .content-wrap {
+        padding: 10px 10px 0px 10px;
+    }
+    .slider figcaption {
+        left: 5px;    
+        bottom: 5px;
+    }
+    .slider figcaption h2 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .slider figcaption span {
+        font-size: 10px;
+    }
 }

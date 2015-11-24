@@ -26,10 +26,10 @@
     justify-content: flex-start;
     background: linear-gradient(to bottom, #a7a5a5, #6c6c6c);
     border-radius: 6px;
-    padding: 0px 24px 0px 24px;
+    padding: 0px 6px 0px 6px;
     margin: 0px 0px 10px 0px;
 }
-.links-nav a{
+.links-nav a, .links-nav a:first-child, .links-nav a:last-child{
     min-height: 40px;
     font-family: LucidaGrande;
     font-size: 15px;
@@ -111,7 +111,7 @@ body{
     background: #f5f6f7;
 }
 #logo{
-    margin: 0px 20px 0px -3px;
+    margin: 0px 18px 0px -3px;
 }
 header{
     padding: 0px 0px 60px 0px;
@@ -142,8 +142,8 @@ header .lwrap > div{
 }
 .slider figcaption{
     position: absolute;
-    left: 4%;
-    bottom: 6%;
+    left: 3.5%;
+    bottom: 9.1%;
     margin: 0px 10px 0px 0px;
     background-color: rgba(0,0,0,.5);
     padding: 19px 23px 20px 29px;
@@ -153,6 +153,7 @@ header .lwrap > div{
     font-family: LucidaGrande;
     font-size: 25px;
     font-weight: 400;
+    letter-spacing: 0.008em;
 }
 .slider figcaption span {
     color: #aeaeae;
@@ -165,16 +166,16 @@ header .lwrap > div{
     position: absolute;
     z-index: 1;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-173%);
 }
 .slider > a.prev{
-    left: 1%;
+    left: 1.5%;
 }
 .slider > a.next{
-    right: 1%;
+    right: 1.5%;
 }
 .links-controls{
-    padding: 20px 0px 40px 0px;
+    padding: 14px 0px 42px 0px;
 }
 h1{
     position: relative;
@@ -182,34 +183,160 @@ h1{
     color: #585858;
     font-family: LucidaGrande;
     font-size: 25px;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 49px 0px;
+    font-weight:  300;
+    letter-spacing: -0.025em;
 }
 h1 span{
-    padding: 0px 14px;  
-    background: white;    
+    padding: 0px 12px;
+    background: white;
     position: relative;
 }
 h1:before{
     left: 0px;
-    top: 50%;
+    top: 61%;
     content: "";
     width: 100%;
     position: absolute;
     border-top: 1px solid lightgrey;
 }
+.grid{
+    flex-wrap: wrap;
+    max-width: 896px;
+}
 .grid > div{
-    width: 30%;
+    width: 29.5%;
+    margin: 0px 0px 37px 0px;
+}
+.grid p{
+    margin: 0px 0px 2px 0px;
+}
+.grid p, .grid blockquote, .grid span {
+    letter-spacing: -0.025em;
+    line-height: 17px;
+    font-family: LucidaGrande;
+    font-size: 14px;
+    color: #666;
+}
+.grid cite{
+    font-style: normal;
+}
+.grid h2 i{
+    margin: 0px 6px 0px 0px;
+}
+.grid h2 {
+    color: #999;
+    font-family: LucidaGrande;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0px 0px 32px 0px;
+    letter-spacing: -0.025em;
+}
+.item span {
+    letter-spacing: -0.022em;
+}
+.grid .more{
+    line-height: 19px;
 }
 .item {
-    padding: 0px 0px 18px 0px;
+    max-width: 250px;
+    padding: 18px 0px 18px 0px;
     background: url("../images/border.png") repeat-x left bottom;
-    margin: 0px 5px 18px 2px;
+}
+.item:first-child{
+    padding: 0px 0px 18px 0px;
+}
+.item:last-child{
+    background: none;
+    padding: 18px 0px 0px 0px;
 }
 footer{
-    padding: 20px 20px 20px 20px;
+    padding: 19px 20px 20px 20px;
     min-height: 52px;
-background-color: #3a3938;
-color: white;
-font-family: LucidaGrande;
-font-size: 10px;
+    background-color: #3a3938;
+}
+footer span{
+    color: white;
+    font-family: LucidaGrande;
+    font-size: 10px;
+    letter-spacing: -0.022em;
+}
+@media (max-width: 980px) {
+    .content-wrap {
+        padding: 2.75vw 2.65vw 0px 2.75vw;
+    }
+    .slider figcaption {
+        padding: 1.93vw 2.34vw 2.04vw 2.95vw;
+    }
+    .slider figcaption h2 {
+        font-size: 2.55vw;
+    }
+    .slider figcaption span {
+        font-size: 1.93vw;
+    }
+    .links-controls {
+        padding: 1.42vw 0px 4.28vw 0px;
+    }
+    .grid h2 {
+        font-size: 2.44vw;
+        margin: 0px 0px 3.26vw 0px;
+    }
+    .grid > div {
+        margin: 0px 0px 3.77vw 0px;
+    }
+    h1 {
+        margin: 0px 0px 5vw 0px;
+    }
+    header .lwrap > div {
+        min-height: 15.1vw;
+    }
+}
+@media (max-width: 640px) {
+    .slider figcaption h2 {
+        font-size: 16px;
+    }
+    .slider figcaption span {
+        font-size: 12px;
+    } 
+    h1:before{
+        display: none;
+    }
+    h1 span{
+        padding: 0px;
+    }
+    .grid h2 {
+        font-size: 16px;
+    }
+    .grid > div{
+        width: 48%;
+    }
+    .grid > div:last-child{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .grid > div{
+        width: 100%;
+    }
+    .item{
+        max-width: 400px;
+    }
+}
+@media (max-width: 360px) {
+    header .lwrap > div {
+        flex-direction: column;
+        padding: 16px 0px 10px 0px;
+    }
+    .links-nav a, .links-nav a:first-child, .links-nav a:last-child{
+        margin: 0px 10px;
+        min-height: 30px;
+    }
+    #logo {
+        margin: 0px;
+    }
+    .slider figcaption {
+        left: 5px;
+        bottom: 5px;
+        padding: 6px;
+    }
 }

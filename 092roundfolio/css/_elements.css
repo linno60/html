@@ -1,0 +1,97 @@
+.links-social a{
+    margin: 3px;
+}
+.links-controls a{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 2px 2px 3px 2px;
+    background: #afaeae;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background: #535353;
+}
+.links-accounts a{
+    color: #ff7800;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+}
+.links-accounts a:active, .links-accounts a:hover, .links-accounts a:focus{
+    text-decoration: underline;
+}
+.btn-submit{
+    min-width: 83px;
+    min-height: 41px;
+    background-color: #ff7800;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.47);
+    color: white;
+    font-family: LeagueGothic;
+    font-size: 25px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+.title{
+    color: #535353;
+    font-family: LeagueGothic;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.title:after{
+    content: "";
+    height: 16px;
+    flex: 1;
+    margin: 0px 0px 0px 10px;
+    background:url("/images/hdrbg.png")repeat-x left center; 
+}
+.input-wrap{ 
+    margin: 0px 0px 19px 0px;
+    height: 49px;
+    background: white url(/images/icons/user.png)no-repeat 10px center;
+    padding: 0px 20px 0px 30px;
+}
+textarea{
+    padding: 10px;
+    height: 125px;
+    margin: 0px 0px 17px 0px;
+}
+.input-wrap, textarea{
+    max-width: 432px;
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    box-shadow: inset 2.5px 4.3px 5px rgba(0, 0, 0, 0.1);   
+}
+.input-wrap input, textarea{
+    color: #333;
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+    outline: none;
+}
+.input-wrap input{
+    height: 100%;
+    width: 100%;
+    border:none;    
+    background: none;    
+}
+.input-wrap input[type="text"]::-webkit-input-placeholder, .input-wrap input[type="email"]::-webkit-input-placeholder,  textarea::-webkit-input-placeholder {
+    color: rgba(83,83,83,.5);
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+}
+.input-wrap input[type="text"]::-moz-placeholder, .input-wrap input[type="email"]::-moz-placeholder,  textarea::-moz-placeholder {
+    color: rgba(83,83,83,.5);
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;    
+}
+.input-wrap input[type="text"]:-ms-input-placeholder,  .input-wrap input[type="email"]:-ms-input-placeholder,  textarea:-ms-input-placeholder {
+    color: rgba(83,83,83,.5);
+    font-family: Georgia;
+    font-size: 16px;
+    font-style: italic;
+}
