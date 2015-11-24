@@ -25,15 +25,13 @@
                     </nav>
                 </div>
             </header>
-            <div class="demo-wrap" data-flex="row-center-around">
-                <div>
-                    <h1 class="visible">best online video creator</h1>
-                    <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
-                </div>
-                <div>
-                    <h1 class="hidden">best online video creator</h1>
+            <div class="demo-wrap">
+                <div class="video-wrap">
                     <figure><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
+                <h1>best online video creator</h1>
+                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+                
             </div>
             <div class="content-wrap" data-flex>
                 <div class="content">
@@ -65,11 +63,6 @@
                         </article>
                     </div>
                 </div>
-                <div class="banner hidden" data-flex="row-center-between">
-                    <h2>best online video creator</h2>
-                    <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
-                    <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
-                </div>
                 <aside class="sidebar">
                     <div>
                         <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>featured video</h3>
@@ -87,12 +80,13 @@
                         <figure><img src="/images/img4.png" width="253" height="82" alt=""></figure>
                     </div>
                 </aside>
+                <div class="banner" data-flex="row-center-between">
+                    <h2>best online video creator</h2>
+                    <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+                    <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
+                </div>
             </div>
-            <div class="banner visible" data-flex="row-center-between">
-                <h2>best online video creator</h2>
-                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
-                <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
-            </div>
+
             <footer>
                 <div class="footer" data-flex="row--around">
                     <div>

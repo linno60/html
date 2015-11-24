@@ -151,13 +151,14 @@ body{
     min-height: 96px;
 }
 .demo-wrap{
+    overflow: hidden;
     background-color: #09f;
     border: 1px solid #09f;
     box-shadow: inset 0 0 100px rgba(0, 133, 221, 0.75);
     padding: 43px 21px 22px 37px;
     margin: 0px 0px 20px 0px;
 }
-.demo-wrap > div > h1{
+.demo-wrap > h1{
     font-family: Arial;
     font-size: 60px;
     font-weight: 700;
@@ -166,12 +167,9 @@ body{
     color: white;
     margin: 0px 0px 46px 0px;
 }
-.demo-wrap > div:first-child{
-    width: 57%;
-    padding: 0px 0px 7px 0px;
-}
-.demo-wrap > div:last-child{
+.video-wrap{
     width: 42.5%;
+    float:right;
     padding: 0px 0px 26px 0px;
     background: url("../images/shadow.png")no-repeat center bottom;
     background-size: 100%;
@@ -271,7 +269,14 @@ body{
 .sidebar > div:last-child .title{
     margin: 0px 0px 21px 0px;
 }
+.content-wrap{
+    flex-wrap: wrap;
+}
+.content{
+    flex: 1;
+}
 .banner{
+    width: 100%;
     min-height: 105px;
     background:#fccb04;
     padding: 5px 18px 5px 26px;
@@ -326,9 +331,6 @@ body{
     font-size: 12px;
     letter-spacing: -0.01em;
 }
-.hidden{
-    display: none;
-}
 @media (max-width: 980px) { 
     .banner h2{
         font-size: 4.1vw; 
@@ -340,14 +342,10 @@ body{
     .demo-wrap {
         padding: 4.38vw 2.14vw 2.34vw 3.77vw;
     }
-    .demo-wrap > div > h1 {
+    .demo-wrap h1 {
         font-size: 6.1vw;
         margin: 0px 0px 4.69vw 0px;
         line-height: 7.14vw;
-    }
-    .demo-wrap > div:first-child{
-        width: 57%;
-        padding: 0px 0px 0.61vw 0px;
     }
     .demo-wrap .btn-default{
         margin: 0px 0px 0px 5.6vw;
@@ -403,14 +401,14 @@ body{
     .content-wrap{
         flex-direction: column;
     }
-    .banner.visible{
-        display: none;
-    }
-    .banner.hidden{
-        display: flex;
-    }
     .content, .sidebar{
         width: 100%;
+    }
+    .sidebar{
+        order: 2;
+    }
+    .banner{
+        order: 1;
     }
     .footer{
         flex-direction: column;
@@ -436,19 +434,16 @@ body{
 }
 @media (max-width: 480px) {
     .demo-wrap{
-        flex-direction: column-reverse;
-        padding: 4.38vw 0px 2.34vw 0px;
-    }
-    .demo-wrap > div:first-child {
-        padding: 0px 10px 0px 10px;
-    }
-    .demo-wrap > div:last-child {
-        padding: 0px 0px 6vw;
-    }
-    .demo-wrap > div:first-child{
         flex-direction: column;
         display: flex;
         align-items: center;
+        padding: 4.38vw 0px 2.34vw 0px;
+    }
+    .video-wrap{
+        order: 1;
+    }
+    .demo-wrap h1{
+        order: 0;
     }
     .demo-wrap > div:first-child, .demo-wrap > div:last-child{
         width: 100%;
@@ -459,6 +454,7 @@ body{
     }
     .demo-wrap .btn-default {
         margin: 0px;
+        order: 2;
     }
     .articles{
         align-items: center;
@@ -486,12 +482,5 @@ body{
     .banner .btn-default, .banner .btn-alt {
         margin: 5px;
         font-size: 12px;
-    }
-    h1.visible{
-        display: none;
-    }
-   h1.hidden{
-        display: block;
-        padding: 0px 10px;
-    } 
+    }   
 }
