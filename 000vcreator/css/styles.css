@@ -155,22 +155,22 @@ body{
     background-color: #09f;
     border: 1px solid #09f;
     box-shadow: inset 0 0 100px rgba(0, 133, 221, 0.75);
-    padding: 43px 21px 22px 37px;
+    padding: 43px 22px 22px 38px;
     margin: 0px 0px 20px 0px;
 }
-.demo-wrap > h1{
+.demo-wrap h1{
     font-family: Arial;
     font-size: 60px;
     font-weight: 700;
     line-height: 70px;
     text-transform: uppercase;
     color: white;
-    margin: 0px 0px 46px 0px;
+    margin: 15px 0px 46px 0px;
 }
 .video-wrap{
-    width: 42.5%;
+    width: 42.6%;
     float:right;
-    padding: 0px 0px 26px 0px;
+    padding: 0px 0px 2.9% 0px;
     background: url("../images/shadow.png")no-repeat center bottom;
     background-size: 100%;
 }
@@ -355,10 +355,7 @@ body{
     }
     .sidebar {
         padding: 5.1vw 2.14vw 0.51vw 2.55vw;
-    }
-    .demo-wrap > div:last-child{
-        padding: 0px 0px 2.65vw 0px;
-    }
+    }    
 }
 @media (max-width: 960px) {
     .banner .btn-default, .banner .btn-alt {
@@ -368,13 +365,13 @@ body{
         height: 6.35vw;
         min-height: 40px;
     }
-.banner .btn-default::before, .banner .btn-alt::before, .banner .btn-default::after,
+    .banner .btn-default::before, .banner .btn-alt::before, .banner .btn-default::after,
     .banner .btn-alt::after, .banner .btn-alt i, .banner .btn-default i {
         display: none;
     }
     .banner {
-    padding: 5px 1.87vw 5px 2.7vw;
-}
+        padding: 5px 1.87vw 5px 2.7vw;
+    }
 }
 @media (max-width: 768px) {
     .footer > div:last-child > div{
@@ -437,7 +434,7 @@ body{
         flex-direction: column;
         display: flex;
         align-items: center;
-        padding: 4.38vw 0px 2.34vw 0px;
+        padding: 4.38vw 10px 2.34vw 10px;
     }
     .video-wrap{
         order: 1;
@@ -445,12 +442,16 @@ body{
     .demo-wrap h1{
         order: 0;
     }
-    .demo-wrap > div:first-child, .demo-wrap > div:last-child{
+    .video-wrap{
+        float: none;
         width: 100%;
+        padding: 0px 0px 6.1vw 0px;
+        margin: 0px;
     }
     .demo-wrap h1{
         text-align: center;
         font-size: 30px;
+        line-height: 32px;
     }
     .demo-wrap .btn-default {
         margin: 0px;
