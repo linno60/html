@@ -326,7 +326,9 @@ body{
     font-size: 12px;
     letter-spacing: -0.01em;
 }
-
+.hidden{
+    display: none;
+}
 @media (max-width: 980px) { 
     .banner h2{
         font-size: 4.1vw; 
@@ -400,6 +402,12 @@ body{
 @media (max-width: 640px) {        
     .content-wrap{
         flex-direction: column;
+    }
+    .banner.visible{
+        display: none;
+    }
+    .banner.hidden{
+        display: flex;
     }
     .content, .sidebar{
         width: 100%;
@@ -479,5 +487,11 @@ body{
         margin: 5px;
         font-size: 12px;
     }
-    
+    h1.visible{
+        display: none;
+    }
+   h1.hidden{
+        display: block;
+        padding: 0px 10px;
+    } 
 }

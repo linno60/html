@@ -11,11 +11,11 @@
 
 /* ICONS */
 
-.icon-cloud {width: 38px; height: 37px; background: url('../images/icons/cloud.png');}
+.icon-cloud {min-width: 38px; width: 38px; height: 37px; background: url('../images/icons/cloud.png');}
 .icon-fb {width: 28px; height: 28px; background: url('../images/icons/fb.png');}
 .icon-in {width: 28px; height: 28px; background: url('../images/icons/in.png');}
-.icon-location {width: 37px; height: 36px; background: url('../images/icons/location.png');}
-.icon-monitor {width: 37px; height: 36px; background: url('../images/icons/monitor.png');}
+.icon-location {min-width: 37px; width: 37px; height: 36px; background: url('../images/icons/location.png');}
+.icon-monitor {min-width: 37px; width: 37px; height: 36px; background: url('../images/icons/monitor.png');}
 .icon-next {width: 36px; height: 35px; background: url('../images/icons/next.png');}
 .icon-prev {width: 36px; height: 35px; background: url('../images/icons/prev.png');}
 .icon-tw {width: 28px; height: 28px; background: url('../images/icons/tw.png');}/* ELEMENTS */
@@ -133,4 +133,83 @@ header .lwrap > div{
     background-color: #fff;
     border-radius: 5px 5px 0px 0px;
     padding: 27px 26px 0px 27px;
+}
+.slider{
+    position: relative;
+}
+.slider figure{
+    position: relative;
+}
+.slider figcaption{
+    position: absolute;
+    left: 4%;
+    bottom: 6%;
+    margin: 0px 10px 0px 0px;
+    background-color: rgba(0,0,0,.5);
+    padding: 19px 23px 20px 29px;
+}
+.slider figcaption h2{
+    color: white;
+    font-family: LucidaGrande;
+    font-size: 25px;
+    font-weight: 400;
+}
+.slider figcaption span {
+    color: #aeaeae;
+    font-family: LucidaGrande;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: -0.05em;
+}
+.slider > a{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider > a.prev{
+    left: 1%;
+}
+.slider > a.next{
+    right: 1%;
+}
+.links-controls{
+    padding: 20px 0px 40px 0px;
+}
+h1{
+    position: relative;
+    text-align: center;
+    color: #585858;
+    font-family: LucidaGrande;
+    font-size: 25px;
+    margin: 0px 0px 50px 0px;
+}
+h1 span{
+    padding: 0px 14px;  
+    background: white;    
+    position: relative;
+}
+h1:before{
+    left: 0px;
+    top: 50%;
+    content: "";
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid lightgrey;
+}
+.grid > div{
+    width: 30%;
+}
+.item {
+    padding: 0px 0px 18px 0px;
+    background: url("../images/border.png") repeat-x left bottom;
+    margin: 0px 5px 18px 2px;
+}
+footer{
+    padding: 20px 20px 20px 20px;
+    min-height: 52px;
+background-color: #3a3938;
+color: white;
+font-family: LucidaGrande;
+font-size: 10px;
 }
