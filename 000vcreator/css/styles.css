@@ -158,6 +158,10 @@ body{
     padding: 43px 22px 22px 38px;
     margin: 0px 0px 20px 0px;
 }
+.demo-wrap > div:first-child{
+    width: 57%;
+    padding: 0px 0px 7px 0px;
+}
 .demo-wrap h1{
     font-family: Arial;
     font-size: 60px;
@@ -165,12 +169,12 @@ body{
     line-height: 70px;
     text-transform: uppercase;
     color: white;
-    margin: 15px 0px 46px 0px;
+    margin: 0px 0px 46px 0px;
 }
 .video-wrap{
     width: 42.6%;
     float:right;
-    padding: 0px 0px 2.9% 0px;
+    padding: 0px 0px 26px 0px;
     background: url("../images/shadow.png")no-repeat center bottom;
     background-size: 100%;
 }
@@ -355,7 +359,10 @@ body{
     }
     .sidebar {
         padding: 5.1vw 2.14vw 0.51vw 2.55vw;
-    }    
+    }
+    .video-wrap {
+    padding: 0px 0px 2.65vw 0px;
+}
 }
 @media (max-width: 960px) {
     .banner .btn-default, .banner .btn-alt {
@@ -431,16 +438,9 @@ body{
 }
 @media (max-width: 480px) {
     .demo-wrap{
+        position: relative;
         flex-direction: column;
-        display: flex;
-        align-items: center;
-        padding: 4.38vw 10px 2.34vw 10px;
-    }
-    .video-wrap{
-        order: 1;
-    }
-    .demo-wrap h1{
-        order: 0;
+        padding: 4.38vw 10px 60px 10px;        
     }
     .video-wrap{
         float: none;
@@ -453,9 +453,15 @@ body{
         font-size: 30px;
         line-height: 32px;
     }
+    .demo-wrap > div:first-child {
+    width: 100%;
+}
     .demo-wrap .btn-default {
         margin: 0px;
-        order: 2;
+position: absolute;
+bottom: 10px;
+left: 50%;
+        transform: translateX(-50%);
     }
     .articles{
         align-items: center;

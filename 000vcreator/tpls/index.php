@@ -25,13 +25,14 @@
                     </nav>
                 </div>
             </header>
-            <div class="demo-wrap">
+            <div class="demo-wrap" data-flex="row-center-between">                
+                <div>
+                <h1>best online video creator</h1>
+                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+            </div>
                 <div class="video-wrap">
                     <figure><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
-                <h1>best online video creator</h1>
-                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
-                
             </div>
             <div class="content-wrap" data-flex>
                 <div class="content">
