@@ -224,12 +224,13 @@ header .lwrap{
 .slider:after {
     content: "";
     position: absolute;
-    background: url("../images/shadowslide.png")no-repeat;
+    background: url("../images/shadowslide.png")no-repeat center center;
+    background-size: 100%;
     width: 105%;
     height: 105%;
     left: 50%;
     transform: translateX(-50.3%);
-    top: -16px;
+    top: -10.3%;
     z-index: 0;
 }
 .gallery > div{
@@ -314,8 +315,11 @@ header .lwrap{
 .about article{
     padding: 12px 0px 0px 0px;
 }
+.about article > div:first-child{
+    width: 27.38%;
+}
 .about article > div:last-child{
-    width: 66.5%;
+    width: 66.5%;    
 }
 .about article figure {
     position: relative;
@@ -333,6 +337,7 @@ header .lwrap{
 }
 .about article figure:after {
     background: url("../images/shadowfiguresm.png") no-repeat center center;
+    background-size: 96.74%;
     height: 21px;
     left: 50%;
     transform: translateX(-50%);
@@ -374,6 +379,7 @@ footer .lwrap > div{
 }
 .tweet{
     width: 31.4%;
+    min-width: 295px;
     height: 296px;
     border-radius: 50%;
     background-color: #232323;
@@ -419,15 +425,25 @@ footer .lwrap > div{
     }
     .slider figcaption p{
         font-size: 1.42vw;
+        line-height: 2.08vw;
     }
     .gallery figure {
-    margin: 0px 0px 4.48vw;
-}
-.clients > div {
-    min-height: 12.5vw;
-    padding: 2.6vw;
-    margin: 4.06vw 0px 5.93vw 0px;
-}
+        margin: 0px 0px 4.48vw;
+    }
+    .clients > div {
+        min-height: 12.5vw;
+        padding: 2.6vw;
+        margin: 4.06vw 0px 5.93vw 0px;
+    }
+    footer .lwrap {
+        padding: 4.48vw 8px 30px 14px;
+    }
+    .fb-item p {
+        margin: 0px 0px 0px 1.77vw;
+    }
+    .fb-item {
+        padding: 5px 2.91vw 5px 5px;
+    }
 }
 @media (max-width: 768px) {
     .gallery figure{
@@ -436,10 +452,31 @@ footer .lwrap > div{
     .gallery > div{
         justify-content: space-around;
     }
+    footer .lwrap{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flickr, .facebook{
+        width: 48%;
+    }
+    .slider figcaption p {
+    font-size: 11px;
+    line-height: 12px;
+}    
 }
 @media (max-width: 640px) {
     .gallery figure{
         width: 30%;
+    }
+    .about article {
+        flex-direction: column;
+    }
+    .about article > div:last-child,.about article > div:first-child  {
+        width: 100%;
+    }
+    .about article > div:first-child {
+        display: flex;
+        justify-content: space-around;
     }
 }
 @media (max-width: 480px) {
@@ -455,13 +492,27 @@ footer .lwrap > div{
         line-height: 14px;
     }
     .rss a {
-    margin: 0px 3px 0px 5px;
-}
-.gallery figure{
+        margin: 0px 3px 0px 5px;
+    }
+    .gallery figure{
         width: 48%;
     }
     .clients > div{
         flex-wrap: wrap;
+    }
+    footer .lwrap{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .flickr, .facebook{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about > div:first-child, .about > div:last-child {
+        width: 100%;
     }
 }
 @media (max-width: 360px) {
@@ -469,7 +520,7 @@ footer .lwrap > div{
         flex-direction: column;
         align-items: center;
     }
-    
+
     .logo-wrap{
         margin: 0px 0px 10px 0px;
     }

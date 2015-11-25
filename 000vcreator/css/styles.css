@@ -6,11 +6,9 @@
 /* ELEMENTS */
 
 .links-nav{
-    flex-wrap: wrap;
     justify-content: flex-end;
 }
 .links-footer{
-    flex-wrap: wrap;
     justify-content: center;
 }
 .links-default{
@@ -71,9 +69,10 @@ a.btn-default{
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
-    padding: 0px 20px 0px 20px;  
-    margin: 0px 0px 12px 0px;
+    padding: 0px 20px;  
+    margin-right: 12px;
     text-align: center;
+    white-space: nowrap;
 }
 .btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
     content: "";
@@ -127,6 +126,7 @@ a.btn-default{
 figure > img{
     width: 100%;
     height: 100%;
+    display: block;
 } 
 a{
     text-decoration: none;
@@ -136,71 +136,54 @@ body{
     background:url("../images/bg.png");
 }
 .lwrap{
-    padding: 0px 10px;
-    max-width: 980px
+    max-width: 960px
 }
 .header{
     background: white;
     padding: 0px 28px 0px 42px;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 20px;
 }
 #logo{
-    margin: 0px 20px 0px 0px;
+    margin-right: 20px;
 }
 .nav{
     min-height: 96px;
 }
 .demo-wrap{
-    overflow: hidden;
     background-color: #09f;
     border: 1px solid #09f;
     box-shadow: inset 0 0 100px rgba(0, 133, 221, 0.75);
-    padding: 43px 22px 22px 38px;
-    margin: 0px 0px 20px 0px;
-}
-.demo-wrap > div:first-child{
-    width: 57%;
-    padding: 0px 0px 7px 0px;
+    padding: 43px 13px 22px 38px;
+    margin-bottom: 20px;
+    height: 352px;
 }
 .demo-wrap h1{
+    width: 55.8%;
     font-family: Arial;
     font-size: 60px;
     font-weight: 700;
     line-height: 70px;
     text-transform: uppercase;
     color: white;
-    margin: 0px 0px 46px 0px;
+    margin: 15px 0px 46px 0px;
 }
 .video-wrap{
-    width: 42.6%;
-    float:right;
-    padding: 0px 0px 26px 0px;
+    width: 42.14%;
     background: url("../images/shadow.png")no-repeat center bottom;
     background-size: 100%;
+    padding-bottom: 26px;
 }
-.demo-wrap figure, .video{
-    display: block;    
-    height: 0;    
-    position: relative;
-    margin: auto;
-}
-.demo-wrap figure{
+.video-wrap figure{
     width: 88.8%;
-    padding: 33.8%;
+    margin: auto;
+    padding-bottom: 44px;
 }
 .video{
-    width: 99%;
-    padding: 30.6%;
-}
-.demo-wrap iframe, .video iframe{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 99.2%;
+    padding-bottom: 13px;
 }
 .demo-wrap .btn-default{
-    margin: 0px 0px 0px 54px;
+    margin-left: 54px;
 }
 .content{
     padding: 49px 35px 20px 39px;
@@ -208,17 +191,15 @@ body{
 }
 .sidebar{
     padding: 50px 21px 5px 25px;
-    width: 31.145833333333334%;
-    flex-shrink: 0;
+    width: 31.14583%;
     background: white;
 }
 .articles{
-    flex-wrap: wrap;
     border-bottom: 1px solid white;
 }
 .articles > article{
     width: 47.2%;
-    margin: 0px 0px 42px 0px;
+    margin-bottom: 42px;
 }
 .articles > article .title{
     margin: 0px 25px 21px 0px;
@@ -228,16 +209,15 @@ body{
     font-family: Arial;
     font-size: 12px;
     line-height: 20px;
-    margin: 0px 3px 0px 3px;
+    margin: 0px 3px;
     letter-spacing: -0.005em;
 }
 .grid > article{
     width: 30.83475298126065%;
-    padding: 0px 0px 34px 0px;
+    padding-bottom: 34px;
 }
 .grid{
-    padding: 36px 0px 0px 0px;
-    flex-wrap: wrap;
+    padding-top: 36px;
 }
 .grid .more{
     padding: 0px 0px 0px 3px;
@@ -247,11 +227,14 @@ body{
     font-family: Arial;
     font-size: 12px;
     line-height: 20px;
-    margin: 7px 0px 2px 3px;
+    margin: 0px 0px 2px 3px;
+}
+.grid figure{
+    margin-bottom: 7px;
 }
 .sidebar .title {
     border-bottom: 4px solid #c0c0c0;
-    margin: 0px 0px 14px 0px;
+    margin-bottom: 14px;
 }
 .sidebar blockquote {
     color: #9d9d9d;
@@ -260,7 +243,7 @@ body{
     padding: 10px 0px 4px 3px;
 }
 .sidebar blockquote p {
-    margin: 0px 0px 17px 0px;
+    margin-bottom: 17px;
     line-height: 14px;
     letter-spacing: -0.005em;
 }
@@ -268,16 +251,13 @@ body{
     color: #9d9d9d;
 }
 .sidebar > div{
-    margin: 0px 0px 26px 0px;
+    margin-bottom: 26px;
 }
 .sidebar > div:last-child .title{
     margin: 0px 0px 21px 0px;
 }
-.content-wrap{
-    flex-wrap: wrap;
-}
-.content{
-    flex: 1;
+.content{   
+    flex-basis: 0%;
 }
 .banner{
     width: 100%;
@@ -306,7 +286,7 @@ body{
 }
 .footer > div{
     width: 26.77%;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 20px;
 }
 .footer > div:last-child{
     width: 28.1%;
@@ -315,7 +295,7 @@ body{
     color: white;
     font-size: 15px;
     text-transform: uppercase;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 20px;
 }
 .footer p{
     letter-spacing: -0.005em;
@@ -327,7 +307,6 @@ body{
     min-height: 35px;
     background-color: #323232;
     padding: 5px 26px 5px 10px;
-    flex-wrap: wrap;
 }
 .copyright span{
     color: silver;
@@ -335,42 +314,52 @@ body{
     font-size: 12px;
     letter-spacing: -0.01em;
 }
-@media (max-width: 980px) { 
-    .banner h2{
-        font-size: 4.1vw; 
-        line-height: 4.17vw;
-    }
+
+/*MEDIA QUERIES------------------------*/
+
+@media (max-width: 960px) {    
     .header{
-        padding: 0px 2.86vw 0px 4.28vw;
+        padding: 0px 2.91vw 0px 4.37vw;
     }
     .demo-wrap {
-        padding: 4.38vw 2.14vw 2.34vw 3.77vw;
+        height: 36.66vw;
+        padding: 4.47vw 1.35vw 2.29vw 3.95vw;
     }
     .demo-wrap h1 {
-        font-size: 6.1vw;
-        margin: 0px 0px 4.69vw 0px;
-        line-height: 7.14vw;
+        font-size: 6.25vw;
+        margin: 1.56vw 0px 4.79vw 0px;
+        line-height: 7.29vw;
     }
     .demo-wrap .btn-default{
-        margin: 0px 0px 0px 5.6vw;
+        margin-left: 5.62vw;
+    }
+    .video-wrap{
+        padding-bottom:2.7vw; 
+    }
+    .video-wrap figure {
+        padding-bottom: 4.58vw;
+    }
+    .title i {
+        display: none;
     }
     .content {
-        padding: 5vw 3.57vw 2.04vw 3.98vw;
+        padding: 5.1vw 3.64vw 2.08vw 4.06vw;
     }
     .sidebar {
-        padding: 5.1vw 2.14vw 0.51vw 2.55vw;
+        padding: 5.2vw 2.18vw 5px 2.6vw;
     }
-    .video-wrap {
-    padding: 0px 0px 2.65vw 0px;
-}
-}
-@media (max-width: 960px) {
+    .banner {
+        min-height: 10.93vw;
+    }
+    .banner h2{
+        font-size: 4.16vw; 
+        line-height: 4.16vw;
+    }
     .banner .btn-default, .banner .btn-alt {
-        margin: 5px;
         min-width: 26.25vw;
         font-size: 2.08vw;
         height: 6.35vw;
-        min-height: 40px;
+        padding: 0px 2.08vw;
     }
     .banner .btn-default::before, .banner .btn-alt::before, .banner .btn-default::after,
     .banner .btn-alt::after, .banner .btn-alt i, .banner .btn-default i {
@@ -379,32 +368,34 @@ body{
     .banner {
         padding: 5px 1.87vw 5px 2.7vw;
     }
+    .articles > article {
+        margin-bottom: 4.375vw;
+    }
+    .grid {
+        padding-top: 3.75vw;
+    }
+    .grid > article {
+        padding-bottom: 3.54vw;
+    }
 }
-@media (max-width: 768px) {
-    .footer > div:last-child > div{
-        flex-wrap: wrap;
-    } 
+@media (max-width: 800px) {
     .copyright{
-        flex-direction: column;
         padding: 5px 10px 20px 10px;
     }
     .copyright span{
-        padding: 10px 0px 0px 0px;
-    }
-    .nav{
-        align-items: center;
+        padding-top: 10px;
     }
     .links-nav a, .links-nav a:first-child, .links-nav a:last-child {
         min-height: 24px;
         align-items: center;
         margin: 1px;
         padding: 0px 5px;
-    }    
-}
-@media (max-width: 640px) {        
-    .content-wrap{
-        flex-direction: column;
     }
+    .demo-wrap {
+        height: 38.5vw;
+    }
+}
+@media (max-width: 640px) {
     .content, .sidebar{
         width: 100%;
     }
@@ -414,15 +405,8 @@ body{
     .banner{
         order: 1;
     }
-    .footer{
-        flex-direction: column;
-        align-items: center;
-    }
     .footer > div, .footer > div:last-child {
         width: 95%;
-    }
-    .footer > div:last-child > div {
-        justify-content: flex-start;
     }
     .demo-wrap .btn-default, .demo-wrap .btn-alt{
         min-width: 9.8vw;
@@ -432,47 +416,33 @@ body{
     .demo-wrap .btn-alt::after, .demo-wrap .btn-alt i, .demo-wrap .btn-default i {
         display: none;
     }
-    .title i {
-        display: none;
+    .banner .btn-alt, .banner .btn-default{
+        height: 40px;
     }
 }
 @media (max-width: 480px) {
     .demo-wrap{
-        position: relative;
-        flex-direction: column;
-        padding: 4.38vw 10px 60px 10px;        
+        height: auto;
+        padding: 3.8vw 10px 2.34vw 10px;       
     }
-    .video-wrap{
-        float: none;
+    .demo-wrap h1 {
         width: 100%;
-        padding: 0px 0px 6.1vw 0px;
-        margin: 0px;
-    }
-    .demo-wrap h1{
+        order: 0;
         text-align: center;
         font-size: 30px;
         line-height: 32px;
     }
-    .demo-wrap > div:first-child {
-    width: 100%;
-}
-    .demo-wrap .btn-default {
-        margin: 0px;
-position: absolute;
-bottom: 10px;
-left: 50%;
-        transform: translateX(-50%);
+    .video-wrap{
+        order: 1;
+        width: 100%;
+        padding-bottom: 6.4vw;
     }
-    .articles{
-        align-items: center;
-        flex-direction: column;
+    .demo-wrap .btn{
+        order: 2;
+        margin: 0;
     }
     .articles > article{
         width: 100%;   
-    }
-    .grid{
-        align-items: center;
-        flex-direction: column;
     }
     .grid > article{
         width: 100%;        
@@ -480,11 +450,7 @@ left: 50%;
     .grid figure{
         width: 35%;
         float: left;
-        margin: 0px 10px 0px 0px;
-    }
-    .banner h2{
-        font-size: 20px; 
-        line-height: 22px;
+        margin-right: 10px;
     }
     .banner .btn-default, .banner .btn-alt {
         margin: 5px;
