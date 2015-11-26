@@ -460,9 +460,12 @@ footer .lwrap > div{
         width: 48%;
     }
     .slider figcaption p {
-    font-size: 11px;
-    line-height: 12px;
-}    
+        font-size: 11px;
+        line-height: 12px;
+    } 
+    .slider:after{
+        top: -13%;
+    }
 }
 @media (max-width: 640px) {
     .gallery figure{
@@ -477,6 +480,19 @@ footer .lwrap > div{
     .about article > div:first-child {
         display: flex;
         justify-content: space-around;
+    }
+    .slider figcaption {
+        border-radius: 10px;
+        width: 40%;
+        padding: 10px;
+        height: auto;
+        display: none;
+    }
+    .slider:hover figcaption{
+        display: flex;
+    }
+    .slider:after{
+        top: -14%;
     }
 }
 @media (max-width: 480px) {
@@ -514,13 +530,26 @@ footer .lwrap > div{
     .about > div:first-child, .about > div:last-child {
         width: 100%;
     }
+    .slider figcaption{
+        padding: 4px;
+    }
+    .slider figcaption p{
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .slider:after{
+        top: -18.2%;
+    }
 }
 @media (max-width: 360px) {
     header .lwrap, header .lwrap > div, .logo-wrap{
         flex-direction: column;
         align-items: center;
     }
-
+    .slider figcaption p{
+        font-size: 10px;
+        line-height: 8px;
+    }
     .logo-wrap{
         margin: 0px 0px 10px 0px;
     }

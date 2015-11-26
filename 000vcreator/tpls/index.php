@@ -32,9 +32,9 @@
                     <figure data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
             </div>
-            <div class="content-wrap" data-flex="w :noshrink(2) :grow(1)" data-flex-640="col">
+            <div class="content-wrap" data-flex="w :noshrink(2) :grow(1)" data-flex-640="column">
                 <div class="content">
-                    <div class="articles" data-flex="row between w" data-flex-480="col-center">
+                    <div class="articles" data-flex="row between w" data-flex-480="column">
                         <article>
                             <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>text heading goes here</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
@@ -44,7 +44,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
                         </article> 
                     </div>
-                    <div class="grid" data-flex="row between w">
+                    <div class="grid" data-flex="row between w"  data-flex-480="column">
                         <article>
                             <figure data-flex><img src="/images/img1.png" width="181" height="185" alt=""></figure>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <footer>
-                <div class="footer" data-flex="row around" data-flex-640="col-center">
+                <div class="footer" data-flex="row around" data-flex-640="column">
                     <div>
                         <h5>blog updates</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.  </p>

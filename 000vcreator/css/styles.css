@@ -396,17 +396,11 @@ body{
     }
 }
 @media (max-width: 640px) {
-    .content, .sidebar{
-        width: 100%;
-    }
     .sidebar{
         order: 2;
     }
     .banner{
         order: 1;
-    }
-    .footer > div, .footer > div:last-child {
-        width: 95%;
     }
     .demo-wrap .btn-default, .demo-wrap .btn-alt{
         min-width: 9.8vw;
@@ -418,6 +412,9 @@ body{
     }
     .banner .btn-alt, .banner .btn-default{
         height: 40px;
+    }
+    .footer{
+            padding: 30px 5px 5px 9px;
     }
 }
 @media (max-width: 480px) {
@@ -440,12 +437,6 @@ body{
     .demo-wrap .btn{
         order: 2;
         margin: 0;
-    }
-    .articles > article{
-        width: 100%;   
-    }
-    .grid > article{
-        width: 100%;        
     }
     .grid figure{
         width: 35%;
