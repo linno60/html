@@ -230,7 +230,7 @@ blockquote q{
     font-size: 15px;
     font-style: italic;
     line-height: 18px;
-    padding: 0px 0px 0px 32px;
+    padding-left: 32px;
 }
 a{text-decoration: none;}
 figure img{
@@ -243,8 +243,8 @@ body{
     background:url("../images/bg.png")
 }
 .lwrap{
-    max-width: 980px;
-    padding: 7px 10px 0px 10px;
+    max-width: 960px;
+    padding-top: 7px;
 }
 .links-nav{
     padding: 39px 0px 32px 0px;
@@ -364,7 +364,7 @@ preview h1 span{
 }
 .grid > article{
     width: 29%;
-    margin: 0px 0px 42px 0px;
+    margin-bottom: 42px;
 }
 .grid figure{
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
@@ -434,17 +434,16 @@ preview h1 span{
 }
 blockquote{
     max-width: 817px;
-    padding: 0px 0px 47px 0px;
+    padding-bottom: 47px;
 }
 blockquote figure{
     width: 32.6%;
-    flex-shrink: 0;
 }
 .form-wrap{
     width: 55.4%;
 }
 .contact{
-    padding: 246px 0px 0px 0px;
+    padding-top: 246px;
     position: relative;
     width: 43.7%;
 }
@@ -491,7 +490,7 @@ blockquote figure{
 @media (max-width: 960px) {
     .lbl-wrap {
         right: 1px;
-        top: 12.42vw;
+        top: 12.81vw;
     }
     .lbl-available::after{
         display:none;
@@ -500,83 +499,76 @@ blockquote figure{
         right: 0px;
     }
     .links-nav{
-        padding: 3.98vw 0px 3.26vw 0px;
+        padding: 4.06vw 0px 3.33vw 0px;
     }
     header .links-nav {
-        padding: 2.85vw 0px 2.24vw 0px;
+        padding: 2.91vw 0px 2.29vw 0px;
     }
     .testimonials .links-nav {
-        padding: 5.71vw 0px 2.96vw 0px;
+        padding: 5.83vw 0px 2.96vw 0px;
     }
     .footer .links-nav {
-        padding: 8.26vw 0px 2.96vw 0px;
+        padding: 8.26vw 0px 3.02vw 0px;
     }
     .links-nav a{
-        font-size: 2.65vw;
+        font-size: 2.7vw;
     }
     .item-wrapper {
-        padding: 2.34vw 2.04vw 2.04vw 2.14vw;
+        padding: 2.39vw 2.08vw 2.08vw 2.18vw;
     }
     .banner .item-wrapper {
-        padding: 5vw 2.04vw 3.57vw 2.14vw;
+        padding: 5.1vw 2.08vw 3.64vw 2.18vw;
     }
     .preview h1{
-        font-size: 15.3vw;
-        line-height: 17.04vw;
+        font-size: 15.62vw;
+        line-height: 17.39vw;
     }
     .preview p{
-        font-size: 4.08vw;
-        line-height: 4.89vw;
+        font-size: 4.16vw;
+        line-height: 5vw;
     }
     .preview{
-        padding: 1.42vw 0px 2.55vw 0px;
+        padding: 1.45vw 0px 2.6vw 0px;
     }
     .banner .item-wrapper > p {
-        margin: 3.98vw 0px 2.96vw 0px;
-    }
-    .item:before{
-        height: 25.2vw;
+        margin: 4.06vw 0px 3.02vw 0px;
     }
     .links-filter {
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 0px 0px 1.83vw 2.4vw;
-        justify-content: flex-start;
+        padding: 0px 0px 1.87vw 2.18vw;
     }
     .grid > article {
-        margin: 0px 0px 4.28vw;
+        margin: 0px 0px 4.37vw;
     }
     .title{
-        font-size: 3.77vw;
-        margin: 1.22vw 0px 2.14vw 0px;
+        font-size: 3.85vw;
+        margin: 1.25vw 0px 2.18vw 0px;
     }
     .testimonials .title{
-        margin: 1.63vw 0px 4.38vw 0px;
+        margin: 1.66vw 0px 4.48vw 0px;
     }
     .title span {
-        font-size: 5.92vw;
+        font-size: 6.04vw;
     }
     blockquote {
-        padding: 0px 0px 4.79vw 0px;
+        padding-bottom: 4.89vw;
     }
     blockquote q {
-        padding: 0px 0px 0px 3.26vw;
+        padding-left: 3.33vw;
     }
     .lbl-available {
-        min-width: 33.26vw;
-        height: 79px;    
+        min-width: 33.95vw;   
     }
     .lbl-available h6 {
-        font-size: 3.36vw;
+        font-size: 3.43vw;
     }
     .contact {
-        padding: 25.1vw 0px 0px;
+        padding-top: 25.62vw;
     }
     .social {
-        padding: 0px 0px 4.08vw 6.42vw;
+        padding: 0px 0px 4.16vw 6.56vw;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .testimonials article {
         width: 28%;
     }
@@ -584,7 +576,6 @@ blockquote figure{
         width: 40%;
     }    
     .social {
-        align-items: flex-end;
         padding: 0px 0px 4.9vw 0px;
     }
 }
@@ -595,20 +586,8 @@ blockquote figure{
     .grid > article{
         width: 48%;
     }
-    .testimonials article {
-        width: 100%;
-    }
-    .articles{
-        flex-wrap: wrap;
-    }
-    .contact-wrap{
-        flex-direction: column;
-    }
     .lbl-wrap{
         display: none;
-    }
-    .form-wrap, .contact {
-        width: 100%;
     }
     .contact {
         padding: 30px 0px 0px 0px;
@@ -619,9 +598,9 @@ blockquote figure{
     .title{
         text-align: center;
     }
-    .contact{
+/*    .contact{
         display: flex;
-    }
+    }*/
     .contact > div{
         width: 50%;
     }
@@ -660,14 +639,6 @@ blockquote figure{
         font-size: 11px;
         line-height: 16px;
     }
-}
-@media (max-width: 360px) {
-    .links-nav a{
-        font-size: 16px;
-    }
-    .grid > article{
-        width: 100%;
-    }
     .grid > article > figure{
         float: left;
         width: 50%;
@@ -676,16 +647,10 @@ blockquote figure{
     .grid h4, .grid p{
         margin: 0px;
     }
-    .contact{
-        flex-direction: column;
-    }
-    .contact > div {
-        align-items: center;
+    .links-nav a{
+        font-size: 16px;
     }
     .contact p, .contact p + span, .social span {
         text-align: center;
-    }
-    .contact > div {
-        width: 100%;
     }
 }

@@ -55,7 +55,7 @@
                             <a href="#">Interface Design</a>
                             <a href="#">Miscellaneous</a>
                         </div>
-                        <div class="grid" data-flex="row around w">
+                        <div class="grid" data-flex="row around w"  data-flex-480="column">
                             <article>
                                 <figure><img src="/images/img1.png" width="255" height="160" alt=""></figure>
                                 <h4>Tittle of the design</h4>
@@ -127,11 +127,11 @@
                 <div class="item-wrap">
                     <div class="item-wrapper" data-flex="col-center">
                         <h2 class="title"><span>Clean, Wonderful & Effective</span><br>websites that can really improve your business</h2>
-                        <blockquote data-flex="row-center">
+                        <blockquote data-flex="row-center :noshrink(1)">
                             <figure><img src="/images/testimonial.png" width="266" height="66" alt="Testimonial"></figure>
                             <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate. </q>
                         </blockquote>
-                        <div class="articles" data-flex="row between">
+                        <div class="articles" data-flex="row between" data-flex-640="column">
                             <article>
                                 <h3>Web Design</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate, purus velit elementum lectus, nec fermentum libero nunc at diam. In tempor, orci in rhoncus suscipit, velit orci blandit ipsum, a dapibus nisl massa in nunc. </p>
@@ -163,7 +163,7 @@
                         <div class="lbl lbl-available"><h6 data-text="Available For Hire"><span>Available For Hire</span></h6></div>
                     </div>
                     <div class="item-wrapper" data-flex="col-center">
-                        <div class="contact-wrap" data-flex="row between">
+                        <div class="contact-wrap" data-flex="row between" data-flex-640="column">
                             <div class="form-wrap">
                                 <h2 class="title"><span>Thank you!</span><br>Get in touch with me now.</h2>
                                 <form action="#" method="post" data-flex="col-center">
@@ -174,8 +174,8 @@
                                     <button><span class="btn btn-default"><em>submit now</em><i class="icon-arrow"></i></span></button>
                                 </form>
                             </div>
-                            <div class="contact">                                        
-                                <div class="social" data-flex="col-start">
+                            <div class="contact" data-flex-480="column">                                        
+                                <div class="social" data-flex="col-start" data-flex-800="col-end"  data-flex-480="col-center">
                                     <span>Connect with me via:</span>
                                     <div class="hlinks links-social" data-flex="w">
                                         <a href="#"><i class="icon-tw"></i></a>
@@ -184,7 +184,7 @@
                                         <a href="#"><i class="icon-mail"></i></a>
                                     </div>
                                 </div>
-                                <div data-flex="col-end">
+                                <div data-flex="col-end" data-flex-480="col-center">
                                     <a href="#" title="Return to the homepage" id="logoalt">
                                         <img src="/images/logoalt.png" width="103" height="33" alt="Sleeko">
                                     </a>
