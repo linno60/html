@@ -11,16 +11,16 @@
     <body>
         <div class="border-top"></div>
         <header>
-            <div class="lwrap" data-flex="row-start-between">
-                <div data-flex="row-center" class="logo-wrap">
+            <div class="lwrap" data-flex="row-start between" data-flex-480="col-center">
+                <div data-flex="row-center w" class="logo-wrap"  data-flex-480="col-center">
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="192" height="57" alt="Roundfolio">
                     </a>
                     <em>A circle is the reflection of eternity</em>
                 </div>                
-                <div data-flex="col-end">
+                <div data-flex="col-end" data-flex-480="col-center">
                     <span class="rss" data-flex="row-center"><a href="#" data-flex><i class="icon-rss"></i></a>1,001 Subscribers&nbsp;</span>
-                    <div class="hlinks links-social">
+                    <div class="hlinks links-social" data-flex-480="w">
                         <a href="#"><i class="icon-sv"></i></a>
                         <a href="#"><i class="icon-support"></i></a>
                         <a href="#"><i class="icon-fb"></i></a>
@@ -49,44 +49,44 @@
                 </div>
                 <div class="gallery">
                     <h2 class="title" data-flex="row-center">portfolio gallery</h2>
-                    <div data-flex="row--between">
-                        <figure data-flex="row-center-center">
+                    <div data-flex="row between w" data-flex-800="row around">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
-                        <figure data-flex="row-center-center">
+                        <figure data-flex="row-center center">
                             <img src="/images/img.png" width="147" height="147" alt="">
                             <a href="#"><i class="icon-overlay"></i></a>
                         </figure>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="clients">
                     <h2 class="title" data-flex="row-center">recent clients</h2>
-                    <div data-flex="row-center-around">
+                    <div data-flex="row-center around" data-flex-480="w">
                         <figure><img src="/images/sony.png" width="114" height="20" alt=""></figure>
                         <figure><img src="/images/nike.png" width="114" height="61" alt=""></figure>
                         <figure><img src="/images/sprint.png" width="132" height="55" alt=""></figure>
@@ -103,10 +103,10 @@
                         <figure><img src="/images/activision.png" width="149" height="35" alt=""></figure>
                     </div>
                 </div>
-                <div class="about" data-flex="row--between">
+                <div class="about" data-flex="row between" data-flex-480="column">
                     <div>
                         <h2 class="title" data-flex="row-center">about me</h2>
-                        <article data-flex="row--between">
+                        <article data-flex="row between" data-flex-640="column">
                             <div>
                                 <figure><img src="/images/photo.png" width="123" height="123" alt=""></figure>
                                 <div class="links links-accounts">
@@ -140,10 +140,10 @@
             </div>
         </div>
         <footer>
-            <div class="lwrap" data-flex="row--between">
+            <div class="lwrap" data-flex="row between" data-flex-800="around w" data-flex-320="column">
                 <div class="flickr">
                     <h5>flickr</h5>
-                    <div data-flex="row--around">
+                    <div data-flex="row around w">
                         <figure><img src="/images/flickr1.png" width="80" height="80" alt=""></figure>
                         <figure><img src="/images/flickr2.png" width="80" height="80" alt=""></figure>
                         <figure><img src="/images/flickr3.png" width="80" height="80" alt=""></figure>
@@ -157,20 +157,20 @@
                 </div>
                 <div class="facebook">
                     <h5>facebook</h5>
-                    <div class="fb-item" data-flex="row-center-center">
+                    <div class="fb-item" data-flex="row-center center">
                         <figure><img src="/images/fb1.png" width="45" height="45" alt=""></figure>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="fb-item" data-flex="row-center-center">
+                    <div class="fb-item" data-flex="row-center center">
                         <figure><img src="/images/fb2.png" width="45" height="45" alt=""></figure>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="fb-item" data-flex="row-center-center">
+                    <div class="fb-item" data-flex="row-center center">
                         <figure><img src="/images/fb3.png" width="45" height="45" alt=""></figure>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <div class="tweet" data-flex="col-center-center">
+                <div class="tweet" data-flex="col-center center">
                     <h5>tweet</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <time>10 minutes ago</time></p>
                     <p>Doec eu nulla in erat tincidunt accumsan. Donec semper. <time>2 hours ago</time></p>

@@ -11,17 +11,17 @@
     <body>
         <header>
             <div class='lwrap'>
-                <div data-flex='row-center-between'>
+                <div data-flex='row-center between w' data-flex-480="col">
                     <a href="#" title="Return to the homepage" id="logo" data-flex>
                         <img src="/images/frosty.png" width="225" height="87" alt="Frosty">
                     </a>
-                    <div class='hlinks links-social'>
+                    <div class='hlinks links-social' data-flex="w">
                         <a href='#'><i class="icon-fb"></i></a>
                         <a href='#'><i class="icon-tw"></i></a>
                         <a href='#'><i class="icon-in"></i></a>
                     </div>
                 </div>
-                <nav class='hlinks links-nav'>
+                <nav class='hlinks links-nav' data-flex="w">
                     <a href='#' class='active'>Home</a>
                     <a href='#'>About us</a>
                     <a href='#'>Services</a>
@@ -37,7 +37,7 @@
             <div class="content-wrap">
                 <div class="slider" data-flex="col-center">
                     <a href='#' class='prev'><i class="icon-prev"></i></a>
-                    <figure data-flex>
+                    <figure>
                         <img src="/images/photo.png" width="907" height="416" alt="">
                         <figcaption data-flex='col--center'>
                             <h2>Here is some of our recent work</h2>
@@ -52,8 +52,8 @@
                         <a href='#'></a>
                     </div>
                 </div>
-                <h1><span>We work with you to create stunning results</span></h1>
-                <div class="grid" data-flex="row--between">
+                <h1 class="title"><span>We work with you to create stunning results</span></h1>
+                <div class="grid" data-flex="row between w" data-flex-480="column">
                     <div>
                         <h2 data-flex="row-center"><i class="icon-monitor"></i>How we work</h2>
                         <p>tis antiis aut quidemo blaborem dolutemporum illese voluptate dolori dolores volupit optatur sus explabo. Pis nim ut quatem nos repratus alissimus venihil lorunti orecull uptaepudae illuptatios magnitibus doloribusae nessime sequias deliquis vollaut lab inventi omnihilitem es era dici int.</p>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </div>
-            <footer>
+            <footer data-flex="row-center">
                 <span>Copyright &copy; Ian Barnard Design</span>
             </footer>
         </div>

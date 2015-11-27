@@ -21,17 +21,19 @@
 .icon-user {width: 13px; height: 13px; background: url('../images/icons/user.png');}/* ELEMENTS */
 
 .links-accounts{
-    padding: 0px 0px 0px 10px;
+    padding-left: 10px;
 }
 .links-social{
     justify-content: flex-end;
-    padding: 14px 0px 0px 0px;
+    padding-top: 14px;
 }
 .links-social a, .links-social a:first-child, .links-social a:last-child{
     margin: 3px;
 }
 .links-controls {
     padding: 19px 0px 18px 0px;
+    position: relative;
+    z-index: 1;
 }
 .links-controls a{
     width: 8px;
@@ -80,7 +82,7 @@
     background:url("../images/hdrbg.png")repeat-x left center;
 }
 .input-wrap{
-    margin: 0px 0px 18px 0px;
+    margin-bottom: 18px;
     height: 49px;    
 }
 .input-wrap.text{
@@ -94,7 +96,7 @@
 textarea{
     padding: 10px;
     height: 125px;
-    margin: 0px 0px 13px 0px;
+    margin-bottom: 13px;
 }
 .input-wrap, textarea{
     width: 100%;
@@ -165,11 +167,10 @@ header .lwrap{
     max-width: 920px;
 }
 #logo{
-    margin: 0px 19px 0px 0px;
+    margin-right: 19px;
 }
 .logo-wrap{
-    flex-wrap: wrap;
-    margin: 0px 10px 0px 0px;
+    margin-right: 10px;
     min-height: 67px;
 }
 .logo-wrap em{
@@ -187,7 +188,7 @@ header .lwrap{
     line-height: 7px;
 }
 .rss a{
-    margin: 0px 7px 0px 0px;
+    margin-right: 7px;
 }
 .wrap {
     background: url("../images/hdrbg.png")repeat-x left bottom, linear-gradient(to bottom, #cbcbcb 0%, #cbcbcb 100px, #fefefe 468px, #fff 100%);
@@ -235,12 +236,11 @@ header .lwrap{
 }
 .gallery > div{
     padding: 34px 0px 8px 0px;
-    flex-wrap: wrap;
 }
 .gallery figure{
     position: relative;
     width: 18%;
-    margin: 0px 0px 43px 0px;
+    margin-bottom: 43px;
 }
 .gallery figure:hover > a{
     display: block;
@@ -291,8 +291,8 @@ header .lwrap{
     content: "";
     position: absolute;
     width: 100%;
-    height: 18px;
-    background-size: 100%;
+    height: 9.04%;
+    background-size: 95.42%;
     background: url("../images/shadowclients.png")no-repeat center center;
     left: 50%;
     transform: translateX(-50%);
@@ -309,11 +309,11 @@ header .lwrap{
     color: #535353;
     font-family: Cantarell;
     font-size: 14px;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 20px;
     line-height: 20px;
 }
 .about article{
-    padding: 12px 0px 0px 0px;
+    padding-top: 12px;
 }
 .about article > div:first-child{
     width: 27.38%;
@@ -358,18 +358,15 @@ footer h5 {
     font-family: LeagueGothic;
     font-size: 32px;
     text-transform: uppercase;
-    margin: 0px 0px 1px 0px;
+    margin-bottom: 1px;
     font-weight: normal;
     line-height: 52px;
 }
 footer .lwrap > div{
-    margin: 0px 0px 30px 0px;
+    margin-bottom: 30px;
 }
 .flickr{
     width: 25.8%
-}
-.flickr > div{
-    flex-wrap: wrap;
 }
 .flickr > div figure{
     width: 33.05%;
@@ -389,13 +386,13 @@ footer .lwrap > div{
 .tweet p{
     font-family: Cantarell;
     font-size: 12px;
-    margin: 0px 0px 18px 0px;
+    margin-bottom: 18px;
     line-height: 18px;
     color: #a4a4a4;
     text-align: center
 }
 .tweet p:last-child{
-    margin: 0px 0px 39px 0px;
+    margin-bottom: 39px;
 }
 .tweet p time, .tweet p a{
     color: #ff7800;
@@ -407,7 +404,7 @@ footer .lwrap > div{
     min-height: 71px;
     background-color: #232323;
     border-radius: 5px;
-    margin: 0px 0px 10px 0px;
+    margin-bottom: 10px;
     padding: 5px 28px 5px 5px;
 }
 .fb-item p{
@@ -415,7 +412,7 @@ footer .lwrap > div{
     font-family: Cantarell;
     font-size: 12px;
     line-height: 18px;
-    margin: 0px 0px 0px 17px;
+    margin-left: 17px;
     max-width: 160px;
 }
 @media (max-width: 960px) {
@@ -428,7 +425,7 @@ footer .lwrap > div{
         line-height: 2.08vw;
     }
     .gallery figure {
-        margin: 0px 0px 4.48vw;
+        margin-bottom: 4.48vw;
     }
     .clients > div {
         min-height: 12.5vw;
@@ -445,16 +442,9 @@ footer .lwrap > div{
         padding: 5px 2.91vw 5px 5px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .gallery figure{
         width: 23%;
-    }
-    .gallery > div{
-        justify-content: space-around;
-    }
-    footer .lwrap{
-        flex-wrap: wrap;
-        justify-content: space-around;
     }
     .flickr, .facebook{
         width: 48%;
@@ -464,22 +454,20 @@ footer .lwrap > div{
         line-height: 12px;
     } 
     .slider:after{
-        top: -13%;
+        top: -11.2%;
+    }
+    .clients:after{
+        display: none;
     }
 }
 @media (max-width: 640px) {
     .gallery figure{
         width: 30%;
     }
-    .about article {
-        flex-direction: column;
-    }
-    .about article > div:last-child,.about article > div:first-child  {
-        width: 100%;
-    }
     .about article > div:first-child {
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
     .slider figcaption {
         border-radius: 10px;
@@ -499,13 +487,13 @@ footer .lwrap > div{
     #logo{
         margin: 0px;
     }
-    .links-social{
-        flex-wrap: wrap;
+    .slider figcaption p{
+        font-size: 10px;
+        line-height: 8px;
     }
-    .rss{
-        flex-direction: row-reverse;
-        text-align: right;
-        line-height: 14px;
+    .logo-wrap{
+        margin-right: 0px;
+        margin-bottom: 10px;
     }
     .rss a {
         margin: 0px 3px 0px 5px;
@@ -513,22 +501,8 @@ footer .lwrap > div{
     .gallery figure{
         width: 48%;
     }
-    .clients > div{
-        flex-wrap: wrap;
-    }
     footer .lwrap{
-        flex-direction: column;
-        align-items: center;
         padding: 10px;
-    }
-    .flickr, .facebook{
-        width: 100%;
-    }
-    .about{
-        flex-direction: column;
-    }
-    .about > div:first-child, .about > div:last-child {
-        width: 100%;
     }
     .slider figcaption{
         padding: 4px;
@@ -540,17 +514,7 @@ footer .lwrap > div{
     .slider:after{
         top: -18.2%;
     }
+    footer .lwrap > div {
+    max-width: 360px;
 }
-@media (max-width: 360px) {
-    header .lwrap, header .lwrap > div, .logo-wrap{
-        flex-direction: column;
-        align-items: center;
-    }
-    .slider figcaption p{
-        font-size: 10px;
-        line-height: 8px;
-    }
-    .logo-wrap{
-        margin: 0px 0px 10px 0px;
-    }
 }

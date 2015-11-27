@@ -479,8 +479,8 @@ blockquote figure{
     padding: 0px 0px 40px 63px;
 }
 .social span{
-        padding: 0px 0px 0px 9px;
-    }
+    padding: 0px 0px 0px 9px;
+}
 .contact p{
     margin: 11px 0px 20px 0px;
 }
@@ -598,15 +598,12 @@ blockquote figure{
     .title{
         text-align: center;
     }
-/*    .contact{
+    .contact{
         display: flex;
-    }*/
+    }
     .contact > div{
         width: 50%;
-    }
-    .social {
-        align-items: flex-start;
-    }    
+    }  
     .links-social {
         justify-content: flex-start;
     }

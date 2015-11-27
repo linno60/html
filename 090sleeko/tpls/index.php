@@ -175,7 +175,7 @@
                                 </form>
                             </div>
                             <div class="contact" data-flex-480="column">                                        
-                                <div class="social" data-flex="col-start" data-flex-800="col-end"  data-flex-480="col-center">
+                                <div class="social" data-flex="col-start" data-flex-800="col-end" data-flex-640="col-start"  data-flex-480="col-center">
                                     <span>Connect with me via:</span>
                                     <div class="hlinks links-social" data-flex="w">
                                         <a href="#"><i class="icon-tw"></i></a>

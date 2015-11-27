@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'AdelleBasic';
+    src: url('/fonts/fontsquirel.com/adelleregularwebfont.woff2') format('woff2'), url('/fonts/fontsquirel.com/adelleregularwebfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
