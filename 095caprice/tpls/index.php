@@ -9,12 +9,12 @@
         <link rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>
-        <div class="lwrap" data-flex>
-            <aside class="sidebar">
+        <div class="lwrap" data-flex=":noshrink(1)" data-flex-640="column">
+            <aside class="sidebar" data-flex="col-start" data-flex-640="col-center">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/Logo.png" width="138" height="59" alt="Caprice">
                 </a>
-                <nav class="links links-nav">
+                <nav class="links links-nav" data-flex-640="w">
                     <a href="#" class="active">About</a>
                     <a href="#">Portfolio</a>
                     <a href="#">Social</a>
@@ -30,7 +30,7 @@
                     <h2>Ipsum Tortor Vestibulum Sollicitudin</h2>
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nasce&shy;tur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
                 </article>
-                <div class="grid" data-flex="row between">
+                <div class="grid" data-flex="row between w" data-flex-480="column">
                     <article>
                         <h2 data-flex="row-center"><i class="icon-screen"></i>Web Design</h2>
                         <p>Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. </p>
@@ -55,7 +55,7 @@
                             <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
                         </div>
                     </h2>
-                    <div data-flex="row between">
+                    <div data-flex="row between" data-flex-480="w">
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>

@@ -1,0 +1,352 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=fb837a53-b1de-4619-882b-a96fd015e3d9");
+
+/* FONTS */
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/fonts.com/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("/fonts/fonts.com/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff");
+}
+@font-face {
+    font-family: "MyriadPro Bold";
+    src: url("../fonts/fonts.com/eba438b3-9ab9-48ba-b1c5-610f83b38303.woff2") format("woff2"), url("/fonts/fonts.com/acfb7490-30f6-4bf4-a1b8-70ff9172d209.woff") format("woff");
+}
+/* ELEMENTS */
+
+.links-nav{
+    justify-content: flex-end;
+    padding: 5px 8px 0px 0px;
+}
+.links-nav a{
+    text-shadow: 0 1px 0 white;
+    color: #6c6c6c;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0px 5px;
+    min-width: 70px;
+    min-height: 28px;
+    margin: 2px 12px 2px 11px;
+    border: 1px solid transparent;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{ 
+    background-color: #f2f2f2;
+    background-image: linear-gradient(to top, #efefef 0%, white 100%);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 white, inset 0 1px 1px white;
+}
+.links-footer{
+    width: 100%;
+    border-top: 1px solid #161616;
+    box-shadow: inset 0px 1px 0px 0px #353535;
+}
+.links-footer a{
+    text-shadow: 0 1px 0 black;
+    color: #d7d7d7;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: -0.005em;
+}
+.links-footer > li{
+    padding: 3px 0px;
+    min-height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #161616;
+    box-shadow: 0px 1px 0px 0px #353535;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+a.btn-default{
+    min-width: 152px;
+    min-height: 44px;
+    padding: 5px 10px 4px 10px;
+    background:url("../images/bgbtn.png");
+    border: 1px solid #d1d1d1;
+    color: #828282;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 11px;
+    box-shadow: inset 0px 0px 0px 1px #efefef;
+    position: relative;
+}
+.btn-default:after{
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 100%;
+    background: #d7d7d7;
+    left: -1px;
+    bottom: -6px;
+    z-index: -1;
+    border: 1px solid #bebebe;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+}
+.btn-subscribe{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.43);
+    color: #4a4a4a;
+    font-family: Arial;
+    font-size: 12px;
+    min-width: 68px;
+    min-height: 26px;
+    padding: 3px 4px 2px 5px;
+    background-color: white;
+    background-image: linear-gradient(to top, #ccc 0%, #f4f4f4 100%);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.01em;
+}
+.form-subscribe{
+    padding: 4px 5px 5px 5px;
+    width: 100%;
+    max-width: 220px;
+    height: 35px;
+    background-color: #232323;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+.form-subscribe input{
+    width: 70%;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0px 5px;
+}
+label{
+    line-height: 20px;
+    text-shadow: 0 1px 0 black;
+    color: #d7d7d7;
+    font-family: Arial;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+} 
+figure img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* $------------------------------------------------------------------------- */
+body{
+    background: #f1f1f1;
+}
+#logo{
+    margin-right: 20px;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0px 10px;
+}
+header{  
+    margin: 0px -1px;
+    background-color: #f2f2f2;
+    background-image: linear-gradient(to top, #f0f0f0 0%, #f9f9f9 100%);
+    border: 1px solid gainsboro;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), inset 0 1px 1px white;
+}
+header .lwrap{
+    padding: 12px 10px 10px 10px;
+    min-height: 83px;
+}
+.banner-wrap{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0px 1px 0px 0px rgba(255,255,255,.2);
+}
+.banner{
+    padding: 23px 10px 18px 13px;
+}
+.banner figure{
+    position: relative;
+    max-width: 873px;
+    max-height: 353px;
+}
+.banner figure:after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    max-width: 1020px;
+    height: 60.65%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12%;
+    background: url("../images/shadow.png")no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+.overlay{
+    position: absolute;
+    padding: 35px 10px 61px 10px;
+    left: 0px;
+    top: 0px;
+    width: 96.8%;
+    height: 92%;
+    margin: 1.6% 1.6%;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.55);
+    display: none;
+}
+.banner:hover .overlay{
+    display: flex;
+}
+.overlay span, .overlay a{
+    color: #111;
+    font-family: MyriadPro;
+    font-size: 45px;
+}
+.overlay a:active, .overlay a:hover, .overlay a:focus{
+    text-decoration: underline;
+}
+.welcome{
+    padding: 17px 0px 22px 0px;
+}
+.welcome p{
+    color: #595959;
+    font-family: MyriadPro;
+    font-size: 22px;
+    line-height: 24px;
+    margin:  8px 10px 0px 0px;
+}
+.grid{
+    padding: 0px 2px 53px 0px;
+}
+.grid h2{
+    font-family: MyriadPro;
+    font-size: 24px;
+    line-height: 24px;
+    color: #505050;
+    margin: 7px 0px 11px 0px;
+    font-weight: normal;
+}
+.grid p{
+    text-shadow: 0 1px 0 white;
+    color: #505050;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.01em;    
+}
+.grid figure{
+    border: 1px solid #c4c4c4;
+    padding: 4px;
+    background: white;
+}
+.grid article{
+    width: 31.8%;
+    margin-bottom: 40px;
+}
+footer{
+    box-shadow: inset 0px 10px 30px 5px rgba(0,0,0,0.75);
+    background: url("../images/bgfooter.png");
+}
+footer .lwrap{
+    padding: 27px 5px 36px 7px;
+}
+footer > .lwrap > div{
+    width: 24%;
+    margin-bottom: 30px;
+}
+footer > .lwrap > div:last-child{
+    min-width: 207px;
+}
+footer form label{
+    display: inline-block;
+    padding: 6px 0px 9px 3px;
+    letter-spacing: 0.001em;
+}
+footer > .lwrap > div > h5{
+    text-shadow: 0 1px 2px black;
+    color: #f1f1f1;
+    font-family: MyriadPro;
+    font-size: 19px;
+    margin-bottom: 7px;
+    font-weight: normal;
+    letter-spacing: 0.025em;
+}
+footer form{
+    border-top: 1px solid #161616;
+    box-shadow: inset 0px 1px 0px 0px #353535;
+}
+
+@media (max-width: 960px) {
+    .links-nav a {
+        margin: 2px 1.25vw 2px 1.1458vw;
+    }
+    .overlay span, .overlay a {
+        font-size: 4.68vw;
+    }
+    .overlay {
+        position: absolute;
+        padding: 3.64vw 10px 6.35vw 10px;
+    }
+    .grid article {
+        margin-bottom: 4.16vw;
+    }
+    .grid {
+        padding: 0px 0px 5.52vw 0px;
+    }
+    footer .lwrap {
+        padding: 2.81vw 10px 3.75vw 10px;
+    }
+}
+@media (max-width: 800px) {
+    footer > .lwrap > div{
+        width: 48%;
+    }
+    .form-subscribe{
+        max-width: 100%;
+    }
+}
+@media (max-width: 640px) {
+    .links-nav a {
+        margin: 2px;
+    }
+}
+@media (max-width: 480px) {
+    .links-nav{
+        justify-content: center;
+    }
+    .welcome p{
+        margin: 0px 0px 10px 0px;
+        text-align: center;
+    }
+    .grid figure{
+        float: left;
+        width: 48%;
+        margin-right: 10px;
+    }
+    footer > .lwrap > div:last-child {
+        min-width: 48%;
+    }
+    .form-subscribe input{
+        height: 35px;
+        width:100%;
+        background-color: #232323;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.22) inset;
+    }
+    .form-subscribe {
+        height: auto;
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
+@media (max-width: 320px) {
+    .grid figure{
+        float: none;
+    }
+}
