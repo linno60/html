@@ -65,14 +65,17 @@ a.btn-alt{
     padding: 5px;
     background-color: rgba(226,234,238,.4); 
 }
-.links-social a{
+.links-social{
+    justify-content: center
+}
+.links-social a, .links-social a:first-child, .links-social a:last-child{
     margin: 5px 3px 3px 3px;
 }
 .links-payment a{
     margin: 4px 5px 4px 4px;
 }
 blockquote{
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
 blockquote q{
     padding: 30px 30px 38px 30px;
@@ -225,10 +228,10 @@ h1{
     color: #3c3c3c;
     font-family: Designosaur;
     font-size: 16px;
-    padding: 5px;
+    padding:0px 5px;
 }
 .testimonials .btn-group strong{
-    padding: 5px 16px;
+    padding: 0px 16px;
 }
 .gallery figure:hover .overlay{
     display: block;
@@ -343,14 +346,14 @@ p{
 .copyright{
     background-color: #222;
     border-top: 1px solid #3f3f3f;
-    padding: 10px 21px 13px 21px;
+    padding: 10px 18px 13px 18px;
 }
 .copyright span{
     font-family: Arial;
     font-size: 12px;
     color: #8c8c8c;
     letter-spacing: -0.01em;
-    padding-right: 20px;
+    padding: 0px 20px 0px 3px;
 }
 .copyright span a{
     color: #dd8c5c;
@@ -459,8 +462,8 @@ p{
         height: 43.6vw;
     }
     .slider figure::after {
-    bottom: -5%;
-}
+        bottom: -5%;
+    }
 }
 @media (max-width: 640px) {
     .header{
@@ -468,6 +471,17 @@ p{
     }
     .slider-wrap{
         height: auto;
+        padding: 10px;
+    }
+    .slider-wrap > h1 + div{
+        max-height: 100%;
+    }
+    .slider{
+        order: 2;
+    }
+    .slider-wrap .btn-group{
+        order: 1;
+        padding-bottom: 10px;
     }
     .gallery figure {
         width: 45%;
@@ -477,6 +491,10 @@ p{
     }
     .footer > div, .footer > div:first-child{
         width: 47%;
+    }
+    .copyright span {
+        text-align: center;
+        padding: 0px;
     }
 }
 @media (max-width: 320px) { 

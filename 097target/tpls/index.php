@@ -22,8 +22,8 @@
             <div class="slider-wrap" data-flex="col-center w" data-flex-640="column">
                 <h1>The perfect way to convert your traffic into sales</h1>
                 <div>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
                 </div>
                 <div class="btn-group" data-flex="row-center between w" data-flex-960="center"  data-flex-480="col-center">
                     <div class="btn-wrap"><a href="#" class="btn btn-default">Purchase now!</a></div>
@@ -126,7 +126,7 @@
                         </a> 
                     </div>
                 </div>
-                <div class="copyright" data-flex="row-center between w">
+                <div class="copyright" data-flex="row-center between w" data-flex-640="col-center">
                     <span>Copyright &copy; 2011 Target. All rights reserved. Design by <a href="#">Shegy</a></span>
                     <div class="hlinks links-social" data-flex="w">
                         <a href="#"><i class="icon-aa"></i></a>
