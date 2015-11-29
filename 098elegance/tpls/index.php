@@ -10,11 +10,11 @@
     </head>
     <body>
         <header class="header">
-            <div class="lwrap" data-flex="row-center-between">
-                <a href="#" title="Return to the homepage" id="logo" data-flex>
+            <div class="lwrap" data-flex="row-center between w" data-flex-640="col">
+                <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="212" height="37" alt="Elegance Media">
                 </a>
-                <nav class="hlinks links-nav">
+                <nav class="hlinks links-nav" data-flex="w">
                     <a href="#" class="active">home</a>
                     <a href="#">about us</a>
                     <a href="#">services</a>
@@ -25,33 +25,33 @@
             </div>            
         </header>
         <div class="slider-wrap">
-            <div class="lwrap" data-flex="row-center-around">
+            <div class="lwrap" data-flex="row-center around">
                 <a href="#"><i class="icon-prev"></i></a>
                 <figure data-flex="col">
                     <img src="/images/img1.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
-                        <strong>FedEx</strong>
+                        <span>FedEx</span>
                         <small>Lorem ipsum dolor sit amet</small>
                     </figcaption>
                 </figure>
                 <figure data-flex="col" class="hidden-sm">
                     <img src="/images/img2.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
-                        <strong>Digital Art</strong>
+                        <span>Digital Art</span>
                         <small>from TheDesignInspiration</small>
                     </figcaption>
                 </figure>
                 <figure data-flex="col" class="hidden-md">
                     <img src="/images/img3.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
-                        <strong>Thismanslife: New Start</strong>
+                        <span>Thismanslife: New Start</span>
                         <small>from Creattica by thismanslife</small>
                     </figcaption>
                 </figure>
                 <figure data-flex="col" class="hidden-lg">
                     <img src="/images/img4.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
-                        <strong>Business Graph</strong>
+                        <span>Business Graph</span>
                         <small>by GraphicsFuel</small>
                     </figcaption>
                 </figure>
@@ -60,8 +60,8 @@
         </div>
         <div class="services">            
             <div class="lwrap">
-                <h2 class="title" data-flex="row-center-center">see all our works</h2>
-                <div data-flex="row--between">
+                <h2 class="title" data-flex="row-center center">see all our works</h2>
+                <div data-flex="between w" data-flex-320="column">
                     <article>
                         <h3 data-flex="row-end"><div class="lbl lbl-default"><i class="icon-lamp"></i></div>Your 1st title Here</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie, lectus sed posuere consectetur, dolor ipsum tempus justo, quis ornare magna urna id enim. </p>
@@ -82,7 +82,7 @@
             </div>
         </div>
         <div class="content">
-            <div class="lwrap" data-flex="row--between">
+            <div class="lwrap" data-flex="between w" data-flex-480="column">
                 <div>
                     <h4>Our Company</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie, lectus sed posuere consectetur, dolor ipsum tempus justo, quis ornare magna urna id enim. Nulla accumsan libero id quam facilisis nec luctus libero sollicitudin. </p>
@@ -106,23 +106,23 @@
                 </div>
                 <div>
                     <h4>From the blog</h4>
-                    <div class="post" data-flex="col">
+                    <div class="post" data-flex="col-start">
                         <a href="#">Sleek minimal website PSD template</a>
                         <time>August 30, 2010, 9:32 am</time>
                     </div>
-                    <div class="post" data-flex="col">
+                    <div class="post" data-flex="col-start">
                         <a href="#">PSD ecommerce website template</a>
                         <time>October 18, 2010, 5:51 am</time>
                     </div>
-                    <div class="post" data-flex="col">
+                    <div class="post" data-flex="col-start">
                         <a href="#">Sleeko- Download single page website design</a>
                         <time>July 22, 2010, 7:19 pm</time>
                     </div>
-                    <div class="post" data-flex="col">
+                    <div class="post" data-flex="col-start">
                         <a href="#">Download web buttons in PSD & PNG (pack of 60)</a>
                         <time>September 13, 2010, 2:15 am</time>
                     </div>
-                    <div class="post" data-flex="col">
+                    <div class="post" data-flex="col-start">
                         <a href="#">Flip clock countdown (PSD)</a>
                         <time>August 12, 2011, 10:56 am</time>
                     </div>
@@ -130,8 +130,8 @@
             </div>
         </div>
         <div class="newsletter">
-            <div class="lwrap" data-flex="row-center-between">
-                <form action="#" method="post" data-flex="row-center">
+            <div class="lwrap" data-flex="row-center between" data-flex-640="col-center">
+                <form action="#" method="post" data-flex="row-center" data-flex-640="center">
                     <label for="i1">Newsletter sign up</label>
                     <div data-flex>
                         <input type="email" name="email" id="i1" placeholder="email address">
@@ -140,14 +140,13 @@
                 </form>
                 <div class="twitter" data-flex="row-center">
                     <i class="icon-bird"></i>
-                    <p>Proin enim velit, fermentum at malesuada in, ipsum...</p>
-                    <a href="#">@graphicsfuel</a>
+                    <p>Proin enim velit, fermentum at malesuada in, ipsum... <a href="#">@graphicsfuel</a></p>                    
                 </div>
             </div>
         </div>
         <footer>
             <div class="lwrap">
-                <div class="footer" data-flex="row--between">
+                <div class="footer" data-flex="between w">
                     <div>
                         <h5>Company</h5>
                         <div class="links links-footer">
@@ -184,7 +183,7 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    <span>Copyright © 2011 EleganceMedia. Designed by GraphicsFuel.com</span>
+                    <span>Copyright &copy; 2011 EleganceMedia. Designed by GraphicsFuel.com</span>
                 </div>
             </div>
         </footer>
