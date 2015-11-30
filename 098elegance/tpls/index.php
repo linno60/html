@@ -131,7 +131,7 @@
         </div>
         <div class="newsletter">
             <div class="lwrap" data-flex="row-center between" data-flex-640="col-center">
-                <form action="#" method="post" data-flex="row-center" data-flex-640="center">
+                <form action="#" method="post" data-flex="row-center" data-flex-640="center" data-flex-480="col">
                     <label for="i1">Newsletter sign up</label>
                     <div data-flex>
                         <input type="email" name="email" id="i1" placeholder="email address">
@@ -140,7 +140,7 @@
                 </form>
                 <div class="twitter" data-flex="row-center">
                     <i class="icon-bird"></i>
-                    <p>Proin enim velit, fermentum at malesuada in, ipsum... <a href="#">@graphicsfuel</a></p>                    
+                    <p>Proin enim velit, fermentum at malesuada in, ipsum...&emsp; <a href="#">@graphicsfuel</a></p>                    
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
                     <div>
                         <h5>Social Network</h5>
                         <p>Find us on these social network sites</p>
-                        <div class="hlinks links-social">
+                        <div class="hlinks links-social" data-flex="w">
                             <a href="#"><i class="icon-tw"></i></a>
                             <a href="#"><i class="icon-fb"></i></a>
                             <a href="#"><i class="icon-in"></i></a>

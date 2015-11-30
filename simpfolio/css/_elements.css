@@ -1,0 +1,79 @@
+.links-nav a{
+    font-family: Bebas;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: silver;
+    padding: 0px 15px;
+    margin: 2px 15px;
+    height: 28px;
+    position: relative;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: black;    
+    background-color: #fddecb;
+}
+.links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before,
+.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
+    content: "";
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;   
+    position: absolute;
+    top: 0px;
+}
+.links-nav a:before{
+    left: -14px;
+    border-right: 14px solid #fddecb;  
+}
+.links-nav a:after{
+    right: -14px;
+    border-left: 14px solid #fddecb;
+}
+.links-pagination a{
+    width: 29px;
+    height: 29px;
+    margin: 7px;
+    color: #34373f;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #ff7373 0%, #fda0a0 100%);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+.links-pagination a.active, .links-pagination a:active, .links-pagination a:hover, .links-pagination a:focus{
+    background-image: linear-gradient(to top, #292832 0%, #393f45 100%);
+    color: #fcb5b5;    
+}
+.links-social a{
+    margin: 9px;
+}
+.btn-web i{
+    margin: 3px 0px 0px 15px;
+}
+a.btn-web{
+    color: white;
+    font-size: 15px;
+    font-family: Bebas;
+    min-width: 197px;
+    min-height: 37px;
+    border-radius: 19px;
+    padding: 0px 5px;
+    background-color: #fdc502;
+    background-image: linear-gradient(to top, #ff7373 0%, #fda0a0 100%);
+    box-shadow: 0 1px 0 #385898, inset 0 1px 0 white;
+    position: relative;
+}
+.btn-web:after{
+    content: "";
+    position: absolute;
+    height: 60%;
+    width: 101%;
+    z-index: -1;
+    top: 50%;
+    left: -1px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #fdc502;
+    background-image: linear-gradient(to top, #9c694e 0%, #9c694e 99%, #9c694e 100%);
+    box-shadow: 0 3px 4px #d7a07e;
+}

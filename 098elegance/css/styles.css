@@ -293,7 +293,6 @@ header .lwrap{
 .twitter a{
     color: #fff600;
     text-decoration: underline;
-    margin-left: 13px;
 }
 .twitter a:active, .twitter a:hover, .twitter a:focus{
     text-decoration: none;
@@ -306,6 +305,7 @@ footer{
 }
 .footer > div{
     width: 30%;
+    margin-bottom: 18px;
 }
 .footer > div:first-child{
     width: 15.7%;
@@ -334,7 +334,7 @@ footer{
     font-style: normal;
 }
 .copyright{
-    padding: 18px 0px 42px 11px;
+    padding: 0px 10px 42px 11px;
 }
 .copyright span{
     color: #747474;
@@ -342,6 +342,7 @@ footer{
     font-size: 12px;
     line-height: 24px;
 }
+
 /*MEDIA-QUERIES---------------------------------------*/
 
 @media (max-width: 960px) {
@@ -359,6 +360,12 @@ footer{
     }
     .content .lwrap {
         padding: 4.58vw 1.87vw 3.12vw 11px;
+    }
+    .footer {
+        padding: 4.27vw 0.93vw 0px 1.35vw;
+    }
+    .copyright {
+        padding: 0px 10px 4.37vw 1.14vw;
     }
 }
 @media (max-width: 800px) {
@@ -395,6 +402,9 @@ footer{
     .newsletter form > div {
         width: auto;
     }
+    .footer > div, .footer > div:first-child, .footer > .location, .footer > div:last-child{
+        width: 24%;
+    }
 }
 @media (max-width: 480px) {
     .hidden-md{
@@ -402,6 +412,12 @@ footer{
     }
     .slider-wrap figure {
         width: 41%;
+    }
+    .newsletter form input {
+        margin: 0px 1px 0px 0px;
+    }
+    .footer > div, .footer > div:first-child, .footer > .location, .footer > div:last-child{
+        width: 48%;
     }
 }
 @media (max-width: 320px) {
@@ -417,4 +433,18 @@ footer{
     .slider-wrap figcaption span {
         font-size: 15px;
     } 
+    .footer > div{
+        order: 2;
+        width: 100%;
+    }
+    .footer > div:first-child{
+        order: 0;
+    }
+    .footer > div.location{
+        order: 1;
+    }
+    .footer > div:last-child{
+        order: 3;
+        width: 100%;
+    }
 }
