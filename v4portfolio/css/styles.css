@@ -1,0 +1,278 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Rockwell';
+    src: local(''), url('../fonts/rockwell.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ICONS */
+
+.icon-arrowb {width: 10px; height: 7px; background: url('../images/icons/arrowb.png');}
+.icon-arroww {width: 7px; height: 11px; background: url('../images/icons/arroww.png');}
+.icon-fb {width: 12px; height: 24px; background: url('../images/icons/fb.png');}
+.icon-in {width: 21px; height: 21px; background: url('../images/icons/in.png');}
+.icon-mail {width: 22px; height: 15px; background: url('../images/icons/mail.png');}
+.icon-next {width: 28px; height: 28px; background: url('../images/icons/next.png');}
+.icon-prev {width: 28px; height: 28px; background: url('../images/icons/prev.png');}
+.icon-tw {width: 15px; height: 21px; background: url('../images/icons/tw.png');}/* ELEMENTS */
+
+.links-nav a{
+    margin: 0px 25px 19px 26px;
+    color: black;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+.lbl-nav{
+    width: 14px;
+    height: 14px;
+    margin-bottom: 18px;
+    background-color: #91594c;
+    visibility: hidden;
+    box-shadow: 0 1px 0 #ffdcd3, inset 0 2px 2px rgba(211, 122, 100, 0.75);
+}
+.links-nav a.active .lbl-nav, .links-nav a:active .lbl-nav, .links-nav a:hover .lbl-nav, .links-nav a:focus .lbl-nav{
+    visibility: visible;
+}
+.links-footer{
+    padding-bottom: 3px;
+    justify-content: center;
+}
+.links-footer a, .links-footer{
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+}
+.links-footer a{
+    text-transform: uppercase;
+    margin: 3px 21px 3px 21px;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-social{
+    justify-content: center;
+}
+.links-social a{
+    margin: 7px 17px;
+}
+.lbl-cite{
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    min-width: 83px;
+    min-height: 87px;
+    padding: 5px;
+    background: url("../images/aboutbg.png");
+}
+.more{
+    color: black;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.more i{
+    margin: 0px 14px 1px 0px;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: underline;
+}
+.more:active i, .more:hover i, .more:focus i{
+    visibility: hidden;
+}
+figure img, #logo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* $------------------------------------------------------------------------- */
+.lwrap{
+    max-width: 982px;
+    padding: 0px 10px;
+}
+.header{
+    padding: 10px 0px;
+    min-height: 138px;
+}
+body{
+    background: #e2a89a;
+}
+#logo{
+    margin: 0px 1px 12px 1px;
+}
+.wrap{
+    position: relative;
+    background: white;
+    padding: 32px 31px 38px 31px;
+}
+.wrap:after{
+    content: "";
+    position: absolute;
+    background: url("../images/border1.png");
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    z-index: -1;
+    top: -15px;
+    left: -15px;
+}
+.slider{
+    margin-bottom: 49px;
+    min-height: 450px;
+    background-color: #4b4135;
+    box-shadow: inset 5px 8.7px 20px rgba(75, 65, 53, 0.5);
+}
+.services, .portfolio, .about{
+    background: url("../images/border2.png")repeat-x left top;
+}
+.services{
+    padding: 48px 0px 37px 0px;
+}
+.services article{
+    width: 31%;
+    margin-bottom: 20px;
+}
+.services article h3{
+    margin-bottom: 21px;
+}
+.portfolio h3{
+    margin-bottom: 6px;
+}
+.services article h3, .portfolio h3{
+    color: #666666;
+    font-family: Rockwell;
+    font-size: 22px;
+    font-weight: normal;    
+    letter-spacing: -0.01em;
+}
+.services article p{
+    color: #666666;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    letter-spacing: -0.005em;
+}
+.portfolio{
+    padding: 26px 0px 28px 0px;
+}
+.portfolio figure{
+    width: 31.2%;
+}
+.portfolio figcaption{
+    padding: 14px 0px 30px 0px;
+}
+.portfolio figcaption .more{
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: -0.03em;
+}
+.portfolio > div:first-child{
+    padding-bottom: 13px;
+}
+.about{
+    padding: 56px 0px 20px 0px;
+}
+.about > div{
+    background: url("../images/dashed.png"), url("../images/dashed.png");
+    background-repeat: repeat-x;
+    background-position: left top, left bottom;
+    padding: 0px 0px 7px 6px;
+    margin: 1px 0px -2px 5px;
+}
+.about p .more{
+    margin-left: 21px;
+}
+.about p{
+    color: #666;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+}
+footer{
+    padding: 40px 4px 36px 2px;
+}
+footer span{
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+}
+footer > div:first-child{
+    padding: 0px 20px 20px 0px;
+}
+.social{
+    padding-top: 3px;
+}
+.social span{
+    text-transform: uppercase;
+    padding-left: 2px;
+    letter-spacing: 0.04em;
+}
+.social .hidden{
+    text-transform: none;
+    display: none;
+    padding-top: 5px;
+}
+@media (max-width: 960px) {
+    .links-nav a{
+        margin: 0px 2.6vw 19px 2.7vw;
+        font-size: 1.14vw;
+    }
+    .wrap {
+        padding: 3.33vw 3.22vw 3.95vw 3.22vw;
+    }
+    .slider{
+        margin-bottom: 5.1vw;
+        min-height: 46.87vw;
+    }
+    .links-footer a {
+        margin: 3px 2.18vw;
+    }
+    .links-social a {
+        margin: 7px 1.77vw;
+    }
+    .services {
+        padding: 5vw 0px 3.85vw;
+    }
+    .portfolio {
+        padding: 2.7vw 0px 2.91vw;
+    }
+    .about {
+        padding: 5.83vw 0px 2.08vw;
+    }
+    footer {
+        padding: 4.16vw 4px 3.75vw 2px;
+    }
+}
+@media (max-width: 800px) {
+    .links-nav a{
+        font-size: 11px;
+    }
+}
+@media (max-width: 640px) {
+    footer > div:first-child {
+        padding: 0px 0px 10px 0px;
+    }
+    footer span{
+        text-align: center;
+    }
+    .visible{
+        display: none;
+    }
+    .social .hidden{
+        display: block;
+    }
+}
+@media (max-width: 480px) {
+    .links-nav a{
+        font-size: 9px;
+    }
+}

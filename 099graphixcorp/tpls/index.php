@@ -17,7 +17,7 @@
                     </a>
                     <span class="call">Call: <span>123-456-7890</span>
                 </header>
-                <div class="nav" data-flex="row-center between w">
+                <div class="nav" data-flex="row-center between w :grow(2)">
                     <nav class="hlinks links-nav" data-flex="w">
                         <a href="#" class="active">home</a>
                         <a href="#">about us</a>
@@ -28,7 +28,13 @@
                         <a href="#">contact us</a>
                     </nav>
                     <form action="#" method="post">
-
+                        <span class="select">
+                            <select>
+                                <option selected>English</option>
+                                <option>German</option>
+                                <option>French</option>          
+                            </select>
+                        </span>
                     </form>
                 </div>
                 <div class="slider-wrap" data-flex="col-center">

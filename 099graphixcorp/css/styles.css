@@ -26,7 +26,9 @@
 .icon-target {min-width: 34px; width: 34px; height: 34px; background: url('../images/icons/target.png');}
 .icon-tw {width: 16px; height: 16px; background: url('../images/icons/tw.png');}
 .icon-uk {width: 16px; height: 11px; background: url('../images/icons/uk.png');}
-.icon-user {min-width: 32px; width: 32px; height: 44px; background: url('../images/icons/user.png');}/* ELEMENTS */
+.icon-user {min-width: 32px; width: 32px; height: 44px; background: url('../images/icons/user.png');}
+
+/* ELEMENTS */
 
 .links-nav a{
     color: white;
@@ -159,6 +161,25 @@ a.btn-more{
 .links-categories a.active, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
     background-color: #f2da36;
 }
+.select:after {
+    width: 20px;
+    height: 20px;
+    background: url('/images/icons/select.png') no-repeat center center, rgba(111,175,231,.7);
+}
+.select {
+    width: 100%;
+}
+.select select {
+    color: darkgrey;
+    font-family: Arial;
+    font-size: 12px;
+    outline: none;
+    height: 20px;
+    width: 100%;
+    border: none;
+    padding: 0px 32px;
+    background-color: #2a4f7e;
+}
 a{
     text-decoration: none;
 } 
@@ -186,6 +207,10 @@ header{
     background-image: linear-gradient(to top, #285a9a 0%, #3668a9 49%, #4173b4 50%, #487abd 100%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.28);
     margin-bottom: 30px;
+}
+.nav form{
+    max-width: 204px;
+    padding: 0px 14px;
 }
 .call{
     font-family: Mentone Italic;

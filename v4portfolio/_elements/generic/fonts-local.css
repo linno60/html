@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Rockwell';
-	src: local(''), url('fonts/rockwell.woff') format('woff');
+	src: local(''), url('/fonts/rockwell.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }

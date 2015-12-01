@@ -112,3 +112,22 @@ input[type="text"]:-ms-input-placeholder{
 .links-categories a.active, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
     background-color: #f2da36;
 }
+.select:after {
+    width: 20px;
+    height: 20px;
+    background: url('/images/icons/select.png') no-repeat center center, rgba(111,175,231,.7);
+}
+.select {
+    width: 100%;
+}
+.select select {
+    color: darkgrey;
+    font-family: Arial;
+    font-size: 12px;
+    outline: none;
+    height: 20px;
+    width: 100%;
+    border: none;
+    padding: 0px 32px;
+    background-color: #2a4f7e;
+}
