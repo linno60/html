@@ -21,11 +21,14 @@
     text-transform: uppercase;
     color: #666;
     min-height: 55px;
-    padding: 0px 10px 0px 10px;
-    line-height: 20px;
-    margin: 0px 7px 0px 7px;
+    padding: 0px 10rem 0px 10rem;
+    line-height: 20px;    
     align-items: stretch;
     letter-spacing: -0.005em;
+    text-align: center;
+}
+.links-nav a:first-child, .links-nav a:last-child, .links-nav a{
+    margin: 5rem 7rem 0px 7rem;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: white;
@@ -38,7 +41,7 @@
     color: silver;
     font-family: Arial;
     font-size: 12px;
-    margin: 5px 16px;
+    margin: 5px 16rem;
 }
 .links-default a{
     font-family: Arial;
@@ -51,7 +54,7 @@ a.btn-alt{
     background: white;
 }
 .btn-default i{
-    margin: 0px 2px 0px 44px;
+    margin: 0px 2rem 0px 44rem;
 }
 .btn-alt i{
     margin: 0px 2px 0px 21px;
@@ -61,11 +64,11 @@ a.btn-default{
     background: #0a131d;
 }
 .btn-default, .btn-alt{
-    min-width: 252px;
-    height: 61px;
+    min-width: 252rem;
+    height: 61rem;
     position: relative;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
@@ -73,6 +76,7 @@ a.btn-default{
     margin-right: 12px;
     text-align: center;
     white-space: nowrap;
+    line-height: 23px;
 }
 .btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
     content: "";
@@ -92,7 +96,7 @@ a.btn-default{
 }
 .btn-default:before, .btn-alt:before{
     width: 12px;
-    height: 49px;
+    height: calc(100% - 12px);
     right: -10px;
     top: 0px;
 }
@@ -138,71 +142,73 @@ body{
 .lwrap{
     max-width: 960px
 }
+#logo{
+    margin-right: 10px;
+}
+.header > div:first-child{
+    min-height: 96rem;
+    padding: 20px 0px;
+}
 .header{
     background: white;
-    padding: 0px 28px 0px 42px;
-    margin-bottom: 20px;
-}
-#logo{
-    margin-right: 20px;
-}
-.nav{
-    min-height: 96px;
+    padding: 0rem 21rem 0rem 42rem;
+    margin-bottom: 20rem;
 }
 .demo-wrap{
     background-color: #09f;
     border: 1px solid #09f;
     box-shadow: inset 0 0 100px rgba(0, 133, 221, 0.75);
-    padding: 43px 13px 22px 38px;
-    margin-bottom: 20px;
-    height: 352px;
+    padding: 43rem 22rem 21rem 38rem;
+    margin-bottom: 20rem;
+}
+.demo-wrap > div:first-child{
+    width: 56%;
 }
 .demo-wrap h1{
-    width: 55.8%;
     font-family: Arial;
-    font-size: 60px;
+    font-size: 60rem;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 70rem;
     text-transform: uppercase;
     color: white;
-    margin: 15px 0px 46px 0px;
+    margin: 12rem 0rem 46rem 0rem;
+}
+.demo-wrap .btn-default{
+    margin: 0rem 12px 20px 54rem;
 }
 .video-wrap{
-    width: 42.14%;
+    width: 42.7%;
     background: url("../images/shadow.png")no-repeat center bottom;
     background-size: 100%;
-    padding-bottom: 26px;
+    padding-bottom: 26rem;
 }
 .video-wrap figure{
     width: 88.8%;
     margin: auto;
-    padding-bottom: 44px;
+    padding-bottom: 44rem;
 }
 .video{
     width: 99.2%;
-    padding-bottom: 13px;
-}
-.demo-wrap .btn-default{
-    margin-left: 54px;
+    padding-bottom: 13rem;
 }
 .content{
-    padding: 49px 35px 20px 39px;
+    padding: 49rem 35rem 20rem 39rem;
     background: #c0c0c0;
 }
 .sidebar{
-    padding: 50px 21px 5px 25px;
+    padding: 50rem 21rem 5rem 25rem;
     width: 31.14583%;
     background: white;
 }
 .articles{
     border-bottom: 1px solid white;
-}
+}    
 .articles > article{
     width: 47.2%;
-    margin-bottom: 42px;
+    margin-bottom: 42rem;
 }
 .articles > article .title{
-    margin: 0px 25px 21px 0px;
+    margin: 0px 25rem 21rem 0px;
 }
 .articles > article p{
     color: #383838;
@@ -213,11 +219,11 @@ body{
     letter-spacing: -0.005em;
 }
 .grid > article{
-    width: 30.83475298126065%;
-    padding-bottom: 34px;
+    width: 30.83475%;
+    padding-bottom: 34rem;
 }
 .grid{
-    padding-top: 36px;
+    padding-top: 36rem;
 }
 .grid .more{
     padding: 0px 0px 0px 3px;
@@ -261,19 +267,20 @@ body{
 }
 .banner{
     width: 100%;
-    min-height: 105px;
+    min-height: 105rem;
     background:#fccb04;
-    padding: 5px 18px 5px 26px;
+    padding: 5px 18rem 5px 26rem;
 }
-.banner .btn{
-    margin: 5px 12px 5px 15px;
+.banner .btn-default, .banner .btn-alt{
+    margin: 0px 12px 0px 15rem;
+    padding: 0px 20rem;
 }
 .banner h2{
     color: black;
     font-family: Arial;
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 40rem;
     text-transform: uppercase;
 }
 .footer{
@@ -282,7 +289,7 @@ body{
     color: silver;
     font-size: 12px;
     background-color: black;
-    padding: 30px 0px 5px 4px;
+    padding: 30rem 0px 5rem 4px;
 }
 .footer > div{
     width: 26.77%;
@@ -304,147 +311,43 @@ body{
     color: #fccb04;
 }
 .copyright{
-    min-height: 35px;
     background-color: #323232;
-    padding: 5px 26px 5px 10px;
+    padding: 5rem 26rem 5rem 10rem;
 }
 .copyright span{
     color: silver;
     font-family: Arial;
     font-size: 12px;
+    line-height: 20px;
     letter-spacing: -0.01em;
 }
-
 /*MEDIA QUERIES------------------------*/
-
-@media (max-width: 960px) {    
-    .header{
-        padding: 0px 2.91vw 0px 4.37vw;
-    }
-    .demo-wrap {
-        height: 36.66vw;
-        padding: 4.47vw 1.35vw 2.29vw 3.95vw;
-    }
-    .demo-wrap h1 {
-        font-size: 6.25vw;
-        margin: 1.56vw 0px 4.79vw 0px;
-        line-height: 7.29vw;
-    }
-    .demo-wrap .btn-default{
-        margin-left: 5.62vw;
-    }
-    .video-wrap{
-        padding-bottom:2.7vw; 
-    }
-    .video-wrap figure {
-        padding-bottom: 4.58vw;
-    }
-    .title i {
-        display: none;
-    }
-    .content {
-        padding: 5.1vw 3.64vw 2.08vw 4.06vw;
-    }
-    .sidebar {
-        padding: 5.2vw 2.18vw 5px 2.6vw;
-    }
-    .banner {
-        min-height: 10.93vw;
-    }
-    .banner h2{
-        font-size: 4.16vw; 
-        line-height: 4.16vw;
-    }
-    .banner .btn-default, .banner .btn-alt {
-        min-width: 26.25vw;
-        font-size: 2.08vw;
-        height: 6.35vw;
-        padding: 0px 2.08vw;
-    }
-    .banner .btn-default::before, .banner .btn-alt::before, .banner .btn-default::after,
-    .banner .btn-alt::after, .banner .btn-alt i, .banner .btn-default i {
-        display: none;
-    }
-    .banner {
-        padding: 5px 1.87vw 5px 2.7vw;
-    }
-    .articles > article {
-        margin-bottom: 4.375vw;
-    }
-    .grid {
-        padding-top: 3.75vw;
-    }
-    .grid > article {
-        padding-bottom: 3.54vw;
-    }
-}
-@media (max-width: 800px) {
-    .copyright{
-        padding: 5px 10px 20px 10px;
-    }
-    .copyright span{
-        padding-top: 10px;
-    }
-    .links-nav a, .links-nav a:first-child, .links-nav a:last-child {
-        min-height: 24px;
-        align-items: center;
-        margin: 1px;
-        padding: 0px 5px;
-    }
-    .demo-wrap {
-        height: 38.5vw;
-    }
-}
 @media (max-width: 640px) {
-    .sidebar{
-        order: 2;
+    .title i {display: none;}    
+    .links-nav a{min-height: 20px;}
+    .video-wrap {padding-bottom: 60rem;}
+    .demo-wrap{padding: 10px;}
+    .btn:before, .btn:after, .btn i {display: none;} 
+    .footer{padding: 10px;}
+    .demo-wrap h1{
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
     }
-    .banner{
-        order: 1;
-    }
-    .demo-wrap .btn-default, .demo-wrap .btn-alt{
-        min-width: 9.8vw;
+    .demo-wrap .btn-default {
+        margin: 0rem 0px 20px 0rem;
+        font-size: 18px;
         height: 50px;
     }
-    .demo-wrap .btn-default::before, .demo-wrap .btn-alt::before, .demo-wrap .btn-default::after,
-    .demo-wrap .btn-alt::after, .demo-wrap .btn-alt i, .demo-wrap .btn-default i {
-        display: none;
-    }
-    .banner .btn-alt, .banner .btn-default{
-        height: 40px;
-    }
-    .footer{
-            padding: 30px 5px 5px 9px;
-    }
-}
-@media (max-width: 480px) {
-    .demo-wrap{
-        height: auto;
-        padding: 3.8vw 10px 2.34vw 10px;       
-    }
-    .demo-wrap h1 {
-        width: 100%;
-        order: 0;
-        text-align: center;
-        font-size: 30px;
-        line-height: 32px;
-    }
-    .video-wrap{
-        order: 1;
-        width: 100%;
-        padding-bottom: 6.4vw;
-    }
-    .demo-wrap .btn{
-        order: 2;
-        margin: 0;
-    }
-    .grid figure{
-        width: 35%;
-        float: left;
-        margin-right: 10px;
-    }
     .banner .btn-default, .banner .btn-alt {
-        margin: 5px;
+        height: 40px;
         font-size: 12px;
-    }   
+        margin: 0px 0px 0px 15rem;
+        min-width: 228rem;
+    }
+    .banner h2{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
 }

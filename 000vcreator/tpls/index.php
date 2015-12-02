@@ -6,15 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/styles.css"> 
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <div class="lwrap">
-            <header class="header" data-flex="row-center between">
-                <a href="#" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="106" height="45" alt="Vcreator">
-                </a>
-                <div class="nav" data-flex="row-end" data-flex-800="row-center">
+            <header class="header" data-flex="between">
+                <div data-flex="row-center">
+                    <a href="#" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="106" height="45" alt="Vcreator">
+                    </a>
+                </div>
+                <div data-flex="row-end" data-flex-640="row-center">
                     <nav class="hlinks links-nav" data-flex="w">
                         <a href="#" class="active">home</a>
                         <a href="#">services</a>
@@ -25,16 +34,18 @@
                     </nav>
                 </div>
             </header>
-            <div class="demo-wrap" data-flex="col-start w"  data-flex-480="col-center">                
-                <h1>best online video creator</h1>
-                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+            <div class="demo-wrap" data-flex="row-center between" data-flex-640="column">
+                <div data-flex-640="col-center">
+                    <h1>best online video creator</h1>
+                    <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+                </div>
                 <div class="video-wrap">
                     <figure data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
             </div>
             <div class="content-wrap" data-flex="w :noshrink(2) :grow(1)" data-flex-640="column">
                 <div class="content">
-                    <div class="articles" data-flex="row between w" data-flex-480="column">
+                    <div class="articles" data-flex="row between" data-flex-480="column">
                         <article>
                             <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>text heading goes here</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
@@ -44,21 +55,18 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
                         </article> 
                     </div>
-                    <div class="grid" data-flex="row between w"  data-flex-480="column">
-                        <article>
+                    <div class="grid" data-flex="row between w" data-flex-480="column">
+                        <article data-flex-480="row-start">
                             <figure data-flex><img src="/images/img1.png" width="181" height="185" alt=""></figure>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
-                            <a href="#" class="more">Read More</a>
+                            <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
                         </article>
-                        <article>
+                        <article data-flex-480="row-start">
                             <figure data-flex><img src="/images/img2.png" width="181" height="185" alt=""></figure>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
-                            <a href="#" class="more">Read More</a>
+                            <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
                         </article>
-                        <article>
+                        <article data-flex-480="row-start">
                             <figure data-flex><img src="/images/img3.png" width="181" height="185" alt=""></figure>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
-                            <a href="#" class="more">Read More</a>
+                            <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
                         </article>
                     </div>
                 </div>
@@ -99,7 +107,7 @@
                     </div>
                     <div>
                         <h5>our social network</h5>
-                        <div data-flex="row between"  data-flex-800="w"   data-flex-640="row-start start">
+                        <div data-flex="row between"   data-flex-640="row-start start">
                             <div class='links links-default'>
                                 <a href='#'>Twitter</a>
                                 <a href='#'>Facebook</a>
@@ -115,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="copyright" data-flex="row-center between w" data-flex-800="col">
+                <div class="copyright" data-flex="row-center between w" data-flex-640="col-center">
                     <div class="hlinks links-footer" data-flex="w">
                         <a href="#">Home</a>
                         <a href="#">Services</a>
