@@ -27,17 +27,17 @@
     justify-content: flex-start;
     background: linear-gradient(to bottom, #a7a5a5, #6c6c6c);
     border-radius: 6px;
-    padding: 0px 6px;
+    padding: 0px 6rem;
     margin-bottom: 10px;
 }
 .links-nav a, .links-nav a:first-child, .links-nav a:last-child{
-    min-height: 40px;
+    height: 40px;
     font-family: LucidaGrande;
     font-size: 15px;
     font-weight: 700;
     color:  #292828;
-    margin: 0px 18px;
-    padding: 0px 5px;
+    margin: 0px 18rem;
+    padding: 0px 5rem;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
 }
@@ -46,10 +46,11 @@
     border-bottom: 5px solid #fff;
 }
 .links-social{
-    padding-top: 15px;
+    justify-content: flex-end;
+    padding: 14px 1px 0px 1px;
 }
-.links-social a{
-    margin: 3px;
+.links-social a,.links-social a:first-child, .links-social a:last-child{
+    margin: 3rem;
 }
 .links-controls a{
     margin: 0px 2px;
@@ -78,7 +79,7 @@
     border-bottom: 1px solid transparent;
 }
 .title{
-    margin-bottom: 49px;
+    margin-bottom: 49rem;
     text-align: center;
     color: #585858;
     font-family: LucidaGrande;
@@ -110,9 +111,6 @@ figure img{
 body{
     background: #f5f6f7;
 }
-#logo{
-    margin: 0px 18px 0px -3px;
-}
 header{
     padding-bottom: 60px;
     margin-bottom: -60px;
@@ -123,14 +121,13 @@ header{
     max-width: 960px;
 }
 header .lwrap > div{
-    min-height: 148px;
-    padding: 16px 4px 10px 0px;
+    padding: 34rem 0px 27rem 0px;
 }
 .content-wrap{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     border-radius: 5px 5px 0px 0px;
-    padding: 27px 26px 0px 27px;
+    padding: 27rem 26rem 0px 27rem;
 }
 .slider{
     position: relative;
@@ -144,19 +141,19 @@ header .lwrap > div{
     bottom: 9.1%;
     margin-right: 10px;
     background-color: rgba(0,0,0,.5);
-    padding: 19px 23px 20px 29px;
+    padding: 19rem 23rem 20rem 29rem;
 }
 .slider figcaption h2{
     color: white;
     font-family: LucidaGrande;
-    font-size: 25px;
+    font-size: 25rem;
     font-weight: 400;
     letter-spacing: 0.008em;
 }
 .slider figcaption span {
     color: #aeaeae;
     font-family: LucidaGrande;
-    font-size: 19px;
+    font-size: 19rem;
     font-weight: 300;
     letter-spacing: -0.05em;
 }
@@ -173,14 +170,14 @@ header .lwrap > div{
     right: 1.5%;
 }
 .links-controls{
-    padding: 14px 0px 42px 0px;
+    padding: 14rem 0px 42rem 0px;
 }
 .grid{
     max-width: 896px;
 }
 .grid > div{
     width: 29.5%;
-    margin-bottom: 37px;
+    margin-bottom: 37rem;
 }
 .grid p{
     margin-bottom: 2px;
@@ -190,7 +187,7 @@ header .lwrap > div{
     line-height: 17px;
     font-family: LucidaGrande;
     font-size: 14px;
-    color: #666;
+    color: #666666;
 }
 .grid cite{
     font-style: normal;
@@ -202,8 +199,8 @@ header .lwrap > div{
     color: #999;
     font-family: LucidaGrande;
     font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 32px;
+    font-size: 24rem;
+    margin-bottom: 32rem;
     letter-spacing: -0.025em;
 }
 .item span {
@@ -213,7 +210,7 @@ header .lwrap > div{
     line-height: 19px;
 }
 .item {
-    max-width: 250px;
+    width: 95%;
     padding: 18px 0px;
     background: url("../images/border.png") repeat-x left bottom;
 }
@@ -225,8 +222,7 @@ header .lwrap > div{
     padding: 18px 0px 0px 0px;
 }
 footer{
-    padding: 19px 20px 20px 20px;
-    min-height: 52px;
+    padding: 20rem;
     background-color: #3a3938;
 }
 footer span{
@@ -235,79 +231,11 @@ footer span{
     font-size: 10px;
     letter-spacing: -0.022em;
 }
-@media (max-width: 960px) {
-    .content-wrap {
-        padding: 2.81vw 2.7vw 0px 2.81vw;
-    }
-    #logo{
-        margin: 0px 18px 0px 5px;
-    }
-    .slider figcaption {
-        padding: 1.98vw 2.39vw 2.08vw 3.02vw;
-    }
-    .slider figcaption h2 {
-        font-size: 2.6vw;
-    }
-    .slider figcaption span {
-        font-size: 1.98vw;
-    }
-    .links-controls {
-        padding: 1.45vw 0px 4.37vw 0px;
-    }
-    .grid h2 {
-        font-size: 2.5vw;
-        margin-bottom: 3.33vw;
-    }
-    .grid > div {
-        margin-bottom: 3.85vw;
-    }
-    .title {
-        margin-bottom: 5.1vw;
-    }
-    header .lwrap > div {
-        min-height: 15.41vw;
-    }
-}
 @media (max-width: 640px) {
-    .slider figcaption h2 {
-        font-size: 16px;
-    }
-    .slider figcaption span {
-        font-size: 12px;
-    } 
-    .title:before{
-        display: none;
-    }
-    .title span{
-        padding: 0px;
-    }
-    .grid h2 {
-        font-size: 16px;
-    }
-    .grid > div{
-        width: 48%;
-    }
-    .grid > div:last-child{
-        width: 100%;
-    }
-}
-@media (max-width: 480px) {
-    .item{
-        max-width: 400px;
-    }
-    header .lwrap > div {
-        padding: 16px 0px 10px 0px;
-    }
-    .links-nav a, .links-nav a:first-child, .links-nav a:last-child{
-        margin: 0px 10px;
-        min-height: 30px;
-    }
-    #logo {
-        margin: 0px;
-    }
-    .slider figcaption {
-        left: 5px;
-        bottom: 5px;
-        padding: 6px;
-    }
+    .title:before{display: none;}
+    .grid h2 {font-size: 16px;}
+    .grid > div{width: 48%;}
+    .grid > div:last-child{width: 100%;}
+    .slider figcaption h2 {font-size: 16px;}
+    .slider figcaption span {font-size: 12px;}    
 }

@@ -6,12 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 950;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>        
         <div class="lwrap">
             <header>
-                <div class="header" data-flex="row-center between w" data-flex-480="col-center center">
+                <div class="header" data-flex="row-center between" data-flex-480="col-center center">
                     <a href="#" title="Return to the homepage" id="logo" data-flex>
                         <img src="/images/logo.png" width="259" height="23" alt="Ipsumdol">
                     </a>
@@ -34,7 +41,7 @@
                 <figure><img src="/images/img.png" width="950" height="261" alt=""></figure>
                 <a href="#"><i class="icon-next"></i></a>
             </div>
-            <div class="about" data-flex="row-start :noshrink(1) :grow(2)" data-flex-640="column">
+            <div class="about" data-flex="row-start :noshrink(1)" data-flex-640="column">
                 <div>
                     <blockquote>Laoreet praesent volutpat minim commodo in duis lobortis tationdolor, duis magna nulla commodo. Velit ipsum velit molestie ad exerci autem elit eum delenit blandit, eum iriure...</blockquote>
                     <a href="#" class="btn btn-more">more about us</a>
@@ -84,7 +91,7 @@
                         </address>
                     </div>
                 </div>
-                <div class="copyright" data-flex="row-center between w" data-flex-640="col-center">
+                <div class="copyright" data-flex="row-center between w" data-flex-480="col-center">
                     <span>Copyright 2012 | Lorem ipsum company | All rights reserved</span>
                     <span>Created by: <a href="#">Tempees.com</a></span>
                 </div>

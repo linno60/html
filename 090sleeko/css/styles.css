@@ -40,7 +40,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     text-shadow: #fff 1px 1px 0px;
     color: #6b4848;
     font-family: Helvetica;
-    font-size: 26px;
+    font-size: 26rem;
     text-transform: uppercase;
     letter-spacing: -0.05em;
 }
@@ -67,7 +67,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 .links-filter{
     width: 100%;
-    padding: 0px 0px 18px 21px;
+    padding: 0px 0px 18rem 23rem;
     justify-content: flex-start;
 }
 .links-filter a, .links-filter a:first-child, .links-filter a:last-child{
@@ -82,7 +82,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 .links-social{
     padding: 19px 0px 0px 0px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .links-social a, .links-social a:first-child, .links-social a:last-child{
     margin: 0px 8px 16px 9px;
@@ -94,7 +94,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 .btn-default, a.btn-default{
     min-width: 223px;
-    min-height: 42px;
+    height: 42px;
     padding: 0px 20px;
     background-color: #6b4848;
     box-shadow: 0 1px 0 white, inset 0 2px 2px rgba(0, 0, 0, 0.75);
@@ -110,7 +110,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 .btn-top, a.btn-top{
     min-width: 96px;
-    min-height: 32px;
+    height: 32px;
     background-image: linear-gradient(to top, #eee 0%, #f6f6f6 90%, white 92%, white 100%);
     border-top: 1px solid #b2b2b2;
     border-right: 1px solid #d1d1d1;
@@ -164,7 +164,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 .lbl-available{
     padding: 2px 16px 10px 2px;
-    min-width: 326px;
+    min-width: 326rem;
     height: 79px;
     position: relative;
     background-image: linear-gradient(to right, #8c8ca7 0%, #323247 100%);
@@ -191,7 +191,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 .lbl-available h6{
     color: #e3e3e3;
     font-family: GillSansMT Bold;
-    font-size: 33px;
+    font-size: 33rem;
     font-weight: 700;
     position: relative;
     letter-spacing: -0.03em;
@@ -230,7 +230,7 @@ blockquote q{
     font-size: 15px;
     font-style: italic;
     line-height: 18px;
-    padding-left: 32px;
+    padding-left: 32rem;
 }
 a{text-decoration: none;}
 figure img{
@@ -247,13 +247,13 @@ body{
     padding-top: 7px;
 }
 .links-nav{
-    padding: 39px 0px 32px 0px;
+    padding: 39rem 0px 32rem 0px;
     width: 100%;
     justify-content: space-around;
     max-width: 878px;
 }
 header .links-nav{
-    padding: 28px 0px 22px 0px;
+    padding: 28rem 0px 22rem 0px;
 }
 .item-wrap{
     width: 100%;
@@ -276,7 +276,7 @@ header .links-nav{
     left: 0px;
 }
 .item-wrapper{
-    padding: 23px 20px 20px 21px;
+    padding: 23rem 17rem 20rem 19rem;
     margin: 0px 0px -20px 0px;
     background: linear-gradient(to top, transparent 0%, #eee 20px, #eee 100%);
 }
@@ -287,7 +287,7 @@ header .links-nav{
     content: "";
     position: absolute;
     width: 100%;
-    height: 247px;
+    height: 247rem;
     background: url("../images/bgalt.png");
     border: 1px solid #b2b2b2;
     box-shadow: inset 0 0 3px white;
@@ -297,20 +297,20 @@ header .links-nav{
     top: 58px;
 }
 .preview{
-    padding: 14px 0px 25px 0px;
+    padding: 14rem 0px 25rem 0px;
     max-width: 845px;
     background-image: linear-gradient(to top, #9292ad 0%, #323247 100%);
     box-shadow: 0.5px 0.9px 0 white, inset 0 5px 4.5px 0.5px rgba(0, 0, 0, 0.75);
 }
 .banner .item-wrapper{
-    padding: 49px 20px 35px 21px;
+    padding: 49rem 20px 35rem 21px;
 }
 .preview h1{
     color: #e0e0e0;
     font-family: Helvetica Condensed;
-    font-size: 150px;
+    font-size: 150rem;
     font-weight: 700;
-    line-height: 167px;
+    line-height: 167rem;
     text-transform: uppercase;
     position: relative;
     letter-spacing: -0.052em;
@@ -335,15 +335,15 @@ preview h1 span{
     text-shadow: 2px 2px 1px rgba(77, 77, 99, 0.75);
     color: #e0e0e0;
     font-family: GillSansMT;
-    font-size: 40px;
+    font-size: 40rem;
     text-align: center;
     margin: 0px 0px 17px 0px;
-    line-height: 48px;
+    line-height: 48rem;
     letter-spacing: -0.007em;
     width: 90%;
 }
 .banner .item-wrapper > p{
-    margin: 39px 0px 29px 0px;
+    margin: 39rem 0px 29rem 0px;
     color: #858383;
     font-family: Lucida Sans Unicode;
     font-size: 15px;
@@ -363,10 +363,14 @@ preview h1 span{
     max-width: 882px;
 }
 .grid > article{
-    width: 29%;
-    margin-bottom: 42px;
+    width: 30.2%;
+    margin-bottom: 42rem;
+}
+.grid > article > div{
+    margin: 0px 6px;
 }
 .grid figure{
+    margin: 0px 6px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
 }
 .grid h4{
@@ -374,7 +378,7 @@ preview h1 span{
     font-family: Helvetica Condensed;
     font-size: 16px;
     font-weight: 700;
-    margin: 10px 0px 0px 0px;
+    margin: 10rem 0px 0px 0px;
     line-height: 20px;
     letter-spacing: -0.03em;
 }
@@ -383,7 +387,7 @@ preview h1 span{
     font-family: Lucida Sans Unicode;
     font-size: 12px;
     font-weight: 400;
-    margin: 0px 0px 13px 0px;
+    margin: 0px 0px 13rem 0px;
     line-height: 14px;
 }
 .grid a{
@@ -397,25 +401,25 @@ preview h1 span{
 }
 .testimonials .title{
     text-align: center;
-    margin: 16px 0px 43px 0px;    
+    margin: 16rem 0px 43rem 0px;    
 }
 .title{
     text-shadow: 1px 1.7px 0 white;
     color: #6b4848;
     font-family: GillSansMT Bold;
     font-weight: 700;
-    font-size: 37px;
-    margin: 12px 0px 21px 0px;
+    font-size: 37rem;
+    margin: 12rem 0px 21rem 0px;
     letter-spacing: 0.007em;
 }
 .title span{
-    font-size: 58px;
+    font-size: 58rem;
 }
 .testimonials .links-nav{   
-    padding: 56px 0px 29px 0px;
+    padding: 56rem 0px 29rem 0px;
 }
 .testimonials article{
-    width: 27.2%;
+    width: 26.7%;
     margin: 0px 0px 41px 0px;
 }
 .testimonials article h3{
@@ -434,7 +438,7 @@ preview h1 span{
 }
 blockquote{
     max-width: 817px;
-    padding-bottom: 47px;
+    padding-bottom: 47rem;
 }
 blockquote figure{
     width: 32.6%;
@@ -443,185 +447,67 @@ blockquote figure{
     width: 55.4%;
 }
 .contact{
-    padding-top: 246px;
+    padding-top: 246rem;
     position: relative;
     width: 43.7%;
 }
 .contact p, .contact p + span, .social span{
-    text-align: right;
     color: #686767;
     font-family: Lucida Sans Unicode;
     font-size: 12px;
     line-height: 20px;
 }
+.contact p, .contact p + span{
+    text-align: right;
+}
 .lbl-wrap {
     position: absolute;
-    top: 123px;
-    right: -12px;
-}
+    top: 123rem;
+    right: -12rem;
+}    
 .footer{
     padding: 0px 0px 30px 0px;
 }
 .footer .links-nav{
-    padding: 81px 0px 29px 0px;
+    padding: 81rem 0px 29rem 0px;
 }
 .footer .item-wrapper{
-    padding: 23px 20px 65px 21px;
+    padding: 23rem 20rem 65rem 21rem;
 }
 .contact-wrap{
     max-width: 845px;
-    padding: 0px 0px 39px 0px;
+    padding: 0px 0px 39rem 0px;
 }
 .form-wrap form{
-    max-width: 422px;
+    width: 90%;
 }
 .social{
-    padding: 0px 0px 40px 63px;
+    padding: 0px 0px 40rem 63rem;
 }
 .social span{
     padding: 0px 0px 0px 9px;
 }
 .contact p{
+    width: 100%;
     margin: 11px 0px 20px 0px;
 }
 .form-wrap .btn{
     min-width: 152px;
 }
 @media (max-width: 960px) {
-    .lbl-wrap {
-        right: 1px;
-        top: 12.81vw;
-    }
-    .lbl-available::after{
-        display:none;
-    }
-    .lbl-wrap:after{
-        right: 0px;
-    }
-    .links-nav{
-        padding: 4.06vw 0px 3.33vw 0px;
-    }
-    header .links-nav {
-        padding: 2.91vw 0px 2.29vw 0px;
-    }
-    .testimonials .links-nav {
-        padding: 5.83vw 0px 2.96vw 0px;
-    }
-    .footer .links-nav {
-        padding: 8.26vw 0px 3.02vw 0px;
-    }
-    .links-nav a{
-        font-size: 2.7vw;
-    }
-    .item-wrapper {
-        padding: 2.39vw 2.08vw 2.08vw 2.18vw;
-    }
-    .banner .item-wrapper {
-        padding: 5.1vw 2.08vw 3.64vw 2.18vw;
-    }
-    .preview h1{
-        font-size: 15.62vw;
-        line-height: 17.39vw;
-    }
-    .preview p{
-        font-size: 4.16vw;
-        line-height: 5vw;
-    }
-    .preview{
-        padding: 1.45vw 0px 2.6vw 0px;
-    }
-    .banner .item-wrapper > p {
-        margin: 4.06vw 0px 3.02vw 0px;
-    }
-    .links-filter {
-        padding: 0px 0px 1.87vw 2.18vw;
-    }
-    .grid > article {
-        margin: 0px 0px 4.37vw;
-    }
-    .title{
-        font-size: 3.85vw;
-        margin: 1.25vw 0px 2.18vw 0px;
-    }
-    .testimonials .title{
-        margin: 1.66vw 0px 4.48vw 0px;
-    }
-    .title span {
-        font-size: 6.04vw;
-    }
-    blockquote {
-        padding-bottom: 4.89vw;
-    }
-    blockquote q {
-        padding-left: 3.33vw;
-    }
-    .lbl-available {
-        min-width: 33.95vw;   
-    }
-    .lbl-available h6 {
-        font-size: 3.43vw;
-    }
-    .contact {
-        padding-top: 25.62vw;
-    }
-    .social {
-        padding: 0px 0px 4.16vw 6.56vw;
-    }
+    .lbl-available::after{display:none;}
 }
-@media (max-width: 800px) {
-    .testimonials article {
-        width: 28%;
-    }
-    .contact {
-        width: 40%;
-    }    
-    .social {
-        padding: 0px 0px 4.9vw 0px;
-    }
-}
-@media (max-width: 640px) {
-    .links-nav a{
-        font-size: 17px;
-    }
-    .grid > article{
-        width: 48%;
-    }
-    .lbl-wrap{
-        display: none;
-    }
-    .contact {
-        padding: 30px 0px 0px 0px;
-    }
-    .form-wrap form {
-        max-width: 640px;
-    }
-    .title{
-        text-align: center;
-    }
-    .contact{
-        display: flex;
-    }
-    .contact > div{
-        width: 50%;
-    }  
-    .links-social {
-        justify-content: flex-start;
-    }
-    .title{
-        font-size: 25px;
-    }
-    .title span {
-        font-size: 38px;
-    }
-    blockquote q {
-        font-size: 12px;
-        line-height: 16px;
-    }
-}
-@media (max-width: 480px) {
-    .links-nav a::before, .links-nav a:after{
-        display: none;
-    }
+@media (max-width: 640px) { 
+    .social{padding: 0px;}
+    .form-wrap form{width: 100%;}
+    .contact {padding-top: 20px;}
+    .lbl-wrap{display: none;} 
+    .grid > article{width: 48%;}
+    blockquote q {font-size: 11px;line-height: 16px;}
+    .title span {font-size: 38px;}
+    .title{text-align: center;font-size: 25px;}
+    .links-nav a{font-size: 17px;}
+    .links-nav a::before, .links-nav a:after{display: none;}
     .links-nav a, .links-nav > a:first-child, .links-nav a:last-child{
         margin: 0px 1px;
         border-left: 1px solid transparent;
@@ -629,25 +515,7 @@ blockquote figure{
     }
     .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
         border-radius: 5px 5px 0px 0px;
-        border-left: 1px solid #B2B2B2;
-        border-right: 1px solid #B2B2B2;
-    }
-    blockquote q {
-        font-size: 11px;
-        line-height: 16px;
-    }
-    .grid > article > figure{
-        float: left;
-        width: 50%;
-        margin: 0px 10px 0px 0px;
-    }
-    .grid h4, .grid p{
-        margin: 0px;
-    }
-    .links-nav a{
-        font-size: 16px;
-    }
-    .contact p, .contact p + span, .social span {
-        text-align: center;
-    }
+        border-left: 1px solid #b2b2b2;
+        border-right: 1px solid #b2b2b2;
+    }    
 }

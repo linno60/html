@@ -237,6 +237,7 @@ i[class*="icon-"] {
 }
 
 @media (max-width: 1200px) {
+    [data-flex-1200] {display: flex;}
     [data-flex-1200~='reset'] {
         flex-direction: row;
         justify-content: flex-start;
@@ -303,6 +304,7 @@ i[class*="icon-"] {
     }
 }
 @media (max-width: 1024px) {
+    [data-flex-1024] {display: flex;}
     [data-flex-1024~='reset'] {
         flex-direction: row;
         justify-content: flex-start;
@@ -369,6 +371,7 @@ i[class*="icon-"] {
     }
 }
 @media (max-width: 960px) {
+    [data-flex-960] {display: flex;}
     [data-flex-960~='reset'] {
         flex-direction: row;
         justify-content: flex-start;
@@ -435,6 +438,7 @@ i[class*="icon-"] {
     }
 }
 @media (max-width: 800px) {
+    [data-flex-800] {display: flex;}
     [data-flex-800~='reset'] {
         flex-direction: row;
         justify-content: flex-start;
@@ -501,6 +505,7 @@ i[class*="icon-"] {
     }
 }
 @media (max-width: 640px) {
+    [data-flex-640] {display: flex;}
     [data-flex-640~='reset'] {
         flex-direction: row;
         justify-content: flex-start;
@@ -567,6 +572,7 @@ i[class*="icon-"] {
     }
 }
 @media (max-width: 480px) {
+    [data-flex-480] {display: flex;}
     [data-flex-480~='reset'] {
         flex-direction: row;
         justify-content: flex-start;
@@ -633,6 +639,7 @@ i[class*="icon-"] {
     }
 }
 @media (max-width: 320px) {
+    [data-flex-320] {display: flex;}
     [data-flex-320~='reset'] {
         flex-direction: row;
         justify-content: flex-start;

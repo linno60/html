@@ -6,7 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/styles.css">
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <a href="#" name="top"></a>
@@ -56,59 +63,77 @@
                             <a href="#">Miscellaneous</a>
                         </div>
                         <div class="grid" data-flex="row around w"  data-flex-480="column">
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img1.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img2.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img3.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img4.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img5.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img6.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img7.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img8.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
-                            <article>
+                            <article data-flex-480="row-start" data-flex-320="column">
                                 <figure><img src="/images/img9.png" width="255" height="160" alt=""></figure>
-                                <h4>Tittle of the design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
-                                <a href="#">See Design</a>
+                                <div>
+                                    <h4>Tittle of the design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu </p>
+                                    <a href="#">See Design</a>
+                                </div>
                             </article>
                         </div>
                         <a href="#top" class="btn btn-top">go to top</a>
@@ -174,7 +199,7 @@
                                     <button><span class="btn btn-default"><em>submit now</em><i class="icon-arrow"></i></span></button>
                                 </form>
                             </div>
-                            <div class="contact" data-flex-480="column">                                        
+                            <div class="contact" data-flex-640>                                        
                                 <div class="social" data-flex="col-start" data-flex-800="col-end" data-flex-640="col-start"  data-flex-480="col-center">
                                     <span>Connect with me via:</span>
                                     <div class="hlinks links-social" data-flex="w">
@@ -184,7 +209,7 @@
                                         <a href="#"><i class="icon-mail"></i></a>
                                     </div>
                                 </div>
-                                <div data-flex="col-end" data-flex-480="col-center">
+                                <div data-flex="col-end">
                                     <a href="#" title="Return to the homepage" id="logoalt">
                                         <img src="/images/logoalt.png" width="103" height="33" alt="Sleeko">
                                     </a>

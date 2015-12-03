@@ -6,12 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/styles.css">
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <header>
             <div class='lwrap'>
-                <div data-flex='row-center between w' data-flex-480="col">
+                <div data-flex='row-center between w' data-flex-320="col">
                     <a href="#" title="Return to the homepage" id="logo" data-flex>
                         <img src="/images/frosty.png" width="225" height="87" alt="Frosty">
                     </a>

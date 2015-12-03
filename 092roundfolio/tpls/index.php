@@ -6,20 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/styles.css">
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <div class="border-top"></div>
         <header>
-            <div class="lwrap" data-flex="row-start between" data-flex-480="col-center">
-                <div data-flex="row-center w" class="logo-wrap"  data-flex-480="col-center">
+            <div class="lwrap" data-flex="row-start between" data-flex-320="col-center">
+                <div data-flex="row-center w" class="logo-wrap" data-flex-320="col-center">
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="192" height="57" alt="Roundfolio">
                     </a>
-                    <em>A circle is the reflection of eternity</em>
+                    <em>A circle is the reflection of eternity.</em>
                 </div>                
                 <div data-flex="col-end" data-flex-480="col-center">
-                    <span class="rss" data-flex="row-center"><a href="#" data-flex><i class="icon-rss"></i></a>1,001 Subscribers&nbsp;</span>
+                    <span class="rss" data-flex="row-center"><a href="#" data-flex><i class="icon-rss"></i></a>1,001&nbsp;Subscribers&nbsp;</span>
                     <div class="hlinks links-social" data-flex-480="w">
                         <a href="#"><i class="icon-sv"></i></a>
                         <a href="#"><i class="icon-support"></i></a>
@@ -35,7 +42,7 @@
                 <div class="slider" data-flex="col-center">
                     <figure>
                         <img src="/images/slider.png" width="940" height="296" alt="">
-                        <figcaption data-flex="row-center-center">
+                        <figcaption data-flex="row-center center">
                             <p><span>Lorem ipsum dolor sit amet,</span> consectetur adipiscing elit. Donec vulputate convallis metus, id sollicitudin leo convallis at. Nam posuere elit eu sem lacinia vel sagittis libero elementum. Curabitur</p>
                         </figcaption>
                     </figure>
@@ -103,11 +110,11 @@
                         <figure><img src="/images/activision.png" width="149" height="35" alt=""></figure>
                     </div>
                 </div>
-                <div class="about" data-flex="row between" data-flex-480="column">
+                <div class="about" data-flex="between" data-flex-480="column">
                     <div>
                         <h2 class="title" data-flex="row-center">about me</h2>
                         <article data-flex="row between" data-flex-640="column">
-                            <div>
+                            <div data-flex-640="row-center around">
                                 <figure><img src="/images/photo.png" width="123" height="123" alt=""></figure>
                                 <div class="links links-accounts">
                                     <a href="#">@Roundfolio</a>
@@ -140,10 +147,10 @@
             </div>
         </div>
         <footer>
-            <div class="lwrap" data-flex="row between" data-flex-800="around w" data-flex-320="column">
+            <div class="lwrap" data-flex="between" data-flex-800="around w" data-flex-320="column">
                 <div class="flickr">
                     <h5>flickr</h5>
-                    <div data-flex="row around w">
+                    <div data-flex="start w">
                         <figure><img src="/images/flickr1.png" width="80" height="80" alt=""></figure>
                         <figure><img src="/images/flickr2.png" width="80" height="80" alt=""></figure>
                         <figure><img src="/images/flickr3.png" width="80" height="80" alt=""></figure>
