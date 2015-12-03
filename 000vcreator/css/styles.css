@@ -48,6 +48,7 @@
     line-height: 20px;
     color: #fccb04;
     font-size: 12px;
+    letter-spacing:-0.02em;
 }
 a.btn-alt{
     color: black;
@@ -192,7 +193,7 @@ body{
     padding-bottom: 13rem;
 }
 .content{
-    padding: 49rem 35rem 20rem 39rem;
+    padding: 49rem 35rem 15rem 39rem;
     background: #c0c0c0;
 }
 .sidebar{
@@ -263,13 +264,11 @@ body{
     margin: 0px 0px 21px 0px;
 }
 .content{   
-    flex-basis: 0%;
+    width: 100%;
 }
 .banner{
-    width: 100%;
-    min-height: 105rem;
     background:#fccb04;
-    padding: 5px 18rem 5px 26rem;
+    padding: 12px 18rem 13px 26rem;
 }
 .banner .btn-default, .banner .btn-alt{
     margin: 0px 12px 0px 15rem;
@@ -289,25 +288,28 @@ body{
     color: silver;
     font-size: 12px;
     background-color: black;
-    padding: 30rem 0px 5rem 4px;
+    padding: 29rem 2px 5rem 3px;
 }
 .footer > div{
-    width: 26.77%;
+    width: 26.8%;
     margin-bottom: 20px;
 }
 .footer > div:last-child{
-    width: 28.1%;
+    width: 28%;
 }
 .footer h5{
     color: white;
     font-size: 15px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 .footer p{
     letter-spacing: -0.005em;
 }
-.contact span > *, .footer .more{
+.footer span{
+    letter-spacing: -0.008em;
+}
+.footer span > *, .footer .more{
     color: #fccb04;
 }
 .copyright{
@@ -318,7 +320,7 @@ body{
     color: silver;
     font-family: Arial;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: -0.01em;
 }
 /*MEDIA QUERIES------------------------*/
@@ -348,6 +350,5 @@ body{
     .banner h2{
         font-size: 20px;
         line-height: 20px;
-    }
-    
+    }    
 }

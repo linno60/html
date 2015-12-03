@@ -43,7 +43,7 @@
                     <figure data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
             </div>
-            <div class="content-wrap" data-flex="w :noshrink(2) :grow(1)" data-flex-640="column">
+            <div class="content-wrap" data-flex=":noshrink(2)" data-flex-640="column">
                 <div class="content">
                     <div class="articles" data-flex="row between" data-flex-480="column">
                         <article>
@@ -86,13 +86,13 @@
                         <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>clients</h3>
                         <figure><img src="/images/img4.png" width="253" height="82" alt=""></figure>
                     </div>
-                </aside>
-                <div class="banner" data-flex="row-center between">
+                </aside>                
+            </div>
+            <div class="banner" data-flex="row-center between">
                     <h2>best online video creator</h2>
                     <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
                     <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
                 </div>
-            </div>
             <footer>
                 <div class="footer" data-flex="row around" data-flex-640="column">
                     <div>
@@ -115,7 +115,7 @@
                                 <a href='#'>YouTube</a>
                                 <a href='#'>MySpace</a>
                             </div>
-                            <div class="contact" data-flex="col">
+                            <div data-flex="col">
                                 <span>Email: <a href="mailto:info@VideoCreator.com">info@VideoCreator.com</a></span>
                                 <span>Telephone: <span>123-456-7890</span></span>
                                 <span>Fax: <span>123-456-7890</span></span>
