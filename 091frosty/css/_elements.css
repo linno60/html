@@ -1,6 +1,4 @@
 .links-nav{
-    width: 100%;
-    justify-content: flex-start;
     background: linear-gradient(to bottom, #a7a5a5, #6c6c6c);
     border-radius: 6px;
     padding: 0px 30px 0px 30px;
@@ -15,6 +13,7 @@
     padding: 0px 5px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
+    text-decoration: none;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color:  #ffffff;

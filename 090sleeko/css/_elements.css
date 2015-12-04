@@ -10,10 +10,10 @@
     line-height: 32px;
     text-transform: uppercase;
     letter-spacing: -0.05em;
+    text-decoration: none;
 }
 .links-nav{
     width: 90%;
-    justify-content: space-around;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background-image: linear-gradient(to top, #e0e0e0 0%, #f6f6f6 90%, white 92%, white 100%);
@@ -38,7 +38,6 @@
 }
 .links-filter{
     width: 100%;
-    justify-content: flex-start;
     padding: 0px 0px 8px 15px;
 }
 .links-filter a{
@@ -47,6 +46,7 @@
     font-size: 13px;
     margin: 5px 14px;
     letter-spacing: -0.05em;
+    text-decoration: none;
 }
 .links-filter a.active, .links-filter a:active, .links-filter a:hover, .links-filter a:focus{
     text-decoration: underline;

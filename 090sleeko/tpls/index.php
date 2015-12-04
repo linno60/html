@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
         <script>
             var LAYOUT_WIDTH = 960;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -18,11 +19,11 @@
     <body>
         <a href="#" name="top"></a>
         <div class="lwrap">
-            <header data-flex="col-center">
+            <header data-flex="col -center">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="241" height="84" alt="Sleeko">
                 </a>
-                <nav class="hlinks links-nav" data-flex="w">
+                <nav class="links-nav" data-flex="around w" data-childs="-center">
                     <a href="#" class="active">home.</a>
                     <a href="#">portfolio.</a>
                     <a href="#">what i do.</a>
@@ -31,10 +32,10 @@
             </header>
         </div>
         <div class="item banner">
-            <div class="lwrap" data-flex="col-center">                
+            <div class="lwrap" data-flex="col -center">                
                 <div class="item-wrap">
-                    <div class="item-wrapper" data-flex="col-center between">
-                        <div class="preview" data-flex="col-center">
+                    <div class="item-wrapper" data-flex="vaxis">
+                        <div class="preview" data-flex="col -center">
                             <h1>hello</h1>
                             <p>My name is Rafi. I am a Graphic Designer, and this is my online space to showcase my works.</p>
                             <a href="#" class="btn btn-default"><em>see my works</em><i class="icon-arrow"></i></a>
@@ -46,24 +47,24 @@
             </div>
         </div>
         <div class="item">
-            <div class="lwrap" data-flex="col-center">
-                <nav class="hlinks links-nav" data-flex="w">
+            <div class="lwrap" data-flex="col -center">
+                <nav class="links-nav" data-flex="around w" data-childs="-center">
                     <a href="#" class="active">home.</a>
                     <a href="#">portfolio.</a>
                     <a href="#">what i do.</a>
                     <a href="#">contact me.</a>
                 </nav>
                 <div class="item-wrap">
-                    <div class="item-wrapper" data-flex="col-center">
-                        <div class="hlinks links-filter" data-flex="w">
+                    <div class="item-wrapper" data-flex="col -center">
+                        <div class="links-filter" data-flex="w">
                             <a href="#" class="active">Show All</a>
                             <a href="#">Web Design</a>
                             <a href="#">Logo Design</a>
                             <a href="#">Interface Design</a>
                             <a href="#">Miscellaneous</a>
                         </div>
-                        <div class="grid" data-flex="row around w"  data-flex-480="column">
-                            <article data-flex-480="row-start" data-flex-320="column">
+                        <div class="grid" data-flex="around w"  data-flex-480="vstripe"  data-childs-480="-start">
+                            <article>
                                 <figure><img src="/images/img1.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -71,7 +72,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img2.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -79,7 +80,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img3.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -87,7 +88,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img4.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -95,7 +96,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img5.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -103,7 +104,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img6.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -111,7 +112,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img7.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -119,7 +120,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img8.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -127,7 +128,7 @@
                                     <a href="#">See Design</a>
                                 </div>
                             </article>
-                            <article data-flex-480="row-start" data-flex-320="column">
+                            <article>
                                 <figure><img src="/images/img9.png" width="255" height="160" alt=""></figure>
                                 <div>
                                     <h4>Tittle of the design</h4>
@@ -142,21 +143,21 @@
             </div>
         </div>
         <div class="item testimonials">
-            <div class="lwrap" data-flex="col-center">
-                <nav class="hlinks links-nav" data-flex="w">
+            <div class="lwrap" data-flex="col -center">
+                <nav class="links-nav" data-flex="around w" data-childs="-center">
                     <a href="#" class="active">home.</a>
                     <a href="#">portfolio.</a>
                     <a href="#">what i do.</a>
                     <a href="#">contact me.</a>
                 </nav>
                 <div class="item-wrap">
-                    <div class="item-wrapper" data-flex="col-center">
+                    <div class="item-wrapper" data-flex="col -center">
                         <h2 class="title"><span>Clean, Wonderful & Effective</span><br>websites that can really improve your business</h2>
-                        <blockquote data-flex="row-center :noshrink(1)">
+                        <blockquote data-flex="-center">
                             <figure><img src="/images/testimonial.png" width="266" height="66" alt="Testimonial"></figure>
                             <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate. </q>
                         </blockquote>
-                        <div class="articles" data-flex="row between" data-flex-640="column">
+                        <div class="articles" data-flex="stripe" data-flex-640="vstripe">
                             <article>
                                 <h3>Web Design</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate, purus velit elementum lectus, nec fermentum libero nunc at diam. In tempor, orci in rhoncus suscipit, velit orci blandit ipsum, a dapibus nisl massa in nunc. </p>
@@ -176,8 +177,8 @@
             </div>
         </div>
         <div class="item footer">
-            <div class="lwrap" data-flex="col-center">
-                <nav class="hlinks links-nav" data-flex="w">
+            <div class="lwrap" data-flex="col -center">
+                <nav class="links-nav" data-flex="around w" data-childs="-center">
                     <a href="#" class="active">home.</a>
                     <a href="#">portfolio.</a>
                     <a href="#">what i do.</a>
@@ -187,11 +188,11 @@
                     <div class="lbl-wrap">
                         <div class="lbl lbl-available"><h6 data-text="Available For Hire"><span>Available For Hire</span></h6></div>
                     </div>
-                    <div class="item-wrapper" data-flex="col-center">
-                        <div class="contact-wrap" data-flex="row between" data-flex-640="column">
+                    <div class="item-wrapper" data-flex="col -center">
+                        <div class="contact-wrap" data-flex="stripe" data-flex-640="vstripe">
                             <div class="form-wrap">
                                 <h2 class="title"><span>Thank you!</span><br>Get in touch with me now.</h2>
-                                <form action="#" method="post" data-flex="col-center">
+                                <form action="#" method="post" data-flex="col -center">
                                     <input type="text" placeholder="Your Name">
                                     <input type="email" placeholder="Your Email Address">
                                     <input type="text" placeholder="Your Estimated Budget">
@@ -200,16 +201,16 @@
                                 </form>
                             </div>
                             <div class="contact" data-flex-640>                                        
-                                <div class="social" data-flex="col-start" data-flex-800="col-end" data-flex-640="col-start"  data-flex-480="col-center">
+                                <div class="social" data-flex="col -start" data-flex-800="col -end" data-flex-640="col -start"  data-flex-480="col -center">
                                     <span>Connect with me via:</span>
-                                    <div class="hlinks links-social" data-flex="w">
+                                    <div class="links-social" data-flex="w" data-childs="-center center">
                                         <a href="#"><i class="icon-tw"></i></a>
                                         <a href="#"><i class="icon-fb"></i></a>
                                         <a href="#"><i class="icon-in"></i></a>
                                         <a href="#"><i class="icon-mail"></i></a>
                                     </div>
                                 </div>
-                                <div data-flex="col-end">
+                                <div data-flex="col -end">
                                     <a href="#" title="Return to the homepage" id="logoalt">
                                         <img src="/images/logoalt.png" width="103" height="33" alt="Sleeko">
                                     </a>

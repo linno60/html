@@ -2,12 +2,6 @@
 
 /* FONTS */
 
-/*
-This CSS resource incorporates links to font software which is the valuable copyrighted
-property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
-redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
-Imaging with any questions regarding Web Fonts:  http://www.fonts.com
-*/
 @font-face {
     font-family: "GillSansMT";
     src: url("../fonts/fonts.com/d9f9decc-5fa8-4390-a105-4f89f6b7b055.woff2") format("woff2"), url("/fonts/fonts.com/cd5a93fc-2bb1-48df-8982-11119cd6e270.woff") format("woff");
@@ -68,9 +62,8 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 .links-filter{
     width: 100%;
     padding: 0px 0px 18rem 23rem;
-    justify-content: flex-start;
 }
-.links-filter a, .links-filter a:first-child, .links-filter a:last-child{
+.links-filter a{
     color: #6b4848;
     font-family: Lucida Sans Unicode;
     font-size: 13px;
@@ -82,9 +75,8 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 .links-social{
     padding: 19px 0px 0px 0px;
-    justify-content: flex-start;
 }
-.links-social a, .links-social a:first-child, .links-social a:last-child{
+.links-social a{
     margin: 0px 8px 16px 9px;
     width: 34px;
     height: 34px;
@@ -249,7 +241,6 @@ body{
 .links-nav{
     padding: 39rem 0px 32rem 0px;
     width: 100%;
-    justify-content: space-around;
     max-width: 878px;
 }
 header .links-nav{
@@ -442,6 +433,7 @@ blockquote{
 }
 blockquote figure{
     width: 32.6%;
+    flex-shrink: 0;
 }
 .form-wrap{
     width: 55.4%;

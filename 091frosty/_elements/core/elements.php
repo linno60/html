@@ -7,12 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link href="/css/reset.css" rel="stylesheet">
         <link href="/css/reset-elements.css" rel="stylesheet">
+        <link href="/css/data-flex.css" rel="stylesheet">
         <link href="/_elements/core/work.css"  rel="stylesheet">
         <link href="/_elements/generic/icons.css"  rel="stylesheet">
         <link href="/_elements/generic/tmp.css"  rel="stylesheet">
         <link href="/_elements/generic/fonts-external.css" rel="stylesheet">
         <link href="/_elements/generic/fonts-com.css" rel="stylesheet">
-        <link href="/_elements/generic/fonts-squrel.css" rel="stylesheet">
+        <link href="/_elements/generic/fonts-squirel.css" rel="stylesheet">
         <link href="/_elements/generic/fonts-local.css" rel="stylesheet">
         <link href="/_elements/generic/rad-chk.css" rel="stylesheet">
         <link href="/css/_elements.css"  rel="stylesheet">

@@ -1,4 +1,4 @@
-<nav class='hlinks links-nav'>
+<nav class='links-nav' data-flex data-childs="-center">
     <a href='#' class='active'>Home</a>
     <a href='#'>About us</a>
     <a href='#'>Services</a>
@@ -8,12 +8,12 @@
     <a href='#'>Blog</a>
     <a href='#'>Contacts</a>
 </nav>
-<div class='hlinks links-social'>
+<div class='links-social' data-flex>
     <a href='#'><i class="icon-fb"></i></a>
     <a href='#'><i class="icon-tw"></i></a>
     <a href='#'><i class="icon-in"></i></a>
 </div>
-<div class='hlinks links-controls'>
+<div class='links-controls' data-flex>
     <a href='#' class='active'></a>
     <a href='#'></a>
     <a href='#'></a>

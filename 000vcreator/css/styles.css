@@ -5,12 +5,6 @@
 
 /* ELEMENTS */
 
-.links-nav{
-    justify-content: flex-end;
-}
-.links-footer{
-    justify-content: center;
-}
 .links-default{
     padding: 0px 15px 10px 0px;
 }
@@ -23,11 +17,9 @@
     min-height: 55px;
     padding: 0px 10rem 0px 10rem;
     line-height: 20px;    
-    align-items: stretch;
     letter-spacing: -0.005em;
     text-align: center;
-}
-.links-nav a:first-child, .links-nav a:last-child, .links-nav a{
+    text-decoration: none;
     margin: 5rem 7rem 0px 7rem;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
@@ -37,18 +29,20 @@
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: underline;
 }
-.links-footer a, .links-footer a:first-child, .links-footer a:last-child {
+.links-footer a{
     color: silver;
     font-family: Arial;
     font-size: 12px;
     margin: 5px 16rem;
+    text-decoration: none;
 }
 .links-default a{
     font-family: Arial;
     line-height: 20px;
     color: #fccb04;
     font-size: 12px;
-    letter-spacing:-0.02em;
+    letter-spacing:-0.01em;
+    text-decoration: none;
 }
 a.btn-alt{
     color: black;
@@ -197,6 +191,7 @@ body{
     background: #c0c0c0;
 }
 .sidebar{
+    flex-shrink: 0;
     padding: 50rem 21rem 5rem 25rem;
     width: 31.14583%;
     background: white;
@@ -326,7 +321,7 @@ body{
 /*MEDIA QUERIES------------------------*/
 @media (max-width: 640px) {
     .title i {display: none;}    
-    .links-nav a{min-height: 20px;}
+    .links-nav a{min-height: 0px;}
     .video-wrap {padding-bottom: 60rem;}
     .demo-wrap{padding: 10px;}
     .btn:before, .btn:after, .btn i {display: none;} 
@@ -337,7 +332,7 @@ body{
         text-align: center;
     }
     .demo-wrap .btn-default {
-        margin: 0rem 0px 20px 0rem;
+        margin: 0;
         font-size: 18px;
         height: 50px;
     }

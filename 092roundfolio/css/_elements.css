@@ -17,6 +17,7 @@
     font-size: 12px;
     font-style: italic;
     line-height: 20px;
+    text-decoration: none;
 }
 .links-accounts a:active, .links-accounts a:hover, .links-accounts a:focus{
     text-decoration: underline;
@@ -42,7 +43,7 @@
 .title:after{
     content: "";
     height: 16px;
-    flex: 1;
+    flex-grow: 1;
     margin: 0px 0px 0px 10px;
     background:url("/images/hdrbg.png")repeat-x left center; 
 }

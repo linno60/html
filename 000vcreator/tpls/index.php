@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css"> 
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
         <script>
             var LAYOUT_WIDTH = 960;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -17,14 +18,14 @@
     </head>
     <body>
         <div class="lwrap">
-            <header class="header" data-flex="between">
-                <div data-flex="row-center">
+            <header class="header" data-flex="stripe">
+                <div data-flex="-center">
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="106" height="45" alt="Vcreator">
                     </a>
                 </div>
-                <div data-flex="row-end" data-flex-640="row-center">
-                    <nav class="hlinks links-nav" data-flex="w">
+                <div data-flex="-end" data-flex-640="-center">
+                    <nav class="links-nav" data-flex="end w">
                         <a href="#" class="active">home</a>
                         <a href="#">services</a>
                         <a href="#">company</a>
@@ -34,8 +35,8 @@
                     </nav>
                 </div>
             </header>
-            <div class="demo-wrap" data-flex="row-center between" data-flex-640="column">
-                <div data-flex-640="col-center">
+            <div class="demo-wrap" data-flex="axis" data-flex-640="vstripe r">
+                <div data-flex-640="vaxis">
                     <h1>best online video creator</h1>
                     <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
                 </div>
@@ -43,28 +44,28 @@
                     <figure data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
             </div>
-            <div class="content-wrap" data-flex=":noshrink(2)" data-flex-640="column">
+            <div class="content-wrap" data-flex data-flex-640="vstripe">
                 <div class="content">
-                    <div class="articles" data-flex="row between" data-flex-480="column">
+                    <div class="articles" data-flex="stripe" data-flex-480="vstripe">
                         <article>
-                            <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>text heading goes here</h3>
+                            <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>text heading goes here</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
                         </article> 
                         <article>
-                            <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>text heading goes here</h3>
+                            <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>text heading goes here</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
                         </article> 
                     </div>
-                    <div class="grid" data-flex="row between w" data-flex-480="column">
-                        <article data-flex-480="row-start">
+                    <div class="grid" data-flex="stripe w" data-flex-480="vstripe" data-childs-480="-start">
+                        <article>
                             <figure data-flex><img src="/images/img1.png" width="181" height="185" alt=""></figure>
                             <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
                         </article>
-                        <article data-flex-480="row-start">
+                        <article>
                             <figure data-flex><img src="/images/img2.png" width="181" height="185" alt=""></figure>
                             <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
                         </article>
-                        <article data-flex-480="row-start">
+                        <article>
                             <figure data-flex><img src="/images/img3.png" width="181" height="185" alt=""></figure>
                             <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
                         </article>
@@ -72,29 +73,29 @@
                 </div>
                 <aside class="sidebar">
                     <div>
-                        <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>featured video</h3>
+                        <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>featured video</h3>
                         <figure class="video" data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" frameborder="0" allowfullscreen></iframe></figure>
                     </div>
                     <div>
-                        <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>testimonials</h3>
+                        <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>testimonials</h3>
                         <blockquote>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. </p>
                             <cite>Rafi, <a href="#">GraphicsFuel.com</a></cite>
                         </blockquote>
                     </div>
                     <div>
-                        <h3 class="title" data-flex="row-center"><i class="icon-arrowb"></i>clients</h3>
+                        <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>clients</h3>
                         <figure><img src="/images/img4.png" width="253" height="82" alt=""></figure>
                     </div>
                 </aside>                
             </div>
-            <div class="banner" data-flex="row-center between">
-                    <h2>best online video creator</h2>
-                    <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
-                    <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
-                </div>
+            <div class="banner" data-flex="axis">
+                <h2>best online video creator</h2>
+                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+                <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
+            </div>
             <footer>
-                <div class="footer" data-flex="row around" data-flex-640="column">
+                <div class="footer" data-flex="around" data-flex-640="vstripe">
                     <div>
                         <h5>blog updates</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.  </p>
@@ -107,8 +108,8 @@
                     </div>
                     <div>
                         <h5>our social network</h5>
-                        <div data-flex="row between"   data-flex-640="row-start start">
-                            <div class='links links-default'>
+                        <div data-flex="stripe" data-flex-640="start">
+                            <div class='links-default' data-flex="col -start">
                                 <a href='#'>Twitter</a>
                                 <a href='#'>Facebook</a>
                                 <a href='#'>Linkedin</a>
@@ -123,8 +124,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="copyright" data-flex="row-center between w" data-flex-640="col-center">
-                    <div class="hlinks links-footer" data-flex="w">
+                <div class="copyright" data-flex="axis w" data-flex-640="col -center">
+                    <div class="links-footer" data-flex="center w">
                         <a href="#">Home</a>
                         <a href="#">Services</a>
                         <a href="#">Company</a>
