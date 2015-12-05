@@ -4,20 +4,30 @@
         <title>Serendipity</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <div class="lwrap">
             <div class="wrap">
                 <header>
-                    <div class="header" data-flex="row-center between" data-flex-320="col">
+                    <div class="header" data-flex="axis">
                         <a href="#" title="Return to the homepage" id="logo">
                             <img src="/images/logo.png" width="142" height="49" alt="Serendipity">
                         </a>
-                        <div data-flex="row-center w" data-flex-480="col-end"  data-flex-320="col-center">
-                            <div class="hlinks links-social" data-flex="w">
+                        <div data-flex="-center w" data-flex-480="col -end">
+                            <div class="links-social" data-flex="end w">
                                 <a href="#"><i class="icon-rss"></i></a>
                                 <a href="#"><i class="icon-fb"></i></a>
                                 <a href="#"><i class="icon-tw"></i></a>
@@ -32,7 +42,7 @@
                         </div>
                     </div>
                     <div class="nav">
-                        <nav class="hlinks links-nav" data-flex="w">
+                        <nav class="links-nav" data-flex="center w" data-childs="-center">
                             <a href="#">home</a>
                             <a href="#">photography</a>
                             <a href="#">journal</a>
@@ -41,8 +51,8 @@
                             <a href="#">contact</a>
                         </nav> 
                     </div>
-                    <div data-flex="col-center">
-                        <div class="hlinks links-breadcrumbs" data-flex="w">
+                    <div data-flex="col -center">
+                        <div class="links-breadcrumbs" data-flex="center w">
                             <a href="#">Home</a>/
                             <a href="#">Photograpy</a>/
                             <a href="#">Magna Sit Ulticies cras Purus</a>
@@ -50,13 +60,13 @@
                         <img class="divider" src="/images/divider.png" width="117" height="9" alt="">
                     </div>
                 </header>
-                <div class="slider-caption" data-flex="col-center">
+                <div class="slider-caption" data-flex="col -center">
                     <h1>Magna Sit Ultricies Cras Purus</h1> 
                     <span class="details"><time>21.03.2012</time><small>|</small><a href="#">#photograpy</a>, <a href="#">#journal</a></span>
                 </div>
             </div>
         </div>
-        <div class="slider" data-flex="row between">
+        <div class="slider" data-flex="stripe">
             <a href="#" class="btn btn-thumb"><i class="icon-left"></i></a>
             <div class="lwrap">
                 <figure><img src="/images/imglg.png" width="1040" height="465" alt=""></figure>
@@ -70,7 +80,7 @@
                     <p>Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut </p>
                     <img class="divider" src="/images/divider.png" width="117" height="9" alt="">
                 </article>
-                <div class="grid" data-flex="row between" data-flex-640="column">
+                <div class="grid" data-flex="stripe" data-flex-640="vstripe">
                     <article>
                         <figure><img src="/images/img1.png" width="301" height="190" alt=""></figure>
                         <h3><a href="#">tellus egestas parturient</a></h3>
@@ -94,7 +104,7 @@
                 <div class="posts">
                     <h2>2 responses to "magna sit ultrices cras purus"</h2>
                     <div class="post">
-                        <article data-flex="row-start">
+                        <article data-flex="-start">
                             <figure><img src="/images/img2.png" width="80" height="80" alt=""></figure>
                             <div>
                                 <h4>ted evelyn mosby</h4>
@@ -102,7 +112,7 @@
                             </div>
                         </article>
                         <div class="post">
-                            <article data-flex="row-start">
+                            <article data-flex="-start">
                                 <figure><img src="/images/img2.png" width="80" height="80" alt=""></figure>
                                 <div>
                                     <h4>barney stinson</h4>
@@ -115,7 +125,7 @@
                 <div>
                     <h2>submit a comment</h2>
                     <p>Your email address will not be published. Requires fields are</p>
-                    <form action="#" method="post" class="form-default" data-flex="col-start">
+                    <form action="#" method="post" class="form-default" data-flex="col -start">
                         <input type="text" placeholder="Your Name" name="defaultinput">
                         <input type="email" placeholder="Your Email" name="defaultinput">
                         <input type="url" placeholder="Your Website" name="defaultinput">
@@ -125,20 +135,22 @@
                     <img class="divider" src="/images/divider.png" width="117" height="9" alt="">
                 </div>
             </div>
-            <footer class="footer" data-flex="row around w" data-flex-480="column">
+            <footer class="footer" data-flex="around w" data-flex-480="vstripe">
                 <div>
                     <h5>popular posts</h5>
-                    <div class="popular" data-flex="col">
+                    <div data-childs="col">
+                        <div class="popular">
                         <p>Vivamus sagittis lacus vel augue laoreet rutrum dolor </p>
                         <time>14 Nov, 2012</time>
                     </div>
-                    <div class="popular" data-flex="col">
+                    <div class="popular">
                         <p>Scelerisque nisl consectetur et.</p>
                         <time>22 May, 2012</time>
                     </div>
-                    <div class="popular" data-flex="col">
+                    <div class="popular">
                         <p>Pellentesque ornare sem lacinia quam venenatis </p>
                         <time>15 July, 2012</time>
+                    </div>
                     </div>
                 </div>
                 <div>
@@ -154,7 +166,7 @@
                 </div>
                 <div>
                     <h5>contact form</h5>
-                    <form class="form-footer" data-flex="col-start">
+                    <form class="form-footer" data-flex="col -start">
                         <input type="text" placeholder="Your Name" name="footerinput">
                         <input type="email" placeholder="Your Email" name="footerinput">
                         <textarea></textarea>

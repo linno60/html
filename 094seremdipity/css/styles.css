@@ -19,9 +19,11 @@
 .icon-rss {width: 25px; height: 25px; background: url('../images/icons/rss.png');}
 .icon-search {width: 11px; height: 11px; background: url('../images/icons/search.png');}
 .icon-tw {width: 25px; height: 25px; background: url('../images/icons/tw.png');}
-.icon-tweet {width: 16px; height: 12px; background: url('../images/icons/tweet.png');}/* ELEMENTS */
+.icon-tweet {width: 16px; height: 12px; background: url('../images/icons/tweet.png');}
 
-.links-nav a, .links-nav a:first-child, .links-nav a:last-child{
+/* ELEMENTS */
+
+.links-nav a{
     color: #f3f3f3;
     font-family: MarketDeco;
     font-size: 14px;
@@ -31,7 +33,6 @@
 }
 .links-nav{
     width: 100%;
-    justify-content: center;
     min-height: 32px;
     border-top: 1px solid rgba(0,0,0,.11);
     border-bottom: 1px solid rgba(0,0,0,.11);
@@ -62,21 +63,21 @@
     border-right: 10px solid transparent; 
 }
 .links-social{
-    justify-content: flex-end;
-    padding-right: 3px;
+    padding: 5px 0px;
 }
-.links-social a, .links-social a:first-child, .links-social a:last-child{
+.links-social a{
     margin: 3px;
+    display: inline-flex;
 }
 .links-breadcrumbs{
-    justify-content: center;
-    padding: 49px 10px 36px 10px;
+    padding: 49rem 10px 36rem 10px;
 }
 .links-breadcrumbs, .links-breadcrumbs a{
     font-family: Merriweather;
     font-size: 12px;
     color: #ca6d6d;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .links-breadcrumbs a{
     margin: 0px 7px;
@@ -130,7 +131,6 @@ input[type="search"]:-ms-input-placeholder, .form-footer input:-ms-input-placeho
     font-size: 11px;
 }
 .form-footer input, .form-footer textarea{
-    max-width: 219px;
     width: 100%;
     height: 35px;
     border: none;
@@ -205,15 +205,18 @@ figure img{
 }
 /* $------------------------------------------------------------------------- */
 body{
-    padding-top: 50px;
+    padding-top: 50rem;
     background: url("../images/bg.png");
 }
 .lwrap{
     max-width: 1040px;
 }
 .header{
-    padding: 15px 40px 10px 40px;
+    padding: 15rem 34rem 10px 40rem;
     min-height: 113px;
+}
+.header form{
+    padding: 0px 6rem 0px 3rem;
 }
 .wrap{
     background-color: white;
@@ -225,8 +228,12 @@ body{
 .slider{
     position: relative;
 }
-.slider .lwrap{
+.slider figure{
     position: relative;
+    z-index: 1;
+}
+.slider .lwrap{
+    position: relative;    
 }
 .slider .lwrap:before, .slider .lwrap:after{
     content: "";
@@ -239,6 +246,7 @@ body{
     left: 4%;
     right: 4%;
     box-shadow: 0px -4px 8px 0px white;
+    z-index: 0;
 }
 .slider .lwrap:before{
     top: -20px;
@@ -250,7 +258,7 @@ body{
 .slider-caption{
     position: relative;
     z-index: 1;
-    padding: 35px 10px 27px 10px;
+    padding: 35rem 10px 27rem 10px;
 }
 .slider-caption .details small{
     padding: 0px 9px 0px 8px;
@@ -280,10 +288,10 @@ body{
     right: 0px;
 }
 .article p:first-child{
-    margin-bottom: 28px;
+    margin-bottom: 28rem;
 }
 .article p{
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
 }
 p{
     letter-spacing: 0.005em;
@@ -293,7 +301,7 @@ p{
     line-height: 27px;
 }
 .content{
-    padding: 24px 33px 71px 40px;
+    padding: 24rem 33rem 71rem 40rem;
 }
 .content h2{
     color: #ca6d6d;
@@ -304,7 +312,7 @@ p{
     margin-bottom: 7px;
 }
 .posts{
-    padding: 38px 7px 17px 0px;
+    padding: 38rem 7px 17rem 0px;
 }
 .posts h2{
     margin: 0px 0px 31px 14px;
@@ -312,15 +320,15 @@ p{
     letter-spacing: -0.022em;
 }
 .post figure{
-    min-width: 80px;
-    margin: 1px 20px 0px 0px;
+    min-width: 80rem;
+    margin: 1px 20rem 0px 0px;
 }    
 .post .post{
-    padding-left: 120px;
+    padding-left: 120rem;
 }
 .post > article > div{
     background: #f4f4f4;
-    padding: 18px 108px 12px 20px;
+    padding: 18rem 20rem 12rem 20rem;
 }
 .post article{
     padding-bottom: 20px;
@@ -341,14 +349,17 @@ p{
     margin: 0px auto;
 }
 .grid{
-    padding: 20px 7px 0px 0px;
+    padding: 20rem 7px 0px 0px;
+}
+.grid figure{
+    margin-bottom: 27px;
 }
 .grid > article{
     width: 31.4%;
     margin-bottom: 11px;
 }
 .grid h3{
-    margin: 27px 0px 8px 8px;
+    margin: 0px 0px 8rem 8rem;
     font-weight: 400;
     letter-spacing: -0.04em;
 }
@@ -358,11 +369,11 @@ p{
     font-size: 18px;
 }
 .grid .details{    
-    padding: 0px 0px 17px 1px;
+    padding: 0px 0px 17rem 1px;
 }
 .grid p{
     letter-spacing: 0.0047em;
-    margin: 0px 0px 20px 9px;
+    margin: 0px 0px 20rem 9rem;
 }
 .details small{
     padding: 0px 9px 0px 8px;
@@ -376,7 +387,7 @@ p{
     text-decoration: underline;
 }
 .form-default{
-    padding: 22px 0px 59px 0px;
+    padding: 22rem 0px 59rem 0px;
 }
 .form-footer{
     padding-top: 5px;
@@ -384,8 +395,8 @@ p{
 footer{
     background-color: #191919;
     box-shadow: 0 0 3px rgba(46, 41, 30, 0.5);
-    padding: 39px 25px 29px 26px;
-    margin-bottom: 79px;
+    padding: 39rem 25rem 29rem 26rem;
+    margin-bottom: 79rem;
 }
 footer > div{
     width: 22.2%;
@@ -437,99 +448,15 @@ footer p{
     font-family: Merriweather;
     font-size: 12px;
 }
-
+/*MEDIA QUERIES*/
 @media (max-width: 1200px) {
-    .nav:before, .nav:after{
-        display: none;
-    }
-    .nav{
-        margin: 0px;
-    }
-    body {
-    padding-top: 4.16vw;
+    .nav:before, .nav:after{display: none;}
+    .nav{margin: 0px;}
+    .slider .lwrap:before, .slider .lwrap:after{display: none;}
 }
-.links-breadcrumbs {
-    padding: 4.08vw 10px 3vw 10px;
-}
-.header{
-    padding: 15px 3.33vw 10px 3.33vw;
-}
-.slider-caption{
-    padding: 2.91vw 10px 2.25vw 10px;
-}
-.content {
-    padding: 2vw 2.75vw 5.91vw 3.33vw;
-}
-.article p:first-child {
-    margin-bottom: 2.33vw;
-}
-.article p {
-    margin-bottom: 2.66vw;
-}
-.grid {
-    padding: 1.66vw 0.58vw 0px 0px;
-}
-.posts {
-    padding: 3.16vw 0.58vw 1.41vw 0px;
-}
-.post figure {
-    margin: 1px 1.66vw 0px 0px;
-}
-.post > article > div {
-    padding: 1.5vw 9vw 1vw 1.66vw;
-}
-.form-default {
-    padding: 1.83vw 0px 4.91vw 0px;
-}
-footer {
-    margin-bottom: 6.58vw;
-    padding: 3.25vw 2.08vw 0.75vw 2.16vw;
-}
-}
-@media (max-width: 960px) {
-    .slider .lwrap:before, .slider .lwrap:after{
-        display: none;
-    }
-}
-@media (max-width: 800px) {    
-    .post > article > div {
-    padding: 1.5vw 1.66vw 1vw 1.66vw;
-}
-footer > div {
-    width: 45%;
-}
-.form-footer input, .form-footer textarea {
-    max-width: 100%;
-}
+@media (max-width: 800px) { 
+    footer > div {width: 45%;}
 }
 @media (max-width: 640px) {
-    .grid figure{
-        float: left;
-        width: 38%;
-        margin-right: 10px;
-    }
-    .grid h3 {
-    margin: 0px 0px 3px 0px;
-}
-.grid p{
-    margin: 0px 0px 10px 0px;
-}
-}
-@media (max-width: 480px) {
-    .post figure {
-        min-width: 50px;
-        max-width: 50px;
-    }
-        .links-social {
-    padding-right: 0px;
-    padding-bottom: 10px;
-}
-.post .post {
-    padding-left: 10vw;
-}
-}
-@media (max-width: 320px) {
-    #logo{
-        margin-right: 0px;
-    }
+    .grid figure{float: left;width: 38%;margin: 0px 10px 0px 0px;}
 }

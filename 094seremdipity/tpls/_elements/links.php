@@ -1,5 +1,5 @@
 <div class="nav">
-    <nav class="hlinks links-nav">
+    <nav class="links-nav" data-flex="center">
         <a href="#">home</a>
         <a href="#">phototgraphy</a>
         <a href="#">journal</a>
@@ -8,7 +8,7 @@
         <a href="#">contact</a>
     </nav> 
 </div>
-<div class="hlinks links-social">
+<div class="links-social">
     <a href="#"><i class="icon-rss"></i></a>
     <a href="#"><i class="icon-fb"></i></a>
     <a href="#"><i class="icon-tw"></i></a>
@@ -16,7 +16,7 @@
     <a href="#"><i class="icon-pin"></i></a>
     <a href="#"><i class="icon-in"></i></a>
 </div>
-<div class="hlinks links-breadcrumbs">
+<div class="links-breadcrumbs">
     <a href="#">Home</a>/
     <a href="#">Photography</a>/
     <a href="#">Magna Sit Ulticies cras Purus</a>
