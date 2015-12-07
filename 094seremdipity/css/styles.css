@@ -28,7 +28,7 @@
     font-family: MarketDeco;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 5px 23px;
+    margin: 5px 23rem;
     letter-spacing: -0.002em;
 }
 .links-nav{
@@ -227,38 +227,12 @@ body{
 }
 .slider{
     position: relative;
-}
-.slider figure{
-    position: relative;
-    z-index: 1;
-}
-.slider .lwrap{
-    position: relative;    
-}
-.slider .lwrap:before, .slider .lwrap:after{
-    content: "";
-    background: white;
-    height: 20px;
-    width: 100%;
-    max-width: 92%;
-    display: block;
-    position: absolute;
-    left: 4%;
-    right: 4%;
-    box-shadow: 0px -4px 8px 0px white;
-    z-index: 0;
-}
-.slider .lwrap:before{
-    top: -20px;
-}
-.slider .lwrap:after{
-    bottom: -20px;
-    top: auto;
+    margin: -20rem 0px;
 }
 .slider-caption{
     position: relative;
     z-index: 1;
-    padding: 35rem 10px 27rem 10px;
+    padding: 35rem 10px 47rem 10px;
 }
 .slider-caption .details small{
     padding: 0px 9px 0px 8px;
@@ -301,7 +275,7 @@ p{
     line-height: 27px;
 }
 .content{
-    padding: 24rem 33rem 71rem 40rem;
+    padding: 44rem 33rem 71rem 40rem;
 }
 .content h2{
     color: #ca6d6d;
@@ -329,6 +303,7 @@ p{
 .post > article > div{
     background: #f4f4f4;
     padding: 18rem 20rem 12rem 20rem;
+    flex-grow: 1;
 }
 .post article{
     padding-bottom: 20px;
@@ -340,6 +315,12 @@ p{
     font-weight: 400;
     letter-spacing: -0.02em;
     margin-bottom: 14px;
+}
+.post p{
+    max-width: 701px;
+}
+.post .post p{
+    max-width: 610px;
 }
 .article{
     padding-bottom: 20px;
@@ -373,7 +354,7 @@ p{
 }
 .grid p{
     letter-spacing: 0.0047em;
-    margin: 0px 0px 20rem 9rem;
+    margin: 0px 0px 21rem 9rem;
 }
 .details small{
     padding: 0px 9px 0px 8px;
@@ -395,7 +376,7 @@ p{
 footer{
     background-color: #191919;
     box-shadow: 0 0 3px rgba(46, 41, 30, 0.5);
-    padding: 39rem 25rem 29rem 26rem;
+    padding: 38rem 25rem 29rem 26rem;
     margin-bottom: 79rem;
 }
 footer > div{

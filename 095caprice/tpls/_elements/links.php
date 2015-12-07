@@ -1,4 +1,4 @@
-<nav class="links links-nav">
+<nav class="links-nav" data-flex="col" data-childs="-center">
     <a href="#" class="active">About</a>
     <a href="#">Portfolio</a>
     <a href="#">Social</a>

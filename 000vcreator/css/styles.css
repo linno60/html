@@ -44,22 +44,24 @@
     letter-spacing:-0.01em;
     text-decoration: none;
 }
-a.btn-alt{
-    color: black;
-    background: white;
-}
 .btn-default i{
-    margin: 0px 2rem 0px 44rem;
+    margin: 0px 0rem 1rem 44rem;
 }
 .btn-alt i{
     margin: 0px 2px 0px 21px;
 }
-a.btn-default{
+.btn-default{
     color: #fccb04;
-    background: #0a131d;
+    background: #0a131d;    
+    border-image-source: url("../images/cornerdefault.png");
+}
+.btn-alt{
+    color: black;
+    background: white;
+    border-image-source: url("../images/corneralt.png");
 }
 .btn-default, .btn-alt{
-    min-width: 252rem;
+    min-width: 262rem;
     height: 61rem;
     position: relative;
     font-family: Arial;
@@ -68,37 +70,16 @@ a.btn-default{
     line-height: 20px;
     text-transform: uppercase;
     padding: 0px 20px;  
-    margin-right: 12px;
     text-align: center;
     white-space: nowrap;
-    line-height: 23px;
-}
-.btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
-    content: "";
-    position: absolute;
-}
-.btn-default:before{
-    background: #0a131d;
-}
-.btn-alt:before{
-    background: white;
-}
-.btn-default:after{
-    border-top: 13px solid white;
-}
-.btn-alt:after{
-    border-top: 12px solid #0a131d;
-}
-.btn-default:before, .btn-alt:before{
-    width: 12px;
-    height: calc(100% - 12px);
-    right: -10px;
-    top: 0px;
-}
-.btn-default:after, .btn-alt:after{
-    right: -10px;
-    bottom: 0px;
-    border-right: 11px solid transparent;
+    line-height: 23px;  
+    border-style: solid;
+    background-clip: padding-box;    
+    border-width: 0px 13rem 0px 0px;
+    border-image-slice: 0 13 13 0;
+    border-image-width: 0px 13rem 13rem 0px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;    
 }
 .title{
     color: #0a131d;
@@ -146,8 +127,16 @@ body{
 }
 .header{
     background: white;
-    padding: 0rem 21rem 0rem 42rem;
+    padding: 0rem 4rem 0rem 6rem;
     margin-bottom: 20rem;
+    border-left-width: 18px;
+    background: white;
+    margin: 0px 18rem 20rem 18rem;
+    border-image-slice: 18 18 18 18;
+    border-image-width: 18rem 18rem 18rem 18rem;
+    border-image-outset: 0px 18rem 0px 18rem;
+    border-image-repeat: stretch stretch;
+    border-image-source:url("../images/corner.png");
 }
 .demo-wrap{
     background-color: #09f;
@@ -160,6 +149,7 @@ body{
     width: 56%;
 }
 .demo-wrap h1{
+    width: 100%;
     font-family: Arial;
     font-size: 60rem;
     font-weight: 700;
@@ -186,13 +176,26 @@ body{
     width: 99.2%;
     padding-bottom: 13rem;
 }
-.content{
-    padding: 49rem 35rem 15rem 39rem;
-    background: #c0c0c0;
+.content, .sidebar{
+    border-top-width: 1px;
+    border-style: solid;
+    margin-top: 26rem;
+    border-image-outset: 26rem 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+}
+.content{    
+    border-image-slice: 26 0 26 27;    
+    border-image-width: 26rem 0px 0px 27rem;
+    border-image-source: url("../images/cornerleft.png");
+    padding: 22rem 35rem 15rem 39rem;
+    background: #c0c0c0;    
 }
 .sidebar{
+    border-image-slice: 26 27 26 0;
+    border-image-width: 26rem 27rem 0px 0px;
+    border-image-source: url("../images/cornerright.png");
     flex-shrink: 0;
-    padding: 50rem 21rem 5rem 25rem;
+    padding: 23rem 21rem 5rem 25rem;
     width: 31.14583%;
     background: white;
 }
@@ -221,15 +224,17 @@ body{
 .grid{
     padding-top: 36rem;
 }
-.grid .more{
-    padding: 0px 0px 0px 3px;
-}
 .grid p{
     color: #383838;
     font-family: Arial;
     font-size: 12px;
-    line-height: 20px;
-    margin: 0px 0px 2px 3px;
+    line-height: 20px;    
+    width: 100%;
+    margin-bottom: 2px;
+    letter-spacing: -0.01em;
+}
+.grid figure + div{
+    margin-left: 3px;
 }
 .grid figure{
     margin-bottom: 7px;
@@ -263,10 +268,10 @@ body{
 }
 .banner{
     background:#fccb04;
-    padding: 12px 18rem 13px 26rem;
+    padding: 12px 20rem 10px 26rem;
 }
 .banner .btn-default, .banner .btn-alt{
-    margin: 0px 12rem 0px 15rem;
+    margin-left: 17rem;
     padding: 0px 20rem;
 }
 .banner h2{
@@ -276,6 +281,7 @@ body{
     font-weight: 700;
     line-height: 40rem;
     text-transform: uppercase;
+    margin-bottom: 3rem;
 }
 .footer{
     font-family: Arial;
@@ -324,8 +330,10 @@ body{
     .links-nav a{min-height: 0px;}
     .video-wrap {padding-bottom: 60rem;}
     .demo-wrap{padding: 10px;}
-    .btn:before, .btn:after, .btn i {display: none;} 
     .footer{padding: 10px;}
+    .btn-alt, .btn-default{border-width: 0px 0rem 0px 0px; border-image-width: 0px 0rem 0px 0px;}
+    .btn-alt i, .btn-default i{display: none;}
+    .sidebar{border-image-width: 0;margin: 0;}
     .demo-wrap h1{
         font-size: 36px;
         line-height: 40px;
@@ -339,7 +347,6 @@ body{
     .banner .btn-default, .banner .btn-alt {
         height: 40px;
         font-size: 12px;
-        margin: 0px 0px 0px 15rem;
         min-width: 228rem;
     }
     .banner h2{

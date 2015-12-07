@@ -78,9 +78,6 @@ figure img{
     height: 100%;
     display: block;
 }
-a{
-    text-decoration: none;
-}
 p{
     color: #585858;
     font-family: PT Sans;
@@ -91,7 +88,7 @@ p{
 /* $------------------------------------------------------------------------- */
 .lwrap{
     max-width: 1020px;
-    padding: 0px 10px;
+    padding: 0px 10px;    
 }
 #logo{
     display: block;
@@ -103,15 +100,16 @@ p{
     height: 100%;
 }
 .sidebar{
+    flex-shrink: 0;
     background: url("../images/bg.png");
     width: 26.1%;
-    padding: 51px 24px 20px 24px;
+    padding: 51rem 24rem 20rem 24rem;
     border-right: 1px solid rgba(0, 0, 0, 0.7);
     border-left: 1px solid rgba(0, 0, 0, 0.7);
     box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.1), inset 0 -1px 0 1px rgba(255, 255, 255, 0.28);
 }
 .content{
-    padding: 53px 0px 48px 39px;
+    padding: 53rem 0px 48rem 39rem;
 }
 .slider, h1{
     border-bottom:1px solid #d1d1d1;
@@ -177,29 +175,12 @@ blockquote{
 .marker{
     padding-top: 2px;
 }
-@media (max-width: 1024px) {
-    .lwrap{
-        padding: 0px 10px 0px 0px;
-    }
-    .sidebar{
-        padding: 4.98vw 2.34vw 1.95vw 2.34vw;
-    }
-    .content {
-        padding: 5.17vw 0px 4.68vw 3.8vw;
-    }
+@media (max-width: 1024px){
+    .lwrap{padding: 0px 10px 0px 0px;}
 }
-@media (max-width: 640px) {  
-    .lwrap {
-        padding: 0px;
-    }
-    .content {
-        padding: 20px 10px;
-    }
-    .sidebar{
-        padding: 10px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.7);
-        box-shadow: 0px -1px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.28) inset;
-    }
+@media (max-width: 640px){  
+    .lwrap {padding: 0px;}
+    .sidebar{border-bottom: 1px solid rgba(0, 0, 0, 0.7);box-shadow: 0px -1px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 255, 255, 0.28) inset;}
     .links-nav{
         background: none;
         flex-direction: row;

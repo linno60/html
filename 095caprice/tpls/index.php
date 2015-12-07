@@ -4,17 +4,27 @@
         <title>Caprice</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script> 
     </head>
     <body>
-        <div class="lwrap" data-flex=":noshrink(1)" data-flex-640="column">
-            <aside class="sidebar" data-flex="col-start" data-flex-640="col-center">
+        <div class="lwrap" data-flex data-flex-640="vstripe">
+            <aside class="sidebar" data-flex="col -start" data-flex-640="-center">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/Logo.png" width="138" height="59" alt="Caprice">
                 </a>
-                <nav class="links links-nav" data-flex-640="w">
+                <nav class="links-nav" data-flex="col" data-childs="-center" data-flex-640="w">
                     <a href="#" class="active">About</a>
                     <a href="#">Portfolio</a>
                     <a href="#">Social</a>
@@ -30,32 +40,32 @@
                     <h2>Ipsum Tortor Vestibulum Sollicitudin</h2>
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nasce&shy;tur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
                 </article>
-                <div class="grid" data-flex="row between w" data-flex-480="column">
+                <div class="grid" data-flex="stripe w" data-flex-480="vstripe">
                     <article>
-                        <h2 data-flex="row-center"><i class="icon-screen"></i>Web Design</h2>
+                        <h2 data-flex="-center"><i class="icon-screen"></i>Web Design</h2>
                         <p>Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. </p>
                     </article>
                     <article>
-                        <h2 data-flex="row-center"><i class="icon-palette"></i>Illustration</h2>
+                        <h2 data-flex="-center"><i class="icon-palette"></i>Illustration</h2>
                         <p>Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. </p>
                     </article>
                     <article>
-                        <h2 data-flex="row-center"><i class="icon-video"></i>Motion Graphic</h2>
+                        <h2 data-flex="-center"><i class="icon-video"></i>Motion Graphic</h2>
                         <p>Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. </p>
                     </article>
                     <article>
-                        <h2 data-flex="row-center"><i class="icon-box"></i>Package Design</h2>
+                        <h2 data-flex="-center"><i class="icon-box"></i>Package Design</h2>
                         <p>Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. </p>
                     </article>
                 </div>
                 <div class="slider">
-                    <h2 data-flex="row-center between">Our Latest Works
+                    <h2 data-flex="axis">Our Latest Works
                         <div data-flex>
                             <a href="#" class="btn btn-thumb"><i class="icon-prev"></i></a>
                             <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
                         </div>
                     </h2>
-                    <div data-flex="row between" data-flex-480="w">
+                    <div data-flex="stripe" data-flex-480="w">
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>

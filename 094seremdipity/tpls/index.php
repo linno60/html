@@ -140,17 +140,17 @@
                     <h5>popular posts</h5>
                     <div data-childs="col">
                         <div class="popular">
-                        <p>Vivamus sagittis lacus vel augue laoreet rutrum dolor </p>
-                        <time>14 Nov, 2012</time>
-                    </div>
-                    <div class="popular">
-                        <p>Scelerisque nisl consectetur et.</p>
-                        <time>22 May, 2012</time>
-                    </div>
-                    <div class="popular">
-                        <p>Pellentesque ornare sem lacinia quam venenatis </p>
-                        <time>15 July, 2012</time>
-                    </div>
+                            <p>Vivamus sagittis lacus vel augue laoreet rutrum dolor </p>
+                            <time>14 Nov, 2012</time>
+                        </div>
+                        <div class="popular">
+                            <p>Scelerisque nisl consectetur et.</p>
+                            <time>22 May, 2012</time>
+                        </div>
+                        <div class="popular">
+                            <p>Pellentesque ornare sem lacinia quam venenatis </p>
+                            <time>15 July, 2012</time>
+                        </div>
                     </div>
                 </div>
                 <div>

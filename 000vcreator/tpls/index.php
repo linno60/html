@@ -59,15 +59,24 @@
                     <div class="grid" data-flex="stripe w" data-flex-480="vstripe" data-childs-480="-start">
                         <article>
                             <figure data-flex><img src="/images/img1.png" width="181" height="185" alt=""></figure>
-                            <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
+                            <div>
+                                <p data-flex="col-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
+                                <a href="#" class="more">Read More</a>
+                            </div>
                         </article>
                         <article>
                             <figure data-flex><img src="/images/img2.png" width="181" height="185" alt=""></figure>
-                            <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
+                            <div>
+                                <p data-flex="col-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
+                                <a href="#" class="more">Read More</a>
+                            </div>
                         </article>
                         <article>
                             <figure data-flex><img src="/images/img3.png" width="181" height="185" alt=""></figure>
-                            <p data-flex="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.<a href="#" class="more">Read More</a></p>                            
+                            <div>
+                                <p data-flex="col-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam.</p>
+                                <a href="#" class="more">Read More</a>
+                            </div>
                         </article>
                     </div>
                 </div>
