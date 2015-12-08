@@ -142,7 +142,7 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* We like off-black for text. */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
+a {color: #03f; text-decoration: none;}
 
 /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}

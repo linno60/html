@@ -18,9 +18,6 @@
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
 }
-.links-social{
-    flex-wrap: wrap;
-}
 .links-social a{
     margin: 4px 4px 4px 4px;
 }

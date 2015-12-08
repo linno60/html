@@ -32,8 +32,6 @@
     text-decoration: none;
 }
 .links-footer > li{
-    display: flex;
-    align-items: center;
     min-height: 32px;
     width: 100%;
     border-bottom: 1px solid #161616;
@@ -42,7 +40,7 @@
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
 }
-a.btn-default{
+.btn-default{
     min-width: 152px;
     min-height: 44px;
     padding: 5px 10px;

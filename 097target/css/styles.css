@@ -38,22 +38,22 @@
     background-image: linear-gradient(to top, #e6e6e6 0%, white 100%);
     box-shadow: 0 2px 2px rgba(1, 2, 2, 0.45);
 }
-a.btn-default, a.btn-alt{
+.btn-default, .btn-alt{
     font-family: Designosaur;
     font-size: 18px;
-    min-height: 41px;
+    height: 41px;
     border-radius: 20px;
     border: 1px solid gainsboro;
     padding: 0px 10px;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.15), inset 0 1px 2px white;
 }
-a.btn-default{
+.btn-default{
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.29);
     color: #ca4500;
     min-width: 173px;    
     background-image: linear-gradient(to top, #ff5400 0%, #f9b34b 100%);    
 }
-a.btn-alt{
+.btn-alt{
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.54);
     color: #838383;
     min-width: 140px;
@@ -65,20 +65,20 @@ a.btn-alt{
     padding: 5px;
     background-color: rgba(226,234,238,.4); 
 }
-.links-social{
-    justify-content: center
-}
 .links-social a, .links-social a:first-child, .links-social a:last-child{
     margin: 5px 3px 3px 3px;
 }
 .links-payment a{
     margin: 4px 5px 4px 4px;
 }
+.links-payment a:first-child{
+    margin-left: 0px;
+}
 blockquote{
     padding-bottom: 4px;
 }
 blockquote q{
-    padding: 30px 30px 38px 30px;
+    padding: 30rem 30rem 38rem 30rem;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
     color: #8c8c8c;
@@ -136,9 +136,6 @@ blockquote q:before{
 .list li:last-child{
     border-bottom: none;
 }
-a{
-    text-decoration: none;
-}
 figure img{
     width: 100%;
     height: 100%;
@@ -149,7 +146,7 @@ body{
     background: url("../images/bg.png");
 }
 .lwrap{
-    margin: 10px auto 83px auto;
+    margin: 10px auto 83rem auto;
     max-width: 980px;
     background-color: white;
     border-radius: 2px;
@@ -168,8 +165,7 @@ body{
     margin-right: 25px;
 }
 .header{
-    min-height: 77px;
-    padding: 10px 20px 13px 20px;
+    padding: 20rem 20rem 24rem 20rem;
     box-shadow: inset 0px -7px 0px 0px rgba(244,244,244,0.5);
 }
 .call{
@@ -186,15 +182,15 @@ body{
 h1{
     color: #3c3c3c;
     font-family: Designosaur;
-    font-size: 32px;
+    font-size: 32rem;
     font-weight: 400;
-    margin: 9px 0px 23px 0px;
-    line-height: 38px;
+    margin: 9rem 0px 23rem 0px;
+    line-height: 38rem;
 }
 .slider-wrap{
-    height: 385px;
+    height: 385rem;
     background-color: #fcfcfc;
-    padding: 38px 11px 5px 12px;
+    padding: 38rem 11rem 5rem 12rem;
     border-bottom: 1px solid white;
     border-top: 1px solid #e2e2e2;
     box-shadow: 0px 1px 0px 0px #e0e0e0;
@@ -217,12 +213,12 @@ h1{
     color: #8c8c8c;
     font-family: Arial;
     font-size: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
     line-height: 18px;
     letter-spacing: -0.007em;
 }
 .btn-group{
-    padding-top: 17px;
+    padding-top: 17rem;
 }
 .btn-group strong{
     color: #3c3c3c;
@@ -273,7 +269,7 @@ h1{
     right: -15px;
 }
 .services{
-    padding: 55px 11px 19px 11px;
+    padding: 55rem 11px 19rem 11px;
 }
 .services > article{
     width: 29%;
@@ -298,7 +294,7 @@ p{
     letter-spacing: -0.007em;
 }
 .features {
-    padding: 35px 15px 38px 15px;
+    padding: 35rem 15rem 38rem 15rem;
 }
 .features h3{
     margin-bottom: 13px;
@@ -314,10 +310,10 @@ p{
     margin: 0px 0px 23px 6px;
 }
 .gallery{
-    padding: 34px 37px 33px 33px;
+    padding: 34rem 37rem 33rem 33rem;
 }
 .gallery figure{
-    margin-bottom: 40px;
+    margin-bottom: 40rem;
     position: relative;
     width: 23.6%;
 }
@@ -333,13 +329,13 @@ p{
     width: 87.44%;
 }
 .testimonials{
-    padding: 36px 41px 31px 39px;
+    padding: 36px 41rem 31rem 39rem;
 }
 .testimonials h3{
     margin: 0px 0px 13px 3px;
 }
 .footer{
-    padding: 20px 25px 0px 22px;
+    padding: 20rem 25rem 0rem 22rem;
     background:url("../images/bgfooter.png");
     box-shadow: inset 0px 5px 0px 0px rgba(0,0,0,0.5);
 }
@@ -402,106 +398,25 @@ p{
     width: 100%;
 }
 @media (max-width: 960px) { 
-    .lwrap {
-        margin: 10px auto 8.64vw auto;
-    }
-    .slider-wrap {
-        height: 40.1vw;
-        padding: 3.95vw 11px 5px 12px;
-    }
-    .services {
-        padding: 5.72vw 11px 1.98vw 11px;
-    }
-    .features {
-        padding: 3.64vw 15px 3.95vw 15px;
-    }
-    .gallery {
-        padding: 3.54vw 3.85vw 3.43vw 3.43vw;
-    }
-    .testimonials {
-        padding: 3.75vw 4.27vw 3.22vw 4.06vw;
-    }
-    h1{
-        font-size: 3.33vw;
-        margin: 0.93vw 0px 2.39vw 0px;
-        line-height: 3.95vw;        
-    }
-    .slider-wrap p{
-        margin-bottom: 1.87vw;
-    }
-    .gallery figure {
-        margin-bottom: 4.16vw;
-    }
-    blockquote q{
-        padding: 3.12vw 3.12vw 3.95vw 3.12vw;
-    }
-    .slider-wrap > .btn-group{
-        width: auto;
-    }
-    .footer{
-        padding: 2vw;
-    }
-    .footer > div {
-        width: 21%;
-    }
+    .slider-wrap > .btn-group{width: auto;}
+    .footer{padding: 2vw;}
+    .footer > div {width: 21%;}
+    .slider-wrap{height: 423rem};
 }
 @media (max-width: 800px) { 
-    h1{
-        font-size: 27px;
-        line-height: 31px;
-        order: 0;
-    }
-    .slider{
-        order: 1;
-    }
-    .slider-wrap .btn-group{
-        order: 2;       
-        padding-top: 10px;
-    }
-    .slider-wrap {
-        height: 43.6vw;
-    }
-    .slider figure::after {
-        bottom: -5%;
-    }
+    h1{font-size: 27px;line-height: 31px;order: 0;}
+    .slider{order: 1;}
+    .slider-wrap .btn-group{order: 2;padding-top: 10px;}
+    .slider figure::after {bottom: -5%;}
 }
 @media (max-width: 640px) {
-    .header{
-        padding:10px;
-    }
-    .slider-wrap{
-        height: auto;
-        padding: 10px;
-    }
-    .slider-wrap > h1 + div{
-        max-height: 100%;
-    }
-    .slider{
-        order: 2;
-    }
-    .slider-wrap .btn-group{
-        order: 1;
-        padding-bottom: 10px;
-    }
-    .gallery figure {
-        width: 45%;
-    }
-    .gallery figure::after {
-        bottom: -8%;
-    }
-    .footer > div, .footer > div:first-child{
-        width: 47%;
-    }
-    .copyright span {
-        text-align: center;
-        padding: 0px;
-    }
-}
-@media (max-width: 320px) { 
-    .logo-wrap, #logo {
-        margin-right: 0px;
-    }
-    .call{
-        text-align: center;
-    }
+    .header{padding:10px;}
+    .slider-wrap{height: auto;padding: 20px;}
+    .slider-wrap > h1 + div{max-height: 100%;}
+    .slider{order: 2;max-width: 100%;}
+    .slider-wrap .btn-group{order: 1;padding-bottom: 10px;}
+    .gallery figure {width: 45%;}
+    .gallery figure::after {bottom: -8%;}
+    .footer > div, .footer > div:first-child{width: 47%;}
+    .copyright span {text-align: center;padding: 0px;}
 }

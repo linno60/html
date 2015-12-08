@@ -15,16 +15,13 @@
 
 /* ELEMENTS */
 
-.links-nav{
-    justify-content: center;
-}
 .links-nav a{
     font-family: Lucida Sans Unicode;
     font-size: 12px;
     text-transform: uppercase;
     color: black;    
 }
-.links-nav a, .links-nav a:first-child, .links-nav a:last-child{
+.links-nav a{
     margin: 5px 19px;
 }
 .links-footer a{
@@ -41,10 +38,9 @@
     text-decoration: underline;
 }
 .links-social{
-    justify-content: flex-start;
-    margin: 16px 0px 0px -3px;
+    margin: 16px 0px 0px -8px;
 }
-.links-social a, .links-social a:first-child, .links-social a:last-child{
+.links-social a{
     margin: 4px 5px 4px 4px;
 }
 .lbl-default{
@@ -100,7 +96,7 @@ input[type="email"]:-ms-input-placeholder{
 }
 .title{
     max-width: 360px;
-    min-height: 54px;
+    height: 54px;
     background-color: black;
     border-radius: 4px;
     color: #fff600;
@@ -109,7 +105,7 @@ input[type="email"]:-ms-input-placeholder{
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    line-height: 19px;
+    padding: 0px 5px;
 }
 a{
     text-decoration: none;
@@ -128,45 +124,43 @@ header{
     border-bottom: 1px solid white;
 }
 header .lwrap{
-    padding: 10px 0px 11px 10px;
-    min-height: 99px;
+    padding: 29rem 0px 30rem 10rem;
 }
 .slider-wrap{
     background-image: linear-gradient(to top, #d4d4d4 0%, #e6e6e6 3%, #e6e6e6 100%);
     border-bottom: 1px solid #2d2d2d;
 }
 .slider-wrap .lwrap > a:first-child{
-    margin: 0px 2px 60px 4px;
+    margin: 0px 2px 63rem 4px;
 }
 .slider-wrap .lwrap > a:last-child{
-    margin: 0px 2px 60px 3px;
+    margin: 0px 2px 63rem 3px;
 }
 .slider-wrap .lwrap{
     max-width: 1050px;
-    padding: 20px 0px 45px 0px;
+    padding: 20rem 0px 45rem 0px;
 }
 .slider-wrap figcaption{
     background: white;
-    min-height: 60px;
     border-bottom: 5px solid #c6c6c6;
     font-family: Lucida Sans Unicode;
-    padding: 9px 2.17% 0px 4.34%;
+    padding: 9rem 2rem 17rem 10rem;
 }
 .slider-wrap figure{
     width: 21.9%;
 }
 .slider-wrap figcaption span{
     color: #050506;
-    font-size: 15px;
+    font-size: 15rem;
     line-height: 17px;
 }
 .slider-wrap figcaption small{
     color: #50504f;
-    font-size: 12px;
+    font-size: 12rem;
     line-height: 12px;
 }
 .services .lwrap > div{
-    padding: 0px 18px 29px 9px;
+    padding: 0px 18rem 29rem 9px;
 }
 .services{
     background-color: #6b6b6b;
@@ -174,8 +168,8 @@ header .lwrap{
 }
 .services .title{
     position: relative;
-    top: -21px;
-    margin: 0px auto 34px auto;
+    top: -21rem;
+    margin: 0px auto 34rem auto;
 }
 .services h3{
     color: #fff600;
@@ -208,7 +202,7 @@ header .lwrap{
     margin: 0px 0px 5px 0px;
 }
 .content .lwrap{
-    padding: 44px 18px 30px 11px;
+    padding: 44rem 18rem 30rem 11rem;
 }
 .content .lwrap > div{
     width: 31.5%;
@@ -277,8 +271,7 @@ header .lwrap{
     margin: 0px 1px 0px 13px;
 }
 .newsletter .lwrap{
-    min-height: 54px;
-    padding: 9px 9px 10px 11px;
+    padding: 10px 9px 12px 11px;
 }
 .twitter{
     font-family: Lucida Sans Unicode;
@@ -301,7 +294,7 @@ footer{
     background-color: #3c3c3c;
 }
 .footer{
-    padding: 41px 9px 0px 13px;
+    padding: 41rem 9rem 0px 13rem;
 }
 .footer > div{
     width: 30%;
@@ -334,7 +327,7 @@ footer{
     font-style: normal;
 }
 .copyright{
-    padding: 0px 10px 42px 11px;
+    padding: 0px 10px 42rem 11px;
 }
 .copyright span{
     color: #747474;
@@ -342,109 +335,26 @@ footer{
     font-size: 12px;
     line-height: 24px;
 }
-
 /*MEDIA-QUERIES---------------------------------------*/
-
-@media (max-width: 960px) {
-    .slider-wrap figcaption small {
-        font-size: 1.25vw;
-    }
-    .slider-wrap figcaption span {
-        font-size: 1.56vw;
-    }
-    .services .title {
-        margin: 0px auto 3.54vw auto;
-    }
-    .services .lwrap > div {
-        padding: 0px 18px 3.02vw 9px;
-    }
-    .content .lwrap {
-        padding: 4.58vw 1.87vw 3.12vw 11px;
-    }
-    .footer {
-        padding: 4.27vw 0.93vw 0px 1.35vw;
-    }
-    .copyright {
-        padding: 0px 10px 4.37vw 1.14vw;
-    }
-}
 @media (max-width: 800px) {
-    .slider-wrap figcaption small {
-        font-size: 9px;
-    }
-    .slider-wrap figcaption span {
-        font-size: 11px;
-    } 
-    .links-nav a, .links-nav a:first-child, .links-nav a:last-child{
-        margin: 5px 8px;
-    }
+    .slider-wrap figcaption small {font-size: 9px;}
+    .slider-wrap figcaption span {font-size: 11px;} 
+    .links-nav a{margin: 5px 8px;}
 }
 @media (max-width: 640px) {
-    .hidden-lg{
-        display: none;
-    }
-    .slider-wrap figure {
-        width: 29%;
-    }      
-    .services .lwrap > div > article {
-        width: 45%;
-    }
-    .content .lwrap > div, .content .lwrap > div:last-child {
-        width: 48%;
-    }
-    .content .lwrap > div:first-child{
-        width: 100%;
-    }
-    .newsletter form{
-        width: 100%;
-        padding: 0px 0px 10px 0px;
-    }
-    .newsletter form > div {
-        width: auto;
-    }
-    .footer > div, .footer > div:first-child, .footer > .location, .footer > div:last-child{
-        width: 24%;
-    }
+    .hidden-lg{display: none;}
+    .slider-wrap figure {width: 29%;}      
+    .services .lwrap > div > article {width: 45%;}
+    .content .lwrap > div, .content .lwrap > div:last-child {width: 48%;}
+    .content .lwrap > div:first-child{width: 100%;}
+    .newsletter form{width: 100%;min-width: 100%;padding: 0px 0px 10px 0px;}
+    .newsletter form > div {width: auto;}
+    .footer > div, .footer > div:first-child, .footer > .location, .footer > div:last-child{width: 24%;}
 }
 @media (max-width: 480px) {
-    .hidden-md{
-        display: none;
-    }
-    .slider-wrap figure {
-        width: 41%;
-    }
-    .newsletter form input {
-        margin: 0px 1px 0px 0px;
-    }
-    .footer > div, .footer > div:first-child, .footer > .location, .footer > div:last-child{
-        width: 48%;
-    }
-}
-@media (max-width: 320px) {
-    .hidden-sm{
-        display: none;
-    }
-    .slider-wrap figure {
-        width: 85%;
-    }
-    .slider-wrap figcaption small {
-        font-size: 12px;
-    }
-    .slider-wrap figcaption span {
-        font-size: 15px;
-    } 
-    .footer > div{
-        order: 2;
-        width: 100%;
-    }
-    .footer > div:first-child{
-        order: 0;
-    }
-    .footer > div.location{
-        order: 1;
-    }
-    .footer > div:last-child{
-        order: 3;
-        width: 100%;
-    }
+    label{text-align: center;}
+    .hidden-md{display: none;}
+    .slider-wrap figure {width: 41%;}
+    .newsletter form input {margin: 0px 1px 0px 0px;}
+    .footer > div, .footer > div:first-child, .footer > .location, .footer > div:last-child{width: 48%;}
 }

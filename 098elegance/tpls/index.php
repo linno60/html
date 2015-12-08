@@ -4,17 +4,27 @@
         <title>Elegance</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>  
     </head>
     <body>
         <header class="header">
-            <div class="lwrap" data-flex="row-center between w" data-flex-640="col">
+            <div class="lwrap" data-flex="axis w" data-flex-640="col -center">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="212" height="37" alt="Elegance Media">
                 </a>
-                <nav class="hlinks links-nav" data-flex="w">
+                <nav class="links-nav" data-flex="center w">
                     <a href="#" class="active">home</a>
                     <a href="#">about us</a>
                     <a href="#">services</a>
@@ -25,30 +35,30 @@
             </div>            
         </header>
         <div class="slider-wrap">
-            <div class="lwrap" data-flex="row-center around">
+            <div class="lwrap" data-flex="-center around" data-childs="col">
                 <a href="#"><i class="icon-prev"></i></a>
-                <figure data-flex="col">
+                <figure>
                     <img src="/images/img1.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
                         <span>FedEx</span>
                         <small>Lorem ipsum dolor sit amet</small>
                     </figcaption>
                 </figure>
-                <figure data-flex="col" class="hidden-sm">
+                <figure>
                     <img src="/images/img2.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
                         <span>Digital Art</span>
                         <small>from TheDesignInspiration</small>
                     </figcaption>
                 </figure>
-                <figure data-flex="col" class="hidden-md">
+                <figure class="hidden-md">
                     <img src="/images/img3.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
                         <span>Thismanslife: New Start</span>
                         <small>from Creattica by thismanslife</small>
                     </figcaption>
                 </figure>
-                <figure data-flex="col" class="hidden-lg">
+                <figure class="hidden-lg">
                     <img src="/images/img4.png" width="230" height="375" alt="">
                     <figcaption data-flex="col">
                         <span>Business Graph</span>
@@ -60,29 +70,29 @@
         </div>
         <div class="services">            
             <div class="lwrap">
-                <h2 class="title" data-flex="row-center center">see all our works</h2>
-                <div data-flex="between w" data-flex-320="column">
+                <h2 class="title" data-flex="-center center">see all our works</h2>
+                <div data-flex="stripe w">
                     <article>
-                        <h3 data-flex="row-end"><div class="lbl lbl-default"><i class="icon-lamp"></i></div>Your 1st title Here</h3>
+                        <h3 data-flex="-end"><div class="lbl lbl-default"><i class="icon-lamp"></i></div>Your 1st title Here</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie, lectus sed posuere consectetur, dolor ipsum tempus justo, quis ornare magna urna id enim. </p>
                     </article>
                     <article>
-                        <h3 data-flex="row-end"><div class="lbl lbl-default"><i class="icon-lock"></i></div>Your 2nd title Here</h3>
+                        <h3 data-flex="-end"><div class="lbl lbl-default"><i class="icon-lock"></i></div>Your 2nd title Here</h3>
                         <p>Nulla accumsan libero id quam facilisis nec luctus libero sollicitudin. Sed ligula libero, feugiat sed gravida vel, commodo sit amet nibh. </p>
                     </article>
                     <article>
-                        <h3 data-flex="row-end"><div class="lbl lbl-default"><i class="icon-pen"></i></div>Your 3rd title Here</h3>
+                        <h3 data-flex="-end"><div class="lbl lbl-default"><i class="icon-pen"></i></div>Your 3rd title Here</h3>
                         <p>Nullam tempus turpis at lorem posuere sodales. Donec nibh urna, auctor at eleifend eget, blandit fermentum augue. Etiam eget magna vel ante mattis ultricies vitae ut nunc. </p>
                     </article>
                     <article>
-                        <h3 data-flex="row-end"><div class="lbl lbl-default"><i class="icon-user"></i></div>Your 4th title Here</h3>
+                        <h3 data-flex="-end"><div class="lbl lbl-default"><i class="icon-user"></i></div>Your 4th title Here</h3>
                         <p>Nam ac molestie ante. Pellentesque turpis lacus, vulputate vitae feugiat quis, dictum eget diam. Proin sapien libero, tempus et tempus ac, pulvinar quis nulla. </p>
                     </article>
                 </div>
             </div>
         </div>
         <div class="content">
-            <div class="lwrap" data-flex="between w" data-flex-480="column">
+            <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                 <div>
                     <h4>Our Company</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie, lectus sed posuere consectetur, dolor ipsum tempus justo, quis ornare magna urna id enim. Nulla accumsan libero id quam facilisis nec luctus libero sollicitudin. </p>
@@ -91,54 +101,58 @@
                 </div>
                 <div>
                     <h4>Our Testimonials</h4>
-                    <blockquote data-flex="col">
-                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie, lectus sed posuere consectetur, dolor ipsum tempus justo, quis ornare magna urna id enim. </q>
-                        <cite>Rafi, GraphicsFuel.com </cite>
-                    </blockquote>
-                    <blockquote data-flex="col">
-                        <q>Sed ligula libero, feugiat sed gravida vel, commodo sit amet nibh. Nullam tempus turpis at lorem posuere sodales. Donec nibh urna, auctor at </q>
-                        <cite>Rafi, GraphicsFuel.com </cite>
-                    </blockquote>
-                    <blockquote data-flex="col">
-                        <q>Proin enim velit, fermentum at malesuada in, porta vel ipsum. Pellentesque a erat sit amet lorem rutrum venenatis sed laoreet dui. </q>
-                        <cite>Rafi, GraphicsFuel.com </cite>
-                    </blockquote>
+                    <div data-childs="col">
+                        <blockquote>
+                            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie, lectus sed posuere consectetur, dolor ipsum tempus justo, quis ornare magna urna id enim. </q>
+                            <cite>Rafi, GraphicsFuel.com </cite>
+                        </blockquote>
+                        <blockquote>
+                            <q>Sed ligula libero, feugiat sed gravida vel, commodo sit amet nibh. Nullam tempus turpis at lorem posuere sodales. Donec nibh urna, auctor at </q>
+                            <cite>Rafi, GraphicsFuel.com </cite>
+                        </blockquote>
+                        <blockquote>
+                            <q>Proin enim velit, fermentum at malesuada in, porta vel ipsum. Pellentesque a erat sit amet lorem rutrum venenatis sed laoreet dui. </q>
+                            <cite>Rafi, GraphicsFuel.com </cite>
+                        </blockquote>
+                    </div>
                 </div>
                 <div>
                     <h4>From the blog</h4>
-                    <div class="post" data-flex="col-start">
-                        <a href="#">Sleek minimal website PSD template</a>
-                        <time>August 30, 2010, 9:32 am</time>
-                    </div>
-                    <div class="post" data-flex="col-start">
-                        <a href="#">PSD ecommerce website template</a>
-                        <time>October 18, 2010, 5:51 am</time>
-                    </div>
-                    <div class="post" data-flex="col-start">
-                        <a href="#">Sleeko- Download single page website design</a>
-                        <time>July 22, 2010, 7:19 pm</time>
-                    </div>
-                    <div class="post" data-flex="col-start">
-                        <a href="#">Download web buttons in PSD & PNG (pack of 60)</a>
-                        <time>September 13, 2010, 2:15 am</time>
-                    </div>
-                    <div class="post" data-flex="col-start">
-                        <a href="#">Flip clock countdown (PSD)</a>
-                        <time>August 12, 2011, 10:56 am</time>
+                    <div data-childs="col-start">
+                        <div class="post">
+                            <a href="#">Sleek minimal website PSD template</a>
+                            <time>August 30, 2010, 9:32 am</time>
+                        </div>
+                        <div class="post">
+                            <a href="#">PSD ecommerce website template</a>
+                            <time>October 18, 2010, 5:51 am</time>
+                        </div>
+                        <div class="post">
+                            <a href="#">Sleeko- Download single page website design</a>
+                            <time>July 22, 2010, 7:19 pm</time>
+                        </div>
+                        <div class="post">
+                            <a href="#">Download web buttons in PSD & PNG (pack of 60)</a>
+                            <time>September 13, 2010, 2:15 am</time>
+                        </div>
+                        <div class="post">
+                            <a href="#">Flip clock countdown (PSD)</a>
+                            <time>August 12, 2011, 10:56 am</time>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="newsletter">
-            <div class="lwrap" data-flex="row-center between" data-flex-640="col-center">
-                <form action="#" method="post" data-flex="row-center" data-flex-640="center" data-flex-480="col">
+            <div class="lwrap" data-flex="axis" data-flex-640="col -center">
+                <form action="#" method="post" data-flex="-center" data-flex-640="center" data-flex-480="vstripe">
                     <label for="i1">Newsletter sign up</label>
-                    <div data-flex>
+                    <div data-flex data-flex-480="center">
                         <input type="email" name="email" id="i1" placeholder="email address">
                         <button><span class="btn btn-submit">Submit</span></button>
                     </div>                    
                 </form>
-                <div class="twitter" data-flex="row-center">
+                <div class="twitter" data-flex="-center">
                     <i class="icon-bird"></i>
                     <p>Proin enim velit, fermentum at malesuada in, ipsum...&emsp; <a href="#">@graphicsfuel</a></p>                    
                 </div>
@@ -146,10 +160,10 @@
         </div>
         <footer>
             <div class="lwrap">
-                <div class="footer" data-flex="between w">
+                <div class="footer" data-flex="stripe w">
                     <div>
                         <h5>Company</h5>
-                        <div class="links links-footer">
+                        <div class="links-footer" data-flex="col -start">
                             <a href="#">Home</a>
                             <a href="#">About us</a>
                             <a href="#">Services</a>
@@ -161,7 +175,7 @@
                     <div>
                         <h5>Social Network</h5>
                         <p>Find us on these social network sites</p>
-                        <div class="hlinks links-social" data-flex="w">
+                        <div class="links-social" data-flex="w">
                             <a href="#"><i class="icon-tw"></i></a>
                             <a href="#"><i class="icon-fb"></i></a>
                             <a href="#"><i class="icon-in"></i></a>

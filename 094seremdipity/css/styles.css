@@ -178,7 +178,7 @@ input[type="search"]:-ms-input-placeholder, .form-footer input:-ms-input-placeho
 }
 .btn-submit{
     min-width: 122px;
-    min-height: 30px;
+    height: 30px;
     border-radius: 3px;
     background-image: linear-gradient(to top, #4b4b4b 0%, #5b5b5b 50%, #606060 51%, #6a6a6a 100%);
     border: 1px solid #383838;
@@ -188,7 +188,7 @@ input[type="search"]:-ms-input-placeholder, .form-footer input:-ms-input-placeho
 }
 .btn-submitalt{
     min-width: 111px;
-    min-height: 31px;
+    height: 31px;
     border-radius: 5px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.22);
     color: #fffefe;
@@ -212,8 +212,7 @@ body{
     max-width: 1040px;
 }
 .header{
-    padding: 15rem 34rem 10px 40rem;
-    min-height: 113px;
+    padding: 33rem 34rem 28px 40rem;
 }
 .header form{
     padding: 0px 6rem 0px 3rem;

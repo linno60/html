@@ -20,11 +20,11 @@
     </head>
     <body>
         <div class="lwrap" data-flex data-flex-640="vstripe">
-            <aside class="sidebar" data-flex="col -start" data-flex-640="-center">
+            <aside class="sidebar" data-flex="col -start" data-flex-640="vaxis">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/Logo.png" width="138" height="59" alt="Caprice">
                 </a>
-                <nav class="links-nav" data-flex="col" data-childs="-center" data-flex-640="center w" data-childs-640="center">
+                <nav class="links-nav" data-flex="col" data-childs="-center" data-flex-640="center w" data-childs-640="center -center">
                     <a href="#" class="active">About</a>
                     <a href="#">Portfolio</a>
                     <a href="#">Social</a>
@@ -65,7 +65,7 @@
                             <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
                         </div>
                     </h2>
-                    <div data-flex="stripe" data-flex-480="w">
+                    <div data-flex="stripe w">
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>
                         <figure><img src="/images/img2.png" width="163" height="124" alt=""></figure>

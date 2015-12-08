@@ -4,14 +4,24 @@
         <title>Target</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>    
     </head>
     <body>
         <div class="lwrap">
-            <header class="header" data-flex="row-center between" data-flex-320="col">
-                <div class="logo-wrap" data-flex="row-center w" data-flex-320="col-center">
+            <header class="header" data-flex="axis">
+                <div class="logo-wrap" data-flex="-center w">
                     <a href="#" title="Return to the homepage" id="logo" >
                         <img src="/images/logo.png" width="103" height="30" alt="Target">
                     </a> 
@@ -19,13 +29,13 @@
                 </div>
                 <span class="call">Call Now!&ensp; 1-800-123-456</span>
             </header>
-            <div class="slider-wrap" data-flex="col-center w" data-flex-640="column">
+            <div class="slider-wrap" data-flex="col -center w" data-flex-640="vstripe">
                 <h1>The perfect way to convert your traffic into sales</h1>
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
                 </div>
-                <div class="btn-group" data-flex="row-center between w" data-flex-960="center"  data-flex-480="col-center">
+                <div class="btn-group" data-flex="axis w" data-flex-960="-center center"  data-flex-480="col -center">
                     <div class="btn-wrap"><a href="#" class="btn btn-default">Purchase now!</a></div>
                     <strong>or</strong>
                     <div class="btn-wrap"><a href="#" class="btn btn-alt">Take a tour</a></div>
@@ -38,22 +48,22 @@
                     </figure>
                 </div>
             </div>
-            <div class="services" data-flex="row around" data-flex-640="column">
-                <article data-flex>
+            <div class="services" data-flex="around" data-flex-640="vstripe" data-childs>
+                <article>
                     <i class="icon-comp"></i>
                     <div>                            
                         <h3>Quick and easy</h3>
                         <p>Lorem ipsum dolor sit amet, con&shy;sectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     </div>
                 </article>
-                <article data-flex>
+                <article>
                     <i class="icon-cursor"></i>
                     <div>                            
                         <h3>Less risky</h3>
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan</p>
                     </div>
                 </article>
-                <article data-flex>
+                <article>
                     <i class="icon-speed"></i>
                     <div>                            
                         <h3>Optimized</h3>
@@ -61,7 +71,7 @@
                     </div>
                 </article>
             </div>
-            <div class="features" data-flex="row around"  data-flex-480="column">
+            <div class="features" data-flex="around"  data-flex-480="vstripe">
                 <article>
                     <h3>Check out the features</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
@@ -76,7 +86,7 @@
             </div>
             <div class="gallery">
                 <h3>The screenshots</h3>
-                <div data-flex="row around w" data-flex-320="column">
+                <div data-flex="around w">
                     <figure><img src="/images/img1.png" width="215" height="136" alt=""><a href="#" class="overlay"></a></figure>
                     <figure><img src="/images/img1.png" width="215" height="136" alt=""><a href="#" class="overlay"></a></figure>
                     <figure><img src="/images/img1.png" width="215" height="136" alt=""><a href="#" class="overlay"></a></figure>
@@ -89,18 +99,18 @@
                     <q>”Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, li tot Europa usa li sam vocabularium. “</q>
                     <cite>Mike Tyson, <em>Microsoft</em></cite>
                 </blockquote>
-                <div class="btn-group" data-flex="row-center center w" data-flex-480="col-center">
+                <div class="btn-group" data-flex="-center center w" data-flex-480="col -center">
                     <div class="btn-wrap"><a href="#" class="btn btn-default">Purchase now!</a></div>
                     <strong>or</strong>
                     <div class="btn-wrap"><a href="#" class="btn btn-alt">Take a tour</a></div>
                 </div>
             </div>
             <footer>
-                <div class="footer" data-flex="row between w" data-flex-320="column">
+                <div class="footer" data-flex="stripe w">
                     <div>
                         <h5>Payment method</h5>
                         <p><strong>Ma quande lingues coalesce, li grammatica del resultant lingue es plu</strong> simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.</p>
-                        <div class="hlinks links-payment">
+                        <div class="links-payment" data-flex data-childs>
                             <a href="#"><i class="icon-mc"></i></a>
                             <a href="#"><i class="icon-visa"></i></a>
                             <a href="#"><i class="icon-pp"></i></a>
@@ -120,15 +130,15 @@
                         <h5>Design details</h5>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
                     </div>
-                    <div data-flex="col-center">
+                    <div data-flex="col -center">
                         <a href="#" title="Return to the homepage" id="logoalt" data-flex>
                             <img src="/images/logofooter.png" width="103" height="30" alt="Target">
                         </a> 
                     </div>
                 </div>
-                <div class="copyright" data-flex="row-center between w" data-flex-640="col-center">
+                <div class="copyright" data-flex="axis w" data-flex-640="col -center">
                     <span>Copyright &copy; 2011 Target. All rights reserved. Design by <a href="#">Shegy</a></span>
-                    <div class="hlinks links-social" data-flex="w">
+                    <div class="links-social" data-flex="center w" data-childs>
                         <a href="#"><i class="icon-aa"></i></a>
                         <a href="#"><i class="icon-db"></i></a>
                         <a href="#"><i class="icon-tw"></i></a>
