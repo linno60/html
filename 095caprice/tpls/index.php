@@ -24,7 +24,7 @@
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/Logo.png" width="138" height="59" alt="Caprice">
                 </a>
-                <nav class="links-nav" data-flex="col" data-childs="-center" data-flex-640="w">
+                <nav class="links-nav" data-flex="col" data-childs="-center" data-flex-640="center w" data-childs-640="center">
                     <a href="#" class="active">About</a>
                     <a href="#">Portfolio</a>
                     <a href="#">Social</a>

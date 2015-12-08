@@ -38,21 +38,21 @@
             <div class="demo-wrap" data-flex="axis" data-flex-640="vstripe r">
                 <div data-flex-640="vaxis">
                     <h1>best online video creator</h1>
-                    <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
+                    <a href="#" class="btn btn-default">see demo</a>
                 </div>
                 <div class="video-wrap">
                     <figure data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" width="340" height="259" frameborder="0" allowfullscreen></iframe></figure>
                 </div>
             </div>
-            <div class="content-wrap" data-flex data-flex-640="vstripe">
+            <div data-flex data-flex-640="vstripe">
                 <div class="content">
                     <div class="articles" data-flex="stripe" data-flex-480="vstripe">
                         <article>
-                            <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>text heading goes here</h3>
+                            <h3 class="title" data-flex="-center">text heading goes here</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
                         </article> 
                         <article>
-                            <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>text heading goes here</h3>
+                            <h3 class="title" data-flex="-center">text heading goes here</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. Donec adipiscing fermentum metus, quis viverra felis rutrum vitae. Pellentesque tincidunt tincidunt fringilla.</p>
                         </article> 
                     </div>
@@ -82,26 +82,26 @@
                 </div>
                 <aside class="sidebar">
                     <div>
-                        <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>featured video</h3>
+                        <h3 class="title" data-flex="-center">featured video</h3>
                         <figure class="video" data-video="16:9"><iframe src="https://www.youtube.com/embed/yKNxeF4KMsY" frameborder="0" allowfullscreen></iframe></figure>
                     </div>
                     <div>
-                        <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>testimonials</h3>
+                        <h3 class="title" data-flex="-center">testimonials</h3>
                         <blockquote>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet urna quam. Nullam est ligula, vestibulum convallis placerat in, dictum in nibh. Phasellus eget augue ac diam bibendum aliquet at ut tortor. Vivamus sit amet ante at ligula scelerisque sodales. </p>
                             <cite>Rafi, <a href="#">GraphicsFuel.com</a></cite>
                         </blockquote>
                     </div>
                     <div>
-                        <h3 class="title" data-flex="-center"><i class="icon-arrowb"></i>clients</h3>
+                        <h3 class="title" data-flex="-center">clients</h3>
                         <figure><img src="/images/img4.png" width="253" height="82" alt=""></figure>
                     </div>
                 </aside>                
             </div>
             <div class="banner" data-flex="axis">
                 <h2>best online video creator</h2>
-                <a href="#" class="btn btn-default"><em>see demo</em><i class="icon-arroww"></i></a>
-                <a href="#" class="btn btn-alt"><em>see pricing</em><i class="icon-arrowb"></i></a>
+                <a href="#" class="btn btn-default">see demo</a>
+                <a href="#" class="btn btn-alt">see pricing</a>
             </div>
             <footer>
                 <div class="footer" data-flex="around" data-flex-640="vstripe">
