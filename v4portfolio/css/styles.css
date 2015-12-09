@@ -18,18 +18,20 @@
 .icon-tw {width: 15px; height: 21px; background: url('../images/icons/tw.png');}/* ELEMENTS */
 
 .links-nav a{
-    margin: 0px 25px 19px 26px;
+    margin: 0px 25rem 18rem 26rem;
     color: black;
     font-family: Arial;
-    font-size: 11px;
+    font-size: 11rem;
     font-weight: 700;
     text-transform: uppercase;
-    flex-direction: column;
+}
+.links-nav a:last-child{
+    margin-right: 0px;
 }
 .lbl-nav{
     width: 14px;
     height: 14px;
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
     background-color: #91594c;
     visibility: hidden;
     box-shadow: 0 1px 0 #ffdcd3, inset 0 2px 2px rgba(211, 122, 100, 0.75);
@@ -39,7 +41,6 @@
 }
 .links-footer{
     padding-bottom: 3px;
-    justify-content: center;
 }
 .links-footer a, .links-footer{
     color: black;
@@ -48,16 +49,13 @@
 }
 .links-footer a{
     text-transform: uppercase;
-    margin: 3px 21px 3px 21px;
+    margin: 3px 21rem 3px 21rem;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
 }
-.links-social{
-    justify-content: center;
-}
 .links-social a{
-    margin: 7px 17px;
+    margin: 7rem 17rem;
 }
 .lbl-cite{
     color: black;
@@ -98,8 +96,7 @@ figure img, #logo img{
     padding: 0px 10px;
 }
 .header{
-    padding: 10px 0px;
-    min-height: 138px;
+    padding: 38px 0px;
 }
 body{
     background: #e2a89a;
@@ -110,7 +107,7 @@ body{
 .wrap{
     position: relative;
     background: white;
-    padding: 32px 31px 38px 31px;
+    padding: 32rem 31rem 38rem 31rem;
 }
 .wrap:after{
     content: "";
@@ -123,8 +120,8 @@ body{
     left: -15px;
 }
 .slider{
-    margin-bottom: 49px;
-    min-height: 450px;
+    padding: 28px 0px 27px 0px;
+    margin-bottom: 49rem;
     background-color: #4b4135;
     box-shadow: inset 5px 8.7px 20px rgba(75, 65, 53, 0.5);
 }
@@ -132,7 +129,7 @@ body{
     background: url("../images/border2.png")repeat-x left top;
 }
 .services{
-    padding: 48px 0px 37px 0px;
+    padding: 48rem 0px 37rem 0px;
 }
 .services article{
     width: 31%;
@@ -160,7 +157,7 @@ body{
     letter-spacing: -0.005em;
 }
 .portfolio{
-    padding: 26px 0px 28px 0px;
+    padding: 26rem 0px 28rem 0px;
 }
 .portfolio figure{
     width: 31.2%;
@@ -177,7 +174,7 @@ body{
     padding-bottom: 13px;
 }
 .about{
-    padding: 56px 0px 20px 0px;
+    padding: 56rem 0px 20rem 0px;
 }
 .about > div{
     background: url("../images/dashed.png"), url("../images/dashed.png");
@@ -197,7 +194,7 @@ body{
     line-height: 24px;
 }
 footer{
-    padding: 40px 4px 36px 2px;
+    padding: 40rem 4px 36rem 2px;
 }
 footer span{
     color: black;
@@ -221,41 +218,9 @@ footer > div:first-child{
     display: none;
     padding-top: 5px;
 }
-@media (max-width: 960px) {
-    .links-nav a{
-        margin: 0px 2.6vw 19px 2.7vw;
-        font-size: 1.14vw;
-    }
-    .wrap {
-        padding: 3.33vw 3.22vw 3.95vw 3.22vw;
-    }
-    .slider{
-        margin-bottom: 5.1vw;
-        min-height: 46.87vw;
-    }
-    .links-footer a {
-        margin: 3px 2.18vw;
-    }
-    .links-social a {
-        margin: 7px 1.77vw;
-    }
-    .services {
-        padding: 5vw 0px 3.85vw;
-    }
-    .portfolio {
-        padding: 2.7vw 0px 2.91vw;
-    }
-    .about {
-        padding: 5.83vw 0px 2.08vw;
-    }
-    footer {
-        padding: 4.16vw 4px 3.75vw 2px;
-    }
-}
+/*MEDIA QUERIES*/
 @media (max-width: 800px) {
-    .links-nav a{
-        font-size: 11px;
-    }
+    .links-nav a{font-size: 11px;}
 }
 @media (max-width: 640px) {
     footer > div:first-child {
@@ -272,7 +237,5 @@ footer > div:first-child{
     }
 }
 @media (max-width: 480px) {
-    .links-nav a{
-        font-size: 9px;
-    }
+    .links-nav a{font-size: 9px;}
 }

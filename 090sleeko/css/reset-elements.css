@@ -70,10 +70,10 @@ button::-moz-focus-inner {
     border: none;
     padding:0;
 }
-a.btn {
+/*a.btn {
     text-decoration: none;
     color: inherit;
-}
+}*/
 .btn, .btn > em {
     display: inline-flex;
     justify-content: center;

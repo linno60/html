@@ -15,12 +15,12 @@
 -------------------------------------------------------------------------------*/
 
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- vertical-align: baseline;
- background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }       
 
 body, html { 
@@ -112,7 +112,7 @@ button, input, select, textarea {margin: 0;}
 
 /* make buttons play nice in IE */
 button {width: auto; overflow: visible;}
- 
+
 /* scale images in IE7 more attractively */
 .ie7 img {-ms-interpolation-mode: bicubic;}
 
@@ -142,7 +142,7 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* We like off-black for text. */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
+a {color: #03f; text-decoration: none;}
 
 /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
@@ -171,5 +171,5 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* Media queries!
 -------------------------------------------------------------------------------*/
 @media screen and (max-width: 480px) {
-  
+
 }

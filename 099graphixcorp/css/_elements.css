@@ -5,7 +5,7 @@
     font-weight: 700;
     text-transform: uppercase;
     padding:0px 17px;
-    min-height: 40px;
+    height: 40px;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background-color: rgba(0,198,255,.5);
@@ -30,7 +30,7 @@
 a.btn-more{
     padding: 0px 5px;
     min-width: 177px;
-    min-height: 40px;
+    height: 40px;
     background-image: linear-gradient(to top, #5b7f0b 0%, #88aa3d 99%, #88aa3d 100%);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.38);
     color: white;
@@ -98,13 +98,13 @@ input[type="text"]:-ms-input-placeholder{
     border-bottom: 1px solid rgba(163, 161, 161, 0.15);
 }
 .links-categories a{
-    min-height:  80px;
-    flex: 1;
+    height:  80px;
     color: #555;
     font-family: Arial;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
+    flex-grow: 1;
 }
 .links-categories a i{
     margin: 0px 15px 0px 0px;
@@ -119,6 +119,7 @@ input[type="text"]:-ms-input-placeholder{
 }
 .select {
     width: 100%;
+    max-width: 176px;
 }
 .select select {
     color: darkgrey;

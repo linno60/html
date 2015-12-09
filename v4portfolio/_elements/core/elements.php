@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link href="/css/reset.css" rel="stylesheet">
         <link href="/css/reset-elements.css" rel="stylesheet">
+        <link href="/css/data-flex.css" rel="stylesheet">
         <link href="/_elements/core/work.css"  rel="stylesheet">
         <link href="/_elements/generic/icons.css"  rel="stylesheet">
         <link href="/_elements/generic/tmp.css"  rel="stylesheet">

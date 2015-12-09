@@ -6,27 +6,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/data-flex.css">
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <header>
-            <div class="lwrap" data-flex="row-center between">
+            <div class="lwrap" data-flex="axis">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="132" height="30" alt="Simpfolio">
                 </a>
-                <nav class="hlinks links-nav" data-flex="w">
+                <nav class="links-nav" data-flex="end w" data-childs="-center center">
                     <a href="#" class="active">portfolio</a>
                     <a href="#">about</a>
                     <a href="#">contact</a>
                 </nav>
             </div>
         </header>
-        <div class="lwrap" data-flex="col-center">
-            <h1 data-flex="col around"><div></div><span>Welcome to My Folio! I am John Doe, GUI Designer. This is my website where I showcase my design works. Browse thru and enjoy!</span><div></div><div class="shadow"></div></h1>            
+        <div class="lwrap" data-flex="col -center">
+            <h1 data-flex="col around">Welcome to My Folio! I am John Doe, GUI Designer. This is my website where I showcase my design works. Browse thru and enjoy!<div class="shadow"></div></h1>            
             <div>
                 <div class="post">
                     <figure><img src="/images/img1.png" width="960" height="400" alt=""></figure>
-                    <div data-flex="row-center between" data-flex-480="w">
+                    <div data-flex="axis" data-flex-480="w">
                         <div>
                             <h2>Project Name and title </h2>
                             <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
@@ -36,7 +44,7 @@
                 </div>
                 <div class="post">
                     <figure><img src="/images/img2.png" width="960" height="400" alt=""></figure>
-                    <div data-flex="row-center between" data-flex-480="w">
+                    <div data-flex="axis" data-flex-480="w">
                         <div>
                             <h2>Project Name and title </h2>
                             <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
@@ -46,7 +54,7 @@
                 </div>
                 <div class="post">
                     <figure><img src="/images/img3.png" width="960" height="400" alt=""></figure>
-                    <div data-flex="row-center between" data-flex-480="w">
+                    <div data-flex="axis" data-flex-480="w">
                         <div>
                             <h2>Project Name and title </h2>
                             <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
@@ -56,7 +64,7 @@
                 </div>
                 <div class="post">
                     <figure><img src="/images/img4.png" width="960" height="400" alt=""></figure>
-                    <div data-flex="row-center between" data-flex-480="w">
+                    <div data-flex="axis" data-flex-480="w">
                         <div>
                             <h2>Project Name and title </h2>
                             <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
@@ -65,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hlinks links-pagination">
+            <div class="links-pagination" data-flex="center" data-childs="-center center">
                 <a href="#" class="active">1</a>
                 <a href="#">2</a>
                 <a href="#">3</a>
@@ -75,7 +83,7 @@
         <footer>
             <div class="lwrap" data-flex="row-start between w">
                 <div data-flex="col">
-                    <div class="hlinks links-social">
+                    <div class="links-social" data-flex="w">
                         <a href="#"><i class="icon-tw"></i></a>
                         <a href="#"><i class="icon-fb"></i></a>
                         <a href="#"><i class="icon-fl"></i></a>

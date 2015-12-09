@@ -38,7 +38,7 @@
                         <div class="preview" data-flex="col -center">
                             <h1>hello</h1>
                             <p>My name is Rafi. I am a Graphic Designer, and this is my online space to showcase my works.</p>
-                            <a href="#" class="btn btn-default"><em>see my works</em><i class="icon-arrow"></i></a>
+                            <a href="#" class="btn btn-default">see my works</a>
                         </div>
                         <p><span>Pixelatic’s Blog Update:</span> Complete Guide to Blog Advertising <a>http://bit.ly/bINts7</a></p>
                         <a href="#top" class="btn btn-top">go to top</a>
@@ -197,7 +197,7 @@
                                     <input type="email" placeholder="Your Email Address">
                                     <input type="text" placeholder="Your Estimated Budget">
                                     <textarea placeholder="Your Project Description"></textarea>
-                                    <button><span class="btn btn-default"><em>submit now</em><i class="icon-arrow"></i></span></button>
+                                    <button><span class="btn btn-default">submit now</span></button>
                                 </form>
                             </div>
                             <div class="contact" data-flex-640>                                        

@@ -84,11 +84,11 @@
     box-shadow: 0.5px 0.9px 0 white, inset 0 3px 3px rgba(0, 0, 0, 0.1);
     background-color: #e0e0e0;
 }
-.btn-default, a.btn-default{
+.btn-default{
     min-width: 223px;
     height: 42px;
-    padding: 0px 20px;
-    background-color: #6b4848;
+    padding: 0px 53rem 0px 20rem;
+    background: #6b4848 url(/images/icons/arrow.png)no-repeat right 19rem center;
     box-shadow: 0 1px 0 white, inset 0 2px 2px rgba(0, 0, 0, 0.75);
     color: white;
     font-family: Helvetica Condensed;
@@ -97,10 +97,7 @@
     text-transform: uppercase;
     border-radius: 21px;
 }
-.btn-default i{
-    margin: 0px -2px 0px 15px;
-}
-.btn-top, a.btn-top{
+.btn-top{
     min-width: 96px;
     height: 32px;
     background-image: linear-gradient(to top, #eee 0%, #f6f6f6 90%, white 92%, white 100%);

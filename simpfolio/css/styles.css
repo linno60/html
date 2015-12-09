@@ -2,12 +2,6 @@
 
 /* FONTS */
 
-/*
-This CSS resource incorporates links to font software which is the valuable copyrighted
-property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
-redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
-Imaging with any questions regarding Web Fonts:  http://www.fonts.com
-*/
 @font-face {
     font-family: "Bebas";
     src: url("../fonts/fonts.com/80e50e80-4003-4876-ba9f-53b2dd6d6160.woff2") format("woff2"), url("/fonts/fonts.com/9a98e631-1f06-461b-a6a7-ba7822473018.woff") format("woff");
@@ -29,12 +23,10 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     font-weight: 400;
     text-transform: uppercase;
     color: silver;
-    padding: 0px 15px;    
+    padding: 0px 15rem;    
     height: 28px;
     position: relative;
     letter-spacing: 0.01em;
-}
-.links-nav a, .links-nav a:first-child, .links-nav a:last-child{
     margin: 2px 14px;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
@@ -57,9 +49,6 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     right: -14px;
     border-left: 14px solid #fddecb;
 }
-.links-nav{
-    justify-content: flex-end;
-}
 .links-pagination{
     padding-bottom: 52px;
 }
@@ -79,19 +68,22 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     background-image: linear-gradient(to top, #292832 0%, #393f45 100%);
     color: #fcb5b5;    
 }
+.links-social{
+    margin-left: -9px;
+}
 .links-social a{
     margin: 0px 10px 10px 9px;
 }
 .btn-web i{
     margin: 3px -6px 0px 15px;
 }
-a.btn-web{
+.btn-web{
     margin: 10px 5px 20px 0px;
     color: white;
     font-size: 15px;
     font-family: Bebas;
     min-width: 197px;
-    min-height: 37px;
+    height: 37px;
     border-radius: 19px;
     padding: 4px 5px 0px 5px;
     background-color: #fdc502;
@@ -133,10 +125,10 @@ header{
     border-bottom: 1px solid white;
 }
 header .lwrap{
-    min-height: 81px;
-    padding: 10px 11px 10px 10px;
+    padding: 24rem 11px 24rem 10px;
 }
 h1{
+    width: 100%;
     position: relative;
     text-shadow: 0.5px 0.9px 2px rgba(206, 97, 97, 0.75);
     color: white;
@@ -144,18 +136,14 @@ h1{
     font-size: 25px;
     font-weight: 700;
     text-align: center;
-    min-height: 101px;
     line-height: 30px;
-    padding: 3px 0px 3px 0px;
-    margin: 48px 0px 17px 0px;
-    background: #ff7373 url("../images/shadow1.png")no-repeat center top;
-}
-h1 > span{
-    padding: 0px 30px 4px 30px;
-}
-h1 > div{
-    height: 1px;
-    background: url("../images/dashed.png")repeat-x;
+    padding: 18rem 30rem 23rem 30rem;
+    margin: 48rem 0px 17px 0px;
+    background: 
+        url("../images/dashed.png")repeat-x center top 8px,
+        url("../images/dashed.png")repeat-x center bottom 8px,
+        url("../images/shadow1.png")no-repeat center top,
+        #ff7373;
 }
 h1:before, h1:after{
     content: "";
@@ -176,7 +164,7 @@ h1:after{
 .post{
     color: black;
     font-family: "Trebuchet MS";
-    padding: 58px 0px 55px 0px;
+    padding: 58rem 0px 55rem 0px;
     background: url("../images/border.png")repeat-x left bottom;
     box-shadow: 0 1px 0 rgba(255,244,213,.5);
 }
@@ -186,7 +174,7 @@ h1:after{
 }
 .post > figure{
     position: relative;
-    margin-bottom: 36px;
+    margin-bottom: 36rem;
 }
 .post figure:after{
     content: "";
@@ -208,8 +196,7 @@ footer{
     border-top: 1px solid white;
 }
 footer .lwrap{
-    padding: 22px 10px 10px 10px;
-    min-height: 132px;
+    padding: 22px 10px 46px 10px;
 }
 footer span{
     color: #878787;

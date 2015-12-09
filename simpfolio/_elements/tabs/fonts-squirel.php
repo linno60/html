@@ -2,4 +2,4 @@
     <input type="file" name="archive" accept=".zip" autocomplete="off" />
 </form>
 
-<textarea id="fonts-squirel-parsed"><?=$D['fonts_squirel']?></textarea>    
+<textarea id="fonts-squirel-parsed"><?= $D['fonts_squirel'] ?></textarea>    
