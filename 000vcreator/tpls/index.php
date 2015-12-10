@@ -101,7 +101,7 @@
             <div class="banner" data-flex="axis">
                 <h2>best online video creator</h2>
                 <a href="#" class="btn btn-default">see demo</a>
-                <a href="#" class="btn btn-alt">see pricing</a>
+                <a href="#" class="btn btn-default">see pricing</a>
             </div>
             <footer>
                 <div class="footer" data-flex="around" data-flex-640="vstripe">

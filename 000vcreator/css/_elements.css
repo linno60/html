@@ -31,55 +31,30 @@
     font-size: 12px;
     text-decoration: none;    
 }
-a.btn-alt{
+.btn-default:active, .btn-default:hover, .btn-default:focus{
     color: black;
-    background: White;
+    background: url(/images/icons/arrowb.png) no-repeat right 32px center,
+        linear-gradient(white, white) left bottom / calc(100% - 12px) no-repeat,
+        linear-gradient(white, white) right top / 100% calc(100% - 12px) no-repeat,
+        linear-gradient(135deg, black, black 48%, transparent 50%) right bottom / 12px 12px no-repeat;  
 }
-.btn-alt i, .btn-default i{
-    margin: 0px 20px;
-}
-a.btn-default{
-    color: #fccb04;
-    background: #0a131d;
-}
-.btn-default, .btn-alt{
-    min-width: 262px;
+.btn-default{
+    width: 262px;
     height: 61px;
-    position: relative;   
+    position: relative;
     font-family: Arial;
     font-size: 20px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 23px;
     text-transform: uppercase;
-    padding: 2px 5px;
-    margin: 0px 10px 0px 0px;
-}
-.btn-default:before, .btn-default:after, .btn-alt:before, .btn-alt:after{
-    content: "";
-    position: absolute;
-}
-.btn-default:before{
-    background: #0a131d;
-}
-.btn-alt:before{
-    background: white;
-}
-.btn-default:after{
-    border-top: 11px solid white; 
-}
-.btn-alt:after{
-    border-top: 11px solid #0a131d; 
-}
-.btn-default:before, .btn-alt:before{
-    width: 10px;
-    height: 50px;
-    right: -10px;
-    top: 0px;
-}
-.btn-default:after, .btn-alt:after{
-    right: -10px;
-    bottom: 0px;    
-    border-right: 10px solid transparent; 
+    padding: 0px 70px 0px 5px;  
+    text-align: center;
+    white-space: nowrap;  
+    color: #fccb04;
+    background: url(/images/icons/arroww.png) no-repeat right 32px center,
+        linear-gradient(black, black) left bottom / calc(100% - 12px) no-repeat,
+        linear-gradient(black, black) right top / 100% calc(100% - 12px) no-repeat,
+        linear-gradient(135deg, white, white 49%, transparent 50%) right bottom / 12px 12px no-repeat;  
 }
 .title{
     color: #0a131d;

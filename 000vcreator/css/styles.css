@@ -39,21 +39,14 @@
     letter-spacing:-0.01em;
     text-decoration: none;
 }
-.btn-default{
-    color: #fccb04;
-    background: url(/images/icons/arroww.png) no-repeat right 32rem center,
-        linear-gradient(black, black) left bottom / calc(100% - 12rem) no-repeat,
-        linear-gradient(black, black) right top / 100% calc(100% - 12rem) no-repeat,
-        linear-gradient(135deg, white, white 49%, transparent 50%) right bottom / 12rem 12rem no-repeat;  
-}
-.btn-alt{
+.btn-default:active, .btn-default:hover, .btn-default:focus{
     color: black;
     background: url(/images/icons/arrowb.png) no-repeat right 32rem center,
         linear-gradient(white, white) left bottom / calc(100% - 12rem) no-repeat,
         linear-gradient(white, white) right top / 100% calc(100% - 12rem) no-repeat,
         linear-gradient(135deg, black, black 48%, transparent 50%) right bottom / 12rem 12rem no-repeat;  
 }
-.btn-default, .btn-alt{
+.btn-default{
     min-width: 262rem;
     height: 61rem;
     position: relative;
@@ -64,7 +57,12 @@
     text-transform: uppercase;
     padding: 0px 70rem 0rem 5px;  
     text-align: center;
-    white-space: nowrap;     
+    white-space: nowrap;  
+    color: #fccb04;
+    background: url(/images/icons/arroww.png) no-repeat right 32rem center,
+        linear-gradient(black, black) left bottom / calc(100% - 12rem) no-repeat,
+        linear-gradient(black, black) right top / 100% calc(100% - 12rem) no-repeat,
+        linear-gradient(135deg, white, white 49%, transparent 50%) right bottom / 12rem 12rem no-repeat;  
 }
 .title{
     color: #0a131d;
@@ -237,7 +235,7 @@ body{
     background:#fccb04;
     padding: 12px 20rem 8px 26rem;
 }
-.banner .btn-default, .banner .btn-alt{
+.banner .btn-default{
     margin-left: 17rem;
 }
 .banner h2{
@@ -309,10 +307,10 @@ body{
         font-size: 18px;
         height: 50px;
     }
-    .btn-alt, .btn-default{padding: 20rem;}
-    .btn-alt{background: white;}
+    .btn-default{padding: 20rem;}
+    .btn-default:active, .btn-default:hover, .btn-default:focus{background: white;}
     .btn-default{background: black;}
-    .banner .btn-default, .banner .btn-alt{
+    .banner .btn-default{
         height: 40px;
         font-size: 12px;
         min-width: 228rem;

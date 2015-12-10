@@ -14,6 +14,10 @@
 .icon-fl {width: 32px; height: 32px; background: url('../images/icons/fl.png');}
 .icon-tw {width: 32px; height: 32px; background: url('../images/icons/tw.png');}
 .icon-yt {width: 32px; height: 32px; background: url('../images/icons/yt.png');}
+.icon-fb:hover {background: url('../images/icons/fb-hover.png');}
+.icon-fl:hover {background: url('../images/icons/fl-hover.png');}
+.icon-tw:hover {background: url('../images/icons/tw-hover.png');}
+.icon-yt:hover {background: url('../images/icons/yt-hover.png');}
 
 /* ELEMENTS */
 

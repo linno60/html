@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="lwrap">
-            <header class="header" data-flex="axis w" data-flex-800="col">
+            <header class="header" data-flex="axis" data-flex-800="vaxis">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="381" height="37" alt="V4Portfolio">
                 </a>
@@ -86,7 +86,7 @@
             </div>
             <footer data-flex="stripe w" data-flex-640="col -center">
                 <div data-flex="col">
-                    <nav class="links-footer" data-flex="-center">
+                    <nav class="links-footer" data-flex="-center center w">
                         <a href="#">home</a>|
                         <a href="#">about</a>|
                         <a href="#">portfolio</a>|
@@ -97,7 +97,7 @@
                 </div>
                 <div data-flex="col" class="social">
                     <span>follow us</span>
-                    <div class="links-social" data-flex="-center">
+                    <div class="links-social" data-flex="-center center">
                         <a href="#"><i class="icon-tw"></i></a>
                         <a href="#"><i class="icon-fb"></i></a>
                         <a href="#"><i class="icon-in"></i></a>

@@ -84,11 +84,14 @@
     box-shadow: 0.5px 0.9px 0 white, inset 0 3px 3px rgba(0, 0, 0, 0.1);
     background-color: #e0e0e0;
 }
+.btn-default i{
+    margin: 2px 0px 0px 13px;
+}
 .btn-default{
     min-width: 223px;
     height: 42px;
-    padding: 0px 53rem 0px 20rem;
-    background: #6b4848 url(/images/icons/arrow.png)no-repeat right 19rem center;
+    padding: 0px 20rem 0px 20rem;
+    background: #6b4848;
     box-shadow: 0 1px 0 white, inset 0 2px 2px rgba(0, 0, 0, 0.75);
     color: white;
     font-family: Helvetica Condensed;
