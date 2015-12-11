@@ -96,7 +96,7 @@ figure img, #logo img{
 /* $------------------------------------------------------------------------- */
 .lwrap{
     max-width: 982px;
-    padding: 0px 10px;
+    padding: 0px 10rem;
 }
 .header{
     padding: 38rem 0px;
@@ -110,17 +110,11 @@ body{
 .wrap{
     position: relative;
     background: white;
-    padding: 32rem 31rem 38rem 31rem;
-}
-.wrap:after{
-    content: "";
-    position: absolute;
-    background: url("../images/border1.png");
-    width: calc(100% + 30px);
-    height: calc(100% + 30px);
-    z-index: -1;
-    top: -15px;
-    left: -15px;
+    padding: 47rem 46rem 52rem 46rem;
+    background: linear-gradient(white, white) center center / calc(100% - 30rem) calc(100% - 30rem) no-repeat,
+        linear-gradient(white, white) center center / calc(100% - 30rem) calc(100% - 30rem) no-repeat,
+        url("../images/border1.png");
+    margin: -15rem;
 }
 .slider{
     padding: 28rem 0px 27rem 0px;
@@ -197,7 +191,7 @@ body{
     line-height: 24px;
 }
 footer{
-    padding: 40rem 4px 36rem 2px;
+    padding: 41rem 4px 36rem 2px;
 }
 footer span{
     color: black;
@@ -224,7 +218,7 @@ footer > div:first-child{
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
     .links-nav a{font-size: 11px;}
-    .links-nav a:last-child {margin-right: 25px;}
+    .links-nav a:last-child {margin-right: 25rem;}
 }
 @media (max-width: 640px) {
     footer > div:first-child {padding: 0px 0px 10px 0px;}

@@ -18,22 +18,24 @@
     </head>
     <body>
         <div class="top-bar">
-            <div class="lwrap" data-flex="axis">
-                <div class="links-top" data-flex>
-                    <a href="#" class="active">sitemap</a>|
-                    <a href="#">search</a>|
-                    <a href="#">user area</a>
-                </div>
-                <div class="links-social" data-flex="end">
-                    <a href="#" class="active"><i class="icon-fb"></i></a>
-                    <a href="#"><i class="icon-tw"></i></a>
-                    <a href="#"><i class="icon-rss"></i></a>
+            <div class="lwrap">
+                <div data-flex="axis">
+                    <div class="links-top" data-flex>
+                        <a href="#" class="active">sitemap</a>|
+                        <a href="#">search</a>|
+                        <a href="#">user area</a>
+                    </div>
+                    <div class="links-social" data-flex="end">
+                        <a href="#" class="active"><i class="icon-fb"></i></a>
+                        <a href="#"><i class="icon-tw"></i></a>
+                        <a href="#"><i class="icon-rss"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="lwrap">
             <header>
-                <div data-flex="axis">
+                <div data-flex="axis" data-flex-640="vaxis">
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="285" height="36" alt="Freefiles">
                     </a>
@@ -58,7 +60,7 @@
                     <img src="/images/slider.png" width="981" height="420" alt="">
                     <figcaption data-flex="-center center">
                         <strong>Crysis 2 - Be The Weapon Trailer</strong>
-                        <small>xbox360, rated mature</small>
+                        <small>xbox 360, rated mature</small>
                         <a href="#" class="btn btn-default">Watch Now!</a>
                     </figcaption>
                 </figure>
@@ -68,7 +70,7 @@
                     <a href="#"></a>
                 </div>
             </div>
-            <div class="content-wrap">
+            <div class="content-wrap" data-childs-480="vstripe">
                 <div data-flex="stripe">
                     <div>
                         <h2 class="title">Hello Stranger!</h2>
@@ -95,10 +97,24 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id molestie enim. Suspendisse consequat urna non ante gravida euismod. In in nibh vestibulum at tellus viverra nulla.</p>                  
                         <div class="slider-sm" data-flex="axis">
                             <a href="#"><i class="icon-prev"></i></a>
-                            <figure><img src="/images/img.png" width="134" height="103" alt=""></figure>
-                            <figure><img src="/images/img.png" width="134" height="103" alt=""></figure>
-                            <figure><img src="/images/img.png" width="134" height="103" alt=""></figure>
-                            <figure><img src="/images/img.png" width="134" height="103" alt=""></figure>
+                            <div data-flex="-start between" data-flex-640="-start between w">
+                                <figure>
+                                    <img src="/images/img.png" width="134" height="103" alt="">
+                                    <figcaption data-flex="vaxis"><span>xbox 360, mature</span><a href="#">title 1 goes here</a></figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/img.png" width="134" height="103" alt="">
+                                    <figcaption data-flex="vaxis"><span>xbox 360, mature</span><a href="#">title 2 goes here</a></figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/img.png" width="134" height="103" alt="">
+                                    <figcaption data-flex="vaxis"><span>xbox 360, mature</span><a href="#">title 3 goes here</a></figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/img.png" width="134" height="103" alt="">
+                                    <figcaption data-flex="vaxis"><span>xbox 360, mature</span><a href="#">title 4 goes here</a></figcaption>
+                                </figure> 
+                            </div>
                             <a href="#"><i class="icon-next"></i></a>
                         </div>
                     </div>
@@ -113,8 +129,8 @@
                     </div>
                 </div>
             </div>
-            <footer data-flex="stripe">
-                <nav class="links-footer" data-flex="w">
+            <footer data-flex="stripe"  data-flex-640="vstripe">
+                <nav class="links-footer" data-flex="w" data-flex-640="center">
                     <a href="#">Home</a>|
                     <a href="#">About</a>|
                     <a href="#">Services</a>|

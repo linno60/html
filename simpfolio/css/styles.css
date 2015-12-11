@@ -26,32 +26,21 @@
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: silver;
-    padding: 0px 15rem;    
+    color: silver;   
     height: 28px;
     position: relative;
     letter-spacing: 0.01em;
-    margin: 2px 14px;
+    margin-bottom: 4px;
+    padding:0px 29px;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: black;    
-    background-color: #fddecb;
-}
-.links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before,
-.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
-    content: "";
-    border-top: 14px solid transparent;
-    border-bottom: 14px solid transparent;   
-    position: absolute;
-    top: 0px;
-}
-.links-nav a:before{
-    left: -14px;
-    border-right: 14px solid #fddecb;  
-}
-.links-nav a:after{
-    right: -14px;
-    border-left: 14px solid #fddecb;
+    background: 
+        linear-gradient(135deg, #fddecb, #fddecb 49%, transparent 50%) right bottom / 14px 14px no-repeat,
+        linear-gradient(-135deg, #fddecb, #fddecb 49%, transparent 50%) left bottom / 14px 14px no-repeat,
+        linear-gradient(45deg, #fddecb, #fddecb 49%, transparent 50%) right top / 14px 14px no-repeat,
+        linear-gradient(-45deg, #fddecb, #fddecb 49%, transparent 50%) left top / 14px 14px no-repeat,
+        linear-gradient(90deg, transparent 0%, transparent 14px, #fddecb 14px, #fddecb calc(100% - 14px), transparent calc(100% - 14px), transparent 100%);
 }
 .links-pagination{
     padding-bottom: 52px;
@@ -222,6 +211,8 @@ footer a:active, footer a:hover, footer a:focus{
     text-decoration: none;
 }
 .shadow{
+    left: 50%;
+    transform: translateX(-50%);
     background: url("/images/shadow2.png")no-repeat center top;
 }
 .shadow, .post figure:after{
