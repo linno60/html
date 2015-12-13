@@ -23,12 +23,15 @@
 }
 .links-top a, .links-footer a{
     font-family: Arial;
-    font-size: 12px;
-    margin: 0px 10rem 0px 5px;
+    font-size: 12px;    
+}
+.links-footer a{
+    margin: 0px 8rem 0px 5px;
 }
 .links-top a{
     color: #818082;
     letter-spacing: 0.02em;
+    margin: 0px 10rem 0px 5px;
 }
 .links-footer a{
     color: #8e8e8e;
@@ -90,6 +93,7 @@
     max-width: 261px;
     border-radius: 17px;
     flex-grow: 1;
+    width: 100%;
     box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.35);
 }
 .form-search input{
@@ -97,7 +101,7 @@
     background: none;
     height: 32px;
     flex-grow: 1;
-    padding: 0px 16px;
+    padding: 0px 13px;
     color: #fff;
     font-family: Arial;
     font-size: 11px;
@@ -384,4 +388,5 @@ footer > span > a:active, footer > span > a:hover, footer > span > a:focus{
     .slider-sm figure {width: 50%;}
     .slider-lg figcaption strong {font-size: 16px;}
     footer > span{text-align: center;}
+    .contact figure {height: 140px;}
 }

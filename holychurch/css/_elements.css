@@ -1,0 +1,51 @@
+.btn-default{
+    min-width: 144px;
+    height: 39px;
+    background: linear-gradient(white, #fffefb);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(1, 1, 1, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.71);
+    text-shadow: 0.5px 0.9px 1px white;
+    color: #58593c;
+    font-family: "Trajan Bold";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.marker li{
+    color: #6d6d6d;
+    font-family: Georgia;
+    font-size: 12px;
+    line-height: 29px;
+    padding-left: 10px;
+}
+.marker li:before{
+    width: 3px;
+    height: 3px;
+    background: #6d6d6d;
+}
+.links-controls a{
+    width: 16px;
+    height: 16px;
+    background: #ffeed1 linear-gradient(transparent, rgba(0,0,0,.31));
+    border: 1px solid #a38766;
+    box-shadow: 0 0 2px rgba(0,0,0,.41);
+    margin: 5px;
+    border-radius: 50%;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background-color: #fafafa;
+    border: 1px solid #fbfaf9;
+    box-shadow: 0 0 3px black;
+}
+.links-nav{
+    font-family: "Trajan";
+    font-size: 14px;
+    color: #e0e0e0;
+}
+.links-nav a{
+    color: #333423;
+    margin: 5px 24px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #575a2e;
+}

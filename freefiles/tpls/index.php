@@ -130,7 +130,7 @@
                 </div>
             </div>
             <footer data-flex="stripe"  data-flex-640="vstripe">
-                <nav class="links-footer" data-flex="w" data-flex-640="center">
+                <nav class="links-footer" data-flex="w" data-flex-640="center w">
                     <a href="#">Home</a>|
                     <a href="#">About</a>|
                     <a href="#">Services</a>|
