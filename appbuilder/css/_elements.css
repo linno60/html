@@ -1,0 +1,29 @@
+.links-nav a{
+    text-shadow: 0 1px 0 white;
+    color: #999;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    margin: 10px 20px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: black;
+}
+.links-nav:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22);
+}
+.lbl-default{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-family: HelveticaNeue Bold;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    text-align: center;
+}
