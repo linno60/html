@@ -45,7 +45,7 @@
                 <figure><img src="/images/iphone.png" width="377" height="626" alt=""></figure>
             </div>
             <div class='articles'>
-                <div data-flex='stripe'>
+                <div data-flex='stripe w'>
                 <article>
                     <h2>From Popcorn to Popova</h2>
                     <time>Friday 23 April, 2010</time>

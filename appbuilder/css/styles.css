@@ -125,7 +125,11 @@ header > div{
     margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
-    .content > figure {
-    margin-right: 10px;
+    .content > figure {margin-right: 10px;}
 }
+@media (max-width: 640px) {
+    .articles article{width: 48%;}
+}
+@media (max-width: 480px) {
+    .content > figure {display: none;}
 }
