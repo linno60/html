@@ -58,9 +58,13 @@
     font-family: Helvetica;
     font-size: 12px;
 }
-.form-wrap .btn-submit{
+.btn-submit{
     padding: 0px 12px;
     height: 23px;
+    color: white;
+    font-weight: 700;
+    font-family: Helvetica;
+    font-size: 12px;
     border-radius: 12px;
     background:#9bbc2c linear-gradient(rgba(255,255,255,.04), rgba(0,0,0,.04));
 }

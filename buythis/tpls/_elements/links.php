@@ -12,7 +12,7 @@
     <a href='#'>products</a>
     <a href='#'>product</a>
 </div>
-<div class='links-account' data-flex>
+<div class='links-account' data-flex data-childs="-center">
     <a href='#'><i class="icon-user"></i>my account</a>
     <a href='#'><i class="icon-cart"></i>my shopping cart</a>
 </div>

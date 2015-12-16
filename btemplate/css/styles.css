@@ -70,25 +70,27 @@
     left: 11px;
 }
 .lbl-default{
+    height: 44px;
     width: 44px;
     min-width: 44px;
-    height: 44px;
-    background:url("../images/lblshadow.png"), linear-gradient(#2d3844, #222a33);
+    background:url("../images/lblshadow.png")no-repeat center top, linear-gradient(#2d3844, #222a33);
     border: 1px solid white;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.1);
     font-family: LucidaGrande;
 }
 .lbl-default small{
     background: rgba(0,0,0,.3);
-    line-height: 17px;
     font-size: 11px;
     color: rgba(237,233,220,.5);
+    border-radius: 0px 0px 4px 4px;
+    height: 17px;
+    padding-bottom: 4px;
 }
 .lbl-default span{
     flex-grow: 1;
     font-size: 15px;
-    color: #ede9dc;
+    color: #ede9dc; 
 }
 blockquote{
     border-top: 2px solid rgba(0,0,0,.5);
@@ -165,6 +167,7 @@ header .lwrap{
     margin: 0px 10rem 5rem 0px
 }
 .content{
+    width: 100%;
     background: url("../images/shadowtop.png")repeat-x center top, url("../images/shadowbottom.png")repeat-x center bottom, #ede9dc;
     border: 2px solid white;
     border-radius: 6px;
@@ -197,6 +200,7 @@ header .lwrap{
     padding: 0px 0px 0px 5px;
 }
 .post{
+    width: 100%;
     padding: 17px 0px 22px 0px;
     border-bottom: 1px solid rgba(0,0,0,.2);
     margin-bottom: 3px;
@@ -252,12 +256,8 @@ header .lwrap{
     max-width: 88px;
 }
 @media (max-width: 640px) {
-    .sidebar{
-        width: 40%;
-    }
+    .sidebar{width: 40%;}
 }
 @media (max-width: 480px) {
-    .sidebar{
-        padding: 0px 10px 20px 10px;
-    }
+    .sidebar{padding: 0px 10px 20px 10px;}
 }

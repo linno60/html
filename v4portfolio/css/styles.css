@@ -108,8 +108,6 @@ body{
     margin: 0px 0px 12px 1px;
 }
 .wrap{
-    position: relative;
-    background: white;
     padding: 47rem 46rem 52rem 46rem;
     background: linear-gradient(white, white) center center / calc(100% - 30rem) calc(100% - 30rem) no-repeat,
         linear-gradient(white, white) center center / calc(100% - 30rem) calc(100% - 30rem) no-repeat,
@@ -146,6 +144,7 @@ body{
     letter-spacing: -0.01em;
 }
 .services article p{
+    width: 100%;
     color: #666666;
     font-family: Arial;
     font-size: 13px;
