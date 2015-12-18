@@ -205,7 +205,7 @@ header .lwrap:before{
     background: linear-gradient(#fcf9f1, #fcf9f1);
     padding: 47px 36px 39px 43px;
 }
-.wrap .lwrap:before, .wrap .lwrap:after{
+/*.wrap .lwrap:before, .wrap .lwrap:after{
     content: "";
     position: absolute;
     width: 1016rem;
@@ -221,7 +221,7 @@ header .lwrap:before{
     background: url("../images/shadowbottom.png");
     bottom: -22rem;
     left: -20rem;
-}
+}*/
 .sidebar {
     width: 25.1%;
     flex-shrink: 0;
