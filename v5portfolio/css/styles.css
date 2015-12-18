@@ -1,0 +1,220 @@
+/* ICONS */
+
+.icon-fb {width: 34px; height: 34px; background: url('../images/icons/fb.png');}
+.icon-next {width: 20px; height: 36px; background: url('../images/icons/next.png');}
+.icon-pic {width: 36px; height: 35px; background: url('../images/icons/pic.png');}
+.icon-prev {width: 26px; height: 45px; background: url('../images/icons/prev.png');}
+.icon-tw {width: 36px; height: 35px; background: url('../images/icons/tw.png');}
+
+/* ELEMENTS */
+
+.links-nav a{
+    color: #a7262c;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px 14px 2px 13px;
+    padding: 4px 5px 9px 5px;
+    text-transform: uppercase;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: url("../images/nav.png")no-repeat center bottom;
+    color: black;
+}
+.links-social a{
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    margin-right: 11px;
+    text-align: right;
+}
+.links-social a:active, .links-social a:hover, .links-social a:focus{
+    text-decoration: underline;
+}
+.links-social a i{
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+.btn-submit{
+    color: black;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 159px;
+    height: 35px;
+    padding: 10px 15px 10px 15px;
+    background:url("../images/submit.png");
+}
+.footer form input{
+    padding-right: 20px;
+    margin: 0px 5px 13px 0px;
+    height: 34px;
+    background: url("../images/right-sm.png")no-repeat right center,
+        url("../images/input.png")no-repeat center bottom;
+}
+.footer form textarea{
+    padding: 0px 20px 30px 0px;
+    margin: 9px 0px 14px 0px;
+    height: 135px;
+    background: url("../images/right-lg.png")no-repeat right center,
+        url("../images/input.png")no-repeat center bottom;
+}
+.footer form input, .footer form textarea{
+    color: #333;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+.footer form input::-webkit-input-placeholder, .footer form textarea::-webkit-input-placeholder{
+    color: #787878;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+.footer form input::-moz-placeholder, .footer form textarea::-moz-placeholder{
+    color: #787878;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+.footer form input:-ms-input-placeholder, .footer form textarea:-ms-input-placeholder{
+    color: #787878;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+label{
+    color: #171616;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    letter-spacing: 0.005em;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+} 
+/* $------------------------------------------------------------------------- */
+body{
+    background:url("../images/bg.png");
+}
+.lwrap{
+    position: relative;
+    padding: 43rem 51rem 3rem 71rem;
+    max-width: 768px;
+    margin: 12px auto 100px auto;
+    background: url("../images/corner1.png")no-repeat left top,
+        url("../images/corner2.png")no-repeat right top,
+        url("../images/corner3.png")no-repeat right bottom,
+        url("../images/corner4.png")no-repeat left bottom,
+        url("../images/top.png")repeat-x center top,
+        url("../images/bottom.png")repeat-x center bottom,
+        url("../images/side.png")repeat-y 40rem 102px,
+        url("../images/right.png")repeat-y right center,
+        url("../images/cell.png");
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,.7);
+}
+.lwrap:after, .lwrap:before{
+    content: "";
+    position: absolute;
+    background-size: 100%;
+}
+.lwrap:after{
+    width: 280rem;
+    height: 680rem;
+    background: url("../images/goods.png");
+    right: -252rem;
+    top: -2rem;
+}
+.lwrap:before{
+    right: -200rem;
+    width: 212rem;
+    height: 678rem;
+    background: url("../images/drawing.png");
+    z-index: -1;
+    top: -1rem;
+}
+header{
+    padding: 0px 10px 56px 0px;
+}
+h2{
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.about{
+    margin-bottom: 35px;
+    padding: 0px 0px 56px 15px;
+    background: url("../images/divider1.png")no-repeat center bottom;
+}
+.portfolio{
+    margin-bottom: 48px;
+    padding: 0px 0px 36px 14px;
+    background: url("../images/divider2.png")no-repeat center bottom;
+}
+.portfolio > div{
+    position: relative;
+}
+.portfolio > div > div{
+    padding: 13px 11px 0px 0px;
+}
+.portfolio figure img{
+    border: 1px solid white;
+}
+.portfolio figure{
+    margin-bottom: 17px;
+    width: 32%;
+    background: rgba(120,120,120,.5);
+    border: 1px solid rgba(120,120,120,.5);
+    padding: 2px;
+}
+.portfolio > div > a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+}
+.portfolio > div > a:first-child{
+    left: -41px;
+}
+.portfolio > div > a:last-child{
+    right: -19px;
+}
+.footer > *{
+    width: 48%;
+}
+p{
+    color: #171616;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 8px;
+    letter-spacing: -0.003em;
+}
+.footer{
+    padding: 0px 0px 62px 16px;
+}
+.footer h2{
+    margin-bottom: 13px;
+}
+.footer figure{
+    max-width: 200px;
+    margin: 47px 0px 0px 33px;
+}
+.footer form{
+    padding: 36px 22px 0px 3px;
+}
+.copyright{
+    color: white;
+    font-family: Lucida Sans Unicode;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+@media (max-width: 1200px) {
+    .lwrap:after, .lwrap:before{display:none;}
+}

@@ -1,0 +1,77 @@
+.links-nav a{
+    color: #a7262c;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px 15px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: url("/images/nav.png")no-repeat center bottom;
+    color: black;
+}
+.links-social a{
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: 700;
+}
+.links-social a:active, .links-social a:hover, .links-social a:focus{
+    text-decoration: underline;
+}
+.links-social a i{
+    margin-left: 5px;
+}
+.btn-submit{
+    color: black;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    font-weight: 300;
+    min-width: 159px;
+    height: 35px;
+    padding: 10px 15px 10px 15px;
+    background:url("/images/submit.png");
+}
+input[type="text"]{
+    height: 26px;
+    padding: 0px 10px;
+    background: url("/images/right-sm.png")no-repeat right center,
+        url("/images/input.png")no-repeat center bottom;
+}
+textarea{
+    height: 134px;
+    padding: 10px;
+    background: url("/images/right-lg.png")no-repeat right center,
+        url("/images/input.png")no-repeat center bottom;
+}
+input[type="text"], textarea{
+    width: 100%;
+    max-width: 289px;
+    color: #333;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #787878;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+input[type="text"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #787878;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #787878;
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+label{
+    color: #171616;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    font-weight: 300;
+}

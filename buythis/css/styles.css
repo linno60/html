@@ -354,9 +354,7 @@ footer > div:first-child{
     .sidebar{padding: 0px;}
     .sidebar > div{width: 49%;}
     .content-wrap {margin-bottom: 20px;}
-    footer > div{
-        width: 49%;
-    }
+    footer > div{width: 49%;}
 }
 @media (max-width: 480px) {
     .product-grid > div{width: 49%;}

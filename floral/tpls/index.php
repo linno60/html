@@ -9,17 +9,17 @@
         <link rel="stylesheet" href="css/data-flex.css">
         <link rel="stylesheet" href="css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 980;
+            var LAYOUT_WIDTH = 981;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="vstripe">
+    <body>
         <div>
             <header>
-                <div class="lwrap" data-flex="axis">
+                <div class="lwrap" data-flex="axis" data-flex-800="vaxis">
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="images/logo.png" width="270" height="81" alt="Floral">
                     </a>
@@ -32,7 +32,7 @@
                 </div>
             </header>
             <div class="wrap">
-                <div class="lwrap" data-flex="stripe">
+                <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
                     <div class="content">
                         <div class="post">
                             <div data-flex="axis">
@@ -45,7 +45,7 @@
                             <figure><img src="images/img1.png" width="602" height="220" alt=""></figure>
                             <em>Phasellus vel arcu vitae neque sagittis aliquet ac at purus. Vestibulum varius eros in dui sagittis non ultrices orci hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </em>
                             <p><strong>Sed euismod feugiat sodales.</strong> Vivamus dui ipsum, laoreet vitae euismod sit amet, euismod ac est. Sed turpis massa, convallis vitae facilisis eget, malesuada ullamcorper nibh. Nunc pulvinar augue non felis dictum ultricies. Donec lacinia, enim sit amet volutpat sodales, lorem velit fringilla metus, et semper metus sapien non odio. Nulla facilisi. <a href="#">Praesent gravida suscipit leo</a>, eget fermentum magna malesuada ac. Maecenas pulvinar malesuada elementum. </p>
-                            <div data-flex="end"><a href="#" class="more" data-flex="-center">Read more</a></div>
+                            <div data-flex="end"><a href="#" class="more" data-flex="-center">Read More</a></div>
                         </div>
                         <div class="border"></div>
                         <div class="post">
@@ -59,11 +59,11 @@
                             <figure><img src="images/img2.png" width="602" height="220" alt=""></figure>
                             <em>Phasellus vel arcu vitae neque sagittis aliquet ac at purus. Vestibulum varius eros in dui sagittis non ultrices orci hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </em>
                             <p><strong>Sed euismod feugiat sodales.</strong> Vivamus dui ipsum, laoreet vitae euismod sit amet, euismod ac est. Sed turpis massa, convallis vitae facilisis eget, malesuada ullamcorper nibh. Nunc pulvinar augue non felis dictum ultricies. Donec lacinia, enim sit amet volutpat sodales, lorem velit fringilla metus, et semper metus sapien non odio. Nulla facilisi. <a href="#">Praesent gravida suscipit leo</a>, eget fermentum magna malesuada ac. Maecenas pulvinar malesuada elementum. </p>
-                            <div data-flex="end"><a href="#" class="more" data-flex="-center">Read more</a></div>
+                            <div data-flex="end"><a href="#" class="more" data-flex="-center">Read More</a></div>
                         </div>
-                        <div class="pagination" data-flex="axis">
+                        <div class="pagination" data-flex="stripe">
                             <a href="#">Prev <<</a>
-                            <div data-flex="axis">
+                            <div data-flex="-center center w">
                                 <a href="#">1</a>|
                                 <a href="#">2</a>|
                                 <a href="#">3</a>|
@@ -80,7 +80,7 @@
                             <a href="#">>> Next</a>
                         </div>
                     </div>
-                    <aside class="sidebar">
+                    <aside class="sidebar" data-flex="col">
                         <div>
                             <h2 class="title">Categories</h2>
                             <ul class="links-sidebar" data-flex="col">
@@ -98,7 +98,7 @@
                                 <p><a href="#">Etiam aliquet convallis enim ut Donec at pretium dui</a></p>
                                 <p><a href="#">Nulla sed massa sagittis</a> venenatis Praesent nec tortor nec massa </p>
                                 <p><a href="#">Donec faucibus mollis dolor in ullamcorper.</a></p>
-                                <a href="#" class="more" data-flex="-center">Read more</a>
+                                <a href="#" class="more" data-flex="-center">View More</a>
                             </div>
                         </div>
                         <a href="#" class="btn btn-default">FreePSDFiles.net</a>
@@ -108,10 +108,10 @@
             </div>
         </div>
         <footer>
-            <div class="lwrap" data-flex="stripe">
+            <div class="lwrap" data-flex="stripe w">
                 <div>
                     <h3 class="title">About Us</h3>
-                    <p>Nullam ac urna velit. Pellentesque in arcu tortor. Pellentesque nec est et elit varius pulvinar eget vitae sapien. Aenean vehicula accumsan gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus et lectus in urna consequat consectetur ut eget risus. Nunc augue diam, mattis eu tristique luctus, aliquam vitae massa. Praesent lacinia nisi sit amet risus cursus porta.</p>
+                    <p>Nullam ac urna velit. Pellentesque in arcu tortor. Pellen&shy;tesque nec est et elit varius pulvinar eget vitae sapien. Aenean vehicula accumsan gravida. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus et lectus in urna consequat consectetur ut eget risus. Nunc augue diam, mattis eu tristique luctus, aliquam vitae massa. Praesent lacinia nisi sit amet risus cursus porta.</p>
                 </div>
                 <div>
                     <h3 class="title">Site Page</h3>
