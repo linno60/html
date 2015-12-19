@@ -19,11 +19,11 @@
     <body>
         <div class="lwrap" data-flex="vstripe">            
             <div>
-                <header data-flex="stripe">
+                <header data-flex="-start between" data-flex-480='vaxis'>
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="275" height="46" alt="V5Portfolio">
                     </a>
-                    <nav class="links-nav" data-flex="-start end" data-childs="-center center">
+                    <nav class="links-nav" data-flex="-start end w" data-flex-480="-center center w" data-childs="-center center">
                         <a href="#" class="active">about me</a>
                         <a href="#">portfolio</a>
                         <a href="#">contact</a>
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <footer data-flex="vstripe">
-                <div class="footer" data-flex="stripe">
+                <div class="footer" data-flex="stripe" data-flex-480="vstripe">
                     <div>
                         <h2>get interested? hire me!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipi&shy;scing elit. Proin vitae congue sem. Etiam non nisl ut ligula facilisis cursus quis sed eros. Praesent non augue ultricies turpis posuere dignissim ac non velit. Sed eget mauris purus, elementum aliquet erat. </p>

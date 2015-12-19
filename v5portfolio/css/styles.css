@@ -13,7 +13,7 @@
     font-family: "Trebuchet MS";
     font-size: 15px;
     font-weight: 700;
-    margin: 2px 14px 2px 13px;
+    margin: 2px 14rem 2px 13rem;
     padding: 4px 5px 9px 5px;
     text-transform: uppercase;
 }
@@ -27,7 +27,7 @@
     font-size: 14px;
     font-weight: 700;
     letter-spacing: -0.005em;
-    margin-right: 11px;
+    margin: 5px 11rem 5px 0px;
     text-align: right;
 }
 .links-social a:active, .links-social a:hover, .links-social a:focus{
@@ -91,7 +91,7 @@ label{
     margin-bottom: 2px;
     letter-spacing: 0.005em;
 }
-figure img{
+figure img, #logo img{
     width: 100%;
     height: 100%;
     display: block;
@@ -102,7 +102,7 @@ body{
 }
 .lwrap{
     position: relative;
-    padding: 43rem 51rem 3rem 71rem;
+    padding: 43px 51rem 3px 71rem;
     max-width: 768px;
     margin: 12px auto 100px auto;
     background: url("../images/corner1.png")no-repeat left top,
@@ -137,7 +137,7 @@ body{
     top: -1rem;
 }
 header{
-    padding: 0px 10px 56px 0px;
+    padding: 0px 10rem 56rem 0px;
 }
 h2{
     color: black;
@@ -148,20 +148,20 @@ h2{
     text-transform: uppercase;
 }
 .about{
-    margin-bottom: 35px;
-    padding: 0px 0px 56px 15px;
+    margin-bottom: 35rem;
+    padding: 0px 0px 51rem 15rem;
     background: url("../images/divider1.png")no-repeat center bottom;
 }
 .portfolio{
-    margin-bottom: 48px;
-    padding: 0px 0px 36px 14px;
+    margin-bottom: 48rem;
+    padding: 0px 0px 36rem 14rem;
     background: url("../images/divider2.png")no-repeat center bottom;
 }
 .portfolio > div{
     position: relative;
 }
 .portfolio > div > div{
-    padding: 13px 11px 0px 0px;
+    padding: 13rem 11rem 0px 0px;
 }
 .portfolio figure img{
     border: 1px solid white;
@@ -179,10 +179,10 @@ h2{
     transform: translateY(-70%);
 }
 .portfolio > div > a:first-child{
-    left: -41px;
+    left: -41rem;
 }
 .portfolio > div > a:last-child{
-    right: -19px;
+    right: -19rem;
 }
 .footer > *{
     width: 48%;
@@ -192,21 +192,22 @@ p{
     font-family: Lucida Sans Unicode;
     font-size: 13px;
     line-height: 17px;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     letter-spacing: -0.003em;
 }
 .footer{
-    padding: 0px 0px 62px 16px;
+    padding: 0px 0px 62rem 16rem;
 }
 .footer h2{
     margin-bottom: 13px;
 }
 .footer figure{
     max-width: 200px;
-    margin: 47px 0px 0px 33px;
+    margin: 47rem 0px 0px 33rem;
 }
 .footer form{
-    padding: 36px 22px 0px 3px;
+    max-width: 300px;
+    padding: 36rem 22rem 0px 3px;
 }
 .copyright{
     color: white;
@@ -217,4 +218,20 @@ p{
 }
 @media (max-width: 1200px) {
     .lwrap:after, .lwrap:before{display:none;}
+}
+@media (max-width: 640px) {
+    .portfolio > div{padding: 0px 8px;}
+}
+@media (max-width: 480px) {
+    .portfolio figure{width: 48%;}
+    .lwrap{padding: 43px 40px 3px 45px;
+        background: url("../images/corner1.png")no-repeat left top,
+            url("../images/corner2.png")no-repeat right top,
+            url("../images/corner3.png")no-repeat right bottom,
+            url("../images/corner4.png")no-repeat left bottom,
+            url("../images/top.png")repeat-x center top,
+            url("../images/bottom.png")repeat-x center bottom,
+            url("../images/right.png")repeat-y right center,
+            url("../images/cell.png");
+    }
 }

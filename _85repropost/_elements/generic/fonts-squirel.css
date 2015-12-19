@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'HoeflerText';
+    src: url('/fonts/fontsquirel.com/hoefler_text_black-webfont.eot');
+    src: url('/fonts/fontsquirel.com/hoefler_text_black-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/fontsquirel.com/hoefler_text_black-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

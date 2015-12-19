@@ -1,0 +1,17 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=39b84fce-959c-4b6c-8b22-72026ba14540");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "HelveticaNeue";
+    font-weight: 700;
+    src: url("/fonts/fonts.com/3b303641-706e-4221-94c4-4fb491f4f8ef.woff2") format("woff2"), url("/fonts/fonts.com/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    font-weight: 400;
+    src: url("/fonts/fonts.com/003e12ef-751e-4715-853b-9a1994d021d1.woff2") format("woff2"), url("/fonts/fonts.com/990dea59-fcdd-461d-863d-3517e48e8ed0.woff") format("woff");
+}
