@@ -1,13 +1,13 @@
-figure img{
+figure img, #logo-alt img{
     width: 100%;
     height: 100%;
     display: block;    
 }
 figure{
-   flex-shrink: 0; 
+    flex-shrink: 0; 
 }
 body{
-    background: url("../images/bg.png");
+    background: url("/images/bg.png");
 }
 .lwrap{
     max-width: 960px;
@@ -25,7 +25,6 @@ body{
 }
 .topbar a, .topbar span{
     font-family: Arial;
-    font-size: 12px;
     text-shadow: 0 1px 1px rgba(0,0,0,.7);
 }
 .topbar a{
@@ -50,7 +49,11 @@ body{
     box-shadow: 0px 0px 0px 4px rgba(86,86,89,.04);
 }
 .content-wrap {
-    padding: 20px 10px 122px 10px;
+    padding: 20rem 10px 122rem 10px;
+}
+.content{
+    padding-bottom: 20px;
+    width: 100%;
 }
 .sidebar{
     width: 35.1%;
@@ -58,8 +61,6 @@ body{
     padding-left: 30rem;
 }
 p{
-    font-family: HelveticaNeue;
-    font-size: 12px;
     line-height: 20px;
     color: #444;    
 }
@@ -67,7 +68,7 @@ p{
     margin-bottom: 19px;
 }
 .blog{
-    padding-bottom: 44px;
+    padding-bottom: 44rem;
 }
 .blog p a{
     color: #c63;
@@ -83,7 +84,7 @@ p{
     box-shadow: 0 0 4px rgba(0,0,0,.1);       
 }
 .blog figure{
-    margin-bottom: 25px;
+    margin-bottom: 25rem;
 }
 .description a, .description{
     color: #999;
@@ -92,7 +93,7 @@ p{
     display: inline-block;
     font-family: Georgia;
     font-size: 11px;
-    padding: 2px 0px 19px 0px;
+    padding: 2px 0px 19rem 0px;
     font-style: italic;
     letter-spacing: -0.014em;
 }
@@ -105,7 +106,7 @@ p{
 }
 .blog .post figure {
     float: left;
-    margin: 4px 25px 5px 0px;
+    margin: 4rem 25rem 5rem 0px;
 }
 .twocol p{
     width: 48%;
@@ -114,7 +115,7 @@ p{
     width: 30%;
 }
 .about{
-    padding-bottom: 64px;
+    padding-bottom: 64rem;
 }
 .about figure {        
     margin: -1px 17px 0px 0px;
@@ -122,8 +123,8 @@ p{
 .about .hdr-sm {
     margin-bottom: 31px;
 }
-.related{
-    padding-bottom: 50px;
+.related{    
+    padding-bottom: 50rem;
 }
 .related figure{
     margin-bottom: 12px;
@@ -139,21 +140,24 @@ p{
     color: #c63;
 }
 .message .message, .message .message:last-child {
-    padding: 32px 10px 0px 0px;
+    padding: 32rem 10rem 0px 0px;
     box-shadow: none;
     border-bottom: none;
 }
 .message {
-    padding: 28px 10px 29px 11px;
+    padding: 28rem 10rem 29rem 11rem;
     border-bottom: 1px solid #e2e2e2;
     box-shadow: 0px 1px 0px 0px rgba(255,255,255,.8);
     position: relative;
 }
+.message > div{
+    width: 100%;
+}
 .message:last-child{
-    padding: 28px 10px 21px 11px;
+    padding: 28rem 10rem 21rem 11rem;
 }
 .message figure{
-    margin: -1px 21px 0px 0px;
+    margin: -1rem 21rem 0px 0px;
 }
 .message a:active strong, .message a:hover strong, .message a:focus strong, .message a:active em, .message a:hover em, .message a:focus em{
     color: #c63;
@@ -181,8 +185,6 @@ p{
 }
 .message strong {
     color: #333;
-    font-family: HelveticaNeue;
-    font-size: 12px;
     letter-spacing: 0.03em;
     padding-right: 4px;
 }
@@ -194,7 +196,7 @@ p{
     letter-spacing: -0.01em;
 }
 .message p{
-    margin-top: 15px;
+    margin-top: 15px;    
 }
 .message a:active strong, .message a:hover strong, .message a:focus strong, .message a:active em, .message a:hover em, .message a:focus em{
     color: #c63;
@@ -203,16 +205,16 @@ p{
     color: #444;
 }
 .form-wrap{
-    padding-top: 50px;
+    padding-top: 50rem;
 }
 .form-wrap form{
-    padding-top: 33px;
+    padding-top: 33rem;
 }
 .form-wrap form > div {
     margin-bottom: 20px;
 }
 .form-wrap button {
-    margin: 0px 14px 5px 0px;
+    margin: 0px 14rem 5px 0px;
 }
 .grid figure{
     width: 44.655%;
@@ -252,18 +254,21 @@ p{
 .subscribe small{
     color: #888;
     font-family: Georgia;
-    font-size: 12px;
     line-height: 15px;
 }
 .popular figure {
-    margin: 3px 14px 0px 0px;
+    margin: 3rem 14rem 0px 0px;
+    float: left;
 }
 .popular p {
     margin-bottom: 4px;
 }
 .popular {
     border-bottom: 1px solid #e2e2e2;
-    padding: 13px 10px 16px 19px;
+    padding: 13rem 10rem 16rem 19rem;
+}
+.popular:last-child{
+    border-bottom: none;
 }
 .popular p a {
     color: #444;
@@ -284,6 +289,9 @@ p{
 }
 .flickr figure{
     margin-bottom: 11px;
+    width: 22%;
+    min-width: 50px;
+    max-width: 80px;
 }
 .video .hdr-sm{
     margin-bottom: 36px;
@@ -294,7 +302,7 @@ p{
 }
 footer {
     box-shadow: 0px -9px 0px 0px rgba(44, 39, 39, 0.06);
-    background: url("../images/bgalt.png");
+    background: url("/images/bgalt.png");
 }
 .footer {
     padding: 70px 8px 15px 10px;
@@ -304,7 +312,7 @@ footer {
     padding-top: 1px;
 }
 .footer .hdr-sm:before, .footer .hdr-sm:after{
-    background: url("../images/borderblack.png");
+    background: url("/images/borderblack.png");
 }
 .footer .hdr-sm {
     margin-bottom: 30px;
@@ -339,12 +347,60 @@ footer a:active, footer a:hover, footer a:hover{
 .copyright span{
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
     font-family: Arial;
-    font-size: 12px;
     color: #8c8989;
     letter-spacing: -0.01em;
 }
 @media (max-width: 960px) {
     .links-nav a {
         box-shadow: 0px 1px 0px 0px #d8d8d8, inset 0px 1px 0px 0px rgba(0,0,0,0.05);
+    }
+}
+@media (max-width: 640px) {
+    .sidebar {
+        padding-left: 0rem;
+    }
+    .sidebar > *{
+        width: 100%;
+    }
+    .sidebar > form, .sidebar > .subscribe, .sidebar > .video, .sidebar > .grid{
+        width: 48%;
+    }
+    .subscribe {
+        padding: 0rem 0rem 33rem 0rem;
+    }
+    .sidebar > .video{
+        order: 3;
+    }
+    .sidebar > .tabs-sidebar{
+        order: 4;
+    }
+    .sidebar > .flickr{
+        order: 5;
+    }
+    .sidebar > .links-wrap{
+        order: 6;
+    }
+    .flickr figure{
+        margin-right: 5px;
+    }
+}
+@media (max-width: 480px) {
+    .footer > div {
+        width: 48%;
+    }
+    .blog .post figure {
+        max-width: 200px;
+    }
+    .related article {
+        width: 48%;
+    }
+    .sidebar > form, .sidebar > .subscribe, .sidebar > .video, .sidebar > .grid{
+        width: 100%;
+    }
+    .grid figure {
+        width: 23%;
+    }
+    .links-nav a{
+        width: 20%;
     }
 }

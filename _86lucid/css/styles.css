@@ -1,0 +1,188 @@
+body{
+    background: url("/images/bg.png");
+}
+figure img, #logo img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.topbar{    
+    border-bottom: 1px solid #e2eeee;
+    background: url("/images/topbg.png");
+    box-shadow: 0px 8px 0px 0px rgba(0,0,0,.1);
+}
+.topbar .lwrap{
+    padding: 2px 0px 4px 10px;
+}
+.lwrap{
+    max-width: 1040px;
+    padding: 0px 10px;
+}
+.header{
+    padding: 39rem 39rem 32rem 10rem;
+}
+.social a{
+    font-size: 11px;
+    font-weight: 700;
+    color: #616566;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: -0.03em;
+}
+.social a div{
+    width: 30px;
+    margin-right: 2px;
+}
+.content-wrap{
+    padding: 24rem 0px 12rem 0px;
+}
+.content{
+    padding: 3px 30rem 32rem 0px;
+}
+.sidebar{
+    flex-shrink: 0;
+    width: 22.7%;
+}
+#logo{
+    margin: 0px 10px 10px 0px;
+}
+.post-item{
+    padding-bottom: 74rem;
+}
+.post-side{
+    width: 18%;
+    flex-shrink: 0;
+    padding-bottom: 20px;
+}
+.post-wrap{
+    border: 1px solid #d3d3d3;
+    padding: 6px;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,.05);
+    margin: 10rem 0px 0px 21rem;
+}
+.post{
+    padding: 13rem 34rem 10rem 18rem;
+    background-color: #fff;
+}
+.post h2{
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 23rem;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+}
+.post p{
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 18px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+.post p:last-child{
+    margin-bottom: 8px;
+}
+.post-wrap figure{
+    border: 1px solid #4d8181;
+    padding: 3px;
+    margin: 14rem 1rem 7rem 14rem;
+    background: linear-gradient(#75c5c5, #4d8282);
+}
+.post-side dl{
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.post-side dl:first-child{
+    font-size: 12px;
+}
+.post-side dl > div > div{
+    min-width: 22px;
+    margin-right: 5px;
+}
+.post-side dd a{
+    color: #666666;
+}
+.post-side dd a:active, .post-side dd a:hover, .post-side dd a:focus, footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+.post-side dt{
+    color: #999999;
+}
+.post-side dl:first-child{
+    padding-bottom: 8px;
+    margin-bottom: 7px;
+}
+.post-side dl:first-child, .follow{
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 1px 0px 0px white;
+}
+.follow{
+    padding: 0px 2rem 17rem 7rem;
+    margin-bottom: 29rem;
+}
+.follow span, .follow small{
+    color: #626566;    
+    text-transform: uppercase;   
+}
+.follow span{
+    line-height: 18px;
+}
+.follow small{
+    font-size: 10px;
+    line-height: 9px;
+    letter-spacing: -0.06em;
+}
+.icon-twlg, .icon-tlg {background-size: 100%;width: 80rem; height: 80rem}
+.grid{
+    margin: 40rem 0px 32rem 0px;
+}
+.grid > figure{
+    margin-bottom: 7px;
+    width: 48.5%;
+    background-color: #f8f8f8;
+    padding: 3px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+}
+.sidebar h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 7px 3px;
+    letter-spacing: -0.02em;
+}
+.sidebar .social{
+    padding: 10px 0px 2px 36rem;
+}
+footer{
+    border-top: 1px solid #ccc;
+    box-shadow: inset 0px 1px 0px 0px white;
+    padding: 10px 0px 30rem 0px;
+    margin-right: 13rem;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+footer a{
+    color: #666666;
+}
+footer span{
+    padding-top: 2px;
+    letter-spacing: -0.02em;
+}
+footer > div:first-child{
+    padding-bottom: 20px;
+}
+.tags dt{
+    line-height: 21px;
+}
+@media (max-width: 640px) {
+    .post-side {
+    width: 30%;
+}
+.content {
+    padding: 3px 0rem 32rem 0px;
+}
+}

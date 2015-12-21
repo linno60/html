@@ -23,7 +23,14 @@
         <link href="/_elements/core/js/plugins/codemirror/theme/mdn-like.css" rel="stylesheet">
         
         <!-- Toltipster -->
-        <link href="/_elements/core/js/plugins/tooltipster/css/tooltipster.css" rel="stylesheet">   
+        <link href="/_elements/core/js/plugins/tooltipster/css/tooltipster.css" rel="stylesheet">
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
+            window.onresize = function() {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
+            }
+        </script>
     </head>
     <body class="_work">
         

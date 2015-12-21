@@ -1,0 +1,110 @@
+body{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #666666;
+}
+
+/*LINKS*/
+.links-nav a{
+    margin: 5px 14px;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.links-footer a{    
+    text-transform: uppercase;
+    margin: 2px 10px;
+}
+.links-tag a{
+    text-transform: uppercase;
+    line-height: 14px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus,
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus,
+.links-tag a:active, .links-tag a:hover, .links-tag a:focus{
+    text-decoration: underline;
+}
+.links-pagination{
+    padding-left: 18%;
+}
+.links-pagination a{
+    min-width: 32px;
+    height: 32px;
+    margin: 2px 4px 2px 5px;
+    border: 1px solid #d3d3d3;
+    color: #333;
+    background-color: #f8f8f8;
+}
+.links-pagination a.active, .links-pagination a:active, .links-pagination a:hover, .links-pagination a:focus{
+    background-color: #ededed;
+    border: 1px solid #4e8282;
+}
+.links-focus{
+    width: 100%;
+    max-width: 229px;
+    padding-left: 3px;
+}
+.links-focus a{
+    height: 22px;
+    padding: 2px 12px;
+    margin-bottom: 7px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+}
+.links-focus a.active, .links-focus a:active, .links-focus a:hover, .links-focus a:focus{
+    width: 100%;
+    color: #497b7b;
+}
+
+/*BUTTONS*/
+.btn-search{
+    color: #fff;
+    text-transform: uppercase;
+    background: url("/images/searchbg.png");
+    height: 26px;
+    padding: 5px 10px;
+    max-width: 229px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.btn-follow{
+    box-shadow: inset 0px 0px 0px 3px #f8f8f8;
+    border: 1px solid #d8d8d9;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 11rem;
+    margin: 3px;
+}
+
+/*FORMS*/
+input[type="search"]{
+    height: 36px;
+    outline: none;
+    font-size: 11px;
+    max-width: 229px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #d4d4d4;
+    box-shadow: inset 0px 0px 0px 3px #f8f8f8;
+    color: #333;
+    padding: 0px 9px;
+    margin-bottom: 6px;
+    letter-spacing: -0.05em;
+}
+input[type="search"]::-webkit-input-placeholder{
+    color: #d0cfd1;
+    text-transform: uppercase;
+}
+input[type="search"]::-moz-placeholder{
+    color: #d0cfd1;
+    text-transform: uppercase;
+}
+input[type="search"]:-ms-input-placeholder{
+    color: #d0cfd1;
+    text-transform: uppercase;    
+}

@@ -24,9 +24,6 @@
     font-family: Open Sans;
     line-height: 20px;
 }
-.links-tag a:active, .links-tag a:hover, .links-tag a:focus{
-    text-decoration: underline;
-}
 .links-pagination a{
     width: 32px;
     height: 32px;

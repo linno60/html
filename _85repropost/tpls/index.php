@@ -61,7 +61,7 @@
                 </nav>
             </div>
         </header>
-        <div class="lwrap content-wrap" data-flex="stripe">
+        <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
             <div class="content">
                 <div class="links-breadcrumbs">
                     <a href="#">Home</a>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="related">
                     <h3 class="hdr-sm" data-flex>Related Posts</h3>
-                    <div data-flex="stripe">
+                    <div data-flex="stripe w">
                         <article>
                             <figure><img src="/images/img3.png" width="130" height="94" alt=""></figure>
                             <p><a href="#">Fly Fishers Serving as Transports for Noxious Little Invaders</a></p>
@@ -161,7 +161,7 @@
                     </form>
                 </div>
             </div>
-            <aside class="sidebar">
+            <aside class="sidebar" data-flex-640="stripe w">
                 <form action="#" method="post">
                     <input type="search" name="search" placeholder="to search, type adn hit enter">
                 </form>
@@ -187,17 +187,17 @@
                     <figure><img src="/images/img125.png" width="125" height="125" alt=""></figure>
                     <figure><img src="/images/img125.png" width="125" height="125" alt=""></figure>
                 </div>
-                <div class="tabs tabs-sidebar" data-tabs data-tabs-800="accordion">
+                <div class="tabs-sidebar" data-tabs data-tabs-800="accordion">
                     <div class="tablist">
                         <a href="#tab1" class="active">Popular</a>
                         <a href="#tab2">Recent</a>
                         <a href="#tab3">Comments</a>
                         <a href="#tab4">Tags</a>
                     </div>
-                    <div class="tabset accordion">
-                        <a href="#tab1" class="active">Popular</a>
-                        <div id="tab1" class="tabpanel active">
-                            <div class="popular" data-flex="-start">
+                    <div class="tabset">
+                        <a href="#tab1" data-flex="-center" class="active">Popular</a>
+                        <div id="tab1" class="tabpanel active" data-childs="-start">
+                            <div class="popular">
                                 <figure><img src="/images/img5.png" width="45" height="45" alt=""></figure>
                                 <div>
                                     <p><a href="#">Fly Fishers Serving as Transports for Noxious Little Invaders</a></p>
@@ -205,7 +205,7 @@
                                     <a href="#">8 Comments</a>
                                 </div>
                             </div>
-                            <div class="popular" data-flex="-start">
+                            <div class="popular">
                                 <figure><img src="/images/img5.png" width="45" height="45" alt=""></figure>
                                 <div>
                                     <p><a href="#">Fly Fishers Serving as Transports for Noxious Little Invaders</a></p>
@@ -213,7 +213,7 @@
                                     <a href="#">8 Comments</a>
                                 </div>
                             </div>
-                            <div class="popular" data-flex="-start">
+                            <div class="popular">
                                 <figure><img src="/images/img5.png" width="45" height="45" alt=""></figure>
                                 <div>
                                     <p><a href="#">Fly Fishers Serving as Transports for Noxious Little Invaders</a></p>
@@ -221,7 +221,7 @@
                                     <a href="#">8 Comments</a>
                                 </div>
                             </div>
-                            <div class="popular" data-flex="-start">
+                            <div class="popular">
                                 <figure><img src="/images/img5.png" width="45" height="45" alt=""></figure>
                                 <div>
                                     <p><a href="#">Fly Fishers Serving as Transports for Noxious Little Invaders</a></p>
@@ -229,7 +229,7 @@
                                     <a href="#">8 Comments</a>
                                 </div>
                             </div>
-                            <div class="popular" data-flex="-start">
+                            <div class="popular">
                                 <figure><img src="/images/img5.png" width="45" height="45" alt=""></figure>
                                 <div>
                                     <p><a href="#">Fly Fishers Serving as Transports for Noxious Little Invaders</a></p>
@@ -238,11 +238,11 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#tab2">Recent</a>
+                        <a href="#tab2" data-flex="-center">Recent</a>
                         <div id="tab2" class="tabpanel">Tab number 2</div>
-                        <a href="#tab3">Comments</a>
+                        <a href="#tab3" data-flex="-center">Comments</a>
                         <div id="tab3" class="tabpanel">Tab number 3</div>
-                        <a href="#tab4">Tags</a>
+                        <a href="#tab4" data-flex="-center">Tags</a>
                         <div id="tab4" class="tabpanel">Tab number 4</div>
                     </div>
                 </div>
@@ -252,7 +252,7 @@
                 </div>
                 <div class="flickr">
                     <h3 class="hdr-sm" data-flex>Flickr</h3>
-                    <div data-flex="stripe w">
+                    <div data-flex="stripe w" data-flex-960="around w" data-flex-640="start w">
                         <figure><img src="/images/img4.png" width="45" height="45" alt=""></figure>
                         <figure><img src="/images/img4.png" width="45" height="45" alt=""></figure>
                         <figure><img src="/images/img4.png" width="45" height="45" alt=""></figure>
@@ -307,7 +307,7 @@
                     <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
                     <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
                 </div>
-                <div data-flex="end">
+                <div data-flex="-start end">
                     <a href="#" title="Return to the homepage" id="logo-alt"><img src="/images/logoalt.png" width="169" height="51" alt="Repro"></a>
                 </div>
             </div>
