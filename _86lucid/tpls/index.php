@@ -13,9 +13,9 @@
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
             var LAYOUT_WIDTH = 1040;
-            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
-            window.onresize = function() {
-                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
@@ -52,7 +52,7 @@
                                 <div><div data-flex="-center"><i class="icon-user"></i></div><dt>by:</dt><dd> <a href="#">admin</a></dd></div>
                             </dl>
                             <dl data-flex="w">
-                                <dt>category: </dt> <dd> <a href="#"> unnamed 1</a></dd>
+                                <dt>category: </dt><dd><a href="#"> unnamed 1</a></dd>
                             </dl>
                             <dl class="tags" data-flex="col">
                                 <dt>tags:</dt>
@@ -70,15 +70,15 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam magna nulla, porta a commodo eu, vehicula ac lectus. Phasellus eros libero, euismod quis quis bibendum ac, porta non mi. Nam in odio sit amet nisi tempor fermentum nec ac est. Morbi at nisi neque, eu consectetur augue. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ac felis eget nunc convallis vulputate. Vivamus fermentum egestas nunc nec feugiat. Sed fringilla ligula vel ilgula tincidunt placerat. In ac arcu ipsum, nec mattis urna. Vivamus auctor tincidunt nulla vitae feugiat. Ut sed augue odio, ac hendrerit tortor.</p>
                                 <p>Nulla at velit et est hedrerit pharetra at et sapien. Proin iaculis enim eget olio convallis verus. Donec autctor ante in nisl venenatis at iaculis diam viverra. Integer massa urna, venenatis a placerat ut, elementum sed lectus. Curabitur vel ultireces ligula. Nunc euismod, ante vel tincidunt placerat, velit lacus laoreet elit, nec viverra quam ante eu urna. Nulllam portitor bibendum lorem, at convallis sapien suscipit sit amet. Etiam aliquam auctor augue, et pharetra justo dignissim at. Aenean aliquet interdum eusismod.</p>                            
                             </div>
-                            <div data-flex>
+                            <div data-flex="w">
                                 <figure><img src="/images/img1.png" width="75" height="61" alt=""></figure>
                                 <figure><img src="/images/img2.png" width="75" height="61" alt=""></figure>
                                 <figure><img src="/images/img3.png" width="75" height="61" alt=""></figure>
                             </div>
                         </div>
                     </div>
-                    <div class="post-item" data-flex="stripe">
-                        <div class="post-side">
+                    <div class="post-item" data-flex="stripe" data-flex-480="vstripe">
+                        <div class="post-side" data-flex-480="-start between">
                             <dl data-childs="-center w">
                                 <div><div data-flex="-center"><i class="icon-baloon"></i></div><dt>comments:</dt><dd><a href="#">12</a></dd></div>
                                 <div><div data-flex="-center"><i class="icon-heart"></i></div><dt>liked:</dt><dd><a href="#">31 people</a></dd></div>
@@ -103,7 +103,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam magna nulla, porta a commodo eu, vehicula ac lectus. Phasellus eros libero, euismod quis quis bibendum ac, porta non mi. Nam in odio sit amet nisi tempor fermentum nec ac est. Morbi at nisi neque, eu consectetur augue. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ac felis eget nunc convallis vulputate. Vivamus fermentum egestas nunc nec feugiat. Sed fringilla ligula vel ilgula tincidunt placerat. In ac arcu ipsum, nec mattis urna. Vivamus auctor tincidunt nulla vitae feugiat. Ut sed augue odio, ac hendrerit tortor.</p>
                                 <p>Nulla at velit et est hedrerit pharetra at et sapien. Proin iaculis enim eget olio convallis verus. Donec autctor ante in nisl venenatis at iaculis diam viverra. Integer massa urna, venenatis a placerat ut, elementum sed lectus. Curabitur vel ultireces ligula. Nunc euismod, ante vel tincidunt placerat, velit lacus laoreet elit, nec viverra quam ante eu urna. Nulllam portitor bibendum lorem, at convallis sapien suscipit sit amet. Etiam aliquam auctor augue, et pharetra justo dignissim at. Aenean aliquet interdum eusismod.</p>                            
                             </div>
-                            <div data-flex>
+                            <div data-flex="w">
                                 <figure><img src="/images/img1.png" width="75" height="61" alt=""></figure>
                                 <figure><img src="/images/img2.png" width="75" height="61" alt=""></figure>
                                 <figure><img src="/images/img3.png" width="75" height="61" alt=""></figure>
@@ -112,8 +112,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="post-item" data-flex="stripe">
-                        <div class="post-side">
+                    <div class="post-item" data-flex="stripe" data-flex-480="vstripe">
+                        <div class="post-side" data-flex-480="-start between">
                             <dl data-childs="-center w">
                                 <div><div data-flex="-center"><i class="icon-baloon"></i></div><dt>comments:</dt><dd><a href="#">12</a></dd></div>
                                 <div><div data-flex="-center"><i class="icon-heart"></i></div><dt>liked:</dt><dd><a href="#">31 people</a></dd></div>
@@ -138,7 +138,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam magna nulla, porta a commodo eu, vehicula ac lectus. Phasellus eros libero, euismod quis quis bibendum ac, porta non mi. Nam in odio sit amet nisi tempor fermentum nec ac est. Morbi at nisi neque, eu consectetur augue. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam ac felis eget nunc convallis vulputate. Vivamus fermentum egestas nunc nec feugiat. Sed fringilla ligula vel ilgula tincidunt placerat. In ac arcu ipsum, nec mattis urna. Vivamus auctor tincidunt nulla vitae feugiat. Ut sed augue odio, ac hendrerit tortor.</p>
                                 <p>Nulla at velit et est hedrerit pharetra at et sapien. Proin iaculis enim eget olio convallis verus. Donec autctor ante in nisl venenatis at iaculis diam viverra. Integer massa urna, venenatis a placerat ut, elementum sed lectus. Curabitur vel ultireces ligula. Nunc euismod, ante vel tincidunt placerat, velit lacus laoreet elit, nec viverra quam ante eu urna. Nulllam portitor bibendum lorem, at convallis sapien suscipit sit amet. Etiam aliquam auctor augue, et pharetra justo dignissim at. Aenean aliquet interdum eusismod.</p>                            
                             </div>
-                            <div data-flex>
+                            <div data-flex="w">
                                 <figure><img src="/images/img1.png" width="75" height="61" alt=""></figure>
                                 <figure><img src="/images/img2.png" width="75" height="61" alt=""></figure>
                             </div>
@@ -152,8 +152,8 @@
                     </div>
                 </div>
                 <aside class="sidebar" data-flex="vstripe">
-                    <div>
-                        <div class="follow" data-flex="stripe">
+                    <div data-flex-640="stripe w">
+                        <div class="follow" data-flex="stripe" data-flex-640="around">
                             <div data-flex="vaxis">
                                 <a href="#" class="btn btn-follow"><i class="icon-tlg"></i></a>
                                 <span>599</span>
@@ -175,13 +175,15 @@
                             <figure><img src="/images/img.png" width="104" height="104" alt=""></figure>
                             <figure><img src="/images/img.png" width="104" height="104" alt=""></figure>
                         </div>
-                        <h3>focus</h3>
-                        <div class="links-focus" data-flex="col -start">
-                            <a href="#" class="active">all</a>
-                            <a href="#">code & design</a>
-                            <a href="#">graphic art</a>
-                            <a href="#">illustations</a>
-                            <a href="#">miscellaneous</a>
+                        <div>
+                            <h3>focus</h3>
+                            <div class="links-focus" data-flex="col -start">
+                                <a href="#" class="active">all</a>
+                                <a href="#">code & design</a>
+                                <a href="#">graphic art</a>
+                                <a href="#">illustations</a>
+                                <a href="#">miscellaneous</a>
+                            </div>
                         </div>
                     </div>
                     <div class="social" data-flex="col" data-childs="-center">

@@ -40,14 +40,12 @@
                     </div>
                 </div>
             </div>
-            <div class="lwrap">
-                <div class="header" data-flex="axis w" data-flex-800="vaxis">
-                    <a href="/" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="234" height="53" alt="Repropost">
-                    </a>
-                    <figure><img src="/images/banner.png" width="468" height="60" alt=""></figure>
-                </div>
-                <nav class="links-nav" data-flex="w" data-childs='-center center'>
+            <div class="lwrap header" data-flex="axis w" data-flex-640="vaxis">
+                <a href="/" title="Return to the homepage" id="logo">
+                    <img src="/images/logo.png" width="234" height="53" alt="Repropost">
+                </a>
+                <figure class="visible"><img src="/images/banner.png" width="468" height="60" alt=""></figure>
+                <nav class="links-nav" data-flex="w" data-flex-800="end w" data-flex-640="center w" data-childs='-center center'>
                     <a href="#">Home</a>
                     <a href="#">Culture</a>
                     <a href="#">Lifestyle</a>

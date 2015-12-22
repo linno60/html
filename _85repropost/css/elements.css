@@ -20,6 +20,8 @@ body{
     color: #bfbfbf;
 }
 .links-nav{
+    margin: 38rem 0px 10px 0px;
+    width: 100%;
     border: 1px solid #d8d8d8;
     border-radius: 4px;
     background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.3));
@@ -40,7 +42,7 @@ body{
 }
 .links-breadcrumbs{
     border-radius: 2px;
-    padding: 5px 5px 5px 13rem;
+    padding: 5px 5px 5px 12rem;
     background-color: rgba(86,86,89,.04);
     margin-bottom: 15rem;
 }
@@ -54,9 +56,6 @@ body{
 }
 .links-breadcrumbs a:active, .links-breadcrumbs a:hover, .links-breadcrumbs a:focus{
     color: #444;
-}
-.links-breadcrumbs span{
-    padding: 0px 3px;
 }
 .links-default{
     padding: 2px 0px 0px 15px;
@@ -82,6 +81,7 @@ input[type="search"], input[type="text"], input[type="email"], textarea{
     box-shadow: inset 0 1px 5px rgba(0,0,0,.1);
     color: #000;
     width: 100%;
+    letter-spacing: -0.04em;
 }
 input[type="search"], input[type="text"], input[type="email"]{
     height: 35px;    
@@ -89,7 +89,7 @@ input[type="search"], input[type="text"], input[type="email"]{
 input[type="search"]{
     max-width: 300px;
     border: 1px solid #e0e0e0;
-    padding: 0px 8px;
+    padding: 0px 8px;    
 }
 input[type="text"], input[type="email"], textarea{            
     border: 1px solid #d2d2d2;
@@ -102,7 +102,7 @@ textarea{
     padding: 10px;
     max-width: 607px;
     height: 178px;
-    margin-bottom: 22px;
+    margin-bottom: 19px;
 }
 input[type="search"]::-webkit-input-placeholder{color: #999;}
 input[type="search"]::-moz-placeholder{color: #999;}
@@ -157,7 +157,7 @@ input[type="text"]:-ms-input-placeholder{color: #444;}
 .tabs-sidebar > .tablist > a{
     flex-grow: 1;
     flex-basis: 0%;    
-    padding: 0px 3px;
+    padding: 0px 11px;
     border-right: 1px solid gainsboro;
     box-shadow:inset 1px 0px 0px 0px white;    
 }
@@ -173,6 +173,7 @@ input[type="text"]:-ms-input-placeholder{color: #444;}
 }
 .tabpanel.active {
     border-bottom: 1px solid gainsboro;
+    padding: 4px 0px 1px 0px;
 }
 .tabs-sidebar > .tablist > a:last-child{border-right: none;}
 .tabs-sidebar .tablist > a.active, .tabs-sidebar .tablist > a:active, .tabs-sidebar .tablist > a:hover, .tabs-sidebar .tablist > a:focus,
@@ -188,11 +189,13 @@ input[type="text"]:-ms-input-placeholder{color: #444;}
 
 /*CITES*/
 blockquote {
-    padding: 16rem 35rem 26px 47rem;
+    padding: 16rem 35rem 16px 48rem;
     color: #444;
+    font-size: 11px;
     font-family: Georgia;
     font-style: italic;
     line-height: 20px;
+    letter-spacing: 0.042em;
 }
 blockquote:before {
     content: "\0201C";
@@ -200,7 +203,7 @@ blockquote:before {
     font-size: 72px;
     font-weight: 900;
     line-height: 70px;
-    padding-right: 20rem;
+    padding: 8rem 16rem 0px 0px;
     font-style: normal;
 }
 

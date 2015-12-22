@@ -19,7 +19,7 @@ figure img, #logo img{
     padding: 0px 10px;
 }
 .header{
-    padding: 39rem 39rem 32rem 10rem;
+    padding: 39rem 39rem 41rem 10rem;
 }
 .social a{
     font-size: 11px;
@@ -37,6 +37,7 @@ figure img, #logo img{
     padding: 24rem 0px 12rem 0px;
 }
 .content{
+    width: 100%;
     padding: 3px 30rem 32rem 0px;
 }
 .sidebar{
@@ -44,7 +45,7 @@ figure img, #logo img{
     width: 22.7%;
 }
 #logo{
-    margin: 0px 10px 10px 0px;
+    margin: 9rem 10px 10px 0px;
 }
 .post-item{
     padding-bottom: 74rem;
@@ -90,7 +91,7 @@ figure img, #logo img{
     margin: 14rem 1rem 7rem 14rem;
     background: linear-gradient(#75c5c5, #4d8282);
 }
-.post-side dl{
+.post-side dl{    
     font-size: 11px;
     text-transform: uppercase;
     line-height: 26px;
@@ -135,7 +136,13 @@ figure img, #logo img{
     line-height: 9px;
     letter-spacing: -0.06em;
 }
-.icon-twlg, .icon-tlg {background-size: 100%;width: 80rem; height: 80rem}
+.icon-twlg, .icon-tlg {
+    background-size: 100%;
+    width: 80rem;    
+    height: 80rem;
+    min-width: 50px;
+    min-height: 50px;
+}
 .grid{
     margin: 40rem 0px 32rem 0px;
 }
@@ -180,9 +187,21 @@ footer > div:first-child{
 }
 @media (max-width: 640px) {
     .post-side {
-    width: 30%;
+        width: 30%;
+    }
+    .content {
+        padding: 3px 0rem 32rem 0px;
+    }
+    .grid, .grid + div, .follow, .follow + form{
+        width: 48%;
+    }
 }
-.content {
-    padding: 3px 0rem 32rem 0px;
-}
+@media (max-width: 480px) {
+    .post-side dl:first-child{
+        border-bottom: none;
+        box-shadow: none;
+    }
+    .post-side dl{
+        margin-right: 5px;
+    }
 }
