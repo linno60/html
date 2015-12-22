@@ -1,0 +1,258 @@
+figure img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+body{
+    background: url("../images/bg.png");
+}
+header{
+    position: relative;
+    background: url("../images/shadow7.png")no-repeat 18% 7px,
+        linear-gradient(0deg, #d02627 0%, #b93535 7%, #b93535 16%, #d02627 17%, #bd5959 81%, #bd5959 89%, #d67a7a 90%, #880c0b 91%, #880c0b 100%);
+    border: 1px solid #7b1100;
+    box-shadow: 1px 1.7px 0 white;
+}
+.lwrap{
+    max-width: 1021px;
+    padding: 0px 10px;
+    position: relative;
+}
+header .lwrap{
+    padding: 18px 16px 19px 11px;
+    background: url("../images/shadow8.png")no-repeat center 7px;
+}
+header .lwrap:after, header .lwrap:before{
+    transform: translateX(-50%);
+    width: 100%;  
+}
+header .lwrap:after{
+    background: url("../images/shadow9_1.png")no-repeat center center;
+    width: 960rem;
+    height: 78rem;
+    left: 50%;
+    top: 59%;
+}
+header .lwrap:before{
+    background: url("../images/shadow9_2.png")no-repeat center center;
+    width: 659rem;
+    height: 342rem;
+    left: 50%;
+    top: 83%;    
+}
+header:before{
+    width: 101%;
+    height: 265rem;
+    top: 100%;
+    left: -1px;
+    background: url("../images/shadow1.png")no-repeat center bottom, linear-gradient(0deg, #cecece 0%, #cecece 30%, #d5ac9c 100%);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.wrap{
+    padding: 21px 10px 34px 10px;
+}
+.banner-wrap{   
+    background:url("../images/shadow3.png")no-repeat center bottom -26rem / calc(100% - 40rem),
+        linear-gradient(0deg, rgba(255,255,255,.5) 0%, rgba(199,199,199,.4) 8%, rgba(0,0,0,.2) 30%, rgba(199,199,199,.4) 60%, rgba(255,255,255,.5) 100%);
+    border: 1px solid #a1a1a1;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,.3);
+    border-radius: 10px;
+    padding: 20rem 21rem 22rem 18rem;
+    margin-bottom: 43px;
+    position: relative;
+}
+.banner{
+    padding: 47rem 10px 10px 38rem;
+    height: 352rem;
+    background: url("../images/slider.png")no-repeat;
+    background-size: 100%;
+}
+.banner-wrap:after{
+    width: 106%;
+    background:url("../images/shadow2.png") no-repeat center center;
+    height: 52px;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner-wrap:before{
+    width: 103%;
+    background:url("../images/shadow4.png") no-repeat center center;
+    height: 14px;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner:after{
+    width: 100%;
+    height: 67px;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:url("../images/shadow5.png");
+}
+.banner .btn-download{
+    margin: 43rem 37rem 4rem 0px;
+    font-size: 20px;
+    height: 62px;
+    min-width: 249px;
+}
+.grid > article{
+    width: 50%;
+    padding: 0px 10px 44rem 0px;
+}
+.grid{
+    padding: 6px 0px 0px 0px;
+}
+.grid article h4{
+    color: #3d3d3d;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+.grid article p{
+    color: #3d3d3d;
+    line-height: 24px;
+}
+.grid article > div{
+    min-width: 56px;
+}
+.content{
+    padding: 55px 0px 29px 0px;
+    border-bottom: 1px solid #cecece;
+    box-shadow: 0 1px 0 white;
+}
+.form-wrap .btn-download{
+    margin: 13px 0px 13px 0px;
+    letter-spacing: -0.038em;
+}
+.form-wrap{
+    width: 30.1%;
+    min-width: 220px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, white 0%, white 4%, #777 21%, white 71%, white 100%);
+    box-shadow: inset 0 0 0 3px white;
+    padding: 11px 10px 7px 10px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #a1a1a1;
+}
+.form-wrap form > div{
+    width: 100%;
+    padding-left: 13rem;
+}
+.form-wrap form{
+    border-radius: 0px 0px 10px 10px;
+    padding: 24rem 20rem 27rem 15rem;
+    background:url("../images/shadow10.png")no-repeat center bottom -50px,
+        url("../images/shadow11.png")no-repeat center bottom,
+        linear-gradient(#ae3c3c, #d02627);
+}
+.form-wrap:after{
+    width: 100%;
+    height: 9px;
+    bottom: -9px;
+    background:url("../images/shadowform.png")no-repeat;
+}
+.form-wrap p{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 0px 16px 0px 8px;
+}
+.portfolio-wrap{
+    padding: 13px 0px 14px 0px;
+}
+.portfolio-wrap h2{
+    color: #3d3d3d;
+    font-family: nevis;
+    font-size: 25px;
+    margin: 0px 0px 12px 2px;
+}
+.portfolio-wrap{
+    border-bottom: 1px solid #cecece;
+    box-shadow: 0 1px 0 white; 
+}
+.portfolio{
+    position: relative;
+    margin: 0px -4px 12px -3px;
+}
+.portfolio > a{
+    top: 50%;
+    transform: translateY(-35%);
+    position: absolute;
+}
+.portfolio > a:first-child{
+    left: -26px;
+}
+.portfolio > a:last-child{
+    right: -25px;
+}
+.portfolio > figure{
+    width: 23%;
+}
+.more{
+    padding: 0px 3px 0px 0px;
+    color: #c20000;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: underline;
+}
+footer address, footer address a{
+    color: #e6e6e6;
+    font-style: normal;
+    line-height: 20px;
+}
+footer{
+    border-top: 1px solid #fff;
+    background: #cd3e38 url("..../images/footer.png")no-repeat center top;
+}
+footer > .lwrap{
+    padding: 25px 10px 2px 10px;
+}
+footer > .lwrap > div{
+    padding-bottom:20px;
+    width: 30%;
+}
+footer h5{
+    color: white;
+    font-family: Lucida Sans Unicode;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 0.04em;
+}
+footer p{
+    color: #e6e6e6;
+    margin: 0px 39px 11px 0px;
+    padding-top: 4px;
+}
+.copyright{
+    border-top: 1px solid #d85e53;
+    background-color: #880c0b;
+}
+.copyright > .lwrap{
+    padding: 22px 10px 20px 10px;
+}
+.copyright .links-footer{
+    padding: 0px 40px 4px 0px;
+    margin-left: -21px;
+}
+.copyright span{
+    color: #ff6d62;
+    text-transform: uppercase;
+    padding-right: 19px;
+}
+.banner:after, .banner-wrap:after, .banner-wrap:before, .form-wrap form:after, .form-wrap:after, header:before,
+header .lwrap:after, header .lwrap:before, .banner-wrap:before, .banner-wrap > figure:after{
+    content: ""; 
+    position: absolute;
+    background-size: 100%;
+}
+@media (max-width: 480px) {
+input[name="input"]{
+    max-width: 420px;
+}
+}

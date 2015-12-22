@@ -103,6 +103,7 @@ textarea{
     max-width: 607px;
     height: 178px;
     margin-bottom: 19px;
+    overflow: auto;
 }
 input[type="search"]::-webkit-input-placeholder{color: #999;}
 input[type="search"]::-moz-placeholder{color: #999;}

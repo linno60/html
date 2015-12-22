@@ -1,0 +1,67 @@
+body{
+    font-size: 12px;
+    font-family: HelveticaNeueLTStd;
+}
+
+/*BUTTONS*/
+.btn-default, .btn-submit{
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+.btn-default i{
+    margin-right: 8px;
+}
+.btn-default em{font-style: normal;}
+.btn-default{
+    min-width: 71px;
+    height: 27px;
+    font-weight: 500;
+    background-image: linear-gradient(#eee, #dedede);
+    box-shadow: 0px -1px 0px 0px rgba(139,139,139,.1);
+    color: #959595;
+    border: 1px solid #bebebe;
+}
+.btn-submit{
+    min-width: 125px;
+    height: 32px;
+    background: #ea4e37;
+    text-shadow: 0 1px 0 #6d0e00;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+input[type="text"], input[type="email"], textarea{
+    color: #333;
+    width: 46.8%;
+    background: white;
+    border-radius: 3px;
+    max-width: 291px;
+    border: none;
+    outline: none;
+    font-family: HelveticaNeueLTStd;
+    font-size: 12px;
+}
+textarea{
+    height: 108px;
+    padding: 11px;
+    width: 100%;
+    margin-bottom: 13px;
+}
+input[type="text"], input[type="email"]{
+    height: 33px;
+    padding: 0px 11px;
+    margin-bottom: 14px;
+}
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: #959595;
+    font-weight: 500;
+}
+input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder{
+    color: #959595;
+    font-weight: 500;
+}
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: #959595;
+    font-weight: 500;
+}

@@ -1,0 +1,105 @@
+body, a{
+    font-size: 12px;
+    font-family: LucidaSans;
+    color: white;
+}
+
+/*LINKS*/
+.links-nav a{
+    text-shadow: 0 1px 1px #981609;
+    font-family: nevis;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 4px;
+    padding: 0px 20px;
+    height: 30px;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{    
+    background:linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2) 49%, transparent 50%, transparent),
+        linear-gradient(0deg, #db2d1e, #b22420 41%, #c8473c 69%, #ef9e20);
+    border: 1px solid #9a1709;
+    box-shadow: 0 2px 1px #ffd072, inset 0 1px 2px white, inset 0 0 7px rgba(237, 22, 0, 0.54);
+}
+.links-footer a{
+    margin: 5px 21px;
+    color: #ff6d62;
+    text-transform: uppercase;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-default{
+    padding: 0px 43px 0px 25px;
+}
+.links-default a{
+    color: #e4e4e4;
+    line-height: 20px;
+}
+
+/*BUTTONS*/
+.btn-download{
+    text-align: center;
+    font-family: Humanist521BT;
+    font-size: 15px;   
+    text-transform: uppercase;
+    min-width: 221rem;
+    height: 56px;
+    border-radius: 28px;
+    padding: 0px 5px;
+    background: linear-gradient(0deg, black 0%, black 0%, black 49%, #1d1d1d 50%, #3b3b3b 96%, #545454 98%, black 100%);
+    border: 6px solid #9a1709;
+    box-shadow: 0 2px 1px #ffd072, inset 0 0 0 2px #dd4900;
+}
+.btn-download span{
+    color: #fc0;
+}
+
+/*FORMS*/
+input[name="input"]{
+    width: 100%;
+    max-width: 217px;
+    height: 31px;
+    padding: 0px 10px;
+    background: url("../images/input.png")no-repeat center bottom, linear-gradient(rgba(206,206,206,.5), rgba(255,255,255,.5));
+    background-size: cover;
+    outline: none;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 9px 0px 4px 0px;
+    border-width: 0px;
+    border-top-width: 2px;
+    border-image-slice: 2 0 0 0;
+    border-image-source:linear-gradient(90deg, transparent, rgba(255,255,255,.8), transparent);
+}
+
+/*CITES*/
+blockquote{
+    border-radius: 10px;
+    text-shadow: 0.5px 0.9px 0 #f2f2f2;
+    color: #3d3d3d;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 22px 30px 25px 35px;
+    background: linear-gradient(0deg, #dedede 0%, #dedede 50%, #cecece 51%, #cecece 100%);
+    box-shadow: 0 1px 2px white, inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/*OTHER*/
+.hdr{
+    position: relative;
+    max-width: 500px;
+    font-family: nevis;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px 10px 0px 0px;
+    height: 39px;
+    text-align: center;
+    padding: 0px 5px;
+    background-image: linear-gradient(0deg, #db2d1e 0%, #b22420 41%, #c8473c 69%, #ef9e20 100%);
+    border: 1px solid #9a1709;
+    box-shadow: 0 2px 1px #ffd072, inset 0 1px 2px white, inset 0 0 7px rgba(237, 22, 0, 0.54);
+}

@@ -29,7 +29,9 @@
     src: local('â˜º'), url('../fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}/* ICONS */
+}
+
+/* ICONS */
 
 .icon-heart {width: 14px; height: 14px; background: url('../images/icons/heart.png');}/* ELEMENTS */
 
