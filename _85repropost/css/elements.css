@@ -156,7 +156,6 @@ input[type="text"]:-ms-input-placeholder{color: #444;}
 }
 .tabs-sidebar > .tablist > a{
     flex-grow: 1;
-    flex-basis: 0%;    
     padding: 0px 11px;
     border-right: 1px solid gainsboro;
     box-shadow:inset 1px 0px 0px 0px white;    
