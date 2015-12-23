@@ -1,0 +1,164 @@
+body{
+    font-size: 13px;
+    font-family: Ubuntu;
+}
+
+/*LINKS*/
+.links-social a{
+    width: 30px;
+    height: 30px;
+    background: white linear-gradient(rgba(255,255,255,.05), transparent);
+    box-shadow: 0 1px 2px rgba(0,0,0,.17);
+    margin: 2px;
+    border-radius: 50%;    
+}
+.links-nav{
+    background: white linear-gradient(rgba(255,255,255,.05), transparent);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.17);
+    padding: 10px 25px;
+}
+.links-nav a{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #636363;
+    margin: 0px 25px;
+    font-family: Ubuntu;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #6094b4;
+}
+.links-nav > div{
+    width: 2px;
+    height: 23px;
+    background: url("/images/nav.png");
+}
+.links-default{
+    padding: 5px 20px;
+    background: whitesmoke;
+    border-radius: 5px;
+    max-width: 500px;
+}
+.links-default li{
+    padding: 10px 0px;
+    border-top: 1px solid rgba(0,0,0,.11);
+}
+.links-default a{
+    color: #505050;
+    width: 100%;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 15px;   
+}
+.links-default li:first-child{
+    border-top: none;
+}
+.links-default a span{
+    color: #6094b4;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+
+/*FORMS*/
+input[name="input"], textarea{
+    width: 219px;
+    font-family: Ubuntu;
+    background-color: rgba(0,0,0,.25);
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    color: white;
+}
+input[name="input"]{
+    height: 35px;
+    padding: 0px 10px;
+}
+textarea{
+    height: 140px;
+    padding: 10px;
+}
+input[name="input"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {font-family: Ubuntu; color: #848484;}
+input[name="input"]::-moz-placeholder, textarea::-moz-placeholder {font-family: Ubuntu; color: #848484;}
+input[name="input"]:-ms-input-placeholder, textarea:-ms-input-placeholder {font-family: Ubuntu; color: #848484;}
+
+/*BUTTONS*/
+.btn-submit{
+    min-width: 116px;
+    height: 35px;
+    padding: 0px 10px;
+    background: #5f8197 linear-gradient(rgba(255,255,255,.05), transparent);
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.22), 0px 0px 0px 3px rgba(0,0,0,.09);
+    text-shadow: 0 1px 0 rgba(0,0,0,.22);
+    color: white;
+    font-family: Ubuntu;
+}
+.btn-thumb{
+    border-radius: 50%;
+    margin: 1px;
+    width: 27px;
+    height: 27px;
+    background: white linear-gradient(rgba(255,255,255,.05), transparent);
+    border: 3px solid rgba(0,0,0,.09);
+}
+
+/*CITES*/
+blockquote p{
+    font-family: Ubuntu;
+    line-height: 22px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    color: #505050;
+}
+blockquote cite{
+    font-family: Ubuntu;
+    display: block;
+    color: #505050;
+    font-weight: 700;
+    font-style: normal;    
+    padding-top: 20px;
+}
+blockquote:nth-child(odd) cite{
+    text-align: right;
+}
+blockquote:nth-child(odd) p:after{
+    right: 40px;
+    border-left: 16px solid transparent; 
+}
+blockquote:nth-child(even) p:after{
+    left: 40px;
+    border-right: 16px solid transparent; 
+}
+blockquote p:after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    border-top: 16px solid #ebebeb;     
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 35px;
+    height: 35px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    color: #505050;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Ubuntu;
+}
+time.lbl-default{
+    width: 45px;
+    height: 45px;
+}
+.lbl-default strong{
+    font-size: 19px;
+    line-height: 18px;
+}
+.lbl-default small{
+    font-size: 10px;
+    line-height: 11px;
+}
