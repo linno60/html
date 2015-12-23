@@ -1,17 +1,18 @@
-figure img{
+figure img, #logo img{
     height: 100%;
     width: 100%;
     display: block;
 }
 body{
-    background: url("../images/bg.png");
+    background: url("/images/bg.png");
 }
+#logo{position: relative;}
 header{
-    position: relative;
-    background: url("../images/shadow7.png")no-repeat 18% 7px,
-        linear-gradient(0deg, #d02627 0%, #b93535 7%, #b93535 16%, #d02627 17%, #bd5959 81%, #bd5959 89%, #d67a7a 90%, #880c0b 91%, #880c0b 100%);
-    border: 1px solid #7b1100;
-    box-shadow: 1px 1.7px 0 white;
+    position: relative;  
+    border-top: 8px solid #880c0b;
+    background:
+    linear-gradient(0deg, #d02627 0%, #b93535 7%, #b93535 16%, #d02627 17%, #bd5959 81%, #bd5959 100%);   
+    box-shadow: 1px 1.7px 0 white, inset 0px 1px 0px #d67a7a;
 }
 .lwrap{
     max-width: 1021px;
@@ -19,58 +20,72 @@ header{
     position: relative;
 }
 header .lwrap{
-    padding: 18px 16px 19px 11px;
-    background: url("../images/shadow8.png")no-repeat center 7px;
+    position: relative;
+    z-index: 10;
+    padding: 11rem 16rem 19rem 11rem;
+    background: url("/images/shadow8.png")no-repeat center top;
 }
 header .lwrap:after, header .lwrap:before{
     transform: translateX(-50%);
     width: 100%;  
 }
 header .lwrap:after{
-    background: url("../images/shadow9_1.png")no-repeat center center;
+    background: url("/images/shadow9_1.png")no-repeat center center;
     width: 960rem;
     height: 78rem;
     left: 50%;
-    top: 59%;
+    bottom: -61%;
 }
 header .lwrap:before{
-    background: url("../images/shadow9_2.png")no-repeat center center;
+    background: url("/images/shadow7.png")no-repeat center top;
+    width: 90%;
+    height: 100%;
+    left: 18%;
+    top: 0px;
+    background-size: cover;
+}
+header:after{
+    background: url("/images/shadow9_2.png")no-repeat center center;
     width: 659rem;
     height: 342rem;
     left: 50%;
     top: 83%;    
+    transform: translateX(-50%);
 }
 header:before{
     width: 101%;
     height: 265rem;
     top: 100%;
     left: -1px;
-    background: url("../images/shadow1.png")no-repeat center bottom, linear-gradient(0deg, #cecece 0%, #cecece 30%, #d5ac9c 100%);
+    background: url("/images/shadow1.png")no-repeat center bottom, linear-gradient(0deg, #cecece 0%, #cecece 30%, #d5ac9c 100%);
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 .wrap{
-    padding: 21px 10px 34px 10px;
+    padding: 22px 10px 34rem 10px;
 }
 .banner-wrap{   
-    background:url("../images/shadow3.png")no-repeat center bottom -26rem / calc(100% - 40rem),
+    background:url("/images/shadow3.png")no-repeat center bottom -26rem / calc(100% - 40rem),
         linear-gradient(0deg, rgba(255,255,255,.5) 0%, rgba(199,199,199,.4) 8%, rgba(0,0,0,.2) 30%, rgba(199,199,199,.4) 60%, rgba(255,255,255,.5) 100%);
     border: 1px solid #a1a1a1;
     box-shadow: inset 0 0 0 2px rgba(255,255,255,.3);
     border-radius: 10px;
     padding: 20rem 21rem 22rem 18rem;
-    margin-bottom: 43px;
+    margin-bottom: 43rem;
     position: relative;
 }
-.banner{
-    padding: 47rem 10px 10px 38rem;
+.banner{    
+    padding: 47rem 10px 10px 10px;
     height: 352rem;
-    background: url("../images/slider.png")no-repeat;
+    background: url("/images/slider.png")no-repeat;
     background-size: 100%;
+}
+.banner > div{
+    width: 50.8%;
 }
 .banner-wrap:after{
     width: 106%;
-    background:url("../images/shadow2.png") no-repeat center center;
+    background:url("/images/shadow2.png") no-repeat center center;
     height: 52px;
     bottom: -28px;
     left: 50%;
@@ -78,7 +93,7 @@ header:before{
 }
 .banner-wrap:before{
     width: 103%;
-    background:url("../images/shadow4.png") no-repeat center center;
+    background:url("/images/shadow4.png") no-repeat center center;
     height: 14px;
     bottom: -8px;
     left: 50%;
@@ -90,13 +105,13 @@ header:before{
     bottom: -14px;
     left: 50%;
     transform: translateX(-50%);
-    background:url("../images/shadow5.png");
+    background:url("/images/shadow5.png");
 }
 .banner .btn-download{
     margin: 43rem 37rem 4rem 0px;
     font-size: 20px;
     height: 62px;
-    min-width: 249px;
+    min-width: 249rem;
 }
 .grid > article{
     width: 50%;
@@ -119,7 +134,7 @@ header:before{
     min-width: 56px;
 }
 .content{
-    padding: 55px 0px 29px 0px;
+    padding: 55rem 0px 29rem 0px;
     border-bottom: 1px solid #cecece;
     box-shadow: 0 1px 0 white;
 }
@@ -140,26 +155,27 @@ header:before{
 }
 .form-wrap form > div{
     width: 100%;
-    padding-left: 13rem;
+    padding: 0px 13rem;
 }
 .form-wrap form{
     border-radius: 0px 0px 10px 10px;
     padding: 24rem 20rem 27rem 15rem;
-    background:url("../images/shadow10.png")no-repeat center bottom -50px,
-        url("../images/shadow11.png")no-repeat center bottom,
+    background:url("/images/shadow10.png")no-repeat center bottom -50px,
+        url("/images/shadow11.png")no-repeat center bottom,
         linear-gradient(#ae3c3c, #d02627);
 }
 .form-wrap:after{
     width: 100%;
     height: 9px;
     bottom: -9px;
-    background:url("../images/shadowform.png")no-repeat;
+    background:url("/images/shadowform.png")no-repeat;
 }
 .form-wrap p{
     color: white;
     font-style: italic;
     text-align: center;
     padding: 0px 16px 0px 8px;
+    width: 100%;
 }
 .portfolio-wrap{
     padding: 13px 0px 14px 0px;
@@ -206,7 +222,7 @@ footer address, footer address a{
 }
 footer{
     border-top: 1px solid #fff;
-    background: #cd3e38 url("..../images/footer.png")no-repeat center top;
+    background: #cd3e38 url("../images/footer.png")no-repeat center top;
 }
 footer > .lwrap{
     padding: 25px 10px 2px 10px;
@@ -226,7 +242,7 @@ footer h5{
 }
 footer p{
     color: #e6e6e6;
-    margin: 0px 39px 11px 0px;
+    margin: 0px 39rem 11px 0px;
     padding-top: 4px;
 }
 .copyright{
@@ -234,10 +250,10 @@ footer p{
     background-color: #880c0b;
 }
 .copyright > .lwrap{
-    padding: 22px 10px 20px 10px;
+    padding: 22rem 10px 20px 10px;
 }
 .copyright .links-footer{
-    padding: 0px 40px 4px 0px;
+    padding: 0px 0px 4px 0px;
     margin-left: -21px;
 }
 .copyright span{
@@ -245,14 +261,70 @@ footer p{
     text-transform: uppercase;
     padding-right: 19px;
 }
-.banner:after, .banner-wrap:after, .banner-wrap:before, .form-wrap form:after, .form-wrap:after, header:before,
-header .lwrap:after, header .lwrap:before, .banner-wrap:before, .banner-wrap > figure:after{
+.banner:after, .banner-wrap:after, .banner-wrap:before, .form-wrap:after, header:before, header .lwrap:before,
+header .lwrap:after, header:after, .banner-wrap:before, .banner-wrap > figure:after{
     content: ""; 
     position: absolute;
     background-size: 100%;
 }
+header .lwrap:before{
+    background-size: cover;
+}
+@media (max-width: 1200px) {
+    .portfolio > a:first-child{
+    left: -5px;
+}
+.portfolio > a:last-child{
+    right: -4px;
+}
+}
+@media (max-width: 960px) {
+    header .lwrap:before{
+        display: none;
+    }
+    header .lwrap{
+        background: url("/images/shadow8.png") no-repeat center top,
+         url("/images/shadow7.png")no-repeat -300px top;
+    }  
+}
+@media (max-width: 800px) {
+      footer > .lwrap > div {
+    width: 33%;
+}
+.links-default {
+    padding: 0px 10px 10px 0px;
+}
+}
+@media (max-width: 640px) {
+    .banner:after{
+    display: none;
+}
+.banner{
+    background-size: 105%;
+}
+blockquote{
+    font-size: 14px;
+    line-height: 16px;
+}
+.portfolio > figure {
+    width: 31%;
+}
+.hidden-md{
+    display: none;
+}
+}
 @media (max-width: 480px) {
-input[name="input"]{
-    max-width: 420px;
+    header .lwrap:after{
+    display: none;
+}
+.banner .btn-download {
+    font-size: 11px;
+    height: 38px;
+}
+.hidden-sm{
+    display: none;
+}
+.portfolio > figure {
+    width: 47%;
 }
 }

@@ -1,0 +1,86 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+    color: #383838;
+}
+
+/* LINKS */
+.links-default{
+    padding: 0px 15px 10px 0px;
+}
+.links-nav a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #666;
+    min-height: 55px;
+    padding: 0px 10rem 0px 10rem;
+    line-height: 20px;    
+    letter-spacing: -0.005em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5rem 7rem 0px 7rem;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+    background-color: #c0c0c0;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-footer a{
+    color: silver;
+    margin: 5px 16rem;
+    text-decoration: none;
+}
+.links-default a{
+    line-height: 20px;
+    color: #fccb04;
+    letter-spacing:-0.01em;
+    text-decoration: none;
+}
+
+/*BUTTONS*/
+.btn-default:active, .btn-default:hover, .btn-default:focus{
+    color: black;
+    background: url(/images/icons/arrowb.png) no-repeat right 32rem center,
+        linear-gradient(white, white) left bottom / calc(100% - 12rem) no-repeat,
+        linear-gradient(white, white) right top / 100% calc(100% - 12rem) no-repeat,
+        linear-gradient(135deg, black, black 48%, transparent 50%) right bottom / 12rem 12rem no-repeat;  
+}
+.btn-default{
+    min-width: 262rem;
+    height: 61rem;
+    position: relative;
+    font-size: 20rem;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 0px 70rem 0rem 5px;  
+    text-align: center;
+    white-space: nowrap;  
+    color: #fccb04;
+    background: url(/images/icons/arroww.png) no-repeat right 32rem center,
+        linear-gradient(black, black) left bottom / calc(100% - 12rem) no-repeat,
+        linear-gradient(black, black) right top / 100% calc(100% - 12rem) no-repeat,
+        linear-gradient(135deg, white, white 49%, transparent 50%) right bottom / 12rem 12rem no-repeat;  
+}
+
+/*OTHER*/
+.title{
+    color: #0a131d;
+    font-size: 15px;
+    line-height: 31px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 4px solid #0a131d;
+    margin: 0px 0px 21px 0px;
+    padding-left: 21px;
+    background: url(/images/icons/arrowb.png) no-repeat left center;
+}
+.more{
+    color: #0465b0;
+    text-decoration: underline;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: none;
+}

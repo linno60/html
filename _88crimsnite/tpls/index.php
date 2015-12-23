@@ -21,18 +21,20 @@
     </head>
     <body>
         <header>
-            <div class='lwrap' data-flex='axis'>
-                <a href="#" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="197" height="32" alt="Crimsnite">
-                </a>
-                <nav class='links-nav' data-flex="end w" data-childs="-center center">
-                    <a href='#' class='active'>home</a>
-                    <a href='#'>about us</a>
-                    <a href='#'>services</a>
-                    <a href='#'>products</a>
-                    <a href='#'>blog</a>
-                    <a href='#'>contact us</a>
-                </nav>
+            <div class='lwrap'>
+                <div data-flex='axis' data-flex-480="vaxis">
+                    <a href="#" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="197" height="32" alt="Crimsnite">
+                    </a>
+                    <nav class='links-nav' data-flex="end w" data-childs="-center center" data-flex-480="center w">
+                        <a href='#' class='active'>home</a>
+                        <a href='#'>about us</a>
+                        <a href='#'>services</a>
+                        <a href='#'>products</a>
+                        <a href='#'>blog</a>
+                        <a href='#'>contact us</a>
+                    </nav>
+                </div>
             </div>
         </header>
         <div class='lwrap wrap'>
@@ -94,7 +96,7 @@
             </div>
             <div class='portfolio-wrap'>
                 <h2>Portfolio</h2>
-                <div class='portfolio' data-flex='axis'>
+                <div class='portfolio' data-flex='axis w'>
                     <a href='#'><i class="icon-prev"></i></a>
                     <figure><img src="/images/slider1.png" width="232" height="160" alt=""></figure>
                     <figure class="hidden"><img src="/images/slider2.png" width="232" height="160" alt=""></figure>
@@ -106,7 +108,7 @@
             </div>
         </div>
         <footer>
-            <div class='lwrap' data-flex='stripe'>
+            <div class='lwrap' data-flex='stripe w' data-flex-480="vstripe">
                 <div>
                     <h5>blog updates</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -121,7 +123,7 @@
                 </div>
                 <div>
                     <h5>our social network</h5>
-                    <div data-flex>
+                    <div data-flex data-flex-640="vstripe" data-flex-480="stripe">
                         <div class='links-default' data-flex="col -start">
                             <a href='#'>Twitter</a>
                             <a href='#'>Facebook</a>
@@ -138,8 +140,8 @@
                 </div>
             </div>
             <div class='copyright'>
-                <div class='lwrap' data-flex='axis'>
-                    <nav class='links-footer' data-flex="center w">
+                <div class='lwrap' data-flex='axis' data-flex-640="vaxis">
+                    <nav class='links-footer' data-flex="w" data-flex-640="center w">
                         <a href='#' class='active'>home</a>
                         <a href='#'>about us</a>
                         <a href='#'>services</a>
@@ -148,7 +150,7 @@
                         <a href='#'>contact us</a>
                     </nav>
                     <div data-flex='-center'>
-                        <span>copyright &copy;</span>
+                        <span>copyright&nbsp;&copy;</span>
                         <a href="#" title="Return to the homepage" id="logoalt">
                             <img src="/images/logoalt.png" width="197" height="32" alt="Crimsnite">
                         </a>

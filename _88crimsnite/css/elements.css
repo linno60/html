@@ -10,8 +10,8 @@ body, a{
     font-family: nevis;
     font-size: 13px;
     text-transform: uppercase;
-    margin: 4px;
-    padding: 0px 20px;
+    margin: 4rem;
+    padding: 0px 20rem;
     height: 30px;
     border-radius: 4px;
     position: relative;
@@ -32,7 +32,7 @@ body, a{
     text-decoration: underline;
 }
 .links-default{
-    padding: 0px 43px 0px 25px;
+    padding: 0px 43rem 0px 25rem;
 }
 .links-default a{
     color: #e4e4e4;
@@ -60,10 +60,10 @@ body, a{
 /*FORMS*/
 input[name="input"]{
     width: 100%;
-    max-width: 217px;
+    max-width: 420px;
     height: 31px;
     padding: 0px 10px;
-    background: url("../images/input.png")no-repeat center bottom, linear-gradient(rgba(206,206,206,.5), rgba(255,255,255,.5));
+    background: url("/images/input.png")no-repeat center bottom, linear-gradient(rgba(206,206,206,.5), rgba(255,255,255,.5));
     background-size: cover;
     outline: none;
     border-radius: 3px;
@@ -83,7 +83,7 @@ blockquote{
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    padding: 22px 30px 25px 35px;
+    padding: 22rem 30rem 25rem 35rem;
     background: linear-gradient(0deg, #dedede 0%, #dedede 50%, #cecece 51%, #cecece 100%);
     box-shadow: 0 1px 2px white, inset 0 1px 2px rgba(0, 0, 0, 0.15);
 }

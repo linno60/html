@@ -9,9 +9,9 @@
 }
 a.btn-default{
     min-width: 134px;
-min-height: 35px;
-background-color: #ebebeb;
-font: 900 12px Lato;
+    min-height: 35px;
+    background-color: #ebebeb;
+    font: 900 12px Lato;
     color: #616161;
     padding: 2px 5px; 
     text-transform: uppercase;
@@ -27,15 +27,15 @@ p{
 }
 .title{
     color: #88d5c2;
-font: 900 20px Lato;
-text-transform: uppercase;
+    font: 900 20px Lato;
+    text-transform: uppercase;
 }
 a{
     text-decoration: none;
 }
 .read{
     color: #88d5c2;
-font: 12px Merriweather;
+    font: 12px Merriweather;
 }
 .read:active, .read:hover, .read:focus, .tweet a:active, .tweet a:hover, .tweet a:focus{
     text-decoration: underline;
