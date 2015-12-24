@@ -1,0 +1,282 @@
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+header{
+    background: url("../images/bg1.png");
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+    position: relative;
+    z-index: 0;
+}
+#logo{
+    margin: 7rem 10rem 0px 0px;
+}
+.lwrap{
+    max-width: 980px;
+    padding: 0px 10px;
+}
+header .lwrap{
+    padding: 27rem 10rem 60rem 10rem;
+}
+.links-nav:before, .links-nav:after, .banner:before, .banner:after {
+    content:"";
+    position:absolute;
+    z-index: -1;
+    bottom: 24px;
+    left:10px;
+    width:50%;
+    height:20%;
+    max-width:300px;
+    box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    transform:rotate(-3deg);
+}
+.links-nav:after, .banner:after {
+    right:10px;
+    left:auto;
+    transform:rotate(3deg);
+}
+.hdr{
+    background: url("../images/border.png")repeat-x left bottom;
+}
+.hdr .title{
+    background: none;
+}
+.banner{
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    padding: 10px;
+}
+.works{
+    padding: 23rem 10px 0px 10px;
+}
+.works article{
+    width: 30.4%;
+    margin-bottom: 38rem;
+}
+.works article h4{
+    color: #505050;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.works article h4 .lbl-default{
+    margin: 1px 12px 0px 0px;
+}
+p{
+    color: #505050;
+    line-height: 22px;
+    letter-spacing: 0.004em;
+}
+p a{
+    color: #6094b4;
+}
+p a:active, p a:hover, p a:focus{
+    text-decoration: underline;
+}
+.projects{
+    padding: 24rem 0px 31rem 0px;
+    background: #f0f0f0;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.13), 0 1px 0 rgba(0,0,0,.13);
+}
+.projects > div:last-child{
+    margin: 0px -68px 0px -48px;
+}
+.projects figure{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.17);
+    padding: 10rem;
+    margin: 0px 5rem 0px 6rem;
+}
+.projects .hdr{
+    margin-bottom: 32rem;
+}
+.about .hdr{
+    margin-bottom: 40rem;
+}
+.blogs{
+    padding: 23rem 0px 56rem 0px;
+}
+.blogs .title{
+    margin-bottom: 16rem;
+}
+.blogs > div{
+    padding-top: 1px;
+}
+.blogs article{
+    width: 30.5%;
+}
+.blogs article figure{
+    margin-bottom: 14px;
+    float: left;
+}
+.blogs article h4 .lbl-default{
+    margin: 2rem 10rem 0px 0px;
+}
+.blogs article h4{
+    margin-bottom: 11rem;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    height: 66px;
+}
+.testimonials > div{
+    width: 47.8%;
+}
+.testimonials{
+    padding-bottom: 63rem;
+}
+.testimonials .title{
+    margin-bottom: 37rem;
+}
+.testimonials blockquote{
+    margin-bottom: 19px;
+}
+.about{
+    padding-bottom: 80rem;
+}
+.about-content{
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 14px 10px 6px 19px;
+}
+.about-content figure{
+    float: left;
+    min-width: 100px;
+    width: 34.003%;
+    flex-shrink: 0;
+    margin: 0px 18rem 5px 0px;
+}
+.about-content p{
+    margin-bottom: 11px;
+}
+.about-content h3{
+    color: #505050;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.about-content h4{
+    color: #505050;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 13px;
+    margin-bottom: 8px;
+}
+.about-content span{
+    color: #505050;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.about-content > div{
+    padding: 16px 7px 0px 1px;
+}
+.tweet-item{
+    padding: 14rem 0px 11rem 0px;
+    border-bottom: 1px solid rgba(0,0,0,.11);
+}
+.tweet-item:last-child{
+    border-bottom: none;
+}
+.tweet-item time{
+    color: #888;
+    font-size: 11px;
+    line-height: 25px;
+}
+footer{
+    background: #3f3f3f;
+}
+footer .lwrap{
+    padding: 35rem 9px 17rem 10px;
+}
+footer h5{
+    color: #e3e3e3;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20rem;
+}
+footer .lwrap > div{
+    margin-bottom: 10px;
+    width: 23%;
+}
+footer p{
+    line-height: 25px;
+    margin: 0px 2rem 25rem 0px;
+}
+.post, .tweet{    
+    background: url("../images/post.png")repeat-x left bottom;
+}
+.post{
+    margin-bottom: 13rem;
+    padding: 1px 0px 20rem 0px;
+}
+.tweet{
+    margin-bottom: 14rem;   
+    padding: 0px 7rem 10rem 0px;
+}
+.post:last-child, .tweet:last-child{
+    background: none;
+}
+.post time{
+    color: #959595;
+    font-size: 11px;
+}
+.tweet time{
+    color: #6094b4;
+    display: inline-block;
+}
+.tweet time span{
+    color: #bfbfbf;
+}
+.post p{
+    line-height: 22px;
+    margin-bottom: 12rem;
+}
+.tweet p{
+    margin-bottom: 5px;
+}
+footer p, footer p a{
+    color: #bfbfbf;
+}
+footer form{
+    padding: 7px 0px 0px 2px;
+}
+footer form button{
+    margin: 11px 0px 0px 3px;
+}
+.copyright{
+    background: #363636;
+}
+.copyright .lwrap{
+    padding: 28rem 10px 30rem 11px;
+}
+.copyright span{
+    color: #bfbfbf;
+}
+.copyright span a{
+    color: #86acc4;
+}
+.copyright span a:active, .copyright span a:hover, .copyright span a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .blogs article {width: 32.5%;}
+    .hidden-lg {display: none;}
+}
+@media (max-width: 640px) {
+    footer .lwrap > div {width: 49%;}
+    .hidden-md {display: none;}
+    .blogs article h4 {font-size: 13px;line-height: 14px;}
+}
+@media (max-width: 480px) {
+    .works article {width: 49%;}
+    .hidden-sm {display: none;}
+    .blogs article figure {width: 45%;margin: 0px 10px 0px 0px;}
+}

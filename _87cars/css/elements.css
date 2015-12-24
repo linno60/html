@@ -39,7 +39,6 @@ input[type="text"], input[type="email"], textarea{
     max-width: 291px;
     border: none;
     outline: none;
-    font-family: HelveticaNeueLTStd;
     font-size: 12px;
 }
 textarea{

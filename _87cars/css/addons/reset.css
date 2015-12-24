@@ -21,11 +21,12 @@ ul {list-style: none;}
 blockquote, q {quotes: none;}
 hr {height: 1px; background: #ccc; border: 0;}
 
-input, select {vertical-align: middle;}
+input, select {vertical-align: middle; font-family: inherit;}
 label, input[type=button], input[type=submit], input[type=file], button {cursor: pointer;}
 label {display: inline-block;}
-textarea {overflow: auto;}
+textarea {overflow: auto; font-family: inherit;}
 button, input, select, textarea {margin: 0;}
+
 button {
     top: 0;
     left: 0;

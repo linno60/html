@@ -71,7 +71,7 @@
                         <a href="#" class="btn btn-thumb"><i class="icon-next"></i></a>
                     </div>
                 </div>
-            </h3>
+                </h3>
             </div>
             <div data-flex="row--center">
                 <figure data-flex>
@@ -125,47 +125,47 @@
                 </div>
             </div>
             <div class="testimonials" data-flex="row--between">                
-                    <div>
-                        <h3 class="title">Where You Can Find Us</h3>
-                        <div class="tabs">
-                            <div class="_nav">
-                                <a href="#tab1" class="btn active">Twitter</a>
-                                <a href="#tab2" class='btn'>Facebook</a>
-                                <a href="#tab3" class="btn">Flickr</a>
-                            </div>
-                            <div class="_content">
-                                <div id="tab1">
-                                    <div class="tweet-item">
-                                        <p>Check out this great <a href="#">#themeforest</a> item 'Ikaros - Responsive WordPress Business & Portfolio' <a href="#">http://t.co/w48dXW3I</a></p>
-                                        <time>10:16 AM yesterday</time>
-                                    </div>
-                                    <div class="tweet-item">
-                                        <p>Ikaros WP has crossed 100 sales in less than a week. Check it out here in case you missed it: <a href="#">http://elemisfreebies.com/ikaros-wp</a></p>
-                                        <time>11:11 AM yesterday</time>
-                                    </div>
-                                    <div class="tweet-item">
-                                        <p>Just released Glisseo, our latest multipurpose responsive HTML template: <a href="#">http://elemisfreebies.com/glisseo</a></p>
-                                        <time>09:14 AM yesterday</time>
-                                    </div>
+                <div>
+                    <h3 class="title">Where You Can Find Us</h3>
+                    <div class="tabs">
+                        <div class="_nav">
+                            <a href="#tab1" class="btn active">Twitter</a>
+                            <a href="#tab2" class='btn'>Facebook</a>
+                            <a href="#tab3" class="btn">Flickr</a>
+                        </div>
+                        <div class="_content">
+                            <div id="tab1">
+                                <div class="tweet-item">
+                                    <p>Check out this great <a href="#">#themeforest</a> item 'Ikaros - Responsive WordPress Business & Portfolio' <a href="#">http://t.co/w48dXW3I</a></p>
+                                    <time>10:16 AM yesterday</time>
                                 </div>
-                                <div id="tab2">2</div> 
-                                <div id="tab3">3</div>
+                                <div class="tweet-item">
+                                    <p>Ikaros WP has crossed 100 sales in less than a week. Check it out here in case you missed it: <a href="#">http://elemisfreebies.com/ikaros-wp</a></p>
+                                    <time>11:11 AM yesterday</time>
+                                </div>
+                                <div class="tweet-item">
+                                    <p>Just released Glisseo, our latest multipurpose responsive HTML template: <a href="#">http://elemisfreebies.com/glisseo</a></p>
+                                    <time>09:14 AM yesterday</time>
+                                </div>
                             </div>
+                            <div id="tab2">2</div> 
+                            <div id="tab3">3</div>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <h3 class="title">Testimonials</h3>
                     <div>
-                        <h3 class="title">Testimonials</h3>
-                        <div>
-                            <blockquote>
-                                <p>Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis.</p>
-                                <cite>by Ted Mosby</cite>
-                            </blockquote>
-                            <blockquote>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                                <cite>by Jamie Lee</cite>
-                            </blockquote> 
-                        </div>
-                    </div>   
+                        <blockquote>
+                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis.</p>
+                            <cite>by Ted Mosby</cite>
+                        </blockquote>
+                        <blockquote>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                            <cite>by Jamie Lee</cite>
+                        </blockquote> 
+                    </div>
+                </div>   
             </div>
             <div class="about">
                 <div class="hdr" data-flex="row-center-between">

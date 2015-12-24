@@ -1,0 +1,21 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=75318a29-013a-4b64-a48c-c89c1ac33f73");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "NexaSlab";
+    src: url("/fonts/fonts.com/69692e4d-b5cb-4f44-9b39-a70c2d5afabf.woff2") format("woff2"), url("/fonts/fonts.com/65099155-4669-4f3e-b9ea-180e8b46df22.woff") format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/8ae6587a-142a-431d-926d-f7454dedb803.woff2") format("woff2"), url("/fonts/fonts.com/198fa8c4-b0f0-4203-bcfc-0c2b956f6784.woff") format("woff");
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/7055ef53-9779-4bc2-b5bb-b29df19c6f5d.woff2") format("woff2"), url("/fonts/fonts.com/1b4cb635-3c1e-49aa-b391-55b5f85708be.woff") format("woff");
+    font-weight: 600;
+}

@@ -1,0 +1,1 @@
+<input type="email" name="input" placeholder="Your E-mail address">

@@ -112,7 +112,7 @@
         </div>
         <footer>
             <div class="lwrap" data-flex="row-center-between">
-                <span>Â© Copyright 2010 Fadelicious. All Rights Reserved.</span>
+                <span>© Copyright 2010 Fadelicious. All Rights Reserved.</span>
                 <div class="hlinks links-social">
                     <a href="#"><i class="icon-fb"></i></a>
                     <a href="#"><i class="icon-db"></i></a>

@@ -1,0 +1,16 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=aa8759fc-2a75-4b9f-8b89-88a350e882b3");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "LucidaSans";
+    src: url("/fonts/fonts.com/3179f9fa-1ce2-445f-845c-88154d1d07bb.woff2") format("woff2"), url("/fonts/fonts.com/bd1ce450-c10a-479e-a870-58bc58464ac1.woff") format("woff");
+}
+@font-face {
+    font-family: "LucidaSans";
+    src: url("/fonts/fonts.com/de96fb49-63c0-4471-aa4c-26a2b5623524.woff2") format("woff2"), url("/fonts/fonts.com/63e272f0-d31b-4902-964f-87e6d2b51bc7.woff") format("woff");
+    font-style: italic;
+}
