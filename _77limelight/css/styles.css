@@ -87,7 +87,7 @@ header .lwrap{
 }
 .freebies > div + .btn-default{
     margin: auto;
-    min-width: 200px;
+    width: 200px;
     height: 40px;
     letter-spacing: 0.02em;
 }
@@ -197,6 +197,9 @@ footer{
     float: left;
     margin: 5rem 30rem 0px 0px;
 }
+.tweet > div{
+    width: 100%;
+}
 .tweet{
     padding: 2px 0px 9px 0px;
 }
@@ -208,7 +211,8 @@ footer{
 .tweet p, .tweet a{
     font-size: 16px;    
 }
-.tweet p{   
+.tweet p{ 
+    width: 100%;
     line-height: 20px;
     margin: 0px;    
 }
