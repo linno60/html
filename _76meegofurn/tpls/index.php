@@ -82,12 +82,12 @@
                         <h2>Here's what our customers are saying about MeegoFurn.</h2>
                         <div data-flex="stripe" data-flex-640="vstripe">
                             <blockquote class="testimonial" data-flex>
-                                <q data-flex="col -start">Suspendisse quis turpis fringilla sollicitudin consequat vel eget nisl. Duis sedut sodales velit. Duis bibendum fermetum lorem, quis pharetra augue sagittis ac.
+                                <q data-flex="col">Suspendisse quis turpis fringilla sollicitudin consequat vel eget nisl. Duis sedut sodales velit. Duis bibendum fermetum lorem, quis pharetra augue sagittis ac.
                                     <cite>by Tery Mandalay</cite>
                                 </q>    
                             </blockquote>
                             <blockquote class="testimonial" data-flex>
-                                <q data-flex="col -start">Suspendisse quis turpis fringilla sollicitudin consequat vel eget nisl. Duis sedut sodales velit.  In hac habitasse platea dictumst etiam tincidunt.
+                                <q data-flex="col">Suspendisse quis turpis fringilla sollicitudin consequat vel eget nisl. Duis sedut sodales velit.  In hac habitasse platea dictumst etiam tincidunt.
                                     <cite>by Anna Hateway</cite>
                                 </q>    
                             </blockquote>

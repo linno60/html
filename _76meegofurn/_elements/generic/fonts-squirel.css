@@ -1,14 +1,18 @@
 @font-face {
     font-family: 'CharisSIL';
-    src: url('/fonts/fontsquirel.com/charissilb-webfont.woff2') format('woff2');
+    src: url('/fonts/fontsquirel.com/charissilb.woff2') format('woff2'), url('/fonts/fontsquirel.com/charissilb.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
 }
 @font-face {
     font-family: 'CharisSIL';
-    src: url('/fonts/fontsquirel.com/charissili-webfont.woff2') format('woff2');
+    src: url('/fonts/fontsquirel.com/charissilr.woff2') format('woff2'), url('/fonts/fontsquirel.com/charissilr.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CharisSIL';
+    src: url('/fonts/fontsquirel.com/charissili.woff2') format('woff2'), url('/fonts/fontsquirel.com/charissili.woff') format('woff');
+    font-weight: normal;
     font-style: italic;
-}
-@font-face {
-    font-family: 'CharisSIL';
-    src: url('/fonts/fontsquirel.com/charissilr-webfont.woff2') format('woff2');
 }

@@ -58,6 +58,7 @@ body{
     color: #456474;
 }
 .testimonial q{
+    width: 100%;
     font-style: italic;
     line-height: 18px;
     padding-top: 8px;
