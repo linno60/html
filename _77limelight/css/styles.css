@@ -1,0 +1,260 @@
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0px 10px;
+}
+header .lwrap{
+    padding: 29rem 10px 80rem 10px;
+}
+.signup-wrap{
+    background: #f7f7f7;
+}
+.signup-wrap .lwrap{
+    padding: 73rem 10px 79rem 8px;
+}
+.signup{
+    max-width: 380px;
+}
+.signup h1{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    margin: 0px 9rem 12rem 0px;
+    letter-spacing: -0.023em;
+}
+.signup p{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 0px 35rem 3rem;
+    letter-spacing: -0.025em;
+}
+.signup form label{
+    color: #aaa;
+    line-height: 24px;
+    padding: 0px 0px 10rem 3rem;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    display: inline-block;
+}
+.signup form input{
+    margin: 0px 6rem 0px 2rem;
+}
+.freebies{
+    padding: 85rem 10px 80rem 10px;
+}
+.freebies figure{
+    position: relative;
+}
+.freebies .figcaption{
+    position: absolute;
+    width: 96.5%;
+    left: 5rem;
+    bottom: 5rem;
+    display: none;
+}
+.freebies figure:hover .figcaption{
+    display: flex;
+}
+.figure-title{
+    padding: 14rem 15rem 24rem 14rem;
+}
+.figure-title h4{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-top: 2rem;
+}
+.figure-title h4 span{
+    font-family: NexaBold;
+    color: #222;
+}
+.figure-title span{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    padding-left: 1px;
+}
+.freebies > div + .btn-default{
+    margin: auto;
+    min-width: 200px;
+    height: 40px;
+    letter-spacing: 0.02em;
+}
+.freebies > div{
+    padding: 44rem 0px 19rem 0px;
+}
+.freebies > div > div{
+    margin: 9rem 0px 12rem 0px;
+    width: 32%;
+}
+.statement{
+    background: #f1f1f1;
+}
+.statement .lwrap{
+    padding: 26rem 10px 25rem 10px;
+}
+blockquote > .lbl-default:first-child{
+    margin-bottom: 14rem;
+}
+blockquote > .lbl-default:last-child{
+    margin-top: 12rem;
+}
+.news article h2{
+    margin-bottom: 9rem;
+    color: #111;
+    font-family: NexaSlab;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.025em;
+}
+.news h2 span{
+    font-family: NexaBold;
+}
+.news hgroup{
+    margin-bottom: 72rem;
+}
+.news article{
+    padding-bottom: 75rem;
+}
+.news article > figure{
+    width: 26.7%;
+    flex-shrink: 0;
+    float: left;
+    min-width: 150px;
+    margin: 3rem 38rem 0px 0px;
+}
+.news{
+    padding: 85rem 10px 5rem 10px;
+}
+.caption{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30rem;
+}
+.caption a{
+    color: #aaa;
+}
+.caption a:active, .caption a:hover, .caption a:focus{
+    text-decoration: underline;
+}
+.news p{
+    color: #222;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 5rem 14rem 1rem;
+    letter-spacing: -0.024em;
+}
+.dot{
+    flex-shrink: 0;
+    width: 5px;
+    height: 5px;
+    background: #86c840;
+    margin: 0px 17rem;
+    border-radius: 50%;
+}
+.footer h5{
+    color: white;
+    font-family: NexaSlab;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    letter-spacing: -0.02em;
+}
+footer{
+    background: #222;
+}
+.tweet i{
+    flex-shrink: 0;
+    margin: 3px 8rem 0px 0px;
+}
+.footer > div{
+    width: 46.9%;
+}
+.footer p{
+    color: #eee;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 21px;
+    letter-spacing: -0.025em;
+}
+.footer figure{
+    min-width: 60px;
+    width: 31.8%;
+    flex-shrink: 0;
+    float: left;
+    margin: 5rem 30rem 0px 0px;
+}
+.tweet{
+    padding: 2px 0px 9px 0px;
+}
+.tweet p, .tweet a, .tweet time{
+    letter-spacing: -0.01em;
+    color: gainsboro;
+    line-height: 20px;   
+}
+.tweet p, .tweet a{
+    font-size: 16px;    
+}
+.tweet p{   
+    line-height: 20px;
+    margin: 0px;    
+}
+.tweet a{
+    font-weight: 600;
+    color: gainsboro;
+}
+.tweet time{
+    line-height: 22px;
+}
+.tweet a:active, .tweet a:hover, .tweet a:focus{
+    text-decoration: underline;
+}
+footer .lwrap{
+    padding: 46rem 10px 34rem 10px;
+}
+.copyright{
+    background: #fff;
+}
+.copyright .lwrap{
+    padding: 30rem 10px 31rem 10px;
+}
+.copyright span{
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 22px;
+    min-width: 269rem;
+    text-align: right;
+}
+.copyright .links-social{
+    padding: 0px 5px 0px 5px;
+}
+.footer .btn-default{
+    min-width: 141px;
+    height: 30px;
+    font-size: 14px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .news article{display: block;}
+}
+@media (max-width: 480px) {
+    .news article h2{font-size: 20px;}
+    blockquote q {font-size: 22px;line-height: 30px;}
+    .freebies > div > div {width: 49%;}
+}

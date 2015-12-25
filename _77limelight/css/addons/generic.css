@@ -23,9 +23,9 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     font-weight: 600;
 }
 /* ICONS */
-.icon-arrow-alt {width: 12px; height: 16px; background: url('/images/icons/arrow-alt.png');}
+.icon-arrow-alt {width: 10px;height: 14px; background: url('/images/icons/arrow-alt.png');}
 .icon-arrow-more {width: 23px; height: 22px; background: url('/images/icons/arrow-more.png');}
-.icon-arrow {width: 12px; height: 19px; background: url('/images/icons/arrow.png');}
+.icon-arrow {width: 12px;height: 17px; background: url('/images/icons/arrow.png');}
 .icon-comment {width: 14px; height: 13px; background: url('/images/icons/comment.png');}
 .icon-download {width: 13px; height: 12px; background: url('/images/icons/download.png');}
 .icon-eye {width: 22px; height: 12px; background: url('/images/icons/eye.png');}

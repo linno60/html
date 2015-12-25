@@ -4,13 +4,16 @@ body{
 }
 
 /*LINKS*/
+.links-nav{
+    margin: 5rem -20rem 0px 0px;
+}
 .links-nav a{
     color: #222;
     font-family: NexaSlab;
     font-size: 16px;
     font-weight: 700;
     line-height: 12px;
-    margin: 5px 20px;
+    margin: 10px 20rem;
     position: relative;
 }
 .links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
@@ -22,7 +25,7 @@ body{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: -30px;
+    bottom: -19px;
     cursor: default;
 }
 .links-social a{
@@ -32,12 +35,16 @@ body{
     border-radius: 50%;
     margin: 5px;
 }
+.links-footer{
+    margin-left: -15px;
+}
 .links-footer a{
     color: #555;
     font-size: 14px;
     font-weight: 600;
     line-height: 22px;
     margin: 5px 15px;
+    letter-spacing: -0.025em;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
@@ -55,12 +62,18 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     padding: 0px 5px;
+    letter-spacing: -0.03em;
+    line-height: 15px;
 }
 .btn-arrow{
     width: 32px;
     height: 32px;
     background-color: #86c840;
     border-radius: 50%;
+    flex-shrink: 0;
+}
+.btn-default i{
+    margin-left: 14px;
 }
 
 /*LABELS*/
@@ -75,4 +88,80 @@ body{
     border-radius: 50%;
     flex-shrink: 0;
     padding-top: 34px;
+}
+
+/*FORMS*/
+input[type="email"]{
+    color: #333;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    max-width: 251px;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding: 0px 13px;
+    letter-spacing: -0.02em;
+}
+input[type="email"]::-webkit-input-placeholder{color: #aaa;}
+input[type="email"]::-moz-placeholder{color: #aaa;}
+input[type="email"]:-ms-input-placeholder{color: #aaa;}
+
+/*CITES*/
+blockquote q{
+    color: #111;
+    font-size: 28px;
+    text-align: center;
+    max-width: 780px;
+    padding: 10rem;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+}
+
+/*OTHER*/
+hgroup {
+    border-left: 6px solid #86c840;
+    padding-left: 18rem;
+}
+hgroup h2{
+    color: #222;
+    font-family: NexaSlab;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+}
+hgroup h4{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: -0.025em;
+}
+.figcaption{
+    background: rgba(34,34,34,.85);
+    padding: 5rem 13rem 5px 11rem;
+    border-radius: 0px 0px 3px 3px;
+    min-height: 40px;
+}
+.figcaption time, .figcaption a{
+    color: white;
+    font-weight: 600;
+}
+.figcaption a{
+    margin-left: 18rem;
+}
+.figcaption a:active, .figcaption a:hover, .figcaption a:focus{
+    text-decoration: underline;
+}
+.figcaption i{
+    margin-right: 3px
+}
+.more{
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.more i{
+    margin: -2px 5px 0px 2px;
 }

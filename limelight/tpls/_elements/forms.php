@@ -1,1 +1,1 @@
-<input type="email" placeholder="Email address...">
+<input type="email" name='input' placeholder="Email address...">
