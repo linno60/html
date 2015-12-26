@@ -1,0 +1,23 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=467ec89e-66a7-4c5c-b4a5-8d3beab47e33");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("/fonts/fonts.com/700cfd4c-3384-4654-abe1-aa1a6e8058e4.woff2") format("woff2"), url("/fonts/fonts.com/9908cdad-7524-4206-819e-4f345a666324.woff") format("woff");
+}
+/* ICONS */
+.icon-admin {width: 11px; height: 12px; background: url('/images/icons/admin.png');}
+.icon-comments {width: 11px; height: 9px; background: url('/images/icons/comments.png');}
+.icon-db {width: 32px; height: 32px;background: url('/images/icons/db.png');}
+.icon-fl {width: 32px; height: 32px; background: url('/images/icons/fl.png');}
+.icon-rss {width: 64px; height: 64px; background: url('/images/icons/rss.png');}
+.icon-search {width: 30px; height: 25px; background: url('/images/icons/search.png');}
+.icon-sv {width: 32px; height: 32px; background: url('/images/icons/sv.png');}
+.icon-t {width: 32px; height: 32px; background: url('/images/icons/t.png');}

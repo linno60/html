@@ -4,21 +4,32 @@
         <title>Cleanmag</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-        <link rel="stylesheet" href="/css/reset.css">
-        <link rel="stylesheet" href="/css/reset-elements.css">
-        <link rel="stylesheet" href="/css/styles.css">    
+        <link rel="stylesheet" href="/css/addons/reset.css">
+        <link rel="stylesheet" href="/css/addons/reset-elements.css">
+        <link rel="stylesheet" href="/css/addons/data-flex.css">
+        <link rel="stylesheet" href="/css/addons/data-tabs.css">
+        <link rel="stylesheet" href="/css/addons/generic.css">  
+        <link rel="stylesheet" href="/css/elements.css">  
+        <link rel="stylesheet" href="/css/styles.css">  
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
     </head>
     <body>
         <header>
-            <div class='lwrap' data-flex='row-center-between'>
-                <a href='#' class='logo' data-flex='row-center'>Clean<span>Mag</span></a>
-                <figure data-flex>
-                    <img src="/images/banner.png" width="728" height="90" alt="">
-                </figure>
+            <div class='lwrap' data-flex='axis' data-flex-640="vaxis">
+                <a href="/" title="Return to the homepage" id="logo">
+                    <img src="/images/logo.png" width="189" height="35" alt="Cleanmag">
+                </a>
+                <figure><img src="/images/banner.png" width="728" height="90" alt=""></figure>
             </div>
             <div class='top-bar'>
-                <div class='lwrap' data-flex='row-center-between'>
-                    <nav class='hlinks links-top'>
+                <div class='lwrap' data-flex='axis'>
+                    <nav class='links-top' data-flex="w">
                         <a href='#'>Home</a>
                         <a href='#'>About Me</a>
                         <a href='#'>Design Services</a>
@@ -26,7 +37,7 @@
                         <a href='#'>Advertise</a>
                         <a href='#'>Contact Me</a>
                     </nav>
-                    <div class='hlinks links-social'>
+                    <div class='links-social' data-flex="end w" data-childs>
                         <a href='#'><i class="icon-db"></i></a>
                         <a href='#'><i class="icon-fl"></i></a>
                         <a href='#'><i class="icon-t"></i></a>
@@ -35,83 +46,71 @@
                 </div>
             </div>
             <div class='nav'>
-                <div class='lwrap'>
-                    <nav class='hlinks links-nav'>
-                        <a href='#' class='active'>inspiration</a>
-                        <a href='#'>technology</a>
-                        <a href='#'>freebies</a>
-                        <a href='#'>wordpress</a>
-                        <a href='#'>tutorials</a>
-                        <a href='#'>fonts</a>
-                        <a href='#'>wallpapers</a>
-                    </nav>
-                </div>               
+                <nav class='links-nav lwrap' data-flex="stripe w" data-childs="-center center" data-flex-800="center w">
+                    <a href='#' class='active'>inspiration</a>
+                    <a href='#'>technology</a>
+                    <a href='#'>freebies</a>
+                    <a href='#'>wordpress</a>
+                    <a href='#'>turorials</a>
+                    <a href='#'>fonts</a>
+                    <a href='#'>wallpapers</a>
+                </nav>
             </div>
         </header>
-        <div class='lwrap content-wrap' data-flex='row--between'>
+        <div class='lwrap content-wrap' data-flex='stripe'>
             <div class='content'>
                 <div class='slider'>
                     <span class='lbl lbl-default'>featured</span>
-                    <figure data-flex>
-                        <img src="/images/slider.png" width="614" height="300" alt="">
-                    </figure>
-                    <div class='pagination-slider' data-flex>
+                    <figure><img src="/images/slider.png" width="614" height="300" alt=""></figure>
+                    <div class='pagination-slider' data-flex="end" data-childs="-center center">
                         <a href='#' class='active'>1</a>
                         <a href='#'>2</a>
                         <a href='#'>3</a>
                     </div>
                 </div>
                 <div class='posts'>
-                    <article data-flex='row-start-between'>
-                        <figure data-flex>
-                            <img src="/images/img1.png" width="200" height="200" alt="">
-                        </figure>
+                    <article data-flex='-start between'>
+                        <figure><img src="/images/img1.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='row--between'>
-                                <div class='article-link' data-flex='row-center'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
-                                <div class='article-link' data-flex='row-center'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
+                            <div data-flex='stripe' data-childs="-center">
+                                <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
+                                <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
                             <h2>Thanksgiving greeting card PSD</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. .</p>
                             <a href='#' class='more'>Read More</a>
                         </div>
                     </article>
-                    <article data-flex='row-start-between'>
-                        <figure data-flex>
-                            <img src="/images/img2.png" width="200" height="200" alt="">
-                        </figure>
+                    <article data-flex='-start between'>
+                        <figure><img src="/images/img2.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='row--between'>
-                                <div class='article-link' data-flex='row-center'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
-                                <div class='article-link' data-flex='row-center'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
+                            <div data-flex='stripe' data-childs="-center">
+                                <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
+                                <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
                             <h2>Vintage business card PSD (front & back)</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. .</p>
                             <a href='#' class='more'>Read More</a>
                         </div>
                     </article>
-                    <article data-flex='row-start-between'>
-                        <figure data-flex>
-                            <img src="/images/img3.png" width="200" height="200" alt="">
-                        </figure>
+                    <article data-flex='-start between'>
+                        <figure><img src="/images/img3.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='row--between'>
-                                <div class='article-link' data-flex='row-center'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
-                                <div class='article-link' data-flex='row-center'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
+                            <div data-flex='stripe' data-childs="-center">
+                                <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
+                                <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
                             <h2>Request a quote form PSD in 3 colors</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. .</p>
                             <a href='#' class='more'>Read More</a>
                         </div>
                     </article>
-                    <article data-flex='row-start-between'>
-                        <figure data-flex>
-                            <img src="/images/img4.png" width="200" height="200" alt="">
-                        </figure>
+                    <article data-flex=' -start between'>
+                        <figure><img src="/images/img4.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='row--between'>
-                                <div class='article-link' data-flex='row-center'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
-                                <div class='article-link' data-flex='row-center'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
+                            <div data-flex='stripe' data-childs="-center">
+                                <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
+                                <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
                             <h2>PSD book template & icons</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada orci a commodo. Aenean dapibus urna quis nulla consequat sagittis. Quisque ut ultrices massa. Mauris felis felis, rutrum sit amet vehicula ut, tempus quis lectus. .</p>
@@ -119,7 +118,7 @@
                         </div>
                     </article>                    
                 </div>
-                <div class='pagination' data-flex>
+                <div class='pagination' data-flex='center'>
                     <a href='#'>1</a>
                     <a href='#'>2</a>
                     <a href='#'>3</a>
@@ -127,10 +126,10 @@
                     <span>of&ensp;75</span>
                     <a href='#'>Next</a>
                 </div>
-                <div class='content-items' data-flex='row--between'>
+                <div class='content-items' data-flex='stripe'>
                     <div>
                         <h2 class='title'>user news</h2>
-                        <div data-flex='col-start'>
+                        <div data-flex='col -start'>
                             <div class='news-item'>
                                 <h4><a href='#'>Thanksgiving greeting card PSD</a></h4>
                                 <span><time>November 29, 2010 by <a href='#'>Admin</a></time></span>
@@ -139,17 +138,17 @@
                             <div class='news-item'>
                                 <h4><a href='#'>Vintage business card PSD (front & back)</a></h4>
                                 <span><time>November 29, 2010 by <a href='#'>Admin</a></time></span>
-                                <p>Friends, today’s PSD download is a vintage business card Photoshop PSD download. </p>
+                                <p>Friends, today's PSD download is a vintage business card Photoshop PSD download. </p>
                             </div>
                             <div class='news-item'>
                                 <h4><a href='#'>Fruit illustration, fresh lemon PSD</a></h4>
                                 <span><time>November 29, 2010 by <a href='#'>Admin</a></time></span>
-                                <p>Today’s amazing PSD download is a fruit illustra&shy;tion of fresh lemon graphic in Photoshop PSD...</p>
+                                <p>Today's amazing PSD download is a fruit illustra&shy;tion of fresh lemon graphic in Photoshop PSD...</p>
                             </div>
                             <div class='news-item'>
                                 <h4><a href='#'>Request a quote form PSD in 3 colors</a></h4>
                                 <span><time>November 29, 2010 by <a href='#'>Admin</a></time></span>
-                                <p>Friends, today’s PSD download is a set of “Request a Quote” form in Photoshop PSD format.</p>
+                                <p>Friends, today's PSD download is a set of "Request a Quote" form in Photoshop PSD format.</p>
                             </div>
                             <a href='#' class='more'>Read More News</a>
                             <button><span  class='btn btn-submit'>+ submit news</span></button> 
@@ -158,59 +157,34 @@
                     <div>
                         <div>
                             <h2 class='title'>random inspiration</h2>
-                            <div class='grid' data-flex='row--between'>
-                                <figure data-flex>
-                                    <img src="/images/img5.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img6.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img7.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img8.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img9.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img10.png" width="65" height="65" alt="">
-                                </figure>
+                            <div class='grid' data-flex='stripe w'>
+                                <figure><img src="/images/img5.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img6.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img7.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img8.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img9.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img10.png" width="65" height="65" alt=""></figure>
                             </div>
                         </div>
                         <div>
                             <h2 class='title'>flickr group</h2>
-                            <div class='grid' data-flex='row--between'>
-                                <figure data-flex>
-                                    <img src="/images/img5.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img6.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img7.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img8.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img9.png" width="65" height="65" alt="">
-                                </figure>
-                                <figure data-flex>
-                                    <img src="/images/img10.png" width="65" height="65" alt="">
-                                </figure>
+                            <div class='grid' data-flex='stripe w'>
+                                <figure><img src="/images/img5.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img6.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img7.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img8.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img9.png" width="65" height="65" alt=""></figure>
+                                <figure data-flex><img src="/images/img10.png" width="65" height="65" alt=""></figure>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <aside class='sidebar' data-flex='col'>
-                <form class='form-search' action='#' method='post' data-flex='row-center-between'>
-                    <input type='search' placeholder="Search Blog">
-                    <i class="icon-search"></i>
+                <form action='#' method='post'>
+                    <input type='search' name="search" placeholder="Search Blog">
                 </form>
-                <div class='social-networking' data-flex='row--between'>
+                <div class='social-networking' data-flex='stripe'>
                     <a href='#'><i class="icon-rss"></i></a>
                     <div data-flex='col' class='rss'>
                         <strong>1234</strong>
@@ -223,28 +197,20 @@
                         <a href='#'>Follow on Twitter</a>
                     </div> 
                 </div>
-                <form class='form-subscribe' action='#' method='post' data-flex='row-center-between'>
-                    <input type='email' placeholder="Enter email address">
-                    <button><span  class='btn btn-submit'>subscribe</span></button>
+                <form action='#' method='post' data-flex='stripe' data-flex-800='stripe w'>
+                    <input type='email' name="email" placeholder="Enter email address">
+                    <button><span class='btn btn-submit'>subscribe</span></button>
                 </form>
-                <div class='advertisements' data-flex='row--between'>
-                    <figure data-flex>
-                        <img src="/images/img12.png" width="125" height="125" alt="">
-                    </figure>
-                    <figure data-flex>
-                        <img src="/images/img13.png" width="125" height="125" alt="">
-                    </figure>
-                    <figure data-flex>
-                        <img src="/images/img14.png" width="125" height="125" alt="">
-                    </figure>
-                    <figure data-flex>
-                        <img src="/images/img15.png" width="125" height="125" alt="">
-                    </figure>
+                <div class='advertisements' data-flex='stripe w'>
+                    <figure><img src="/images/img12.png" width="125" height="125" alt=""></figure>
+                    <figure><img src="/images/img13.png" width="125" height="125" alt=""></figure>
+                    <figure><img src="/images/img14.png" width="125" height="125" alt=""></figure>
+                    <figure><img src="/images/img15.png" width="125" height="125" alt=""></figure>
                 </div>
                 <div class='categories'>
                     <h5 class='title'>categories</h5>
-                    <div data-flex='row--between'>
-                        <div class='links links-default'>
+                    <div data-flex='stripe'>
+                        <div class='links-default' data-flex="col -start w">
                             <a href='#'>Backgrounds</a>
                             <a href='#'>Bruches</a>
                             <a href='#'>Design Articles</a>
@@ -252,11 +218,11 @@
                             <a href='#'>Free PSD Files</a>
                             <a href='#'>Icons</a>
                             <a href='#'>Logos</a>
-                             <a href='#'>Patterns</a>
+                            <a href='#'>Patterns</a>
                             <a href='#'>Textures</a>
                             <a href='#'>Tools & Utilities</a>
                         </div>
-                        <div class='links links-default'>
+                        <div class='links-default' data-flex="col -start w">
                             <a href='#'>Backgrounds</a>
                             <a href='#'>Bruches</a>
                             <a href='#'>Design Articles</a>
@@ -264,7 +230,7 @@
                             <a href='#'>Free PSD Files</a>
                             <a href='#'>Icons</a>
                             <a href='#'>Logos</a>
-                             <a href='#'>Patterns</a>
+                            <a href='#'>Patterns</a>
                             <a href='#'>Textures</a>
                             <a href='#'>Tools & Utilities</a>
                         </div>
@@ -272,67 +238,51 @@
                 </div>
                 <div class='post-wrap'>
                     <h5 class='title'>latest posts</h5>
-                    <div>
-                        <div class='post' data-flex='row-center'>
-                            <figure data-flex>
-                                <img src="/images/img11.png" width="34" height="34" alt="">
-                            </figure>
+                    <div data-childs='-center'>
+                        <div class='post'> 
+                            <figure><img src="/images/img11.png" width="34" height="34" alt=""></figure>
                             <p><a href='#'>Request a quote form PSD in 3 colors</a></p>
                         </div>
-                        <div class='post' data-flex='row-center'>
-                            <figure data-flex>
-                                <img src="/images/img11.png" width="34" height="34" alt="">
-                            </figure>
+                        <div class='post'>
+                            <figure><img src="/images/img11.png" width="34" height="34" alt=""></figure>
                             <p><a href='#'>Thanksgiving greeting card PSD</a></p>
                         </div>
-                        <div class='post' data-flex='row-center'>
-                            <figure data-flex>
-                                <img src="/images/img11.png" width="34" height="34" alt="">
-                            </figure>
+                        <div class='post'>
+                            <figure><img src="/images/img11.png" width="34" height="34" alt=""></figure>
                             <p><a href='#'>Vintage business card PSD (front & back)</a></p>
                         </div>
-                        <div class='post' data-flex='row-center'>
-                            <figure data-flex>
-                                <img src="/images/img11.png" width="34" height="34" alt="">
-                            </figure>
+                        <div class='post'>
+                            <figure><img src="/images/img11.png" width="34" height="34" alt=""></figure>
                             <p><a href='#'>Free xHTML/CSS website template</a></p>
                         </div>
-                        <div class='post' data-flex='row-center'>
-                            <figure data-flex>
-                                <img src="/images/img11.png" width="34" height="34" alt="">
-                            </figure>
+                        <div class='post'>
+                            <figure><img src="/images/img11.png" width="34" height="34" alt=""></figure>
                             <p><a href='#'>fruit illustration, fresh lemon PSD</a></p>
                         </div>
-                        <div class='post' data-flex='row-center'>
-                            <figure data-flex>
-                                <img src="/images/img11.png" width="34" height="34" alt="">
-                            </figure>
+                        <div class='post'>
+                            <figure><img src="/images/img11.png" width="34" height="34" alt=""></figure>
                             <p><a href='#'>Wooden speakers PSD & icons</a></p>
                         </div>
                     </div>
                 </div>
-                <figure data-flex>
-                    <img src="/images/fb-like.png" width="301" height="206" alt="">
-                </figure>
-                <figure data-flex class='banner'>
-                    <img src="/images/banner-alt.png" width="300" height="120" alt="">
-                </figure>
+                <figure><img src="/images/fb-like.png" width="301" height="206" alt=""></figure>
+                <figure data-flex class='banner'><img src="/images/banner-alt.png" width="300" height="120" alt=""></figure>
                 <div>
-                     <h5 class='title'>videos</h5>
-                     <iframe src="https://www.youtube.com/embed/1p3a5d_cKeA" frameborder="0" allowfullscreen></iframe>
+                    <h5 class='title'>videos</h5>
+                    <div data-video='16:9'><iframe src="https://www.youtube.com/embed/1p3a5d_cKeA" frameborder="0" allowfullscreen></iframe></div>
                 </div>
             </aside>
         </div>
         <footer>
-            <div class='footer lwrap' data-flex='row--between'>
+            <div class='footer lwrap' data-flex='stripe'>
                 <div>
                     <h5 class='title'>about</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut purus odio, quis rutrum nibh. Etiam nec tellus malesuada odio tincidunt fringilla quis vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla malesuada convallis. Morbi laoreet volutpat rhoncus.</p>
                 </div>
                 <div>
                     <h5 class='title'>browse</h5>
-                    <div data-flex='row-start'>
-                        <div class='links links-default'>
+                    <div data-flex='-start'>
+                        <div class='links links-default' data-flex="col -start w">
                             <a href='#'>Inspiration</a>
                             <a href='#'>Technology</a>
                             <a href='#'>Freebies</a>
@@ -341,7 +291,7 @@
                             <a href='#'>Fonts</a>
                             <a href='#'>Wallpapers</a>
                         </div>
-                        <div class='links links-default'>
+                        <div class='links links-default' data-flex="col -start w">
                             <a href='#'>Home</a>
                             <a href='#'>About Me</a>
                             <a href='#'>Design Services</a>
@@ -358,16 +308,17 @@
                 </div>
             </div>
             <div class='copyright'>
-                <div class='lwrap' data-flex='row--between'>
-                    <span>Copyright © 2010 All Rights Reserved</span>
+                <div class='lwrap' data-flex='stripe'>
+                    <span>Copyright &copy; 2010 All Rights Reserved</span>
                     <div>
-                        <span>Designed by <a href='#' class='more'>GraphicFuel.com</a></span>
+                        <span>Designed by <a href='#' class='more'>GraphicsFuel.com</a></span>
                         <span>Powered by <a href='#' class='more'>Wordpress</a></span>
                     </div>
                 </div>
             </div>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
     </body>
 </html>
