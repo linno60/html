@@ -57,7 +57,7 @@
                 </nav>
             </div>
         </header>
-        <div class='lwrap content-wrap' data-flex='stripe'>
+        <div class='lwrap content-wrap' data-flex='stripe' data-flex-640="vstripe">
             <div class='content'>
                 <div class='slider'>
                     <span class='lbl lbl-default'>featured</span>
@@ -72,7 +72,7 @@
                     <article data-flex='-start between'>
                         <figure><img src="/images/img1.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='stripe' data-childs="-center">
+                            <div data-flex='stripe w' data-childs="-center">
                                 <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
                                 <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
@@ -84,7 +84,7 @@
                     <article data-flex='-start between'>
                         <figure><img src="/images/img2.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='stripe' data-childs="-center">
+                            <div data-flex='stripe w' data-childs="-center">
                                 <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
                                 <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
@@ -96,7 +96,7 @@
                     <article data-flex='-start between'>
                         <figure><img src="/images/img3.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='stripe' data-childs="-center">
+                            <div data-flex='stripe w' data-childs="-center">
                                 <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
                                 <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
@@ -108,7 +108,7 @@
                     <article data-flex=' -start between'>
                         <figure><img src="/images/img4.png" width="200" height="200" alt=""></figure>
                         <div>
-                            <div data-flex='stripe' data-childs="-center">
+                            <div data-flex='stripe w' data-childs="-center">
                                 <div class='article-link'><i class="icon-admin"></i><a href='#'>Admin</a>&nbsp;<span>-</span>&nbsp;<time>Nov 28th, 2010</time></div>
                                 <div class='article-link'><i class="icon-comments"></i><a href='#'>10 Comments</a></div>
                             </div>
@@ -126,7 +126,7 @@
                     <span>of&ensp;75</span>
                     <a href='#'>Next</a>
                 </div>
-                <div class='content-items' data-flex='stripe'>
+                <div class='content-items' data-flex='stripe' data-flex-480="vstripe">
                     <div>
                         <h2 class='title'>user news</h2>
                         <div data-flex='col -start'>
@@ -157,7 +157,7 @@
                     <div>
                         <div>
                             <h2 class='title'>random inspiration</h2>
-                            <div class='grid' data-flex='stripe w'>
+                            <div class='grid' data-flex='stripe w' data-flex-960="around w" data-flex-480="w">
                                 <figure><img src="/images/img5.png" width="65" height="65" alt=""></figure>
                                 <figure data-flex><img src="/images/img6.png" width="65" height="65" alt=""></figure>
                                 <figure data-flex><img src="/images/img7.png" width="65" height="65" alt=""></figure>
@@ -168,7 +168,7 @@
                         </div>
                         <div>
                             <h2 class='title'>flickr group</h2>
-                            <div class='grid' data-flex='stripe w'>
+                            <div class='grid' data-flex='stripe w' data-flex-960="around w" data-flex-480="w">
                                 <figure><img src="/images/img5.png" width="65" height="65" alt=""></figure>
                                 <figure data-flex><img src="/images/img6.png" width="65" height="65" alt=""></figure>
                                 <figure data-flex><img src="/images/img7.png" width="65" height="65" alt=""></figure>
@@ -180,24 +180,26 @@
                     </div>
                 </div>
             </div>
-            <aside class='sidebar' data-flex='col'>
+            <aside class='sidebar' data-flex='col' data-flex-640="stripe w" data-flex-480="vstripe">
                 <form action='#' method='post'>
                     <input type='search' name="search" placeholder="Search Blog">
                 </form>
                 <div class='social-networking' data-flex='stripe'>
                     <a href='#'><i class="icon-rss"></i></a>
-                    <div data-flex='col' class='rss'>
-                        <strong>1234</strong>
-                        <span>Readers</span>
-                        <a href='#'>Subscribe Now</a>
+                    <div data-flex='stripe w'>
+                        <div data-flex='col' class='rss'>
+                            <strong>1234</strong>
+                            <span>Readers</span>
+                            <a href='#'>Subscribe Now</a>
+                        </div>
+                        <div data-flex='col' class='twitter'>
+                            <strong>1200</strong>
+                            <span>Twitter Followers</span>
+                            <a href='#'>Follow on Twitter</a>
+                        </div> 
                     </div>
-                    <div data-flex='col' class='twitter'>
-                        <strong>1200</strong>
-                        <span>Twitter Followers</span>
-                        <a href='#'>Follow on Twitter</a>
-                    </div> 
                 </div>
-                <form action='#' method='post' data-flex='stripe' data-flex-800='stripe w'>
+                <form action='#' method='post' data-flex='stripe' data-flex-800='stripe w' data-flex-640="axis">
                     <input type='email' name="email" placeholder="Enter email address">
                     <button><span class='btn btn-submit'>subscribe</span></button>
                 </form>
@@ -265,16 +267,20 @@
                         </div>
                     </div>
                 </div>
-                <figure><img src="/images/fb-like.png" width="301" height="206" alt=""></figure>
-                <figure data-flex class='banner'><img src="/images/banner-alt.png" width="300" height="120" alt=""></figure>
                 <div>
+                    <figure><img src="/images/fb-like.png" width="301" height="206" alt=""></figure> 
+                </div>
+                <div>
+                    <figure data-flex class='banner'><img src="/images/banner-alt.png" width="300" height="120" alt=""></figure>
+                </div>
+                <div class="video">
                     <h5 class='title'>videos</h5>
                     <div data-video='16:9'><iframe src="https://www.youtube.com/embed/1p3a5d_cKeA" frameborder="0" allowfullscreen></iframe></div>
                 </div>
             </aside>
         </div>
         <footer>
-            <div class='footer lwrap' data-flex='stripe'>
+            <div class='footer lwrap' data-flex='stripe' data-flex-640="vstripe">
                 <div>
                     <h5 class='title'>about</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut purus odio, quis rutrum nibh. Etiam nec tellus malesuada odio tincidunt fringilla quis vitae nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla malesuada convallis. Morbi laoreet volutpat rhoncus.</p>
@@ -310,7 +316,7 @@
             <div class='copyright'>
                 <div class='lwrap' data-flex='stripe'>
                     <span>Copyright &copy; 2010 All Rights Reserved</span>
-                    <div>
+                    <div data-flex="end w">
                         <span>Designed by <a href='#' class='more'>GraphicsFuel.com</a></span>
                         <span>Powered by <a href='#' class='more'>Wordpress</a></span>
                     </div>

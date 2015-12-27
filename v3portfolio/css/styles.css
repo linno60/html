@@ -52,7 +52,6 @@
 }
 .logo-wrap{
     width: 138px;
-    /* margin: 0px 0px 0px -1px; */
 }
 .links-default a{
     font-family: Arial;
@@ -223,7 +222,6 @@ header{
     padding: 34px 0px 51px 0px;
 }
 .content > div{
-    /* flex: 1; */
     border-right: 1px solid #2b2b2b;
     padding: 18px 60px 2px 16px;
     width: 34%;

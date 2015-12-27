@@ -1,0 +1,95 @@
+body{
+    font-size: 13px;
+    font-family: Arial;
+}
+
+/*LINKS*/
+.links-social a{
+    margin: 5px 4px 5px 5px;
+}
+.links-nav > a{
+    margin: 2px 35rem 0px 35rem;
+    height: 58px;
+    color: #686868;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+.links-nav > #logo{
+    margin: 0px -38px;
+    align-items: flex-start;
+}
+.links-nav > a > span{
+    display: inline-block;    
+    background: -webkit-linear-gradient(top, #848484 0%, #484848 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.links-nav > a.active span, .links-nav > a:active span, .links-nav > a:hover span, .links-nav > a:focus span{
+    background: -webkit-linear-gradient(top, #e1e1e1 0%, #929292 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+.links-nav a.logo{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.links-nav{
+    position: relative;     
+}
+.links-default a{
+    line-height: 24px;
+    color: #515151;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+.btn-default{
+    position: relative;
+    min-width: 180px;
+    height: 42px;
+    color: #920223;
+    font-family: Museo;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 0px 5px;
+    background: linear-gradient(0deg, #020202 0%, #535353 4%, #505050 6%, #c9c9c9 35%, white 100%);
+}
+.btn-default span{
+    background: -webkit-linear-gradient(top, #6d0019 0%, #a70329 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.btn-default:before{
+    content: "";
+    width: 115%;
+    height: 22px;
+    position: absolute;
+    background: url("/images/btn-shadow.png")no-repeat center center;
+    background-size: cover;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    z-index: -1;
+}
+.btn-anchor{
+    width: 29px;
+    height: 29px;
+    background: #161616;
+    border: 1px solid #212121;
+    box-shadow: inset 0 0 14px 6px black;
+    border-radius: 50%;
+}
+.btn-thumb{
+    width: 30px;
+    height: 36px;
+    background: #161616;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 17px 0px 0px 17px;
+}

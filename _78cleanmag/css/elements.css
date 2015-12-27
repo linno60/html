@@ -89,10 +89,9 @@ input[type="search"]{
     border: none;
     border: 5px solid #e6e6e6;
     background: #fff url(/images/icons/search.png)no-repeat right 3px center;
-    max-width: 300px;
 }
 input[type="email"]{
-    max-width: 203px;
+    flex-grow: 1;
     border: 1px solid silver;
     padding: 0px 7px;
     letter-spacing: -0.01em;
@@ -112,7 +111,7 @@ input[type="email"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeh
 /*PAGINATIONS*/
 .pagination{
     padding: 2px 20px 10px 10px;
-    margin-bottom: 37px;
+    margin-bottom: 37rem;
     border-bottom: 1px solid #e6e6e6;
 }
 .pagination-slider a{
@@ -129,9 +128,12 @@ input[type="email"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeh
 }
 .pagination a, .pagination span{
     color: #868686;
-    margin: 5px 10px;
+    margin: 5rem 10rem;
     font-size: 35px;
     font-weight: 700;
+}
+.pagination span{
+    white-space: nowrap;
 }
 .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: #eb4900;
@@ -159,5 +161,5 @@ input[type="email"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeh
     font-weight: 700;
     text-transform: uppercase;
     line-height: 27px;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
