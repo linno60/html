@@ -23,11 +23,11 @@
         <header>
             <div class="nav">
                 <div class="lwrap">
-                    <nav class="links-nav" data-flex="center" data-childs="-center">
+                    <nav class="links-nav" data-flex="center" data-childs="-center" data-flex-480="center w">
                         <a href="#" class="active"><span>home</span></a>
                         <a href="#"><span>about</span></a>
                         <a href="#"><span>portfolio</span></a>
-                        <a href="/" title="Return to the homepage" id="logo"><img src="/images/logo.png" width="214" height="114" alt=""></a>
+                        <a href="/" title="Return to the homepage" id="logo"><img src="/images/logo.png" width="120" height="114" alt=""></a>
                         <a href="#"><span>services</span></a>
                         <a href="#"><span>blog</span></a>
                         <a href="#"><span>contact</span></a>
@@ -42,7 +42,7 @@
                 </div> 
             </div>
         </header>
-        <div class="lwrap">
+        <div class="lwrap wrap">
             <div class="slider-wrap">
                 <div class="btn-wrap prev"><div class="thumb"></div></div>
                 <a href="#" class="btn btn-thumb prev"><i class="icon-prev"></i></a>
@@ -50,7 +50,7 @@
                 <div class="btn-wrap next"><div class="thumb"></div></div>
                 <a href="#" class="btn btn-thumb next"><i class="icon-prev"></i></a>
             </div>
-            <div class="content" data-flex="stripe w">
+            <div class="content" data-flex="stripe w" data-flex-480="vstripe">
                 <div>
                     <h2>about me</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat porttitor ligula quis fringilla. Vestibulum viverra justo in dui pellentesque convallis. Vivamus ac ligula felis, et bibendum urna. Mauris vitae mauris quis arcu rhoncus auctor ac eu nibh. Vestibulum volutpat justo sit amet nisi auctor vitae rutrum dui porttitor. </p>
@@ -59,14 +59,17 @@
                     <h2>my services</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat porttitor ligula quis fringilla. Vestibulum viverra justo in dui pellentesque convallis. Vivamus ac ligula felis, et bibendum urna. Mauris vitae mauris quis arcu rhoncus auctor ac eu nibh. Vestibulum volutpat justo sit amet nisi auctor vitae rutrum dui porttitor. </p>
                 </div>
-                <div>
-                    <h3>contact me</h3>
+                <div data-flex-480="stripe">
+                    <div>
+                        <h3>contact me</h3>
                     <address data-flex="col" data-childs="-center">
-                        <a href="mailto:graphicsfuel@gmail.com"><div data-flex="-center"><i class="icon-mail"></i></div>graphicsfuel@gmail.com</a>
+                        <a href="mailto:graphicsfuel@gmail.com" data-flex="w"><div data-flex="-center"><i class="icon-mail"></i></div>graphicsfuel@gmail.com</a>
                         <span><div data-flex="-center"><i class="icon-phone"></i></div>123-456-7890</span>
                         <a href="#"><div data-flex="-center"><i class="icon-download"></i></div>Download My CV</a>
                     </address>
-                    <h3>connect with me</h3>
+                    </div>
+                    <div>
+                        <h3>connect with me</h3>
                     <div class="links-social" data-flex="w">
                         <a href="#"><i class="icon-tw"></i></a>
                         <a href="#"><i class="icon-fb"></i></a>
@@ -74,12 +77,13 @@
                         <a href="#"><i class="icon-fl"></i></a>
                         <a href="#"><i class="icon-db"></i></a>
                     </div>
+                    </div>
                 </div>
             </div>
         </div> 
         <footer>   
             <div class="footer">
-                <div class="lwrap" data-flex="stripe w">
+                <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                     <div data-flex="-start">
                         <figure><img src="/images/cup.png" width="140" height="113" alt=""></figure>
                         <div>
@@ -91,7 +95,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div data-flex="col -center">
                         <h2 data-text="Thank You!"><span>Thank You!</span></h2>
                         <a href="#" class="btn btn-default"><span>See My Works</span></a>
                     </div>
