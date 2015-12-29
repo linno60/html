@@ -1,0 +1,148 @@
+figure img, #logo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    background: url("/images/bg.png")
+}
+.lwrap{
+    max-width: 960px;
+}
+.sidebar > *, .content > *{
+    margin-bottom: 10rem;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    padding: 12rem 15rem 15rem 15rem;
+}
+.sidebar > div:first-child{
+    padding: 30rem 15rem 31rem 4px;
+}
+.content > div:first-child{
+    padding: 12rem 11rem 7rem 14rem;
+}
+.content > *{
+    padding: 14rem 15rem 9rem 15rem;
+}
+.content > .slider{
+    padding: 15rem;
+    position: relative;
+}
+.content .title{
+    font-size: 17px;
+}
+.slider > div{
+    position: absolute;
+    bottom: 29rem;
+    right: 30rem;
+}
+.slider .btn-thumb{
+    margin-left: 3px;
+}
+.sidebar{
+    width: 20.9%;
+    flex-shrink: 0;
+}
+.sidebar .title{
+    margin-bottom: 13px;
+}
+.content{
+    padding-left: 10px;
+}
+h1{
+    color: #8d8d8d;
+    font-family: Delicious;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 5rem;
+}
+.title-wrap{
+    margin-bottom: 14px;
+}
+.title-wrap > div{
+    padding-left: 12px;
+}
+.content .title span{
+    font-size: 17px;
+}
+.popular article{
+    margin-bottom: 15px;    
+}
+.popular article:last-child{
+    margin-bottom: 0px;
+}
+.popular article figure{
+    flex-shrink: 0;
+    margin-right: 9rem;
+}
+.popular article p{
+    line-height: 20px;
+    margin-top: -4px;
+}
+.popular article p a{
+    color: #7d7d7d;
+}
+.popular article p a:active, .popular article p a:hover, .popular article p a:focus{
+    text-decoration: underline;
+}
+.sidebar .categories{
+    padding: 12rem 15rem 9rem 15rem;
+}
+.categories .title{
+    margin-bottom: 7px;
+}
+.sidebar > .sponsors{
+    padding: 12rem 15rem 1rem 15rem;
+}
+.sponsors figure{
+    margin: -2rem 0px 17rem 0px;
+}
+.sponsors figure:last-child{
+    margin: -2px 0px 14px 0px;
+}
+.grid > div > article{
+    width: 47.95%;
+}
+.grid > article{
+    width: 47.2%;
+}
+.grid article{
+    margin-bottom: 10px;
+}
+.grid > div{
+    width: 50.7%;
+}
+.grid h3{
+    color: #4a8b86;
+    font-family: Delicious;
+    font-size: 14px;
+    margin: 10rem 0px 5rem 0px;
+    text-transform: uppercase;
+}
+.grid p{
+    color: #7d7d7d;
+    line-height: 20px;
+}
+.content > footer{
+    padding: 11rem 16rem 9rem 15rem;
+}
+footer span{
+    color: #7d7d7d;
+    line-height: 20px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .sidebar {width: 40%;}
+    .grid figure{float: left;}
+    .grid > div article figure{margin-right: 5px;}
+}
+@media (max-width: 480px) {
+    .sidebar > *{width: 49.5%;}   
+    .content {padding-left: 0px;}
+    .grid article figure{margin-right: 5px;width: 33%;}
+    .links-nav{order: 2;}
+    .popular{order: 4;}  
+    .categories{order: 3;}
+    .sponsors{order: 5;}
+}

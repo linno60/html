@@ -80,6 +80,9 @@ header{
 .content-wrap{
     padding: 0px 32rem 0px 30rem;
 }
+.content{
+    width: 100%;
+}
 .sidebar{
     flex-shrink: 0;
     width: 32.6%;

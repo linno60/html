@@ -1,0 +1,21 @@
+{
+    "fonts": [],
+    "backgrounds": {
+        "fonts": "#808080",
+        "fonts_local": "#808080",
+        "icons": "#c0c0c0",
+        "images": "#c0c0c0",
+        "buttons": "#c0c0c0",
+        "links": "#c0c0c0",
+        "labels": "#808080",
+        "forms": "#ffffff",
+        "tables": "#808080",
+        "lists": "#808080",
+        "paginations": "#808080",
+        "tabs": "#808080",
+        "cites": "#808080",
+        "messages": "#808080",
+        "other": "#ffffff",
+        "rad_chk": "#808080"
+    }
+}

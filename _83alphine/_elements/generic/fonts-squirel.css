@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ApparatusSIL';
+    src: url('/fonts/fontsquirel.com/appsilr.woff2') format('woff2'), url('/fonts/fontsquirel.com/appsilr.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ApparatusSIL';
+    src: url('/fonts/fontsquirel.com/appsili.woff2') format('woff2'), url('/fonts/fontsquirel.com/appsili.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

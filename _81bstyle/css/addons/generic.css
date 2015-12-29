@@ -1,1 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+/* ICONS */
+.icon-arrowb {width: 12px; height: 10px; background: url('/images/icons/arrowb.png');}
+.icon-arrowg {width: 12px; height: 10px; background: url('/images/icons/arrowg.png');}
+.icon-mail {width: 20px; height: 12px; background: url('/images/icons/mail.png');}
+.icon-next {width: 13px; height: 21px; background: url('/images/icons/next.png');}
+.icon-prev {width: 13px; height: 21px; background: url('/images/icons/prev.png');}

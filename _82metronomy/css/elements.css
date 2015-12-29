@@ -1,0 +1,105 @@
+body{
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav{
+    width: 100%;    
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);    
+}
+.links-nav, .sidebar > .links-nav{
+    padding: 5rem 15rem 4rem 15px;
+}
+.links-nav a{
+    border-bottom: 1px solid #e9e9e9;
+    font-family: Delicious;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #8d8d8d;
+    width: 100%;
+    position: relative;
+}
+.links-nav a:last-child{
+    border-bottom: none;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #4a8b86;
+}
+.links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before{
+    content: "";
+    width: 3px;
+    height: 76%;
+    position: absolute;
+    background: #4a8b86;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.links-categories a{
+    color: #7d7d7d;
+    line-height: 20px;
+}
+.links-categories a:active, .links-categories a:hover, .links-categories a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    margin: 3px 4px 3px 3px;
+}
+
+/*BUTTONS*/
+.btn-slider, .btn-thumb{
+    width: 19px;
+    height: 17px;
+    margin: 1px 0px 1px 3px;
+}
+.btn-slider{
+    background: #fff;
+}
+.btn-thumb, .btn-anchor{
+    background: #e8e8e8;
+}
+.btn-anchor{
+    width: 17px;
+    height: 19px;
+}
+
+/*FORMS*/
+input[type="search"]{
+    width: 100%;
+    max-width: 170px;
+    height: 25px;
+    color: #333;
+    border: none;
+    padding: 0px 20px 0px 10px;
+    outline: none;
+    background: #e8e8e8 url(/images/icons/search.png)no-repeat right 8px center;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {display: none;}
+input[type="search"]::-webkit-input-placeholder {color: #7d7d7d;}
+input[type="search"]::-moz-placeholder {color: #7d7d7d;}
+input[type="search"]:-ms-input-placeholder {color: #7d7d7d;}
+
+/*OTHER*/
+.title{
+    color: #4a8b86;
+    font-family: Delicious;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+.title:after{
+    content: "";
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    height: 1px;
+    margin-left: 14px;
+    flex-grow: 1;
+}
+

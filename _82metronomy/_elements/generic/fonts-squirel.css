@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Delicious';
+    src: url('/fonts/fontsquirel.com/delicious-roman.woff2') format('woff2'), url('/fonts/fontsquirel.com/delicious-roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

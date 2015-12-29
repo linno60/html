@@ -1,0 +1,144 @@
+body{
+    font-family: Open Sans;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav a{
+    min-width: 90rem;
+    height: 50px;
+    padding: 0px 5px;
+    color: #569d00;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 5px;
+    margin: 5rem 8rem 5rem 7rem;
+    letter-spacing: -0.02em;
+    line-height: 16px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: black;
+    background-color: #78db00;
+}
+.links-submenu{
+    overflow: hidden;
+    flex-grow: 1;
+    background: #5ebd00 linear-gradient(rgba(255,255,255,.16), rgba(19,19,19,.16));
+    border-radius: 5px 0px 0px 5px;
+    border-right: 1px solid #4aad00;
+}
+.links-submenu a{
+    height: 35px;
+    color: black;
+    flex-grow: 1;
+    padding: 0px 5px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.links-submenu a:last-child{
+    padding: 2px 28rem 2px 5px;
+}
+.links-submenu a:first-child{
+    padding: 2px 5px 2px 3px;
+}
+.links-submenu a.active, .links-submenu a:active, .links-submenu a:hover, .links-submenu a:focus{
+    color: #2e5c00;
+    font-weight: 700;
+    background: white;
+}
+.links-submenu a::after {
+    display: block;
+    content: attr(title);
+    font-weight: 700;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+    margin-bottom: -1px;
+}
+.links-smallmenu{
+    max-width: 310px;
+    padding: 9rem 0px 10rem 19rem;
+    box-shadow: inset 1px 0px 0px 0px rgba(255, 255, 255, 0.7);
+    border-left: 1px solid #9fdb3d;
+    margin-left: 77rem;
+    min-width: 120px;
+}
+.links-smallmenu a{
+    color: #548317;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: -0.02em;
+}
+.links-smallmenu a:active, .links-smallmenu a:hover, .links-smallmenu a:focus{
+    text-decoration: underline;
+    color: #010100;
+}
+.links-footer a{
+    color: #767676;
+    margin: 5px 10px;
+    letter-spacing: -0.02em;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+    color: #2e6700;
+}
+
+/*BUTTONS*/
+.btn-comments{
+    min-width: 159rem;
+    height: 35px;
+    background: #9aff00;
+    text-transform: uppercase;
+    color: black;
+    padding: 4rem 5rem 2rem 10rem;
+    letter-spacing: -0.02em;
+    border-radius: 0px 5px 5px 0px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-image: linear-gradient(0deg, #94ff00 0%, #ecff00 100%) 1 100%;
+}
+.btn-comments i{
+    flex-shrink: 0;
+    margin-left: 16rem;
+}
+.btn-comments:active, a.btn-comments:hover, a.btn-comments:focus{
+    background: #5ebd00 linear-gradient(rgba(255,255,255,.16), rgba(19,19,19,.16));
+}
+.btn-comments:active .icon-arrowg, .btn-comments:hover .icon-arrowg, .btn-comments:focus .icon-arrowg{
+    background: url('/images/icons/arrow-hover.png');
+}
+.btn-more{
+    padding: 2px 5px 5px 20rem;
+    min-width: 129px;
+    height: 35px;
+    background: #e2e2e2;
+    border-left: 1px solid white;
+    box-shadow: -1px 0px 0px 0px #c6c6c6;
+    color: #5e5e5e;
+    border-radius: 0px 5px 5px 0px;
+    letter-spacing: -0.02em;
+}
+.btn-more:active, a.btn-more:hover, a.btn-more:focus{
+    background: #f3f3f3;
+}
+.btn-more i, .btn-contact i{
+    margin: 1px 0px 0px 18px;
+}
+.btn-contact{
+    padding: 2px 5px;
+    min-width: 160px;
+    height: 50px;
+    background: rgba(255,255,255,.5);
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.btn-contact:active, .btn-contact:hover, .btn-contact:focus{
+    background: #4c9109;
+    color: white;
+}
+.btn-contact:active .icon-mail, .btn-contact:hover .icon-mail, .btn-contact:focus .icon-mail{
+    background: url('/images/icons/mail-hover.png');
+}
