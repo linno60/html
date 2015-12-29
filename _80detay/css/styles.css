@@ -1,0 +1,306 @@
+body, html{    
+    min-height: 100%;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,.6), transparent 63px, transparent)left top repeat-x, url("/images/body-bg.png")left top;
+}
+body:before, body:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+}
+body:before{   
+    height: 53px;
+    background: url("/images/body-before.png")repeat-x;
+    position: absolute;
+    top: 157px;
+    box-shadow: 0px 47px 63px 0px rgba(255,255,255,.2);
+}
+body:after{
+    z-index: -1;
+    height: 900px;
+    background: linear-gradient(rgba(0,0,0,.01), rgba(0,0,0,.4) 20%, rgba(0,0,0,.7) 50%, rgba(0,0,0,.4) 80%, rgba(0,0,0,.01));    
+    top: 600px;
+}
+.lwrap{
+    max-width: 1024px;
+}
+.wrap:before{
+    content: ""; 
+    height: 40px;
+    width: 100%;
+    background: url("/images/header-before.png");
+    position: absolute;
+    z-index: -4;
+    top: -10px;
+    border-radius: 80px 80px 0px 0px;
+}
+.top-bar{
+    padding: 4px 60px 6px 10px;
+}
+.wrap{
+    position: relative;
+    background: #fff url("/images/content-bg.png");
+    height: 100%;
+    border-radius: 40px 40px 0px 0px;
+    border-bottom: 7px solid #00b9e6;
+}
+.wrap > div{
+    padding-bottom: 100rem;
+}
+header{
+    padding: 0px 10px;
+    border-radius: 39px 39px 0px 0px;
+    background: url("/images/header-bg.png")repeat-x;
+}
+.header{
+    padding: 3px 20rem 1px 1px;
+}
+.header > div{
+    margin: 15rem 10rem 0px 0px;
+    width:  50%;
+}
+#logo{
+    position: relative;
+}
+.header form{
+    margin: 0px 0px 10px -19px;
+    flex-grow: 1;
+    max-width: 294px;    
+}
+.breadcrumb{
+    padding: 18rem 24rem 15rem 15rem;
+}
+.content-wrap{
+    padding: 0px 32rem 0px 30rem;
+}
+.sidebar{
+    flex-shrink: 0;
+    width: 32.6%;
+    padding: 1rem 2rem 0px 6rem;
+}
+.sidebar figure{
+    margin-bottom: 8px;
+    border: 3px solid #fff;
+}
+.post-wrap{
+    border: 1px solid #fff;
+    margin-left: 1px;
+}
+.social{
+    background: #f4f4f4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0px 3px 0px 7px;
+}
+.social > div:first-child{
+    padding: 0px 10px 1px 0px;
+}
+.social span{
+    padding: 0px 0px 1px 4px;
+    font-weight: 700;
+    color: #838383;
+}
+.social span a{
+    color: #01c3d9;
+}
+.social span a:active, .social span a:hover, .social a:focus{
+    text-decoration: underline;
+}
+.fb-like > a{
+    margin: 1px 6px 0px 0px;
+}
+.details small, .details time{
+    font-size: 10px;
+    padding-right: 8px;
+}
+.details small{
+    color: #0da7b2;
+}
+.details time{
+    color: #b4b4b4;
+}
+.details i{
+    margin-right: 5px;
+}
+.post figure{
+    float: left;
+    width: 44.1%;
+    margin: 0px 8px 5px 0px;
+}
+.post article{
+    background: white;
+    padding: 10px 5px 24rem 9px;
+}
+.post article figcaption{
+    height: 27px;
+    background: #363636;
+    padding: 2px 5px 2px 4px;
+    margin-top: 1px;
+}
+.post article figcaption a{
+    color: #c5c5c5;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.post article figcaption a i{
+    margin-right: 5px;
+}
+.post p{
+    color: #2f2f2f;
+    font-size: 13px;
+    line-height: 18px;
+    margin: -1px 0px 8px 0px;
+}
+.post p strong{
+    font-size: 12px;
+}
+.post .btn-photo ~ p{
+    margin-bottom: 17px;
+}
+.post-alt{
+    background: #fff;
+    margin-bottom: 10px;
+}
+.post-alt figcaption{
+    height: 28px;
+    background: #5e5e5e;
+    padding: 3px;
+    color: white;
+    font-size: 10px;
+    margin: 1px 0px 0px 0px;
+    letter-spacing: 0.03em;
+}
+.post-alt figure{
+    margin-right: 11rem;
+    min-width: 85px;
+}
+.post-alt p{
+    color: #555;
+    line-height: 18px;
+    margin: 9px 10px 10px 0px;
+    letter-spacing: -0.003em;
+}
+.video{
+    margin-left: 1px;
+    padding-bottom: 25px;
+}
+.slider{
+    padding: 1px;
+    background: white;
+    border-right: none;
+    margin: 12px 0px 6px 0px;
+}
+.slider h4 span{
+    transform: rotate(-90deg);
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: -144%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.slider > h4{
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+    background: #21c1d3;
+    min-width: 20px;
+}
+.slider > *{
+    border-right: 1px solid #fff;
+}
+.btn-wrap{
+    width: 65px;
+    background: url("/images/btn-wrap.png");
+}
+.tags span{
+    color: #d8d8d8;
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: 6px;
+    letter-spacing: -0.01em;
+}
+.tags {
+    min-height: 26px;
+    padding: 5px 10px 4px 9px;
+    background: #363636;
+    margin-bottom: 6px;
+}
+.sidebar > div{
+    background: url("/images/border-side.png")repeat-y left top, url("/images/border-side.png")repeat-y right top;
+    position: relative;
+    padding: 0px 3px 14px 3px;
+    margin: 3px 0px 15px 0px;
+}
+.sidebar > div:after, .sidebar > div:before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    display: block;
+    background: url("/images/border-top.png");
+    position: absolute;
+    left: 0px;
+}
+.sidebar > div:after{
+    bottom: -3px;
+}
+.sidebar > div:before{
+    top: -3px
+}
+.sidebar > div form{
+    padding: 13px 10px 0px 14px;
+}
+.sidebar > div form > div{
+    margin-bottom: 1px;
+}
+.sidebar > div > form > .btns{
+    padding-top: 27px;
+}
+.sidebar .btn-default{
+    padding: 0px 20px;
+}
+.sidebar > div > form > .btns .btn-default{
+    margin: 0px 4px 4px 0px;
+    padding: 0px 30px;
+}
+.sidebar > div > form span{
+    color: #828282;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 21px;
+}
+footer{
+    padding: 0px 21px 0px 22px;
+}
+footer a{
+    color: #868686;
+    text-transform: uppercase;
+    font-size: 9px;
+    padding-bottom: 13px;
+    letter-spacing: 0.055em;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .hidden-md{display: none;}
+}
+@media (max-width: 640px) {
+    .sidebar > *{width: 49%;}  
+    .header {padding: 0px 0px 5px 0px;}
+    .header figure {display: none;}
+}
+@media (max-width: 480px) {
+    .sidebar > div{width: 100%;}
+    .hidden-sm{display: none;}
+    .slider h4 span {top: 40%;}
+}
