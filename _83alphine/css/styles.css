@@ -1,0 +1,180 @@
+figure img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+body{
+    background-color: #f2f2f2;
+}
+.lwrap{
+    max-width: 980px;
+    padding: 0px 10px;
+}
+#logo{
+    margin: 29rem 0px 27rem 3rem;
+}
+.grid > figure{
+    margin-bottom: 20rem;
+    width: 23.4375%;
+}
+.grid{
+    padding-bottom: 7rem;
+}
+header + blockquote{
+    color: #767676;
+    font-family: ApparatusSIL;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 28rem 0px 23rem 0px;
+    font-style: italic;
+    letter-spacing: 0.01em;
+}
+.filter{
+    background: url("/images/border.png")repeat-x left top, url("/images/border.png")repeat-x left bottom;
+    padding: 13rem 0px 14rem 0px;
+    color: #5d5d5d;
+    font-family: Bebas;
+    font-size: 14px;
+    letter-spacing: 0.045em;
+    font-weight: 600;
+    margin-bottom: 20rem;
+}
+.filter a{
+    color: #5d5d5d;
+    margin: 0px 8rem;
+}
+.filter span{
+    padding-right: 5px;
+}
+.filter a:active, .filter a:hover, .filter a:focus{
+    text-decoration: underline;
+}
+
+.footer > div{
+    width: 48.5%;
+}
+.footer {
+    padding: 40rem 10px 28rem 10px;
+}
+.footer-item{
+    margin-bottom: 20rem;
+    background: rgba(0,0,0,.2);
+}
+.footer-item .hdr + div{
+    padding: 15rem 20rem 20rem 20rem;
+}
+.footer-item.services .hdr + div{
+    padding: 15rem 20rem 13rem 20rem;
+}
+.about .hdr{
+    background: url("/images/shape1.png"), linear-gradient(#618d7c, #4a7766);
+}
+.contact .hdr{
+    background: url("/images/shape1.png"), linear-gradient(#7c618d, #664a77);
+}
+.services .hdr{
+    background: url("/images/shape1.png"), linear-gradient(#586e8d, #425777);
+}
+.posts .hdr{
+    background: url("/images/shape1.png"), linear-gradient(#a35757, #8d4141);
+}
+.services h3{
+    text-shadow: 0 1px 0 rgba(0,0,0,.33);
+    color: #e6e6e6;
+    font-family: Bebas;
+    font-size: 18px;
+    margin-bottom: 9px;
+    font-weight: normal;
+    letter-spacing: 0.025em;
+}
+.posts figure{
+    float: left;
+    margin-right: 18rem;
+}
+form{
+    padding-top: 27rem;
+}
+form label{
+    min-width: 95rem;
+    width: 95px;
+    padding: 0px 5px 0px 1px;
+}
+form label + div{
+    width: 100%;
+}
+form > div{
+    margin-bottom: 15rem;
+}
+form > div:last-child{
+    margin-bottom: 1px;
+}
+form > div:last-child label{
+    padding: 17rem 5rem 0px 1rem;
+}
+.posts h4{
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0,0,0,.33);
+    font-family: Bebas;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 12px 1px;
+    letter-spacing: 0.02em;
+}
+.posts h4 a{
+    color: #e6e6e6;
+}
+.posts time ~ a, .posts time{
+    color: #b2b2b2;
+    font-family: ApparatusSIL;
+    font-style: italic;
+    letter-spacing: 0.015em;
+}
+.posts a:active, .posts a:hover, .posts a:focus{
+    text-decoration: underline;
+}
+.post{
+    margin: 7rem 0px 11rem 0px;
+}
+.post:last-child{
+    margin: 7rem 0px -1rem 0px;
+}
+.footer p{
+    color: #b2b2b2;
+    font-family: ApparatusSIL;
+    font-size: 15px;
+    line-height: 24px;    
+    letter-spacing: 0.01em;
+}
+.footer .about p{
+    margin-bottom: 24rem;
+}
+.footer .services p{
+    margin-bottom: 17rem;
+}
+.footer .services p:last-child{
+    margin: 0px;
+}
+.footer .about .btn-default{
+    margin-top: -2px;
+}
+footer{
+    background: #333;
+}
+.copyright{
+    background: #f2f2f2;
+}
+.copyright .lwrap{
+    padding: 14px 10px 14px 10px;
+}
+.copyright span{
+    color: #737373;
+    font-family: ApparatusSIL;
+    padding: 2px 10px 0px 0px;
+    letter-spacing: 0.01em;
+}
+@media (max-width: 480px) {
+    .grid > figure {
+    margin-bottom: 20rem;
+    width: 49%;
+}
+}
