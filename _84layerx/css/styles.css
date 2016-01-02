@@ -1,8 +1,213 @@
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .title{
     color: dimgrey;
     font-family: Nilland;
     font-size: 16px;
     font-weight: 900;
-    margin: 0px 0px 10px 0px;
+    margin-bottom: 13px;
     letter-spacing: -0.02em;
+}
+body{
+    height: auto;
+}
+.side-wrap{
+    width: 37%;
+    flex-shrink: 0;
+    background: #f6f6f6;
+}
+.content-wrap{
+    flex-grow: 1;
+    position: relative;
+    box-shadow: inset 0px 4px 0px 0px rgba(0,0,0,0.2);
+    background: url("/images/bg.png");
+}
+.content-wrap:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 7px;
+    background: rgba(0,0,0,.1);
+    bottom: 0px;
+    left: 50px;
+}
+.content-wrap > div{
+    width: 100%;
+    max-width: 766px;
+    background: rgba(255,255,255,.2);
+}
+.sidebar{
+    width: 100%;
+    max-width: 280px;
+    padding: 80rem 34rem 55rem 31rem;
+}
+.sidebar form + p {
+    text-align: center;
+    color: grey;
+    line-height: 15px;
+    padding: 25px 15px 41px 15px;
+    letter-spacing: -0.02em;
+}
+#logo{
+    margin-bottom: 5px;
+}
+#logo + span{
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    padding-bottom: 25px;
+    letter-spacing: -0.02em;
+}
+#logo + span, #logo + span a{
+    color: grey;    
+}
+#logo + span a:active, #logo + span a:hover, #logo + span a:focus{
+    text-decoration: underline;
+}
+.copyright, .copyright a{
+    color: #9e9e9e;
+    font-family: Arial;
+    font-size: 11px;
+    text-align: center;
+    line-height: 13px;
+}
+.copyright {
+    padding: 0px 1px 0px 4px;
+}
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    text-decoration: underline;
+}
+.leftbar{
+    width: 50px;
+    flex-shrink: 0;
+    background: white;
+    border-left: 1px solid #c6c6c6;
+    box-shadow: 2px 1px 2px -1px rgba(0,0,0,.2),  inset 1px 0px 2px 0px rgba(0,0,0,.2);
+}
+.rightbar{
+    padding: 85px 7px 5px 6px;
+    width: 56px;
+    box-shadow: 2px 1px 2px -1px rgba(0,0,0,.2),  inset 1px 0px 0px 0px rgba(255,255,255,.5);
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+.rightbar span, .social span{
+    color: #939393;
+    padding-right: 20px;
+    letter-spacing: 0.025em;
+}
+.rightbar span{
+    transform: rotate(-90deg);
+}
+.rightbar .links-social{
+    margin-bottom: 51px;
+}
+.content{
+    padding: 84rem 41rem 60rem 42px;
+}
+.content article{
+    padding-bottom: 46px;
+    position: relative;
+}
+.content article:before, .content article:after{
+    content: "";
+    display: block;
+    position: absolute;
+}
+.content article:before{
+    width: 40px;
+    height: 29px;
+    left: -41px;
+    top: 17px;
+    background: url("/images/before.png");
+}
+.content article:nth-child(1):after{
+    width: 26px;
+    height: 28px;
+    left: -79px;
+    top: 16px;
+    background: url("/images/icons/frame.png");
+}
+.content article:nth-child(2):after{
+    width: 31px;
+    height: 31px;
+    left: -82px;
+    top: 16px;
+    background: url("/images/icons/tools.png");
+}
+.content article:nth-child(3):after{
+    width: 27px;
+    height: 27px;
+    left: -80px;
+    top: 19px;
+    background: url("/images/icons/tag.png");
+}
+.content article:nth-child(4):after{
+    width: 30px;
+    height: 26px;
+    left: -81px;
+    top: 19px;
+    background: url("/images/icons/brush.png");
+}
+.content article:nth-child(4){
+    margin-top: 10px;
+}
+.content article figure{
+    position: relative;
+}
+.content article h2{
+    color: #666666;
+    font-family: Nilland;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 15rem 0px 5rem 1rem;
+    letter-spacing: -0.015em;
+}
+.content article p{
+    color: #777;
+    line-height: 15px;
+    margin-left: 2rem;
+}
+.overlay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    display: none;
+}
+.content article figure:hover .overlay{
+    display: block;
+}
+.overlay > div{
+    position: absolute;
+    bottom: 22px;
+    right: 25px;
+}
+.overlay a{
+    margin: 3px;
+}
+.content article figure{
+    background: white;
+    border: 1px solid rgba(174,174,174,.67);
+    box-shadow: 0 2px 3px rgba(0,0,0,.25);
+    padding: 6px 5px 5px 5px;
+}
+.links-pagination{
+    margin: 6px -1px 0px 0px;
+}
+.social{
+    padding: 30px 10px 10px 10px;
+}
+.social .links-social a{
+    margin: 3px;
+}
+.hidden{
+    display: none;
+}
+@media (max-width: 800px) {
+    
 }
