@@ -1,0 +1,79 @@
+body{
+    font-size: 12px;
+    font-family: GothamRounded;
+    letter-spacing: 0.15em;
+    color: #373737;
+    font-weight: 500;
+}
+
+/*LINKS*/
+.links-nav a{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.links-social a{
+    margin: 5px;
+}
+.links-footer{
+    color: #16a085;
+}
+.links-footer a{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 3px;
+    color: #373737;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+.btn-default, .btn-alt{
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.btn-default{
+    min-width: 192px;
+    height: 51px;    
+    background: #16a085;
+}
+.btn > em {
+    flex-grow: 1;
+    font-style: normal;    
+    font-size: 16px;    
+}
+.btn-alt{
+    min-width: 240px;
+    height: 56px;
+    background: #1abc9c;
+    overflow: hidden;
+}
+.btn-alt span{
+    width: 56px;
+    height: 56px;
+    background: #16a085;
+}
+
+/*FORMS*/
+input[type="email"]{
+    border: none;
+    outline: none;
+    width: 282px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 3px 0 0 3px;
+    font-size: 18px;
+    padding: 0 22px;
+}
+input[type="email"]::-webkit-input-placeholder {color: #373737;}
+input[type="email"]::-moz-placeholder {color: #373737;}
+input[type="email"]:-ms-input-placeholder {color: #373737;}
+.btn-check{
+    width: 63px;
+    height: 60px;
+    border-radius: 0 3px 3px 0;
+    background: #159f85 url('/images/check.png')no-repeat center center; 
+}

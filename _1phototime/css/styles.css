@@ -1,0 +1,86 @@
+.lwrap{
+    max-width: 1170px;
+    padding: 0px 10px;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+header{    
+    background: url('/images/bg1.png')no-repeat; 
+    background-size: cover;
+}
+header .lwrap{
+    min-height: 700px;
+}
+header h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
+header h1 + p{
+    letter-spacing: 0.25em;
+    color: #fff;
+    font-size: 14px;
+}
+time{
+    display: block;
+    margin: 45px 0px 5px 0px;
+}
+
+article{
+    padding: 110px 0px 90px 0px;
+    width: 50%;
+}
+article h2{
+    color: #159f85;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+article p{
+    line-height: 24px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.article-wrap:nth-child(2n) {
+    background: #f5f5f7;
+}
+.article-wrap:nth-child(2n+1) > div {
+    flex-direction: row-reverse;
+}
+.article-wrap:nth-child(2n+1) article {
+    width: 38%;
+    padding: 140px 0px 90px 0px;
+}
+.subscribe{
+    min-height: 792px;
+    background: url('/images/bg2.png'); 
+    background-size: cover;   
+}
+.subscribe h2 {
+    color: #fff;
+    text-align: center;
+    margin: 22px 0px 29px 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.165em;
+    font-size: 24px;
+}
+.download{
+    background: #f5f5f7;    
+}
+.download h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.download p{
+    max-width: 900px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
