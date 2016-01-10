@@ -12,58 +12,118 @@ header{
     background-size: cover;
 }
 header .lwrap{
-    min-height: 700px;
+    padding: 40rem 10px 14rem 10px;
+    max-width: 900px;
 }
 header h1{
     text-transform: uppercase;
     color: #fff;
-    font-size: 36px;
+    font-size: 35px;
     text-align: center;
+    margin: 238rem 0px 9rem 0px;
+    letter-spacing: 0.165em;
 }
 header h1 + p{
-    letter-spacing: 0.25em;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
+    margin-bottom: 25rem;
+    font-weight: 600;
+    letter-spacing: 0.195em;
+    text-align: center;
 }
 time{
     display: block;
-    margin: 45px 0px 5px 0px;
+    margin: 43rem 0px 6rem 0px;
 }
-
 article{
-    padding: 110px 0px 90px 0px;
+    padding: 100rem 0px 90rem 0px;
     width: 50%;
 }
 article h2{
     color: #159f85;
     text-transform: uppercase;
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 17px;
+    margin-bottom: 35rem;
+    letter-spacing: 0.2em;
+}
+.article-wrap.photo article h2{
+    margin-bottom: 40rem;
+}
+.article-wrap.photo article p{
+    line-height: 24px;
 }
 article p{
-    line-height: 24px;
-    margin-bottom: 40px;
+    line-height: 22px;
+    margin: 0px -16rem 37rem 3rem;
     font-weight: 300;
 }
+article p a {
+    font-weight: 500;
+    color: #000;
+}
+.article-wrap.photo .lwrap{
+    padding: 90rem 10px 0px 15px;
+    max-width: 1054px;
+}
+.article-wrap .lwrap{
+    padding: 141rem 10px 0px 33rem;
+    max-width: 1104px;
+}
+.article-wrap.community .lwrap{
+    padding: 95rem 27rem 118rem 11rem;
+    max-width: 1076px;
+}
+.article-wrap article {
+    width: 39.3%;
+    padding: 2rem 0px 72rem 0px;
+}
+.article-wrap.photo article{
+    width: 38%;
+    min-width: 380px;
+    padding: 20rem 0px 90rem 0px;
+}
+.article-wrap.community article {
+    width: 20%;
+    min-width: 130px;
+    padding: 25rem 0px 0px 0px;
+}
+.photo article p{
+    margin: 0px -40rem 41rem 0px;
+}
+.article-wrap .btn-default{
+    min-width: 192px;
+    height: 51px;
+}
+.community article h2{
+    color: #373737;
+    text-align: center;
+    margin: 26rem 0px 20rem 0px;
+    font-size: 15px;
+}
+.community article p{
+    font-size: 9px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 12px;
+    max-width: 144px;
+    letter-spacing: 0.22em;
+}
+
 .article-wrap:nth-child(2n) {
     background: #f5f5f7;
 }
-.article-wrap:nth-child(2n+1) > div {
-    flex-direction: row-reverse;
+.subscribe{    
+    background: url('/images/bg2.png');
+    background-size: cover;
 }
-.article-wrap:nth-child(2n+1) article {
-    width: 38%;
-    padding: 140px 0px 90px 0px;
-}
-.subscribe{
-    min-height: 792px;
-    background: url('/images/bg2.png'); 
-    background-size: cover;   
+.subscribe .lwrap{
+    min-height: 790rem;
 }
 .subscribe h2 {
     color: #fff;
     text-align: center;
-    margin: 22px 0px 29px 0px;
+    margin: 22rem 0px 29rem 0px;
     text-transform: uppercase;
     letter-spacing: 0.165em;
     font-size: 24px;
@@ -71,16 +131,62 @@ article p{
 .download{
     background: #f5f5f7;    
 }
+.download .lwrap{
+    padding: 87rem 10px 105rem 10px;
+}
 .download h2{
     text-transform: uppercase;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     text-align: center;
+    letter-spacing: 0.15em;
 }
 .download p{
     max-width: 900px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
     line-height: 22px;
+}
+.download .btn{
+    margin: 11rem 12rem 11rem 9rem;
+}
+footer.lwrap{
+    max-width: 1061px;
+    padding: 36rem 18rem 35rem 10px;
+}
+.links-footer + span{
+    padding: 0px 7px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.148em;
+}
+.arrows{
+    padding-bottom: 7px;
+}
+.arrows a{
+    margin: 0px 20px 0px 0px;
+}
+.community .arrows a{
+    margin: 0px 0px 0px 15px;
+}
+.community .arrows + div figure{
+    margin: 0px 0px 10rem 23rem;
+}
+@media (max-width: 480px) {
+    .links-nav figure{
+        display: none;
+    }
+}
+@media (max-width: 640px) {
+    .photo figure, .article-wrap > .lwrap > div > figure{
+        display: none;
+    }
+    .photo article p {
+    margin: 0px 0px 41rem 0px;
+}
+.article-wrap.photo article{
+    min-width: 200px;
+}
 }

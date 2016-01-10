@@ -1,0 +1,200 @@
+body._work {
+  background-color:#808080;
+  overflow-x: visible !important;  /*Just hack for tooltipster plugin */
+}
+
+body._work wrap {display: block; margin: 20px 0; padding: 0;}
+body._work iwrap {display: inline-block; margin: 0 20px; vertical-align: middle;}
+
+._elements hr{border:none;}
+
+/* HEADLINES */
+h {
+    display: block;
+    color:#fff;
+    font-family:"Arial";
+    font-weight:600;    
+    
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+._hdr {width: 1280px; margin: 0 auto; height: 50px;}
+._hdr label {color: white; margin-right: 5px; font-size: 14px;}
+._hdr label:hover {text-decoration: underline;}
+._hdr input[type=checkbox] {width: auto; height: auto;}
+
+/* TABS */
+._tabs {
+    width:1280px;
+    margin:0 auto;
+    position:relative;
+}
+._tabs > div {
+    display: block;
+}
+._tabs > div > a {
+    background-color:transparent;
+    border:none;
+    float:left;
+    width:auto;
+    padding:10px 7px;
+    margin-top: 5px;
+    margin-right: 1px;
+    text-shadow: none;
+    font-weight:600;
+    font-size: 10px;
+    background-color:#229dee;
+    color: white;
+    border-radius:7px 7px 0px 0px;
+    border:1px solid #ccc;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 35px;
+}
+a[href="#_tab-snippets"] {
+    color: white !important;
+    font-weight: bold !important;
+}
+._tabs > div > a[href="#_tab-snippets"], ._tabs > div:target > a[href="#_tab-snippets"] {
+    position: absolute;
+    right: -1px;
+    letter-spacing: 3px;
+}
+._tabs > div:target > a[href="#_tab-css"] {
+    background: white;
+    color: black;
+}
+._tabs > div > a > span {color: #FAFF28;}
+._tabs > div:not(:target) > a {
+    border-bottom: 1px solid #ccc;
+}
+._tabs > div:not(:target) > a:hover {
+    background-color: #33AEFF;
+}
+._tabs > div:target > a {
+    background-color:#808080;
+    color:white;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    position: relative;
+    padding: 11px 7px;
+}
+._tabs > div > div {
+    background-color: #808080;
+    border: 1px solid #ccc;
+    left: 0;
+    right: 0;
+    top: 39px;
+    padding: 30px;
+    display: none;
+    color: white;
+}
+._tabs > #_tab-fonts-local > div, ._tabs > #_tab-js > div, ._tabs > #_tab-fonts-com > div, ._tabs > #_tab-fonts-squirel > div {  padding: 0; }
+#_tab-fonts-local .CodeMirror, #_tab-js .CodeMirror, #_tab-fonts-com .CodeMirror, #_tab-fonts-squirel .CodeMirror {padding: 30px; min-height: 700px;}
+#_tab-fonts-com {position: relative;}
+#fonts-com-file-form, #fonts-squirel-file-form {position: absolute; right: 20px; top: 20px; z-index: 1;}
+._tabs > div:target > div {display: block;}
+._tabs > div:not(:target) > div {position: absolute;}
+._tabs > div:target > div {
+    position: absolute;
+/*    z-index: -1;*/
+    min-height: 90px;
+}
+
+/* TOOLTIPS */
+.tooltipster-content pre {max-width: 1200px; overflow-x: auto;}
+.tooltipster-base strong {display: inline-block; width: 100px; text-align: right; margin-right: 20px; line-height: 30px;}
+.tooltipster-base span {cursor: pointer;}
+.tooltipster-base span::-moz-selection {background: red;}
+.tooltipster-base span::selection {background: red;}
+.tooltipster-base span::-webkit-selection {background: red;}
+
+.tooltipster-base table._tooltiptbl td {vertical-align: top; line-height: 20px; padding-bottom: 10px;}
+.tooltipster-base table._tooltiptbl td:first-child {font-weight: bold; text-align: right; padding-right: 20px;}
+.tooltipster-base table._tooltiptbl td:last-child {cursor: pointer;}
+.tooltipster-base table._tooltiptbl td pre::-moz-selection {background: red;}
+.tooltipster-base table._tooltiptbl td pre::selection {background: red;}
+.tooltipster-base table._tooltiptbl td pre::-webkit-selection {background: red;}
+
+
+/* SPECIFIC FOR TABS */
+#_tab-links h2 + .links, #_tab-links [class^='_alt-bg'] {margin-left: 50px;}
+#_tab-icons [class^='icon-'] {margin: 0 5px 5px 0; vertical-align: middle;}
+#_tab-icons [class^='icon-']:hover {cursor: pointer;}
+
+#_tab-images img {max-height: 150px; width: auto; margin: 0 20px 20px 0; cursor: pointer; vertical-align: middle; outline: dashed black 1px; outline-offset: 5px;}
+
+pre {
+    -moz-tab-size:    4; /* Firefox 4+ */
+    -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
+    tab-size:         4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
+    white-space: pre;
+}
+
+#_tab-fonts ::-webkit-input-placeholder {color: lightgray; text-transform: uppercase; font: inherit;}
+#_tab-fonts ::-moz-placeholder {color: lightgray; text-transform: uppercase; font: inherit;}
+#_tab-fonts :-ms-input-placeholder {color: lightgray; text-transform: uppercase; font: inherit;}
+#_tab-fonts input {
+    padding: 5px;
+    width: inherit;
+    height: inherit;
+    font: inherit;
+    border: inherit;
+    border-radius: inherit;
+    font: inherit;
+    margin: 0;
+    background: white;
+    color: #333;
+    opacity: 1;
+}
+#_tab-fonts input[type=url] {width: 1015px; margin-left: 20px;}
+#_tab-fonts form ._row {margin-bottom: 10px;}
+
+._tabs > div > a[href='#_tab-js'] {margin-right: 30px; margin-left: 30px;}
+._tabs > div > a[href='#_tab-rad-chk'] {margin-right: 30px;}
+
+#_tab-fonts-local textarea, #_tab-js textarea, #_tab-fonts-com textarea, #_tab-fonts-squirel textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+#_tabs_box > div > div > [type=color] {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    padding: 0;
+    height: calc(100% + 2px);
+    width: 30px;
+    border: 1px solid #CCC;
+    border-radius: 0 3px 3px 0;
+    padding: 2px;
+}
+
+._btn-refresh, ._btn-delete {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url('/_elements/img/icon-refresh.png') no-repeat center center;
+    background-color: #D5C358;
+    border: 1px solid #CCC;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    
+    position: absolute;
+    top: 30px;
+    right: 100%;
+}
+._btn-delete {
+    top: 80px;
+    background-image: url('/_elements/img/icon-delete.png');
+}
+._btn-refresh:hover, ._btn-delete:hover {background-color: yellow;}
+
+._snippet-columns {
+    display: flex;
+}
+._snippet-columns > div {
+    width: 50%;
+}
