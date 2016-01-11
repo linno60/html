@@ -1,0 +1,110 @@
+body{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: white;
+    font-size: 18px;
+    margin: 0px 26rem 2rem 26rem;
+}
+.links-nav a:last-child{
+    margin: 2rem 26rem 0px 26rem;
+}
+.links-footer{
+    color: #aa9b77;
+    margin: 0px -6px 0px 5px;
+}
+.links-footer a{
+    margin: 0px 5px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+.btn-default{
+    padding: 0px 10px;
+    min-width: 204px;
+    height: 52px;
+    background: #aa9b77;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px 2rem;
+}
+
+/*FORMS*/
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox] + label {
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px 38rem 5px 0px;
+}
+input[type=checkbox] + label:before {
+    width: 21px;
+    height: 20px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    content: "";
+    display: block;
+    margin-right: 16rem;
+}
+input[type=checkbox]:checked + label:before {
+    border: 2px solid #aa9b77;
+    background: white url(/images/icons/checkbox.png)no-repeat center center;
+}
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    height: 20px;
+    font-weight: 700;
+    padding-right: 12px;
+    background: url('/images/icons/down.png') right center no-repeat;
+    color: #424242;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+input[type=radio]{
+    display: none;
+}
+input[type=radio] + label{
+    width:22px;
+    height: 21px;
+    border-radius: 50%;
+    margin: 3px 2px 3px 3px;
+}
+.blue + label{background: #155db9;}
+.yellow + label{background: #ffe537;}
+.black + label{background: #535135;}
+.pink + label{background: #d3a7ab;}
+.white + label{background: #fff;}
+
+/*OTHER*/
+.title{
+    color: #424242;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px 0px 41rem 0px;
+    letter-spacing: -0.02em;
+}
+.title:after{
+    border-top: 2px solid #ccc;
+    content: "";
+    display: block;
+    flex-grow: 1;
+    margin: 0px 0px 0px 49rem;    
+}

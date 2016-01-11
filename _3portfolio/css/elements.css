@@ -1,0 +1,17 @@
+body{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*LINKS*/
+.btn-contact {
+    background: #3c3c3c;
+    color: #fff;
+    min-width: 395rem;
+    height: 58px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px 100rem;
+    letter-spacing: 0.14em;
+}

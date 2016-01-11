@@ -12,7 +12,7 @@ header{
     background-size: cover;
 }
 header .lwrap{
-    padding: 40rem 10px 14rem 10px;
+    padding: 40px 10px 14px 10px;
     max-width: 900px;
 }
 header h1{
@@ -20,41 +20,41 @@ header h1{
     color: #fff;
     font-size: 35px;
     text-align: center;
-    margin: 238rem 0px 9rem 0px;
+    margin: 238px 0px 9px 0px;
     letter-spacing: 0.165em;
 }
 header h1 + p{
     color: #fff;
     font-size: 15px;
-    margin-bottom: 25rem;
+    margin-bottom: 25px;
     font-weight: 600;
     letter-spacing: 0.195em;
     text-align: center;
 }
 time{
     display: block;
-    margin: 43rem 0px 6rem 0px;
+    margin: 43px 0px 6px 0px;
 }
 article{
-    padding: 100rem 0px 90rem 0px;
+    padding: 100px 0px 90px 0px;
     width: 50%;
 }
 article h2{
     color: #159f85;
     text-transform: uppercase;
     font-size: 17px;
-    margin-bottom: 35rem;
+    margin-bottom: 35px;
     letter-spacing: 0.2em;
 }
 .article-wrap.photo article h2{
-    margin-bottom: 40rem;
+    margin-bottom: 40px;
 }
 .article-wrap.photo article p{
     line-height: 24px;
 }
 article p{
     line-height: 22px;
-    margin: 0px -16rem 37rem 3rem;
+    margin: 0px -16px 37px 3px;
     font-weight: 300;
 }
 article p a {
@@ -62,33 +62,33 @@ article p a {
     color: #000;
 }
 .article-wrap.photo .lwrap{
-    padding: 90rem 10px 0px 15px;
+    padding: 90px 10px 0px 15px;
     max-width: 1054px;
 }
 .article-wrap .lwrap{
-    padding: 141rem 10px 0px 33rem;
+    padding: 141px 10px 0px 33px;
     max-width: 1104px;
 }
 .article-wrap.community .lwrap{
-    padding: 95rem 27rem 118rem 11rem;
+    padding: 95px 27px 118px 11px;
     max-width: 1076px;
 }
 .article-wrap article {
     width: 39.3%;
-    padding: 2rem 0px 72rem 0px;
+    padding: 2px 0px 72px 0px;
 }
 .article-wrap.photo article{
     width: 38%;
     min-width: 380px;
-    padding: 20rem 0px 90rem 0px;
+    padding: 20px 0px 90px 0px;
 }
 .article-wrap.community article {
     width: 20%;
     min-width: 130px;
-    padding: 25rem 0px 0px 0px;
+    padding: 25px 0px 0px 0px;
 }
 .photo article p{
-    margin: 0px -40rem 41rem 0px;
+    margin: 0px -40px 41px 0px;
 }
 .article-wrap .btn-default{
     min-width: 192px;
@@ -97,7 +97,7 @@ article p a {
 .community article h2{
     color: #373737;
     text-align: center;
-    margin: 26rem 0px 20rem 0px;
+    margin: 26px 0px 20px 0px;
     font-size: 15px;
 }
 .community article p{
@@ -118,12 +118,12 @@ article p a {
     background-size: cover;
 }
 .subscribe .lwrap{
-    min-height: 790rem;
+    min-height: 790px;
 }
 .subscribe h2 {
     color: #fff;
     text-align: center;
-    margin: 22rem 0px 29rem 0px;
+    margin: 22px 0px 29px 0px;
     text-transform: uppercase;
     letter-spacing: 0.165em;
     font-size: 24px;
@@ -132,7 +132,7 @@ article p a {
     background: #f5f5f7;    
 }
 .download .lwrap{
-    padding: 87rem 10px 105rem 10px;
+    padding: 87px 10px 105px 10px;
 }
 .download h2{
     text-transform: uppercase;
@@ -145,15 +145,15 @@ article p a {
     max-width: 900px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 30rem;
+    margin-bottom: 30px;
     line-height: 22px;
 }
 .download .btn{
-    margin: 11rem 12rem 11rem 9rem;
+    margin: 11px 12px 11px 9px;
 }
 footer.lwrap{
     max-width: 1061px;
-    padding: 36rem 18rem 35rem 10px;
+    padding: 36px 18px 35px 10px;
 }
 .links-footer + span{
     padding: 0px 7px;
@@ -172,7 +172,7 @@ footer.lwrap{
     margin: 0px 0px 0px 15px;
 }
 .community .arrows + div figure{
-    margin: 0px 0px 10rem 23rem;
+    margin: 0px 0px 10px 23px;
 }
 @media (max-width: 480px) {
     .links-nav figure{
@@ -184,7 +184,7 @@ footer.lwrap{
         display: none;
     }
     .photo article p {
-    margin: 0px 0px 41rem 0px;
+    margin: 0px 0px 41px 0px;
 }
 .article-wrap.photo article{
     min-width: 200px;

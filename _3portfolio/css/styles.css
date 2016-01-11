@@ -1,0 +1,165 @@
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+header{
+    padding: 286rem 10px 116rem 10px;
+    background: url('/images/img1.png')no-repeat;
+    background-size: cover;
+}
+header h1, header p{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing:  0.2em;
+}
+header h1{
+    line-height: 64px;
+    font-size: 54rem;
+    max-width: 650px;
+    margin: 81rem 0px 33rem 0px;
+    letter-spacing: 0.16em;
+}
+header p{
+    font-size: 15px;
+    line-height: 29px;
+    max-width: 600px;
+    letter-spacing: 0.057em;
+    margin-bottom: 236rem;
+}
+.works{
+    margin: 0px -14px;
+}
+.works figure{
+    margin: 0px 5rem 9rem 5rem;
+    position: relative;
+}
+.works a{
+    text-transform: uppercase;
+    font-size: 34rem;
+    left: 48rem;
+    bottom: 35rem;
+    position: absolute;
+    color: #fff;
+    letter-spacing: 0.15em;
+}
+.works a:active, .works a:hover, .works a:focus{
+    text-decoration: underline;
+}
+.about-wrap{
+    padding: 159rem 10px 159rem 10px;
+}
+.services-wrap{
+    padding: 128rem 10px 109rem 10px;
+    background: url('/images/img2.png')no-repeat;
+}
+.contacts-wrap{
+    padding: 129rem 10px 63rem 10px;
+}
+.contacts p, .direction p, .about p, .services p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    max-width: 630px;
+    letter-spacing: 0.003em;
+    font-weight: 400;
+}
+.contacts p{
+    margin-bottom: 38rem;
+    letter-spacing: -0.014em;
+}
+.contacts p:last-child, .about p:last-child, .services p:last-child, .direction article:last-child p{
+    margin-bottom: 0px;
+}
+.direction p{
+    margin-bottom: 80rem;
+}
+.direction h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 33rem 0px 25rem 0px;
+    letter-spacing: 0.16em;
+}
+.direction i{
+    margin-top: 20rem;
+}
+.contacts h2, .direction h2, .about h2, .services h2{
+    position: absolute;
+    background: #fff;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    color: #3c3c3c;
+    padding: 0px 30rem;
+    font-size: 34px;
+    min-width: 420rem;
+    letter-spacing: 0.16em;
+}
+.contacts h2{
+    font-size: 30px;
+    top: -15px;
+}
+.direction-wrap{
+    padding: 119rem 10px 114rem 10px;
+}
+.contacts, .direction, .about, .services{
+    border: 2px solid #3c3c3c;
+    max-width: 902px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.about{
+    padding: 66px 10px 66rem 10px;
+}
+.contacts{
+    padding: 67px 10px 48rem 10px;
+}
+.direction{
+    padding: 103rem 10px 90rem 10px;
+}
+.services {
+    border: 2px solid #fff;
+    border-top: none;
+    color: #fff;
+    padding: 70rem 10px 75rem 10px;
+}
+.services h2{
+    background: transparent;
+    color: #fff;
+}
+.services:after, .services:before{
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 26.35%;
+    background: #fff;
+}
+.services:before{
+    left: 0;
+    top: 0px;
+}
+.services:after{
+    right: 0;
+    top: 0px;
+}
+footer{
+    text-align: center;
+    max-width: 902px;
+    margin: auto;
+    padding-bottom: 65rem;
+}
+footer span{
+    color: #3b3b3b;
+    margin: 2rem 15rem 0px 36rem;
+    letter-spacing: -0.01em;
+}
+@media (max-width: 480px) {
+    header h1 {font-size: 30px;line-height: 30px;}
+    header {padding: 20px 10px 20px 10px;}
+    header p {margin-bottom: 20px;}
+}
