@@ -1,0 +1,394 @@
+figure img, #logo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+i{
+    flex-shrink: 0;
+}
+.lwrap{
+    max-width: 1180px;
+    padding: 0px 10px;
+}
+.topbar .lwrap{
+    padding: 0px 10rem;
+}
+.btn-anchor{
+    position: fixed;
+    bottom: 95rem;
+    right: 215rem;
+}
+.topbar{
+    background: #ebedf3;
+}
+.header.lwrap{
+    max-width: 1214px;
+    padding: 60rem 10px 55rem 10px;
+}
+.info{
+    display: none;
+    position: absolute;
+    right: -24px;
+    bottom: 55px;
+    height: 51px;
+    min-width: 227px;
+    border: 2px solid #d4d4d5;
+    border-radius: 5px;
+    color: #6d6d71;
+    padding: 20px;
+    background: #fff;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+.contacts a.phone + .info:after, .contacts a.phone + .info:before {
+    left: 17%;
+}
+.contacts a.address + .info:after, .contacts a.address + .info:before {
+    left: 50%;    
+}
+.contacts a.mail + .info:after, .contacts a.mail + .info:before {
+    left: 83%;
+}
+.info:after, .info:before {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 14px 0px 14px;
+    border-color: #fff transparent transparent transparent;
+    transform: translateX(-50%);
+}
+.info:after{
+    bottom: -8px;
+    border-color: #fff transparent transparent transparent;
+}
+.info:before {
+    bottom: -11px;
+    border-color: #d4d4d5 transparent transparent transparent;
+}
+.contacts {
+    position: relative;
+    margin: 66rem 49rem 0px 10px;
+}
+.contacts a:active + .info, .contacts a:focus + .info, .contacts a + .info:hover,
+.links-map a:active .info, .links-map a:focus .info, .links-map a .info:hover{
+    display: flex;
+}
+.contacts a:active > .icon-phonesm, .contacts a:hover > .icon-phonesm, .contacts a:focus > .icon-phonesm{background: url('/images/icons/phonesm-hover.png');}
+.contacts a:active > .icon-lettersm, .contacts a:hover > .icon-lettersm, .contacts a:focus > .icon-lettersm{background: url('/images/icons/lettersm-hover.png');}
+.contacts a:active > .icon-pointsm, .contacts a:hover > .icon-pointsm, .contacts a:focus > .icon-pointsm{background: url('/images/icons/pointsm-hover.png');}
+.contacts a {
+    position: relative;
+    height: 36px;
+}
+.divider{
+    width: 1px;
+    height: 24px;
+    margin: 0px 19px;
+    background: #bcbec3;
+}
+.menu{
+    border-top: 1px solid #eceef4;
+}
+.menu .lwrap{
+    max-width: 1198px;
+    padding: 0px 10rem;
+}
+.form-search{
+    background: url(/images/icons/search.png)no-repeat left center;
+    padding-left: 39px;
+}
+.slider{
+    background: url('/images/bg.png') no-repeat;
+    background-size: cover;   
+}
+.slider .lwrap{
+    padding: 256rem 10px 119rem 10px;
+}
+.slider .lwrap > div{
+    width: 100%;
+}
+.slider h1{
+    color: #fff;
+    background: url('/images/ampersand.png') no-repeat 7px 18px;
+    margin-bottom: 152rem;
+}
+.slider h1 b{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 58px;
+    text-shadow: 0px 1px 8px rgba(1,1,1,.15);
+    letter-spacing: 0.013em;
+    margin-left: -3px;
+}
+.slider h1 span{    
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 45px;
+    text-shadow: 0px 1px 2px rgba(1,1,1,.15);
+    padding-left: 105rem;
+    margin-top: 9rem;
+    display: inline-block;
+}
+.slide{
+    position: relative;
+}
+.slide figcaption{
+    padding: 18rem;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.yellow .btn-like{
+    color: #cb9700;
+}
+.green figcaption{
+    background: rgba(138,202,81,.9);
+}
+.yellow figcaption{
+    background: rgba(254,235,117,.9);
+}
+.about{
+    padding: 34rem 10px 109rem 10px;
+    background: url('/images/divide.png') no-repeat center bottom;
+}
+.about > article{
+    width: 44.4%;
+}
+.about > article > div{
+    width: 74%;
+}
+.about article h3{    
+    margin: 13px 0px 15px 0px;
+}
+.direction article h3{
+    font-size: 24px;
+    margin: -4px 0px 15px 0px;
+}
+.direction article > div{
+    width: 77%;
+}
+.direction .column:last-child article > div{
+    width: 75.2%;
+}
+.direction article{
+    margin-bottom: 96rem;
+}
+article h3 {
+    color: #6d6d71;
+    font-size: 26px;
+    font-weight: 700;
+}
+article p {
+    color: #6d6d71;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.016em;
+}
+.hdr{
+    margin: auto;
+}
+.hdr h2 {
+    font-weight: 700;
+    color: #6d6d71;
+    font-size: 44px;
+    margin-bottom: 0;
+}
+.hdr h3 {
+    color: #6d6d71;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 17px;
+    letter-spacing: -0.017em;
+}
+.hdr i{
+    margin-right: 32rem;
+}
+.direction{
+    padding: 68rem 10px 0px 10px;
+}
+.direction .hdr{
+    margin-bottom: 89rem;
+}
+.border{
+    width: 1px;
+    background: #eaeced;
+    margin: -15rem 29rem 78rem 5px;
+}
+.column{
+    width: 44%;
+}
+.column:last-child{
+    width: 44.2%;
+}
+.column:last-child i{
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.projects {
+    background: #efefef url('/images/divider.png') no-repeat center top;
+    margin-top: -7px;
+}
+.projects .lwrap{
+    padding: 59rem 10px 86rem 10px;
+}
+.projects .hdr{
+    margin-bottom: 71rem;
+    max-width: 505px;
+}
+.projects .hdr h2{
+    margin: 40px 0px 0px 0px;
+    line-height: 58px;
+}
+.tabpanel > div{
+    padding: 16rem 13rem 0 13rem;
+    background: #fff;
+    width: 24%;
+    margin-bottom: 18rem;
+    border-radius: 5px;
+}
+.tablist{
+    margin-bottom: 43rem;
+}
+.tabpanel.active {
+    display: flex;
+}
+.links > a{
+    width: 50%;
+    height: 59px;
+}
+.links > a:first-child {
+    border-right: 1px solid #f5f5f5;
+}
+.team-wrap{
+    padding: 43rem 10px 101rem 10px;
+}
+.team-wrap .hdr{
+    max-width: 738px;
+    margin-bottom: 78rem;
+    padding-left: 126rem;
+}
+.team-wrap .hdr i {
+    margin-right: 39px;
+}
+.team-wrap .hdr h2 {
+    margin: 43px 0px 0px 0px;
+}
+.team > div {
+    width: 24%;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 27rem 0px 27rem 0px;
+    color: #6d6d71;
+    margin-bottom: 10px;
+}
+.team h4 {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+.team figcaption span {
+    font-size: 17px;
+    letter-spacing: -0.02em;
+}
+.team figure{
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.team figcaption{
+    margin: 11rem 5px 39rem 5px;
+}
+.map{
+    height: 498px;
+    position: relative;
+}
+.links-map{
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.links-map > a{
+    position: relative;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    width: 63px;
+    height: 63px;
+    border-radius: 7px;
+    margin: 5px;
+    box-shadow: 0 0 40px rgba(1,1,1,.13);
+}
+.links-map > a:active, .links-map > a:hover, .links-map > a:focus{
+    border: 1px solid #1fa9e0;
+    background: #1fa9e0;
+    cursor: pointer;
+}
+.links-map > a:active > .icon-phonelg, .links-map > a:hover > .icon-phonelg, .links-map > a:focus > .icon-phonelg{background: url('/images/icons/phonelg-hover.png');}
+.links-map > a:active > .icon-letterlg, .links-map > a:hover > .icon-letterlg, .links-map > a:focus > .icon-letterlg{background: url('/images/icons/letterlg-hover.png');}
+.links-map > a:active > .icon-pointlg, .links-map > a:hover > .icon-pointlg, .links-map > a:focus > .icon-pointlg{background: url('/images/icons/pointlg-hover.png');}
+.links-map .info{
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 67px;
+    height: 82px;
+    line-height: 23px;
+}
+.links-map .info:after, .links-map .info:before {
+    left: 50%;
+}
+.map .icon-marker{
+    position: absolute;
+    left: 55.5%;
+    top: 20%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background: #2b2c2d;
+}
+.footer-bottom > span{
+    color: #6d6d71;
+    letter-spacing: -0.005em;
+    padding: 5px 0px 5px 1px;
+}
+.footer-bottom a{
+    color: #6d6d71;
+}
+.footer-bottom .icon-dot{
+    margin: 6px 6px 1px 6px;
+}
+.form-mail{
+    background: url(/images/icons/mail.png)no-repeat 21px center;
+    padding: 10px 10px 10px 84px;
+    height: 66px;
+    border-radius: 10px;
+    background-color: #393b3c;
+    max-width: 594px;
+    width: 52%;
+    margin-top: 19px;
+}
+footer .lwrap{
+    padding: 66rem 10px 32rem 10px;
+}
+.footer-top{
+    padding-bottom: 57px;
+}
+@media (max-width: 640px) {
+    .team > div {
+    width: 49%;
+    
+}
+}
+@media (max-width: 480px) {
+    .tabpanel > div{
+        width: 49%;
+    }
+}
