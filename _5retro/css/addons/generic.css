@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=d6f72d04-df06-4dda-a595-de9ed73e11f5");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "SeasideResortNF";
+    src: url("/fonts/fonts.com/284d318d-c5ba-4737-bea4-227738cacc4e.woff2") format("woff2"), url("/fonts/fonts.com/61bec40d-47ea-4f00-8546-42196934cbc6.woff") format("woff");
+}
+@font-face {
+    font-family: 'Bazar';
+    src: url('/fonts/fontsquirel.com/ufonts.com_bazar.woff2') format('woff2'), url('/fonts/fontsquirel.com/ufonts.com_bazar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ICONS */
+.icon-clip {width: 52px; height: 52px; background: url('/images/icons/clip.png');}
+.icon-dot {width: 12px; height: 12px; background: url('/images/icons/dot.png');}
+.icon-facebook {width: 84px; height: 84px; background: url('/images/icons/facebook.png');}
+.icon-food {width: 172px; height: 172px; background: url('/images/icons/food.png');}
+.icon-gplus {width: 84px; height: 84px; background: url('/images/icons/gplus.png');}
+.icon-linkedin {width: 72px; height: 72px; background: url('/images/icons/linkedin.png');}
+.icon-note {width: 52px; height: 52px; background: url('/images/icons/note.png');}
+.icon-photo {width: 52px; height: 52px; background: url('/images/icons/photo.png');}
+.icon-pinterest {width: 84px; height: 84px; background: url('/images/icons/pinterest.png');}
+.icon-point {width: 8px; height: 8px; background: url('/images/icons/point.png');}
+.icon-shirt {width: 172px; height: 172px; background: url('/images/icons/shirt.png');}
+.icon-tv-sm {width: 52px; height: 52px; background: url('/images/icons/tv-sm.png');}
+.icon-tv {width: 172px; height: 172px; background: url('/images/icons/tv.png');}
+.icon-twitter {width: 84px; height: 84px; background: url('/images/icons/twitter.png');}
+.icon-vinyl {width: 172px; height: 172px; background: url('/images/icons/vinyl.png');}
+.icon-volume {width: 52px; height: 52px; background: url('/images/icons/volume.png');}
+.icon-arrow {width: 44px; height: 44px; background: url('/images/icons/arrow.png');}

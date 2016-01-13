@@ -23,29 +23,29 @@
         <header data-flex='vaxis'>
             <i class="icon-logo"></i>
             <h1>working<br> with design lab</h1>
-            <p>we've been helping startups launch and grow their businesses. we help you to fill the gap between development, design and product management.</p>
+            <p>we've been helping startups launch and grow their businesses. we help you to fill the gap between development,<br> design and product management.</p>
             <i class="icon-mouse"></i>
         </header>
-        <section class='about-wrap' data-flex='col -center center'>
-            <div class='about' data-flex='col -center center'>
+        <section class='about-wrap'>
+            <div class='about lwrap' data-flex='col -center center'>
                 <h2>about us</h2>
-                <p>When you work with, you are part of a team fo committed collaborators. All aspects of our software development process are integrated, iterative and agile.</p>
-                <p>Our apprach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user's needs and the product requirenments. Then we help translate them into effective and elegant solutions.</p>
+                <p>When you work with us, you are part of a team of committed collaborators.<br> All aspects of our software development process are integrated, iterative and agile.</p>
+                <p>Our approach unifies design, development and<br> product management to create exceptional products.<br> We start each project by understanding your business goals,<br> the user's needs and the product requirenments.<br> Then we help translate them into effective and elegant solutions.</p>
             </div>
         </section>
-        <section class='services-wrap' data-flex='col -center center'>
-            <div class='services' data-flex='col -center center'>
+        <section class='services-wrap'>
+            <div class='services lwrap' data-flex='col -center center'>
                 <h2>services</h2>
-                <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. The outcome of theis scoping session is a proposal or hight-level statement  or work. Based on your requirements, we can provide a complete offering or just the pieces you need.</p>        
+                <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.<br> The outcome of this scoping session is a proposal or high-level statement  or work. Based on your requirements, we can provide a complete offering or just the pieces you need.</p>        
             </div>
         </section>
-        <section class='direction-wrap' data-flex='vaxis'>
-            <div class='direction' data-flex='vaxis'>
+        <section class='direction-wrap'>
+            <div class='direction lwrap' data-flex='vaxis'>
                 <h2>what&nbsp;we&nbsp;do</h2>
                 <article>
                     <i class='icon-pen'></i>
                     <h3>design</h3>
-                    <p>Our design pracitce offers a full range of services including branding strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                    <p>Our design pracitce offers a full range of services including branding strategy,<br> interaction and visual design and user experience testing.<br> Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                 </article>
                 <article>
                     <i class='icon-folder'></i>
@@ -89,8 +89,8 @@
                 </figure>
             </div>
         </section>
-        <section class='contacts-wrap' data-flex='col -center center'>
-            <div class='contacts' data-flex='col -center center'>
+        <section class='contacts-wrap'>
+            <div class='contacts lwrap' data-flex='col -center center'>
                 <h2>contact us</h2>
                 <p>Planning and development is iterative. Because we are constantly coding and testing, the produsts we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
                 <a href='#' class='btn btn-contact'>contact us</a>

@@ -217,7 +217,7 @@
                                 </div>
                                 <div class="separator"></div>                               
                             </div>
-                            <p>If you’ve studied design at all, you’ve probably encountered Lorem Ipsum placeholder text at some point. Anywhere there is text, but the meaning of that text isn’t particularly important, you might see Lorem Ipsum. <a href="#">(MORE…)</a></p>
+                            <p>If you've studied design at all, you've probably encountered Lorem Ipsum placeholder text at some point. Anywhere there is text, but the meaning of that text isn’t particularly important, you might see Lorem Ipsum. <a href="#">(MORE…)</a></p>
                         </div>                    
                     </article>
                     <article data-flex="row-start">

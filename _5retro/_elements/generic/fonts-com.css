@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=d6f72d04-df06-4dda-a595-de9ed73e11f5");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "SeasideResortNF";
+    src: url("/fonts/fonts.com/284d318d-c5ba-4737-bea4-227738cacc4e.woff2") format("woff2"), url("/fonts/fonts.com/61bec40d-47ea-4f00-8546-42196934cbc6.woff") format("woff");
+}

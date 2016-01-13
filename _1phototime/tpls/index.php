@@ -102,7 +102,7 @@
                 <h2>subscribe tous community</h2>
                 <form action="#" method="post" data-flex>
                     <input type="email" name="email" placeholder="your email">
-                    <button class="btn btn-check"><i class="icon-check"></i></button>
+                    <button class="btn btn-check"></button>
                 </form>
             </div>
         </section>

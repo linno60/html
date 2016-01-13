@@ -37,3 +37,15 @@
     <a href="#">Privacy</a><span></span>
     <a href="#">Privacy</a>
 </nav>
+<div class='links-contact' data-flex='-center' data-childs='-center center'>
+    <a href='#' class='phone'><i class='icon-phonesm'></i></a>
+    <div class='divider'></div>
+    <a href='#' class='address'><i class='icon-pointsm'></i></a>
+    <div class='divider'></div>
+    <a href='#' class='mail'><i class='icon-lettersm'></i></a>
+</div>
+<div class='links-map' data-flex data-childs='-center center'>
+    <a href='#'><i class='icon-pointlg'></i></a>
+    <a href='#'><i class='icon-letterlg'></i></a>
+    <a href='#'><i class='icon-phonelg'></i></a>
+</div>

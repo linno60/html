@@ -22,6 +22,7 @@ header h1{
     letter-spacing: 0.16em;
 }
 header p{
+    font-weight: 400;
     font-size: 15px;
     line-height: 29px;
     max-width: 600px;
@@ -65,7 +66,21 @@ header p{
     letter-spacing: 0.003em;
     font-weight: 400;
 }
+.services p{
+    max-width: 570px;
+    letter-spacing: -0.012em;
+}
+.about p{
+    line-height: 24px;
+    max-width: 630px;
+    letter-spacing: -0.015em;
+    margin-bottom: 24px;
+}
+.about p:last-child{
+    max-width: 440px;
+}
 .contacts p{
+    max-width: 568px;
     margin-bottom: 38rem;
     letter-spacing: -0.014em;
 }
@@ -74,6 +89,9 @@ header p{
 }
 .direction p{
     margin-bottom: 80rem;
+    font-size: 14px;
+    max-width: 562px;
+    letter-spacing: -0.013em;
 }
 .direction h3{
     font-size: 20px;
@@ -106,14 +124,14 @@ header p{
 }
 .contacts, .direction, .about, .services{
     border: 2px solid #3c3c3c;
-    max-width: 902px;
-    width: 100%;
-    margin: auto;
     text-align: center;
     position: relative;
 }
+.lwrap{
+    max-width: 902px;
+}
 .about{
-    padding: 66px 10px 66rem 10px;
+    padding: 68px 10px 48rem 20px;
 }
 .contacts{
     padding: 67px 10px 48rem 10px;
@@ -125,7 +143,7 @@ header p{
     border: 2px solid #fff;
     border-top: none;
     color: #fff;
-    padding: 70rem 10px 75rem 10px;
+    padding: 70rem 10px 49rem 18px;
 }
 .services h2{
     background: transparent;
@@ -158,8 +176,12 @@ footer span{
     margin: 2rem 15rem 0px 36rem;
     letter-spacing: -0.01em;
 }
+
+/*MEDIA QUERIES*/
 @media (max-width: 480px) {
     header h1 {font-size: 30px;line-height: 30px;}
     header {padding: 20px 10px 20px 10px;}
     header p {margin-bottom: 20px;}
+    .services:after, .services:before{width: 15%;}
+    .direction h2{font-size: 30px;}
 }

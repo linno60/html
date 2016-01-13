@@ -1,0 +1,127 @@
+body{
+    font-size: 12px;
+    font-family: Roboto Slab;
+}
+
+/*LINKS*/
+.links-nav a{
+    text-transform: uppercase;
+    color: #f8ead8;
+    text-align: center;
+    font-family: Bazar;
+    font-size: 54px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+    margin: 0px 20px 0px 20px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-shadow: none;
+}
+.links-filter a{
+    color: #37393b;
+    font-size: 24px;
+    font-weight: 600;
+    height: 48px;
+    margin: 22px 19px 22px 22px;
+    padding: 0px 17px 0px 20px;
+    border-radius: 0px 6px 6px 0px;
+    background: #fbf9f5 url(/images/icons/point.png)no-repeat 1px center;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    position: relative;
+}
+.links-filter a:before{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -22px;
+    position: absolute;
+    border-right:22px solid #fbf9f5;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+}
+.links-filter a:active, .links-filter a:hover, .links-filter a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    width: 151px;
+    height: 151px;
+    border: 4px solid #37393b;
+    border-radius: 50%;
+    background: #f5eee3;
+    box-shadow: 0px 0px 0px 4px #f5eee3;
+    margin: 15px;
+}
+
+/*CITES*/
+blockquote{
+    text-transform: uppercase;
+    color: #f7ebd8;
+    font-family: Bazar;
+    font-size: 53px;
+    text-align: center;
+}
+blockquote span{
+    font-size: 64px;
+}
+
+/*LABELS*/
+.lbl-about {
+    width: 284px;
+    height: 284px;
+    background: #d45244;
+    border: 8px solid #f5ede3;
+    box-shadow: 0px 0px 0px 8px #d45244;
+    border-radius: 50%;
+}
+.lbl-figure{
+    width: 86px;
+    padding-top: 2px;
+    height: 86px;
+    border-radius: 50%;
+    background: #fbf9f5;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 282px;
+    height: 72px;
+    background: #fcfaf7;
+    border-radius: 6px;
+    color: #383a3c;
+    font-size: 32px;
+    font-weight: 700;
+    box-shadow: 2.1px 2.1px 2px rgba(0, 0, 0, 0.2);
+}
+.btn-slide{
+    width:120px;
+    height:120px;
+    border-radius:100%;
+    background:#fbf9f5;
+    right: 0px;
+}
+.btn-slide:active > .icon-arrow, .btn-slide:hover > .icon-arrow, .btn-slide:focus > .icon-arrow{background: url(/images/icons/arrow-hover.png);}
+
+/*FORMS*/
+input[name=input]{    
+    height: 74px;
+    padding: 0px 15px;
+}
+textarea{
+    height: 326px;
+    padding: 15px;
+}
+input[name=input], textarea{
+    width: 100%;
+    max-width: 960px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 32px;
+    border-radius: 6px;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: none;
+    box-shadow: 1px 1px 0 rgba(255,255,255,.4), inset 1px 1px 0 rgba(0,0,0,.2);
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #a9a8a8;}
+input[name=input]::-moz-placeholder, textarea::-webkit-input-placeholder {color: #a9a8a8;}
+input[name=input]:-ms-input-placeholder, textarea::-webkit-input-placeholder {color: #a9a8a8;}

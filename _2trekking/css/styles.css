@@ -94,6 +94,7 @@ header > .lwrap > div > a{
     letter-spacing: -0.03em;
 }
 .name{
+    padding-right: 5px;
     color: #a99b77;
     text-transform: uppercase;
     font-size: 18px;
@@ -174,6 +175,12 @@ footer span{
     color: #fff;
     margin: 8px 0px 4px 10px;
     letter-spacing: -0.01em;
+    text-align: right;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .product{width: 32%;}
 }
 @media (max-width: 640px) {
     footer .lwrap > div{max-width: 640px;}

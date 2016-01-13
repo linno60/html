@@ -43,7 +43,7 @@
                 <a href="/" id='logo' title="Return to the homepage">
                     <img src="/images/logo.png" width="404" height="96" alt="Portal-UI">
                 </a>
-                <div class='contacts' data-flex='-center center' data-childs='-center center'>
+                <div class='links-contact' data-flex='-center center' data-childs='-center center'>
                     <a href='#' class='phone'><i class='icon-phonesm'></i></a>
                     <div class='info'>111-222-333</div>
                     <div class='divider'></div>
@@ -55,7 +55,7 @@
                 </div>
             </section>
             <section class='menu'>
-                <div class='lwrap' data-flex='axis'>
+                <div class='lwrap' data-flex='axis' data-flex-800="vaxis r">
                     <nav class="links-nav" data-flex="stripe" data-childs="-center center">
                         <a href="#" class="active">HOME</a>
                         <a href="#">What about ISAMA</a>
@@ -93,14 +93,14 @@
             </div>
         </section>
         <section class='about lwrap' data-flex='stripe' data-flex-640='vstripe'>
-            <article data-flex='stripe'>
+            <article data-flex='stripe' data-flex-480='vstripe'>
                 <i class="icon-lamp"></i>
                 <div>
                     <h3>What about ISAMA</h3>
                     <p>ISAMA is a marketing foundation located in Riyadh built on the talent of creation that leads to a modern concept of professionalism. At ISAMA we believe even if you are good at what you do, you have a great pro&shy;duct or you provide an excellent service. We still can present you a little better to the world, creating your full identity, provides you with your marketing plans, design your website, print your publications, design your logo's and offices. Simply we give your business the perfect image.</p>
                 </div>
             </article>
-            <article data-flex='stripe'>
+            <article data-flex='stripe' data-flex-480='vstripe'>
                 <i class="icon-tree"></i>
                 <div>
                     <h3>Why we exist</h3>
@@ -116,24 +116,30 @@
                     <h3>Everything you need to do business intelligence right.</h3>
                 </hgroup>
             </div>
-            <div data-flex='stripe'>
-                <div class='column'>
-                    <article data-flex='stripe'>
-                        <i class="icon-setting"></i>                    
+            <div data-flex='stripe' data-flex-640="vstripe">
+                <div class='column' data-childs='stripe'>
+                    <article>
+                        <div>
+                            <i class="icon-setting"></i>   
+                        </div>               
                         <div>
                             <h3>Web Design & Development</h3>
                             <p>ISAMA Pvt. Ltd. designs and develops creative web&shy;sites utilizing the latest technologies.</p>
                         </div>                        
                     </article>
-                    <article data-flex='stripe'>
-                        <i class="icon-coub"></i>                      
+                    <article>
+                        <div>
+                            <i class="icon-coub"></i> 
+                        </div>                 
                         <div>
                             <h3>Software Solutions</h3>
                             <p>with our software for professional services and con&shy;sulting firms. Grow your revenue and profit margins by assigning the right people to the right projects at the right time.</p>
                         </div>                        
                     </article>
-                    <article data-flex='stripe'>
-                        <i class="icon-mouse"></i>
+                    <article>
+                        <div>
+                            <i class="icon-mouse"></i>
+                        </div>
                         <div>
                             <h3>Branding</h3>
                             <p>We have our forte in advertising and Brand establish&shy;ment. We create identities for the clients product and services in the target market.</p>
@@ -141,23 +147,29 @@
                     </article>
                 </div>
                 <div class="border"></div>
-                <div class='column'>
-                    <article data-flex='stripe'>
-                        <i class="icon-mobile"></i>
+                <div class='column' data-childs='stripe'>
+                    <article>
+                        <div data-flex="center">
+                            <i class="icon-mobile"></i>
+                        </div>
                         <div>
                             <h3>Mobile Applications</h3>
                             <p>Our Developers helps you to Design, Develop & Distrib&shy;ute Mobile Applications - Smarter & Faster.</p>
                         </div>                        
                     </article>
-                    <article data-flex='stripe'>
-                        <i class="icon-chair"></i>
+                    <article>
+                        <div data-flex="center">
+                            <i class="icon-chair"></i> 
+                        </div>
                         <div>
                             <h3>Interior Design</h3>
                             <p>We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Con&shy;cierge service, all of which are executed with beautiful, custom-tailored results.</p>
                         </div>                        
                     </article>
-                    <article data-flex='stripe'>
-                        <i class="icon-globe"></i>
+                    <article>
+                        <div data-flex="center">
+                            <i class="icon-globe"></i>
+                        </div>
                         <div>
                             <h3>SEO & Web Marketing Services</h3>
                             <p>We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Con&shy;cierge service, all of which are executed with beautiful, custom-tailored results.</p>
@@ -333,7 +345,7 @@
         </section>
         <footer>
             <div class='lwrap' data-flex='vstripe'>
-                <div class='footer-top' data-flex='axis'>
+                <div class='footer-top' data-flex='axis' data-flex='axis' data-flex-640="vaxis">
                     <div class="links-socialfooter" data-flex data-childs="-center center">
                         <a href="#"><i class="icon-facebookb"></i></a>
                         <a href="#"><i class="icon-twitterb"></i></a>
@@ -345,7 +357,7 @@
                         <button><span class="btn btn-submit">Join</span></button> 
                     </form>
                 </div>
-                <div class='footer-bottom' data-flex='axis'>
+                <div class='footer-bottom' data-flex='axis' data-flex-640="vaxis">
                     <span>&copy; Copyright 2014 - ISAMA for information techology</span>
                     <nav class="links-footer" data-flex="-center w">
                         <a href="#">Blog</a><span></span>

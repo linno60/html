@@ -69,7 +69,6 @@ header{
 .header{
     height: 260px;
     box-shadow: 0 0 10px rgba(0,0,0,.25);
-    /* padding: 0 0 0 10px; */
 }
 .header:after, .header-wrap:before, header:after, .about-wrap:after, .about-wrap:before,  .portfolio-wrap:after, .portfolio-wrap:before,  .blog-wrap:after, .blog-wrap:before,
 footer:after, footer:before{
@@ -268,7 +267,7 @@ header .hdr .hdr-caption-wrap{
     padding: 0px 0px 114px 0px;
     max-width: 1920px;
     margin: 0 -20px;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .about .lbl{
     width: 284px;
@@ -335,7 +334,6 @@ flex-wrap: wrap;
 }
 .filter{
     width: 100%;
-    /* padding: 0 10px; */
     flex-wrap: wrap;
     margin-bottom: 12px;
     margin-left: -3px;
@@ -492,7 +490,7 @@ footer{
     padding: 13px 10px 150px 10px;
 }
 .footer .hdr .divider {
-  background: url('../images/separator2.png');
+    background: url('../images/separator2.png');
 }
 .footer .hdr h1 span{
     color: #f5ecd7;
@@ -547,30 +545,28 @@ footer{
 .btn-form{
     min-width: 282px;
     padding: 0 25px;
-height: 72px;
-border-radius: 6px;
-background-color: #fbf9f7;
-box-shadow: 2px 2px 2px rgba(0,0,0,.2);color: #37393b;
-font: 600 32px "Roboto Slab";
+    height: 72px;
+    border-radius: 6px;
+    background-color: #fbf9f7;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);color: #37393b;
+    font: 600 32px "Roboto Slab";
 }
 .social > div{
     flex-wrap: wrap;
 }
 .social .btn{
     width: 151px;
-
     height: 151px;
-border: 4px solid #37393b;
-border-radius: 50%;
-background-color: #f5eee3;
-box-shadow: 0px 0px 0px 4px #f5eee3;
-
+    border: 4px solid #37393b;
+    border-radius: 50%;
+    background-color: #f5eee3;
+    box-shadow: 0px 0px 0px 4px #f5eee3;
     margin: 15px;
 }
 .social h1{
     text-transform:uppercase;
     color: #f5ecd7;
-font: 48px "Bazar";
+    font: 48px "Bazar";
 }
 .social .separator{
     background-color: #f5ecd7;
@@ -579,246 +575,246 @@ font: 48px "Bazar";
 }
 @media (max-width: 1400px) {
     .header nav a {
-    font: 30px "Bazar";
-}
-.blog article {
-    margin: 0px 0px 64px 0px;
-}
-.about{
-    justify-content: space-around;
-}
-.header nav {
-    height: 150px;
-}
-.header nav a {
-    margin: 0px 10px;
-}
-.header nav a.logo {
-    margin-top: 0px;
-}
-.about .lbl {
-    width: 168px;
-    height: 168px;
-    border: 4px solid #F5EDE3;
-    box-shadow: 0px 0px 0px 4px #D45244;
-}
-.about article h2 {
-    font: 27px "Bazar";
-    margin: 20px 0px;
-}
-.about .separator {
-    margin: 10px;
-}
-.separator {
-    width: 80px;
-    height: 3px;
-}
-.about {
-    padding-bottom: 50px;
-}
-.about article p {
-    font: 14px/24px "Roboto Slab";
-}
-.about article h2 + span {
-    font: 14px "Roboto Slab";
-}
-.icon-shirt, .icon-food, .icon-tv, .icon-vinyl {
-    width: 86px;
-    height: 86px;
-    background-size: 100%;
-}
-.header{
-    height: 140px;
-}
-.header nav a.logo {
-    font: 94px "Seaside Resort NF";
-    background-size: 100%;
-    width: 147px;
-    height: 147px;
-}
-header .hdr h1 {
-    margin: 50px 0px 30px 0px;
-    font: 100px/100px "Seaside Resort NF";
-}
-.hdr h1 {
-    margin-top: 50px;
-    font: 90px "Bazar";
-}
+        font: 30px "Bazar";
+    }
+    .blog article {
+        margin: 0px 0px 64px 0px;
+    }
+    .about{
+        justify-content: space-around;
+    }
+    .header nav {
+        height: 150px;
+    }
+    .header nav a {
+        margin: 0px 10px;
+    }
+    .header nav a.logo {
+        margin-top: 0px;
+    }
+    .about .lbl {
+        width: 168px;
+        height: 168px;
+        border: 4px solid #F5EDE3;
+        box-shadow: 0px 0px 0px 4px #D45244;
+    }
+    .about article h2 {
+        font: 27px "Bazar";
+        margin: 20px 0px;
+    }
+    .about .separator {
+        margin: 10px;
+    }
+    .separator {
+        width: 80px;
+        height: 3px;
+    }
+    .about {
+        padding-bottom: 50px;
+    }
+    .about article p {
+        font: 14px/24px "Roboto Slab";
+    }
+    .about article h2 + span {
+        font: 14px "Roboto Slab";
+    }
+    .icon-shirt, .icon-food, .icon-tv, .icon-vinyl {
+        width: 86px;
+        height: 86px;
+        background-size: 100%;
+    }
+    .header{
+        height: 140px;
+    }
+    .header nav a.logo {
+        font: 94px "Seaside Resort NF";
+        background-size: 100%;
+        width: 147px;
+        height: 147px;
+    }
+    header .hdr h1 {
+        margin: 50px 0px 30px 0px;
+        font: 100px/100px "Seaside Resort NF";
+    }
+    .hdr h1 {
+        margin-top: 50px;
+        font: 90px "Bazar";
+    }
 }
 @media (max-width: 1150px) {
     i.icon-dot{
         display: none;
     }
-   .blog article h4 a {
-    font: 600 30px "Roboto Slab";
-} 
-.blog article .hdr-article span {
-    font: 600 12px "Oswald";
-}
-.blog article p {
-    font: 16px/30px "Roboto Slab";
-}
-.blog article p a {
-    font: 600 12px "Roboto Slab";
-}
-.social .btn{
-    width: 73px;
-height: 73px;
-border: 2px solid #37393b;
-box-shadow: 0px 0px 0px 2px #f5eee3;
-margin: 10px;
-}
-.icon-facebook, .icon-pinterest, .icon-twitter, .icon-gplus, .icon-linkedin {
-    width: 42px;
-    height: 42px;
-    background-size: 100%;
-}
+    .blog article h4 a {
+        font: 600 30px "Roboto Slab";
+    } 
+    .blog article .hdr-article span {
+        font: 600 12px "Oswald";
+    }
+    .blog article p {
+        font: 16px/30px "Roboto Slab";
+    }
+    .blog article p a {
+        font: 600 12px "Roboto Slab";
+    }
+    .social .btn{
+        width: 73px;
+        height: 73px;
+        border: 2px solid #37393b;
+        box-shadow: 0px 0px 0px 2px #f5eee3;
+        margin: 10px;
+    }
+    .icon-facebook, .icon-pinterest, .icon-twitter, .icon-gplus, .icon-linkedin {
+        width: 42px;
+        height: 42px;
+        background-size: 100%;
+    }
 }
 @media (max-width: 880px) {
     header .hdr .hdr-caption {
-    background-size: 100%;
-    width: 435px;
-    height: 59px;
-    font: 22px "Bazar";
-    padding-bottom: 10px;
-}
-.slider-wrap + blockquote {
-    font: 32px "Bazar";
-    margin-bottom: 50px;
-}
-.slider-wrap + blockquote span {
-    font: 27px "Bazar";
-}
+        background-size: 100%;
+        width: 435px;
+        height: 59px;
+        font: 22px "Bazar";
+        padding-bottom: 10px;
+    }
+    .slider-wrap + blockquote {
+        font: 32px "Bazar";
+        margin-bottom: 50px;
+    }
+    .slider-wrap + blockquote span {
+        font: 27px "Bazar";
+    }
 }
 @media (max-width: 700px) {
     .header nav a {
-    font: 14px "Bazar";
-}
-.header nav {
-    height: 70px;
-}
-.header nav a {
-    margin: 0px 5px;
-}
-.header{
-    height: 70px;
-}
-.header nav a.logo {
-    font: 47px "Seaside Resort NF";
-    width: 72px;
-    height: 72px;
-}
-  .header:after{
-    bottom: 15px;
-}
-header:after, .about-wrap:after, .portfolio-wrap:after,.blog-wrap:after, footer:after{
-    bottom: 10px;
-}
-.header-wrap:before, .about-wrap:before, .portfolio-wrap:before, .blog-wrap:before, footer:before{
-    top: 10px;
-}  
-.slider-wrap span {
-    height: 40px;
-    font: 20px "Bazar";
-}
-header .hdr .hdr-caption-wrap {
-    margin-bottom: 30px;
-}
-.blog article {
-    flex-direction: column;
-    align-items: center;
-}
-.blog article > div {
-    width: 100%;
-    padding: 0px;
-    margin-top: 20px;
-}
-.blog article > figure {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 6px;
-    background-color: #FBF9F5;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-    padding: 8px;
-}
-.hdr-article h4 + div{
-    flex-direction: column;
-}
-.blog article .hdr-article span {
-    margin: 10px 0;
-}
-.blog article:last-child {
-    margin-bottom: 40px;
-}
+        font: 14px "Bazar";
+    }
+    .header nav {
+        height: 70px;
+    }
+    .header nav a {
+        margin: 0px 5px;
+    }
+    .header{
+        height: 70px;
+    }
+    .header nav a.logo {
+        font: 47px "Seaside Resort NF";
+        width: 72px;
+        height: 72px;
+    }
+    .header:after{
+        bottom: 15px;
+    }
+    header:after, .about-wrap:after, .portfolio-wrap:after,.blog-wrap:after, footer:after{
+        bottom: 10px;
+    }
+    .header-wrap:before, .about-wrap:before, .portfolio-wrap:before, .blog-wrap:before, footer:before{
+        top: 10px;
+    }  
+    .slider-wrap span {
+        height: 40px;
+        font: 20px "Bazar";
+    }
+    header .hdr .hdr-caption-wrap {
+        margin-bottom: 30px;
+    }
+    .blog article {
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog article > div {
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .blog article > figure {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 6px;
+        background-color: #FBF9F5;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        padding: 8px;
+    }
+    .hdr-article h4 + div{
+        flex-direction: column;
+    }
+    .blog article .hdr-article span {
+        margin: 10px 0;
+    }
+    .blog article:last-child {
+        margin-bottom: 40px;
+    }
 }
 @media (max-width: 490px) {
     .grid figure {
-    min-width: 380px;
-    max-width: 460px;
+        min-width: 380px;
+        max-width: 460px;
     }
     .grid {
-    margin: 0px;
-}
-.hdr h1 {
-    font: 50px "Bazar";
-}
-.hdr p {
-    font: 16px "Oswald";
-}
-.hdr h1 span {
-    left: -5px;
-    top: -5px;
-}
-a.btn-filter {
-    color: #37393B;
-    font: 600 12px "Roboto Slab";
-    height: 40px;
-    margin: 10px 15px;
-    padding: 0px 10px;
-}
-a.btn-filter::before {
-    left: -18px;
-    border-right: 18px solid #FBF9F5;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-}
-.filter{
-    margin-bottom: 20px;
-}
+        margin: 0px;
+    }
+    .hdr h1 {
+        font: 50px "Bazar";
+    }
+    .hdr p {
+        font: 16px "Oswald";
+    }
+    .hdr h1 span {
+        left: -5px;
+        top: -5px;
+    }
+    a.btn-filter {
+        color: #37393B;
+        font: 600 12px "Roboto Slab";
+        height: 40px;
+        margin: 10px 15px;
+        padding: 0px 10px;
+    }
+    a.btn-filter::before {
+        left: -18px;
+        border-right: 18px solid #FBF9F5;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+    }
+    .filter{
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 450px) {
     header .hdr .hdr-caption {
-    width: 300px;
-    font: 16px "Bazar";
-    padding-bottom: 8px;
-}
-header .hdr h1 {
-    font: 50px/50px "Seaside Resort NF";
-}
-.icon-arrow {
-    width: 22px;
-    height: 22px;
-    background-size: 100%;
-}
-.btn-slide.disabled .icon-arrow {
-    background-size: 100%;
-}
-.btn-slide {
-    width: 60px;
-    height: 60px;
-    padding-right: 22px;
-}
-.btn-wrap {
-    width: 30px;
-    margin-top: -30px;
-}
-.slider-wrap {
-    padding: 10px;
-}
+        width: 300px;
+        font: 16px "Bazar";
+        padding-bottom: 8px;
+    }
+    header .hdr h1 {
+        font: 50px/50px "Seaside Resort NF";
+    }
+    .icon-arrow {
+        width: 22px;
+        height: 22px;
+        background-size: 100%;
+    }
+    .btn-slide.disabled .icon-arrow {
+        background-size: 100%;
+    }
+    .btn-slide {
+        width: 60px;
+        height: 60px;
+        padding-right: 22px;
+    }
+    .btn-wrap {
+        width: 30px;
+        margin-top: -30px;
+    }
+    .slider-wrap {
+        padding: 10px;
+    }
 }
 @media (max-width: 400px) {
     .grid figure {
-    min-width: 300px;
+        min-width: 300px;
     }
     .filter{
         padding: 0px 20px;
@@ -826,7 +822,7 @@ header .hdr h1 {
 }
 @media (max-width: 360px) {
     .grid figure {
-    max-width: 300px;
+        max-width: 300px;
     }
 }
 

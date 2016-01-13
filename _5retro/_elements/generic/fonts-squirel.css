@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Bazar';
+    src: url('/fonts/fontsquirel.com/ufonts.com_bazar.woff2') format('woff2'), url('/fonts/fontsquirel.com/ufonts.com_bazar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
