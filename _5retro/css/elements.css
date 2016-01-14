@@ -9,20 +9,26 @@ body{
     color: #f8ead8;
     text-align: center;
     font-family: Bazar;
-    font-size: 54px;
+    font-size: 54rem;
     text-shadow: 1px 1px 2px rgba(0,0,0,.2);
-    margin: 0px 20px 0px 20px;
+    margin: 5rem 30rem 0px 30rem;
+    letter-spacing: -0.005em;
+    white-space: nowrap;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     text-shadow: none;
+}
+.links-filter{
+    width: 100%;
+    padding: 75rem 0px 28rem 0px;
 }
 .links-filter a{
     color: #37393b;
     font-size: 24px;
     font-weight: 600;
     height: 48px;
-    margin: 22px 19px 22px 22px;
-    padding: 0px 17px 0px 20px;
+    margin: 0px 18rem 5px 24px;
+    padding: 0px 17rem 0px 24px;
     border-radius: 0px 6px 6px 0px;
     background: #fbf9f5 url(/images/icons/point.png)no-repeat 1px center;
     box-shadow: 2px 2px 2px rgba(0,0,0,.2);
@@ -33,9 +39,9 @@ body{
     width: 0;
     height: 0;
     top: 0;
-    left: -22px;
+    left: -23px;
     position: absolute;
-    border-right:22px solid #fbf9f5;
+    border-right: 23px solid #fbf9f5;
     border-top: 24px solid transparent;
     border-bottom: 24px solid transparent;
 }
@@ -43,13 +49,15 @@ body{
     text-decoration: underline;
 }
 .links-social a{
-    width: 151px;
-    height: 151px;
+    width: 151rem;
+    height: 151rem;
+    min-width: 48px;
+    min-height: 48px;
     border: 4px solid #37393b;
     border-radius: 50%;
     background: #f5eee3;
     box-shadow: 0px 0px 0px 4px #f5eee3;
-    margin: 15px;
+    margin: 15rem;
 }
 
 /*CITES*/
@@ -57,26 +65,31 @@ blockquote{
     text-transform: uppercase;
     color: #f7ebd8;
     font-family: Bazar;
-    font-size: 53px;
+    font-size: 53rem;
     text-align: center;
+    line-height: 83rem;
 }
 blockquote span{
-    font-size: 64px;
+    font-size: 64rem;
 }
 
 /*LABELS*/
 .lbl-about {
-    width: 284px;
-    height: 284px;
+    width: 284rem;
+    height: 284rem;
+    min-width: 118px;
+    min-height: 118px;
     background: #d45244;
-    border: 8px solid #f5ede3;
-    box-shadow: 0px 0px 0px 8px #d45244;
+    border: 8rem solid #f5ede3;
+    box-shadow: 0px 0px 0px 8rem #d45244;
     border-radius: 50%;
 }
 .lbl-figure{
-    width: 86px;
-    padding-top: 2px;
-    height: 86px;
+    width: 86rem;
+    height: 86rem;
+    min-width: 36px;
+    min-height: 36px;
+    flex-shrink: 0;
     border-radius: 50%;
     background: #fbf9f5;
 }
@@ -90,7 +103,8 @@ blockquote span{
     color: #383a3c;
     font-size: 32px;
     font-weight: 700;
-    box-shadow: 2.1px 2.1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    padding: 0px 10px;
 }
 .btn-slide{
     width:120px;
@@ -105,15 +119,16 @@ blockquote span{
 input[name=input]{    
     height: 74px;
     padding: 0px 15px;
+    margin-bottom: 20rem;
 }
 textarea{
     height: 326px;
     padding: 15px;
+    margin-bottom: 17rem;
 }
 input[name=input], textarea{
     width: 100%;
-    max-width: 960px;
-    margin-bottom: 20px;
+    max-width: 960px;    
     color: #333;
     font-size: 32px;
     border-radius: 6px;
