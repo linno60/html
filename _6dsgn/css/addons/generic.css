@@ -1,1 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,300,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* ICONS */
+.icon-arrow1 {width: 20px; height: 20px; background: url('/images/icons/arrow1.png');}
+.icon-arrow2 {width: 20px; height: 20px; background: url('/images/icons/arrow2.png');}
+.icon-arrow3 {width: 20px; height: 20px; background: url('/images/icons/arrow3.png');}
+.icon-close {width: 36px; height: 36px; background: url('/images/icons/close.png');}
+.icon-facebook {width: 24px; height: 24px; background: url('/images/icons/facebook.png');}
+.icon-fb {width: 16px; height: 16px; background: url('/images/icons/fb.png');}
+.icon-gp {width: 16px; height: 16px; background: url('/images/icons/gp.png');}
+.icon-gplus {width: 20px; height: 20px; background: url('/images/icons/gplus.png');}
+.icon-heart-alt {width: 24px; height: 24px; background: url('/images/icons/heart-alt.png');}
+.icon-heart {width: 24px; height: 24px; background: url('/images/icons/heart.png');}
+.icon-in {width: 16px; height: 16px; background: url('/images/icons/in.png');}
+.icon-linkedin {width: 24px; height: 24px; background: url('/images/icons/linkedin.png');}
+.icon-nav {width: 40px; height: 40px; background: url('/images/icons/nav.png');}
+.icon-point {width: 60px; height: 60px; background: url('/images/icons/point.png');}
+.icon-tw {width: 16px; height: 16px; background: url('/images/icons/tw.png');}
+.icon-twitter {width: 28px; height: 28px; background: url('/images/icons/twitter.png');}

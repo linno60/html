@@ -401,7 +401,7 @@
                     <h4>patricia urquiola</h4>
                     <span>designer</span>
                     <div class="arrow" data-flex="row--between">
-                        <a data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
+                        <a class="arrow" data-flex="row-center" href="#">cv<i class="icon-arrow3"></i></a>
                         <div class="social-article" data-flex="row-center">
                             <a href="#" class="btn"><i class="icon-fb"></i></a>
                             <a href="#" class="btn"><i class="icon-tw"></i></a>

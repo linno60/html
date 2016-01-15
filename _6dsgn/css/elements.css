@@ -1,6 +1,72 @@
 body{
-    font-size: 13px;
+    font-size: 12px;
     font-family: Roboto Condensed;
+}
+body, a{
+    color: #333;
+}
+a:active, a:hover, a:focus{
+    text-decoration: underline;
 }
 
 /*LINKS*/
+.links-nav{
+    background: #f8c255;
+    padding: 42px 46px 39px 22px;
+}
+.links-nav a{
+    font-family: Roboto;
+    color: white;
+    margin: 7px 32px 5px 32px;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.links-nav input[type="radio"]{
+    display: none;
+}
+.links-social{
+    margin: 10px 9rem 93rem 0px;
+}
+.links-social a{
+    margin: 5px;
+}
+.links-socialsm a{
+    margin: 3px 3px 3px 8px;
+}
+.links-default a{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 29px;
+    letter-spacing: 0.035em;
+}
+.links-default a.active, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: none;
+    background: url(/images/icons/arrow1.png)no-repeat left center;
+}
+#r2 + label{
+    margin-left: 50px;
+}
+
+/*OTHER*/
+.view{
+    text-transform:uppercase;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    background: url(/images/icons/arrow2.png)no-repeat left center;
+    padding-left: 28px;
+}
+.like{
+    color: #f00;
+    padding-top: 28px;
+    font-size: 11px;
+    background: url(/images/icons/heart.png)no-repeat center top;
+}
+.arrow{
+    color: #fd4f00;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: url(/images/icons/arrow3.png)no-repeat right center;
+    padding-right: 27px;
+}

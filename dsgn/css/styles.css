@@ -124,7 +124,7 @@ nav a.btn{
     min-width: 100px;
     text-align: center;
     display: inline-flex;
-    text-transform:uppercase;
+    text-transform: uppercase;
     font: 14px "Roboto Condensed";
 }
 #r1:checked ~ nav{
@@ -139,7 +139,8 @@ nav a.btn{
     margin: 0 45px;
 }
 .mail{
-    margin-right: 57px;}
+    margin-right: 57px;
+}
 section{
     position: relative;
     z-index: 1;
@@ -437,7 +438,8 @@ address{
 .studio-left{
     background-color: #ff9b6d;
     max-height: 500px;
-    width: 35.05%;}
+    width: 35.05%;
+}
 .studio-right{
     background-color: #e9eae2;    
     width: 64.95%;
@@ -510,10 +512,8 @@ address{
     margin: 0 -17px;
     flex-wrap: wrap;
 }
-
 .designers > div:first-child{
-    min-width: 150px;    
-     
+    min-width: 150px;         
     margin: 30px 12px 30px 17px; 
 }
 .designers > div{
@@ -561,8 +561,6 @@ address{
 .social-article a{
     margin: 5px 1px 5px 10px;
 }
-
-
 .news-left{
     background-color: #d4edbf;
     max-height: 500px;
@@ -670,9 +668,6 @@ footer > div:first-child {
     width: 100%;
     max-width: 463px;
     margin-bottom: 64px;
-}
-.footer .logo ~ span {
-  /* margin-left: 2px; */
 }
 .copy{
     color: #191919;
