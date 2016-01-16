@@ -32,7 +32,7 @@
                             <span>studio</span>
                             <span>design</span>
                         </div>
-                        <div class="links-social" data-flex="axis">
+                        <div class="links-social" data-flex="axis w">
                             <a href="#"><i class="icon-facebook"></i></a>
                             <a href="#"><i class="icon-twitter"></i></a>
                             <a href="#"><i class="icon-linkedin"></i></a>
@@ -48,11 +48,13 @@
                         <input type="radio" name="nav" id="r1">
                         <label for="r1" data-flex="-center center"></label>
                         <nav class="links-nav" data-flex="axis">
-                            <a href="#">home</a>
-                            <a href="#">projects</a>
-                            <a href="#">studio</a>
-                            <a href="#">news</a>
-                            <a href="#">contact</a>
+                            <div  data-flex="axis w">
+                                <a href="#">home</a>
+                                <a href="#">projects</a>
+                                <a href="#">studio</a>
+                                <a href="#">news</a>
+                                <a href="#">contact</a> 
+                            </div>
                             <input type="radio" name="nav" id="r2">
                             <label for="r2"><i class="icon-close"></i></label>                             
                         </nav>
@@ -296,7 +298,7 @@
             </div>
         </section>
         <section class="designers">
-            <div class="lwrap" data-flex="stripe">
+            <div class="lwrap" data-flex="stripe w">
                 <div>
                     <h5>staff</h5>
                     <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincid&shy;unt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus. </p>

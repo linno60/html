@@ -1,5 +1,5 @@
 /*COMMON*/
-figure img{
+figure img, .logo img{
     display: block;
     width: 100%;
     height: 100%;
@@ -18,9 +18,6 @@ address{
 }
 .studio-left > div, .header-right > div, .news-left > div{
     max-width: 465px;
-}
-.wrap, .studio-right > div, .news-right > div {
-    max-width: 1035px;
 }
 .lwrap{
     max-width: 1190px;
@@ -67,17 +64,20 @@ address{
     display: none;
     position: absolute;
     top: 0;
-    right: 46px;
+    right: 46rem;
 }
 #r1:checked ~ .links-nav{
     display: flex;
 }
 #r1 + label{
     border: 3px solid #e9eae2;
-    width: 125px;
-    height: 120px;
+    width: 125rem;
+    height: 120rem;
+    min-width: 60px;
+    min-height: 58px;
     background: url(/images/icons/nav.png)no-repeat center center;
-    margin-right: 46px;
+    margin-right: 46rem;
+    flex-shrink: 0;
 }
 .header-right address{
     margin: 91px 0px 41px 0px;
@@ -93,6 +93,9 @@ address{
 }
 
 /*PROJECTS*/
+.wrap {
+    max-width: 1035px;
+}
 .projects-hdr {
     background: url('/images/line2.png') no-repeat;
 }
@@ -110,8 +113,7 @@ address{
 }
 .description{
     position: absolute;
-    left: 0;
-    top: 0;  
+    z-index: 1;
 }
 .description dd, .description dt{
     display: block;
@@ -177,7 +179,6 @@ address{
 }
 .set .description{
     right: 9.2%;
-    left: auto;
     top: 18.8%;
 }
 .set .description > div:last-child{
@@ -206,7 +207,6 @@ address{
 }
 .tabano .description{
     left: 12.8%;
-    top: auto;
     bottom: 8.7%;
 }
 .tabano .view{
@@ -231,7 +231,6 @@ address{
 }
 .sesann .description{
     left: 20.5%;
-    top: auto;
     bottom: 6.9%;
 }
 .sesann .description h2{
@@ -262,7 +261,7 @@ address{
     padding-left: 29px;
 }
 .timeline-right > div {
-    padding: 58px 10px 10px 71px;
+    padding: 58rem 10px 10px 71rem;
     background: url('/images/line3.png') no-repeat -189px 0px;
 }
 .timeline-right, .wrapper.one{  
@@ -286,8 +285,11 @@ address{
 .studio-left{
     background: #ff9b6d;
 }
+.studio-right > div{
+    max-width: 876px;
+}
 .studio-left h3{
-    margin: 127px 0px 0px 109px;
+    margin: 127rem 0px 0px 109rem;
 }
 .studio-right{
     background: #e9eae2;    
@@ -296,7 +298,7 @@ address{
     background: url('/images/line4.png') no-repeat 0px -3px;
 }
 .studio-right > div {
-    padding: 93px 169px 50px 118px;
+    padding: 93rem 10px 50rem 118rem;
 }
 .studio-right > div > div:first-child{
     width: 46.3%;
@@ -305,7 +307,7 @@ address{
     width: 48.1%;
 }
 .studio-right p{
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
     font-weight: 700;
     line-height: 18px;
     font-size: 18px;
@@ -315,7 +317,7 @@ address{
 .studio-right hr ~ p{
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 16px;
+    margin-bottom: 16rem;
     line-height: 16px;
 }
 .studio-right span{
@@ -325,7 +327,7 @@ address{
 }
 .studio-right h5{
     max-width: 360px;
-    margin: 41px 5px 23px 5px;
+    margin: 41rem 5rem 23rem 5rem;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 18px;
@@ -334,12 +336,12 @@ address{
     text-indent: -1px;
     letter-spacing: -0.015em;
 }
-.studio-right h5 + div{
+.awards > div{
     padding-right: 7px;
 }
 .studio-right hr{
     background: none;
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
 }
 .studio-right figure{
     margin: 3px 0px 0px 0px;
@@ -350,33 +352,34 @@ address{
     background: #e9eae2;
 }
 .designers .lwrap{
-    padding: 62px 10px 80px 13px;
+    padding: 62rem 10px 80rem 13rem;
 }
 .designers > .lwrap > div{
     width: 23.15%;
+    margin-bottom: 10px;
 }
 .designers > div p{
     line-height: 18px;
     font-size: 14px;
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
     letter-spacing: -0.025em;
 }
 .designers > div h4{
     text-transform: uppercase;
-    margin: 19px 0px 0px 1px;
+    margin: 19rem 0px 0px 1rem;
     font-weight: 700;
     line-height: 11px;
     letter-spacing: 0.017em;
 }
 .designers > div h4 + span{
     text-transform: uppercase;
-    padding-bottom: 14px;
+    padding-bottom: 14rem;
     display: inline-block;
 }
 .designers > div h5{
     color: #333;
     text-transform: uppercase;
-    margin: 1px 0px 15px 0px;
+    margin: 1rem 0px 15rem 0px;
     font-weight: 700;
     font-size: 14px;
 }
@@ -385,8 +388,11 @@ address{
 .news-left{
     background: #d4edbf;       
 }
+.news-right > div {
+    max-width: 881px;
+}
 .news-left h3{
-    margin: 126px 0px 0px 79px;
+    margin: 126rem 0px 0px 79rem;
 }
 .news-right{
     background: #e5e9df;    
@@ -395,7 +401,7 @@ address{
     background: url('/images/line5.png') no-repeat 0px -2px;
 }
 .news-right > div {
-    padding: 78px 164px 42px 101px;
+    padding: 78rem 10px 42rem 101rem;
 }
 .news-right article{
     width: 48%;  
@@ -457,8 +463,8 @@ footer .icon-point{
     left: 50%;
 }
 .footer > div{
-    max-width: 594px;
-    padding: 100px 14px 49px 117px;
+    max-width: 590px;
+    padding: 100rem 10px 49rem 117rem;
 }
 .copy{
     color: #191919;
@@ -477,6 +483,21 @@ footer iframe{
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 1200px) {
+.header-right > div, .news-left > div, .studio-left > div, .projects-hdr, .timeline-right > div {
+    background: none;
+}
+}
 @media (max-width: 960px) {
-
+.header-right address, .links-social {
+    margin: 10px 0px;
+}
+@media (max-width: 800px) {
+.designers > .lwrap > div {
+    width: 49%;
+}
+.designers .lwrap, .studio-right > div {
+    padding: 10px;
+}
+}
 }
