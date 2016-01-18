@@ -58,8 +58,7 @@ header{
     width: 48%;
 }
 .header > div:first-child{
-    padding: 50px 0px 10px 120px
-;
+    padding: 50px 0px 10px 120px;
     width: 49%;
 }
 .header > div > img{
@@ -70,15 +69,13 @@ header{
 }
 .header h1{
     color: #fff;
-font: 60px "Pacifico";
-
+    font: 60px "Pacifico";
     margin-bottom: 27px;
 }
 .header h1 span{
     color: #2dcb71;
 }
 .header p{
-    /* max-width: 460px; */
     color: #fff;
     margin-bottom: 14px;
     font: 24px/36px "Helvetica Neue";
@@ -89,11 +86,11 @@ font: 60px "Pacifico";
 }
 .btn-system{
     min-width: 52px;
-height: 52px;
-border-radius: 50%;
-background-color: #000;
-opacity: 0.5;
-margin: 8px 16px 8px 0;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.5;
+    margin: 8px 16px 8px 0;
 }
 .btn-system:hover{
     opacity: 1;
@@ -244,15 +241,14 @@ margin: 8px 16px 8px 0;
 }
 .social-wrap h2{
     color: #000;
-font: 600 24px "Raleway";
-text-align: center;
-
+    font: 600 24px "Raleway";
+    text-align: center;
     margin-bottom: 18px;
 }
 .social-wrap span{
     color: #848484;
-font:16px "Helvetica Neue";
-text-align: center;
+    font:16px "Helvetica Neue";
+    text-align: center;
 }
 .social{
     margin-top: 21px;
@@ -291,46 +287,46 @@ footer{
 }
 @media (max-width: 900px) {
     .header > div:first-child {
-    padding: 10px;
-}
-.header > div > img {
-    margin-right: 0px;
-}
+        padding: 10px;
+    }
+    .header > div > img {
+        margin-right: 0px;
+    }
 }
 @media (max-width: 800px) {
     .form{
         flex-direction: column;
     }
     .form > * {
-    width: 100%;
-}
-.video{
-    justify-content: center;
-    min-height: 300px;
-}
+        width: 100%;
+    }
+    .video{
+        justify-content: center;
+        min-height: 300px;
+    }
 }
 @media (max-width: 500px) {
     .header {
-    min-height: 500px;
-    padding: 30px 10px 0px 10px;
-}
-.header h1 {
-    margin-bottom: 10px;
-}
-.header p {
-    font: 20px/26px "Helvetica Neue";
-}
+        min-height: 500px;
+        padding: 30px 10px 0px 10px;
+    }
+    .header h1 {
+        margin-bottom: 10px;
+    }
+    .header p {
+        font: 20px/26px "Helvetica Neue";
+    }
 }
 @media (max-width: 400px) {
     .video{
-    min-height: 250px;
-}
-.form input {
-    max-width: 250px;
-    padding: 0 10px;
-}
-.btn-form{
-    min-width: 100px;
-    height: 56px;
-}
+        min-height: 250px;
+    }
+    .form input {
+        max-width: 250px;
+        padding: 0 10px;
+    }
+    .btn-form{
+        min-width: 100px;
+        height: 56px;
+    }
 }

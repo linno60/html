@@ -1,0 +1,1 @@
+<div class="lbl lbl-feature"><i class="icon-star"></i></div>

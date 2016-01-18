@@ -98,6 +98,7 @@ address{
     max-width: 1035px;
 }
 .projects-hdr {
+    padding: 10px;
     background: url('/images/line2.png') no-repeat;
 }
 .projects-hdr .links-default a.active, .projects-hdr .links-default a:active, .projects-hdr .links-default a:hover, .projects-hdr .links-default a:focus{
@@ -138,12 +139,13 @@ address{
     margin-bottom: 12rem;
     letter-spacing: -0.02em;
 }
-.description p{
+.description p{    
     margin-bottom: 14rem;
     letter-spacing: -0.015em;
 }
 .fondue{
     width: 55.1%;
+    background: white;
 }
 .fondue .description{
     left: 17.8%;
@@ -157,7 +159,8 @@ address{
     margin-right: 53rem;
 }
 .louis{
-    width: 28.88%;    
+    width: 28.88%;
+    min-width: 150px;
 }
 .louis, .louis .view {
     color: #fff;
@@ -191,11 +194,16 @@ address{
 .set .like{
     margin-left: 9rem;
 }
+.potter{
+    min-height: 190px;
+}
 .potter .description{
     left: 9.1%;
     top: 12.3%;
-    max-width: 154px;
     height: 78%;
+}
+.potter .description p{
+    max-width: 152px;
 }
 .potter .description h2{
     margin-bottom: 8rem;
@@ -204,11 +212,17 @@ address{
     margin-right: 11rem;
 }
 .tabano{
+    min-width: 250px;
     padding-bottom: 1rem;
 }
+.tabano figure{
+    max-height: 465px;
+    max-width: 465px;
+}
 .tabano .description{
-    left: 12.8%;
+    right: 12.5%;
     bottom: 8.7%;
+    left: 10px;
 }
 .tabano .view{
     margin: 0px 19rem 0px 27rem;
@@ -223,16 +237,21 @@ address{
     margin-bottom: 4rem;
 }
 .fiji .description{
-    left: 52.7%;
+    right: 16.6%;
     top: 17.8%;
     height: 73%;
 }
 .fiji .like{
     margin-left: 23rem;
 }
+.sesann{
+    min-width: 300px;
+}
 .sesann .description{
     left: 20.5%;
     bottom: 6.9%;
+    max-width: 95%;
+    right: 10px;
 }
 .sesann .description h2{
     margin-bottom: 0px;
@@ -243,8 +262,19 @@ address{
 .sesann .view{
     margin: 0px 49rem 0px 52rem;
 }
+.sesann figure{
+    min-height: 180px;
+}
+.alessi{
+    background: #cecece;
+    min-height: 220px;
+}
+.alessi figure img{
+    max-height: 300px;
+    max-width: 300px;
+}
 .alessi .description{
-    left: 52.2%;
+    right: 8%;
     top: 25%;
     height: 63%;
 }
@@ -353,7 +383,7 @@ address{
     background: #e9eae2;
 }
 .designers .lwrap{
-    padding: 62rem 10px 80rem 13rem;
+    padding: 62rem 10px 70rem 13rem;
 }
 .designers > .lwrap > div{
     width: 23.15%;
@@ -423,7 +453,7 @@ address{
 }
 .news-right article p{
     color: #6a6969;
-    margin: 21px 0px 8px 2px;
+    margin: 21rem 0px 8rem 2rem;
     word-spacing: 8px;
     min-height: 56px;
     font-size: 13px;
@@ -434,9 +464,8 @@ address{
     color: #fd4f00;
     text-transform: uppercase;
     text-align: right;
-    width: 100%;
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 5rem;
 }
 
 /*FOOTER*/
@@ -465,11 +494,11 @@ footer .icon-point{
 }
 .footer > div{
     max-width: 590px;
-    padding: 100rem 10px 49rem 117rem;
+    padding: 100rem 10px 51rem 117rem;
 }
 .copy{
     color: #191919;
-    margin-left: 13px;
+    margin-left: 13rem;
 }
 .copy span{
     font-size: 18px;
@@ -478,49 +507,35 @@ footer .icon-point{
 footer iframe{
     width: 100%;
     height: 641rem;
+    min-height: 433px;
 }
 .footer .links-social {
-    margin: 52rem 9rem 66rem 0px;
+    margin: 52rem 9rem 64rem 0px;
 }
 
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
-.header-right > div, .news-left > div, .studio-left > div, .projects-hdr, .timeline-right > div {
-    background: none;
-}
+    .header-right > div, .news-left > div, .studio-left > div, .projects-hdr, .timeline-right > div {background: none;}
 }
 @media (max-width: 960px) {
-.header-right address, .links-social {
-    margin: 10px 0px;
-}
-.fondue .description, .potter .description, .louis .description {
-    left: 10px;
-    top: 5px;
-}
+    .header-right address, .links-social {margin: 10px 0px;}
+    .fondue .description, .potter .description, .louis .description, .set .description {left: 10px;top: 5px;}
+    .sesann .description, .tabano .description {left: 10px;bottom: 5px;}
+    .alessi .description, .fiji .description {top: 5px;right: 5px;}
+    .fondue .view {margin: 5px 0px;}
+    .sesann .view, .tabano .view, .alessi .view {margin: 0px 5px;}
 }
 @media (max-width: 800px) {
-.designers > .lwrap > div {
-    width: 49%;
-}
-.designers .lwrap, .studio-right > div, .news-right > div, .header-right > div, .footer > div {
-    padding: 10px;
-}
-.header-right, .timeline-right, .studio-left, .news-left {
-    width: 25%;
-}
-.studio-left h3, .news-left h3, .projects-hdr h3 {
-    margin: 10px;
-}
+    .designers > .lwrap > div {width: 49%;}
+    .designers .lwrap, .studio-right > div, .news-right > div, .header-right > div, .footer > div {padding: 10px;}
+    .header-right, .timeline-right, .studio-left, .news-left {width: 25%;}
+    .studio-left h3, .news-left h3, .projects-hdr h3 {margin: 10px;}
+
 }
 @media (max-width: 480px) {
-  .header-right address{
-    margin: 0px 5px;
-} 
-#r1 + label{
-    margin-right: 0px;
-}
-.links-nav {
-    left: 0px;
-    right: auto;
-}
+    .header-right address{margin: 0px 5px;} 
+    #r1 + label{margin-right: 0px;}
+    .links-nav {left: 0px;right: auto;}
+    .studio-left h3, .news-left h3, .projects-left h3 {font-size: 30px;}
+    .timeline-right > div{padding: 10px;}
 }

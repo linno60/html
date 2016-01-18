@@ -9,9 +9,9 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">    
     </head>
     <body>
-            <header>
-                <div class="header" data-flex="row-center">
-                    <nav class='nav' data-flex>
+        <header>
+            <div class="header" data-flex="row-center">
+                <nav class='nav' data-flex>
                     <a href="#" class="btn btn-nav logo">dynamic</a>
                     <a href="#" class="btn btn-nav">about</a>
                     <a href="#" class="btn btn-nav">services</a>
@@ -21,8 +21,8 @@
                     <a href="#" class="btn btn-nav">careers</a>
                     <a href="#" class="btn btn-nav">contact</a>
                 </nav>
-                </div> 
-            </header>
+            </div> 
+        </header>
         <section class="slider-wrap" data-flex="row--between">
             <div class="slider-side" data-flex="row-center-center">
                 <a href="#"><i class="icon-left"></i></a>
@@ -58,53 +58,53 @@
                 </div>
                 <div class="grid" data-flex="row--around">
                     <div>
-                    <img src="images/1.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/1.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/2.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/2.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/3.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/3.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/4.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/4.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/5.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/5.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/6.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/6.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/7.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/7.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                     <div>
-                    <img src="images/8.png">
-                    <div class="overlay" data-flex='row-center-center'>
-                        <a href='#' class='btn btn-overlay'>view details</a>
+                        <img src="images/8.png">
+                        <div class="overlay" data-flex='row-center-center'>
+                            <a href='#' class='btn btn-overlay'>view details</a>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             <div class="slider-side" data-flex="row-center-center">

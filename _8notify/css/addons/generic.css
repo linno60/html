@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:600,700);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=b5aef619-9d4d-41bd-ae64-54db4ee2b61e");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("/fonts/fonts.com/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/462d508d-efc7-478f-b84e-288eeb69a160.woff2") format("woff2"), url("/fonts/fonts.com/2c056da8-4920-4e20-8c69-8a6b315458a9.woff") format("woff");
+    font-style: italic;
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("/fonts/fonts.com/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff");
+    font-weight: 600;
+}
+/* ICONS */
+.icon-facebook {width: 9px; height: 17px; background: url('/images/icons/facebook.png');}
+.icon-gear {width: 44px; height: 44px; background: url('/images/icons/gear.png');}
+.icon-globe {width: 48px; height: 48px; background: url('/images/icons/globe.png');}
+.icon-google {width: 20px; height: 20px; background: url('/images/icons/google.png');}
+.icon-linkedin {width: 15px; height: 15px; background: url('/images/icons/linkedin.png');}
+.icon-pinterest {width: 20px; height: 20px; background: url('/images/icons/pinterest.png');}
+.icon-star {width: 48px; height: 48px; background: url('/images/icons/star.png');}
+.icon-twitter {width: 17px; height: 13px; background: url('/images/icons/twitter.png');}
+.icon-youtube {width: 18px; height: 22px; background: url('/images/icons/youtube.png');}
+.icon-android {width: 28px; height: 28px; background: url('/images/icons/android.png');}
+.icon-apple {width: 28px; height: 28px; background: url('/images/icons/apple.png');}
+.icon-windows {width: 28px; height: 28px; background: url('/images/icons/windows.png');}

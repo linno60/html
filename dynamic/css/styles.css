@@ -58,7 +58,7 @@ header, .slider-wrap, footer{
 .header{
     width: 100%;
     min-height: 128px;
-     border-top: 5px solid rgba(0,0,0,.3);
+    border-top: 5px solid rgba(0,0,0,.3);
 }
 nav:after{
     content: "";
@@ -81,8 +81,8 @@ nav {
 }
 a.btn-nav.logo{
     color: #686868;
-font: 32px "Coffee Service";
-text-shadow: 0 1px 1px rgba(0,0,0,.75);
+    font: 32px "Coffee Service";
+    text-shadow: 0 1px 1px rgba(0,0,0,.75);
 }
 nav a.btn-nav:first-child{
     border-left: 1px solid #b4b4b4;
@@ -95,20 +95,20 @@ a.btn-nav{
     width: 12.5%;
     min-width: 115px;
     color: #909090;
-font: 12px "Homestead Inline";
-text-shadow: 0 1px 0 #fff;
-border-left: 1px solid #fff;
-border-right: 1px solid #dedede;
+    font: 12px "Homestead Inline";
+    text-shadow: 0 1px 0 #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #dedede;
 }
 a.btn-nav.active, a.btn-nav:hover{
     box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
-background-image: linear-gradient(to top, rgba(255,255,255,.11), rgba(0,0,0,.11));
+    background-image: linear-gradient(to top, rgba(255,255,255,.11), rgba(0,0,0,.11));
 }
 .slider-top, .slider-middle, .slider-bottom{
     max-width: 940px;
     padding: 12px 12px 14px 12px;
-border: 1px solid rgba(131,129,129,.52);
-box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.5);
+    border: 1px solid rgba(131,129,129,.52);
+    box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.5);
 }
 .slider-middle{
     padding: 12px 12px 11px 12px;
@@ -128,10 +128,10 @@ box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.5);
 }
 .slider-top{
     position: relative;
-background: url('../images/bg-slider.png');
+    background: url('../images/bg-slider.png');
 }
 .slider-middle, .slider-bottom{
-background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.5);
 }
 .slider-top img{
     width: 100%;
@@ -149,7 +149,7 @@ background-color: rgba(255,255,255,.5);
 .slider-wrap .hdr a, .slider-wrap .hdr span, .slider-bottom h1{
     color: #909090;
     text-align: center;
-font: 14px/19px "Homestead Inline";
+    font: 14px/19px "Homestead Inline";
 }
 .slider-bottom h1{
     margin: 5px 0 15px 0;
@@ -158,8 +158,8 @@ font: 14px/19px "Homestead Inline";
     color: #333;
 }
 .slider-bottom .grid{
-      padding: 24px 0px 0px 24px;  
-      background-color: rgba(255,255,255,.5);
+    padding: 24px 0px 0px 24px;  
+    background-color: rgba(255,255,255,.5);
 }
 .controls{
     position: absolute;
@@ -169,19 +169,19 @@ font: 14px/19px "Homestead Inline";
 }
 a.btn-control.active span{
     width: 9px;
-height: 9px;
-border: 1px solid #fff;
-background-color: #42a0a6;
-box-shadow: inset 0 1px 0 rgba(255,255,255,.26);
-background-image: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.2));
+    height: 9px;
+    border: 1px solid #fff;
+    background-color: #42a0a6;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.26);
+    background-image: linear-gradient(to top, rgba(0,0,0,.2), rgba(255,255,255,.2));
 }
 a.btn-control{
     width: 11px;
-height: 11px;
-border: 1px solid rgba(139,139,139,.52);
-background-color: #fff;
-box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.75);
-background-image: linear-gradient(to top, rgba(0,0,0,.07), rgba(255,255,255,.07));
+    height: 11px;
+    border: 1px solid rgba(139,139,139,.52);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.75);
+    background-image: linear-gradient(to top, rgba(0,0,0,.07), rgba(255,255,255,.07));
 }
 .grid{
     flex-wrap: wrap;
@@ -204,8 +204,8 @@ background-image: linear-gradient(to top, rgba(0,0,0,.07), rgba(255,255,255,.07)
     display: none;
     content: "";
     width: 100%;
-height: 98.5%;
-background-color: rgba(0,0,0,.75);
+    height: 98.5%;
+    background-color: rgba(0,0,0,.75);
 }
 .grid article{
     max-width: 280px;
@@ -216,50 +216,48 @@ background-color: rgba(0,0,0,.75);
 .grid article h4{
     text-transform: uppercase;
     color: #656565;
-
     font: 600 12px/19px "Arial";
     letter-spacing: 0.005em;
 }
 .grid article p{
     color: #656565;
     margin: 9px 0 11px 0;
-font: 12px/19px "Arial";
+    font: 12px/19px "Arial";
     letter-spacing: -0.007em;
 }
 .grid article span{
     color: #999;
-font: italic 12px/21px "Georgia";
+    font: italic 12px/21px "Georgia";
     letter-spacing: -0.008em;
 }
 .btn-read{
-   min-width: 120px;
-height: 32px;
-border: 1px solid #b7b7b7;
-border-radius: 3px;
-color: #656565;
-font: 11px "Arial";
-background-color: #fff;
-box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.6);
-background-image: linear-gradient(to top, #e7e7e7, #f7f7f7);
+    min-width: 120px;
+    height: 32px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    color: #656565;
+    font: 11px "Arial";
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.6);
+    background-image: linear-gradient(to top, #e7e7e7, #f7f7f7);
 }
 .btn-overlay{
-   max-width: 168px;
-   width: 100%;
-   color: #000;
-font: 600 12px "Homestead Display";
-height: 34px;
-background-color: #ffde00;
-box-shadow: 0 2px 2px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.75);
-background-image: linear-gradient(to top, rgba(0,0,0,.19), rgba(255,255,255,.19));
+    max-width: 168px;
+    width: 100%;
+    color: #000;
+    font: 600 12px "Homestead Display";
+    height: 34px;
+    background-color: #ffde00;
+    box-shadow: 0 2px 2px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.75);
+    background-image: linear-gradient(to top, rgba(0,0,0,.19), rgba(255,255,255,.19));
 }
 .btn-social{
     width: 32px;
-height: 30px;
-border: 1px solid #b7b7b7;
-border-radius: 3px;
-box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.6);
-background-image: linear-gradient(to top, #e7e7e7, #f7f7f7);
-
+    height: 30px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.6);
+    background-image: linear-gradient(to top, #e7e7e7, #f7f7f7);
     margin: 3px 0 3px 5px;
 }
 .footer a:hover{
@@ -278,28 +276,28 @@ background-image: linear-gradient(to top, #e7e7e7, #f7f7f7);
 }
 .footer{
     min-height: 80px;
-     border-bottom: 5px solid rgba(0,0,0,.3);
+    border-bottom: 5px solid rgba(0,0,0,.3);
 }
 @media (max-width: 950px) {
     a.btn-nav {
-    width: 25%;
-    border-right:none;
-    border-left: none;
-    background-image: linear-gradient(to top, rgba(255,255,255,.11), rgba(0,0,0,.11));
-}
-.slider-side {
-    width: 32px;
-}
-.nav{
-    border-left: 1px solid #b4b4b4;
-    border-right: 1px solid #b4b4b4;
-}
-.nav a.btn-nav:first-child{
-    border-left:none;
-}
-.nav a.btn-nav:last-child{
-    border-right:none;
-}
+        width: 25%;
+        border-right:none;
+        border-left: none;
+        background-image: linear-gradient(to top, rgba(255,255,255,.11), rgba(0,0,0,.11));
+    }
+    .slider-side {
+        width: 32px;
+    }
+    .nav{
+        border-left: 1px solid #b4b4b4;
+        border-right: 1px solid #b4b4b4;
+    }
+    .nav a.btn-nav:first-child{
+        border-left:none;
+    }
+    .nav a.btn-nav:last-child{
+        border-right:none;
+    }
 }
 @media (max-width: 600px) {
     .footer{
@@ -310,9 +308,9 @@ background-image: linear-gradient(to top, #e7e7e7, #f7f7f7);
 }
 @media (max-width: 500px) {
     a.btn-nav {
-    width: 50%;
-}
-.nav{
-    margin: 20px 0;
-}
+        width: 50%;
+    }
+    .nav{
+        margin: 20px 0;
+    }
 }

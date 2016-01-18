@@ -1,0 +1,116 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+/*LINKS*/
+.links-nav{
+    margin: 40px 0px 40px 0px;
+    position: relative;
+    border-bottom: 1px solid #929292;
+    border-top: 1px solid #c5c5c5;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.24), inset 0px 1px 0px rgba(255,255,255,.5);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.2));
+}
+.links-nav:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px; 
+    left: 0px;
+    bottom: -18px;
+    background: url('/images/shadow1.png')no-repeat center top;
+}
+.links-nav a:first-child{
+    border-left: 1px solid #b4b4b4;
+}
+.links-nav a:last-child{
+    border-right: 1px solid #b4b4b4;
+}
+.links-nav a{
+    height: 42px;
+    flex-grow: 1;
+    padding: 0px 5px;
+    color: #909090;
+    font-family: Homestead;
+    text-shadow: 0px 1px 0px #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #dedede;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,.2);
+    background: linear-gradient(rgba(0,0,0,.11), rgba(255,255,255,.11));
+}
+.links-controls a.active:before, .links-controls a:active:before, .links-controls a:hover:before, .links-controls a:focus:before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    border: 1px solid #fff;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.26);
+    background: #42a0a6 linear-gradient(rgba(255,255,255,.2), rgba(0,0,0,.2));
+}
+.links-controls a{
+    width: 11px;
+    height: 11px;
+    border: 1px solid rgba(139,139,139,.52);
+    box-shadow: 0px 2px 4px rgba(0,0,0,.24), inset 0px 1px 0px rgba(255,255,255,.75);
+    background: #fff linear-gradient(rgba(255,255,255,.07), rgba(0,0,0,.07));
+}
+.links-filter{
+    margin-bottom: 11px;
+}
+.links-filter a, .links-filter{
+    color: #909090;
+    text-align: center;
+    font-size: 14px;
+    font-family: Homestead;
+}
+.links-filter a{
+    margin: 0px 9px;
+}
+.links-filter a.active, .links-filter a:active, .links-filter a:hover, .links-filter a:focus{
+    color: #333;
+}
+.links-social a{
+    width: 32px;
+    height: 30px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2), inset 0px 1px 0px rgba(255,255,255,.6);
+    background: linear-gradient(#f7f7f7, #e7e7e7);
+    margin: 3px 0px 3px 5px;
+}
+.links-footer a{
+    margin: 0px 3px;
+}
+.links-footer, .links-footer a{
+    color: #9e9e9e;
+    font-size: 11px;
+    letter-spacing: -0.001em;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+.btn-more{
+    min-width: 120px;
+    height: 32px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    color: #656565;
+    font-size: 11px;
+    padding: 0px 10px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2), inset 0px 1px 0px rgba(255,255,255,.6);
+    background: linear-gradient(#f7f7f7, #e7e7e7);
+}
+.btn-view{
+    min-width: 168px;
+    color: #000;
+    font-weight: 600;
+    font-family: Homestead;
+    height: 34px;
+    padding: 0px 10px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5), inset 0px 1px 0px rgba(255,255,255,.75);
+    background: #ffde00 linear-gradient(rgba(255,255,255,.19), rgba(0,0,0,.19));
+}

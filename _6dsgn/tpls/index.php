@@ -75,11 +75,11 @@
                 </div>
             </div>
         </header>
-        <section class="projects" data-flex='center'>
+        <section class="projects" data-flex='center' data-flex-800="vstripe">
             <div class="projects-left" data-flex="vstripe">
                 <div class="wrapper one" data-flex="end">
-                    <div class="wrap" data-flex="end">
-                        <div class="projects-hdr" data-flex="col center">
+                    <div class="wrap" data-flex="end" data-flex-480="vstripe">
+                        <div class="projects-hdr" data-flex="col center" data-flex-480="stripe">
                             <div  data-flex="col -center end">
                                 <div class="links-default" data-flex="col -start">
                                     <a href="#" class="active">all</a>
@@ -111,8 +111,8 @@
                     </div>
                 </div>
                 <div class="wrapper two" data-flex="end">
-                    <div class="wrap" data-flex="end">
-                        <div class="louis" data-flex="-end">
+                    <div class="wrap" data-flex="end" data-flex-480="vstripe">
+                        <div class="louis" data-flex="-end end">
                             <figure><img src="images/img5.png"></figure>
                             <div class="description" data-flex="vaxis">
                                 <div data-flex="col">
@@ -130,7 +130,7 @@
                         </div>
                         <div class="set" data-flex="-end">
                             <figure><img src="images/img6.png"></figure>
-                            <div class="description" data-flex="stripe">
+                            <div class="description" data-flex="stripe" data-flex-640="vaxis" data-flex-480="col -end">
                                 <div>
                                     <h2>395-396 p22</h2>
                                     <dl data-childs>
@@ -149,10 +149,10 @@
                     </div>
                 </div>
             </div>
-            <div class="projects-right">
+            <div class="projects-right" data-flex-800="stripe" data-flex-640="vstripe">
                 <div class="wrapper four" data-flex>
                     <div class="wrap" data-flex>
-                        <div class="potter">
+                        <div class="potter" data-flex-800="-end">
                             <figure><img src="images/img3.png"></figure>
                             <div class="description" data-flex="vaxis">
                                 <div>                                    
@@ -188,7 +188,7 @@
                 </div>
                 <div class="wrapper six" data-flex>
                     <div class="wrap" data-flex>
-                        <div class="fiji">
+                        <div class="fiji" data-flex="-end">
                             <figure><img src="images/img7.png"></figure>
                             <div class="description" data-flex="vaxis">
                                 <div>
@@ -207,10 +207,10 @@
                 </div>
             </div>
         </section>
-        <section class="timeline-wrap" data-flex='center'> 
+        <section class="timeline-wrap" data-flex='center' data-flex-640="vstripe"> 
             <div class="timeline-left">
                 <div class="wrapper three" data-flex="end">
-                    <div class="wrap" data-flex="end">
+                    <div class="wrap" data-flex="end" data-flex-480="vstripe">
                         <div class="sesann">
                             <figure><img src="images/img8.png"></figure>
                             <div class="description">
@@ -265,7 +265,7 @@
                 </div>
             </div>
             <div class="studio-right" data-flex>                  
-                <div data-flex="stripe">
+                <div data-flex="stripe" data-flex-480="vstripe">
                     <div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisc&shy;ing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p>
                         <p>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</p>
@@ -357,26 +357,26 @@
             </div>
             <div class="news-right">
                 <div data-flex="-center center">                    
-                    <div data-flex="stripe">
-                        <article data-flex="col">
+                    <div data-flex="stripe" data-flex-480="vstripe">
+                        <article>
                             <h2>Mauris et dui sed justo placerat tristique. </h2>
                             <time>11.07.2014</time>
                             <figure><img src="images/img14.png"></figure>
                             <p>Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum scelerisque eu id massa. Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. </p>
-                            <a href="#">read more</a>
+                            <div data-flex="end"><a href="#">read more</a></div>
                         </article>
-                        <article data-flex="col">
+                        <article>
                             <h2>Proin vehicula nibh massa </h2>
                             <time>11.06.2014</time>
                             <figure><img src="images/img15.png"></figure>
                             <p>Praesent non mauris nec orci scelerisque faucibus. Nulla ac varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis sed. Maecenas aliquam ligula vitae pharetra scelerisque. </p>
-                            <a href="#">read more</a>
+                            <div data-flex="end"><a href="#">read more</a></div>
                         </article>
                     </div>
                 </div>
             </div>
         </section>
-        <footer data-flex>
+        <footer data-flex data-flex-640="vstripe">
             <div>
                 <i class="icon-point"></i>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8505.038451901682!2d43.965580613990085!3d26.328825230878778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1436953049202" allowfullscreen></iframe>   
@@ -397,7 +397,7 @@
                         </address> 
                         <div data-flex="col -center">
                             <div data-flex="col">
-                                <a href="/" title="Return to the homepage" class="logo" id="logo-alt">
+                                <a href="#" title="Return to the homepage" class="logo" id="logo-alt">
                                     <img src="/images/logo.png" width="164" height="208" alt="DSGN">
                                 </a>
                                 <span>associates</span>
@@ -412,7 +412,7 @@
                             </div>
                         </div>                  
                     </div>
-                    <span class="copy" data-flex="-center"><span>&copy;</span> 2014&ensp;DSGN. All rights reserved - Designed by theuncreativelab.com</span> 
+                    <span class="copy"><span>&copy;</span> 2014&ensp;DSGN. All rights reserved - Designed by theuncreativelab.com</span> 
                 </div>  
             </div>
         </footer>
