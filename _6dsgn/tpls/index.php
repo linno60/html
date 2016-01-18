@@ -20,10 +20,10 @@
         </script>
     </head>
     <body>
-        <header data-flex='center'>
+        <header data-flex='center' data-flex-480="vstripe">
             <div class='header-left' data-flex='end'>
                 <div data-flex="stripe">
-                    <div data-flex="vaxis" class="logo-wrap">
+                    <div data-flex="vaxis">
                         <div data-flex="col">
                             <a href="/" title="Return to the homepage" class="logo" id="logo">
                                 <img src="/images/logo.png" width="164" height="208" alt="DSGN">
@@ -32,23 +32,23 @@
                             <span>studio</span>
                             <span>design</span>
                         </div>
-                        <div class="links-social" data-flex="axis w">
+                        <div class="links-social" data-flex="axis">
                             <a href="#"><i class="icon-facebook"></i></a>
                             <a href="#"><i class="icon-twitter"></i></a>
                             <a href="#"><i class="icon-linkedin"></i></a>
                             <a href="#"><i class="icon-gplus"></i></a>
                         </div>
                     </div>
-                    <div><figure><img src="images/img1.png"></figure></div>
+                    <div data-flex="-center"><figure><img src="images/img1.png"></figure></div>
                 </div>
             </div>
             <div class='header-right'>
-                <div data-flex="col">                          
-                    <div class="nav" data-flex="end">
+                <div data-flex="col" data-flex-480="stripe w">                          
+                    <div class="nav" data-flex="end" data-flex-480>
                         <input type="radio" name="nav" id="r1">
                         <label for="r1" data-flex="-center center"></label>
-                        <nav class="links-nav" data-flex="axis">
-                            <div  data-flex="axis w">
+                        <nav class="links-nav" data-flex="axis" data-flex-480="axis r">
+                            <div data-flex="axis" data-flex-480="axis w">
                                 <a href="#">home</a>
                                 <a href="#">projects</a>
                                 <a href="#">studio</a>
@@ -66,7 +66,7 @@
                         <span>300 east ocean</span>
                         <span>boulevard</span>
                     </address>
-                    <div data-flex="center">
+                    <div data-flex="center" data-flex-800>
                         <div data-flex="col">
                             <span>+64 9 345 6758</span>
                             <a href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
@@ -258,8 +258,8 @@
                 </div>
             </div>
         </section>
-        <section class="studio-wrap" data-flex='center'>
-            <div class="studio-left" data-flex="end"> 
+        <section data-flex='center' data-flex-640="vstripe">
+            <div class="studio-left" data-flex="end" data-flex-640="center"> 
                 <div data-flex="-center center">
                     <h3>studio</h3>
                 </div>
@@ -349,8 +349,8 @@
                 </div>
             </div>            
         </section>
-        <section data-flex='center'>
-            <div class="news-left" data-flex="end">
+        <section data-flex='center' data-flex-640="vstripe">
+            <div class="news-left" data-flex="end" data-flex-640="center">
                 <div data-flex="col -center center">                    
                     <h3>news</h3>
                 </div>

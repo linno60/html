@@ -10,7 +10,7 @@ a:active, a:hover, a:focus{
 }
 
 /*LINKS*/
-.links-nav{
+.links-nav{   
     background: #f8c255;
     padding: 42rem 46rem 39rem 22rem;
 }
@@ -30,7 +30,7 @@ a:active, a:hover, a:focus{
     margin: 10px 9rem 93rem 0px;
 }
 .links-social a{
-    margin: 5rem;
+    margin: 5px;
 }
 .links-socialsm a{
     margin: 3px 3px 3px 8px;

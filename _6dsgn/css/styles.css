@@ -65,6 +65,7 @@ address{
     position: absolute;
     top: 0;
     right: 46rem;
+    z-index: 1;
 }
 #r1:checked ~ .links-nav{
     display: flex;
@@ -106,7 +107,7 @@ address{
     margin: 50px 49px 0px 0px;
 }
 .projects-hdr .links-default{
-    margin: 21px 95px 0px 0px;
+    margin: 21rem 95rem 0px 0px;
 }
 .wrap > div{
     position: relative;
@@ -134,11 +135,11 @@ address{
 .description h2{
     font-weight: 300;
     font-size: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 12rem;
     letter-spacing: -0.02em;
 }
 .description p{
-    margin-bottom: 14px;
+    margin-bottom: 14rem;
     letter-spacing: -0.015em;
 }
 .fondue{
@@ -150,10 +151,10 @@ address{
     height: 69.1%;
 }
 .fondue .view{
-    margin: 72px 0 10px 8px;
+    margin: 72rem 0 10px 8rem;
 }
 .fondue .like{
-    margin-right: 53px;
+    margin-right: 53rem;
 }
 .louis{
     width: 28.88%;    
@@ -167,28 +168,28 @@ address{
     height: 45.8%;
 }
 .louis .view{
-    margin: 34px 0px 27px 0px;
+    margin: 34rem 0px 27rem 0px;
 }
 .louis .like{
-    margin-left: 27px;
+    margin-left: 27rem;
     background: url(/images/icons/heart-alt.png)no-repeat center top;
 }
 .set{
     background: #eaeaea;
-    padding-left: 3px;
+    padding-left: 3rem;
 }
 .set .description{
     right: 9.2%;
     top: 18.8%;
 }
 .set .description > div:last-child{
-    margin-left: 37px;
+    margin-left: 37rem;
 }
 .set .view{
-    margin: 6px 0px 10px 0px;
+    margin: 6rem 0px 10rem 0px;
 }
 .set .like{
-    margin-left: 9px;
+    margin-left: 9rem;
 }
 .potter .description{
     left: 9.1%;
@@ -197,29 +198,29 @@ address{
     height: 78%;
 }
 .potter .description h2{
-    margin-bottom: 8px;
+    margin-bottom: 8rem;
 }
 .potter .like{
-    margin-right: 11px;
+    margin-right: 11rem;
 }
 .tabano{
-    padding-bottom: 1px;
+    padding-bottom: 1rem;
 }
 .tabano .description{
     left: 12.8%;
     bottom: 8.7%;
 }
 .tabano .view{
-    margin: 0px 19px 0px 27px;
+    margin: 0px 19rem 0px 27rem;
 }
 .tabano dl{
-    margin-top: 4px;
+    margin-top: 4rem;
 }
 .tabano .description h2{
-    margin-bottom: 8px;
+    margin-bottom: 8rem;
 }
 .fiji dl{
-    margin-bottom: 4px;
+    margin-bottom: 4rem;
 }
 .fiji .description{
     left: 52.7%;
@@ -227,7 +228,7 @@ address{
     height: 73%;
 }
 .fiji .like{
-    margin-left: 23px;
+    margin-left: 23rem;
 }
 .sesann .description{
     left: 20.5%;
@@ -237,10 +238,10 @@ address{
     margin-bottom: 0px;
 }
 .sesann dl{
-    margin-top: 4px;
+    margin-top: 4rem;
 }
 .sesann .view{
-    margin: 0px 49px 0px 52px;
+    margin: 0px 49rem 0px 52rem;
 }
 .alessi .description{
     left: 52.2%;
@@ -248,16 +249,16 @@ address{
     height: 63%;
 }
 .alessi .view{
-    margin: 28px 0px 10px -33px;
+    margin: 28rem 0px 10px -33rem;
 }
 .alessi .like{
-    margin-right: 28px;
+    margin-right: 28rem;
 }
 .timeline-right h3 {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 4px;
+    margin-bottom: 4rem;
     padding-left: 29px;
 }
 .timeline-right > div {
@@ -440,14 +441,14 @@ address{
 
 /*FOOTER*/
 .footer address{
-    margin-top: 49px;
+    margin-top: 49rem;
 }
 .footer address span{
     line-height: 14px;
     letter-spacing: 0.035em;
 }
 .footer address > div{
-    margin-top: 15px;
+    margin-top: 15rem;
 }
 .footer address div span, .footer address div a{
     text-transform: uppercase;
@@ -479,7 +480,7 @@ footer iframe{
     height: 641rem;
 }
 .footer .links-social {
-    margin: 52px 9px 66px 0px;
+    margin: 52rem 9rem 66rem 0px;
 }
 
 /*MEDIA QUERIES*/
@@ -492,12 +493,34 @@ footer iframe{
 .header-right address, .links-social {
     margin: 10px 0px;
 }
+.fondue .description, .potter .description, .louis .description {
+    left: 10px;
+    top: 5px;
+}
+}
 @media (max-width: 800px) {
 .designers > .lwrap > div {
     width: 49%;
 }
-.designers .lwrap, .studio-right > div {
+.designers .lwrap, .studio-right > div, .news-right > div, .header-right > div, .footer > div {
     padding: 10px;
 }
+.header-right, .timeline-right, .studio-left, .news-left {
+    width: 25%;
+}
+.studio-left h3, .news-left h3, .projects-hdr h3 {
+    margin: 10px;
+}
+}
+@media (max-width: 480px) {
+  .header-right address{
+    margin: 0px 5px;
+} 
+#r1 + label{
+    margin-right: 0px;
+}
+.links-nav {
+    left: 0px;
+    right: auto;
 }
 }
