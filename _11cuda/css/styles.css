@@ -1,0 +1,303 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1112px;
+    padding: 0px 10px;
+}
+.lwrap > h2 + hr {
+    width: 87px;
+    height: 4px;
+    margin: 16rem 0px 18rem 0px;
+    background: rgba(0,0,0,.15);
+}
+.lwrap > h2, .lwrap > h2 ~ p{
+    color: #3c4761;
+}
+.services .lwrap > h2, .services .lwrap > h2 ~ p, .testimonials .lwrap > h2, .testimonials .lwrap > h2 ~ p, footer .lwrap > h2, footer .lwrap > h2 ~ address{
+    color: white;
+}
+.lwrap > h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+.lwrap > h2 ~ p, .lwrap > h2 ~ address {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.022em;
+}
+.testimonials article figure img, .team article figure img{
+    border-radius: 50%;
+}
+
+/*HEADER*/
+header{   
+    background: #864f9c;
+}
+header h1{
+    text-align: center;
+    color: #f7f2ea;
+    margin: 131rem 0px 54rem 0px;
+    font-size: 42rem;
+    line-height: 49rem;
+}
+header .lwrap{
+    padding: 54rem 10px 145rem 10px;
+}
+header .lwrap > div{
+    width: 100%;
+}
+#logo{
+    margin: 0px 10px 0px 35rem;
+}
+
+/*SERVICES*/
+.services {
+    background: #16c2a3;
+}
+.services .lwrap{
+    padding: 113rem 15px 106rem 10px;
+    max-width: 1064px;
+}
+.services .lwrap > h2 ~ p {
+    max-width: 605px;
+    margin-bottom: 63rem;
+}
+.services article{
+    width: 19%;
+    margin-bottom: 20px;
+}
+.services article h4 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 34rem 0px 13rem 0px;
+    font-size: 24px;
+}
+.services article p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*TEAM*/
+.team {
+    background: #e7f1f8;
+}
+.team .lwrap{
+    padding: 113rem 10px 101rem 13px;
+    max-width: 1070px;
+}
+.team .lwrap > h2 + hr{
+    margin: 18rem 0px 20rem 0px;
+}
+.team .lwrap > h2 ~ p {
+    margin-bottom: 77rem;
+}
+.team article{
+    width: 19%;
+    margin-bottom: 20px;
+}
+.team article h4{
+    color: #3b4761;
+    margin: 37rem 0px 7rem 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+}
+.team article span{
+    color: #30b9e6;
+    margin-bottom: 19rem;
+    font-size: 16px;
+    text-align: center;
+}
+.team article p{
+    color: #3b4761;
+    margin-bottom: 21rem;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+/*SKILLS*/
+.skills.lwrap{
+    padding: 111rem 10px 94rem 10px;
+}
+.skills > div{
+    width: 100%;
+    max-width: 1021px;
+}
+.skills article{
+    margin: 20px;
+}
+.skills.lwrap > h2 ~ p {
+    max-width: 583px;
+    margin-bottom: 72rem;
+}
+.percentage {
+    width: 139px;
+    height: 130px;
+    position: relative;
+}
+.percentage:before, .percentage:after {
+    content: " ";
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.percentage:before{
+    transform: rotate(-45deg);
+    border-left: 10px solid #dfe8ed;
+    border-top: 10px solid #dfe8ed;
+}
+.percentage:after {
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+.percentage.web:before{    
+    border-right: 12px solid #30bae7;
+    border-bottom: 12px solid #30bae7;
+}
+.percentage.web:after {
+    border-right: 12px solid #30bae7;
+    border-bottom: 12px solid #30bae7; 
+    transform: rotate(100deg);
+}
+.percentage.html:before{    
+    border-right: 10px solid #d74680;
+    border-bottom: 10px solid #d74680;
+}
+.percentage.html:after {
+    border-right: 10px solid #d74680;
+    border-bottom: 10px solid #d74680; 
+    transform: rotate(48deg);
+}
+.percentage.graphic:before{    
+    border-right: 10px solid #15c7a8;
+    border-bottom: 10px solid #15c7a8;
+}
+.percentage.graphic:after {
+    border-right: 10px solid #15c7a8;
+    border-bottom: 10px solid #15c7a8; 
+    transform: rotate(20deg);
+}
+.percentage.ui:before{
+    border-right: 10px solid #eb7d4b;
+    border-bottom: 10px solid #eb7d4b;
+}
+.percentage.ui:after {
+    border-right: 10px solid #eb7d4b;
+    border-bottom: 10px solid #eb7d4b; 
+    transform: rotate(75deg);
+}
+.value{
+    color: #3b4761;
+    font-size: 50px;
+}
+.value small{
+    font-size: 32px;
+    margin-left: 3px;
+}
+.sign{
+    font-weight: 700;
+    margin-top: 42rem;
+    text-transform: uppercase;
+    color: #3b4761;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+    background: #fd9;
+}
+.portfolio .lwrap > h2 ~ p {
+    max-width: 520px;
+    margin-bottom: 40rem;
+}
+.portfolio .lwrap{
+    padding: 114rem 10px 109rem 10px;
+    max-width: 1126px;
+}
+.portfolio figure{
+    margin-bottom: 58rem;
+    width: 49%;
+}
+.portfolio figcaption{
+    margin-top: 21rem;
+}
+.portfolio figcaption a{
+    text-transform: uppercase;
+    color: #393939;
+    font-size: 19px;
+}
+.portfolio figcaption a:active, .portfolio figcaption a:hover, .portfolio figcaption a:focus{
+    text-decoration: underline;
+}
+.portfolio .btn-default{
+    background: #17c2a4 linear-gradient(transparent, transparent calc(100% - 4px), rgba(0,0,0,.15) calc(100% - 4px), rgba(0,0,0,.15) 100%)
+}
+
+/*TESTIMONIALS*/
+.testimonials {
+    background: #d74580;
+    margin-bottom: -14rem;
+}
+.testimonials .lwrap > h2 ~ p {
+    margin-bottom: 65rem;
+}
+.testimonials .lwrap{
+    padding: 113rem 10px 0px 10px;
+    max-width: 1120px;
+}
+.testimonials article{
+    margin-bottom: 141rem;
+    width: 46.5%;
+}
+.testimonials article figure{
+    flex-shrink: 0;
+}
+
+/*FOOTER*/
+footer > .lwrap{
+    padding: 114rem 10px 115rem 10px;
+    max-width: 880px;
+}
+footer {
+    background: #3c5399;
+}
+footer form, footer form > div{
+    width: 100%;
+}
+footer .lwrap > h2 ~ address{
+    font-style: normal;
+    margin-bottom: 74rem;
+}
+.footer-social {
+    background: #334b8e;
+}
+.footer-social .lwrap{
+    padding: 33rem 10px;
+}
+footer .btn-default{
+    background: #30bae7 linear-gradient(transparent, transparent calc(100% - 4px), rgba(0,0,0,.15) calc(100% - 4px), rgba(0,0,0,.15) 100%)
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    
+}
+

@@ -1,0 +1,75 @@
+body{
+    font-size: 15px;
+    font-family: Bebas Neue;
+}
+
+/*LINKS*/
+.links-nav a{
+    font-size: 21px;
+    color: #fff;
+    margin: 0px 15rem;
+    text-align: center;
+}
+.links-nav > div{
+    width: 2px;
+    height: 17px;
+    background: white;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-controls a{
+    margin: 2px 5px 2px 8px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    opacity: .51;
+}
+.links-default{
+    padding-left: 4rem;
+}
+.links-default a{
+    color: #fff;
+    font-family: Open Sans;
+    line-height: 28px;
+}
+.links-default a:hover{
+    text-decoration: underline;
+}
+
+/*FORMS*/
+input[type=search]{
+    margin: 5px 10px 5px 25px;
+    max-width: 436px;
+    flex-grow: 1;
+    height: 33px;
+    border: 1px solid #e1e1e1;
+    padding: 0px 40px 0px 10px;
+    outline: none;
+    font-family: Open Sans;
+    background: white url(/images/icons/search.png)no-repeat right 7px center;
+}
+
+/*BUTTONS*/
+.btn-shop, .btn-default{
+    padding: 0px 8px;
+    color: #fff;
+}
+.btn-shop{
+    min-width: 139px;
+    height: 46px;
+    border: 3px solid #fff;
+    border-radius: 8px; 
+    margin: 0px 0px 48rem 4rem;
+    font-size: 27px;    
+}
+.btn-default{
+    min-width: 59px;
+    font-size: 19px;    
+    height: 32px;
+    border-radius: 3px;
+    background: #3cc394;
+}

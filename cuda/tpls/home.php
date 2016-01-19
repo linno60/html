@@ -347,13 +347,13 @@
             </section>
             <section class="footer-social-wrap">
                 <div class="footer-social" data-flex="row-center-center">
-                   <a href="#">Facebook</a>
-                   <a href="#">Twitter</a> 
-                   <a href="#">Google+</a> 
-                   <a href="#">LinkedIn</a> 
-                   <a href="#">Behance</a>
-                   <a href="#">Dribbble</a> 
-                   <a href="#">GitHub</a> 
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a> 
+                    <a href="#">Google+</a> 
+                    <a href="#">LinkedIn</a> 
+                    <a href="#">Behance</a>
+                    <a href="#">Dribbble</a> 
+                    <a href="#">GitHub</a> 
                 </div>
             </section>
         </footer>

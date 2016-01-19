@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=b0a24637-ddd3-416c-b909-d7862b74317b");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/fonts/fonts.com/e0d6f852-5401-4bbf-9672-47a50c5c87c6.woff2") format("woff2"), url("/fonts/fonts.com/7fedd582-6ae3-4850-be2f-4acae2e74fa5.woff") format("woff");
+}

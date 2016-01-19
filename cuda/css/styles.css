@@ -154,11 +154,11 @@ a.btn-work:before{
     background-color: #e7f1f8; 
 }
 .team{
-      padding: 111px 10px 91px 10px;
-      max-width: 1140px;
+    padding: 111px 10px 91px 10px;
+    max-width: 1140px;
 }
 .team .hdr {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 .team article img{
     border-radius: 50%;
@@ -204,7 +204,7 @@ a.btn-work:before{
     margin: 20px;
 }
 .skills .hdr {
-  margin-bottom: 74px;
+    margin-bottom: 74px;
 }
 .skills .hdr p{
     max-width: 583px;
@@ -296,7 +296,7 @@ a.btn-work:before{
     max-width: 1151px;
 }
 .portfolio .hdr {
-   margin-bottom: 41px;
+    margin-bottom: 41px;
 }
 .portfolio .hdr p{
     max-width: 520px; 
@@ -389,7 +389,6 @@ footer{
 .footer-social{
     flex-wrap: wrap;
     min-height: 112px;
-    /* max-width: 1076px; */
 }
 .footer-social a{
     color: #fff;

@@ -8,7 +8,7 @@
 }
 /* ICONS */
 .icon-facebook {width: 20px; height: 20px; background: url('/images/icons/facebook.png');}
-.icon-next {width: 28px; height: 28px; background: url('/images/icons/next.png');}
-.icon-prev {width: 28px; height: 28px; background: url('/images/icons/prev.png');}
+.icon-next {width: 17px; height: 25px;background: url('/images/icons/next.png');}
+.icon-prev {width: 17px; height: 25px; background: url('/images/icons/prev.png');}
 .icon-rss {width: 16px; height: 16px; background: url('/images/icons/rss.png');}
 .icon-twitter {width: 24px; height: 24px; background: url('/images/icons/twitter.png');}
