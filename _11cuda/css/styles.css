@@ -36,6 +36,9 @@ figure img{
 .testimonials article figure img, .team article figure img{
     border-radius: 50%;
 }
+.skills > div, .services .lwrap > div, .team .lwrap > div, .portfolio .lwrap > div, .testimonials .lwrap > div{
+    width: 100%;    
+}
 
 /*HEADER*/
 header{   
@@ -47,6 +50,7 @@ header h1{
     margin: 131rem 0px 54rem 0px;
     font-size: 42rem;
     line-height: 49rem;
+    /* max-width: 850px; */
 }
 header .lwrap{
     padding: 54rem 10px 145rem 10px;
@@ -86,6 +90,14 @@ header .lwrap > div{
     text-align: center;
     font-size: 16px;
     line-height: 24px;
+    width: 100%;
+}
+.services i{
+    width: 160rem;
+    height: 160rem;
+    min-width: 133px;
+    min-height: 133px;
+    background-size: cover;
 }
 
 /*TEAM*/
@@ -127,32 +139,35 @@ header .lwrap > div{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.01em;
+    width: 100%;
 }
 
 /*SKILLS*/
 .skills.lwrap{
     padding: 111rem 10px 94rem 10px;
-}
-.skills > div{
-    width: 100%;
-    max-width: 1021px;
+    max-width: 1070px;
 }
 .skills article{
-    margin: 20px;
+    margin-bottom: 20px;
+    width: 20%;
 }
 .skills.lwrap > h2 ~ p {
     max-width: 583px;
-    margin-bottom: 72rem;
+    margin-bottom: 92rem;
 }
 .percentage {
-    width: 139px;
-    height: 130px;
+    width: 139rem;
+    height: 130rem;
+    min-width: 89px;
+    min-height: 80px;
     position: relative;
 }
 .percentage:before, .percentage:after {
     content: " ";
-    width: 137px;
-    height: 137px;
+    width: 137rem;
+    height: 137rem;
+    min-width: 87px;
+    min-height: 87px;
     border-radius: 50%;
     position: absolute;
     top: -10px;
@@ -177,30 +192,30 @@ header .lwrap > div{
     transform: rotate(100deg);
 }
 .percentage.html:before{    
-    border-right: 10px solid #d74680;
-    border-bottom: 10px solid #d74680;
+    border-right: 12px solid #d74680;
+    border-bottom: 12px solid #d74680;
 }
 .percentage.html:after {
-    border-right: 10px solid #d74680;
-    border-bottom: 10px solid #d74680; 
+    border-right: 12px solid #d74680;
+    border-bottom: 12px solid #d74680; 
     transform: rotate(48deg);
 }
 .percentage.graphic:before{    
-    border-right: 10px solid #15c7a8;
-    border-bottom: 10px solid #15c7a8;
+    border-right: 12px solid #15c7a8;
+    border-bottom: 12px solid #15c7a8;
 }
 .percentage.graphic:after {
-    border-right: 10px solid #15c7a8;
-    border-bottom: 10px solid #15c7a8; 
+    border-right: 12px solid #15c7a8;
+    border-bottom: 12px solid #15c7a8; 
     transform: rotate(20deg);
 }
 .percentage.ui:before{
-    border-right: 10px solid #eb7d4b;
-    border-bottom: 10px solid #eb7d4b;
+    border-right: 12px solid #eb7d4b;
+    border-bottom: 12px solid #eb7d4b;
 }
 .percentage.ui:after {
-    border-right: 10px solid #eb7d4b;
-    border-bottom: 10px solid #eb7d4b; 
+    border-right: 12px solid #eb7d4b;
+    border-bottom: 12px solid #eb7d4b; 
     transform: rotate(75deg);
 }
 .value{
@@ -226,18 +241,20 @@ header .lwrap > div{
 }
 .portfolio .lwrap > h2 ~ p {
     max-width: 520px;
-    margin-bottom: 40rem;
+    margin-bottom: 35rem;
 }
 .portfolio .lwrap{
     padding: 114rem 10px 109rem 10px;
     max-width: 1126px;
 }
 .portfolio figure{
-    margin-bottom: 58rem;
+    margin-bottom: 28rem;
     width: 49%;
 }
 .portfolio figcaption{
-    margin-top: 21rem;
+    margin-top: 23rem;
+    min-height: 60px;
+    text-align: center;
 }
 .portfolio figcaption a{
     text-transform: uppercase;
@@ -248,7 +265,7 @@ header .lwrap > div{
     text-decoration: underline;
 }
 .portfolio .btn-default{
-    background: #17c2a4 linear-gradient(transparent, transparent calc(100% - 4px), rgba(0,0,0,.15) calc(100% - 4px), rgba(0,0,0,.15) 100%)
+    background: #17c2a4 linear-gradient(0deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.15) 4px, transparent 4px, transparent 100%);
 }
 
 /*TESTIMONIALS*/
@@ -293,11 +310,20 @@ footer .lwrap > h2 ~ address{
     padding: 33rem 10px;
 }
 footer .btn-default{
-    background: #30bae7 linear-gradient(transparent, transparent calc(100% - 4px), rgba(0,0,0,.15) calc(100% - 4px), rgba(0,0,0,.15) 100%)
+    background: #30bae7 linear-gradient(0deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.15) 4px, transparent 4px, transparent 100%);
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    header h1{font-size: 30px;line-height: 35px;}
+    .team article{width: 48%;}
+}
+@media (max-width: 640px) {
+    .services article{width: 48%;}
+}
 @media (max-width: 480px) {
-    
+    .portfolio figcaption a{font-size: 14px;}
+    .skills article{width: 50%;}
+    .services article h4{font-size: 18px;}
 }
 

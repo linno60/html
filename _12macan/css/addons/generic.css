@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=1753b435-3527-4a14-95f2-a1966cc1f156");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Perpetua";
+    src: url("/fonts/fonts.com/11a458a5-2235-4e9d-9a86-454533882c51.woff2") format("woff2"), url("/fonts/fonts.com/80398ad4-b81d-4d11-962e-a5789b20b6a3.woff") format("woff");
+}
+/* ICONS */
+.icon-down {width: 52px; height: 52px; background: url('/images/icons/down.png');}
+.icon-eye {width: 40px; height: 40px; background: url('/images/icons/eye.png');}
+.icon-globe {width: 44px; height: 44px; background: url('/images/icons/globe.png');}
+.icon-heart {width: 40px; height: 40px; background: url('/images/icons/heart.png');}
+.icon-location {width: 72px; height: 72px; background: url('/images/icons/location.png');}
+.icon-mail {width: 20px; height: 20px; background: url('/images/icons/mail.png');}
+.icon-monitor {width: 44px; height: 44px; background: url('/images/icons/monitor.png');}
+.icon-phone {width: 20px; height: 20px; background: url('/images/icons/phone.png');}
+.icon-point {width: 20px; height: 20px; background: url('/images/icons/point.png');}
+.icon-rocket {width: 48px; height: 48px; background: url('/images/icons/rocket.png');}
+.icon-up {width: 36px; height: 36px; background: url('/images/icons/up.png');}
+.icon-fb {width: 36px; height: 36px; background: url('/images/icons/fb.png');}
+.icon-gp {width: 36px; height: 36px; background: url('/images/icons/gp.png');}
+.icon-tw {width: 36px; height: 36px; background: url('/images/icons/tw.png');}

@@ -1,0 +1,135 @@
+body{
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+/*LINKS*/
+.links-nav{
+    margin: 0px -26rem 0px 10px;
+}
+.links-nav a{
+    color: #fff;
+    margin: 0px 26rem 5px 27rem;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-controls{
+    padding: 53rem 0px 93rem 0px;
+}
+.links-controls a{
+    margin: 6px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #7b7b7b;
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background: #313131;
+}
+.links-social{
+    margin-left: 3rem;
+}
+.links-social a{
+    margin: 0px 18rem 5rem 0px;
+}
+
+/*BUTTONS*/
+.btn-default{
+    color: #fff;
+    background: #e95b57;
+    min-width: 145px;
+    height: 54px;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+.btn-anchor{
+    width: 57rem;
+    height: 57rem;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 4px;
+    background: #c1c1c1 url(/images/icons/up.png)no-repeat center center;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #ededed;
+    color: #333;
+    font-size: 18rem;
+}
+input[name=input]{
+    width: 48%;
+    height: 60px;
+    padding: 0px 22rem;
+    margin-bottom: 19rem;
+    max-width: 459px;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 15rem;
+    height: 163px;
+    padding: 16rem 23rem;
+    max-width: 573px;
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #737373;}
+input[name=input]::-moz-placeholder, textarea::-moz-placeholder {color: #737373;}
+input[name=input]:-ms-input-placeholder, form textarea:-ms-input-placeholder {color: #737373;}
+
+/*CITES*/
+blockquote {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+    color: #323232;
+    margin-bottom: 13rem;
+    letter-spacing: 0.025em;
+    min-width: 280px;
+}
+blockquote q{
+    margin: 15rem 20rem 0px 0px;
+    font-family: Perpetua;
+    font-size: 62px;
+}
+blockquote cite{
+    font-size: 24px;
+    font-weight: 700;
+    color: #323232;
+    font-style: normal;
+    padding-top:  20rem;
+    letter-spacing: -0.01em;
+}
+
+/*TABS*/
+.tablist{
+    margin-bottom: 42rem;
+    font-size: 18px;
+}
+.tablist a{
+    color: #a7a7a7;
+    margin: 0px 5px;
+}
+.tablist, .tablist a.active, .tablist a:active, .tablist a:hover, .tablist a:focus{
+    color: #323232;
+}
+.tabpanel.active {
+    display: flex;
+}
+
+/*OTHER*/
+hr{
+    width: 281px;
+    background: #323232;
+}
+hr:after, hr:before{
+    width: 13px;
+    height: 13px;
+    background: #323232;
+    content:"";
+    border-radius: 50%;
+}

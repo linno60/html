@@ -43,7 +43,7 @@
                 <h2>services we provide</h2>
                 <hr>
                 <p>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
-                <div data-flex='stripe' data-childs="col -center">
+                <div data-flex='stripe' data-flex-640='stripe w' data-childs="col -center">
                     <article>
                         <i class="icon-flag"></i>
                         <h4>branding</h4>
@@ -72,7 +72,7 @@
                 <h2>meet our beautiful team</h2>
                 <hr>
                 <p>We are a small team fo designers and developers, who help brands with big ideas.</p>
-                <div data-flex='stripe' data-childs="col -center">
+                <div data-flex='stripe' data-flex-800='stripe w' data-flex-480="vstripe" data-childs="col -center">
                     <article>
                         <figure><img src="images/anne.jpg"></figure>
                         <h4>anne hathaway</h4>
@@ -126,7 +126,7 @@
             <h2>we got skills !</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div data-flex='stripe' data-childs="col -center">
+            <div data-flex='stripe' data-childs="col -center" data-flex-480="stripe w">
                 <article>
                     <div class="percentage web" data-flex="center -center">
                         <span class="value">90<small>%</small></span>
@@ -205,7 +205,7 @@
                 <h2>what people say about us</h2>
                 <hr>
                 <p>Our clients love us!</p>
-                <div data-flex="stripe w" data-childs="-start">
+                <div data-flex="stripe w" data-childs="-start" data-flex-640="vstripe">
                     <article>
                         <figure><img src="images/chanel.png"></figure>
                         <blockquote>

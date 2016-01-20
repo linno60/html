@@ -4,13 +4,13 @@
 }
 a.btn-anchor{
     width: 57px;
-height: 57px;
-border-radius: 4px;
-background-color: #c1c1c1;
-position: fixed;
-bottom: 214px;
-right: 33px;
-z-index: 1000;
+    height: 57px;
+    border-radius: 4px;
+    background-color: #c1c1c1;
+    position: fixed;
+    bottom: 214px;
+    right: 33px;
+    z-index: 1000;
 }
 a{
     text-decoration: none;
@@ -92,7 +92,6 @@ nav a{
     background-color: #161828;
 }
 .header{
-    /* min-height: 474px; */
     padding: 31px 10px 44px 10px;    
     max-width: 1196px;
     background: url('../images/bg-header.png') no-repeat left bottom;
@@ -104,7 +103,6 @@ nav a{
     color: #fff;
     font: 600 36px "Open Sans";
     margin-bottom: 27px;
-    /* margin-top: 21px; */
     letter-spacing: 0.022em;
 }
 .header span{
@@ -199,24 +197,27 @@ a.btn-default{
     font: 14px/18px "Open Sans";
     letter-spacing: -0.03em;
 }
-.works-header-wrap{
-    background: #7b7b7b url('../images/pattern.png');
-}
-.works-header{
-    min-height: 425px;
-}
 .portfolio{
     max-width: 1221px;
     padding: 82px 10px 93px 10px;
 }
 .portfolio .hdr h2 {
-  letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 }
 .portfolio-wrap{
     background-color: #fff;
 }
 .portfolio .hdr h2 ~ span {
-  margin-bottom: 14px;
+    margin-bottom: 14px;
+}
+.portfolio .divider, .portfolio .divider:after, .portfolio .divider:before{
+    background-color: #000;
+}
+.works-header-wrap{
+    background: #7b7b7b url('../images/pattern.png');
+}
+.works-header{
+    min-height: 425px;
 }
 .works-footer-wrap{
     background: #7b7b7b url('../images/pattern.png');
@@ -242,9 +243,6 @@ a.btn-default{
 .works-header span, .works-footer span{
     font: 24px "Open Sans";
     letter-spacing: 0.02em;
-}
-.portfolio .divider, .portfolio .divider:after, .portfolio .divider:before{
-    background-color: #000;
 }
 .tabs .grid figure{
     position: relative;
@@ -307,7 +305,7 @@ a.btn-default{
     letter-spacing: 0em;
 }
 .portfolio .hdr.customer h2 ~ span {
-  margin-bottom: 22px;
+    margin-bottom: 22px;
 }
 .testimonials{
     margin: 53px 0px 53px 58px;
@@ -319,7 +317,7 @@ a.btn-default{
     margin-right: 90px;
 }
 .testimonials blockquote {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 .testimonials blockquote span{
     margin: 4px 25px 0px 0px;
@@ -337,9 +335,9 @@ a.btn-default{
 .controls a{
     margin: 6px;
     width: 23px;
-height: 23px;
-border-radius: 50%;
-background-color: #7b7b7b;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #7b7b7b;
 }
 .controls a.active{
     background-color: #313131;
@@ -397,7 +395,7 @@ footer{
 .copyright span{
     color: #76777f;
     margin: 9px 0 25px 0;
-font: 14px "Open Sans";
+    font: 14px "Open Sans";
 }
 .form-wrap{
     width: 100%;
@@ -437,10 +435,10 @@ font: 14px "Open Sans";
     border-radius: 4px;
 }
 .footer .hdr h2 {
-  margin-bottom: 2px;
+    margin-bottom: 2px;
 }
 .footer .hdr h2 ~ span {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 .footer form input::-webkit-input-placeholder, .footer form textarea::-webkit-input-placeholder {
     color: #737373;
@@ -468,19 +466,19 @@ font: 14px "Open Sans";
 }
 @media (max-width: 1150px) {
     .form-wrap input {
-    padding: 0px 10px;
-}
-.form-wrap textarea {
-    padding: 10px;
-}
+        padding: 0px 10px;
+    }
+    .form-wrap textarea {
+        padding: 10px;
+    }
 }
 @media (max-width: 1020px) {
     .form-wrap form > div{
         flex-direction: column;
     }
     .form-wrap input {
-    width: 100%;
-}
+        width: 100%;
+    }
 }
 @media (max-width: 800px) {
     .top-bar{
@@ -496,45 +494,45 @@ font: 14px "Open Sans";
 }
 @media (max-width: 700px) {
     .testimonials img {
-    margin-right: 30px;
-}
+        margin-right: 30px;
+    }
 }
 @media (max-width: 700px) {
     .testimonials {
-    flex-direction: column;  
-}
-.testimonials img {
-    margin: 20px;
-}
+        flex-direction: column;  
+    }
+    .testimonials img {
+        margin: 20px;
+    }
 }
 @media (max-width: 600px) {
     .form-wrap{
         flex-direction: column;
     }
     .form-wrap > * {
-    width: 100%;
-}
+        width: 100%;
+    }
 }
 @media (max-width: 500px) {
     .header{
         flex-direction: column;       
     }
     .header > div {
-    width: 100%;
-}
-.header a.btn-default {
-    margin-bottom: 30px;
-}
-.header span {
-    margin-bottom: 30px;
-}
+        width: 100%;
+    }
+    .header a.btn-default {
+        margin-bottom: 30px;
+    }
+    .header span {
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 500px) {
     .overlay{
         padding: 20px;
     }
     .overlay p {
-    margin-bottom: 10px;
-    font: 12px/14px "Open Sans";
-}
+        margin-bottom: 10px;
+        font: 12px/14px "Open Sans";
+    }
 }

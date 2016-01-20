@@ -1,0 +1,309 @@
+/*COMMON*/
+figure img, #logo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1190px;
+    padding: 0px 10px;
+}
+.lwrap > h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 4rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.lwrap > h2 ~ span{
+    font-size: 18px;
+    margin-bottom: 13rem;
+}
+.btn-anchor{
+    position: fixed;
+    bottom: 214rem;
+    right: 33rem;
+    z-index: 1000;
+}
+.services .lwrap > h2, .services .lwrap > h2 ~ span, footer .lwrap > h2, footer .lwrap > h2 ~ span{
+    color: #fff;
+}
+.services hr, .services hr:after, .services hr:before, footer hr, footer hr:after, footer hr:before{
+    background: #fff;
+}
+
+/*HEADER*/
+.header .lwrap{
+    padding: 31rem 11px 44rem 7px;
+    background: url('/images/bg-header.png') no-repeat 17px bottom;
+}
+.header .lwrap > div{
+    width: 50%;
+}
+header{
+    background-color: #161828;
+}
+.topbar{
+    background: #0d0b11;
+}
+.topbar .lwrap{
+    padding: 29rem 10px 23rem 10px;
+}
+.header h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 27rem;
+}
+.header span{
+    color: #fff;
+    font-size: 24px;
+    margin: 0px 0px 64rem 4rem;
+}
+.header .btn-default{
+    margin: 0px 0px 18rem 3rem;
+}
+
+/*SERVICES*/
+.services{
+    background: #475a85;
+}
+.services .lwrap{
+    max-width: 1142px;
+    padding: 62rem 10px 77rem 10px;
+}
+.services hr{
+    margin-bottom: 83rem;
+}
+.services article{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.services .btn-default{
+    min-width: 88px;
+    height: 33px;
+    border-radius: 2px;
+    font-size: 11px;
+}
+.services article h3, .services article p{
+    text-align: center;
+    color: #fff;
+}
+.services article h3{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20rem;
+}
+.services article p{
+    padding: 11rem 0px 31rem 0px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+}
+
+/*WORKS*/
+.works-header, .works-footer{
+    background: #7b7b7b url('/images/pattern.png');
+}
+.works-header{
+    padding: 189rem 10px 150rem 10px;
+}
+.works-footer{
+    padding: 161rem 10px 161rem 10px;
+}
+.works-header h1, .works-footer h1, .works-header span, .works-footer span{
+    text-align: center;
+    color: #fff;
+}
+.works-header h1, .works-footer h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+.works-footer h1{
+    margin-bottom: 19rem;
+    letter-spacing: 0.0em;
+}
+.works-header h1{
+    margin-bottom: 5rem;
+    letter-spacing: 0.04em;
+}
+.works-header span, .works-footer span{
+    font-size: 24px;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+    padding: 82rem 10px 83rem 11px;
+}
+.portfolio h2 {
+    letter-spacing: 0.01em;
+}
+.portfolio h2 ~ span {
+    margin-bottom: 7rem;
+}
+.tabs figure{
+    position: relative;
+    width: 31.7%;
+    margin-bottom: 38rem;
+}
+.tabs figure:hover .overlay{
+    display: flex;
+}
+.overlay{
+    position: absolute;
+    left:0px;
+    top: 0px;
+    display: none;
+    padding: 32rem 10px 10px 10px;
+    height: 100%;
+    width: 100%;
+    background: rgba(71,89,133,.82);
+}
+.overlay h6, .overlay p{
+    color: #fff;
+    margin-bottom: 18rem;
+    text-align: center;
+    max-width: 266px;
+}
+.overlay p{
+    font-size: 14rem;
+    line-height: 18rem;
+}
+.overlay h6{
+    font-size: 25rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+.overlay a{
+    width: 40px;
+    height: 40px;
+    display: block;
+
+    background: url(/images/icons/eye.png);
+}
+.tabs{
+    padding: 78rem 0px 22rem 0px;
+}
+.tabs + a{
+    color: #323232;
+    background: url(/images/icons/down.png)no-repeat center bottom;
+    padding-bottom: 53px;
+}
+.tabs + a:active, .tabs + a:hover, .tabs + a:focus{
+    text-decoration: underline;
+}
+.tabs + a span{
+    font-size: 18px;
+    font-weight: 700;    
+}
+
+/*TESTIMONIALS*/
+.testimonials figure{
+    flex-shrink: 0;
+    margin: 0px 81rem 0px 42rem;
+}
+.testimonials h2{
+    margin-bottom: 13rem;
+    letter-spacing: 0em;
+}
+.testimonials h2 + span{
+    margin-bottom: 15rem;
+}
+.testimonials hr{
+    margin-bottom: 53rem;
+}
+
+/*MAP*/
+.map{
+    position: relative;   
+}
+.map .icon-location{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    min-height: 508rem;
+}
+
+/*FOOTER*/
+footer{
+    background: #475a85;
+}
+footer .lwrap{
+    padding: 89rem 11px 95rem 10px;
+}
+footer h5{
+    color: #fff;
+    margin: 12px 0px 11px 0px;
+    font-size: 18px;
+    font-weight: 700;  
+}
+footer, footer a{
+    color: #fff;
+    font-size: 18px; 
+}
+footer address{
+    font-style: normal;
+}
+.contacts{
+    margin: 20rem 0px 40rem 0px;
+}
+.contacts i{
+    flex-shrink: 0;
+    margin: 11rem 10rem 0px 0px;
+}
+.contacts a:active, .contacts a:hover, .contacts a:focus{
+    text-decoration: underline;
+}
+footer .lwrap > div{
+    width: 100%;
+    padding-top: 64rem;
+}
+footer .lwrap > div > *{
+    width: 48.8%;
+}
+.contacts span, .contacts a, .contacts address{
+    line-height: 44rem;
+}
+.contacts a{
+    word-wrap: break-word;
+}
+form .btn-default{
+    min-width: 156px;
+    height: 57px;
+    border-radius: 4px;
+}
+footer .lwrap > h2{
+    margin-bottom: 2rem;
+}
+footer .lwrap > h2 ~ span {
+    margin-bottom: 16rem;
+}
+.copyright{
+    background: #161828;
+    padding: 55rem 10px 49rem 10px;
+}
+.copyright span{
+    color: #76777f;
+    margin-bottom: 25rem;
+    font-size: 14px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .overlay p {font-size: calc(19px / 2);line-height: 12px;margin-bottom: 0px;}
+    .overlay h6{font-size: 16px;margin-bottom: 0px;}
+    .testimonials figure {flex-shrink: 1;margin: 0px;}
+    input[name="input"], textarea {font-size: 12px;padding: 5px;}
+}
+@media (max-width: 640px) {
+    .services article, .tabs figure {width: 48%;}
+    .contacts span, .contacts a, .contacts address {font-size: 16px;line-height: 24px;}
+}
+@media (max-width: 480px) {
+    .header h1, .header h1 + span {text-align: center;}
+    .services article h3 {font-size: 17px;}
+}

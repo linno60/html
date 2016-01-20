@@ -42,7 +42,7 @@ body{
     color: #fff;
     padding: 0px 5px;
     text-transform: uppercase;
-    background: #eb7d4b linear-gradient(transparent, transparent calc(100% - 4px), rgba(0,0,0,.15) calc(100% - 4px), rgba(0,0,0,.15) 100%)
+    background: #eb7d4b linear-gradient(0deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.15) 4px, transparent 4px, transparent 100%);
 }
 
 /*CITES*/
@@ -118,10 +118,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     background: rgba(0,0,0,.08);
 }
 .tabs{
-    margin-bottom: 19rem;
+    margin-bottom: 16rem;
 }
 .tablist{
-    margin-bottom: 53rem;
+    margin-bottom: 57rem;
 }
 .tablist a.active, .tablist a:active, .tablist a:hover, .tablist a:focus{
     background: #fff;

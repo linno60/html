@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=1753b435-3527-4a14-95f2-a1966cc1f156");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Perpetua";
+    src: url("/fonts/fonts.com/11a458a5-2235-4e9d-9a86-454533882c51.woff2") format("woff2"), url("/fonts/fonts.com/80398ad4-b81d-4d11-962e-a5789b20b6a3.woff") format("woff");
+}
