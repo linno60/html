@@ -74,24 +74,24 @@ header{
 nav a{
     margin: 19px 17px 15px 17px;
     color: #777;
-font: 14px "Montserrat";
-text-transform: uppercase;
+    font: 14px "Montserrat";
+    text-transform: uppercase;
 }
 nav{
     flex-wrap: wrap;
 }
 .logo .lbl{
     width: 28px;
-height: 28px;
-border-radius: 50%;
-background-color: #7cc576;
-margin-right: 5px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #7cc576;
+    margin-right: 5px;
 }
 .logo{
     text-transform: uppercase;
     color: #555;
-font: 600 18px "Montserrat";
-letter-spacing: -0.025em;
+    font: 600 18px "Montserrat";
+    letter-spacing: -0.025em;
 }
 .title-wrap{
     min-height: 530px;
@@ -106,27 +106,24 @@ letter-spacing: -0.025em;
     letter-spacing: -0.05em;
 
     font: 600 60px/70px "Montserrat";
-max-width: 600px;
+    max-width: 600px;
 }
 .title-wrap span{
     text-align: center;
     margin: 23px 0 55px 0;
     color: #fff;
-     letter-spacing: -0.025em;
-font: 20px "Roboto Slab";
+    letter-spacing: -0.025em;
+    font: 20px "Roboto Slab";
 }
 a.btn-default{
     min-height: 60px;
-border-radius: 30px;
-text-transform: uppercase;
-padding: 5px 35px;
-color: #fff;
-
-    /* letter-spacing: -0.01em; */
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px 35px;
+    color: #fff;
     background-color: #7bc575;
-text-shadow: 0 1px 1px rgba(0,0,0,.7);
-font:16px/44px "Montserrat";
-
+    text-shadow: 0 1px 1px rgba(0,0,0,.7);
+    font:16px/44px "Montserrat";
     letter-spacing: -0.07em;
 }
 .title-wrap a.btn-default{
@@ -134,7 +131,7 @@ font:16px/44px "Montserrat";
 }
 a.btn-default:hover{
     color: #212121;
-background-color: #fff;
+    background-color: #fff;
 }
 .services, .values, .testimonials, .brands, .footer, .footer-bottom{
     margin: auto;
@@ -249,7 +246,7 @@ background-color: #fff;
     margin-bottom: 9px;
 }
 .relax-wrap + .hdr h1{
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .projects-wrap{
     margin-bottom: 46px;
@@ -260,8 +257,8 @@ background-color: #fff;
     width: 51%;
 }
 .projects{
-   max-width: 540px;
-   padding: 32px 10px 10px 6px;
+    max-width: 540px;
+    padding: 32px 10px 10px 6px;
 }
 .projects h5{
     color: #212121;
@@ -271,12 +268,12 @@ background-color: #fff;
     letter-spacing: -0.025em;
 }
 .projects article + p{
- max-width: 450px;
- margin-bottom: 17px;
+    max-width: 450px;
+    margin-bottom: 17px;
 }
 .projects h5 + p{
-max-width: 416px;
-margin-bottom: 20px;
+    max-width: 416px;
+    margin-bottom: 20px;
 }
 .projects h6{
     letter-spacing: -0.025em;    
@@ -295,17 +292,17 @@ margin-bottom: 20px;
 }
 .projects a{
     color: #7bc575;
-    font: 600 16px "Montserrat";text-transform: uppercase;
+    font: 600 16px "Montserrat";
+    text-transform: uppercase;
     letter-spacing: -0.025em;  
 }
 .lbl-project{
     width: 73px;
-height: 73px;
-
+    height: 73px;
     margin-right: 17px;
-border-radius: 50%;
-border: 3px solid #000;
-min-width: 73px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    min-width: 73px;
 }
 .values-wrap{
     background-color: #f9f9f9;
@@ -336,7 +333,7 @@ min-width: 73px;
 .values .grid:after{
     background-color: #f9f9f9;    
     width: 16.3%;
-     z-index: -1;
+    z-index: -1;
 }
 .values .grid:before{   
     width: 50.7%;
@@ -347,7 +344,7 @@ min-width: 73px;
     border-radius: 50%;
     width: 91px;
     height: 91px;
-border: 3px solid #777;
+    border: 3px solid #777;
 }
 .testimonials{
     padding: 90px 10px 59px 10px;
@@ -369,20 +366,20 @@ border: 3px solid #777;
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
-   width: 0;
-   height: 0;   
+    width: 0;
+    height: 0;   
 }
 .testimonial:nth-child(odd) blockquote:after{
     border-left: 20px solid #f9f9f9;
-   border-top: 10px solid transparent;
-   border-bottom: 10px solid transparent;
-   right: -20px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -20px;
 }
 .testimonial:nth-child(even) blockquote:after{
     left: -20px;
-   border-right: 20px solid #f9f9f9;
-   border-top: 10px solid transparent;
-   border-bottom: 10px solid transparent;
+    border-right: 20px solid #f9f9f9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
 }
 .testimonial{
     margin: 10px 0;
@@ -398,11 +395,11 @@ border: 3px solid #777;
     font: 22px/32px "Roboto Slab";
 }
 .testimonial blockquote p span{
-   margin-right: 9px;}
+    margin-right: 9px;
+}
 .testimonial blockquote cite{
     color: #7bc575;
     margin-left: 61px;
-
     font: 18px/45px "Roboto Slab";
 }
 .testimonial:nth-child(even){
@@ -410,14 +407,14 @@ border: 3px solid #777;
     margin: 10px 86px 24px 0;
 }
 .testimonial:nth-child(even) blockquote{
-      margin: 13px 0px 0px 40px;
+    margin: 13px 0px 0px 40px;
 }
 .testimonial:nth-child(odd) img{
     margin-left: 40px;
 }
 .contact{
     min-height: 250px;
-background-color: #7bc575;
+    background-color: #7bc575;
 
     padding: 10px 10px 22px 10px;
 }
@@ -431,14 +428,13 @@ background-color: #7bc575;
 }
 a.btn-contact{
     min-width: 173px;
-
     height: 52px;
-border: 3px solid #fff;
-border-radius: 7px;
-padding: 5px 25px;
-color: #fff;
-text-transform: uppercase;
-font: 600 18px "Montserrat";
+    border: 3px solid #fff;
+    border-radius: 7px;
+    padding: 5px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font: 600 18px "Montserrat";
 }
 .brands {
     min-height: 165px;
@@ -454,23 +450,21 @@ font: 600 18px "Montserrat";
 .footer .posts a{
     font: 16px/41px "Roboto Slab";
 }
-.footer > div{
-       
-}
 .contacts{
-   max-width: 320px; 
-   min-width: 279px; 
+    max-width: 320px; 
+    min-width: 279px; 
 }
 .posts{
-   max-width: 319px; 
-   min-width: 300px; 
+    max-width: 319px; 
+    min-width: 300px; 
 }
 .tweets{
-   max-width: 299px; 
-   min-width: 270px; 
+    max-width: 299px; 
+    min-width: 270px; 
 }
 .footer .posts i{
-    margin: 8px 13px 0 0;}
+    margin: 8px 13px 0 0;
+}
 .footer .icon-twitter{
     min-width: 24px;
     margin-right: 16px;
@@ -502,8 +496,7 @@ font: 600 18px "Montserrat";
 }
 .footer h4{
     color: #fff;    
-text-transform: uppercase;
-
+    text-transform: uppercase;
     font: 600 17px "Montserrat";
 }
 .contacts span{
@@ -541,10 +534,10 @@ text-transform: uppercase;
 }
 .btn-social{
     width: 40px;
-height: 40px;
-margin: 5px;
-border-radius: 50%;
-background-color: #212121;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #212121;
 }
 .copyright{
     color: #555;
@@ -554,83 +547,83 @@ background-color: #212121;
 }
 @media (max-width: 980px) {
     .footer > div {
-    padding: 10px;
-    margin-bottom: 30px;
-}
+        padding: 10px;
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 920px) {
     .values .grid:before {
-    display: none;
-}
-.hidden{
-    display: none;
-}
-.footer-bottom > * {
-    width: 50%;
-}
-.social{
-    justify-content: flex-end;
-}
+        display: none;
+    }
+    .hidden{
+        display: none;
+    }
+    .footer-bottom > * {
+        width: 50%;
+    }
+    .social{
+        justify-content: flex-end;
+    }
 }
 @media (max-width: 900px) {
     .relax-right > div {
-    padding: 30px 20px 30px 30px;
-}
+        padding: 30px 20px 30px 30px;
+    }
 }
 @media (max-width: 700px) {
     .header{
         flex-direction: column;
     }
     .title-wrap {
-    min-height: 400px;
-}.title-wrap h1 {
-    font: 600 40px/45px "Montserrat";
-}
-.hdr h1 {
-    font: 600 30px "Montserrat";
-}
-.testimonial, .testimonial:nth-child(2n){
-    flex-direction: column-reverse;
-}
-.testimonial blockquote {
-    margin-left: 0px;
-}
-.testimonial blockquote::after{
-    display: none;
-}
-.testimonial:nth-child(2n+1) img {
-    margin-left: 0px;
-}
-.testimonial img {
-    margin: 10px;
-}
-.testimonial blockquote cite {
-    margin-left: 0px;
-}
+        min-height: 400px;
+    }.title-wrap h1 {
+        font: 600 40px/45px "Montserrat";
+    }
+    .hdr h1 {
+        font: 600 30px "Montserrat";
+    }
+    .testimonial, .testimonial:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+    .testimonial blockquote {
+        margin-left: 0px;
+    }
+    .testimonial blockquote::after{
+        display: none;
+    }
+    .testimonial:nth-child(2n+1) img {
+        margin-left: 0px;
+    }
+    .testimonial img {
+        margin: 10px;
+    }
+    .testimonial blockquote cite {
+        margin-left: 0px;
+    }
 }
 @media (max-width: 600px) {
     .relax-left{
         display: none
     }
     .relax-right {
-    width: 100%;
-}
-.projects-wrap > div img {
-    display: none;
-}
-.projects-wrap > div {
-    width: 0%;
-}
-.projects-wrap > div:first-child {
-    width: 100%;
-}
-.projects {
-    max-width: 600px;
-}
-.footer-bottom{
-    flex-direction: column;
-}
-.social{
-    justify-content: center;
-}
+        width: 100%;
+    }
+    .projects-wrap > div img {
+        display: none;
+    }
+    .projects-wrap > div {
+        width: 0%;
+    }
+    .projects-wrap > div:first-child {
+        width: 100%;
+    }
+    .projects {
+        max-width: 600px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .social{
+        justify-content: center;
+    }
 }

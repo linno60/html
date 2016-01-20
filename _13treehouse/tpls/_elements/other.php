@@ -1,0 +1,1 @@
+<a href="#" class="view">view details</a>

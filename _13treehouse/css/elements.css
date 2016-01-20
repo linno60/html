@@ -1,0 +1,143 @@
+body{
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #777;
+    text-transform: uppercase;
+    margin: 19px 17px 15px 17px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, .view:active, .view:hover, .view:focus{
+    color: #222;
+}
+.links-social a{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background: #212121;
+}
+.tw:active, .tw:hover, .tw:focus{background: #00aced;}
+.fb:active, .fb:hover, .fb:focus{background: #3b5998;}
+.pin:active, .pin:hover, .pin:focus{background: #cb2028;}
+.gp:active, .gp:hover, .gp:focus{background: #da2713;}
+.links-default a {
+    font-size: 16px;
+    line-height: 41px;
+    font-family: Roboto Slab;
+    color: #ececec;
+}
+.links-default i{
+    margin: 7px 5px 0px 0px;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    color: #7cc576;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-height: 60px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 0px 35px;
+    color: #fff;
+    background: #7bc575;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.7);
+    font-size: 16px;
+    letter-spacing: -0.07em;
+}
+.btn-default:active, .btn-default:hover,.btn-default:focus{
+    color: #212121;
+    background: #fff;
+}
+.btn-contact{
+    min-width: 173px;
+    height: 52px;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    padding: 5px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-contact:active, .btn-contact:hover, .btn-contact:focus{
+    color: #7cc576;
+    background: #fff;
+}
+
+/*LISTS*/
+.list-relax li{
+    font-size: 16px;
+    line-height: 42px;
+    font-family: Roboto Slab;
+    color: #cbcbcb;
+    padding-left: 50px;
+}
+.list-relax li:before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #cbcbcb;
+    background: url('/images/icons/check.png')no-repeat center center;
+}
+
+/*LABELS*/
+.lbl-project{
+    width: 73px;
+    height: 73px;
+    margin-right: 17px;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+/*OTHER*/
+.view{
+    color: #7bc575;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: -0.025em; 
+    padding-right: 20px;
+    background: url(/images/icons/arrow.png) no-repeat right center;
+}
+.view:active, .view:hover, .view:focus{
+    background: url(/images/icons/arrow-hover.png) no-repeat right center;
+}
+
+/*CITES*/
+blockquote{
+    background: #f9f9f9;
+    min-height: 173px;
+    max-width: 642px;
+    padding: 36px 40px 30px 49px;
+    margin-left: 40px;
+    position: relative;
+    color: #777;
+    font-family: Roboto Slab;
+    font-size: 22px;
+    line-height: 32px;
+    text-indent: -10px;
+}
+blockquote:after{
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 0;
+    height: 0;  
+    left: -20px;
+    border-right: 20px solid #f9f9f9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+blockquote cite{
+    color: #7bc575;
+    margin-left: 61px;
+    font-size: 18px;
+    line-height: 45px;
+}
+
