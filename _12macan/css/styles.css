@@ -70,7 +70,10 @@ header{
 }
 .services .lwrap{
     max-width: 1142px;
-    padding: 62rem 10px 77rem 10px;
+    padding: 62rem 10px 77rem 10px;   
+}
+.services .lwrap > div{
+    width: 100%;
 }
 .services hr{
     margin-bottom: 83rem;
@@ -95,6 +98,7 @@ header{
     margin-top: 20rem;
 }
 .services article p{
+    width: 100%;
     padding: 11rem 0px 31rem 0px;
     line-height: 18px;
     letter-spacing: -0.03em;
@@ -178,10 +182,10 @@ header{
     width: 40px;
     height: 40px;
     display: block;
-
     background: url(/images/icons/eye.png);
 }
 .tabs{
+    width: 100%;
     padding: 78rem 0px 22rem 0px;
 }
 .tabs + a{
@@ -198,6 +202,9 @@ header{
 }
 
 /*TESTIMONIALS*/
+.testimonials > div{
+    width: 100%;
+}
 .testimonials figure{
     flex-shrink: 0;
     margin: 0px 81rem 0px 42rem;

@@ -104,7 +104,6 @@ nav{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: -0.05em;
-
     font: 600 60px/70px "Montserrat";
     max-width: 600px;
 }
@@ -253,7 +252,8 @@ a.btn-default:hover{
 }
 .projects-wrap > div{
     width: 49%;
-}.projects-wrap > div:first-child{
+}
+.projects-wrap > div:first-child{
     width: 51%;
 }
 .projects{
@@ -415,7 +415,6 @@ a.btn-default:hover{
 .contact{
     min-height: 250px;
     background-color: #7bc575;
-
     padding: 10px 10px 22px 10px;
 }
 .contact h3{

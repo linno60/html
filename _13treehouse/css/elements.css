@@ -7,7 +7,7 @@ body{
 .links-nav a{
     color: #777;
     text-transform: uppercase;
-    margin: 19px 17px 15px 17px;
+    margin: 7rem 17rem 3rem 17rem;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .view:active, .view:hover, .view:focus{
     color: #222;
@@ -15,7 +15,7 @@ body{
 .links-social a{
     width: 40px;
     height: 40px;
-    margin: 5px;
+    margin: 5rem;
     border-radius: 50%;
     background: #212121;
 }
@@ -25,24 +25,27 @@ body{
 .gp:active, .gp:hover, .gp:focus{background: #da2713;}
 .links-default a {
     font-size: 16px;
-    line-height: 41px;
+    line-height: 41rem;
     font-family: Roboto Slab;
     color: #ececec;
 }
 .links-default i{
-    margin: 7px 5px 0px 0px;
+    margin: 9rem 13rem 0px -2rem;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     color: #7cc576;
 }
 
 /*BUTTONS*/
+.btn{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
 .btn-default{
     min-height: 60px;
     border-radius: 30px;
-    text-transform: uppercase;
     padding: 0px 35px;
-    color: #fff;
     background: #7bc575;
     text-shadow: 0px 1px 1px rgba(0,0,0,.7);
     font-size: 16px;
@@ -58,8 +61,6 @@ body{
     border: 3px solid #fff;
     border-radius: 7px;
     padding: 5px 25px;
-    color: #fff;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
 }
@@ -69,29 +70,40 @@ body{
 }
 
 /*LISTS*/
+.list-relax{
+    margin-bottom: 47rem;
+}
 .list-relax li{
-    font-size: 16px;
+    font-size: 15px;
     line-height: 42px;
     font-family: Roboto Slab;
     color: #cbcbcb;
-    padding-left: 50px;
+    letter-spacing: 0.01em;
 }
 .list-relax li:before{
     content: "";
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+    margin: 7px 20rem 0px 0px;
     border: 1px solid #cbcbcb;
     background: url('/images/icons/check.png')no-repeat center center;
 }
 
 /*LABELS*/
+.lbl, .list-relax li:before{
+    flex-shrink: 0;
+    border-radius: 50%;
+}
 .lbl-project{
     width: 73px;
     height: 73px;
-    margin-right: 17px;
-    border-radius: 50%;
+    margin-right: 16px;    
     border: 3px solid #000;
+}
+.lbl-article{
+    width: 91px;
+    height: 91px;
+    border: 3px solid #777;
 }
 
 /*OTHER*/
@@ -111,16 +123,16 @@ body{
 /*CITES*/
 blockquote{
     background: #f9f9f9;
-    min-height: 173px;
+    min-height: 173rem;
     max-width: 642px;
-    padding: 36px 40px 30px 49px;
-    margin-left: 40px;
+    padding: 40px;    
     position: relative;
     color: #777;
     font-family: Roboto Slab;
     font-size: 22px;
     line-height: 32px;
-    text-indent: -10px;
+    text-indent: -10rem;
+    padding: 36rem 40rem 28rem 56rem;
 }
 blockquote:after{
     content: "";
@@ -136,8 +148,8 @@ blockquote:after{
 }
 blockquote cite{
     color: #7bc575;
-    margin-left: 61px;
     font-size: 18px;
-    line-height: 45px;
+    font-style: normal;
+    padding: 6rem 0px 0px 64rem;
 }
 

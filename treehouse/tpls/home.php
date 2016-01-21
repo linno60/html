@@ -140,18 +140,18 @@
                     <span>Proin iaculis purus consequat sem cure</span>
                 </div>
                 <div class="testimonial" data-flex="row-center">  
-                  <blockquote data-flex="col--center">
-                      <p data-flex><span>"</span>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
-                      <cite>- Jamie Richardson, Founder of Cocoa Media</cite>
-                  </blockquote>
+                    <blockquote data-flex="col--center">
+                        <p data-flex><span>"</span>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
+                        <cite>- Jamie Richardson, Founder of Cocoa Media</cite>
+                    </blockquote>
                     <img src="images/circle.png"> 
                 </div>
                 <div class="testimonial" data-flex="row-center">                   
                     <blockquote data-flex="col--center">
-                      <p data-flex><span>"</span>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
-                      <cite>- Kim Thompson, Founder of Rainel</cite>
-                  </blockquote> 
-                     <img src="images/circle.png"> 
+                        <p data-flex><span>"</span>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus."</p>
+                        <cite>- Kim Thompson, Founder of Rainel</cite>
+                    </blockquote> 
+                    <img src="images/circle.png"> 
                 </div>
             </div>            
         </section>

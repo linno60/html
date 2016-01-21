@@ -91,6 +91,9 @@ blockquote {
     letter-spacing: 0.025em;
     min-width: 280px;
 }
+blockquote > div{
+    width: 100%;
+}
 blockquote q{
     margin: 15rem 20rem 0px 0px;
     font-family: Perpetua;
@@ -127,9 +130,9 @@ hr{
     background: #323232;
 }
 hr:after, hr:before{
+    content: "";
     width: 13px;
     height: 13px;
     background: #323232;
-    content:"";
     border-radius: 50%;
 }

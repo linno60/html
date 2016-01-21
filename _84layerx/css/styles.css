@@ -4,11 +4,12 @@ figure img{
     display: block;
 }
 .title{
+    text-align: center;
     color: dimgrey;
     font-family: Nilland;
     font-size: 16px;
     font-weight: 900;
-    margin-bottom: 13px;
+    margin-bottom: 13rem;
     letter-spacing: -0.02em;
 }
 body{
@@ -53,7 +54,7 @@ body{
     letter-spacing: -0.02em;
 }
 #logo{
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
 }
 #logo + span{
     font-size: 14px;
@@ -76,7 +77,7 @@ body{
     line-height: 13px;
 }
 .copyright {
-    padding: 0px 1px 0px 4px;
+    padding: 0px 1rem 0px 4rem;
 }
 .copyright a:active, .copyright a:hover, .copyright a:focus{
     text-decoration: underline;
@@ -89,7 +90,7 @@ body{
     box-shadow: 2px 1px 2px -1px rgba(0,0,0,.2),  inset 1px 0px 2px 0px rgba(0,0,0,.2);
 }
 .rightbar{
-    padding: 85px 7px 5px 6px;
+    padding: 85rem 7rem 5rem 6rem;
     width: 56px;
     box-shadow: 2px 1px 2px -1px rgba(0,0,0,.2),  inset 1px 0px 0px 0px rgba(255,255,255,.5);
     border-left: 1px solid rgba(0,0,0,.1);
@@ -201,7 +202,7 @@ body{
     margin: 6px -1px 0px 0px;
 }
 .social{
-    padding: 30px 10px 10px 10px;
+    padding: 30rem 10px 10px 10px;
 }
 .social .links-social a{
     margin: 3px;
@@ -209,6 +210,11 @@ body{
 .hidden{
     display: none;
 }
-@media (max-width: 800px) {
-    
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .visible{display: none;}
+    .hidden{display: block;}
+    .sidebar{max-width: 100%;}
+    .sidebar > div > * {width: 48%;}
 }

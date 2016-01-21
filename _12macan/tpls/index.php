@@ -190,12 +190,12 @@
             <section class="lwrap" data-flex="vaxis">
                 <h2>Contact</h2>
                 <span>Let's talk business, get in touch!</span>
-                <hr data-flex="axis">
+                <hr class="hr" data-flex="axis">
                 <div data-flex='stripe' data-flex-480="vstripe">
                     <div>
                         <h5>Office Hours</h5>
                         <span>Monday to Friday / 7:00 - 18:00 Saturday / 9:00 - 15:00</span>
-                        <div data-flex='col' class='contacts' data-childs>
+                        <div data-flex='col -start' class='contacts' data-childs>
                             <address data-flex><i class='icon-point'></i>25 Silver Cost Avenue, MD 20910 Indonesia</address>
                             <span data-flex><i class='icon-phone'></i>(621) 555 6789</span>
                             <a href='mailto:hello@macankumbang.net' data-flex><i class='icon-mail'></i>hello@macankumbang.net</a>
