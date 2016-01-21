@@ -1,0 +1,33 @@
+body{
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+/*LINKS*/
+.links-nav{
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+}
+.links-nav a, .links-footer a{
+    font-family: Swiss721;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.links-nav a{   
+    font-size: 18px;
+    color: #6b6b6b;
+    margin: 5px 77px 5px 0px;
+}
+.links-footer, .links-footer a{
+    color: #535353;
+}
+.links-footer{   
+    font-size: 10px;
+    line-height: 10px;
+}
+.links-footer a{
+    margin: 0px 3px;
+}
+.links-nav a:active, .links-footer a:active, .links-nav a:hover, .links-footer a:hover, .links-nav a:focus, .links-footer a:focus{
+    text-decoration: underline;
+}
