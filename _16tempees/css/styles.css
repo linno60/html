@@ -1,0 +1,143 @@
+/*COMMON*/
+figure img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    background: #5b6069;
+}
+header > .lwrap{
+    padding: 28rem 10px 20rem 10px;
+}
+.slider{
+    background: url('/images/bg.png');    
+    background-size: cover;
+}
+.slider .lwrap{
+    padding: 35rem 9px 0px 9px;
+}
+.slider .lwrap > div:first-child{
+    width: 50.85%;
+    flex-shrink: 0;
+    padding-right: 10px;
+}
+.slider h1{
+    color: #fff;
+    font-size: 48rem;
+    text-shadow: 0px 1px 2px rgba(0,0,0,.3);
+    font-weight: normal;
+}
+.slider p{
+    color: #335565;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 15rem 0px 30rem 3rem;
+    letter-spacing: -0.005em;
+}
+.slider .btn-slider{
+    margin: 0px 0px 3rem 4rem;
+}
+
+/*SERVICES*/
+.services {
+    padding: 45rem 10px 13rem 10px;
+    max-width: 922px;
+}
+.services article p{
+    color: #4d4d4d;
+    line-height: 18px;
+    font-family: Arial;
+    margin-bottom: 29rem;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+.services article h3{
+    color: #3573b9;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 24rem 0px 21rem 0px;
+    text-align: center;   
+}
+.services article{
+    width: 29%;
+    margin-bottom: 20px;
+}
+.services .title{
+    margin-bottom: 42rem;
+}
+
+/*ABOUT*/
+.about{
+    background: #d1d1d1;
+}
+.about .title{
+    margin-bottom: 38rem;
+}
+.about .lwrap{
+    padding: 46rem 10px 63rem 10px;
+}
+.about .lwrap > div > div{
+    width: 49%;
+}
+.about .lwrap > div > div:last-child{
+    padding: 12px 0px 0px 1rem;
+}
+.about p{
+    color: #4d4d4d;
+    line-height: 21px;
+    font-family: Arial;
+    margin-bottom: 26rem;
+    letter-spacing: 0.008em;
+}
+.about h3, .about h4{
+    color: #3573b9;
+    margin-bottom: 11rem;
+    font-weight: normal;
+}
+.about h3{
+    font-size: 36px;    
+}
+.about h4{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.about form textarea + div{
+    margin-right: 1px;
+    background: #f1f1f1;
+}
+.about iframe{
+    min-height: 153rem;
+}
+.about form .btn-default {
+    min-width: 91px;
+    text-transform: uppercase;
+}
+
+/*FOOTER*/
+footer{
+    padding: 41rem 10px 42rem 10px;
+    box-shadow: inset 0px 2px 3px rgba(0,0,0,.1);
+}
+footer span, footer span a{
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 12px;    
+}
+footer span a{
+    text-decoration: underline;
+}
+footer span a:active, footer span a:hover, footer span a:focus{
+    text-decoration: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .slider h1 {font-size: 32px;}
+}

@@ -1,0 +1,130 @@
+body{
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+/*LINKS*/
+.links-nav a{
+    margin: 0px 0px 9rem 43rem;
+    color: #fff;
+    letter-spacing: -0.01em;
+    font-weight: 300;
+    font-size: 16px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-controls{
+    padding-bottom: 30rem;
+}
+.links-controls a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #8bbfe9;
+    margin: calc(3px/2);
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background: #3573b9;
+}
+
+/*LISTS*/
+.list-skills{
+    max-width: 500px
+}
+.list-skills li{
+    width: 100%;
+    line-height: 30px;
+    background: #3573b9;
+    margin-top: 10px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.list-skills li:after{
+    content: "";
+    background: #818181;
+    flex-shrink: 0;
+}
+.list-skills li:nth-child(1):after{
+    width: 6.5%;
+}
+.list-skills li:nth-child(2):after{
+    width: 4.4%;
+}
+.list-skills li:nth-child(3):after{
+    width: 13%;
+}
+.list-skills li:nth-child(4):after{
+    width: 15%;
+}
+
+/*BUTTONS*/
+.btn-default, .btn-slider{
+    padding: 0px 27rem;
+    text-shadow: 0px 1px 2px rgba(0,0,0,.3);
+    color: #fff;
+}
+.btn-default{    
+    min-width: 127rem;  
+    height: 30px;
+    background: #3573b9;        
+}
+.btn-slider{
+    min-width: 170rem;
+    height: 40px;
+    font-size: 18px;
+    background: rgba(54,116,186,.5);
+    letter-spacing: -0.02em;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    width: 100%;
+    background: #f1f1f1;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: #585858;
+    max-width: 500px;
+}
+input[name=input]{
+    height: 30px;
+    padding: 0px 9px;
+}
+textarea{
+    height: 80px;
+    resize:none;
+    padding: 6px 10px;
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+input[name=input]::-moz-placeholder, textarea::-moz-placeholder {
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+
+/*OTHER*/
+.title{
+    color: #5b6169;
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title:before, .title:after{
+    content: "";
+    max-width: 225px;
+    height: 1px;
+    background-color: #5b6169;
+    margin: 10px 14px 7px 14px;
+    flex-grow: 1;
+}
+

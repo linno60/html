@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+/* ICONS */
+.icon-android {width: 120px; height: 120px; background: url('/images/icons/android.png');}
+.icon-apple {width: 120px; height: 120px; background: url('/images/icons/apple.png');}
+.icon-win8 {width: 120px; height: 120px; background: url('/images/icons/win8.png');}

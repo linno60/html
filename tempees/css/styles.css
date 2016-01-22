@@ -64,12 +64,12 @@ header{
 }
 a.btn-more{
     min-width: 170px;
-min-height: 40px;
-font: 18px "Open Sans";
-background-color: rgba(54,116,186,.5);
-text-shadow: 0 1px 2px rgba(0,0,0,.3);
-color: #fff;
-letter-spacing: -0.02em;
+    min-height: 40px;
+    font: 18px "Open Sans";
+    background-color: rgba(54,116,186,.5);
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
+    color: #fff;
+    letter-spacing: -0.02em;
 }
 .controls{
     position: absolute;
@@ -78,10 +78,10 @@ letter-spacing: -0.02em;
 }
 .controls a{
     width: 10px;
-height: 10px;
-border-radius: 50%;
-background-color: #8bbfe9;
-margin: calc(3px/2)
+    height: 10px;
+    border-radius: 50%;
+    background-color: #8bbfe9;
+    margin: calc(3px/2)
 }
 .controls a.active{
     background-color: #3573b9;
@@ -118,10 +118,10 @@ margin: calc(3px/2)
     max-width: 225px;
 }
 .hdr h1{
-   color: #5b6169;
-   padding: 0 18px;
-font: 300 48px "Open Sans";
-text-transform: uppercase; 
+    color: #5b6169;
+    padding: 0 18px;
+    font: 300 48px "Open Sans";
+    text-transform: uppercase; 
 }
 .services .hdr h1{
     background-color: #fff;
@@ -140,10 +140,10 @@ text-transform: uppercase;
 a.btn-default, .btn-default{
     font: 14px "Open Sans";
     color: #fff;
-    min-width: 127px;
-min-height: 30px;
-background-color: #3573b9;
-text-shadow: 0 1px 2px rgba(0,0,0,.3);
+    min-width: 127px;  
+    min-height: 30px;
+    background-color: #3573b9;
+    text-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
 .services article p{
     color: #4d4d4d;
@@ -155,7 +155,7 @@ text-shadow: 0 1px 2px rgba(0,0,0,.3);
 .services article h3{
     color: #3573b9;
     text-transform: uppercase;
-     font: 22px "Open Sans";
+    font: 22px "Open Sans";
     margin: 24px 0 21px 0;
     text-align: center;   
 }
@@ -183,29 +183,28 @@ text-shadow: 0 1px 2px rgba(0,0,0,.3);
     margin: 11px 0px -2px 0px;
 }
 .about p{
-     color: #4d4d4d;
+    color: #4d4d4d;
     font: 14px/21px "Arial";
-    
-     margin-bottom: 26px;
-     letter-spacing: 0.008em;
+    margin-bottom: 26px;
+    letter-spacing: 0.008em;
 }
 .about h2{
-     color: #3573b9;
-     margin-bottom: 11px;
-     font: 36px "Open Sans";
+    color: #3573b9;
+    margin-bottom: 11px;
+    font: 36px "Open Sans";
 }
 .about h3{
-     color: #3573b9;
-     margin-bottom: 11px;
-     font: 24px "Open Sans";
-     text-transform: uppercase;
+    color: #3573b9;
+    margin-bottom: 11px;
+    font: 24px "Open Sans";
+    text-transform: uppercase;
 }
 .about form input, .about form textarea{
     width: 100%;
-background-color: #f1f1f1;
-margin-top: 10px;
-border: none;
-font-family: "Open Sans"; 
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    border: none;
+    font-family: "Open Sans"; 
     font-size: 14px;
     color: #a7a7a7;
 }
@@ -233,8 +232,8 @@ font-family: "Open Sans";
     text-transform: uppercase;
 }
 .about form input::-moz-placeholder, .about form textarea::-moz-placeholder {
-         opacity: 1;
-         font-family: "Open Sans"; 
+    opacity: 1;
+    font-family: "Open Sans"; 
     font-size: 14px;
     color: #a7a7a7;
     text-transform: uppercase;
@@ -247,14 +246,14 @@ font-family: "Open Sans";
 }
 .skill{
     width: 100%;
-height: 30px;
-background-color: #3573b9;
-margin-bottom: 10px;
-position: relative;
-padding: 10px;
-font: 14px "Open Sans";  
-color: #fff;
-text-transform: uppercase;
+    height: 30px;
+    background-color: #3573b9;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+    font: 14px "Open Sans";  
+    color: #fff;
+    text-transform: uppercase;
 }
 .skill:after{
     content: "";
@@ -262,7 +261,7 @@ text-transform: uppercase;
     right: 0;
     position: absolute;
     height: 30px;
-background-color: #818181;
+    background-color: #818181;
 }
 .skill:nth-child(1):after{
     width: 6.5%;
@@ -281,8 +280,8 @@ background-color: #818181;
 }
 footer{
     min-height: 100px;
-background-color: #fff;
-box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+    background-color: #fff;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
 }
 footer span, footer span a{
     text-align: center;
@@ -299,27 +298,27 @@ footer span a{
 }
 @media (max-width: 720px) {
     .about .hdr + div > div {
-    width: 100%;
-}
-.about .hdr + div {
-    flex-direction: column;
-}
-.about .hdr + div > div img {
-    margin-top: 20px;
-}
+        width: 100%;
+    }
+    .about .hdr + div {
+        flex-direction: column;
+    }
+    .about .hdr + div > div img {
+        margin-top: 20px;
+    }
 }
 @media (max-width: 500px) {
     .slider{
         flex-direction: column-reverse;
     }
     .slider > div {
-    width: 100%;
-}
-.hdr h1 {
-    padding: 0px 10px;
-    font: 300 30px "Open Sans";
-}
-.skill {
-    font: 12px "Open Sans";
-}
+        width: 100%;
+    }
+    .hdr h1 {
+        padding: 0px 10px;
+        font: 300 30px "Open Sans";
+    }
+    .skill {
+        font: 12px "Open Sans";
+    }
 }
