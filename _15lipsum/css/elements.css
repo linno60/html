@@ -5,8 +5,10 @@ body{
 
 /*LINKS*/
 .links-nav{
+    margin-left: 5rem;
     border-top: 1px solid #ababab;
     border-bottom: 1px solid #ababab;
+    padding: 5rem 0px 6rem 0px;
 }
 .links-nav a, .links-footer a{
     font-family: Swiss721;
@@ -16,17 +18,18 @@ body{
 .links-nav a{   
     font-size: 18px;
     color: #6b6b6b;
-    margin: 5px 77px 5px 0px;
+    margin: 5rem 77rem 5rem 0px;
 }
 .links-footer, .links-footer a{
     color: #535353;
 }
-.links-footer{   
+.links-footer{
     font-size: 10px;
     line-height: 10px;
+    padding-top: 17rem;
 }
 .links-footer a{
-    margin: 0px 3px;
+    margin: 3px 7px 3px 8px;
 }
 .links-nav a:active, .links-footer a:active, .links-nav a:hover, .links-footer a:hover, .links-nav a:focus, .links-footer a:focus{
     text-decoration: underline;
@@ -46,6 +49,7 @@ body{
     flex-grow: 1;
     justify-content: center;
     font-style: normal;
+    padding: 0px 2px;
 }
 .btn-more:active, .btn-more:hover, .btn-more:focus{
     text-decoration: underline;

@@ -1,38 +1,38 @@
 /*COMMON*/
-figure img{
+figure img, #logo img{
     width: 100%;
     height: 100%;
     display: block;
 }
 body {
     background: url('/images/bg.png');
-    padding: 51px 0px 54px 0px;
 }
 .lwrap{
-    max-width: 1000px;
+    max-width: 1003px;
     box-shadow: 0px 0px 3px rgba(0,0,0,.3);
-    padding: 0px 35px;
+    padding: 0px 35rem;
     border-top: 8px solid #f2ac04;
     box-shadow: 0px 0px 3px rgba(0,0,0,.3);
     background: #fff;
+    margin: 51rem auto 54rem auto;
 }
 
 /*HEADER*/
 .header {
-    padding: 14px 0px 10px 0px;
+    padding: 37rem 0px 34rem 0px;
 }
 .header > div {
-    margin-left: 39px;
-    padding-left: 26px;
+    margin-left: 40rem;
+    padding-left: 26rem;
     border-left: 1px solid #cac8c5;
 }
 .header h2 {
-    color: #f2ab03;
+    color: #f2ac04;
     font-size: 21px;
     font-family: Novecento;
     font-weight: 300;
-    margin: 2px 0px 5px 0px;
-    letter-spacing: 0.035em;
+    margin: 3px 0px 7px 0px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 .header h2 ~ span {
@@ -41,32 +41,47 @@ body {
     font-family: MyriadPro;
     letter-spacing: 0.005em;
 }
+#logo{
+    margin-top: 5px;
+}
 
 /*FEATURED*/
-.feautured{
-    padding-bottom: 23px;
-    margin-left: 6px;
+.featured{
+    padding-bottom: 23rem;
+    margin-left: 6rem;
     border-bottom: 1px solid #ccc;
 }
 .featured h2 {
     font-size: 12px;
     color: #555;
-    margin: 36px 0px 9px 0px;
+    margin: 36rem 0px 9rem 1rem;
     text-transform: uppercase;
+    letter-spacing: -0.055em;
 }
 .slider{
     border: 1px solid #b0b0b0;
     padding: 1px;
-    width: 49%;
+    width: 48.8%;
+    margin-bottom: 10px;
 }
 .slider figure{
     border: 1px solid #d4d4d4;
 }
-.slider figcaption{  
-    background: rgba(255,255,255,.99)
+.slider figcaption{
+    background: rgba(255,255,255,.99);
+    padding: 14rem 20rem 7rem 23rem;
 }
-.slider figcaption a{
+.slider figcaption > div{
+    flex-grow: 1;
+    padding: 0px 10px 5rem 36rem;
+}
+.slider figcaption > div > a{
     color: #555;
+    font-size: 18px;
+    letter-spacing: 0.002em;
+}
+.slider figcaption a:active, .slider figcaption a:hover, .slider figcaption a:focus{
+    text-decoration: underline;
 }
 .preview {
     width: 48.5%;
@@ -74,55 +89,52 @@ body {
 }
 .preview figure{
     position: relative;  
-    padding-bottom: 6px;
+    padding-bottom: 6rem;
     border-bottom: 1px solid #000;
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 .preview .btn-more{
-    margin: -4px 2px 0px 0px;
+    margin: -4rem 2rem 0px 0px;
 }
 .preview figcaption{
     position: absolute;
-    left: 18px;
-    bottom: 13px;
+    left: 18rem;
+    bottom: 14px;
     color: #fff;
     text-transform: uppercase;
 }
 .preview figcaption small{
     font-family: Novecento;
     font-weight: 300;
-    margin-bottom: 5px;
-    letter-spacing: 0.06em;
+    margin-bottom: 2px;
+    letter-spacing: 0.056em;
+    font-size: 27rem;
 }
 .preview figcaption span{
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 40rem;
+    line-height: 48rem;
 }
 .preview p{
     color: #3b3b3b;
-    letter-spacing: 0.005em;
+    letter-spacing: -0.025em;
     font-family: HelveticaNarrow;
     font-weight: 600;
     line-height: 23px;
 }
 
 /*CONTENT*/
-.content{    
-    padding: 37px 10px 64px 7px;    
+.content{
+    padding: 28rem 10rem 56rem 7rem;
 }
 .content > div{
-     width: 33%;
-    border-left: 1px solid #e5e5e5;
-}
-.content > div:first-child{
-    border-left: none;
+    margin-bottom: 10px;
 }
 .content > div > h4{
     color: #555;
     font-family: HelveticaNarrow;
     font-weight: 600;
     font-size: 18px;
-    margin-bottom: 19px;
+    margin: 4rem 0px 15rem 0px;
     text-transform: uppercase;
     letter-spacing: -0.03em;
 }
@@ -131,67 +143,76 @@ body {
     font-weight: 500;
     font-size: 22px;
     text-transform: capitalize;
-    letter-spacing: 0.03em;
-    margin-bottom: 23px;
+    letter-spacing: 0.005em;
+    margin: 0px 0px 11rem 0px;
 }
 .news{
-    padding: 0px 8px 10px 0px;  
+    padding: 0px 8rem 10rem 0px;  
     width: 29.9%;
 }
-.date{
-    padding: 0px 12px 0px 3px;
-    margin: 2px 10px 0px 0px;
+.news time{
+    padding: 0px 10px 0px 3rem;
+    margin: 2rem 10px 0px 0px;
     border-right: 1px solid #c7c7c7;
 }
-.date span{
+.news time span{
     color: #f1ab04;
     font-family: HelveticaNeueLT;
     font-weight: 500;
     font-size: 18px;
 }
-.date small{
+.news time small{
     color: #777;
     text-transform: uppercase;
     font-family: InterstateCondMono;
-font-size: 10px;
+    font-size: 10px;
 }
-.news h5 a{
-    color: #333;
+.news h5{
+    font-weight: normal;
     font-family: MyriadPro;
     font-size: 16px;
+    line-height: 22px;
     letter-spacing: 0.01em;
+}
+.news h5 a{
+    color: #333;    
+}
+.news h5 a:active, .news h5 a:hover, .news h5 a:focus{
+    text-decoration: underline;
 }
 .news article p{
     color: #939393;
     font-size: 12px;
     max-width: 250px;
-    margin: 2px 0px 0px 2px;
+    margin-left: 2rem;
     letter-spacing: 0.005em;
 }
 .news article{
-    padding: 17px 0 10px 0;
-    margin-left: 1px;
+    padding: 15px 0px 12px 1rem;
     background: url('/images/border.png') repeat-x left bottom;
 }
 .description{
     width: 37.1%;
-    padding: 0px 35px 0px 36px;
+    padding: 0px 35rem 0px 36rem;
+    border-left: 1px solid #e5e5e5;
 }
 .description p{
     color: #3b3b3b;
     font-size: 16px;
     line-height: 23px;
     font-family: HelveticaCE;
-    margin: 33px 0px 16px 0px;
+    padding: 14rem 0px 15rem 1rem;
     letter-spacing: 0.005em;
 }
 .contact{
     width: 33%;
-    padding-left: 51px;
+    min-width: 200px;
+    padding-left: 51rem;
+    border-left: 1px solid #e5e5e5;
 }
 .contact > div{
-    min-height: 43px;
-    padding: 5px 0px;
+    min-height: 44px;
+    padding: 4px 0px 3px 0px;
     background: url('/images/border-contact.png') no-repeat 5px bottom;
 }
 .contact > div:last-child{
@@ -202,24 +223,27 @@ font-size: 10px;
     font-size: 16px;
     font-weight: 900;
     font-family: Swiss721;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.005em;
 }
 .contact i{
-    margin-right: 17px;
-    min-width: 28px;
+    margin-right: 17rem;
+    flex-shrink: 0;
 }
 .contact address{
     font-style: normal;
+    font-weight: 900;
+    max-width: 200px;
+    padding-top: 10rem;
 }
-.contact a, .contact address span{
+.contact a, .contact address{
     color: #747474;
     font-size: 16px;
     font-family: MyriadPro;
     line-height: 24px;    
-    letter-spacing: 0.105em;
+    letter-spacing: 0.105em;    
 }
-.contact address{
-    padding: 10px 0px 0px 0px;
+.contact a:active, .contact a:hover, .contact a:focus{
+    text-decoration: underline;
 }
 
 /*CLIENTS*/
@@ -228,7 +252,7 @@ font-size: 10px;
     border-bottom: 1px solid #ababab;
     position: relative;
     margin-left: 7px;
-    padding: 0px 35px 5px 33px;
+    padding: 0px 66rem 5rem 64rem;
 }
 .clients h3 {
     color: #333;
@@ -239,14 +263,12 @@ font-size: 10px;
     position: absolute;
     top: -9px;
     left: 37px;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.065em;
 }
-
-
 
 /*FOOTER*/
 footer {
-    padding: 7px 0px 10px 0px;
+    padding: 24rem 0px 14rem 0px;
 }
 .copyright {
     color: #535353;
@@ -254,5 +276,25 @@ footer {
     font-weight: 100;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 0.005em;
+    letter-spacing: 0.003em;
+}
+.copyright small{
+    font-size: 13px;
+    letter-spacing: -0.04em;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 960px) {
+    .contact {padding-left: 10px;}
+    .contact a{font-size: 12px;}
+    .lwrap{margin: 0;}
+}
+@media (max-width: 640px) {
+    .description{width: 100%;order: 0;border-left: none;padding:0px;}
+    .news, .contact{width: 48%;order: 1;}
+}
+@media (max-width: 480px) {
+    .contact{border-left:none;padding-left: 0px;}
+    .preview figcaption span {font-size: 25px;line-height: 25px;}
+    .preview figcaption small {font-size: 18px;line-height: 18px;}
 }

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1000;
+            var LAYOUT_WIDTH = 1003;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -41,14 +41,14 @@
             </header>
             <section class="featured">
                 <h2>featured products</h2>
-                <div data-flex="-start between">
+                <div data-flex="-start between" data-flex-480="vstripe">
                     <div class="slider">
                         <figure data-flex="col">
                             <img src="images/img1.png">
                             <figcaption data-flex="axis">
-                                <a href="#" class="btn btn-left"><i class="icon-left"></i></a>
-                                <a href="#">Lipsum comoodo Manager</a>
-                                <a href="#" class="btn btn-right"><i class="icon-right"></i></a>    
+                                <a href="#"><i class="icon-left"></i></a>
+                                <div><a href="#">Lipsum comoodo Manager</a></div>
+                                <a href="#"><i class="icon-right"></i></a>    
                             </figcaption>
                         </figure>
                     </div>
@@ -66,35 +66,35 @@
                     </div>
                 </div>
             </section>
-            <section class="content" data-flex="stripe">
+            <section class="content" data-flex="stripe" data-flex-640="stripe w" data-flex-480="vstripe">
                 <div class="news">
                     <h4>latest news</h4>
                     <div data-childs="-start">
                         <article>
-                            <div class="date" data-flex="col">
+                            <time data-flex="col">
                                 <span>27</span>
                                 <small>nov</small>
-                            </div>
+                            </time>
                             <div>
                                 <h5><a href="#">An early access preview</a></h5>
                                 <p>An early access preview of the Orlin Data Manager is available...</p>
                             </div>
                         </article>
                         <article>
-                            <div class="date" data-flex="col">
+                            <time data-flex="col">
                                 <span>27</span>
                                 <small>nov</small>
-                            </div>
+                            </time>
                             <div>
                                 <h5><a href="#">An early access preview</a></h5>
                                 <p>An early access preview of the Orlin Data Manager is available...</p>
                             </div>
                         </article>
                         <article>
-                            <div class="date" data-flex="col">
+                            <time data-flex="col">
                                 <span>27</span>
                                 <small>nov</small>
-                            </div>
+                            </time>
                             <div>
                                 <h5><a href="#">An early access preview</a></h5>
                                 <p>An early access preview of the Orlin Data Manager is available...</p>
@@ -125,16 +125,13 @@
                     </div>
                     <div data-flex="-start">
                         <i class="icon-address"></i>
-                        <address data-flex="col">
-                            <span>Orlin Research, Inc.</span>
-                            <span>7412 Ridgewood Ave</span>
-                            <span>Chevy Chase, MD 20815</span>
-                            <span>USA</span>
+                        <address>
+                            Orlin Research, Inc. 7412 Ridgewood Ave Chevy Chase, MD 20815 USA
                         </address>
                     </div>
                 </div>
             </section>
-            <section class="clients" data-flex="stripe">
+            <section class="clients" data-flex="stripe" data-flex-480="center w">
                 <h3>our clients</h3>
                 <figure><img src="images/at.png"></figure>
                 <figure><img src="images/inc.png"></figure>
@@ -149,12 +146,14 @@
                 </a>
                 <nav class="links-footer" data-flex="-center center w">
                     <a href="#">home</a>|
-                    <a href="#">products</a>|
-                    <a href="#">news</a>|
                     <a href="#">about us</a>|
-                    <a href="#">contact us</a>
+                    <a href="#">work</a>|
+                    <a href="#">services</a>|
+                    <a href="#">resourses</a>|
+                    <a href="#">articles</a>|    
+                    <a href="#">contact</a>
                 </nav>
-                <span class="copyright"><span>&copy; 2009</span> Orlin Research, Inc </span>
+                <span class="copyright"><small>&copy; 2009</small> Orlin Research, Inc </span>
             </footer>
         </div>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
