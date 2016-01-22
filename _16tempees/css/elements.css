@@ -121,10 +121,12 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .title:before, .title:after{
     content: "";
+    display: block;
     max-width: 225px;
     height: 1px;
-    background-color: #5b6169;
+    background: #5b6169;
     margin: 10px 14px 7px 14px;
     flex-grow: 1;
+    width: 100%;
 }
 

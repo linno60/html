@@ -1,0 +1,23 @@
+body{
+    font-family: MyriadPro;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav{
+    max-width: 570px;
+    padding: 3px 5px 3px 10px;
+    box-shadow: 0px 2px 3px #000, inset 0px 1px 2px #fff;
+    background: linear-gradient(#bdbdbd, #717171);
+    border-radius: 3px;
+}
+.links-nav a{
+    margin: 10px 22px 10px 23px;
+    color: #000;
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #fff;
+}

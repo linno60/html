@@ -11,7 +11,7 @@
     <body>        
         <header>
             <div class="header" data-flex="row-center-between">
-               <a href="#" class="logo" data-flex><span>Pulse&nbsp;</span><small>*</small></a>
+                <a href="#" class="logo" data-flex><span>Pulse&nbsp;</span><small>*</small></a>
                 <nav class="nav" data-flex="row-center">
                     <a href="#" class="active">home</a>
                     <a href="#">services</a>
@@ -24,8 +24,8 @@
             <div class="slider" data-flex>
                 <div>
                     <img src="images/img1.png">
-                     <img src="images/img2.png" width="514" height="312">
-                      <img src="images/img3.png">
+                    <img src="images/img2.png" width="514" height="312">
+                    <img src="images/img3.png">
                 </div>
                 <div data-flex="col-start">
                     <h1>Download Excellent PSD Templates</h1>
