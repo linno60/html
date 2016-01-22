@@ -31,3 +31,22 @@ body{
 .links-nav a:active, .links-footer a:active, .links-nav a:hover, .links-footer a:hover, .links-nav a:focus, .links-footer a:focus{
     text-decoration: underline;
 }
+
+/*BUTTONS*/
+.btn-more{
+    color: #fff;
+    font-size: 12px;
+    min-width: 57px;
+    background: #2b2a29;    
+}
+.btn > em {
+    height: 15px;
+    border-right: 1px solid #fff;
+    display: inline-flex;
+    flex-grow: 1;
+    justify-content: center;
+    font-style: normal;
+}
+.btn-more:active, .btn-more:hover, .btn-more:focus{
+    text-decoration: underline;
+}

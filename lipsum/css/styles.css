@@ -128,7 +128,6 @@ footer .logo{
 }
 .clients{
     flex-wrap: wrap;
-    /* min-height: 107px; */
     border-top: 1px solid #ababab;
     border-bottom: 1px solid #ababab;   
     position: relative;
@@ -191,7 +190,6 @@ figcaption small{
 figcaption span{
     font: 40px/47px "Novecento Wide";
 }
-
 .banners p{
     color: #3b3b3b;
     letter-spacing: 0.005em;
@@ -333,12 +331,12 @@ a.btn-more{
     height: 15px;
     background-color: #2b2a29;
 }
-footer{
-    padding: 7px 0px 0px 0px;
-}
 a.btn-more em{
     height: 15px;
     border-right: 1px solid #fff;
+}
+footer{
+    padding: 7px 0px 0px 0px;
 }
 .nav-footer{
     flex-wrap: wrap;

@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'HelveticaNeueLT';
+	src: local('в�є'), url('/fonts/HelveticaNeueLT.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}

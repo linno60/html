@@ -2,6 +2,12 @@
 
 
 /* FONTS */
+@font-face {
+	font-family: 'HelveticaNeueLT';
+	src: local('в�є'), url('/fonts/HelveticaNeueLT.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
 /*
 This CSS resource incorporates links to font software which is the valuable copyrighted
 property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
@@ -9,17 +15,38 @@ redistribute, convert, modify or reverse engineer this font software. Please con
 Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 */
 @font-face {
+    font-family: "HelveticaNarrow";
+    src: url("/fonts/fonts.com/94c1b92e-68ab-4029-8e1e-ba7e3e5bcb8b.woff2") format("woff2"), url("/fonts/fonts.com/e1f1dbd2-827c-423b-8b9a-660116820c77.woff") format("woff");
+}
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/fonts.com/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("/fonts/fonts.com/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff");
+}
+@font-face {
+    font-family: "Novecento";
+    src: url("/fonts/fonts.com/bd77bb56-0c1d-479a-94f4-bb3abb72d2f8.woff2") format("woff2"), url("/fonts/fonts.com/c6536c81-c302-47e8-89c5-86780d6ce984.woff") format("woff");
+}
+@font-face {
     font-family: "Swiss721";
     src: url("/fonts/fonts.com/bd476bf3-8d2d-4108-9a3a-913396247039.woff2") format("woff2"), url("/fonts/fonts.com/d951ab13-81a4-49ef-b592-499f7101a394.woff") format("woff");
 font-weight: 100;
 }
 @font-face {
-    font-family: "Swiss_721 W01 Roman";
-    src: url("/fonts/fonts.com/c01ba868-3eaf-4bf4-b173-216c1156d174.woff2") format("woff2"), url("/fonts/fonts.com/19c307d6-6fd8-47d3-a56d-fa998322491a.woff") format("woff");
+    font-family: "Swiss721";
+    src: url("/fonts/fonts.com/9b774507-d5fe-479a-acfa-c824c03aa01f.woff2") format("woff2"), url("/fonts/fonts.com/b1c5a6b6-bbfb-4b99-8a9c-5a1bcbb83f37.woff") format("woff");
+font-weight: 900;
 }
 @font-face {
-    font-family: "Swiss_721 W03 Blk Cnd";
-    src: url("/fonts/fonts.com/9b774507-d5fe-479a-acfa-c824c03aa01f.woff2") format("woff2"), url("/fonts/fonts.com/b1c5a6b6-bbfb-4b99-8a9c-5a1bcbb83f37.woff") format("woff");
+    font-family: 'HelveticaCE';
+    src: url('/fonts/fontsquirel.com/helvetica-ce-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/helvetica-ce-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InterstateCondMono';
+    src: url('/fonts/fontsquirel.com/interstate-cond-mono.woff2') format('woff2'), url('/fonts/fontsquirel.com/interstate-cond-mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 /* ICONS */
 .icon-address {width: 28px; height: 28px; background: url('/images/icons/address.png');}

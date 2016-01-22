@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HelveticaCE';
+    src: url('/fonts/fontsquirel.com/helvetica-ce-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/helvetica-ce-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InterstateCondMono';
+    src: url('/fonts/fontsquirel.com/interstate-cond-mono.woff2') format('woff2'), url('/fonts/fontsquirel.com/interstate-cond-mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

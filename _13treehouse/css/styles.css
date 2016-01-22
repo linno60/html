@@ -77,6 +77,7 @@ header.lwrap{
     font-family: Roboto Slab;
     color: #777;
     letter-spacing: -0.025em;
+    width: 100%;
 }
 .services article h2{
     margin: 32rem 0px 10rem 0px;
