@@ -85,50 +85,46 @@ header{
 .controls{
     position: absolute;
     right: 188px;
-    bottom: 59px;}
+    bottom: 59px;
+}
 .controls a{
     margin: 7px;
     width: 17px;
-
     height: 17px;
-border-radius: 50%;
-box-shadow: 1px 2px 3px rgba(0,0,0,.5), inset 0 2px 2px #fff;
-background-image: linear-gradient(to top, #717171, #bdbdbd);
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5), inset 0 2px 2px #fff;
+    background-image: linear-gradient(to top, #717171, #bdbdbd);
 }
 .controls a.active{
     background-image: linear-gradient(to top, #ababab, #fff);
 }
 a.btn-browse{
     min-width: 312px;
-
     min-height: 55px;
-border: 10px solid #000;
-border-radius: 40px;
-color: #151515;
-
+    border: 10px solid #000;
+    border-radius: 40px;
+    color: #151515;
     margin:  0px 0px 0px 21px;
     font: 25px/25px "Myriad Pro Semibold";
-text-shadow: 0 1px 0 #f5eed2;
-box-shadow: 0 0 0 1px rgba(130,130,130,.1), inset 0 2px 2px #fff;
-background-image: linear-gradient(to top, #ddc245, #d5d5d5);
+    text-shadow: 0 1px 0 #f5eed2;
+    box-shadow: 0 0 0 1px rgba(130,130,130,.1), inset 0 2px 2px #fff;
+    background-image: linear-gradient(to top, #ddc245, #d5d5d5);
 }
 a.btn-browse span{
     width: 57px;
-
     height: 55px;
-border-radius: 0 30px 30px 0;
-box-shadow: inset 0 2px 2px #fff;
-background-image: linear-gradient(to top, #717171, #bdbdbd);
+    border-radius: 0 30px 30px 0;
+    box-shadow: inset 0 2px 2px #fff;
+    background-image: linear-gradient(to top, #717171, #bdbdbd);
 }
 .slider h1{
-color: #fff;
-font: 39px/40px "Georgia";
-margin: 0px 0px 44px -218px;
+    color: #fff;
+    font: 39px/40px "Georgia";
+    margin: 0px 0px 44px -218px;
 }
 .slider p{
     color: #727272;
-font: 20px/30px "Trebuchet MS";
-
+    font: 20px/30px "Trebuchet MS";
     margin-bottom: 49px;
 }
 .slider > div{
@@ -287,14 +283,14 @@ footer{
 }
 .footer .textual h5{
     margin: 0px 0px 0px 2px;
-    /* letter-spacing:-0.003em; */
 }
 a.btn-social{
+    margin: 0px 15px 8px 0px;
     width: 34px;
     height: 34px;
-    background-color: #000;
+    background: #000;
     border-radius: 6px;
-    box-shadow: 0 1px 0 #434343, inset 0 3px 3px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 0px #434343, inset 0px 3px 3px rgba(0,0,0,.1);
 }
 .copyright{
     border-top: 1px solid #242426;
@@ -333,9 +329,6 @@ a.btn-social{
     flex-wrap: wrap;
     margin-top: 24px;
     max-width: 100px;
-}
-a.btn-social{
-    margin: 0 15px 8px 0;
 }
 .footer > .connect{
     max-width: 120px; 
@@ -393,45 +386,45 @@ a.btn-social{
 }
 @media (max-width: 940px) {
     .slider h1 {
-    font: 30px "Georgia";
-    margin: 0px 0px 40px -150px;
-}
-.slider > div {
-    padding: 10px 10px 10px 100px;
-}
+        font: 30px "Georgia";
+        margin: 0px 0px 40px -150px;
+    }
+    .slider > div {
+        padding: 10px 10px 10px 100px;
+    }
 }
 @media (max-width: 850px) {
     .slideshow > .grid > a span {
-    padding: 0px 5px;
-    font: 600 13px "Trebuchet MS";
-}
-.footer > div {
-    padding: 5px 5px 20px 5px;
-}
-.footer {
-    justify-content: space-around;
-}
-.slider > div:first-child{
-    display: none;
-}
-.slider > div {
-    width: 100%;
-}
-.slider h1 {
-    text-align: center;
-    margin: 0px 10px 40px 10px;
-}
-.slider p {
-    text-align: center
-}
-.slider > div {
-    padding: 10px;
-    align-items: center;
-}
-.controls {
-    position: static;
-    margin-top: 30px;
-}
+        padding: 0px 5px;
+        font: 600 13px "Trebuchet MS";
+    }
+    .footer > div {
+        padding: 5px 5px 20px 5px;
+    }
+    .footer {
+        justify-content: space-around;
+    }
+    .slider > div:first-child{
+        display: none;
+    }
+    .slider > div {
+        width: 100%;
+    }
+    .slider h1 {
+        text-align: center;
+        margin: 0px 10px 40px 10px;
+    }
+    .slider p {
+        text-align: center
+    }
+    .slider > div {
+        padding: 10px;
+        align-items: center;
+    }
+    .controls {
+        position: static;
+        margin-top: 30px;
+    }
 }
 @media (max-width: 800px) {
     .footer > div{
@@ -440,25 +433,25 @@ a.btn-social{
 }
 @media (max-width: 750px) {
     .slideshow > .grid > a{
-    width: 50%;
-}
+        width: 50%;
+    }
 }
 @media (max-width: 650px) {
     .about{
         flex-direction: column;
     }
     a.btn-learn {
-    border-left: none;
-    border-top: 1px solid #1b1c1c;
-    margin-left: 0px;
-    margin-top: 20px;
-    padding: 5px 30px;
-}
+        border-left: none;
+        border-top: 1px solid #1b1c1c;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 5px 30px;
+    }
 }
 @media (max-width: 450px) {
     .slideshow > .grid > a{
-    width: 100%;
-}
+        width: 100%;
+    }
 }
 @media (max-width: 480px) {
     .footer{
@@ -467,6 +460,6 @@ a.btn-social{
 }
 @media (max-width: 350px) {
     a.btn-browse {
-    min-width: 300px;
+        min-width: 300px;
     }
 }

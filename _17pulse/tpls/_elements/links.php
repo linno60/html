@@ -14,3 +14,14 @@
     <a href="#">Blog</a>
     <a href="#">Contact Us</a>
 </nav>
+<div class="links-social" data-flex="w" data-childs="-center center">
+    <a href="#"><i class="icon-tw"></i></a>
+    <a href="#"><i class="icon-in"></i></a>
+    <a href="#"><i class="icon-fb"></i></a>
+    <a href="#"><i class="icon-mail"></i></a>
+</div>
+<div class="links-controls" data-flex>
+    <a href="#"></a>
+    <a href="#" class="active"></a>
+    <a href="#"></a>
+</div>

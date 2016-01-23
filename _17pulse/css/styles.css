@@ -1,0 +1,226 @@
+/*COMMON*/
+figure img, #logo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 980px;
+    padding: 0px 10px;
+}
+i[class^="icon-"] {
+    flex-shrink: 0;
+}
+
+/*HEADER*/
+header{
+    background: url('/images/bg.png');
+    background-size: cover;
+    border-bottom: 1px solid #494949;
+}
+header .lwrap{
+    padding: 31rem 10px 0px 10px;
+}
+#logo{
+    margin: 1px 10px 0px -4px;
+}
+.slider h1{
+    color: #fff;
+    font-family: Georgia;
+    font-size: 39px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0px -3rem 44rem -216rem;
+    text-align: right;
+}
+.slider p{
+    color: #727272;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 49rem;
+}
+.slider > div:first-child{
+    width: 57.3%;
+    flex-shrink: 0;
+    position: relative;
+}
+.slider > div:last-child{
+    padding: 63rem 0px 59rem 10px;
+    flex-grow: 0;
+}
+.slider figure{
+    position: absolute;
+    bottom: 0px;
+}
+.slider figure:first-child{
+    left: -28px;
+}
+.slider figure:nth-child(2){
+    left: 11px;
+}
+.slider figure:last-child{
+ bottom: -1px;
+ right: -2px;
+}
+
+/*ABOUT*/
+.about{
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;    
+    box-shadow: 0px 0px 0px 1px rgba(130,130,130,.1), inset 0px 2px 2px #fff;
+    background: linear-gradient(#d5d5d5, #999);
+}
+.about .lwrap{
+    padding: 22rem 9px 15rem 10px;
+    max-width: 936px;
+}
+.about p{
+    color: #000;
+    font-size: 15px;
+    line-height: 24px;
+    text-shadow: 0px 1px 0 #e3e3e3;
+    letter-spacing: 0.003em;
+    max-width: 720px;
+    border-right: 1px solid #1b1b1c;
+    padding: 6rem 20rem 11rem 0px;
+}
+.about i{
+    margin: 0px 39rem 5rem 0px;
+}
+
+/*CONTENT*/
+.content{
+    background: url('/images/bg2.png');
+}
+.content .lwrap{
+    max-width: 1000px;
+    padding: 52rem 20rem 34rem 20rem;
+}
+.content .lwrap > div{
+    margin-bottom: 34rem;
+    background: #1b1b1c;
+    border: 1px solid #000;
+    box-shadow: 0px 1px 0px 0px #8a8a8a;
+}
+.content .lwrap > div:first-child{
+    padding: 33rem 22rem 3rem 44rem;
+}
+.content article{
+    width: 29.9%;
+    margin-bottom: 20px;
+}
+.content article p{
+    color: #8e8e8e;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20rem;
+}
+.content article h4{
+    color: #b7b7b7;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    margin: 0px 0px 19rem 2rem;
+    letter-spacing: -0.003em;
+}
+.slideshow{
+    padding: 5px 6px 5px 5px;
+    position: relative;
+}
+.slideshow .btn-slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-87%);
+}
+.btn-slide.prev{
+    left: -14rem;
+}
+.btn-slide.next{
+    right: -14rem;
+}
+.slideshow figure img{
+    padding: 0px 0px 1px 1px;
+}
+.slideshow figcaption{
+    height: 37px;
+    padding: 0px 10rem 0px 8rem;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.75);
+    background: linear-gradient(#bdbdbd, #717171);
+}
+
+/*FOOTER*/
+footer{
+    border-top: 1px solid #6d6d6d;
+    background: #1b1c1c;
+}
+footer > .lwrap{
+    padding: 28rem 9px 0px 10px;
+}
+footer .lwrap > div{
+    width: 11%;
+    margin-bottom: 20px;
+    min-width: 105px;
+}
+footer .lwrap > div:first-child{
+    width: 32%;
+    padding-right: 20px;
+}
+footer .lwrap > div:last-child{
+    width: 35.9%;
+    padding-left: 54rem;
+}
+footer h5{
+    color: #b7b7b7;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    letter-spacing: -0.003em;
+    margin-bottom: 7px;
+}
+footer p{
+    color: #8e8e8e;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 17rem;
+    max-width: 270px;
+}
+.copyright{
+    border-top: 1px solid #242426;
+    background: #161617;
+    padding: 22rem 10px 26px 10px;
+}
+.copyright span, .copyright a{
+    color: #464646;
+    font-size: 13px;
+    text-align: center;
+}
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .hidden{display: none;}
+    .about p{border-right: none;}
+    .about .lwrap > div{border-bottom: 1px solid #1b1b1c;}
+    footer .lwrap > div, footer .lwrap > div:first-child, footer .lwrap > div:last-child{width: 48%;padding:0px;}
+    .slider > div:first-child {
+    display: none;
+}
+.slider h1 {
+    color: #FFF;
+    font-family: Georgia;
+    font-size: 39px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+}
+}
+@media (max-width: 480px) {
+    .hidden-sm{display: none;}
+    .about i {
+   float: left;
+}
+.about .lwrap > div{display: block;}
+}
