@@ -1,0 +1,237 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1128px;
+    padding: 0px 10px;
+}
+i[class^=icon-]{
+    flex-shrink: 0;
+}
+p{
+    font-size: 18px;
+    line-height: 30px; 
+}
+header, .about, .message, footer, footer a{
+    color: white;
+}
+a:not(.btn):active, a:not(.btn):hover, a:not(.btn):focus{
+    text-decoration: underline;
+}
+address{
+    font-style: normal;
+}
+
+/*HEADER*/
+#logo{
+    margin-left: 1px;
+}
+header{
+    background: url('/images/bg1.png');
+}
+header .lwrap{
+    padding: 39px 10px 72px 9px;
+}
+header .btn-default{
+    margin: 0px 0px 33px 1px;
+}
+header .lwrap > div:first-child{
+    padding-bottom: 13px;
+}
+header h1 {
+    letter-spacing: 0.05em;
+    line-height: 66px;
+    font-size: 55px;
+    font-weight: 700;
+    max-width: 500px;
+}
+header h1 + p{
+    margin: 21px 0px 32px 0px;
+    font-size: 18px;
+    letter-spacing: 0.049em;
+}
+header p{
+    font-size: 15px;
+    margin: 0px 41px 2px 0px;
+}
+header figure{
+    margin-top: 99px;
+    min-width: 228px;
+}
+.counter{    
+    background: white;
+    position: relative;  
+    padding: 0px 2px;
+}
+.btn-facebook + .counter{
+    border: 1px solid #c1c1c1;
+    line-height: 18px;    
+    font-family: LucidaGrande;    
+    margin: 0px 12px 0px 6px;
+    color: black;
+}
+.btn-twitter + .counter{
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    font-family: HelveticaNeue;
+    text-shadow: 0 1px 0 #fff;
+    color: #333;
+    line-height: 20px;
+    margin: 0px 10px 0px 7px;
+}
+.counter:after, .counter:before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 5px solid;    
+    position:absolute;
+    top: 3px;   
+}
+.counter:after{
+    left: -8px;
+    border-color: transparent #fff transparent transparent;
+}
+.counter:before {
+    left: -10px;
+    border-color: transparent #d4d4d5 transparent transparent;
+}
+
+/*ABOUT*/
+.about{
+    background: #0083b7;
+}
+.about h3 {
+    font-size: 55px;
+    margin: 20px 0px 6px 0px;
+}
+.about span {    
+    font-size: 18px;
+}
+.about .lwrap{
+    padding: 100px 31px 120px 10px;
+    max-width: 912px;
+}
+
+/*CONTENT*/
+.content{
+    padding: 140px 10px 0px 10px;
+    max-width: 1208px;
+}
+.content h2 {
+    font-weight: 700;
+    font-size: 55px;
+    color: #000;
+    margin-left: -3rem;
+}
+.content p {
+    margin: 35px 0px 35px 1px;
+    max-width: 524px;
+}
+.content > div:nth-child(odd){
+   padding: 0px 73px 140px 94px;
+}
+.content > div:nth-child(even){
+   padding: 0px 0px 97px 40px;
+}
+.content > div:nth-child(even) > div{
+   padding-bottom: 61px;
+}
+.content > div:nth-child(even) p{
+   margin: 35px 0px 39px 0px;
+}
+
+/*TEAM*/
+.team {
+    background: #ebeff1;
+    text-align: center;
+}
+.team .lwrap{
+    padding: 132px 10px 123px 10px;
+    max-width: 1032px;
+}
+.team h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 23px 0px 6px 0px;
+}
+.team span {
+    color: rgba(0,0,0,.5);
+    font-size: 26px;
+    font-style: italic;
+}
+.team p {
+    color: rgba(0,0,0,.5);
+    margin: 41px 0px 28px 0px;
+    max-width: 230px;
+}
+.team a {
+    color: #00a3e3;
+    font-size: 18px;
+}
+.team article{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/*MESSAGE*/
+.message{
+    background: #f1c40f;
+    padding: 51px 10px 56px 10px;
+}
+.message p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.message i{
+    margin: 7px 45px 0px 32px;
+}
+
+/*FOOTER*/
+footer {
+    background: #d8af0b url('/images/bb.png') no-repeat left bottom;
+}
+footer .lwrap{
+    padding: 73px 10px 58px 10px;
+    max-width: 950px;
+}
+footer .lwrap > div:first-child{
+    width: 32%;
+}
+footer .lwrap > div{
+    width: 32.7%;
+}
+footer .lwrap > div:last-child{
+    width: 24%;
+}
+footer h4 ~ a:after{
+    white-space: pre;
+    content: "\A"
+}
+footer i[class^=icon-] {
+    margin-right: 23px;
+}
+footer h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px 0px 14px 0px;
+}
+footer p, footer h4 ~ a{   
+    font-size: 16px;
+}
+footer h4 ~ a{
+    margin: 3px 0px 7px 0px;
+    display: inline-block;
+}
+footer p{
+    line-height: 25px;
+    max-width: 200px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    
+}

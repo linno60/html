@@ -124,9 +124,9 @@ a.btn-default{
     letter-spacing: 0.005em;
     font: 18px 'Asap Bold';
     min-width: 200px;
-height: 60px;
-border-radius: 5px;
-background-color: #49b9e5;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #49b9e5;
 }
 .header-wrap a.btn-default{
     margin: 0px 0px 0px 1px;
@@ -136,27 +136,26 @@ background-color: #49b9e5;
     font: 25px 'Asap Bold Italic';
 }
 a.btn-facebook{
- background-color: #eceef5;
- border-radius: 2px;
- border: 1px solid #c9d3e7;
-height: 20px;
-color: #3b5997;
-font: 11px "Lucida Grande";
- padding: 0px 5px 0px 5px;
+    background-color: #eceef5;
+    border-radius: 2px;
+    border: 1px solid #c9d3e7;
+    height: 20px;
+    color: #3b5997;
+    font: 11px "Lucida Grande";
+    padding: 0px 5px 0px 5px;
 }
 a.btn-facebook i{
     margin: 0px 2px 0px 0px;
 }
 a.btn-twitter{
- background-image: linear-gradient(to top, #e1e1e1,  #fefefe);
- border-radius: 3px;
- border: 1px solid #c9d3e7;
-height: 20px;
-color: #333;
-font: 11px "Helvetica Neue Bold";
-text-shadow: 0 1px 0 #fff;
-
- padding: 0px 2px 0px 3px;
+    background-image: linear-gradient(to top, #e1e1e1,  #fefefe);
+    border-radius: 3px;
+    border: 1px solid #c9d3e7;
+    height: 20px;
+    color: #333;
+    font: 11px "Helvetica Neue Bold";
+    text-shadow: 0 1px 0 #fff;
+    padding: 0px 2px 0px 3px;
 }
 .counter{    
     background-color: #fff;
@@ -165,19 +164,19 @@ text-shadow: 0 1px 0 #fff;
 .btn-facebook + .counter{
     border: 1px solid #c1c1c1;
     height: 18px;
-color: #000;
-font: 11px "Lucida Grande";
-padding: 0px 2px 0px 2px;
+    color: #000;
+    font: 11px "Lucida Grande";
+    padding: 0px 2px 0px 2px;
     margin: 0px 12px 0px 6px;
 }
 .btn-twitter + .counter{
     border: 1px solid #bbb;
     border-radius: 3px;
-     font: 11px 'Helvetica Neue';
-     text-shadow: 0 1px 0 #fff;
-     color: #333;
-     height: 20px;
-     padding: 0px 2px 0px 2px;
+    font: 11px 'Helvetica Neue';
+    text-shadow: 0 1px 0 #fff;
+    color: #333;
+    height: 20px;
+    padding: 0px 2px 0px 2px;
     margin: 0px 10px 0px 7px;
 }
 .counter:after, .counter:before {
@@ -239,14 +238,14 @@ padding: 0px 2px 0px 2px;
     padding: 71px 0px 0px 54px;
 }
 .item blockquote p{
-border-radius: 10px;
- position: relative;
-background-color: #ebeff1;
-color: #5e6060;
-padding: 31px 41px 40px 36px;
-font: 18px/30px "Asap Italic";
-margin: 0px 0px 0px 3px;
-max-width: 490px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #ebeff1;
+    color: #5e6060;
+    padding: 31px 41px 40px 36px;
+    font: 18px/30px "Asap Italic";
+    margin: 0px 0px 0px 3px;
+    max-width: 490px;
 }
 .item:nth-child(odd) blockquote p img{
     padding: 0px 0px 0px 0px;
@@ -335,9 +334,9 @@ max-width: 490px;
 }
 .img-wrap{
     width: 210px;
-height: 210px;
-border-radius: 50%;
-position: relative;
+    height: 210px;
+    border-radius: 50%;
+    position: relative;
 }
 .img-wrap img{
     position: absolute;
@@ -349,14 +348,14 @@ position: relative;
     background-color: #f1c30f;
 }
 .img-wrap.mandark{
-   background-color: #e5b98b;
+    background-color: #e5b98b;
 }
 .img-wrap img{
     position: absolute;
 }
 .img-wrap.dexter img{
-  top: 32px;
-  left: -20px;
+    top: 32px;
+    left: -20px;
 }
 .img-wrap.dee img{
     min-width: 296px;
@@ -364,9 +363,9 @@ position: relative;
     left: -76px;
 }
 .img-wrap.mandark img{
-   top: 2px;
-  
-   left: 29px;
+    top: 2px;
+
+    left: 29px;
 }
 .message-wrap{
     background-color: #f1c40f;
@@ -417,58 +416,58 @@ footer{
     margin: 3px 0px 0px 0px;
 }
 @media (max-width: 1220px) {
-.item:nth-child(2n) .picture {
-    padding: 0px 0px 50px 30px;
-}
-.item:nth-child(2n) > div {
-    padding: 30px 0px 0px 0px;
-}
+    .item:nth-child(2n) .picture {
+        padding: 0px 0px 50px 30px;
+    }
+    .item:nth-child(2n) > div {
+        padding: 30px 0px 0px 0px;
+    }
 }
 @media (max-width: 1040px) {
     .item:nth-child(2n+1) .picture {
-    padding: 30px 30px 50px 0px;
-}
-.item:nth-child(2n+1) {
-    padding: 0px 50px 50px 0px;
-}
-.content {
-    padding: 30px 10px 47px 10px;
-}
+        padding: 30px 30px 50px 0px;
+    }
+    .item:nth-child(2n+1) {
+        padding: 0px 50px 50px 0px;
+    }
+    .content {
+        padding: 30px 10px 47px 10px;
+    }
 }
 @media (max-width: 800px) {
     .header-wrap{
         flex-direction: column;
     }
     .header-wrap > div:first-child {
-    width: 100%;
-    padding: 0px 0px 19px 17px;
-}
-.header-wrap > div {
-    width: 100%;
-    padding: 0px 0px 0px 10px;
-    justify-content: center;
-}
-.header-wrap a.btn-default {
-    margin: 0px 0px 30px 1px;
-}
-.header-wrap p {
-    padding: 0px 10px 0px 0px;
-    font: 12px/16px "Asap Regular";
-}
+        width: 100%;
+        padding: 0px 0px 19px 17px;
+    }
+    .header-wrap > div {
+        width: 100%;
+        padding: 0px 0px 0px 10px;
+        justify-content: center;
+    }
+    .header-wrap a.btn-default {
+        margin: 0px 0px 30px 1px;
+    }
+    .header-wrap p {
+        padding: 0px 10px 0px 0px;
+        font: 12px/16px "Asap Regular";
+    }
 }
 @media (max-width: 700px) {
     .item, .item:nth-child(2n){
         flex-direction: column;
     }
     .item:nth-child(2n+1) {
-    padding: 0px 40px 50px 0px;
-}
+        padding: 0px 40px 50px 0px;
+    }
     .item:nth-child(2n+1) .picture {
-    padding: 20px 30px 50px 30px;
-    width: 100%;
-}
-.item:nth-child(2n) .picture {
-    padding: 0px 30px 30px 30px;
-    width: 100%;
-}
+        padding: 20px 30px 50px 30px;
+        width: 100%;
+    }
+    .item:nth-child(2n) .picture {
+        padding: 0px 30px 30px 30px;
+        width: 100%;
+    }
 }

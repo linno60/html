@@ -20,10 +20,10 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 @font-face {
     font-family: "Swiss721";
     src: url("/fonts/fonts.com/bd476bf3-8d2d-4108-9a3a-913396247039.woff2") format("woff2"), url("/fonts/fonts.com/d951ab13-81a4-49ef-b592-499f7101a394.woff") format("woff");
-font-weight: 100;
+    font-weight: 100;
 }
 @font-face {
     font-family: "Swiss721";
     src: url("/fonts/fonts.com/9b774507-d5fe-479a-acfa-c824c03aa01f.woff2") format("woff2"), url("/fonts/fonts.com/b1c5a6b6-bbfb-4b99-8a9c-5a1bcbb83f37.woff") format("woff");
-font-weight: 900;
+    font-weight: 900;
 }

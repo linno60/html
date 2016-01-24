@@ -152,6 +152,7 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
     background: url(/images/icons/arrow-sm.png)no-repeat left center;
     margin: 5px 10px 15rem 10px;
     letter-spacing: -0.005em;
+    flex-shrink: 0;
 }
 .more:active, .more:hover, .more:focus, .slide-link:active, .slide-link:hover, .slide-link:focus{
     text-decoration: underline;

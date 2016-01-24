@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=965efb1b-ea15-46d8-bcb3-3e1ba79b1555");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("/fonts/fonts.com/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/3b303641-706e-4221-94c4-4fb491f4f8ef.woff2") format("woff2"), url("/fonts/fonts.com/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+    font-family: 'lucidaGrande';
+    src: url('/fonts/fontsquirel.com/lucidagrande.woff2') format('woff2'), url('/fonts/fontsquirel.com/lucidagrande.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ICONS */
+.icon-bulb {width: 160px; height: 160px; background: url('/images/icons/bulb.png');}
+.icon-fb {width: 12px; height: 12px; background: url('/images/icons/fb.png');}
+.icon-globe {width: 36px; height: 36px; background: url('/images/icons/globe.png');}
+.icon-location {width: 32px; height: 32px; background: url('/images/icons/location.png');}
+.icon-mail {width: 32px; height: 32px; background: url('/images/icons/mail.png');}
+.icon-skype {width: 32px; height: 32px; background: url('/images/icons/skype.png');}
+.icon-spaceship {width: 160px; height: 160px; background: url('/images/icons/spaceship.png');}
+.icon-touch {width: 160px; height: 160px; background: url('/images/icons/touch.png');}
+.icon-tw {width: 16px; height: 16px; background: url('/images/icons/tw.png');}
