@@ -27,60 +27,63 @@ address{
 
 /*HEADER*/
 #logo{
-    margin-left: 1px;
+    margin: 0px 0px 20px 1rem;
 }
 header{
     background: url('/images/bg1.png');
 }
 header .lwrap{
-    padding: 39px 10px 72px 9px;
+    padding: 39rem 10px 72rem 9px;
 }
 header .btn-default{
-    margin: 0px 0px 33px 1px;
+    margin: 0px 0px 53rem 1rem;
 }
 header .lwrap > div:first-child{
-    padding-bottom: 13px;
+    padding-bottom: 13rem;
+    width: 57.9%;
+}
+header .lwrap > div:first-child > div{
+    width: 100%;
 }
 header h1 {
     letter-spacing: 0.05em;
-    line-height: 66px;
-    font-size: 55px;
+    line-height: 66rem;
+    font-size: 55rem;
     font-weight: 700;
     max-width: 500px;
 }
 header h1 + p{
-    margin: 21px 0px 32px 0px;
+    margin: 21rem 0px 32rem 0px;
     font-size: 18px;
     letter-spacing: 0.049em;
 }
 header p{
     font-size: 15px;
-    margin: 0px 41px 2px 0px;
+    margin: 0px 10px 2px 0px;
 }
 header figure{
-    margin-top: 99px;
-    min-width: 228px;
+    margin-top: 99rem;
 }
-.counter{    
+.counter{
     background: white;
-    position: relative;  
-    padding: 0px 2px;
+    position: relative;
+    padding: 0px 3px 0px 2px;
 }
 .btn-facebook + .counter{
     border: 1px solid #c1c1c1;
-    line-height: 18px;    
-    font-family: LucidaGrande;    
-    margin: 0px 12px 0px 6px;
+    line-height: 16px;
+    font-family: LucidaGrande;
+    margin: 2px 12px 2px 6px;
     color: black;
 }
 .btn-twitter + .counter{
     border: 1px solid #bbb;
     border-radius: 3px;
     font-family: HelveticaNeue;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 0px 1px 0px #fff;
     color: #333;
-    line-height: 20px;
-    margin: 0px 10px 0px 7px;
+    line-height: 18px;
+    margin: 2px 10px 2px 5px;
 }
 .counter:after, .counter:before {
     content: '';
@@ -103,22 +106,23 @@ header figure{
 /*ABOUT*/
 .about{
     background: #0083b7;
+    text-align: center;
 }
 .about h3 {
     font-size: 55px;
-    margin: 20px 0px 6px 0px;
+    margin: 20rem 0px 6rem 0px;
 }
 .about span {    
     font-size: 18px;
 }
 .about .lwrap{
-    padding: 100px 31px 120px 10px;
+    padding: 100rem 31rem 120rem 10rem;
     max-width: 912px;
 }
 
 /*CONTENT*/
 .content{
-    padding: 140px 10px 0px 10px;
+    padding: 140rem 10px 0px 10px;
     max-width: 1208px;
 }
 .content h2 {
@@ -128,20 +132,20 @@ header figure{
     margin-left: -3rem;
 }
 .content p {
-    margin: 35px 0px 35px 1px;
+    margin: 35rem 0px 35rem 1rem;
     max-width: 524px;
 }
 .content > div:nth-child(odd){
-   padding: 0px 73px 140px 94px;
+   padding: 0px 73rem 140rem 94rem;
 }
 .content > div:nth-child(even){
-   padding: 0px 0px 97px 40px;
+   padding: 0px 0px 97rem 40rem;
 }
 .content > div:nth-child(even) > div{
-   padding-bottom: 61px;
+   padding-bottom: 61rem;
 }
 .content > div:nth-child(even) p{
-   margin: 35px 0px 39px 0px;
+   margin: 35rem 0px 39rem 0px;
 }
 
 /*TEAM*/
@@ -150,13 +154,13 @@ header figure{
     text-align: center;
 }
 .team .lwrap{
-    padding: 132px 10px 123px 10px;
+    padding: 132rem 10px 123rem 10px;
     max-width: 1032px;
 }
 .team h3 {
     font-size: 35px;
     font-weight: 700;
-    margin: 23px 0px 6px 0px;
+    margin: 23rem 0px 6rem 0px;
 }
 .team span {
     color: rgba(0,0,0,.5);
@@ -165,8 +169,8 @@ header figure{
 }
 .team p {
     color: rgba(0,0,0,.5);
-    margin: 41px 0px 28px 0px;
-    max-width: 230px;
+    margin: 41rem 0px 28rem 0px;
+    max-width: 75%;
 }
 .team a {
     color: #00a3e3;
@@ -180,14 +184,15 @@ header figure{
 /*MESSAGE*/
 .message{
     background: #f1c40f;
-    padding: 51px 10px 56px 10px;
+    padding: 51rem 10px 56rem 10px;
 }
 .message p{
     font-size: 30px;
     font-weight: 700;
+    text-align: right;
 }
 .message i{
-    margin: 7px 45px 0px 32px;
+    margin: 7rem 45rem 0px 32rem;
 }
 
 /*FOOTER*/
@@ -195,7 +200,7 @@ footer {
     background: #d8af0b url('/images/bb.png') no-repeat left bottom;
 }
 footer .lwrap{
-    padding: 73px 10px 58px 10px;
+    padding: 73rem 10px 38rem 10px;
     max-width: 950px;
 }
 footer .lwrap > div:first-child{
@@ -203,21 +208,19 @@ footer .lwrap > div:first-child{
 }
 footer .lwrap > div{
     width: 32.7%;
+    margin-bottom: 20px;
+    min-width: 220px;
 }
 footer .lwrap > div:last-child{
-    width: 24%;
-}
-footer h4 ~ a:after{
-    white-space: pre;
-    content: "\A"
+    width: 24%;    
 }
 footer i[class^=icon-] {
-    margin-right: 23px;
+    margin-right: 23rem;
 }
 footer h4{
     font-size: 20px;
     font-weight: 700;
-    padding: 3px 0px 14px 0px;
+    padding: 3rem 0px 14rem 0px;
 }
 footer p, footer h4 ~ a{   
     font-size: 16px;
@@ -228,10 +231,13 @@ footer h4 ~ a{
 }
 footer p{
     line-height: 25px;
-    max-width: 200px;
+    max-width: 89%;
 }
 
 /*MEDIA QUERIES*/
 @media (max-width: 480px) {
-    
+    header figure, .content figure {display: none;}
+    header{text-align: center;}
+    header h1{font-size: 24px;line-height: 28px;}
+    .content > div:nth-child(odd), .content > div:nth-child(even){padding: 0px;}
 }

@@ -10,10 +10,11 @@ body{
     letter-spacing: 0.005em;
     font-size: 18px;
     font-weight: 700;
-    min-width: 200px;
+    min-width: 200rem;
     height: 60px;
     border-radius: 5px;
     background: #49b9e5;
+    padding: 0px 5px;
 }
 .btn-facebook, .btn-twitter{
     border: 1px solid #c9d3e7;
@@ -21,19 +22,19 @@ body{
 }
 .btn-facebook{
     background: url(/images/icons/fb.png)no-repeat 5px center, #eceef5;
-    border-radius: 2px;        
+    border-radius: 2px;
     color: #3b5997;
-    font-family: LucidaGrande; 
-    padding: 0px 5px 0px 15px;
+    font-family: LucidaGrande;
+    padding: 0px 5px 0px 19px;
 }
 .btn-twitter{
-    background: url(/images/icons/tw.png)no-repeat 5px center, linear-gradient(#fefefe, #e1e1e1);
+    background: url(/images/icons/tw.png)no-repeat 3px center, linear-gradient(#fefefe, #e1e1e1);
     border-radius: 3px;
     color: #333;
     font-family: HelveticaNeue;
     font-weight: 700;
     text-shadow: 0px 1px 0px #fff;
-    padding: 0px 2px 0px 13px;
+    padding: 0px 3px 0px 19px;
 }
 
 /*CITES*/
@@ -42,7 +43,7 @@ blockquote q{
     position: relative;
     background: #ebeff1;
     color: #5e6060;
-    padding: 32px 41px 40px 36px;
+    padding: 32rem 41rem 40rem 36rem;
     font-style: italic;
     font-size: 18px;
     line-height: 30px;
@@ -55,7 +56,7 @@ blockquote figure{
     bottom: -52px;
 }
 blockquote cite{
-    padding: 21px 10px 16px 34px;
+    padding: 21rem 30px 16rem 34rem;
     display: inline-block;
     color: #00a3e3;
     font-size: 18px;

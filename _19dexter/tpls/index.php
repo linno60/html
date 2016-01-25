@@ -21,44 +21,50 @@
     </head>
     <body>
         <header>
-            <div class="lwrap" data-flex="stripe">
-                <div data-flex='col -start between'>
-                        <a href="#" title="Return to the homepage" id="logo">
-                            <img src="/images/logo.png" width="157" height="29" alt="Dexter">
-                        </a> 
-                    <div>
+            <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
+                <div data-flex='col -start between' data-flex-480="vaxis">
+                    <a href="#" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="157" height="29" alt="Dexter">
+                    </a> 
+                    <div data-flex-480="vaxis">
                         <h1>Dex&rsquo;s Laboratory: a funny freebie.</h1>
                         <p>Brought to You by Balkan Brothers studio...</p>
                         <a href='#' class='btn btn-default'>Le' Download</a>
                     </div>
-                    <div data-flex='-center w'>
+                    <div data-flex='axis w' data-flex-480="vaxis">
                         <p>We are never empty handed towards our dribbble community.</p>
-                        <a href='#' class='btn btn-facebook'>Like</a>
-                        <span class='counter'>1.6m</span>
-                        <a href='#' class='btn btn-twitter'>Tweet</a>
-                        <span class='counter'>93</span>
+                        <div data-flex="end w" data-childs="-center" data-flex-480="center w">                           
+                            <div>
+                                <a href='#' class='btn btn-facebook'>Like</a>
+                                <span class='counter'>1.6m</span> 
+                            </div>
+                            <div>
+                                <a href='#' class='btn btn-twitter'>Tweet</a>
+                                <span class='counter'>93</span>
+                            </div>
+                        </div>
                     </div>  
                 </div>
                 <figure><img src="images/phone.png"></figure>
             </div>
         </header>
         <section class="about">
-            <div class="lwrap" data-flex="stripe" data-childs="col -center">
-                <figure>
+            <div class="lwrap" data-flex="stripe" data-childs="col -center" data-flex-480="vstripe">
+                <div>
                     <i class="icon-spaceship"></i>
                     <h3>5.5</h3>
                     <span>space trips</span>
-                </figure>
-                <figure>
+                </div>
+                <div>
                     <i class="icon-bulb"></i>
                     <h3>500+</h3>
                     <span>magic potions</span>
-                </figure>
-                <figure>
+                </div>
+                <div>
                     <i class="icon-touch"></i>
                     <h3>What</h3>
                     <span>does this button do ?</span>
-                </figure>
+                </div>
             </div>
         </section>
         <section class="content lwrap">
@@ -85,25 +91,25 @@
             </div>
         </section>
         <section class="team">
-            <div class="lwrap" data-flex="stripe" data-childs="col -center">
+            <div class="lwrap" data-flex="stripe" data-childs="col -center" data-flex-480="vstripe">
                 <article>
                     <figure><img src="images/img1.png"></figure>
                     <h3>Dexter</h3>
-                    <span>&ldquo; the genius &rdquo;</span>
+                    <span>&ldquo;&nbsp;the&nbsp;genius&nbsp;&rdquo;</span>
                     <p>Dexter is an extremely intelligent boy (a self de&shy;scribed "Boy Genius") who has been creating fantastic inventions since he was a baby. He considers Albert</p>
                     <a href="#">+ more</a>
                 </article>
                 <article>
                     <figure><img src="images/img2.png"></figure>
                     <h3>Dee Dee</h3>
-                    <span>&ldquo; the sister &rdquo;</span>
+                    <span>&ldquo;&nbsp;the&nbsp;sister&nbsp;&rdquo;</span>
                     <p>Dee Dee is Dexter's ex&shy;tremely ditzy, sim&shy;ple-minded, energetic, hy&shy;peractive older sister, who inexplicably makes "squishy" sounds with her</p>
                     <a href="#">+ more</a>
                 </article>
                 <article>
                     <figure><img src="images/img3.png"></figure>
                     <h3>Mandark</h3>
-                    <span>&ldquo; the rival &rdquo;</span>
+                    <span>&ldquo;&nbsp;the&nbsp;rival&nbsp;&rdquo;</span>
                     <p>Dexter's arch-nemesis. Ap&shy;proximately equal in intel&shy;ligence to Dexter, he too possesses his own labora&shy;tory, which has a very black&shy;and-red color</p>
                     <a href="#">+ more</a>
                 </article>
@@ -114,10 +120,10 @@
             <i class='icon-globe'></i>
         </section>
         <footer>
-            <div class="lwrap" data-flex='stripe' data-childs>
+            <div class="lwrap" data-flex='stripe' data-childs data-flex-640="stripe w" data-flex-480="vstripe">
                 <div>
                     <i class='icon-mail'></i>
-                    <div>
+                    <div data-flex="col -start">
                         <h4><a href='mailto:info@balkan-brothers.com'>info@balkan-brothers.com</a></h4>
                         <a href='mailto:filip.justic91@gmail.com'>filip.justic91@gmail.com</a>
                         <a href='mailto:matej.justic@gmail.com'>matej.justic@gmail.com</a>
