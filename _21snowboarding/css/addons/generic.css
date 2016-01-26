@@ -1,0 +1,36 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=f35bfd29-6d27-4b8f-ad5a-55efd01075d2");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/64017d81-9430-4cba-8219-8f5cc28b923e.woff2") format("woff2"), url("/fonts/fonts.com/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff");
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/ae47a7f5-89da-4879-b934-29722c3dd451.woff2") format("woff2"), url("/fonts/fonts.com/70ae52ec-d89b-4c6a-9402-854ebe423c54.woff") format("woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/eb39afe0-709e-46d6-92ad-db5c3bfd24a9.woff2") format("woff2"), url("/fonts/fonts.com/19dd5cf2-ac2d-48d5-901a-c432fd291ee2.woff") format("woff");
+    font-weight: 800;
+}
+/* ICONS */
+.icon-bag {width: 16px; height: 16px; background: url('/images/icons/bag.png');}
+.icon-close {width: 32px; height: 32px; background: url('/images/icons/close.png');}
+.icon-fb {width: 20px; height: 20px; background: url('/images/icons/fb.png');}
+.icon-ig {width: 16px; height: 16px; background: url('/images/icons/ig.png');}
+.icon-next {width: 124px; height: 228px; background: url('/images/icons/next.png');}
+.icon-pin {width: 20px; height: 20px; background: url('/images/icons/pin.png');}
+.icon-prev {width: 124px; height: 228px; background: url('/images/icons/prev.png');}
+.icon-search {width: 16px; height: 16px; background: url('/images/icons/search.png');}
+.icon-tw {width: 20px; height: 20px; background: url('/images/icons/tw.png');}
+.icon-usa {width: 16px; height: 16px; background: url('/images/icons/usa.png');}
+.icon-yt {width: 44px; height: 44px; background: url('/images/icons/yt.png');}

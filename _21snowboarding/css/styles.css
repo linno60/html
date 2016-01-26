@@ -1,0 +1,196 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 980px;
+    padding: 0px 10px;
+}
+h2{
+    color: black;
+    font-size: 48rem;
+    text-transform: uppercase;
+}
+
+/*HEADER*/
+header{
+    background: black;
+}
+header > .lwrap{
+    max-width: 1246px;
+    padding: 27rem 14px 30rem 10px;
+}
+header > .lwrap > div:last-child{
+    padding-top: 5rem;
+}
+#logo{
+    margin-right: 27rem;
+}
+.cart a{
+    background: url(/images/icons/bag.png);
+    height: 16px;
+    width: 16px;
+    margin-left: 30px
+}
+.cart span{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 8px;
+    line-height: 16px;
+}
+
+/*SLIDER*/
+.slider h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80rem;
+    line-height: 96rem;
+    letter-spacing: -0.0025em;
+}
+.slider > div{
+    max-width: 428px;
+}
+.slider{
+    background: url('/images/img1.png')no-repeat;
+    background-size: cover;
+    padding: 196rem 10px 176rem 10px;
+}
+.slider .btn-default{
+    margin: 35rem 3rem 0px 0px;
+}
+
+/*SNOWBOARDS*/
+.snowboards-wrap{
+    padding: 148rem 0px 203rem 0px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+.snowboards > a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.snowboards > a:first-child{
+    left: 20px;
+}
+.snowboards > a:last-child{
+    right: 20px;
+}
+.snowboards > div{
+    flex-grow: 1;
+}
+.snowboards{
+    width: 100%;
+    position: relative;
+    padding: 116rem 0px 51rem 0px;
+}
+.snowboards-wrap p {
+    font-size: 15px;
+    margin: 16rem 0px 23rem 0px;
+    letter-spacing: -0.0555em;
+    font-weight: 600;
+}
+.snowboards-wrap span {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+}
+.icon-next, .icon-prev {
+    width: 124rem;
+    height: 228rem;
+    background-size: cover;
+}
+
+/*ABOUT*/
+.about {   
+    background: url('/images/img2.png')no-repeat;
+    background-size: cover;
+}
+.about h2, .about{
+    color: white; 
+}
+.about h2{
+    max-width: 500px;
+    line-height: 58px;
+    letter-spacing: -0.004em;
+    margin-bottom: 52px;
+}
+.about .lwrap{
+    padding: 247rem 10px 178rem 10px;
+}
+.about h2 sup {
+    font-size: 28px;
+    position: relative;
+    top: -15px;
+    padding: 5px;
+}
+.about p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0px 0px 30px 5px;
+    max-width: 600px;
+}
+
+/*FEATURES*/
+.features .lwrap{
+    padding: 30px 10px 30px 10px;
+}
+.features figure{
+    width: 23%;
+}
+.features figcaption{
+    padding: 17rem 0px 20px 0px;
+}
+.features figcaption a {
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.features figcaption a:active, .features figcaption a:hover, .features figcaption a:focus{
+    text-decoration: underline;
+}
+.features.lwrap{
+    padding: 113px 9px 110px 12px;
+}
+.features h2{
+    margin-bottom: 19px;
+}
+.features > div{
+    padding-top: 82px;
+}
+
+/*FOOTER*/
+footer{
+    background: black;
+}
+footer .lwrap{
+    padding: 74px 11px 58px 32px;
+    max-width: 1014px;
+}
+.footer h5{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.copyright span {
+    color: #fff;
+    letter-spacing: 0.01em;
+}
+.copyright{
+   padding-top: 34px;
+}
+.footer > div{
+    width: 22.5%;
+    margin-bottom: 20px;
+}
+.footer form{
+    padding-bottom: 48px;
+}

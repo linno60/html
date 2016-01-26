@@ -370,18 +370,11 @@ footer a:active, footer a:hover, footer a:focus{
 
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
-.footer > .lwrap > div:first-child, .footer > .lwrap > div:last-child{
-    width: 49%;
-}
+.footer > .lwrap > div:first-child, .footer > .lwrap > div:last-child{width: 49%;}
 }
 @media (max-width: 640px) {
-.about > div {
-    width: 48%;
+.about > div {width: 48%;}
+.about > div:first-child {width: 100%;}
 }
-.about > div:first-child {
-    width: 100%;
-}
-}
-@media (max-width: 480px) {
-    .callout{text-align: center;}
+@media (max-width: 480px) {.callout{text-align: center;}
 }

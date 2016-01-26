@@ -58,13 +58,12 @@ a{
 .nav nav a{
     color: #fff;
     text-transform: uppercase;
-font: 13px "Proxima Nova Semibold";
-
+    font: 13px "Proxima Nova Semibold";
     margin: 5px 14px 5px 14px;
 }
 .cart span{
     color: #fff;
-font: 13px "Proxima Nova Semibold";
+    font: 13px "Proxima Nova Semibold";
     padding: 5px 0px 0px 7px;
 }
 .cart{
@@ -92,8 +91,7 @@ a.btn-default{
     min-height: 50px;
     min-width: 149px;
     text-transform: uppercase;
-background-color: #000;
-
+    background-color: #000;
     padding: 5px 32px 5px 32px;
     letter-spacing: -0.01em;
     font: 14px "Proxima Nova Extrabold";
@@ -188,9 +186,9 @@ background-color: #000;
     padding: 120px 10px 50px 10px;
 }
 .features .grid{
-   flex-wrap: wrap;
-   max-width: 1004px;
-   padding: 78px 0px 75px 19px;
+    flex-wrap: wrap;
+    max-width: 1004px;
+    padding: 78px 0px 75px 19px;
 }
 .features figcaption a{
     color: #000;
@@ -240,9 +238,9 @@ background-color: #000;
 }
 .btn-submit{
     height: 42px;
-background-color: #c7c7c7;
-color: #000;
-text-transform: uppercase;
+    background-color: #c7c7c7;
+    color: #000;
+    text-transform: uppercase;
     font: 15px "Proxima Nova Extrabold";
     width: 64px;
 }
@@ -270,8 +268,8 @@ footer{
     font: 14px "Proxima Nova Regular";
 }
 .footer li a{
-   line-height: 30px;
-   letter-spacing: -0.015em;
+    line-height: 30px;
+    letter-spacing: -0.015em;
 }
 .social{
     margin: 0px 38px 0px 0px;
@@ -315,19 +313,19 @@ footer{
 }
 @media (max-width: 650px) {
     .slider > div {
-    margin: 18px 10px 0px 10px;
-}
-.slider h1 {
-    font: 46px/50px "Proxima Nova Extrabold";
-}
+        margin: 18px 10px 0px 10px;
+    }
+    .slider h1 {
+        font: 46px/50px "Proxima Nova Extrabold";
+    }
 }
 @media (max-width: 450px) {
     .snowboards h2 {
-    font: 40px "Proxima Nova Extrabold";
-}
-.company h3 {
-    font: 34px/40px "Proxima Nova Extrabold";
-}
+        font: 40px "Proxima Nova Extrabold";
+    }
+    .company h3 {
+        font: 34px/40px "Proxima Nova Extrabold";
+    }
 }
 
 
