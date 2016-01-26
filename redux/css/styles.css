@@ -367,7 +367,6 @@ a.btn-default:hover{
 .testimonials {
     margin: 25px 0px 0px 0px;
 }
-
 .testimonials blockquote{
     font: italic 12px/20px "Georgia";
     color: #434343;
@@ -490,7 +489,7 @@ a.btn-default:hover{
     font: 12px/15px "Helvetica Neue";
     text-shadow: 0 1px 1px rgba(0,0,0,.5);
 }
-.coppyright span{
+.copyright span{
     color: #616161;
 }
 .copyright a{

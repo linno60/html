@@ -11,6 +11,11 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 @font-face {
     font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("/fonts/fonts.com/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "HelveticaNeue";
     src: url("/fonts/fonts.com/2a5cf81d-ffbe-4c76-8982-270592fb36b0.woff2") format("woff2"), url("/fonts/fonts.com/4a9c62ab-b359-4081-8383-a0d1cdebd111.woff") format("woff");
     font-weight: 700;
 }
