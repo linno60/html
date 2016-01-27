@@ -9,7 +9,6 @@
         <link type="text/css" rel="stylesheet" href="/css/styles.css">
     </head>
     <body>        
-
         <header>
             <a name='top'></a>
             <section class="header-top-wrap">

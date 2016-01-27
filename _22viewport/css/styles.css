@@ -1,0 +1,235 @@
+/*COMMON*/
+.lwrap{
+    max-width: 980px;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    background: url("/images/bg-body.png");
+}
+p{
+    line-height: 20px;
+}
+
+/*HEADER*/
+header{    
+    background: url('/images/bg2.png') ;
+}
+.header-top{   
+    border-bottom: 1px solid #3d3d3d; 
+    background: url('/images/bg1.png');
+    color: #787878;
+    font-family: Georgia;
+    font-style: italic;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.8);
+}
+.header-top span a{
+    color: #bbb;
+}
+.header-top span a.active, .header-top span a:active, .header-top span a:hover, .header-top span a:focus{
+    color: #ddd;
+}
+.header-top .lwrap{
+    padding: 5px 10px 5px 10px;
+}
+header > .lwrap{
+    border-bottom: 10px solid white;
+    padding-top: 20px;
+}
+header:after{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: url("/images/bg3.png");
+    position: absolute;
+    box-shadow: inset 0px -10px 0px 0px rgba(255,255,255,0.2), inset 0px 10px 0px 0px rgba(255,255,255,0.2);
+}
+#logo + small {
+    text-shadow: 0px -1px 0px rgba(0,0,0,.09);
+    color: rgba(255,255,255,.35);
+    font-family: Georgia;
+    font-style: italic;
+    padding-left: 5px;
+    letter-spacing: 0.01em;
+}
+
+
+/*CONTENT*/
+header + .lwrap{
+    background: white;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 0 5px 4px rgba(0,0,0,.2);
+    position: relative;
+    margin-bottom: -30px;
+}
+.slider{
+    padding: 30px 0px 10px 0px;
+    margin-bottom: 30px;
+    background: url("/images/bg4.png")repeat-x left bottom, url("/images/hdr.png")repeat-x left top;
+}
+.slider > figure{
+    position: relative;
+}
+.slider figcaption{
+    position: absolute;
+    top: 30px;
+    left: 31px;
+}
+.slider figcaption h2 {
+    color: #f0f0f0;
+    font-size: 18px;
+    font-weight: 700;
+    background: rgba(0,0,0,.8);
+    padding: 8px 11px 9px 14px;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    border-radius: 3px 3px 3px 0px;
+    letter-spacing: -0.024em;
+}
+.slider figcaption span {
+    color: #999;
+    border-radius: 0px 0px 3px 3px;
+    padding: 0px 17px 11px 14px;
+    background: #141414;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: italic;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.2);
+}
+.slider figcaption span a{
+    color: #ddd;
+}
+.slider figcaption span a:active, .slider figcaption span a:hover, .slider figcaption span a:focus{
+    color: #999;
+}
+.thumbnails {
+    max-width: 740px;
+    width: 100%;
+    border-radius: 4px;
+    background: white;
+    padding: 8px 8px 8px 8px;
+    margin-top: -40px;
+    position: relative;
+}
+.thumbnails figure, .content article figure{
+    background: white;
+    border: 1px solid #b8b8b8;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+    padding: 3px;
+}
+.thumbnails a:active figure, .thumbnails a:hover figure, .thumbnails a:focus figure{
+    background: #333;
+    border: 1px solid black;
+}
+.thumbnails > div{
+    flex-grow: 1;
+}
+.content article figure{
+    float: left; 
+    margin-right: 10px;
+}
+.content .twin article:first-child figure{
+    margin-right: 0px;
+}
+.content article time, .content article time + a {
+    color: #aaa;
+    font-family: Georgia;
+    font-style: italic;
+}
+.content article time + a:active, .content article time + a:hover, .content article time + a:focus{
+    color: #444;
+}
+.content article{
+    border-bottom: 1px solid #efefef;
+    padding: 10px 0px 10px 0px;
+}
+.content article h4 a, .content article p a{
+    color: #444;
+}
+.content article h4 a{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.content article p{
+    color: #555;
+}
+.content article h4 a:active, .content article h4 a:hover, .content article h4 a:focus,
+.content article p a:active, .content article p a:hover, .content article p a:focus{
+    color: #e47600;
+}
+.twin > div{
+    width: 48%;
+    margin-bottom: 20px;
+}
+.twin article{
+    padding: 10px 0px 10px 0px;
+}
+.anchor {
+    padding: 12px 13px 10px 10px;
+    height: 40px;
+    background: url('/images/bg4.png');
+    margin-top: 30px;
+}
+.sidebar p, .sidebar p a:active, .sidebar p a:hover, .sidebar p a:focus{
+    color: #444;
+}
+.sidebar p{   
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid #efefef;
+}
+.sidebar p time a{
+    color: #999;
+    font-size: 10px;
+    font-style: italic;
+}
+.sidebar p a{
+    color: #e47600;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 34.9%;
+    padding-left: 24px;
+    border-left: 1px solid #efefef;
+    margin-left: 20px;
+}
+.sidebar figure{
+    border: 1px solid #d5d5d5;
+}
+.sponsors figure{
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 10px #fbfbfb;
+}
+
+/*FOOTER*/
+.footer{
+    background: url("/images/bg2.png");
+    box-shadow: inset 0px -10px 0px 0px rgba(255,255,255,0.1), inset 0px 10px 0px 0px rgba(255,255,255,0.1);
+}
+.footer .lwrap{
+    padding: 30px 10px 30px 10px;
+}
+.footer .lwrap > div{
+    width: 23%;
+}
+.footer .hdr {
+    color: #bbb;
+}
+.footer .hdr:after{
+    background: url("/images/hdr-footer.png");
+}
+.footer p{
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    color: #999;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.footer .comment{
+    margin-bottom: 10px;
+        border-bottom: 1px solid #383838;
+        padding-bottom: 10px;
+}
+.footer .lwrap > div:last-child p{
+    text-align: right;
+}

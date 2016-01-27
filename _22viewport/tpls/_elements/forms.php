@@ -1,0 +1,1 @@
+<input type='search' name='search' placeholder='to search, type and hit enter'>

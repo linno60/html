@@ -21,7 +21,7 @@
     </head>
     <body>
         <header>
-            <section class="lwrap" data-flex="axis">
+            <section class="lwrap" data-flex="axis" data-flex-480="axis w">
                 <div data-flex='-center'>
                     <a href="/" title="Return to the homepage" id='logo'>
                         <img src="/images/logo.png" width="69" height="51" alt="Snowboarding">
@@ -35,7 +35,7 @@
                         <a href="#">contact</a>
                     </nav>
                 </div>
-                <div data-flex='-center' data-flex-640='-center end w'>
+                <div data-flex='-center end w'>
                     <form action='#' method='post'>
                         <input type="search" name='search'>
                     </form>
@@ -79,36 +79,44 @@
         <section class="features lwrap" data-flex="col -center">
             <h2>features</h2>
             <a href="#"><i class="icon-close"></i></a>
-            <div data-flex="stripe">
-                <figure>
-                    <img src="/images/img3.png">
-                    <figcaption>
-                        <a href="#">Born Identity: Bringing Burton Hardgoods to Life</a>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="/images/img4.png">
-                    <figcaption>
-                        <a href="#">Jeremy Jones: On That Street Grind</a>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="/images/img5.png">
-                    <figcaption>
-                        <a href="#">Burton's Tokyo Rail Days Recap</a>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="/images/img6.png">
-                    <figcaption>
-                        <a href="#">Burton's Tokyo Rail Days Preview</a>
-                    </figcaption>
-                </figure>
+            <div data-flex="stripe w">
+                <div>
+                    <figure>
+                        <img src="/images/img3.png">
+                        <figcaption>
+                            <a href="#">Born Identity: Bringing Burton Hardgoods to Life</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/images/img4.png">
+                        <figcaption>
+                            <a href="#">Jeremy Jones: On That Street Grind</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/images/img5.png">
+                        <figcaption>
+                            <a href="#">Burton's Tokyo Rail Days Recap</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/images/img6.png">
+                        <figcaption>
+                            <a href="#">Burton's Tokyo Rail Days Preview</a>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
         <footer>
             <div class='lwrap'>
-                <section class='footer' data-flex="stripe">
+                <section class='footer' data-flex="stripe w">
                     <div>
                         <h5>products</h5>
                         <div class='links-default' data-flex='col -start'>
@@ -151,7 +159,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="copyright" data-flex="axis">
+                <section class="copyright" data-flex="axis w">
                     <span><small>&copy;</small> 2014 Mountains Snowboards</span>
                     <select>
                         <option>Change region</option>

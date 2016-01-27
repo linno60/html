@@ -116,9 +116,9 @@ header > .lwrap > div:last-child{
 }
 .about h2{
     max-width: 500px;
-    line-height: 58px;
+    line-height: 58rem;
     letter-spacing: -0.004em;
-    margin-bottom: 52px;
+    margin-bottom: 52rem;
 }
 .about .lwrap{
     padding: 247rem 10px 178rem 10px;
@@ -126,22 +126,19 @@ header > .lwrap > div:last-child{
 .about h2 sup {
     font-size: 28px;
     position: relative;
-    top: -15px;
-    padding: 5px;
+    top: -15rem;
+    padding: 5rem;
 }
 .about p {
     color: #fff;
     font-size: 15px;
     line-height: 30px;
-    margin: 0px 0px 30px 5px;
+    margin: 0px 0px 30rem 5rem;
     max-width: 600px;
 }
 
 /*FEATURES*/
-.features .lwrap{
-    padding: 30px 10px 30px 10px;
-}
-.features figure{
+.features > div > div{
     width: 23%;
 }
 .features figcaption{
@@ -157,13 +154,13 @@ header > .lwrap > div:last-child{
     text-decoration: underline;
 }
 .features.lwrap{
-    padding: 113px 9px 110px 12px;
+    padding: 113rem 9px 110rem 12px;
 }
 .features h2{
-    margin-bottom: 19px;
+    margin-bottom: 19rem;
 }
 .features > div{
-    padding-top: 82px;
+    padding-top: 82rem;
 }
 
 /*FOOTER*/
@@ -171,26 +168,35 @@ footer{
     background: black;
 }
 footer .lwrap{
-    padding: 74px 11px 58px 32px;
+    padding: 74rem 11px 58rem 32rem;
     max-width: 1014px;
 }
 .footer h5{
     color: white;
     font-size: 17px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 .copyright span {
     color: #fff;
     letter-spacing: 0.01em;
 }
 .copyright{
-   padding-top: 34px;
+    padding-top: 34rem;
 }
 .footer > div{
     width: 22.5%;
     margin-bottom: 20px;
 }
 .footer form{
-    padding-bottom: 48px;
+    padding-bottom: 48rem;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .footer > div{width: 48%;}
+    h2{font-size: 25px;line-height: 33px;}
+}
+@media (max-width: 480px) {
+    .features > div > div{width: 48%;}
 }

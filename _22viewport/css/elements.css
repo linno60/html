@@ -1,0 +1,160 @@
+body{
+    font-size: 11px;
+    font-family: HelveticaNeue;
+}
+
+/*LINKS*/
+.links-nav{
+    background: rgba(0,0,0,.1);
+    border-radius: 4px 4px 0px 0px;
+    padding: 0px 10px;
+    border-bottom: 8px solid #1e1e1e;
+    margin-top: 30px;
+}
+.links-nav a{
+    padding: 5px 17px 5px 5px;
+    margin-right: 8px;
+    background: url('/images/sep.png') no-repeat right center;    
+}
+.links-nav a:last-child{
+    background: none;
+}
+.links-nav a span{
+    color: #ededed;
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 0px 1px 2px rgba(0,0,0,.4);
+    margin-bottom: 7px;
+}
+.links-nav a em{
+    color: #787878;
+    font-family: Georgia;
+    font-style: italic;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.09);
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: rgba(0,0,0,.1);
+    position: relative;
+}
+.links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before{
+    content: "";
+    background: rgba(0,0,0,.2);
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    position: absolute;
+    left: 0px;
+    border-radius: 4px 4px 0px 0px;    
+}
+.links-top a{
+    color: #787878;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.8);
+}
+.links-top > span{
+    width: 1px;
+    height: 9px;
+    background: rgba(255,255,255,.1);
+    margin: 0px 5px;
+}
+.links-top a i{
+    margin-left: 5px;
+}
+.links-top a.active, .links-top a:active, .links-top a:hover, .links-top a:focus{
+    color: #bbb;
+}
+.links-top a.active i, .links-top a:active i, .links-top a:hover i, .links-top a:focus i{
+    background: url('/images/icons/down-hover.png')no-repeat right center;
+}
+.links-default li{
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid #efefef;
+}
+.links-footer li{
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid #383838;
+}
+.links-default a{
+    color: #434343;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    color: #e37600;
+}
+.links-footer a{
+    text-shadow: 0px 1px 1px rgba(0,0,0,.5);
+    color: #ddd;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    color: white;
+}
+
+/*BUTTONS*/
+.btn-thumb{
+    width: 20px;
+    height: 60px;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+    background: linear-gradient(#ededed, #f6f6f6);
+}
+.btn-thumb:hover{
+    border: 1px solid #3e3e3e;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.1), inset 0px 1px 0px 0px rgba(255,255,255,.25);
+    background: linear-gradient(#373737, #444);
+}
+.btn-thumb.prev{
+    border-radius: 4px 0px 0px 4px;
+    background: #f2f2f2 url('/images/icons/prev.png')no-repeat center center;    
+}
+.btn-thumb.next{
+    border-radius: 0px 4px 4px 0px;
+    background: #f2f2f2 url('/images/icons/next.png')no-repeat center center;
+}
+.btn-thumb.prev:hover{
+    background: #3d3d3d url('/images/icons/prev-hover.png')no-repeat center center;
+}
+.btn-thumb.next:hover{
+    background: #3d3d3d url('/images/icons/next-hover.png')no-repeat center center;
+}
+.btn-anchor{
+    color: #787878;
+    font-family: Georgia;
+    font-style: italic;
+    padding-right: 10px;
+    background: url(/images/icons/anchor.png)no-repeat right center;
+}
+.btn-anchor:active, .btn-anchor:hover, .btn-anchor:focus{
+    text-decoration: underline;
+}
+
+/*OTHER*/
+.hdr:after{
+    content: "";
+    flex-grow: 1;
+    height: 11px;
+    margin-left: 10px;
+    background: url("/images/hdr.png");
+}
+.hdr{
+    color: #444;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/*FORMS*/
+input[type=search]{
+    width: 300px;
+    height: 35px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: inset 0px 1px 5px rgba(0,0,0,.1);
+    color: black;
+    font-family: Arial;
+    padding: 0px 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+input[type=search]::-webkit-input-placeholder{color: #999;}
+input[type=search]::-moz-placeholder{color: #999;}
+input[type=search]:-ms-input-placeholder{color: #999;}
