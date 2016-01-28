@@ -23,10 +23,10 @@
         <header>
             <a name='top'></a>
             <section class="header-top">
-                <div class='lwrap' data-flex="axis">
-                    <div data-flex>
+                <div class='lwrap' data-flex="axis w">
+                    <div data-flex="-center w">
                         <time>06 Dec 2010</time>
-                        <span>&nbsp;&middot;&nbsp;</span>
+                        <span>&middot;&ensp;</span>
                         <div class="links-top" data-flex='-center w' data-childs='-center'>
                             <a href="#">Sample Page<i class="icon-down"></i></a><span></span>
                             <a href="#">Page Layouts<i class="icon-down"></i></a><span></span>
@@ -35,12 +35,12 @@
                             <a href="#">Contact</a>
                         </div>
                     </div>
-                    <span>Subscribe by <a href="#">RSS</a> or <a href="#">Email</a> for updates!</span>
+                    <span>Subscribe by <a href="#">RSS</a> or <a href="#">Emaiil</a> for updates!</span>
                 </div>
             </section>
             <section class="lwrap">
-                <div data-flex="axis">
-                    <div data-flex='-center'>
+                <div data-flex="axis" data-flex-480="vaxis">
+                    <div data-flex='-center w'>
                         <a href="/" title="Return to the homepage" id='logo'>
                             <img src="/images/logo.png" width="132" height="40" alt="Viewport">                        
                         </a>
@@ -80,7 +80,7 @@
             <div class="slider" data-flex='col -center'>                    
                 <figure>
                     <img src="images/img1.png">
-                    <figcaption>
+                    <figcaption data-flex="col -start">
                         <h2>Silicon Valley Shows Signs of a New Dot-Com Deal Frenzy</h2>
                         <span>By <a href="#">Orman Clark</a> on <time>4th Dec 2010</time> &middot;<a href="#"> 22 Comments</a></span>
                     </figcaption>
@@ -92,13 +92,13 @@
                         <a href="#"><figure><img src="/images/img2.png"></figure></a>
                         <a href="#"><figure><img src="/images/img2.png"></figure></a>
                         <a href="#"><figure><img src="/images/img2.png"></figure></a>
-                        <a href="#"><figure><img src="/images/img2.png"></figure></a>
-                        <a href="#"><figure><img src="/images/img2.png"></figure></a>
+                        <a href="#" class="hidden-sm"><figure><img src="/images/img2.png"></figure></a>
+                        <a href="#" class="hidden"><figure><img src="/images/img2.png"></figure></a>
                     </div>
                     <a href="#" class="btn btn-thumb next"></a>
                 </div>             
             </div>
-            <div data-flex='stripe'>
+            <div data-flex='-start between' data-flex-480="vstripe">
                 <div class="content">                
                     <div class='twin' data-flex='stripe'>
                         <div>
@@ -133,7 +133,7 @@
                                     <h4><a href="#">Silicon Valley Shows Signs of Dot-Com Frenzy</a></h4>
                                     <time>August 4 2010,</time>
                                     <a href='#'>8 Comments</a>
-                                    <p>Lorem ipsum ex vix illus nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
+                                    <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
                                 </article>
                                 <article class='clearfix'>
                                     <figure><img src="/images/img6.png"></figure>
@@ -159,7 +159,7 @@
                                     <h4><a href="#">Silicon Valley Shows Signs of Dot-Com Frenzy</a></h4>
                                     <time>August 4 2010,</time>
                                     <a href='#'>8 Comments</a>
-                                    <p>Lorem ipsum ex vix illus nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
+                                    <p>Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...</p>
                                 </article>
                                 <article class='clearfix'>
                                     <figure><img src="/images/img6.png"></figure>
@@ -225,7 +225,7 @@
                         </article>
                     </div>
                 </div>
-                <aside class='sidebar'>
+                <aside class='sidebar' data-flex-480="stripe w">
                     <form action='#' method='post'>
                         <input type="search" name='input' placeholder="to search, type and hit enter">
                     </form>
@@ -235,7 +235,7 @@
                     </div>
                     <div class='sponsors'>
                         <h4 class='hdr' data-flex='axis'>Sponsors</h4>
-                        <div data-flex="stripe">
+                        <div data-flex="stripe w">
                             <figure><img src="/images/img4.png"></figure>
                             <figure><img src="/images/img4.png"></figure>
                         </div>
@@ -269,7 +269,7 @@
         </section>
         <footer>
             <section class='footer'>
-                <div class='lwrap' data-flex='stripe'>
+                <div class='lwrap' data-flex='stripe w' data-flex-480="vstripe">
                     <div>
                         <h4 class='hdr' data-flex='axis'>Recent Posts</h4>
                         <ul class='links-footer'>
@@ -286,20 +286,20 @@
                         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
                         <p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</p>
                     </div>
-                    <div>
+                    <div class='comments'>
                         <h4 class='hdr' data-flex='axis'>Comments</h4>
-                        <p class='comment'>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
-                        <p class='comment'>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
-                        <p class='comment'>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
-                        <p class='comment'>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
+                        <p>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
+                        <p>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
+                        <p>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
+                        <p>Orman Clark on <a href='#'>Sample Post Wiht Threaded Comments</a></p>
                     </div>
-                    <div class="resume" data-flex='col -end'>
-                        <a href='#'><img src="/images/logo-alt.png"></a>
+                    <div data-flex='col -end'>
+                        <a href='#' id="logo-footer"><img src="/images/logo-alt.png"></a>
                         <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer</p>
                     </div>  
                 </div>
             </section>
-            <section class='copyright lwrap' data-flex='axis'>
+            <section class='copyright lwrap' data-flex='axis' data-flex-480="vaxis">
                 <span>Copyright &copy; 2010 &middot; All Rights Reserved</span>
                 <span>Viewport Theme by Orman Clark&nbsp;&middot;&nbsp;<a href='#'>WordPress</a>&nbsp;&middot;&nbsp;<a href='#'>Log in</a></span>
             </section>

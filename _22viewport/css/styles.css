@@ -15,8 +15,8 @@ p{
 }
 
 /*HEADER*/
-header{    
-    background: url('/images/bg2.png') ;
+header{
+    background: url('/images/bg2.png');
 }
 .header-top{   
     border-bottom: 1px solid #3d3d3d; 
@@ -26,6 +26,9 @@ header{
     font-style: italic;
     text-shadow: 0px -1px 0px rgba(0,0,0,.8);
 }
+.header-top time{
+    margin-right: 4px;
+}
 .header-top span a{
     color: #bbb;
 }
@@ -33,11 +36,17 @@ header{
     color: #ddd;
 }
 .header-top .lwrap{
-    padding: 5px 10px 5px 10px;
+    max-width: 1000px;
+    padding: 5px 10px 7px 10px;
+}
+.header-top > .lwrap > span{
+    text-align: right;
 }
 header > .lwrap{
-    border-bottom: 10px solid white;
-    padding-top: 20px;
+    border-bottom: 15rem solid white;
+}
+header > .lwrap > div{
+    padding: 35rem 1px 36rem 22rem;
 }
 header:after{
     content: "";
@@ -52,7 +61,7 @@ header:after{
     color: rgba(255,255,255,.35);
     font-family: Georgia;
     font-style: italic;
-    padding-left: 5px;
+    padding: 0px 5px;
     letter-spacing: 0.01em;
 }
 
@@ -60,14 +69,14 @@ header:after{
 /*CONTENT*/
 header + .lwrap{
     background: white;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 23rem 25rem 24rem;
     box-shadow: 0 5px 4px rgba(0,0,0,.2);
     position: relative;
-    margin-bottom: -30px;
+    margin-bottom: -65rem;
 }
 .slider{
-    padding: 30px 0px 10px 0px;
-    margin-bottom: 30px;
+    padding: 31rem 0px 10rem 0px;
+    margin-bottom: 30rem;
     background: url("/images/bg4.png")repeat-x left bottom, url("/images/hdr.png")repeat-x left top;
 }
 .slider > figure{
@@ -75,15 +84,16 @@ header + .lwrap{
 }
 .slider figcaption{
     position: absolute;
-    top: 30px;
-    left: 31px;
+    top: 30rem;
+    left: 31rem;
+    margin-right: 10px;
 }
 .slider figcaption h2 {
     color: #f0f0f0;
-    font-size: 18px;
+    font-size: 18rem;
     font-weight: 700;
     background: rgba(0,0,0,.8);
-    padding: 8px 11px 9px 14px;
+    padding: 8rem 11rem 10rem 14rem;
     text-shadow: 0px 1px 1px rgba(0,0,0,.2);
     border-radius: 3px 3px 3px 0px;
     letter-spacing: -0.024em;
@@ -91,12 +101,14 @@ header + .lwrap{
 .slider figcaption span {
     color: #999;
     border-radius: 0px 0px 3px 3px;
-    padding: 0px 17px 11px 14px;
+    padding: 0px 20rem 9rem 14rem;
     background: #141414;
     font-family: Georgia;
     font-size: 12px;
     font-style: italic;
     text-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    margin-top: -3rem;
+    letter-spacing: -0.005em;
 }
 .slider figcaption span a{
     color: #ddd;
@@ -109,15 +121,23 @@ header + .lwrap{
     width: 100%;
     border-radius: 4px;
     background: white;
-    padding: 8px 8px 8px 8px;
-    margin-top: -40px;
+    padding: 9rem;
+    margin-top: -41rem;
     position: relative;
+}
+.thumbnails a{
+    margin: 1px;
+}
+.thumbnails .btn-thumb{
+    height: auto;
 }
 .thumbnails figure, .content article figure{
     background: white;
     border: 1px solid #b8b8b8;
     box-shadow: 0px 0px 3px rgba(0,0,0,.2);
-    padding: 3px;
+}
+.thumbnails figure{
+    padding: 2px 1px;
 }
 .thumbnails a:active figure, .thumbnails a:hover figure, .thumbnails a:focus figure{
     background: #333;
@@ -125,81 +145,137 @@ header + .lwrap{
 }
 .thumbnails > div{
     flex-grow: 1;
+    max-width: 662px;
+}
+.content article figure, .content .twin article:first-child figure{
+    padding: 4px;
 }
 .content article figure{
-    float: left; 
-    margin-right: 10px;
+    float: left;
+    margin: 0px 19rem 0px 1rem;
+}
+.content .twin article figure{
+    margin: 3rem 13rem 0px 0px;
+    padding: 2px;
 }
 .content .twin article:first-child figure{
-    margin-right: 0px;
+    margin: 0px;
+    float: none;
 }
 .content article time, .content article time + a {
     color: #aaa;
     font-family: Georgia;
     font-style: italic;
+    letter-spacing: -0.005em;
+}
+.content .twin article time{
+    padding-left: 1rem;
 }
 .content article time + a:active, .content article time + a:hover, .content article time + a:focus{
     color: #444;
 }
 .content article{
     border-bottom: 1px solid #efefef;
-    padding: 10px 0px 10px 0px;
+    padding: 2rem 0px 20rem 0px;
+    margin-bottom: 18rem;
+}
+.content article h4{
+    font-weight: normal;
+    font-size: 12px;
+    margin: 1rem 0px 12rem 0px;
+}
+.content .twin article h4{
+    margin: 21rem 0px 12rem 1rem;
 }
 .content article h4 a, .content article p a{
     color: #444;
 }
 .content article h4 a{
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.7);
+}
+.content .twin article p{
+    margin: 0px 0px 3rem 0px;
+    letter-spacing: 0.0em;
 }
 .content article p{
     color: #555;
+    font-size: 12px;
+    margin: 12rem 0px 5rem 0px;
+    letter-spacing: -0.004em;
+}
+.twin article:first-child p{
+    margin: 12rem 2rem 0px 2rem;
+    letter-spacing: -0.007em;
 }
 .content article h4 a:active, .content article h4 a:hover, .content article h4 a:focus,
 .content article p a:active, .content article p a:hover, .content article p a:focus{
     color: #e47600;
 }
 .twin > div{
-    width: 48%;
-    margin-bottom: 20px;
+    width: 47.5%;
+    margin-bottom: 45rem;
 }
-.twin article{
-    padding: 10px 0px 10px 0px;
+.content .twin article{
+    padding: 17rem 0px 18rem 0px;
+    margin-bottom: 0px;
+}
+.content .twin article:first-child {
+    padding: 2rem 0px 17rem 1rem;
 }
 .anchor {
-    padding: 12px 13px 10px 10px;
-    height: 40px;
+    padding: 15rem 14rem 13rem 14rem;
     background: url('/images/bg4.png');
-    margin-top: 30px;
+    margin-top: 43rem;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 35%;
+    padding: 0px 2rem 0px 24rem;
+    border-left: 1px solid #efefef;
+    margin-left: 25rem;
+    flex-shrink: 0;
+}
+.sidebar figure{
+    border: 1px solid #d5d5d5;
+}
+.sponsors figure{
+    margin: 10rem 10rem 15rem 10rem;
+    box-shadow: 0px 0px 0px 10rem #fbfbfb;
+    width: 41.7%;
+}
+.sidebar > *{
+    padding-bottom: 28rem;
+}
+.sidebar > *:last-child{
+    padding-bottom: 0px;
+}
+.sidebar > .sponsors{
+    padding-bottom: 23rem;
+}
+.video{
+    padding-bottom: 57rem;
+    margin-bottom: 1rem;
 }
 .sidebar p, .sidebar p a:active, .sidebar p a:hover, .sidebar p a:focus{
     color: #444;
 }
-.sidebar p{   
-    padding: 12px 0px 12px 0px;
+.sidebar p{
+    padding: 1rem 0px 15rem 0px;
     border-bottom: 1px solid #efefef;
+    font-size: 12px;
+    margin-bottom: 13rem;
 }
 .sidebar p time a{
     color: #999;
     font-size: 10px;
     font-style: italic;
 }
+.sidebar p:last-child{
+    margin-bottom: 2rem;
+}
 .sidebar p a{
     color: #e47600;
-}
-
-/*SIDEBAR*/
-.sidebar{
-    width: 34.9%;
-    padding-left: 24px;
-    border-left: 1px solid #efefef;
-    margin-left: 20px;
-}
-.sidebar figure{
-    border: 1px solid #d5d5d5;
-}
-.sponsors figure{
-    margin: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 0px 10px #fbfbfb;
 }
 
 /*FOOTER*/
@@ -208,10 +284,12 @@ header + .lwrap{
     box-shadow: inset 0px -10px 0px 0px rgba(255,255,255,0.1), inset 0px 10px 0px 0px rgba(255,255,255,0.1);
 }
 .footer .lwrap{
-    padding: 30px 10px 30px 10px;
+    max-width: 960px;
+    padding: 113rem 7px 28rem 10px;
 }
 .footer .lwrap > div{
-    width: 23%;
+    width: 23.44%;
+    margin-bottom: 20px;
 }
 .footer .hdr {
     color: #bbb;
@@ -223,13 +301,67 @@ header + .lwrap{
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     color: #999;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
+    font-size: 12px;
 }
-.footer .comment{
-    margin-bottom: 10px;
-        border-bottom: 1px solid #383838;
-        padding-bottom: 10px;
+.footer .comments p{
+    margin-bottom: 11rem;
+    border-bottom: 1px solid #383838;
+    padding-bottom: 10rem;
+}
+.comments a{
+    color: #ddd;
+}
+.comments a:active, .comments a:hover, .comments a:focus{
+    color: white;
 }
 .footer .lwrap > div:last-child p{
     text-align: right;
+}
+#logo-footer{
+    margin: 3px 0px 11px 0px;
+}
+#logo-footer + p{
+    margin-right: 3px;
+}
+.footer .hdr{
+    margin-bottom: 20rem;
+}
+.copyright{
+    padding: 18rem 10px 19rem 10px;
+    max-width: 958px;
+    color: #999;
+}
+.copyright a {
+    color: #444;
+    white-space: nowrap;
+}
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    color: #999;
+}
+.copyright > span:first-child{
+    padding-right: 10px;
+}
+.copyright > span:last-child{
+    text-align: right;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .footer .lwrap > div {width: 48%;}
+    .slider figcaption h2 {font-size: 12px;}
+    .sidebar {width: 38%;}
+    .hidden {display: none;}
+}
+@media (max-width: 480px) {
+    header > .lwrap > div {padding: 10px;}
+    .links-nav a {padding: 11px 16px 10px 12px;}
+    .sidebar {padding: 0px;border-left: none;}
+    .sidebar > * {width: 100%;}
+    .sidebar > .advertisement {width: 69%;}
+    .sidebar > .sponsors {width: 29%;}
+    .sponsors figure {width: 100%}
+    .hidden-sm, .slider figcaption {display: none;}
+    .slider figcaption {top: 5px;left: 5px;}
+    .slider > figure:hover > figcaption {display: flex;}
 }
