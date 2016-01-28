@@ -131,9 +131,9 @@
             <div class="controls" data-flex="row-center-center">
                 <div class="btns" data-flex="row-center-around">
                     <a href="#" class="btn active"><span></span></a>
-                <a href="#" class="btn"><span></span></a>
-                <a href="#" class="btn"><span></span></a>
-                <a href="#" class="btn"><span></span></a>  
+                    <a href="#" class="btn"><span></span></a>
+                    <a href="#" class="btn"><span></span></a>
+                    <a href="#" class="btn"><span></span></a>  
                 </div>
                 <div class="controls-line"></div>
             </div>
@@ -141,28 +141,28 @@
         <section class="news">
             <h2>Donec Nec Fcilitis</h2>
             <div class="grid" data-flex="row--between">
-            <article>
-                <div class="label">
-                    <div class="lbl lbl-date">today</div>
-                    <div class="lbl lbl-month">November</div>
-                </div>
-                <p>Integer egestas ultricies urna vitae molestie. Donec nec facili&shy;sis nisi. Vivamus tempor feugiat velit gravida vehicula. Donec faucibus pellentesque ipsum id varius. Ut rutrum metus sed neque ultricies a dictum ante sagittis. Proin in facilisis diam. Sed placerat imperdiet purus, id sollicitudin magna pretium sit amet. Vivamus orci dolor, iaculis at volutpat eget.</p>
-            </article>
-            <article>
-                <div class="label">
-                    <div class="lbl lbl-date">24</div>
-                    <div class="lbl lbl-month">November</div>
-                </div>
-                <p>Integer egestas ultricies urna vitae molestie. Donec nec facili&shy;sis nisi. Vivamus tempor feugiat velit gravida vehicula. Donec faucibus pellentesque ipsum id varius. Ut rutrum metus sed neque ultricies a dictum ante sagittis. Proin in facilisis diam. Sed placerat imperdiet purus, id sollicitudin magna pretium sit amet. Vivamus orci dolor, iaculis at volutpat eget.</p>
-            </article>
-            <article>
-                <div class="label">
-                    <div class="lbl lbl-date">7</div>
-                    <div class="lbl lbl-month">November</div>
-                </div>
-                <p>Integer egestas ultricies urna vitae molestie. Donec nec facili&shy;sis nisi. Vivamus tempor feugiat velit gravida vehicula. Donec faucibus pellentesque ipsum id varius. Ut rutrum metus sed neque ultricies a dictum ante sagittis. Proin in facilisis diam. Sed placerat imperdiet purus, id sollicitudin magna pretium sit amet. Vivamus orci dolor, iaculis at volutpat eget.</p>
-            </article>
-        </div>
+                <article>
+                    <div class="label">
+                        <div class="lbl lbl-date">today</div>
+                        <div class="lbl lbl-month">November</div>
+                    </div>
+                    <p>Integer egestas ultricies urna vitae molestie. Donec nec facili&shy;sis nisi. Vivamus tempor feugiat velit gravida vehicula. Donec faucibus pellentesque ipsum id varius. Ut rutrum metus sed neque ultricies a dictum ante sagittis. Proin in facilisis diam. Sed placerat imperdiet purus, id sollicitudin magna pretium sit amet. Vivamus orci dolor, iaculis at volutpat eget.</p>
+                </article>
+                <article>
+                    <div class="label">
+                        <div class="lbl lbl-date">24</div>
+                        <div class="lbl lbl-month">November</div>
+                    </div>
+                    <p>Integer egestas ultricies urna vitae molestie. Donec nec facili&shy;sis nisi. Vivamus tempor feugiat velit gravida vehicula. Donec faucibus pellentesque ipsum id varius. Ut rutrum metus sed neque ultricies a dictum ante sagittis. Proin in facilisis diam. Sed placerat imperdiet purus, id sollicitudin magna pretium sit amet. Vivamus orci dolor, iaculis at volutpat eget.</p>
+                </article>
+                <article>
+                    <div class="label">
+                        <div class="lbl lbl-date">7</div>
+                        <div class="lbl lbl-month">November</div>
+                    </div>
+                    <p>Integer egestas ultricies urna vitae molestie. Donec nec facili&shy;sis nisi. Vivamus tempor feugiat velit gravida vehicula. Donec faucibus pellentesque ipsum id varius. Ut rutrum metus sed neque ultricies a dictum ante sagittis. Proin in facilisis diam. Sed placerat imperdiet purus, id sollicitudin magna pretium sit amet. Vivamus orci dolor, iaculis at volutpat eget.</p>
+                </article>
+            </div>
         </section>
         <footer>
             <section class="footer" data-flex="row-center-between">

@@ -1,0 +1,107 @@
+body{
+    font-size: 12px;
+    font-family: Helvetica;
+}
+
+/*LINKS*/
+.links-nav{
+    padding-right: 10px;
+}
+.links-nav a{
+    color:  #909090;
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin: 12rem 6px 0px 5px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    margin: 6rem 5rem 0px 5rem;
+}
+.links-footer, .links-footer a{
+    color: #9e9e9e;
+    font-family: Arial;
+    font-size: 11px;
+}
+.links-footer a{
+    margin: 0px 4px 0px 3px;
+}
+.links-footer{
+    margin: 6px 0px 0px -3px;
+}
+.links-controls{
+    max-width: 250px;
+    height: 8px;
+    transform: translateY(-50%);
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,.22);
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1));
+    padding: 0px 17px;
+}
+.links-controls a{
+    width: 13px;
+    height: 15px;
+    background: url('/images/point-wrap.png');
+    margin: 0px 19px 1px 19px;
+    padding: 2px;
+}
+.links-controls a.active:before, .links-controls a:active:before, .links-controls a:hover:before, .links-controls a:focus:before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #567e9e;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.3);
+    background: #8faac0 linear-gradient(rgba(255,255,255,.15), rgba(0,0,0,.15));
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 133rem;
+    height: 38px;
+    margin-left: 2px;
+    color: #333;
+    font-family: SansusWebissimo;
+    font-size: 14px;
+    padding: 0px 10px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.3);
+    border: 1px solid #d6b609;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.6), 0px 3px 0px 0px #af9b2b;
+    background: linear-gradient(#ffe86b, #ffd700);
+    text-align: center;
+}
+
+/*LABELS*/
+.lbl-date{
+    width: 55px;
+    text-align: center;
+    color: rgb(102,102,102);
+}
+.lbl-date span{
+    background: #ededed;
+    height: 36px;
+    font-family: SansusWebissimo;
+    text-transform: uppercase;
+}
+.lbl-date small{
+    height: 18px;
+    background: #c9c9c9;
+    font-size: 10px;
+}
+
+/*CITES*/
+blockquote{
+    color: rgb(102,102,102);
+    font-family: Georgia;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+    text-align: center;
+    background: url("/images/shadow-cite.png")no-repeat center top 4px;
+    padding: 39rem 0px 27rem 0px;
+}

@@ -1,0 +1,19 @@
+
+/* FONTS */
+@font-face {
+	font-family: 'SansusWebissimo';
+	src: local('в�є'), url('/fonts/SansusWebissimoRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+/* ICONS */
+.icon-calendar {width: 28px; height: 28px; background: url('/images/icons/calendar.png');}
+.icon-fb {width: 20px; height: 20px; background: url('/images/icons/fb.png');}
+.icon-frame {width: 28px; height: 28px; background: url('/images/icons/frame.png');}
+.icon-next {width: 28px; height: 28px; background: url('/images/icons/next.png');}
+.icon-prev {width: 28px; height: 28px; background: url('/images/icons/prev.png');}
+.icon-ribbon {width: 23px; height: 29px; background: url('/images/icons/ribbon.png');}
+.icon-rss {width: 16px; height: 16px; background: url('/images/icons/rss.png');}
+.icon-tools {width: 32px; height: 32px; background: url('/images/icons/tools.png');}
+.icon-tw {width: 24px; height: 24px; background: url('/images/icons/tw.png');}
+.icon-zoom {width: 32px; height: 32px; background: url('/images/icons/zoom.png');}

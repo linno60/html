@@ -1,0 +1,252 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0px 10px;
+}
+body {
+    background: url('/images/bg.png');
+}
+p{
+    color: #777;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+}
+h2{
+    text-shadow: 0px 1px 0px rgba(255,255,255,.7);
+    color: #bebebe;
+    font-family: SansusWebissimo;
+    font-size: 21px;
+    font-weight: 400;
+}
+.portfolio, footer{
+    box-shadow: inset 0px 2px 1px 0px #999;
+    background: url('/images/bg-alt.png');
+}
+
+/*HEADER*/
+header{
+    background:url("/images/shadow-border1.png")no-repeat center bottom -1px, url('/images/bg-alt.png');
+}
+header > .lwrap{
+    padding: 61rem 10px 0px 10px;
+    max-width: 988px;
+}
+header > .slider.lwrap{
+    padding-top: 36rem;
+    max-width: 1075px;
+}
+#logo{
+    margin: 0px 41rem 0px 10rem;
+}
+.slider > a:first-child{
+    margin: 14rem 23rem 0px 4rem;
+}
+.slider > a:last-child{
+    margin: 14rem 0px 0px 17rem;
+}
+.slider figure{
+    position: absolute;
+    z-index: 1;
+    top: auto;
+    right: 0px;
+    bottom: -21px;
+    width: 77.54%;
+}
+.slider figure:first-child{
+    right: 152rem;
+    left: 13rem;
+    width: auto;
+}
+.slider > div > div:first-child{
+    width: 31%;
+    flex-shrink: 0;
+    padding: 52rem 10px 66rem 0px;
+}
+.slider > div > div:last-child{
+    flex-grow: 1;
+    position: relative;
+}
+.slider h1 {
+    color: rgb(102,102,102);
+    font-family: SansusWebissimo;
+    font-size: 36rem;
+    font-weight: normal;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.3);
+}
+.slider p {
+    color: rgb(102,102,102);
+    margin: 9rem 0px 22rem 2rem;
+    font-family: SansusWebissimo;
+    line-height: 19px;
+    font-size: 14px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    letter-spacing: 0;
+}
+.slider p a {
+    color: #1e1e1e;
+    background: #ffd800;
+}
+
+/*CONTENT*/
+.content {
+    background: url('/images/group1.png')no-repeat left 27px, url('/images/group2.png')no-repeat right 27px;
+}
+.content:before {
+    content: "";
+    height: 20px;
+    background: rgba(0,0,0,.03) url("/images/shadow-border2.png")no-repeat center bottom -3px;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.5);
+    position: relative;
+    display: block;
+}
+.content .lwrap blockquote + h2{
+    margin-bottom: 30rem;
+    background: url("/images/shadow-hdr.png")no-repeat center center
+}
+.content article{
+    width: 26.8%;
+    margin-bottom: 42rem;
+}
+.content article > i{
+    float: left;
+    margin: 7rem 22rem 0px 0px;
+}
+.content article h3{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    color: rgb(102,102,102);
+    font-family: SansusWebissimo;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10rem;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+    background: url("/images/shadow-portfolio2.png")no-repeat center bottom -2px, url('/images/bg-alt.png');
+}
+.portfolio .lwrap{
+    padding: 22rem 11px 17rem 13px;
+}
+.portfolio h2 i{
+    margin: 7rem 12rem 0px -4rem;
+}
+.portfolio h2{
+    margin-bottom: 19rem;
+}
+.portfolio figure{
+    width: 17.95%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.32), inset 0px 1px 0px rgba(255,255,255,.4);
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    border-radius: 4px;
+    background: rgba(90,90,90,.9);
+}
+.overlay a{
+    width: 32px;
+    height: 32px;
+    background: url(/images/icons/zoom.png);
+}
+.portfolio figure:hover .overlay{
+    display: flex;
+}
+
+/*CONTROLS*/
+.controls {
+    position: relative;
+    background: rgba(0,0,0,.03) url("/images/shadow-portfolio.png")no-repeat center bottom -2px;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+}
+.controls .lwrap{
+    padding: 21px 10px 11px 10px;
+}
+
+/*NEWS*/
+.news .lwrap{
+    padding: 19rem 10px 8rem 12px;
+}
+.news h2{
+    margin-bottom: 15rem;
+}
+.news article > .lbl-date{
+    float: left;
+    margin: 3rem 13rem 0px 1rem;
+}
+.news article{
+    width: 26.3%;
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+footer{
+    color: #9e9e9e;
+    font-family: Arial;
+    font-size: 11px;
+}
+footer a{
+    color: #9e9e9e;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+footer .lwrap{
+    padding: 30rem 10px 30rem 12px;
+}
+footer .links-social a {
+    margin: 2px 5px 0px 5px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    header > .slider.lwrap {
+        padding-top: 10px;
+    }
+    header > .lwrap {
+        padding: 10px 10px 0px 10px;
+    }
+    .slider > div > div:first-child {
+        padding: 10px 10px 10px 0px;
+    }
+    .slider h1{font-size: 22px;}
+    .slider > a:first-child, .slider > a:last-child{margin: 0px;}
+}
+@media (max-width: 640px) {
+    .slider > div > div:last-child {
+        height: 400rem;
+    }
+    .content .lwrap blockquote + h2 {
+        background: none;
+    }
+    .content article, .news article {
+        width: 31%;
+    }
+    .slider > div > div:first-child {
+        padding: 0px 0px 10px 0px;
+    }
+    .slider{text-align: center;}
+    .hidden{display: none;}
+    .portfolio figure{width: 24%;}
+}
+@media (max-width: 480px) {    
+    .portfolio figure{width: 48%;}
+    #logo {
+    margin: 0px;
+}
+footer{text-align: center;}
+}
