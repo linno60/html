@@ -1,0 +1,82 @@
+body{
+    font-size: 12px;
+    font-family: QuickSand;
+    color: #2a2e33;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Droid Sans;
+    font-weight: 700;
+    font-size: 13px;
+    height: 100rem;
+    padding: 10px 22px 15px 22px;
+    border-top: 4px solid #2a2e33;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    border-top: 4px solid #ffd700;
+    background: #1e2329;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 103px;
+    height: 28px;
+    border-radius: 10px;
+    background: #e7cb2b;
+    color: #1e1e1e;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-family: Droid Sans;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*FORMS*/
+input[name=date], input[name=input], select{
+    border-radius: 10px;   
+    outline: none;
+}
+input[name=date], select{
+    height: 43px;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+}
+input[name=date]{    
+    color: black; 
+    background: white url('/images/icons/calendar.png') 5px center no-repeat;
+    padding: 0px 20px;
+}
+input[name=date]::-webkit-input-placeholder {color: #2a2d33;}
+input[name=date]::-moz-placeholder {color: #2a2d33;}
+input[name=date]:-ms-input-placeholder {color: #2a2d33;}
+.label-lg{
+    color: #ffd700;
+    font-size: 18px;
+    font-weight: 300;
+    min-height: 20px;
+    margin: 0px 0px 1px 10px;
+}
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0px 20px;
+    background: white url('/images/icons/down.png') 5px center no-repeat;
+}
+input[name=input]{
+    max-width: 200px;
+    height: 30px;
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    padding: 0px 5px;
+    background: none;
+    color: white; 
+}
+.label-sm{
+    color: white;    
+}

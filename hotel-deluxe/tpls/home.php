@@ -51,16 +51,16 @@
                 <div data-flex='col'>
                     <label>Room Type</label>
                     <span class="select">
-                    <select data-flex="row-center-center">
-                        <option selected>Standard Single Room</option>
-                        <option>Family Rooom</option>
-                        <option>VIP Room</option>        
-                    </select>
-                </span>
+                        <select data-flex="row-center-center">
+                            <option selected>Standard Single Room</option>
+                            <option>Family Rooom</option>
+                            <option>VIP Room</option>        
+                        </select>
+                    </span>
                 </div>
                 <div data-flex="col">
                     <label></label>
-                   <button><span class='btn btn-default'>View Prices</span></button> 
+                    <button><span class='btn btn-default'>View Prices</span></button> 
                 </div> 
             </form>
             <div class='booking'>

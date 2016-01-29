@@ -214,39 +214,23 @@ footer .links-social a {
 
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
-    header > .slider.lwrap {
-        padding-top: 10px;
-    }
-    header > .lwrap {
-        padding: 10px 10px 0px 10px;
-    }
-    .slider > div > div:first-child {
-        padding: 10px 10px 10px 0px;
-    }
+    header > .slider.lwrap {padding-top: 10px;}
+    header > .lwrap {padding: 10px 10px 0px 10px;}
+    .slider > div > div:first-child {padding: 10px 10px 10px 0px;}
     .slider h1{font-size: 22px;}
     .slider > a:first-child, .slider > a:last-child{margin: 0px;}
 }
 @media (max-width: 640px) {
-    .slider > div > div:last-child {
-        height: 400rem;
-    }
-    .content .lwrap blockquote + h2 {
-        background: none;
-    }
-    .content article, .news article {
-        width: 31%;
-    }
-    .slider > div > div:first-child {
-        padding: 0px 0px 10px 0px;
-    }
+    .slider > div > div:last-child {height: 400rem;}
+    .content .lwrap blockquote + h2 {background: none;}
+    .content article, .news article {width: 31%;}
+    .slider > div > div:first-child {padding: 0px 0px 10px 0px;}
     .slider{text-align: center;}
     .hidden{display: none;}
     .portfolio figure{width: 24%;}
 }
 @media (max-width: 480px) {    
     .portfolio figure{width: 48%;}
-    #logo {
-    margin: 0px;
-}
-footer{text-align: center;}
+    #logo {margin: 0px;}
+    footer{text-align: center;}
 }

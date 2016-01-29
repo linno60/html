@@ -1,0 +1,184 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1200px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header, .booking form{
+    background: #2a2e33;
+}
+#logo + small{
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/*BANNER*/
+.banner{
+    /*    background: #00ccff url('/images/bg1.png') no-repeat;
+        background-size: cover;*/
+    background: #00ccff;
+    text-align: center;
+}
+.banner h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Droid Sans;
+    padding: 18px 10px 29px 10px;
+    background: url('/images/line.png')no-repeat center bottom;
+}
+.banner span strong{
+    font-weight: 700;
+    font-size: 30px;
+}
+.banner span{
+    color: #fff;     
+    text-align: center;
+    padding: 30px 30px 26px 30px;
+    font-size: 30px;    
+    background: url('/images/line.png') repeat-x center bottom;
+}
+.banner p{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 30px; 
+    padding: 36px 10px 30px 10px;
+}
+
+/*BOOKING*/
+.booking > .lwrap > h2, .rooms > .lwrap > h2{
+    font-weight: 400;
+    font-family: ARDECODE;
+    font-size: 60px;
+}
+.booking {
+    border-bottom: 1px solid #949699;
+    background:url("/images/shadow.png")no-repeat center 80px, url('/images/bg2.png');
+}
+.booking form ~ *, .rooms{
+    text-align: center;
+}
+.booking form{
+    padding: 10px 10px 10px 10px;
+    margin-top: -30px;
+}
+.booking form > fieldset{
+    padding: 10px;
+}
+.booking p{
+    font-size: 14px;
+}
+.slider{
+    width: 100%;
+}
+.slider > div{
+    flex-grow: 1;
+}
+.slider figure{
+    border: 3px solid #292d33;
+    border-radius: 50%;
+}
+a:hover .icon-next {background: url('/images/icons/next-hover.png');}
+a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
+
+/*ROOMS*/
+.rooms {
+    background: url('/images/bg3.png');
+}
+.rooms article{
+    width: 32%;
+}
+.rooms .lwrap{
+    padding: 30px 10px 30px 10px;
+}
+.rooms article h3{
+    font-size: 24px;
+    margin: 5px 0px 5px 0px;
+    font-weight: normal;
+}
+.rooms article h3 a{
+    color: #2a2e33;
+}
+.rooms article h3 a:active, .rooms article h3 a:hover, .rooms article h3 a:focus{
+    text-decoration: underline;
+}
+
+/*LOCATED*/
+.located {
+    background: #e7ca2b;
+    color: white;
+}
+.located > .lwrap{
+    position: relative;
+    padding: 40px 10px 40px 10px;
+}
+.located > .lwrap > figure{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.located h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.located blockquote{
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*FOOTER*/
+footer {
+    border-bottom: 34px solid #1f1f1f;
+    background: #333;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+footer a:after, footer span:after{
+    content: "\A";
+    white-space: pre-wrap
+}
+footer h5{
+    font-family: Droid Sans;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+footer > .lwrap > div{
+    width: 20%;
+}
+footer > .lwrap > .join{
+    width: 36%;
+}
+footer p{
+    margin-bottom: 5px;
+}
+footer time{
+    color: #e7cb2c;
+    text-transform: uppercase;
+}
+footer .lwrap{
+    padding: 30px 10px 30px 10px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    
+}

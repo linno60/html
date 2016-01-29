@@ -90,9 +90,9 @@ a.btn-nav.active, a.btn-nav:hover{
 .banner-title h1{
     text-transform: uppercase;
     color: #fff;
-     text-align: center;
+    text-align: center;
     font: 700 60px "Droid Sans";
-     position: relative;
+    position: relative;
     padding: 18px 0px 29px 0px;
 }
 .banner-title h1:after{
@@ -114,15 +114,14 @@ a.btn-nav.active, a.btn-nav:hover{
     text-align: center;
     min-width: 464px;
     padding: 30px 0px 26px 0px;
-    font: 30px "Quicksand";
-     
+    font: 30px "Quicksand";     
     background: url('../images/line2.png') repeat-x center bottom;
 }
 .banner-title p{
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-     font: 30px "Quicksand";
+    font: 30px "Quicksand";
     padding: 36px 0px 30px 0px;
 }
 .booking-wrap{
@@ -218,7 +217,7 @@ a.btn-nav.active, a.btn-nav:hover{
     color: #292d33;
 }
 .rooms h1{
-margin: 0px 0px 26px 0px;
+    margin: 0px 0px 26px 0px;
 }
 .booking p{
     text-align: center;
@@ -258,10 +257,10 @@ margin: 0px 0px 26px 0px;
 .slider a{
     width: 216px;
     height: 216px;
-border: 3px solid #292d33;
-border-radius: 50%;
-background-color: #fff;
-margin: 12px 12px 12px 12px;
+    border: 3px solid #292d33;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 12px 12px 12px 12px;
 }
 .rooms-wrap{
     background: url('../images/bg3.png');

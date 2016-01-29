@@ -111,12 +111,12 @@
         </section>
         <section class="controls">
             <div class="lwrap" data-flex="center">
-               <div class="links-controls" data-flex="-center around" data-childs="-center center">
-                <a href="#" class="active"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>  
-            </div> 
+                <div class="links-controls" data-flex="-center around" data-childs="-center center">
+                    <a href="#" class="active"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>  
+                </div> 
             </div>
         </section>
         <section class="news">
