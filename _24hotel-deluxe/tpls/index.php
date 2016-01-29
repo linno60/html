@@ -39,7 +39,7 @@
             </div>
         </header>
         <section class='banner' data-flex="col -center center">            
-            <span><strong>Hello,</strong> You've Reached</span>
+            <span><strong>Hello</strong>, You've Reached</span>
             <h1>hotel deluxe</h1>
             <p>hotel - spa saloon - fine dining</p>
         </section>
@@ -81,7 +81,7 @@
         <section class='rooms'>
             <div class='lwrap'>
                 <h2>Our Room Types</h2>
-                <div data-flex='stripe w' data-childs="col -center">
+                <div data-flex='stripe w'>
                     <article>
                         <figure><img src="/images/img1.png"></figure>
                         <h3><a href="#">Standard Double Room</a></h3>
@@ -179,35 +179,39 @@
                 </div>
                 <div>
                     <h5>latest news</h5>
-                    <span>
-                        <a href="#">Grand Hotel joins DeluxeHotels</a>
-                        <time>15 aug</time>
-                    </span>
-                    <span>
-                        <a href="#">Happy Christmas To Everyone</a>
-                        <time>15 aug</time>
-                    </span>
-                    <span>
-                        <a href="#">Best Places To Visit 2014</a>
-                        <time>15 aug</time>
-                    </span>
-                    <span>
-                        <a href="#">Various Offers</a>
-                        <time>15 aug</time>
-                    </span>
+                    <div data-childs="col">
+                        <span>
+                            <a href="#">Grand Hotel joins DeluxeHotels</a>
+                            <time>15 aug</time>
+                        </span>
+                        <span>
+                            <a href="#">Happy Christmas To Everyone</a>
+                            <time>15 aug</time>
+                        </span>
+                        <span>
+                            <a href="#">Best Places To Visit 2014</a>
+                            <time>15 aug</time>
+                        </span>
+                        <span>
+                            <a href="#">Various Offers</a>
+                            <time>15 aug</time>
+                        </span> 
+                    </div>
                 </div>
                 <div class="join">
                     <h5>join deluxehotels</h5>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vestibulum blandit egestas. Nam id lectus vel orci luctus consectetur eget id elit. In tortor odio, pellentesque eu arcu sit amet, lacinia euismod nisi. Aliquam sodales tristique mauris ac fermentum. Donec vel varius ipsum. Pellentesque vitae mollis massa. </p>
-                    <p>There is no costs or whatsoever so sign up today!</p>
+                    <div>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vestibulum blandit egestas. Nam id lectus vel orci luctus consectetur eget id elit. In tortor odio, pellentesque eu arcu sit amet, lacinia euismod nisi. Aliquam sodales tristique mauris ac fermentum. Donec vel varius ipsum. Pellentesque vitae mollis massa. </p>
+                        <p>There is no costs or whatsoever so sign up today!</p>
+                    </div>     
                     <a href='#' class='btn btn-default'>read more</a>
                 </div>
                 <div>
                     <h5>members area</h5>
                     <form action="#" method="post" data-flex="col -start">
-                        <label>Username</label>
+                        <label class="label-sm">Username</label>
                         <input type="text" name="input">
-                        <label>Password</label>
+                        <label class="label-sm">Password</label>
                         <input type="text" name="input">
                         <button><span class='btn btn-default'>login</span></button> 
                     </form>
