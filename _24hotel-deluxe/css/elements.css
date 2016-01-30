@@ -12,8 +12,10 @@ body{
     font-weight: 700;
     font-size: 13px;
     height: 100rem;
-    padding: 10px 22px 15px 22px;
+    padding: 10rem 22rem 15rem 22rem;
     border-top: 4px solid #2a2e33;
+    text-align: center;
+    white-space: nowrap;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     border-top: 4px solid #ffd700;
@@ -22,7 +24,7 @@ body{
 
 /*BUTTONS*/
 .btn-default{
-    min-width: 103px;
+    min-width: 103rem;
     height: 28px;
     border-radius: 10px;
     background: #e7cb2b;
@@ -49,7 +51,7 @@ input[name=date], select{
 }
 input[name=date]{
     color: black;
-    background: white url('/images/icons/calendar.png') 8px center no-repeat;
+    background: white url('/images/icons/calendar.png') 8rem center no-repeat;
     padding: 0px 27px;
 }
 input[name=date]::-webkit-input-placeholder {color: #2a2d33;}
@@ -68,8 +70,8 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    padding: 0px 20px;
-    background: white url('/images/icons/down.png') 10px center no-repeat;
+    padding: 0px 10px 0px 20px;
+    background: white url('/images/icons/down.png') 10rem center no-repeat;
 }
 input[name=input]{
     max-width: 222px;

@@ -1,5 +1,5 @@
 /*COMMON*/
-figure img{
+figure img, #logo img{
     width: 100%;
     height: 100%;
     display: block;
@@ -14,14 +14,14 @@ header, .booking form{
     background: #2a2e33;
 }
 #logo + small{
-    padding-left: 12px;
+    padding-left: 12rem;
     color: #fff;
     font-weight: 300;
     font-style: italic;
     font-size: 14px;
 }
 header > .lwrap > div{
-    margin: 0px 0px 5px 23px;
+    margin: 0px 10px 5rem 23rem;
 }
 header > .lwrap{
     max-width: 1248px;
@@ -41,7 +41,7 @@ header > .lwrap{
     font-size: 60px;
     font-weight: 700;
     font-family: Droid Sans;
-    padding: 18px 10px 29px 10px;
+    padding: 18rem 10px 29rem 10px;
     background: url('/images/line.png')no-repeat center bottom;
 }
 .banner span strong{
@@ -51,7 +51,7 @@ header > .lwrap{
 .banner span{
     color: #fff;
     text-align: center;
-    padding: 72px 73px 26px 74px;
+    padding: 72rem 73rem 26rem 74rem;
     font-size: 30px;
     background: url('/images/line.png') repeat-x center bottom;
 }
@@ -60,7 +60,7 @@ header > .lwrap{
     color: #fff;
     text-align: center;
     font-size: 30px;
-    padding: 36px 10px 134px 10px;
+    padding: 36rem 10px 134rem 10px;
 }
 
 /*BOOKING*/
@@ -72,14 +72,14 @@ header > .lwrap{
 }
 .booking {
     border-bottom: 1px solid #949699;
-    background: url("/images/shadow.png")no-repeat center 49px, url('/images/bg2.png');
+    background: url("/images/shadow.png")no-repeat center 49rem, url('/images/bg2.png');
 }
 .booking form ~ *, .rooms{
     text-align: center;
 }
 .booking form{
-    padding: 10px 18px 14px 18px;
-    margin: -52px 0px 44px 0px;
+    padding: 10px 18rem 14rem 18rem;
+    margin: -52rem 0px 44rem 0px;
     width: 100%;
     max-width: 1020px;
 }
@@ -87,7 +87,7 @@ header > .lwrap{
     margin: 24px 0px 10px 0px;
 }
 .booking form .btn-default{
-    min-width: 176px;
+    min-width: 176rem;
     height: 43px;
     font-size: 18px;
     text-transform: capitalize;
@@ -102,7 +102,7 @@ header > .lwrap{
 .slider{
     width: 100%;
     max-width: 1010px;
-    padding: 41px 0px 34px 0px;
+    padding: 41rem 0px 34rem 0px;
 }
 .slider > div{
     flex-grow: 1;
@@ -122,17 +122,17 @@ a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
 }
 .rooms article{
     width: 32.25%;
-    margin-bottom: 32px;
+    margin-bottom: 32rem;
 }
 .rooms > .lwrap > h2{
-    margin-bottom: 31px;
+    margin-bottom: 31rem;
 }
 .rooms .lwrap{
-    padding: 28px 10px 64px 10px;
+    padding: 28rem 10px 64rem 10px;
 }
 .rooms article h3{
     font-size: 24px;
-    margin: 5px 0px 3px 0px;
+    margin: 5rem 0px 3rem 0px;
     font-weight: normal;
 }
 .rooms article h3 a{
@@ -143,7 +143,7 @@ a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
 }
 .rooms p{
     line-height: 15px;
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
 }
 
 /*LOCATED*/
@@ -153,17 +153,18 @@ a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
 }
 .located > .lwrap{
     position: relative;
-    padding: 34px 10px 45px 10px;
+    padding: 34rem 260rem 45rem 10px;
 }
 .located > .lwrap > figure{
     position: absolute;
     right: -11px;
     bottom: 0px;
+    width: 23.67%;
 }
 .located h2{
-    font-size: 48px;
+    font-size: 48rem;
     font-weight: 400;
-    margin-bottom: 9px;
+    margin-bottom: 9rem;
 }
 .located blockquote{
     font-size: 18px;
@@ -172,7 +173,7 @@ a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
 
 /*FOOTER*/
 footer {
-    border-bottom: 34px solid #1f1f1f;
+    border-bottom: 34rem solid #1f1f1f;
     background: #333;
     color: white;
 }
@@ -188,13 +189,13 @@ footer span{
 footer h5{
     font-family: Droid Sans;
     font-size: 18px;
-    margin-bottom: 13px;
+    margin-bottom: 13rem;
     font-weight: normal;
     text-transform: uppercase;
 }
 footer > .lwrap > div{
     width: 19%;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
 }
 footer > .lwrap > div:last-child{
     width: 17.2%;
@@ -203,10 +204,10 @@ footer > .lwrap > .join{
     width: 39.3%;
 }
 footer p{
-    margin-bottom: 17px;
+    margin-bottom: 17rem;
 }
 footer p:last-child{
-    margin-bottom: 23px;
+    margin-bottom: 23rem;
 }
 footer time{
     color: #e7cb2c;
@@ -214,13 +215,27 @@ footer time{
     font-size: 10px;
 }
 footer .lwrap{
-    padding: 22px 31px 97px 10px;
+    padding: 22rem 31rem 97rem 10px;
 }
 footer form button{
     margin: 2px;
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 960px) {
+    header > .lwrap > div{margin: 0px 10px 5rem 0px;}
+    input[name="date"], select {font-size: 12px;}
+}
+@media (max-width: 640px) {
+    .located h2{font-size: 26px;}
+    .slider figure.hidden {display: none;}
+    footer > .lwrap > div:last-child, footer > .lwrap > div {width: 32%;}
+    footer > .lwrap > .join {width: 100%;order: 1;}
+    .booking form > fieldset, .booking form > button, .rooms article{width: 49%;}
+}
 @media (max-width: 480px) {
-
+    .located > .lwrap {padding: 10px;}
+    .slider figure.hidden-sm, .located > .lwrap > figure {display: none;}
+    footer > .lwrap > div:first-child {width: 100%;}
+    footer > .lwrap > div:last-child, footer > .lwrap > div {width: 48%;}
 }

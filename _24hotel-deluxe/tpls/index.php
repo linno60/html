@@ -22,7 +22,7 @@
     <body>
         <header>
             <div class='lwrap' data-flex='axis'>
-                <div data-flex="-center">
+                <div data-flex="-center w">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="201" height="23" alt="Hotel-Deluxe">                    
                     </a>
@@ -43,9 +43,8 @@
             <h1>hotel deluxe</h1>
             <p>hotel - spa saloon - fine dining</p>
         </section>
-        <section class='booking'>
-            <div class="lwrap" data-flex="col -center">
-                <form action='#' method='post' data-flex='axis' data-childs="col">
+        <section class='booking' data-flex="col -center">
+            <form action='#' method='post' data-flex='axis w' data-childs="col">
                     <fieldset>
                         <label class="label-lg">Arrival</label>
                         <input type="text" name="date" placeholder="21/08/2013">                   
@@ -65,14 +64,15 @@
                     </fieldset>
                     <button><span class='btn btn-default'>View Prices</span></button> 
                 </form>
+            <div class="lwrap" data-flex="col -center"> 
                 <h2>Book A Package</h2>
                 <p>Sed euismod sem id consequat rutrum. Ut convallis lorem a orci mollis, eu vulputate libero aliquet. Praesent egestas nisi sed purus tincidunt faucibus. Aliquam lobortis orci lacus, sed faucibus augue dapibus vitae. Ut vitae mi sapien. Phasellus a eros justo. Curabitur odio massa, tincidunt nec nibh sit amet</p>
                 <div class="slider" data-flex="axis">
                     <a href="#"><i class="icon-prev"></i></a>
-                    <div data-flex="axis">
+                    <div data-flex="axis" data-flex-640="around">
                         <figure><img src="/images/preview.png"></figure>
-                        <figure><img src="/images/preview.png"></figure>
-                        <figure><img src="/images/preview.png"></figure>
+                        <figure class="hidden-sm"><img src="/images/preview.png"></figure>
+                        <figure class="hidden"><img src="/images/preview.png"></figure>
                     </div>
                     <a href="#"><i class="icon-next"></i></a>
                 </div>  
@@ -81,7 +81,7 @@
         <section class='rooms'>
             <div class='lwrap'>
                 <h2>Our Room Types</h2>
-                <div data-flex='stripe w'>
+                <div data-flex='stripe w' data-flex-480="vstripe">
                     <article>
                         <figure><img src="/images/img1.png"></figure>
                         <h3><a href="#">Standard Double Room</a></h3>
@@ -171,7 +171,7 @@
             </div>
         </section>
         <footer>
-            <div class='lwrap' data-flex="stripe">
+            <div class='lwrap' data-flex="stripe w">
                 <div>
                     <h5>about this hotel</h5>
                     <p>Suspendisse erat mi, tincidunt sit amet massa quis, commodo fermen&shy;tum diam. Sed nec dui nec nunc tempor interdum. </p>
