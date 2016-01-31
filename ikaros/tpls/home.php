@@ -41,7 +41,7 @@
                     <div class="_content">
                         <div class="tab" id="tab1" data-flex='row--between'> 
                             <div class='img-wrap'>
-                               <img src="images/img1.png"> 
+                                <img src="images/img1.png"> 
                             </div>
                             <div class='content'>
                                 <h3>Ipsum Fusce Aenean Cursus Euismod</h3>
@@ -54,12 +54,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="tab" id="tab2" data-flex='row--between'>
-
-                        </div> 
-                        <div class="tab" id="tab3" data-flex='row--between'>
-
-                        </div>                    
+                        <div class="tab" id="tab2" data-flex='row--between'></div> 
+                        <div class="tab" id="tab3" data-flex='row--between'></div>                    
                     </div>
                 </div>
             </div>
@@ -68,89 +64,89 @@
                 <p>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
                 <div class='grid' data-flex='row--between'>
                     <a href='#' data-flex>
-                    <img src="images/img2.png">
+                        <img src="images/img2.png">
                     </a>
                     <a href='#' data-flex>
-                    <img src="images/img3.png">
+                        <img src="images/img3.png">
                     </a>
                     <a href='#' data-flex>
-                    <img src="images/img4.png">
+                        <img src="images/img4.png">
                     </a>
                     <a href='#' data-flex>
-                    <img src="images/img5.png">
+                        <img src="images/img5.png">
                     </a>
                     <a href='#' data-flex>
-                    <img src="images/img6.png">
+                        <img src="images/img6.png">
                     </a>
                     <a href='#' data-flex>
-                    <img src="images/img7.png">
+                        <img src="images/img7.png">
                     </a>
                 </div>
             </div>
             <div class='blog'>
                 <h2>Latest Blog</h2>
                 <p>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <div class='grid' data-flex='row--between'>
-                <article data-flex>
-                    <div class='lbl lbl-date'>
-                        <span>23</span>
-                        <small>jan</small>
-                    </div>
-                    <div>
-                        <h5><a href='#'>Aenean Adipiscing Etiam Vestibulum</a></h5>
-                        <p>Etiam porta sem malesuada magna lorem etor mollis euismod. Cras mattis consectetur purus.</p>
-                        <div data-flex>
-                            <a href='#'>Journal, Photography, Web Design</a>
-                            <span>&ensp;|&ensp;</span>
-                            <a href='#'>9 Comments</a>
+                <div class='grid' data-flex='row--between'>
+                    <article data-flex>
+                        <div class='lbl lbl-date'>
+                            <span>23</span>
+                            <small>jan</small>
                         </div>
-                    </div>
-                </article>                
-                <article data-flex>
-                    <div class='lbl lbl-date'>
-                        <span>15</span>
-                        <small>jan</small>
-                    </div>
-                    <div>
-                        <h5><a href='#'>Inceptos Purus Etiam Condimentum</a></h5>
-                        <p>Aenean leo quam. Pellentesque ornare lacinia quam. Vestibulum. Integer venenatis dapibus posuere velit aliquet.</p>
-                        <div data-flex>
-                            <a href='#'>Journal, Photography, Web Design</a>
-                           <span>&ensp;|&ensp;</span>
-                            <a href='#'>19 Comments</a>
+                        <div>
+                            <h5><a href='#'>Aenean Adipiscing Etiam Vestibulum</a></h5>
+                            <p>Etiam porta sem malesuada magna lorem etor mollis euismod. Cras mattis consectetur purus.</p>
+                            <div data-flex>
+                                <a href='#'>Journal, Photography, Web Design</a>
+                                <span>&ensp;|&ensp;</span>
+                                <a href='#'>9 Comments</a>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article data-flex>
-                    <div class='lbl lbl-date'>
-                        <span>18</span>
-                        <small>jan</small>
-                    </div>
-                    <div>
-                        <h5><a href='#'>Commodo Sem Inceptos Fusce</a></h5>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec vestibulum ligula porta semper.</p>
-                        <div data-flex>
-                            <a href='#'>Journal, Photography.</a>
-                            <span>&ensp;|&ensp;</span>
-                            <a href='#'>11 Comments</a>
+                    </article>                
+                    <article data-flex>
+                        <div class='lbl lbl-date'>
+                            <span>15</span>
+                            <small>jan</small>
                         </div>
-                    </div>
-                </article>
-                <article data-flex>
-                    <div class='lbl lbl-date'>
-                        <span>13</span>
-                        <small>jan</small>
-                    </div>
-                    <div>
-                        <h5><a href='#'>Justo Etiam Bibendum Venenatis</a></h5>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
-                        <div data-flex>
-                            <a href='#'>Journal, Photography.</a>
-                            <span>&ensp;|&ensp;</span>
-                            <a href='#'>21 Comments</a>
+                        <div>
+                            <h5><a href='#'>Inceptos Purus Etiam Condimentum</a></h5>
+                            <p>Aenean leo quam. Pellentesque ornare lacinia quam. Vestibulum. Integer venenatis dapibus posuere velit aliquet.</p>
+                            <div data-flex>
+                                <a href='#'>Journal, Photography, Web Design</a>
+                                <span>&ensp;|&ensp;</span>
+                                <a href='#'>19 Comments</a>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                    <article data-flex>
+                        <div class='lbl lbl-date'>
+                            <span>18</span>
+                            <small>jan</small>
+                        </div>
+                        <div>
+                            <h5><a href='#'>Commodo Sem Inceptos Fusce</a></h5>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec vestibulum ligula porta semper.</p>
+                            <div data-flex>
+                                <a href='#'>Journal, Photography.</a>
+                                <span>&ensp;|&ensp;</span>
+                                <a href='#'>11 Comments</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article data-flex>
+                        <div class='lbl lbl-date'>
+                            <span>13</span>
+                            <small>jan</small>
+                        </div>
+                        <div>
+                            <h5><a href='#'>Justo Etiam Bibendum Venenatis</a></h5>
+                            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
+                            <div data-flex>
+                                <a href='#'>Journal, Photography.</a>
+                                <span>&ensp;|&ensp;</span>
+                                <a href='#'>21 Comments</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
             <div class='customers'>
@@ -161,19 +157,19 @@
                         <img src="images/vimeo.png">
                     </div>
                     <div>
-                    <img src="images/apple.png">
+                        <img src="images/apple.png">
                     </div>
                     <div>
-                    <img src="images/mers.png">
+                        <img src="images/mers.png">
                     </div>
                     <div>
-                    <img src="images/wb.png">
+                        <img src="images/wb.png">
                     </div>
                     <div>
-                    <img src="images/mt.png">
+                        <img src="images/mt.png">
                     </div>
                     <div>
-                    <img src="images/bmw.png">
+                        <img src="images/bmw.png">
                     </div>
                 </div>
             </div>

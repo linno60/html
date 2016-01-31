@@ -1,0 +1,21 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=08f786e7-da60-45da-9ed5-01a641706f38");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Aller";
+    src: url("/fonts/fonts.com/de4f9285-f030-4c70-8c0e-72deca181bc5.woff2") format("woff2"), url("/fonts/fonts.com/870785b4-4940-4f9c-8508-460cf2f9b4c6.woff") format("woff");
+font-weight: 300;
+}
+@font-face {
+    font-family: "Aller";
+    src: url("/fonts/fonts.com/31d867ad-7e88-484f-98d2-dd72b7082bb3.woff2") format("woff2"), url("/fonts/fonts.com/a74aa7c5-eaab-4443-a2c4-63f66f8d968a.woff") format("woff");
+}
+@font-face {
+    font-family: "Aller";
+    src: url("/fonts/fonts.com/bef615a6-82bf-4142-aa8f-e3b79cd263c5.woff2") format("woff2"), url("/fonts/fonts.com/627c596a-0c7c-462f-9e77-919a122b2b99.woff") format("woff");
+font-weight: 700;
+}

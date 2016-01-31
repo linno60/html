@@ -1,0 +1,140 @@
+body{
+    font-size: 13px;
+    font-family: Aller;
+    color: #555;
+}
+a{
+    color: #555;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #d4d4d4;
+    text-transform: uppercase;
+    height: 88rem;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 28rem 20rem 5px 19rem;
+    border-right: 1px solid rgba(0,0,0,.2);
+    border-left: 1px solid rgba(255,255,255,.1);
+    text-align: center;
+    letter-spacing: 0.003em;
+}
+.links-nav{
+    border-left: 1px solid rgba(0,0,0,.2);
+    border-right: 1px solid rgba(255,255,255,.1);
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #85abc3;
+    background: rgba(0,0,0,.09);
+}
+.links-social a{
+    margin: 0px -2px 2px 5px;
+}
+
+/*LABELS*/
+.lbl-date{
+    padding: 2px 0px 6px 0px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #ebebeb;
+    text-transform: uppercase;
+    margin: 1rem 11rem 0px 0px;
+    flex-shrink: 0;
+}
+.lbl-date small{
+    font-size: 14px;
+    line-height: 11px;
+}
+.lbl-date span{
+    font-size: 22px;
+    line-height: 21px;
+}
+
+/*LISTS*/
+.list-check li:before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url(/images/icons/check.png);
+    margin: 6px 10px 0px 0px;
+    display: block;
+}
+.list-check li{
+    line-height: 22px;
+}
+
+/*BUTTONS*/
+.btn-slider{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 rgba(0,0,0,.22);    
+}
+.btn-slider.prev{
+    background: url(/images/icons/prev.png)no-repeat center center, linear-gradient(white, #dfdfdf);
+}
+.btn-slider.next{
+    background: url(/images/icons/next.png)no-repeat center center, linear-gradient(white, #dfdfdf);
+}
+.btn-submit{
+    min-width: 112rem;
+    height: 31px;
+    color: #fff;
+    padding: 0px 10px;
+    font-family: Droid Sans;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.22);
+    border: 1px solid #2f3135;
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.22);
+    background: #63859b linear-gradient(0deg, rgba(0,0,0,.13) 0%, rgba(118,118,118,.13) 49.63%, rgba(159,159,159,.13) 51.12%, rgba(255,255,255,.13) 100%);
+}
+
+/*TABS*/
+.tablist > a{
+    min-width: 120rem;
+    height: 34px;
+    background: #f8f8f8;
+    margin: 0px 0px -1px -1px;
+    border: 1px solid #d7d7d7;
+    z-index: 1;
+    border-bottom-color: #c5c5c5;
+    font-weight: 700;
+    padding: 0px 5px;
+    text-align: center;
+}
+.tablist > a.active, .tablist > a:hover{
+    background: #fdfdfd;
+    border: 1px solid #c5c5c5;    
+    color: #6b99b5;
+}
+.tablist > a.active{
+    border-bottom-color: #fdfdfd;
+}
+.tabset{
+    background: #fdfdfd;
+    border-top: 1px solid #c5c5c5;
+    padding-top: 26rem;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    max-width: 300px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #afafaf; 
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #2d3032;
+}
+input[name=input]{
+    height: 35px;
+}
+textarea{
+    height: 140px;
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #afafaf;}
+input[name=input]::-moz-placeholder, textarea::-moz-placeholder {color: #afafaf;}
+input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #afafaf;}
