@@ -138,6 +138,7 @@ body{
 /*OTHER*/
 .hdr:after{
     content: "";
+    display: block;
     flex-grow: 1;
     height: 11px;
     margin-left: 15rem;

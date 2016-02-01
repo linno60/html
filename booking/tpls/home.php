@@ -120,182 +120,182 @@
             </section>
         </header>
         <section class="welcome">
-            <h2>Focusing on several Chicago premier <span>luxury neighborhood locations<span></h2>
-                        <p>River North, River West, Gold Coast, Streeterville, <a href="#">Loop,</a> <a href="#">Printers Row,</a> <a href="#">South Loop,</a> <a href="#">West Loop,</a> <a href="#">Lakeshore East</a>, and Fulton River District. In addition to those locations, <a href="#">we also can assist with your Chicago apartment search</a> in finding properties in neighborhoods such as </p>
-                        </section>
-                        <section class="apartments-wrap">
-                            <div class="apartments">
-                                <h3 class="hdr">Featured <span>Apartments</span></h3>
-                                <div class="slider" data-flex="row--between">
-                                    <a href="#" class="btn btn-slide-sm prev"><i class="icon-prev-alt"></i></a>
-                                    <div class="grid" data-flex="row--between">
-                                        <figure data-flex="col">
-                                            <a href="#" data-flex>
-                                                <img src="/images/img1.png">
-                                            </a>
-                                            <figcaption>
-                                                <div class="figcaption-hdr" data-flex="row-center-between">
-                                                    <h5><a href="#">river north</a></h5>
-                                                    <img src="/images/rating.png">
-                                                </div>
-                                                <div class="figcaption-details" data-flex="row--between">
-                                                    <span class="country" data-flex="row-center">United States</span>
-                                                    <span class="price" data-flex="row-center-end">1 899 &euro;</span>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <figure data-flex="col">
-                                            <a href="#" data-flex>
-                                                <img src="/images/img2.png">
-                                            </a>
-                                            <figcaption>
-                                                <div class="figcaption-hdr" data-flex="row-center-between">
-                                                    <h5><a href="#">streeterville</a></h5>
-                                                    <img src="/images/rating.png">
-                                                </div>
-                                                <div class="figcaption-details" data-flex="row--between">
-                                                    <span class="country" data-flex="row-center">Canada</span>
-                                                    <span class="price" data-flex="row-center-end">11 899 &euro;</span>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <figure data-flex="col">
-                                            <a href="#" data-flex>
-                                                <img src="/images/img3.png">
-                                            </a>
-                                            <figcaption>
-                                                <div class="figcaption-hdr" data-flex="row-center-between">
-                                                    <h5><a href="#">cold coast</a></h5>
-                                                    <img src="/images/rating.png">
-                                                </div>
-                                                <div class="figcaption-details" data-flex="row--between">
-                                                    <span class="country" data-flex="row-center">United Kingdom</span>
-                                                    <span class="price" data-flex="row-center-end">111 899 &euro;</span>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                        <figure data-flex="col">
-                                            <a href="#" data-flex>
-                                                <img src="/images/img4.png">
-                                            </a>
-                                            <figcaption>
-                                                <div class="figcaption-hdr" data-flex="row-center-between">
-                                                    <h5><a href="#">lakeshore east</a></h5>
-                                                    <img src="/images/rating.png">
-                                                </div>
-                                                <div class="figcaption-details" data-flex="row--between">
-                                                    <span class="country" data-flex="row-center">Miami City</span>
-                                                    <span class="price" data-flex="row-center-end">15 899 &euro;</span>
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <a href="#" class="btn btn-slide-sm next"><i class="icon-next-alt"></i></a>
+            <h2>Focusing on several Chicago premier <span>luxury neighborhood locations</span></h2>
+            <p>River North, River West, Gold Coast, Streeterville, <a href="#">Loop,</a> <a href="#">Printers Row,</a> <a href="#">South Loop,</a> <a href="#">West Loop,</a> <a href="#">Lakeshore East</a>, and Fulton River District. In addition to those locations, <a href="#">we also can assist with your Chicago apartment search</a> in finding properties in neighborhoods such as </p>
+        </section>
+        <section class="apartments-wrap">
+            <div class="apartments">
+                <h3 class="hdr">Featured <span>Apartments</span></h3>
+                <div class="slider" data-flex="row--between">
+                    <a href="#" class="btn btn-slide-sm prev"><i class="icon-prev-alt"></i></a>
+                    <div class="grid" data-flex="row--between">
+                        <figure data-flex="col">
+                            <a href="#" data-flex>
+                                <img src="/images/img1.png">
+                            </a>
+                            <figcaption>
+                                <div class="figcaption-hdr" data-flex="row-center-between">
+                                    <h5><a href="#">river north</a></h5>
+                                    <img src="/images/rating.png">
                                 </div>
-                            </div>
-                        </section>
-                        <section class="rent-wrap">
-                            <h3 class="hdr">Rent Finders</h3>
-                            <div class="rent" data-flex="row-start-between">
-                                <div>
-                                    <h4>specializing in <span>all 60+ luxury high-rise</span></h4>
-                                    <p>Chicago Rent Finders is Chicago's leading luxury downtown apartment rental locating company. We guarantee that our professionalism/customer service, combined with our expert licensed agents, you will be comfortable in finding Chicago's most suitable apartments. The best part is that we find you rentals all absolutely 100% FREE.</p>
-                                    <p>Offering the most superior finishes and amenities in all of downtown Chicago, we can fulfill any of your needs and wants.  </p>
-                                    <div class="options"  data-flex="row-between">
-                                        <div>
-                                            <input type="checkbox" id="c9" checked>
-                                            <label for="c9" data-flex><span><i class="icon-check"></i></span>You could end up paying 20% more, if you</label>
-                                            <input type="checkbox" id="c11" checked>
-                                            <label for="c11" data-flex><span><i class="icon-check"></i></span>You could end up missing the</label>    
-                                        </div>
-                                        <div>
-                                            <input type="checkbox" id="c10" checked>
-                                            <label for="c10" data-flex><span><i class="icon-check"></i></span>We will tell you the best deals</label> 
-                                            <input type="checkbox" id="c12" checked>
-                                            <label for="c12" data-flex><span><i class="icon-check"></i></span>The best part is, we are free</label>
-                                        </div>
-                                    </div>
+                                <div class="figcaption-details" data-flex="row--between">
+                                    <span class="country" data-flex="row-center">United States</span>
+                                    <span class="price" data-flex="row-center-end">1 899 &euro;</span>
                                 </div>
-                                <div class="video-wrap">
-                                    <iframe src="https://www.youtube.com/embed/ZUpxniZBb5s" allowfullscreen></iframe>
+                            </figcaption>
+                        </figure>
+                        <figure data-flex="col">
+                            <a href="#" data-flex>
+                                <img src="/images/img2.png">
+                            </a>
+                            <figcaption>
+                                <div class="figcaption-hdr" data-flex="row-center-between">
+                                    <h5><a href="#">streeterville</a></h5>
+                                    <img src="/images/rating.png">
                                 </div>
-                            </div>
-                        </section>
-                        <section class="clients-wrap">
-                            <h3 class="hdr">Our <span>Clients</span></h3>
-                            <div class="clients" data-flex="row--between">
-                                <div data-flex="row-center-center">
-                                    <img src="/images/aflac.png">
+                                <div class="figcaption-details" data-flex="row--between">
+                                    <span class="country" data-flex="row-center">Canada</span>
+                                    <span class="price" data-flex="row-center-end">11 899 &euro;</span>
                                 </div>
-                                <div data-flex="row-center-center">
-                                    <img src="/images/saeco.png">
+                            </figcaption>
+                        </figure>
+                        <figure data-flex="col">
+                            <a href="#" data-flex>
+                                <img src="/images/img3.png">
+                            </a>
+                            <figcaption>
+                                <div class="figcaption-hdr" data-flex="row-center-between">
+                                    <h5><a href="#">cold coast</a></h5>
+                                    <img src="/images/rating.png">
                                 </div>
-                                <div data-flex="row-center-center">
-                                    <img src="/images/turnstyle.png">
+                                <div class="figcaption-details" data-flex="row--between">
+                                    <span class="country" data-flex="row-center">United Kingdom</span>
+                                    <span class="price" data-flex="row-center-end">111 899 &euro;</span>
                                 </div>
-                                <div data-flex="row-center-center">
-                                    <img src="/images/ncr.png">
+                            </figcaption>
+                        </figure>
+                        <figure data-flex="col">
+                            <a href="#" data-flex>
+                                <img src="/images/img4.png">
+                            </a>
+                            <figcaption>
+                                <div class="figcaption-hdr" data-flex="row-center-between">
+                                    <h5><a href="#">lakeshore east</a></h5>
+                                    <img src="/images/rating.png">
                                 </div>
-                                <div data-flex="row-center-center">
-                                    <img src="/images/mosswarner.png">
+                                <div class="figcaption-details" data-flex="row--between">
+                                    <span class="country" data-flex="row-center">Miami City</span>
+                                    <span class="price" data-flex="row-center-end">15 899 &euro;</span>
                                 </div>
-                            </div>
-                        </section>
-                        <footer>
-                            <section class="footer-wrap">
-                                <div class="footer" data-flex="row--between">
-                                    <div data-flex="col" class="contacts">
-                                        <h6>contact us at:</h6>
-                                        <address>Via Ludovisi 39-45, Rome, 54267, Italy</address>
-                                        <span>Pho: 1.800.245.356 & Fax: 1/800.245.357</span>
-                                        <span>Email: <a href="mailto:info@yourcompanyname.com">info@yourcompanyname.com</a></span>
-                                    </div>
-                                    <div>
-                                        <h6>Useful Links</h6>
-                                        <ul>
-                                            <li><a href="#">Service Upadate</a></li>
-                                            <li><a href="#">Held Desk</a></li>
-                                            <li><a href="#">Apartments</a></li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <h6>Navigation:</h6>
-                                        <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Faq</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <h6>Featured Properties:</h6>
-                                        <ul>
-                                            <li><a href="#">River North</a></li>
-                                            <li><a href="#">Streeeterville</a></li>
-                                            <li><a href="#">Golad Coast</a></li>
-                                            <li><a href="#">Lakeshore East</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="about">
-                                        <h6>About Us:</h6>
-                                        <p>offering the most superior finishes and amenities in all </p>
-                                        <p>of downtown Chicago, we can fulfill any of your needs </p>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="copyright-wrap">
-                                <div class="copyright" data-flex="row-center-between">
-                                    <span>&copy; Copyright 2012 | your company. All rights reserved</span>
-                                    <div data-flex="row-center" class="social">
-                                        <a href="#" data-flex><i class="icon-tw"></i></a>
-                                        <a href="#" data-flex><i class="icon-fb"></i></a>
-                                        <a href="#" data-flex><i class="icon-digg"></i></a>
-                                        <a href="#" data-flex><i class="icon-vimeo"></i></a>
-                                        <a href="#" data-flex><i class="icon-yt"></i></a>
-                                        <a href="#" data-flex><i class="icon-skype"></i></a>
-                                    </div>
-                                </div>
-                            </section>
-                        </footer>
-                        </body>
-                        </html>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <a href="#" class="btn btn-slide-sm next"><i class="icon-next-alt"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="rent-wrap">
+            <h3 class="hdr">Rent Finders</h3>
+            <div class="rent" data-flex="row-start-between">
+                <div>
+                    <h4>specializing in <span>all 60+ luxury high-rise</span></h4>
+                    <p>Chicago Rent Finders is Chicago's leading luxury downtown apartment rental locating company. We guarantee that our professionalism/customer service, combined with our expert licensed agents, you will be comfortable in finding Chicago's most suitable apartments. The best part is that we find you rentals all absolutely 100% FREE.</p>
+                    <p>Offering the most superior finishes and amenities in all of downtown Chicago, we can fulfill any of your needs and wants.  </p>
+                    <div class="options"  data-flex="row-between">
+                        <div>
+                            <input type="checkbox" id="c9" checked>
+                            <label for="c9" data-flex><span><i class="icon-check"></i></span>You could end up paying 20% more, if you</label>
+                            <input type="checkbox" id="c11" checked>
+                            <label for="c11" data-flex><span><i class="icon-check"></i></span>You could end up missing the</label>    
+                        </div>
+                        <div>
+                            <input type="checkbox" id="c10" checked>
+                            <label for="c10" data-flex><span><i class="icon-check"></i></span>We will tell you the best deals</label> 
+                            <input type="checkbox" id="c12" checked>
+                            <label for="c12" data-flex><span><i class="icon-check"></i></span>The best part is, we are free</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-wrap">
+                    <iframe src="https://www.youtube.com/embed/ZUpxniZBb5s" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="clients-wrap">
+            <h3 class="hdr">Our <span>Clients</span></h3>
+            <div class="clients" data-flex="row--between">
+                <div data-flex="row-center-center">
+                    <img src="/images/aflac.png">
+                </div>
+                <div data-flex="row-center-center">
+                    <img src="/images/saeco.png">
+                </div>
+                <div data-flex="row-center-center">
+                    <img src="/images/turnstyle.png">
+                </div>
+                <div data-flex="row-center-center">
+                    <img src="/images/ncr.png">
+                </div>
+                <div data-flex="row-center-center">
+                    <img src="/images/mosswarner.png">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section class="footer-wrap">
+                <div class="footer" data-flex="row--between">
+                    <div data-flex="col" class="contacts">
+                        <h6>contact us at:</h6>
+                        <address>Via Ludovisi 39-45, Rome, 54267, Italy</address>
+                        <span>Pho: 1.800.245.356 & Fax: 1/800.245.357</span>
+                        <span>Email: <a href="mailto:info@yourcompanyname.com">info@yourcompanyname.com</a></span>
+                    </div>
+                    <div>
+                        <h6>Useful Links</h6>
+                        <ul>
+                            <li><a href="#">Service Upadate</a></li>
+                            <li><a href="#">Held Desk</a></li>
+                            <li><a href="#">Apartments</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6>Navigation:</h6>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6>Featured Properties:</h6>
+                        <ul>
+                            <li><a href="#">River North</a></li>
+                            <li><a href="#">Streeeterville</a></li>
+                            <li><a href="#">Golad Coast</a></li>
+                            <li><a href="#">Lakeshore East</a></li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <h6>About Us:</h6>
+                        <p>offering the most superior finishes and amenities in all </p>
+                        <p>of downtown Chicago, we can fulfill any of your needs </p>
+                    </div>
+                </div>
+            </section>
+            <section class="copyright-wrap">
+                <div class="copyright" data-flex="row-center-between">
+                    <span>&copy; Copyright 2012 | your company. All rights reserved</span>
+                    <div data-flex="row-center" class="social">
+                        <a href="#" data-flex><i class="icon-tw"></i></a>
+                        <a href="#" data-flex><i class="icon-fb"></i></a>
+                        <a href="#" data-flex><i class="icon-digg"></i></a>
+                        <a href="#" data-flex><i class="icon-vimeo"></i></a>
+                        <a href="#" data-flex><i class="icon-yt"></i></a>
+                        <a href="#" data-flex><i class="icon-skype"></i></a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

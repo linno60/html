@@ -184,7 +184,6 @@ footer time{
     padding-top: 9rem;
 }
 .tweets time{
-    font-size: 13px;
     color: #86acc4;
 }
 .tweets p i{
@@ -194,7 +193,6 @@ footer form{
     padding-top: 7rem;
 }
 .copyright span{
-    font-size: 13px;
     padding-bottom: 10rem;
 }
 .copyright span small{
@@ -213,21 +211,10 @@ footer form{
 
 /*MEDIA QUERIES*/
 @media (max-width: 640px) {
-    footer > .lwrap > div{
-        width: 48%;
-    }
-    .links-nav, .links-nav a {
-    border: none;
-}
+    footer > .lwrap > div{width: 48%;}
+    .links-nav, .links-nav a {border: none;}
 }
 @media (max-width: 480px) {
-.tabpanel figure {
-    float: none;
-    width: auto;
-    margin: 0px 0px 10px 0px;
-}
-.projects figure {
-    width: 49%;
-    margin-bottom: 10px;
-}
+    .tabpanel figure {float: none;width: auto;margin: 0px 0px 10px 0px;}
+    .projects figure {width: 49%;}
 }
