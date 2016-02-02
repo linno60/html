@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'MyriadPro';
+	src: local('в�є'), url('/fonts/MyriadPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueLTStd Cn';
+	src: local('☺'), url('/fonts/HelveticaNeueLTStd-BlkCn.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+

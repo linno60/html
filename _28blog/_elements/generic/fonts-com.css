@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=1b38d714-9bae-48f4-a713-23e82c4b4404");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "HelveticaNeueLT Cn";
+    src: url("/fonts/fonts.com/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2") format("woff2"), url("/fonts/fonts.com/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff");
+}

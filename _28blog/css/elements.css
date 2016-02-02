@@ -1,0 +1,115 @@
+body{
+    font-size: 13px;
+    font-family: Helvetica;
+}
+
+/*LINKS*/
+.links-social a{
+    width: 38px;
+    height: 36px;
+    margin: 2px 2px 2px 3px;
+}
+.rss{
+    background: #f78f1d;
+}
+.fb{
+    background: #5161ab;
+}
+.tw{
+    background: #00addb;
+}
+.links-nav{
+    background: #898989;
+}
+.links-nav a{
+    padding: 0px 20px;
+    height: 36px;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: HelveticaNeueLT Cn;
+}
+.links-nav a:nth-child(1){
+    background: #00aedb;
+}
+.links-nav a:nth-child(2){
+    background: #8cc63f;
+}
+.links-nav a:nth-child(3){
+    background: #5261ac;
+}
+.links-nav a:nth-child(4){
+    background: #00aedb;
+}
+.links-nav a:nth-child(5){
+    background: #f78f1d;
+}
+.links-nav a:nth-child(6){
+    background: #ff0000;
+}
+.links-nav a:nth-child(7){
+    background: #898989;
+}
+.links-aside{
+    padding-left: 20px;
+    max-width: 350px;
+}
+.links-aside a{
+    color: #494949;
+    line-height: 17px;
+    font-weight: 300;
+}
+.links-aside li{ 
+    padding: 5px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.22);
+}
+.links-aside li:last-child{
+    border-bottom: none;
+}
+.links-aside li:before{
+    content: "";
+    border-top: 3px solid transparent;
+    border-left: 6px solid #5261ac;
+    border-bottom: 3px solid transparent;
+    margin: 5px 20px 0px -20px;
+}
+.links-aside a:active, .links-aside a:hover, .links-aside a:focus{
+    text-decoration: underline;
+}
+
+/*FORMS*/
+input[type=search]{
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    height: 36px;
+    max-width: 318px;
+    width: 100%;
+    padding: 0px 10px;
+    outline: none;
+}
+.btn-search{
+    height: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #00addb;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 5px 21px 5px 19px;
+}
+
+/*OTHER*/
+.hdr-alt, .hdr{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    padding: 10px 30px 10px 20px;
+}
+.hdr{
+    background: #5261ac;
+}
+.hdr-alt{
+    background: linear-gradient(45deg, #5261ac, #5261ac calc(100% - 30px), transparent calc(100% - 30px), transparent 100%);
+}

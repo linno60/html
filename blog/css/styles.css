@@ -152,13 +152,13 @@ nav + h1{
     border-left: 15px solid #ec098d;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent; 
-     left: 1%;
+    left: 1%;
 }
 .btn-prev{    
     border-right: 14px solid #00aedb;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
-     
+
     left: 31%;
 }
 .slider-side .btn{
@@ -330,18 +330,18 @@ footer{
 }
 ._nav a.btn:after{
     content: "";
-     width: 0; 
-   height: 0;
-   position: absolute;
-   bottom: -8px;
-   left:50%;
-   transform: translateX(-50%);   
-   border-left: 7px solid transparent; 
-   border-right: 7px solid transparent;
-   display: none;
+    width: 0; 
+    height: 0;
+    position: absolute;
+    bottom: -8px;
+    left:50%;
+    transform: translateX(-50%);   
+    border-left: 7px solid transparent; 
+    border-right: 7px solid transparent;
+    display: none;
 }
 ._nav a.btn.active:after, ._nav a.btn:hover:after{
-   display: block;
+    display: block;
 }
 ._nav .btn:nth-child(1){
     background-color: #ec098d;
@@ -359,7 +359,7 @@ footer{
     border-top: 9px solid #f78f1d; 
 }
 ._nav .btn:nth-child(3):after{
-     border-top: 9px solid #00aedb;
+    border-top: 9px solid #00aedb;
 }
 .tabs h4 {
     font: 15px/20px "HelveticaLTStd-Bold";
@@ -533,57 +533,57 @@ footer a:hover{
 }
 @media (max-width: 1150px) {
     .content h2 {
-    padding: 0px 0px 6px 60px;
-}
-.title {
-    left: -15px;
-}
+        padding: 0px 0px 6px 60px;
+    }
+    .title {
+        left: -15px;
+    }
 }
 @media (max-width: 1020px) {
     .slider figcaption p {
-    padding: 0px 10px 0px 0px;
-}
+        padding: 0px 10px 0px 0px;
+    }
 }
 @media (max-width: 1000px) {
     .header {
-    padding: 20px 10px 17px 10px;
-}
-nav {
-    padding: 0px 10px 8px 10px;
-}
-.content-wrap {
-    padding: 16px 10px 49px 10px;
-}
+        padding: 20px 10px 17px 10px;
+    }
+    nav {
+        padding: 0px 10px 8px 10px;
+    }
+    .content-wrap {
+        padding: 16px 10px 49px 10px;
+    }
 }
 @media (max-width: 890px) {
     .nav {
-    background-color: transparent;
-}
+        background-color: transparent;
+    }
 }
 @media (max-width: 800px) {
     .content-wrap{
         flex-direction: column;
     }
     .content, .aside {
-    width: 100%;
-    padding: 0px 0px 20px 0px;
-}
-.tags {
-    padding: 13px 0px 0px 0px;
-}
-.links {
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 9px 0px 0px 0px;
-}
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+    }
+    .tags {
+        padding: 13px 0px 0px 0px;
+    }
+    .links {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 9px 0px 0px 0px;
+    }
 }
 @media (max-width: 590px) {
- .slider {
-    flex-direction: column;
-}
+    .slider {
+        flex-direction: column;
+    }
 }
 @media (max-width: 500px) {
- .search input {
-    width: 165px;
-}
+    .search input {
+        width: 165px;
+    }
 }
