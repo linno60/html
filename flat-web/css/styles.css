@@ -79,11 +79,11 @@ a{
 }
 .nav nav a{
     color: #6a6766;
-font: 14px "Open Sans";
-position: relative;
+    font: 14px "Open Sans";
+    position: relative;
     padding: 10px 21px 10px 21px;
-border-radius: 4px;
-border: 2px solid transparent; 
+    border-radius: 4px;
+    border: 2px solid transparent; 
 }
 .nav nav a.active, .nav nav a:hover{
     color: #2f8db3;
@@ -107,8 +107,8 @@ border: 2px solid transparent;
 }
 .header h1{
     color: #fff;
-font: 300 66px "Open Sans";
-text-shadow: 0 2px 0 #25799f;
+    font: 300 66px "Open Sans";
+    text-shadow: 0 2px 0 #25799f;
     margin: 0px 0px 19px 140px;
     letter-spacing:  -0.0035em;
 }
@@ -118,39 +118,34 @@ text-shadow: 0 2px 0 #25799f;
 .info{
     margin: auto;
     max-width:1150px;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 46px 9px 49px 10px;   
 }
 .info figure{
     margin: 5px 5px 5px 5px;
     max-width: 265px;
-border: 1px solid #cecece;
-background-color: #fff;
-
+    border: 1px solid #cecece;
+    background-color: #fff;
     padding: 0px 0px 27px 0px;
-box-shadow: 0 2px 0 rgba(0,0,0,.1);
-min-height: 350px;
+    box-shadow: 0 2px 0 rgba(0,0,0,.1);
+    min-height: 350px;
 }
 .info figcaption{
-   width: 100%;
-
-   min-height: 54px;
-border: 1px solid #4793b7;
-background-color: #53add7;
-box-shadow: 0 2px 0 #4793b7;
-color: #fff;
-text-transform: uppercase;
-font: 600 22px "Open Sans";
-text-shadow: 0 1px 0 #25b12f;
-
-   margin: 0px 0px 31px 0px;
+    width: 100%;
+    min-height: 54px;
+    border: 1px solid #4793b7;
+    background-color: #53add7;
+    box-shadow: 0 2px 0 #4793b7;
+    color: #fff;
+    text-transform: uppercase;
+    font: 600 22px "Open Sans";
+    text-shadow: 0 1px 0 #25b12f;
+    margin: 0px 0px 31px 0px;
 }
 .info figure p{
     text-align: center;
-  
     font: 13px/16px "Open Sans";  
-  color: #6e6e6e;
-  
+    color: #6e6e6e;
     margin: 26px 0px 29px 0px;
     letter-spacing: -0.018em;
 }
@@ -181,11 +176,10 @@ text-shadow: 0 1px 0 #25b12f;
 }
 .advantages .grid > div{
     width: 49%;
-border: 1px solid #5da5c9;
-background-color: #fff;
-
+    border: 1px solid #5da5c9;
+    background-color: #fff;
     padding: 33px 10px 35px 15px;
-box-shadow: 0 2px 0 rgba(0,0,0,.13);
+    box-shadow: 0 2px 0 rgba(0,0,0,.13);
 }
 .customers-wrap{
     background-color: #255e7a;
@@ -221,9 +215,9 @@ footer{
 .footer .hdr{
     width: 100%;
     min-height: 44px;
-border: 1px solid #2f2f2f;
-background-color: #656565;
-box-shadow: 0 2px 0 rgba(0,0,0,.15);
+    border: 1px solid #2f2f2f;
+    background-color: #656565;
+    box-shadow: 0 2px 0 rgba(0,0,0,.15);
     margin: 0px 0px 27px 0px;
     padding:  2px 20px;
 }
@@ -281,19 +275,19 @@ box-shadow: 0 2px 0 rgba(0,0,0,.15);
 }
 @media (max-width: 1150px) {
     .info {
-    justify-content: space-around;
-}
+        justify-content: space-around;
+    }
 }
 @media (max-width: 1050px) {
     .header h1 {
-    margin: 0px 0px 19px 0px;
-}
+        margin: 0px 0px 19px 0px;
+    }
 }
 @media (max-width: 500px) {
     .advantages .grid{
         flex-direction: column;
     }
     .advantages .grid > div {
-    width: 100%;
-}
+        width: 100%;
+    }
 }
