@@ -16,13 +16,14 @@ header {
 }
 header > .lwrap{
     max-width: 1067px;
+    padding: 0px;
 }
 .contact{
-    padding: 9px 0px 5px 18px;
+    padding: 9rem 0px 0px 18rem;
     background: white;
 }
 .contact .lbl-contact{
-    margin-right: 6px;
+    margin-right: 6rem;
 }
 .contact a:hover .lbl-contact, .contact a:hover .lbl-contact, .contact a:focus .lbl-contact{
     background: #037ecf;
@@ -35,34 +36,37 @@ header > .lwrap{
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-right: 16px;
+    margin: 0px 16rem 5px 0px;
     letter-spacing: -0.015em;
 }
 .links-nav.lwrap{
     max-width: 1080px;
-    padding: 31px 10px 21px 10px;
+    padding: 20rem 8px 18rem 10px;
 }
 .nav{   
-    background: white linear-gradient(0deg, rgba(166, 166, 166, 0.04) 0%, rgba(255, 255, 255, 0.04) 89%, rgba(255, 255, 255, 0.04) 100%);
+    background: linear-gradient(white, #eee);
     box-shadow: 0 2px 2px rgba(169, 169, 169, 0.65);
 }
+.slider{
+    padding: 0px 10px;
+}
 .slider .lwrap{
-    padding: 58px 30px 0px 49px;
-    border-bottom: 70px solid white;
+    padding: 58rem 30rem 0px 49rem;
+    border-bottom: 70rem solid white;
     max-width: 1124px;
 }
 .slider button{
-    margin: -6px 29px 14px 0px;
+    margin: -6rem 29rem 14rem 0px;
 }
 .slider form{
     width: 52.5%;
     background: white;
     border: 1px solid rgba(47, 47, 47, 0.2);
     border-radius: 10px;
-    margin-bottom: -35px;
+    margin: 0px 0px -35rem 10px;
 }
 .slider hgroup + div .btn{
-    margin: 0px 18px 26px 1px;
+    margin: 0px 18rem 26rem 1rem;
 }
 .slider hgroup h1, .slider hgroup h2{
     color: white;
@@ -74,26 +78,26 @@ header > .lwrap{
 }
 .slider hgroup h1{
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.68), 0 0 2px rgba(0, 0, 0, 0.4);
-    font-size: 65px;
-    line-height: 74px;
+    font-size: 65rem;
+    line-height: 74rem;
     letter-spacing: -0.03em;
 }
 .slider hgroup h2{
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.65), 0 0 1px rgba(0, 0, 0, 0.3);
-    font-size: 40px;
-    margin-bottom: 42px;
+    font-size: 40rem;
+    margin-bottom: 42rem;
     letter-spacing: -0.038em;
 }
 .slider input[name=checktop] + label{
     width: 25%;
-    margin: 20px 0px 2px 0px;
-    padding-right: 4px;
+    margin: 20rem 0px 2rem 0px;
+    padding-right: 4rem;
 }
 .slider form fieldset{
-    padding: 0px 0px 21px 27px;
+    padding: 0px 1rem 21rem 27rem;
 }
 .slider form legend + fieldset{
-    padding: 12px 5px 1px 27px;
+    padding: 12rem 5rem 1rem 27rem;
 }
 .slider form .btn-default{
     font-weight: 700;
@@ -102,7 +106,7 @@ header > .lwrap{
 .range-title{
     color: #323232;
     font-size: 16px;
-    padding-right: 25px;
+    padding-right: 25rem;
 }
 .steps .lbl-number{
     position: relative;
@@ -110,8 +114,8 @@ header > .lwrap{
 .steps .lbl-accept{
     display: none;
     position: absolute;
-    right: -7px;
-    top: -7px;
+    right: -5px;
+    top: -5px;
 }
 .steps .lbl-number.complete .lbl-accept{
     display: flex;
@@ -141,8 +145,9 @@ header > .lwrap{
     border-top: 1px solid #2c81cb;
     border-bottom: 1px solid #2c81cb;
     border-radius: 5px;
-    margin: -9px auto 9px auto;
+    margin: -9rem auto 9rem auto;
     position: relative;
+    left: 15px;
     box-shadow: inset 0 1px 0 #647e9a;
     background: linear-gradient(#42668c, #445d7a);
 }
@@ -159,14 +164,14 @@ header > .lwrap{
     text-align: center;
     color: #272727;
     font-family: Open Sans;
-    padding: 0px 10px 31px 10px;
+    padding: 0px 10px 31rem 10px;
     font-weight: 300;
     max-width: 1100px;
 }
 .welcome h2{
     font-weight: 300;
     font-size: 30px;
-    margin-bottom: 11px;
+    margin-bottom: 11rem;
     line-height: 38px;
     letter-spacing: -0.02em;
 }
@@ -184,23 +189,23 @@ header > .lwrap{
     background: #eaebf3;
 }
 .featured .lwrap{
-    padding: 12px 10px 55px 22px;
+    padding: 12rem 10px 51rem 22rem;
     max-width: 1090px;
 }
 .featured figcaption{
     border-bottom: 1px solid #c5c5cc;
 }
-.featured figcaption h5{   
+.featured figcaption h5{
     font-family: TerminalDosis;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
+    letter-spacing: -0.025em;
 }
 .featured figcaption h5 a{
     color: #404040;
 }
 .featured figure {
-    margin: 2px 2px 2px 2px;
     position: relative;
     border-width: 1px;
     border-style: solid;
@@ -209,53 +214,58 @@ header > .lwrap{
 }
 .featured figcaption > div{
     width: 100%;
-    padding: 11px;
+    padding: 11rem 14rem 11rem 13rem;
     box-shadow: inset 0px -1px 0px 0px rgba(43, 43, 43, 0.1);
     border-bottom: 1px solid rgba(47, 47, 47, 0.2);
 }
 .featured figcaption > span{
-    width: 50%;
     color: #404040;
     font-family: TerminalDosis;
     font-size: 14px;
     font-weight: 500;
-    padding: 6px 12px;
+    padding: 7rem 2px 6rem 13rem;
+    letter-spacing: -0.02em;
+    width: 47.5%;
 }
 .featured figcaption > span.price{
     color: #0a89e4;
     font-size: 16px;
+    width: 52.5%;
+    padding: 7rem 10px 6rem 13rem;
+    letter-spacing: 0.05em;
 }
 .featured figure{
-    width: 22.55%;
+    width: 22.65%;
+    margin-bottom: 5px;
 }
 .featured .hdr{
-    margin-bottom: 11px;
+    margin-bottom: 13rem;
 }
 
 /*RENT*/
 .video {
+    float: right;
     width: 44.6%;
     flex-shrink: 0;
-    margin: 30px 0px 0px 10px;
-    box-shadow: 0px 0px 0px 9px #efefef;
+    margin: 30rem 0px 0px 10rem;
+    box-shadow: 0px 0px 0px 9rem #efefef;
     border-bottom-width: 1px;
     border-radius: 3px;
     border-image-slice: 0 0 15 0;
-    border-image-width: 0px 0px 15px 0px;
-    border-image-outset: 0px 7px 10px 7px;
+    border-image-width: 0px 0px 15rem 0px;
+    border-image-outset: 0px 7rem 12rem 7rem;
     border-image-repeat: stretch stretch;
     border-image-source: url("/images/video-shadow.png");
 }
 .video > div{
     padding-top: 45.1%;
     padding-bottom: 0px;
-    max-height: 155px;
 }
 .rent{
-    padding: 23px 17rem 39px 0px;
+    padding: 23rem 17rem 42rem 0px;
 }
 .rent .hdr{
-    margin-bottom: 19px;
+    margin-bottom: 19rem;
     color: #686868;
     font-family: Open Sans;
     font-size: 22px;
@@ -273,7 +283,7 @@ header > .lwrap{
     width: 54%;
 }
 .rent form label{
-    margin-bottom: 16px;
+    margin-bottom: 17rem;
 }
 .rent label:nth-child(end){
     width: 43.5%;
@@ -284,17 +294,17 @@ header > .lwrap{
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 300;
-    margin-bottom: 7px;
+    margin-bottom: 7rem;
 }
 .rent h4 strong{
     font-weight: 600;
 }
 .rent form{
-    padding: 10px 5px 5px 4px;
+    padding: 10rem 6rem 0px 4rem;
 }
 
 /*CLIENTS*/
-.clients > div > figure{
+.clients > div > div{
     flex: 1;
     border-right: 1px solid #e5e5e5;
     padding: 17.5rem;
@@ -303,14 +313,14 @@ header > .lwrap{
     max-width: 944px;
     padding: 0px 0px 16rem 4rem;
 }
-.clients > div > figure:last-child{
+.clients > div > div:last-child{
     border-right: none;
 }
 .clients > div{
     border: 1px solid #e5e5e5;
 }
 .clients .hdr{
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 
 /*FOOTER*/
@@ -334,7 +344,7 @@ footer p{
     letter-spacing: 0.04em;
 }
 footer > .lwrap{
-    padding: 126px 70px 14px 10px;
+    padding: 126px 70rem 14rem 10px;
     max-width: 980px;
 }
 footer > .lwrap > div:first-child{
@@ -351,7 +361,7 @@ footer > .lwrap > div:first-child h6{
 }
 footer h6 {
     color: #4c4c4c;
-    margin-bottom: 4px;
+    margin-bottom: 4rem;
     font-weight: normal;
     font-size: 11px;
 }
@@ -362,7 +372,7 @@ footer > .lwrap span{
 }
 footer address{
     font-size: 13px;
-    padding-bottom: 3px;
+    padding-bottom: 3rem;
     font-style: normal;
     letter-spacing: 0.012em;
 }
@@ -370,7 +380,7 @@ footer address{
     background: gainsboro;
 }
 .copyright > .lwrap{
-    padding: 12px 65px 10px 10px;
+    padding: 12rem 65rem 10px 10px;
     max-width: 988px;
 }
 .copyright span {
@@ -381,6 +391,27 @@ footer address{
 }
 
 /*MEDIA QUERIES*/
+@media screen and (max-width: 1024px) {
+  .featured figure {
+    width: 24.5%;
+}
+.featured figcaption > span{
+    padding: 6rem 2px;
+}
+}
+@media screen and (max-width: 800px) {
+    .featured figure.hidden{
+        display: none;
+    }
+    .featured figure{
+        width: 32.5%;
+    }
+}
 @media screen and (max-width: 480px) {
-  
+    .featured figure.hidden-sm{
+        display: none;
+    }
+    .featured figure{
+        width: 49%;
+    }
 }

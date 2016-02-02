@@ -63,6 +63,7 @@ header form{
     font-weight: 300;
     margin: 27rem 0px 31rem 0px;
     line-height: 15px;
+    width: 100%;
 }
 .info article a{
     color: #54add7;

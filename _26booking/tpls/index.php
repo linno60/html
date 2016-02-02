@@ -22,14 +22,14 @@
     <body>
         <header>
             <section class="lwrap" data-flex="end">
-                <div class="contact" data-flex="-center" data-childs="-center">
+                <div class="contact" data-flex="-center w" data-childs="-center">
                     <a href="mailto:info@chicagorentfinders.com"><div data-flex class="lbl lbl-contact"><i class="icon-mail"></i></div>info@chicagorentfinders.com</a>  
                     <a href="312-493-8446"><div data-flex class="lbl lbl-contact"><i class="icon-phone"></i></div>312 - 493 - 8446</a>  
                 </div>
             </section>
             <section class="nav">
                 <nav class="links-nav lwrap" data-flex="-center end w" data-childs="-center">
-                    <a href="#" class="active">Home<i class="icon-down"></i></a>
+                    <a href="#" class="active"><span>Home</span><i class="icon-down"></i></a>
                     <a href="#">FAQ</a>.
                     <a href="#">Apartment Search</a>.
                     <a href="#">Contact Us</a>.
@@ -46,7 +46,7 @@
                             <h1>We Help <strong>you Find</strong></h1>
                             <h2>Apartment <strong>That Best</strong> Fit You</h2>
                         </hgroup>
-                        <div>
+                        <div data-flex="-center center w">
                             <a href="#" class="btn btn-contact">Contact Us Now</a>
                             <a href="#" class="btn btn-default">Search our site</a>
                         </div>
@@ -63,7 +63,7 @@
                             <small>Want to find you home fast filll this up</small>
                         </legend>
                         <fieldset>
-                            <div data-flex="-center">
+                            <div data-flex="-center w">
                                 <label><strong>Monthly</strong> Rent&nbsp;:</label>
                                 <input type="range" name="range" value="39">
                             </div>
@@ -122,45 +122,45 @@
                         <figure>
                             <img src="/images/img1.png">
                             <figcaption data-flex="stripe w">
-                                <div data-flex="axis">
+                                <div data-flex="axis w">
                                     <h5><a href="#">river north</a></h5>
-                                    <img src="/images/rating.png">
+                                    <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">United States</span>
-                                <span class="price" data-flex="-center center">11 899 &euro;</span>
+                                <span class="price" data-flex="-center center">1 899 &euro;</span>
                             </figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img2.png">
                             <figcaption data-flex="stripe w">
-                                <div data-flex="axis">
+                                <div data-flex="axis w">
                                     <h5><a href="#">streeterville</a></h5>
-                                    <img src="/images/rating.png">
+                                    <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">Canada</span>
                                 <span class="price" data-flex="-center center">11 899 &euro;</span>
                             </figcaption>
                         </figure>
-                        <figure>
+                        <figure class="hidden">
                             <img src="/images/img3.png">
                             <figcaption data-flex="stripe w">
-                                <div data-flex="axis">
+                                <div data-flex="axis w">
                                     <h5><a href="#">Gold Coast</a></h5>
-                                    <img src="/images/rating.png">
+                                    <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">United Kingdom</span>
-                                <span class="price" data-flex="-center center">11 899 &euro;</span>
+                                <span class="price" data-flex="-center center">111 899 &euro;</span>
                             </figcaption>
                         </figure>
-                        <figure>
+                        <figure class="hidden-sm">
                             <img src="/images/img4.png">
                             <figcaption data-flex="stripe w">
-                                <div data-flex="axis">
+                                <div data-flex="axis w">
                                     <h5><a href="#">lakeshore east</a></h5>
-                                    <img src="/images/rating.png">
+                                    <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">Miami City</span>
-                                <span class="price" data-flex="-center center">11 899 &euro;</span>
+                                <span class="price" data-flex="-center center">15 899 &euro;</span>
                             </figcaption>
                         </figure>
                     </div>
@@ -171,8 +171,12 @@
         <div class="lwrap">
             <section class="rent">
                 <h3 class="hdr">Rent Finders</h3>
-                <div data-flex="-start between">
-                    <div>
+                <div class="clearfix">
+                    <div class="video">
+                        <div data-video="16:9">
+                            <iframe src="https://www.youtube.com/embed/ZUpxniZBb5s"></iframe>
+                        </div>
+                    </div>
                         <h4>specializing in <strong>all 60+ luxury high-rise</strong></h4>
                         <p>Chicago Rent Finders is Chicago's leading luxury downtown apartment rental locating company. We guarantee that our professionalism/customer service, combined with our expert licensed agents, you will be comfortable in finding Chicago's most suitable apartments. The best part is that we find you rentals all absolutely 100% FREE.</p>
                         <p>Offering the most superior finishes and amenities in all of downtown Chicago, we can fulfill any of your needs and wants.  </p>
@@ -190,22 +194,18 @@
                                 <label for="d4">The best part is, we are free</label>
                             </fieldset>
                         </form>
-                    </div>
-                    <div class="video">
-                        <div data-video="16:9">
-                            <iframe src="https://www.youtube.com/embed/ZUpxniZBb5s"></iframe>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
             </section>
             <section class="clients">
                 <h3 class="hdr">Our <strong>Clients</strong></h3>
                 <div data-flex="stripe" data-childs="-center center">
-                    <figure><img src="/images/aflac.png"></figure>
-                    <figure><img src="/images/saeco.png"></figure>
-                    <figure><img src="/images/turnstyle.png"></figure>
-                    <figure><img src="/images/ncr.png"></figure>
-                    <figure><img src="/images/mosswarner.png"></figure>
+                    <div><figure><img src="/images/aflac.png"></figure></div>
+                    <div><figure><img src="/images/saeco.png"></figure></div>
+                    <div><figure><img src="/images/turnstyle.png"></figure></div>
+                    <div><figure><img src="/images/ncr.png"></figure></div>
+                    <div><figure><img src="/images/mosswarner.png"></figure></div>
                 </div>
             </section>
         </div>
