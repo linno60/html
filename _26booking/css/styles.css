@@ -392,26 +392,14 @@ footer address{
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1024px) {
-  .featured figure {
-    width: 24.5%;
-}
-.featured figcaption > span{
-    padding: 6rem 2px;
-}
+    .featured figure {width: 24.5%;}
+    .featured figcaption > span{padding: 6rem 2px;}
 }
 @media screen and (max-width: 800px) {
-    .featured figure.hidden{
-        display: none;
-    }
-    .featured figure{
-        width: 32.5%;
-    }
+    .featured figure.hidden{display: none;}
+    .featured figure{width: 32.5%;}
 }
 @media screen and (max-width: 480px) {
-    .featured figure.hidden-sm{
-        display: none;
-    }
-    .featured figure{
-        width: 49%;
-    }
+    .featured figure.hidden-sm{display: none;}
+    .featured figure{width: 49%;}
 }
