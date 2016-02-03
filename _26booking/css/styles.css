@@ -60,6 +60,7 @@ header > .lwrap{
 }
 .slider form{
     width: 52.5%;
+    min-width: 480px;
     background: white;
     border: 1px solid rgba(47, 47, 47, 0.2);
     border-radius: 10px;
