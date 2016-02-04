@@ -60,18 +60,17 @@ body{
     flex-wrap: wrap;
 }
 .logo{
-   color: #3f3f3f;
-font: 33px "Qlassik Bold";
-text-shadow: 0 1px 0 rgba(255,255,255,.8); 
+    color: #3f3f3f;
+    font: 33px "Qlassik Bold";
+    text-shadow: 0 1px 0 rgba(255,255,255,.8); 
 }
 .nav{
     margin: 4px 1px 0px 0px;
     flex-wrap: wrap;
-border-radius: 9px;
-
+    border-radius: 9px;
     padding: 0px 9px 0px 10px;
     box-shadow: 0 1px 2px rgba(0,0,0,.33);
-background-image: linear-gradient(to top, #e3e3e3 0%, #fff 100%);
+    background-image: linear-gradient(to top, #e3e3e3 0%, #fff 100%);
 }
 .nav .btn.active, .nav a:hover{
     border-width: 0px 0px 0px 1px;
@@ -80,8 +79,8 @@ background-image: linear-gradient(to top, #e3e3e3 0%, #fff 100%);
 .nav a{
     padding: 2px 19px 2px 19px;
     color: #515151;
-font: 19px "Qlassik Bold";
-text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    font: 19px "Qlassik Bold";
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
     min-height: 32px;
     border-width: 1px 0px 1px 1px;
     border-style: solid;
@@ -100,9 +99,9 @@ text-shadow: 0 1px 0 rgba(255,255,255,.8);
 .slider{
     position: relative;
     padding: 14px 14px 5px 14px;
-  border: 1px solid rgba(0,0,0,.11);
-border-radius: 9px;
-background-color: #fff; 
+    border: 1px solid rgba(0,0,0,.11);
+    border-radius: 9px;
+    background-color: #fff; 
 }
 .img-wrap{
     margin: 0px 0px 9px 0px;
@@ -119,7 +118,7 @@ background-color: #fff;
     width: 104%;
     z-index: -1;
     display: block;
-   background: url('../images/shadow.png') no-repeat;
+    background: url('../images/shadow.png') no-repeat;
 }
 .btns{
     margin: 0px -2px 0px 0px;
@@ -129,11 +128,10 @@ background-color: #fff;
 }
 .controls a{
     width: 12px;
-height: 12px;
-display: block;
-border-radius: 50%;
-background-color: #c5c5c5;
-
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    background-color: #c5c5c5;
     margin: 0px 3px 3px 0px;
 }
 .controls a.active{
@@ -143,7 +141,7 @@ background-color: #c5c5c5;
     margin: 57px 0px 67px 0px;
     color: #737373;
     font: 28px/33px "Qlassik Bold";
-text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
 }
 .services{
     flex-wrap: wrap;
@@ -152,11 +150,11 @@ text-shadow: 0 1px 0 rgba(255,255,255,.8);
 a.btn-default{
     min-width: 118px;
     min-height: 35px;
-color: #393939;
-font: 20px "Qlassik Bold";
-border-radius: 8px;
-box-shadow: 0 1px 2px rgba(0,0,0,.33);
-background-image: linear-gradient(to top, #e3e3e3 0%, #fff 100%);
+    color: #393939;
+    font: 20px "Qlassik Bold";
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.33);
+    background-image: linear-gradient(to top, #e3e3e3 0%, #fff 100%);
 }
 .services article{
     flex: 1;
@@ -173,13 +171,13 @@ background-image: linear-gradient(to top, #e3e3e3 0%, #fff 100%);
 .services article h3{
     color: #393939;
     margin: 10px 0px 5px 0px;
-font: 22px "Qlassik Bold";
-text-shadow: 0 1px 0 rgba(255,255,255,.55);
+    font: 22px "Qlassik Bold";
+    text-shadow: 0 1px 0 rgba(255,255,255,.55);
 }
 .services article p{
     color: #393939;
-font: 14px/20px "Trebuchet MS";
-text-align: center;
+    font: 14px/20px "Trebuchet MS";
+    text-align: center;
 
     margin: 0px 0px 19px 0px;
 }
@@ -188,14 +186,13 @@ text-align: center;
 }
 .content h2{
     color: #393939;
-font: 25px "Qlassik Bold";
-text-shadow: 0 1px 0 rgba(255,255,255,.55);
+    font: 25px "Qlassik Bold";
+    text-shadow: 0 1px 0 rgba(255,255,255,.55);
     margin: 0px 0px 14px 0px;
 }
 .about p{
     color: #393939;
-font: 14px/20px "Trebuchet MS";
-
+    font: 14px/20px "Trebuchet MS";
     margin: 0px 0px 14px 0px;
     letter-spacing: -0.009em;
 }
@@ -211,10 +208,10 @@ font: 14px/20px "Trebuchet MS";
     flex-wrap: wrap;
 }
 .works figure{
-border: 1px solid rgba(0,0,0,.11);
-border-radius: 7px;
-background-color: #fff;
- padding: 9px 9px 9px 9px;
+    border: 1px solid rgba(0,0,0,.11);
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 9px 9px 9px 9px;
 }
 footer{
     box-shadow: inset 0px 5px 6px 0px rgba(0,0,0,0.75), inset 0px -2px 1px 0px rgba(255,255,255,0.5);
@@ -234,10 +231,10 @@ footer{
 .twitter blockquote{
     position: relative;
     color: #a9a9a9;
-font: italic 14px/20px "Georgia";
-background-color: #202020;
+    font: italic 14px/20px "Georgia";
+    background-color: #202020;
     padding: 10px 15px 10px 17px;
-border-radius: 10px;
+    border-radius: 10px;
 }
 .twitter blockquote + img{
     margin: 17px 0px 0px 0px;
@@ -248,8 +245,8 @@ border-radius: 10px;
     right: 66px;
     bottom: -25px;
     border-top: 50px solid #202020; 
-	border-left: 30px solid transparent; 
-        transform: rotate(-20deg);
+    border-left: 30px solid transparent; 
+    transform: rotate(-20deg);
 }
 .twitter cite{
     display: inline-block;
@@ -282,7 +279,7 @@ border-radius: 10px;
 }
 .list-footer li a{
     color: #aaa;
-font: 14px/20px "Trebuchet MS";
+    font: 14px/20px "Trebuchet MS";
 }
 .list-footer li:before{
     width: 16px;
@@ -314,15 +311,15 @@ font: 14px/20px "Trebuchet MS";
     margin: 0px 4px 0px 5px;
 }
 @media screen and (max-width: 500px) {
-  .nav a, .nav a:first-child, .nav .btn.active, .nav a:hover {
-    border-width: 0px 0px 0px 0px;
-}
-.content, .lists{
-    flex-direction: column;
-}
-.about, .works, .lists > div {
-    width: 100%;
-}
+    .nav a, .nav a:first-child, .nav .btn.active, .nav a:hover {
+        border-width: 0px 0px 0px 0px;
+    }
+    .content, .lists{
+        flex-direction: column;
+    }
+    .about, .works, .lists > div {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 750px) { 
     .footer{
@@ -332,17 +329,17 @@ font: 14px/20px "Trebuchet MS";
         width: 100%;
     }
     .copyright {
-    padding: 23px 10px 19px 10px;
-}
+        padding: 23px 10px 19px 10px;
+    }
 }
 @media screen and (max-width: 860px) {
     .services, .works > div{
         justify-content: space-around;
     }
     .services article:first-child {
-    margin: 5px 15px 15px 15px;
-}
-.services article:last-child {
-    margin: 5px 15px 15px 15px;
-}
+        margin: 5px 15px 15px 15px;
+    }
+    .services article:last-child {
+        margin: 5px 15px 15px 15px;
+    }
 }

@@ -1,0 +1,31 @@
+
+/* FONTS */
+@font-face {
+    font-family: 'Qlassik';
+    src: url('/fonts/fontsquirel.com/qlassik_tb.woff2') format('woff2'), url('/fonts/fontsquirel.com/qlassik_tb.woff') format('woff');
+}
+@font-face {
+    font-family: 'Qlassik';
+    src: url('/fonts/fontsquirel.com/qlassikbold_tb.woff2') format('woff2'), url('/fonts/fontsquirel.com/qlassikbold_tb.woff') format('woff');
+    font-weight: 700;
+}
+/* ICONS */
+.icon-archives {width: 32px; height: 32px; background: url('/images/icons/archives.png');}
+.icon-bird-alt {width: 72px; height: 76px; background: url('/images/icons/bird-alt.png');}
+.icon-bird {width: 36px; height: 36px; background: url('/images/icons/bird.png');}
+.icon-book {width: 32px; height: 32px; background: url('/images/icons/book.png');}
+.icon-cart {width: 64px; height: 64px; background: url('/images/icons/cart.png');}
+.icon-case {width: 32px; height: 32px; background: url('/images/icons/case.png');}
+.icon-check {width: 16px; height: 16px; background: url('/images/icons/check.png');}
+.icon-delicious {width: 24px; height: 24px; background: url('/images/icons/delicious.png');}
+.icon-facebook {width: 24px; height: 24px; background: url('/images/icons/facebook.png');}
+.icon-flickr {width: 24px; height: 24px; background: url('/images/icons/flickr.png');}
+.icon-package {width: 64px; height: 64px; background: url('/images/icons/package.png');}
+.icon-post {width: 32px; height: 32px; background: url('/images/icons/post.png');}
+.icon-rss {width: 24px; height: 24px; background: url('/images/icons/rss.png');}
+.icon-stumble {width: 24px; height: 24px; background: url('/images/icons/stumble.png');}
+.icon-support {width: 64px; height: 64px; background: url('/images/icons/support.png');}
+.icon-tumblr {width: 24px; height: 24px; background: url('/images/icons/tumblr.png');}
+.icon-web {width: 64px; height: 64px; background: url('/images/icons/web.png');}
+.icon-n {width: 21px; height: 21px; background: url('/images/icons/n.png');}
+.icon-p {width: 21px; height: 21px; background: url('/images/icons/p.png');}

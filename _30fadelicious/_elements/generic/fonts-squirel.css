@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Qlassik';
+    src: url('/fonts/fontsquirel.com/qlassik_tb.woff2') format('woff2'), url('/fonts/fontsquirel.com/qlassik_tb.woff') format('woff');
+}
+@font-face {
+    font-family: 'Qlassik';
+    src: url('/fonts/fontsquirel.com/qlassikbold_tb.woff2') format('woff2'), url('/fonts/fontsquirel.com/qlassikbold_tb.woff') format('woff');
+    font-weight: 700;
+}
