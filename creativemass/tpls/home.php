@@ -16,16 +16,16 @@
                 <a href="#" class="logo" data-flex="col-center"><b>creativemass</b><span>core unstable be prepared</span></a>
                 <div class="nav-wrap" data-flex="row--center">
                     <nav class="nav" data-flex="row-center-between">
-                    <div data-flex>
-                        <a href="#" class="active">work</a>
-                        <a href="#">services</a>
-                    </div>                    
-                    <img src="images/orbit.png">
-                    <div data-flex>
-                        <a href="#">about</a>
-                        <a href="#">contact</a>
-                    </div>                    
-                </nav>
+                        <div data-flex>
+                            <a href="#" class="active">work</a>
+                            <a href="#">services</a>
+                        </div>                    
+                        <img src="images/orbit.png">
+                        <div data-flex>
+                            <a href="#">about</a>
+                            <a href="#">contact</a>
+                        </div>                    
+                    </nav>
                 </div> 
             </header>
             <section class="works-wrap"> 

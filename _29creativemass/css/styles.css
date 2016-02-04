@@ -1,0 +1,200 @@
+/*COMMON*/
+.works figure, article figure {
+    padding: 1px;
+    border: 1px solid #fa8f37;
+    border-radius: 8px;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 980px;
+}
+address, p, .contacts span, footer a, .copyright span {
+    line-height: 20px;
+    font-family: Arial;
+    color: #a7a7a7;
+    font-style: normal;
+    letter-spacing: 0.003em;
+}
+.content h3, .about h3{
+    color: #f98f37;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: MyriadPro;    
+}
+
+/*HEADER*/
+body{
+    background: #1b1b1b;
+}
+header{
+    background: url('/images/shadow1.png')no-repeat center -2px;
+    padding-top: 63px;
+}
+.btn-default.anchor{
+    min-width: 31px;
+    height: 31px;
+}
+
+/*WORKS*/
+.content{
+    padding-bottom: 25rem;
+}
+.works {
+    background: url('/images/shadow2.png')no-repeat center 13px;
+}
+.works figure{
+    width: 31.3%;
+    flex-shrink: 0;
+}
+.figure-wrap{
+    padding-left: 30rem;
+    flex-grow: 1;
+}
+.works .figure-wrap figure{
+    width: 21.5%;
+    margin-bottom: 30rem;
+}
+.works > div{
+    padding: 10rem 0px 12rem 0px;
+}
+
+/*SERVICES*/
+.services h3{
+    margin-bottom: 6rem;
+    line-height: 32px;
+}
+.services article{
+    margin-bottom: 18rem;
+}
+.services article figure, .about article figure{
+    float: left;
+}
+.services article figure{
+    margin-right: 20rem;
+}
+
+/*SIDEBAR*/
+.sidebar, .clients, .contacts {
+    flex-shrink: 0;
+    width: 31.2%;
+    margin-left: 30rem;
+}
+.sidebar .hdr{
+    margin-bottom: 16rem;
+}
+.awards .hdr{
+    margin-bottom: 12rem;
+}
+.awards span {
+    color: #a7a7a7;
+    padding: 3rem 13rem 19rem 15rem;
+    font-family: MyriadPro;
+    font-size: 20px;
+    line-height: 20px;
+}
+.awards i{
+    flex-shrink: 0;
+}
+
+/*ABOUT*/
+.about{
+    background: url('/images/shadow3.png')no-repeat center 27px;
+    padding-bottom: 41rem;
+}
+.about article figure{
+    margin: 5rem 21rem 0px 0px;
+}
+.about .hdr{
+    margin-bottom: 16rem;
+}
+.about h3{
+    margin: 0px 0px 9rem 0px;
+    line-height: 27px;
+}
+.clients h3{
+    margin-bottom: 9rem;
+}
+.clients h3{
+    margin-bottom: 12rem;
+}
+.clients > div{
+    background: #151515;
+    border-radius: 10px;
+    box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.28);
+    padding: 19rem 9rem 24rem 11rem;
+}
+.clients figure{
+    margin: 9rem;
+    min-width: 56px
+}
+
+/*FOOTER*/
+footer {
+    background: url('/images/shadow3.png')no-repeat center 27px;
+}
+footer > div{
+    padding-bottom: 26rem;
+}
+footer .hdr{
+    margin-bottom: 17rem;
+}
+footer form{
+    flex-grow: 1;
+    padding: 3rem 0px 10px 0px;
+}
+footer form > div{
+    width: 45.3%;
+}
+footer form textarea{
+    width: 52%;
+}
+footer form button{
+    margin: 4rem 0px 10px 0px;
+}
+footer address{
+    margin-bottom: 25rem;
+    letter-spacing: -0.004em;
+}
+.contacts .lbl-default{
+    margin-right: 11rem;
+}
+.contacts a{
+    line-height: 28px;
+}
+.contacts a:active, .contacts a:hover, .contacts a:hover{
+    text-decoration: underline;
+}
+.contacts .mail{
+    text-decoration: underline;
+    line-height: 11px;
+    color: white;
+}
+.contacts .mail:active, .contacts .mail:hover, .contacts .mail:focus{
+    text-decoration: none;
+}
+footer p{
+    margin-top: 7rem;
+}
+.copyright {
+    background: url('/images/footer-border.png')no-repeat center top;
+    padding: 16rem 0px 48px 0px;
+}
+.copyright span{
+    padding: 15rem 10px 0px 0px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    .works, .about, footer, .links-nav, header{background: none;}
+    .links-nav, header{padding: 0px;}
+    input[name=input], textarea{font-size: 10px;padding: 5px;}
+}
+@media screen and (max-width: 480px) {
+    .hidden{display: none;}
+    .works .figure-wrap figure{width: 47.825%;}
+}

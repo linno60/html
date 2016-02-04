@@ -5,8 +5,9 @@
 	font-style: italic;
 }
 @font-face {
-	font-family: 'MyriadPro ';
+	font-family: 'MyriadPro';
 	src: local('☺'), url('/fonts/MyriadPro-Cond.woff') format('woff');
+    font-style: normal;
 }
 @font-face {
 	font-family: 'MyriadPro';

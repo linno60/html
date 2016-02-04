@@ -48,10 +48,10 @@ header > .lwrap{
     box-shadow: 0 2px 2px rgba(169, 169, 169, 0.65);
 }
 .slider{
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 .slider .lwrap{
-    padding: 58rem 30rem 0px 49rem;
+    padding: 38rem 30rem 0px 49rem;
     border-bottom: 70rem solid white;
     max-width: 1124px;
 }
@@ -64,7 +64,7 @@ header > .lwrap{
     background: white;
     border: 1px solid rgba(47, 47, 47, 0.2);
     border-radius: 10px;
-    margin: 0px 0px -35rem 10px;
+    margin: 20px 0px -35rem 10px;
 }
 .slider hgroup + div .btn{
     margin: 0px 18rem 26rem 1rem;
@@ -103,6 +103,11 @@ header > .lwrap{
 .slider form .btn-default{
     font-weight: 700;
     font-size: 16px;
+}
+.icon-next, .icon-prev {
+    width: 68rem;
+    height: 68rem;
+    background-size: cover;
 }
 .range-title{
     color: #323232;
@@ -202,6 +207,7 @@ header > .lwrap{
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: -0.025em;
+    line-height: 15px;
 }
 .featured figcaption h5 a{
     color: #404040;
@@ -215,6 +221,7 @@ header > .lwrap{
 }
 .featured figcaption > div{
     width: 100%;
+    min-height: 41px;
     padding: 11rem 14rem 11rem 13rem;
     box-shadow: inset 0px -1px 0px 0px rgba(43, 43, 43, 0.1);
     border-bottom: 1px solid rgba(47, 47, 47, 0.2);
@@ -227,6 +234,9 @@ header > .lwrap{
     padding: 7rem 2px 6rem 13rem;
     letter-spacing: -0.02em;
     width: 47.5%;
+    min-height: 33px;
+    line-height: 12px;
+    display: block;
 }
 .featured figcaption > span.price{
     color: #0a89e4;
@@ -394,13 +404,26 @@ footer address{
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1024px) {
     .featured figure {width: 24.5%;}
-    .featured figcaption > span{padding: 6rem 2px;}
+    .featured figcaption > span, .featured figcaption > span.price, .featured figcaption > div{padding: 2px;}
+}
+@media screen and (max-width: 960px) {
+    .slider input[name="checktop"] + label {width: 49%;}
+    .slider .lwrap {padding: 10px 5px 0px 5px;}
 }
 @media screen and (max-width: 800px) {
     .featured figure.hidden{display: none;}
     .featured figure{width: 32.5%;}
+    .slider form {min-width: 350px;}
+    footer > .lwrap {padding: 10px 10px 0px 10px;}
+    footer {background: url("/images/shadow.png")no-repeat center top, #ededed;}
+}
+@media screen and (max-width: 640px) {
+    footer > .lwrap > div {width: 32%;} 
+    footer > .lwrap > div:last-child {order: 0;width: 40%;}
+    footer > .lwrap > div:first-child {order: 1;width: 56%;}
 }
 @media screen and (max-width: 480px) {
     .featured figure.hidden-sm{display: none;}
     .featured figure{width: 49%;}
+    .slider form {min-width: 250px;}
 }

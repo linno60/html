@@ -40,7 +40,7 @@
             </section>
             <section class="slider" data-flex="axis">
                 <a href="#"><i class="icon-prev"></i></a>   
-                <div class="lwrap" data-flex="axis">
+                <div class="lwrap" data-flex="axis" data-flex-640="vstripe">
                     <div data-flex="col -center">
                         <hgroup>
                             <h1>We Help <strong>you Find</strong></h1>
@@ -177,25 +177,23 @@
                             <iframe src="https://www.youtube.com/embed/ZUpxniZBb5s"></iframe>
                         </div>
                     </div>
-                        <h4>specializing in <strong>all 60+ luxury high-rise</strong></h4>
-                        <p>Chicago Rent Finders is Chicago's leading luxury downtown apartment rental locating company. We guarantee that our professionalism/customer service, combined with our expert licensed agents, you will be comfortable in finding Chicago's most suitable apartments. The best part is that we find you rentals all absolutely 100% FREE.</p>
-                        <p>Offering the most superior finishes and amenities in all of downtown Chicago, we can fulfill any of your needs and wants.  </p>
-                        <form action="#" method="post" data-flex="stripe w">
-                            <fieldset>
-                                <input type="checkbox" name="checkdef" id="d1" checked>
-                                <label for="d1">You could end up paying 20% more, if you</label>
-                                <input type="checkbox" name="checkdef" id="d2" checked>
-                                <label for="d2">You could end up missing the</label>    
-                            </fieldset>
-                            <fieldset>
-                                <input type="checkbox" name="checkdef" id="d3" checked>
-                                <label for="d3">We will tell you the best deals</label> 
-                                <input type="checkbox" name="checkdef" id="d4" checked>
-                                <label for="d4">The best part is, we are free</label>
-                            </fieldset>
-                        </form>
-                    
-                    
+                    <h4>specializing in <strong>all 60+ luxury high-rise</strong></h4>
+                    <p>Chicago Rent Finders is Chicago's leading luxury downtown apartment rental locating company. We guarantee that our professionalism/customer service, combined with our expert licensed agents, you will be comfortable in finding Chicago's most suitable apartments. The best part is that we find you rentals all absolutely 100% FREE.</p>
+                    <p>Offering the most superior finishes and amenities in all of downtown Chicago, we can fulfill any of your needs and wants.  </p>
+                    <form action="#" method="post" data-flex="stripe w">
+                        <fieldset>
+                            <input type="checkbox" name="checkdef" id="d1" checked>
+                            <label for="d1">You could end up paying 20% more, if you</label>
+                            <input type="checkbox" name="checkdef" id="d2" checked>
+                            <label for="d2">You could end up missing the</label>    
+                        </fieldset>
+                        <fieldset>
+                            <input type="checkbox" name="checkdef" id="d3" checked>
+                            <label for="d3">We will tell you the best deals</label> 
+                            <input type="checkbox" name="checkdef" id="d4" checked>
+                            <label for="d4">The best part is, we are free</label>
+                        </fieldset>
+                    </form> 
                 </div>
             </section>
             <section class="clients">
@@ -210,8 +208,8 @@
             </section>
         </div>
         <footer>
-            <section class="lwrap" data-flex="stripe">
-                <div data-flex="col" class="contacts">
+            <section class="lwrap" data-flex="stripe" data-childs="col" data-flex-640="stripe w">
+                <div>
                     <h6>contact us at:</h6>
                     <address>Via Ludovisi 39-45, Rome, 54267, Italy</address>
                     <span>Pho: 1.800.245.356 & Fax: 1/800.245.357</span>
@@ -226,7 +224,7 @@
                     </div>
                 </div>
                 <div>
-                    <h6>Navigation :</h6>
+                    <h6>Navigation&nbsp;:</h6>
                     <div class="links-footer" data-flex="col -start">
                         <a href="#">Home</a>
                         <a href="#">Blog</a>
@@ -235,7 +233,7 @@
                     </div>
                 </div>
                 <div>
-                    <h6>Featured Properties :</h6>                    
+                    <h6>Featured Properties&nbsp;:</h6>                    
                     <div class="links-footer" data-flex="col -start">
                         <a href="#">River North</a>
                         <a href="#">Streeeterville</a>
@@ -244,15 +242,15 @@
                     </div>
                 </div>
                 <div>
-                    <h6>About Us :</h6>
+                    <h6>About Us&nbsp;:</h6>
                     <p>offering the most superior finishes and amenities in all </p>
                     <p>of downtown Chicago, we can fulfill any of your needs </p>
                 </div>
             </section>
             <section class="copyright">
-                <div class="lwrap" data-flex="stripe">
+                <div class="lwrap" data-flex="stripe" data-flex-480="vaxis">
                     <span>&copy; Copyright 2012 | your company. All rights reserved</span>
-                    <div class="links-social" data-flex="-center end w">
+                    <div class="links-social" data-flex="-center end w" data-flex-480="-center center w">
                         <a href="#"><i class="icon-tw"></i></a>
                         <a href="#"><i class="icon-fb"></i></a>
                         <a href="#"><i class="icon-digg"></i></a>
