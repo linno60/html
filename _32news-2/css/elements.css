@@ -1,0 +1,102 @@
+body{
+    font-size: 12px;
+    font-family: Trebuchet MS;
+}
+
+/*LINKS*/
+.links-top a{
+    color: #528036;
+    font-size: 11px;
+    text-decoration: underline;
+    margin-left: 15rem;
+}
+.links-top a:before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: url(/images/icons/arrow.png);
+    margin-right: 1rem;
+}
+.links-top a:active, .links-top a:hover, .links-top a:focus{
+    text-decoration: none;
+}
+.links-social{
+    padding: 13rem 23rem 12rem 17px;
+    max-width: 640px;
+    background:url("/images/horizontal.png") repeat-x left top, linear-gradient(180deg, white 0px, white 2px, #f9f9f9 2px, white);
+}
+.links-social a{
+    margin: 3px;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.65);
+    color: #7c7c7c;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.links-social a i{
+    margin-right: 3rem;
+}
+.links-social a:active, .links-social a:hover, .links-social a:focus{
+    text-decoration: underline;
+}
+.links-default{
+    margin: 5rem 0px 30rem 0px;
+    padding-top: 4rem;
+    background: url("/images/horizontal.png") repeat-x left top;
+}
+.links-default li{
+    padding: 7px 0px 7px 5px;
+    background: url("/images/horizontal.png") repeat-x left bottom;
+}
+.links-default a{
+    color: #51a17d;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-default li a:before{
+    content: "";
+    border-top: 3px solid transparent;
+    border-left: 3px solid #51a17d;
+    border-bottom: 3px solid transparent;
+    margin: 0px 5px 0px -5px;
+    display: inline-block;
+}
+
+/*BUTTONS*/
+.btn-default, .btn-alt, .btn-download{
+    font-weight: 700;
+    padding: 2px 18rem;
+    text-align: center;
+}
+.btn-default, .btn-alt {
+    font-size: 14px;
+    line-height: 14px;
+    height: 32px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.btn-default, .btn-download{
+    color: white;
+    text-shadow: 0 1px 0 rgba(0,0,0,.4);
+}
+.btn-alt{
+    min-width: 141px;
+    background: white;
+    box-shadow: 0 0 2px rgba(1,1,1,.4);
+    color: #1f1f1f;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    margin-left: 2px;
+}
+.btn-default{
+    min-width: 113px;
+    background: #a7a7a7;
+}
+.btn-download{
+    background: #51a17d;
+    width: 100%;
+    max-width: 121px;
+    height: 35px;
+    border-top: 1px solid #74b497;
+    border-bottom: 1px solid #74b497;
+    box-shadow: 0px 1px 0px 0px #51a17d;
+}

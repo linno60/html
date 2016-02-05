@@ -207,7 +207,7 @@
                     </div>
                     <div>
                         <h2 class="hdr">tag cloud</h2>
-                        <div class="tags">
+                        <div class="links-tags">
                             <a href="#" data-weight="10">Angelina Jolie</a>
                             <a href="#" data-weight="17" class="active">Cssauthor</a>
                             <a href="#" data-weight="6">Aris&shy;tokrasi</a>
