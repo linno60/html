@@ -1,0 +1,214 @@
+/*COMMON*/
+figure img, #logo img, #logoalt img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 682px;
+    padding: 0px 10px;
+}
+body{
+    background: #f5f5f5;
+}
+body > .lwrap{
+    background: white;
+    box-shadow: 0px 0px 0px 1px rgba(15,16,16,.1);
+    margin: -160rem auto -16rem auto;
+    position: relative;
+    z-index: 1;
+    padding: 24rem 23rem 4rem 22rem;
+    max-width: 660px;
+}
+h2{
+    color: #1e2735;
+    font-family: Tahoma;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 14rem;
+}
+p{
+    line-height: 18px;
+    color: #666666;
+}
+article figure{
+    border: 1px solid rgba(2, 2, 2, 0.37);
+}
+p a{
+    text-decoration: underline;
+}
+.topbar p a:active, .topbar p a:hover, .topbar p a:focus, .copyright p a:active, .copyright p a:hover, .copyright p a:focus{
+    text-decoration: none;
+}
+
+/*HEADER*/
+.topbar{
+    background: #121821;
+    border-bottom: 1px solid #0d1016;
+}
+.topbar > .lwrap{
+    padding: 5px 10px 5px 11px;
+}
+.topbar p, .topbar a{
+    color: #555f6b;
+    font-family: Tahoma;
+    font-size: 11px;
+    line-height: 15px;
+}
+.topbar p a{
+    color: #788490;
+    padding-left: 0px;
+}
+.topbar p a i{
+    margin: 4px 2px -1px 0px;
+}
+.header{
+    background: #18202b;
+    border-bottom: 1px solid #131a22;
+    border-top: 1px solid #232932;
+}
+.header > .lwrap{
+    padding: 23rem 9px 21rem 12px;
+}
+.header time{
+    color: #99a5b5;
+    font-family: Tahoma;
+    font-size: 22px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+/*FEATURED*/
+.featured{
+    background: #1e2735;
+    border-top: 1px solid #2a3b4f;    
+}
+.featured .lwrap{
+    padding: 34rem 9px 202rem 11px;
+}
+.featured h1{
+    color: white;
+    font-family: Tahoma;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 7px 0px 10px 0px;
+}
+.featured figure{
+    float: right;
+    border: 1px solid rgba(2, 2, 2, 0.17);
+box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+.featured p{
+    color: #7e8c95;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 300px;
+    margin: 0px 0px 15px 1px;
+    letter-spacing: -0.002em;
+}
+.featured > .lwrap > figure{
+    width: 50.2%;
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+/*CONTENT*/
+.sidebar{
+    width: 34%;
+    flex-shrink: 0;
+    margin-left: 28rem;
+}
+.content{
+    padding-top: 1rem;
+}
+.content article{
+    padding-bottom: 33rem;
+    margin-bottom: 28rem;
+}
+.content > article:first-child figure{
+    float: right;
+    margin: 3rem 0px 0px 13rem;
+}
+.content > article figure{
+    margin: -2rem 0px 0px 1rem;
+}
+.content > article:last-child figure{
+    float: left;
+    margin: 3rem 15rem 0px 1rem;
+}
+.content > article, .sidebar > *{
+    background: url("/images/content.png")repeat-x left bottom;
+}
+.content > article{
+    padding-bottom: 33rem;
+    margin-bottom: 24rem;
+}
+.content > article:first-child{
+    margin-bottom: 28rem;
+}
+.sidebar > *{
+    padding-bottom: 16rem;
+    margin-bottom: 14rem;
+}
+.sidebar p{
+    line-height: 20px;
+    margin: 6rem 0px 4rem 0px;
+}
+.sidebar article figure{
+    width: auto;
+    margin: -3rem 0px 0px 1rem;
+}
+.sidebar figure{
+    width: 48.32%;
+    margin-bottom: 5rem;
+}
+.sidebar article{
+    padding-bottom: 24px;
+}
+.content > article:last-child, .sidebar > *:last-child{
+    background: none;
+    padding-bottom: 2rem;
+}
+article span, .sidebar span{
+    font-weight: 700;
+    line-height: 18px;
+    color: #666666;
+}
+.content article:first-child p, .content article:last-child p{
+    margin: 13rem 0px 6px 1rem;
+}
+article p{
+    margin: 7rem 0px 6rem 1rem;
+    letter-spacing: 0.01em;
+}
+
+/*FOOTER*/
+footer{
+    position: relative;    
+    background: #1e2735;
+}
+footer > .lwrap{
+    padding: 46rem 9px 30rem 12px;
+}
+.copyright{
+    background: #121821;
+    border-top: 1px solid #353a42;
+    box-shadow: inset 0px 1px 0px 0px #0e131a;
+}
+.copyright{
+    padding: 15px 10px 16px 10px;
+}
+.copyright p{
+    text-align: center;
+    color: #555f6b;
+    font-size: 11px;
+    line-height: 17px;
+    max-width: 520px;
+}
+.copyright p a{
+    color: #99a7b5;
+}
+#logoalt{
+    margin-right: 10px;
+}

@@ -146,6 +146,7 @@ a.btn-start{
     max-width: 660px;
     background-color: #fff;
     padding: 24px 22px 23px 22px;
+    box-shadow: 0px 0px 0px 1px rgba(15,16,16,.1);
 }
 .featured-wrap:after, footer:before{
     content: "";
@@ -169,9 +170,6 @@ footer:before{
 .aside{
     width: 37%;
     padding: 0px 0px 0px 18px;
-}
-.content-wrap{
-    box-shadow: 0px 0px 0px 1px rgba(15,16,16,.1);
 }
 .content-wrap article{
     background: url('../images/separator.png') repeat-x left bottom;
@@ -197,10 +195,9 @@ footer:before{
     padding: 0px 0px 17px 0px;
     margin: 0px 0px 13px 0px;
 }
-
 .content-wrap h2{
     color: #1e2735;
-font: 600 19px "Tahoma";
+    font: 600 19px "Tahoma";
     margin: 0px 0px 14px 0px;
 }
 .content-wrap article span{
@@ -223,16 +220,16 @@ font: 600 19px "Tahoma";
 }
 .content-wrap article a, .content-wrap article a span{
     color: #007bc5;
-font: 12px "Arial";
-text-decoration: underline;
+    font: 12px "Arial";
+    text-decoration: underline;
 }
 .list-default li a{
     text-decoration: none;
 }
 .list-default li{
-   background: url('../images/separator-list.png')repeat-x left top;
-    
-   padding: 5px 5px 5px 16px;
+    background: url('../images/separator-list.png')repeat-x left top;
+
+    padding: 5px 5px 5px 16px;
 }
 .list-default li:before{
     width: 8px;
@@ -296,13 +293,13 @@ footer{
         flex-direction: column;
     }
     .featured > *, .content, .aside {
-    width: 100%;
-    padding: 0px;
-}
-.advertisement{
-    justify-content: flex-start;
-}
-.content-wrap{
-    padding: 10px;
-}    
+        width: 100%;
+        padding: 0px;
+    }
+    .advertisement{
+        justify-content: flex-start;
+    }
+    .content-wrap{
+        padding: 10px;
+    }    
 }
