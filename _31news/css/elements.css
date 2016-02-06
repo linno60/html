@@ -17,6 +17,7 @@ body{
     border-left: 3px solid #56606b;
     border-bottom: 3px solid transparent;
     margin-right: 3px;
+    display: inline-block;
 }
 .links-top a:active, .links-top a:hover, .links-top a:focus{
     text-decoration: none;

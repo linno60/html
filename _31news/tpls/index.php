@@ -24,7 +24,7 @@
             <section class="topbar">
                 <div class="lwrap" data-flex="axis">
                     <p>Having trouble viewing this email?<a href="#"> View it in your browser</a></p>
-                    <div class="links-top" data-flex="end w" data-childs="-center">
+                    <div class="links-top" data-flex="end w">
                         <a href="#">Online version</a>
                         <a href="#">Forwrd to a Friend</a>
                     </div>

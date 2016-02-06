@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Mission Script';
+    src: url('/fonts/fontsquirel.com/mission-script.woff2') format('woff2'), url('/fonts/fontsquirel.com/mission-script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

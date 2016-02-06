@@ -1,0 +1,204 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 642px;
+}
+body {
+    background: #6fa535 radial-gradient(circle at center center, #85b450, #6fa535);
+}
+.content-wrap figure{
+    border: 1px solid rgba(2, 2, 2, 0.12);
+    box-shadow: inset 0 0 0 1px white;
+    padding: 1px;
+}
+p a{
+    text-decoration: underline;
+}
+p a:active, p a:hover, p a:focus{
+    text-decoration: none;
+}
+
+/*HEADER*/
+header {
+    background: linear-gradient(white, #fefefe 30%, #eee);
+    box-shadow: 0 1px 14px rgba(0,0,0,.2), inset 0 0 5px rgba(16,17,17,.1);
+}
+header > .lwrap {
+    position: relative;
+    max-width: 620px;
+    margin: auto;
+    padding: 12px 17px 4px 16px;
+    background: #f8f8f8;
+    box-shadow: 0 5px 14px 1px rgba(0,0,0,.2);
+}
+header > .lwrap:after {
+    content: "";
+    width: 100%;
+    height: 9px;
+    background: linear-gradient(#f8f8f8, #f3f3f3);
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    border-radius: 0px 0px 9px 9px;
+    box-shadow: 0px 8px 15px 1px rgba(0,0,0,.2);
+}
+header p{
+    color: #818379;
+}
+header p a{
+    color: #74ac37;
+}
+.featured h1{
+    color: #64972f;
+    font-size: 52px;
+    font-weight: 400;
+}
+.featured p{
+    line-height: 21px;
+    color: rgba(0,0,0,.5);
+    max-width: 300px;
+}
+.featured{
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/*CONTENT*/
+.content-wrap{
+    padding-top: 20px;
+}
+.content-wrap, .featured{
+    background: white;
+    border: 1px solid rgba(15, 16, 16, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(15, 16, 16, 0.2);
+}
+.content-wrap h2 {
+    color: #63972f;
+    font-size: 20px;
+    margin: 0px 0px 13px 0px;
+    font-weight: 400;
+}
+.content-wrap p {
+    color: #7d7d7d;
+    line-height: 20px;
+    margin: 9px 0px 6px 0px;
+    letter-spacing: -0.003em;
+}
+.content-wrap p a{
+    color: #63972f;
+}
+.content-wrap h3 {
+    color: #85857b;
+    line-height: 20px;
+    font-size: 16px;
+    margin: 10px 0px -1px 0px;
+    font-weight: 400;
+}
+.article-wrap{
+    margin-bottom: 20px;
+    padding: 0px 20px 20px 15px;
+    border-bottom: 1px double transparent;
+    border-image: linear-gradient(-45deg, transparent 0px, transparent 2px, rgba(0,0,0,.1)2px, rgba(0,0,0,.03), rgba(0,0,0,.001), transparent) 1 stretch;
+}
+.content{
+    width: 100%;
+}
+.articles{
+    padding: 0px 20px 20px 15px;
+}
+.articles figure{
+    float: left;
+}
+.sidebar .lbl-default{
+    width: 100%;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    flex-shrink: 0;
+    width: 37%;
+    border-left: 1px solid rgba(0,0,0,.1);
+    padding-right: 15px;
+}
+.sidebar > div{
+    border-image: linear-gradient(90deg, transparent 0px, transparent 2px, rgba(0,0,0,.1)2px,  rgba(0,0,0,.03), rgba(0,0,0,.001), transparent) 1 stretch;
+    border-bottom: 1px double transparent;
+    padding: 0px 0px 15px 15px;
+}
+.sidebar > div:last-child{
+    border: none;
+}
+.sidebar > div:last-child figure{
+    border: none;
+}
+.healthy figure{
+    background: linear-gradient(0deg, rgba(229,229,229,.25), rgba(255,255,255,.25) 68%, rgba(255,255,255,.25));
+    border: 1px solid rgba(16, 17, 17, 0.14);
+    box-shadow: inset 0 0 3px rgba(16, 17, 17, 0.1);
+    padding: 3px 30px;
+    margin-bottom: 20px;
+}
+.healthy figcaption{
+    color: #73ab37;
+    line-height: 18px;
+}
+.compare{
+    margin-bottom: 20px;
+}
+.compare span {
+    color: #7d7d7d;
+    font-size: 16px;
+}
+.compare em {
+    color: #71af42;
+    font-family: Georgia;
+    font-size: 18px;
+    font-style: italic;
+}
+.compare > div{
+    flex-grow: 1;
+}
+.compare > div:first-child {
+    border-right-width: 1px;
+    border-image: linear-gradient(#fafafa, #e7e7e7, #fafafa) 1 100%;
+}
+.recipe figure{
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+.recipe figure:after{
+    content: "";
+    bottom: -12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 11px solid rgba(2, 2, 2, 0.15);
+    z-index: -1;
+}
+.sidebar .recipe .lbl-default.alt:after, .sidebar .recipe .lbl-default.alt:before{
+    display: block;
+}
+.sidebar .lbl-default.alt:after, .sidebar .lbl-default.alt:before{
+    display: none;
+}
+
+/*FOOTER*/
+.footer span, .web {
+    text-align: center;
+    color: #c1d7a9;
+    font-size: 11px;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+}

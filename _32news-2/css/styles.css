@@ -91,11 +91,13 @@ header p a:active, header p a:hover, header p a:focus{
     font-size: 31rem;
     font-weight: 700;
     line-height: 34rem;
+    width: 100%;    
 }
 .featured figcaption p{
     color: #e5f2eb;
     margin: 0px 0px 10rem 1rem;
     letter-spacing: -0.009em;
+    width: 100%;
 }
 
 /*CONTENT*/
