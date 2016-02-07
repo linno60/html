@@ -6,7 +6,7 @@ figure img{
 }
 .lwrap{
     padding: 0px 10px;
-    max-width: 642px;
+    max-width: 640px;
 }
 body {
     background: #6fa535 radial-gradient(circle at center center, #85b450, #6fa535);
@@ -14,7 +14,7 @@ body {
 .content-wrap figure{
     border: 1px solid rgba(2, 2, 2, 0.12);
     box-shadow: inset 0 0 0 1px white;
-    padding: 1px;
+    position: relative;
 }
 p a{
     text-decoration: underline;
@@ -32,7 +32,7 @@ header > .lwrap {
     position: relative;
     max-width: 620px;
     margin: auto;
-    padding: 12px 17px 4px 16px;
+    padding: 15px 16px 4px 16px;
     background: #f8f8f8;
     box-shadow: 0 5px 14px 1px rgba(0,0,0,.2);
 }
@@ -50,9 +50,15 @@ header > .lwrap:after {
 }
 header p{
     color: #818379;
+    font-size: 11px;
+    letter-spacing: 0.015em;
 }
 header p a{
     color: #74ac37;
+}
+.header{
+    padding-top: 22px;
+    background: url("/images/effects.png")no-repeat center bottom;
 }
 .featured h1{
     color: #64972f;
@@ -62,17 +68,19 @@ header p a{
 .featured p{
     line-height: 21px;
     color: rgba(0,0,0,.5);
-    max-width: 300px;
+    max-width: 275px;
+    margin: 8px 0px 22px 3px;
+    letter-spacing: -0.01em;
 }
 .featured{
-    padding: 20px 20px 20px 20px;
-    margin-bottom: 30px;
+    padding: 36px 26px 41px 26px;
+    margin-bottom: 32px;
     width: 100%;
 }
 
 /*CONTENT*/
 .content-wrap{
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .content-wrap, .featured{
     background: white;
@@ -89,7 +97,7 @@ header p a{
 .content-wrap p {
     color: #7d7d7d;
     line-height: 20px;
-    margin: 9px 0px 6px 0px;
+    margin: 8px 0px 6px 0px;
     letter-spacing: -0.003em;
 }
 .content-wrap p a{
@@ -99,42 +107,89 @@ header p a{
     color: #85857b;
     line-height: 20px;
     font-size: 16px;
-    margin: 10px 0px -1px 0px;
     font-weight: 400;
 }
+.article-wrap h3 {
+    margin-top: 10px;
+}
 .article-wrap{
-    margin-bottom: 20px;
-    padding: 0px 20px 20px 15px;
+    margin-bottom: 25px;
+    padding: 0px 17px 30px 13px;
     border-bottom: 1px double transparent;
     border-image: linear-gradient(-45deg, transparent 0px, transparent 2px, rgba(0,0,0,.1)2px, rgba(0,0,0,.03), rgba(0,0,0,.001), transparent) 1 stretch;
+}
+.article-wrap > article{
+    padding-bottom: 30px;
+}
+.article-wrap > article figure .lbl-default{
+    font-size: 20px;
+    padding: 1px 14px;
+}
+.article-wrap > article figure .lbl-default small{
+    font-size: 18px;
+}
+.article-wrap > div > article{
+    width: 47.5%;
 }
 .content{
     width: 100%;
 }
+.content-wrap figure .lbl-default{
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+}
 .articles{
-    padding: 0px 20px 20px 15px;
+    padding: 0px 20px 0px 14px;
+}
+.articles article{
+    padding: 7px 0px 26px 0px;
 }
 .articles figure{
     float: left;
+    margin: 2px 18px 0px 0px;
 }
-.sidebar .lbl-default{
-    width: 100%;
+.articles h2{
+    margin-bottom: 11px;
+}
+.article-wrap > article p {
+    margin: 9px 0px 6px 0px;
+}
+.articles article:last-child {
+    padding: 7px 0px 0px 0px;
 }
 
 /*SIDEBAR*/
 .sidebar{
     flex-shrink: 0;
-    width: 37%;
-    border-left: 1px solid rgba(0,0,0,.1);
-    padding-right: 15px;
+    width: 37.5%;
+    background: linear-gradient(rgba(0,0,0,.1) 100%, transparent 0%) left bottom / 1px calc(100% - 36px) no-repeat;
+    padding-right: 13px;
+}
+.sidebar .lbl-default{
+    width: calc(100% - 2px);
+    font-size: 20px;
+    right: 1px;
+    padding: 2px 5px;
+}
+.recipe .lbl-default{
+    padding: 0px 5px;
 }
 .sidebar > div{
-    border-image: linear-gradient(90deg, transparent 0px, transparent 2px, rgba(0,0,0,.1)2px,  rgba(0,0,0,.03), rgba(0,0,0,.001), transparent) 1 stretch;
+    border-image: linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0,0,0,.1)3px,  rgba(0,0,0,.03), rgba(0,0,0,.03), transparent) 1 stretch;
     border-bottom: 1px double transparent;
-    padding: 0px 0px 15px 15px;
+    padding: 0px 2px 30px 18px;
+    margin-bottom: 25px;
+}
+.sidebar > div:first-child{
+    padding: 0px 0px 17px 18px;
+}
+.sidebar > div.healthy{
+    padding: 0px 6px 18px 17px;
 }
 .sidebar > div:last-child{
     border: none;
+    padding: 0px 1px 0px 18px;
 }
 .sidebar > div:last-child figure{
     border: none;
@@ -143,19 +198,22 @@ header p a{
     background: linear-gradient(0deg, rgba(229,229,229,.25), rgba(255,255,255,.25) 68%, rgba(255,255,255,.25));
     border: 1px solid rgba(16, 17, 17, 0.14);
     box-shadow: inset 0 0 3px rgba(16, 17, 17, 0.1);
-    padding: 3px 30px;
-    margin-bottom: 20px;
+    padding: 12px 50px 5px 44px;
+    margin-bottom: 12px;
 }
 .healthy figcaption{
     color: #73ab37;
     line-height: 18px;
 }
 .compare{
-    margin-bottom: 20px;
+    padding-right: 6px;
 }
 .compare span {
     color: #7d7d7d;
     font-size: 16px;
+}
+.compare span i{
+    margin-right: 4px;
 }
 .compare em {
     color: #71af42;
@@ -165,25 +223,28 @@ header p a{
 }
 .compare > div{
     flex-grow: 1;
+    padding: 6px 3px 6px 12px;
 }
 .compare > div:first-child {
     border-right-width: 1px;
-    border-image: linear-gradient(#fafafa, #e7e7e7, #fafafa) 1 100%;
+    padding: 6px 12px 6px 3px;
+    border-image: linear-gradient(#f9f9f9, #e7e7e7, #f9f9f9) 1;
 }
 .recipe figure{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     z-index: 0;
+    border-radius: 3px;
 }
 .recipe figure:after{
     content: "";
-    bottom: -12px;
+    bottom: -9px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
-    border-top: 11px solid rgba(2, 2, 2, 0.15);
+    border-top: 9px solid rgba(2, 2, 2, 0.15);
     z-index: -1;
 }
 .sidebar .recipe .lbl-default.alt:after, .sidebar .recipe .lbl-default.alt:before{
@@ -194,11 +255,17 @@ header p a{
 }
 
 /*FOOTER*/
-.footer span, .web {
+footer span, .web {
     text-align: center;
     color: #c1d7a9;
     font-size: 11px;
     line-height: 18px;
     text-decoration: none;
     letter-spacing: 0.01em;
+}
+footer .lwrap{
+    padding: 20px 10px 50px 10px;
+}
+footer .links-nav a{
+    text-decoration: none;
 }

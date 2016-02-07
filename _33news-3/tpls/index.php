@@ -24,22 +24,22 @@
             <div class="lwrap" data-flex="axis">
                 <p>Having trouble viewing this email? <a href="#">View it in your browser</a></p>
                 <div class="links-top" data-flex="end w" data-childs="-center">
-                    <a href="#">Online version</a>
-                    <a href="#">Forward to a Friend</a>
+                    <a href="#">Online Version</a>
+                    <a href="#">Forward to a friend</a>
                 </div>
             </div>         
         </header>
         <div class="lwrap">
             <section class="header">
                 <a href="/" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="196" height="74" alt="News-3">
+                    <img src="/images/logo.png" width="194" height="74" alt="News-3">
                 </a>
                 <div data-flex="col -end">
                     <time class="lbl lbl-date"><i class="icon-calendar"></i>February 2012</time>
                     <div class="featured">
                         <h1>Fresh Start</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean malesuada augue sed dui suscipit eu sodales justo placerat. </p>
-                        <a href='#' class='btn btn-default'>View full Article</a>
+                        <a href='#' class='btn btn-default'>View Full Article</a>
                     </div>
                 </div>
             </section>          
@@ -79,7 +79,7 @@
                         </div>
                         <div class="articles">
                             <h2>Three Simple Vegetarian Recipes</h2>
-                            <article data-flex="-start">
+                            <article class="clearfix">
                                 <figure>
                                     <img src='/images/img6.png'>
                                     <figcaption class="lbl lbl-default"><span>40 <small>calories</small></span></figcaption>
@@ -90,7 +90,7 @@
                                     <a href="#" class="more" data-flex="-center">Read More</a>
                                 </div>
                             </article>
-                            <article data-flex="-start">
+                            <article class="clearfix">
                                 <figure>
                                     <img src='/images/img6.png'>
                                     <figcaption class="lbl lbl-default"><span>96 <small>calories</small></span></figcaption>
@@ -101,7 +101,7 @@
                                     <a href="#" class="more" data-flex="-center">Read More</a>
                                 </div>
                             </article>
-                            <article data-flex="-start">
+                            <article class="clearfix">
                                 <figure>
                                     <img src='/images/img6.png'>
                                     <figcaption class="lbl lbl-default"><span>34 <small>calories</small></span></figcaption>
@@ -148,14 +148,18 @@
                                 <img src="/images/fish.png">
                                 <figcaption>Fried Fish</figcaption>
                             </figure>
-                            <div class="compare" data-flex="stripe" data-childs="col -center">
+                            <div class="compare" data-flex="stripe" data-childs="center">
                                 <div>
-                                    <span><i class="icon-like"></i>Yes</span>
-                                    <em>90%</em>
+                                    <div data-flex="col -end">
+                                        <span data-flex="-center"><i class="icon-like"></i>Yes</span>
+                                        <em>90%</em>
+                                    </div> 
                                 </div>
                                 <div>
-                                    <span><i class="icon-dislike"></i>No</span>
-                                    <em>10%</em>
+                                    <div data-flex="col -end">
+                                        <span data-flex="-center"><i class="icon-dislike"></i>No</span>
+                                        <em>10%</em>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -180,21 +184,23 @@
                     <a href="#"><i class="icon-tw"></i>twitter</a>
                     <a href="#"><i class="icon-rss"></i>rss feed</a>
                     <a href="#"><i class="icon-ms"></i>myspace</a>
-                    <a href="#"><i class="icon-sk"></i>john.doe.123</a>
+                    <a href="#"><i class="icon-sk"></i>cooknews</a>
                 </div>
             </section>            
         </div>
-        <footer class="footer" data-flex="col -center">
-            <nav class="links-footer" data-flex="-center center w">
-                <a href="#">Unsubscribe</a>|
-                <a href="#">Privacy Policy</a>|
-                <a href="#">Terms & Conditions</a>
-            </nav>
-            <span>Copyright © 2013 Company Name. All Rights Reserved. East Pixel Bld. 99, Creative City 9000, Republic of Design</span>
-            <div class="links-footer" data-flex="-center center w">
-                <a href="#" class="web">www.YourSiteName.com</a>|
-                <a href="mailto:email@yoursitename.com">email@yoursitename.com</a>
-                <a href="#">Phone: +1 (655) 606-605</a>
+        <footer>
+            <div class="lwrap" data-flex="col -center">
+                <nav class="links-footer" data-flex="-center center w">
+                    <a href="#">Unsubscribe</a>|
+                    <a href="#">Privacy Policy</a>|
+                    <a href="#">Terms & Conditions</a>
+                </nav>
+                <span>Copyright © 2013 Company Name. All Rights Reserved. East Pixel Bld. 99, Creative City 9000, Republic of Design</span>
+                <div class="links-footer" data-flex="-center center w">
+                    <a href="#" class="web">www.YourSiteName.com</a>|
+                    <a href="mailto:email@yoursitename.com">email@yoursitename.com</a>
+                    <a href="#">Phone: +1 (655) 606-605</a>
+                </div>
             </div>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
