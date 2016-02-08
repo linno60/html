@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+
+/* FONTS */
+@font-face {
+    font-family: 'CharisSIL';
+    src: url('/fonts/fontsquirel.com/charissili.woff2') format('woff2'), url('/fonts/fontsquirel.com/charissili.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+/* ICONS */
+.icon-arrow {width: 8px; height: 8px; background: url('/images/icons/arrow.png');}
+.icon-db {width: 16px; height: 16px; background: url('/images/icons/db.png');}
+.icon-fb {width: 16px; height: 16px; background: url('/images/icons/fb.png');}
+.icon-fl {width: 16px; height: 16px; background: url('/images/icons/fl.png');}
+.icon-gp {width: 16px; height: 16px; background: url('/images/icons/gp.png');}
+.icon-graph {width: 48px; height: 48px; background: url('/images/icons/graph.png');}
+.icon-in {width: 16px; height: 16px; background: url('/images/icons/in.png');}
+.icon-monitor {width: 48px; height: 48px; background: url('/images/icons/monitor.png');}
+.icon-movie {width: 48px; height: 48px; background: url('/images/icons/movie.png');}
+.icon-next-lg {width: 12px; height: 12px; background: url('/images/icons/next-lg.png');}
+.icon-next-sm {width: 8px; height: 8px; background: url('/images/icons/next-sm.png');}
+.icon-photo {width: 48px; height: 48px; background: url('/images/icons/photo.png');}
+.icon-prev-lg {width: 12px; height: 12px; background: url('/images/icons/prev-lg.png');}
+.icon-prev-sm {width: 8px; height: 8px; background: url('/images/icons/prev-sm.png');}
+.icon-rss {width: 16px; height: 16px; background: url('/images/icons/rss.png');}
+.icon-tw {width: 16px; height: 16px; background: url('/images/icons/tw.png');}

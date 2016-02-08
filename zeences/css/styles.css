@@ -132,7 +132,8 @@ a.btn-nav.active, a.btn-nav:hover{
     height: 25px;
 }
 .slider-wrap .btn-thumb{
-    margin: 0px 7px 0px 8px;}
+    margin: 0px 7px 0px 8px;
+}
 .slider-wrap{
     border-bottom: 3px solid #454545;
     margin: 0px 0px 4px 0px;

@@ -1,0 +1,94 @@
+body{
+    font-size: 12px;
+    font-family: Verdana;
+}
+
+/*LINKS*/
+.links-social a{
+    margin: 3px 0px 2px 13rem;
+}
+.links-nav{
+    background: rgba(255,255,255,.9);
+    margin: 29rem 0px 30rem 0px;
+}
+.links-nav a{
+    height: 55px;
+    border-right: 1px solid #b4b4b4;
+    color: #4d4d4d;
+    font-size: 15px;
+    font-family: Arvo;
+    padding: 0px 30rem;
+    letter-spacing: -0.049em;
+    text-align: center;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: #fff;
+    color: #4d87ab;
+}
+.links-thumbs{
+    padding-top: 13rem;
+}
+.links-thumbs a{
+    border-radius: 50%;
+    background: #454545;
+    width: 12px;
+    height: 12px;
+    margin:  3px;
+}
+.links-thumbs a:first-child, .links-thumbs a:last-child{
+    width: 25px;
+    height: 25px;
+    margin: 0px 7px 0px 8px;
+}
+
+/*LISTS*/
+.list-default li{
+    color: #4d4d4d;
+    font-family: Times New Roman;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+.list-default li:before{
+    background: url(/images/icons/arrow.png);
+    width: 8px;
+    height: 8px;
+    content: "";
+    margin: 7px 12px 0px 0px;
+    flex-shrink: 0;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    background: #292929;
+    border: none;
+    outline: none;    
+    color: white;
+    width: 100%;
+    max-width: 480px;
+}
+input[name=input]{
+    height: 32px;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+textarea{
+    height: 115px;
+    padding: 10px;
+    margin-bottom: 11px;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 90px;
+    height: 27px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.22);
+    color: #e2e2e2;
+    font-family: CharisSIL;
+    font-size: 14px;
+    font-style: italic;
+    background: #5498c3 linear-gradient(rgba(77,77,77,.22), rgba(0,0,0,.22));
+}
+

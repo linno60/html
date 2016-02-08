@@ -1,0 +1,225 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1190px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header .lwrap{
+    padding: 25rem 10px 24rem 25rem;
+    max-width: 1222px;
+}
+
+/*SLIDER*/
+.slider{
+    background: #8f8f8f;
+    padding: 205rem 10px 199rem 10px;
+    box-shadow: inset 0px 4px 0px 0px #7f7f7f;
+}
+.slider h1, .slider h1 + span{
+    color: white;
+    text-transform: uppercase;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+}
+.slider h1{
+    font-size: 80rem;
+    font-weight: 900;
+    padding: 10rem 25rem 14rem 25rem;
+    margin-bottom: 10rem;
+    letter-spacing: -0.005em;
+}
+.slider h1 + span{
+    font-size: 50rem;
+    font-weight: 300;
+    padding: 12rem 21rem 15rem 21rem;
+    margin-bottom: 25rem;
+    letter-spacing: -0.006em;
+}
+
+/*ABOUT*/
+.about.lwrap{
+    padding: 80rem 10px;
+    width: 100%;
+}
+.about h4{
+    color: #484848;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 16rem;
+}
+.about p{
+    color: #656565;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 21rem;
+}
+.about span{
+    color: #484848;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 31rem;
+}
+.about figure{
+    flex-shrink: 0;
+    margin-right: 59rem;
+}
+.about > article{
+    margin-bottom: 55rem;
+    width: 100%;
+}
+.about div{
+    width: 100%;
+}
+.about > div > article{
+    width: 31.55%;
+    margin-bottom: 28rem;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+    background: #333;
+    padding: 76rem 0px 4rem 0px;
+}
+.portfolio h3{
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 23rem;
+    text-transform: uppercase;
+    color: white;
+}
+.portfolio p{
+    color: #d2d2d2;
+    font-size: 15px;
+    margin-bottom: 57rem;
+}
+.portfolio figure{
+    margin: 0px 0px 10rem 5rem;
+}
+.portfolio figure:first-child{
+    margin: 0px 0px 10rem 0px;
+}
+.portfolio > div:nth-child(even){
+    margin-bottom: 62rem;
+}
+
+/*BLOG*/
+.blog{
+    background: #f0f0f0;
+}
+.blog figcaption{
+    padding: 21rem 21rem 22rem 25rem;
+    margin-bottom: 21rem;
+    background: rgba(220, 220, 220, 0.17);
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #9f9f9f;
+}
+.blog figcaption a{
+    color: #9f9f9f;
+}
+.blog figcaption a i{
+    margin-left: 7rem;
+}
+.blog figcaption span{
+    padding: 5rem 5px 0px 0px;
+}
+.blog a:active, .blog a:hover, .blog a:focus{
+    text-decoration: underline;
+}
+.blog article{
+    background: white;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 40rem;
+    width: 48.25%;
+}
+.blog figure ~ *{
+    padding: 0px 24rem;
+}
+.blog > .lwrap{
+    padding: 80rem 10px 40rem 12px;
+    max-width: 1193px;
+}
+.blog article h5{
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 11rem;
+}
+.blog article h5 a{
+    color: #5c5c5c;
+}
+.blog article p{
+    color: #656565;
+    font-size: 15px;
+    line-height: 33px;
+    margin-bottom: 14rem;
+    max-width: 550px;
+}
+
+/*CONTACTS*/
+.contacts{
+    background: url('/images/bg.png');
+    background-size: cover;   
+}
+.contacts address{
+    font-style: normal;
+    color: #d9d9d9;
+}
+.contacts address i{
+    margin: 2px 9px 0px 0px;
+}
+.contacts address span{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.contacts > .lwrap > div{
+    width: 30.8%;
+    flex-shrink: 0;
+}
+.contacts form{
+    margin: 3rem 10px 20px 0px;
+}
+.contacts > .lwrap{
+    padding: 77rem 10px 58rem 10px;
+}
+.contacts h3{
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    margin: 0px 0px 13rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+.contacts p{
+    color: #d9d9d9;
+    font-family: Lato;
+    font-size: 15px;
+    margin: 0px 5rem 26rem 0px;
+    line-height: 33px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 58rem 10px 30px 10px;
+}
+footer span{
+    color: #656565;
+    font-size: 15px;
+    padding-bottom: 18rem;
+    text-align: center;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+   .about figure {flex-shrink: 1;margin-right: 59rem;} 
+}

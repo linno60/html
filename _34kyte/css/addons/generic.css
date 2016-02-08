@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+
+/* ICONS */
+.icon-dribble-footer {width: 28px; height: 28px; background: url('/images/icons/dribble-footer.png');}
+.icon-dribble {width: 28px; height: 28px; background: url('/images/icons/dribble.png');}
+.icon-heart {width: 12px; height: 12px; background: url('/images/icons/heart.png');}
+.icon-instagram-footer {width: 28px; height: 28px; background: url('/images/icons/instagram-footer.png');}
+.icon-instagram {width: 28px; height: 28px; background: url('/images/icons/instagram.png');}
+.icon-letter {width: 16px; height: 16px; background: url('/images/icons/letter.png');}
+.icon-location {width: 16px; height: 16px; background: url('/images/icons/location.png');}
+.icon-mail-alt {width: 20px; height: 20px; background: url('/images/icons/mail-alt.png');}
+.icon-mail-footer {width: 28px; height: 28px; background: url('/images/icons/mail-footer.png');}
+.icon-mail {width: 28px; height: 28px; background: url('/images/icons/mail.png');}
+.icon-phone {width: 16px; height: 16px; background: url('/images/icons/phone.png');}
+.icon-twitter-footer {width: 32px; height: 32px; background: url('/images/icons/twitter-footer.png');}
+.icon-twitter {width: 32px; height: 32px; background: url('/images/icons/twitter.png');}
