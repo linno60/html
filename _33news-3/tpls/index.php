@@ -30,7 +30,7 @@
             </div>         
         </header>
         <div class="lwrap">
-            <section class="header">
+            <section class="header" data-flex="col -start">
                 <a href="/" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="194" height="74" alt="News-3">
                 </a>
@@ -44,7 +44,7 @@
                 </div>
             </section>          
             <section class="content-wrap">
-                <div data-flex='stripe'>
+                <div data-flex='stripe' data-flex-480="vstripe">
                     <div class='content'>
                         <div class='article-wrap'>
                             <article>
@@ -54,7 +54,7 @@
                                     <figcaption class="lbl lbl-default"><span>15 <small>calories</small></span></figcaption>
                                 </figure>
                                 <p>Quisque ligula arcu, in rutrum magna. Ut varius imperdiet congue. Vivamus fringilla dignissim purus, quis <a href="#">vitae</a> mollis urna tincidunt amet raesent vel odio at massa sagittis.</p>
-                                <a href="#" class="more" data-flex="-center">Read More</a>
+                                <a href="#" class="more">Read More</a>
                             </article>
                             <div data-flex='stripe'>
                                 <article>
@@ -64,7 +64,7 @@
                                     </figure>
                                     <h3>Lorem ipsum dolor sit adipiscing dor</h3>
                                     <p>Quisque vitae ligula arcu, in rutrum magna. Ut varius imperdiet congue vivamus.</p>
-                                    <a href="#" class="more" data-flex="-center">Read More</a>
+                                    <a href="#" class="more">Read More</a>
                                 </article>
                                 <article>
                                     <figure>
@@ -73,7 +73,7 @@
                                     </figure>
                                     <h3>Lipsum dolor sit dor amet adipiscing</h3>                                    
                                     <p>Quisque vitae ligula arcu, in rutrum magna. Ut varius imperdiet congue vivamus.</p>
-                                    <a href="#" class="more" data-flex="-center">Read More</a>
+                                    <a href="#" class="more">Read More</a>
                                 </article>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                 <div>
                                     <h3>Lipsum dolor sit dor amet adipiscing</h3>
                                     <p>Quisque vitae ligula arcu, in rutrum magna. Ut varius imperdiet congue vivamus.</p>
-                                    <a href="#" class="more" data-flex="-center">Read More</a>
+                                    <a href="#" class="more">Read More</a>
                                 </div>
                             </article>
                             <article class="clearfix">
@@ -98,7 +98,7 @@
                                 <div>
                                     <h3>Lipsum dolor sit dor amet adipiscing</h3>
                                     <p>Quisque vitae ligula arcu, in rutrum magna. Ut varius imperdiet congue vivamus.</p>
-                                    <a href="#" class="more" data-flex="-center">Read More</a>
+                                    <a href="#" class="more">Read More</a>
                                 </div>
                             </article>
                             <article class="clearfix">
@@ -109,7 +109,7 @@
                                 <div>
                                     <h3>Lipsum dolor sit dor amet adipiscing</h3>
                                     <p>Quisque vitae ligula arcu, in rutrum magna. Ut varius imperdiet congue vivamus.</p>
-                                    <a href="#" class="more" data-flex="-center">Read More</a>
+                                    <a href="#" class="more">Read More</a>
                                 </div>
                             </article>
                         </div>
@@ -119,7 +119,7 @@
                             <h2>Latest Recipe</h2>
                             <figure>
                                 <img src='/images/img7.png'>
-                                <span class="lbl lbl-default alt">Crème brûlée</span>
+                                <span class="lbl lbl-default alt">Cr?me br?l?e</span>
                             </figure>
                             <table class="table">
                                 <tbody>
@@ -195,10 +195,10 @@
                     <a href="#">Privacy Policy</a>|
                     <a href="#">Terms & Conditions</a>
                 </nav>
-                <span>Copyright © 2013 Company Name. All Rights Reserved. East Pixel Bld. 99, Creative City 9000, Republic of Design</span>
-                <div class="links-footer" data-flex="-center center w">
+                <span>Copyright &copy; 2013 Company Name. All Rights Reserved. East Pixel Bld. 99, Creative City 9000, Republic of Design</span>
+                <div class="links-footer contacts" data-flex="-center center w">
                     <a href="#" class="web">www.YourSiteName.com</a>|
-                    <a href="mailto:email@yoursitename.com">email@yoursitename.com</a>
+                    <a href="mailto:email@yoursitename.com" class="mail">email@yoursitename.com</a>|
                     <a href="#">Phone: +1 (655) 606-605</a>
                 </div>
             </div>

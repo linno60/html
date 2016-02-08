@@ -1,5 +1,5 @@
 /*COMMON*/
-figure img{
+figure img, #logo img{
     width: 100%;
     height: 100%;
     display: block;
@@ -24,6 +24,9 @@ p a:active, p a:hover, p a:focus{
 }
 
 /*HEADER*/
+#logo{
+    max-width: 60%;
+}
 header {
     background: linear-gradient(white, #fefefe 30%, #eee);
     box-shadow: 0 1px 14px rgba(0,0,0,.2), inset 0 0 5px rgba(16,17,17,.1);
@@ -32,7 +35,7 @@ header > .lwrap {
     position: relative;
     max-width: 620px;
     margin: auto;
-    padding: 15px 16px 4px 16px;
+    padding: 12px 16px 4px 16px;
     background: #f8f8f8;
     box-shadow: 0 5px 14px 1px rgba(0,0,0,.2);
 }
@@ -40,7 +43,7 @@ header > .lwrap:after {
     content: "";
     width: 100%;
     height: 9px;
-    background: linear-gradient(#f8f8f8, #f3f3f3);
+    background: #f8f8f8;
     display: block;
     position: absolute;
     top: 100%;
@@ -57,30 +60,33 @@ header p a{
     color: #74ac37;
 }
 .header{
-    padding-top: 22px;
+    padding-top: 22rem;
     background: url("/images/effects.png")no-repeat center bottom;
+}
+.header > div{
+    width: 100%;
 }
 .featured h1{
     color: #64972f;
-    font-size: 52px;
+    font-size: 52rem;
     font-weight: 400;
 }
 .featured p{
     line-height: 21px;
     color: rgba(0,0,0,.5);
     max-width: 275px;
-    margin: 8px 0px 22px 3px;
+    margin: 8rem 0px 22rem 3rem;
     letter-spacing: -0.01em;
 }
 .featured{
-    padding: 36px 26px 41px 26px;
-    margin-bottom: 32px;
+    padding: 36rem 26rem 41rem 26rem;
+    margin-bottom: 32rem;
     width: 100%;
 }
 
 /*CONTENT*/
 .content-wrap{
-    padding-top: 15px;
+    padding-top: 15rem;
 }
 .content-wrap, .featured{
     background: white;
@@ -91,13 +97,13 @@ header p a{
 .content-wrap h2 {
     color: #63972f;
     font-size: 20px;
-    margin: 0px 0px 13px 0px;
+    margin: 0px 0px 13rem 0px;
     font-weight: 400;
 }
 .content-wrap p {
     color: #7d7d7d;
     line-height: 20px;
-    margin: 8px 0px 6px 0px;
+    margin: 8rem 0px 6rem 0px;
     letter-spacing: -0.003em;
 }
 .content-wrap p a{
@@ -110,20 +116,20 @@ header p a{
     font-weight: 400;
 }
 .article-wrap h3 {
-    margin-top: 10px;
+    margin-top: 10rem;
 }
 .article-wrap{
     margin-bottom: 25px;
-    padding: 0px 17px 30px 13px;
+    padding: 0px 17rem 30rem 13rem;
     border-bottom: 1px double transparent;
     border-image: linear-gradient(-45deg, transparent 0px, transparent 2px, rgba(0,0,0,.1)2px, rgba(0,0,0,.03), rgba(0,0,0,.001), transparent) 1 stretch;
 }
 .article-wrap > article{
-    padding-bottom: 30px;
+    padding-bottom: 30rem;
 }
 .article-wrap > article figure .lbl-default{
     font-size: 20px;
-    padding: 1px 14px;
+    padding: 1rem 14rem;
 }
 .article-wrap > article figure .lbl-default small{
     font-size: 18px;
@@ -140,23 +146,25 @@ header p a{
     bottom: 1px;
 }
 .articles{
-    padding: 0px 20px 0px 14px;
+    padding: 0px 20rem 0px 14rem;
 }
 .articles article{
-    padding: 7px 0px 26px 0px;
+    padding: 7rem 0px 26rem 0px;
 }
 .articles figure{
     float: left;
-    margin: 2px 18px 0px 0px;
+    margin: 2rem 18rem 0px 0px;
+    max-width: 48%;
 }
 .articles h2{
-    margin-bottom: 11px;
+    margin-bottom: 11rem;
 }
 .article-wrap > article p {
-    margin: 9px 0px 6px 0px;
+    margin: 9rem 0px 6rem 0px;
 }
 .articles article:last-child {
-    padding: 7px 0px 0px 0px;
+    padding: 7rem 0px 0px 0px;
+    margin-bottom: 20px;
 }
 
 /*SIDEBAR*/
@@ -164,7 +172,7 @@ header p a{
     flex-shrink: 0;
     width: 37.5%;
     background: linear-gradient(rgba(0,0,0,.1) 100%, transparent 0%) left bottom / 1px calc(100% - 36px) no-repeat;
-    padding-right: 13px;
+    padding-right: 13rem;
 }
 .sidebar .lbl-default{
     width: calc(100% - 2px);
@@ -178,42 +186,43 @@ header p a{
 .sidebar > div{
     border-image: linear-gradient(90deg, transparent 0px, transparent 3px, rgba(0,0,0,.1)3px,  rgba(0,0,0,.03), rgba(0,0,0,.03), transparent) 1 stretch;
     border-bottom: 1px double transparent;
-    padding: 0px 2px 30px 18px;
-    margin-bottom: 25px;
+    padding: 0px 2rem 30rem 18rem;
+    margin-bottom: 25rem;
 }
 .sidebar > div:first-child{
-    padding: 0px 0px 17px 18px;
+    padding: 0px 0px 17rem 18rem;
 }
 .sidebar > div.healthy{
-    padding: 0px 6px 18px 17px;
+    padding: 0px 6rem 18rem 17rem;
 }
 .sidebar > div:last-child{
     border: none;
-    padding: 0px 1px 0px 18px;
+    padding: 0px 1rem 0px 18rem;
 }
 .sidebar > div:last-child figure{
     border: none;
+    width: 46.5%;
 }
 .healthy figure{
     background: linear-gradient(0deg, rgba(229,229,229,.25), rgba(255,255,255,.25) 68%, rgba(255,255,255,.25));
     border: 1px solid rgba(16, 17, 17, 0.14);
     box-shadow: inset 0 0 3px rgba(16, 17, 17, 0.1);
-    padding: 12px 50px 5px 44px;
-    margin-bottom: 12px;
+    padding: 12rem 50rem 5rem 44rem;
+    margin-bottom: 12rem;
 }
 .healthy figcaption{
     color: #73ab37;
     line-height: 18px;
 }
 .compare{
-    padding-right: 6px;
+    padding-right: 6rem;
 }
 .compare span {
     color: #7d7d7d;
     font-size: 16px;
 }
 .compare span i{
-    margin-right: 4px;
+    margin-right: 4rem;
 }
 .compare em {
     color: #71af42;
@@ -227,12 +236,13 @@ header p a{
 }
 .compare > div:first-child {
     border-right-width: 1px;
-    padding: 6px 12px 6px 3px;
+    border-style: solid;
+    padding: 6rem 12rem 6rem 3rem;
     border-image: linear-gradient(#f9f9f9, #e7e7e7, #f9f9f9) 1;
 }
 .recipe figure{
     position: relative;
-    margin-bottom: 17px;
+    margin-bottom: 17rem;
     z-index: 0;
     border-radius: 3px;
 }
@@ -255,7 +265,7 @@ header p a{
 }
 
 /*FOOTER*/
-footer span, .web {
+footer span, .links-footer.contacts a{
     text-align: center;
     color: #c1d7a9;
     font-size: 11px;
@@ -264,8 +274,29 @@ footer span, .web {
     letter-spacing: 0.01em;
 }
 footer .lwrap{
-    padding: 20px 10px 50px 10px;
+    padding: 20rem 10px 50rem 10px;
 }
 footer .links-nav a{
     text-decoration: none;
+}
+.links-footer.contacts a{
+    text-decoration: none;
+    margin: 0px 2px;
+}
+.links-footer.contacts .mail{
+    text-decoration: underline;
+    color: #d5e5c5;
+}
+.links-footer.contacts .mail:active, .links-footer.contacts .mail:hover, .links-footer.contacts .mail:focus{
+    text-decoration: none;
+}
+.links-footer.contacts a:active, .links-footer.contacts a:hover, .links-footer.contacts a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .sidebar{
+        background: none;
+    }
 }

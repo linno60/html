@@ -1,1 +1,1 @@
-<a href="#" class="more" data-flex="-center">Read More</a>
+<a href="#" class="more">Read More</a>
