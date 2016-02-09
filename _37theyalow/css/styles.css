@@ -1,0 +1,120 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 1040px;
+}
+
+/*HEADER*/
+header{
+    background: url('/images/bg1.png');
+    background-size: cover;
+}
+#logo + small, #logo + small a{
+    color: rgba(255,255,255,.77);
+    font-family: Lao UI;
+    text-transform: uppercase;
+}
+#logo + small a:active, #logo + small a:hover, #logo + small a:focus{
+    text-decoration: underline;
+}
+
+/*SLIDER*/
+.slider > .lwrap{
+    flex-grow: 1;
+    padding: 20px 0px 30px 0px;
+}
+.slider .video{
+    width: 60%;
+    padding-top: 30%;
+}
+.slider hgroup h1, .slider hgroup h2{
+    font-family: Asap;
+    font-size: 63px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slider hgroup h1{
+    color: #f5c506;
+}
+.slider hgroup h2{
+    color: white;
+}
+
+/*ADVANTAGES*/
+.advantages{
+    background: url("/images/bg2.png");
+}
+.advantages > .lwrap{
+    border-left: 1px solid rgba(0,0,0,.14);
+}
+.advantages > .lwrap > div{
+    border-right: 1px solid rgba(0,0,0,.14);
+    height: 212px;
+    flex: 1;
+    padding: 10px;
+}
+.advantages > .lwrap > div > span{
+    color: black;
+    font-family: SegoeUI;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/*BANNERS*/
+.banners{
+    background: url("/images/bg3.png");
+}
+.banners .video{
+    width: 30%;
+}
+.banners > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+
+/*CONDITIONS*/
+.conditions{
+    background: url("/images/bg4.png");
+}
+.conditions > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+.conditions > .lwrap > h2{
+    color: #f5c506;
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.conditions .img-wrap{
+    position: relative;
+}
+.conditions .img-wrap .lbl-free{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+/*FOOTER*/
+footer{
+    background: #4c4c4c;
+    box-shadow: 0 -3px 5px rgba(0,0,0,.75);
+}
+footer > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+footer span, footer span a{
+    color: white;
+    font-family: Open Sans;
+    font-size: 17px;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}

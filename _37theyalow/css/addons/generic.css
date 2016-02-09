@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Asap);
+
+
+/* FONTS */
+@font-face {
+	font-family: 'SegoeWP';
+	src: local('в�є'), url('/fonts/SegoeWP.woff') format('woff');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	src: local('в�є'), url('/fonts/SegoeUIRegular.woff') format('woff');
+}
+@font-face {
+	font-family: 'SegoeUI';
+	src: local('в�є'), url('/fonts/SegoeUILight.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+	font-family: 'SegoeUI';
+	src: local('в�є'), url('/fonts/SegoeUIBold.woff') format('woff');
+    font-weight: 700;
+}
+/* ICONS */
+.icon-cloud {width: 112px; height: 112px; background: url('/images/icons/cloud.png');}
+.icon-free {width: 112px; height: 112px; background: url('/images/icons/free.png');}
+.icon-leave {width: 112px; height: 112px; background: url('/images/icons/leave.png');}
+.icon-letter {width: 24px; height: 24px; background: url('/images/icons/letter.png');}
+.icon-next {width: 20px; height: 20px; background: url('/images/icons/next.png');}
+.icon-plus {width: 12px; height: 12px; background: url('/images/icons/plus.png');}
+.icon-prev {width: 20px; height: 20px; background: url('/images/icons/prev.png');}
+.icon-service {width: 20px; height: 20px; background: url('/images/icons/service.png');}
+.icon-twitter {width: 164px; height: 164px; background: url('/images/icons/twitter.png');}
+.icon-user {width: 24px; height: 24px; background: url('/images/icons/user.png');}

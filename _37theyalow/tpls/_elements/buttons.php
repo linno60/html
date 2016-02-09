@@ -1,0 +1,1 @@
+<a href="#" class="btn btn-slide"><i class="icon-next"></i></a>
