@@ -21,14 +21,14 @@
     </head>
     <body>
         <header>
-            <section class="lwrap" data-flex="-end between">
-                <div data-flex="-center w">
+            <section class="lwrap" data-flex="-end between" data-flex-960="axis" data-flex-640="vaxis">
+                <div data-flex="-end w"  data-flex-640="vaxis">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="317" height="83" alt="Theyalow">    
                     </a>
                     <small>craft by css <a href="#">author.com</a></small>
                 </div>
-                <nav class="links-nav" data-flex="end w" data-childs="-center center">
+                <nav class="links-nav" data-flex="end" data-childs="-center center">
                     <a href="#"><i class="icon-user"></i>about us</a>
                     <a href="#"><i class="icon-service"></i>services</a>
                     <a href="#"><i class="icon-letter"></i>contact</a>
@@ -36,9 +36,9 @@
             </section>
             <section class="slider" data-flex="axis">                
                 <a href="#" class="btn btn-slide"><i class="icon-prev"></i></a>
-                <div class="lwrap" data-flex="axis">
+                <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
                     <div class="video" data-video="16:9"><iframe src="https://www.youtube.com/embed/hO4UaLG0zY8" frameborder="0" allowfullscreen></iframe></div>
-                    <hgroup>
+                    <hgroup data-flex="col -center center">
                        <h1>the cool</h1>
                        <h2>the minimal</h2>
                     </hgroup>
@@ -62,19 +62,19 @@
                 </div>
             </div>
         </section>
-        <section class="banners">
+        <section class="banners-wrap">
             <div class="lwrap">
                 <h2>lorem ipsum dolor sit amet</h2>
-                <div data-flex="stripe">
-                    <div data-flex>
+                <div class="banners" data-flex="stripe" data-flex-640="-start" data-flex-480="stripe w">
+                    <div data-flex data-flex-640="stripe w">
                         <div class="banners-item">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci&shy;didunt ut</p>
                             <a href="#"><i class="icon-plus"></i></a>
                         </div>
                         <div class="video" data-video="16:9"><iframe src="https://www.youtube.com/embed/b0NHrFNZWh0" frameborder="0" allowfullscreen></iframe></div>
                     </div>
-                    <div class="banners-item social" data-flex="center center">
-                        <span>22</span>
+                    <div class="banners-item" data-flex="col -center center">
+                        <span data-flex="end">22</span>
                         <i class="icon-twitter"></i>
                         <a href="#"><i class="icon-plus"></i></a>
                     </div>
@@ -83,18 +83,15 @@
                     <strong>25</strong>
                     <small>april</small>
                 </time>
-                <div class="scroll-wrap">
-                    <div class="scroll"></div>
-                </div>
+                <div class="scroll" data-flex></div>
             </div>
         </section>
         <section class="conditions">
             <div class="lwrap">
                 <h2>lorem ipsum dolor sit amet</h2>
-                <div data-flex="stripe">
-                    <div class="img-wrap" data-flex="-end">
-                        <div class="lbl lbl-free">its 100% free</div>
-                        <figure><img src="/images/desktop.png"></figure>
+                <div data-flex="axis" data-flex-640="vstripe">
+                    <div class="img-wrap" data-flex="-end between">                        
+                        <figure><img src="/images/desktop.png"><div class="lbl lbl-free">its 100% free</div></figure>
                         <figure><img src="/images/table.png"></figure>
                         <figure><img src="/images/smartphone.png"></figure>
                     </div>
@@ -108,7 +105,7 @@
             </div>
         </section>
         <footer>
-            <section class="lwrap" data-flex="axis">
+            <section class="lwrap" data-flex="axis w" data-flex-480="vaxis">
                 <a href="/" title="Return to the homepage" id="logoalt">
                     <img src="/images/logofooter.png" width="223" height="54" alt="Theyalow">
                 </a>

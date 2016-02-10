@@ -9,6 +9,11 @@
 	src: local('в�є'), url('/fonts/SegoeWP.woff') format('woff');
 }
 @font-face {
+	font-family: 'SegoeWP';
+	src: local('в�є'), url('/fonts/SegoeWP-Light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
 	font-family: 'SegoeUI';
 	src: local('в�є'), url('/fonts/SegoeUIRegular.woff') format('woff');
 }
@@ -21,6 +26,10 @@
 	font-family: 'SegoeUI';
 	src: local('в�є'), url('/fonts/SegoeUIBold.woff') format('woff');
     font-weight: 700;
+}
+@font-face {
+	font-family: 'LaoUI';
+	src: local('в�є'), url('/fonts/LaoUI.woff') format('woff');
 }
 /* ICONS */
 .icon-cloud {width: 112px; height: 112px; background: url('/images/icons/cloud.png');}

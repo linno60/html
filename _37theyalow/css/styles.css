@@ -1,5 +1,5 @@
 /*COMMON*/
-figure img{
+figure img, #logo img{
     width: 100%;
     height: 100%;
     display: block;
@@ -14,10 +14,20 @@ header{
     background: url('/images/bg1.png');
     background-size: cover;
 }
+header > .lwrap{
+    padding: 28rem 10px 0px 10px;
+}
+header > .lwrap > div{
+    margin-right: 10px;
+}
+#logo + small{
+    margin: 0px 0px 17px -1rem;
+}
 #logo + small, #logo + small a{
     color: rgba(255,255,255,.77);
-    font-family: Lao UI;
+    font-family: LaoUI;
     text-transform: uppercase;
+    letter-spacing: 0.01em;
 }
 #logo + small a:active, #logo + small a:hover, #logo + small a:focus{
     text-decoration: underline;
@@ -26,24 +36,32 @@ header{
 /*SLIDER*/
 .slider > .lwrap{
     flex-grow: 1;
-    padding: 20px 0px 30px 0px;
+    width: 100%;
+    min-height: 455rem;
+    padding: 57rem 17rem 71rem 20rem;
 }
 .slider .video{
-    width: 60%;
-    padding-top: 30%;
+    width: 54.7%;
+    padding-top: 29%;
 }
-.slider hgroup h1, .slider hgroup h2{
-    font-family: Asap;
-    font-size: 63px;
-    font-weight: 400;
+.slider hgroup{
     text-transform: uppercase;
     text-align: center;
+    font-family: Asap;
+    font-size: 63rem;
+    margin: 10px 10rem 37rem 10rem;
+}
+.slider hgroup h1, .slider hgroup h2{
+    font-weight: 400;
 }
 .slider hgroup h1{
     color: #f5c506;
+    margin-bottom: 4rem;
+    letter-spacing: 0.01em;
 }
 .slider hgroup h2{
     color: white;
+    letter-spacing: 0.01em;
 }
 
 /*ADVANTAGES*/
@@ -52,30 +70,101 @@ header{
 }
 .advantages > .lwrap{
     border-left: 1px solid rgba(0,0,0,.14);
+    padding: 0px;
+    max-width: 1020px;
 }
 .advantages > .lwrap > div{
     border-right: 1px solid rgba(0,0,0,.14);
-    height: 212px;
+    height: 212rem;
     flex: 1;
-    padding: 10px;
+    padding: 10rem;
 }
 .advantages > .lwrap > div > span{
     color: black;
     font-family: SegoeUI;
-    font-size: 27px;
+    font-size: 27rem;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
+}
+.advantages > .lwrap > div > i{
+    width: 112rem;
+    height: 112rem;
+    background-size: cover;
 }
 
 /*BANNERS*/
-.banners{
+.banners-wrap{
     background: url("/images/bg3.png");
 }
 .banners .video{
-    width: 30%;
+    width: 48%;
+    flex-shrink: 0;
+    padding-top: 30%;
 }
-.banners > .lwrap{
-    padding: 10px 10px 10px 10px;
+.banners-wrap > .lwrap{
+    padding: 31rem 12px 10px 9px;
+}
+.banners-wrap > .lwrap > h2{
+    color: white;
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px 0px 31rem 2rem;
+}
+.banners-item{
+    background: #ec9e03;
+    padding: 8px 18px 20px 31rem;
+    position: relative;
+}
+.banners-item span{
+    color: white;
+    font-family: SegoeWP;
+    font-size: 25px;
+    font-weight: 300;
+    width: 100%;
+}
+.banners-item a{
+    right: 13rem;
+    bottom: 7rem;
+    position: absolute;
+}
+.banners-item .icon-twitter {
+    width: 164rem;
+    height: 164rem;
+    background-size: cover;
+}
+.banners > div{
+    flex-grow: 1;
+}
+.banners > .banners-item{
+    width: 32.2%;
+    flex-shrink: 0;
+    margin-left: 34rem;
+    max-width: 330px;
+}
+.scroll{
+    max-width: 896px;
+    background: rgba(255,255,255,.48);
+    margin: 44rem auto 11rem auto;
+    border-radius: 10px;
+}
+.scroll:before{
+    width: 197px;
+    height: 15px;
+    content: "";
+    background: #ec9e03;
+    border-radius: 10px;
+    margin-left: 28%;
+}
+.banners-item p{
+    color: white;
+    letter-spacing: 0.01em;
+    font-family: SegoeWP;
+    font-size: 29rem;
+    font-weight: 300;
+    line-height: 38rem;
+    margin-top: 8rem;
 }
 
 /*CONDITIONS*/
@@ -83,23 +172,41 @@ header{
     background: url("/images/bg4.png");
 }
 .conditions > .lwrap{
-    padding: 10px 10px 10px 10px;
+    padding: 36rem 10px 75rem 10px;
 }
 .conditions > .lwrap > h2{
     color: #f5c506;
-    font-size: 43px;
+    font-size: 42px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 18rem;
+    letter-spacing: 0.016em;
     text-transform: uppercase;
 }
 .conditions .img-wrap{
     position: relative;
+    flex-grow: 1;
+    max-width: 577px;
+    padding: 0px 18rem;
+}
+.conditions .img-wrap figure{
+    margin-bottom: 39rem;
+}
+.conditions .img-wrap figure:first-child{
+    margin-bottom: 0px;
+}
+.conditions .img-wrap figure:last-child{
+    margin-bottom: 40rem;
+}
+.conditions .list-default{
+    width: 37.4%;
+    flex-shrink: 0;
+    padding-top: 73rem;
 }
 .conditions .img-wrap .lbl-free{
     position: absolute;
-    left: -5px;
-    top: -5px;
+    left: -2rem;
+    top: -43rem;
 }
 
 /*FOOTER*/
@@ -108,7 +215,12 @@ footer{
     box-shadow: 0 -3px 5px rgba(0,0,0,.75);
 }
 footer > .lwrap{
-    padding: 10px 10px 10px 10px;
+    padding: 6px 10px 4px 10px;
+}
+footer span{
+    padding: 0px 0px 10px 10px;
+    letter-spacing: 0.01em;
+    text-align: right;
 }
 footer span, footer span a{
     color: white;
@@ -118,3 +230,16 @@ footer span, footer span a{
 footer a:active, footer a:hover, footer a:focus{
     text-decoration: underline;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .banners .video {width: 100%;min-height: 350rem;}
+    .banners-item p{font-size: 18px;line-height: 23px;}
+}
+@media (max-width: 480px) {
+    .advantages > .lwrap > div > span {font-size: 12px;}
+    .slider .video, .banners .video{min-height: 520rem;}
+    .banners > .banners-item {margin-left: 0px;}   
+}
+
+
