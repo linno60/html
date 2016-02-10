@@ -1,0 +1,34 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=a4d59034-4884-4efe-93ea-c5804eddc372");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "AlternateGothicNo2BT";
+    src: url("/fonts/fonts.com/f1eb2374-55e9-44b1-97ed-88e2d775671a.woff2") format("woff2"), url("/fonts/fonts.com/2fc75594-a7bb-4e8f-ad81-b7e8ddeb0435.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("/fonts/fonts.com/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("/fonts/fonts.com/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/3b303641-706e-4221-94c4-4fb491f4f8ef.woff2") format("woff2"), url("/fonts/fonts.com/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff");
+    font-weight: 700;
+}
+/* ICONS */
+.icon-facebook {width: 8px; height: 16px; background: url('/images/icons/facebook.png');}
+.icon-pinterest {width: 13px; height: 16px; background: url('/images/icons/pinterest.png');}
+.icon-search {width: 17px; height: 16px; background: url('/images/icons/search.png');}
+.icon-twitter {width: 17px; height: 14px; background: url('/images/icons/twitter.png');}
+.icon-vimeo {width: 16px; height: 14px; background: url('/images/icons/vimeo.png');}

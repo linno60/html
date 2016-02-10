@@ -174,27 +174,27 @@ a.btn-more{
     padding: 16px 30px 19px 30px;
 }
 .product h3{
-     color: #444;
-     text-transform: uppercase;
+    color: #444;
+    text-transform: uppercase;
     font: 21px/21px "HelveticaNeueBold";
-     margin:  0px 0px 5px 0px;
+    margin:  0px 0px 5px 0px;
 }
 .product span{
-     color: #444;
+    color: #444;
     font: 12px/24px "HelveticaNeueBold";
-     letter-spacing: -0.028em;
+    letter-spacing: -0.028em;
 }
 .product img{
     width: 100%;
 }
 .product b{
-     color: #444;
+    color: #444;
     font: 12px/24px "HelveticaNeueBold";
 }
 .product b a{
-     color: #65a0b8;
+    color: #65a0b8;
     font: 10px/24px "HelveticaNeueBold";
-     padding:  0px 0px 0px 3px;
+    padding:  0px 0px 0px 3px;
 }
 .product .price{
     color: #444;
@@ -204,7 +204,7 @@ a.btn-more{
 .product-add{
     padding: 16px 0px 0px 0px;
 }
-.sales{
+.sales{ 
     width: 65.5%;
     margin: 0px 0px 0px 20px;
 }
@@ -222,9 +222,9 @@ a.btn-more{
     letter-spacing:  -0.01em;
 }
 .months{
-  padding: 0px 3px 0px 2px;
-  border-top: 2px solid #f0ab3f;  
-  margin: -8px 0px 0px 0px;
+    padding: 0px 3px 0px 2px;
+    border-top: 2px solid #f0ab3f;  
+    margin: -8px 0px 0px 0px;
 }
 .months > span{
     color: #b0752a;
@@ -291,10 +291,10 @@ a.btn-more{
 }
 .counter{
     width: 34px;
-height: 34px;
-background-color: white;
-border: 1px solid #d7d7d7;
-color: #444;
+    height: 34px;
+    background-color: white;
+    border: 1px solid #d7d7d7;
+    color: #444;
     font: 14px/21px "HelveticaNeueBold";
 }
 .cart .item .counter + b{
@@ -355,61 +355,61 @@ color: #444;
 }
 @media (max-width: 980px) {
     .header, .footer {
-    padding: 10px;
-}
-.header h1 {
-    padding: 9px 10px 10px 0px;
-    margin: 0px 10px 0px 0px;
-}
-.nav a {
-    margin: 2px 10px;
-}
+        padding: 10px;
+    }
+    .header h1 {
+        padding: 9px 10px 10px 0px;
+        margin: 0px 10px 0px 0px;
+    }
+    .nav a {
+        margin: 2px 10px;
+    }
 }
 @media (max-width: 900px) {
     .hero h1 {
-    font: 60px/60px "AlternateGothicNo2BT";
-}
-.hero {
-    padding: 10px 10px 10px 10px;
-}
-.sales-wrap, .cart-wrap{
-    flex-direction: column;
-}
-.sales, .map {
-    width: 100%;
-    margin: 20px 0px 0px 0px;
-}
-.product, .cart {
-    width: 100%;
-}
-.cart{
-    padding: 10px;
-}
-.cart .item .counter + b {
-    padding: 0px 0px 0px 10px;
-    font: 18px/24px "HelveticaNeueBold";
-}
+        font: 60px/60px "AlternateGothicNo2BT";
+    }
+    .hero {
+        padding: 10px 10px 10px 10px;
+    }
+    .sales-wrap, .cart-wrap{
+        flex-direction: column;
+    }
+    .sales, .map {
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+    .product, .cart {
+        width: 100%;
+    }
+    .cart{
+        padding: 10px;
+    }
+    .cart .item .counter + b {
+        padding: 0px 0px 0px 10px;
+        font: 18px/24px "HelveticaNeueBold";
+    }
 }
 @media (max-width: 600px) {
     .item > div:last-child{
-    flex-direction: column;
-}
-.cart .item .counter + b {
-    padding: 5px;
-}
+        flex-direction: column;
+    }
+    .cart .item .counter + b {
+        padding: 5px;
+    }
 }
 @media (max-width: 500px) {
     .hero{
         flex-direction: column;
     }
     .item > div{
-    flex-direction: column;
-    align-items: flex-start;
-}
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .caption b {
-    font: 20px/30px "HelveticaNeueBold";
-}
-.cart .item h5 {
-    padding: 0px;
-}
+        font: 20px/30px "HelveticaNeueBold";
+    }
+    .cart .item h5 {
+        padding: 0px;
+    }
 }
