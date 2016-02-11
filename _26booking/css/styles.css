@@ -147,22 +147,16 @@ header > .lwrap{
 .steps{
     height: 9px;
     width: 100%;
-    max-width: 396px;
+    max-width: 396rem;
     border-top: 1px solid #2c81cb;
     border-bottom: 1px solid #2c81cb;
     border-radius: 5px;
     margin: -9rem auto 9rem auto;
     position: relative;
-    left: 15px;
+    left: 15rem;
     box-shadow: inset 0 1px 0 #647e9a;
-    background: linear-gradient(#42668c, #445d7a);
-}
-.steps:before{
-    content: "";
-    width: 37%;
-    height: 7px;
-    position: absolute;
-    background: rgba(255,255,255,.1) url('/images/arrows.png') no-repeat center center;
+    background: url('/images/arrows.png') no-repeat 18% center, linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 33%, transparent 33%, transparent), linear-gradient(#42668c, #445d7a);
+    
 }
 
 /*WELCOME*/
@@ -421,6 +415,7 @@ footer address{
     footer > .lwrap > div {width: 32%;} 
     footer > .lwrap > div:last-child {order: 0;width: 40%;}
     footer > .lwrap > div:first-child {order: 1;width: 56%;}
+    .steps{max-width: 800rem;}
 }
 @media screen and (max-width: 480px) {
     .featured figure.hidden-sm{display: none;}

@@ -1,5 +1,5 @@
 <input type="checkbox" name="check" id="c1" checked>
-<label for="c1" data-flex="-center">men</label>
+<label for="c1">men</label>
 <select>
     <option>size</option>
     <option>l</option>

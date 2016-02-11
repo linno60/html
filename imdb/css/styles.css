@@ -126,7 +126,7 @@ a.btn-nav{
 .nav-add a.btn-nav i{
     margin: 0px 0px 0px 4px;
 }
-.nav-add{
+.nav-add{ 
     flex-wrap: wrap;
     margin: 15px 0px 0px 0px;
 }
@@ -160,7 +160,7 @@ a.btn-nav{
     width: 205px;
     height: 24px;
     background-color: white;
-margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 0px 8px 0px 12px;
     box-shadow: inset 1px 1px 1px rgba(0, 0, 1, 0.28);
     border-radius: 10px;
@@ -336,17 +336,17 @@ margin: 10px 0px 10px 0px;
 }
 .actions ul li span{
     color: #757575;
-font: 9px "Arial";
-text-transform: uppercase;
+    font: 9px "Arial";
+    text-transform: uppercase;
 }
 .actions ul li a{
     font-family: PFDinDisplayPro;
-font: 14px "PFDinDisplayProBold";
-text-transform: uppercase;
-color: #ccc;
+    font: 14px "PFDinDisplayProBold";
+    text-transform: uppercase;
+    color: #ccc;
 }
 .actions ul li a:hover{
-color: #4f9eb2;
+    color: #4f9eb2;
 }
 .actions > ul{
     padding: 5px 16px 10px 18px;
@@ -518,38 +518,38 @@ footer{
 }
 @media (max-width: 860px) {
     .insert-wrap p, .insert p, .actions > ul {
-    padding: 5px;
-}
-.actions ul li {
-    padding: 5px 0px 5px 0px;
-    border-bottom: 1px solid #414141;
-}
-.insert-wrap h2 {
-    font: 20px/22px "PFDinDisplayProBold";
-}
-.insert-wrap span {
-    letter-spacing: 0em;
-}
+        padding: 5px;
+    }
+    .actions ul li {
+        padding: 5px 0px 5px 0px;
+        border-bottom: 1px solid #414141;
+    }
+    .insert-wrap h2 {
+        font: 20px/22px "PFDinDisplayProBold";
+    }
+    .insert-wrap span {
+        letter-spacing: 0em;
+    }
 }
 @media (max-width: 670px) {
     a.btn-nav {
-    height: 23px;
-}
-.rate {
-    margin: 0px 0px 49px 0px;
-}
-.tabs.accordion {
-    padding: 0px;
-}
-.insert {
-    position: absolute;
-    width: 49.2%;
-    left: 33.6%;
-    height: 11%;
-}
-.insert img{
-    height: 100%;
-}
+        height: 23px;
+    }
+    .rate {
+        margin: 0px 0px 49px 0px;
+    }
+    .tabs.accordion {
+        padding: 0px;
+    }
+    .insert {
+        position: absolute;
+        width: 49.2%;
+        left: 33.6%;
+        height: 11%;
+    }
+    .insert img{
+        height: 100%;
+    }
     .complicated-grid{        
         align-items: center;
     }
@@ -566,9 +566,9 @@ footer{
 }
 @media (max-width: 370px) {
     .btn-slide {
-    width: 20px;
-}
-.lwrap {
-    padding: 0px 10px 0px 1px;
-}
+        width: 20px;
+    }
+    .lwrap {
+        padding: 0px 10px 0px 1px;
+    }
 }

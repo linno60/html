@@ -1,0 +1,31 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6da2455c-2631-46ad-83f2-8cd6431f5ef0");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "PFDinDisplayPro";
+    src: url("/fonts/fonts.com/6dd5b8a2-3bed-41b1-890b-a036f01b78ea.woff2") format("woff2"), url("/fonts/fonts.com/98140492-5ec3-46da-94e8-76e564539285.woff") format("woff");
+}
+@font-face {
+    font-family: "PFDinDisplayPro";
+    src: url("/fonts/fonts.com/f1688793-66b3-4c66-9210-8f9fed5aa775.woff2") format("woff2"), url("/fonts/fonts.com/5d16ace9-d369-4662-ba0e-2c46f93a396a.woff") format("woff");
+    font-weight: 700;
+}
+/* ICONS */
+.icon-down-active {width: 9px; height: 5px; background: url('/images/icons/down-active.png');}
+.icon-down-lg {width: 18px; height: 11px; background: url('/images/icons/down-lg.png');}
+.icon-down {width: 9px; height: 5px; background: url('/images/icons/down.png');}
+.icon-fb {width: 16px; height: 16px; background: url('/images/icons/fb.png');}
+.icon-next {width: 11px; height: 18px; background: url('/images/icons/next.png');}
+.icon-off {width: 16px; height: 17px; background: url('/images/icons/off.png');}
+.icon-prev {width: 11px; height: 18px; background: url('/images/icons/prev.png');}
+.icon-rss {width: 16px; height: 16px; background: url('/images/icons/rss.png');}
+.icon-search {width: 14px; height: 14px; background: url('/images/icons/search.png');}
+.icon-star {width: 16px; height: 17px; background: url('/images/icons/star.png');}
+.icon-tw {width: 16px; height: 16px; background: url('/images/icons/tw.png');}

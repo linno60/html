@@ -48,20 +48,12 @@ input[type=checkbox] + label {
     font-size: 18px;
     text-transform: uppercase;
     margin: 5px 38rem 5px 0px;
+    text-indent: 41px;
+    min-height: 24px;
+    background:  url(/images/icons/state-off.png)no-repeat left center;
 }
-input[type=checkbox] + label:before {
-    width: 21px;
-    height: 20px;
-    background: white;
-    border: 2px solid #ccc;
-    border-radius: 3px;
-    content: "";
-    display: block;
-    margin-right: 16rem;
-}
-input[type=checkbox]:checked + label:before {
-    border: 2px solid #aa9b77;
-    background: white url(/images/icons/checkbox.png)no-repeat center center;
+input[type=checkbox]:checked + label {
+    background: url(/images/icons/state-on.png)no-repeat left center;
 }
 select::-ms-expand{display: none;}
 select {

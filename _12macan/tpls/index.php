@@ -54,7 +54,7 @@
             <div class="lwrap" data-flex="vaxis">
                 <h2>Our Services</h2>
                 <span>our awesome services</span>
-                <hr data-flex="axis">
+                <span class="hr" data-flex="axis"><div></div><div></div></span>
                 <div data-flex="stripe" data-childs="col -center" data-flex-640="stripe w">
                     <article>
                         <i class="icon-heart"></i>
@@ -90,7 +90,7 @@
         <section class="portfolio lwrap" data-flex="vaxis">
             <h2>Portofolio</h2>
             <span>our awesome works</span>
-            <hr data-flex="axis">
+            <span class="hr" data-flex="axis"><div></div><div></div></span>
             <div class="tabs" data-tabs>
                 <div class="tablist" data-flex="center">
                     <a href="#tab1" class="active">All</a>/
@@ -160,7 +160,7 @@
         <section class="testimonials lwrap" data-flex="vaxis">
             <h2>What Our Happy Customer Say</h2>
             <span>lorem ipsum dolor sit amet</span>
-            <hr data-flex="axis">
+            <span class="hr" data-flex="axis"><div></div><div></div></span>
             <div data-flex="axis" data-flex-480="vaxis">
                 <figure><img src="/images/circle.png"></figure>
                 <blockquote data-flex>
@@ -190,7 +190,7 @@
             <section class="lwrap" data-flex="vaxis">
                 <h2>Contact</h2>
                 <span>Let's talk business, get in touch!</span>
-                <hr class="hr" data-flex="axis">
+                <span class="hr" data-flex="axis"><div></div><div></div></span>
                 <div data-flex='stripe' data-flex-480="vstripe">
                     <div>
                         <h5>Office Hours</h5>

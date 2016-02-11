@@ -15,7 +15,7 @@ figure img, #logo img{
     letter-spacing: 0.02em;
     text-align: center;
 }
-.lwrap > h2 ~ span{
+.lwrap > h2 + span{
     font-size: 18px;
     margin-bottom: 13rem;
 }
@@ -25,10 +25,10 @@ figure img, #logo img{
     right: 33rem;
     z-index: 1000;
 }
-.services .lwrap > h2, .services .lwrap > h2 ~ span, footer .lwrap > h2, footer .lwrap > h2 ~ span{
+.services .lwrap > h2, .services .lwrap > h2 + span, footer .lwrap > h2, footer .lwrap > h2 + span{
     color: #fff;
 }
-.services hr, .services hr:after, .services hr:before, footer hr, footer hr:after, footer hr:before{
+.services .hr, .services .hr > div, .services .hr > div, footer .hr, footer .hr > div, footer .hr > div{
     background: #fff;
 }
 
@@ -75,7 +75,7 @@ header{
 .services .lwrap > div{
     width: 100%;
 }
-.services hr{
+.services .hr{
     margin-bottom: 83rem;
 }
 .services article{
@@ -142,7 +142,7 @@ header{
 .portfolio h2 {
     letter-spacing: 0.01em;
 }
-.portfolio h2 ~ span {
+.portfolio h2 + span {
     margin-bottom: 7rem;
 }
 .tabs figure{
@@ -216,7 +216,7 @@ header{
 .testimonials h2 + span{
     margin-bottom: 15rem;
 }
-.testimonials hr{
+.testimonials .hr{
     margin-bottom: 53rem;
 }
 
@@ -286,7 +286,7 @@ form .btn-default{
 footer .lwrap > h2{
     margin-bottom: 2rem;
 }
-footer .lwrap > h2 ~ span {
+footer .lwrap > h2 + span {
     margin-bottom: 16rem;
 }
 .copyright{

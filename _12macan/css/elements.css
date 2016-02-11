@@ -125,12 +125,12 @@ blockquote cite{
 }
 
 /*OTHER*/
-hr{
+.hr{
+    height: 1px;
     width: 281px;
     background: #323232;
 }
-hr:after, hr:before{
-    content: "";
+.hr > div{
     width: 13px;
     height: 13px;
     background: #323232;

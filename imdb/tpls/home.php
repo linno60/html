@@ -393,15 +393,16 @@
                                 <figure data-flex><img src="/images/grid/s21.png"></figure>
                             </div>
                         </div>
-                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small>
+                    </a>
                     <a href="#tab3" data-flex="row-center-between">
                         <span>details</span>
-
-                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small>
+                    </a>
                     <a href="#tab4" data-flex="row-center-between">
                         <span>recommendations</span>
-
-                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small></a>
+                        <small data-flex="row-center">show more<i class="icon-down-lg"></i></small>
+                    </a>
                 </div>
                 <div class="_content">
                     <div id="tab1"></div>

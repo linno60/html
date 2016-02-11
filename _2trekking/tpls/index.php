@@ -41,11 +41,11 @@
             <div class='lwrap' data-flex='axis w'>
                 <form data-flex="w">
                     <input type='checkbox' name='check' id='c1' checked>
-                    <label data-flex='-center' for='c1'>men</label>
+                    <label for='c1'>men</label>
                     <input type='checkbox' name='check' id='c2' checked>
-                    <label data-flex='-center' for='c2'>women</label>
+                    <label for='c2'>women</label>
                     <input type='checkbox' name='check' id='c3'>
-                    <label data-flex='-center' for='c3'>children</label>
+                    <label for='c3'>children</label>
                 </form>
                 <a href='#' class='btn btn-default'>see all products</a>
             </div>

@@ -67,6 +67,7 @@ body{
     position: relative;
     color: #fff;
     box-shadow: inset 0px 1px 0px 0px #b2d1ed, 0px 0px 5px 1px rgba(0,0,0,.3);
+    flex-shrink: 0;
 }
 .lbl-accept{
     width: 19px;
@@ -222,9 +223,9 @@ input[type=range]{
     margin: 5px 24px 0px 18px;
 }
 input[type=range]:before{
-    display: flex;
-    background: linear-gradient(#82bbe8, #4781ca);
     content: "";
+    display: flex;
+    background: linear-gradient(#82bbe8, #4781ca);  
     width: 37.25%;
     height: calc(100% - 2px);
     position: absolute;
