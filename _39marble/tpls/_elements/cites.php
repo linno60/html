@@ -1,0 +1,1 @@
+<blockquote data-flex="col -center center"><q>&rdquo;</q><p>Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus erat porttitor.</p></blockquote>

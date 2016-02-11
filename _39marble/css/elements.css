@@ -1,0 +1,73 @@
+body{
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #4e4e4e;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5px 10px 0px 11px;
+    letter-spacing: -0.02em;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #1abb9c; 
+}
+.links-tweet a{
+    color: #cacaca;
+    line-height: 24px;
+}
+.links-tweet span{
+    background: url(/images/icons/tw.png)no-repeat -2rem 5px;
+    padding-left: 24px;
+    margin-bottom: 24rem;
+    width: 100%;
+}
+.links-tweet a:active, .links-tweet a:hover, .links-tweet a:focus{
+    text-decoration: underline;
+}
+
+/*CITES*/
+blockquote{
+    background: #efefef;
+    padding: 68rem 10px 60rem 10px;
+}
+blockquote p{
+    color: #a1a1a1;
+    text-align: center;
+    max-width: 800px;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    line-height: 30px;
+}
+blockquote q{
+    color: gainsboro;
+    font-family: ArialRoundedMTBold;
+    font-size: 100px;
+    line-height: 41px;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #9d9abf;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 140px;
+    height: 45px;
+    font-family: Roboto Condensed;
+    padding: 0px 10px;
+    background: #3f8dbf;
+    border-radius: 3px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+}

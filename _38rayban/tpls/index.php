@@ -21,11 +21,11 @@
     </head>
     <body>
         <div class="wrap">
-            <header class="lwrap" data-flex="axis">
+            <header class="lwrap" data-flex="axis" data-flex-640="around w" data-flex-480="vaxis">
                 <a href="/" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="163" height="13" alt="RayBan">
                 </a>
-                <nav class="links-nav" data-flex="w">
+                <nav class="links-nav" data-flex="w" data-flex-960="center w" data-flex-640="around w">
                     <a href="#" class="active">home</a>
                     <a href="#">brands</a>
                     <a href="#">mens</a>
@@ -51,14 +51,14 @@
                     </div>
                 </div>
             </section>
-            <section class="wrapper lwrap" data-flex="stripe">
+            <section class="wrapper lwrap" data-flex="stripe w" data-flex-480="vstripe">
                 <div class="product" data-flex="col">
                     <figure><img src="/images/product.png"></figure>
                     <div data-flex="col">
                         <h3>VAN DOREN AUTHENTIC</h3>
                         <span>(Parrot / Light Blue)</span>
                         <b>Size: UK9 <a href="#" class="link">[Change]</a></b>
-                        <div data-flex="axis">
+                        <div data-flex="axis w">
                             <span class="price">&pound;54.00</span>
                             <a href="#" class="btn btn-add">add to basket</a>
                         </div>
@@ -93,8 +93,6 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="wrapper lwrap" data-flex="stripe">
                 <div class="cart">
                     <h4>Shopping Bag</h4>
                     <div class="cart-items" data-childs="axis">

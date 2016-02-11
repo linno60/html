@@ -1,0 +1,1 @@
+<figure class="lbl lbl-default"><i class="icon-lamp"></i></figure>

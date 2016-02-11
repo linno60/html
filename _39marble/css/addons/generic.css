@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=521da112-dbbf-4b7b-8384-e68a197b63cc");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "ArialRoundedMTBold";
+    src: url("/fonts/fonts.com/7cd5de2f-8fb1-427c-9f45-6149d4edf425.woff2") format("woff2"), url("/fonts/fonts.com/62ca5e52-a23b-4365-b69a-9e06b00a8192.woff") format("woff");
+}
+/* ICONS */
+.icon-bottle {width: 36px; height: 37px; background: url('/images/icons/bottle.png');}
+.icon-clock {width: 28px; height: 32px; background: url('/images/icons/clock.png');}
+.icon-lamp {width: 27px; height: 41px; background: url('/images/icons/lamp.png');}
+.icon-letter {width: 12px; height: 12px; background: url('/images/icons/letter.png');}
+.icon-location {width: 12px; height: 13px; background: url('/images/icons/location.png');}
+.icon-phone {width: 12px; height: 12px; background: url('/images/icons/phone.png');}
+.icon-star {width: 37px; height: 20px; background: url('/images/icons/star.png');}
+.icon-tw {width: 13px; height: 10px; background: url('/images/icons/tw.png');}
