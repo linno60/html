@@ -1,11 +1,10 @@
-.icon-down-active {width: 9px; height: 5px; background: url('/images/icons/down-active.png');}
 .icon-down-lg {width: 18px; height: 11px; background: url('/images/icons/down-lg.png');}
-.icon-down {width: 9px; height: 5px; background: url('/images/icons/down.png');}
 .icon-fb {width: 16px; height: 16px; background: url('/images/icons/fb.png');}
-.icon-next {width: 11px; height: 18px; background: url('/images/icons/next.png');}
 .icon-off {width: 16px; height: 17px; background: url('/images/icons/off.png');}
-.icon-prev {width: 11px; height: 18px; background: url('/images/icons/prev.png');}
 .icon-rss {width: 16px; height: 16px; background: url('/images/icons/rss.png');}
 .icon-search {width: 14px; height: 14px; background: url('/images/icons/search.png');}
 .icon-star {width: 16px; height: 17px; background: url('/images/icons/star.png');}
 .icon-tw {width: 16px; height: 16px; background: url('/images/icons/tw.png');}
+.icon-down {width: 9px; height: 5px; background: url('/images/icons/down.png');}
+.icon-next {width: 11px; height: 18px; background: url('/images/icons/next.png');}
+.icon-prev {width: 11px; height: 18px; background: url('/images/icons/prev.png');}

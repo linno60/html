@@ -4,51 +4,61 @@ body{
 }
 
 /*LINKS*/
-.links-nav a{    
-    padding: 2px 13px 2px 5px;
-    border-right: 1px solid #bababa;
-    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-    color: #767676;
-    font-weight: 700;
+.links-nav{
+    margin-left: -8rem;
+}
+.links-nav a, .links-add a{
+    border-width: 0px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(0deg, transparent 0px, transparent 28%, rgba(0,0,0,.2) 29%, rgba(0,0,0,.2) 71%, transparent 72%, transparent) 1 stretch;
     font-family: PFDinDisplayPro;
     font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
     text-transform: uppercase;
 }
-.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
-    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2);
-    color: #f6f6f6;
-    border-radius: 3px;
-    border-right: 1px solid transparent;
-    background: url('/images/grid.png'), linear-gradient(#4fa0b5, #468899);
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
-}
-.links-nav a i{
-    margin-left: 5px;
+.links-nav a{
+    height: 23px;
+    padding: 0px 6rem 0px 8rem;
+    margin: 3rem 9rem 2rem 8rem;
+    color: #767676;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2);
 }
 .links-add a{
-    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
-    font-family: PFDinDisplayPro;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 2px 7px 3px 8px;
-    margin: 2px 10px 2px 0px;
-    border: 1px solid transparent;
+    padding: 0px 8rem 0px 8rem;
+    margin: 2px 9rem 2rem 0px;
     color: #478c9d;
+    text-indent: 1px;
+    text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+    height: 25px;
 }
-.links-add a i{
-    margin-left: 4px;
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-add a:last-child{
+    border-image: linear-gradient(transparent, transparent);
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #f6f6f6;    
+    background: url('/images/grid.png'), linear-gradient(#4fa0b5, #468899);
 }
 .links-add a.active, .links-add a:active, .links-add a:hover, .links-add a:focus{
     color: #797979;
-    border-radius: 3px;
-    border: 1px solid #c2c2c2;
+    border: 1px solid rgba(0,0,1,.17);
+    text-indent: 0px;
+}
+.links-nav a.active .icon-down, .links-nav a:active .icon-down, .links-nav a:hover .icon-down, .links-nav a:focus .icon-down{
+    background: url('/images/icons/down-hover.png');
+}
+.links-add a i{
+    margin-left: 4rem;
+}
+.links-nav a i{
+    margin-left: 5rem;
 }
 .links-social a{
-    margin: 3px;
+    margin: 6rem 5rem 0px 0px;
 }
 .links-actions{
-    padding: 15px 15px 15px 15px;
+    padding: 8rem 20rem 8rem 20rem;
     background: linear-gradient(#1d1d1d, #000001);
     color: #757575;
     font-size: 9px;
@@ -56,7 +66,7 @@ body{
     max-width: 300px;
 }
 .links-actions li{
-    padding: 10px 0px 10px 0px;
+    padding: 10rem 0px 10rem 0px;
     border-top: 1px solid rgba(255,255,255,.25);
 }
 .links-actions li:first-child{
@@ -78,15 +88,62 @@ body{
     width: 30px;
     height: 28px;
     background: url(/images/icons/off.png)no-repeat center 3px, url("/images/flag.png");
+    margin: 0px 4rem 2rem 12rem;
+}
+.btn-slide{
+    width: 33rem;
+    height: 37px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+    padding: 0px 10rem 0px 10rem;
+    color: transparent;
+    text-shadow: none;
+    font-family: PFDinDisplayPro;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.btn-slide.next:after, .btn-slide.prev:before{
+    width: 1px;
+    height: 9px;
+    background: rgba(0,0,0,.15);
+    content: "";
+}
+.btn-slide.prev:before{
+    margin: 0px 8rem 0px 22rem;
+}
+.btn-slide.next:after{
+    margin: 0px 22rem 0px 8rem;
+}
+.btn-slide.prev{
+    border-radius: 20px 0px 0px 20px;    
+    background: #efefef url(/images/icons/prev.png)no-repeat center center;
+}
+.btn-slide.next{
+    border-radius: 0px 20px 20px 0px;
+    background: #efefef url(/images/icons/next.png)no-repeat center center;
+}
+.btn-slide.active, .btn-slide:active, .btn-slide:hover, .btn-slide:focus{
+    min-width: 74rem;
+    text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.2);
+    color: #135668;
+    box-shadow: none;
+}
+.btn-slide.prev.active, .btn-slide.prev:active, .btn-slide.prev:hover, .btn-slide.prev:focus{
+    background: url(/images/icons/prev-hover.png)no-repeat 13rem center, linear-gradient(#4fa0b5, #468899);
+}
+.btn-slide.next.active, .btn-slide.next:active, .btn-slide.next:hover, .btn-slide.next:focus{
+    background: url(/images/icons/next-hover.png)no-repeat right 13rem center, linear-gradient(#4fa0b5, #468899);
 }
 
 /*FORMS*/
 .form-search{
+    flex-grow: 1;
     max-width: 205px;
     background: white;
     box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 1, 0.28);
     height: 24px;
-    padding: 0px 10px;
+    padding: 0px 10rem;
     border-radius: 12px;
 }
 .form-search input[type=search]{
@@ -104,6 +161,7 @@ body{
 .accordion > a {
     border-bottom: 1px solid rgba(0,0,0,.1);
     box-shadow: 0px 1px 0px 0px rgba(255,255,255,.1);
+    padding: 7px 1px 7px 0px;
 }
 .accordion > a:first-child {
     border-top: none;
@@ -112,7 +170,7 @@ body{
     border-bottom: none;
 }
 .accordion > a span{
-    min-width: 102px;
+    min-width: 102rem;
     color: #767676;
     text-transform: uppercase;
     font-family: PFDinDisplayPro;
@@ -124,11 +182,15 @@ body{
     text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
     color: #a7a7a7;
     font-size: 9px;
-    padding-right: 20px;
+    padding-right: 35px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 .accordion > a small{ 
     background: url(/images/icons/down-lg.png)no-repeat right center;
+}
+.accordion > a figure{
+    margin: 0px 3rem 2px 4rem;
 }
 
 /*OTHER*/
@@ -136,11 +198,12 @@ body{
     text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2);
     color: white;
     font-family: PFDinDisplayPro;
-    font-size: 28px;
+    font-size: 28rem;
     font-weight: 700;
-    padding: 5px 15px 5px 15px;
+    padding: 2rem 11rem 2rem 13rem;
     text-transform: uppercase;
     border-radius: 3px;
     background: url('/images/grid.png'), linear-gradient(#4fa0b5, #468899);
     display: inline-block;
+    margin: 4rem 0px 15rem 1rem;
 }

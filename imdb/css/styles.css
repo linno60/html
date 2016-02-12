@@ -64,7 +64,6 @@ body{
 .logo b{
     text-shadow: 0.5px 0.9px 2px rgba(0, 0, 0, 0.22);
     color: white;
-
     font: 80px/46px "SFSpeedwaystar";
     text-transform: uppercase;
     margin: 0px 0px 15px 0px;
@@ -461,14 +460,13 @@ footer{
 .footer .logo b{
     color: #dfdfdf;
     box-shadow: none;
-
     font: 78px/46px "SFSpeedwaystar";
 }
 .footer{
     flex-wrap: wrap;
     margin: auto;
     max-width: 950px;
-    padding: 49px 18px 30px 52px;
+    padding: 49px 18px 30px 52px; 
 }
 .posts h6{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
