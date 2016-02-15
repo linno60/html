@@ -22,54 +22,77 @@ body{
 .links-nav{
     background: white;
     box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.07);
+    margin: 40rem 0px 15rem 0px;
 }
 .links-nav a{
     color: #5c5c5c;
     font-family: Yanone Kaffeesatz;
     font-size: 19px;
+    line-height: 22px;
     text-transform: uppercase;
-    margin: 2px 20px;
+    margin: 6px 22rem;
+    letter-spacing: 0.001em;
 }
 .links-tags a, .links-archive a, .links-tag a, .links-tag{
     color: #717171;
 }
 .links-tags a{
-    margin: 2px 5px 2px 0px;
-    height: 20px;
+    margin: 1px 5px 4px 0px;
+    height: 23px;
     background: #e8e8e8;
     padding: 1px 5px 3px 7px;
     text-align: center;
 }
+.links-archive{
+    padding-left: 2px;
+}
 .links-archive a{
-    margin-bottom: 5px;
+    margin-bottom: 12px;
+    letter-spacing: -0.002em;
+}
+.links-archive a:last-child{
+    margin-bottom: 4px;
+}
+.links-meta{
+    margin: 11px 0px 15px 0px;
+    padding: 5px 0px;
+    background: url("/images/dashed.png")repeat-x left bottom, url("/images/dashed.png")repeat-x left top;
 }
 .links-meta a{
-    margin: 2px 5px;
+    margin: 1px 17px 2px 0px;
 }
 .links-meta a i{
-    margin-right: 5px;
+    margin-right: 2px;
+}
+.links-tag{
+    margin-top: 8px;
+    padding-top: 10px;
+    font-size: 10px;
+    background: url("/images/dashed.png")repeat-x left top;
+}
+.links-tag i{
+    margin-right: 2px;
 }
 .links-tag a{
-    font-size: 10px;
-    margin: 0px 0px 2px 5px;
+    margin: 2px 0px 2px 4px;
 }
 
 /*FORMS*/
 input[name=input], textarea{
     width: 100%;
-    max-width: 470px;
+    max-width: 640px;
     background: #e8e8e8;
     border: none;
-    outline: none;
-    margin-bottom: 15px;
+    outline: none;    
 }
 input[name=input]{
     height: 30px;
-    padding: 0px 10px;
+    padding: 0px 9px;
 }
 textarea{
-    padding: 10px;
+    padding: 8px 9px;
     height: 125px;
+    margin-bottom: 13px;
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #717171; }
 input[name=input]::-moz-placeholder, textarea::-moz-placeholder { color: #717171; }
@@ -96,7 +119,8 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder { color:
     font-family: Yanone Kaffeesatz;
     font-size: 19px;
     font-weight: 400;
-    line-height: 24px;
+    padding-bottom: 4px;
     text-transform: uppercase;
     background: url("/images/dashed.png")repeat-x left bottom;
+    margin-bottom: 13px;
 }

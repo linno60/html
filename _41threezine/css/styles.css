@@ -1,0 +1,285 @@
+/*COMMON*/
+figure > img, .flickr a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 960px;
+}
+body{
+    background: #e9e9e9;
+}
+.clearfix > figure{
+    float: left;
+}
+.sidebar > div, .content > *, .slider{
+    margin-bottom: 15rem;
+}
+.content > *, .sidebar > div, .slider, header, footer{
+    background: white;
+}
+.content > *, .sidebar > div, .slider, header{
+    background: white;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12); 
+}
+p{
+    color: #717171;
+    font-size: 12px;
+    line-height: 20px;     
+}
+
+
+/*HEADER*/
+header{
+    margin-bottom: 40rem;
+}
+header > .lwrap{
+    max-width: 980px;
+    padding: 3px 10px 2px 10px;
+}
+
+/*SLIDER*/
+.slider{
+    padding: 10px 10px 0px 10px;
+}
+.slider figure{
+    position: relative;
+    margin-bottom: 10px;
+}
+.slider figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255,255,255,.66);
+    padding: 8rem 5rem 3rem 6rem;
+}
+.slider .posts{
+    width: 29.7%;
+    flex-shrink: 0;
+}
+.slider .posts p a{
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.025em;
+}
+.slider figcaption p{
+    font-size: 10px;
+    color: #191919;
+}
+.slider figcaption p a{
+    color: #191919;
+}
+.slider figcaption p a:active, .slider figcaption p a:hover, .slider figcaption p a:focus{
+    text-decoration: underline;
+}
+.slider figcaption h3{
+    font-family: Yanone Kaffeesatz;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+.slider .posts article{
+    margin-bottom: 10px;
+    padding-bottom: 11px;
+    background: url("/images/dashed.png")repeat-x left bottom;
+}
+.slider .posts article:last-child{
+    padding-bottom: 0px;
+    background: none;
+    margin-bottom: 10px;
+}
+.slider .posts figure{
+    margin: 0px 15rem 0px 10rem;
+}
+
+/*CONTENT*/
+.content-wrap{
+    margin-bottom: 151rem;
+}
+.content > *{
+    padding: 10px 10px 9px 10px;
+}
+.content{
+    flex-grow: 1;
+    margin: 0px 15rem;
+}
+.blog h2{
+    color: #717171;
+    font-family: Yanone Kaffeesatz;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+.blog figure{
+    margin-bottom: 12px;
+}
+.blog p{
+    padding-right: 13rem;
+    letter-spacing: 0.005em;
+}
+.about figure{
+    margin: 3rem 16rem 0px 0px;
+}
+.about > div{
+    padding-bottom: 13rem;
+}
+.about p{
+    letter-spacing: 0.007em;
+}
+.responses p{
+    letter-spacing: 0.012em;
+}
+.responses article{
+    padding-bottom: 29rem;
+    margin-bottom: 27rem;
+    background: url("/images/dashed.png")repeat-x left bottom;
+}
+.responses article:last-child{
+    margin-bottom: 39rem;
+}
+.responses article:first-child{
+    padding-top: 5rem;
+}
+.responses article figure{
+    margin: 3rem 15rem 0px 0px;
+}
+.responses article h4{
+    color: #535353;
+    font-family: Yanone Kaffeesatz;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 8rem;
+    text-transform: uppercase;
+}
+.responses h3{
+    margin: 2rem 0px 17rem 0px;
+    color: #535353;
+    font-family: Yanone Kaffeesatz;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.responses a{
+    color: #535353;
+}
+.responses a:active, .responses a:hover, .responses a:focus{
+    text-decoration: underline;
+}
+.responses form{
+    padding-bottom: 4rem;
+}
+.responses form input[name=input]{
+    margin-bottom: 15px;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 23%;
+    flex-shrink: 0;
+}
+.sidebar > div{
+    padding: 9px 10px 10px 10px;
+}
+.posts article{
+    margin-bottom: 13px;
+}
+.posts article:last-child{
+    margin-bottom: 6px;
+}
+.posts figure{
+    margin: 2rem 10rem 0px 0px;
+}
+.posts p{
+    font-family: Yanone Kaffeesatz;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 2rem;
+    letter-spacing: 0.025em;
+}
+.posts p a{
+    color: #717171;
+}
+.posts article > p > a:active, .posts article > p > a:hover, .posts article > p > a:focus{
+    color: #7da1bc;
+    text-decoration: none;
+}
+.posts > article > a{
+    color: #7e7e7e;
+    font-size: 9px;
+    font-style: italic;
+}
+.posts article > a:active, .posts article > a:hover, .posts article a:focus{
+    text-decoration: underline;
+}
+.advertisement figure{
+    margin-bottom: 10px;
+}
+.advertisement figure:last-child{
+    margin-bottom: 6px;
+}
+.flickr a{
+    margin: 3px 0px 6px 0px;
+    width: 30%;
+    min-width: 50px;
+}
+.comments p{
+    margin: 0px 0px 9px 2px;
+}
+.comments p:last-child{
+    margin: 0px 0px 0px 2px;
+}
+.comments p, .twitter p{
+    font-size: 11px;
+    line-height: 15px;
+}
+.comments a{
+    color: #2e2e2e;
+}
+.twitter p, .twitter a{
+    font-family: Georgia;
+    font-style: italic;
+}
+.twitter p{
+    margin-bottom: 9px;
+}
+.twitter a, .comments a{
+    color: #2e2e2e;
+}
+.comments p a:active, .comments p a:hover, .comments p a:focus, .twitter a:active, .twitter a:hover, .twitter a:focus{
+    text-decoration: underline;
+}
+.sidebar form{
+    padding: 2px 0px 5px 0px;
+}
+
+/*FOOTER*/
+footer{
+    box-shadow: 0px -1px 0 rgba(0, 0, 0, 0.12);
+}
+footer span{
+    color: #535353;
+    font-size: 9px;
+    letter-spacing: 0.005em;
+}
+footer > .lwrap{
+    padding: 8px 10px 9px 9px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 960px) {
+    .slider .posts article{width: 48%;}
+    #logo{margin-left:5px;}
+    .slider .posts article:last-child {background: url("/images/dashed.png")repeat-x left bottom;}
+}
+@media (max-width: 640px) {
+    .sidebar{order: 1;}
+    .content{order: 0;}
+    .slider figcaption{display: none;}
+    .slider figure:hover figcaption{display: block;}
+    .sidebar{width: 49%;}
+    .content{width:100%;margin: 0px;}
+}
