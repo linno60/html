@@ -1,14 +1,14 @@
-<nav class="links-nav" data-flex="w" data-childs="-center center">
-    <a href="#" class="active">movies<i class="icon-down"></i></a>
-    <a href="#">tv<i class="icon-down"></i></a>
-    <a href="#">news<i class="icon-down"></i></a>
-    <a href="#">videos<i class="icon-down"></i></a>
-    <a href="#">community<i class="icon-down"></i></a>
-    <a href="#">imdb pro<i class="icon-down"></i></a>
+<nav class="links-nav" data-flex="-center w" data-childs="-center center">
+    <a href="#" class="active">movies<i class="icon-down"></i></a><div></div>
+    <a href="#">tv<i class="icon-down"></i></a><div></div>
+    <a href="#">news<i class="icon-down"></i></a><div></div>
+    <a href="#">videos<i class="icon-down"></i></a><div></div>
+    <a href="#">community<i class="icon-down"></i></a><div></div>
+    <a href="#">imdb pro<i class="icon-down"></i></a><div></div>
 </nav>
-<nav class="links-add" data-flex="w" data-childs="-center center">
-    <a href="#" class="active">desk<i class="icon-down"></i></a>
-    <a href="#">information<i class="icon-down"></i></a>
+<nav class="links-add" data-flex="-center w" data-childs="-center center">
+    <a href="#" class="active">desk<i class="icon-down"></i></a><div></div>
+    <a href="#">information<i class="icon-down"></i></a><div></div>
     <a href="#">media<i class="icon-down"></i></a>
 </nav>
 <div class="links-social" data-flex="w">

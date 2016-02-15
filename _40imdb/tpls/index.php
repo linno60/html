@@ -26,34 +26,34 @@
                     <em>pull</em>
                     <a href="#" class="btn btn-reset"></a>
                 </section>
-                <section class="nav" data-flex="axis">
-                    <nav class="links-nav" data-flex="w" data-childs="-center center">
-                        <a href="#" class="active">movies<i class="icon-down"></i></a>
-                        <a href="#">tv<i class="icon-down"></i></a>
-                        <a href="#">news<i class="icon-down"></i></a>
-                        <a href="#">videos<i class="icon-down"></i></a>
-                        <a href="#">community<i class="icon-down"></i></a>
-                        <a href="#">imdb pro<i class="icon-down"></i></a>
+                <section class="nav" data-flex="axis" data-flex-480="col -center">
+                    <nav class="links-nav" data-flex="-center w" data-childs="-center center" data-flex-480="-center center w">
+                        <a href="#" class="active">movies<i class="icon-down"></i></a><div></div>
+                        <a href="#">tv<i class="icon-down"></i></a><div></div>
+                        <a href="#">news<i class="icon-down"></i></a><div></div>
+                        <a href="#">videos<i class="icon-down"></i></a><div></div>
+                        <a href="#">community<i class="icon-down"></i></a><div></div>
+                        <a href="#">imdb pro<i class="icon-down"></i></a><div></div>
                     </nav>
                     <form action="#" method="post" class="form-search" data-flex="axis">
                         <input type="search" name="search" placeholder="Search line">
                         <input type="image" name="image" src="/images/icons/search.png">
                     </form>
                 </section>
-                <section data-flex="-start between">
+                <section data-flex="-start between" data-flex-480="-start between w">
                     <div data-flex="-start between">
                         <a href="/" title="Return to the homepage" id="logo">
                             <img src="/images/logo.png" width="156" height="76" alt="IMDB">
-                        </a>
-                        <div>
-                            <a href="#" class="title">x-men: first class</a>
-                            <nav class="links-add" data-flex="w" data-childs="-center center">
-                                <a href="#" class="active">desk<i class="icon-down"></i></a>
-                                <a href="#">information<i class="icon-down"></i></a>
-                                <a href="#">media<i class="icon-down"></i></a>
-                            </nav>
-                        </div>
+                        </a>                        
                     </div> 
+                    <div class="header" data-flex-480="stripe">
+                        <a href="#" class="title">x-men: first class</a>
+                        <nav class="links-add" data-flex="-center w" data-childs="-center center" data-flex-480="-center end w">
+                            <a href="#" class="active">desk<i class="icon-down"></i></a><div></div>
+                            <a href="#">information<i class="icon-down"></i></a><div></div>
+                            <a href="#">media<i class="icon-down"></i></a>
+                        </nav>
+                    </div>
                     <div class="rating">
                         <div>                          
                             <div data-flex='-end'>
@@ -72,7 +72,7 @@
                     <a href="#" class="btn btn-slide prev">prev</a>
                 </div>
                 <div data-flex="col">
-                    <div data-flex="-start" data-flex-640="vstripe">
+                    <div data-flex="-start" data-flex-640="vstripe" class="hidden">
                         <div data-flex="col">
                             <div data-flex>
                                 <div>
@@ -113,7 +113,10 @@
                         </div>
                         <div data-flex="-start">
                             <div data-flex="col">                            
-                                <figure><img src="/images/10.png"></figure>
+                                <figure class="name">
+                                    <img src="/images/10.png">
+                                    <span class="lbl lbl-name">james mc awoy</span>
+                                </figure>
                                 <div data-flex>
                                     <figure><img src="/images/11.png"></figure>
                                     <figure><img src="/images/12.png"></figure>
@@ -146,7 +149,10 @@
                                     <figure><img src="/images/19.png"></figure> 
                                     <figure><img src="/images/20.png"></figure> 
                                 </div>                            
-                                <figure><img src="/images/21.png"></figure>
+                                <figure class="name">
+                                    <span class="lbl lbl-name">devis marker</span>
+                                    <img src="/images/21.png">
+                                </figure>
                                 <div data-flex="row-start">
                                     <figure><img src="/images/22.png"></figure>
                                     <figure><img src="/images/23.png"></figure>
@@ -176,7 +182,7 @@
                                 </div>
                                 <div data-flex="col">
                                     <div data-flex="-start">
-                                        <div class="insert" data-flex="col -center center">
+                                        <div class="insert cash" data-flex="col -center center">
                                             <h2>$ 55 million</h2>
                                             <span>opening weekend</span>
                                         </div>
@@ -204,7 +210,7 @@
                                     <figure><img src="/images/47.png"></figure>
                                 </div>
                             </div>
-                            <div data-flex="col">
+                            <div data-flex="vstripe">
                                 <ul class="links-actions" data-childs="axis">
                                     <li><a href="#">buy on amazon</a>15 $</li>
                                     <li><a href="#">watch on netflix</a>7 $</li>

@@ -38,6 +38,9 @@ header em{
 #logo{
     margin: 2rem 40rem 0px 0px;
 }
+.header{
+    flex-grow: 1;
+}
 
 /*RATING*/
 .rating{
@@ -130,6 +133,7 @@ header em{
 .rating time:after, .rating time:before{
     content: "";
     flex-grow: 1;
+    display: block;
     height: 1px;
     background: rgba(0,0,0,.2);
 }
@@ -142,7 +146,14 @@ header em{
 
 /*SLIDER*/
 .slider figure, .insert{
-    margin: 1px;    
+    margin: 1px;     
+}
+.name{
+    position: relative;
+}
+.slider .name .lbl-name{
+    position: absolute;
+    bottom: 0px;
 }
 .slider > div:first-child, .slider > div:last-child{
     width: 74rem;   
@@ -153,7 +164,7 @@ header em{
 .insert.alt{
     position: absolute;
     left: 41.58%;
-    height: auto;
+    height: 22%;
 }
 .insert{  
     flex-grow: 1;
@@ -199,6 +210,13 @@ header em{
     text-transform: uppercase;
     letter-spacing: 0.59em;
     margin: 0px 0px 11rem 7rem;
+}
+.cash{
+    width: 74%;
+    flex-shrink: 0;
+}
+.slider .links-actions{
+    flex-grow: 1;
 }
 
 /*DETAILS*/
@@ -269,6 +287,7 @@ footer article:last-child{
     border-bottom: none;
 }
 .copyright span{
+    width: 100%;
     text-align: right;
     font-family: Georgia;
     font-size: 11px;
@@ -290,24 +309,29 @@ footer article:last-child{
 
 /*MEDIA QUERIES*/
 @media (max-width: 960px) {
-    .slider > div:first-child, .slider > div:last-child {
-    width: 33rem;
-}
+    .slider > div:first-child, .slider > div:last-child {width: 33rem;}
     .btn-slide.active, .btn-slide:active, .btn-slide:hover, .btn-slide:focus{min-width: 33rem;text-shadow: none;color: transparent;}
     .btn-slide.prev.active, .btn-slide.prev:active, .btn-slide.prev:hover, .btn-slide.prev:focus{background: url(/images/icons/prev-hover.png)no-repeat center center, linear-gradient(#4fa0b5, #468899);}
     .btn-slide.next.active, .btn-slide.next:active, .btn-slide.next:hover, .btn-slide.next:focus{background: url(/images/icons/next-hover.png)no-repeat center center, linear-gradient(#4fa0b5, #468899);}
-.insert p, .links-actions {padding: 2px;}
-.links-actions a{
-    font-size: 11px;
-}
-.insert.alt p{padding: 17rem;}
+    .links-actions a{font-size: 11px;}
+    .insert.alt p{padding: 22rem;}
     .insert h2{font-size: 16px;margin: 0px}
-    .insert span {
-        letter-spacing: 0em;margin: 0px;
-    }
+    .insert span{letter-spacing: 0em;margin: 0px;}
+    .insert p{
+    padding: 8rem;
 }
-
+}
 @media (max-width: 800px) {
-    
-   
+    .hidden{display: none;}
+    .links-actions {padding: 0px 5px;}
+}
+@media (max-width: 480px) {
+    .header{
+        width: 100%;
+        order: 2;
+    }
+    .title{
+        font-size: 16px;
+    }
+
 }

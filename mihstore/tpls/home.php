@@ -32,8 +32,7 @@
                         <a href="#"><i class="icon-ms"></i></a>                        
                     </div>
                 </section>
-                <section class="nav-wrap" data-flex="row-center-between">
-                    
+                <section class="nav-wrap" data-flex="row-center-between"> 
                     <div class="cart-wrap" data-flex="row-center">
                         <span class="cart">shopping cart:</span>
                         <span class="items">3 items</span>

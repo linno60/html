@@ -4,14 +4,7 @@ body{
 }
 
 /*LINKS*/
-.links-nav{
-    margin-left: -8rem;
-}
-.links-nav a, .links-add a{
-    border-width: 0px;
-    border-right-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(0deg, transparent 0px, transparent 28%, rgba(0,0,0,.2) 29%, rgba(0,0,0,.2) 71%, transparent 72%, transparent) 1 stretch;
+.links-nav a, .links-add a{    
     font-family: PFDinDisplayPro;
     font-size: 14px;
     font-weight: 700;
@@ -20,21 +13,36 @@ body{
 }
 .links-nav a{
     height: 23px;
-    padding: 0px 6rem 0px 8rem;
-    margin: 3rem 9rem 2rem 8rem;
+    padding: 0px 8rem;
+    margin: 3rem 0px 2rem 0px;
     color: #767676;
     text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2);
 }
+.links-nav > div, .links-add > div{
+    width: 1px;
+    height: 11px;
+    background: rgba(0,0,0,.2);
+}
+.links-nav > div{
+    margin: 0px 8rem 0px 7rem;
+}
+.links-add > div{
+    margin: 0px 5rem;
+}
 .links-add a{
-    padding: 0px 8rem 0px 8rem;
-    margin: 2px 9rem 2rem 0px;
+    padding: 0px 8rem;
+    margin: 2px 0px;
     color: #478c9d;
-    text-indent: 1px;
     text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
     height: 25px;
+    border: 1px solid transparent;
 }
-.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-add a:last-child{
-    border-image: linear-gradient(transparent, transparent);
+.links-nav a.active + div, .links-nav a:active + div, .links-nav a:hover + div, .links-nav a:focus + div,
+.links-add a.active + div, .links-add a:active + div, .links-add a:hover + div, .links-add a:focus + div{
+    background: transparent;
+}
+.links-nav a.active .icon-down, .links-nav a:active .icon-down, .links-nav a:hover .icon-down, .links-nav a:focus .icon-down{
+    background: url('/images/icons/down-hover.png');
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #f6f6f6;    
@@ -43,10 +51,6 @@ body{
 .links-add a.active, .links-add a:active, .links-add a:hover, .links-add a:focus{
     color: #797979;
     border: 1px solid rgba(0,0,1,.17);
-    text-indent: 0px;
-}
-.links-nav a.active .icon-down, .links-nav a:active .icon-down, .links-nav a:hover .icon-down, .links-nav a:focus .icon-down{
-    background: url('/images/icons/down-hover.png');
 }
 .links-add a i{
     margin-left: 4rem;
@@ -193,6 +197,17 @@ body{
     margin: 0px 3rem 2px 4rem;
 }
 
+/*LABELS*/
+.lbl-name{
+    color: #e0e0e0;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background: black;
+    padding: 4px;
+}
+
 /*OTHER*/
 .title {
     text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2);
@@ -205,5 +220,5 @@ body{
     border-radius: 3px;
     background: url('/images/grid.png'), linear-gradient(#4fa0b5, #468899);
     display: inline-block;
-    margin: 4rem 0px 15rem 1rem;
+    margin: 4px 5px 15rem 1rem;
 }
