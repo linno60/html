@@ -8,29 +8,25 @@ body{
     color: #ababab;
     font-size: 14px;
     text-transform: uppercase;
-    margin-left: 10px;
+    margin-left: 27rem;
 }
 .links-top a.active, .links-top a:active, .links-top a:hover, .links-top a:focus{
     color: #4cb1ca;
 }
 .links-social a{
-    margin: 19px 1px 0px 14px;
-}
-.links-nav{
-    box-shadow: 0px 5px 0px 0px #f02b63;
-    border-bottom: 1px solid #fbc6d5;
+    margin: 2px 0px 2px 15rem;
 }
 .links-nav a{
-    margin: 0px 38px;
+    margin: 0px 38rem;
     font-size: 18px;
     color: #1d1d1d;
     text-transform: uppercase;
     position: relative;
     letter-spacing: 0.02em;
-    height: 30px;
+    height: 33px;
 }
 .links-nav a:first-child{
-    margin: 0px 38px 0px 34px;
+    margin: 0px 38rem 0px 34rem;
 }
 .links-nav a:after{    
     position: absolute;
@@ -50,7 +46,7 @@ body{
 
 /*PAGINATION*/
 .pagination{
-    padding: 23px 4px 10px 10px;
+    padding: 18rem 2rem 10rem 10rem;
 }
 .pagination a{
     width: 28px;
@@ -63,4 +59,105 @@ body{
 .pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: white;
     background: #7db122;        
+}
+
+/*LABELS*/
+.lbl-discount{
+    width: 54rem;
+    height: 54rem;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    background: #7db122;
+    color: white;
+    font-size: 19px;
+}
+.lbl-shop{
+    background: #161617;
+    border-radius: 50%;
+    height: 158rem;
+    width: 158rem;
+    min-width: 100px;
+    min-height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: rotate(-10deg);
+    padding: 21rem 27rem 27rem 27rem;
+    font-style: italic;
+}
+.lbl-shop small {
+    color: #a52d45;
+    font-size: 10px;
+    line-height: 16px;
+    font-family: Arial;
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+}
+.lbl-shop span em{
+    padding-left: 8rem;
+    font-size: 28px;
+    line-height: 28px;
+}
+.lbl-shop span b {
+    font-size: 31rem;
+    line-height: 31rem;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+.lbl-shop span {
+    font-family: Times New Roman;
+    color: #fff;    
+}
+
+/*FORMS*/
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 31px;
+    padding-left: 68px;
+    color: #f02b63;
+    background: url('/images/icons/select.png') right 10px center no-repeat;
+}
+.select{
+    position: relative;
+    max-width: 480px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 gainsboro;
+    font-size: 18px;
+    margin-bottom: 13rem;
+}
+.select label{
+    position: absolute;
+    height: 100%;
+    padding: 0px 2px 0px 16rem;
+    color: #8c8c8c;
+}
+
+/*OTHER*/
+.more {
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    font-family: Times New Roman;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    margin: 0px 11px 10px 0px;
+    padding: 2px 0px 1px 0px;
+}
+.more:after {
+    position: absolute;
+    content: "";
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 5px solid #5f5f5f;
+    border-top: 3px solid transparent;
+    border-bottom: 4px solid transparent;
 }

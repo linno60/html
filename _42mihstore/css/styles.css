@@ -1,0 +1,236 @@
+/*COMMON*/
+figure img, a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1006px;
+}
+body{
+    background: url("/images/bg.png");
+}
+.hdr{
+    color: #7db122;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+/*HEADER*/
+.top-bar{
+    color: #ababab;
+    font-size: 14px;
+    padding: 14rem 35rem 16rem 33rem;
+    letter-spacing: -0.002em;
+}
+.top-bar, .nav{
+    background: white;
+}
+.nav{
+    box-shadow: 0px 5px 0px 0px #f02b63;
+    border-bottom: 1px solid #fbc6d5;
+    padding: 11rem 28rem 0px 0px;
+}
+#logo span{
+    color: #f02b63;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+}
+.header{
+    padding: 67rem 5px 61rem 34rem;
+}
+.cart{ 
+    color: #b6b6b6;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.cart a{
+    width: 17px;
+    height: 17px;
+    border: 2px solid #e7e7e7;
+    border-radius: 50%;
+    margin: 3px 3px 0px 3px;
+}
+.cart a:before{
+    content: "";
+    margin-top: 2px;
+    border-top: 8px solid #f02b63;
+    border-left: 4px solid transparent; 
+    border-right: 4px solid transparent; 
+}
+.total{
+    color: #7db122;
+}
+.quantity{
+    padding: 0px 8px 0px 6px;
+    color: #4cb1ca; 
+}
+
+.page-title{
+    padding: 20rem 10px 17rem 32rem;
+    color: #4cb1ca;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.page-title span{
+    padding-right: 36rem;
+    letter-spacing: 0.02em;
+}
+.page-title p{
+    color: #84a0aa;
+    padding-left: 33rem;
+    letter-spacing: -0.009em;
+}
+
+/*CONTENT*/
+.content{
+    width: 100%;
+    padding: 34rem 28rem 31rem 23rem;
+    background: linear-gradient(white, white) left top / calc(100% - 10rem) no-repeat,
+        linear-gradient(white, white) left bottom / 100% calc(100% - 10rem) no-repeat,
+        linear-gradient(45deg, white, white 49%, transparent 50%) right top / 10rem 10rem no-repeat;
+}
+.slider{
+    position: relative;
+    padding: 16rem 16rem 0px 0px;
+    background: url("/images/slider-bg.png");
+}
+.slider .lbl-shop{
+    position: absolute;
+    top: 1.5%;
+    left: 42.9%;
+}
+.products{
+    padding: 40rem 11rem 0px 10rem;
+}
+.products .hdr{
+    margin-bottom: 18rem;
+}
+.products figure{
+    width: 31.2%;
+    margin-bottom: 21rem;
+    background: #fcfcfc;
+    border: 1px solid #f6f6f6;
+    box-shadow: 0 1px 0 gainsboro;
+    position: relative;
+    padding: 1px 0px;
+}
+.products figure .lbl-discount{
+    position: absolute;
+}
+.products figure .lbl-discount.green{
+    top: 39%;
+    left: 7%;
+}
+.products figure .lbl-discount.pink{
+    top: 32%;
+    left: 22%;
+    background: #f02b63;
+}
+.products figure .lbl-discount.azure{
+    top: 9%;
+    left: 47%;
+    background: #4cb1ca;
+}
+.products figcaption{
+    font-size: 14px;
+    background: rgba(0,0,0,.08);
+    padding: 6px 9rem 1rem 9rem;
+}
+.products figcaption a{
+    color: #818181;
+}
+.products figcaption a:active, .products figcaption a:hover, .products figcaption a:focus{
+    text-decoration: underline;
+}
+.products figcaption span{
+    color: #f02b63;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 30.25%;
+    flex-shrink: 0;
+    padding: 17rem 23rem 50rem 30rem;
+    background: url("/images/border.png")repeat-y left top,
+        linear-gradient(white, white) bottom left / calc(100% - 44rem) calc(100% - 10rem) no-repeat, 
+        linear-gradient(white, white) right top / calc(100% - 10rem) calc(100% - 41rem) no-repeat,
+        linear-gradient(-45deg, white, white 50%, transparent 50%) left top / 10rem 10rem no-repeat,
+        linear-gradient(135deg, #4cb1ca, #4cb1ca 50%, transparent 50%) right bottom / 44rem 41rem no-repeat;
+}
+.sidebar form{
+    padding: 0px 0px 30rem 2rem;
+}
+.bestsellers > div{
+    background: #f9f9f9;
+    border-radius: 4px;
+    padding: 4rem 11rem 9rem 11rem;
+    margin-bottom: 7rem;
+}
+.bestsellers figure{
+    float: left;
+    margin: 3rem 11rem 0px 0px;
+}
+.bestsellers{
+    color: #c3c3c3;
+    margin-bottom: 37rem;
+}
+.bestsellers p{
+    margin: 2rem 0px 1rem 0px;
+}
+.bestsellers a{
+    color: #4cb1ca;
+    font-size: 18px;
+}
+.bestsellers span{    
+    margin-right: 8rem;
+    white-space: nowrap;
+}
+.bestsellers strong{
+    margin-right: 12rem;
+    color: #f02b63;
+    font-weight: 400;
+}
+.bestsellers a:active, .bestsellers a:hover, .bestsellers a:focus{
+    text-decoration: underline;
+}
+.payment a{
+    margin: 1px 1px 9rem 1px;
+}
+.payment > div{
+    margin: -1px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 31rem 5px 30rem 5px;
+    color: #466972;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+}
+footer a{
+    color: #466972;
+    text-transform: uppercase;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 960px) {
+    .links-nav a, .links-nav a:first-child {margin: 0px 8px;}
+}
+@media (max-width: 800px) {
+    .products figure{width: 48%;}
+    .hidden{display: none;}
+}
+@media (max-width: 640px) {
+    .sidebar{background: white;}
+    .sidebar > div{width: 48%;}
+    .sidebar > .payment{width:100%;}
+    .links-nav a.active::after, .links-nav a:active::after, .links-nav a:hover::after, .links-nav a:focus::after {display: none;}
+}
