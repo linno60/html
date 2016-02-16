@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Helvetica Oblique';
+    src: url('/fonts/fontsquirel.com/helvetica_2.woff2') format('woff2'), url('/fonts/fontsquirel.com/helvetica_2.woff') format('woff');
+}
+@font-face {
+    font-family: 'CoffeeService';
+    src: url('/fonts/fontsquirel.com/coffeeservice.woff2') format('woff2'), url('/fonts/fontsquirel.com/coffeeservice.woff') format('woff');
+}
+@font-face {
+    font-family: 'SansusWebissimo';
+    src: url('/fonts/fontsquirel.com/sansus_webissimo-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/sansus_webissimo-regular.woff') format('woff');
+}

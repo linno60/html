@@ -1,0 +1,27 @@
+
+/* FONTS */
+@font-face {
+	font-family: 'MyriadPro';
+	src: local('в�є'), url('/fonts/MyriadPro-Bold.woff');
+	font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Helvetica Oblique';
+    src: url('/fonts/fontsquirel.com/helvetica_2.woff2') format('woff2'), url('/fonts/fontsquirel.com/helvetica_2.woff') format('woff');
+}
+@font-face {
+    font-family: 'CoffeeService';
+    src: url('/fonts/fontsquirel.com/coffeeservice.woff2') format('woff2'), url('/fonts/fontsquirel.com/coffeeservice.woff') format('woff');
+}
+@font-face {
+    font-family: 'SansusWebissimo';
+    src: url('/fonts/fontsquirel.com/sansus_webissimo-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/sansus_webissimo-regular.woff') format('woff');
+}
+/* ICONS */
+.icon-cart {width: 28px; height: 17px; background: url('/images/icons/cart.png');}
+.icon-fb {width: 22px; height: 22px; background: url('/images/icons/fb.png');}
+.icon-plus-sm {width: 5px; height: 5px; background: url('/images/icons/plus-sm.png');}
+.icon-plus {width: 7px; height: 7px; background: url('/images/icons/plus.png');}
+.icon-rss {width: 22px; height: 22px; background: url('/images/icons/rss.png');}
+.icon-tw {width: 22px; height: 22px; background: url('/images/icons/tw.png');}
