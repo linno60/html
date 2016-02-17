@@ -39,7 +39,7 @@ blockquote{
     font-size: 11px;
     line-height: 15px;
     width: 28.4%;
-    padding: 10rem 0px 0px 0px;
+    padding: 10rem 0px 10rem 0px;
 }
 blockquote q{
     display: inline-block;
@@ -118,10 +118,13 @@ header .lwrap{
     font-family: SansusWebissimo;
     margin-bottom: 3rem;
 }
+.slider-lg > div > div{
+    margin-left: 9rem;
+}
 
 /*CONTENT*/
 .content{
-    padding: 55rem 0px 48rem 36rem;
+    padding: 55rem 0px 18rem 36rem;
 }
 .content > div{
     width: 48%;
@@ -139,7 +142,7 @@ header .lwrap{
 .slider-daily h4{
     font-weight: 400;
     font-family: Helvetica Oblique;
-    margin: 8px 0px 1px 0px;
+    margin: 8rem 0px 1rem 0px;
 }
 .slider-daily h4 a{
     color: #946c42;
@@ -166,28 +169,27 @@ header .lwrap{
     background: rgba(118,80,40,.1) url('/images/handle.png') no-repeat center center;
 }
 .about{
-    padding: 0px 0px 20px 2px;
+    padding: 0px 0px 20rem 2rem;
 }
 .about p:last-child{
-    margin-bottom: 12px;
+    margin-bottom: 12rem;
 }
-
 .offer{
-    padding: 0px 34px 39px 2px;
+    padding: 0px 34rem 39rem 2rem;
 }
 .offer figure{
     width: 33%;
     flex-shrink: 0;
-    margin: 6px 0px 7px 41px;
+    margin: 6rem 0px 7rem 41rem;
 }
 .offer p{
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
 }
 .price-old{
     font-size: 22px;
     font-family: SansusWebissimo;
     color: #931d1d;
-    margin-bottom: 4px;
+    margin-bottom: 4rem;
 }
 .price-old > span{
     color: #b7926c;
@@ -200,30 +202,34 @@ header .lwrap{
     font-size: 35px;
     font-family: SansusWebissimo;
     line-height: 24px;
-    padding-bottom: 5px;
+    padding-bottom: 5rem;
+    white-space: nowrap;
+}
+.testimonials{
+    padding-bottom: 20px
 }
 .slider-sm{
     position: relative;
-    margin-bottom: 65px;
+    margin-bottom: 65rem;
     background: linear-gradient(white, #fbfbfb 81%, white 81%, white)
 }
 .slider-sm > div{
-    margin-left: -28px;
+    margin-left: -28rem;
 }
 .slider-sm h3{
     font-family: Helvetica Oblique;
     color: #987046;
     font-weight: normal;
-    margin: -7px 0px 5px 1px;
+    margin: -7rem 0px 5rem 1rem;
 }
 .slider-sm figure{
-    margin: -3px 0px -23px 1px;
+    margin: -3rem 0px -23rem 1rem;
 }
 .slider-sm p{
     letter-spacing: -0.01em;
 }
 .slider-sm h3 + p{
-    margin: 0px 0px 23px 1px;
+    margin: 0px 0px 23rem 1rem;
     font-size: 11px;
     line-height: 15px;
     max-width: 400px;
@@ -235,16 +241,16 @@ header .lwrap{
     transform: translateY(-77%);
 }
 .slider-sm .btn-slide.prev{
-    left: -9px;
+    left: -9rem;
 }
 .slider-sm .btn-slide.next{
-    right: 26px;
+    right: 26rem;
 }
 .form-wrap .hdr{
     margin-bottom: 10px;
 }
 .form-wrap p{
-    margin-bottom: 8px;
+    margin-bottom: 8rem;
     letter-spacing: -0.01em;
 }
 
@@ -260,5 +266,7 @@ footer span, footer span a{
 
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
-    
+    .slider-daily article{
+    width: 32%;
+}
 }

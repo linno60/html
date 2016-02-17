@@ -69,7 +69,7 @@
                     <h2>Today's Choice</h2>
                     <h6>make your day !</h6>
                 </hgroup>
-                <div class='slider-daily' data-flex='-end between' data-childs="col -center">
+                <div class='slider-daily' data-flex='-end between' data-childs="col -center" data-flex-800="-end around w">
                     <article>
                         <figure><img src='/images/img3.png'></figure>
                         <h4><a href='#'>Creamsy Creamy</a></h4>
@@ -103,7 +103,7 @@
                 </div>
                 <div class='range' data-flex='center'></div>
             </section>
-            <section class="content" data-flex="stripe">
+            <section class="content" data-flex="stripe" data-flex-640="vstripe">
                 <div>
                     <div class="about">   
                         <h2 class='hdr'>About Us</h2>  
@@ -117,7 +117,7 @@
                         <div>
                             <h2 class='hdr'>Special Offer !</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been..</p>
-                            <div data-flex="-end between">
+                            <div data-flex="-end between w">
                                 <div data-flex='col'>
                                     <del class="price-old"><span>1.22 <span>&pound;</span></span></del>
                                     <span class="price-new">0.99 <span>&pound;</span></span>
@@ -129,7 +129,7 @@
                     </div>
                     <div class='testimonials'>
                         <h2 class='hdr'>Testimonials</h2>
-                        <div data-flex='stripe'>
+                        <div data-flex='stripe' data-flex-800="vstripe">
                             <blockquote>
                                 <q>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently...</q>
                                 <cite>Author : Wassim Awadallah</cite>

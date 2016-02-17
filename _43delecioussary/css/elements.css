@@ -41,7 +41,7 @@ body{
 
 /*LIST*/
 .list-default{
-    padding: 0px 51rem 7rem 0px;
+    padding: 0px 60rem 7rem 0px;
 }
 .list-default li{
     color: #d4a65d;
@@ -109,12 +109,12 @@ body{
     background: url("/images/icons/cart.png")no-repeat center center, url("/images/btn.png");
     border-left: 1px solid #fff;
     box-shadow: inset 1px 0px 0px 0px #ebd8c5;
-    margin-left: 10px;
+    margin-left: 10rem;
 }
 .btn-cart{
     text-align: center;
-    margin-right: 3px;
-    padding: 0px 7px 0px 15px;
+    margin: 5px 3rem 0px 0px;
+    padding: 0px 7rem 0px 15rem;
     color: #735659;
     font-family: SansusWebissimo;
     font-size: 14px;
@@ -126,8 +126,8 @@ body{
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.75), 0 0 0 4px rgba(0, 0, 0, 0.01);
 }
 .btn-submit{
-    padding: 0px 10px;
-    min-width: 90px;
+    padding: 0px 10rem;
+    min-width: 90rem;
     height: 28px;
     color: #c2a281;
     font-weight: 700;
