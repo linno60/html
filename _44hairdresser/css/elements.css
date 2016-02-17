@@ -1,0 +1,206 @@
+body{
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav a{
+    padding: 0px 18rem;
+    color: #7e7e7e;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    min-height: 24px;
+}
+.links-nav a.active, .links-nav a.active:active, .links-nav a.active:hover, .links-nav a.active:focus{
+    color: white;
+    background: #ef5a22;
+    border: 2px solid transparent;
+    height: 110rem;
+    border-radius: 0px;    
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #ef5a22;
+    border: 2px solid #f89654;
+    height: 41rem;
+    border-radius: 23px;
+}
+.links-social a{
+    margin: 4px;
+}
+
+/*CITES*/
+blockquote q{
+    max-width: 814px;
+    font-style: italic;
+    line-height: 30px;
+    color: black;
+    font-size: 22px;
+    letter-spacing: -0.022em;
+}
+blockquote{
+    border-top: 1px solid #b3b3b3;
+    padding: 49rem 0px 84rem 0px;
+    text-align: center;
+    font-weight: 300;    
+}
+blockquote cite{
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 14rem 35rem 8rem 32rem;
+    font-style: normal;
+    margin-top: 51rem;
+}
+blockquote cite span{
+    color: #ef5a22;
+    font-size: 25px;
+    letter-spacing: -0.028em;
+}
+blockquote cite small{
+    color: #7e7e7e;
+    font-family: Roboto Condensed;
+    letter-spacing: -0.005em;
+    font-size: 12px;
+    line-height: 28px;
+}
+blockquote cite:before{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 8px solid white; 
+    border-left: 6px solid transparent; 
+    border-right: 6px solid transparent; 
+}
+
+/*BUTTONS*/
+.btn-default{
+    height: 41px;
+    border: 2px solid #00ac18;
+    border-radius: 20px;
+    color: #707070;
+    text-transform: uppercase;
+    padding: 0px 26rem 0px 20rem;
+    font-family: Roboto Condensed; 
+    font-size: 17px;
+    text-align: center;
+    line-height: 18px;
+}
+.btn-default i{
+    margin-right: 13rem;
+    flex-shrink: 0;
+}
+.btn-start{
+    color: white;
+    min-height: 92px;
+    margin-bottom: 22rem;
+    background: #00ac18;
+    text-transform: uppercase;
+    font-family: Roboto Condensed;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.btn-start:after{
+    content: "";
+    background: white url(/images/icons/check.png)no-repeat center center;
+    width: 100px;
+}
+.btn-start > span{
+    padding: 2px 35rem 2px 41rem;
+}
+.btn-start strong{
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 31px;
+}
+.btn-start small{
+    color: #00ff30;
+    font-size: 18px;
+    letter-spacing: -0.025em;
+    line-height: 19px;
+}
+.btn-app{
+    border-radius: 5px;
+    margin: 0px 13rem 5px 0px;
+}
+
+/*FORMS*/
+input[name=input]{
+    width: 100%;
+    background: rgba(126, 126, 126, 0.7);
+    border: none;
+    outline: none;
+    height: 62px;
+    margin-bottom: 8px;
+    padding: 0px 40rem;
+    color: rgba(255,255,255,.7);
+    font-family: Roboto Condensed; 
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+input[name=input]::-webkit-input-placeholder { color: white; }
+input[name=input]::-moz-placeholder { color: white; }
+input[name=input]:-ms-input-placeholder { color: white; }
+input[type=text]{
+    max-width: 270px;
+}
+input[type=email]{
+    max-width: 340px;
+}
+input[type=password]{
+    max-width: 300px;
+}
+
+/*OTHER*/
+hgroup > *{    
+    font-family: Roboto Condensed; 
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.hgroup{
+    color: white;    
+}
+.hgroup h1{
+    font-size: 42px;
+    background: #ef5a22;
+    padding: 19rem 39rem 20rem 40rem;
+    margin-bottom: 10px;
+    letter-spacing: -0.027em;
+}
+.hgroup h3{
+    font-size: 20px;
+    background: rgba(248, 150, 84, 0.7);
+    padding: 18rem 46rem 20rem 40rem;
+    margin-bottom: 38rem;
+    letter-spacing: -0.028em;
+}
+.hgroup-alt{
+    margin-bottom: 24rem;
+}
+.hgroup-alt > *{
+    text-align: center;
+}
+.hgroup-alt h2 i{
+    margin-right: 15px;
+}
+.hgroup-alt h2{
+    font-family: Roboto;
+    color: #7e7e7e;
+    font-size: 49px;
+    letter-spacing: -0.062em;
+}
+.hgroup-alt h4{
+    color: #ef5a22;
+    font-size: 28px;
+    letter-spacing: -0.04em;
+}
+
