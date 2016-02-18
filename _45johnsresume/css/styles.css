@@ -170,6 +170,7 @@ header:after{
     width: 83%;
     height: 8px;
     border: 1px solid transparent;
+    display: block;
 }
 .level{
     max-width: 240px;
@@ -199,6 +200,7 @@ header:after{
     display: inline-block;
     line-height: 15px;
     padding-bottom: 10px;
+    width: 100%;
 }
 .skills article{
     margin-bottom: 25rem;

@@ -45,6 +45,7 @@ body{
     border-top: 5px solid #c0c0c0;
     border-bottom: 1px solid #c0c0c0;
     margin-top: 3px;
+    display: block;
 }
 .hdr:before{
     margin-right: 40rem;
