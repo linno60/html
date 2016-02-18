@@ -34,7 +34,7 @@ body{
 header{
     padding: 0px 0px 0px 50px;
     position:relative;
-     background: url('../images/bg2.png');
+    background: url('../images/bg2.png');
     min-height: 164px;
     box-shadow: 0 2px 0 rgba(255, 255, 255, 0.75), inset 0 -2px 0 rgba(205, 112, 71, 0.5);
 }
@@ -44,30 +44,30 @@ header{
 }
 .wrap:before, .wrap:after, header:before{
     content: "";
-  display: block;
-  position: absolute; 
+    display: block;
+    position: absolute; 
 }
 .wrap:before{  
-   width: 376px;
-  height: 11px;  
-   top: -11px;  
-   left: 11px;
-   background: url('../images/shadow-alt.png');
+    width: 376px;
+    height: 11px;  
+    top: -11px;  
+    left: 11px;
+    background: url('../images/shadow-alt.png');
 }
 .wrap:after{
-   width: 376px;
-  height: 13px;  
-   right: 15px;
-  bottom: -13px;
-  background: url('../images/shadow.png');
+    width: 376px;
+    height: 13px;  
+    right: 15px;
+    bottom: -13px;
+    background: url('../images/shadow.png');
 }
 header:before{
-  width: 131px;
-  height: 76px;
-  top: -21px;
-  left: -28px;
-  z-index: 1;
-  background: url('../images/stick.png');
+    width: 131px;
+    height: 76px;
+    top: -21px;
+    left: -28px;
+    z-index: 1;
+    background: url('../images/stick.png');
 }
 header figure{
     margin: 0px 0px 0px -23px;
@@ -102,13 +102,13 @@ header span{
     position: relative;
     z-index: 1;
     text-shadow: 0 1px 0 white;
-color: #e23500;
-font: 30px "Rockwell";
-background-color: #fff;
+    color: #e23500;
+    font: 30px "Rockwell";
+    background-color: #fff;
 
     min-width: 31.5%;
-text-align: center;
-padding: 0px 10px;
+    text-align: center;
+    padding: 0px 10px;
     letter-spacing: -0.05em;
 }
 .hdr:before{
@@ -139,8 +139,7 @@ padding: 0px 10px;
 }
 p{
     color: #2c2c2b;
-font:13px/20px "Lucida Sans Unicode";
-
+    font:13px/20px "Lucida Sans Unicode";
     margin: 0px 0px 20px 0px;
     letter-spacing: -0.049em;
 }
@@ -210,7 +209,7 @@ address{
 }
 .level.alt{
     background-image: linear-gradient(to top, #ffd200 0%, #fff4bf 100%);
-border: 1px solid #ffd200;
+    border: 1px solid #ffd200;
 }
 .level{
     border-radius: 5px;
@@ -221,16 +220,16 @@ border: 1px solid #ffd200;
 .level-wrap{
     margin:  15px 0px 0px 0px;
     border-radius: 5px;    
-background-image: linear-gradient(to top, #d7dce2 0%, #bfc6cb 85%, #f2f5f7 100%);
-box-shadow: 0 1px 0 white, inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to top, #d7dce2 0%, #bfc6cb 85%, #f2f5f7 100%);
+    box-shadow: 0 1px 0 white, inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
 }
 .range{
     margin: 0px 0px 23px 0px;
 }
 .range span{
-   color: #e23500;
-font: 300 8px "Lucida Sans Unicode";
-text-transform: uppercase; 
+    color: #e23500;
+    font: 300 8px "Lucida Sans Unicode";
+    text-transform: uppercase; 
 }
 figure{
     position: relative;
@@ -254,8 +253,8 @@ footer a, footer span{
     padding: 5px 24px 0px 2px;
 }
 .works{
-   padding: 2px 0px 25px 0px; 
-   margin: 0px -41px 0px 0px;
+    padding: 2px 0px 25px 0px; 
+    margin: 0px -41px 0px 0px;
 }
 .works > article{
     margin: 5px 32px 5px 3px;
@@ -325,7 +324,7 @@ figure:hover .overlay{
 }
 @media (max-width: 770px) {
     .skills{
-         flex-direction: column;
+        flex-direction: column;
     }
 }
 @media (max-width: 700px) {
@@ -333,53 +332,53 @@ figure:hover .overlay{
         flex-direction: column;
     }
     .address {
-    margin: 20px 0px 30px 0px;
-}
-  .profile .half {
-    width: 100%;
-}  
-.social {
-    width: 100%;
-}
-.social .grid {
-    justify-content: flex-start;
-}
+        margin: 20px 0px 30px 0px;
+    }
+    .profile .half {
+        width: 100%;
+    }  
+    .social {
+        width: 100%;
+    }
+    .social .grid {
+        justify-content: flex-start;
+    }
 }
 @media (max-width: 650px) {
     .header {
         padding: 0px 0px 0px 10px;
     }
     header h1 {
-    font: 700 30px/29px "Rockwell";
-}
-header span {
-    font: 700 12px/13px "Rockwell";
-}
-.education{
-         flex-direction: column;
+        font: 700 30px/29px "Rockwell";
+    }
+    header span {
+        font: 700 12px/13px "Rockwell";
+    }
+    .education{
+        flex-direction: column;
     }
     .education .heft, .education .third {
-    width: 100%;
-    padding: 0px;
-}
+        width: 100%;
+        padding: 0px;
+    }
 }
 @media (max-width: 530px) {
     .works{
-         flex-direction: column;
+        flex-direction: column;
     }
     .clients{
-         flex-direction: column;
+        flex-direction: column;
     }
- .clients .heft, .clients .third {
-    width: 100%;
-    padding: 0px;
-}   
+    .clients .heft, .clients .third {
+        width: 100%;
+        padding: 0px;
+    }   
 }
 @media (max-width: 470px) {
     .header{
         flex-direction: column;
     }
     .header figure {
-    margin: 0px;
-}
+        margin: 0px;
+    }
 }

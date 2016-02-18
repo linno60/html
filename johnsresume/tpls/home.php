@@ -13,8 +13,8 @@
             <div class="wrap">
                 <header class="header" data-flex="row-center-center">
                     <div>
-                       <h1>John Henry Doe</h1>
-                    <span>Web Designer - Self-Starter - Optimist</span> 
+                        <h1>John Henry Doe</h1>
+                        <span>Web Designer - Self-Starter - Optimist</span> 
                     </div>
                     <figure data-flex>
                         <img src="/images/man.png">
@@ -29,16 +29,16 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. </p>
                             <p>Proin turpis leo, laoreet non ultricies non, dictum nec nulla. Duis vitae nisi eu odio vestibulum pulvinar in quis lorem. Suspendisse nisl orci, varius at tempor quis, egestas et sem. </p>
                         </article>
-                         <div class="address">
-                             <h3>Contact Info</h3>
-                             <address data-flex="col">
-                                 <span>E-mail:<a href="mailto:johnhenrydoe@mail.com">johnhenrydoe@mail.com</a></span>
-                                 <span>Phone: +1 (123)456-7890</span>
-                                 <span>Hometown: California, US</span>
-                                 <span>Website: <a href="#">GraphicsFuel.com</a></span>
-                             </address>
+                        <div class="address">
+                            <h3>Contact Info</h3>
+                            <address data-flex="col">
+                                <span>E-mail:<a href="mailto:johnhenrydoe@mail.com">johnhenrydoe@mail.com</a></span>
+                                <span>Phone: +1 (123)456-7890</span>
+                                <span>Hometown: California, US</span>
+                                <span>Website: <a href="#">GraphicsFuel.com</a></span>
+                            </address>
                         </div>
-                         <div class="social">
+                        <div class="social">
                             <h3>My Social Network</h3>
                             <div class="grid" data-flex="row--between">
                                 <a href="#" class="btn"><i class="icon-tw"></i></a>
@@ -60,13 +60,13 @@
                             <p>adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. </p>
                             <p>Proin turpis leo, laoreet non ultricies non, dictum nec nulla. Duis vitae nisi eu odio vestibulum pulvinar in quis lorem.</p>
                         </article>
-                         <article>
+                        <article>
                             <h5>Senior Graphic Designer</h5>
                             <em>Company Name - Jan 2010 - Dec 2010</em>
                             <p>adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. </p>
                             <p>Proin turpis leo, laoreet non ultricies non, dictum nec nulla. Duis vitae nisi eu odio vestibulum pulvinar in quis lorem.</p>
                         </article>
-                         <article>
+                        <article>
                             <h5>Graphic Designer</h5>
                             <em>Company Name - Jan 2009 - Nov 2009</em>
                             <p>adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. </p>
@@ -87,7 +87,7 @@
                             <div class="level-wrap"><div class="level"></div></div>
                             <div class="range" data-flex="row--between"><span>low</span><span>hi</span></div>
                         </div>
-                         <div data-flex="col-start">
+                        <div data-flex="col-start">
                             <h6>Adobe Photoshop</h6>
                             <em>adipiscing elit. Nullam dapibus vehicula condimentum.</em>
                             <img src="/images/rating.png">
@@ -95,7 +95,7 @@
                             <em>adipiscing elit. Nullam dapibus vehicula condimentum.</em>
                             <img src="/images/rating.png">
                         </div>
-                         <div>
+                        <div>
                             <h6>Adobe Flash</h6>
                             <em>adipiscing elit. Nullam dapibus vehicula condimentum.</em>
                             <div class="level-wrap"><div class="level alt"></div></div>
@@ -110,21 +110,21 @@
                         <h2>Education</h2>
                     </div>
                     <div class="grid education" data-flex="row--between">
-                      <article class="heft">
+                        <article class="heft">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. </p>
                             <p>Proin turpis leo, laoreet non ultricies non, dictum nec nulla. Duis vitae nisi eu odio vestibulum pulvinar in quis lorem. Suspendisse nisl orci, varius at tempor quis, egestas et sem. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam. </p>
                         </article>
-                         <div class="third">
-                             <article>
-                                 <h5>University of London</h5>
-                                 <em>M.A. Arts & Design - 2004-2007</em>
-                                 <p>condimentum. Curabitur elit enim, accumsan vitae tristique ut. </p>
-                             </article>
-                             <article>
-                                 <h5>University of New Orleans</h5>
-                                 <em>B.A. Arts & Design - 2002-2004</em>
-                                 <p>condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. </p>
-                             </article>
+                        <div class="third">
+                            <article>
+                                <h5>University of London</h5>
+                                <em>M.A. Arts & Design - 2004-2007</em>
+                                <p>condimentum. Curabitur elit enim, accumsan vitae tristique ut. </p>
+                            </article>
+                            <article>
+                                <h5>University of New Orleans</h5>
+                                <em>B.A. Arts & Design - 2002-2004</em>
+                                <p>condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. </p>
+                            </article>
                         </div>
                     </div>
                     <div class="hdr" data-flex="row-center-center">
@@ -133,74 +133,74 @@
                     <div class="grid clients" data-flex="row--between">
                         <article class="heft">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus vehicula condimentum. Curabitur elit enim, accumsan vitae tristique ut, mollis at orci. Fusce cursus interdum neque nec aliquam.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus vehicula condimentum.</p>
-                         </article>
-                         <div class="third">
-                             <h5>Selected Clients</h5>
-                             <div class="grid" data-flex>
-                                 <ul>
-                                     <li>IBM</li>
-                                      <li>Toyota</li>
-                                       <li>Micorsoft</li>
-                                 </ul>
-                                 <ul>
-                                     <li>BlueHills</li>
-                                      <li>GraphicsFuel</li>
-                                       <li>Dribbble</li>
-                                 </ul>
-                                 <ul>
-                                     <li>FoodFun</li>
-                                      <li>Aiwa</li>
-                                       <li>Jet Airways</li>
-                                 </ul>
-                             </div>
+                        </article>
+                        <div class="third">
+                            <h5>Selected Clients</h5>
+                            <div class="grid" data-flex>
+                                <ul>
+                                    <li>IBM</li>
+                                    <li>Toyota</li>
+                                    <li>Micorsoft</li>
+                                </ul>
+                                <ul>
+                                    <li>BlueHills</li>
+                                    <li>GraphicsFuel</li>
+                                    <li>Dribbble</li>
+                                </ul>
+                                <ul>
+                                    <li>FoodFun</li>
+                                    <li>Aiwa</li>
+                                    <li>Jet Airways</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="grid portfolio" data-flex="row--between">
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img1.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img2.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img3.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img4.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img5.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img6.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img7.png">
                         </figure>
                         <figure data-flex>
                             <div class="overlay" data-flex="row-end-end">
-                               <a href="#"><i class="icon-overlay"></i></a> 
+                                <a href="#"><i class="icon-overlay"></i></a> 
                             </div>
                             <img src="/images/img8.png">
                         </figure>

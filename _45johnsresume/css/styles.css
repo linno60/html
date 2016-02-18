@@ -1,0 +1,277 @@
+/*COMMON*/
+body{
+    background:url("/images/bg.png")
+}
+.lwrap.wrap{
+    max-width: 900px;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+p{
+    letter-spacing: -0.05em;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20rem;
+}
+h5{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+address{
+    font-style: normal;
+}
+.contacts{
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.contacts a{
+    color: #e23500;
+}
+.contacts a:active, .contacts a:hover, .contacts a:focus{
+    text-decoration: underline;
+}
+.works article, .skills article{
+    width: 29.8%;
+}
+.sidebox{
+    width: 29.3%;
+    flex-shrink: 0;
+}
+.sidebox{
+    margin-bottom: 16rem;
+}
+.wrap{
+    margin-top: 35rem;
+    background: white;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+}
+.wrap > div{
+    padding: 36rem 34rem 22rem 36rem;
+}
+.wrap:before, .wrap:after, header:after{
+    content: "";
+    position: absolute; 
+}
+.wrap:before, .wrap:after{ 
+    width: 376px;
+}
+.wrap:before{      
+    height: 11px;  
+    top: -11px;  
+    left: 11px;
+    background: url('/images/shadow-alt.png');
+}
+.wrap:after{
+    height: 13px;  
+    right: 15px;
+    bottom: -13px;
+    background: url('/images/shadow.png');
+}
+
+/*HEADER*/
+header{
+    padding: 2rem 10px 0px 55rem;
+    position: relative;
+    background: url("/images/bg2.png");
+    box-shadow: 0 2px 0 rgba(255, 255, 255, 0.75), inset 0 -2px 0 rgba(205, 112, 71, 0.5);
+}
+header hgroup{
+    text-shadow: 0 2px 0 #fff1b1;
+    font-family: Rockwell;
+    font-weight: 700;
+    text-align: right;
+    margin-right: -22rem;
+}
+header h1{
+    font-size: 50rem;
+    letter-spacing: -0.05em;
+}
+header hgroup h3{
+    color: #e02a00;
+    font-size: 20rem;
+    letter-spacing: -0.05em;
+    margin: -15rem 0px 17rem 0px;
+}
+header:after{
+    width: 131rem;
+    height: 76rem;
+    background: url("/images/stick.png");
+    background-size: cover;
+    left: -28rem;
+    top: -21rem;
+}
+
+/*PROFILE*/
+.profile{
+    margin-bottom: 19rem;
+}
+.profile .contacts{
+    width: 26%;
+    padding: 2rem 0px 0px 21rem;
+}
+.profile .social{
+    width: 20%;
+    padding: 0px;
+}
+.profile > div > article{
+    width: 47%;
+    padding-top: 7rem;
+}
+.profile h3{
+    font-family: Rockwell;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 21rem;
+    letter-spacing: -0.05em;
+}
+.profile .contacts h3{
+    margin-bottom: 27rem;
+}
+.profile .social h3{
+    margin-bottom: 21rem;
+}
+.profile .hdr{
+    margin-bottom: 26rem;
+}
+
+/*WORKS*/
+.works{
+    margin-bottom: 6rem;
+}
+.works article{
+    margin-bottom: 20rem;
+}
+.works article h5 ~ span, .works article h5 ~ time, .education article h5 ~ span, .education article h5 ~ time{
+    font-style: italic;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+}
+.works article p{
+    margin-top: 20rem;
+}
+
+/*SKILLS*/
+.skills{
+    margin-bottom: 7rem;
+}
+.level.alt:before{
+    background: linear-gradient(#fff4bf, #ffd200);
+    border: 1px solid #ffd200;
+}
+.level:before{
+    content: "";
+    border-radius: 5px;
+    background: linear-gradient(#0183bc, #043f81);
+    width: 83%;
+    height: 8px;
+    border: 1px solid transparent;
+}
+.level{
+    max-width: 240px;
+    width: 100%;
+    margin-top: 4rem;
+    border-radius: 5px;
+    background: linear-gradient(#f2f5f7, #bfc6cb 15%, #d7dce2);
+    box-shadow: 0 1px 0 white, inset 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+}
+.level + div{
+    width: 100%;
+    max-width: 238px;
+}
+.level + div > span{
+    color: #e86a43;
+    font-size: 8px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.skills .hdr{
+    margin-bottom: 35rem;
+}
+.skills h6{
+    line-height: 17px;
+}
+.skills em{
+    display: inline-block;
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+.skills article{
+    margin-bottom: 25rem;
+}
+.skills figure{
+    margin-left: 5rem;
+}
+
+/*EDUCATION*/
+.education .sidebox p{
+    margin-bottom: 18rem;
+}
+.education .sidebox{
+    margin-bottom: 16rem;
+}
+.education > div > article, .portfolio > div article{
+    width: 62%;
+}
+
+/*PORTFOLIO*/
+.portfolio figure{
+    position: relative;
+    margin-bottom: 23rem;
+    width: 22.9%;
+}
+.portfolio figure:hover .overlay{
+    display: flex;
+}
+.overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    padding: 4rem 6rem;
+}
+.overlay a{
+    width: 47px;
+    height: 47px;
+    background: url(/images/icons/overlay.png);
+}
+
+/*FOOTER*/
+footer span, footer a{
+    color: #87b2e4;
+    line-height: 20px;
+}
+.link:active, .link:hover, .link:focus{
+    text-decoration: none;
+}
+.link, footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+footer > div:first-child{
+    padding-right: 10px;
+}
+footer > div:last-child{
+    text-align: right;
+}
+footer.lwrap{
+    max-width: 920px;
+    letter-spacing: -0.055em;
+    padding: 13rem 9px 20rem 12px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    header hgroup h3 {font-size: 14px;}
+    .education > .sidebox > article{width: 48%;}
+    .profile > div > article {width: 100%;}
+    .profile .contacts, .profile .social{width: 48%;padding:0;}
+    .education .sidebox article, .skills article {width: 48%;}
+    .portfolio figure {width: 31%;}
+    .hidden{display: none;}
+    footer > div:last-child, footer{text-align: center;}
+}
