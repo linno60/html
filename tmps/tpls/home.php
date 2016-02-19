@@ -96,7 +96,7 @@
                         <div>
                             <h3>Donec nec justo eget</h3>
                             <blockquote>
-                                “ Ede semper est, vitae luctus metus libero eu augue. Morb sipo ipiscing, commodo quis, gravida&nbsp;&nbsp;...”
+                                " Ede semper est, vitae luctus metus libero eu augue. Morb sipo ipiscing, commodo quis, gravida&nbsp;&nbsp;..."
                                 <cite>-Kohn Doe / company name</cite>
                             </blockquote>
                         </div>

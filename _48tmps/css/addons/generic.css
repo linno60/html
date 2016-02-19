@@ -1,13 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 /* ICONS */
-.icon-address {width: 27px; height: 22px; background: url('/images/icons/address.png');}
+.icon-address {width: 27px; height: 23px; background: url('/images/icons/address.png');}
 .icon-arrow {width: 15px; height: 7px; background: url('/images/icons/arrow.png');}
 .icon-fb {width: 9px; height: 19px; background: url('/images/icons/fb.png');}
 .icon-grenade {width: 26px; height: 29px; background: url('/images/icons/grenade.png');}
 .icon-in {width: 18px; height: 18px; background: url('/images/icons/in.png');}
-.icon-mail {width: 24px; height: 19px; background: url('/images/icons/mail.png');}
+.icon-mail {width: 27px; height: 23px; background: url('/images/icons/mail.png');}
 .icon-next {width: 34px; height: 70px; background: url('/images/icons/next.png');}
-.icon-phone {width: 22px; height: 23px; background: url('/images/icons/phone.png');}
+.icon-phone {width: 27px; height: 23px; background: url('/images/icons/phone.png');}
 .icon-prev {width: 34px; height: 70px; background: url('/images/icons/prev.png');}
 .icon-rocket {width: 30px; height: 30px; background: url('/images/icons/rocket.png');}
 .icon-shield {width: 23px; height: 28px; background: url('/images/icons/shield.png');}

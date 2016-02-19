@@ -1,0 +1,245 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1190px;
+    padding: 0px 10px;
+}
+p, legend{
+    line-height: 24px;
+    color: #767c7e;
+}
+address{
+    font-style: normal;
+    max-width: 270px;
+    line-height: 24px;
+}
+
+/*HEADER*/
+header{
+    background: #202628; 
+}
+header > .lwrap{
+    max-width: 1216px;
+}
+#logo{
+    margin: 14rem;
+}
+
+/*SLIDER*/
+.slider{
+    background:url("/images/bg.png");
+    background-size: cover;
+}
+.slider > .lwrap{
+    padding: 290rem 10px 59rem 10px;
+}
+.slider a{
+    color: #e84c3d;
+    font-family: Fjalla One;
+    font-size: 15px;
+    margin-right: 1px;
+    letter-spacing: 0.08em;
+}
+.slider a:active, .slider a:hover, .slider a:focus{
+    text-decoration: underline;
+}
+.slider h1{
+    margin: 21rem 0px 3rem 0px;
+}
+
+/*SERVICES*/
+.services{
+    background: #e7e7e7;
+}
+.services .lwrap{
+    padding: 77px 10px 84px 10px;
+}
+.services h3{
+    color: #202628;
+    font-family: Fjalla One;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    letter-spacing: 0.04em;
+}
+.services .lbl-default{
+    margin: 3px 31px 0px 0px;
+}
+.services > .lwrap > article{
+    width: 31.62%;
+}
+.services .more{
+    margin-left: 2px;
+}
+
+/*ABOUT*/
+.about{
+    padding: 78px 0px 78px 0px;
+}
+.about h2{
+    color: #202628;
+    font-family: Fjalla One;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 2px;
+    line-height: 25px;
+    letter-spacing: 0.042em;
+    max-width: 650px;
+}
+.about article h6{
+    color: #202628;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.about figure{
+    flex-shrink: 0;
+    margin: 3px -1px 0px 46px;
+}
+.about article{
+    width: 48%;
+}
+.about p{
+    margin-bottom: 33px;    
+}
+.about > div{
+    width: 100%;
+}
+
+/*SUBSCRIBE*/
+.subscribe{
+    background: #e84c3d;
+    border-radius: 10px;
+    color: white;
+    padding: 45px 31px 42px 30px;
+}
+.subscribe h3, .info h3{
+    font-family: Fjalla One;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.subscribe blockquote{
+    font-size: 16px;
+    line-height: 24px;
+}
+.subscribe cite{
+    font-size: 14px;
+}
+.subscribe > div:first-child{
+    width: 49%;
+}
+.subscribe > div:last-child{
+    width: 45.78%;
+}
+.subscribe h3{
+    margin-bottom: 14px;
+}
+.subscribe .lbl-alt{
+    float: left;
+    margin: 5px 30px 25px 0px;
+}
+.subscribe form{
+    padding-top: 11px;
+}
+.subscribe input[name=input]{
+    padding: 0px 19px;
+}
+
+/*INFO*/
+.info{
+    padding: 66px 0px 61px 0px;
+}
+.info form{
+    background: #e7e7e7;
+    border-radius: 5px;
+    padding: 25px 29px 29px 30px;
+}
+.info > div{
+    width: 31.62%;
+}
+.info form legend{
+    margin-bottom: 24px;
+}
+.info form input, .info form textarea{
+    margin-bottom: 20px;
+}
+.info h3{
+    margin: 0px 0px 25px 1px;
+    color: #202628;
+}
+.contacts .item{
+    padding: 26px 0px 24px 0px;
+}
+.item{
+    padding: 30px 0px 23px 0px;
+    border-top: 1px solid #e7e7e7;
+}
+.item:last-child{
+    border-bottom: 1px solid #e7e7e7;    
+}
+.info h5 ~ a, .info{
+    color: #767c7e; 
+}
+.info h5 ~ a{
+    margin: 2px 0px 5px 0px;
+}
+.info h5{
+    color: #e84c3d;
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.info a:active, .info a:hover, .info a:focus{
+    text-decoration: underline;
+}
+.info figure{
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+.info .item > i{
+    margin: 3px 23px 0px 0px;
+    background-repeat: no-repeat;
+}
+.info p{
+    margin: 4px 0px 0px 0px;
+}
+.info form .btn-default{
+    padding: 0px 20px 0px 20px;
+    height: 41px;
+}
+.info form .btn-default i{
+    margin-left: 14px;
+}
+.info span{
+    line-height: 24px;
+}
+
+/*FOOTER*/
+footer{
+    background: #202628;
+}
+footer > .lwrap{
+    padding: 72px 10px 77px 10px;
+}
+.design, .design a{
+    color: #e84c3d;
+}
+.images, .images a{
+    color: #767c7e;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    
+}
