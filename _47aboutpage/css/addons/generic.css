@@ -1,0 +1,20 @@
+
+/* FONTS */
+@font-face {
+    font-family: 'AbsaraSans';
+    src: url('/fonts/fontsquirel.com/absarasans-light.woff2') format('woff2'), url('/fonts/fontsquirel.com/absarasans-light.woff') format('woff');
+    font-weight: 300;
+}
+/* ICONS */
+.icon-camera {width: 98px; height: 91px; background: url('/images/icons/camera.png');}
+.icon-case {width: 28px; height: 22px; background: url('/images/icons/case.png');}
+.icon-fb {width: 37px; height: 34px; background: url('/images/icons/fb.png');}
+.icon-fl {width: 37px; height: 34px; background: url('/images/icons/fl.png');}
+.icon-graphic {width: 98px; height: 91px; background: url('/images/icons/graphic.png');}
+.icon-home {width: 30px; height: 27px; background: url('/images/icons/home.png');}
+.icon-journal {width: 30px; height: 27px; background: url('/images/icons/journal.png');}
+.icon-mail {width: 26px; height: 17px; background: url('/images/icons/mail.png');}
+.icon-portfolio {width: 30px; height: 27px; background: url('/images/icons/portfolio.png');}
+.icon-rss {width: 37px; height: 34px; background: url('/images/icons/rss.png');}
+.icon-tw {width: 37px; height: 34px; background: url('/images/icons/tw.png');}
+.icon-web {width: 98px; height: 91px; background: url('/images/icons/web.png');}

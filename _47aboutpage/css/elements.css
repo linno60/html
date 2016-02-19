@@ -1,4 +1,26 @@
 body{
-   font-size: 14px;
-   font-family: Tahoma;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+/*LINKS*/
+.links-nav{
+    padding-top: 22rem;
+    width: 100%;
+    max-width: 726px;
+}
+.links-nav a{
+    margin: 5px;
+    color: #a9a5a5;
+    font-size: 17px;
+    text-align: center;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-social{
+    margin-right: -10rem;
+}
+.links-social a{
+    margin: 2rem 0px 6rem 8rem;
 }

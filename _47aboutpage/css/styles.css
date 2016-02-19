@@ -1,0 +1,95 @@
+/*COMMON*/
+.lwrap{
+    max-width: 950px;
+    padding: 0px 10px;
+}
+figure img, #logo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    background: #ebeaea;
+}
+
+/*HEADER*/
+header{
+    background: #4f4747;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.55); 
+}
+header > .lwrap{
+    padding: 34rem 10px 13rem 10px;
+}
+
+/*CONTENT*/
+.preview figure{
+    float: left;
+    background: white;
+    padding: 20rem;
+    margin: 2rem 41rem 10px 0px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+}
+.preview{
+    padding: 78rem 0px 40rem 0px;
+}
+.preview h2, .preview p{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 22rem;
+}
+.preview h2{
+    color: #74927b;
+    font-weight: 700;
+}
+.preview p{
+    color: #4f4747;   
+}
+.grid{
+    margin-bottom: 48rem;
+}
+.grid > h3{
+    color: #74927b;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 32rem;
+    text-transform: uppercase;
+}
+.grid article h4{
+    color: #4f4747;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+.grid article p{
+    line-height: 24px;
+    color: #4f4747;
+    margin: 0px -3rem 3px 0px;
+}
+.grid article a{
+    color: #74927b;
+    text-decoration: underline;
+    font-style: italic;
+    letter-spacing: -0.005em;
+}
+.grid article a:active, .grid article a:hover, .grid article a:focus{
+    text-decoration: none;
+}
+.grid article{
+    width: 29%;
+    margin-bottom: 20px;
+}
+.grid article i{
+    float: left;
+    margin: 5rem 14rem 0px 0px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 30px 0px 64rem 0px;
+    background: url("/images/footer.png")no-repeat center top;
+}
+footer span{
+    color: #a9a5a4;
+    font-size: 13px;
+    padding-bottom: 10px;   
+}
