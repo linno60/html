@@ -1,0 +1,58 @@
+body{
+    font-size: 14px;
+    font-family: Source Sans Pro;
+}
+
+/*LINKS*/
+.links-nav a{
+    height: 28px;
+    letter-spacing: 0.03em;
+    min-width: 96px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #efefef;
+    position: relative;
+    padding:  0px 5px;
+    margin: 5px 0px 5px 10px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover , .links-nav a:focus{
+    background: #f6f6f6;
+    color: #ca6666;
+}
+.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 8px solid #f6f6f6;
+    border-left: 4px solid transparent; 
+    border-right: 4px solid transparent; 
+}
+.links-social a{
+    width: 32px;
+    height: 32px;
+    background: white;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+/*OTHER*/
+.hgroup h2{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    background: #ca6666;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+}
+.hgroup h4{
+    background: white; 
+    color: #575757;
+    font-size: 23px;
+    font-weight: 300;
+    padding: 5px 5px 5px 5px;
+}

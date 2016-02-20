@@ -33,7 +33,7 @@
         </header>
         <section class="banner">
             <div class="lwrap" data-flex="vaxis">
-                 <h1>THIS IS A BOLD HEADLINE ABOUT OUR PRODUCT</h1>
+                <h1>THIS IS A BOLD HEADLINE ABOUT OUR PRODUCT</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra lobortis aliquam. Nunc at turpis quis augue interdum aliquam et vitae magna. Maecenas augue quam, placerat ac dolor ac, hendrerit condimentum purus. Ut convallis mauris sed molestie ultricies.</p>
                 <figure><img src="/images/iphone.png"></figure>  
             </div>                   
