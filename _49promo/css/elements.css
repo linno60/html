@@ -1,0 +1,100 @@
+body{
+    font-size: 14px;
+    font-family: Lato;
+}
+
+/*LINKS*/
+.links-nav{
+    flex-grow: 1;
+}
+.links-nav a{
+    color: #7f8c8d;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 2px 15px;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    position:relative;
+    margin: 8px 8px 8px 7px;
+    border-radius: 5px;
+}
+.links-social a:before, .links-social a:after{
+    display: none;
+    position: absolute;
+}
+.links-social a:after{
+    content: attr(data-title);
+    color: #ecf0f1;
+    font-size: 13px;
+    line-height: 18px;
+    background: #2c3e50;
+    bottom: 59px;
+    left: -164%;
+    border-radius: 0px 0px 8px 8px;
+    padding: 1px 14px 15px 13px;
+    text-align: center;
+    width: 207px;
+}
+.links-social a:hover:after, .links-social a:hover:before{
+    display: block;
+}
+.links-social a:before{    
+    border-top: 12px solid #2c3e50;
+    border-left: 12px solid transparent;
+    border-right: 11px solid transparent;   
+    content: "";
+    top: -25px;
+    left: 20%;
+}
+.fb{
+    background: #4662b2 linear-gradient(90deg, #526ebb 0%, #526ebb 50%, #4662b2 50%, #4662b2 100%);
+    box-shadow: 0 3px 0 #374f93; 
+}
+.tw{
+    background: #058ab7 linear-gradient(90deg, #0c9aca 0%, #0c9aca 50%, #058ebc 50%, #058ebc 100%);
+    box-shadow: 0 3px 0 #067ba2;
+}
+.yt{
+    background: #e22114 linear-gradient(90deg, #e9382c 0%, #e9382c 50%, #e22114 50%, #e22114 100%);
+    box-shadow: 0 3px 0 #bb1a0f; 
+}
+.in{
+    background: #2c85b8 linear-gradient(90deg, #3594cb 0%, #3594cb 50%, #2e8cc2 50%, #2e8cc2 100%);
+    box-shadow: 0 3px 0 #1b71a2;
+}
+.pin{
+    background: #ca2027 linear-gradient(90deg, #d93138 0%, #d93138 50%, #ca2027 50%, #ca2027 100%);
+    box-shadow: 0 3px 0 #b4171d;
+}
+
+/*BUTTONS*/
+.btn-sign, .btn-download{
+    font-weight: 700;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+}
+.btn-sign{
+    min-width: 117rem;
+    height: 45px;
+    background: #1abc9c;
+    border-radius: 6px;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 9rem;
+}
+.btn-download{
+    min-width: 321rem;
+    height: 73px;
+    background: #d35400;
+    border-radius: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
