@@ -18,12 +18,12 @@ body{
 }
 .links-footer{
     color: #545a5c;
-    margin-left: -16px;
-    padding-bottom: 13px;
+    margin-left: -16rem;
+    padding-bottom: 13rem;
 }
 .links-footer a{
     color: #e7e7e7;
-    margin: 0px 17px;
+    margin: 0px 17rem;
     letter-spacing: 0.03em;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
@@ -35,7 +35,7 @@ body{
 .links-social a{
     width: 43px;
     height: 43px;
-    margin: 7px 5px 5px 5px;
+    margin: 7rem 5rem 5rem 5rem;
 }
 .links-social a, .lbl-default, .lbl-alt, .btn-default{
     background: #e84c3d;
@@ -46,8 +46,10 @@ body{
 
 /*LABELS*/
 .lbl-default, .lbl-alt{
-    width: 70px;
-    height: 70px;
+    width: 70rem;
+    height: 70rem;
+    min-width: 50px;
+    min-height: 50px;
     flex-shrink: 0;
 }
 .lbl-alt, .btn-alt{
@@ -57,20 +59,21 @@ body{
 /*FORMS*/
 input[name=input], textarea{
     width: 100%;
-    max-width: 380px;
+    max-width: 440px;
     background: white;
     color: #333;    
     outline: none;
     border: none;
+    margin-bottom: 20rem;
 }
 input[name=input]{
     height: 41px;
     border-radius: 20px;
-    padding: 0px 17px;
+    padding: 0px 17rem;
 }
 textarea{
     height: 82px;
-    padding: 10px 17px;
+    padding: 10px 17rem;
     border-radius: 10px;
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #9faaad; font-style: italic;}
@@ -84,16 +87,16 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder { color:
     font-family: Fjalla One;
     font-size: 16px;
     text-transform: uppercase;
-    padding: 0px 18px;
+    padding: 0px 18rem;
     border-radius: 19px;
 }
 .btn-alt{
     height: 41px;
-    padding: 0px 20px;
-    margin-left: 9px;
+    padding: 0px 20rem;
+    margin-left: 9rem;
 }
 .btn i{
-    margin-left: 5px;
+    margin-left: 5rem;
 }
 
 /*OTHER*/
@@ -103,8 +106,8 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder { color:
     font-weight: 400;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    padding: 6px 0px 9px 0px;
-    margin-bottom: 24px;
+    padding: 6rem 0px 9rem 0px;
+    margin-bottom: 24rem;
 }
 h1 span{
     color: #e7e7e7;
@@ -121,7 +124,7 @@ h1 span:after{
     background: linear-gradient(90deg, transparent, transparent 14px, #e7e7e7 15px, #e7e7e7, #e7e7e7 calc(100% - 15px), transparent calc(100% - 14px), transparent);
     height: 2px;
     flex-grow: 1;
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
 }
 .more{
     color: #e84c3d;

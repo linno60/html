@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="services">
-            <div class="lwrap" data-flex="stripe" data-childs="-start">
+            <div class="lwrap" data-flex="stripe w" data-childs="-start" data-flex-640="vstripe">
                 <article>
                     <div class="lbl lbl-default"><i class="icon-rocket"></i></div>
                     <div>
@@ -77,7 +77,7 @@
                 <div>
                     <h2>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor sit amet orci. Aenean dignissim pellentesque felis</h2>
                     <h4 class="subtitle">Civamus vestibulum nulla nec ante</h4>
-                    <div data-flex="stripe">
+                    <div data-flex="stripe" data-flex-480="vstripe">
                         <article>
                             <h6>Sed egestas anteet </h6>
                             <p>Eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. </p>
@@ -92,7 +92,7 @@
                 </div>
                 <figure><img src="/images/circle.png"></figure>
             </div>
-            <div class="subscribe" data-flex="stripe">
+            <div class="subscribe" data-flex="stripe w" data-flex-480="vstripe">
                 <div class="clearfix">
                     <div class="lbl lbl-alt"><i class="icon-user"></i></div>
                     <h3>Donec nec justo eget</h3>
@@ -100,24 +100,24 @@
                 </div>
                 <div>
                     <h3>Morbi vitae luctus</h3>
-                    <form action="#" method="post" data-flex="stripe">
+                    <form action="#" method="post" data-flex="-start between w">
                         <input type="email" name="input" placeholder="enter your email id here ...">
                         <button><span class="btn btn-alt">subcribe<i class="icon-arrow"></i></span></button>
                     </form>
                 </div>
             </div>
-            <div class="info" data-flex="stripe">
+            <div class="info" data-flex="stripe w" data-flex-480="vstripe">
                 <div>
                     <h3>aliquam tincidunt</h3>
-                    <article class="item" data-flex="-start">
+                    <article class="item clearfix">
                         <figure><img src="/images/img1.png"></figure>
                         <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=></a></p>
                     </article>
-                    <article class="item" data-flex="-start">
+                    <article class="item clearfix">
                         <figure><img src="/images/img2.png"></figure>
                         <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=</a></p>
                     </article>
-                    <article class="item" data-flex="-start">
+                    <article class="item clearfix">
                         <figure><img src="/images/img3.png"></figure>
                         <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=</a></p>
                     </article>                        
