@@ -213,12 +213,12 @@ a.btn-default{
 .services{
     background-color: #fff;
     padding: 33px 10px 39px 38px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,.09);
 }
 .services h2{
-      font: 700 24px/50px 'Source Sans Pro';
-      color: #616161;
-      margin: 0px 0px 2px 13px;
+    font: 700 24px/50px 'Source Sans Pro';
+    color: #616161;
+    margin: 0px 0px 2px 13px;
 }
 .services h2 ~ p{
     color: #616161;
@@ -301,9 +301,9 @@ a.btn-default{
     left: 50%;
     display: block;
     transform: translateX(-50%);
-     border-bottom: 8px solid #ca6666; 
-   border-left: 4px solid transparent; 
-   border-right: 4px solid transparent;
+    border-bottom: 8px solid #ca6666; 
+    border-left: 4px solid transparent; 
+    border-right: 4px solid transparent;
 }
 .list-default li:before{
     width: 12px;
@@ -322,10 +322,10 @@ a.btn-default{
     font: 700 14px/42px 'Source Sans Pro';
 }
 .about blockquote p{
-  position: relative;
-  background-color: #efefef;
-  padding: 14px 20px 16px 21px;
-  font: 14px/22px 'Source Sans Pro';
+    position: relative;
+    background-color: #efefef;
+    padding: 14px 20px 16px 21px;
+    font: 14px/22px 'Source Sans Pro';
 }
 .about blockquote p:after{
     content: "";
@@ -337,12 +337,12 @@ a.btn-default{
     text-align: right;
 }
 .about div blockquote:nth-child(even) p:after{
-	border-right: 15px solid transparent;
-	left: 35px;
+    border-right: 15px solid transparent;
+    left: 35px;
 }
 .about div blockquote:nth-child(odd) p:after{
-	border-left: 15px solid transparent;
-	right: 34px;
+    border-left: 15px solid transparent;
+    right: 34px;
 }
 footer{
     background-color: #28343c;
@@ -376,7 +376,7 @@ footer a:hover{
     text-decoration: underline;
 }
 footer h6{
-    color: #d2d2d2;
+    color: #fff;
     font:700 18px/22px 'Source Sans Pro';
     margin: 0px 0px 10px 0px;
 }
@@ -420,37 +420,37 @@ footer .post a{
     padding: 0px 0px 8px 0px;
 }
 @media (max-width: 900px) {
-   .about {
-    padding: 14px 0px;
-}
-footer .grid {
-    padding: 36px 0px 0px 0px;
-}
+    .about {
+        padding: 14px 0px;
+    }
+    footer .grid {
+        padding: 36px 0px 0px 0px;
+    }
 }
 @media (max-width: 800px) {
     .services .grid > article {
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-}
-.services {
-    padding: 33px 0px 39px 0px;
-}
-.services article i {
-    margin: 24px 10px 0px 0px;
-}
-.services article h3 {
-    font: 700 18px/50px "Source Sans Pro";
-}
-.about{
-    flex-direction: column;
-}
-.about > div {
-    width: 100%;
-}
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+    .services {
+        padding: 33px 0px 39px 0px;
+    }
+    .services article i {
+        margin: 24px 10px 0px 0px;
+    }
+    .services article h3 {
+        font: 700 18px/50px "Source Sans Pro";
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about > div {
+        width: 100%;
+    }
 
 }
 @media (max-width: 600px) {
-.banner {
-    padding: 72px 30px 75px 30px;
-}
+    .banner {
+        padding: 72px 30px 75px 30px;
+    }
 }

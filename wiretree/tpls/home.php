@@ -111,10 +111,10 @@
                     <div>
                         <h4>Testimonials</h4>
                         <div>
-                           <blockquote>
-                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. </p>
-                            <cite data-flex="row--end">by Ted Mosby</cite>
-                        </blockquote>
+                            <blockquote>
+                                <p>Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. </p>
+                                <cite data-flex="row--end">by Ted Mosby</cite>
+                            </blockquote>
                         <blockquote>
                             <p>Fusce dapibus, tellus ac cursus, tortor mauris condimentum nibh vitae elit libero pharetra. </p>
                             <cite>by Jamie Lee</cite>
