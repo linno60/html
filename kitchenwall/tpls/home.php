@@ -68,40 +68,40 @@
                 <div class="posts">
                     <h3>Related Posts</h3>
                     <div data-flex="fluidblocks">
-                    <article>
-                        <figure data-flex>
-                            <img src="/images/img3.png">
-                        </figure>
-                        <h4><a href="#">Dapibus Elit Amet Parturient</a></h4>
-                        <div data-flex>
-                            <span>28 Sep, 2012</span>
-                            <span>|</span>
-                            <a href="#">14 Comments</a>
-                        </div>                       
-                    </article>
-                    <article>
-                        <figure data-flex>
-                            <img src="/images/img3.png">
-                        </figure>
-                        <h4><a href="#">Consectetur Cursus Etiam</a></h4>
-                        <div data-flex>
-                            <span>21 Sep, 2012</span>
-                            <span>|</span>
-                            <a href="#">15 Comments</a>
-                        </div>                       
-                    </article>
-                    <article>
-                        <figure data-flex>
-                            <img src="/images/img3.png">
-                        </figure>
-                        <h4><a href="#">Venenatis Amet Euismod</a></h4>
-                        <div data-flex>
-                            <span>14 Sep, 2012</span>
-                            <span>|</span>
-                            <a href="#">23 Comments</a>
-                        </div>                       
-                    </article>
-                </div>
+                        <article>
+                            <figure data-flex>
+                                <img src="/images/img3.png">
+                            </figure>
+                            <h4><a href="#">Dapibus Elit Amet Parturient</a></h4>
+                            <div data-flex>
+                                <span>28 Sep, 2012</span>
+                                <span>|</span>
+                                <a href="#">14 Comments</a>
+                            </div>                       
+                        </article>
+                        <article>
+                            <figure data-flex>
+                                <img src="/images/img3.png">
+                            </figure>
+                            <h4><a href="#">Consectetur Cursus Etiam</a></h4>
+                            <div data-flex>
+                                <span>21 Sep, 2012</span>
+                                <span>|</span>
+                                <a href="#">15 Comments</a>
+                            </div>                       
+                        </article>
+                        <article>
+                            <figure data-flex>
+                                <img src="/images/img3.png">
+                            </figure>
+                            <h4><a href="#">Venenatis Amet Euismod</a></h4>
+                            <div data-flex>
+                                <span>14 Sep, 2012</span>
+                                <span>|</span>
+                                <a href="#">23 Comments</a>
+                            </div>                       
+                        </article>
+                    </div>
                 </div>
                 <div class="thread">
                     <h3>2 Responses to “Ullamcorper Mollis Pellentesque“</h3>
@@ -130,14 +130,14 @@
                 </div>
                 <div class="form-wrap">
                     <h3>Submit a Comment</h3>
-                <form action="#" method="post" data-flex="col">
-                    <label>Your email address will not be published. Required fields are marked *</label>
-                    <input type="text" placeholder="Name *">
-                    <input type="text" placeholder="E-mail *">
-                    <input type="text" placeholder="Website">
-                    <textarea></textarea>
-                    <div><button><span class="btn btn-default">Submit</span></button></div>
-                </form>
+                    <form action="#" method="post" data-flex="col">
+                        <label>Your email address will not be published. Required fields are marked *</label>
+                        <input type="text" placeholder="Name *">
+                        <input type="text" placeholder="E-mail *">
+                        <input type="text" placeholder="Website">
+                        <textarea></textarea>
+                        <div><button><span class="btn btn-default">Submit</span></button></div>
+                    </form>
                 </div>
             </div>
             <aside class="aside">
@@ -194,18 +194,18 @@
                 </div>
             </aside>
         </div>
-      <footer>
+        <footer>
             <div class="lwrap" data-flex="row-center-between">
-                <span>© 2012 Kitchenwall. Theme by elemis</span>
-            <div class="social" data-flex="row-center-between">
-                <a href="#" class="btn"><i class="icon-rss"></i></a>
-                <a href="#" class="btn"><i class="icon-fb"></i></a>
-                <a href="#" class="btn"><i class="icon-tw"></i></a>
-                <a href="#" class="btn"><i class="icon-dl"></i></a>
-                <a href="#" class="btn"><i class="icon-fl"></i></a>
-                <a href="#" class="btn"><i class="icon-pin"></i></a>
-                <a href="#" class="btn"><i class="icon-t"></i></a>
-            </div>
+                <span>� 2012 Kitchenwall. Theme by elemis</span>
+                <div class="social" data-flex="row-center-between">
+                    <a href="#" class="btn"><i class="icon-rss"></i></a>
+                    <a href="#" class="btn"><i class="icon-fb"></i></a>
+                    <a href="#" class="btn"><i class="icon-tw"></i></a>
+                    <a href="#" class="btn"><i class="icon-dl"></i></a>
+                    <a href="#" class="btn"><i class="icon-fl"></i></a>
+                    <a href="#" class="btn"><i class="icon-pin"></i></a>
+                    <a href="#" class="btn"><i class="icon-t"></i></a>
+                </div>
             </div>   
         </footer>
     </body>
