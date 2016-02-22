@@ -1,0 +1,28 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=36e32bda-a764-4242-b8a6-663630407a78");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Arial Narrow";
+    src: url("/fonts/fonts.com/f03d6476-c3dd-42fa-b98a-e390e000683a.woff2") format("woff2"), url("/fonts/fonts.com/d3e50519-10cc-4ea1-b785-e89b5073e26d.woff") format("woff");
+    font-weight: 700;
+}
+/* ICONS */
+.icon-can {width: 20px; height: 11px; background: url('/images/icons/can.png');}
+.icon-cloud {width: 30px; height: 22px; background: url('/images/icons/cloud.png');}
+.icon-fb {width: 32px; height: 32px; background: url('/images/icons/fb.png');}
+.icon-in {width: 32px; height: 32px; background: url('/images/icons/in.png');}
+.icon-mail {width: 32px; height: 32px; background: url('/images/icons/mail.png');}
+.icon-next {width: 9px; height: 17px; background: url('/images/icons/next.png');}
+.icon-pack {width: 41px; height: 36px; background: url('/images/icons/pack.png');}
+.icon-phone {width: 20px; height: 22px; background: url('/images/icons/phone.png');}
+.icon-prev {width: 9px; height: 17px; background: url('/images/icons/prev.png');}
+.icon-secured {width: 56px; height: 55px; background: url('/images/icons/secured.png');}
+.icon-tw {width: 32px; height: 32px; background: url('/images/icons/tw.png');}
+.icon-usa {width: 20px; height: 11px; background: url('/images/icons/usa.png');}

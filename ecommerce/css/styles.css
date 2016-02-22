@@ -259,10 +259,10 @@ a.btn-check{
     font: 700 25px "Arial";
     text-transform: uppercase;
     color: #ffc600;
-    padding: 0px 34px 1px 0px;
+    padding: 0px 34px 1px 0px; 
 }
 .pens{
-      margin: 12px 0px 0px 46px;
+    margin: 12px 0px 0px 46px;
 }
 .sale{
     margin: -5px 0px 0px -30px;
@@ -369,7 +369,7 @@ a.btn-join{
     margin: 10px 0px 0px 0px;
 }
 .payment a:last-child{
-      margin: 7px 0px 0px 7px;
+    margin: 7px 0px 0px 7px;
 }
 .sort{
     flex-wrap: wrap;
@@ -562,9 +562,9 @@ h2.hdr{
     color: #fc0;
 }
 .footer .lwrap > div{
-   max-width: 178px;
-   min-width: 148px;
-   margin: 5px 5px 5px 5px;
+    max-width: 178px;
+    min-width: 148px;
+    margin: 5px 5px 5px 5px;
 }
 .footer .lwrap > div:last-child{
     margin: 5px 5px 5px 5px;
@@ -577,86 +577,86 @@ footer .search input{
 }
 @media (max-width: 950px) {
     .security .lwrap{
-    flex-wrap: wrap;
-    padding: 10px 9px 10px 20px;
-    justify-content: space-around;;
-}
-footer .search{
-    padding: 10px 0px;
-}
+        flex-wrap: wrap;
+        padding: 10px 9px 10px 20px;
+        justify-content: space-around;;
+    }
+    footer .search{
+        padding: 10px 0px;
+    }
 }
 @media (max-width: 850px) {
     .header .lwrap, .banner, .content-wrap{
         flex-direction: column;
     }
-   
+
     .banner > div{
         width: 100%;
         justify-content: center;
     }
     .header .lwrap{
-    background-size: cover
-}
-.grid{
-    justify-content: space-around;
-}
-.content {
-    padding: 20px 0px 0px 0px;
-}
-.pages{
-    padding: 10px 0px;
-}
-.logo{
-    margin: 10px;
-}
-.sidebar{
-    display: flex;
-    align-items: flex-start;
-}
-.sidebar > *{
-    flex: 1;
-}
-.categories li {
-    padding: 0px 0px 0px 10px;
-}
-.sidebar form {
-    margin: 0px 10px 0px 10px;
-}
-.content, .sidebar{
-    width: 100%;
-}
+        background-size: cover
+    }
+    .grid{
+        justify-content: space-around;
+    }
+    .content {
+        padding: 20px 0px 0px 0px;
+    }
+    .pages{
+        padding: 10px 0px;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .sidebar{
+        display: flex;
+        align-items: flex-start;
+    }
+    .sidebar > *{
+        flex: 1;
+    }
+    .categories li {
+        padding: 0px 0px 0px 10px;
+    }
+    .sidebar form {
+        margin: 0px 10px 0px 10px;
+    }
+    .content, .sidebar{
+        width: 100%;
+    }
 }
 @media (max-width: 700px) {
     .title{
         flex-direction: column;
     }
     .banner > div:first-child {
-    padding: 10px 10px 0px 10px;
-}
-.sale {
-    margin: 5px;
-}
+        padding: 10px 10px 0px 10px;
+    }
+    .sale {
+        margin: 5px;
+    }
     .banner h3, .banner .title p {
         text-align: center;
-    padding: 0px 0px 5px 0px;
-}
-.banner .title{
-    padding: 5px;
-}
-.footer .lwrap{
-    justify-content: flex-start;
-}
-.banner h3{
-    font: 700 20px "Arial";
-}
-.slider{
-    flex-direction: column;
-}
-.slider-wrap{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        padding: 0px 0px 5px 0px;
+    }
+    .banner .title{
+        padding: 5px;
+    }
+    .footer .lwrap{
+        justify-content: flex-start;
+    }
+    .banner h3{
+        font: 700 20px "Arial";
+    }
+    .slider{
+        flex-direction: column;
+    }
+    .slider-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media (max-width: 640px) {
     .sidebar{

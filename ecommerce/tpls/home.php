@@ -145,7 +145,7 @@
                                 <span class="select">
                                     <select>
                                         <option selected>Product Name</option>
-                                        <option>1</option>
+                                        <option>1</option> 
                                         <option>2</option>          
                                     </select>
                                 </span>
@@ -159,13 +159,13 @@
                             </div>
                             <div class="pages" data-flex>
                                 <span>Items per page:</span>
-                                    <a href='#'>12</a>
-                                    <span>/</span>
-                                    <a href='#'>20</a>
-                                    <span>/</span>
-                                    <a href='#' class='active'>30</a>
-                                    <span>/</span>
-                                    <a href='#' class='active'>50</a>
+                                <a href='#'>12</a>
+                                <span>/</span>
+                                <a href='#'>20</a>
+                                <span>/</span>
+                                <a href='#' class='active'>30</a>
+                                <span>/</span>
+                                <a href='#' class='active'>50</a>
                             </div>
                         </form>
                         <h2 class='hdr'>our products</h2>
@@ -288,36 +288,36 @@
                             <a href='#'>Next></a>
                             <a href='#'>Last>></a>
                         </div>
-                         <div class="slider-wrap">
+                        <div class="slider-wrap">
                             <h2 class='hdr'>featured products</h2>
-                        <div class='slider' data-flex='row-center-around'>
-                            <a href='#' class='btn btn-slide'><i class='icon-prev'></i></a>
-                            <div data-flex='col-center'>
-                                <figure data-flex>
-                                    <a href='#' data-flex>
-                                        <img src='/images/img13.png'> 
-                                    </a>
-                                </figure>
-                                <h4><a href='#'>Elegant MP3 player skin PSD download</a></h4>
+                            <div class='slider' data-flex='row-center-around'>
+                                <a href='#' class='btn btn-slide'><i class='icon-prev'></i></a>
+                                <div data-flex='col-center'>
+                                    <figure data-flex>
+                                        <a href='#' data-flex>
+                                            <img src='/images/img13.png'> 
+                                        </a>
+                                    </figure>
+                                    <h4><a href='#'>Elegant MP3 player skin PSD download</a></h4>
+                                </div>
+                                <div data-flex='col-center'>
+                                    <figure data-flex>
+                                        <a href='#' data-flex>
+                                            <img src='/images/img14.png'> 
+                                        </a>
+                                    </figure>
+                                    <h4><a href='#'>Download shopping bag & icons (PSD & PNG)</a></h4>
+                                </div>
+                                <div data-flex='col-center'>
+                                    <figure data-flex>
+                                        <a href='#' data-flex>
+                                            <img src='/images/img15.png'> 
+                                        </a>
+                                    </figure>
+                                    <h4><a href='#'>High resolution abstract bokeh background</a></h4>
+                                </div>
+                                <a href='#' class='btn btn-slide'><i class='icon-next'></i></a>
                             </div>
-                            <div data-flex='col-center'>
-                                <figure data-flex>
-                                    <a href='#' data-flex>
-                                        <img src='/images/img14.png'> 
-                                    </a>
-                                </figure>
-                                <h4><a href='#'>Download shopping bag & icons (PSD & PNG)</a></h4>
-                            </div>
-                            <div data-flex='col-center'>
-                                <figure data-flex>
-                                    <a href='#' data-flex>
-                                        <img src='/images/img15.png'> 
-                                    </a>
-                                </figure>
-                                <h4><a href='#'>High resolution abstract bokeh background</a></h4>
-                            </div>
-                            <a href='#' class='btn btn-slide'><i class='icon-next'></i></a>
-                        </div>
                         </div>                       
                     </div>
                 </div>
