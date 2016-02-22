@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'Cabin';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Cabin Regular'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v7/yQOMOX5hR0-6LTD879t-PQ.woff2) format('woff2');
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cabin Regular'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v7/yQOMOX5hR0-6LTD879t-PQ.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Cabin';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Cabin Medium'), local('Cabin-Medium'), url(https://fonts.gstatic.com/s/cabin/v7/XHvvZj_uvRvYentxl9M1VvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Cabin Medium'), local('Cabin-Medium'), url(https://fonts.gstatic.com/s/cabin/v7/XHvvZj_uvRvYentxl9M1VvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Cabin';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Cabin Bold'), local('Cabin-Bold'), url(https://fonts.gstatic.com/s/cabin/v7/82B-3YlzWJm8zbCrVEmc_vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cabin Bold'), local('Cabin-Bold'), url(https://fonts.gstatic.com/s/cabin/v7/82B-3YlzWJm8zbCrVEmc_vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
 }
 a{
     text-decoration: none;
@@ -62,7 +62,7 @@ h3{
 }
 h4{
     color: #6b6b6b;
-      font: 15px "Cabin";
+    font: 15px "Cabin";
 }
 h4 a{
     color: #6b6b6b;
@@ -72,12 +72,12 @@ h4 a{
     color: white;
     min-width: 112px;
     padding: 2px 5px;
-min-height: 31px;
-background-color: #7dae59;
-background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
-border: 1px solid #648a49;
-border-radius: 2px;
-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    min-height: 31px;
+    background-color: #7dae59;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid #648a49;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 p{
     margin: 0px 1px 23px 0px;
@@ -123,9 +123,9 @@ p{
     text-decoration: underline;
 }
 .like{
-     font: 11px "Cabin";
-     color: #e59191;
-     padding: 2px 13px 2px 5px;
+    font: 11px "Cabin";
+    color: #e59191;
+    padding: 2px 13px 2px 5px;
 }
 .like i{
     margin: 0px 5px 0px 0px;
@@ -137,8 +137,8 @@ figure img{
     margin: 0px 0px 19px 0px;
 }
 header{
-background-color: white;
-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
 }
 header .lwrap{
     min-height: 79px;
@@ -198,13 +198,13 @@ form input{
     padding: 0px 10px 0px 11px;
 }
 form input, form textarea{  
-   background-color: #fbfbfb;
-   border: 1px solid rgba(0, 0, 0, 0.07);
-   color: #898989;
-   font-family: "Cabin";
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 22px;
+    background-color: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    color: #898989;
+    font-family: "Cabin";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 }
 form textarea{
     padding: 10px 10px 10px 10px;
@@ -216,8 +216,8 @@ form textarea{
     padding: 0px 0px 0px 40px;
 }
 .post > .post .message{    
-background-color: whitesmoke;
-border: 2px solid rgba(0, 0, 0, 0.07);
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0, 0.07);
 }
 .post figure{
     min-width: 70px;
@@ -243,27 +243,27 @@ border: 2px solid rgba(0, 0, 0, 0.07);
 }
 input::-webkit-input-placeholder{
     font-family: "Cabin";
-font-size: 14px;
-font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
 }
 input::-moz-placeholder{
-   font-family: "Cabin";
-font-size: 14px;
-font-weight: 400;
+    font-family: "Cabin";
+    font-size: 14px;
+    font-weight: 400;
 }
 input:-ms-input-placeholder{
     font-family: "Cabin";
-font-size: 14px;
-font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
 }
 .search-wrap input::-webkit-input-placeholder{
-font-size: 13px;
+    font-size: 13px;
 }
 .search-wrap input::-moz-placeholder{
-font-size: 13px;
+    font-size: 13px;
 }
 .search-wrap input:-ms-input-placeholder{
-font-size: 13px;
+    font-size: 13px;
 }
 .aside > div{
     background: url('../images/border.png')repeat-x, center bottom;
@@ -312,7 +312,7 @@ font-size: 13px;
     padding: 0px 0px 19px 0px;
 }
 .popular a{
-   color: #898989;
+    color: #898989;
     font: 700 14px/22px "Cabin"; 
 }
 .popular time{
@@ -335,7 +335,7 @@ font-size: 13px;
 }
 footer{    
     background-color: white;
-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.13);
 }
 footer .lwrap{
     min-height: 50px;
@@ -343,8 +343,8 @@ footer .lwrap{
     flex-wrap: wrap;
 }
 footer span{
-   color: #898989; 
-   font:12px "Cabin"; 
+    color: #898989; 
+    font:12px "Cabin"; 
 }
 .grid{
     margin: -6px -2px 19px -2px;
@@ -401,21 +401,21 @@ label{
         flex-direction: column;
     }
     .content-wrap, .aside {
-    width: 100%;
-    margin: 0px;
-}
-.content-wrap{
-    margin: 0px 0px 20px 0px;
-}
+        width: 100%;
+        margin: 0px;
+    }
+    .content-wrap{
+        margin: 0px 0px 20px 0px;
+    }
 }
 @media (max-width: 450px) {
     .post figure {
-    margin: 0px 10px 0px 0px;
-}
-.message {
-    padding: 10px 10px 10px 10px;
-}
-.post > .post {
-    padding: 0px 0px 0px 20px;
-}
+        margin: 0px 10px 0px 0px;
+    }
+    .message {
+        padding: 10px 10px 10px 10px;
+    }
+    .post > .post {
+        padding: 0px 0px 0px 20px;
+    }
 }

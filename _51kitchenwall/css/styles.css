@@ -1,0 +1,261 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 962px;
+}
+body{
+    background:url("/images/bg.png");
+}
+header, footer, .content, .sidebar{
+    background: white;
+}
+.content, .sidebar{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-shadow: inset 0 0 13px rgba(0, 0, 0, 0.05), inset 0 0 0 1px white;
+}
+p{
+    line-height: 23px;
+    margin-bottom: 23rem;
+    letter-spacing: 0.01em;
+    max-width: 610px;
+}
+.content > div, .sidebar > div{
+    background: url("/images/border.png") repeat-x left bottom;
+}
+.content > div:last-child, .sidebar > div:last-child{
+    background: none;
+}
+h3{
+    color: #6b6b6b;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*HEADER*/
+header{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    margin-bottom: 24rem;
+}
+header > .lwrap{
+    padding: 31rem 10px 24rem 9px;
+    max-width: 980px;
+}
+
+/*CONTENT*/
+.content{
+    width: 68.91%;
+    padding: 20rem 25rem 24rem 25rem;
+    margin-bottom: 10rem;
+}
+.blog{
+    margin-bottom: 27rem;
+}
+.blog p:last-child{
+    margin: 0px;
+}
+.blog h1{
+    color: #6b6b6b;
+    margin-bottom: 10rem;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+.blog h2{
+    color: #6b6b6b;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 16rem;
+    letter-spacing: 0.01em;
+}
+.hdr{
+    padding: 14rem 13rem 14rem 0px;
+    margin-bottom: 15rem;
+    font-size: 11px;
+    color: #c4c4c4;
+    font-weight: 700;
+    background: url("/images/border.png")repeat-x left top, url("/images/border.png") repeat-x left bottom;
+}
+.hdr > div > a{
+    color: #c4c4c4;
+}
+.blog .hdr + figure{
+    margin-bottom: 18rem;
+}
+.hdr > div > *{
+    margin-right: 7rem;
+    letter-spacing: 0.02em;
+}
+.gallery{
+    padding: 19rem 0px 11rem 0px;
+}
+.gallery figure{
+    margin-bottom: 10px;
+    width: 18%;
+}
+.related article{
+    margin-bottom: 28rem;
+    width: 31.15%;
+}
+.related article h4{
+    margin: 9rem 0px 1rem 0px;
+}
+.related article h4 a{
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6b6b6b;
+}
+.related h3{
+    margin-bottom: 22rem;
+}
+.related span, .related h4 ~ a{
+    color: #c4c4c4;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.01em;  
+    white-space: nowrap;
+}
+.related span{
+    margin-right: 7rem;
+}
+.content a:active, .content a:hover, .content a:focus{
+    text-decoration: underline;
+}
+.responses{
+    padding: 27rem 0px 7rem 0px;
+    margin-bottom: 27rem;
+}
+.responses article figure{
+    flex-shrink: 0;
+    margin-right: 25rem;
+}
+.responses h3{
+    margin-bottom: 19rem;
+    letter-spacing: 0.01em;
+}
+.responses article{
+    margin-bottom: 25rem;
+}
+.responses article + article{
+    padding-left: 40rem;
+}
+.responses article > div{
+    padding: 21rem 25rem 8rem 23rem;
+    background: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.responses article + article > div{
+    background: whitesmoke;
+}
+.responses article h6{
+    margin-bottom: 7rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+.responses article h6 a{
+    color: #6b6b6b;
+}
+.responses p{
+    margin-bottom: 10rem;
+    line-height: 22px;
+}
+.form-wrap h3{
+    margin-bottom: 14rem;
+    letter-spacing: 0.01em;
+}
+.form-wrap legend{
+    margin-bottom: 21rem;
+    letter-spacing: 0.01em;   
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 28.7%;
+    padding: 22rem 25rem 16rem 25rem;
+}
+.sidebar h3{
+    margin-bottom: 19rem;
+}
+.sidebar > div{
+    margin-bottom: 26rem;
+}
+.sidebar > div:last-child{
+    margin-bottom: 0px;
+}
+.popular{
+    padding-bottom: 13rem;
+    margin-bottom: 27rem;
+}
+.popular h3{
+    margin-bottom: 21rem;
+}
+.popular article figure{
+    float: left;
+    margin: 1rem 11rem 0px 0px;
+}
+.popular article{
+    margin-bottom: 19rem;
+}
+.popular a:active, .popular a:hover, .popular a:focus{
+    text-decoration: underline;
+}
+.popular time{
+    color: #c4c4c4;
+    font-size: 11px;
+    font-weight: 700;
+}
+.popular p{
+    margin-bottom: 2rem;
+}
+.search{
+    padding-bottom: 15rem;
+}
+.search h3{
+    margin-bottom: 23rem;
+}
+.search input[name=input]{
+    height: 33px;
+    font-size: 13px;
+    padding: 0px 9px;
+    letter-spacing: 0.01em;
+}
+.about h3{
+    margin-bottom: 17rem;
+}
+.about p{
+    line-height: 22px;
+    margin-bottom: 22rem;
+}
+.about{
+    padding-bottom: 4rem;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 15rem;
+    box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.13);
+}
+footer > .lwrap{
+    padding: 11px 10px 10px 10px;
+    max-width: 980px;
+}
+footer span{
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+/*MEIDA QUERIES*/
+@media (max-width: 640px) {
+    .sidebar > div{width: 48%;order: 3;}
+    .sidebar > .search{order: 2;}
+    .sidebar > .popular{order: 0;}
+    .sidebar > .about{order: 1;}
+}
+@media (max-width: 480px) {
+    .hidden{display: none;}
+    .gallery figure, .related article {width: 49%;}
+}
