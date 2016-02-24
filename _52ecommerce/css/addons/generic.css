@@ -9,7 +9,7 @@ redistribute, convert, modify or reverse engineer this font software. Please con
 Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 */
 @font-face {
-    font-family: "Arial Narrow";
+    font-family: "ArialNarrow";
     src: url("/fonts/fonts.com/f03d6476-c3dd-42fa-b98a-e390e000683a.woff2") format("woff2"), url("/fonts/fonts.com/d3e50519-10cc-4ea1-b785-e89b5073e26d.woff") format("woff");
     font-weight: 700;
 }
