@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic,900,900italic);
+
+/* ICONS */
+.icon-down {width: 11px; height: 6px; background: url('/images/icons/down.png');}
+.icon-f {width: 28px; height: 28px; background: url('/images/icons/f.png');}
+.icon-g {width: 28px; height: 28px; background: url('/images/icons/g.png');}
+.icon-t {width: 29px; height: 28px; background: url('/images/icons/t.png');}
+.icon-tw {width: 30px; height: 23px; background: url('/images/icons/tw.png');}
+.icon-up {width: 11px; height: 6px; background: url('/images/icons/up.png');}
