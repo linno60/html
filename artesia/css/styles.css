@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Anaheim';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Anaheim'), local('Anaheim-Regular'), url(https://fonts.gstatic.com/s/anaheim/v4/UksPHcP0JWbD5D-eu-EeFA.woff2) format('woff2');
+    font-family: 'Anaheim';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Anaheim'), local('Anaheim-Regular'), url(https://fonts.gstatic.com/s/anaheim/v4/UksPHcP0JWbD5D-eu-EeFA.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Strait';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Strait'), local('Strait-Regular'), url(https://fonts.gstatic.com/s/strait/v4/LimB8Qw7LXxhgcZqZA4MPA.woff2) format('woff2');
+    font-family: 'Strait';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Strait'), local('Strait-Regular'), url(https://fonts.gstatic.com/s/strait/v4/LimB8Qw7LXxhgcZqZA4MPA.woff2) format('woff2');
 }
 a{
     text-decoration: none;
@@ -243,16 +243,16 @@ blockquote:before{
     padding: 0px 10px 0px 4px;
 }
 form input, form textarea{
-   border: 1px solid rgba(140, 140, 140, 0.3);
-   color: #8c8c8c;
-   font-family: "Anaheim";
-   font-size: 12px;
-   text-transform: uppercase; 
+    border: 1px solid rgba(140, 140, 140, 0.3);
+    color: #8c8c8c;
+    font-family: "Anaheim";
+    font-size: 12px;
+    text-transform: uppercase; 
 }
 form input{
     height: 29px; 
     padding: 0px 10px 0px 10px;
-      margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 form textarea{
     resize: none;
@@ -262,21 +262,21 @@ form textarea{
 }
 form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
     color: #8c8c8c;
-font-family: "Anaheim";
-font-size: 12px;
-text-transform: uppercase;
+    font-family: "Anaheim";
+    font-size: 12px;
+    text-transform: uppercase;
 }
 form input::-moz-placeholder, form textarea::-moz-placeholder {
-   color: #8c8c8c;
-font-family: "Anaheim";
-font-size: 12px;
-text-transform: uppercase;
+    color: #8c8c8c;
+    font-family: "Anaheim";
+    font-size: 12px;
+    text-transform: uppercase;
 }
 form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
     color: #8c8c8c;
-font-family: "Anaheim";
-font-size: 12px;
-text-transform: uppercase;
+    font-family: "Anaheim";
+    font-size: 12px;
+    text-transform: uppercase;
 }
 .list-default{
     margin:0px 0px 30px 0px;
@@ -322,7 +322,7 @@ footer h5{
 }
 .copyright span{
     color: #8c8c8c;
-     font: 14px/21px "Anaheim"; 
+    font: 14px/21px "Anaheim"; 
 }
 .copyright span span{
     padding: 0px 5px 0px 4px;
@@ -362,8 +362,8 @@ footer > .lwrap > .grid > *{
         padding: 4px 0px 20px 0px;
     }
     .info {
-    padding: 0px 5px 0px 0px;
-}
+        padding: 0px 5px 0px 0px;
+    }
 }
 @media (max-width: 450px) {
     .about{
