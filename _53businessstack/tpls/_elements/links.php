@@ -11,7 +11,7 @@
     <a href="#"><i class="icon-t"></i></a>
     <a href="#"><i class="icon-g"></i></a>
 </div>
-<div class="links-widget" data-flex="col -start" data-childs>
+<div class="links-widget" data-flex="col -start" data-childs="-start">
     <a href="#">these worlds will</a>
     <a href="#">you of the price paid</a>
     <a href="#">will remind</a>
