@@ -1,0 +1,69 @@
+body{
+    font-size: 14px;
+    font-family: Lato;
+    text-align: center;
+}
+
+/*LINKS*/
+.links-nav {
+    margin-right: -26rem;
+}
+.links-nav a{
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #d9d9d9;
+    margin: 0px 26rem 4px 27rem;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #ff6760;
+}
+.links-social{
+    padding-top: 26px;
+}
+.links-social a{
+    margin: 3px 4px 3px 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.rss{background: #f3b25b;}
+.fb{background: #5883c0;}
+.tw{background: #63bee0;}
+.db{background: #e9a0c4;}
+.pin{background: #d35051;}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 198px;
+    height: 50px;
+    background: #ff6760;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+/*TABS*/
+.tablist{
+    margin-bottom: 21px;
+}
+.tablist > a{
+    height: 35px;
+    background: #ff6760;
+    border-radius: 5px;
+    padding: 0px 19rem;
+    margin: 4rem;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    min-width: 50px;
+}
+.tablist > a.active, .tablist > a:active, .tablist > a:hover, .tablist > a:focus{
+    background: #595959;
+}

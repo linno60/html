@@ -1,0 +1,142 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 1130px;
+}
+p{
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+address{
+    font-style: normal;
+}
+
+/*HEADER*/
+header{
+    background: #262626;
+}
+header > .lwrap{
+    padding: 33rem 10px 30rem 10px;
+}
+#logo{
+    margin-top: 4px;
+}
+
+/*SLIDER*/
+.slider{
+    background: #2a2a2a;
+    color: #d9d9d9;    
+}
+.slider > .lwrap{
+    padding: 46rem 10px 60rem 10px;
+}
+.slider h1{
+    font-size: 60rem;
+    font-weight: 300;
+    margin-bottom: 17rem;
+    letter-spacing: 0.025em;
+}
+.slider h1 strong{
+    font-weight: 900;
+}
+.slider p{
+    font-size: 40rem;
+    font-weight: 300;
+    line-height: 50rem;
+    margin-bottom: 51rem;
+    letter-spacing: 0.026em;
+}
+
+/*SERVICES*/
+.services{
+    background: #f8f8f8;
+}
+.services article{
+    width: 22%;
+    margin-bottom: 20px;
+}
+.services > .lwrap{
+    padding: 86rem 32rem 70rem 10px;
+    max-width: 1150px;
+}
+.services article h3{
+    margin: 22px 0px 9px 0px;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+}
+
+/*WORKS*/
+.works, .services{
+    color: #616161;
+}
+.works{
+    padding: 53rem 10px 70rem 10px;
+}
+.works h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 15rem;
+    letter-spacing: 0.022em;
+}
+.works p{
+    margin-bottom: 52rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+.works .tabpanel figure{
+    width: 24.3%;
+    margin-bottom: 10rem;
+}
+.tabpanel.active {
+    display: flex;
+}
+
+/*FOOTER*/
+footer{
+    color: #bebebe;
+    background: #313131;    
+}
+footer > .lwrap{
+    padding: 53rem 10px 57rem 10px;
+}
+footer h2{
+    color: #e0e0e0;
+    margin-bottom: 15rem;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.022em;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 22rem;
+}
+footer address{
+    margin-right: 37rem;
+}
+footer span{
+    margin-right: 16rem;
+}
+footer address, footer span{
+    letter-spacing: 0.02em;
+}
+footer span i, footer address i{
+    margin: 1px 6rem 0px 0px;
+}
+.copyright{
+    background: #2c2c2c;
+    padding: 31rem 10px 34rem 10px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .slider h1{font-size: 34px;}
+    .slider p{font-size: 23px;line-height: 28px;}
+    .services article, .works .tabpanel figure{width:49%}
+}
