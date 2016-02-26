@@ -52,10 +52,10 @@ header{
 }
 .btn-slide{
     min-width: 35px;
-height: 34px;
-opacity: 0.75;
-background-color: #272727;
-border-radius: 50%;
+    height: 34px;
+    opacity: 0.75;
+    background-color: #272727;
+    border-radius: 50%;
 }
 .slider-wrap .btn-slide{
     position: absolute;
@@ -156,9 +156,11 @@ header h3 i{
 }
 p{
     color: #444343;
-    font: 14px/22px "Georgia";.grid>*{
-    margin: 5px 5px 5px 5px;};
+    font: 14px/22px "Georgia";    
     letter-spacing: 0.015em;
+}
+.grid > *{
+    margin: 5px 5px 5px 5px;
 }
 .portfolio .lwrap{
     align-items: flex-start;
@@ -191,7 +193,6 @@ p{
     min-width: 179px;
     margin: 0px 15px 12px 0px;
 }
-
 .resume h6{
     color: #444343;
     font: 16px/30px "Georgia";
@@ -277,15 +278,15 @@ input:-ms-input-placeholder{
     letter-spacing: 0.015em;
 }
 .btn-submit{
-     font: 18px "Georgia";
+    font: 18px "Georgia";
     color: #7f7f7f;
     min-width: 128px;
     padding: 2px 5px;
-min-height: 48px;
-background-color: #ebebeb;
-background-image: linear-gradient(to top, #c8c8c8 0%, #e3e3e3 100%);
-border: 1px solid white;
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    min-height: 48px;
+    background-color: #ebebeb;
+    background-image: linear-gradient(to top, #c8c8c8 0%, #e3e3e3 100%);
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .social{
     flex-wrap: wrap;
@@ -325,33 +326,33 @@ footer{
     }
 }
 @media (max-width: 670px) {
-   .portfolio .lwrap {
-      flex-direction: column;
-      align-items: center;
-}
-.portfolio .lwrap > div > figure{
-    min-width: 160px;
-}
-.portfolio .lwrap > div {
-    justify-content: space-around;
-    width: 100%;
-}
-.portfolio .lwrap > figure {
-    margin: 1px 3px 0px 0px;
-    width: 100%;
-    max-width: 465px;
-}
+    .portfolio .lwrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio .lwrap > div > figure{
+        min-width: 160px;
+    }
+    .portfolio .lwrap > div {
+        justify-content: space-around;
+        width: 100%;
+    }
+    .portfolio .lwrap > figure {
+        margin: 1px 3px 0px 0px;
+        width: 100%;
+        max-width: 465px;
+    }
 }
 @media (max-width: 550px) {
     .grid{
         flex-direction: column;
     }
     .grid > article {
-    margin: 5px;
-}
+        margin: 5px;
+    }
 }
 @media (max-width: 450px) {
     .resume > div{
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
 }

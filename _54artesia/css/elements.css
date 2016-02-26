@@ -32,7 +32,7 @@ body{
     text-decoration: underline;
 }
 .links-default{
-    max-width: 480px;
+    max-width: 620px;
 }
 .links-default li{
     border-bottom: 1px solid rgba(0,0,0,.3);
@@ -94,7 +94,7 @@ blockquote{
     color: #8c8c8c;
     font-size: 21px;
     line-height: 28px;
-    padding-left: 36rem;
+    padding-left: 36px;
     margin: 14rem 0px 28rem 22rem;
     background: linear-gradient(#d4d4d4 100%, transparent) left center/ 12px 85% no-repeat;
 }
@@ -108,7 +108,7 @@ input[name=input], textarea{
     font-family: Anaheim;
     font-size: 12px;
     outline: none;
-    margin-bottom: 20trm;
+    margin-bottom: 20rem;
 }
 input[name=input]{
     height: 29px; 

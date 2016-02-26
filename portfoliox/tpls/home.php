@@ -125,12 +125,12 @@
             <div class="lwrap" data-flex="row-center-between">
                 <span>Copyright &copy; 2015 John Doe. All rights reserved.</span>
                 <div data-flex="row-center" class="social">
-                        <a href="#"><i class="icon-tw"></i></a> 
-                        <a href="#"><i class="icon-fb"></i></a> 
-                        <a href="#"><i class="icon-vimeo"></i></a> 
-                        <a href="#"><i class="icon-be"></i></a> 
-                        <a href="#"><i class="icon-db"></i></a> 
-                    </div>
+                    <a href="#"><i class="icon-tw"></i></a> 
+                    <a href="#"><i class="icon-fb"></i></a> 
+                    <a href="#"><i class="icon-vimeo"></i></a> 
+                    <a href="#"><i class="icon-be"></i></a> 
+                    <a href="#"><i class="icon-db"></i></a> 
+                </div>
             </div>            
         </footer>
     </body>

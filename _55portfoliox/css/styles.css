@@ -1,0 +1,180 @@
+/*COMMON*/
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 962px;
+    padding: 0px 10px;
+}
+p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.016em;
+}
+.portfolio figure, .resume figure, .slider figure{
+    border: 1px solid white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+background: white;
+}
+
+/*HEADER*/
+header, .portfolio{
+    background: url("/images/bg.png");
+    border-bottom: 1px solid white;
+    box-shadow: 0px 50px 50px 0px rgba(0,0,0,0.05);
+}
+header > .lwrap{
+    padding: 40rem 10px 0px 10px;
+}
+#logo{
+    margin: 0px;
+}
+
+/*SLIDER*/
+.slider{
+    margin: 40rem 0px -160rem 0px;
+}
+.slider figure{
+    position: relative;
+}
+.slider figure:before {
+    position: absolute;
+    content: "";
+    width: 98.8%;
+    height: 97.1%;
+    margin: 5rem;
+    border: 1px solid rgba(255,255,255,.5);
+}
+.slider figure a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider figure a:first-child{
+    left: 35rem;
+}
+.slider figure a:last-child{
+    right: 36rem;
+}
+
+/*CONTENT*/
+.content{
+    padding: 198rem 10px 50rem 15rem;
+}
+.content hgroup h2, .content hgroup h1{
+    text-align: center;
+    font-weight: 400;
+}
+.content hgroup h2{
+    font-size: 24px;
+    margin-bottom: 12rem;
+    letter-spacing: 0.015em;
+}
+.content hgroup h1{
+    font-size: 60rem;
+    margin-bottom: 58rem;
+    letter-spacing: 0.0135em;
+}
+.content article h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 9rem;
+    letter-spacing: 0.012em;
+}
+.content article h3 i{
+    margin: 0px 9rem 0px 3rem;
+}
+.content article{
+    width: 29.8%;
+    margin-bottom: 20px;
+}
+
+/*PORTFOLIO*/
+.portfolio > .lwrap{
+    padding: 77rem 10px 72rem 10px;
+}
+.portfolio > .lwrap > div > figure{
+    width: 48.2%;
+    margin-bottom: 18rem;
+}
+.portfolio > .lwrap > figure{
+    position: relative;
+    width: 48.6%;
+    flex-shrink: 0;
+    margin: 0px 2rem 0px 20rem;
+}
+.portfolio > .lwrap > figure > figcaption{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0,0,0,.65);
+    color: white;
+    padding: 20rem 18rem 16rem 17rem;
+}
+.portfolio > .lwrap > figure > figcaption > p{
+    padding: 0px 19rem 5rem 19rem;
+}
+
+/*CONTACTS*/
+.contacts {
+    padding: 68rem 10px 0px 10px;
+}
+.contacts > form, .resume{
+    width: 48.9%;   
+    margin-bottom: 20px;
+}
+.contacts > form{
+    padding-top: 3px;
+}
+.resume figure{
+    float: left;
+    width: 37.5%;
+    margin-right: 18rem;
+}
+.resume{
+    font-size: 14px;
+}
+.resume a{
+    color: black;
+}
+.resume p{
+ margin-bottom: 21rem;
+}
+.resume a:active, .resume a:hover, .resume a:focus{
+    text-decoration: underline;
+}
+.resume h6{
+    font-weight: 400;
+    margin: 9rem 0px 10rem 0px;
+    font-size: 16px;
+    letter-spacing: 0.015em;
+}
+.resume p + div em{
+    font-size: 15px;
+    margin-bottom: 4rem;
+}
+.resume p ~ div{
+    padding-left: 3rem;
+    letter-spacing: -0.02em;
+}
+.resume p ~ .links-follow{
+    letter-spacing: 0.02em;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 47px;
+    letter-spacing: 0.015em;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.2);
+    padding: 25px 0px 45px 0px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    input[name=input]{padding: 0px 10px 0px 26px;}
+    .portfolio > .lwrap > figure > figcaption > p, .portfolio > .lwrap > figure > figcaption {padding: 2px;font-size: 12px;line-height: 12px}
+}

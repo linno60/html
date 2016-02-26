@@ -43,9 +43,9 @@
                     <a href="#">Blog</a>
                 </div>
             </div>
-            <div data-flex="stripe">
-                <div class="content" data-flex>
-                    <div class="info" data-flex="col">
+            <div data-flex="stripe" data-flex-640="vstripe">
+                <div class="content" data-flex data-flex-480="vstripe">
+                    <div class="info" data-flex="col" data-flex-480="-end">
                         <time class="lbl lbl-date">oct<span>15</span></time>
                         <div class="lbl lbl-default">3<span>comments</span></div>
                         <a href="#" class="btn btn-default">share</a>
@@ -55,7 +55,7 @@
                             <figure><img src="/images/img1.png" width="619" height="245" alt=""></figure>
                             <h2>this is the title of the post in this spot</h2>
                             <div class="hdr">
-                                <span>posted by <a href="#">admin </a>in <a href="#">photoshop</a>, <a href="#">news </a>on oct 15, 2015</span>
+                                <span>posted by <a href="#">admin</a> in <a href="#">photoshop</a>, <a href="#">news</a> on oct 15, 2015</span>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non augue eu tortor porttitor tempor nec sed dolor. Sed dui nulla, commodo eu pretium in, scelerisque quis dolor. In tempus justo id nulla dapibus interdum. Aenean a ante velit, nec rutrum arcu. Nullam mi nulla, consectetur ut gravida eget, ullamcorper nec magna. Proin sed mattis massa. Pellentesque neque mi, gravida id ornare vel, hendrerit et urna.</p>
                             <p>Quisque iaculis, erat id volutpat rhoncus, justo erat congue risus, dapibus vestibulum odio leo quis nibh. Maecenas imperdiet accumsan posuere. Donec tellus leo, varius ac porta ac, bibendum ac mi. Integer iaculis orci interdum neque porta ac molestie ipsum aliquet. Vestibulum malesuada sem sed ipsum ali&shy;quet pharetra vulputate eget nunc. Cras enim ipsum, viverra non posuere eu, commodo et odio. Morbi sagittis tincidunt justo, a interdum tortor sagittis dictum. Suspendisse pharetra, quam quis semper auctor, elit sem pharetra nulla, id fringilla quam turpis ut quam. Praesent id massa felis. Cras dignissim mollis dui, vitae consequat orci posuere nec.</p>
@@ -96,7 +96,7 @@
                         </div>                        
                     </div>
                 </div>
-                <aside class="sidebar">
+                <aside class="sidebar" data-flex-640="stripe w">
                     <div>
                         <h2>categories</h2>
                         <ul class="links-default">
@@ -127,7 +127,7 @@
                             <li><a href="#">june 2015</a></li>
                             <li><a href="#">may 2015</a></li>
                             <li><a href="#">april 2015</a></li>
-                        </ul>                        
+                        </ul>   
                     </div>
                     <form action="#" method="post">
                         <input type="search" name="input" placeholder="search">
@@ -136,7 +136,7 @@
             </div>
         </div>
         <footer>
-            <div class="lwrap" data-flex="stripe w">
+            <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                 <section>
                     <h5>our company</h5>
                     <p>Lorem ipsum dolor sit amet, con&shy;sectetur adipiscing elit. Etiam non augue eu tortor porttitor tempor nec sed dolor. Sed dui nulla, commodo eu pretium in, scelerisque quis dolor. In tempus justo id nulla dapibus inter&shy;dum. Aenean a ante velit, nec rutrum arcu.</p>
@@ -155,16 +155,16 @@
                 </section>
                 <section>
                     <h5>flickr feed</h5>
-                    <div class="flickr" data-flex="stripe w">
-                        <a href="#"><img src="/images/img5.png"></a>
-                        <a href="#"><img src="/images/img5.png"></a>
-                        <a href="#"><img src="/images/img5.png"></a>
-                        <a href="#"><img src="/images/img5.png"></a>
-                        <a href="#"><img src="/images/img5.png"></a>
-                        <a href="#"><img src="/images/img5.png"></a>
+                    <div class="flickr" data-flex="stripe w" data-flex-800="around w" data-flex-480="w">
+                        <a href="#"><img src="/images/img4.png"></a>
+                        <a href="#"><img src="/images/img4.png"></a>
+                        <a href="#"><img src="/images/img4.png"></a>
+                        <a href="#"><img src="/images/img4.png"></a>
+                        <a href="#"><img src="/images/img4.png"></a>
+                        <a href="#"><img src="/images/img4.png"></a>
                     </div>
                 </section>
-                <section class="copyright" data-flex="axis">
+                <section class="copyright" data-flex="axis w">
                     <span>Copyright &copy; 2015 Company Name. All right reserved.</span>
                     <div data-flex="-center w">
                         <span>Follow us:</span> 

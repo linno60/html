@@ -1,5 +1,5 @@
 /*COMMON*/
-figure img, #logo img{
+figure img, a > img{
     width: 100%;
     height: 100%;
     display: block;
@@ -74,7 +74,7 @@ header{
     text-decoration: underline;
 }
 .info{
-    margin-right: 20rem;
+    margin: 0px 20rem 10px 0px;
 }
 .info .btn-default{
     margin-top: 14rem;
@@ -87,27 +87,27 @@ header{
     border-bottom: 1px solid rgba(0,0,0,.3);
 }
 .post{    
-    padding-bottom: 6px;
-    margin-bottom: 29px;
+    padding-bottom: 6rem;
+    margin-bottom: 29rem;
 }
 .post h2{
-    margin-bottom: 16px;
+    margin-bottom: 16rem;
 }
 .post figure{
-    margin-bottom: 24px;
+    margin-bottom: 24rem;
 }
 .about{
-    padding-bottom: 36px;
-    margin-bottom: 30px;
+    padding-bottom: 36rem;
+    margin-bottom: 30rem;
 }
 .about h2{
-    margin-bottom: 12px;
+    margin-bottom: 12rem;
 }
 .comments h2{
-    margin-bottom: 31px;
+    margin-bottom: 31rem;
 }
 .comments figure{
-    margin: 0px 22px 0px 1px;
+    margin: 0px 22rem 0px 1rem;
     flex-shrink: 0;
 }
 .comments article time{
@@ -120,16 +120,16 @@ header{
     text-decoration: underline;
 }
 .comments p{
-    padding: 4px 0px 29px 0px;
+    padding: 4rem 0px 29rem 0px;
 }
 .comments article:last-child p{
-    padding: 4px 0px 24px 0px;
+    padding: 4rem 0px 24rem 0px;
 }
 .form h2{
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 .form{
-    margin-bottom: 36px;
+    margin-bottom: 36rem;
 }
 
 /*SIDEBAR*/
@@ -139,13 +139,13 @@ header{
     margin-left: 21rem;
 }
 .sidebar h2{
-    margin-bottom: 3px;
+    margin-bottom: 3rem;
 }
 .sidebar > *{
-    margin-bottom: 31px;
+    margin-bottom: 31rem;
 }
 .posts .links-default li{
-    padding: 8px 0px 5px 10px;
+    padding: 8rem 0px 5rem 10rem;
 }
 .posts .links-default p{
     padding: 0px;
@@ -156,8 +156,7 @@ header{
     letter-spacing: 0.028em;
 }
 .sidebar form{
-    padding: 4px 1px 0px 0px;
-    margin-bottom: 10px;
+    padding: 4rem 1rem 0px 0px;
 }
 
 /*FOOTER*/
@@ -166,7 +165,7 @@ footer{
     background: #3e3e3e;
 }
 footer .lwrap{
-    padding: 31px 10px 0px 10px;
+    padding: 31rem 10px 0px 10px;
 }
 footer a, footer time{
     color: #e8e8e8;
@@ -178,24 +177,33 @@ footer section h5{
     color: #dbdbdb;
     font-size: 21px;
     font-weight: 400;
-    margin-bottom: 17px;
+    margin-bottom: 17rem;
     text-transform: uppercase;
 }
 footer section{
     width: 23.4%;
-    margin-bottom: 13px;
+    margin-bottom: 13rem;
 }
 .flickr{
-    margin: 0px -1px;
+    margin: 0px -3px;
 }
 .flickr a{
-    width: 27%;
-    margin: -4px 1px 29px 1px;
+    min-width: 50px;
+    max-width: 80px;
+    width: 26.2%;
+    margin: -4rem 3px 29rem 3px;
 }
 .copyright{
-font-family: Anaheim;
+    font-family: Anaheim;
     width: 100%;
-    padding: 23px 31px 21px 21px;
+    padding: 23rem 31rem 21rem 21rem;
     background: #252525;
     margin: 0px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    footer section, .sidebar > *{width:48%;}
+    .sidebar > *{order:1;}
+    .sidebar > .posts, .sidebar > form{width: 100%;order:0;}
 }
