@@ -2,3 +2,176 @@ body{
     font-family: Arial;
     font-size: 12px;
 }
+
+/*LINKS*/
+.links-language a{
+    color: #dbdbdb;
+    font-size: 10px;
+    height: 20px;
+    padding: 0px 5px;
+    margin: 5px;
+}
+.links-language a.active, .links-language a:active, .links-language a:hover, .links-language a:focus{
+    background: rgba(0,0,0,.5);
+    border-radius: 2px;
+}
+.links-language a i{
+    margin-right: 5px;
+}
+.links-nav a{
+    font-family: Roadway;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: darkgrey;
+    margin: 0px 10px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+}
+.links-social a{
+    margin: 5px;
+}
+.links-subscribe a{
+    margin: 3px;
+}
+.links-slider{
+    max-width: 480px;
+}
+.links-slider a{
+    flex-grow: 1;
+    position: relative;
+    padding: 4px 2px 2px 18px;
+    background: linear-gradient(rgba(35,35,35,.8), rgba(0,0,1,.8));
+}
+.links-slider a.active:before, .links-slider a:active:before, .links-slider a:hover:before, .links-slider a:focus:before{
+    content: "";
+    left: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: 9px solid #ededed;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+}
+.links-slider a.active, .links-slider a:active, .links-slider a:hover, .links-slider a:focus{ 
+    background: linear-gradient(white, #d8d8d8);
+}
+.links-slider a.active span, .links-slider a:active span, .links-slider a:hover span, .links-slider a:focus span{
+    color: #1b1b1b;
+}
+.links-slider a.active small, .links-slider a:active small, .links-slider a:hover small, .links-slider a:focus small{
+    color: #423e3e;
+}
+.links-slider a span{
+    color: #f6f6f6;
+    font-family: Roadway;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.045em;
+}
+.links-slider a small{
+    color: #b1b1b1;
+    line-height: 18px;
+    letter-spacing: -0.007em;
+}
+.links-popular{
+    max-width: 480px;
+}
+.links-popular a{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #649671;
+}
+.links-popular li{
+    padding: 3px 0px 4px 0px;
+    border-bottom: 1px solid rgba(100,150,113,.2);
+}
+.links-popular a:active, .links-popular a:hover, .links-popular a:focus, .links-follow a:active, .links-follow a:hover, .links-follow a:focus{
+    text-decoration: underline;
+}
+.links-popular span{
+    width: 20px;    
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #b1b6b2;
+    font-size: 10px;
+}
+.links-footer a{
+    font-family: Roadway;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: darkgrey; 
+    margin: 0px 5px;
+}
+.links-footer a.active, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    color: #f0f0f0; 
+}
+.links-follow a{
+    color: grey;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.links-follow a i{
+    margin-right: 5px;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 159px;
+    height: 24px;
+    padding: 0px 5px;
+    background-image: linear-gradient(#9ec5a8, #7ba686);
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.22);
+    color: #447751;
+    font-family: Roadway;
+    font-size: 14px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.btn-default i{
+    margin-left: 5px;
+}
+
+/*FORMS*/
+.form-search, .form-subscribe{
+    max-width: 300px;
+}
+.form-search{   
+    height: 27px;
+    background: white;
+    padding: 0px 5px;
+    box-shadow: inset 0.5px 0.9px 1px rgba(0, 0, 1, 0.28);
+}
+.form-search input[type=search], .form-subscribe input[type=email]{
+    flex-grow: 1;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    color: black;
+    background: none;
+}
+.form-search input[type=search]::-webkit-input-placeholder {color: #b2b2b2;}
+.form-search input[type=search]::-moz-placeholder {color: #b2b2b2;}
+.form-search input[type=search]:-ms-input-placeholder {color: #b2b2b2;}
+.form-subscribe{
+    padding: 0px 10px;
+    height: 32px;
+    background: whitesmoke;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 1, 0.28);
+    border-radius: 2px;
+}
+.form-subscribe input[type=email]{
+    border-right: 1px solid rgba(0,0,0,.15);
+}
+.form-subscribe button{
+    background: url(/images/icons/mail.png);
+    width: 16px;
+    height: 11px;
+}
+.form-subscribe input[type=email]::-webkit-input-placeholder {color: #8b8b8b;}
+.form-subscribe input[type=email]::-moz-placeholder {color: #8b8b8b;}
+.form-subscribe input[type=email]:-ms-input-placeholder {color: #8b8b8b;}
+
+/*OTHER*/
+.title{
+    background-image: linear-gradient(to top, #a1c7ac 0%, #b1d6bc 100%);
+}

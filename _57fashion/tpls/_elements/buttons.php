@@ -1,0 +1,1 @@
+<a href='#' class='btn btn-default'>more offers<i class='icon-arrow'></i></a>
