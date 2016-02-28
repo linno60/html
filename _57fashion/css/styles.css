@@ -1,0 +1,250 @@
+/*COMMON*/
+figure img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1010px;
+    padding: 0px 5px;
+}
+body{
+    background: url("/images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+figure figcaption{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.hdr{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #767676;
+    font-family: InterstateMono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+a{
+    color: #649671;
+}
+p{
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    line-height: 18px;
+    color: #767676;
+    letter-spacing: -0.01em;
+    margin-bottom: 12rem;
+}
+
+/*HEADER*/
+.top-bar{
+    padding: 26rem 0px 25rem 0px;
+}
+.header{
+    padding: 8rem 17rem 6rem 15rem;
+    background: linear-gradient(#232323, #000001);
+}
+header form label{
+    color: #f6f6f6;
+    font-family: Roadway;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    margin: 0px 0px 5rem 7rem;
+}
+#logo{
+    margin-right: 5rem;
+}
+
+/*SLIDER*/
+.slider, .slider figure{
+    position: relative;
+}
+.slider .links-slider{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+}
+.slider figcaption{
+    left: 4.5%;
+    bottom: 11%;
+    background: none;
+}
+.slider figcaption h1, .slider figcaption h3{
+    background: rgba(0,0,0,.8);
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+.slider figcaption h1{
+    padding: 0px 5rem 6rem 9rem;
+    font-family: Roadway;
+    font-size: 80rem;
+    line-height: 80rem;
+    letter-spacing: 0.055em;
+}
+.slider figcaption h3{
+    padding: 0px 11rem 9rem 9rem;
+    color: #868585;
+    font-family: Roadway;
+    font-size: 28rem;
+    letter-spacing: 0.025em;
+    line-height: 24rem;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 21.5%;
+    flex-shrink: 0;
+    padding: 11rem 0px 9rem 0px;
+}
+.sidebar.latest article h6{
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin: 20rem 0px 7rem 0px;
+    letter-spacing: -0.01em;
+}
+.sidebar.latest article a{
+    color: #649671;
+}
+.sidebar.latest{
+    background: #e7f5eb;
+    border-radius: 2px;
+    padding: 12rem 21rem 21rem 20rem;
+    width: 21.1%;
+}
+.sidebar.latest em{
+    color: #969696;
+    font-size: 11px;
+    padding-bottom: 4rem;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.01em;
+}
+.sidebar.latest article{
+    margin-bottom: 37rem;
+    padding-bottom: 7rem;
+    border-bottom: 2px solid #7ba686;
+}
+.sidebar.latest p{
+    margin-bottom: 11rem;
+    padding-bottom: 11rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+}
+.form-vote{
+    margin: 23rem 1rem 48rem 1rem;
+    background: #e7f5eb;
+    padding: 13rem 10rem 23rem 15rem;
+    border-radius: 2px;
+}
+.form-vote legend{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #4c4c4c;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.01445em;
+    margin: -1rem 8rem 7rem 2rem;
+}
+.form-vote .btn-default{
+    max-width: 164px;
+}
+
+/*CONTENT*/
+.content-wrap{
+    background: white;
+    padding: 19rem 36rem 69rem 17rem;
+}
+.content{
+    padding: 12rem 34rem 0px 38rem;
+}
+.content-wrap a:active, .content-wrap a:hover, .content-wrap a:focus{
+    text-decoration: underline;
+}
+.content figure{
+    position: relative;
+    margin-bottom: 13px;
+}
+.content > div > figure{width: 48.7%;}
+.content figure figcaption{
+    width: 100%;
+    border-radius: 0px 0px 2px 2px;
+}
+.content figure .lbl-discount{
+    position: absolute;
+    right: 7.7%;
+    bottom: 26.8%;
+}
+
+/*FOOTER*/
+footer{
+    background: #202020;
+    margin-bottom: 73rem;
+    padding: 43rem 20rem 32rem 20rem;
+}
+footer p{
+    color: grey;
+    text-shadow: none;
+}
+footer > div:first-child{
+    width: 20%;
+    margin-right: 40rem;
+    flex-shrink: 0;
+    min-width: 100px;
+}
+footer > div:last-child{
+    flex-grow: 1;
+    max-width: 657px;
+}
+footer > div:first-child #logo-alt + em{
+    text-align: right;
+    color: grey;
+    font-size: 11px;
+    line-height: 18px;
+    max-width: 150px;
+    letter-spacing: 0.005em;
+}
+.footer-items > div{
+    margin-bottom: 10px;
+    width: 47%;
+}
+.footer-item{
+    flex: 1;
+    padding: 6rem 15rem 11rem 13rem;
+    background: black;
+    width: 100%;
+    min-height: 30px;
+}
+.footer-item p{
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    max-width: 330px;
+    margin: 3rem 0px 0px 0px;
+}
+.footer-item span{
+    color: grey;
+    font-size: 11px;
+    padding: 0px 13rem 0px 3rem;
+}
+#logo-alt{
+    margin: 3rem 0px 15rem 0px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .slider .links-slider{position: static;width: 100%;}
+    .links-slider a{width: calc(100% / 3);flex-basis: auto;}
+    .sidebar, .sidebar.latest{width: 25%;}
+    .content-wrap, .content{padding: 5px;}
+}
+@media (max-width: 640px) {
+    .links-slider a{width: 50%;}
+    .sidebar, .sidebar.latest{width: 49%;order:1;}
+    .slider figcaption h3{font-size: 12px;}
+}

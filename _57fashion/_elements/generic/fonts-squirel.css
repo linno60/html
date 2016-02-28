@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'InterstateMono';
+    src: url('/fonts/fontsquirel.com/interstate_mono.woff2') format('woff2'), url('/fonts/fontsquirel.com/interstate_mono.woff') format('woff');
+}
