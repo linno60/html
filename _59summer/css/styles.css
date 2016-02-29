@@ -1,0 +1,156 @@
+/*COMMON*/
+figure > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 610px;
+    padding: 40rem 5px 39rem 5px;
+}
+body{
+    background: #f0f2ea;
+}
+p{
+    color: #333;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+}
+address{
+    font-style: normal;
+}
+hr{
+    width: 100rem;
+    background: white;
+    margin: 15rem auto 22rem auto;
+}
+
+/*HEADER*/
+header > div{
+    width: 79%;
+    margin-bottom: 32rem;
+}
+header > div:before, header > div:after{
+    content: "";
+    height: 2px;
+    background: #d8dad3;
+    flex-grow: 1;
+    margin: 34rem;
+}
+header h2{
+    color: #636758;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 42rem;
+    letter-spacing: 0.09em;
+    text-align: center;
+}
+
+/*CONTENT*/
+.wrap{
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35rem;
+}
+.content{
+    padding: 45rem 30rem 31rem 30rem;
+}
+.banner{
+    position: relative;
+}
+.banner h1{
+    color: white;
+    font-family: BrandonPrinted;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+}
+.banner h3{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.banner figcaption{
+    width: 100%;
+    padding-bottom: 29rem;
+}
+.banner figcaption, .content article figure .more{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;    
+}
+.content > h2{
+    color: #484a43;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34rem;
+    letter-spacing: 0.06em;
+}
+.content article{
+    margin-bottom: 35rem;
+}
+.content > div article{
+    width: 47.23%;
+}
+.content article h4{
+    color: #6d7e44;
+    margin: 14rem 0px 5rem 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+}
+.content article figure{
+    position: relative;
+}
+
+/*FOOTER*/
+footer{
+    padding-top: 37rem;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+footer address, footer span{
+    font-size: 11px;
+    color: #333;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+}
+footer h5{
+    color: #333;
+    margin-bottom: 7rem;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+}
+footer a{
+    color: #6d7e44;
+    font-weight: 700;
+}
+footer span a{
+    letter-spacing: -0.02em;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+.message, .message a{
+    text-align: center;
+    color: #333;
+    font-size: 11px;
+    letter-spacing: 0.001em;
+}
+.message a{
+    text-decoration: underline;
+}
+.message a:active, .message a:hover, .message a:focus{
+    text-decoration: none;
+}
+footer .links-social ~ a{
+    margin: 0px 0px 6rem 8rem;
+}

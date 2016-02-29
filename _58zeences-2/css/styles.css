@@ -1,0 +1,179 @@
+/*COMMON*/
+figure img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 960px;
+}
+body{
+    background: url("/images/bg.png");
+}
+.title{
+    color: #77a8c6;
+    font-family: Arvo;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+p{
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: #a4a4a4;
+    font-family: Verdana;
+    letter-spacing: 0.01em;
+}
+
+/*HEADER*/
+header.lwrap{
+    max-width: 980px;
+    padding: 22rem 10rem 0px 10rem;
+}
+
+/*CONTENT*/
+.wrap, .copyright{
+    background: rgba(0,0,0,.33);
+}
+.wrap{
+    padding: 19rem 30rem 13px 30rem;
+    margin-bottom: 20rem;
+}
+.wrap > div{
+    border-bottom: 3px solid #454545;
+    margin-bottom: 4rem;    
+}
+.links a{
+    color: #a4a4a4;
+    font-style: italic;
+    letter-spacing: 0.02em;
+}
+.links span{
+    color: #a4a4a4;
+    padding-right: 32rem;
+}
+.links span i{
+    margin-right: 8rem;
+    flex-shrink: 0;
+}
+.links a:active, .links a:hover, .links a:focus{
+    text-decoration: underline;
+}
+.blog{
+    padding-bottom: 32rem;
+}
+.blog article{
+    border-bottom: 1px solid #454545;
+    padding-bottom: 40rem;
+    margin-bottom: 15rem;
+}
+.blog article:first-child{
+    padding-bottom: 38rem;
+    margin-bottom: 30rem;
+}
+.blog figure{
+    margin-bottom: 16rem;
+}
+.hdr{
+    margin-bottom: 23rem;
+}
+.hdr h2{
+    color: #77a8c6;
+    font-family: Arvo;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 6rem 0px 1rem 0px;
+}
+.hdr time{
+    color: #a4a4a4;
+    font-style: italic;
+    text-transform: uppercase;
+    border-right: 1px solid #454545;
+    padding-right: 17px;
+    margin: -4rem 18rem 0px -4rem;
+}
+.hdr time span{
+    font-size: 50px;
+    margin-right: 10rem;
+    line-height: 20px;
+}
+.hdr time small{
+    font-size: 17px;
+    line-height: 21px;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 29.4%;
+    flex-shrink: 0;
+    margin: 8rem 0px 0px 40rem;
+}
+.sidebar > div{
+    padding-bottom: 23rem;
+}
+.links-default.twitter li{
+    padding: 1rem 0px 12rem 12px;
+    background: url(/images/icons/arrow.png)no-repeat 1px 6px, url("/images/border.png")repeat-x left bottom;
+}
+.links-default.twitter li:last-child{
+    background: url(/images/icons/arrow.png)no-repeat left 6px;
+}
+.links-default.twitter li{
+    margin-bottom: 12rem;
+}
+.sidebar > div > p{
+    margin-bottom: 18rem;
+}
+.sidebar form{
+    padding: 4rem 0px 8rem 0px;
+}
+
+/*FOOOTER*/
+.copyright{
+    margin-bottom: 41rem;
+    color: #a4a4a4;
+    font-family: Verdana;
+    padding: 20rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+footer{
+    border-top: 1px solid #454545;
+    padding-top: 36rem;
+}
+footer > div{
+    width: 21.7%;
+    margin-bottom: 20px;
+}
+.flickr{
+    padding-top: 13rem;
+}
+.flickr a{
+    margin-bottom: 14px;
+    width: 28%;
+}
+footer .title{
+    font-size: 18px;
+    margin-bottom: 10rem;
+}
+footer .links-default{
+    padding-top: 9rem;
+}
+footer form{
+    padding: 14rem 0px 0px 1rem;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .flickr a {width: 47%;}
+}
+@media (max-width: 640px) {
+    .sidebar{width: 32%;}
+    footer > div{width: 49%}
+    .flickr a {width: 28%;}    
+}
+@media (max-width: 480px) {
+    .sidebar > div:first-child, .sidebar > div:last-child{width: 49%;order:0;}
+    .sidebar > div{width: 100%;order: 1;}
+}

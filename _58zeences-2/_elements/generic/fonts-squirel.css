@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CharisSIL';
+    src: url('/fonts/fontsquirel.com/charissili.woff2') format('woff2'), url('/fonts/fontsquirel.com/charissili.woff') format('woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CharisSIL';
+    src: url('/fonts/fontsquirel.com/charissilr.woff2') format('woff2'), url('/fonts/fontsquirel.com/charissilr.woff') format('woff');
+}

@@ -50,8 +50,8 @@
                             <img src="/images/img4.png">
                             <figcaption><a href="#">more</a></figcaption>
                         </figure> 
-                        <h4>Lifeâ€˜s like Vertigo comic books</h4>
-                            <p>Fusce amet ligula ornare tempus vulputate ipsum semper. Praesent non lorem odio. Fusce sed dui massa, eu viverra erat.</p>
+                        <h4>Lifeâ€?s like Vertigo comic books</h4>
+                        <p>Fusce amet ligula ornare tempus vulputate ipsum semper. Praesent non lorem odio. Fusce sed dui massa, eu viverra erat.</p>
                     </article>
                     <div class='footer' data-flex="row--between">
                         <div>
