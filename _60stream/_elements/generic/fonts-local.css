@@ -1,0 +1,5 @@
+@font-face {
+	font-family: 'Gotham';
+	src: local('в�є'), url('/fonts/gotham-bold.woff') format('woff');
+	font-weight: 700;
+}

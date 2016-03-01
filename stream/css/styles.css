@@ -256,7 +256,7 @@ a.btn-default, .btn-default{
     padding: 0px 28px 0px 28px;
 }
 .movies .btn-default{
-        margin: 0px 0px 21px 0px;
+    margin: 0px 0px 21px 0px;
 }
 a.btn-default em, .btn-default em{
     color: #d0d0d0;  
@@ -377,7 +377,7 @@ footer{
 .add{
     width: 130px;
     height: 76px;
-     background: url('../images/add.png');
+    background: url('../images/add.png');
 }
 .add:hover{
     background: url('../images/add-hover.png');
@@ -392,10 +392,10 @@ footer{
     margin: 10px 0px 10px 47px;
 }
 .range{
-   width: 50%;
-   height: 5px;
-   background-color: #ada4c4;
-   position: relative;
+    width: 50%;
+    height: 5px;
+    background-color: #ada4c4;
+    position: relative;
 }
 .range-handle{
     position: absolute;
@@ -424,42 +424,42 @@ footer span{
     padding: 0px 32px 3px 10px;
 }
 @media (max-width: 1300px) {
-.slider h1 {
-    font: 20px "Gotham Book";
-    margin: 0px 0px 5px;
-}
-.slider > div {
-    bottom: 10px;
-    left: 10px;
-}
-.controls {
-    margin: 10px 0px 0px 8px;
-}
-.logo {
-    margin: 13px 10px 0px 0px;
-}
-.movies{
-    justify-content: flex-start;
-}
+    .slider h1 {
+        font: 20px "Gotham Book";
+        margin: 0px 0px 5px;
+    }
+    .slider > div {
+        bottom: 10px;
+        left: 10px;
+    }
+    .controls {
+        margin: 10px 0px 0px 8px;
+    }
+    .logo {
+        margin: 13px 10px 0px 0px;
+    }
+    .movies{
+        justify-content: flex-start;
+    }
 }
 @media (max-width: 900px) {
     .slider > div {
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.slider h1 {
-    margin: 0px 10px 0px 0px;
-}
-.controls {
-    margin: 0px 0px 0px 10px;
-}
-.movies, .content > div:last-child .movies, .profile {
-    padding: 10px;
-}
-.movies > div:last-child {
-    margin: 5px 5px 5px 15px;
-}
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .slider h1 {
+        margin: 0px 10px 0px 0px;
+    }
+    .controls {
+        margin: 0px 0px 0px 10px;
+    }
+    .movies, .content > div:last-child .movies, .profile {
+        padding: 10px;
+    }
+    .movies > div:last-child {
+        margin: 5px 5px 5px 15px;
+    }
 }
 @media (max-width: 850px) {
     .profile{
@@ -472,30 +472,30 @@ footer span{
         flex-direction: column;
     }
     .range-wrap {
-    margin: 10px 0px 10px 0px;
-}
+        margin: 10px 0px 10px 0px;
+    }
 }
 @media (max-width: 500px) {
     .slider h1 {
-    font: 12px "Gotham Book";
-}
-.slider a.btn-default, .slider .btn-default {
-    border: 1px solid #FFF;
-   font: 10px "Gotham Bold";
-    padding: 2px 5px;
-    min-height: 20px;
-    min-width: 50px;
-}
-.header h1 a {
-    font: 26px "Gotham Bold";
-}
-.profile img {
-    margin: 5px 5px 6px 5px;
-}
-.movies > div:last-child {
-    min-width: 150px;
-}
-.profile{
+        font: 12px "Gotham Book";
+    }
+    .slider a.btn-default, .slider .btn-default {
+        border: 1px solid #FFF;
+        font: 10px "Gotham Bold";
+        padding: 2px 5px;
+        min-height: 20px;
+        min-width: 50px;
+    }
+    .header h1 a {
+        font: 26px "Gotham Bold";
+    }
+    .profile img {
+        margin: 5px 5px 6px 5px;
+    }
+    .movies > div:last-child {
+        min-width: 150px;
+    }
+    .profile{
         width: 40%;
         padding: 10px 5px;
     }

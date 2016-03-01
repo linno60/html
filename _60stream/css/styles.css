@@ -1,0 +1,182 @@
+/*COMMON*/
+figure img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    background: radial-gradient(rgba(255,255,255,.5), transparent), linear-gradient(#8bb3bd, #565672);
+    background-attachment: fixed;
+}
+.lwrap{
+    max-width: 1440px;
+}
+.wrap{
+    background: white;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 60rem;
+}
+hr{
+    background: #ebebeb;
+    width: 100rem;
+    margin: 10rem auto 20rem auto;
+}
+
+/*HEADER*/
+.top-bar{
+    padding: 10rem 20rem 9rem 22rem;
+    background: #f2f2f2;
+    border-radius: 15px 15px 0px 0px;
+}
+header > a{
+    color: rgba(255,255,255,.76);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 2px;
+    letter-spacing: 0.02em;
+}
+header.lwrap{
+    padding: 30rem 10px 28rem 10px;
+    max-width: 1460px;
+}
+.nav{
+    padding: 0px 10px 0px 19rem;
+}
+.slider{
+    position: relative;
+}
+.slider > div{
+    position: absolute;
+    left: 2.95%;
+    top: 22.5%;
+}
+.slider h1{
+    text-shadow: -0.4px 0.9px 2px rgba(0, 0, 0, 0.75);
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 21rem;
+    letter-spacing: -0.02em;
+}
+.slider .btn-default{
+    margin-bottom: 19rem;
+}
+
+/*CONTENT*/
+.profile{
+    width: 15.65%;
+    flex-shrink: 0;
+    border-right: 3px solid whitesmoke;
+    padding: 50rem 5px 5px 5px;
+}
+.profile a:active, .profile a:hover, .profile a:focus{
+    text-decoration: underline;
+}
+.profile figure{
+    margin: 0px 38rem 0px 12rem;
+}
+.name{
+    color: #707070;
+    font-family: ProximaNova;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    margin: 9px 0px 9px 0px;
+}
+.profile time{
+    color: #cccbcb;
+    font-family: ProximaNova;
+    font-weight: 600;
+    text-transform:  uppercase;
+    letter-spacing: -0.05em;
+}
+.movies{
+    flex-grow: 1;
+    padding: 50rem 14px 0px 52rem;
+    border-bottom: 3px solid whitesmoke;
+}
+div:last-child >  .movies{
+    border-bottom: none
+}
+.movies > div{
+    margin-bottom: 29px;
+    width: 16.5%;
+}
+.movies > div:last-child{
+    width: 17%;
+}
+.movies h5{
+    font-weight: 500;
+    margin: 16rem 0px 10rem 0px;
+}
+.movies h5 a{
+    color: #797979;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+}
+.movies h5 a:active, .movies h5 a:hover, .movies h5 a:focus{
+    text-decoration: underline;
+}
+.movies h5 + time{
+    color: #aaa;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+}
+.movies .btn-default{
+    margin-bottom: 20rem;
+}
+.movies .btn-add{
+    margin-top: 6rem;
+}
+
+/*FOOTER*/
+footer{
+    padding: 14rem 7rem 15rem 14rem;
+    background: #efefef;
+}
+footer span{
+    color: #9e9e9e;
+    font-weight: 700;
+    padding-right: 34rem;
+}
+.range{
+    width: 100%;
+    max-width: 844px;
+    background: #d0ccdb;
+    margin: 10px;
+    position: relative;
+}
+.range:before{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 5px;
+    background: #ada4c4;   
+}
+.range-handle{
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #a399bc;
+}
+footer > div:first-child{
+    padding-right: 38rem;
+}
+footer > div:first-child a{
+    margin: 5px 17rem;
+}
+footer > div:last-child a{
+    margin: 5px 21rem;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    header > a{
+        font-size: 26px;
+    }
+}
