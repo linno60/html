@@ -32,19 +32,19 @@
                     <a href="#"></a>
                 </div>
             </div>
-            <div class="nav" data-flex="axis">
+            <div class="nav" data-flex="axis" data-flex-640="vstripe">
                 <div data-flex="axis">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="117" height="26" alt="Stream">
                     </a>
-                    <nav class="links-nav" data-flex="w">
+                    <nav class="links-nav" data-flex="center w">
                         <a href="#" class="active">stream</a>
                         <a href="#">activity<i class="icon-notification"></i></a>
                         <a href="#">collections</a>
                         <a href="#">soundbox</a>
                     </nav>
                 </div>
-                <div data-flex="axis">
+                <div data-flex="axis" data-flex-640="-center center">
                     <form action="#" method="post" data-flex="axis" class="form-search">
                         <input type="image" src="/images/icons/search.png">
                         <input type="search" name="search">
@@ -53,17 +53,14 @@
                     <a href="#" class="btn btn-plus"></a>
                 </div>
             </div>
-            <div class="slider">
-                <div>
-                    <h1>Superman: Man of Steel</h1>
-                    <a href="#" class="btn btn-default alt">explore</a>
-                    <div class="links-controls" data-flex="">
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#" class="active"></a>
-                    </div>
-                </div>
-                <figure><img src="/images/superman.png"></figure>                    
+            <div class="slider" data-flex="col -start center">
+                <h1>Superman: Man of Steel</h1>
+                <a href="#" class="btn btn-default alt">explore</a>
+                <div class="links-controls" data-flex="">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#" class="active"></a>
+                </div>                
             </div>
             <div>
                 <div data-flex="stripe">

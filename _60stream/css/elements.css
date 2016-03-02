@@ -54,7 +54,7 @@ body{
     border-radius: 50%;
     width: 37px;
     height: 37px;
-    margin: 2rem 0px 2rem 18rem;
+    margin: 2px 0px 2px 18rem;
 }
 .btn-avatar{
     position: relative;  
@@ -115,7 +115,7 @@ body{
     color: #8b759d;
 }
 .btn-add{
-    width: 130rem;
+    width: 130px;
     height: 76px;
     background: url('/images/add.png'), url(/images/icons/soundtrack.png)no-repeat center center;
 }
@@ -171,7 +171,7 @@ input[type=checkbox]:checked + label{
 .seek{
     color: #cccbcb;
     font-weight: 300;
-    margin-left: 17px;
+    margin-left: 17rem;
     letter-spacing: -0.04em;
 }
 .seek:before{

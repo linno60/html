@@ -445,7 +445,7 @@ footer span, footer a, footer time, footer p{
     font: 12px/18px "Antic";
 }
 footer address span{
-     font: 12px/18px "Antic";
+    font: 12px/18px "Antic";
 }
 footer figure img{
     min-width: 79px;
@@ -516,20 +516,20 @@ footer p{
         flex-direction: column;
     }
     .banner > div, .banner > .slider {
-    width: 100%;
-    margin: 10px 0px;
-}
+        width: 100%;
+        margin: 10px 0px;
+    }
 }
 @media (max-width: 500px) {
     .content, .testimonials {
         flex-direction: column;
     }
     .sidebar, .blog-post, .testimonials > div, .testimonials blockquote {
-    width: 100%;
-    padding: 0px;
-}
-.testimonials blockquote{
-    padding: 10px;
-    margin: 0px;
-}
+        width: 100%;
+        padding: 0px;
+    }
+    .testimonials blockquote{
+        padding: 10px;
+        margin: 0px;
+    }
 }
