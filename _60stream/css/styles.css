@@ -88,20 +88,25 @@ header.lwrap{
     text-transform:  uppercase;
     letter-spacing: -0.05em;
 }
-.movies{
+.movies-wrap{
     flex-grow: 1;
-    padding: 50rem 14px 0px 52rem;
+    padding: 50rem 10px 0px 10px;
     border-bottom: 3px solid whitesmoke;
 }
-div:last-child >  .movies{
+.movies{
+    flex-grow: 1;
+    padding: 0px 45rem 0px 42rem;
+}
+div:last-child >  .movies-wrap{
     border-bottom: none
 }
 .movies > div{
     margin-bottom: 29px;
-    width: 16.5%;
+    width: 21%;
 }
-.movies > div:last-child{
+.btns{
     width: 17%;
+    min-width: 140px;
 }
 .movies h5{
     font-weight: 500;
@@ -121,10 +126,10 @@ div:last-child >  .movies{
     font-size: 16px;
     letter-spacing: -0.03em;
 }
-.movies .btn-default{
-    margin-bottom: 20rem;
+.movies-wrap .btn{
+    margin: 0px 5px 20rem 5px;
 }
-.movies .btn-add{
+.movies-wrap .btn-add{
     margin-top: 6rem;
 }
 
@@ -175,13 +180,14 @@ footer > div:last-child a{
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
     .links-nav {padding: 0px 10px;}
-    .movies {
-    padding: 10px 10px 0px 10px;
-}
-.movies > div {
-    width: 20%;
-}
+    .profile{width: 30%}
+    .movies > div {width: 48%;}
 }
 @media (max-width: 640px) {
     header > a{font-size: 26px;}
+}
+@media (max-width: 480px) {
+    .hidden{display: none;}
+    footer > div:first-child, footer > div:last-child{order:0;}
+    .range{order:1;}
 }

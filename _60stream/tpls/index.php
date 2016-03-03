@@ -73,30 +73,32 @@
                         <a href="#" class="name">Fabio Basile</a>
                         <time>8:34 am</time>
                         <hr>
-                        <a href="#" class="seek" data-flex="-center">Seeking Contributions</a>
+                        <a href="#" class="seek" data-flex="-center">Seeking Contri&shy;butions</a>
                     </div>
-                    <div data-flex="stripe" class="movies">
-                        <div>
-                            <figure><img src="/images/gameoftrones.png"></figure>
-                            <h5><a href="#">Game of Thrones</a></h5>
-                            <time>S03 E05</time>
+                    <div data-flex="stripe" class="movies-wrap" data-flex-640="vstripe">
+                        <div class="movies" data-flex="stripe w" data-flex-480="vstripe">
+                            <div>
+                                <figure><img src="/images/gameoftrones.png"></figure>
+                                <h5><a href="#">Game of Thrones</a></h5>
+                                <time>S03 E05</time>
+                            </div>
+                            <div>
+                                <figure><img src="/images/hangover.png"></figure>
+                                <h5><a href="#">The Hangover 2</a></h5>
+                                <time>2011</time>
+                            </div>
+                            <div class="hidden">
+                                <figure><img src="/images/end.png"></figure>
+                                <h5><a href="#">This is the End</a></h5>
+                                <time>2013</time>
+                            </div>
+                            <div class="hidden">
+                                <figure><img src="/images/twoguns.png"></figure>
+                                <h5><a href="#">2Guns</a></h5>
+                                <time>2013</time>
+                            </div>
                         </div>
-                        <div>
-                            <figure><img src="/images/hangover.png"></figure>
-                            <h5><a href="#">The Hangover 2</a></h5>
-                            <time>2011</time>
-                        </div>
-                        <div>
-                            <figure><img src="/images/end.png"></figure>
-                            <h5><a href="#">This is the End</a></h5>
-                            <time>2013</time>
-                        </div>
-                        <div>
-                            <figure><img src="/images/twoguns.png"></figure>
-                            <h5><a href="#">2Guns</a></h5>
-                            <time>2013</time>
-                        </div>
-                        <div data-flex="col -center">
+                        <div class="btns" data-flex="col -center" data-flex-640="-center w">
                             <a href="#" class="btn btn-default"><i class="icon-collect"></i>collect</a>
                             <a href="#" class="btn btn-default"><span>gallery</span><span>8</span></a>
                             <a href="#" class="btn btn-add"></a>
@@ -114,35 +116,37 @@
                         <time>7:15 am</time>
                         <hr>
                     </div>
-                    <div data-flex="stripe" class="movies">
-                        <div>
-                            <figure><img src="/images/wolf.png"></figure>
-                            <h5><a href="#">Wolf of Wall Street</a></h5>
-                            <time>2013</time>
+                    <div data-flex="stripe" data-flex-640="vstripe" class="movies-wrap">
+                        <div class="movies" data-flex="stripe w" data-flex-480="vstripe">
+                            <div>
+                                <figure><img src="/images/wolf.png"></figure>
+                                <h5><a href="#">Wolf of Wall Street</a></h5>
+                                <time>2013</time>
+                            </div>
+                            <div>
+                                <figure><img src="/images/br.png"></figure>
+                                <h5><a href="#">Breaking Bad</a></h5>
+                                <time>S01 E03</time>
+                            </div>
+                            <div class="hidden">
+                                <figure><img src="/images/elysium.png"></figure>
+                                <h5><a href="#">Elysium</a></h5>
+                                <time>2013</time>
+                            </div>
+                            <div class="hidden">
+                                <figure><img src="/images/icesoldiers.png"></figure>
+                                <h5><a href="#">Ice Soldiers</a></h5>
+                                <time>2013</time>
+                            </div>
                         </div>
-                        <div>
-                            <figure><img src="/images/br.png"></figure>
-                            <h5><a href="#">Breaking Bad</a></h5>
-                            <time>S01 E03</time>
-                        </div>
-                        <div>
-                            <figure><img src="/images/elysium.png"></figure>
-                            <h5><a href="#">Elysium</a></h5>
-                            <time>2013</time>
-                        </div>
-                        <div>
-                            <figure><img src="/images/icesoldiers.png"></figure>
-                            <h5><a href="#">Ice Soldiers</a></h5>
-                            <time>2013</time>
-                        </div>
-                        <div data-flex="col -center">
+                        <div class="btns" data-flex="col -center" data-flex-640="-center w">
                             <a href="#" class="btn btn-default"><i class="icon-collect"></i>collect</a>
                             <a href="#" class="btn btn-default"><span>gallery</span><span>12</span></a>
                         </div>
                     </div>                            
                 </div>
             </div> 
-            <footer data-flex="axis">
+            <footer data-flex="axis" data-flex-480="axis w">
                 <div data-flex="-center">
                     <a href="#"><i class="icon-repeat"></i></a>
                     <a href="#"><i class="icon-pause"></i></a>

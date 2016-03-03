@@ -73,7 +73,7 @@ body{
     background: #4a4162 url(/images/icons/newpost.png)no-repeat center center;
 }
 .btn-default{
-    min-width: 132rem;
+    min-width: 132px;
     height: 41px;
     border: 2px solid white;
     border-radius: 19px;
@@ -115,12 +115,19 @@ body{
     color: #8b759d;
 }
 .btn-add{
-    width: 130px;
+    width: 130rem;
+    min-width: 80px;
     height: 76px;
-    background: url('/images/add.png'), url(/images/icons/soundtrack.png)no-repeat center center;
+    background: url(/images/icons/soundtrack.png)no-repeat center center;
+    border-image-slice: 4 4 4 4;
+    border-image-width: 4px 4px 4px 4px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: repeat repeat;
+    border-image-source: url('/images/add.png');
 }
 .btn-add:active, .btn-add:hover, .btn-add:focus{
-    background: url('/images/add-hover.png'), url(/images/icons/soundtrack-hover.png)no-repeat center center;
+    background: url(/images/icons/soundtrack-hover.png)no-repeat center center;
+    border-image-source: url('/images/add-hover.png');
 }
 .btn-psd{
     min-width: 133px;
