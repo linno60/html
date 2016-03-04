@@ -1,1 +1,1 @@
-<a href="#" class="lbl lbl-total">$0.00</a>
+<div class="lbl lbl-total">$0.00</div>

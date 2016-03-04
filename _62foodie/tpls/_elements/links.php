@@ -12,21 +12,21 @@
     <a href="#">fan club</a>
 </nav>
 <div class="links-categories" data-flex="col -start">
-    <a href="#">&rarr; Arts</a>
-    <a href="#">&rarr; Beauty</a>
-    <a href="#">&rarr; Books</a>
-    <a href="#">&rarr; Cart Software</a>
-    <a href="#">&rarr; Electronics</a>
-    <a href="#">&rarr; Fashion / Clothing</a>
-    <a href="#">&rarr; Food</a>
-    <a href="#">&rarr; Furniture</a>
-    <a href="#">&rarr; Home Goods</a>
-    <a href="#">&rarr; Jewelry</a>
-    <a href="#">&rarr; Lingerie</a>
-    <a href="#">&rarr; Music</a>
-    <a href="#">&rarr; Office Supplies</a>
-    <a href="#">&rarr; Printing</a>
-    <a href="#">&rarr; Software</a>
+    <a href="#">Arts</a> 
+    <a href="#">Beauty</a>
+    <a href="#">Books</a>
+    <a href="#">Cart Software</a>
+    <a href="#">Electronics</a>
+    <a href="#">Fashion / Clothing</a>
+    <a href="#">Food</a>
+    <a href="#">Furniture</a>
+    <a href="#">Home Goods</a>
+    <a href="#">Jewelry</a>
+    <a href="#">Lingerie</a>
+    <a href="#">Music</a>
+    <a href="#">Office Supplies</a>
+    <a href="#">Printing</a>
+    <a href="#">Software</a>
 </div>
 <div class="links-footer" data-flex="col -start">
     <a href="#">Home</a>

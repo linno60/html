@@ -527,8 +527,8 @@ footer{
     font: 13px/16px Arial;
 }
 .footer > div:last-child span i{
-    
-margin: 0px 11px 0px 0px;
+
+    margin: 0px 11px 0px 0px;
 }
 footer .lwrap{
     padding: 7px 10px 33px 10px;
@@ -573,24 +573,24 @@ figure img{
         justify-content: flex-start;
     }
     .hlinks > a:first-child {
-    margin-left: 12px;
-}
+        margin-left: 12px;
+    }
 }
 @media (max-width: 840px) { 
-.links-categories {
-    padding: 14px 10px 24px 10px;
-}
+    .links-categories {
+        padding: 14px 10px 24px 10px;
+    }
 }
 @media (max-width: 700px) { 
-.form-search input {
-    width: 150px;
-}
-.popular{
-    justify-content: space-around;
-}
-.reviews article figure {
-    margin: 1px 7px 0px 0px;
-}
+    .form-search input {
+        width: 150px;
+    }
+    .popular{
+        justify-content: space-around;
+    }
+    .reviews article figure {
+        margin: 1px 7px 0px 0px;
+    }
 }
 @media (max-width: 550px) {
     .content-wrap{
@@ -604,16 +604,16 @@ figure img{
         margin: 0px 0px 20px 0px;
     }
     .links-categories {
-    padding: 14px 10px 24px 60px;
-}
+        padding: 14px 10px 24px 60px;
+    }
 }
 @media (max-width: 520px) {
     .header .lwrap{
         flex-direction: column;
     }
     .form-wrap {
-    padding: 8px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 5px;
-}
+        padding: 8px;
+        margin: 10px 0px 10px 0px;
+        border-radius: 5px;
+    }
 }

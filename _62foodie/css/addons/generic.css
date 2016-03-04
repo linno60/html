@@ -30,6 +30,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 }
 /* ICONS */
 .icon-arrow {width: 21px; height: 21px; background: url('/images/icons/arrow.png');}
+.icon-arrowsmred {width: 9px; height: 5px; background: url('/images/icons/arrowsmred.png');}
 .icon-cart {width: 15px; height: 15px; background: url('/images/icons/cart.png');}
 .icon-fb {width: 10px; height: 17px; background: url('/images/icons/fb.png');}
 .icon-lock {width: 10px; height: 15px; background: url('/images/icons/lock.png');}
@@ -42,4 +43,5 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 .icon-secured {width: 56px; height: 55px; background: url('/images/icons/secured.png');}
 .icon-top {width: 30px; height: 47px; background: url('/images/icons/top.png');}
 .icon-tw {width: 9px; height: 17px; background: url('/images/icons/tw.png');}
+.icon-arrowsm {width: 9px; height: 5px; background: url('/images/icons/arrowsm.png');}
 .icon-heart {width: 16px; height: 14px; background: url('/images/icons/heart.png');}
