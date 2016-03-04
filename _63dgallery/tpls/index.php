@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Index</title>
+        <title>DGallery</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/addons/reset.css">
@@ -19,8 +19,7 @@
             }
         </script>
     </head>
-    <body>
-        <h1>This is index page</h1>
+    <body>       
         
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>

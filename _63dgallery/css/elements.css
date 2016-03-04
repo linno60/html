@@ -1,0 +1,81 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+/*LINKS*/
+.links-nav a{
+    margin: 5px 15px;
+    color: silver;
+    font-size: 13px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+}
+.links-footer a{
+    color: #c3c3c3;
+    font-size: 15px;
+}
+.links-files{
+    border-top: 10px solid rgba(91,91,108,.2);
+}
+.links-files a{
+    margin: 3px 0px 5px 0px;
+    color: #2f2f3c;
+    font-size: 13px;
+}
+.links-files a:active, .links-files a:hover, .links-files a:focus, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-social span{
+    margin-right: 10px;
+    color: silver;
+    font-style: italic;
+}
+.links-social span a{
+    margin-right: 10px;
+}
+
+/*FORMS*/
+.form-search{
+    max-width: 236px;
+    height: 23px;
+    background: #353541;
+    border: 1px solid #474754;
+    padding-right: 5px;
+}
+.form-search input[type=search]{
+    border: none;
+    background: none;
+    color: silver;
+    outline: none;
+    padding: 0px 9px;
+}
+.form-search inputinput[type=search]::-webkit-input-placeholder{color: silver;}
+.form-search inputinput[type=search]::-moz-placeholder{color: silver;}
+.form-search inputinput[type=search]:-ms-input-placeholder{color: silver;}
+
+/*PAGINATION*/
+.pagination a{
+    color: #0061ce;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px;
+}
+.pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
+    color: black;
+}
+
+/*OTHER*/
+figcaption{
+    padding: 10px;
+    background: #191923;
+}
+figcaption a{
+    color: #c3c3c3;
+    font-size: 15px;
+    font-weight: 700;
+}
+figcaption a:active, figcaption a:hover, figcaption a:focus{
+    text-decoration: underline;
+}
