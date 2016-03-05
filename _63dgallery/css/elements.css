@@ -5,7 +5,7 @@ body{
 
 /*LINKS*/
 .links-nav a{
-    margin: 5px 15px;
+    margin: 5px 14rem;
     color: silver;
     font-size: 13px;
 }
@@ -15,12 +15,14 @@ body{
 .links-footer a{
     color: #c3c3c3;
     font-size: 15px;
+    margin: 1px 0px 6px 0px;
 }
 .links-files{
     border-top: 10px solid rgba(91,91,108,.2);
+    padding-bottom: 18px;
 }
 .links-files a{
-    margin: 3px 0px 5px 0px;
+    margin: 11rem 10px 4px 32rem;
     color: #2f2f3c;
     font-size: 13px;
 }
@@ -28,39 +30,55 @@ body{
     text-decoration: underline;
 }
 .links-social span{
-    margin-right: 10px;
+    margin: 2px 28px 0px 0px;
     color: silver;
     font-style: italic;
+    line-height: 10px;
 }
 .links-social span a{
-    margin-right: 10px;
+    margin-right: 3px;
+}
+
+/*LABELS*/
+.lbl-default{
+    min-width: 134rem;
+    height: 41px;
+    background: #ff5c58;
+    padding: 0px 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 /*FORMS*/
 .form-search{
-    max-width: 236px;
-    height: 23px;
+    width: 100%;
+    max-width: 234px;
     background: #353541;
     border: 1px solid #474754;
-    padding-right: 5px;
+    padding-right: 6px;
+    margin: 2px;
 }
 .form-search input[type=search]{
     border: none;
     background: none;
     color: silver;
     outline: none;
-    padding: 0px 9px;
+    padding: 0px 8px;
+    height: 19px;
+    color: white;
 }
-.form-search inputinput[type=search]::-webkit-input-placeholder{color: silver;}
-.form-search inputinput[type=search]::-moz-placeholder{color: silver;}
-.form-search inputinput[type=search]:-ms-input-placeholder{color: silver;}
+.form-search input[type=search]::-webkit-input-placeholder{color: silver;}
+.form-search input[type=search]::-moz-placeholder{color: silver;}
+.form-search input[type=search]:-ms-input-placeholder{color: silver;}
 
 /*PAGINATION*/
 .pagination a{
     color: #0061ce;
     font-size: 15px;
     font-weight: 700;
-    margin: 2px;
+    margin: 4px 6px;
 }
 .pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: black;
@@ -68,13 +86,14 @@ body{
 
 /*OTHER*/
 figcaption{
-    padding: 10px;
+    padding: 9rem 12rem;
     background: #191923;
 }
 figcaption a{
     color: #c3c3c3;
     font-size: 15px;
     font-weight: 700;
+    letter-spacing: 0.015em;
 }
 figcaption a:active, figcaption a:hover, figcaption a:focus{
     text-decoration: underline;
