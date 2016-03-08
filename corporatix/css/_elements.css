@@ -87,8 +87,8 @@ a.btn-default{
 .links-social a{
     margin: 2px calc(9px/2);
     width: 34px;
-height: 34px;
-background-color: #373d56;
-border-radius: 5px;
-box-shadow: 0 1px 0 #70799a, inset 0 3px 3px rgba(0, 0, 0, 0.1);
+    height: 34px;
+    background-color: #373d56;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #70799a, inset 0 3px 3px rgba(0, 0, 0, 0.1);
 }

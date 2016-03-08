@@ -1,0 +1,156 @@
+body{
+    font-size: 12px;
+    font-family: Droid Sans;
+}
+
+/*LINKS*/
+.links-nav{   
+    background: #3d3d3d;
+    padding: 20px 40px;
+    border-radius: 24px;
+}
+.links-nav a{
+    color: #edece6;
+    text-transform: uppercase;
+    font-family: Aller;
+    margin: 0px 22px;
+    position: relative;    
+}
+.links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before, .links-nav a.active:before{
+    content: "";
+    position: absolute;
+    border-top: 12px solid #df530a;
+    border-left: 16px solid transparent; 
+    border-right: 16px solid transparent; 
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.links-footer{
+    max-width: 460px;
+}
+.links-footer a{
+    border-bottom: 1px solid #e8e8e3;
+    color: #555b63;
+    padding: 5px 0px;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    color: #f63;
+}
+.links-controls:before, .links-controls:after{
+    content: "";
+    width: 50%;
+    max-width: 390px;
+    height: 1px;
+    background: rgba(63,69,75,.07);
+}
+.links-controls:before{
+    margin-right: 20px;
+}
+.links-controls:after{
+    margin-left: 20px;
+}
+.links-controls a{
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    background: #848d9a;
+    box-shadow: 0.5px 0.9px 0 white, inset 0.5px 0.9px 6px rgba(0, 0, 0, 0.5);
+    margin: 2px;
+    border-radius: 50%;
+}
+.links-controls a:active:before, .links-controls a.active:before, .links-controls a:hover:before, .links-controls a:focus:before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #f6f8fa;
+}
+
+/*BUTTONS*/
+.btn-login{
+    border-right: 1px solid rgba(0, 0, 0, 0.026);
+    border-left: 1px solid rgba(0, 0, 0, 0.026);
+    height: 50px;
+    padding: 0px 5px;
+    background: rgba(61,61,61,.1);
+    color: #3d3d3d;
+    font-family: Aller;
+    text-transform: uppercase;
+}
+.btn-default, .btn-alt{
+    text-transform: uppercase;
+    padding: 0px 20rem;
+    height: 33px;
+    border-radius: 17px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    border: 1px solid gainsboro;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255,255,255,.2);
+    background: linear-gradient(rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.16));
+}
+.btn-default{    
+    color: white;
+    background: #303030;
+}
+.btn-alt{
+    color: #3d3d3d;    
+    background: #f77430;
+}
+.btn-thumb{
+    background: url(/images/icons/thumb.png);
+    width: 44px;
+    height: 44px;
+    color: #313132;
+    font-size: 20px;
+}
+.btn-submit{
+    min-width: 63px;
+    height: 19px;
+    background: #3d3d3d;
+    border-radius: 10px;
+    padding: 0px 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    max-width: 287px;
+    width: 100%;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    margin-bottom: 6px;
+    text-shadow: 0.5px 0.9px 1px white;
+    color: black;
+    font-size: 10px;
+    outline: none;
+}
+textarea{
+    height: 77px;
+    padding: 6px;
+}
+input[name=input]{
+    height: 34px;
+    padding: 0px 16px;
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #3f454b;}
+input[name=input]::-moz-placeholder, textarea::-moz-placeholder {color: #3f454b;}
+input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #3f454b;}
+
+/*OTHER*/
+.add{
+    color: #3f454b;
+}
+.add:before{
+    content: "";
+    border-radius: 50%;
+    margin-right: 3px;
+    width: 20px;
+    height: 21px;
+    background: url(/images/icons/plus.png)no-repeat center center, #ededed linear-gradient(rgba(255, 255, 255, 0.49), rgba(0, 0, 0, 0.49));
+    border: 1px solid rgba(220, 220, 220, 0.8);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 1px 1px white;
+}
+.add:active, .add:hover, .add:focus{
+    text-decoration: underline;
+}

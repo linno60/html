@@ -1,0 +1,25 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=002253f5-ec73-4372-a4a0-e98e8ffc8e06");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "ArialNarrow";
+    src: url("/fonts/fonts.com/f03d6476-c3dd-42fa-b98a-e390e000683a.woff2") format("woff2"), url("/fonts/fonts.com/d3e50519-10cc-4ea1-b785-e89b5073e26d.woff") format("woff");
+    font-weight: 700;
+}
+/* ICONS */
+.icon-arrow {width: 40px; height: 30px; background: url('/images/icons/arrow.png');}
+.icon-compass {width: 42px; height: 43px; background: url('/images/icons/compass.png');}
+.icon-fb {width: 12px; height: 23px; background: url('/images/icons/fb.png');}
+.icon-globe {width: 40px; height: 44px; background: url('/images/icons/globe.png');}
+.icon-in {width: 21px; height: 20px; background: url('/images/icons/in.png');}
+.icon-lamp {width: 27px; height: 44px; background: url('/images/icons/lamp.png');}
+.icon-mail {width: 22px; height: 14px; background: url('/images/icons/mail.png');}
+.icon-tw {width: 15px; height: 20px; background: url('/images/icons/tw.png');}
+.icon-user {width: 42px; height: 44px; background: url('/images/icons/user.png');}
