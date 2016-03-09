@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+/* ICONS */
+.icon-beh {width: 13px; height: 9px; background: url('/images/icons/beh.png');}
+.icon-bubble {width: 16px; height: 15px; background: url('/images/icons/bubble.png');}
+.icon-calendar {width: 16px; height: 16px; background: url('/images/icons/calendar.png');}
+.icon-db {width: 14px; height: 13px; background: url('/images/icons/db.png');}
+.icon-fb {width: 8px; height: 14px; background: url('/images/icons/fb.png');}
+.icon-for {width: 11px; height: 13px; background: url('/images/icons/for.png');}
+.icon-globe {width: 16px; height: 16px; background: url('/images/icons/globe.png');}
+.icon-mail {width: 16px; height: 12px; background: url('/images/icons/mail.png');}
+.icon-mark {width: 8px; height: 15px; background: url('/images/icons/mark.png');}
+.icon-name {width: 16px; height: 15px; background: url('/images/icons/name.png');}
+.icon-tw {width: 21px; height: 14px; background: url('/images/icons/tw.png');}
+.icon-user {width: 16px; height: 15px; background: url('/images/icons/user.png');}
+.icon-v {width: 12px; height: 11px; background: url('/images/icons/v.png');}
+.icon-yt {width: 13px; height: 8px; background: url('/images/icons/yt.png');}

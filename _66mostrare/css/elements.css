@@ -1,0 +1,69 @@
+body{
+    font-size: 12px;
+    font-family: Open Sans;
+}
+
+/*LINKS*/
+.links-nav a{
+    font-family: Oswald;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #f39c12;
+}
+.links-social a{
+    margin: 5px;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    width: 100%;
+    max-width: 380px;
+    height: 36px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+}
+input[name=input]{
+    padding: 0px 10px 0px 40px;
+}
+input[type=text]{
+    background: url(/images/icons/name.png)no-repeat 10px center #202020;
+}
+input[type=email]{
+    background: url(/images/icons/mail.png)no-repeat 10px center #202020;
+}
+input[type=url]{
+    background: url(/images/icons/globe.png)no-repeat 10px center #202020;
+}
+textarea{
+    padding: 10px;
+    height: 167px;
+    background: #202020;
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{ color: #848484; }
+input[name=input]::-moz-placeholder, textarea::-moz-placeholder{ color: #848484; }
+input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder{ color: #848484; }
+
+/*BUTTONS*/
+.btn-submit{
+    min-width: 128px;
+    height: 42px;
+    background: #f39c12; 
+    padding: 0px 10px;
+    color: #202020;
+    font-size: 14px;
+}
+
+/*CITES*/
+blockquote{
+    color: #f39c12;
+    font-family: Oswald;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}

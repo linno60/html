@@ -5,21 +5,20 @@ figure > img, a > img{
     display: block;
 }
 .lwrap{
-    max-width: 992px;
-    padding: 0px 10px;
+    max-width: 972px;
 }
 body{
     background:rgba(224,223,218,.3);
-}
-p{
-    text-shadow: 0.5px 0.9px 1px rgba(255, 255, 255, 0.54);
-    color: #3d3d3d;
-    line-height: 20px;
 }
 
 /*HEADER*/
 header{
     background: #dfdfd9;
+    border-top: 2px solid rgba(61,61,61,.5);
+}
+header > .lwrap{
+    padding: 0px 10px;
+    max-width: 874px;
 }
 .header{
     background: url("/images/bg1.png");
@@ -27,23 +26,267 @@ header{
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 .header > .lwrap{
-    padding: 20px 10px 20px 10px;
+    padding: 10px 26px 14px 10px;
+    max-width: 976px;
+}
+#logo{
+    margin: 13rem 0px 4px 0px;
 }
 
 /*SLIDER*/
 .slider-wrap{
-    background: #dfdfd9 url("/images/circle.png")no-repeat center bottom;
-    background-size: cover;
+    background: #dfdfd9;
+    position: relative;
 }
 .slider{
-    padding: 30px 0px 120px 0px;
+    padding: 66rem 12px 15rem 74rem;
 }
 .slider h2{
     text-transform: uppercase;
     color: #3d3d3d;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
+    margin-top: 47rem;
+}
+.slider .btn{
+    margin: 0px 14rem 5px 0px;
 }
 .slider h2 strong{
     font-weight: 700;
+}
+.slider > div:first-child{
+    width: 55.6%;
+}
+.slider > div:last-child{
+    width: 40.2%;
+}
+.slider-wrap:after {
+    content: "";
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: -150px;
+    background: url("/images/circle.png") no-repeat left top;
+    background-size: 100%;
+}
+.slider-wrap .links-controls{
+    position: relative;
+    bottom: -75rem;
+    z-index: 10;
+}
+.slider p{
+    text-shadow: 0.5px 0.9px 1px rgba(255, 255, 255, 0.54);
+    color: #3d3d3d;
+    line-height: 22px;
+    margin: 10rem 0px 24rem 0px;
+    letter-spacing: 0.001em;
+}
+.slider figure{
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 5px;
+    background: white;
+    margin: -5px -63px 0px -63px;
+    z-index: 1;
+}
+.slider figure img{
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+.slider > div > figure:last-child, .slider > div > figure:first-child{
+    margin: 0px;
+    z-index: 0;
+}
+
+/*CONTENT*/
+.content{
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+}
+.about article h4, .works article h4, .portfolio article h4 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.about article h4{
+    margin-bottom: 12rem;
+}
+.about article i, .works > article > i{
+    flex-shrink: 0;
+    margin: 4rem 12rem 0px 0px;
+}
+.about{
+    padding: 91rem 20rem 17rem 20rem;
+}
+.about p{
+    line-height: 21px;
+    letter-spacing: 0.012em;
+}
+.about article{
+    width: 33%;
+    padding-right: 33rem;
+    margin-bottom: 20px;
+}
+.about article:last-child{
+    padding-right: 0px;
+}
+.hdr{
+    position: relative;
+    padding: 13rem 62rem 13rem 84rem;
+    background: url("/images/bg2.png");
+}
+.hdr h2{
+    color: #fbfbfb;
+    font-family: Aller;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    letter-spacing: 0.045em;
+}
+.hdr h3{
+    color: rgba(251,251,251,.5);
+    font-family: Aller;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 1rem;
+    letter-spacing: 0.012em;
+}
+.hdr:before {
+    background: url("/images/flag-left.png");
+    left: -57px;
+}
+.hdr:after {
+    background: url("/images/flag-right.png");
+    right: -53px;
+}
+.hdr:before, .hdr:after {
+    width: 68px;
+    height: 60px;
+    content: "";
+    position: absolute;
+    top: 8px;
+}
+.hdr > div > i{
+    margin-top: 4rem;
+    flex-shrink: 0;
+}
+.hdr hgroup{
+    padding-left: 11rem;
+}
+.hdr .btn-alt{
+    height: 36px;
+    min-width: 139px;
+    margin: 2px;
+    font-size:  14px;
+}
+.works{
+    padding: 29rem 20rem 23rem 27rem;
+    border-bottom: 1px solid #e9ebed;
+}
+.works article h4{
+    margin-bottom: 11rem;
+}
+.works p{
+    letter-spacing: 0.0em;
+    line-height: 21px;
+    max-width: 856px;
+}
+.works figure img{
+    border-radius: 50%;
+}
+.works figure {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 6px;
+    border-radius: 50%;
+    background: white;
+}
+.gallery{
+    margin: 0px 1rem 0px -10rem;
+}
+.gallery > div{
+    width: 100%;
+    margin: 23rem -21rem 0px -18rem;
+    position:  relative;
+}
+.gallery > div > div{
+    margin: 0px 5px 20px 5px;
+}
+.portfolio article h4 {
+    margin: 0px 0px 8rem 3rem;
+}
+.portfolio{
+    padding: 39rem 24rem 34rem 41rem;
+}
+.portfolio article{
+    width: 26.87%;
+    margin-bottom: 20px;
+}
+.portfolio article figure{
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 7px;
+    margin-bottom: 12px;
+}
+.portfolio p{
+    margin: 0px 11rem 0px 3rem;
+    line-height: 21px;
+    letter-spacing: 0.012em;
+}
+.portfolio > div{
+    width: 1px;
+    min-height: 100%;
+    background: url("/images/border.png");
+}
+
+/*FOOTER*/
+.footer{
+    padding: 36rem 76rem 0px 21rem;
+}
+.footer > div > h5{
+    text-shadow: 0.5px 0.9px 1px white;
+    color: #555b63;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+.footer > div{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.footer > div:last-child{
+    width: 33%;
+    margin-bottom: 11px;
+}
+.footer form{
+    padding-top: 8rem;
+}
+.footer form button{
+    margin-right: 7rem;
+}
+.copyright{
+    padding: 23rem 14rem 29rem 26rem;
+    border-top: 1px solid rgba(41,49,63,.07);
+    letter-spacing: 0.015em;
+}
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    text-decoration: underline;
+}
+.copyright > span:last-child{
+    text-align: right;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .header > .lwrap{padding: 5px;}
+    .slider, .portfolio, .footer, .works {padding: 10px;}
+    .links-nav{padding: 16px 10px;}
+    .links-nav a{margin: 0px 4px;font-size:11px;}
+    .hdr:before, .hdr:after{display: none;}
+}
+@media (max-width: 640px) {
+    .hidden{display: none;}
+}
+@media (max-width: 480px) {
+    .hdr{padding: 5px;}
+    .hidden-sm{display: none;}
+    .footer > div, .footer > div:last-child{width: 49%;}
 }
