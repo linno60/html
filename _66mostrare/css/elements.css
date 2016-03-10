@@ -4,17 +4,26 @@ body{
 }
 
 /*LINKS*/
+.links-nav{
+    padding: 40rem 0px 26rem 0px;
+}
 .links-nav a{
     font-family: Oswald;
     font-size: 15px;
     text-transform: uppercase;
     color: white;
+    min-height: 20px;
+    line-height: 20px;
+    letter-spacing: 0.035em;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #f39c12;
 }
 .links-social a{
-    margin: 5px;
+    margin: calc(13px / 2);
+}
+.links-social{
+    padding: 2rem 0px 21rem 0px;
 }
 
 /*FORMS*/
@@ -25,25 +34,26 @@ input[name=input], textarea{
     outline: none;
     border: none;
     font-size: 14px;
-    color: white;
-    margin-bottom: 5px;
+    color: white;    
 }
 input[name=input]{
-    padding: 0px 10px 0px 40px;
+    padding: 0px 10px 0px 36px;
+    margin: 0px 0px 14px 1px;
 }
 input[type=text]{
-    background: url(/images/icons/name.png)no-repeat 10px center #202020;
+    background: url(/images/icons/name.png)no-repeat 13px center #202020;
 }
 input[type=email]{
-    background: url(/images/icons/mail.png)no-repeat 10px center #202020;
+    background: url(/images/icons/mail.png)no-repeat 12px center #202020;
 }
 input[type=url]{
-    background: url(/images/icons/globe.png)no-repeat 10px center #202020;
+    background: url(/images/icons/globe.png)no-repeat 12px center #202020;
 }
 textarea{
     padding: 10px;
     height: 167px;
     background: #202020;
+    margin: 0px 0px 18px 1px;
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder{ color: #848484; }
 input[name=input]::-moz-placeholder, textarea::-moz-placeholder{ color: #848484; }
@@ -66,4 +76,6 @@ blockquote{
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
+    padding: 5rem 30rem 25rem 18rem;
+    letter-spacing: 0.028em;
 }

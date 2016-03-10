@@ -1,0 +1,51 @@
+body{
+    font-size: 12px;
+    font-family: HelveticaNeue;
+}
+
+/*LINKS*/
+.links-social a{
+    margin: 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.rss{
+    border: 2px solid #f8902e;
+}
+.fb{
+    border: 2px solid #39599f;
+}
+.tw{
+    border: 2px solid #45b0e3;
+}
+.db{
+    border: 2px solid #d97ab0;
+}
+.pin{
+    border: 2px solid #cc212c;
+}
+.links-nav{
+    border-right: 1px solid rgba(0,0,0,.13);
+    padding: 10px 30px;
+}
+.links-nav a{
+    margin: 5px 27px;
+    font-weight: 700; 
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #a89574;
+}
+.links-post, .links-post a{
+    color: #a89574;
+    font-weight: 300;   
+}
+.links-post a{
+    margin: 0px 4px; 
+}
+.links-post a:active, .links-post a:hover, .links-post a:focus{
+    text-decoration: underline;
+}

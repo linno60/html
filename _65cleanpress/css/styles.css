@@ -101,6 +101,8 @@ header > .lwrap{
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.21);
 }
+
+/*ABOUT*/
 .about article h4, .works article h4, .portfolio article h4 {
     font-weight: 700;
     font-size: 20px;
@@ -128,6 +130,8 @@ header > .lwrap{
 .about article:last-child{
     padding-right: 0px;
 }
+
+/*HDR*/
 .hdr{
     position: relative;
     padding: 13rem 62rem 13rem 84rem;
@@ -178,6 +182,8 @@ header > .lwrap{
     margin: 2px;
     font-size:  14px;
 }
+
+/*WORKS*/
 .works{
     padding: 29rem 20rem 23rem 27rem;
     border-bottom: 1px solid #e9ebed;
@@ -199,6 +205,8 @@ header > .lwrap{
     border-radius: 50%;
     background: white;
 }
+
+/*GALLERY*/
 .gallery{
     margin: 0px 1rem 0px -10rem;
 }
@@ -210,6 +218,8 @@ header > .lwrap{
 .gallery > div > div{
     margin: 0px 5px 20px 5px;
 }
+
+/*PORTFOLIO*/
 .portfolio article h4 {
     margin: 0px 0px 8rem 3rem;
 }

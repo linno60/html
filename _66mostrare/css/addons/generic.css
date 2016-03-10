@@ -1,7 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=9ad20764-0721-4772-ac8a-8381b6c4ff42");
 
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("/fonts/fonts.com/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff");
+}
 /* ICONS */
 .icon-beh {width: 13px; height: 9px; background: url('/images/icons/beh.png');}
 .icon-bubble {width: 16px; height: 15px; background: url('/images/icons/bubble.png');}
