@@ -1,6 +1,7 @@
 body{
     font-size: 12px;
     font-family: HelveticaNeue;
+    color: #818181;
 }
 
 /*LINKS*/
@@ -48,4 +49,19 @@ body{
 }
 .links-post a:active, .links-post a:hover, .links-post a:focus{
     text-decoration: underline;
+}
+
+/*LISTS*/
+.list-default li{
+    line-height: 22px;
+    font-size: 14px;
+    color: #818181;
+}
+.list-default li:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #a89574;
+    margin: 7px 10px 0px 0px;
+    border-radius: 50%;
 }
