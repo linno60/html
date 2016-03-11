@@ -1,0 +1,144 @@
+body{
+    font-size: 12px;
+    font-family: Signika Negative;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #979e9f;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0px 22px;
+    height: 46px;
+    margin: 1px;
+    color: #979e9f;
+}
+.links-nav a.active, .links-nav a.active:active, .links-nav a.active:hover, .links-nav a.active:focus{
+    background: #037fa7;
+    color: white;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: #141414;
+    color: white;
+}
+.links-default a{
+    text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
+    color: #77dafa;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: underline;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: none;
+}
+.links-social a{
+    margin: 2px 9px;
+}
+.links-post{
+    padding-bottom: 20px;
+}
+.links-post, .links-post a{
+    color: #dedede;
+    font-weight: 300;
+}
+.links-post a:active, .links-post a:hover, .links-post a:focus{
+    text-decoration: underline;
+}
+.links-post > span{
+    margin-right: 25px;
+}
+.links-post > span > i{
+    margin-right: 5px;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    max-width: 514px;
+    width: 100%;
+    background: #343434;
+    border: 1px solid #383838;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 17px;
+    outline: none;
+}
+input[name=input]{
+    height: 35px;
+    padding: 0px 12px;
+}
+textarea{
+    height: 162px;
+    padding: 12px;
+}
+input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #cecece;}
+input[name=input]::-moz-placeholder, textarea::-moz-placeholder {color: #cecece;}
+input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #cecece; }
+.form-search{
+    max-width: 200px;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+.form-search:hover{
+    border: 1px solid #383838;
+}
+input[name=search]{
+    padding: 0px 10px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+input[name=image]{
+    outline: none;
+}
+
+/*BUTTONS*/
+.btn-submit{
+    min-width: 70px;
+    height: 35px;
+    background: #1292bc;
+    padding: 0px 5px;
+    font-weight: 300;
+    color: white;
+}
+.btn-anchor{
+    width: 34px;
+    height: 34px;
+    background: url(/images/icons/arrow.png)no-repeat center center, rgba(0,0,0,.5);
+}
+
+/*CITES*/
+blockquote{
+    text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+}
+blockquote q{    
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 25px 25px 15px 35px; 
+    background: #222;
+    position: relative;
+}
+blockquote cite{
+    color: #adabab;
+    line-height: 18px;
+    padding: 25px 25px 15px 35px;
+    font-style: normal;
+}
+blockquote cite a, blockquote cite time{
+    color: #77dafa;
+}
+blockquote cite a:active, blockquote cite a:hover, blockquote cite a:focus{
+    text-decoration: underline;
+}
+blockquote q:after{
+    content: "";
+    position: absolute;
+    border-top: 15px solid #222; 
+    border-right: 15px solid transparent; 
+    left: 35px;
+    bottom: -10px;
+}

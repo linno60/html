@@ -5,6 +5,9 @@ body{
 }
 
 /*LINKS*/
+.links-social{
+    margin-right: -2rem;
+}
 .links-social a{
     margin: 2px;
     border-radius: 50%;
@@ -28,10 +31,11 @@ body{
 }
 .links-nav{
     border-right: 1px solid rgba(0,0,0,.13);
-    padding: 10px 30px;
+    padding: 7rem 3rem;
+    margin-right: 28rem;
 }
 .links-nav a{
-    margin: 5px 27px;
+    margin: 5rem 27rem;
     font-weight: 700; 
     font-size: 13px;
     text-transform: uppercase;
@@ -40,18 +44,27 @@ body{
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #a89574;
 }
+.links-post{
+    padding-bottom: 14rem;
+}
+.links-post span{
+    margin: 0px 7px 0px 6px;
+}
 .links-post, .links-post a{
     color: #a89574;
     font-weight: 300;   
 }
-.links-post a{
-    margin: 0px 4px; 
+.links-post a i{
+    margin-left: 3px;
 }
 .links-post a:active, .links-post a:hover, .links-post a:focus{
     text-decoration: underline;
 }
 
 /*LISTS*/
+.list-default{
+    padding-top: 1px;
+}
 .list-default li{
     line-height: 22px;
     font-size: 14px;
@@ -59,9 +72,120 @@ body{
 }
 .list-default li:before{
     content: "";
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     border: 1px solid #a89574;
-    margin: 7px 10px 0px 0px;
+    margin: 8px 9px 0px 0px;
     border-radius: 50%;
+    display: block;
+}
+
+/*BUTTONS*/
+.btn-default, .btn-submit{
+    font-family: HelveticaNeue;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0px 5px;
+    letter-spacing: -0.025em;
+}
+.btn-default{
+    min-width: 150px;
+    height: 48px;
+    border: 2px solid #a89574;
+    color: #a89574;
+    font-size: 15px;   
+}
+.btn-default:active, .btn-default:hover, .btn-default:focus{
+    color: #a8747e;
+    border-color: #a8747e;
+}
+.btn-submit{
+    min-width: 110px;
+    height: 32px;
+    border: 2px solid #a6a6a6;
+    color: #a6a6a6;
+    font-size: 13px;
+}
+
+/*LABELS*/
+.lbl-default, .lbl-date{
+    padding: 5px;
+    border: 2px solid #a89574;
+    border-radius: 50%;
+}
+.lbl-default{
+    width: 90px;
+    height: 90px;
+}
+.lbl-date{
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+    color: #a89574;
+    text-transform: uppercase;
+}
+.lbl-date strong{
+    font-size: 20px;    
+}
+
+/*CITES*/
+blockquote{
+    background: #f4f4f4;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.07);
+    padding: 88rem 10px 51rem 10px;
+    text-align: center;
+}
+blockquote q{
+    color: #818181;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 900px;
+}
+blockquote cite{
+    color: #a89574;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 31px;
+    font-style: normal;
+}
+blockquote span{
+    color: #bbb;
+    font-family: Allerta Stencil;
+    font-size: 120px;
+    line-height: 25px;
+}
+
+/*OTHER*/
+.more{
+    color: #a89574;
+    font-weight: 300;
+}
+.more span{
+    font-family: Arial;
+    font-weight: 400;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: underline;
+}
+
+/*FORMS*/
+input[name=input], textarea{
+    max-width: 219px;
+    width: 100%;
+    background: rgba(0,0,0,.2);
+    color: white;    
+    border: none;
+    outline: none;
+}
+input[name=input]{
+    height: 35px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    height: 121px;
+    padding: 10px;
+    margin-bottom: 7px;
 }
