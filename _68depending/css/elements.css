@@ -4,13 +4,17 @@ body{
 }
 
 /*LINKS*/
+.links-nav{
+    margin: 0px 50rem;
+    flex-grow: 1;
+}
 .links-nav a{
-    color: #979e9f;
+    letter-spacing: -0.03em;
     font-weight: 300;
     text-transform: uppercase;
-    padding: 0px 22px;
+    padding: 0px 20rem;
     height: 46px;
-    margin: 1px;
+    margin: 1px 1px 1px 0px;
     color: #979e9f;
 }
 .links-nav a.active, .links-nav a.active:active, .links-nav a.active:hover, .links-nav a.active:focus{
@@ -32,24 +36,35 @@ body{
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: none;
 }
-.links-social a{
-    margin: 2px 9px;
+.links-social{
+    margin-right: -8rem;
 }
+.links-social a{
+    margin: 4px 7px;
+}
+.links-social a:hover .icon-fb {background: url('/images/icons/fb-hover.png');}
+.links-social a:hover .icon-in {background: url('/images/icons/in-hover.png');}
+.links-social a:hover .icon-pin {background: url('/images/icons/pin-hover.png');}
+.links-social a:hover .icon-tw {background: url('/images/icons/tw-hover.png');}
 .links-post{
-    padding-bottom: 20px;
+    padding-bottom: 16rem;
 }
 .links-post, .links-post a{
     color: #dedede;
     font-weight: 300;
 }
+.links-post a{
+    margin-right: 1px;
+}
 .links-post a:active, .links-post a:hover, .links-post a:focus{
     text-decoration: underline;
 }
 .links-post > span{
-    margin-right: 25px;
+    margin: 2px 38px 2px 0px;
+    letter-spacing: -0.02em;
 }
 .links-post > span > i{
-    margin-right: 5px;
+    margin-right: 4px;
 }
 
 /*FORMS*/
@@ -59,17 +74,19 @@ input[name=input], textarea{
     background: #343434;
     border: 1px solid #383838;
     color: white;
-    font-weight: 300;
-    margin-bottom: 17px;
+    font-weight: 300;    
     outline: none;
+    letter-spacing: -0.03em;
 }
 input[name=input]{
     height: 35px;
     padding: 0px 12px;
+    margin-bottom: 19px;
 }
 textarea{
     height: 162px;
-    padding: 12px;
+    padding: 10px 12px;
+    margin-bottom: 17px;
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #cecece;}
 input[name=input]::-moz-placeholder, textarea::-moz-placeholder {color: #cecece;}
@@ -78,6 +95,7 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
     max-width: 200px;
     border: 1px solid transparent;
     padding: 5px;
+    margin: 5px;
 }
 .form-search:hover{
     border: 1px solid #383838;
@@ -102,6 +120,7 @@ input[name=image]{
     padding: 0px 5px;
     font-weight: 300;
     color: white;
+    letter-spacing: -0.02em;
 }
 .btn-anchor{
     width: 34px;
@@ -113,19 +132,21 @@ input[name=image]{
 blockquote{
     text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
     font-weight: 300;
+    max-width: 515px;
+    padding: 8px 0px 8px 0px;
 }
-blockquote q{    
+blockquote q{
     color: white;
     font-size: 14px;
     line-height: 18px;
-    padding: 25px 25px 15px 35px; 
+    padding: 22px 75px 15px 35px;
     background: #222;
     position: relative;
 }
 blockquote cite{
     color: #adabab;
     line-height: 18px;
-    padding: 25px 25px 15px 35px;
+    padding: 22px 25px 15px 34px;
     font-style: normal;
 }
 blockquote cite a, blockquote cite time{
@@ -137,8 +158,8 @@ blockquote cite a:active, blockquote cite a:hover, blockquote cite a:focus{
 blockquote q:after{
     content: "";
     position: absolute;
-    border-top: 15px solid #222; 
-    border-right: 15px solid transparent; 
-    left: 35px;
-    bottom: -10px;
+    border-top: 13px solid #222;
+    border-right: 13px solid transparent;
+    left: 33px;
+    bottom: -13px;
 }

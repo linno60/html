@@ -1,30 +1,28 @@
 /*COMMON*/
-figure img{
+figure img, a > img{
     width: 100%;
     height: 100%;
     display: block;
 }
 .lwrap{
-    max-width: 960px;
+    max-width: 940px;
 }
 body{
-    background:url("/images/bg.png");
+    background: url("/images/bg.png");
 }
 p{
-/*    text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
     color: #adabab;
-    font-family: Myriad Pro;*/
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 10px;
 }
 .title{
     text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
     color: #d1d1d1;
+    line-height: 27px;
+    letter-spacing: -0.002em;
 }
 .title span{
     color: white;
@@ -34,58 +32,157 @@ p{
 header{
     background: #090909;
     border-bottom: 2px solid #2c2c2c;
-    padding: 0px 10px 1px 10px;
-    margin-bottom: 20px;
+    padding: 1px 10px 1px 25rem;
+    margin-bottom: 19rem;
 }
 
 /*BANNER*/
 .banner{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 18rem;
 }
 .banner h1{
     position: absolute;
-    bottom: 5%;
-    left: 5%;
+    bottom: 5.2%;
+    left: 2.5%;
     text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
     color: white;
-    font-size: 60px;
+    font-size: 60rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 /*CONTENT*/
+.content-wrap{
+    position: relative;
+}
 .content, .sidebar > div{
     background: #141414;
-    padding: 20px 20px 20px 20px;
+}
+.content{
+    margin-bottom: 17rem;
+    padding: 32rem 24rem 36rem 21rem;
+}
+.content .post ~ div{
+    margin-left: 4px;
+}
+.content .title{
+    margin: 0px 0px 14rem -2rem;
+    max-width: 500px;
 }
 .post{
     border-bottom: 1px solid #201f1f;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 32rem;
+    margin-bottom: 32rem;
 }
 .post > h2{
     color: white;
-    font-size: 37px;
+    font-size: 37rem;
     font-weight: 400;
-    margin-bottom: 20px;
-    line-height: 36px;
+    margin-bottom: 22rem;
+    line-height: 36rem;
     text-transform: uppercase;
+    max-width: 500px;
+    letter-spacing: -0.003em;
 }
 .post figure{
-  margin-bottom: 20px;  
+    margin: 0px 0px 21rem 2rem;
+}
+.post p{
+    text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
+    font-family: Myriad Pro;
+    margin-left: 2rem;
+}
+blockquote:last-child{
+    padding-bottom: 12rem;
 }
 
 /*SIDEBAR*/
 .sidebar{
-    width: 30%;
+    width: 31.9%;
     flex-shrink: 0;
-    margin-left: 20px;
+    margin-left: 20rem;
+}
+.sidebar .title{
+    margin-bottom: 17rem;
 }
 .sidebar > div{
-    margin-bottom: 20px;
+    margin-bottom: 18rem;
+    padding: 33rem 30rem 31rem 23rem;
+}
+.sidebar > .tweets{
+    padding: 23rem 19rem 16rem 25rem;
+    margin-bottom: 17rem;
+}
+.sidebar figure{
+    width: 32.5%;
+    margin: -2rem 0px 10rem 0px;
+}
+.sidebar p{
+    text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    margin-bottom: 17rem;
+    max-width: 235px;
+}
+.sidebar p:last-child{
+    margin-bottom: 2px;
 }
 .tweets p{
+    text-shadow: none;
     color: #999;
-   border-bottom: 1px solid #272727;
+    border-bottom: 1px solid #272727;
+    padding-bottom: 13rem;
+    letter-spacing: -0.022em;
+    max-width: 256px;
+    margin-bottom: 22rem;
+}
+.tweets p:last-child{
+    border-bottom: none;
+}
+.tweets p time{
+    color: #fefefe;
+}
+.tweets p a{
+    color: #77dafa;
+}
+.title-tw{
+    color: #898989;
+    font-weight: 300;
+    margin-bottom: 18rem;
+    padding: 4px 0px 0px 25px;
+    background: url(/images/icons/tww.png)no-repeat left center;
+    text-transform: uppercase;
+}
+
+/*FOOTER*/
+footer{
+    padding: 14rem 0px 36rem 2px;
+    color: #666;
+    border-top: 1px solid rgba(49,49,49,.4);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+    position: relative;
+}
+footer a{
+    color: #fefefe;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+.btn-anchor{
+    position: fixed;
+    bottom: 80px;
+    top: auto;
+    margin: 16px;
+}
+footer span{
+    margin-bottom: 3px;
+    letter-spacing: -0.02em;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {   
+    .links-nav{order: 2;}
+   
 }

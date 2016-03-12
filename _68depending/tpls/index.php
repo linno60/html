@@ -22,19 +22,17 @@
     <body>
         <a name="top"></a>
         <div class="lwrap">
-            <header data-flex="axis">                
-                <div data-flex="-center">
-                    <a href="/" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="165" height="19" alt="Depending">
-                    </a>
-                    <nav class="links-nav" data-flex="w" data-childs="-center center">
-                        <a href="#" class="active">home</a>
-                        <a href="#">pages</a>
-                        <a href="#">portfolio</a>
-                        <a href="#">blog</a>
-                        <a href="#">contact</a>
-                    </nav>
-                </div>
+            <header data-flex="axis" data-flex-640="-center around w">                
+                <a href="/" title="Return to the homepage" id="logo">
+                    <img src="/images/logo.png" width="165" height="19" alt="Depending">
+                </a>
+                <nav class="links-nav" data-flex="w" data-childs="-center center" data-flex-640="center w">
+                    <a href="#" class="active">home</a>
+                    <a href="#">pages</a>
+                    <a href="#">portfolio</a>
+                    <a href="#">blog</a>
+                    <a href="#">contact</a>
+                </nav>
                 <form action="#" method="post" data-flex="axis" class="form-search">   
                     <input type="search" name="search">
                     <input type="image" name="image" src="/images/icons/search.png">   
@@ -44,14 +42,14 @@
                 <img src="/images/img1.png" width="1170" height="512" alt="">
                 <h1>our blog</h1>
             </figure>
-            <div data-flex="stripe">
+            <div class="content-wrap" data-flex="stripe">
                 <div class="content">
                     <div class="post">
                         <h2>How To Build Long-Term Client Relationships</h2>
                         <div class="links-post" data-flex="w" data-childs="-center">
                             <span><i class="icon-clock"></i><time>Jul 05, 2012</time></span>
                             <span><i class="icon-cloud"></i><a href="#">12 comments</a></span>
-                            <span><i class="icon-mark"></i><a href="#">Business</a>,&nbsp;<a href="#">IOS</a>,&nbsp;<a href="#">IPad</a></span>
+                            <span><i class="icon-mark"></i><a href="#">Business</a>,<a href="#">IOS</a>,<a href="#">IPad</a></span>
                         </div>
                         <figure><img src="/images/post.png" width="573" height="288" alt=""></figure>
                         <p>Everyone loves a happy ending: the hero slays the dragon, true love conquers all, the Death Star is destroyed, the new website is launched and both client and users alike are thrilled. While this last example may not have the Hollywood ending that the first few examples do, for those of us in the Web design industry, it is the story ending we want for all our project.</p>
@@ -121,7 +119,7 @@
                         </p> 
                         <p>
                             <time>about a day ago </time>
-                            Need some advice on starting a small business? Check out this interview with Envato CEO @Collis
+                            Need some advice on start&shy;ing a small business? Check out this interview with Envato CEO @Collis
                             <a href="#">enva.to/QCV0fQ</a>
                         </p> 
                         <p>
@@ -139,9 +137,19 @@
                             Need some advice on starting a small business? Check out this interview with Envato CEO @Collis
                             <a href="#">enva.to/QCV0fQ</a>
                         </p> 
-                    </div>                  
-                </aside>
+                    </div>                     
+                </aside> 
+                <a href="#top" class="btn btn-anchor"></a>
             </div>
+            <footer data-flex="axis">
+                <span>copyright 2012<strong>&nbsp;&middot;</strong><a href="#">depending</a>. all rights reserved.</span>
+                <div class="links-social" data-flex="end w">
+                    <a href="#"><i class="icon-fb"></i></a>
+                    <a href="#"><i class="icon-in"></i></a>
+                    <a href="#"><i class="icon-pin"></i></a>
+                    <a href="#"><i class="icon-tw"></i></a>
+                </div> 
+            </footer>
         </div>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
