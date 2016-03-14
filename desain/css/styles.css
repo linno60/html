@@ -31,7 +31,7 @@
     padding: 0px 10px 0px 18px;
 }
 .form-search input::-webkit-input-placeholder{
-   color: #c5c3c3;
+    color: #c5c3c3;
     font: italic 14px Georgia;
 }
 .form-search input::-moz-placeholder{

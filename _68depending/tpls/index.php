@@ -42,7 +42,7 @@
                 <img src="/images/img1.png" width="1170" height="512" alt="">
                 <h1>our blog</h1>
             </figure>
-            <div class="content-wrap" data-flex="stripe">
+            <div class="content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content">
                     <div class="post">
                         <h2>How To Build Long-Term Client Relationships</h2>
@@ -76,7 +76,7 @@
                         </form>
                     </div>
                 </div>
-                <aside class="sidebar">
+                <aside class="sidebar" data-flex-640="stripe w">
                     <div>
                         <h3 class="title">categories</h3>
                         <div class="links-default" data-flex="col -start">
@@ -141,9 +141,9 @@
                 </aside> 
                 <a href="#top" class="btn btn-anchor"></a>
             </div>
-            <footer data-flex="axis">
+            <footer data-flex="axis" data-flex-640="vaxis">
                 <span>copyright 2012<strong>&nbsp;&middot;</strong><a href="#">depending</a>. all rights reserved.</span>
-                <div class="links-social" data-flex="end w">
+                <div class="links-social" data-flex="end w" data-flex-640="center w">
                     <a href="#"><i class="icon-fb"></i></a>
                     <a href="#"><i class="icon-in"></i></a>
                     <a href="#"><i class="icon-pin"></i></a>

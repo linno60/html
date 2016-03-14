@@ -133,20 +133,20 @@ blockquote{
     text-shadow: 1.7px 1.1px 1px rgba(0, 0, 0, 0.4);
     font-weight: 300;
     max-width: 515px;
-    padding: 8px 0px 8px 0px;
+    padding: 8px 0px;
 }
 blockquote q{
     color: white;
     font-size: 14px;
     line-height: 18px;
-    padding: 22px 75px 15px 35px;
+    padding: 22rem 75rem 15rem 35rem;
     background: #222;
     position: relative;
 }
 blockquote cite{
     color: #adabab;
     line-height: 18px;
-    padding: 22px 25px 15px 34px;
+    padding: 22rem 25rem 15rem 34rem;
     font-style: normal;
 }
 blockquote cite a, blockquote cite time{
@@ -160,6 +160,6 @@ blockquote q:after{
     position: absolute;
     border-top: 13px solid #222;
     border-right: 13px solid transparent;
-    left: 33px;
+    left: 33rem;
     bottom: -13px;
 }

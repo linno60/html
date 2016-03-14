@@ -172,9 +172,10 @@ footer a:active, footer a:hover, footer a:focus{
 }
 .btn-anchor{
     position: fixed;
-    bottom: 80px;
+    bottom: 80rem;
     top: auto;
-    margin: 16px;
+    margin: 16rem;
+    z-index: 1000;
 }
 footer span{
     margin-bottom: 3px;
@@ -182,7 +183,18 @@ footer span{
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 1024px) { 
+    footer{padding:10px;}
+    .btn-anchor{right: 8px;margin: 0px;display: none;width: 34px!important;}  
+    body:hover .btn-anchor{display: block;}
+}
 @media (max-width: 640px) {   
-    .links-nav{order: 2;}
-   
+    .links-nav{order: 2;} 
+    .sidebar > div{width: 49%;}
+    .sidebar > .tweets{width: 100%;}
+    .sidebar p, .tweets p{max-width: 640px;}
+    .post > h2{font-size:25px;line-height: 24px;}
+}
+@media (max-width: 480px) {
+    .sidebar > div:nth-child(3), .sidebar > div:nth-child(4){width: 100%;}
 }

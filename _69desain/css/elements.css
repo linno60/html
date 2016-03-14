@@ -1,0 +1,97 @@
+body, a{
+    font-family: Georgia;
+    font-size: 14px;
+    color: #898484;
+}
+a:active, a:hover, a:focus{
+    text-decoration: underline;
+}
+
+/*LINKS*/
+.links-default a{
+    text-shadow: 0 1px 1px white;
+    margin-bottom: 1px;
+}
+
+/*OTHER*/
+.title-sm, .title-lg{
+    text-shadow: 0 1px 1px white;
+    font-family: Lobster;
+    font-weight: normal;
+    border-bottom: 3px double #898484;
+}
+.title-lg{
+    font-size: 36rem;
+    line-height: 64rem;
+    text-align: center;
+    flex-grow: 1;
+}
+.title-sm{
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 11px;
+}
+
+/*LABELS*/
+.lbl-default{
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.48), 0 0 5px rgba(0, 0, 0, 0.09);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    background: radial-gradient(circle at center -100%, rgba(255,255,255,.9), rgba(255,255,255,.5), rgba(255,255,255,.01), transparent) #70c176;
+    border: 1px solid #70c176;
+    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.3), 2px 4px 5px 0px rgba(0,0,0,0.15);
+    padding: 7px 5px;
+    position: relative;
+    width: 97px;
+    text-align: center;
+}
+.lbl-default:before{
+    content: "";
+    position: absolute;
+    background: url("/images/corner.png");
+    width: 15px;
+    height: 5px;
+    bottom: -6px;
+    left: -1px;
+}
+
+/*FORMS*/
+.form-search{
+    width: 100%;
+    max-width: 260px;
+    background: #efefef;
+    border: 1px solid #9c9c9c;
+    box-shadow: 0 1px 1px white;
+    border-radius: 16px;
+    margin: 6px 0px 6px -1px;
+}
+.form-search input{
+    flex-grow: 1;
+    width: 74%;
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0px 19rem;
+}
+.form-search input::-webkit-input-placeholder{
+   color: #c5c3c3;
+   font-style: italic;
+}
+.form-search input::-moz-placeholder{
+    color: #c5c3c3;
+    font-style: italic;
+}
+.form-search input:-ms-input-placeholder{
+    color: #c5c3c3;
+    font-style: italic;
+}
+.form-search button{
+    height: 30px;
+    width: 35px;
+    flex-shrink: 0;
+    background: #d7d7d7 url(/images/icons/search.png)no-repeat 5px center;
+    border-radius: 0px 16px 16px 0px;
+    border-left: 1px solid #c1c1c1;
+}
