@@ -1,0 +1,5 @@
+@font-face {
+	font-family: 'nevis';
+	src: local('в�є'), url('/fonts/nevis.woff') format('woff'), url('/fonts/nevis.woff2') format('woff2');
+	font-weight: 700;
+}

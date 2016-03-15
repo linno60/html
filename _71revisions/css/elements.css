@@ -1,0 +1,62 @@
+body{
+    font-family: Calibri;
+    font-size: 14px;
+}
+
+/*LINKS*/
+.links-nav{
+    margin: 0px -2rem 4rem 0px;
+    flex-grow: 1;
+}
+.links-nav a{
+    color: #873b11;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 14rem;
+    text-shadow: 0px 2px 5px rgba(0,0,0,.21), 1px 1px 0px #190b01;
+    letter-spacing: -0.006em;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    margin-bottom: 1px;
+}
+
+/*BUTTONS*/
+.btn-lg, .btn-sm{
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-lg{
+    background: linear-gradient(#51260f, #2a1408);
+    border: 1px solid #51260f;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+    min-width: 237px;
+    height: 67px;
+    color: #b0a7a7;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px #78310c;
+}
+.btn-sm{
+    min-width: 95px;
+    height: 35px;
+    background: linear-gradient(#351305, #200b02);
+    border: 1px solid #280e03;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.74);
+    color: #4b2616;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #683823;
+    margin-left: 2px;
+}
+
+/*OTHER*/
+.title{
+    color: #545252;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px white;
+    margin-bottom: 4rem;
+}

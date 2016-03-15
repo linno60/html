@@ -1,10 +1,15 @@
 
+/* FONTS */
+@font-face {
+	font-family: 'nevis';
+	src: local('в�є'), url('/fonts/nevis.woff') format('woff'), url('/fonts/nevis.woff2') format('woff2');
+	font-weight: 700;
+}
 /* ICONS */
 .icon-arrow1 {width: 11px; height: 7px; background: url('/images/icons/arrow1.png');}
 .icon-arrow2 {width: 9px; height: 5px; background: url('/images/icons/arrow2.png');}
 .icon-arrow3 {width: 10px; height: 7px; background: url('/images/icons/arrow3.png');}
-.icon-checkbox-off {width: 16px; height: 16px; background: url('/images/icons/checkbox-off.png');}
-.icon-checkbox-on {width: 16px; height: 16px; background: url('/images/icons/checkbox-on.png');}
+.icon-check {width: 16px; height: 16px; background: url('/images/icons/check.png');}
 .icon-db {width: 32px; height: 32px; background: url('/images/icons/db.png');}
 .icon-fb {width: 32px; height: 32px; background: url('/images/icons/fb.png');}
 .icon-rss {width: 32px; height: 32px; background: url('/images/icons/rss.png');}
