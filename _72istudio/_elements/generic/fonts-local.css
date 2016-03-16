@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@font-face {
+	font-family: 'HelveticaNeueLT';
+	src: local('в�є'), url('/fonts/HelveticaNeueLT.woff') format('woff');
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: local('в�є'), url('/fonts/MyriadPro-Regular.woff') format('woff');
+}

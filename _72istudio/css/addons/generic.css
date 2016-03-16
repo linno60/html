@@ -1,4 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
+
+/* FONTS */
+@font-face {
+	font-family: 'HelveticaNeueLT';
+	src: local('в�є'), url('/fonts/HelveticaNeueLT.woff') format('woff');
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: local('в�є'), url('/fonts/MyriadPro-Regular.woff') format('woff');
+}
 /* ICONS */
 .icon-arrow {width: 6px; height: 6px; background: url('/images/icons/arrow.png');}
 .icon-dl {width: 25px; height: 25px; background: url('/images/icons/dl.png');}
