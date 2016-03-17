@@ -1,0 +1,58 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=e9c38fcd-8f10-48eb-977b-824cd9574fbb");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Segoe Script";
+    src: url("/fonts/fonts.com/e820e1ab-8906-42be-99b1-548e2535d601.woff2") format("woff2"), url("/fonts/fonts.com/b4b7cb0f-71f7-4bb2-8e3e-ce8ac58b4d34.woff") format("woff");
+}
+@font-face {
+    font-family: 'Agenda';
+    src: url('/fonts/fontsquirel.com/agendabold.woff2') format('woff2'), url('/fonts/fontsquirel.com/agendabold.woff') format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'DIN';
+    src: url('/fonts/fontsquirel.com/din.woff2') format('woff2'), url('/fonts/fontsquirel.com/din.woff') format('woff');
+}
+@font-face {
+    font-family: 'DaxPro';
+    src: url('/fonts/fontsquirel.com/dax.woff2') format('woff2'), url('/fonts/fontsquirel.com/dax.woff') format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('/fonts/fontsquirel.com/klavika-light.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika-light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('/fonts/fontsquirel.com/klavika-medium.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika-medium.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('/fonts/fontsquirel.com/klavika-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika-regular.woff') format('woff');
+    font-weight: 400;
+}
+/* ICONS */
+.icon-cart-alt {width: 43px; height: 44px; background: url('/images/icons/cart-alt.png');}
+.icon-cart {width: 40px; height: 40px; background: url('/images/icons/cart.png');}
+.icon-down {width: 13px; height: 12px; background: url('/images/icons/down.png');}
+.icon-f {width: 24px; height: 23px; background: url('/images/icons/f.png');}
+.icon-ff {width: 22px; height: 23px; background: url('/images/icons/ff.png');}
+.icon-gp {width: 22px; height: 23px; background: url('/images/icons/gp.png');}
+.icon-letter {width: 32px; height: 23px; background: url('/images/icons/letter.png');}
+.icon-lock {width: 16px; height: 16px; background: url('/images/icons/lock.png');}
+.icon-next {width: 14px; height: 15px; background: url('/images/icons/next.png');}
+.icon-prev {width: 14px; height: 15px; background: url('/images/icons/prev.png');}
+.icon-search {width: 28px; height: 31px; background: url('/images/icons/search.png');}
+.icon-tw {width: 23px; height: 23px; background: url('/images/icons/tw.png');}
+.icon-up {width: 19px; height: 18px; background: url('/images/icons/up.png');}
+.icon-user {width: 16px; height: 16px; background: url('/images/icons/user.png');}

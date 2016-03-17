@@ -1,0 +1,84 @@
+/*COMMON*/
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 981px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    border-bottom-width: 1px;
+    margin-bottom: 70px;
+    border-image-slice: 0 0 55 0;
+    border-image-width: 0px 0px 55px 0px;
+    border-image-outset: 0px 0px 55px 0px;
+    border-image-repeat: repeat repeat;
+    border-image-source: url("/images/bg.png");
+    box-shadow: 0px 50px 90px 0px #b3dced;
+}
+.header{
+    border-top: 8px solid #196280;    
+    background: #052836;
+}
+.topbar{
+    background: #0b3445;
+}
+.topbar > .lwrap{
+    padding: 2px 35px 2px 21px;
+}
+.header > .lwrap > div, .shopping-cart > div > div, .shopping-cart > div, .shopping-cart{
+    flex-grow: 1;
+}
+#logo{
+    margin: 10px 20px 0px 0px;
+}
+.shopping-cart{
+    padding: 9px 15px 14px 9px;
+    background: linear-gradient(#196280, #0d4156);
+    border-radius: 0px 0px 8px 8px;
+    border-bottom: 1px solid #106b91;    
+}
+.login-wrap{
+    background: linear-gradient(#0f475e, #0f475e) bottom left / calc(100% - 20px) 100% no-repeat, 
+        linear-gradient(112deg, #0f475e, #0f475e 50%, transparent 50%) right bottom / 20px 100% no-repeat;
+    padding: 6px 35px 5px 15px;
+}
+.login-wrap i{
+    margin-right: 9px;
+}
+.login-wrap a{
+    margin-right: 23px;
+    color: white;
+    font-size: 12px;
+}
+.social{
+    text-align: right;
+    color: white;
+    font-family: Segoe Script;
+    font-size: 14px;
+    padding: 19px 26px 0px 0px;
+}
+.login-wrap a:active, .login-wrap a:hover, .login-wrap a:focus, .social:active, .social:hover, .social:focus{
+    text-decoration: underline;
+}
+.shopping-cart i{
+    flex-shrink: 0;
+    margin: -1px 8px 0px 0px;
+}
+.cart{
+    color: #ffbe0e;
+    font-size: 11px;
+    background: url("/images/border-cart.png")repeat-x left bottom;
+    margin: -2px 0px 3px 0px;
+}
+.total {
+    font-size: 12px;
+    color: white;
+}
+.total strong{
+    color: #ff7800;
+}

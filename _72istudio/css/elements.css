@@ -37,11 +37,12 @@ body{
     color: #a8a8a8;
     margin-bottom: 7px;
 }
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, 
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
     text-decoration: underline;
 }
 .links-social a{
-    margin: 4px;    
+    margin: 4rem;    
 }
 .links-categories {
     max-width: 268px;
@@ -49,7 +50,7 @@ body{
 .links-categories a{
     background: #f4f4f4;
     border-top: 1px solid #fbfbfb;
-    padding: 12px 10px 13px 21px;
+    padding: 12rem 10rem 13rem 21rem;
     color: #8a8a8a;
     letter-spacing: -0.01em;
 }
@@ -111,6 +112,7 @@ input[type=search]{
     outline: none;
     margin-top: 3px;
     color: black;
+    z-index: 1000;
 }
 .form-search input[type=button]:focus + input[type=search], input[type=search]:active, input[type=search]:hover, input[type=search]:focus{
     display: block;

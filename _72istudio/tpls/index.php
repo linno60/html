@@ -68,12 +68,12 @@
                     <div data-flex="stripe w">
                         <figure><img src="/images/img1.png" width="179" height="99" alt=""></figure>
                         <figure><img src="/images/img2.png" width="179" height="99" alt=""></figure>
-                        <figure><img src="/images/img3.png" width="179" height="99" alt=""></figure>
-                        <figure><img src="/images/img4.png" width="179" height="99" alt=""></figure>
+                        <figure class="hidden"><img src="/images/img3.png" width="179" height="99" alt=""></figure>
+                        <figure class="hidden-sm"><img src="/images/img4.png" width="179" height="99" alt=""></figure>
                     </div>
                     <a href="#" class="btn btn-thumb next"></a>
                 </div>
-                <div data-flex="stripe">
+                <div data-flex="stripe" data-flex-480="vstripe">
                     <div class="content" data-flex="stripe">
                         <article>
                             <figure><img src="/images/img5.png" width="275" height="156" alt=""></figure>
@@ -86,7 +86,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere tellus quis sem ultricies posuere quis in nisl. Fusce in diam quis eros interdum placerat varius in mauris. Aenean pharetra placerat gravida. </p>
                         </article>
                     </div>
-                    <aside class="sidebar">
+                    <aside class="sidebar" data-flex-480="stripe w">
                         <div>
                             <h3>Lorem ipsum  dolor?</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere tellus quis sem ultricies.</p>
@@ -109,7 +109,7 @@
         <footer>
             <hr>
             <div class="lwrap">
-                <div class="footer" data-flex="-start between">
+                <div class="footer" data-flex="-start between w">
                     <div>
                         <h5>Useful Links</h5>
                         <div class="links-footer" data-flex="col -start">

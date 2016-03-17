@@ -46,8 +46,8 @@ header > .lwrap{
 .slider-sm{
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    padding: 18px 0px 23px 0px;
-    margin-bottom: 14px;
+    padding: 18rem 0px 23rem 0px;
+    margin-bottom: 14rem;
 }
 .slider-sm > div{
     flex-grow: 1;
@@ -55,11 +55,11 @@ header > .lwrap{
 }
 .slider-sm figure{
     width: 22.3%;
-    padding: 10px 9px 9px 10px;
+    padding: 10rem 9rem 9rem 10rem;
 }
 .slider-sm > .btn-thumb{
     z-index: 1;
-    margin-top: 7px;
+    margin-top: 7rem;
 }
 .slider-sm figure, .content article figure{
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -67,15 +67,15 @@ header > .lwrap{
     background: white;   
 }
 .slider-wrap > .lwrap:after{
-    height: 37px;
+    height: 37rem;
     background: url("/images/shadow1.png");
-    bottom: 20px;
+    bottom: 20rem;
     width: 95%;
 }
 .slider-sm figure:after{
-    height: 21px;
+    height: 21rem;
     background: url("/images/shadow2.png");
-    bottom: -5px;
+    bottom: -5rem;
     width: 110%;
     z-index: -1;
 }
@@ -85,12 +85,12 @@ header > .lwrap{
     padding-left: 2px;
 }
 .content article figure{
-    padding: 10px;
+    padding: 10rem;
 }
 .content article figure:after{
-    height: 32px;
+    height: 32rem;
     background: url("/images/shadow3.png");
-    bottom: -10px;
+    bottom: -10rem;
     width: 80%;
     z-index: -1;
 }
@@ -106,22 +106,22 @@ header > .lwrap{
     margin-bottom: 20px;
 }
 .content article h3{
-    margin: 27px 0px 13px 0px;
+    margin: 27rem 0px 13rem 0px;
 }
 
 /*SIDEBAR*/
 .sidebar{
     width: 28.9%;
     flex-shrink: 0;
-    margin-left: 33px;
+    margin-left: 33rem;
     position: relative;
-    padding: 6px 0px 44px 0px;
+    padding: 6rem 0px 44rem 0px;
 }
 .sidebar p{
-    margin-top: 13px;
+    margin-top: 13rem;
 }
 .sidebar > div{
-    margin-bottom: 16px;
+    margin-bottom: 16rem;
 }
 .sidebar .btn-anchor{
     position: absolute;
@@ -133,7 +133,7 @@ header > .lwrap{
     font-family: MyriadPro;
     font-size: 17px;
     font-weight: 400;
-    margin-bottom: 6px;
+    margin-bottom: 6rem;
 }
 
 /*FOOTER*/
@@ -141,7 +141,7 @@ footer{
     position: relative;
 }
 footer > .lwrap{
-    padding: 34px 10px 20px 16px;
+    padding: 34rem 10px 20px 16rem;
 }
 footer hr{
     height: 9px;
@@ -151,13 +151,15 @@ footer hr{
 }
 .footer > div{
     margin-bottom: 15px;
+    width: 15%;
+    min-width: 120px;
 }
 .footer > div > h5{
     text-shadow: 0.5px 0.9px 2px rgba(0, 0, 0, 0.75);
     color: white;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 23px;
+    margin-bottom: 23rem;
 }
 .copyright span{
     color: #666666;
@@ -165,5 +167,16 @@ footer hr{
     letter-spacing: -0.01em;
 }
 #logo-alt{
-    margin: 15px 24px 0px 3px;
+    margin: 15rem 24rem 0px 3px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .links-nav a{font-size: 12px;}
+    .slider-sm figure {width: 32%;}
+    .hidden{display: none;}
+}
+@media (max-width: 480px) {
+    .sidebar > div, .content > article, .slider-sm figure, .footer > div {width: 48%;}
+    .hidden-sm{display: none;}
 }

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Agenda';
+    src: url('/fonts/fontsquirel.com/agendabold.woff2') format('woff2'), url('/fonts/fontsquirel.com/agendabold.woff') format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'DIN';
+    src: url('/fonts/fontsquirel.com/din.woff2') format('woff2'), url('/fonts/fontsquirel.com/din.woff') format('woff');
+}
+@font-face {
+    font-family: 'DaxPro';
+    src: url('/fonts/fontsquirel.com/dax.woff2') format('woff2'), url('/fonts/fontsquirel.com/dax.woff') format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('/fonts/fontsquirel.com/klavika-light.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika-light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('/fonts/fontsquirel.com/klavika-medium.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika-medium.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('/fonts/fontsquirel.com/klavika-regular.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika-regular.woff') format('woff');
+    font-weight: 400;
+}

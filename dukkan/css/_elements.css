@@ -230,7 +230,7 @@ a.btn-footer{
     width: 50px;
     height: 40px;
     position: relative;
-    background:url("/images/radial.png")no-repeat center center, linear-gradient(to top, #7e7e7e 0%, #c2c2c2 100%);
+    background: url("/images/radial.png")no-repeat center center, linear-gradient(to top, #7e7e7e 0%, #c2c2c2 100%);
 }
 .btn-up:before, .btn-up:after{
     content: "";

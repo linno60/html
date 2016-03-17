@@ -166,7 +166,6 @@
     position: relative;
     color: white;
     font: 700 18px DaxPro;
-    /* max-width: 185px; */
     min-height: 40px;
     padding: 5px 20px 5px 14px;
     background-image: linear-gradient(to top, #a60670 0%, #a60670 71%, #fa52c1 87%, #be0681 100%);

@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=e9c38fcd-8f10-48eb-977b-824cd9574fbb");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Segoe Script";
+    src: url("/fonts/fonts.com/e820e1ab-8906-42be-99b1-548e2535d601.woff2") format("woff2"), url("/fonts/fonts.com/b4b7cb0f-71f7-4bb2-8e3e-ce8ac58b4d34.woff") format("woff");
+}
