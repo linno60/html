@@ -8,10 +8,14 @@ figure > img, a > img{
     max-width: 981px;
     padding: 0px 10px;
 }
+.price{
+    font-size: 18px;
+    text-transform: uppercase;
+}
 
 /*HEADER*/
 header{
-    border-bottom-width: 1px;
+    border-top: 1px solid #b3dced;
     margin-bottom: 70px;
     border-image-slice: 0 0 55 0;
     border-image-width: 0px 0px 55px 0px;
@@ -81,4 +85,191 @@ header{
 }
 .total strong{
     color: #ff7800;
+}
+
+/*SLIDER*/
+.sidebar{
+    width: 22%;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+.sidebar > div{
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33), inset 0 0 18px rgba(0, 0, 0, 0.17);
+}
+.sidebar > .mail-wrap{
+    background: #fff2c5;
+    box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33)
+}
+.mail-wrap label{
+    color: #945810;
+    font-family: Klavika;
+    margin-bottom: 10px;
+}
+.mail-wrap form{
+    padding: 10px 10px 10px 10px;
+}
+.new-products{
+    padding: 30px 10px 15px 10px;
+}
+.new-products > div{
+    margin-bottom: 10px;
+}
+.new-products h5{
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.new-products h5 a{
+    color: #f90000;
+}
+.new-products h5 a:active, .new-products h5 a:hover, .new-products h5 a:focus{
+    text-decoration: underline;
+}
+.new-products p{
+    color: #8c8c8c;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+.new-products .price{
+    color: #2d2d2d;
+}
+.new-products figure{
+    margin-right: 5px;
+}
+
+/*CONTENT*/
+.content{
+    width: 100%;
+}
+.slider{
+    padding: 10px 10px 10px 10px;
+    background: #052836;
+    margin-bottom: 50px;
+}
+.thumbs{
+    margin: 10px 0px -20px 0px;
+}
+.offer{
+    flex-shrink: 0;
+    width: 33%;
+    margin-left: 10px;
+}
+.offers-list{  
+    margin-bottom: 30px;
+    border: 1px solid transparent;  
+    background-clip: padding-box;
+    box-shadow: inset 0 0 21px rgba(0, 0, 0, 0.19);
+    background: url("/images/border-side.png")repeat-y top left -1px, url("/images/border-side.png")repeat-y top right -1px,
+        url("/images/border-top.png")repeat-x left top -1px, url("/images/border-top.png")repeat-x left bottom -1px;
+}
+.offers-list h5{
+    font-size: 11px;
+}
+.offers-list h5 a{
+    color: #ff005a;
+}
+.offers-list h5 a:active, .offers-list h5 a:hover, .offers-list h5 a:focus{
+    text-decoration: underline;
+}
+.offers-list .price{
+    color: #45c207;
+}
+.offers-list .price strike{
+    color: #979797;
+    font-size: 11px;
+}
+.discount span{
+    color: #3a828c;
+}
+.discount{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: 700;
+}
+.discount > div:first-child strong{
+    color: #650071;
+}
+.discount > div:last-child strong{
+    color: #095524;
+}
+.product-items > article{
+    width: 48%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: white;
+    position: relative;
+    box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.17);
+    padding: 10px 10px 10px 10px;
+}
+.product-items > article:before{
+    width: calc(100% + 18rem);
+    height: calc(100% + 18rem);
+    background: url("/images/item-bg.png");
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -9rem;
+    top: -9rem;
+    border-radius: 8px;
+}
+.product-items > article > div:first-child{
+    width: 25%;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.product-items .price{
+    color: #ff4200;
+    font-weight: 700;
+}
+.product-items p{
+    color: #666666;
+    font-size: 11px;
+}
+.product-items article h4 + small{
+    color: red;
+    font-family: Klavika;
+}
+.product-items article h4 a{
+    color: #070707;
+}
+.product-items article h4{
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.product-items article h4 a:active, .product-items article h4 a:hover, .product-items article h4 a:focus{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+.footer{
+    background: #e9e9e9;    
+}
+.footer > .lwrap{
+    position: relative;
+    padding: 30px 10px 0px 10px;
+}
+footer{
+    background: #eee;
+    border-bottom: 15px solid #052836;
+}
+.footer .btn-footer{
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tweet{
+    padding: 30px 0px 30px 0px;
+    font-size: 12px;
+    max-width: 400px;
+    color: #5d5d5d;
+}
+.tweet a{
+    color: #1fb6ff;
+    font-weight: 700;
+}
+.tweet i{
+    flex-shrink: 0;
 }

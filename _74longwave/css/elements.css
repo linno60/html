@@ -1,0 +1,45 @@
+body{
+    font-family: Lato;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav{
+    margin-right: -32rem;
+}
+.links-nav a{
+    font-size: 14px;
+    font-weight: 900;
+    color: silver;
+    margin: 0px 32rem; 
+    text-transform: uppercase;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #88d5c2;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 134px;
+    height: 35px;
+    background: #ebebeb;
+    font-weight: 900;
+    color: #616161;
+    padding: 0px 5px; 
+    text-transform: uppercase;
+}
+
+/*OTHER*/
+.title{
+    color: #88d5c2;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.read{
+    color: #88d5c2;
+    font-family: Merriweather;
+}
+.read:active, .read:hover, .read:focus, .tweet a:active, .tweet a:hover, .tweet a:focus{
+    text-decoration: underline;
+}

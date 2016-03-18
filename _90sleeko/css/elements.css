@@ -1,0 +1,93 @@
+body{
+    font-family: Lucida Sans Unicode;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav a{
+    height: 35px;
+    border-top: 1px solid transparent;
+    position: relative;
+    padding: 6px 5px 1px 5px;
+    text-shadow: white 1px 1px 0px;
+    color: #6b4848;
+    font-family: Helvetica;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: linear-gradient(0deg, #e0e0e0, #f6f6f6 90%, white 92%, white);
+    border-top: 1px solid #b2b2b2;
+    box-shadow: 0 -3px 2.9px 0.1px rgba(118, 118, 118, 0.15);
+}
+.links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before,
+.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 39px;
+    top: -5px;
+}
+.links-nav a:before{
+    background: url("/images/activeleft.png");
+    left:-46px;
+}
+.links-nav a:after{
+    background: url("/images/activeright.png");
+    right: -46px;
+}
+.links-filter{
+    padding: 0px 0px 8px 15px;
+}
+.links-filter a{
+    color: #6b4848;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    margin: 5px 14px;
+    letter-spacing: -0.05em;
+}
+.links-filter a.active, .links-filter a:active, .links-filter a:hover, .links-filter a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    margin: 4px 8px 4px 9px;
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
+    box-shadow: 0.5px 0.9px 0 white, inset 0 3px 3px rgba(0, 0, 0, 0.1);
+    background: #e0e0e0;
+}
+
+/*BUTTONS*/
+.btn-top, .btn-default{
+    font-family: Helvetica;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-default{
+    min-width: 223px;
+    height: 42px;
+    padding: 0px 20px 0px 20px;
+    background: #6b4848;
+    box-shadow: 0 1px 0 white, inset 0 2px 2px rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 20px;
+    border-radius: 21px;
+}
+.btn-top{
+    min-width: 96px;
+    height: 32px;
+    background: linear-gradient(0deg, #eee 0%, #f6f6f6 90%, white 92%, white 100%);
+    border-top: 1px solid #b2b2b2;
+    border-right: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+    box-shadow: 0 -3px 2.9px 0.1px rgba(118, 118, 118, 0.15);
+    text-shadow: 0 2px 0 white;
+    color: #b2b2b2;
+    font-size: 16px;
+    padding: 2px 5px 3px 5px;
+    border-radius: 16px;
+    letter-spacing: -0.07em;
+}

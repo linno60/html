@@ -52,7 +52,7 @@
     <a href="#">Basında</a>
     <a href="#">İletişim</a>
 </div>
-<div class="links-footer" data-flex="center w">
+<div class="links-footer" data-flex="-center center w">
     <a href="#">Ses ve Görüntü Sistemleri</a>|
     <a href="#">Elektrikli Ev Aletleri</a>|
     <a href="#">Uydu Alıcıları</a>|

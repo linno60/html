@@ -116,7 +116,7 @@
                     </div>
                     <div>
                         <h3 class="hdr">Yeni Ürünler</h3>
-                        <div data-childs="-start">
+                        <div class="new-products" data-childs="-start">
                             <div>
                                 <figure><img src="/images/sidebar.png" width="55" height="66" alt=""></figure>
                                 <div>
@@ -168,6 +168,200 @@
                         </form>
                     </div>
                 </aside>
+                <div class="content">
+                    <div data-flex="-start between">
+                        <div class="slider" data-flex="col -center">
+                            <figure><img src="/images/slider.png" width="469" height="275" alt=""></figure>
+                            <div class="thumbs" data-flex="stripe">
+                                <a href="#" class="btn btn-thumb prev"><i class="icon-prev"></i></a>
+                                <div class="links-controls" data-flex="-center center">
+                                    <a href="#"></a>
+                                    <a href="#" class="active"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <a href="#" class="btn btn-thumb next"><i class="icon-next"></i></a>
+                            </div>
+                        </div>
+                        <div class="offer">
+                            <div class="offers-list" data-flex="vaxis">
+                                <h3 class="hdr-offer">Günün Fırsatları</h3>
+                                <div data-childs="-start">
+                                    <div>
+                                        <figure><img src="/images/w.png" width="42" height="51" alt=""></figure>
+                                        <div>
+                                            <h5><a href="#">Book Safe - Kitap Kasa</a></h5>
+                                            <span class="price">39,90 tl<strike>68,90 tl</strike></span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <figure><img src="/images/w.png" width="42" height="51" alt=""></figure>
+                                        <div>
+                                            <h5><a href="#">Book Safe - Kitap Kasa</a></h5>
+                                            <span class="price">39,90 tl<strike>68,90 tl</strike></span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <figure><img src="/images/w.png" width="42" height="51" alt=""></figure>
+                                        <div>
+                                            <h5><a href="#">Book Safe - Kitap Kasa</a></h5>
+                                            <span class="price">39,90 tl<strike>68,90 tl</strike></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns" data-flex>
+                                    <a href="#" class="btn btn-up"></a>
+                                    <a href="#" class="btn btn-down"></a>
+                                </div>
+                            </div>
+                            <div class="discount" data-flex="around" data-childs="col -center">
+                                <div>
+                                    <a href="#"><img src="/images/world.png" width="94" height="18" alt=""></a>
+                                    <span>%5 indirimler</span>
+                                    <strong>9+3 Taksit</strong>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="/images/bonus.png" width="93" height="17" alt=""></a href="#">
+                                    <span>Peşin Fiyatına</span>
+                                    <strong>9+3 Taksit</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-items" data-flex="stripe w" data-childs="-start between">
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img1.png" width="113" height="125" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img2.png" width="116" height="129" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img3.png" width="121" height="80" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img4.png" width="113" height="146" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img5.png" width="104" height="160" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img6.png" width="116" height="129" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img7.png" width="113" height="87" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img8.png" width="106" height="95" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img9.png" width="108" height="103" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <div data-flex="center"><figure><img src="/images/img10.png" width="107" height="108" alt=""></figure></div>
+                            <div>
+                                <h4><a href="#">True Utility - Cash Stash Keychain</a></h4>
+                                <small>Suda zıp zıplayan top</small>
+                                <p>Rock yıldızı olmaya çıkan kestrime yol! Dünyaları harcamadan gerçek bir profesyonel gibi gitar çalabilmek mükemmel olmaz mıydı? Paper Jamz ile bu mümkün...</p>
+                                <span class="price">69,90 TL</span>
+                                <div data-flex="-center">
+                                    <a href="#" class="btn btn-default">incecele</a>
+                                    <a href="#" class="btn btn-add"><i class="icon-cart-alt"></i>sepete at</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
@@ -185,7 +379,7 @@
             </div>
             <div class="footer">
                 <div class="lwrap">
-                    <div class="links-footer" data-flex="center w">
+                    <div class="links-footer" data-flex="-center center w">
                         <a href="#">Ses ve Görüntü Sistemleri</a>|
                         <a href="#">Elektrikli Ev Aletleri</a>|
                         <a href="#">Uydu Alıcıları</a>|
@@ -201,7 +395,7 @@
                     </div>
                     <div>
                         <div class="tweet" data-flex="-center">
-                            <i></i>
+                            <i class="icon-birds"></i>
                             <p><a href="#">@1renk.com</a> buraya twitterten son bilgiler çekilebilir son atılan twit vs.</p>
                         </div>
                         <a href="#" class="btn btn-footer">1renk.com</a>

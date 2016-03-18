@@ -1,0 +1,21 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=f8347e01-45cd-44f4-8a6e-0ddac83a296a");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "GillSans";
+    src: url("/fonts/fonts.com/d9f9decc-5fa8-4390-a105-4f89f6b7b055.woff2") format("woff2"), url("/fonts/fonts.com/cd5a93fc-2bb1-48df-8982-11119cd6e270.woff") format("woff");
+}
+@font-face {
+    font-family: "GillSans";
+    src: url("/fonts/fonts.com/2029e71f-067d-46a8-bc44-b5c64a258928.woff2") format("woff2"), url("/fonts/fonts.com/f05272f9-83e3-4de6-8423-5d57f730c87b.woff") format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url("/fonts/fonts.com/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2") format("woff2"), url("/fonts/fonts.com/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff");
+    font-weight: 700;
+}
