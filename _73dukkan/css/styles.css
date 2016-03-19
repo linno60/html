@@ -5,7 +5,7 @@ figure > img, a > img{
     display: block;
 }
 .lwrap{
-    max-width: 981px;
+    max-width: 980px;
     padding: 0px 10px;
 }
 .price{
@@ -15,8 +15,9 @@ figure > img, a > img{
 
 /*HEADER*/
 header{
-    border-top: 1px solid #b3dced;
-    margin-bottom: 70px;
+    border-top-width: 1px;
+    margin-top: -1px;
+    margin-bottom: 64px;
     border-image-slice: 0 0 55 0;
     border-image-width: 0px 0px 55px 0px;
     border-image-outset: 0px 0px 55px 0px;
@@ -32,7 +33,7 @@ header{
     background: #0b3445;
 }
 .topbar > .lwrap{
-    padding: 2px 35px 2px 21px;
+    padding: 2px 35px 0px 21px;
 }
 .header > .lwrap > div, .shopping-cart > div > div, .shopping-cart > div, .shopping-cart{
     flex-grow: 1;
@@ -44,7 +45,8 @@ header{
     padding: 9px 15px 14px 9px;
     background: linear-gradient(#196280, #0d4156);
     border-radius: 0px 0px 8px 8px;
-    border-bottom: 1px solid #106b91;    
+    border-bottom: 1px solid #106b91;  
+        margin-bottom: 17px;
 }
 .login-wrap{
     background: linear-gradient(#0f475e, #0f475e) bottom left / calc(100% - 20px) 100% no-repeat, 
@@ -89,12 +91,12 @@ header{
 
 /*SLIDER*/
 .sidebar{
-    width: 22%;
+    width: 22.3%;
     flex-shrink: 0;
-    margin-right: 30px;
+    margin-right: 11rem;
 }
 .sidebar > div{
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     border-radius: 6px;
     box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33), inset 0 0 18px rgba(0, 0, 0, 0.17);
 }
@@ -139,11 +141,14 @@ header{
 }
 
 /*CONTENT*/
+.content-bar{
+    margin-bottom: 10px;
+}
 .content{
     width: 100%;
 }
 .slider{
-    padding: 10px 10px 10px 10px;
+    padding: 8px;
     background: #052836;
     margin-bottom: 50px;
 }
@@ -152,8 +157,8 @@ header{
 }
 .offer{
     flex-shrink: 0;
-    width: 33%;
-    margin-left: 10px;
+    width: 33.1%;
+    margin-left: 6px;
 }
 .offers-list{  
     margin-bottom: 30px;

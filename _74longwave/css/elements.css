@@ -11,8 +11,9 @@ body{
     font-size: 14px;
     font-weight: 900;
     color: silver;
-    margin: 0px 32rem; 
+    margin: 0px 31rem; 
     text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #88d5c2;
@@ -20,13 +21,14 @@ body{
 
 /*BUTTONS*/
 .btn-default{
-    min-width: 134px;
+    min-width: 134rem;
     height: 35px;
     background: #ebebeb;
     font-weight: 900;
     color: #616161;
     padding: 0px 5px; 
     text-transform: uppercase;
+    letter-spacing: 0.11em;
 }
 
 /*OTHER*/
@@ -35,10 +37,12 @@ body{
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 .read{
     color: #88d5c2;
     font-family: Merriweather;
+    letter-spacing: 0.02em;
 }
 .read:active, .read:hover, .read:focus, .tweet a:active, .tweet a:hover, .tweet a:focus{
     text-decoration: underline;

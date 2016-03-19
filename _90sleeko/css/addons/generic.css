@@ -18,7 +18,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     font-weight: 700;
 }
 @font-face {
-    font-family: "Helvetica";
+    font-family: "Helvetica Condensed";
     src: url("/fonts/fonts.com/ab23c239-fb66-406e-bce6-f0f260f5a217.woff2") format("woff2"), url("/fonts/fonts.com/102ab74c-0e84-4fe5-a17a-b20fb643591a.woff") format("woff");
     font-weight: 700;
 }

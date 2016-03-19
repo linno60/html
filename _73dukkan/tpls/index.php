@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 981;
+            var LAYOUT_WIDTH = 980;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -98,7 +98,7 @@
                             <a href="#">Ev, Dekorasyon | Bahçe</a>
                             <a href="#">Elektronik</a>
                             <a href="#">Ev Elektroniği</a>
-                            <a href="#">Fotoğraf & Kamera & Kamera</a>
+                            <a href="#">Fotoğraf & Kamera</a>
                             <a href="#">GG Garaj</a>
                             <a href="#">Giyim & Aksesuar</a>
                             <a href="#">Kitap & Dergiler</a>
