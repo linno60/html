@@ -17,7 +17,7 @@ figure > img, a > img{
 header{
     border-top-width: 1px;
     margin-top: -1px;
-    margin-bottom: 64px;
+    margin-bottom: 67px;
     border-image-slice: 0 0 55 0;
     border-image-width: 0px 0px 55px 0px;
     border-image-outset: 0px 0px 55px 0px;
@@ -33,94 +33,111 @@ header{
     background: #0b3445;
 }
 .topbar > .lwrap{
-    padding: 2px 35px 0px 21px;
+    padding: 3px 30rem 1rem 7rem;
 }
-.header > .lwrap > div, .shopping-cart > div > div, .shopping-cart > div, .shopping-cart{
+.header > .lwrap > div, .shopping-cart > div > div, .shopping-cart > div, .shopping-cart + div{
     flex-grow: 1;
 }
 #logo{
-    margin: 10px 20px 0px 0px;
+    margin: 17rem 23rem 0px -3rem;
 }
 .shopping-cart{
-    padding: 9px 15px 14px 9px;
+    padding: 9rem 15rem 14rem 9rem;
     background: linear-gradient(#196280, #0d4156);
     border-radius: 0px 0px 8px 8px;
     border-bottom: 1px solid #106b91;  
-        margin-bottom: 17px;
+    margin-bottom: 17rem;
+    min-width: 395rem;
 }
 .login-wrap{
     background: linear-gradient(#0f475e, #0f475e) bottom left / calc(100% - 20px) 100% no-repeat, 
         linear-gradient(112deg, #0f475e, #0f475e 50%, transparent 50%) right bottom / 20px 100% no-repeat;
-    padding: 6px 35px 5px 15px;
+    padding: 7rem 5rem 6rem 15rem;
 }
 .login-wrap i{
-    margin-right: 9px;
+    margin: 0px 8rem 1rem 0px;
 }
 .login-wrap a{
-    margin-right: 23px;
+    margin-right: 25rem;
     color: white;
     font-size: 12px;
+    letter-spacing: -0.005em;
 }
 .social{
+    width: 100%;
+    padding: 19rem 15rem 0px 0px;
+}
+.social a{
     text-align: right;
     color: white;
     font-family: Segoe Script;
-    font-size: 14px;
-    padding: 19px 26px 0px 0px;
+    font-size: 14px;   
+    letter-spacing: -0.01em;
 }
 .login-wrap a:active, .login-wrap a:hover, .login-wrap a:focus, .social:active, .social:hover, .social:focus{
     text-decoration: underline;
 }
 .shopping-cart i{
     flex-shrink: 0;
-    margin: -1px 8px 0px 0px;
+    margin: -1rem 9rem 5px 0px;
 }
 .cart{
     color: #ffbe0e;
     font-size: 11px;
     background: url("/images/border-cart.png")repeat-x left bottom;
-    margin: -2px 0px 3px 0px;
+    margin: 1px 0px 2px 0px;
+    padding-bottom: 8rem;
+    letter-spacing: -0.005em;
 }
 .total {
     font-size: 12px;
     color: white;
+    padding-left: 2rem;
+    letter-spacing: 0.02em;
 }
 .total strong{
     color: #ff7800;
+    white-space: nowrap;
 }
 
-/*SLIDER*/
+/*SIDEBAR*/
 .sidebar{
     width: 22.3%;
     flex-shrink: 0;
     margin-right: 11rem;
 }
 .sidebar > div{
-    margin-bottom: 14px;
+    margin-bottom: 14rem;
     border-radius: 6px;
     box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33), inset 0 0 18px rgba(0, 0, 0, 0.17);
 }
 .sidebar > .mail-wrap{
     background: #fff2c5;
-    box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33)
+    box-shadow: 2.5px 4.3px 5px rgba(0, 0, 0, 0.33);
+    margin-top: -3rem;
 }
 .mail-wrap label{
     color: #945810;
     font-family: Klavika;
-    margin-bottom: 10px;
+    margin-bottom: 6rem;
+    letter-spacing: -0.01em;
+    line-height: 17px;
 }
 .mail-wrap form{
-    padding: 10px 10px 10px 10px;
+    padding: 14rem 17rem 21rem 17rem;
+}
+.mail-wrap form button{
+    margin-left: 2rem;
 }
 .new-products{
-    padding: 30px 10px 15px 10px;
+    padding: 63rem 16rem 10rem 11rem;
 }
 .new-products > div{
-    margin-bottom: 10px;
+    margin-bottom: 16rem;
 }
 .new-products h5{
     font-size: 11px;
-    margin-bottom: 3px;
+    margin-bottom: 4rem;
 }
 .new-products h5 a{
     color: #f90000;
@@ -130,46 +147,76 @@ header{
 }
 .new-products p{
     color: #8c8c8c;
-    margin-bottom: 3px;
+    margin-bottom: 3rem;
     font-size: 11px;
+    line-height: 13px;
 }
 .new-products .price{
     color: #2d2d2d;
+    padding-left: 2rem;
 }
 .new-products figure{
-    margin-right: 5px;
+    margin-right: 6rem;
+    flex-shrink: 0;
 }
 
 /*CONTENT*/
 .content-bar{
-    margin-bottom: 10px;
+    margin-bottom: 6rem;
 }
 .content{
     width: 100%;
 }
+.fb-like{
+    background: white;
+    border-radius: 5px;
+    padding: 7rem 11rem 8rem 8rem;
+    margin: 1rem 1rem 0px 2rem;
+}
 .slider{
     padding: 8px;
     background: #052836;
-    margin-bottom: 50px;
+    margin-bottom: 27rem;
+    position: relative;
+}
+.slider figure{width: 100%;}
+.slider:after{
+    content: "";
+    position: absolute;
+    width: 105%;
+    height: 119rem;
+    background: url("/images/slider-shadow.png")no-repeat center center;
+    background-size: cover;
+    bottom: -56rem;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .thumbs{
-    margin: 10px 0px -20px 0px;
+    margin: 11rem 0px -20rem 0px;
 }
 .offer{
     flex-shrink: 0;
     width: 33.1%;
-    margin-left: 6px;
+    margin-left: 6rem;
 }
-.offers-list{  
-    margin-bottom: 30px;
+.offers-list{
+    flex-grow: 1;
+    padding: 0px 5px;
+    margin-bottom: 20rem;
     border: 1px solid transparent;  
     background-clip: padding-box;
-    box-shadow: inset 0 0 21px rgba(0, 0, 0, 0.19);
+    box-shadow: inset 0 0 21rem rgba(0, 0, 0, 0.19);
     background: url("/images/border-side.png")repeat-y top left -1px, url("/images/border-side.png")repeat-y top right -1px,
         url("/images/border-top.png")repeat-x left top -1px, url("/images/border-top.png")repeat-x left bottom -1px;
 }
+.offers-list > div > div{
+    margin: 0px 25rem 4rem 0px;
+}
 .offers-list h5{
     font-size: 11px;
+    margin-bottom: 4rem;
+    letter-spacing: 0.01em;
 }
 .offers-list h5 a{
     color: #ff005a;
@@ -179,19 +226,30 @@ header{
 }
 .offers-list .price{
     color: #45c207;
+    padding-bottom: 2rem;
+    display: inline-block;
 }
 .offers-list .price strike{
     color: #979797;
     font-size: 11px;
+    letter-spacing: -0.02em;
+}
+.offers-list figure{
+    margin-right: 13rem;
+}
+.discount > div{
+    margin: 5px;
 }
 .discount span{
     color: #3a828c;
+    padding: 7rem 0px 6rem 0px;
 }
 .discount{
     text-align: center;
     font-family: Tahoma;
     font-size: 11px;
     font-weight: 700;
+    padding: 0px 17rem 10px 17rem;
 }
 .discount > div:first-child strong{
     color: #650071;
@@ -199,14 +257,19 @@ header{
 .discount > div:last-child strong{
     color: #095524;
 }
+
+/*PRODUCT-ITEMS*/
+.product-items{
+    padding: 0px 9rem 1rem 9rem;
+}
 .product-items > article{
-    width: 48%;
-    margin-bottom: 20px;
+    width: 47.9%;
+    margin-bottom: 27rem;
     border-radius: 8px;
     background: white;
     position: relative;
-    box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.17);
-    padding: 10px 10px 10px 10px;
+    box-shadow: inset 0 0 18rem rgba(0, 0, 0, 0.17);
+    padding: 9px 5px 4px 9px;
 }
 .product-items > article:before{
     width: calc(100% + 18rem);
@@ -220,28 +283,37 @@ header{
     border-radius: 8px;
 }
 .product-items > article > div:first-child{
-    width: 25%;
+    width: 34%;
     flex-shrink: 0;
-    margin-right: 20px;
+    margin-right: 4rem;
 }
 .product-items .price{
     color: #ff4200;
-    font-weight: 700;
+    font-weight: 700; 
+    padding-left: 5rem;    
+}
+.product-items .price + div{
+    padding-left: 3rem;
 }
 .product-items p{
     color: #666666;
     font-size: 11px;
+    line-height: 13px;
+    margin: 0px 0px 8rem 3rem;
+    letter-spacing: -0.01em;
 }
-.product-items article h4 + small{
+.product-items article h5{
     color: red;
     font-family: Klavika;
+    font-weight: 400;
+    margin-bottom: 14rem;
 }
 .product-items article h4 a{
     color: #070707;
 }
 .product-items article h4{
     font-weight: 500;
-    margin-bottom: 2px;
+    font-family: Klavika;
 }
 .product-items article h4 a:active, .product-items article h4 a:hover, .product-items article h4 a:focus{
     text-decoration: underline;
@@ -253,23 +325,34 @@ header{
 }
 .footer > .lwrap{
     position: relative;
-    padding: 30px 10px 0px 10px;
+    max-width: 952px;
+    padding-top: 11px;
 }
 footer{
     background: #eee;
     border-bottom: 15px solid #052836;
 }
+footer > .lwrap {
+    max-width: 930px;
+    padding: 11rem 10px 8rem 10px;
+}
 .footer .btn-footer{
     position: absolute;
-    bottom: -1px;
+    bottom: -15rem;
     left: 50%;
     transform: translateX(-50%);
 }
-.tweet{
-    padding: 30px 0px 30px 0px;
+.footer > .lwrap > div{
+    width: 100%;
+}
+.tweet{    
     font-size: 12px;
     max-width: 400px;
     color: #5d5d5d;
+    margin-bottom: 32px;
+}
+.tweet p{
+    padding-bottom: 11px;
 }
 .tweet a{
     color: #1fb6ff;
@@ -277,4 +360,20 @@ footer{
 }
 .tweet i{
     flex-shrink: 0;
+    margin-right: 5rem;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .sidebar{width: 30%;}
+}
+@media (max-width: 640px) {
+    .sidebar{width: 33%;}
+    .links-controls{padding: 0px 15px;}
+    #logo{order:2;margin: 5px;}
+}
+@media (max-width: 480px) {
+    .sidebar > div{width: 49%;}
+    .sidebar > .mail-wrap{width: 100%;}
+    header{border-image: none;margin-bottom: 10px;}
 }
