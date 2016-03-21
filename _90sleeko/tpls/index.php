@@ -66,7 +66,7 @@
                             <a href="#">Interface Design</a>
                             <a href="#">Miscellaneous</a>
                         </div>
-                        <div class="grid" data-flex="stripe w">
+                        <div class="grid" data-flex="stripe w" data-flex-480="vstripe">
                             <article>
                                 <figure><img src="/images/img1.png" width="265" height="170" alt=""></figure>
                                 <h4>Tittle of the design</h4>
@@ -139,10 +139,10 @@
                     <div class="item-wrapper testimonials" data-flex="col -center">
                         <h2 class="title"><span>Clean, Wonderful & Effective</span><br>websites that can really improve your business</h2>
                         <blockquote data-flex="-center">
-                            <img src="/images/testimonial.png" width="266" height="66" alt="Testimonial">
+                            <figure><img src="/images/testimonial.png" width="266" height="66" alt="Testimonial"></figure>
                             <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate. </q>
                         </blockquote>
-                        <div data-flex="stripe w">
+                        <div data-flex="stripe w" data-flex-800="vstripe">
                             <article>
                                 <h3>Web Design</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare, tortor eu aliquam posuere, sem tortor semper urna, nec lacinia nibh nisi vel elit. Phasellus placerat, felis id rhoncus vulputate, purus velit elementum lectus, nec fermentum libero nunc at diam. In tempor, orci in rhoncus suscipit, velit orci blandit ipsum, a dapibus nisl massa in nunc. </p>
@@ -171,7 +171,7 @@
                 </nav>
                 <div class="item-wrap">
                     <div class="item-wrapper" data-flex="col -center">
-                        <div data-flex="stripe">
+                        <div data-flex="stripe" data-flex-480="vstripe">
                             <div class="form-wrap">
                                 <h2 class="title"><span>Thank you!</span><br>Get in touch with me now.</h2>
                                 <form action="#" method="post" data-flex="col -center">
@@ -182,11 +182,11 @@
                                     <button><span class="btn btn-default">submit now</span></button>
                                 </form>
                             </div>
-                            <div class="contact">
-                                <div class="lbl-wrap">
+                            <div class="contact" data-flex-480="axis w">
+                                <div class="lbl-wrap" data-flex="end">
                                     <div class="lbl lbl-available"><h6 data-text="Available For Hire"><span>Available For Hire</span></h6></div>
                                 </div>
-                                <div class="social" data-flex="col -start">
+                                <div class="social" data-flex="col -start" data-flex-480="vaxis">
                                     <span>Connect with me via:</span>
                                     <div class="links-social" data-flex="w" data-childs="-center center">
                                         <a href="#"><i class="icon-tw"></i></a>
@@ -195,7 +195,7 @@
                                         <a href="#"><i class="icon-mail"></i></a>
                                     </div>
                                 </div>
-                                <div class="copyright" data-flex="col -end">
+                                <div class="copyright" data-flex="col -end" data-flex-480="vaxis">
                                     <a href="#" title="Return to the homepage" id="logoalt">
                                         <img src="/images/logoalt.png" width="103" height="33" alt="Sleeko">
                                     </a>

@@ -1,0 +1,21 @@
+
+/* FONTS */
+@font-face {
+	font-family: 'LucidaGrande';
+	src: local('в�є'), url('/fonts/lucida-grande.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+	font-family: 'LucidaGrande';
+	src: local('в�є'), url('/fonts/lucida-grande-bold.woff') format('woff');
+    font-weight: 700;
+}
+/* ICONS */
+.icon-cloud {width: 38px; height: 37px; background: url('/images/icons/cloud.png');}
+.icon-fb {width: 28px; height: 28px; background: url('/images/icons/fb.png');}
+.icon-in {width: 28px; height: 28px; background: url('/images/icons/in.png');}
+.icon-location {width: 37px; height: 36px; background: url('/images/icons/location.png');}
+.icon-monitor {width: 37px; height: 36px; background: url('/images/icons/monitor.png');}
+.icon-next {width: 36px; height: 35px; background: url('/images/icons/next.png');}
+.icon-prev {width: 36px; height: 35px; background: url('/images/icons/prev.png');}
+.icon-tw {width: 28px; height: 28px; background: url('/images/icons/tw.png');}

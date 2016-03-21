@@ -1,0 +1,70 @@
+body{
+    font-size: 12px;
+    font-family: LucidaGrande;
+}
+
+/*LINKS*/
+.links-nav{
+    background: linear-gradient(#a7a5a5, #6c6c6c);
+    border-radius: 6px;
+    padding: 0px 30px;
+}
+.links-nav a{
+    height: 46px;
+    font-size: 15px;
+    font-weight: 700;
+    color:  #292828;
+    margin: 0px 12px;
+    padding: 0px 5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    text-decoration: none;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color:  white;
+    border-bottom: 5px solid white;
+}
+.links-social a{
+    margin: 3px;
+}
+.links-controls a{
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 13px 13px, white, #d8d8d8);
+}
+.links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
+    background: radial-gradient(circle at 3px 3px, #9c9c9c, #616060);
+}
+
+/*OTHER*/
+.more a, .more{
+    color: #848484;
+    font-size: 14px;
+}
+.more a{
+    margin-left: 5px;
+    border-bottom: 1px solid #848484;
+}
+.more a:active, .more a:hover, .more a:focus{
+    border: none;
+}
+.title{
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    color: #585858;
+    font-size: 25px;
+}
+.title:before, .title:after{
+    content: "";
+    background: #d3d3d3;
+    height: 1px;
+    flex-grow: 1;
+}
+.title:before{
+    margin-right: 5px;
+}
+.title:after{
+    margin-left: 5px;
+}

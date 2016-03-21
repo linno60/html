@@ -5,7 +5,7 @@ body{
 
 /*LINKS*/
 .links-nav{
-    width: 90%;
+    width: 100%;
 }
 .links-nav a{
     height: 35px;
@@ -19,6 +19,7 @@ body{
     line-height: 32px;
     text-transform: uppercase;
     letter-spacing: -0.05em;
+    margin: 0px 11px;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background: linear-gradient(0deg, #e0e0e0, #f6f6f6 90%, white 92%, white);
@@ -43,20 +44,20 @@ body{
 }
 .links-filter{
     width: 100%;
-    padding: 0px 0px 8px 15px;
+    margin: 0px 0px 18rem -27rem;
 }
 .links-filter a{
     color: #6b4848;
     font-family: Lucida Sans Unicode;
     font-size: 13px;
-    margin: 5px 14px;
+    margin: 5rem 14rem;
     letter-spacing: -0.05em;
 }
 .links-filter a.active, .links-filter a:active, .links-filter a:hover, .links-filter a:focus{
     text-decoration: underline;
 }
 .links-social a{
-    margin: 4px 8px 4px 9px;
+    margin: 4rem 8rem 4rem 9rem;
     width: 34px;
     height: 34px;
     border-radius: 6px;
@@ -73,12 +74,13 @@ body{
 .btn-default{
     min-width: 223px;
     height: 42px;
-    padding: 0px 50px 0px 20px;
+    padding: 0px 36px 0px 14px;
     background: url(/images/icons/arrow.png)no-repeat right 15px center, #6b4848;
     box-shadow: 0 1px 0 white, inset 0 2px 2px rgba(0, 0, 0, 0.75);
     color: white;
     font-size: 20px;
     border-radius: 21px;
+    letter-spacing: 0.03em;
 }
 .btn-top{
     min-width: 96px;
@@ -93,7 +95,7 @@ body{
     font-size: 16px;
     padding: 2px 5px 3px 5px;
     border-radius: 16px;
-    letter-spacing: -0.07em;
+    letter-spacing: -0.04em;
 }
 
 /*CITES*/
@@ -103,7 +105,11 @@ blockquote q{
     font-size: 15px;
     font-style: italic;
     line-height: 18px;
-    padding: 9px 20px 10px 33px;
+    padding: 9rem 20rem 10rem 32rem;
+}
+blockquote figure{
+    flex-shrink: 0;
+    width: 32.1%;
 }
 
 /*FORMS*/
@@ -119,13 +125,13 @@ input[name=input], textarea{
 }
 input[name=input]{
     height: 33px;
-    margin-bottom: 17px;
-    padding: 0px 23px;
+    margin-bottom: 17rem;
+    padding: 0px 23rem;
 }
 textarea{
     height: 180px;
-    margin: 4px 0px 27px 0px;
-    padding: 13px 23px;
+    margin: 4rem 0px 27rem 0px;
+    padding: 13rem 23rem;
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #686767;}
 input[name=input]::-moz-placeholder, textarea::-moz-placeholder {color: #686767; }
@@ -133,12 +139,13 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
 
 /*LABELS*/
 .lbl-available{
-    padding: 2px 16px 10px 2px;
-    min-width: 326px;
-    height: 79px;
+    padding: 2rem 16rem 10rem 2px;
+    min-width: 326rem;
+    height: 79rem;
     position: relative;
     background: linear-gradient(90deg, #8c8ca7, #323247);
-    box-shadow: 1px 1px 0 white, inset 0 0 5px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 0 white, inset 0 0 2px 1px rgba(0, 0, 0, 0.75);
+    z-index: 1;
 }
 .lbl-available:after, .lbl-available:before, .lbl-wrap:after{
     content: "";
@@ -146,10 +153,11 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
 }
 .lbl-available:before{    
     background: url("/images/corner.png");
-    width: 36px;
-    height: 80px;
-    left: -30px;
-    top: 0px;
+    background-size: cover;
+    width: 36rem;
+    height: 80rem;
+    left: -30rem;
+    top: 0px;    
 }
 .lbl-available:after{    
     background: url("/images/tail.png");
@@ -161,7 +169,7 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
 .lbl-available h6{
     color: #e3e3e3;
     font-family: GillSans;
-    font-size: 33px;
+    font-size: 33rem;
     font-weight: 700;
     position: relative;
     letter-spacing: -0.03em;
@@ -183,13 +191,13 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
     z-index: 0;
 }
 .lbl-wrap{
-    width: 357px;
     position: relative;
 }
 .lbl-wrap:after{
-    width: 313px;
-    height: 16px;
+    width: 313rem;
+    height: 16rem;
     background: url("/images/shadow.png");
-    right: 42px;
-    bottom: -17px;
+    background-size: cover;
+    right: 14rem;
+    bottom: -17rem;
 }
