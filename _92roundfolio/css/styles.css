@@ -91,7 +91,7 @@ header .lwrap{
     background: url("/images/shadowslide.png")no-repeat center center;
     background-size: 100%;
     width: 105.63%;
-    height: 93.91%;
+    height: 98%; 
     left: 50%;
     transform: translateX(-50.1%);
     top: -4.7%;
@@ -201,7 +201,7 @@ header .lwrap{
 }
 .about article figure {
     position: relative;
-    margin: 7px 0px 23px 0px;
+    margin: 7px 3px 23px -3px;
 }
 .about article figure:before, .about article figure:after{
     position: absolute;
@@ -223,6 +223,9 @@ header .lwrap{
 }
 .about form{
     padding: 21px 0px 0px 2px;
+}
+.about form button{
+    margin-left: 2px;
 }
 
 /*FOOTER*/

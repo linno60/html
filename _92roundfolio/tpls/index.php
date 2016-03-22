@@ -138,7 +138,7 @@
                         <h2 class="title" data-flex="-center">contact</h2>
                         <form action="#" method="post">
                             <input type="text" name="input" placeholder="Your Name">
-                            <input type="email" name="input" placeholder="Your Email Your Address">
+                            <input type="email" name="input" placeholder="Your Email Address">
                             <textarea></textarea>
                             <button><span class="btn btn-submit">send</span></button>
                         </form>

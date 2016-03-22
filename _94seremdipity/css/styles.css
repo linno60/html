@@ -1,0 +1,236 @@
+/*COMMON*/
+body{
+    padding-top: 50rem;
+    background: url("/images/bg.png");
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1040px;
+}
+p{
+    color: #6b6b6b;
+    font-size: 15px;    
+    line-height: 27px;
+}
+
+/*HEADER*/
+.header{
+    padding: 32rem 34rem 32rem 40rem;
+}
+.header form{
+    padding: 11rem 6rem 0px 3rem;
+}
+.wrap{
+    background-color: white;
+    box-shadow: 0 0 3px rgba(46, 41, 30, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.7), inset 0 0 30px rgba(0, 0, 0, 0.09);
+}
+header hr{
+    margin-top: 37rem;
+}
+
+/*SLIDER*/
+.slider{
+    position: relative;
+    margin: -20rem 0px;
+}
+.slider-caption{
+    position: relative;
+    z-index: 1;
+    padding: 29rem 10px 47rem 10px;
+}
+.slider-caption .details small{
+    padding: 0px 9px 0px 8px;
+}
+.slider-caption .details, .slider-caption .details a{
+    font-size: 14px;
+    letter-spacing: 0.01em;
+}
+.slider-caption h1{
+    color: #ca6d6d;
+    font-family: MarketDeco;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+.slider > .btn-thumb{
+    position: absolute;
+    top: 15.8%;
+}
+.slider > .btn-thumb:first-child{
+    left: 0px;
+    z-index: 1;
+}
+.slider > .btn-thumb:last-child{
+    right: 0px;
+}
+.content > article p:first-child{
+    margin-bottom: 27rem;
+}
+.content > article p{
+    margin-bottom: 33rem;
+}
+.content{
+    padding: 44rem 33rem 71rem 40rem;
+}
+.content h2{
+    color: #ca6d6d;
+    font-family: MarketDeco;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.043em;
+    margin-bottom: 7px;
+}
+.posts{
+    padding: 38rem 7px 17rem 0px;
+}
+.posts h2{
+    margin: 0px 0px 31px 14px;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+}
+.post figure{
+    min-width: 80rem;
+    margin: 1px 20rem 0px 0px;
+}    
+.post .post{
+    padding-left: 120rem;
+}
+.post > article > div{
+    background: #f4f4f4;
+    padding: 18rem 20rem 12rem 20rem;
+    flex-grow: 1;
+}
+.post article{
+    padding-bottom: 20px;
+}
+.post h4{
+    color: #ca6d6d;
+    font-family: MarketDeco;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+}
+.post p{
+    max-width: 701px;
+}
+.post .post p{
+    max-width: 610px;
+}
+.content > article{
+    padding-bottom: 13px;
+}
+.grid{
+    padding: 20rem 7px 0px 0px;
+}
+.grid figure{
+    margin-bottom: 27px;
+}
+.grid > article{
+    width: 31.45%;
+    margin-bottom: 11px;
+}
+.grid h3{
+    margin: 0px 0px 8rem 8rem;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+}
+.grid h3 a{
+    color: #ca6d6d;
+    font-family: MarketDeco;
+    font-size: 18px;
+}
+.grid .details{    
+    padding: 0px 0px 17rem 1px;
+}
+.grid p{
+    letter-spacing: 0.0047em;
+    margin: 0px 0px 21rem 9rem;
+}
+.details small{
+    padding: 0px 9px 0px 8px;
+}
+.details, .details a{
+    color: silver;
+    font-size: 12px;
+}
+.details a:active, .details a:hover, .details a:focus, .grid h3 a:active, .grid h3 a:hover, .grid h3 a:focus{
+    text-decoration: underline;
+}
+.form-default{
+    padding: 22rem 0px 59rem 0px;
+}
+.form-footer{
+    padding-top: 5px;
+}
+footer{
+    background-color: #191919;
+    box-shadow: 0 0 3px rgba(46, 41, 30, 0.5);
+    padding: 38rem 25rem 29rem 26rem;
+    margin-bottom: 79rem;
+}
+footer > div{
+    width: 22.2%;
+    margin-bottom: 10px;
+}
+footer > div > h5{
+    color: #ca6d6d;
+    font-family: MarketDeco;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    letter-spacing: -0.03em;
+}
+.popular, .tweet{
+    border-bottom: 1px solid rgba(202,109,109,.11)
+}
+.popular:last-child, .tweet:last-child{
+    border-bottom: none;
+}
+footer p{
+    font-size: 14px;
+    color: #afafaf;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.tweet{
+    margin-bottom: 14px;
+    padding: 0px 2px 13px 0px;
+}
+.tweet i{
+    margin-right: 19px;
+}
+.popular{
+    padding-bottom: 17px;
+    margin-bottom: 14px;
+}
+.popular p{
+    margin: 1px 0px 12px 0px;
+    line-height: 22px;
+}
+.tweet time{
+    font-size: 14px;
+    color: #ca6d6d;
+}
+.popular time{
+    color: #5f5f5f;
+    font-size: 12px;
+}
+/*MEDIA QUERIES*/
+@media (max-width: 1200px) {
+    .nav:before, .nav:after{display: none;}
+    .nav{margin: 0px;}
+    .slider .lwrap:before, .slider .lwrap:after{display: none;}
+}
+@media (max-width: 800px) { 
+    footer > div {width: 45%;}
+}
+@media (max-width: 640px) {
+    .grid figure{float: left;width: 38%;margin: 0px 10px 0px 0px;}
+}

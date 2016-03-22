@@ -17,6 +17,9 @@ body{
 .links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
     background: #535353;
 }
+.links-accounts{
+    padding: 0px 0px 20px 10px;
+}
 .links-accounts a{
     color: #ff7800;
     font-style: italic;
@@ -31,7 +34,7 @@ body{
     min-width: 83px;
     height: 41px;
     background: #ff7800;
-    border-radius: 3px;
+    border-radius: 4px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.47);
     color: white;
     font-family: LeagueGothic;
@@ -42,20 +45,21 @@ body{
 
 /*FORMS*/
 input[name=input]{ 
-    margin-bottom: 19px;
-    height: 49px;    
-    padding: 0px 20px 0px 30px;
+    margin-bottom: 18px;
+    height: 49px;        
 }
 input[type=text]{
-    background: white url(/images/icons/user.png)no-repeat 10px center;
+    background: white url(/images/icons/user.png)no-repeat 14px center;
+    padding: 0px 10px 0px 35px;
 }
 input[type=email]{
-    background: white url(/images/icons/mail.png)no-repeat 10px center;
+    background: white url(/images/icons/mail.png)no-repeat 14px center;
+    padding: 0px 10px 0px 38px;
 }
 textarea{
     padding: 10px;
     height: 125px;
-    margin-bottom: 17px;
+    margin: 1px 0px 13px 0px;
 }
 input[name=input], textarea{
     color: #333;
@@ -84,6 +88,6 @@ input[name=input]:-ms-input-placeholder, textarea:-ms-input-placeholder {color: 
     content: "";
     height: 16px;
     flex-grow: 1;
-    margin-left: 10px;
+    margin-left: 12px;
     background:url("/images/hdrbg.png")repeat-x left center; 
 }

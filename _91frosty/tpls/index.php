@@ -22,7 +22,7 @@
     <body>
         <header>
             <div class='lwrap'>
-                <div data-flex='axis w'>
+                <div data-flex='axis'>
                     <a href="#" title="Return to the homepage" id="logo" data-flex>
                         <img src="/images/logo.png" width="225" height="87" alt="Frosty">
                     </a>

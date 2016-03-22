@@ -2,13 +2,15 @@
 /* FONTS */
 @font-face {
 	font-family: 'LucidaGrande';
-	src: local('в�є'), url('/fonts/lucida-grande.woff') format('woff');
-    font-weight: normal;
+	src: local('в�є'), url('/fonts/ufonts.com_lucida-grande-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'LucidaGrande';
-	src: local('в�є'), url('/fonts/lucida-grande-bold.woff') format('woff');
-    font-weight: 700;
+	src: local('в�є'), url('/fonts/ufonts.com_lucida-grande.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 /* ICONS */
 .icon-cloud {width: 38px; height: 37px; background: url('/images/icons/cloud.png');}

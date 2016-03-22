@@ -18,7 +18,7 @@ header .lwrap > div{
 header{
     padding-bottom: 60px;
     margin-bottom: -60px;
-    background:  #3a3938 url("../images/highlight.png")no-repeat 0% -200px;
+    background:  #3a3938 url("/images/highlight.png")no-repeat 0% -200px;
 }
 
 /*CONTENT*/
@@ -30,6 +30,9 @@ header{
 }
 
 /*SLIDER*/
+.slider{
+    position: relative;
+}
 .slider figure{
     position: relative;
 }
@@ -66,7 +69,7 @@ header{
     right: 1.5%;
 }
 .links-controls{
-    padding: 14rem 0px 42rem 0px;
+    padding: 12rem 0px 39rem 0px;
 }
 .grid{
     max-width: 896px;
@@ -93,7 +96,7 @@ header{
 .grid h2 {
     color: #999;
     font-weight: 300;
-    font-size: 24rem;
+    font-size: 24px;
     margin-bottom: 32rem;
     letter-spacing: -0.025em;
 }
@@ -104,16 +107,14 @@ header{
     line-height: 19px;
 }
 .item {
-    width: 95%;
-    padding: 18px 0px;
-    background: url("../images/border.png") repeat-x left bottom;
-}
-.item:first-child{
-    padding: 0px 0px 18px 0px;
+    padding-bottom: 21rem;
+    margin: 0px 12rem 19rem 0px;
+    background: url("/images/border.png") repeat-x left bottom;
 }
 .item:last-child{
     background: none;
-    padding: 18px 0px 0px 0px;
+    margin-bottom: 0px;
+    padding-bottom: 8rem;
 }
 
 /*FOOTER*/
@@ -129,8 +130,6 @@ footer span{
 
 /*MEDIA QUERIES*/
 @media (max-width: 640px) {
-    .title:before{display: none;}
-    .grid h2 {font-size: 16px;}
     .grid > div{width: 48%;}
     .grid > div:last-child{width: 100%;}
     .slider figcaption h2 {font-size: 16px;}
