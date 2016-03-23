@@ -13,14 +13,14 @@
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
             var LAYOUT_WIDTH = 1040;
-            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
-            window.onresize = function() {
-                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
     <body>
-         <div class="lwrap">
+        <div class="lwrap">
             <div class="wrap">
                 <header>
                     <div class="header" data-flex="axis">
@@ -28,7 +28,7 @@
                             <img src="/images/logo.png" width="142" height="49" alt="Serendipity">
                         </a>
                         <div data-flex="-center w" data-flex-480="col -end">
-                            <div class="links-social" data-flex="end w">
+                            <div class="links-social" data-flex="end w" data-childs="-center center">
                                 <a href="#"><i class="icon-rss"></i></a>
                                 <a href="#"><i class="icon-fb"></i></a>
                                 <a href="#"><i class="icon-tw"></i></a>
@@ -58,7 +58,7 @@
                             <a href="#">Photograpy</a>/
                             <a href="#">Magna Sit Ultricies cras Purus</a>
                         </div>
-                        <hr>
+                        <hr class="hr">
                     </div>
                 </header>
                 <div class="slider-caption" data-flex="col -center">
@@ -79,7 +79,7 @@
                 <article>
                     <p>Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
                     <p>Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut </p>
-                    <hr>
+                    <hr class="hr">
                 </article>
                 <div class="grid" data-flex="stripe" data-flex-640="vstripe">
                     <article>
@@ -101,7 +101,7 @@
                         <p>Aenean lacinia bibendum  consectetur. Nullam id dolor id nibh sed nulla.</p>
                     </article>
                 </div>
-                <hr>
+                <hr class="hr">
                 <div class="posts">
                     <h2>2 responses to "magna sit ultrices cras purus"</h2>
                     <div class="post">
@@ -130,35 +130,24 @@
                         <input type="text" placeholder="Your Name" name="defaultinput">
                         <input type="email" placeholder="Your Email" name="defaultinput">
                         <input type="url" placeholder="Your Website" name="defaultinput">
-                        <textarea></textarea>
+                        <textarea placeholder="Your Message"></textarea>
                         <button><span class="btn btn-submit">Sumbit Message</span></button>
                     </form>
-                    <hr>
+                    <hr class="hr">
                 </div>
             </div>
             <footer class="footer" data-flex="around w" data-flex-480="vstripe">
                 <div>
                     <h5>popular posts</h5>
-                    <div data-childs="col">
-                        <div class="popular">
-                            <p>Vivamus sagittis lacus vel augue laoreet rutrum dolor </p>
-                            <time>14 Nov, 2012</time>
-                        </div>
-                        <div class="popular">
-                            <p>Scelerisque nisl consectetur et.</p>
-                            <time>22 May, 2012</time>
-                        </div>
-                        <div class="popular">
-                            <p>Pellentesque ornare sem lacinia quam venenatis </p>
-                            <time>15 July, 2012</time>
-                        </div>
-                    </div>
+                    <p class="popular">Vivamus sagittis lacus vel augue laoreet rutrum dolor<br><time>14 Nov, 2012</time></p>                    
+                    <p class="popular">Scelerisque nisl consectetur et.<br><time>22 May, 2012</time></p>
+                    <p class="popular">Pellentesque ornare sem lacinia quam venenatis<br><time>15 July, 2012</time></p>                    
                 </div>
                 <div>
                     <h5>twitter</h5>
-                    <p class="tweet"><i class="icon-tweet"></i>Praesent commodo cursus magna Morbi leo risus nulla consectetur. - <time>21 hours</time></p>
-                    <p class="tweet"><i class="icon-tweet"></i>Vestibulum id ligula porta euismod semper. auctor dolor fermentum. - <time>2 days ago</time></p>
-                    <p class="tweet"><i class="icon-tweet"></i>Donec ullamcorper nulla non metus auctor. - <time>3 days</time></p>
+                    <p class="tweet">Praesent commodo cursus magna Morbi leo risus nulla consectetur. - <time>21 hours</time></p>
+                    <p class="tweet">Vestibulum id ligula porta euismod semper. auctor dolor fermentum. - <time>2 days ago</time></p>
+                    <p class="tweet">Donec ullamcorper nulla non metus auctor. - <time>3 days</time></p>
                 </div>
                 <div>
                     <h5>a little about me</h5>
@@ -167,10 +156,10 @@
                 </div>
                 <div>
                     <h5>contact form</h5>
-                    <form class="form-footer" data-flex="col -start">
+                    <form class="form-footer" action="#" method="post" data-flex="col -start">
                         <input type="text" placeholder="Your Name" name="footerinput">
                         <input type="email" placeholder="Your Email" name="footerinput">
-                        <textarea></textarea>
+                        <textarea placeholder="Your Message"></textarea>
                         <button><span class="btn btn-submitalt">Submit</span></button>
                     </form>
                 </div>

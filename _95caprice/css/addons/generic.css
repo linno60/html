@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+
+/* FONTS */
+@font-face {
+    font-family: 'AdelleBasic';
+    src: url('/fonts/fontsquirel.com/adelleregularwebfont.woff2') format('woff2'), url('/fonts/fontsquirel.com/adelleregularwebfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ICONS */
+.icon-arrow {width: 7px; height: 5px; background: url('/images/icons/arrow.png');}
+.icon-box {width: 32px; height: 31px; background: url('/images/icons/box.png');}
+.icon-next {width: 4px; height: 7px; background: url('/images/icons/next.png');}
+.icon-palette {width: 30px; height: 28px; background: url('/images/icons/palette.png');}
+.icon-prev {width: 4px; height: 7px; background: url('/images/icons/prev.png');}
+.icon-screen {width: 30px; height: 30px; background: url('/images/icons/screen.png');}
+.icon-video {width: 32px; height: 30px; background: url('/images/icons/video.png');}

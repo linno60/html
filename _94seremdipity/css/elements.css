@@ -9,7 +9,7 @@ body{
     font-family: MarketDeco;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 7px 24px;
+    margin: 7rem 24rem;
     letter-spacing: -0.007em;
 }
 .links-nav{
@@ -22,29 +22,29 @@ body{
 .nav{
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
     padding: 5px 0px;
-    margin: 0px -10px 48px -10px;
+    margin: 0px -10rem 48rem -10rem;
     position: relative;
     background: #b05a5a linear-gradient(rgba(209, 209, 209, 0.01), rgba(81, 81, 81, 0.01));
 }
 .nav:before {
     left: 0px;
-    border-left: 10px solid transparent;
+    border-left: 10rem solid transparent;
 }
 .nav:after {
     right: 0px;
-    border-right: 10px solid transparent;
+    border-right: 10rem solid transparent;
 }
 .nav:before, .nav:after {
     content: "";
     position: absolute;
-    border-top: 10px solid #854444;
-    bottom: -10px;
+    border-top: 10rem solid #854444;
+    bottom: -10rem;
 }
 .links-social{
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 .links-social a{
-    margin: 3px;
+    margin: 3rem;
 }
 .links-breadcrumbs, .links-breadcrumbs a{
     font-size: 12px;
@@ -80,10 +80,8 @@ body{
     height: 25px;
     background: url(/images/icons/search.png)no-repeat center center #404040;
 }
-.btn-submit, .btn-submitalt{
-    min-width: 122px;
-    height: 30px;
-    border-radius: 3px;
+.btn-submit, .btn-submitalt{    
+    height: 30px;    
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
     padding: 0px 5px;
 }
@@ -92,12 +90,17 @@ body{
     border: 1px solid #383838;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.33);
     color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    min-width: 122px;
 }
 .btn-submitalt{
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.22);
     color: #fffefe;
     background: linear-gradient(0deg, #953f3f 0%, #a34e4e 50%, #a95353 51%, #b45f5f 100%);
     border: 1px solid #161616;
+    border-radius: 5px;
+    min-width: 111px;
 }
 
 /*FORMS*/
@@ -130,9 +133,10 @@ input[type=search], input[name=defaultinput]{
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: silver;}
 input::-moz-placeholder, textarea::-moz-placeholder{color: silver; }
-input:-ms-input-placeholder, textarea:-ms-input-placeholder{color: silver;}
+input[name=footerinput]:-ms-input-placeholder, .form-footer textarea:-ms-input-placeholder,
+input:-ms-input-placeholder, .form-default textarea:-ms-input-placeholder{color: silver;}
 .form-footer input, .form-footer textarea{
-    max-width: 219px;
+    max-width: 460px;
     background: rgba(0,0,0,.33);   
     color: white;  
 }
@@ -144,21 +148,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder{color: silver;}
     height: 153px;
     margin-bottom: 12px;
 }
-.form-default input, .form-default textarea{
-    max-width: 713px;
+.form-default input, .form-default textarea{    
     background: #f4f4f4;
     border: 1px solid #dedede;   
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 .form-default input{
     height: 40px;
+    max-width: 713px;
 }
 .form-default textarea{
     height: 189px;
 }
 
 /*OTHER*/
-hr{
+.hr{
     width: 117px;
     height: 9px;
     background: url("/images/divider.png");

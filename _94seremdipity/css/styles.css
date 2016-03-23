@@ -15,6 +15,7 @@ p{
     color: #6b6b6b;
     font-size: 15px;    
     line-height: 27px;
+    letter-spacing: 0.003em;
 }
 
 /*HEADER*/
@@ -24,11 +25,15 @@ p{
 .header form{
     padding: 11rem 6rem 0px 3rem;
 }
+#logo{
+    margin-right: 10px;
+    max-width: 42%;
+}
 .wrap{
     background-color: white;
     box-shadow: 0 0 3px rgba(46, 41, 30, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.7), inset 0 0 30px rgba(0, 0, 0, 0.09);
 }
-header hr{
+header .hr{
     margin-top: 37rem;
 }
 
@@ -54,7 +59,7 @@ header hr{
     font-family: MarketDeco;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 6px;
+    margin-bottom: 6rem;
     font-weight: 400;
     letter-spacing: -0.02em;
 }
@@ -69,6 +74,8 @@ header hr{
 .slider > .btn-thumb:last-child{
     right: 0px;
 }
+
+/*CONTENT*/
 .content > article p:first-child{
     margin-bottom: 27rem;
 }
@@ -76,7 +83,10 @@ header hr{
     margin-bottom: 33rem;
 }
 .content{
-    padding: 44rem 33rem 71rem 40rem;
+    padding: 44rem 33rem 64rem 40rem;
+}
+.content > article{
+    padding-bottom: 13rem;
 }
 .content h2{
     color: #ca6d6d;
@@ -84,19 +94,19 @@ header hr{
     font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.043em;
-    margin-bottom: 7px;
+    margin-bottom: 7rem;
 }
 .posts{
-    padding: 38rem 7px 17rem 0px;
+    padding: 31rem 7rem 17rem 0px;
 }
 .posts h2{
-    margin: 0px 0px 31px 14px;
+    margin: 0px 0px 31rem 14rem;
     font-weight: 400;
-    letter-spacing: -0.022em;
+    letter-spacing: -0.015em;
 }
 .post figure{
     min-width: 80rem;
-    margin: 1px 20rem 0px 0px;
+    margin: 1rem 20rem 0px 0px;
 }    
 .post .post{
     padding-left: 120rem;
@@ -115,31 +125,28 @@ header hr{
     font-size: 17px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    margin-bottom: 14px;
+    margin-bottom: 14rem;
 }
 .post p{
-    max-width: 701px;
+    max-width: 703px;    
 }
 .post .post p{
     max-width: 610px;
-}
-.content > article{
-    padding-bottom: 13px;
 }
 .grid{
     padding: 20rem 7px 0px 0px;
 }
 .grid figure{
-    margin-bottom: 27px;
+    margin-bottom: 26rem;
 }
 .grid > article{
     width: 31.45%;
-    margin-bottom: 11px;
+    margin-bottom: 20px;
 }
 .grid h3{
     margin: 0px 0px 8rem 8rem;
     font-weight: 400;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
 }
 .grid h3 a{
     color: #ca6d6d;
@@ -147,11 +154,11 @@ header hr{
     font-size: 18px;
 }
 .grid .details{    
-    padding: 0px 0px 17rem 1px;
+    padding: 0px 0px 17rem 1rem;
 }
 .grid p{
     letter-spacing: 0.0047em;
-    margin: 0px 0px 21rem 9rem;
+    margin: 0px 0px 5rem 9rem;
 }
 .details small{
     padding: 0px 9px 0px 8px;
@@ -164,15 +171,17 @@ header hr{
     text-decoration: underline;
 }
 .form-default{
-    padding: 22rem 0px 59rem 0px;
+    padding: 22rem 8rem 53rem 0px;
 }
+
+/*FOOTER*/
 .form-footer{
-    padding-top: 5px;
+    padding-top: 5rem;
 }
 footer{
-    background-color: #191919;
+    background: #191919;
     box-shadow: 0 0 3px rgba(46, 41, 30, 0.5);
-    padding: 38rem 25rem 29rem 26rem;
+    padding: 38rem 26rem 29rem 26rem;
     margin-bottom: 79rem;
 }
 footer > div{
@@ -184,7 +193,7 @@ footer > div > h5{
     font-family: MarketDeco;
     font-size: 17px;
     font-weight: 400;
-    margin-bottom: 22px;
+    margin-bottom: 22rem;
     letter-spacing: -0.03em;
 }
 .popular, .tweet{
@@ -196,22 +205,18 @@ footer > div > h5{
 footer p{
     font-size: 14px;
     color: #afafaf;
-    margin-bottom: 25px;
+    margin-bottom: 25rem;
     line-height: 25px;
 }
 .tweet{
-    margin-bottom: 14px;
-    padding: 0px 2px 13px 0px;
-}
-.tweet i{
-    margin-right: 19px;
+    margin-bottom: 14rem;
+    text-indent: 37px;
+    padding-bottom: 13rem;
+    background: url(/images/icons/tweet.png)no-repeat left 5px;
 }
 .popular{
-    padding-bottom: 17px;
-    margin-bottom: 14px;
-}
-.popular p{
-    margin: 1px 0px 12px 0px;
+    padding-bottom: 14rem;
+    margin-bottom: 14rem;
     line-height: 22px;
 }
 .tweet time{
@@ -221,16 +226,13 @@ footer p{
 .popular time{
     color: #5f5f5f;
     font-size: 12px;
+    padding-top: 9rem;
+    display: inline-block;
 }
 /*MEDIA QUERIES*/
-@media (max-width: 1200px) {
-    .nav:before, .nav:after{display: none;}
-    .nav{margin: 0px;}
-    .slider .lwrap:before, .slider .lwrap:after{display: none;}
-}
 @media (max-width: 800px) { 
     footer > div {width: 45%;}
 }
 @media (max-width: 640px) {
-    .grid figure{float: left;width: 38%;margin: 0px 10px 0px 0px;}
+    .grid figure{float: left; width: 38%; margin: 0px 10px 0px 0px;}
 }
