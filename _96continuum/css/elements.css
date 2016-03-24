@@ -8,13 +8,17 @@ body{
     font-family: Arial;
     font-size: 13px;
 }
+.links-nav{
+    padding-top: 5rem;
+}
 .links-nav a{
     text-shadow: 0 1px 0 white;
     color: #6c6c6c;
+    letter-spacing: 0.005em;
     padding: 0px 5px;
     min-width: 70rem;
     height: 28px;
-    margin: 2rem 10rem;
+    margin: 2rem 11.5rem;
     border: 1px solid transparent;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{ 
@@ -25,8 +29,8 @@ body{
     box-shadow: 0 1px 0 white, inset 0 1px 1px white;
 }
 .links-footer{
-    max-width: 221px;
-    border-bottom: 1px solid #161616;
+    max-width: 300px;
+    border-top: 1px solid #161616;
     box-shadow: inset 0px 1px 0px 0px #353535;
 }
 .links-footer a{
@@ -35,7 +39,7 @@ body{
     line-height: 18px;
 }
 .links-footer > li{
-    padding: 5px 0px;
+    padding: 8px 0px;
     border-bottom: 1px solid #161616;
     box-shadow: 0px 1px 0px 0px #353535;
 }
@@ -49,16 +53,17 @@ body{
     font-family: Arial;
 }
 .btn-default{
-    min-width: 152px;
+    min-width: 152rem;
     height: 44px;    
     background: url("/images/bgbtn.png");
     border: 1px solid #d1d1d1;
     color: #828282;    
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 8px;
     box-shadow: inset 0px 0px 0px 1px #efefef;
     position: relative;
+    text-align: center
 }
 .btn-default:after{
     content: "";
@@ -81,19 +86,23 @@ body{
     background: linear-gradient(#f4f4f4, #ccc);
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.01em;
 }
 
 /*FORMS*/
 .form-subscribe{
-    padding: 5px;
-    max-width: 220px;
+    padding: 5rem;
+    max-width: 300px;
     height: 35px;
     background: #232323;
     border-radius: 5px;
+    margin-right: 7rem;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.22);
+    position: relative;
 }
 .form-subscribe input{
     flex-grow: 1;
+    width: 100%;
     border: none;
     background: none;
     outline: none;

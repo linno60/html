@@ -1,0 +1,114 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+/*LINKS*/
+.links-social a{
+    margin: 3px;
+}
+.links-payment a{
+    margin: 4px;
+}
+
+/*BUTTONS*/
+.btn-thumb{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;    
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 1px 1px rgba(1, 2, 2, 0.45);
+    flex-shrink: 0;
+}
+.btn-thumb.prev{
+    background: url(/images/icons/prev.png)no-repeat center center, linear-gradient(#f2f2f2, #d9d9d9);
+}
+.btn-thumb.next{
+    background: url(/images/icons/next.png)no-repeat center center, linear-gradient(#f2f2f2, #d9d9d9);
+}
+.btn-thumb:active, .btn-thumb:hover, .btn-thumb:focus{
+    box-shadow: 0 2px 2px rgba(1, 2, 2, 0.45);
+}
+.btn-thumb.prev:active, .btn-thumb.prev:hover, .btn-thumb.prev:focus{
+    background: url(/images/icons/prev.png)no-repeat center center, linear-gradient(white, #e6e6e6);
+}
+.btn-thumb.next:active, .btn-thumb.next:hover, .btn-thumb.next:focus{
+    background: url(/images/icons/next.png)no-repeat center center, linear-gradient(white, #e6e6e6);
+}
+.btn-default, .btn-alt{
+    font-family: Designosaur;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    padding: 0px 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15), inset 0 1px 2px white, 0px 0px 0px 5px rgba(226,234,238,.4);
+}
+.btn-default{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.29);
+    color: #ca4500;
+    min-width: 173px;    
+    background: linear-gradient(#f9b34b, #ff5400);    
+}
+.btn-alt{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.54);
+    color: #838383;
+    min-width: 140px;
+    background: linear-gradient(#f4f4f4, #ddd);
+}
+
+/*CITES*/
+blockquote q{
+    padding: 30px 30px 40px 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    color: #8c8c8c;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+    background: white;
+    position: relative;
+    text-align: center;
+}
+blockquote cite{
+    color: #8c8c8c;
+    font-style: normal;
+    padding: 10px 10px 10px 80px;
+}
+blockquote cite em{
+    color: #bebebe;
+    font-style: italic;
+}
+blockquote q:after, blockquote q:before{
+    content: "";
+    position: absolute;        
+}
+blockquote q:after{
+    left: 38px;
+    bottom: -18px;
+    border-top: 20px solid white; 
+    border-left: 20px solid transparent; 
+}
+blockquote q:before{
+    bottom: -20px;
+    left: 38px;
+    border-top: 20px solid #e3e3e3;
+    border-left: 21px solid transparent;     
+}
+
+/*LISTS*/
+.list-default li:before{
+    content: "";
+    background: url(/images/icons/marker.png);
+    width: 12px;
+    height: 12px;
+    margin: 10px 10px 0px 0px;
+}
+.list-default li{
+    color: #dd8c5c;
+    line-height: 34px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.list-default li:last-child{
+    border-bottom: none;
+}
