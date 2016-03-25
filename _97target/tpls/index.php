@@ -30,12 +30,12 @@
                 </div>
                 <span class="call">Call Now!&ensp; 1-800-123-456</span>
             </header>
-            <div class="slider-wrap" data-flex="around w" data-flex-640="vstripe">
+            <div class="slider-wrap" data-flex="around w" data-flex-480="vstripe r">
                 <div>
                     <h1>The perfect way to convert your traffic into sales</h1>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-                    <div class="btn-group" data-flex="axis w" data-flex-960="-center center"  data-flex-480="col -center">
+                    <div class="btn-group" data-flex="axis" data-flex-800="-center center">
                         <a href="#" class="btn btn-default">Purchase now!</a>
                         <strong>or</strong>
                         <a href="#" class="btn btn-alt">Take a tour</a>
@@ -98,7 +98,7 @@
                     <q>”Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, li tot Europa usa li sam vocabularium. “</q>
                     <cite>Mike Tyson, <em>Microsoft</em></cite>
                 </blockquote>
-                <div class="btn-group" data-flex="-center center w" data-flex-480="col -center">
+                <div class="btn-group" data-flex="-center center w">
                     <a href="#" class="btn btn-default">Purchase now!</a>
                     <strong>or</strong>
                     <a href="#" class="btn btn-alt">Take a tour</a>
@@ -135,9 +135,9 @@
                         </a> 
                     </div>
                 </div>
-                <div class="copyright" data-flex="axis w" data-flex-640="col -center">
+                <div class="copyright" data-flex="axis">
                     <span>Copyright &copy; 2011 Target. All rights reserved. Design by <a href="#">Shegy</a></span>
-                    <div class="links-social" data-flex="center w" data-childs>
+                    <div class="links-social" data-flex="end w">
                         <a href="#"><i class="icon-aa"></i></a>
                         <a href="#"><i class="icon-db"></i></a>
                         <a href="#"><i class="icon-tw"></i></a>
