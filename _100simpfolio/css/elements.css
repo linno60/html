@@ -1,0 +1,80 @@
+body{
+    font-family: Trebuchet MS;
+    font-size: 15px;
+}
+
+/*LINKS*/
+.links-nav a{
+    font-family: Bebas;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: silver;
+    padding: 0px 15px;
+    margin: 2px 15px;
+    height: 28px;
+    position: relative;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background:
+        linear-gradient(#fddecb, #fddecb) bottom center / calc(100% - 28px) 28px no-repeat, 
+        linear-gradient(-45deg, #fddecb, #fddecb 50%, transparent 50%) left top / 14rem 14rem no-repeat,
+        linear-gradient(45deg, #fddecb, #fddecb 50%, transparent 50%) right top / 14rem 14rem no-repeat,
+        linear-gradient(135deg, #fddecb, #fddecb 50%, transparent 50%) right bottom / 14rem 14rem no-repeat,
+        linear-gradient(-135deg, #fddecb, #fddecb 50%, transparent 50%) left bottom / 14rem 14rem no-repeat;
+    color: black;
+}
+.links-nav a:before{
+    left: -14px;
+    border-right: 14px solid #fddecb;  
+}
+.links-nav a:after{
+    right: -14px;
+    border-left: 14px solid #fddecb;
+}
+.links-pagination a{
+    width: 29px;
+    height: 29px;
+    margin: 7px;
+    color: #34373f;
+    font-weight: 700;
+    border-radius: 50%;
+    background: linear-gradient(#fda0a0, #ff7373);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+.links-pagination a.active, .links-pagination a:active, .links-pagination a:hover, .links-pagination a:focus{
+    background: linear-gradient(#393f45, #292832);
+    color: #fcb5b5;    
+}
+.links-social a{
+    margin: 9px;
+}
+
+/*BUTTONS*/
+.btn-web i{
+    margin: 3px 0px 0px 15px;
+}
+.btn-web{
+    color: white;
+    font-size: 15px;
+    font-family: Bebas;
+    min-width: 197px;
+    min-height: 37px;
+    border-radius: 19px;
+    padding: 0px 5px;
+    background: linear-gradient(#fda0a0, #ff7373);
+    box-shadow: 0 1px 0 #385898, inset 0 1px 0 white, 0px 5px 0px 0px #9c694e, 0 8px 9px #d7a07e;
+    position: relative;
+}
+.btn-web:after{
+    content: "";
+    position: absolute;
+    height: 60%;
+    width: 101%;
+    z-index: -1;
+    top: 50%;
+    left: -1px;
+    border-radius: 0px 0px 20px 20px;
+    background: #9c694e;
+    box-shadow: 0 3px 4px #d7a07e;
+}

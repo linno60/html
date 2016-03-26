@@ -13,10 +13,9 @@ figure > img, a > img{
 .header-wrap{ 
     background: linear-gradient(0deg, #dadada, #ebebeb 2%, #fdfdfd 9%, #fefefe 10%, white 11%, #feffff 72%, #d6f0ff);
     box-shadow: 0 1px 0 rgba(189, 187, 183, 0.75);
-    border-bottom: 1px solid #d1d0cd;
 }
 .header{
-    padding: 22rem 0px 25rem 0px;       
+    padding: 22rem 0px 28rem 0px;       
 }
 .nav{
     overflow: hidden;
@@ -26,8 +25,8 @@ figure > img, a > img{
     margin-bottom: 30rem;
 }
 .nav form{
-    max-width: 204rem;
-    padding: 0px 14rem;
+    min-width: 100px;
+    padding: 0 14rem;
     flex-grow: 1;
 }
 #logo{
@@ -39,6 +38,8 @@ figure > img, a > img{
     font-size: 25px;
     color: #939393;
     letter-spacing: -0.05em;
+    margin-top: 4rem;
+    text-align: right;
 }
 .call span{
     color: #002859;
@@ -53,6 +54,7 @@ figure > img, a > img{
     position: relative;
     z-index: 1;
     padding: 16px 48rem 18px 39rem;
+    width: 100%;
 }
 .slider h1{
     color: #2d5f9f;
@@ -108,18 +110,28 @@ blockquote cite{
 blockquote a:active, blockquote a:hover, blockquote a:focus{
     text-decoration: underline;
 }
-.content{
-    padding: 0px 0px 31rem 3rem;
-}
 .content > article{
     width: 26.8%;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
+    position: relative;
 }
 .content > article:first-child{
     width: 25.8%;
 }
 .content > article:last-child{
     width: 24.5%;
+}
+.content > article:last-child:before{
+    display: none;
+}
+.content > article:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -58rem;
+    width: 10px;
+    height: 100%;
+    background: url("/images/shadowarticle.png")no-repeat left center;
 }
 .content p{
     color: #737373;
@@ -149,17 +161,19 @@ blockquote a:active, blockquote a:hover, blockquote a:focus{
     font-weight: normal;
 }
 .content > article h2 i{
-    margin-right: 12rem;   
+    margin-right: 12rem;  
+    flex-shrink: 0;
 }
 
 /*FOOTER*/
 footer{   
-    background:  url("/images/shadowfooter.png")no-repeat center bottom,
+    background: url("/images/shadowfooter.png")no-repeat center bottom,
         radial-gradient(ellipse closest-side, #d3efff, #d3efff calc(99% + 5px), transparent),
-        linear-gradient(white, white 126px, #d3efff 127px, #d3efff);
+        linear-gradient(white, white 152rem, #d3efff 153rem, #d3efff);
 }
 footer > .lwrap{
-    padding: 40px 0px 0px 0px; 
+    max-width: 960px;
+    padding: 48rem 0px 0px 0px; 
 }
 .footer{
     background:
@@ -170,23 +184,21 @@ footer > .lwrap{
     padding: 21rem 34rem 24rem 39rem;
 }
 .footer form{
-    padding: 9rem 13rem 8rem 14rem;
+    padding: 9rem 11rem 8rem 12rem;
     background-color: #232323;
     border-radius: 3px;
     margin: 0px 10rem 24rem 0px;
 }
 .footer form button{
-    margin: 2px 0px;
-    flex-grow: 1;
+    margin: 2px;
 }
 .footer h5{
     color: #4bb1ff;
-    margin-bottom: 21px;
+    margin-bottom: 21rem;
     font-weight: 400;
 }
 .copyright{
     color: #737373;
-    padding: 0px 10rem 41rem 0px;
     letter-spacing: -0.005em;
 }
 .copyright a{
@@ -196,28 +208,19 @@ footer > .lwrap{
     text-decoration: underline;
 }
 
-/*MEDIA-QUERIES---------------------------------------*/
-
-@media (max-width: 960px) {
-    .select select {padding: 0px 20rem;}
-}
+/*MEDIA-QUERIES*/
 @media (max-width: 800px) {
+    select {padding: 0px 20px;}   
     .slider{background: url("/images/sliderbg.png") right top / 100% 100% repeat;background-size: cover;}
-    .nav form{max-width: 100%;}
-    .select{max-width: 240px;}
-}
-@media (max-width: 640px) {
-    .content > article, .content > article:first-child, .content > article:last-child {width: 30%;}
-    .content > figure{display: none;}
-    .footer > form > input{width: 34%;}
+    .footer > form > input{width: 36%;}
 }
 @media (max-width: 480px) {
-    .links-categories a {width: 50%;}
+    .links-nav a{height: 24px;}
+    .call, blockquote {font-size: 16px;line-height: 18px;}
     .slider figure{display: none;}
-    .slider > div {width: auto;}
-    .slider p{text-align: center;}
-    .slider h1 {font-size: 32px;text-align:center;line-height: 36px;}
-    blockquote {font-size: 16px;line-height: 18px;}
-    .visible{display: none;}
-    .hidden{display: block;padding-top: 10px;}
+    .slider > div {width: auto;text-align: center;}
+    .slider h1 {font-size: 32px;line-height: 36px;} 
+    .links-categories a {width: 50%;} 
+    .copyright{order:2;}
+    .footer > form > input{width: 100%;max-width: 100%;}
 }

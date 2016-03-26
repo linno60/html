@@ -22,14 +22,14 @@
     <body>
         <div class="header-wrap">
             <div class="lwrap">
-                <header class="header" data-flex="axis w" data-flex-480="vaxis">
+                <header class="header" data-flex="axis">
                     <a href="#" title="Return to the homepage" id="logo" >
                         <img src="/images/logo.png" width="221" height="60" alt="Graphixcorp">
                     </a>
                     <span class="call">Call: <span>123-456-7890</span>
                 </header>
-                <div class="nav" data-flex="axis w" data-flex-800="vstripe w">
-                    <nav class="links-nav" data-flex="stripe w" data-childs="-center center" data-flex-800="center w">
+                <div class="nav" data-flex="axis">
+                    <nav class="links-nav" data-flex="w" data-childs="-center center">
                         <a href="#" class="active">home</a>
                         <a href="#">about us</a>
                         <a href="#">services</a>
@@ -38,7 +38,7 @@
                         <a href="#">blog</a>
                         <a href="#">contact us</a>
                     </nav>
-                    <form action="#" method="post">
+                    <form action="#" method="post" data-flex="end">
                         <select>
                             <option selected>English</option>
                             <option>German</option>
@@ -55,7 +55,7 @@
                         </div>
                         <figure data-flex><img src="/images/bags.png" width="360" height="316" alt=""></figure>
                     </div>
-                    <div class="links-categories" data-flex="stripe w" data-childs="-center center">
+                    <div class="links-categories" data-flex="stripe" data-flex-480="stripe w" data-childs="-center center">
                         <a href="#"><i class="icon-globe"></i>web design</a>
                         <a href="#" class="active"><i class="icon-clock"></i>graphic design</a>
                         <a href="#"><i class="icon-note"></i>icon design</a>
@@ -68,7 +68,7 @@
             <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tortor tellus, ut consectetur arcu. Nulla consequat egestas dapibus. Nullam eu quam sit amet justo imperdiet viverra.
                 <cite> --&ensp;John Doe, <a href="#">Graphicsfuel.comcom</a></cite>
             </blockquote>
-            <div class="content" data-flex="stripe" data-flex-480="vstripe">
+            <div class="content" data-flex="stripe" data-flex-640="vstripe">
                 <article>
                     <h2 data-flex="-center"><i class="icon-user"></i>Who we are</h2>
                     <div>
@@ -77,17 +77,11 @@
                         <span class="more"><a href="#">read more</a> ></span>
                     </div>
                 </article>
-                <figure class="divider" data-flex="-center">
-                    <img src="/images/shadowarticle.png" width="10" height="190" alt="">
-                </figure>
                 <article>
                     <h2 data-flex="-center"><i class="icon-gear"></i>Our Services</h2>
                     <p>Pellentesque augue nunc, volutpat ac fringilla ut, aliquet nec risus. Sed vitae nisi hendrerit magna interdum sodales a sed diam. Donec at ligula nibh, quis ullamcorper odio. Fusce ullamcorper condimentum eleifend. Aliquam erat volutpat.</p>
                     <span class="more"><a href="#">read more</a> ></span>
                 </article>
-                <figure class="divider" data-flex="-center">
-                    <img src="/images/shadowarticle.png" width="10" height="190" alt="">
-                </figure>
                 <article>
                     <h2 data-flex="-center"><i class="icon-star"></i>From the blog</h2>
                     <div class="post" data-childs="col">
@@ -110,12 +104,12 @@
         <footer>
             <div class="lwrap">    
                 <div class="footer">
-                    <form action='#' method='post' data-flex='axis' data-flex-480="vstripe">
+                    <form action='#' method='post' data-flex='axis' data-flex-480="vaxis">
                         <input type="text" placeholder="Your Name" name='input'>
                         <input type="email" placeholder="Email address"  name='input'>
                         <button><span class="btn btn-submit">subscribe</span></button>
                     </form>
-                    <div data-flex='stripe' data-flex-480="vstripe">
+                    <div data-flex='stripe' data-flex-480="vstripe r">
                         <div data-flex='col'>
                             <nav class="links-footer" data-flex="-center w">
                                 <a href="#" class="active">Home</a>|
@@ -126,7 +120,7 @@
                                 <a href="#">Blog</a>|
                                 <a href="#">Contact Us</a>
                             </nav>
-                            <span class="copyright visible">Copyright &copy; GrafixPSD. All rights reserved. This design is created by <a href='#'>GraphicsFuel.com</a></span>
+                            <span class="copyright">Copyright &copy; GrafixPSD. All rights reserved. This design is created by <a href='#'>GraphicsFuel.com</a></span>
                             <div class="links-social" data-flex>
                                 <a href="#"><i class="icon-tw"></i></a>
                                 <a href="#"><i class="icon-rss"></i></a>
@@ -137,7 +131,6 @@
                         <div>
                             <h5>Our Locations</h5>
                             <figure data-flex><img src="/images/map.png" width="226" height="104" alt=""></figure>
-                            <span class="copyright hidden">Copyright &copy; GrafixPSD. All rights reserved. This design is created by <a href='#'>GraphicsFuel.com</a></span>                            
                         </div>
                     </div>
                 </div>
