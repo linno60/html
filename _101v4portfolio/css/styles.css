@@ -1,0 +1,133 @@
+/*COMMON*/
+.lwrap{
+    max-width: 962px;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*HEADER*/
+header{
+    padding: 34rem 10px 51rem 10px;
+}
+body{
+    background: #e2a89a;
+}
+#logo{
+    margin: 11rem 0px 5px -9rem;
+}
+.wrap{
+    padding: 47rem 46rem 52rem 46rem;
+    background: linear-gradient(white, white) center center / calc(100% - 30rem) calc(100% - 30rem) no-repeat,
+        linear-gradient(white, white) center center / calc(100% - 30rem) calc(100% - 30rem) no-repeat,
+        url("/images/border1.png");
+    margin: -15rem;
+}
+.slider{
+    padding: 28rem 0px 27rem 0px;
+    margin-bottom: 49rem;
+    background-color: #4b4135;
+    box-shadow: inset 5px 8.7px 20px rgba(75, 65, 53, 0.5);
+}
+
+/*SERVICES*/
+.services, .portfolio, .about{
+    background: url("/images/border2.png")repeat-x left top;
+}
+.services{
+    padding: 45rem 0px 37rem 0px;
+}
+.services article{
+    width: 31%;
+    margin-bottom: 20rem;
+}
+.services article h3{
+    margin-bottom: 19rem;
+}
+.portfolio h3{
+    margin-bottom: 6px;
+}
+.services article h3, .portfolio h3{
+    color: #666666;
+    font-family: Rockwell;
+    font-size: 22px;
+    font-weight: normal;    
+    letter-spacing: -0.01em;
+}
+.services article p{
+    width: 100%;
+    color: #666666;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 24rem;
+    letter-spacing: -0.005em;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+    padding: 23rem 0px 28rem 0px;
+}
+.portfolio figure{
+    width: 31.2%;
+}
+.portfolio figcaption{
+    padding: 15rem 0px 30rem 0px;
+}
+.portfolio figcaption .more{
+    text-transform: none;
+    letter-spacing: -0.03em;
+    font-size: 12px;
+}
+.portfolio > div:first-child{
+    padding-bottom: 11rem;
+}
+
+/*ABOUT*/
+.about{
+    padding: 56rem 0px 20rem 0px;
+}
+.about > div{
+    background: url("/images/dashed.png"), url("/images/dashed.png");
+    background-repeat: repeat-x;
+    background-position: left top, left bottom;
+    padding: 0px 1rem 7rem 6rem;
+    margin: 1rem 0px -2rem 5px;
+}
+.about p .more{
+    margin-left: 21rem;
+}
+.about p{
+    color: #666;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 42rem 10px 31rem 10px;
+}
+footer span{
+    color: black;
+    letter-spacing: 0.015em;
+}
+footer > div:first-child{
+    margin-left: -8rem;
+}
+footer > div:last-child{
+    padding-top: 2px;
+}
+footer h6{
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    letter-spacing: 0.04em;
+    color: black;
+    font-weight: 400;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+    .links-nav, .links-social {margin-right: 0px;}
+}

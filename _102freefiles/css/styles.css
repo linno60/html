@@ -1,0 +1,232 @@
+/*COMMON*/
+body{
+    background:
+        url("/images/light-header.png")center top repeat-x,
+        url("/images/bg.png"),
+        url("/images/shadow-bottom.png")center bottom repeat-x;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1001px;
+    padding: 0px 10px;   
+}
+.title{
+    color: white;
+    font-family: Play;
+    font-size: 26px;
+    line-height: 47px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    margin-bottom: 15px;
+    letter-spacing: -0.01em;
+}
+
+/*HEADER*/
+#logo{
+    margin: 0px 10px 0px -1rem;
+}
+.top-bar{
+    background: linear-gradient(rgba(0,0,0,.5)0%, rgba(17,16,19,.5)48%,  rgba(17,16,19,.5)100%);
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 rgba(255,255,255, 0.2); 
+}
+.top-bar .lwrap{
+        max-width: 1022px;
+    position: relative;
+    padding: 7px 12px 0px 15px;
+}
+.top-bar .lwrap:before{
+    content: ""; 
+    position: absolute;
+    width: 769rem;
+    height: 286rem;
+    top: 0px;
+    left: -20%;
+    background: url("/images/light-top.png")no-repeat center center;
+    background-size: 100%;
+    z-index: -1;
+}
+header{
+    padding-top: 35rem;
+}
+
+/*SLIDER-LG*/
+.slider-lg figure{
+    box-shadow: 0 1px 8px black, inset 0 5px 5px rgba(255,255,255,.05);
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.17);
+}
+.slider-lg figure img{
+    border-radius: 5px;
+}
+.slider-lg figure figcaption{
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,.9);
+    width: 100%;
+    padding: 17rem 17rem 13rem 20rem;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 1px 0 black;
+    text-align: center;
+}
+.slider-lg figcaption strong{
+    text-shadow: 0.5px 0.9px 0 black;
+    color: white;
+    font-family: Play;
+    font-size: 19px;
+    letter-spacing: 0.007em;
+    padding-bottom: 5px;
+}
+.slider-lg figcaption small{
+    color: #8a8b89;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0px 18rem 1px 22rem;
+    letter-spacing: 0.015em;
+}
+
+/*CONTENT*/
+.content-wrap{
+    padding: 13rem 18rem 0px 18rem;
+    background-color: rgba(0,0,0,.5);
+    border: 3px solid rgba(255,255,255,.1);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0,0,0,.5);
+}
+.content-wrap > div {
+    padding-bottom: 55rem;
+}
+.content-wrap > div:last-child {
+    padding-bottom: 39rem;
+}
+.content-wrap > div > div:last-child{
+    width: 30.9%;
+    flex-shrink: 0;
+    margin-left: 29rem;
+}
+.content-wrap .btn-default {
+    min-width: 98rem;
+    height: 26px;
+}
+.content-wrap p{
+    color: #a8a8a8;
+    line-height: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 0.004em;
+}
+.content-wrap p strong{
+    margin-bottom: 8px;
+    display: inline-block;
+    letter-spacing: 0em;
+}
+.contact figure{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 8px 0px 0px 2px;
+    height: 153rem;
+}
+.contact figure:before{
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    border: 3px solid rgba(255,255,255,.5);
+    border-radius: 5px;
+}
+.contact{
+    line-height: 18px;
+    color: #a8a8a8;
+}
+.contact address{
+    display: inline;
+    font-style: normal;
+}
+.contact a{
+    color: #349ce6;
+    text-decoration: underline;
+}
+.contact a:active, .contact a:hover, .contact a:focus{
+    text-decoration: none;
+}
+
+/*SLIDER-SM*/
+.slider-sm {
+    padding: 17px 8px 9px 9px;
+    background-color: rgba(0,0,0,.5);
+    border: 1px solid rgba(255,255,255,.07);
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.97), inset 0 1px 0 rgba(255,255,255,.03);
+    margin-top: 25px;
+}
+.slider-sm > div{
+    flex-grow: 1;
+    padding: 0px 5px 0px 4px;
+}
+.slider-sm > a{
+    margin-bottom: 13px;
+}
+.slider-sm figcaption{
+    position: relative;
+}
+.slider-sm figcaption span{
+    position: absolute;
+    bottom: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: #a8a8a8;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: none;
+    left: 0px;
+}
+.slider-sm figcaption a{
+    text-align: center;
+    padding: 6px 7px 6px 5px;
+    color: #a8a8a8;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.54);
+    letter-spacing: -0.06em;
+}
+.slider-sm figcaption a:active, .slider-sm figcaption a:hover, .slider-sm figcaption a:focus{
+    color: #349ce6;
+}
+.slider-sm figure:hover figcaption span{
+    display: block;
+}
+
+/*FOOTER*/
+footer{
+    background: url("/images/shadow-footer.png")no-repeat center top;
+    padding: 18px 0px 40rem 0px;
+}
+footer > span{
+    color: #8e8e8e;
+    text-align: right;
+}
+footer > span > span{
+    color: black;
+}
+footer > span > a{
+    white-space: nowrap;
+    color: #c2c3c3;
+    text-decoration: underline;
+}
+footer > span > a:active, footer > span > a:hover, footer > span > a:focus{
+    text-decoration: none;
+}
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .content-wrap > div > div:last-child {width: 35%;}
+    .slider-sm figure {width: 50%;}
+    .slider-lg figcaption strong {font-size: 16px;}
+    footer > span{text-align: center;}
+    .contact figure {height: 140px;}
+}

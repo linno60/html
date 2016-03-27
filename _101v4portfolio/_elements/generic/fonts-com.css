@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=7569aca5-5a08-491d-8277-bcbee9c153e3");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Rockwell";
+    src: url("/fonts/fonts.com/8dd355f9-1a9a-4d91-8aa1-7dcc9deeb439.woff2") format("woff2"), url("/fonts/fonts.com/de4b0540-9702-4662-8f3a-228419485257.woff") format("woff");
+}

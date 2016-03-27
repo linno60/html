@@ -1,0 +1,23 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=7569aca5-5a08-491d-8277-bcbee9c153e3");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Rockwell";
+    src: url("/fonts/fonts.com/8dd355f9-1a9a-4d91-8aa1-7dcc9deeb439.woff2") format("woff2"), url("/fonts/fonts.com/de4b0540-9702-4662-8f3a-228419485257.woff") format("woff");
+}
+/* ICONS */
+.icon-arrowb {width: 10px; height: 7px; background: url('/images/icons/arrowb.png');}
+.icon-arroww {width: 7px; height: 11px; background: url('/images/icons/arroww.png');}
+.icon-fb {width: 12px; height: 24px; background: url('/images/icons/fb.png');}
+.icon-in {width: 21px; height: 21px; background: url('/images/icons/in.png');}
+.icon-mail {width: 22px; height: 15px; background: url('/images/icons/mail.png');}
+.icon-next {width: 28px; height: 28px; background: url('/images/icons/next.png');}
+.icon-prev {width: 28px; height: 28px; background: url('/images/icons/prev.png');}
+.icon-tw {width: 15px; height: 21px; background: url('/images/icons/tw.png');}

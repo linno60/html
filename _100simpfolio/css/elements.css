@@ -10,18 +10,19 @@ body{
     font-weight: 400;
     text-transform: uppercase;
     color: silver;
-    padding: 0px 15px;
-    margin: 2px 15px;
+    padding: 0px 28rem;
+    margin: 2px;
     height: 28px;
     position: relative;
+    letter-spacing: 0.01em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background:
         linear-gradient(#fddecb, #fddecb) bottom center / calc(100% - 28px) 28px no-repeat, 
-        linear-gradient(-45deg, #fddecb, #fddecb 50%, transparent 50%) left top / 14rem 14rem no-repeat,
-        linear-gradient(45deg, #fddecb, #fddecb 50%, transparent 50%) right top / 14rem 14rem no-repeat,
-        linear-gradient(135deg, #fddecb, #fddecb 50%, transparent 50%) right bottom / 14rem 14rem no-repeat,
-        linear-gradient(-135deg, #fddecb, #fddecb 50%, transparent 50%) left bottom / 14rem 14rem no-repeat;
+        linear-gradient(-45deg, #fddecb, #fddecb 50%, transparent 50%) left top / 14px 14px no-repeat,
+        linear-gradient(45deg, #fddecb, #fddecb 50%, transparent 50%) right top / 14px 14px no-repeat,
+        linear-gradient(135deg, #fddecb, #fddecb 50%, transparent 50%) right bottom / 14px 14px no-repeat,
+        linear-gradient(-135deg, #fddecb, #fddecb 50%, transparent 50%) left bottom / 14px 14px no-repeat;
     color: black;
 }
 .links-nav a:before{
@@ -31,6 +32,9 @@ body{
 .links-nav a:after{
     right: -14px;
     border-left: 14px solid #fddecb;
+}
+.links-pagination{
+    margin-bottom: 52rem;
 }
 .links-pagination a{
     width: 29px;
@@ -46,20 +50,28 @@ body{
     background: linear-gradient(#393f45, #292832);
     color: #fcb5b5;    
 }
+.links-social{
+    margin-left: -8px;
+}
 .links-social a{
     margin: 9px;
 }
+.links-social a:hover .icon-fb {background: url('/images/icons/fb-hover.png');}
+.links-social a:hover .icon-fl {background: url('/images/icons/fl-hover.png');}
+.links-social a:hover .icon-tw {background: url('/images/icons/tw-hover.png');}
+.links-social a:hover .icon-yt {background: url('/images/icons/yt-hover.png');}
 
 /*BUTTONS*/
 .btn-web i{
-    margin: 3px 0px 0px 15px;
+    margin: 4px 0px 0px 15rem;
 }
 .btn-web{
     color: white;
     font-size: 15px;
     font-family: Bebas;
-    min-width: 197px;
-    min-height: 37px;
+    min-width: 197rem;
+    height: 37px;
+    letter-spacing: 0.01em;
     border-radius: 19px;
     padding: 0px 5px;
     background: linear-gradient(#fda0a0, #ff7373);

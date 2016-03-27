@@ -1,0 +1,127 @@
+/*COMMON*/
+body{
+    background: url("/images/bg.png");
+}
+.lwrap{
+    max-width: 980px;
+    padding: 0px 10px;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*HEADER*/
+#logo{
+    margin-right: 20px;
+}
+header{
+    background: linear-gradient(#393f45, #292832);
+    border-bottom: 1px solid white;
+}
+header .lwrap{
+    padding: 23rem 11px 26rem 10px;
+}
+
+/*CONTENT*/
+h1.hdr{  
+    width: 100%;
+    position: relative;
+    text-shadow: 0.5px 0.9px 2px rgba(206, 97, 97, 0.75);
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    padding: 18rem 30rem 22rem 30rem;
+    margin: 48rem 0px 17px 0px;
+    background: 
+        url("/images/dashed.png")repeat-x center top 8px,
+        url("/images/dashed.png")repeat-x center bottom 7px,
+        url("/images/shadow1.png")no-repeat center top,
+        #ff7373;
+    border-bottom-width: 0.1px;
+    border-image-slice: 0 0 39 0;
+    border-image-width: 0px 0px 39px 0px;
+    border-image-outset: 0px 0px 39px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url("/images/shadow2.png");
+    letter-spacing: -0.002em;
+}
+h1.hdr:before, h1.hdr:after{
+    content: "";
+    position: absolute;
+    width: 122px;
+    height: 101px;
+    bottom: -25px;
+    z-index: -1;
+}
+h1.hdr:before{
+    background: url("/images/leftflag.png");
+    left: -89px;
+}
+h1.hdr:after{
+    background: url("/images/rightflag.png");
+    right: -89px;
+}
+.post{
+    max-width: 960px;
+    color: black;
+    padding: 57rem 0px;
+    background: url("/images/border.png")repeat-x left bottom;
+    box-shadow: 0 1px 0 rgba(255,244,213,.5);
+}
+.post:last-child{
+    background: none;
+    box-shadow: none;
+    padding: 57rem 0px 43rem 0px;
+}
+.post > figure{
+    position: relative;
+    margin-bottom: 36rem;
+    border-top-width: 0.1px;
+    border-image-slice: 0 0 39 0;
+    border-image-width: 0px 0px 39px 0px;
+    border-image-outset: 0px 0px 39px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url("/images/shadow3.png");
+}
+.post h2{   
+    font-size: 20px;
+}
+.post p{
+    line-height: 18px;
+}
+.post > div{
+    max-width: 500px;
+    padding: 7rem 20rem 0px 0px;
+}
+.post .btn-web{
+    margin: 5px 5rem 14rem 0px;
+}
+
+/*FOOTER*/
+footer{
+    background: #34373f;
+    border-top: 1px solid white;
+}
+footer .lwrap{
+    padding: 13px 10px 47px 10px;
+}
+footer span{
+    color: #878787;
+    letter-spacing: -0.005em;
+    padding-top: 12px;
+}
+footer .links-social + a{
+    color: #818282;
+    padding-left: 2px;
+    text-decoration: underline;
+}
+footer .links-social + a i{
+    margin: 0px 0px 2px 4px;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: none;
+}
