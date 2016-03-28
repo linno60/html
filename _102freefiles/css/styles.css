@@ -2,17 +2,23 @@
 body{
     background:
         url("/images/light-header.png")center top repeat-x,
-        url("/images/bg.png"),
-        url("/images/shadow-bottom.png")center bottom repeat-x;
+        url("/images/shadow-bottom.png")center bottom repeat-x,
+        url("/images/bg.png");
 }
-figure > img, a > img{
+figure > img, a > img, figure > iframe{
     width: 100%;
     height: 100%;
     display: block;
 }
 .lwrap{
     max-width: 1001px;
-    padding: 0px 10px;   
+    padding: 0px 10rem;   
+}
+p{
+    color: #a8a8a8;
+    line-height: 18px;
+    margin-bottom: 10rem;
+    letter-spacing: 0.006em;
 }
 .title{
     color: white;
@@ -21,7 +27,7 @@ figure > img, a > img{
     line-height: 47px;
     font-weight: 400;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
     letter-spacing: -0.01em;
 }
 
@@ -35,11 +41,11 @@ figure > img, a > img{
     box-shadow: 0 1px 0 rgba(255,255,255, 0.2); 
 }
 .top-bar .lwrap{
-        max-width: 1022px;
+    max-width: 1022px;
     position: relative;
-    padding: 7px 12px 0px 15px;
+    padding: 7rem 12rem 0px 15rem;
 }
-.top-bar .lwrap:before{
+.top-bar .links-top:after{
     content: ""; 
     position: absolute;
     width: 769rem;
@@ -55,6 +61,9 @@ header{
 }
 
 /*SLIDER-LG*/
+.slider-lg{
+    background: url("/images/shadow-slider.png")no-repeat center bottom 38rem, url("/images/light-slider.png")no-repeat center bottom -100px;
+}
 .slider-lg figure{
     box-shadow: 0 1px 8px black, inset 0 5px 5px rgba(255,255,255,.05);
     position: relative;
@@ -71,7 +80,7 @@ header{
     width: 100%;
     padding: 17rem 17rem 13rem 20rem;
     border-radius: 0px 0px 5px 5px;
-    box-shadow: 0 1px 0 black;
+    box-shadow: 0 1px 0 black, 0 3px 0 rgba(255,255,255,.1);
     text-align: center;
 }
 .slider-lg figcaption strong{
@@ -80,13 +89,13 @@ header{
     font-family: Play;
     font-size: 19px;
     letter-spacing: 0.007em;
-    padding-bottom: 5px;
+    padding-bottom: 5rem;
 }
 .slider-lg figcaption small{
     color: #8a8b89;
     font-size: 10px;
     text-transform: uppercase;
-    padding: 0px 18rem 1px 22rem;
+    padding: 0px 19rem 1rem 22rem;
     letter-spacing: 0.015em;
 }
 
@@ -113,14 +122,8 @@ header{
     min-width: 98rem;
     height: 26px;
 }
-.content-wrap p{
-    color: #a8a8a8;
-    line-height: 18px;
-    margin-bottom: 10px;
-    letter-spacing: 0.004em;
-}
 .content-wrap p strong{
-    margin-bottom: 8px;
+    margin-bottom: 8rem;
     display: inline-block;
     letter-spacing: 0em;
 }
@@ -128,8 +131,11 @@ header{
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    margin: 8px 0px 0px 2px;
+    margin: 8rem 0px 0px 1rem;
     height: 153rem;
+    max-width: 288px;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 3px rgba(0,0,0,0.75);
 }
 .contact figure:before{
     content: "";
@@ -146,10 +152,12 @@ header{
 .contact address{
     display: inline;
     font-style: normal;
+    letter-spacing: -0.01em;
 }
 .contact a{
     color: #349ce6;
     text-decoration: underline;
+    letter-spacing: -0.005em;
 }
 .contact a:active, .contact a:hover, .contact a:focus{
     text-decoration: none;
@@ -157,19 +165,19 @@ header{
 
 /*SLIDER-SM*/
 .slider-sm {
-    padding: 17px 8px 9px 9px;
+    padding: 17rem 8rem 9rem 9rem;
     background-color: rgba(0,0,0,.5);
     border: 1px solid rgba(255,255,255,.07);
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0,0,0,.97), inset 0 1px 0 rgba(255,255,255,.03);
-    margin-top: 25px;
+    margin-top: 25rem;
 }
 .slider-sm > div{
     flex-grow: 1;
-    padding: 0px 5px 0px 4px;
+    padding: 0px 5rem 0px 4rem;
 }
 .slider-sm > a{
-    margin-bottom: 13px;
+    margin-bottom: 13rem;
 }
 .slider-sm figcaption{
     position: relative;
@@ -205,11 +213,12 @@ header{
 /*FOOTER*/
 footer{
     background: url("/images/shadow-footer.png")no-repeat center top;
-    padding: 18px 0px 40rem 0px;
+    padding: 18px 0px 30rem 0px;
 }
 footer > span{
     color: #8e8e8e;
     text-align: right;
+    letter-spacing: 0.005em;
 }
 footer > span > span{
     color: black;
@@ -222,11 +231,12 @@ footer > span > a{
 footer > span > a:active, footer > span > a:hover, footer > span > a:focus{
     text-decoration: none;
 }
+
 /*MEDIA QUERIES*/
 @media (max-width: 640px) {
     .content-wrap > div > div:last-child {width: 35%;}
     .slider-sm figure {width: 50%;}
-    .slider-lg figcaption strong {font-size: 16px;}
+    .slider-lg figcaption strong {font-size: 12px;}
     footer > span{text-align: center;}
-    .contact figure {height: 140px;}
+    .contact figure {height: 200px; max-width: 100%;}
 }

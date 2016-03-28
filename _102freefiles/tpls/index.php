@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="lwrap">
-            <header data-flex="axis w">
+            <header data-flex="axis w" data-flex-640="around w">
                 <a href="#" title="Return to the homepage" id="logo">
                     <img src="/images/logo.png" width="285" height="36" alt="Freefiles">
                 </a>

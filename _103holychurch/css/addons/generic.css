@@ -1,0 +1,27 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=b07988f5-15c0-49aa-a430-61406db73e2d");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "TrajanPro";
+    src: url("/fonts/fonts.com/610145ac-dd31-4024-b833-3ab0ce6b7847.woff2") format("woff2"), url("/fonts/fonts.com/b4312891-e355-4bdc-80c9-ef3dbf7bd916.woff") format("woff");
+}
+@font-face {
+    font-family: "TrajanPro";
+    src: url("/fonts/fonts.com/7255bae8-e86a-4f7e-bb5d-8e99aebbea20.woff2") format("woff2"), url("/fonts/fonts.com/42eddbd0-3b0e-4c24-ba3b-57b9859b2602.woff") format("woff");
+    font-weight: 700;
+}
+/* ICONS */
+.icon-facebook {width: 18px; height: 18px; background: url('/images/icons/facebook.png');}
+.icon-linkedin {width: 18px; height: 18px; background: url('/images/icons/linkedin.png');}
+.icon-next {width: 16px; height: 21px; background: url('/images/icons/next.png');}
+.icon-prev {width: 16px; height: 21px; background: url('/images/icons/prev.png');}
+.icon-skype {width: 18px; height: 18px; background: url('/images/icons/skype.png');}
+.icon-twitter {width: 18px; height: 18px; background: url('/images/icons/twitter.png');}
+.icon-youtube {width: 18px; height: 18px; background: url('/images/icons/youtube.png');}

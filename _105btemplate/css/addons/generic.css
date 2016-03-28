@@ -1,0 +1,8 @@
+
+/* FONTS */
+@font-face {
+	font-family: 'LucidaGrande';
+	src: local(''), url('/fonts/lucidagrande.woff') format('woff');
+}
+/* ICONS */
+.icon-rss {width: 12px; height: 12px; background: url('/images/icons/rss.png');}

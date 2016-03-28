@@ -1,0 +1,97 @@
+/*COMMON*/
+.lwrap{
+    border-top: 10px solid black;
+    max-width: 980px;
+    margin-bottom: 203rem;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*HEADER*/
+header .lbl-default{
+    margin-bottom: -54rem;
+    position: relative;
+}
+header > div{
+    padding: 48rem 20rem 21rem 17rem;
+}
+
+/*CONTENT*/
+.content h1{
+    text-shadow: 0 1px 0 white;
+    color: black;   
+    font-weight: 700;
+    font-size: 36px;
+    padding: 0px 0px 104rem 19rem;
+}
+.content{
+    padding-bottom: 12rem;
+}
+.content hr{
+    margin: 0px -61rem 26rem 0px;
+}
+.content > div{
+    margin-bottom: 23rem;
+}
+.content > figure{
+    width: 38.4%;
+    flex-shrink: 0;
+    position: relative;
+    margin-right: -54rem;
+}
+.price{
+    text-shadow: 0 1px 0 white;
+    color: #5ea222;
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 22rem;
+}
+.content a{
+    display: inline-block;
+    margin: 3rem 14rem 0px 0px;
+}
+.content p{
+    color: #999;
+    font-size: 18px;
+    line-height: 26px;
+    position: relative;
+    padding: 0px 56rem 44rem 19rem;
+}
+
+/*ARTICLES*/
+.articles{
+    padding: 20rem 20rem 2px 19rem;
+}
+.articles h2{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.articles time, .articles p{
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+.articles time{
+    display: inline-block;
+    padding-bottom: 20rem;
+}
+.articles article{
+    width: 23.5%;
+    margin-bottom: 19px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+    .content > figure {margin-right: 10px;}
+}
+@media (max-width: 640px) {
+    .articles article{width: 48%;}
+    .content h1, .content p{padding:10px;}
+}
+@media (max-width: 480px) {
+    .content > figure {display: none;}
+}

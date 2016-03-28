@@ -1,0 +1,38 @@
+body{
+    font-size: 14px;
+    font-family: HelveticaNeue;
+}
+
+/*LINKS*/
+.links-nav a{
+    text-shadow: 0 1px 0 white;
+    color: #999;
+    margin: 0px 19rem;
+    letter-spacing: 0.008em;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: black;
+}
+.links-nav{
+    padding: 9rem 0px 18rem 0px;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*OTHER*/
+hr{
+    height: 9px;
+    margin: 0;
+    background: linear-gradient(#fdfdfd, #fbfbfb 2px, #e0e0e0 2px, #e0e0e0 3px, #f6f6f6 4px, #fdfdfd)
+}
