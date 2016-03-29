@@ -1,0 +1,43 @@
+body{
+    font-size: 13px;
+    font-family: Georgia;
+}
+
+/*LINKS*/
+.links-nav a{
+    text-shadow: 0 1px 0 rgba(93,95,103,.75);
+    color: white;
+    font-family: Rockwell;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.links-side a{
+    color: #a76143;
+    font-family: Georgia;
+    font-size: 13px;
+}
+.links-side li{
+    line-height: 22px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.links-side a:active, .links-side a:hover, .links-side a:focus, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+
+/*PAGINATION*/
+.pagination{
+    background: #f5f5ef;
+    max-width: 510px;
+}
+.pagination a{
+    flex-grow: 1;
+    height: 31px;
+    font-family: Rockwell;
+    font-size: 16px;
+    color: #6e797d;
+}
+.pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
+    color: white;
+    background: #b87f66;
+}

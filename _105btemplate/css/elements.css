@@ -6,7 +6,7 @@ body{
 /*LINKS*/
 .links-nav a{
     color: #ede9dc;   
-    line-height: 24px;
+    line-height: 25px;
     background: rgba(255,255,255,.1);
     margin-bottom: 1px;
     padding: 0px 10rem;
@@ -16,15 +16,15 @@ body{
     background: rgba(255,255,255,.3);
 }
 .links-nav, .links-categories, .links-subscribe{
-    max-width: 460px;
+    max-width: 280px;
+    width: 100%;
 }
 .links-categories, .links-subscribe{
     border-top: 1px solid rgba(255,255,255,.1);
 }
 .links-categories li, .links-subscribe li{
-    border-bottom: 1px solid rgba(255,255,255,.1);
-    padding: 0px 10rem 0px 30rem;
-    line-height: 24px;
+    border-bottom: 1px solid rgba(255,255,255,.1);    
+    line-height: 18px;
 }
 .links-categories a, .links-subscribe a, .links-categories{
     color: #ede9dc;
@@ -38,15 +38,23 @@ body{
     height: 4px;
     border-radius: 50%;
     background: #ede9dc;
-    margin: 0px 5px 3px 0px;
+    margin: 0px 14rem 2px 0px;
     content: "";
     display: inline-block;
 }
-.links-subscribe li{
-    background: url(/images/icons/rss.png)no-repeat 5px 5px;
+.links-categories li{
+    padding: 0px 10rem 0px 14rem;
 }
-
-/*PAGINATION*/
+.links-categories a{
+    margin-right: 5px;
+}
+.links-categories em{
+    text-align: right;
+}
+.links-subscribe li {
+    padding: 0px 10rem 0px 32px;
+    background: url(/images/icons/rss.png)no-repeat 11px 3px;
+}
 .pagination{
     background: radial-gradient(circle at center -25px, rgba(255,255,255,.2), transparent), linear-gradient(#2d3844, #222a33);
     box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.1);
@@ -54,24 +62,29 @@ body{
     border-bottom: none;
     border-radius: 3px 3px 0px 0px;
     max-width: 300px;
+    margin: 10px 0px -2px 0px;
+    padding-bottom: 4rem;
 }
 .pagination a{
-    height: 37px;
-    padding: 0px 10rem;
+    height: 31px;
+    padding: 0px 9.5rem;
     color: #ede9dc;
     font-size: 11px;
 }
 .pagination a span{
-    text-decoration: underline;
-    padding-left: 5rem;
+    border-bottom: 1px solid #ede9dc;
+    margin: 0px 5rem;
+    padding-bottom: 2px;
 }
 .pagination a:active span, .pagination a:hover span, .pagination a:focus span{
-    text-decoration: none;
+    border-bottom: none;
 }
 
 /*LABELS*/
 .lbl-default{
-    width: 42px;
+    width: 44px;
+    flex-direction: column;
+    align-items: stretch;
     background: radial-gradient(circle at center -10px, rgba(255,255,255,.3), transparent, transparent), linear-gradient(#2d3844, #222a33);
     border: 1px solid white;
     border-radius: 3px;
@@ -82,6 +95,8 @@ body{
     height: 17px;
     font-size: 11px;
     color: rgba(237,233,220,.3);
+    border-radius: 0px 0px 3px 3px;
+    padding-bottom: 4rem;
 }
 .lbl-default span{
     height: 25px;
@@ -93,7 +108,7 @@ body{
 blockquote{
     border-top: 2px solid rgba(0,0,0,.5);
     border-bottom: 2px solid rgba(0,0,0,.5);
-    padding: 10rem 0px;
+    padding: 19rem 0px 17rem 0px;
     color: #2d3844;
     font-family: Georgia;
     font-size: 20px;
@@ -101,15 +116,18 @@ blockquote{
     line-height: 24px;
     max-width: 208px;
     text-align: center;
+    margin: 2rem 0px 2rem 9rem;
 }
 
 /*OTHER*/
 .more, .more a{
     color: #222a33;
+    line-height: 18px;
 }
 .more a{
-    text-decoration: underline;
+    box-shadow: inset 0px -1px 0px 0px #222a33;
+    margin-right: 4px;
 }
 .more a:active, .more a:hover, .more a:focus{
-    text-decoration: none;
+    box-shadow: none;
 }

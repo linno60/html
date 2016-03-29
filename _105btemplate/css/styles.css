@@ -1,0 +1,118 @@
+/*COMMON*/
+body{
+    background: #2d3844;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 920px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    background: rgba(0,0,0,.25);
+    margin: 11rem 0px 18rem 0px;
+}
+header .lwrap{
+    padding: 35rem 10px 37rem 31rem;
+    width: 100%;
+}
+#logo{
+    margin: 0px 10px 8rem 0px
+}
+
+/*CONTENT*/
+.content{   
+    width: 100%;
+    background: #ede9dc;
+    border: 2px solid white;
+    border-radius: 6rem;
+    padding: 4rem 18rem 0px 17rem;
+    margin-bottom: 85rem;
+    box-shadow: 0px 2px 0px 0px black;
+}
+.post{  
+    width: 100%;
+    padding: 13rem 0px 26rem 0px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 3px;
+}
+.post p{ 
+    line-height: 19px;
+    color: rgba(0,0,0,.75);
+    margin: 0px 0px 17rem 2rem;
+}
+.post blockquote{
+    float: right;
+}
+.post-caption{
+    margin-bottom: 15px;
+}
+.post-caption h2{
+    color: #2d3844;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 2rem 0px 1rem 0px;
+}
+.post-caption > span, .post-caption > span a{
+    font-size: 11px;
+    color: rgba(0,0,0,.3);
+}
+.post-caption span a{
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    padding-bottom: 2px;
+}
+.post-caption span a:active, .post-caption span a:hover, .post-caption span a:focus{
+    border-bottom: none;
+}
+.post-caption .lbl-default{
+    margin-right: 19rem;
+    float: left;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 31.1%;
+    flex-shrink: 0;
+    padding-top: 12rem;
+    margin-left: 20rem;
+}
+.sidebar > div{
+    margin-bottom: 27rem;
+}
+.sidebar p{
+    color: #ede9dc;
+    font-size: 11px;
+    line-height: 18px;
+}
+.sidebar h3{
+    color: #ede9dc;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+}
+.about{
+    padding-bottom: 1rem;
+}
+.about > div{
+    padding: 7rem 3rem 8rem 0px;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.about figure{
+    margin: 3rem 10rem 0px 0px;
+    float: left;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .sidebar > div{width: 32%;}
+    .lwrap{padding: 0px;}
+    .sidebar{padding: 0px 10px;}
+    .sidebar > div{width: 49%;}
+    .sidebar > div.about{width: 100%;}
+}

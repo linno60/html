@@ -1,0 +1,216 @@
+/*COMMON*/
+body{
+    background: #ebebeb;
+}
+.lwrap{
+    max-width: 980px;
+    min-height: 100%;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.product-grid > div, .topbar, .cart-content, .filter form{
+    background: linear-gradient(0deg, #f5f5f5, white 20px, white);
+}
+
+/*HEADER*/
+#logo{
+    margin: 4rem 10px 0px 0px;
+}
+header{
+    background: #3f3f3f;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,.1), 2px 0px 0px 0px rgba(0,0,0,.1), -2px 0px 0px 0px rgba(0,0,0,.1);
+    border-radius: 0px 0px 7px 7px;
+}
+.order{
+    background: #343434;
+    border-radius: 5px;
+    padding: 11rem 22rem 13rem 11rem;
+    font-family: Corbel;
+}
+.order span{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.055em;
+    margin-bottom: 4rem;
+}
+.order small{
+    color: rgba(255,255,255,.5);
+}
+header > div:first-child{
+    padding: 37rem 20rem 32rem 18rem;
+}
+.nav{
+    border-radius: 0px 0px 7px 7px;
+    padding: 8rem 20rem 9px 9rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+    background: rgba(0,0,0,.1);
+    box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.1);
+}
+.topbar, .content-wrap{    
+    border: 1px solid lightgrey;
+    border-radius: 7rem;
+}
+.topbar{    
+    margin: 20rem 0px;
+    padding: 0px 20rem 0px 18rem;    
+}
+
+/*CONTENT*/
+.content-wrap{
+    padding: 19rem 19rem 0px 19rem;
+    margin-bottom: 208rem;
+    background: white;
+}
+.content{
+    width: 100%;
+}
+.filter{
+    margin-bottom: 19rem;
+}
+.filter form{
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid lightgrey;
+    padding: 5rem 9rem 6rem 8rem;
+    color: rgba(0,0,0,.5);
+    letter-spacing: -0.055em;
+}
+.product-grid > div{
+    width: 31.43%;
+    position: relative;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 19rem;
+}
+.product-grid figure{
+    margin: 14rem 0px 11rem 0px;
+}
+.overlay{
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    background: url(/images/icons/overlay.png);
+    width: 12px;
+    height: 12px;
+}
+.product-grid h6{
+    font-weight: 700;
+    line-height: 24px;  
+    margin: 0px 0px 14rem 2rem;
+}
+.product-grid h6 a{
+    color: #3d3d3d;  
+}
+.product-grid h6 a:active, .product-grid h6 a:hover, .product-grid h6 a:focus{
+    text-decoration: underline;
+}
+.price{
+    color: #98b240;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.055em;
+}
+.product-grid .caption{
+    padding: 10rem 10rem 10rem 6px;
+    width: 100%;
+    flex-grow: 1;
+    background: url("/images/line.png")repeat-x left top;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 23.4%;
+    flex-shrink: 0;
+    margin-left: 20rem;
+}
+.sidebar > div{
+    margin-bottom: 20px;
+}
+.sidebar .btn-default{
+    padding: 0px 15rem;
+}
+.cart-content{
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+.legen{
+    color: #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+    letter-spacing: -0.055em;
+}
+.legen:active, .legen:hover, .legen:focus{
+    border-bottom: none;
+}
+.cart-content figure{
+    margin-right: 8px;
+}
+.cart-content figure ~ a{
+    color: #3d3d3d;
+    letter-spacing: -0.01em;
+    padding-bottom: 2px;
+}
+.cart-content figure ~ a:active, .cart-content figure ~ a:hover, .cart-content figure ~ a:focus{
+    text-decoration: underline;
+}
+.cart-content > div{
+    padding: 6px 9px 3px 7px;
+    background: url("/images/line.png")repeat-x left bottom;
+}
+.cart-content > div:last-child{
+    background: none;
+    padding: 10px 9px 9px 10px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 12rem 4px 0px 18rem;
+    background: lightgrey;
+    border-radius: 7px 7px 0px 0px;
+}
+footer span, footer a{
+    color: rgba(0,0,0,.5);
+    letter-spacing: -0.055em;
+    line-height: 24px;
+}
+footer h3{
+    color: #575757;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -0.055em;
+}
+.link{
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+footer a:active, footer a:hover, footer a:focus{
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+footer .link:active, footer .link:hover, footer .link:focus{
+    border-bottom: none;
+}
+footer form{
+    margin-right: 5px;
+}
+footer > div{
+    width: 24.2%;
+    margin-bottom: 11px;
+}
+footer > div:first-child{
+    min-width: 194px;
+}
+footer .btn-submit{
+    padding: 0px 10.5rem;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .sidebar > div, footer > div{width: 49%;}
+}
+@media (max-width: 480px) {
+    .product-grid > div{width: 49%;}
+}
