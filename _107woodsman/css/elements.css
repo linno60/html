@@ -11,24 +11,39 @@ body{
     font-size: 18px;
     text-transform: uppercase;
     margin: 5px;
+    letter-spacing: 0.18em;
 }
 .links-side a{
     color: #a76143;
     font-family: Georgia;
-    font-size: 13px;
+    margin-right: -3rem;
+    letter-spacing: 0.005em;
 }
 .links-side li{
-    line-height: 22px;
+    line-height: 21px;
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .links-side a:active, .links-side a:hover, .links-side a:focus, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     text-decoration: underline;
+}
+.links-subscribe{
+    max-width: 470px;
+}
+.links-subscribe span{
+    color: #696961;
+    font-family: Arial;
+    font-size: 11px;
+}
+.links-subscribe a{
+    margin: 1px 5px 0px 0px;
 }
 
 /*PAGINATION*/
 .pagination{
     background: #f5f5ef;
     max-width: 510px;
+    width: 100%;
+    padding-right: 9px;
 }
 .pagination a{
     flex-grow: 1;
@@ -36,8 +51,53 @@ body{
     font-family: Rockwell;
     font-size: 16px;
     color: #6e797d;
+    min-width: 10px;
+    letter-spacing: 0.02em;
+    padding: 0px 1px 2px 1px;
+}
+.pagination a.gap{
+    width: 7px;
 }
 .pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: white;
     background: #b87f66;
+}
+.pagination a:first-child{
+    padding: 0px 4px 2px 4px;
+}
+
+/*FORMS*/
+.form-search{
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #c0c0b2;
+    background: white;
+    padding-right: 8rem;
+}
+.form-search input[type=search]{
+    flex-grow: 1;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: italic;
+    padding: 0px 9rem;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.form-search input[type=search]::-webkit-input-placeholder{color: #babab0;}
+.form-search input[type=search]::-moz-placeholder{color: #babab0;}
+.form-search input[type=search]:-ms-input-placeholder{color: #babab0;}
+
+/*OTHER*/
+.share{
+    color: #a76143;
+    font-style: italic;
+    letter-spacing: 0.005em;
+    background: url(/images/icons/share.png)no-repeat left center;
+    padding-left: 27px;
+}
+.share:active, .share:hover, .share:focus{
+    text-decoration: underline;
 }

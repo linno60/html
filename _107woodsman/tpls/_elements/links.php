@@ -15,3 +15,8 @@
     <li><a href="#">Video games</a></li>
     <li><a href="#">Photography</a></li>
 </ul>
+<div class="links-subscribe" data-flex="axis" data-childs="-center">
+    <span><a href="#"><i class="icon-rss"></i></a> 10,023</span>
+    <span><a href="#"><i class="icon-twitter"></i></a> 7,508</span>
+    <span><a href="#"><i class="icon-facebook"></i></a> 6,491</span>
+</div>

@@ -12,7 +12,7 @@
     <a href="#">11</a>
     <a href="#">12</a>
     <a href="#">13</a>
-    <a href="#">...</a>
+    <a href="#" class='gap'>...</a>
     <a href="#">Next</a>
     <a href="#">Last</a>
 </div>
