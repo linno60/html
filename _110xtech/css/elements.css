@@ -1,0 +1,74 @@
+body{    
+    font-size: 12px;
+    font-family: HelveticaNeueLTCom;
+}
+
+/*LINKS*/
+.links-footer, .links-footer a{
+    color: #1d1d1d;
+    font-family: Arial;
+}
+.links-footer a{
+    margin: 0px 5px;    
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    margin: 5px;
+}
+
+/*BUTTONS*/
+.btn-default{
+    flex-direction: column;
+    text-align: center;
+    min-width: 340rem;
+    padding: 0px 10px;
+    height: 53px;
+    text-transform: uppercase;
+    border-radius: 27px;  
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.33);
+    background: linear-gradient(#d4eefe, #92daff 42%, #5790dc);
+    box-shadow: 0 2px 2px rgba(22, 59, 94, 0.72), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+.btn-default strong{   
+    color: #37567f;
+    font-size: 21px;
+}
+.btn-default small{
+    color: #19293e;
+    font-size: 14px;
+}
+.btn-default:after{
+    background: url("/images/btn.png");
+    content: "";
+    width: 345rem;
+    height: 31rem;
+    position: absolute;
+}
+.btn-default:active, .btn-default:hover, .btn-default:focus{
+    background: linear-gradient(#5790dc, #92daff 58%, #d4eefe);
+}
+.btn-default:active:after, .btn-default:hover:after, .btn-default:focus:after{
+    background: url("/images/btn.png"), url("/images/btn.png");
+}
+
+/*CITES*/
+blockquote{
+    color: grey;
+    font-family: Arial;
+    line-height: 17px;
+}
+blockquote q{
+    font-style: italic;
+    text-align: center;
+    background: #efefef;
+    border-radius: 4px;
+    box-shadow: 0.5px 0.9px 0 white, inset 0.5px 0.9px 2px rgba(0, 0, 0, 0.23);
+    padding: 20px 20px 20px 20px;
+    position: relative;
+}
+blockquote cite{
+    font-style: normal;
+    margin: 10px 30px 0px 0px;
+}

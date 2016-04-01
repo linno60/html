@@ -1,0 +1,1 @@
+<a href="#" class="btn btn-default"><strong>give a try!</strong><small>Get 30 days to the fully operational product</small></a>

@@ -1,0 +1,70 @@
+/*COMMON*/
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.lwrap{
+    border-radius: 3px;
+    max-width: 1000px;
+    margin-top: 12rem;
+    margin-bottom: 167rem;
+    background: #f7f7f7;   
+}
+.lwrap > div{
+    padding: 20px 20px 20px 20px;
+}
+body{
+    background: url("/images/bg.png")no-repeat center top, url("/images/bg2.png");
+}
+
+/*HEADER*/
+
+
+/*SLIDER*/
+.slider{
+    padding: 20px 0px 16px 0px;
+    background:url("/images/slidershadow.png")no-repeat center bottom;
+}
+.slider h1{
+    text-align: center;
+}
+
+/*FEATURES*/
+.features article{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.features article > i{
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+/*TESTIMONIALS*/
+.testimonials h2{
+    color: #5790dc;
+font-size: 22px;
+}
+
+/*FOOTER*/
+footer{
+    background: url("/images/shadow.png")no-repeat center top, url("/images/footerbg.png");
+}
+.footer{
+    padding: 20px 20px 20px 20px;
+}
+.footer > div{
+    width: 24%;
+}
+.footer h5{
+    min-height: 20px;
+    margin-bottom: 10px;
+}
+.footer figure iframe{
+    width: 100%;
+    height: 100px;
+}
+.copyright{
+    background: rgba(0,0,0,.35);
+}

@@ -4,36 +4,45 @@ body{
 }
 
 /*LINKS*/
+.links-nav{
+    margin-bottom: 16px;
+}
 .links-nav a{
     color: #a7262c;
     font-family: Trebuchet MS;
     font-size: 15px;
     font-weight: 700;
-    margin: 2px 15rem;
-    padding: 10px 5px;
+    margin: 2px 14rem;
+    padding: 9px 5px;
     text-transform: uppercase;
+    letter-spacing: -0.01em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background: url("/images/nav.png")no-repeat center bottom;
     color: black;
+}
+.links-social{
+    padding-right: 12rem;
 }
 .links-social a{
     color: black;
     font-family: Trebuchet MS;
     font-size: 14px;
     font-weight: 700;
+    text-align: right;
 }
 .links-social a:active, .links-social a:hover, .links-social a:focus{
     text-decoration: underline;
 }
 .links-social a i{
     margin-left: 5px;
+    flex-shrink: 0;
 }
 
 /*BUTTONS*/
 .btn-submit{
     color: black;
-    font-weight: 300;
+    font-weight: 600;
     min-width: 159px;
     height: 35px;
     padding: 10px 15px;
@@ -42,20 +51,22 @@ body{
 
 /*FORMS*/
 input[name=input]{
-    height: 26px;
-    padding: 0px 10px;
+    height: 34px;
+    padding: 0px 3px;
+    margin-bottom: 13px;
+    max-width: 277px;
     background: url("/images/right-sm.png")no-repeat right center,
         url("/images/input.png")no-repeat center bottom;
 }
 textarea{
-    height: 134px;
-    padding: 10px;
+    height: 144px;
+    padding: 9px 7px;
+    margin-bottom: 14px;
     background: url("/images/right-lg.png")no-repeat right center,
         url("/images/input.png")no-repeat center bottom;
 }
 input[name=input], textarea{
     width: 100%;
-    max-width: 289px;
     color: black;
     border: none;
     outline: none;

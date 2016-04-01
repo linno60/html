@@ -1,0 +1,51 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=89575ddf-8187-4574-bda4-e00ba1351c53");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: HelveticaNeueLTCom;
+    src: url("/fonts/fonts.com/d6f92a91-b2ac-4e80-a3e7-930719d81079.woff2") format("woff2"), url("/fonts/fonts.com/cabea84c-04f4-424a-a992-d75f0b372af0.woff") format("woff");
+    font-weight: 200;
+}
+@font-face {
+    font-family: HelveticaNeueLTCom;
+    src: url("/fonts/fonts.com/244ff804-5735-41ed-92a1-ce5438185e9c.woff2") format("woff2"), url("/fonts/fonts.com/9cd26200-0d62-40ef-94b8-46fd1d8b255f.woff") format("woff");
+    font-weight: 300;
+  
+}
+@font-face {
+    font-family: HelveticaNeueLTCom;
+    src: url("/fonts/fonts.com/c6c74d5e-aa58-4006-85a0-27096c6827b8.woff2") format("woff2"), url("/fonts/fonts.com/5fccf761-c079-464e-8a75-d60112d84d26.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: HelveticaNeueLTCom;
+    src: url("/fonts/fonts.com/108e1ff6-3205-4c92-9aa5-9abb2823fe92.woff2") format("woff2"), url("/fonts/fonts.com/f61c722b-9236-445e-bb7e-eeb1009cd627.woff") format("woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: HelveticaNeueLTCom;
+    src: url("/fonts/fonts.com/835c9867-49fd-49c6-ad61-f6e4e47e17fa.woff2") format("woff2"), url("/fonts/fonts.com/0c4dfc49-f798-458f-be90-e1d5a3e65f48.woff") format("woff");
+    font-weight: 800;
+}
+/* ICONS */
+.icon-books {width: 60px; height: 71px; background: url('/images/icons/books.png');}
+.icon-camera {width: 72px; height: 44px; background: url('/images/icons/camera.png');}
+.icon-desktop {width: 70px; height: 52px; background: url('/images/icons/desktop.png');}
+.icon-harddrive {width: 59px; height: 59px; background: url('/images/icons/harddrive.png');}
+.icon-mouse {width: 72px; height: 50px; background: url('/images/icons/mouse.png');}
+.icon-search {width: 10px; height: 11px; background: url('/images/icons/search.png');}
+.icon-tools {width: 72px; height: 42px; background: url('/images/icons/tools.png');}
+.icon-deviantart {width: 24px; height: 24px; background: url('/images/icons/deviantart.png');}
+.icon-digg {width: 24px; height: 24px; background: url('/images/icons/digg.png');}
+.icon-facebook {width: 24px; height: 24px; background: url('/images/icons/facebook.png');}
+.icon-linkedin {width: 24px; height: 24px; background: url('/images/icons/linkedin.png');}
+.icon-skype {width: 24px; height: 24px; background: url('/images/icons/skype.png');}
+.icon-twitter {width: 24px; height: 24px; background: url('/images/icons/twitter.png');}

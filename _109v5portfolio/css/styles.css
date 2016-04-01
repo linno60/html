@@ -1,11 +1,17 @@
+/*COMMON*/
 body{
     background:url("/images/bg.png");
 }
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .lwrap{
     position: relative;
-    padding: 43px 51rem 3px 71rem;
+    padding: 38px 51rem 3rem 71rem;
     max-width: 768px;
-    margin: 12px auto 100px auto;
+    margin: 12rem auto 173rem auto;
     background: url("/images/corner1.png")no-repeat left top,
         url("/images/corner2.png")no-repeat right top,
         url("/images/corner3.png")no-repeat right bottom,
@@ -37,102 +43,107 @@ body{
     z-index: -1;
     top: -1rem;
 }
-header{
-    padding: 0px 10rem 56rem 0px;
-}
-h2{
+.hdr{
     color: black;
-    font-family: "Trebuchet MS";
+    font-family: Trebuchet MS;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 2px;
+    margin-bottom: 2rem;
     text-transform: uppercase;
 }
+p, label{
+    color: #171616;
+    font-size: 13px;
+}
+p{
+    line-height: 17px;
+    margin-bottom: 7rem;
+    letter-spacing: -0.003em;
+}
+label{   
+    width: 100%;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    padding: 0px 0px 2rem 7rem;
+}
+
+/*HEADER*/
+header{
+    padding: 0px 10rem 55rem 0px;
+}
+
+/*ABOUT*/
 .about{
     margin-bottom: 35rem;
-    padding: 0px 0px 51rem 15rem;
+    padding: 0px 0px 57rem 15rem;
     background: url("/images/divider1.png")no-repeat center bottom;
 }
-.portfolio{
+
+/*PORTFOLIO*/
+.portfolio-wrap{
     margin-bottom: 48rem;
-    padding: 0px 0px 36rem 14rem;
+    padding: 0px 0px 35rem 14rem;
     background: url("/images/divider2.png")no-repeat center bottom;
 }
-.portfolio > div{
-    position: relative;
+.portfolio{
+    padding: 13rem 10rem 0px 14rem;
 }
-.portfolio > div > div{
-    padding: 13rem 11rem 0px 0px;
-}
-.portfolio figure img{
+.portfolio > a > img{
     border: 1px solid white;
 }
-.portfolio figure{
-    margin-bottom: 17px;
-    width: 32%;
+.portfolio > a{
+    margin-bottom: 17rem;
+    width: 31.9%;
     background: rgba(120,120,120,.5);
     border: 1px solid rgba(120,120,120,.5);
     padding: 2px;
 }
-.portfolio > div > a{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-70%);
+.portfolio-wrap > div > a:first-child{
+    margin: 0px 0px 18rem -41rem;
 }
-.portfolio > div > a:first-child{
-    left: -41rem;
+.portfolio-wrap > div > a:last-child{
+    margin: 0px -19rem 10rem 0px;
 }
-.portfolio > div > a:last-child{
-    right: -19rem;
-}
+
+/*FOOTER*/
 .footer > *{
-    width: 48%;
-}
-p{
-    color: #171616;
-    font-family: Lucida Sans Unicode;
-    font-size: 13px;
-    line-height: 17px;
-    margin-bottom: 3px;
-    letter-spacing: -0.003em;
+    width: 48.8%;
 }
 .footer{
     padding: 0px 0px 62rem 16rem;
 }
 .footer h2{
-    margin-bottom: 13px;
+    margin-bottom: 13rem;
 }
 .footer figure{
-    max-width: 200px;
-    margin: 47rem 0px 0px 33rem;
+    margin: 40rem 0px 0px 33rem;
+}
+.footer p{
+    width: 100%;
 }
 .footer form{
-    max-width: 300px;
-    padding: 36rem 22rem 0px 3px;
+    padding: 36rem 22rem 0px 0rem;
 }
-.copyright{
+.copyright, .copyright a{
     color: white;
-    font-family: Lucida Sans Unicode;
     font-size: 10px;
     text-align: center;
     letter-spacing: 0.005em;
 }
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
 @media (max-width: 1200px) {
     .lwrap:after, .lwrap:before{display:none;}
 }
-@media (max-width: 640px) {
-    .portfolio > div{padding: 0px 8px;}
-}
 @media (max-width: 480px) {
-    .portfolio figure{width: 48%;}
-    .lwrap{padding: 43px 40px 3px 45px;
-        background: url("/images/corner1.png")no-repeat left top,
-            url("/images/corner2.png")no-repeat right top,
-            url("/images/corner3.png")no-repeat right bottom,
-            url("/images/corner4.png")no-repeat left bottom,
-            url("/images/top.png")repeat-x center top,
-            url("/images/bottom.png")repeat-x center bottom,
-            url("/images/right.png")repeat-y right center,
-            url("/images/cell.png");
-    }
+    .footer figure{display: none;}
+    .footer > *{width: 100%;}
+    header{padding: 0px;}
+    .portfolio > a{width: 48%;}
+    input[name=input]{max-width: 100%;background: url("/images/right-sm.png")no-repeat right center,url("/images/input.png")repeat-x center bottom;}
+    textarea{background: url("/images/right-lg.png")no-repeat right center,url("/images/input.png")repeat-x center bottom;}
+    .lwrap{margin: -15px;padding: 25px 33px 5px 33px;background:url("/images/top.png")repeat-x center top,url("/images/bottom.png")repeat-x center bottom,url("/images/right.png")repeat-y right center,url("/images/cell.png");}
 }
