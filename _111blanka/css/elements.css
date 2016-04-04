@@ -1,0 +1,54 @@
+body{
+    font-family: Arial;
+    font-size: 13px;
+}
+
+/*LINKS*/
+.links-nav a{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2px 5px;
+    color: #888;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+}
+.links-nav a.active:after{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    margin-top: 10px;
+}
+
+/*FORMS*/
+.form-search{
+    background: white;
+    max-width: 300px;
+    padding: 0px 5px;
+}
+.form-search input[type=search]{
+    border: none;
+    outline: none;
+    height: 24px;
+}
+
+/*OTHER*/
+.hdr{
+    color: #bbb;
+    font-size: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.hdr:before, .hdr:after{
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background: url("/images/dashed-line.png");
+}
+.hdr:before{
+    margin-right: 20px;
+}
+.hdr:after{
+    margin-left: 20px;
+}

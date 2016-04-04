@@ -1,0 +1,9 @@
+header, footer{
+    background: #444;
+}
+.lwrap{
+    max-width: 960px;
+}
+body > div{
+    height: 100%;
+}
