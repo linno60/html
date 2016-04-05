@@ -4,51 +4,81 @@ body{
 }
 
 /*LINKS*/
+.links-nav{
+    margin-left: -8px;
+}
 .links-nav a{
     font-size: 14px;
     font-weight: 700;
-    margin: 2px 5px;
+    margin: 2px 8px;
     color: #888;
+    letter-spacing: -0.065em;
+    position: relative;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: white;
+    text-decoration: none;
 }
 .links-nav a.active:after{
     content: "";
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid white;
+    position: absolute;
+    bottom: -23rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
     margin-top: 10px;
 }
 
 /*FORMS*/
 .form-search{
     background: white;
-    max-width: 300px;
-    padding: 0px 5px;
+    max-width: 160px;
+    padding: 0px 7px;
+    margin: 1rem 0px -1rem 0px;
 }
 .form-search input[type=search]{
     border: none;
     outline: none;
     height: 24px;
+    flex-grow: 1;
+    width: 90%;
+}
+.form-search input[type=image]{
+    flex-shrink: 0;
 }
 
 /*OTHER*/
 .hdr{
+    width: 100%;
     color: #bbb;
     font-size: 9px;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.12em;
+    margin-bottom: 51rem;
 }
 .hdr:before, .hdr:after{
     content: "";
     height: 1px;
     flex-grow: 1;
+    display: block;
+    margin-bottom: 1rem;
     background: url("/images/dashed-line.png");
 }
 .hdr:before{
-    margin-right: 20px;
+    margin-right: 27rem;
 }
 .hdr:after{
-    margin-left: 20px;
+    margin-left: 27rem;
+}
+.title{
+    color: #444;
+    background: url(/images/icons/tick.png)no-repeat left 2px;
+    padding: 0px 0px 15rem 42px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
 }

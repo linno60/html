@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@font-face {
+	font-family: 'SegoeWP';
+	src: local('в�є'), url('/fonts/SegoeWP-Bold.woff') format('woff');
+	font-weight: 700;
+}

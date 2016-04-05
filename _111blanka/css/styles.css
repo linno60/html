@@ -1,9 +1,158 @@
+/*COMMON*/
 header, footer{
     background: #444;
 }
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .lwrap{
     max-width: 960px;
+    padding: 0px 10px 0px 10px;
+    flex-grow: 1;
+    width: 100%;
 }
-body > div{
-    height: 100%;
+p{
+    color: #888;
+}
+a{
+    color: #62a6c9;
+}
+a:active, a:hover, a:focus{
+    text-decoration: underline;
+}
+time{
+    color: #ccc;
+    font-size: 11px;
+    margin-bottom: 12rem;
+    display: inline-block;
+}
+
+/*HEADER*/
+header > .lwrap{
+    padding: 18rem 10px;
+}
+header{
+    margin-bottom: 121rem;
+}
+#logo{
+    margin-bottom: 95rem;
+}
+
+/*ABOUT*/
+.about h1, .about h1 ~ p{
+    text-align:  center;
+}
+.about h1{
+    color: #333;
+    font-size: 48rem;
+    font-weight: 700;
+    margin-bottom: 18rem;
+    letter-spacing: -0.05em;
+}
+.about h1 ~ p{
+    width: 100%;
+    font-size: 24rem;
+    line-height: 36rem;
+    margin-bottom: 47rem;
+}
+.about .hdr{
+    margin-bottom: 47rem;
+}
+
+/*WORKS*/
+.works figure{
+    width: 23.25%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 1px #ddd;
+    padding: 8rem;
+    border-width: 1px;
+    border-image-slice: 0 0 7 0;
+    border-image-width: 0px 0px 7px 0px;
+    border-image-outset: 0px 0px 7px 0px;
+    border-image-repeat: stretch stretch;
+    border-image-source: url("/images/shadow.png");
+}
+.works .hdr{
+    margin-bottom: 55rem;
+}
+.works > div{
+    padding: 0px 0px 36rem 1rem
+}
+
+/*SERVICES*/
+.services{
+    padding-bottom: 33rem;
+}
+.services article{
+    width: 32%;
+    margin-bottom: 20px;
+}
+.services a{
+    font-weight: 700;
+}
+.services p {
+    line-height: 22px;
+    margin-bottom: 11px;
+}
+
+/*BLOG*/
+.blog{
+    padding-bottom: 87rem;
+}
+.blog article{
+    width: 23.3%;
+    margin-bottom: 20px;
+}
+.blog p{
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 11rem;
+    letter-spacing: -0.005em;
+}
+.tweet p{
+    letter-spacing: -0.002em;
+}
+.tweet time + p{
+    font-size: 11px;
+    letter-spacing: 0.008em;
+}
+.tweet i{
+    flex-shrink: 0;
+    margin: 5px 12rem 0px 0px;
+}
+.blog h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1rem 0px 14rem 0px;
+    letter-spacing: -0.05em;
+}
+.blog h4 a{
+    color: #444;
+}
+.blog h4 a:active, .blog h4 a:hover, .blog h4 a:focus{
+    text-decoration: none;
+    color: #62a6c9;
+}
+
+/*FOOTER*/
+footer > .lwrap{
+    padding: 23rem 10px;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+    letter-spacing: -0.006em;
+}
+footer > .lwrap a{
+    color: white;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .works figure, .blog article{width: 48%;}
+    .links-nav a.active:after{display: none;}
+    .about h1{font-size: 32px;}
+    .about h1 ~ p {font-size: 16px;line-height: 24px;}
 }

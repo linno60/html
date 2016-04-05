@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+
+/* FONTS */
+@font-face {
+	font-family: 'SegoeWP';
+	src: local('в�є'), url('/fonts/SegoeWP-Bold.woff') format('woff');
+	font-weight: 700;
+}
+/* ICONS */
+.icon-arrow {width: 12px; height: 10px; background: url('/images/icons/arrow.png');}
+.icon-camera {width: 45px; height: 35px; background: url('/images/icons/camera.png');}
+.icon-clock {width: 8px; height: 8px; background: url('/images/icons/clock.png');}
+.icon-cloud {width: 8px; height: 8px; background: url('/images/icons/cloud.png');}
+.icon-fbf {width: 27px; height: 27px; background: url('/images/icons/fbf.png');}
+.icon-lbl {width: 23px; height: 32px; background: url('/images/icons/lbl.png');}
+.icon-like {width: 15px; height: 13px; background: url('/images/icons/like.png');}
+.icon-link {width: 12px; height: 12px; background: url('/images/icons/link.png');}
+.icon-pinf {width: 27px; height: 27px; background: url('/images/icons/pinf.png');}
+.icon-share {width: 17px; height: 18px; background: url('/images/icons/share.png');}
+.icon-tag {width: 34px; height: 28px; background: url('/images/icons/tag.png');}
+.icon-twf {width: 27px; height: 27px; background: url('/images/icons/twf.png');}
+.icon-articles {width: 12px; height: 14px; background: url('/images/icons/articles.png');}
+.icon-fb {width: 9px; height: 18px; background: url('/images/icons/fb.png');}
+.icon-film {width: 11px; height: 16px; background: url('/images/icons/film.png');}
+.icon-gp {width: 18px; height: 18px; background: url('/images/icons/gp.png');}
+.icon-grid {width: 19px; height: 19px; background: url('/images/icons/grid.png');}
+.icon-home {width: 14px; height: 11px; background: url('/images/icons/home.png');}
+.icon-images {width: 12px; height: 12px; background: url('/images/icons/images.png');}
+.icon-list {width: 18px; height: 18px; background: url('/images/icons/list.png');}
+.icon-pin {width: 18px; height: 18px; background: url('/images/icons/pin.png');}
+.icon-tw {width: 25px; height: 17px; background: url('/images/icons/tw.png');}
