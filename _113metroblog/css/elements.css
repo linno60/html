@@ -1,0 +1,99 @@
+body{
+    font-size: 14px;
+    font-family: SegoeWPN;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #323332;    
+    margin: 1px 8px;
+    padding: 0px 8px;    
+}
+.links-nav a, .btn-default{
+    font-family: SegoeWP;
+    font-weight: 300;
+    font-size: 23px;
+    height: 39px;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .btn-default{
+    color: white;
+    background: #373737;
+}
+.links-social a{
+    margin: 5px;
+}
+
+/*BUTTONS*/
+.btn-default{
+    padding: 0px 5px;
+}
+.btn-default i{
+    margin-right: 5px;
+}
+.btn-submit, .btn-alt{
+    color: white;
+    font-family: OptimaLT;
+    font-size: 20px;
+    min-width: 179rem;
+    height: 33px;  
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+.btn-submit{    
+    background: #bb4465;
+}
+.btn-alt{
+    background: rgba(0,0,0,.1);
+}
+.btn-thumb{
+    width: 31px;
+    height: 39px;
+}
+.btn-thumb.prev{
+    background: url(/images/icons/prev.png)no-repeat center center, rgba(50,50,50,.5);
+}
+.btn-thumb.next{
+    background: url(/images/icons/next.png)no-repeat center center, rgba(50,50,50,.5);
+}
+.btn-thumb.prev:active, .btn-thumb.prev:hover, .btn-thumb.prev:focus{
+    background: url(/images/icons/prev.png)no-repeat center center, rgba(50,50,50,.64);
+}
+.btn-thumb.next:active, .btn-thumb.next:hover, .btn-thumb.next:focus{
+    background: url(/images/icons/next.png)no-repeat center center, rgba(50,50,50,.64);
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 131px;
+    height: 131px;
+    background: #ef809f;
+    border: 5px solid white;
+    border-radius: 50%;
+    flex-direction: column;
+}
+.lbl-default strong{
+    font-family: SegoeUI;
+    font-size: 46px;
+    font-weight: 800;
+}
+.lbl-default small{
+    font-family: SegoeWPN;
+    font-size: 22px;
+}
+
+/*FORMS*/
+input[name=input]{
+    color: black;
+    max-width: 257px;
+    border: none;
+    outline: none;
+    height: 26px;
+    padding: 0px 5px;
+    font-family: SegoeWP;
+    font-size: 14px;
+    font-weight: 300;
+}
+input[name=input]::-webkit-input-placeholder { color: #787878; }
+input[name=input]::-moz-placeholder { color: #787878; }
+input[name=input]:-ms-input-placeholder { color: #787878; }

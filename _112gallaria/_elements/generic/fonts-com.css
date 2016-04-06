@@ -1,0 +1,15 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=eb16906c-bc5e-4f80-a928-88bbd4e81e38");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Helvetica Condensed";
+    src: url("/fonts/fonts.com/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2") format("woff2"), url("/fonts/fonts.com/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff") format("woff");
+}
+@font-face {
+    font-family: "SofiaProLight";
+    src: url("/fonts/fonts.com/3b5eb487-4264-43d9-8a53-9f60d53748d3.woff2") format("woff2"), url("/fonts/fonts.com/f62e9ae5-3889-4326-81da-63bb2a466739.woff") format("woff");
+}

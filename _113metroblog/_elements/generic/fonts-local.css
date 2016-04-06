@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'SegoeWPN';
+	src: local('в�є'), url('/fonts/SegoeWPN.woff') format('woff');
+}
+@font-face {
+	font-family: 'SegoeWP';
+	src: local('в�є'), url('/fonts/SegoeWP-Light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+	font-family: 'SegoeUI';
+	src: local('в�є'), url('/fonts/seguibl.woff') format('woff');
+    font-weight: 800;
+}

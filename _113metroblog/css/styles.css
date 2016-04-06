@@ -1,0 +1,20 @@
+/*COMMON*/
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 1020px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+/*FOOTER*/
+footer{
+    background: #393a39;
+}

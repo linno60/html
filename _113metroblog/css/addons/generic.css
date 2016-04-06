@@ -1,0 +1,39 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=cba9a3c2-9379-4021-8862-fecf87d95185");
+
+
+/* FONTS */
+@font-face {
+	font-family: 'SegoeWPN';
+	src: local('в�є'), url('/fonts/SegoeWPN.woff') format('woff');
+}
+@font-face {
+	font-family: 'SegoeWP';
+	src: local('в�є'), url('/fonts/SegoeWP-Light.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+	font-family: 'SegoeUI';
+	src: local('в�є'), url('/fonts/seguibl.woff') format('woff');
+    font-weight: 800;
+}
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "OptimaLT";
+    src: url("/fonts/fonts.com/e8a79ad4-e523-4ee0-873c-5b49a0d4c835.woff2") format("woff2"), url("/fonts/fonts.com/2a69f5d6-9311-46b2-9f56-0f55b8c4cf7c.woff") format("woff");
+}
+@font-face {
+    font-family: SimploCapsDEMO;
+    src: url("/fonts/fonts.com/55e56182-e21c-4478-b249-f388de975cd7.woff2") format("woff2"), url("/fonts/fonts.com/60076998-14e3-43b9-9c69-78be5989b09c.woff") format("woff");
+}
+/* ICONS */
+.icon-camera {width: 33px; height: 17px; background: url('/images/icons/camera.png');}
+.icon-fb {width: 27px; height: 27px; background: url('/images/icons/fb.png');}
+.icon-next {width: 10px; height: 26px; background: url('/images/icons/next.png');}
+.icon-prev {width: 10px; height: 26px; background: url('/images/icons/prev.png');}
+.icon-tw {width: 27px; height: 27px; background: url('/images/icons/tw.png');}
+.icon-youtube {width: 28px; height: 27px; background: url('/images/icons/youtube.png');}
