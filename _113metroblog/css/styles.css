@@ -8,13 +8,109 @@ figure > img, a > img{
     max-width: 1020px;
     padding: 0px 10px;
 }
+p, span, time{
+    color: #848484;
+    font-family: SegoeWP;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
 
 /*HEADER*/
 header{
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
+header > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+
+/*BANNER*/
+.banner{
+    padding: 20px 0px 20px 0px;
+}
+.banner h1{
+    color: #5d5d5d;
+    font-family: SegoeWP;
+    font-weight: 300;
+    line-height: 59px;
+    font-size: 61px;
+    margin-bottom: 5px;
+}
+.banner h1 small{
+    font-size: 47px;
+}
+
+/*SLIDER*/
+.slider figure{
+    flex-shrink: 0;
+    width: 30%;
+    margin-right: 10px;
+}
+.slider h3{
+    color: #696161;
+    font-family: SegoeWP;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 37px;
+    margin-bottom: 5px;
+}
+
+/*POSTS*/
+.posts article{
+    width: 32%;  
+    margin-bottom: 20px;
+}
+.posts article h4{
+    font-family: SegoeWP;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.posts article h4 a{
+    color: #696161;
+}
+.posts article a{
+    color: #848484;
+}
+.posts article a:active, .posts article a:hover, .posts article a:focus{
+    text-decoration: underline;
+}
+.posts article span{
+    margin-bottom: 5px;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    flex-shrink: 0;
+    width: 30%;
+    margin-left: 20px;
+}
+.sidebar form{
+    background: #393a39;
+    margin-bottom: 10px;
+    border-bottom: 7px solid #bb4465;
+}
+.join{
+    background: #86e7f0;
+    margin-bottom: 10px;
+}
+.add{
+    background: white;
+    border: 1px solid #e1dddd;
+    margin-bottom: 10px;
+}
 
 /*FOOTER*/
 footer{
     background: #393a39;
+}
+footer > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+footer span, footer span a{
+    color: white;
+    font-family: SegoeWP;
+    font-size: 16px;
+    font-weight: 300;
 }

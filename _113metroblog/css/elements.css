@@ -56,10 +56,10 @@ body{
 .btn-thumb.next{
     background: url(/images/icons/next.png)no-repeat center center, rgba(50,50,50,.5);
 }
-.btn-thumb.prev:active, .btn-thumb.prev:hover, .btn-thumb.prev:focus{
+.btn-thumb.prev.active, .btn-thumb.prev:active, .btn-thumb.prev:hover, .btn-thumb.prev:focus{
     background: url(/images/icons/prev.png)no-repeat center center, rgba(50,50,50,.64);
 }
-.btn-thumb.next:active, .btn-thumb.next:hover, .btn-thumb.next:focus{
+.btn-thumb.next.active, .btn-thumb.next:active, .btn-thumb.next:hover, .btn-thumb.next:focus{
     background: url(/images/icons/next.png)no-repeat center center, rgba(50,50,50,.64);
 }
 
@@ -71,6 +71,7 @@ body{
     border: 5px solid white;
     border-radius: 50%;
     flex-direction: column;
+    color: white;
 }
 .lbl-default strong{
     font-family: SegoeUI;
