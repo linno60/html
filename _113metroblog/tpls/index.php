@@ -12,14 +12,14 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1020;
+            var LAYOUT_WIDTH = 1134;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="col between">
+    <body>
         <header>
             <div class="lwrap" data-flex="axis">
                 <a href="/" title="Return to the homepage" id="logo">
@@ -41,88 +41,92 @@
                 </div>
                 <figure><img src="/images/banner.png" width="817" height="384" alt=""></figure>
             </div>
-            <div data-flex="stripe">
-                <div>
-                    <div class="slider" data-flex="stripe">
+            <div data-flex="stripe" data-flex-640="vstripe">
+                <div class="content">
+                    <div class="slider clearfix">
                         <figure><img src="/images/img.png" width="308" height="242" alt=""></figure>
-                        <div data-flex="col between">
-                            <article>
-                                <h3>Lorem Ipsum is simply cssauthor.com</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                            </article>
-                            <div data-flex="-end end">
-                                <a href="#" class="btn btn-thumb prev active"></a>
-                                <a href="#" class="btn btn-thumb next"></a>
-                            </div>
+                        <article>
+                            <h3>Lorem Ipsum is simply cssauthor.com</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus&shy;try's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scram&shy;bled it to make a type specimen book. It has survived not only five centuries</p>
+                        </article>
+                        <div class="thumbs" data-flex="-end end">
+                            <a href="#" class="btn btn-thumb prev active"></a>
+                            <a href="#" class="btn btn-thumb next"></a>
                         </div>
                     </div>
-                    <div class="posts" data-flex="stripe w">
+                    <div class="posts" data-flex="stripe w" data-flex-480="vstripe">
                         <article>
-                            <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
+                            <h4><a href="#">Apple i phone variations</a></h4>
+                            <span><time>30/12/12</time> By : <a href="#">Mariya</a></span>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                         </article>
                         <article>
                             <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
+                            <span><time>30/12/12</time> By : <a href="#">Andriana Solorzana</a></span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                        </article>
+                        <article>
+                            <h4><a href="#">This book is one of treatise</a></h4>
+                            <span><time>30/12/12</time> By : <a href="#">Andriana Solorzana</a></span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                        </article>
+                        <article>
+                            <h4><a href="#">Apple i phone variations</a></h4>
+                            <span><time>30/12/12</time> By : <a href="#">Mariya</a></span>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                         </article>
                         <article>
                             <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
+                            <span><time>30/12/12</time> By : <a href="#">Andriana Solorzana</a></span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                        </article>
+                        <article>
+                            <h4><a href="#">This book is one of treatise</a></h4>
+                            <span><time>30/12/12</time> By : <a href="#">Andriana Solorzana</a></span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                        </article>
+                        <article>
+                            <h4><a href="#">Apple i phone variations</a></h4>
+                            <span><time>30/12/12</time> By : <a href="#">Mariya</a></span>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                         </article>
                         <article>
                             <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
+                            <span><time>30/12/12</time> By : <a href="#">Andriana Solorzana</a></span>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                         </article>
                         <article>
-                            <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-                        </article>
-                        <article>
-                            <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-                        </article>
-                        <article>
-                            <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-                        </article>
-                        <article>
-                            <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-                        </article>
-                        <article>
-                            <h4><a href="#">The standard chunk Lorem Ipsum</a></h4>
-                            <span><time>30/12/12</time> By: <a href="#">Adriana Solorzana</a></span>
+                            <h4><a href="#">This book is one of treatise</a></h4>
+                            <span><time>30/12/12</time> By : <a href="#">Andriana Solorzana</a></span>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
                         </article>
                     </div>
                 </div>
-                <aside class="sidebar" data-childs="vaxis">
+                <aside class="sidebar" data-flex-640="-start between w" data-flex-480="vstripe" data-childs="vaxis">
                     <div class="add">
-                        <span>The ultimate apple</span>
-                        <a href="#">i pad Guide</a>
-                        <figure><img src="/images/ipad.png" width="236" height="187" alt=""></figure>
+                        <hgroup>
+                            <h4>The ultimate apple</h4>
+                            <h2>i pad Guide</h2>
+                            <figure><img src="/images/ipad.png" width="236" height="187" alt=""></figure>
+                        </hgroup>
                     </div>
                     <div class="join">
                         <div class="lbl lbl-default"><strong>12</strong><small>week</small></div>
-                        <h2>lorem ipsum</h2>
-                        <span>Lorem Ipsum is simply dummy</span>
+                        <hgroup>
+                            <h2>lorem ipsum</h2>
+                            <h4>Lorem Ipsum is simply dummy</h4>
+                        </hgroup>
                         <a href="#" class="btn btn-alt">join us now!</a>
                     </div>
-                    <form action="#" method="post">
+                    <div class="form-wrap">
                         <h5>join our mailing</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>    
-                        <input type="text" name="input" placeholder="Name">
-                        <input type="text" name="input" placeholder="Name">
-                        <button class="btn btn-submit">sign me up!</button>
-                    </form>
+                        <form action="#" method="post" data-flex="vaxis">
+                            <input type="text" name="input" placeholder="Name">
+                            <input type="email" name="input" placeholder="email address">
+                            <button class="btn btn-submit">sign me up!</button>
+                        </form>
+                    </div>                   
                 </aside>
             </div>
         </div>
@@ -130,7 +134,7 @@
             <div class="lwrap" data-flex="axis">
                 <span></span>
                 <span>All Rights Reserved to <a href="#">cssauthor.com</a></span>
-                <div class="links-social">
+                <div class="links-social" data-flex="end w">
                     <a href="#"><i class="icon-fb"></i></a>
                     <a href="#"><i class="icon-tw"></i></a>
                     <a href="#"><i class="icon-youtube"></i></a>

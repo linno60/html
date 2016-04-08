@@ -1,34 +1,46 @@
 body{
     font-size: 14px;
-    font-family: SegoeWPN;
+    font-family: SegoeWP;
+    font-weight: 300;
 }
 
 /*LINKS*/
+.links-nav{
+    margin: 4rem -12rem 0px 0px;
+}
 .links-nav a{
     color: #323332;    
-    margin: 1px 8px;
-    padding: 0px 8px;    
+    margin: 1px 12rem;
+    padding: 0px 20rem;  
+    letter-spacing: 0.015em;
 }
 .links-nav a, .btn-default{
-    font-family: SegoeWP;
-    font-weight: 300;
     font-size: 23px;
     height: 39px;
+}
+.btn-default, .btn-submit, .btn-alt, .links-nav a{
+    text-align: center;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .btn-default{
     color: white;
     background: #373737;
 }
 .links-social a{
-    margin: 5px;
+    margin: 7.5rem;
 }
 
 /*BUTTONS*/
-.btn-default{
+.btn-default, .btn-submit, .btn-alt{
     padding: 0px 5px;
 }
 .btn-default i{
-    margin-right: 5px;
+    margin: 2rem 12rem 0px -4rem;
+    flex-shrink: 0;
+}
+.btn-default{
+    min-width: 204rem;
+    letter-spacing: 0.02em;
+    line-height: 16px;   
 }
 .btn-submit, .btn-alt{
     color: white;
@@ -75,25 +87,28 @@ body{
 }
 .lbl-default strong{
     font-family: SegoeUI;
-    font-size: 46px;
-    font-weight: 800;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.02em;
 }
 .lbl-default small{
-    font-family: SegoeWPN;
+    font-family: SegoeUI;
     font-size: 22px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 
 /*FORMS*/
 input[name=input]{
     color: black;
-    max-width: 257px;
+    width: 100%;
+    margin-bottom: 12px;
+    max-width: 440px;
     border: none;
     outline: none;
     height: 26px;
-    padding: 0px 5px;
-    font-family: SegoeWP;
-    font-size: 14px;
-    font-weight: 300;
+    padding: 0px 7rem;
 }
 input[name=input]::-webkit-input-placeholder { color: #787878; }
 input[name=input]::-moz-placeholder { color: #787878; }
