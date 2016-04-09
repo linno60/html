@@ -1,0 +1,32 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=4853ff16-a5ee-415d-ae73-433ff9b29ace");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Helvetica Neue LT Cn";
+    src: url("/fonts/fonts.com/d6f92a91-b2ac-4e80-a3e7-930719d81079.woff2") format("woff2"), url("/fonts/fonts.com/cabea84c-04f4-424a-a992-d75f0b372af0.woff") format("woff");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Helvetica Neue LT Cn";
+    src: url("/fonts/fonts.com/6d5ceb9f-137b-47e3-8438-465de99acf5a.woff2") format("woff2"), url("/fonts/fonts.com/627c276f-a6d6-4f1e-952a-460f1863ac23.woff") format("woff");
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Helvetica Neue LT Cn";
+    src: url("/fonts/fonts.com/244ff804-5735-41ed-92a1-ce5438185e9c.woff2") format("woff2"), url("/fonts/fonts.com/9cd26200-0d62-40ef-94b8-46fd1d8b255f.woff") format("woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Helvetica Neue LT Cn";
+    src: url("/fonts/fonts.com/946b2f3f-a9d7-47e4-9738-ee963004d697.woff2") format("woff2"), url("/fonts/fonts.com/ce90a9c3-4580-4fa7-b453-9a4e86d0c271.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Helvetica Neue LT Cn";
+    src: url("/fonts/fonts.com/108e1ff6-3205-4c92-9aa5-9abb2823fe92.woff2") format("woff2"), url("/fonts/fonts.com/f61c722b-9236-445e-bb7e-eeb1009cd627.woff") format("woff");
+    font-weight: 500;
+}

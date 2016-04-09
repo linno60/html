@@ -145,7 +145,7 @@ header > .lwrap{
 }
 .join{
     background: #86e7f0;
-    margin-bottom: 25px; 
+    margin-bottom: 25rem; 
     padding: 0px 10rem 12rem 10rem;
 }
 .join .lbl-default{
@@ -213,20 +213,14 @@ footer span a:active, footer span a:hover, footer span a:focus{
 
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
-    .banner figure {
-    margin-right: 0px;
-    width: 100%;
-}
+    .banner figure {margin-right: 0px;width: 100%;}
 }
 @media (max-width: 800px) {
-    .posts article{
-    width: 49%;  
-}
-.slider h3 {
-    font-size: 17px;
-    line-height: 21px;
-}
+    .posts article{width: 49%;}
+    .slider h3 {font-size: 17px;line-height: 21px;}
 }
 @media (max-width: 640px) {
- .add, .join{width: 49%;}
+    footer > .lwrap {padding: 10px;}
+    .add, .join, input[name=input]{width: 49%;}
+    input[name=input]{margin-right: 1px;}
 }

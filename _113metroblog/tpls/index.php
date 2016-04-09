@@ -121,7 +121,7 @@
                     <div class="form-wrap">
                         <h5>join our mailing</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>    
-                        <form action="#" method="post" data-flex="vaxis">
+                        <form action="#" method="post" data-flex="vaxis" data-flex-640="around w">
                             <input type="text" name="input" placeholder="Name">
                             <input type="email" name="input" placeholder="email address">
                             <button class="btn btn-submit">sign me up!</button>
