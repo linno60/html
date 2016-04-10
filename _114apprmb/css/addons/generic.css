@@ -34,11 +34,11 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     font-weight: 500;
 }
 /* ICONS */
-.icon-fav1 {width: 33px; height: 31px; background: url('/images/icons/fav1.png');}
+.icon-bubbles {width: 33px; height: 25px; background: url('/images/icons/bubbles.png');}
+.icon-fav {width: 33px; height: 31px; background: url('/images/icons/fav.png');}
 .icon-fb {width: 20px; height: 20px; background: url('/images/icons/fb.png');}
 .icon-images {width: 33px; height: 23px; background: url('/images/icons/images.png');}
-.icon-mail1 {width: 32px; height: 21px; background: url('/images/icons/mail1.png');}
+.icon-mail {width: 32px; height: 21px; background: url('/images/icons/mail.png');}
 .icon-marker {width: 25px; height: 33px; background: url('/images/icons/marker.png');}
 .icon-microphone {width: 33px; height: 33px; background: url('/images/icons/microphone.png');}
-.icon-speech-bubbles1 {width: 33px; height: 25px; background: url('/images/icons/speech-bubbles1.png');}
 .icon-tw {width: 20px; height: 16px; background: url('/images/icons/tw.png');}
