@@ -1,0 +1,73 @@
+/*COMMON*/
+.lwrap{
+    padding: 0px 10px;
+    max-width: 980px;
+}
+body{
+    background: url("/images/body.png");
+    background-size: cover;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+p{
+    color: #b9b9b9;
+    line-height: 22px;
+}
+
+/*HEADER*/
+header{
+    background: rgba(0, 0, 0, 0.33);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), inset 0 -1px 0 rgba(255, 255, 255, 0.07);
+}
+header > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+
+/*CONTENT*/
+.content.lwrap{
+    padding: 10px 10px 10px 10px;
+}
+.content em{
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.33);
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: 300;
+    display: inline-block;
+    font-style: italic;
+    line-height: 28px;
+    text-align: center;
+}
+.grid article{   
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.44);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.33);
+}
+.grid > div{
+    width: 48%;
+}
+.grid article h2, footer h5{
+    font-size: 15px;
+}
+.grid article h2, footer h5{
+    font-family: Open Sans Condensed;
+    color: #dedede;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/*FOOTER*/
+footer{
+    background: rgba(0, 0, 0, 0.44);
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.07);
+}
+footer > .lwrap{
+    padding: 20px 10px 40px 10px;
+}
+footer h5{
+    font-size: 14px;
+}

@@ -1,0 +1,46 @@
+body{
+    font-size: 13px;
+    font-family: Open Sans;
+}
+
+/*LINKS*/
+.links-social a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3.5px;
+    background: white linear-gradient(rgba(255, 255, 255, 0.02), rgba(159, 159, 159, 0.02) 51%, rgba(118, 118, 118, 0.02) 50%, rgba(0, 0, 0, 0.02));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+.links-nav a{
+    color: #dedede;
+    margin: 0px 10px;
+    font-family: Open Sans Condensed;
+    font-size: 14px;
+    font-weight: 700;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+.btn-thumb{
+    width: 21px;
+    height: 21px;
+}
+.btn-thumb.prev{
+    background: url(/images/icons/prev.png)no-repeat center center, rgba(24, 24, 24, 0.77);
+}
+.btn-thumb.next{
+    background: url(/images/icons/next.png)no-repeat center center, rgba(24, 24, 24, 0.77);
+}
+.btn-default{
+    font-family: Open Sans Condensed;
+    font-weight: 700;
+    min-width: 111px;
+    height: 31px;
+    padding: 0px 5px;
+    color: #dedede;
+    background: #1d1d1d linear-gradient(rgba(255, 255, 255, 0.02), rgba(159, 159, 159, 0.02) 51%, rgba(118, 118, 118, 0.02) 50%, rgba(0, 0, 0, 0.02));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+}
