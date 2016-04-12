@@ -12,12 +12,19 @@ body{
     background: white linear-gradient(rgba(255, 255, 255, 0.02), rgba(159, 159, 159, 0.02) 51%, rgba(118, 118, 118, 0.02) 50%, rgba(0, 0, 0, 0.02));
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
 }
+.links-social{
+    padding: 9rem 0px 39rem 0px;
+}
+.links-nav{
+    margin: 4rem -17rem 0px 5px;
+}
 .links-nav a{
     color: #dedede;
-    margin: 0px 10px;
+    margin: 0px 17rem;
     font-family: Open Sans Condensed;
     font-size: 14px;
     font-weight: 700;
+    letter-spacing: 0.005em;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     text-decoration: underline;
@@ -27,6 +34,7 @@ body{
 .btn-thumb{
     width: 21px;
     height: 21px;
+    margin: 2.5px;
 }
 .btn-thumb.prev{
     background: url(/images/icons/prev.png)no-repeat center center, rgba(24, 24, 24, 0.77);
@@ -41,6 +49,19 @@ body{
     height: 31px;
     padding: 0px 5px;
     color: #dedede;
+    letter-spacing: 0.01em;
     background: #1d1d1d linear-gradient(rgba(255, 255, 255, 0.02), rgba(159, 159, 159, 0.02) 51%, rgba(118, 118, 118, 0.02) 50%, rgba(0, 0, 0, 0.02));
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+/*LISTS*/
+.list-default li{
+    color: #b9b9b9;
+    font-size: 12px;
+    margin-bottom: 9rem;
+    letter-spacing: 0.02em;
+}
+.list-default > li > i{
+    margin: 2px 11rem 0px 0px;
+    flex-shrink: 0;
 }

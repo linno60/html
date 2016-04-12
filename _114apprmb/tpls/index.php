@@ -19,10 +19,10 @@
             }
         </script>
     </head>
-    <body data-flex="col between">
+    <body>
         <div>
             <header>
-                <div class="lwrap" data-flex="axis">
+                <div class="lwrap" data-flex="axis" data-flex-480="-center around w">
                     <div data-flex="col -start">
                         <a href="/" title="Return to the homepage" id="logo">
                             <img src="/images/logo.png" height="45" width="106" alt="Apprmb">
@@ -37,7 +37,7 @@
                 </div>
             </header>
             <div class="slider">
-                <div class="lwrap" data-flex="axis">
+                <div class="lwrap" data-flex="axis" data-flex-480="vstripe r">
                     <figure><img src="/images/iphone.png" width="318" height="407" alt=""></figure>
                     <div>
                         <figure class="wrap">
@@ -52,8 +52,8 @@
                     <h2>More info</h2>
                     <a href="#" class="btn btn-alt">download app</a>
                 </div>
-                <div data-flex="stripe">
-                    <aside class="sidebar">
+                <div data-flex="stripe" data-flex-640="vstripe r">
+                    <aside class="sidebar" data-flex="-start around w">
                         <article class="wrap">
                             <h3>About app</h3>
                             <em>Morbi egestas adipiscing bibendum. Nullam consequat aliquam massa sed posuere. Aenean sodales est non sapien laoreet accumsan. </em>
@@ -77,7 +77,7 @@
                     <div>
                         <div class="wrap functions">
                             <h3>Functions</h3>
-                            <div data-flex="stripe w">
+                            <div data-flex="stripe w" data-flex-480="vstripe">
                                 <article>
                                     <h4 data-flex="-center"><i class="icon-microphone"></i>Music</h4>
                                     <p>Suspendisse a metus sit amet odio elementum suscipit id lectus sed accumsan ipsum.</p>
@@ -111,19 +111,19 @@
         <footer>
             <div class="lwrap">
                 <h2>Contact us</h2>
-                <div data-flex="-start between">
+                <div data-flex="-start between" data-flex-480="vstripe">
                     <div class="contact">
-                        <div data-flex="stripe">
-                            <div>
+                        <div data-flex="stripe" data-flex-800="vstripe">
+                            <div data-flex="col">
                                 <address>123 Appdrive STR.<br>New York, 12345</address>
                                 <span>phone: (238)&ndash;123&ndash;4567</span>
-                                <span>email: <a href="mailto:tempees@temppees.com">tempees@tempees.com</a></span>
+                                <span>email: <a href="mailto:tempees@temppees.com">tempees@&shy;tempees.com</a></span>
                             </div>
                             <figure><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d171337.03543942622!2d35.17535355!3d47.856229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1449773041469" allowfullscreen></iframe></figure>
                         </div>
-                        <span class="question" data-flex="end">Any questions?</span>
+                        <span class="question" data-flex="end" data-flex-480>Any questions?</span>
                     </div>
-                    <form action="#" method="post" data-flex="-start between">
+                    <form action="#" method="post" data-flex="-start between" data-flex-640="vstripe" data-flex-480="-start between">
                         <div>
                             <input type="text" name="input" placeholder="name">
                             <input type="email" name="input" placeholder="email">

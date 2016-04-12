@@ -7,14 +7,17 @@ body{
     background: url("/images/body.png");
     background-size: cover;
 }
-figure > img, a > img{
+figure > img, a > img, figure > iframe{
     width: 100%;
     height: 100%;
     display: block;
 }
-p{
-    color: #b9b9b9;
+p, p a{
+    color: #b9b9b9; 
     line-height: 22px;
+}
+a:active, a:hover, a:focus{
+    text-decoration: underline;
 }
 
 /*HEADER*/
@@ -23,12 +26,12 @@ header{
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), inset 0 -1px 0 rgba(255, 255, 255, 0.07);
 }
 header > .lwrap{
-    padding: 10px 10px 10px 10px;
+    padding: 19rem 10px 20rem 10px;
 }
 
 /*CONTENT*/
 .content.lwrap{
-    padding: 10px 10px 10px 10px;
+    padding: 33rem 10px 51rem 10px;
 }
 .content em{
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.33);
@@ -41,23 +44,114 @@ header > .lwrap{
     text-align: center;
 }
 .grid article{   
-    margin-bottom: 20px;
+    margin-bottom: 31rem;
     background: rgba(0, 0, 0, 0.44);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.33);
 }
-.grid > div{
-    width: 48%;
+.grid article figure{
+    position: relative;
 }
-.grid article h2, footer h5{
-    font-size: 15px;
+.grid article figure .thumbs{
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+}
+.grid > div{
+    width: 48.4%;
+}
+.grid article h2{
+    margin-bottom: 11rem;
+    letter-spacing: 0.025em;
 }
 .grid article h2, footer h5{
     font-family: Open Sans Condensed;
     color: #dedede;
-    margin-bottom: 20px;
     text-transform: capitalize;
-    font-size: 15px;
     font-weight: 700;
+    font-size: 15px;
+}
+.grid article > div{
+    padding: 15rem 20rem 14rem 20rem;
+}
+.grid article > .caption{
+    background: rgba(0,0,0,.17);   
+    font-size: 10px;
+    padding: 9rem 19rem 10rem 20rem;
+}
+.caption, .caption a{
+    color: #797979;
+}
+.caption time i{
+    margin-right: 6px;
+}
+.caption a i{
+    margin: 1px 4px 0px 0px;
+}
+.grid article blockquote{
+    color: #797979;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5rem 0px 20rem 2rem;
+}
+.grid article blockquote q{
+    color: #b9b9b9;
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.grid article blockquote cite{
+    font-style: normal;
+    font-size: 13px;
+}
+.grid article p{
+    margin-bottom: 23rem;
+}
+.grid article p:last-child{
+    margin-bottom: 0px;
+}
+.video{
+    padding-bottom: 2px;
+}
+.audio figure{
+    padding: 1rem 19px 3rem 3rem;
+    background: url("/images/music.png")no-repeat center center;
+    background-size: cover;
+    margin: 4rem 27rem 18rem -3rem;
+}
+.audio figure + div{
+    flex-grow: 1;
+}
+.player{
+    height: 30px;
+    background: rgba(0,0,0,.44);
+    padding: 5px 16rem 5px 12rem;
+    margin: 5rem -1rem 18rem 0px;
+}
+.play{
+    border-top: 5px solid transparent;
+    border-left: 7px solid #b7b7b7;
+    border-bottom: 5px solid transparent;
+    margin-right: 13rem;
+}
+.load{
+    flex-grow: 1;
+    height: 6px;
+    background: rgba(0,0,0,.5);
+}
+.load:before{
+    content: "";
+    width: 15.5%;
+    background: rgba(255,255,255,.5);
+}
+.grid article.chat p{
+    padding-top: 11rem;
+    margin-bottom: 5rem;
+}
+.grid article.chat p:last-child{
+    margin-bottom: 12rem;
+}
+.grid article.audio p:last-child{
+    margin-bottom: 2rem;
 }
 
 /*FOOTER*/
@@ -66,8 +160,34 @@ footer{
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.07);
 }
 footer > .lwrap{
-    padding: 20px 10px 40px 10px;
+    padding: 58rem 9px 29rem 10px;
 }
 footer h5{
     font-size: 14px;
+    margin-bottom: 18rem;
+}
+footer > .lwrap > div{
+    width: 23%;
+}
+footer p{
+    margin-bottom: 25rem;
+    font-size: 12px;
+    line-height: 25px;
+}
+footer article{
+    background: url("/images/border.png")repeat-x left bottom;
+    padding: 2rem 1rem 11rem 0px;
+    margin-bottom: 12rem;
+}
+footer article p{
+    margin-bottom: 5rem;
+    line-height: 22px;
+}
+footer article:last-child{
+    background: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    footer > .lwrap > div {width: 48%;}
 }
