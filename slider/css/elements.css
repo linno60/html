@@ -1,0 +1,13 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+.h2{
+    font-size: 21px;
+    font-family: Open Sans Condensed;
+    text-align:  center;
+}
+body > div{
+    border-bottom: 1px dashed gray;
+    padding: 10px;
+}
