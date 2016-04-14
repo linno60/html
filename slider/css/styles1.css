@@ -1,0 +1,225 @@
+/*------- SLIDER #1 -------*/
+
+/*COMMON*/
+.csslider1 {
+    position: relative;
+    max-width: 960px;
+    overflow: hidden;
+}
+.csslider1 > input[type=radio] {
+    display: none;
+}
+.csslider1 > ul {
+    position: relative;
+    z-index: 1;   
+}
+.csslider1 > ul > li:first-child {
+    line-height: 0;
+}
+.csslider1 > ul > li > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider1 > ul > li:not(:first-child) {
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition: transform 1600ms;
+}
+
+/*ARROWS*/
+.csslider1 > .arrowprev,
+.csslider1 > .arrownext {
+    position: absolute;
+    top: 50%;
+    box-sizing: content-box;
+}
+.csslider1 > .arrowprev {
+    left: 35px;
+}
+.csslider1 > .arrownext {
+    right: 35px;
+}
+.csslider1 > .arrowprev > label,
+.csslider1 > .arrownext > label {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: -30px;
+    width: 35px;
+    padding: 30px 0px;
+    transition: 300ms padding 300ms ease, 300ms margin-top 300ms ease;
+}
+.csslider1 > .arrowprev > label {
+    right: 0;
+}
+.csslider1 > .arrownext > label {
+    left: 0;
+}
+.csslider1 > .arrowprev > label:after,
+.csslider1 > .arrownext > label:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f7af86;
+    text-align: center;
+    content: "";
+}
+.csslider1 > .arrowprev > label:after {
+    background: #f7af86 url(/images/icons/prev1.png)no-repeat center center;
+}
+.csslider1 > .arrownext > label:after {
+    background: #f7af86 url(/images/icons/next1.png)no-repeat center center;
+}
+.csslider1 > .arrowprev:hover > label, .csslider1 > .arrownext:hover > label {
+    padding: 55px 0px;
+    margin-top: -55px;
+    transition: 300ms padding ease, 300ms margin-top ease;
+}
+.csslider1 > .arrowprev img, .csslider1 > .arrownext img{
+    position: absolute;
+    border: 10px solid #f7af86;
+    box-sizing: content-box;
+    top: 0px;
+}
+.csslider1 > .arrowprev img {    
+    left: -192px;    
+    transition: 300ms left ease;    
+}
+.csslider1 > .arrownext img {
+    right: -192px;
+    transition: 300ms right ease;
+}
+.csslider1 > .arrowprev:hover img {
+    left: 35px;
+    transition: 300ms left 300ms ease;
+}
+.csslider1 > .arrownext:hover img {
+    right: 35px;
+    transition: 300ms right 300ms ease;
+}
+.csslider1 > #slide1-0:checked ~ .arrowprev > label.num-2,
+.csslider1 > #slide1-0:checked ~ .arrownext > label.num-1, 
+.csslider1 > #slide1-1:checked ~ .arrowprev > label.num-0,
+.csslider1 > #slide1-1:checked ~ .arrownext > label.num-2, 
+.csslider1 > #slide1-2:checked ~ .arrowprev > label.num-1,
+.csslider1 > #slide1-2:checked ~ .arrownext > label.num-0{
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider1 > #play1:checked ~ .arrowprev > label.num-2,
+.csslider1 > #play1:checked ~ .arrownext > label.num-1 {
+    animation: arrow 11700ms infinite -1600ms;
+}
+.csslider1 > #play1:checked ~ .arrowprev > label.num-0,
+.csslider1 > #play1:checked ~ .arrownext > label.num-2 {
+    animation: arrow 11700ms infinite 2300ms;
+}
+.csslider1 > #play1:checked ~ .arrowprev > label.num-1,
+.csslider1 > #play1:checked ~ .arrownext > label.num-0 {
+    animation: arrow 11700ms infinite 6200ms;
+}
+.csslider1 > input:checked ~ .arrowprev > label,
+.csslider1 > input:checked ~ .arrownext > label {
+    animation: none;
+}
+
+/*DESCRIPTION*/
+.csslider1 > .description > label {
+    font-family: Poiret One;
+    font-size: 21px;
+    color: white;
+    padding: 10rem;
+    background: #f7af86;
+    max-width: 50%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+}
+.csslider1 > #slide1-0:checked ~ .description > .num-0,
+.csslider1 > #slide1-1:checked ~ .description > .num-1,
+.csslider1 > #slide1-2:checked ~ .description > .num-2 {
+    opacity: 1;
+    z-index: 4;
+    transition: .5s opacity .2s ease, .5s transform .2s ease;
+    transform: translateY(0);
+}
+.csslider1 > input:checked ~ .description > label {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+@keyframes description {
+    4.273504273504273%, 22.212222222222223%  {
+        opacity: 1;
+        z-index: 4;
+        transform: translateX(0);
+    }
+    0%, 26.495726495726498%, 100%  {
+        opacity: 0;
+        z-index: 0;
+        transform: translateX(-100%);
+    }
+}
+.csslider1 > #play1:checked ~ .description > .num-0 {
+    animation: description 11700ms infinite 0ms;
+}
+.csslider1 > #play1:checked ~ .description > .num-1 {
+    animation: description 11700ms infinite 3900ms;
+}
+.csslider1 > #play1:checked ~ .description > .num-2 {
+    animation: description 11700ms infinite 7800ms;
+}
+
+/*EFFECTS*/
+.csslider1 > ul > li.num-0 {
+    top: 0%;
+}
+.csslider1 > ul > li.num-1 {
+    top: 100%;
+}
+.csslider1 > ul > li.num-2 {
+    top: 200%;
+}
+.csslider1 > #slide1-0:checked ~ ul > li:not(:first-child) {
+    transform: translateY(0%);
+}
+.csslider1 > #slide1-1:checked ~ ul > li:not(:first-child) {
+    transform: translateY(-100%);
+}
+.csslider1 > #slide1-2:checked ~ ul > li:not(:first-child) {
+    transform: translateY(-200%);
+}
+@keyframes slide1 {
+    0%, 19.65811965811966%  { transform: translateY(0%); }
+    33.333333333333336%, 52.991452991452995%  { transform: translateY(-100%); }
+    66.66666666666667%, 86.32478632478632%  { transform: translateY(-200%); }
+}
+@keyframes slide1-ie {
+    0%, 19.65811965811966%  { margin-top: 0%; }
+    33.333333333333336%, 52.991452991452995%  { margin-top: -52.083333333333336%; }
+    66.66666666666667%, 86.32478632478632%  { margin-top: -104.16666666666667%; }
+}
+.csslider1  > #play1:checked ~ ul > li:not(:first-child) {
+    animation: slide1 11700ms infinite;
+}
+
+/*IE*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider1  > #play1:checked ~ ul > li:not(:first-child) {
+        animation: slide1-ie 11700ms infinite;
+    }
+}
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .description{display: none;}
+}
+
