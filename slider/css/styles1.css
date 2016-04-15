@@ -10,21 +10,18 @@
     display: none;
 }
 .csslider1 > ul {
-    position: relative;
-    z-index: 1;   
+    position: relative; 
 }
-.csslider1 > ul > li:first-child {
-    line-height: 0;
+.csslider1 > ul > li:first-child{
+   position: static;
 }
 .csslider1 > ul > li > img {
     width: 100%;
     height: 100%;
     display: block;
 }
-.csslider1 > ul > li:not(:first-child) {
-    overflow: hidden;
+.csslider1 > ul > li{
     position: absolute;
-    height: 100%;
     top: 0px;
     left: 0px;
     transition: transform 1600ms;
@@ -189,13 +186,13 @@
 .csslider1 > ul > li.num-2 {
     top: 200%;
 }
-.csslider1 > #slide1-0:checked ~ ul > li:not(:first-child) {
+.csslider1 > #slide1-0:checked ~ ul > li{
     transform: translateY(0%);
 }
-.csslider1 > #slide1-1:checked ~ ul > li:not(:first-child) {
+.csslider1 > #slide1-1:checked ~ ul > li{
     transform: translateY(-100%);
 }
-.csslider1 > #slide1-2:checked ~ ul > li:not(:first-child) {
+.csslider1 > #slide1-2:checked ~ ul > li{
     transform: translateY(-200%);
 }
 @keyframes slide1 {
@@ -208,18 +205,19 @@
     33.333333333333336%, 52.991452991452995%  { margin-top: -52.083333333333336%; }
     66.66666666666667%, 86.32478632478632%  { margin-top: -104.16666666666667%; }
 }
-.csslider1  > #play1:checked ~ ul > li:not(:first-child) {
+.csslider1  > #play1:checked ~ ul > li{
     animation: slide1 11700ms infinite;
 }
 
 /*IE*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .csslider1  > #play1:checked ~ ul > li:not(:first-child) {
+    .csslider1 > #play1:checked ~ ul > li{
         animation: slide1-ie 11700ms infinite;
     }
 }
+
 /*MEDIA QUERIES*/
 @media (max-width: 480px) {
-    .description{display: none;}
+    .csslider1 > .description{display: none;}
 }
 
