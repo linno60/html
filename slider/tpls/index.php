@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles1.css"> 
         <link rel="stylesheet" href="/css/styles2.css"> 
-        <!--        <link rel="stylesheet" href="/css/styles3.css"> -->
+        <link rel="stylesheet" href="/css/styles3.css"> 
         <script>
             var LAYOUT_WIDTH = 960;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -24,51 +24,45 @@
     <body>
         <div>
             <h2 class="h2">Slider #3</h2>
-            <div class='csslider1 lwrap'>
-                <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
-                <input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
-                <input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
-                <input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
-                <input name="cs_anchor1" id='cs_pause1_0' type="radio" class='cs_anchor pause'>
-                <input name="cs_anchor1" id='cs_pause1_1' type="radio" class='cs_anchor pause'>
-                <input name="cs_anchor1" id='cs_pause1_2' type="radio" class='cs_anchor pause'>
+            <div class='csslider3 lwrap'>
+                <input name="anchor3" id='cs_slide1_0' type="radio">
+                <input name="anchor3" id='cs_slide1_1' type="radio">
+                <input name="anchor3" id='cs_slide1_2' type="radio">
+                <input name="anchor3" id='play3' type="radio" checked>
+                <input name="anchor3" id='cs_pause1_0' type="radio">
+                <input name="anchor3" id='cs_pause1_1' type="radio">
+                <input name="anchor3" id='cs_pause1_2' type="radio">
                 <ul>
-                    <li class="cs_skeleton"><img src="/images/herbage.jpg"></li>
-                    <li class='num0 img slide'><img src='/images/herbage.jpg' alt='Night Herb' title='Night Herb' width="960" height="500"></li>
-                    <li class='num1 img slide'><img src='/images/pasture.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="960" height="500"></li>
-                    <li class='num2 img slide'><img src='/images/flowers.jpg' alt='Summer Field' title='Summer Field' width="960" height="500"></li>
+                    <li><img src="/images/herbage.jpg" width="960" height="500"></li>
+                    <li class='num0'><img src='/images/herbage.jpg' alt='Night Herb' title='Night Herb' width="960" height="500"></li>
+                    <li class='num1'><img src='/images/pasture.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="960" height="500"></li>
+                    <li class='num2'><img src='/images/flowers.jpg' alt='Summer Field' title='Summer Field' width="960" height="500"></li>
                 </ul>
-                <div class='cs_description'>
+                <div class='description'>
                     <label class='num0'>Night Herb</label>
                     <label class='num1'>Pasture Herbage</label>
-                    <label class='num2'><span class="cs_title"><span class="cs_wrapper">Summer Field</span></span></label>
+                    <label class='num2'>Summer Field</label>
                 </div>
-                <div class='cs_play_pause'>
-                    <label class='cs_play' for='cs_play1'></label>
-                    <label class='cs_pause num0' for='cs_pause1_0'></label>
-                    <label class='cs_pause num1' for='cs_pause1_1'></label>
-                    <label class='cs_pause num2' for='cs_pause1_2'></label>
+                <div class='play-pause'>
+                    <label class='play' for='play3'></label>
+                    <label class='pause num0' for='cs_pause1_0'></label>
+                    <label class='pause num1' for='cs_pause1_1'></label>
+                    <label class='pause num2' for='cs_pause1_2'></label>
                 </div>
-                <div class='cs_arrowprev'>
-                    <label class='num0' for='cs_slide1_0'></label>
-                    <label class='num1' for='cs_slide1_1'></label>
-                    <label class='num2' for='cs_slide1_2'></label>
+                <div class='arrowprev'>
+                    <label class='num0' for='cs_slide1_0'><span><i></i><b></b></span></label>
+                    <label class='num1' for='cs_slide1_1'><span><i></i><b></b></span></label>
+                    <label class='num2' for='cs_slide1_2'><span><i></i><b></b></span></label>
                 </div>
-                <div class='cs_arrownext'>
-                    <label class='num0' for='cs_slide1_0'></label>
-                    <label class='num1' for='cs_slide1_1'></label>
-                    <label class='num2' for='cs_slide1_2'></label>
+                <div class='arrownext'>
+                    <label class='num0' for='cs_slide1_0'><span><i></i><b></b></span></label>
+                    <label class='num1' for='cs_slide1_1'><span><i></i><b></b></span></label>
+                    <label class='num2' for='cs_slide1_2'><span><i></i><b></b></span></label>
                 </div>
-                <div class='cs_bullets'>
-                    <label class='num0' for='cs_slide1_0'>
-                        <span class='cs_thumb'><img src='/images/herbagesm.jpg' alt='Night Herb' title='Night Herb' width="92" height="48"></span>
-                    </label>
-                    <label class='num1' for='cs_slide1_1'>
-                        <span class='cs_thumb'><img src='/images/pasturesm.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="92" height="48"></span>
-                    </label>
-                    <label class='num2' for='cs_slide1_2'>
-                        <span class='cs_thumb'><img src='/images/flowerssm.jpg' alt='Summer Field' title='Summer Field' width="92" height="48"></span>
-                    </label>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='cs_slide1_0'><figure><img src='/images/herbagesm.jpg' alt='Night Herb' title='Night Herb' width="92" height="48"></figure></label>
+                    <label class='num1' for='cs_slide1_1'><figure><img src='/images/pasturesm.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="92" height="48"></figure></label>
+                    <label class='num2' for='cs_slide1_2'><figure><img src='/images/flowerssm.jpg' alt='Summer Field' title='Summer Field' width="92" height="48"></figure></label>
                 </div>
             </div>
         </div>

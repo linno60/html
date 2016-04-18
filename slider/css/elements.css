@@ -11,3 +11,6 @@ body > div{
     border-bottom: 1px dashed gray;
     padding: 10px;
 }
+label{
+    cursor: pointer;
+}
