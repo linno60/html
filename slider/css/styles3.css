@@ -28,17 +28,17 @@
         opacity 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
     transform: translateY(-50%);
 }
-.csslider3 > #cs_slide1_0:checked ~ ul > .num0,
-.csslider3 > #cs_pause1_0:checked ~ ul > .num0,
-.csslider3 > #cs_slide1_1:checked ~ ul > .num1,
-.csslider3 > #cs_pause1_1:checked ~ ul > .num1,
-.csslider3 > #cs_slide1_2:checked ~ ul > .num2,
-.csslider3 > #cs_pause1_2:checked ~ ul > .num2 {
+.csslider3 > #slide-3-0:checked ~ ul > .num0,
+.csslider3 > #pause-3-0:checked ~ ul > .num0,
+.csslider3 > #slide-3-1:checked ~ ul > .num1,
+.csslider3 > #pause-3-1:checked ~ ul > .num1,
+.csslider3 > #slide-3-2:checked ~ ul > .num2,
+.csslider3 > #pause-3-2:checked ~ ul > .num2 {
     opacity: 1;
     z-index: 2;
     transform: translateY(0);
 }
-@keyframes jump1 {
+@keyframes jump3 {
     0%, 47.00854700854701%, 100%  {
         opacity: 0;
         transform: translateY(-50%);
@@ -58,13 +58,13 @@
     }
 }
 .csslider3 > #play3:checked ~ ul > .num0 {
-    animation: jump1 11700ms infinite -1600ms;
+    animation: jump3 11700ms infinite -1600ms;
 }
 .csslider3 > #play3:checked ~ ul > .num1 {
-    animation: jump1 11700ms infinite 2300ms;
+    animation: jump3 11700ms infinite 2300ms;
 }
 .csslider3 > #play3:checked ~ ul > .num2 {
-    animation: jump1 11700ms infinite 6200ms;
+    animation: jump3 11700ms infinite 6200ms;
 }
 .csslider3 > #play3:checked ~ ul > li,
 .csslider3 > .pause:checked ~ ul > li {
@@ -191,36 +191,36 @@
     opacity: 0;
     z-index: -1;
 }
-.csslider3 > #cs_slide1_0:checked ~ .arrowprev > label.num2,
-.csslider3 > #cs_pause1_0:checked ~ .arrowprev > label.num2,
-.csslider3 > #cs_slide1_0:checked ~ .arrownext > label.num1,
-.csslider3 > #cs_pause1_0:checked ~ .arrownext > label.num1, 
-.csslider3 > #cs_slide1_1:checked ~ .arrowprev > label.num0,
-.csslider3 > #cs_pause1_1:checked ~ .arrowprev > label.num0,
-.csslider3 > #cs_slide1_1:checked ~ .arrownext > label.num2,
-.csslider3 > #cs_pause1_1:checked ~ .arrownext > label.num2, 
-.csslider3 > #cs_slide1_2:checked ~ .arrowprev > label.num1,
-.csslider3 > #cs_pause1_2:checked ~ .arrowprev > label.num1,
-.csslider3 > #cs_slide1_2:checked ~ .arrownext > label.num0,
-.csslider3 > #cs_pause1_2:checked ~ .arrownext > label.num0 {
+.csslider3 > #slide-3-0:checked ~ .arrowprev > label.num2,
+.csslider3 > #pause-3-0:checked ~ .arrowprev > label.num2,
+.csslider3 > #slide-3-0:checked ~ .arrownext > label.num1,
+.csslider3 > #pause-3-0:checked ~ .arrownext > label.num1, 
+.csslider3 > #slide-3-1:checked ~ .arrowprev > label.num0,
+.csslider3 > #pause-3-1:checked ~ .arrowprev > label.num0,
+.csslider3 > #slide-3-1:checked ~ .arrownext > label.num2,
+.csslider3 > #pause-3-1:checked ~ .arrownext > label.num2, 
+.csslider3 > #slide-3-2:checked ~ .arrowprev > label.num1,
+.csslider3 > #pause-3-2:checked ~ .arrowprev > label.num1,
+.csslider3 > #slide-3-2:checked ~ .arrownext > label.num0,
+.csslider3 > #pause-3-2:checked ~ .arrownext > label.num0 {
     opacity: 1;
     z-index: 5;
 }
-@keyframes arrow {
+@keyframes arrow3 {
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider3 > #play3:checked ~ .arrowprev > label.num2,
 .csslider3 > #play3:checked ~ .arrownext > label.num1 {
-    animation: arrow 11700ms infinite -1600ms;
+    animation: arrow3 11700ms infinite -1600ms;
 }
 .csslider3 > #play3:checked ~ .arrowprev > label.num0,
 .csslider3 > #play3:checked ~ .arrownext > label.num2 {
-    animation: arrow 11700ms infinite 2300ms;
+    animation: arrow3 11700ms infinite 2300ms;
 }
 .csslider3 > #play3:checked ~ .arrowprev > label.num1,
 .csslider3 > #play3:checked ~ .arrownext > label.num0 {
-    animation: arrow 11700ms infinite 6200ms;
+    animation: arrow3 11700ms infinite 6200ms;
 }
 .csslider3 > input:checked ~ .arrowprev > label,
 .csslider3 > input:checked ~ .arrownext > label {
@@ -244,27 +244,27 @@
     z-index: 2;
     transition: opacity .4s;
 }
-.csslider3 > #cs_slide1_0:checked ~ .description > .num0,
-.csslider3 > #cs_pause1_0:checked ~ .description > .num0,
-.csslider3 > #cs_slide1_1:checked ~ .description > .num1,
-.csslider3 > #cs_pause1_1:checked ~ .description > .num1,
-.csslider3 > #cs_slide1_2:checked ~ .description > .num2,
-.csslider3 > #cs_pause1_2:checked ~ .description > .num2{
+.csslider3 > #slide-3-0:checked ~ .description > .num0,
+.csslider3 > #pause-3-0:checked ~ .description > .num0,
+.csslider3 > #slide-3-1:checked ~ .description > .num1,
+.csslider3 > #pause-3-1:checked ~ .description > .num1,
+.csslider3 > #slide-3-2:checked ~ .description > .num2,
+.csslider3 > #pause-3-2:checked ~ .description > .num2{
     opacity: 1;
 }
-@keyframes cs_title {
+@keyframes description3 {
     4.273504273504273%, 33.333333333333336%  { opacity: 1; z-index: 2;}
     37.60683760683761%  { opacity: 0; z-index: 2;}
     37.616837606837606%, 100%  { z-index: 0; }
 }
 .csslider3 > #play3:checked ~ .description > .num0{
-    animation: cs_title 11700ms infinite -1120ms ease;
+    animation: description3 11700ms infinite -1120ms ease;
 }
 .csslider3 > #play3:checked ~ .description > .num1{
-    animation: cs_title 11700ms infinite 2780ms ease;
+    animation: description3 11700ms infinite 2780ms ease;
 }
 .csslider3 > #play3:checked ~ .description > .num2{
-    animation: cs_title 11700ms infinite 6680ms ease;
+    animation: description3 11700ms infinite 6680ms ease;
 }
 .csslider3 > .pause:checked ~ .description > label {
     animation: none;
@@ -305,17 +305,16 @@
 .csslider3 > .bullets > label:hover > figure{
     opacity: 1;
 }
-.csslider3 > #cs_slide1_0:checked ~ .bullets > label.num0,
-.csslider3 > #cs_pause1_0:checked ~ .bullets > label.num0,
-.csslider3 > #cs_slide1_1:checked ~ .bullets > label.num1,
-.csslider3 > #cs_pause1_1:checked ~ .bullets > label.num1,
-.csslider3 > #cs_slide1_2:checked ~ .bullets > label.num2,
-.csslider3 > #cs_pause1_2:checked ~ .bullets > label.num2 {
+.csslider3 > #slide-3-0:checked ~ .bullets > label.num0,
+.csslider3 > #pause-3-0:checked ~ .bullets > label.num0,
+.csslider3 > #slide-3-1:checked ~ .bullets > label.num1,
+.csslider3 > #pause-3-1:checked ~ .bullets > label.num1,
+.csslider3 > #slide-3-2:checked ~ .bullets > label.num2,
+.csslider3 > #pause-3-2:checked ~ .bullets > label.num2 {
     background: #b0e8ee;
 }
-@keyframes bullet {
+@keyframes bullet3 {
     0%, 33.32333333333334%  {
-        box-shadow: none;
         background: #b0e8ee;
     }
     33.333333333333336%, 100% {
@@ -323,13 +322,13 @@
     }
 }
 .csslider3 > #play3:checked ~ .bullets > label.num0 {
-    animation: bullet 11700ms infinite -1600ms;
+    animation: bullet3 11700ms infinite -1600ms;
 }
 .csslider3 > #play3:checked ~ .bullets > label.num1 {
-    animation: bullet 11700ms infinite 2300ms;
+    animation: bullet3 11700ms infinite 2300ms;
 }
 .csslider3 > #play3:checked ~ .bullets > label.num2 {
-    animation: bullet 11700ms infinite 6200ms;
+    animation: bullet3 11700ms infinite 6200ms;
 }
 
 /*PLAY-PAUSE*/
@@ -369,6 +368,7 @@
 .csslider3 > .play-pause > .pause:hover:after, .csslider3 > .play-pause > .pause:hover:before{
     background: #34495e;
 }
+
 /* play */
 .csslider3 > .play-pause > .play:after {
     content: "";
@@ -377,11 +377,13 @@
     pointer-events: none;
     border-left-color: #b0e8ee;
     border-width: 10px;
-    transition:  border-left-color 300ms ease-in-out;
+    transition: border-left-color 300ms ease-in-out;
 }
 .csslider3 > .play-pause:hover > .play:after {
     border-left-color: #34495e;
 }
+
+/*play-pause moving*/
 .csslider3 > #play3:checked ~ .play-pause > .pause,
 .csslider3 > input:checked ~ .play-pause > .play {
     display: block;
@@ -392,24 +394,22 @@
     display: none;
     z-index: -1;
 }
-@keyframes pauseChange {
+@keyframes play-pause3 {
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
 }
-.csslider3 > #play3:checked ~ .play-pause > .pause.num0 {
+.csslider3 > #play3:checked ~ .play-pause > .pause {
     opacity: 0;
     z-index: -1;
-    animation: pauseChange 11700ms infinite -1600ms;
+}
+.csslider3 > #play3:checked ~ .play-pause > .pause.num0 {
+    animation: play-pause3 11700ms infinite -1600ms;
 }
 .csslider3 > #play3:checked ~ .play-pause > .pause.num1 {
-    opacity: 0;
-    z-index: -1;
-    animation: pauseChange 11700ms infinite 2300ms;
+    animation: play-pause3 11700ms infinite 2300ms;
 }
 .csslider3 > #play3:checked ~ .play-pause > .pause.num2 {
-    opacity: 0;
-    z-index: -1;
-    animation: pauseChange 11700ms infinite 6200ms;
+    animation: play-pause3 11700ms infinite 6200ms;
 }
 .csslider3 > input:checked ~ .play-pause > .pause {
     animation: none;

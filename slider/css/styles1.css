@@ -63,8 +63,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f7af86;
-    text-align: center;
     content: "";
 }
 .csslider1 > .arrowprev > label:after {
@@ -109,21 +107,21 @@
     opacity: 1;
     z-index: 5;
 }
-@keyframes arrow {
+@keyframes arrow1 {
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider1 > #play1:checked ~ .arrowprev > label.num-2,
 .csslider1 > #play1:checked ~ .arrownext > label.num-1 {
-    animation: arrow 11700ms infinite -1600ms;
+    animation: arrow1 11700ms infinite -1600ms;
 }
 .csslider1 > #play1:checked ~ .arrowprev > label.num-0,
 .csslider1 > #play1:checked ~ .arrownext > label.num-2 {
-    animation: arrow 11700ms infinite 2300ms;
+    animation: arrow1 11700ms infinite 2300ms;
 }
 .csslider1 > #play1:checked ~ .arrowprev > label.num-1,
 .csslider1 > #play1:checked ~ .arrownext > label.num-0 {
-    animation: arrow 11700ms infinite 6200ms;
+    animation: arrow1 11700ms infinite 6200ms;
 }
 .csslider1 > input:checked ~ .arrowprev > label,
 .csslider1 > input:checked ~ .arrownext > label {
@@ -154,7 +152,7 @@
     opacity: 0;
     transform: translateX(-100%);
 }
-@keyframes description {
+@keyframes description1 {
     4.273504273504273%, 22.212222222222223%  {
         opacity: 1;
         z-index: 4;
@@ -167,13 +165,13 @@
     }
 }
 .csslider1 > #play1:checked ~ .description > .num-0 {
-    animation: description 11700ms infinite 0ms;
+    animation: description1 11700ms infinite 0ms;
 }
 .csslider1 > #play1:checked ~ .description > .num-1 {
-    animation: description 11700ms infinite 3900ms;
+    animation: description1 11700ms infinite 3900ms;
 }
 .csslider1 > #play1:checked ~ .description > .num-2 {
-    animation: description 11700ms infinite 7800ms;
+    animation: description1 11700ms infinite 7800ms;
 }
 
 /*EFFECTS*/
