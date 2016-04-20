@@ -25,54 +25,98 @@
     </head>
     <body>
         <div>
-            <h2 class="h2">Slider #4</h2>
-            <div class='csslider4 lwrap'>
-                <input name="anchor4" id='cs_slide1_0' type="radio" class='slide'>
-                <input name="anchor4" id='cs_slide1_1' type="radio" class='slide'>
-                <input name="anchor4" id='cs_slide1_2' type="radio" class='slide'>
-                <input name="anchor4" id='cs_slide1_3' type="radio" class='slide'>
-                <input name="anchor4" id='cs_play1' type="radio" checked>
-                <input name="anchor4" id='cs_pause1_0' type="radio" class='pause'>
-                <input name="anchor4" id='cs_pause1_1' type="radio" class='pause'>
-                <input name="anchor4" id='cs_pause1_2' type="radio" class='pause'>
-                <input name="anchor4" id='cs_pause1_3' type="radio" class='pause'>
+            <h2 class="h2">Slider #5</h2>
+            <div class='csslider5 lwrap'>
+                <input name="anchor5" id='slide5-0' type="radio">
+                <input name="anchor5" id='slide5-1' type="radio">
+                <input name="anchor5" id='slide5-2' type="radio">
+                <input name="anchor5" id='play5' type="radio" checked>
+                <input name="anchor5" id='pause5-0' type="radio">
+                <input name="anchor5" id='pause5-1' type="radio">
+                <input name="anchor5" id='pause5-2' type="radio">
                 <ul>
-                    <li><img src="/images/cat1.jpg"></li>
-                    <li class='num0 slide'><img src='/images/cat1.jpg' alt='no-jQuery Content Slider' title='Elegant Cat'></li>
-                    <li class='num1 slide'><img src='/images/cat2.jpg' alt='Content Slider with Zero jQuery' title='Graceful Cat'></li>
-                    <li class='num2 slide'><img src='/images/cat3.jpg' alt='Wordpress Content Slider with CSS only' title='Proud Cat'></li>
-                    <li class='num3 slide'><img src='/images/cat4.jpg' alt='Responsive Content Slider w/o jQuery' title='The Curious Cat'></li>
+                    <li><img src="/images/piano.jpg" width="830" height="360"></li>
+                    <li class='num0 img slide'><img src="/images/piano.jpg" width="830" height="360" alt='Piano' title='Piano'></li>
+                    <li class='num1 img slide'><img src="/images/linen.jpg" width="830" height="360" alt='Linen' title='Linen'></li>
+                    <li class='num2 img slide'><img src="/images/keyboard.jpg" width="830" height="360" alt='Keyboard' title='Keyboard'></li>
                 </ul>
-                <div class='cs_description'>
-                    <label class='num0'>Elegant Cat</label>
-                    <label class='num1'>Graceful Cat</label>
-                    <label class='num2'>Proud Cat</label>
-                    <label class='num3'>The Curious Cat</span></span></label>
+                <div class='description' data-childs="col">
+                    <label class='num0'>Piano<small>Sleek black and white keys</small></label>
+                    <label class='num1'>Linen<small>Clean and Tidy</small></label>
+                    <label class='num2'>Keyboard</label>
                 </div>
-                <div class='cs_play_pause'>
-                    <label class='cs_play' for='cs_play1'></label>
+                <div class='play-pause'>
+                    <label class='cs_play' for='play5'></label>
                     <label class='cs_pause num0' for='cs_pause1_0'></label>
                     <label class='cs_pause num1' for='cs_pause1_1'></label>
                     <label class='cs_pause num2' for='cs_pause1_2'></label>
-                    <label class='cs_pause num3' for='cs_pause1_3'></label>
                 </div>
-                <div class='cs_arrowprev'>
-                    <label class='num0' for='cs_slide1_0'><img src='/images/cat1sm.jpg' alt='Elegant Cat' title='Elegant Cat'></label>
-                    <label class='num1' for='cs_slide1_1'><img src='/images/cat2sm.jpg' alt='Graceful Cat' title='Graceful Cat'></label>
-                    <label class='num2' for='cs_slide1_2'><img src='/images/cat3sm.jpg' alt='Proud Cat' title='Proud Cat'></label>
-                    <label class='num3' for='cs_slide1_3'><img src='/images/cat4sm.jpg' alt='The Curious Cat' title='The Curious Cat'></label>
+                <div class='arrowprev'>
+                    <label class='num0' for='cs_slide1_0'><img src="/images/pianosm.jpg" width="80" height="80" alt='Piano' title='Piano'></label>
+                    <label class='num1' for='cs_slide1_1'><img src="/images/linensm.jpg" width="80" height="80" alt='Linen' title='Linen'></label>
+                    <label class='num2' for='cs_slide1_2'><img src="/images/keyboardsm.jpg" width="80" height="80" alt='Keyboard' title='Keyboard'></label>
                 </div>
-                <div class='cs_arrownext'>
-                    <label class='num0' for='cs_slide1_0'><img src='/images/cat1sm.jpg' alt='Elegant Cat' title='Elegant Cat'></label>
-                    <label class='num1' for='cs_slide1_1'><img src='/images/cat2sm.jpg' alt='Graceful Cat' title='Graceful Cat'></label>
-                    <label class='num2' for='cs_slide1_2'><img src='/images/cat3sm.jpg' alt='Proud Cat' title='Proud Cat'></label>
-                    <label class='num3' for='cs_slide1_3'><img src='/images/cat4sm.jpg' alt='The Curious Cat' title='The Curious Cat'></label>
+                <div class='arrownext'>
+                    <label class='num0' for='cs_slide1_0'><img src="/images/pianosm.jpg" width="80" height="80" alt='Piano' title='Piano'></label>
+                    <label class='num1' for='cs_slide1_1'><img src="/images/linensm.jpg" width="80" height="80" alt='Linen' title='Linen'></label>
+                    <label class='num2' for='cs_slide1_2'><img src="/images/keyboardsm.jpg" width="80" height="80" alt='Keyboard' title='Keyboard'></label>
                 </div>
-                <div class='cs_bullets' data-flex="end" data-childs="-center center">
-                    <label class='num0' for='cs_slide1_0'><figure><img src='/images/cat1sm.jpg' alt='Elegant Cat' title='Elegant Cat'></figure></label>
-                    <label class='num1' for='cs_slide1_1'><figure><img src='/images/cat2sm.jpg' alt='Graceful Cat' title='Graceful Cat'></figure></label>
-                    <label class='num2' for='cs_slide1_2'><figure><img src='/images/cat3sm.jpg' alt='Proud Cat' title='Proud Cat'></figure></label>
-                    <label class='num3' for='cs_slide1_3'><figure><img src='/images/cat4sm.jpg' alt='The Curious Cat' title='The Curious Cat'></figure></label>
+                <div class='bullets' data-flex>
+                    <label class='num0' for='cs_slide1_0'><figure><img src="/images/pianosm.jpg" width="80" height="80" alt='Piano' title='Piano'></figure></label>
+                    <label class='num1' for='cs_slide1_1'><figure><img src="/images/linensm.jpg" width="80" height="80" alt='Linen' title='Linen'></figure></label>
+                    <label class='num2' for='cs_slide1_2'><figure><img src="/images/keyboardsm.jpg" width="80" height="80" alt='Keyboard' title='Keyboard'></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="h2">Slider #4</h2>
+            <div class='csslider4 lwrap'>
+                <input name="anchor4" id='slide-4-0' type="radio">
+                <input name="anchor4" id='slide-4-1' type="radio">
+                <input name="anchor4" id='slide-4-2' type="radio">
+                <input name="anchor4" id='slide-4-3' type="radio">
+                <input name="anchor4" id='play4' type="radio" checked>
+                <input name="anchor4" id='pause-4-0' type="radio">
+                <input name="anchor4" id='pause-4-1' type="radio">
+                <input name="anchor4" id='pause-4-2' type="radio">
+                <input name="anchor4" id='pause-4-3' type="radio">
+                <ul>
+                    <li><img src="/images/cat1.jpg"></li>
+                    <li class='num-0'><img src='/images/cat1.jpg' alt='Elegant Cat' title='Elegant Cat' width="830" height="560"></li>
+                    <li class='num-1'><img src='/images/cat2.jpg' alt='Graceful Cat' title='Graceful Cat' width="830" height="560"></li>
+                    <li class='num-2'><img src='/images/cat3.jpg' alt='Proud Cat' title='Proud Cat' width="830" height="560"></li>
+                    <li class='num-3'><img src='/images/cat4.jpg' alt='Curious Cat' title='Curious Cat' width="830" height="560"></li>
+                </ul>
+                <div class='description'>
+                    <label class='num-0'>Elegant Cat</label>
+                    <label class='num-1'>Graceful Cat</label>
+                    <label class='num-2'>Proud Cat</label>
+                    <label class='num-3'>The Curious Cat</label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play4'></label>
+                    <label class='pause num-0' for='pause-4-0'></label>
+                    <label class='pause num-1' for='pause-4-1'></label>
+                    <label class='pause num-2' for='pause-4-2'></label>
+                    <label class='pause num-3' for='pause-4-3'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num-0' for='slide-4-0'><img src='/images/cat1sm.jpg' alt='Elegant Cat' title='Elegant Cat' width="150" height="99"></label>
+                    <label class='num-1' for='slide-4-1'><img src='/images/cat2sm.jpg' alt='Graceful Cat' title='Graceful Cat' width="150" height="99"></label>
+                    <label class='num-2' for='slide-4-2'><img src='/images/cat3sm.jpg' alt='Proud Cat' title='Proud Cat' width="150" height="99"></label>
+                    <label class='num-3' for='slide-4-3'><img src='/images/cat4sm.jpg' alt='Curious Cat' title='Curious Cat' width="150" height="99"></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num-0' for='slide-4-0'><img src='/images/cat1sm.jpg' alt='Elegant Cat' title='Elegant Cat' width="150" height="99"></label>
+                    <label class='num-1' for='slide-4-1'><img src='/images/cat2sm.jpg' alt='Graceful Cat' title='Graceful Cat' width="150" height="99"></label>
+                    <label class='num-2' for='slide-4-2'><img src='/images/cat3sm.jpg' alt='Proud Cat' title='Proud Cat' width="150" height="99"></label>
+                    <label class='num-3' for='slide-4-3'><img src='/images/cat4sm.jpg' alt='Curious Cat' title='Curious Cat' width="150" height="99"></label>
+                </div>
+                <div class='bullets' data-flex="end" data-childs="-center center">
+                    <label class='num-0' for='slide-4-0'><figure><img src='/images/cat1sm.jpg' alt='Elegant Cat' title='Elegant Cat' width="150" height="99"></figure></label>
+                    <label class='num-1' for='slide-4-1'><figure><img src='/images/cat2sm.jpg' alt='Graceful Cat' title='Graceful Cat' width="150" height="99"></figure></label>
+                    <label class='num-2' for='slide-4-2'><figure><img src='/images/cat3sm.jpg' alt='Proud Cat' title='Proud Cat' width="150" height="99"></figure></label>
+                    <label class='num-3' for='slide-4-3'><figure><img src='/images/cat4sm.jpg' alt='Curious Cat' title='Curious Cat' width="150" height="99"></figure></label>
                 </div>
             </div>
         </div>
@@ -88,35 +132,35 @@
                 <input name="anchor3" id='pause-3-2' type="radio">
                 <ul>
                     <li><img src="/images/herbage.jpg" width="960" height="500"></li>
-                    <li class='num0'><img src='/images/herbage.jpg' alt='Night Herb' title='Night Herb' width="960" height="500"></li>
-                    <li class='num1'><img src='/images/pasture.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="960" height="500"></li>
-                    <li class='num2'><img src='/images/flowers.jpg' alt='Summer Field' title='Summer Field' width="960" height="500"></li>
+                    <li class='num-0'><img src='/images/herbage.jpg' alt='Night Herb' title='Night Herb' width="960" height="500"></li>
+                    <li class='num-1'><img src='/images/pasture.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="960" height="500"></li>
+                    <li class='num-2'><img src='/images/flowers.jpg' alt='Summer Field' title='Summer Field' width="960" height="500"></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'>Night Herb</label>
-                    <label class='num1'>Pasture Herbage</label>
-                    <label class='num2'>Summer Field</label>
+                    <label class='num-0'>Night Herb</label>
+                    <label class='num-1'>Pasture Herbage</label>
+                    <label class='num-2'>Summer Field</label>
                 </div>
                 <div class='play-pause'>
                     <label class='play' for='play3'></label>
-                    <label class='pause num0' for='pause-3-0'></label>
-                    <label class='pause num1' for='pause-3-1'></label>
-                    <label class='pause num2' for='pause-3-2'></label>
+                    <label class='pause num-0' for='pause-3-0'></label>
+                    <label class='pause num-1' for='pause-3-1'></label>
+                    <label class='pause num-2' for='pause-3-2'></label>
                 </div>
                 <div class='arrowprev'>
-                    <label class='num0' for='slide-3-0'><span><i></i><b></b></span></label>
-                    <label class='num1' for='slide-3-1'><span><i></i><b></b></span></label>
-                    <label class='num2' for='slide-3-2'><span><i></i><b></b></span></label>
+                    <label class='num-0' for='slide-3-0'><span><i></i><b></b></span></label>
+                    <label class='num-1' for='slide-3-1'><span><i></i><b></b></span></label>
+                    <label class='num-2' for='slide-3-2'><span><i></i><b></b></span></label>
                 </div>
                 <div class='arrownext'>
-                    <label class='num0' for='slide-3-0'><span><i></i><b></b></span></label>
-                    <label class='num1' for='slide-3-1'><span><i></i><b></b></span></label>
-                    <label class='num2' for='slide-3-2'><span><i></i><b></b></span></label>
+                    <label class='num-0' for='slide-3-0'><span><i></i><b></b></span></label>
+                    <label class='num-1' for='slide-3-1'><span><i></i><b></b></span></label>
+                    <label class='num-2' for='slide-3-2'><span><i></i><b></b></span></label>
                 </div>
                 <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide-3-0'><figure><img src='/images/herbagesm.jpg' alt='Night Herb' title='Night Herb' width="92" height="48"></figure></label>
-                    <label class='num1' for='slide-3-1'><figure><img src='/images/pasturesm.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="92" height="48"></figure></label>
-                    <label class='num2' for='slide-3-2'><figure><img src='/images/flowerssm.jpg' alt='Summer Field' title='Summer Field' width="92" height="48"></figure></label>
+                    <label class='num-0' for='slide-3-0'><figure><img src='/images/herbagesm.jpg' alt='Night Herb' title='Night Herb' width="92" height="48"></figure></label>
+                    <label class='num-1' for='slide-3-1'><figure><img src='/images/pasturesm.jpg' alt='Pasture Herbage' title='Pasture Herbage' width="92" height="48"></figure></label>
+                    <label class='num-2' for='slide-3-2'><figure><img src='/images/flowerssm.jpg' alt='Summer Field' title='Summer Field' width="92" height="48"></figure></label>
                 </div>
             </div>
         </div>

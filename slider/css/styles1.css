@@ -9,9 +9,6 @@
 .csslider1 > input[type=radio] {
     display: none;
 }
-.csslider1 > ul {
-    position: relative; 
-}
 .csslider1 > ul > li:first-child{
    position: static;
 }
@@ -22,17 +19,55 @@
 }
 .csslider1 > ul > li{
     position: absolute;
-    top: 0px;
-    left: 0px;
     transition: transform 1600ms;
 }
 
+/*SLIDESHOW*/
+.csslider1 > ul > .num-0 {
+    top: 0%;
+}
+.csslider1 > ul > .num-1 {
+    top: 100%;
+}
+.csslider1 > ul > .num-2 {
+    top: 200%;
+}
+.csslider1 > #slide1-0:checked ~ ul > li{
+    transform: translateY(0%);
+}
+.csslider1 > #slide1-1:checked ~ ul > li{
+    transform: translateY(-100%);
+}
+.csslider1 > #slide1-2:checked ~ ul > li{
+    transform: translateY(-200%);
+}
+@keyframes slide1 {
+    0%, 19.65811965811966%  { transform: translateY(0%); }
+    33.333333333333336%, 52.991452991452995%  { transform: translateY(-100%); }
+    66.66666666666667%, 86.32478632478632%  { transform: translateY(-200%); }
+}
+@keyframes slide1-ie {
+    0%, 19.65811965811966%  { margin-top: 0%; }
+    33.333333333333336%, 52.991452991452995%  { margin-top: -52.083333333333336%; }
+    66.66666666666667%, 86.32478632478632%  { margin-top: -104.16666666666667%; }
+}
+.csslider1  > #play1:checked ~ ul > li{
+    animation: slide1 11700ms infinite;
+}
+/*IE*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider1 > #play1:checked ~ ul > li{
+        animation: slide1-ie 11700ms infinite;
+    }
+}
+
 /*ARROWS*/
+
+/*arrows template*/
 .csslider1 > .arrowprev,
 .csslider1 > .arrownext {
     position: absolute;
     top: 50%;
-    box-sizing: content-box;
 }
 .csslider1 > .arrowprev {
     left: 35px;
@@ -43,7 +78,6 @@
 .csslider1 > .arrowprev > label,
 .csslider1 > .arrownext > label {
     position: absolute;
-    cursor: pointer;
     opacity: 0;
     margin-top: -30px;
     width: 35px;
@@ -98,29 +132,33 @@
     right: 35px;
     transition: 300ms right 300ms ease;
 }
-.csslider1 > #slide1-0:checked ~ .arrowprev > label.num-2,
-.csslider1 > #slide1-0:checked ~ .arrownext > label.num-1, 
-.csslider1 > #slide1-1:checked ~ .arrowprev > label.num-0,
-.csslider1 > #slide1-1:checked ~ .arrownext > label.num-2, 
-.csslider1 > #slide1-2:checked ~ .arrowprev > label.num-1,
-.csslider1 > #slide1-2:checked ~ .arrownext > label.num-0{
+.csslider1 > #slide1-0:checked ~ .arrowprev > .num-2,
+.csslider1 > #slide1-0:checked ~ .arrownext > .num-1, 
+.csslider1 > #slide1-1:checked ~ .arrowprev > .num-0,
+.csslider1 > #slide1-1:checked ~ .arrownext > .num-2, 
+.csslider1 > #slide1-2:checked ~ .arrowprev > .num-1,
+.csslider1 > #slide1-2:checked ~ .arrownext > .num-0{
     opacity: 1;
     z-index: 5;
 }
 @keyframes arrow1 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.32333333333334% {
+        opacity: 1; z-index: 5;
+    }
+    33.333333333333336%, 100%  { 
+        opacity: 0; z-index: -1;
+    }
 }
-.csslider1 > #play1:checked ~ .arrowprev > label.num-2,
-.csslider1 > #play1:checked ~ .arrownext > label.num-1 {
+.csslider1 > #play1:checked ~ .arrowprev > .num-2,
+.csslider1 > #play1:checked ~ .arrownext > .num-1 {
     animation: arrow1 11700ms infinite -1600ms;
 }
-.csslider1 > #play1:checked ~ .arrowprev > label.num-0,
-.csslider1 > #play1:checked ~ .arrownext > label.num-2 {
+.csslider1 > #play1:checked ~ .arrowprev > .num-0,
+.csslider1 > #play1:checked ~ .arrownext > .num-2 {
     animation: arrow1 11700ms infinite 2300ms;
 }
-.csslider1 > #play1:checked ~ .arrowprev > label.num-1,
-.csslider1 > #play1:checked ~ .arrownext > label.num-0 {
+.csslider1 > #play1:checked ~ .arrowprev > .num-1,
+.csslider1 > #play1:checked ~ .arrownext > .num-0 {
     animation: arrow1 11700ms infinite 6200ms;
 }
 .csslider1 > input:checked ~ .arrowprev > label,
@@ -138,7 +176,6 @@
     max-width: 50%;
     bottom: 0;
     position: absolute;
-    left: 0;
 }
 .csslider1 > #slide1-0:checked ~ .description > .num-0,
 .csslider1 > #slide1-1:checked ~ .description > .num-1,
@@ -172,46 +209,6 @@
 }
 .csslider1 > #play1:checked ~ .description > .num-2 {
     animation: description1 11700ms infinite 7800ms;
-}
-
-/*EFFECTS*/
-.csslider1 > ul > li.num-0 {
-    top: 0%;
-}
-.csslider1 > ul > li.num-1 {
-    top: 100%;
-}
-.csslider1 > ul > li.num-2 {
-    top: 200%;
-}
-.csslider1 > #slide1-0:checked ~ ul > li{
-    transform: translateY(0%);
-}
-.csslider1 > #slide1-1:checked ~ ul > li{
-    transform: translateY(-100%);
-}
-.csslider1 > #slide1-2:checked ~ ul > li{
-    transform: translateY(-200%);
-}
-@keyframes slide1 {
-    0%, 19.65811965811966%  { transform: translateY(0%); }
-    33.333333333333336%, 52.991452991452995%  { transform: translateY(-100%); }
-    66.66666666666667%, 86.32478632478632%  { transform: translateY(-200%); }
-}
-@keyframes slide1-ie {
-    0%, 19.65811965811966%  { margin-top: 0%; }
-    33.333333333333336%, 52.991452991452995%  { margin-top: -52.083333333333336%; }
-    66.66666666666667%, 86.32478632478632%  { margin-top: -104.16666666666667%; }
-}
-.csslider1  > #play1:checked ~ ul > li{
-    animation: slide1 11700ms infinite;
-}
-
-/*IE*/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .csslider1 > #play1:checked ~ ul > li{
-        animation: slide1-ie 11700ms infinite;
-    }
 }
 
 /*MEDIA QUERIES*/
