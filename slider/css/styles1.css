@@ -23,13 +23,13 @@
 }
 
 /*SLIDESHOW*/
-.csslider1 > ul > .num-0 {
+.csslider1 > ul > .num0 {
     top: 0%;
 }
-.csslider1 > ul > .num-1 {
+.csslider1 > ul > .num1 {
     top: 100%;
 }
-.csslider1 > ul > .num-2 {
+.csslider1 > ul > .num2 {
     top: 200%;
 }
 .csslider1 > #slide1-0:checked ~ ul > li{
@@ -132,12 +132,12 @@
     right: 35px;
     transition: 300ms right 300ms ease;
 }
-.csslider1 > #slide1-0:checked ~ .arrowprev > .num-2,
-.csslider1 > #slide1-0:checked ~ .arrownext > .num-1, 
-.csslider1 > #slide1-1:checked ~ .arrowprev > .num-0,
-.csslider1 > #slide1-1:checked ~ .arrownext > .num-2, 
-.csslider1 > #slide1-2:checked ~ .arrowprev > .num-1,
-.csslider1 > #slide1-2:checked ~ .arrownext > .num-0{
+.csslider1 > #slide1-0:checked ~ .arrowprev > .num2,
+.csslider1 > #slide1-0:checked ~ .arrownext > .num1, 
+.csslider1 > #slide1-1:checked ~ .arrowprev > .num0,
+.csslider1 > #slide1-1:checked ~ .arrownext > .num2, 
+.csslider1 > #slide1-2:checked ~ .arrowprev > .num1,
+.csslider1 > #slide1-2:checked ~ .arrownext > .num0{
     opacity: 1;
     z-index: 5;
 }
@@ -149,16 +149,16 @@
         opacity: 0; z-index: -1;
     }
 }
-.csslider1 > #play1:checked ~ .arrowprev > .num-2,
-.csslider1 > #play1:checked ~ .arrownext > .num-1 {
+.csslider1 > #play1:checked ~ .arrowprev > .num2,
+.csslider1 > #play1:checked ~ .arrownext > .num1 {
     animation: arrow1 11700ms infinite -1600ms;
 }
-.csslider1 > #play1:checked ~ .arrowprev > .num-0,
-.csslider1 > #play1:checked ~ .arrownext > .num-2 {
+.csslider1 > #play1:checked ~ .arrowprev > .num0,
+.csslider1 > #play1:checked ~ .arrownext > .num2 {
     animation: arrow1 11700ms infinite 2300ms;
 }
-.csslider1 > #play1:checked ~ .arrowprev > .num-1,
-.csslider1 > #play1:checked ~ .arrownext > .num-0 {
+.csslider1 > #play1:checked ~ .arrowprev > .num1,
+.csslider1 > #play1:checked ~ .arrownext > .num0 {
     animation: arrow1 11700ms infinite 6200ms;
 }
 .csslider1 > input:checked ~ .arrowprev > label,
@@ -177,9 +177,9 @@
     bottom: 0;
     position: absolute;
 }
-.csslider1 > #slide1-0:checked ~ .description > .num-0,
-.csslider1 > #slide1-1:checked ~ .description > .num-1,
-.csslider1 > #slide1-2:checked ~ .description > .num-2 {
+.csslider1 > #slide1-0:checked ~ .description > .num0,
+.csslider1 > #slide1-1:checked ~ .description > .num1,
+.csslider1 > #slide1-2:checked ~ .description > .num2 {
     opacity: 1;
     z-index: 4;
     transition: .5s opacity .2s ease, .5s transform .2s ease;
@@ -201,13 +201,13 @@
         transform: translateX(-100%);
     }
 }
-.csslider1 > #play1:checked ~ .description > .num-0 {
+.csslider1 > #play1:checked ~ .description > .num0 {
     animation: description1 11700ms infinite 0ms;
 }
-.csslider1 > #play1:checked ~ .description > .num-1 {
+.csslider1 > #play1:checked ~ .description > .num1 {
     animation: description1 11700ms infinite 3900ms;
 }
-.csslider1 > #play1:checked ~ .description > .num-2 {
+.csslider1 > #play1:checked ~ .description > .num2 {
     animation: description1 11700ms infinite 7800ms;
 }
 

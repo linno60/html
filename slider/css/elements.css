@@ -14,3 +14,6 @@ body > div{
 label{
     cursor: pointer;
 }
+.description label{
+    cursor: default;
+}

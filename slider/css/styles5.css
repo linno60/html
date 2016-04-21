@@ -3,7 +3,10 @@
 /*COMMON*/
 .csslider5 {
     position: relative;
-    max-width: 830px;
+    max-width: 830px;   
+}
+.csslider5 > ul{
+    position: relative;
     overflow: hidden;
 }
 .csslider5 > input[type=radio] {
@@ -78,6 +81,22 @@
     transition: none;
 }
 
+/*show btns*/
+.csslider5 > .arrowprev {
+    transition: .5s opacity .15s ease;
+}
+.csslider5 > .arrownext {
+    transition: .5s opacity .3s ease;
+}
+.csslider5 > .arrowprev,
+.csslider5 > .arrownext {
+    opacity: 0;
+}
+.csslider5:hover > .arrowprev,
+.csslider5:hover > .arrownext {
+    opacity: 1;
+}
+
 /*ARROWS*/
 
 /*arrow template*/
@@ -139,13 +158,232 @@
     visibility: visible;
     transform: rotateY(0deg);
 }
+/*arrow moving*/
+.csslider5 > input:checked ~ .arrowprev > label,
+.csslider5 > input:checked ~ .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider5 > #slide5-0:checked ~ .arrowprev > .num2,
+.csslider5 > #pause5-0:checked ~ .arrowprev > .num2,
+.csslider5 > #slide5-0:checked ~ .arrownext > .num1,
+.csslider5 > #pause5-0:checked ~ .arrownext > .num1, 
+.csslider5 > #slide5-1:checked ~ .arrowprev > .num0,
+.csslider5 > #pause5-1:checked ~ .arrowprev > .num0,
+.csslider5 > #slide5-1:checked ~ .arrownext > .num2,
+.csslider5 > #pause5-1:checked ~ .arrownext > .num2, 
+.csslider5 > #slide5-2:checked ~ .arrowprev > .num1,
+.csslider5 > #pause5-2:checked ~ .arrowprev > .num1,
+.csslider5 > #slide5-2:checked ~ .arrownext > .num0,
+.csslider5 > #pause5-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow5 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider5 > #play5:checked ~ .arrowprev > label.num2,
+.csslider5 > #play5:checked ~ .arrownext > label.num1 {
+    animation: arrow5 24000ms infinite -2000ms;
+}
+.csslider5 > #play5:checked ~ .arrowprev > label.num0,
+.csslider5 > #play5:checked ~ .arrownext > label.num2 {
+    animation: arrow5 24000ms infinite 6000ms;
+}
+.csslider5 > #play5:checked ~ .arrowprev > label.num1,
+.csslider5 > #play5:checked ~ .arrownext > label.num0 {
+    animation: arrow5 24000ms infinite 14000ms;
+}
+.csslider5 > input:checked ~ .arrowprev > label,
+.csslider5 > input:checked ~ .arrownext > label {
+    animation: none;
+}
 
 /*DESCRIPTION*/
-.description{
+
+/*description template*/
+.csslider5 > .description > label {
+    font-family: Indie Flower;
+    font-size: 21px;
+    color: white;
+    padding: 10rem;
+    background: #47c9af;   
+    bottom: 0px;
     position: absolute;
+    left: 0px;
+    max-width: 50%;
+}
+.csslider5 > .description > label > small{
+    font-size: 16px;
+    margin-top: 5rem;
+}
+
+/*description moving*/
+.csslider5 > #slide5-0:checked ~ .description > .num0,
+.csslider5 > #pause5-0:checked ~ .description > .num0,
+.csslider5 > #slide5-1:checked ~ .description > .num1,
+.csslider5 > #pause5-1:checked ~ .description > .num1,
+.csslider5 > #slide5-2:checked ~ .description > .num2,
+.csslider5 > #pause5-2:checked ~ .description > .num2 {
+    opacity: 1;
+    z-index: 4;
+    transition: .5s opacity .2s ease, .5s transform .2s ease;
+}
+.csslider5 > input:checked ~ .description > label {
+    opacity: 0;
+    transform: translateX(0%);
+}
+@keyframes description5 {
+    2.0833333333333335%, 27.073333333333334%  {
+        opacity: 1;
+        z-index: 4;
+        transform: translateX(0);
+    }
+    0%, 29.166666666666668%, 100%  {
+        opacity: 0;
+        z-index: 0;
+        transform: translateX(-100%);   
+    }
+}
+.csslider5 > #play5:checked ~ .description > .num0 {
+    animation: description5 24000ms infinite 0ms;
+}
+.csslider5 > #play5:checked ~ .description > .num1 {
+    animation: description5 24000ms infinite 8000ms;
+}
+.csslider5 > #play5:checked ~ .description > .num2 {
+    animation: description5 24000ms infinite 16000ms;
 }
 
 /*BULLETS*/
-.bullets{
+
+/*bullets template*/
+.csslider5 > .bullets {
+    bottom: 0;
+    right: 30px;
     position: absolute;
+    z-index: 6;
+}
+.csslider5 > .bullets > label{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background: #47c9af;
+    transition: 300ms background ease;
+}
+.csslider5 > .bullets > label > figure {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275),
+        visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    position: absolute;
+    left: -37px;
+    top: -80px;
+}
+.csslider5 > .bullets > label:hover > figure {
+    visibility: visible;
+    opacity: 1;
+}
+/*bullets moving*/
+.csslider5 > .bullets > label:hover,
+.csslider5 > #slide5-0:checked ~ .bullets > .num0,
+.csslider5 > #pause5-0:checked ~ .bullets > .num0,
+.csslider5 > #slide5-1:checked ~ .bullets > .num1,
+.csslider5 > #pause5-1:checked ~ .bullets > .num1,
+.csslider5 > #slide5-2:checked ~ .bullets > .num2,
+.csslider5 > #pause5-2:checked ~ .bullets > .num2 {
+    background: #40b59e;
+}
+@keyframes bullet5 {
+    0%, 33.32333333333334%  { background: #40b59e; }
+    33.333333333333336%, 100% { background: #47c9af; }
+}
+.csslider5 > #play5:checked ~ .bullets > label.num0{
+    animation: bullet5 24000ms infinite -2000ms;
+}
+.csslider5 > #play5:checked ~ .bullets > label.num1{
+    animation: bullet5 24000ms infinite 6000ms;
+}
+.csslider5 > #play5:checked ~ .bullets > label.num2{
+    animation: bullet5 24000ms infinite 14000ms;
+}
+.csslider5 > #play5:checked ~ .bullets > label{
+    transition: none;
+}
+.csslider5 > input:checked ~ .bullets > label{
+    animation: none;
+}
+
+/*PLAY - PAUSE*/
+
+/*play - pause template*/
+.csslider5 > .play-pause {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.csslider5 > .play-pause > label {
+    position: absolute;
+    left: -30px;
+    top: -30px;  
+    width: 30px;
+    height: 30px;
+    background: #47c9af;
+    transition: 300ms background ease;
+}
+.csslider5 > .play-pause:hover > label {
+    background: #40b59e
+}
+.csslider5 > .play-pause > .play:after {
+    background: url(/images/icons/play.png)no-repeat center center;    
+}
+.csslider5 > .play-pause > .pause:after {
+    background: url(/images/icons/pause.png)no-repeat center center;
+}
+.csslider5 > .play-pause > label:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*play - pause moving*/
+.csslider5 > #play5:checked ~ .play-pause > .pause,
+.csslider5 > input:checked ~ .play-pause > .play {
+    display: block;
+    z-index: 5;
+}
+.csslider5 > #play5:checked ~ .play-pause > .play,
+.csslider5 > input:checked ~ .play-pause > .pause {
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause5 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider5 > #play5:checked ~ .play-pause > .pause.num0 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause5 24000ms infinite -2000ms;
+}
+.csslider5 > #play5:checked ~ .play-pause > .pause.num1 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause5 24000ms infinite 6000ms;
+}
+.csslider5 > #play5:checked ~ .play-pause > .pause.num2 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause5 24000ms infinite 14000ms;
+}
+.csslider5 > input:checked ~ .play-pause > .pause {
+    animation: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider5 > .description, .csslider5 > .bullets {display: none;}
 }

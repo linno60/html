@@ -1,0 +1,176 @@
+/*------- SLIDER #3 -------*/
+
+/*COMMON*/
+.csslider6 {
+    position: relative;
+    max-width: 960px;
+}
+.csslider6 > ul{
+    position: relative;
+    overflow: hidden;
+}
+.csslider6 > input[type=radio] {
+    display: none;
+}
+.csslider6 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider6 > ul > li > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider6 > ul > li:not(:first-child) {
+    position: absolute;
+    left: 0;
+    top: 0;    
+    z-index: 1;
+    transition: transform 1680ms cubic-bezier(0.600, -0.280, 0.875, -0.105);
+    transform: scale(0);
+}
+
+/*SLIDESHOW*/
+.csslider6 > #slide6-0:checked ~ ul > .num0,
+.csslider6 > #pause6-0:checked ~ ul > .num0,
+.csslider6 > #slide6-1:checked ~ ul > .num1,
+.csslider6 > #pause6-1:checked ~ ul > .num1,
+.csslider6 > #slide6-2:checked ~ ul > .num2,
+.csslider6 > #pause6-2:checked ~ ul > .num2 {
+    z-index: 1;
+    transform: scale(1);
+    transition: transform 2800ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+@keyframes zoomOut1 {
+    0%, 46.14379084967321%, 100%  {
+        transform: scale(0);
+    }
+    9.150326797385622% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    18.300653594771244%, 33.333333333333336%  {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    38.82352941176471% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    0%, 33.33233333333334%  { z-index: 1; }
+    33.33433333333333%, 100%  { z-index: 2; }
+}
+.csslider6 > #play6:checked ~ ul > .num0 {
+    animation: zoomOut1 15300ms infinite -2800ms;
+}
+.csslider6 > #play6:checked ~ ul > .num1 {
+    animation: zoomOut1 15300ms infinite 2300ms;
+}
+.csslider6 > #play6:checked ~ ul > .num2 {
+    animation: zoomOut1 15300ms infinite 7400ms;
+}
+.csslider6 > #play6:checked ~ ul > li{
+    transition: none;
+}
+
+/*show btns*/
+.csslider6 > .play-pause {
+    transition: .4s all 0s ease;
+}
+.csslider6 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider6 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider6 > .arrowprev,
+.csslider6 > .arrownext,
+.csslider6 > .play-pause {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.csslider6:hover > .arrowprev,
+.csslider6:hover > .arrownext,
+.csslider6:hover > .play-pause {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider6 > .arrowprev,
+.csslider6 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider6 > .arrowprev {
+    left: 45px;
+}
+.csslider6 > .arrownext {
+    right: 45px;
+}
+.csslider6 > .arrowprev > label,
+.csslider6 > .arrownext > label {
+    position: absolute; 
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 2px white;
+    transition: background 200ms ease-in-out, transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.csslider6 > .arrowprev:hover > label,
+.csslider6 > .arrownext:hover > label {
+    background: #33bbd9;
+    box-shadow: inset 0 0 0 2px #33bbd9;
+    transform: rotate(45deg);
+}
+.csslider6 > .arrowprev > label:after,
+.csslider6 > .arrownext > label:after {
+    
+}
+
+/*arrows moving*/
+.csslider6 > input:checked ~ .arrowprev > label,
+.csslider6 > input:checked ~ .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider6 > #slide6-0:checked ~ .arrowprev > .num2,
+.csslider6 > #pause6-0:checked ~ .arrowprev > .num2,
+.csslider6 > #slide6-0:checked ~ .arrownext > .num1,
+.csslider6 > #pause6-0:checked ~ .arrownext > .num1, 
+.csslider6 > #slide6-1:checked ~ .arrowprev > .num0,
+.csslider6 > #pause6-1:checked ~ .arrowprev > .num0,
+.csslider6 > #slide6-1:checked ~ .arrownext > .num2,
+.csslider6 > #pause6-1:checked ~ .arrownext > .num2, 
+.csslider6 > #slide6-2:checked ~ .arrowprev > .num1,
+.csslider6 > #pause6-2:checked ~ .arrowprev > .num1,
+.csslider6 > #slide6-2:checked ~ .arrownext > .num0,
+.csslider6 > #pause6-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow6 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider6 > #play6:checked ~ .arrowprev > .num2,
+.csslider6 > #play6:checked ~ .arrownext > .num1 {
+    animation: arrow6 15300ms infinite -2800ms;
+}
+.csslider6 > #play6:checked ~ .arrowprev > .num0,
+.csslider6 > #play6:checked ~ .arrownext > .num2 {
+    animation: arrow6 15300ms infinite 2300ms;
+}
+.csslider6 > #play6:checked ~ .arrowprev > .num1,
+.csslider6 > #play6:checked ~ .arrownext > .num0 {
+    animation: arrow6 15300ms infinite 7400ms;
+}
+.csslider6 > input:checked ~ .arrowprev > label,
+.csslider6 > input:checked ~ .arrownext > label {
+    animation: none;
+}
