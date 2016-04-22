@@ -15,7 +15,7 @@
 .csslider6 > ul > li:first-child {
     visibility: hidden;
 }
-.csslider6 > ul > li > img {
+.csslider6 > ul > li > img{
     width: 100%;
     height: 100%;
     display: block;
@@ -24,7 +24,7 @@
     position: absolute;
     left: 0;
     top: 0;    
-    z-index: 1;
+    z-index: 2;
     transition: transform 1680ms cubic-bezier(0.600, -0.280, 0.875, -0.105);
     transform: scale(0);
 }
@@ -40,33 +40,30 @@
     transform: scale(1);
     transition: transform 2800ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
-@keyframes zoomOut1 {
+@keyframes zoomout6 {
     0%, 46.14379084967321%, 100%  {
         transform: scale(0);
     }
     9.150326797385622% {
-        -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
     18.300653594771244%, 33.333333333333336%  {
-        -webkit-transform: scale(1);
         transform: scale(1);
     }
     38.82352941176471% {
-        -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
     0%, 33.33233333333334%  { z-index: 1; }
     33.33433333333333%, 100%  { z-index: 2; }
 }
 .csslider6 > #play6:checked ~ ul > .num0 {
-    animation: zoomOut1 15300ms infinite -2800ms;
+    animation: zoomout6 15300ms infinite -2800ms;
 }
 .csslider6 > #play6:checked ~ ul > .num1 {
-    animation: zoomOut1 15300ms infinite 2300ms;
+    animation: zoomout6 15300ms infinite 2300ms;
 }
 .csslider6 > #play6:checked ~ ul > .num2 {
-    animation: zoomOut1 15300ms infinite 7400ms;
+    animation: zoomout6 15300ms infinite 7400ms;
 }
 .csslider6 > #play6:checked ~ ul > li{
     transition: none;
@@ -88,7 +85,6 @@
     opacity: 0;
     transform: translateY(-30px);
 }
-
 .csslider6:hover > .arrowprev,
 .csslider6:hover > .arrownext,
 .csslider6:hover > .play-pause {
@@ -96,21 +92,15 @@
     transform: translateY(0);
 }
 
-/*ARROWS*/
-
-/*arrows template*/
+/*BTNS COMMON STYLES*/
+.csslider6 > .play-pause,
 .csslider6 > .arrowprev,
 .csslider6 > .arrownext {
     position: absolute;
     top: 50%;
     z-index: 5;
 }
-.csslider6 > .arrowprev {
-    left: 45px;
-}
-.csslider6 > .arrownext {
-    right: 45px;
-}
+.csslider6 > .play-pause > label,
 .csslider6 > .arrowprev > label,
 .csslider6 > .arrownext > label {
     position: absolute; 
@@ -122,15 +112,41 @@
     box-shadow: inset 0 0 0 2px white;
     transition: background 200ms ease-in-out, transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
+.csslider6 > .play-pause:hover > label,
 .csslider6 > .arrowprev:hover > label,
 .csslider6 > .arrownext:hover > label {
     background: #33bbd9;
     box-shadow: inset 0 0 0 2px #33bbd9;
     transform: rotate(45deg);
 }
+.csslider6 > .play-pause > label:after,
 .csslider6 > .arrowprev > label:after,
 .csslider6 > .arrownext > label:after {
-    
+    content: "";
+    width: 100%;
+    height: 100%;
+    transition: transform 200ms ease-in-out;
+}
+.csslider6 > .play-pause:hover > label:after,
+.csslider6 > .arrowprev:hover > label:after,
+.csslider6 > .arrownext:hover > label:after {
+    transform: rotate(-45deg);
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider6 > .arrowprev {
+    left: 45px;
+}
+.csslider6 > .arrownext {
+    right: 45px;
+}
+.csslider6 > .arrowprev > label:after{
+    background: url(/images/icons/prev6.png)no-repeat center center;
+}
+.csslider6 > .arrownext > label:after{
+    background: url(/images/icons/next6.png)no-repeat center center;
 }
 
 /*arrows moving*/
@@ -173,4 +189,245 @@
 .csslider6 > input:checked ~ .arrowprev > label,
 .csslider6 > input:checked ~ .arrownext > label {
     animation: none;
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider6 > .description > label {
+    position: absolute;
+    max-width: 50%;    
+    z-index: 3;
+    bottom: 20rem;
+    left: 27rem;
+}
+.csslider6 > .description > label > span,
+.csslider6 > .description > label > small{
+    border-radius: 3px;
+    font-family: Bitter;
+    transform: scale(0);
+    opacity: 0;
+}
+.csslider6 > .description > label > span {
+    color: #33bbd9;
+    background: rgba(255,255,255,0.9);
+    padding: 10rem 15rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    font-size: 19px;        
+    z-index: 2;
+    transition:
+        500ms opacity 840ms ease,
+        500ms transform 840ms ease;
+}
+.csslider6 > .description > label > small {
+    color: white;
+    background: #33bbd9;
+    padding: 7rem 13rem;
+    font-size: 13px;
+    z-index: 1;
+    transition:
+        500ms opacity 1090ms ease, 
+        500ms transform 1090ms ease;
+}
+/*description moving*/
+.csslider6 > #slide6-0:checked ~ .description > .num0 > span,
+.csslider6 > #slide6-0:checked ~ .description > .num0 > small,
+.csslider6 > #pause6-0:checked ~ .description > .num0 > span,
+.csslider6 > #pause6-0:checked ~ .description > .num0 > small,
+.csslider6 > #slide6-1:checked ~ .description > .num1 > span,
+.csslider6 > #slide6-1:checked ~ .description > .num1 > small,
+.csslider6 > #pause6-1:checked ~ .description > .num1 > span,
+.csslider6 > #pause6-1:checked ~ .description > .num1 > small,
+.csslider6 > #slide6-2:checked ~ .description > .num2 > span,
+.csslider6 > #slide6-2:checked ~ .description > .num2 > small,
+.csslider6 > #pause6-2:checked ~ .description > .num2 > span,
+.csslider6 > #pause6-2:checked ~ .description > .num2 > small {
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes title6 {
+    3.2679738562091503%, 33.333333333333336%  {
+        opacity: 1;
+        z-index: 2;
+        transform: scale(1);
+    }
+    36.60130718954249%  {
+        opacity: 0;
+        z-index: 2;
+        transform: scale(0);
+    }
+    36.61130718954249%, 100%  { z-index: 0; }
+}
+@keyframes descr6 {
+    3.2679738562091503%, 33.333333333333336%  {
+        opacity: 1;
+        z-index: 1;
+        transform: scale(1);
+    }
+    36.60130718954249%  {
+        opacity: 0;
+        z-index: 1;
+        transform: scale(0);
+    }
+    36.61130718954249%, 100%  { z-index: 0; }
+}
+.csslider6 > #play6:checked ~ .description > .num0  > span {
+    animation: title6 15300ms infinite -1959.9999999999998ms ease;
+}
+.csslider6 > #play6:checked ~ .description > .num1  > span {
+    animation: title6 15300ms infinite 3140ms ease;
+}
+.csslider6 > #play6:checked ~ .description > .num2  > span {
+    animation: title6 15300ms infinite 8240ms ease;
+}
+.csslider6 > #play6:checked ~ .description > .num0  > small {
+    animation: descr6 15300ms infinite -1709.9999999999998ms ease;
+}
+.csslider6 > #play6:checked ~ .description > .num1  > small {
+    animation: descr6 15300ms infinite 3390ms ease;
+}
+.csslider6 > #play6:checked ~ .description > .num2  > small {
+    animation: descr6 15300ms infinite 8490ms ease;
+}
+.csslider6 > #play6:checked ~ .description > label > span,
+.csslider6 > #play6:checked ~ .description > label > small,
+.csslider6 > input:checked ~ .description > label > span,
+.csslider6 > input:checked ~ .description > label > small {
+    transition: none;
+}
+.csslider6 > input:checked ~ .description > label {
+    animation: none;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider6 > .bullets {
+    position: absolute;
+    top: 7px;
+    z-index: 6;
+    width: 100%;
+}
+.csslider6 > .bullets > label {
+    margin: 6px;
+    height: 16px;
+    width: 16px; 
+    position: relative;
+}
+.csslider6 > .bullets > label:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 2px white;
+    transition: background 200ms ease-in-out, transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.csslider6 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -38px;
+    bottom: -70px;
+    transition: all 0.3s;
+    padding-top: 5px;
+}
+.csslider6 > .bullets > label > figure > img{
+    display: block;
+    border: 2px solid white;
+}
+.csslider6 > .bullets > label:hover > figure {
+    bottom: -60px;
+    opacity: 1;
+    visibility: visible;
+}
+/*bullets moving*/
+.csslider6 > .bullets > label:hover:after,
+.csslider6 > #slide6-0:checked ~ .bullets > .num0:after,
+.csslider6 > #pause6-0:checked ~ .bullets > .num0:after,
+.csslider6 > #slide6-1:checked ~ .bullets > .num1:after,
+.csslider6 > #pause6-1:checked ~ .bullets > .num1:after,
+.csslider6 > #slide6-2:checked ~ .bullets > .num2:after,
+.csslider6 > #pause6-2:checked ~ .bullets > .num2:after{
+    transform: rotate(45deg);
+    background: #33bbd9;
+    box-shadow: inset 0 0 0 2px #33bbd9;
+}
+@keyframes bullet6 {
+    0%, 33.32333333333334%  {
+        transform: rotate(45deg);
+        background: #33bbd9;
+        box-shadow: inset 0 0 0 2px #33bbd9;
+    }
+    33.333333333333336%, 100% {
+        transform: rotate(0deg);
+        background: transparent;
+        box-shadow: inset 0 0 0 2px white;
+    }
+}
+.csslider6 > #play6:checked ~ .bullets > .num0:after{
+    animation: bullet6 15300ms infinite -2800ms;
+}
+.csslider6 > #play6:checked ~ .bullets > .num1:after{
+    animation: bullet6 15300ms infinite 2300ms;
+}
+.csslider6 > #play6:checked ~ .bullets > .num2:after{
+    animation: bullet6 15300ms infinite 7400ms;
+}
+.csslider6 > input:checked ~ .bullets > label:after {
+    animation: none;
+}
+
+/*PLAY-PAUSE*/
+
+/*play-pause template*/
+.csslider6 > .play-pause {
+    left: 50%;
+}
+.csslider6 > .play-pause > .play:after {
+    background: url(/images/icons/play6.png)no-repeat center center;
+}
+.csslider6 > .play-pause > .pause:after {
+    background: url(/images/icons/pause6.png)no-repeat center center;
+}
+
+/*play-pause moving*/
+.csslider6 > #play6:checked ~ .play-pause > .pause,
+.csslider6 > input:checked ~ .play-pause > .play {
+    opacity: 1;
+    z-index: 5;
+}
+.csslider6 > #play6:checked ~ .play-pause > .play,
+.csslider6 > input:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;
+}
+@keyframes play-pause6 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider6 > #play6:checked ~ .play-pause > .pause.num0 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause6 15300ms infinite -2800ms;
+}
+.csslider6 > #play6:checked ~ .play-pause > .pause.num1 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause6 15300ms infinite 2300ms;
+}
+.csslider6 > #play6:checked ~ .play-pause > .pause.num2 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause6 15300ms infinite 7400ms;
+}
+.csslider6 > input:checked ~ .play-pause > .pause {
+    animation: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider6 > .description, .csslider6 > .bullets {display: none;}
 }

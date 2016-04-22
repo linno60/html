@@ -26,6 +26,38 @@
         </script>
     </head>
     <body>
+        <div class='csslider7 lwrap'>
+            <input name="anchor7" id='slide7-0' type="radio">
+            <input name="anchor7" id='slide7-1' type="radio">
+            <input name="anchor7" id='slide7-2' type="radio">
+            <input name="anchor7" id='play7' type="radio" checked>
+            <ul>
+                <li><img src="/images/vintage.jpg"></li>
+                <li class='num0'><img src='/images/vintage.jpg' alt='Vintage' title='Vintage'></li>
+                <li class='num1'><img src='/images/vespa.jpg' alt='Vespa' title='Vespa'></li>
+                <li class='num2'><img src='/images/scooter.jpg' alt='Street' title='Street'></li>
+            </ul>
+            <div class='description'>
+                <label class='num0'><span>Scooter</span><small>Vintage</small></label>
+                <label class='num1'><span>Scooter</span><small>Vespa</small></label>
+                <label class='num2'><span>Scooter</span><small>Street</small></label>
+            </div>
+            <div class='arrowprev'>
+                <label class='num0' for='slide7-0'><span><i></i><b></b></span></label>
+                <label class='num1' for='slide7-1'><span><i></i><b></b></span></label>
+                <label class='num2' for='slide7-2'><span><i></i><b></b></span></label>
+            </div>
+            <div class='arrownext'>
+                <label class='num0' for='slide7-0'><span><i></i><b></b></span></label>
+                <label class='num1' for='slide7-1'><span><i></i><b></b></span></label>
+                <label class='num2' for='slide7-2'><span><i></i><b></b></span></label>
+            </div>
+            <div class='bullets'>
+                <label class='num0' for='slide7-0'><figure><img src='/images/vintagesm.jpg' alt='Vintage' title='Vintage'></figure></label>
+                <label class='num1' for='slide7-1'><figure><img src='/images/vespasm.jpg' alt='Vespa' title='Vespa'></figure></label>
+                <label class='num2' for='slide7-2'><figure><img src='/images/scootersm.jpg' alt='Street' title='Street'></figure></label>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #6</h2>
             <div class='csslider6 lwrap'>
@@ -42,23 +74,23 @@
                     <li class='num1'><img src='/images/volga.jpg' alt='Volga' title='Volga'></li>
                     <li class='num2'><img src='/images/mercedes.jpg' alt='Mercedes' title='Mercedes'></li>
                 </ul>
-                <div class='description' data-childs="col">
+                <div class='description' data-childs="col -start">
                     <label class='num0'><span>Mustang</span><small>Power on wheels</small></label>
                     <label class='num1'><span>Rarity Volga</span><small>Wedding car</small></label>
                     <label class='num2'><span>Mercedes</span><small>Classic car</small></label>
                 </div>
-                <div class='play-pause'>
+                <div class='play-pause' data-childs="-center center">
                     <label class='play' for='play6'></label>
                     <label class='pause num0' for='pause6-0'></label>
                     <label class='pause num1' for='pause6-1'></label>
                     <label class='pause num2' for='pause6-2'></label>
                 </div>
-                <div class='arrowprev'>
+                <div class='arrowprev' data-childs="-center center">
                     <label class='num0' for='slide6-0'></label>
                     <label class='num1' for='slide6-1'></label>
                     <label class='num2' for='slide6-2'></label>
                 </div>
-                <div class='arrownext'>
+                <div class='arrownext' data-childs="-center center">
                     <label class='num0' for='slide6-0'></label>
                     <label class='num1' for='slide6-1'></label>
                     <label class='num2' for='slide6-2'></label>
