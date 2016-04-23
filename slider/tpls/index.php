@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="/css/styles5.css"> 
         <link rel="stylesheet" href="/css/styles6.css"> 
         <link rel="stylesheet" href="/css/styles7.css"> 
+        <link rel="stylesheet" href="/css/styles8.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -26,37 +27,127 @@
         </script>
     </head>
     <body>
-        <div class='csslider7 lwrap'>
-            <input name="anchor7" id='slide7-0' type="radio">
-            <input name="anchor7" id='slide7-1' type="radio">
-            <input name="anchor7" id='slide7-2' type="radio">
-            <input name="anchor7" id='play7' type="radio" checked>
-            <ul>
-                <li><img src="/images/vintage.jpg"></li>
-                <li class='num0'><img src='/images/vintage.jpg' alt='Vintage' title='Vintage'></li>
-                <li class='num1'><img src='/images/vespa.jpg' alt='Vespa' title='Vespa'></li>
-                <li class='num2'><img src='/images/scooter.jpg' alt='Street' title='Street'></li>
-            </ul>
-            <div class='description'>
-                <label class='num0'><span>Scooter</span><small>Vintage</small></label>
-                <label class='num1'><span>Scooter</span><small>Vespa</small></label>
-                <label class='num2'><span>Scooter</span><small>Street</small></label>
+        <div>
+            <h2 class="h2">Slider #8</h2>
+            <div class='csslider1 autoplay '>
+		<input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_slide1_3' type="radio" class='cs_anchor slide' >
+		<input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+		<input name="cs_anchor1" id='cs_pause1_0' type="radio" class='cs_anchor pause'>
+		<input name="cs_anchor1" id='cs_pause1_1' type="radio" class='cs_anchor pause'>
+		<input name="cs_anchor1" id='cs_pause1_2' type="radio" class='cs_anchor pause'>
+		<input name="cs_anchor1" id='cs_pause1_3' type="radio" class='cs_anchor pause'>
+		
+		<ul>
+			<li class="cs_skeleton">
+				<img src="http://cssslider.com/sliders/demo-27/data1/images/polaroid594200_1280.jpg" style="width: 100%;" alt="CSS doble mobile js slider using for website">
+			</li>
+			<li class='num0 img slide'>
+				<img src='http://cssslider.com/sliders/demo-27/data1/images/polaroid594200_1280.jpg' alt='Responsive banner rotator full slider image rotated' title='Polaroid' />
+			</li>
+			<li class='num1 img slide'>
+				<img src='http://cssslider.com/sliders/demo-27/data1/images/camera349868_1280.jpg' alt='Wordpress backgrounds images slider coding for banner' title='Camera' />
+			</li>
+			<li class='num2 img slide'>
+				<img src='http://cssslider.com/sliders/demo-27/data1/images/photography603036_1280.jpg' alt='CSS3 menu for code slideshow simple thumbs' title='Photography' />
+			</li>
+			<li class='num3 img slide'>
+				<img src='http://cssslider.com/sliders/demo-27/data1/images/camera349948_1280_1.jpg' alt='Bootstrap create product slideshow text image buton' title='Camera' />
+			</li>
+		
+		</ul>
+		<a class="cs_lnk" href="http://cssslider.com">jQuery Image Gallery</a>
+		<div class='cs_description'>
+			<label class='num0'>
+				<span class="cs_title"><span class="cs_wrapper">Polaroid</span></span>
+				<br/><span class="cs_descr"><span class="cs_wrapper">Instant photo</span></span>
+			</label>
+			<label class='num1'>
+				<span class="cs_title"><span class="cs_wrapper">Camera</span></span>
+				<br/><span class="cs_descr"><span class="cs_wrapper">Retro</span></span>
+			</label>
+			<label class='num2'>
+				<span class="cs_title"><span class="cs_wrapper">Photography</span></span>
+				<br/><span class="cs_descr"><span class="cs_wrapper">Analog</span></span>
+			</label>
+			<label class='num3'>
+				<span class="cs_title"><span class="cs_wrapper">Camera</span></span>
+				<br/><span class="cs_descr"><span class="cs_wrapper">Nostalgia</span></span>
+			</label>
+		</div>
+		
+		<div class='cs_arrowprev'>
+			<label class='num0' for='cs_slide1_0'><span><i></i><b></b></span></label>
+			<label class='num1' for='cs_slide1_1'><span><i></i><b></b></span></label>
+			<label class='num2' for='cs_slide1_2'><span><i></i><b></b></span></label>
+			<label class='num3' for='cs_slide1_3'><span><i></i><b></b></span></label>
+		</div>
+		<div class='cs_arrownext'>
+			<label class='num0' for='cs_slide1_0'><span><i></i><b></b></span></label>
+			<label class='num1' for='cs_slide1_1'><span><i></i><b></b></span></label>
+			<label class='num2' for='cs_slide1_2'><span><i></i><b></b></span></label>
+			<label class='num3' for='cs_slide1_3'><span><i></i><b></b></span></label>
+		</div>
+		
+		<div class='cs_bullets'>
+			<label class='num0' for='cs_slide1_0'>
+				<span class='cs_point'></span>
+				<span class='cs_thumb'><img src='http://cssslider.com/sliders/demo-27/data1/tooltips/polaroid594200_1280.jpg' alt='CSS3 mouse over captions slider side menu plugin' title='Polaroid' /></span>
+			</label>
+			<label class='num1' for='cs_slide1_1'>
+				<span class='cs_point'></span>
+				<span class='cs_thumb'><img src='http://cssslider.com/sliders/demo-27/data1/tooltips/camera349868_1280.jpg' alt='Responsive best responsive slider download source' title='Camera' /></span>
+			</label>
+			<label class='num2' for='cs_slide1_2'>
+				<span class='cs_point'></span>
+				<span class='cs_thumb'><img src='http://cssslider.com/sliders/demo-27/data1/tooltips/photography603036_1280.jpg' alt='Wordpress plugin efectos slider free fading' title='Photography' /></span>
+			</label>
+			<label class='num3' for='cs_slide1_3'>
+				<span class='cs_point'></span>
+				<span class='cs_thumb'><img src='http://cssslider.com/sliders/demo-27/data1/tooltips/camera349948_1280_1.jpg' alt='Responsive vertical counter slider top image demo' title='Camera' /></span>
+			</label>
+		</div>
+		
+	</div>
+
+        </div>
+        <div>
+            <h2 class="h2">Slider #7</h2>
+            <div class='csslider7 lwrap'>
+                <input name="anchor7" id='slide7-0' type="radio">
+                <input name="anchor7" id='slide7-1' type="radio">
+                <input name="anchor7" id='slide7-2' type="radio">
+                <input name="anchor7" id='play7' type="radio" checked>
+                <ul>
+                    <li><img src="/images/vintage.jpg"></li>
+                    <li class='num0'><img src='/images/vintage.jpg' alt='Vintage' title='Vintage'></li>
+                    <li class='num1'><img src='/images/vespa.jpg' alt='Vespa' title='Vespa'></li>
+                    <li class='num2'><img src='/images/street.jpg' alt='Street' title='Street'></li>
+                </ul>
+                <div class='description' data-childs="col -end">
+                    <label class='num0'><big><span>Scooter</span></big><small><span>Vintage</span></small></label>
+                    <label class='num1'><big><span>Scooter</span></big><small><span>Vespa</span></small></label>
+                    <label class='num2'><big><span>Scooter</span></big><small><span>Street</span></small></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide7-0'><span><i></i></span></label>
+                    <label class='num1' for='slide7-1'><span><i></i></span></label>
+                    <label class='num2' for='slide7-2'><span><i></i></span></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide7-0'><span><i></i></span></label>
+                    <label class='num1' for='slide7-1'><span><i></i></span></label>
+                    <label class='num2' for='slide7-2'><span><i></i></span></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide7-0'><figure><img src='/images/vintagesm.jpg' alt='Vintage' title='Vintage'></figure></label>
+                    <label class='num1' for='slide7-1'><figure><img src='/images/vespasm.jpg' alt='Vespa' title='Vespa'></figure></label>
+                    <label class='num2' for='slide7-2'><figure><img src='/images/streetsm.jpg' alt='Street' title='Street'></figure></label>
+                </div>
             </div>
-            <div class='arrowprev'>
-                <label class='num0' for='slide7-0'><span><i></i><b></b></span></label>
-                <label class='num1' for='slide7-1'><span><i></i><b></b></span></label>
-                <label class='num2' for='slide7-2'><span><i></i><b></b></span></label>
-            </div>
-            <div class='arrownext'>
-                <label class='num0' for='slide7-0'><span><i></i><b></b></span></label>
-                <label class='num1' for='slide7-1'><span><i></i><b></b></span></label>
-                <label class='num2' for='slide7-2'><span><i></i><b></b></span></label>
-            </div>
-            <div class='bullets'>
-                <label class='num0' for='slide7-0'><figure><img src='/images/vintagesm.jpg' alt='Vintage' title='Vintage'></figure></label>
-                <label class='num1' for='slide7-1'><figure><img src='/images/vespasm.jpg' alt='Vespa' title='Vespa'></figure></label>
-                <label class='num2' for='slide7-2'><figure><img src='/images/scootersm.jpg' alt='Street' title='Street'></figure></label>
-            </div>
+            <div class="wrapper"><div class="item"></div></div>
         </div>
         <div>
             <h2 class="h2">Slider #6</h2>

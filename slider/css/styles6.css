@@ -1,12 +1,9 @@
-/*------- SLIDER #3 -------*/
+/*------- SLIDER #6 -------*/
 
 /*COMMON*/
 .csslider6 {
     position: relative;
     max-width: 960px;
-}
-.csslider6 > ul{
-    position: relative;
     overflow: hidden;
 }
 .csslider6 > input[type=radio] {
@@ -104,19 +101,19 @@
 .csslider6 > .arrowprev > label,
 .csslider6 > .arrownext > label {
     position: absolute; 
-    height: 50px;
-    width: 50px;
-    margin-top: -25px;
-    margin-left: -25px;
+    height: 46px;
+    width: 46px;
+    margin-top: -23px;
+    margin-left: -23px;
     border-radius: 3px;
-    box-shadow: inset 0 0 0 2px white;
-    transition: background 200ms ease-in-out, transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    border: 2px solid white;
+    transition: background 200ms ease-in-out, transform 200ms ease-in-out, border 200ms ease-in-out;
 }
 .csslider6 > .play-pause:hover > label,
 .csslider6 > .arrowprev:hover > label,
 .csslider6 > .arrownext:hover > label {
     background: #33bbd9;
-    box-shadow: inset 0 0 0 2px #33bbd9;
+    border: 2px solid #33bbd9;
     transform: rotate(45deg);
 }
 .csslider6 > .play-pause > label:after,
@@ -126,6 +123,7 @@
     width: 100%;
     height: 100%;
     transition: transform 200ms ease-in-out;
+    display: block;
 }
 .csslider6 > .play-pause:hover > label:after,
 .csslider6 > .arrowprev:hover > label:after,
@@ -137,10 +135,10 @@
 
 /*arrows template*/
 .csslider6 > .arrowprev {
-    left: 45px;
+    left: 43px;
 }
 .csslider6 > .arrownext {
-    right: 45px;
+    right: 43px;
 }
 .csslider6 > .arrowprev > label:after{
     background: url(/images/icons/prev6.png)no-repeat center center;
@@ -311,8 +309,8 @@
 }
 .csslider6 > .bullets > label {
     margin: 6px;
-    height: 16px;
-    width: 16px; 
+    height: 12px;
+    width: 12px; 
     position: relative;
 }
 .csslider6 > .bullets > label:after {
@@ -321,8 +319,8 @@
     height: 100%;
     position: absolute;
     border-radius: 3px;
-    box-shadow: inset 0 0 0 2px white;
-    transition: background 200ms ease-in-out, transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    border: 2px solid white;
+    transition: background 200ms ease-in-out, transform 200ms ease-in-out, border 200ms ease-in-out;
 }
 .csslider6 > .bullets > label > figure {
     visibility: hidden;
@@ -353,18 +351,18 @@
 .csslider6 > #pause6-2:checked ~ .bullets > .num2:after{
     transform: rotate(45deg);
     background: #33bbd9;
-    box-shadow: inset 0 0 0 2px #33bbd9;
+    border: 2px solid #33bbd9;
 }
 @keyframes bullet6 {
     0%, 33.32333333333334%  {
         transform: rotate(45deg);
         background: #33bbd9;
-        box-shadow: inset 0 0 0 2px #33bbd9;
+        border: 2px solid #33bbd9;
     }
     33.333333333333336%, 100% {
         transform: rotate(0deg);
         background: transparent;
-        box-shadow: inset 0 0 0 2px white;
+        border: 2px solid white;
     }
 }
 .csslider6 > #play6:checked ~ .bullets > .num0:after{
