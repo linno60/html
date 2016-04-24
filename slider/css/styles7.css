@@ -1,36 +1,5 @@
 /*------- SLIDER #7 -------*/
 
-.wrapper {  
-    width: 100px;  
-    height: 100px;  
-    position: relative;  
-    perspective: 4000px;  
-}    
-.item {  
-    height: 100px;  
-    transform-style: preserve-3d;  
-    transition: transform .6s;  
-}
-.item:after, .item:before{
-    position: absolute; 
-    height: 100px;  
-    width: 100px;    
-    transition: all .6s;
-    content: "";
-    display: block;
-}
-.item:after {   
-    transform: translateZ(50px); 
-    background: red;
-}  
-.item:before {      
-    transform: rotateX(90deg) translateZ(50px);    
-    background: blue; 
-}   
-.item:hover {  
-    transform: translateZ(-50px) rotateX(-95deg);  
-}
-
 /*COMMON*/
 .csslider7 {
     position: relative;
@@ -484,3 +453,34 @@
     .csslider7 > .description, .csslider7 > .bullets {display: none;}
 }
 
+
+.wrapper {  
+    width: 100px;  
+    height: 100px;  
+    position: relative;  
+    perspective: 4000px;  
+}    
+.item {  
+    height: 100px;  
+    transform-style: preserve-3d;  
+    transition: transform .6s;  
+}
+.item:after, .item:before{
+    position: absolute; 
+    height: 100px;  
+    width: 100px;    
+    transition: all .6s;
+    content: "";
+    display: block;
+}
+.item:after {   
+    transform: translateZ(50px); 
+    background: red;
+}  
+.item:before {      
+    transform: rotateX(90deg) translateZ(50px);    
+    background: blue; 
+}   
+.item:hover {  
+    transform: translateZ(-50px) rotateX(-95deg);  
+}

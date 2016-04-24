@@ -35,11 +35,12 @@
                 <input name="anchor8" id='slide8-2' type="radio">
                 <input name="anchor8" id='slide8-3' type="radio">
                 <input name="anchor8" id='play8' type="radio" checked>
-                <ul>                    
+                <ul> 
                     <li><img src='/images/polaroid.jpg' width="830" height="360" alt='Polaroid' title='Polaroid'></li>
-                    <li><img src='/images/kodak.jpg' width="830" height="360" alt='Kodak' title='Kodak'></li>
-                    <li><img src='/images/nikon.jpg' width="830" height="360" alt='Nikon' title='Nikon'></li>
-                    <li><img src='/images/pentax.jpg' width="830" height="360" alt='Pentax' title='Pentax'></li>
+                    <li class='num0'><img src='/images/polaroid.jpg' width="830" height="360" alt='Polaroid' title='Polaroid'></li>
+                    <li class='num1'><img src='/images/kodak.jpg' width="830" height="360" alt='Kodak' title='Kodak'></li>
+                    <li class='num2'><img src='/images/nikon.jpg' width="830" height="360" alt='Nikon' title='Nikon'></li>
+                    <li class='num3'><img src='/images/pentax.jpg' width="830" height="360" alt='Pentax' title='Pentax'></li>
                 </ul>
                 <div class='description'>
                     <label class='num0'><big><span>Polaroid</span></big><small><span>Instant photo</span></small></label>
@@ -48,22 +49,22 @@
                     <label class='num3'><big><span>Camera</span></big><small><span>Nostalgia</span></small></label>
                 </div>
                 <div class='arrowprev'>
-                    <label class='num0' for='slide8_0'></label>
-                    <label class='num1' for='slide8_1'></label>
-                    <label class='num2' for='slide8_2'></label>
-                    <label class='num3' for='slide8_3'></label>
+                    <label class='num0' for='slide8-0'></label>
+                    <label class='num1' for='slide8-1'></label>
+                    <label class='num2' for='slide8-2'></label>
+                    <label class='num3' for='slide8-3'></label>
                 </div>
                 <div class='arrownext'>
-                    <label class='num0' for='slide8_0'></label>
-                    <label class='num1' for='slide8_1'></label>
-                    <label class='num2' for='slide8_2'></label>
-                    <label class='num3' for='slide8_3'></label>
+                    <label class='num0' for='slide8-0'></label>
+                    <label class='num1' for='slide8-1'></label>
+                    <label class='num2' for='slide8-2'></label>
+                    <label class='num3' for='slide8-3'></label>
                 </div>
-                <div class='bullets'>
-                    <label class='num0' for='slide8_0'><figure><img src='/images/polaroid.jpg' width="207" height="90" alt='Polaroid' title='Polaroid'></figure></label>
-                    <label class='num1' for='slide8_1'><figure><img src='/images/kodak.jpg' width="207" height="90" alt='Kodakv' title='Kodak'></figure></label>
-                    <label class='num2' for='slide8_2'><figure><img src='/images/nikon.jpg' width="207" height="90" alt='Nikon' title='Nikon'></figure></label>
-                    <label class='num3' for='slide8_3'><figure><img src='/images/pentax.jpg' width="207" height="90" alt='Pentax' title='Pentax'></figure></label>
+                <div class='bullets' data-flex="col" data-childs="-center center">
+                    <label class='num0' for='slide8-0'><figure><img src='/images/polaroid.jpg' width="207" height="90" alt='Polaroid' title='Polaroid'></figure></label>
+                    <label class='num1' for='slide8-1'><figure><img src='/images/kodak.jpg' width="207" height="90" alt='Kodakv' title='Kodak'></figure></label>
+                    <label class='num2' for='slide8-2'><figure><img src='/images/nikon.jpg' width="207" height="90" alt='Nikon' title='Nikon'></figure></label>
+                    <label class='num3' for='slide8-3'><figure><img src='/images/pentax.jpg' width="207" height="90" alt='Pentax' title='Pentax'></figure></label>
                 </div>		
             </div>
         </div>

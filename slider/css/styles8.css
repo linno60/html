@@ -1,0 +1,292 @@
+/*------- SLIDER #8 -------*/
+.arrownext, .arrowprev, .description, .bullets{
+    position: absolute;
+}
+
+/*COMMON*/
+.csslider8 {
+    position: relative;
+    max-width: 830px;
+    overflow: hidden;
+}
+.csslider8 > input[type=radio] {
+    display: none;
+}
+.csslider8 > ul > li:first-child {
+    position: static;
+}
+.csslider8 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider8 > ul > li:not(:first-child) {
+    position: absolute;
+    transition: transform 1300ms ease;
+}
+
+/*SLIDESHOW*/
+.csslider8 > ul > .num0 {
+    top: 0%;
+}
+.csslider8 > ul > .num1 {
+    top: 100%;
+}
+.csslider8 > ul > .num2 {
+    top: 200%;
+}
+.csslider8 > ul > .num3 {
+    top: 300%;
+}
+.csslider8 > #slide8-0:checked ~ ul > li{
+    transform: translateY(0%);
+}
+.csslider8 > #slide8-1:checked ~ ul > li{
+    transform: translateY(-100%);
+}
+.csslider8 > #slide8-2:checked ~ ul > li{
+    transform: translateY(-200%);
+}
+.csslider8 > #slide8-3:checked ~ ul > li{
+    transform: translateY(-300%);
+}
+@keyframes slide8 {
+    0%, 17.073170731707318%  { transform: translateY(0%); }
+    25%, 42.073170731707314%  { transform: translateY(-100%); }
+    50%, 67.07317073170732%  { transform: translateY(-200%); }
+    75%, 92.07317073170732%  { transform: translateY(-300%); }
+
+}
+@keyframes slide8-ie {
+    0%, 17.073170731707318%  { margin-top: 0%; }
+    25%, 42.073170731707314%  { margin-top: -43.373493975903614%; }
+    50%, 67.07317073170732%  { margin-top: -86.74698795180723%; }
+    75%, 92.07317073170732%  { margin-top: -130.12048192771084%; }
+}
+.csslider8  > #play8:checked ~ ul > li {
+    animation: slide8 16400ms infinite;
+}
+/* IE 10+ hack - cant animate translate :( */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider8  > #play8:checked ~ ul > li {
+        animation: slide8-ie 16400ms infinite;
+    }
+}
+.csslider8 > #play8:checked ~ ul > li{
+    transition: none;
+}
+
+/*ARROWS*/
+/*arrows template*/
+.csslider8 > .arrowprev,
+.csslider8 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    right: 35px;
+}
+.csslider8 > .arrowprev {    
+    top: 35px;
+}
+.csslider8 > .arrownext {
+    top: auto;
+    bottom: 35px;
+}
+.csslider8 > .arrowprev > label,
+.csslider8 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    border-radius: 50%;
+    background: white;    
+}
+.csslider8 > input:checked ~ .arrowprev > label,
+.csslider8 > input:checked ~ .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider8 > .arrowprev > label:after,
+.csslider8 > .arrowprev > label:before,
+.csslider8 > .arrownext > label:after,
+.csslider8 > .arrownext > label:before {
+    position: absolute;
+    bottom: 18px;
+    left: 25px;
+    width: 15px;
+    height: 1px;
+    background: black;
+    transition: transform 300ms ease-in-out;
+    content: "";
+}
+.csslider8 > .arrowprev > label:before,
+.csslider8 > .arrownext > label:before {
+    margin-left: -15px;
+}
+/* prev */
+.csslider8 > .arrowprev > label:after,
+.csslider8 > .arrowprev > label:before {
+    top: 18px;
+}
+.csslider8 > .arrowprev > label:after {
+    transform: rotate(60deg);
+    transform-origin: 0 0;
+}
+.csslider8 > .arrowprev:hover > label:after {
+    transform: rotate(25deg);
+}
+.csslider8 > .arrowprev > label:before {
+    transform: rotate(-60deg);
+    transform-origin: 100% 0;
+}
+.csslider8 > .arrowprev:hover > label:before {
+    transform: rotate(-25deg);
+}
+/* next */
+.csslider8 > .arrownext > label:after,
+.csslider8 > .arrownext > label:before {
+    bottom: 18px;
+}
+.csslider8 > .arrownext > label:after {
+    transform: rotate(-60deg);
+    transform-origin: 0 0;
+}
+.csslider8 > .arrownext:hover > label:after {
+    transform: rotate(-25deg);
+}
+.csslider8 > .arrownext > label:before {
+    transform: rotate(60deg);
+    transform-origin: 100% 0;
+}
+.csslider8 > .arrownext:hover > label:before {
+    transform: rotate(25deg);
+}
+/*arrows moving*/
+.csslider8 > #slide8-0:checked ~ .arrowprev > .num3,
+.csslider8 > #slide8-0:checked ~ .arrownext > .num1,
+.csslider8 > #slide8-1:checked ~ .arrowprev > .num0,
+.csslider8 > #slide8-1:checked ~ .arrownext > .num2, 
+.csslider8 > #slide8-2:checked ~ .arrowprev > .num1,
+.csslider8 > #slide8-2:checked ~ .arrownext > .num3,
+.csslider8 > #slide8-3:checked ~ .arrowprev > .num2,
+.csslider8 > #slide8-3:checked ~ .arrownext > .num0{
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow8 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider8 > #play8:checked ~ .arrowprev > .num3,
+.csslider8 > #play8:checked ~ .arrownext > .num1 {
+    animation: arrow8 16400ms infinite -1300ms;
+}
+.csslider8 > #play8:checked ~ .arrowprev > .num0,
+.csslider8 > #play8:checked ~ .arrownext > .num2 {
+    animation: arrow8 16400ms infinite 2800ms;
+}
+.csslider8 > #play8:checked ~ .arrowprev > .num1,
+.csslider8 > #play8:checked ~ .arrownext > .num3 {
+    animation: arrow8 16400ms infinite 6900ms;
+}
+.csslider8 > #play8:checked ~ .arrowprev > .num2,
+.csslider8 > #play8:checked ~ .arrownext > .num0 {
+    animation: arrow8 16400ms infinite 11000ms;
+}
+.csslider8 > input:checked ~ .arrowprev > label,
+.csslider8 > input:checked ~ .arrownext > label{
+    animation: none;
+}
+
+/*BULLETS*/
+/*bullets template*/
+.csslider8 > .bullets {
+    position: absolute;
+    z-index: 6;
+    right: 27px;
+    max-height: 60%;
+    top: 150px;
+}
+.csslider8 > .bullets > label {
+    position: relative;
+    border-radius: 50%;
+    margin: 0.5px;
+    background: white;
+    height: 8px;
+    width: 8px;
+}
+.csslider8 > .bullets > label:after {
+    content: "";
+    background: black;
+    width: 2px;
+    height: 2px;
+}
+.csslider8 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    border: 2px solid white;
+    margin-left: -300%;
+    left: -207px;
+    top: -45px;
+    transition: all 0.3s;
+}
+.csslider8 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    top: 50%;
+    margin-top: -4px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+    right: -7px;
+}
+.csslider8 > .bullets > label > figure:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    height: 100%;
+    width: 12px;
+}
+.csslider8 > .bullets > label:hover > figure {
+    opacity: 1;
+    visibility: visible;
+    margin-left: -180%;
+    margin-left: -180%;
+}
+.csslider8 > .bullets > label:hover:after,
+.csslider8 > #slide8-0:checked ~ .bullets > .num0:after,
+.csslider8 > #slide8-1:checked ~ .bullets > .num1:after,
+.csslider8 > #slide8-2:checked ~ .bullets > .num2:after,
+.csslider8 > #slide8-3:checked ~ .bullets > .num3:after{
+    background: black;
+}
+@keyframes bullet8 {
+    0%, 24.99%  { background: black; }
+    25%, 100% { background: transparent; }
+}
+.csslider8 > #play8:checked ~ .bullets > .num0:after{
+    animation: bullet8 16400ms infinite -1300ms;
+}
+.csslider8 > #play8:checked ~ .bullets > .num1:after{
+    animation: bullet8 16400ms infinite 2800ms;
+}
+.csslider8 > #play8:checked ~ .bullets > .num2:after{
+    animation: bullet8 16400ms infinite 6900ms;
+}
+.csslider8 > #play8:checked ~ .bullets > .num3:after{
+    animation: bullet8 16400ms infinite 11000ms;
+}
+.csslider8 > #play8:checked ~ .bullets > label{
+    transition: none;
+}
+.csslider8 > input:checked ~ .bullets > label{
+    animation: none;
+}
