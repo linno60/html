@@ -93,11 +93,10 @@
 .csslider1 > .arrowprev > label:after,
 .csslider1 > .arrownext > label:after {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100%;
     content: "";
+    top: 0px;
 }
 .csslider1 > .arrowprev > label:after {
     background: #f7af86 url(/images/icons/prev1.png)no-repeat center center;
@@ -161,10 +160,6 @@
 .csslider1 > #play1:checked ~ .arrownext > .num0 {
     animation: arrow1 11700ms infinite 6200ms;
 }
-.csslider1 > input:checked ~ .arrowprev > label,
-.csslider1 > input:checked ~ .arrownext > label {
-    animation: none;
-}
 
 /*DESCRIPTION*/
 .csslider1 > .description > label {
@@ -215,4 +210,3 @@
 @media (max-width: 480px) {
     .csslider1 > .description{display: none;}
 }
-

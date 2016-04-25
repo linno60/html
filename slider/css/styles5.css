@@ -77,9 +77,6 @@
 .csslider5 > #play5:checked ~ ul > .num2 {
     animation: kenburns5 25500ms infinite 15400ms linear;
 }
-.csslider5 > #play5:checked ~ ul > li{
-    transition: none;
-}
 
 /*show btns*/
 .csslider5 > .arrowprev {
@@ -195,10 +192,6 @@
 .csslider5 > #play5:checked ~ .arrownext > label.num0 {
     animation: arrow5 24000ms infinite 14000ms;
 }
-.csslider5 > input:checked ~ .arrowprev > label,
-.csslider5 > input:checked ~ .arrownext > label {
-    animation: none;
-}
 
 /*DESCRIPTION*/
 
@@ -246,7 +239,7 @@
         transform: translateX(-100%);   
     }
 }
-.csslider5 > #play5:checked ~ .description > .num0 {
+.csslider5 > #play5:checked ~ .description > .num0{
     animation: description5 24000ms infinite 0ms;
 }
 .csslider5 > #play5:checked ~ .description > .num1 {
@@ -308,12 +301,6 @@
 }
 .csslider5 > #play5:checked ~ .bullets > label.num2{
     animation: bullet5 24000ms infinite 14000ms;
-}
-.csslider5 > #play5:checked ~ .bullets > label{
-    transition: none;
-}
-.csslider5 > input:checked ~ .bullets > label{
-    animation: none;
 }
 
 /*PLAY - PAUSE*/
@@ -378,9 +365,6 @@
     opacity: 0;
     z-index: -1;
     animation: play-pause5 24000ms infinite 14000ms;
-}
-.csslider5 > input:checked ~ .play-pause > .pause {
-    animation: none;
 }
 
 /*MEDIA QUERIES*/

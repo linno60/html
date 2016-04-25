@@ -29,11 +29,8 @@
 
 /*SLIDESHOW*/
 .csslider7 > #slide7-0:checked ~ ul > .num0,
-.csslider7 > #pause7-0:checked ~ ul > .num0,
 .csslider7 > #slide7-1:checked ~ ul > .num1,
-.csslider7 > #pause7-1:checked ~ ul > .num1,
-.csslider7 > #slide7-2:checked ~ ul > .num2,
-.csslider7 > #pause7-2:checked ~ ul > .num2 {
+.csslider7 > #slide7-2:checked ~ ul > .num2{
     opacity: 1;
     z-index: 2;
     transform: scale(1);
@@ -58,9 +55,6 @@
 }
 .csslider7 > #play7:checked ~ ul > .num2 {
     animation: fade-in7 12300ms infinite 6900ms;
-}
-.csslider7 > #play7:checked ~ ul > li{
-    transition: none;
 }
 
 /*show btns*/
@@ -169,17 +163,11 @@
     z-index: -1;
 }
 .csslider7 > #slide7-0:checked ~ .arrowprev > .num2,
-.csslider7 > #pause7-0:checked ~ .arrowprev > .num2,
-.csslider7 > #slide7-0:checked ~ .arrownext > .num1,
-.csslider7 > #pause7-0:checked ~ .arrownext > .num1, 
+.csslider7 > #slide7-0:checked ~ .arrownext > .num1, 
 .csslider7 > #slide7-1:checked ~ .arrowprev > .num0,
-.csslider7 > #pause7-1:checked ~ .arrowprev > .num0,
 .csslider7 > #slide7-1:checked ~ .arrownext > .num2,
-.csslider7 > #pause7-1:checked ~ .arrownext > .num2, 
 .csslider7 > #slide7-2:checked ~ .arrowprev > .num1,
-.csslider7 > #pause7-2:checked ~ .arrowprev > .num1,
-.csslider7 > #slide7-2:checked ~ .arrownext > .num0,
-.csslider7 > #pause7-2:checked ~ .arrownext > .num0 {
+.csslider7 > #slide7-2:checked ~ .arrownext > .num0{
     opacity: 1;
     z-index: 5;
 }
@@ -199,24 +187,19 @@
 .csslider7 > #play7:checked ~ .arrownext > .num0 {
     animation: arrow7 12300ms infinite 6900ms;
 }
-.csslider7 > input:checked ~ .arrowprev > label,
-.csslider7 > input:checked ~ .arrownext > label {
-    animation: none;
-}
 
 /*DESCRIPTION*/
 /*description template*/
-.csslider7 > .description > label {
-    font-family: Gurajada;
+.csslider7 > .description > label {    
     opacity: 1;
     text-align: right;
     bottom: 40rem;
     right: 45rem;
     position: absolute;
     max-width: 50%;
-    z-index: 7;
 }
 .csslider7 > .description > label > * {
+    font-family: Gurajada;
     color: white;
     padding: 2rem 12rem;
     opacity: 0;
@@ -239,16 +222,16 @@
         950ms opacity 640ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
         950ms transform 640ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
-.csslider7 > .description > label > big > span {
+.csslider7 > .description > label span{
     opacity: 0;
     transform: scale(0);
+}
+.csslider7 > .description > label > big > span {    
     transition:
         950ms opacity 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
         950ms transform 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 .csslider7 > .description > label > small > span {
-    opacity: 0;
-    transform: scale(0);
     transition:
         950ms opacity 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
         950ms transform 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
@@ -256,34 +239,22 @@
 
 /*description moving*/
 .csslider7 > #slide7-0:checked ~ .description > .num0,
-.csslider7 > #pause7-0:checked ~ .description > .num0,
 .csslider7 > #slide7-1:checked ~ .description > .num1,
-.csslider7 > #pause7-1:checked ~ .description > .num1,
-.csslider7 > #slide7-2:checked ~ .description > .num2,
-.csslider7 > #pause7-2:checked ~ .description > .num2 {
+.csslider7 > #slide7-2:checked ~ .description > .num2{
     z-index: 2;
 }
 .csslider7 > #slide7-0:checked ~ .description > .num0 > big,
 .csslider7 > #slide7-0:checked ~ .description > .num0 > small,
-.csslider7 > #pause7-0:checked ~ .description > .num0 > big,
-.csslider7 > #pause7-0:checked ~ .description > .num0 > small,
 .csslider7 > #slide7-1:checked ~ .description > .num1 > big,
 .csslider7 > #slide7-1:checked ~ .description > .num1 > small,
-.csslider7 > #pause7-1:checked ~ .description > .num1 > big,
-.csslider7 > #pause7-1:checked ~ .description > .num1 > small,
 .csslider7 > #slide7-2:checked ~ .description > .num2 > big,
-.csslider7 > #slide7-2:checked ~ .description > .num2 > small,
-.csslider7 > #pause7-2:checked ~ .description > .num2 > big,
-.csslider7 > #pause7-2:checked ~ .description > .num2 > small {
+.csslider7 > #slide7-2:checked ~ .description > .num2 > small{
     opacity: 1;
     transform: scale(1);
 }
 .csslider7 > #slide7-0:checked ~ .description > .num0 span,
-.csslider7 > #pause7-0:checked ~ .description > .num0 span,
 .csslider7 > #slide7-1:checked ~ .description > .num1 span,
-.csslider7 > #pause7-1:checked ~ .description > .num1 span,
-.csslider7 > #slide7-2:checked ~ .description > .num2 span,
-.csslider7 > #pause7-2:checked ~ .description > .num2 span {
+.csslider7 > #slide7-2:checked ~ .description > .num2 span{
     opacity: 1;
     transform: scale(1);
 }
@@ -350,35 +321,23 @@
         transform: scale(0);
     }
 }
-.csslider7 > #play7:checked ~ .description > .num0 big > span {
+.csslider7 > #play7:checked ~ .description > .num0 > big > span {
     animation: description7-text 12300ms infinite -759.9999999999999ms ease;
 }
-.csslider7 > #play7:checked ~ .description > .num1 big > span {
+.csslider7 > #play7:checked ~ .description > .num1 > big > span {
     animation: description7-text 12300ms infinite 3340ms ease;
 }
-.csslider7 > #play7:checked ~ .description > .num2 big > span {
+.csslider7 > #play7:checked ~ .description > .num2 > big > span {
     animation: description7-text 12300ms infinite 7440ms ease;
 }
-.csslider7 > #play7:checked ~ .description > .num0 small > span {
+.csslider7 > #play7:checked ~ .description > .num0 > small > span {
     animation: description7-text 12300ms infinite -509.9999999999999ms ease;
 }
-.csslider7 > #play7:checked ~ .description > .num1 small > span {
+.csslider7 > #play7:checked ~ .description > .num1 > small > span {
     animation: description7-text 12300ms infinite 3590ms ease;
 }
-.csslider7 > #play7:checked ~ .description > .num2 small > span {
+.csslider7 > #play7:checked ~ .description > .num2 > small > span {
     animation: description7-text 12300ms infinite 7690ms ease;
-}
-.csslider7 > #play7:checked ~ .description > label > big,
-.csslider7 > #play7:checked ~ .description > label > small,
-.csslider7 > #play7:checked ~ .description > label > big > span,
-.csslider7 > #play7:checked ~ .description > label > small > span{
-    transition: none;
-}
-.csslider7 > input:checked ~ .description > label > big,
-.csslider7 > input:checked ~ .description > label > small,
-.csslider7 > input:checked ~ .description > label > big > span,
-.csslider7 > input:checked ~ .description > label > small > span {
-    animation: none;
 }
 
 /*BULLETS*/
@@ -417,11 +376,8 @@
 /*bullets moving*/
 .csslider7 > .bullets > label:hover,
 .csslider7 > #slide7-0:checked ~ .bullets > label.num0,
-.csslider7 > #pause7-0:checked ~ .bullets > label.num0,
 .csslider7 > #slide7-1:checked ~ .bullets > label.num1,
-.csslider7 > #pause7-1:checked ~ .bullets > label.num1,
-.csslider7 > #slide7-2:checked ~ .bullets > label.num2,
-.csslider7 > #pause7-2:checked ~ .bullets > label.num2{
+.csslider7 > #slide7-2:checked ~ .bullets > label.num2{
     background: #54d2c0;
 }
 @keyframes bullet {
@@ -441,46 +397,8 @@
 .csslider7 > #play7:checked ~ .bullets > .num2{
     animation: bullet 12300ms infinite 6900ms;
 }
-.csslider7 > #play7:checked ~ .bullets > label{
-    transition: none;
-}
-.csslider7 > input:checked ~ .bullets > label{
-    animation: none;
-}
 
 /*MEDIA QUERIES*/
 @media (max-width: 480px) {
     .csslider7 > .description, .csslider7 > .bullets {display: none;}
-}
-
-
-.wrapper {  
-    width: 100px;  
-    height: 100px;  
-    position: relative;  
-    perspective: 4000px;  
-}    
-.item {  
-    height: 100px;  
-    transform-style: preserve-3d;  
-    transition: transform .6s;  
-}
-.item:after, .item:before{
-    position: absolute; 
-    height: 100px;  
-    width: 100px;    
-    transition: all .6s;
-    content: "";
-    display: block;
-}
-.item:after {   
-    transform: translateZ(50px); 
-    background: red;
-}  
-.item:before {      
-    transform: rotateX(90deg) translateZ(50px);    
-    background: blue; 
-}   
-.item:hover {  
-    transform: translateZ(-50px) rotateX(-95deg);  
 }

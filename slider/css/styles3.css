@@ -23,7 +23,7 @@
     top: 0;
     opacity: 0;
     z-index: 1;
-    transition: -webkit-transform 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    transition:
         transform 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
         opacity 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
     transform: translateY(-50%);
@@ -68,22 +68,15 @@
 .csslider3 > #play3:checked ~ ul > .num2 {
     animation: jump3 11700ms infinite 6200ms;
 }
-.csslider3 > #play3:checked ~ ul > li{
-    transition: none;
-}
 
 /*ARROWS*/
 
 /*template arrows*/
-.csslider3 > .arrowprev > label,
-.csslider3 > .arrownext > label {
-    height: 70px;
-    width: 50px;
-    margin-top: -35px;
-    margin-left: -25px;
+.csslider3 > .arrowprev,
+.csslider3 > .arrownext {
     position: absolute;
-    cursor: pointer;
-    z-index: -1;
+    top: 50%;
+    z-index: 5;
 }
 .csslider3 > .arrowprev {
     left: 35px;
@@ -91,11 +84,14 @@
 .csslider3 > .arrownext {
     right: 35px;
 }
-.csslider3 > .arrowprev,
-.csslider3 > .arrownext {
+.csslider3 > .arrowprev > label,
+.csslider3 > .arrownext > label {
+    height: 70px;
+    width: 50px;
+    margin-top: -35px;
+    margin-left: -25px;
     position: absolute;
-    top: 50%;
-    z-index: 5;
+    
 }
 .csslider3 > .arrowprev > label span,
 .csslider3 > .arrownext > label span,
@@ -105,10 +101,8 @@
 .csslider3 > .arrownext > label span b {
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 .csslider3 > .arrowprev > label span,
 .csslider3 > .arrownext > label span {
@@ -223,17 +217,12 @@
 .csslider3 > #play3:checked ~ .arrownext > label.num0 {
     animation: arrow3 11700ms infinite 6200ms;
 }
-.csslider3 > input:checked ~ .arrowprev > label,
-.csslider3 > input:checked ~ .arrownext > label {
-    animation: none;
-}
 
 /*DESCRIPTION*/
 .csslider3 > .description > label {
     font-family: PT Sans;
     font-size: 16px;
     font-weight: 700;
-    z-index: 3;
     text-shadow: 0 1px 0 #34495e;
     max-width: 50%;
     color: #34495e;
@@ -242,7 +231,6 @@
     left: 20rem;
     background: #b0e8ee;
     padding: 10px 20px;
-    z-index: 2;
     transition: opacity .4s;
 }
 .csslider3 > #slide-3-0:checked ~ .description > .num0,
@@ -252,6 +240,7 @@
 .csslider3 > #slide-3-2:checked ~ .description > .num2,
 .csslider3 > #pause-3-2:checked ~ .description > .num2{
     opacity: 1;
+    z-index: 2;
 }
 @keyframes description3 {
     4.273504273504273%, 33.333333333333336%  { opacity: 1; z-index: 2;}
@@ -266,9 +255,6 @@
 }
 .csslider3 > #play3:checked ~ .description > .num2{
     animation: description3 11700ms infinite 6680ms ease;
-}
-.csslider3 > .pause:checked ~ .description > label {
-    animation: none;
 }
 
 /*BULLETS*/
@@ -411,9 +397,6 @@
 }
 .csslider3 > #play3:checked ~ .play-pause > .pause.num2 {
     animation: play-pause3 11700ms infinite 6200ms;
-}
-.csslider3 > input:checked ~ .play-pause > .pause {
-    animation: none;
 }
 
 /*MEDIA QUERIES*/

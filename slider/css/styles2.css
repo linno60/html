@@ -74,9 +74,6 @@
 .csslider2 > #play2:checked ~ ul > .num2 {
     animation: kenburns2 25500ms infinite 15400ms linear;
 }
-.csslider2 > #play2:checked ~ ul > li{
-    transition: none;
-}
 
 /*ARROWS*/
 
@@ -180,10 +177,6 @@
 .csslider2 > #play2:checked ~ .arrownext > .num0 {
     animation: arrow2 25500ms infinite 15400ms;
 }
-.csslider2 > input:checked ~ .arrowprev > label,
-.csslider2 > input:checked ~ .arrownext > label{
-    animation: none;
-}
 
 /*BULLETS*/
 
@@ -240,12 +233,6 @@
 .csslider2 > #play2:checked ~ .bullets > .num2{
     animation: bullet2 25500ms infinite 15400ms;
 }
-.csslider2 > #play2:checked ~ .bullets > label{
-    transition: none;
-}
-.csslider2 > input:checked ~ .bullets > label{
-    animation: none;
-}
 
 /*DESCRIPTION*/
 
@@ -285,7 +272,7 @@
     1.9607843137254901%, 28.22529411764706%  {
         opacity: 1;
         z-index: 4;
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     0%, 30.196078431372552%, 100%  {
         opacity: 0;
@@ -351,23 +338,18 @@
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
 }
-.csslider2 > #play2:checked ~ .play-pause > .pause.num0 {
+.csslider2 > #play2:checked ~ .play-pause > .pause{
     opacity: 0;
     z-index: -1;
+}
+.csslider2 > #play2:checked ~ .play-pause > .pause.num0 {
     animation: play-pause2 25500ms infinite -1600ms;
 }
 .csslider2 > #play2:checked ~ .play-pause > .pause.num1 {
-    opacity: 0;
-    z-index: -1;
     animation: play-pause2 25500ms infinite 6900ms;
 }
 .csslider2 > #play2:checked ~ .play-pause > .pause.num2 {
-    opacity: 0;
-    z-index: -1;
     animation: play-pause2 25500ms infinite 15400ms;
-}
-.csslider2 > input:checked ~ .play-pause > .pause{
-    animation: none;
 }
 
 /*MEDIA QUERIES*/

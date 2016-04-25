@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="/css/styles6.css"> 
         <link rel="stylesheet" href="/css/styles7.css"> 
         <link rel="stylesheet" href="/css/styles8.css">
+        <link rel="stylesheet" href="/css/styles9.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -27,6 +28,41 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #9</h2>
+            <div class='csslider9 lwrap'>
+                <input name="anchor9" id='slide9-0' type="radio">
+                <input name="anchor9" id='slide9-1' type="radio">
+                <input name="anchor9" id='slide9-2' type="radio">
+                <input name="anchor9" id='play9' type="radio" checked>
+                <ul> 
+                    <li><img src='/images/summerfield.jpg' width="640" height="480" alt='Summerfield' title='Summerfield'></li>
+                    <li class='num0'><img src='/images/summerfield.jpg' width="640" height="480" alt='Summerfield' title='Summerfield'></li>
+                    <li class='num1'><img src='/images/flowerchild.jpg' width="640" height="480" alt='Flowerchild' title='Flowerchild'></li>
+                    <li class='num2'><img src='/images/asiangirl.jpg' width="640" height="480" alt='Girl' title='Girl'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'>Summerfield</label>
+                    <label class='num1'>Flower Child</label>
+                    <label class='num2'>Girl</label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide9-0'></label>
+                    <label class='num1' for='slide9-1'></label>
+                    <label class='num2' for='slide9-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide9-0'></label>
+                    <label class='num1' for='slide9-1'></label>
+                    <label class='num2' for='slide9-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide9-0'><figure><img src='/images/summerfieldsm.jpg' width="64" height="48" alt='Summerfield' title='Summerfield'></figure></label>
+                    <label class='num1' for='slide9-1'><figure><img src='/images/flowerchildsm.jpg' width="64" height="48" alt='Flowerchild' title='Flowerchild'></figure></label>
+                    <label class='num2' for='slide9-2'><figure><img src='/images/asiangirlsm.jpg' width="64" height="48" alt='Girl' title='Girl'></figure></label>
+                </div>		
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #8</h2>
             <div class='csslider8 lwrap'>
@@ -42,7 +78,7 @@
                     <li class='num2'><img src='/images/nikon.jpg' width="830" height="360" alt='Nikon' title='Nikon'></li>
                     <li class='num3'><img src='/images/pentax.jpg' width="830" height="360" alt='Pentax' title='Pentax'></li>
                 </ul>
-                <div class='description'>
+                <div class='description' data-childs="col -start">
                     <label class='num0'><big><span>Polaroid</span></big><small><span>Instant photo</span></small></label>
                     <label class='num1'><big><span>Camera</span></big><small><span>Retro</span></small></label>
                     <label class='num2'><big><span>Photography</span></big><small><span>Analog</span></small></label>
@@ -60,11 +96,11 @@
                     <label class='num2' for='slide8-2'></label>
                     <label class='num3' for='slide8-3'></label>
                 </div>
-                <div class='bullets' data-flex="col" data-childs="-center center">
-                    <label class='num0' for='slide8-0'><figure><img src='/images/polaroid.jpg' width="207" height="90" alt='Polaroid' title='Polaroid'></figure></label>
-                    <label class='num1' for='slide8-1'><figure><img src='/images/kodak.jpg' width="207" height="90" alt='Kodakv' title='Kodak'></figure></label>
-                    <label class='num2' for='slide8-2'><figure><img src='/images/nikon.jpg' width="207" height="90" alt='Nikon' title='Nikon'></figure></label>
-                    <label class='num3' for='slide8-3'><figure><img src='/images/pentax.jpg' width="207" height="90" alt='Pentax' title='Pentax'></figure></label>
+                <div class='bullets' data-flex="col center" data-childs="-center center">
+                    <label class='num0' for='slide8-0'><figure><img src='/images/polaroidsm.jpg' width="207" height="90" alt='Polaroid' title='Polaroid'></figure></label>
+                    <label class='num1' for='slide8-1'><figure><img src='/images/kodaksm.jpg' width="207" height="90" alt='Kodak' title='Kodak'></figure></label>
+                    <label class='num2' for='slide8-2'><figure><img src='/images/nikonsm.jpg' width="207" height="90" alt='Nikon' title='Nikon'></figure></label>
+                    <label class='num3' for='slide8-3'><figure><img src='/images/pentaxsm.jpg' width="207" height="90" alt='Pentax' title='Pentax'></figure></label>
                 </div>		
             </div>
         </div>
@@ -101,8 +137,7 @@
                     <label class='num1' for='slide7-1'><figure><img src='/images/vespasm.jpg' width="172" height="90" alt='Vespa' title='Vespa'></figure></label>
                     <label class='num2' for='slide7-2'><figure><img src='/images/streetsm.jpg' width="172" height="90" alt='Street' title='Street'></figure></label>
                 </div>
-            </div>
-            <div class="wrapper"><div class="item"></div></div>
+            </div>            
         </div>
         <div>
             <h2 class="h2">Slider #6</h2>
@@ -272,14 +307,14 @@
                     <label class='pause num2' for='pause-3-2'></label>
                 </div>
                 <div class='arrowprev'>
-                    <label class='num0' for='slide-3-0'></label>
-                    <label class='num1' for='slide-3-1'></label>
-                    <label class='num2' for='slide-3-2'></label>
+                    <label class='num0' for='slide-3-0'><span><i></i><b></b></span></label>
+                    <label class='num1' for='slide-3-1'><span><i></i><b></b></span></label>
+                    <label class='num2' for='slide-3-2'><span><i></i><b></b></span></label>
                 </div>
                 <div class='arrownext'>
-                    <label class='num0' for='slide-3-0'></label>
-                    <label class='num1' for='slide-3-1'></label>
-                    <label class='num2' for='slide-3-2'></label>
+                    <label class='num0' for='slide-3-0'><span><i></i><b></b></span></label>
+                    <label class='num1' for='slide-3-1'><span><i></i><b></b></span></label>
+                    <label class='num2' for='slide-3-2'><span><i></i><b></b></span></label>
                 </div>
                 <div class='bullets' data-flex="center">
                     <label class='num0' for='slide-3-0'><figure><img src='/images/herbagesm.jpg' alt='Night Herb' title='Night Herb' width="92" height="48"></figure></label>

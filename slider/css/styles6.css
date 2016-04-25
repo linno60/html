@@ -62,9 +62,6 @@
 .csslider6 > #play6:checked ~ ul > .num2 {
     animation: zoomout6 15300ms infinite 7400ms;
 }
-.csslider6 > #play6:checked ~ ul > li{
-    transition: none;
-}
 
 /*show btns*/
 .csslider6 > .play-pause {
@@ -184,10 +181,6 @@
 .csslider6 > #play6:checked ~ .arrownext > .num0 {
     animation: arrow6 15300ms infinite 7400ms;
 }
-.csslider6 > input:checked ~ .arrowprev > label,
-.csslider6 > input:checked ~ .arrownext > label {
-    animation: none;
-}
 
 /*DESCRIPTION*/
 
@@ -288,15 +281,6 @@
 .csslider6 > #play6:checked ~ .description > .num2  > small {
     animation: descr6 15300ms infinite 8490ms ease;
 }
-.csslider6 > #play6:checked ~ .description > label > span,
-.csslider6 > #play6:checked ~ .description > label > small,
-.csslider6 > input:checked ~ .description > label > span,
-.csslider6 > input:checked ~ .description > label > small {
-    transition: none;
-}
-.csslider6 > input:checked ~ .description > label {
-    animation: none;
-}
 
 /*BULLETS*/
 
@@ -374,9 +358,6 @@
 .csslider6 > #play6:checked ~ .bullets > .num2:after{
     animation: bullet6 15300ms infinite 7400ms;
 }
-.csslider6 > input:checked ~ .bullets > label:after {
-    animation: none;
-}
 
 /*PLAY-PAUSE*/
 
@@ -420,9 +401,6 @@
     opacity: 0;
     z-index: -1;
     animation: play-pause6 15300ms infinite 7400ms;
-}
-.csslider6 > input:checked ~ .play-pause > .pause {
-    animation: none;
 }
 
 /*MEDIA QUERIES*/

@@ -1,7 +1,4 @@
 /*------- SLIDER #8 -------*/
-.arrownext, .arrowprev, .description, .bullets{
-    position: absolute;
-}
 
 /*COMMON*/
 .csslider8 {
@@ -71,9 +68,6 @@
     .csslider8  > #play8:checked ~ ul > li {
         animation: slide8-ie 16400ms infinite;
     }
-}
-.csslider8 > #play8:checked ~ ul > li{
-    transition: none;
 }
 
 /*ARROWS*/
@@ -196,10 +190,6 @@
 .csslider8 > #play8:checked ~ .arrownext > .num0 {
     animation: arrow8 16400ms infinite 11000ms;
 }
-.csslider8 > input:checked ~ .arrowprev > label,
-.csslider8 > input:checked ~ .arrownext > label{
-    animation: none;
-}
 
 /*BULLETS*/
 /*bullets template*/
@@ -208,7 +198,8 @@
     z-index: 6;
     right: 27px;
     max-height: 60%;
-    top: 150px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .csslider8 > .bullets > label {
     position: relative;
@@ -220,7 +211,7 @@
 }
 .csslider8 > .bullets > label:after {
     content: "";
-    background: black;
+    background: transparent;
     width: 2px;
     height: 2px;
 }
@@ -228,38 +219,31 @@
     visibility: hidden;
     position: absolute;
     opacity: 0;
-    z-index: 1;
-    border: 2px solid white;
+    z-index: 1;    
     margin-left: -300%;
     left: -207px;
-    top: -45px;
+    top: -42.5px;
     transition: all 0.3s;
+    padding-right: 12px;
+}
+.csslider8 > .bullets > label > figure > img{
+    display: block;
+    border: 2px solid white;
 }
 .csslider8 > .bullets > label > figure:before {
     content: '';
-    position: absolute;
-    width: 0; 
-    height: 0; 
+    position: absolute; 
     top: 50%;
-    margin-top: -4px;
+    margin-top: -2.5px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 5px solid #fff;
-    right: -7px;
-}
-.csslider8 > .bullets > label > figure:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -12px;
-    height: 100%;
-    width: 12px;
+    border-left: 5px solid white;
+    right: 7px;
 }
 .csslider8 > .bullets > label:hover > figure {
     opacity: 1;
     visibility: visible;
-    margin-left: -180%;
-    margin-left: -180%;
+    margin-left: -150%;
 }
 .csslider8 > .bullets > label:hover:after,
 .csslider8 > #slide8-0:checked ~ .bullets > .num0:after,
@@ -284,9 +268,165 @@
 .csslider8 > #play8:checked ~ .bullets > .num3:after{
     animation: bullet8 16400ms infinite 11000ms;
 }
-.csslider8 > #play8:checked ~ .bullets > label{
-    transition: none;
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider8 > .description > label{
+    position: absolute;
+    max-width: 50%;
+    bottom: 20rem;    
+    left: 15rem;
 }
-.csslider8 > input:checked ~ .bullets > label{
-    animation: none;
+.csslider8 > .description > label > *{
+    font-family: Khula;    
+    color: black;
+    background: white;
+    padding: 15rem;
+    opacity: 0;
+    border-radius: 5px;
+}
+.csslider8 > .description > label > big{
+    font-size: 17px;
+    transition: 750ms opacity 390ms ease;
+    margin-bottom: 15px;
+}
+.csslider8 > .description > label > small{
+    font-size: 14px;
+    transition: 750ms opacity 640ms ease;
+}
+.csslider8 > .description > label span{
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0);
+}
+.csslider8 > .description > label > big > span {
+  transition:
+    750ms opacity 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    750ms transform 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider8 > .description > label > small > span {
+  transition:
+    750ms opacity 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    750ms transform 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider8 > #slide8-0:checked ~ .description > .num0 > big,
+.csslider8 > #slide8-0:checked ~ .description > .num0 > small,
+.csslider8 > #slide8-1:checked ~ .description > .num1 > big,
+.csslider8 > #slide8-1:checked ~ .description > .num1 > small,
+.csslider8 > #slide8-2:checked ~ .description > .num2 > big,
+.csslider8 > #slide8-2:checked ~ .description > .num2 > small,
+.csslider8 > #slide8-3:checked ~ .description > .num3 > big,
+.csslider8 > #slide8-3:checked ~ .description > .num3 > small {
+    opacity: 1;
+}
+.csslider8 > #slide8-0:checked ~ .description > .num0 span,
+.csslider8 > #slide8-1:checked ~ .description > .num1 span,
+.csslider8 > #slide8-2:checked ~ .description > .num2 span,
+.csslider8 > #slide8-3:checked ~ .description > .num3 span {
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes title8 {
+    3.658536585365854%, 21.331463414634143%  {
+        opacity: 1;
+        z-index: 2;
+    }
+    28.658536585365855%  {
+        opacity: 0;
+        z-index: 2;
+    }
+    28.668536585365857%, 100%  { z-index: 0; }
+}
+@keyframes description8 {
+    3.658536585365854%, 21.331463414634143%  {
+        opacity: 1;
+        z-index: 1;
+    }
+    28.658536585365855%  {
+        opacity: 0;
+        z-index: 1;
+    }
+    28.668536585365857%, 100%  { z-index: 0; }
+}
+.csslider8 > #play8:checked ~ .description > .num0 > big {
+    animation: title8 16400ms infinite -909.9999999999999ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num1 > big {
+    animation: title8 16400ms infinite 3190ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num2 > big {
+    animation: title8 16400ms infinite 7290ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num3 > big {
+    animation: title8 16400ms infinite 11390ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num0 > small {
+    animation: description8 16400ms infinite -659.9999999999999ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num1 > small {
+    animation: description8 16400ms infinite 3440ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num2 > small {
+    animation: description8 16400ms infinite 7540ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num3 > small {
+    animation: description8 16400ms infinite 11640ms ease;
+}
+@keyframes title8-text {
+    2.5609756097560976%, 22.4290243902439% {
+        opacity: 0.7;
+        transform: scale(1.15);
+    }
+    3.658536585365854%, 21.331463414634143% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    0%, 28.658536585365855%  {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+@keyframes description8-text {
+    2.5609756097560976%, 22.4290243902439% {
+        opacity: 0.7;
+        transform: scale(1.15);
+    }
+    3.658536585365854%, 21.331463414634143% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    0%, 28.658536585365855% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+.csslider8 > #play8:checked ~ .description > .num0 > big > span {
+    animation: title8-text 16400ms infinite -759.9999999999999ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num1 > big > span {
+    animation: title8-text 16400ms infinite 3340ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num2 > big > span {
+    animation: title8-text 16400ms infinite 7440ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num3 > big > span {
+    animation: title8-text 16400ms infinite 11540ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num0 > small > span {
+    animation: description8-text 16400ms infinite -509.9999999999999ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num1 > small > span {
+    animation: description8-text 16400ms infinite 3590ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num2 > small > span {
+    animation: description8-text 16400ms infinite 7690ms ease;
+}
+.csslider8 > #play8:checked ~ .description > .num3 > small > span {
+    animation: description8-text 16400ms infinite 11790ms ease;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider8 > .description, .csslider8 > .bullets {display: none;}
 }

@@ -1,0 +1,260 @@
+/*------- SLIDER #9 -------*/
+
+/*COMMON*/
+.csslider9 {
+    position: relative;
+    max-width: 640px;
+    overflow: hidden;
+}
+.csslider9 > input[type=radio] {
+    display: none;
+}
+.csslider9 > ul > li:first-child {
+    position: static;
+}
+.csslider9 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider9 > ul > li:not(:first-child) {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 1000ms ease, transform 12300ms cubic-bezier(0.840, 0.970, 0.855, 1.000);
+}
+
+/*SLIDESHOW*/
+.csslider9 > ul > .num0 {
+    transform: scale(1.3);
+    transform-origin: 100% 0;  
+}
+.csslider9 > ul > .num1 {
+    transform: scale(1.3);
+    transform-origin: 0 0;      
+}
+.csslider9 > ul > .num2 {
+    transform: scale(1.3);
+    transform-origin: 100% 100%;      
+}
+.csslider9 > #slide9-0:checked ~ ul > .num0,
+.csslider9 > #slide9-1:checked ~ ul > .num1,
+.csslider9 > #slide9-2:checked ~ ul > .num2 {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+}
+@keyframes kenburns9 {
+    0.001%, 33.33233333333334%  { z-index: 2; }
+    0%, 100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    8.130081300813009%, 33.333333333333336% { opacity: 1 }
+    41.463414634146346%, 66.66666666666666% {
+        opacity: 0;
+        transform: scale(1.3);
+    }
+    33.33433333333333%, 100%  { z-index: 1; }
+}
+.csslider9 > #play9:checked ~ ul > .num0 {
+    animation: kenburns9 12300ms infinite -1000ms linear;
+}
+.csslider9 > #play9:checked ~ ul > .num1 {
+    animation: kenburns9 12300ms infinite 3100ms linear;
+}
+.csslider9 > #play9:checked ~ ul > .num2 {
+    animation: kenburns9 12300ms infinite 7200ms linear;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider9 > .arrowprev,
+.csslider9 > .arrownext {
+    position: absolute;    
+    z-index: 5;
+    height: 100%;
+    top: 0px;
+}
+.csslider9 > .arrowprev {
+    left: 47px;
+}
+.csslider9 > .arrownext {
+    right: 47px;
+}
+.csslider9 > .arrowprev > label, .csslider9 > .arrownext > label {
+    position: absolute;
+    top: 50%;
+    margin-top: -23.5px;
+    margin-left: -23.5px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    border: 4px solid rgba(255,255,255,.6);
+    transition: background 0.4s, border 0.4s;
+}
+.csslider9 > .arrowprev > label:hover, .csslider9 > .arrownext > label:hover {    
+    border: 4px solid #3f75b5;
+}
+.csslider9 > .arrowprev > label{
+    background: url(/images/icons/prev8.png)no-repeat center center;
+}
+.csslider9 > .arrownext > label{
+    background: url(/images/icons/next8.png)no-repeat center center;
+}
+.csslider9 > .arrowprev > label:hover{
+    background: #3f75b5 url(/images/icons/prev8-hover.png)no-repeat center center;
+}
+.csslider9 > .arrownext > label:hover{
+    background: #3f75b5 url(/images/icons/next8-hover.png)no-repeat center center;
+}
+
+/*arrows moving*/
+.csslider9 > #slide9-0:checked ~ .arrowprev > .num2,
+.csslider9 > #slide9-0:checked ~ .arrownext > .num1, 
+.csslider9 > #slide9-1:checked ~ .arrowprev > .num0,
+.csslider9 > #slide9-1:checked ~ .arrownext > .num2, 
+.csslider9 > #slide9-2:checked ~ .arrowprev > .num1,
+.csslider9 > #slide9-2:checked ~ .arrownext > .num0{
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow9 {
+    0%, 33.32333333333334% {
+        opacity: 1; z-index: 5;
+    }
+    33.333333333333336%, 100%  { 
+        opacity: 0; z-index: -1;
+    }
+}
+.csslider9 > #play9:checked ~ .arrowprev > .num2,
+.csslider9 > #play9:checked ~ .arrownext > .num1 {
+    animation: arrow9 11700ms infinite -1600ms;
+}
+.csslider9 > #play9:checked ~ .arrowprev > .num0,
+.csslider9 > #play9:checked ~ .arrownext > .num2 {
+    animation: arrow9 11700ms infinite 2300ms;
+}
+.csslider9 > #play9:checked ~ .arrowprev > .num1,
+.csslider9 > #play9:checked ~ .arrownext > .num0 {
+    animation: arrow9 11700ms infinite 6200ms;
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider9 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    font-size: 23px;
+    top: 15px;
+    left: 27px;
+    color: #3f75b5;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    background: rgba(255,255,255,0.9);
+    transform: scale(0);    
+    z-index: 2;
+    transition:
+        500ms opacity 300ms ease,
+        500ms transform 300ms ease,
+        500ms visibility 300ms ease;
+}
+.csslider9 > #slide9-0:checked ~ .description > .num0,
+.csslider9 > #slide9-1:checked ~ .description > .num1,
+.csslider9 > #slide9-2:checked ~ .description > .num2{
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes description9 {
+    4.065040650406504%, 33.333333333333336%  {
+        opacity: 1;
+        z-index: 2;   
+        transform: scale(1);
+    }
+    37.39837398373984%  {
+        opacity: 0;
+        z-index: 2;      
+        transform: scale(0);
+    }
+    37.408373983739835%, 100%  { z-index: 0; }
+}
+.csslider9 > #play9:checked ~ .description > .num0{
+    animation: description9 12300ms infinite -700ms ease;
+}
+.csslider9 > #play9:checked ~ .description > .num1{
+    animation: description9 12300ms infinite 3400ms ease;
+}
+.csslider9 > #play9:checked ~ .description > .num2{
+    animation: description9 12300ms infinite 7500ms ease;
+}
+
+/*BULLETS*/
+/*bullets template*/
+.csslider9 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 4px;
+}
+.csslider9 > .bullets > label {
+    position: relative;
+    margin: 6px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.6);
+    transition: box-shadow .4s, background .4s;
+}
+.csslider9 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -32px;
+    top: -60px;
+    border: 4px solid rgba(255,255,255,0.6);
+    border-radius: 10px;
+    transform: scale(2) translateY(-20px);
+    transition: all 0.3s;
+}
+.csslider9 > .bullets > label > figure > img{
+    display: block;
+    border-radius: 6px;
+}
+.csslider9 > .bullets > label:hover figure {
+    visibility: visible;
+    opacity: 1;
+    transform:scale(1);
+}
+.csslider9 > .bullets > label figure:hover {
+    border: 4px solid white;
+}
+/*bullets moving*/
+.csslider9 > #slide9-0:checked ~ .bullets > .num0,
+.csslider9 > #slide9-1:checked ~ .bullets > .num1,
+.csslider9 > #slide9-2:checked ~ .bullets > .num2{
+    background: transparent;
+    box-shadow: 0 0 0 2px white; 
+}
+@keyframes bullet9 {
+    0%, 33.32333333333334%  { box-shadow: 0 0 0 2px white; background: transparent;}
+    33.333333333333336%, 100% { box-shadow: 0 0 0 2px transparent; background: rgba(255,255,255,.6);}
+}
+.csslider9 > #play9:checked ~ .bullets > .num0 {
+    animation: bullet9 12300ms infinite -1000ms;
+}
+.csslider9 > #play9:checked ~ .bullets > .num1 {
+    animation: bullet9 12300ms infinite 3100ms;
+}
+.csslider9 > #play9:checked ~ .bullets > .num2 {
+    animation: bullet9 12300ms infinite 7200ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider9 > .description, .csslider9 > .bullets {display: none;}
+}

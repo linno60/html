@@ -1,10 +1,9 @@
 body{
     font-size: 12px;
-    font-family: Arial;
+    font-family: Open Sans Condensed;
 }
 .h2{
-    font-size: 21px;
-    font-family: Open Sans Condensed;
+    font-size: 21px;    
     text-align:  center;
 }
 body > div{
@@ -16,4 +15,35 @@ label{
 }
 .description label{
     cursor: default;
+}
+
+.wrapper {  
+    width: 100px;  
+    height: 100px;  
+    position: relative;  
+    perspective: 4000px;  
+}    
+.item {  
+    height: 100px;  
+    transform-style: preserve-3d;  
+    transition: transform .6s;  
+}
+.item:after, .item:before{
+    position: absolute; 
+    height: 100px;  
+    width: 100px;    
+    transition: all .6s;
+    content: "";
+    display: block;
+}
+.item:after {   
+    transform: translateZ(50px); 
+    background: red;
+}  
+.item:before {      
+    transform: rotateX(90deg) translateZ(50px);    
+    background: blue; 
+}   
+.item:hover {  
+    transform: translateZ(-50px) rotateX(-95deg);  
 }

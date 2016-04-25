@@ -63,9 +63,6 @@
 .csslider4 > #play4:checked ~ ul > .num3 {
     animation: fade-in4 18400ms infinite 11800ms;
 }
-.csslider4 > #play4:checked ~ ul > li{
-    transition: none;
-}
 
 /*show btns*/
 .csslider4 > .play-pause {
@@ -205,10 +202,6 @@
 .csslider4 > #play4:checked ~ .arrownext > label.num0 {
     animation: arrow4 18400ms infinite 11800ms;
 }
-.csslider4 > input:checked ~ .arrowprev > label,
-.csslider4 > input:checked ~ .arrownext > label {
-    animation: none;
-}
 
 /*BULLETS*/
 /*bullets template*/
@@ -280,12 +273,6 @@
 .csslider4 > #play4:checked ~ .bullets > label.num3:before,
 .csslider4 > #cs_pause1:checked ~ .bullets > label.num3:before {
     animation: bullet4 18400ms infinite 11800ms;
-}
-.csslider4 > input:checked ~ .bullets > label:before {
-    transition: none;
-}
-.csslider4 > input:checked ~ .bullets > label:before{
-    animation: none;
 }
 
 /*DESCRIPTION*/
@@ -408,9 +395,6 @@
 }
 .csslider4 > #play4:checked ~ .play-pause > .num3 {
     animation: play-pause4 18400ms infinite 11800ms;
-}
-.csslider4 > input:checked ~ .play-pause > .pause{
-    animation: none;
 }
 
 /*MEDIA QUERIES*/
