@@ -75,8 +75,7 @@
 .csslider9 > .arrownext {
     position: absolute;    
     z-index: 5;
-    height: 100%;
-    top: 0px;
+    top: 50%;
 }
 .csslider9 > .arrowprev {
     left: 47px;
@@ -84,19 +83,19 @@
 .csslider9 > .arrownext {
     right: 47px;
 }
-.csslider9 > .arrowprev > label, .csslider9 > .arrownext > label {
+.csslider9 > .arrowprev > label,
+.csslider9 > .arrownext > label{
     position: absolute;
-    top: 50%;
+    display: block;
+    height: 47px;
+    width: 47px;
     margin-top: -23.5px;
     margin-left: -23.5px;
-    width: 47px;
-    height: 47px;
+    opacity: 0.6;
     border-radius: 50%;
-    border: 4px solid rgba(255,255,255,.6);
-    transition: background 0.4s, border 0.4s;
-}
-.csslider9 > .arrowprev > label:hover, .csslider9 > .arrownext > label:hover {    
-    border: 4px solid #3f75b5;
+    box-shadow: inset 0 0 0 4px white;
+    transition: background 0.4s, opacity 0.4s, box-shadow 0.4s;
+    content: "";
 }
 .csslider9 > .arrowprev > label{
     background: url(/images/icons/prev8.png)no-repeat center center;
@@ -104,11 +103,16 @@
 .csslider9 > .arrownext > label{
     background: url(/images/icons/next8.png)no-repeat center center;
 }
-.csslider9 > .arrowprev > label:hover{
-    background: #3f75b5 url(/images/icons/prev8-hover.png)no-repeat center center;
+.csslider9 > .arrowprev:hover > label{
+    background: #3f75b5 url(/images/icons/prev8.png)no-repeat center center;
 }
-.csslider9 > .arrownext > label:hover{
-    background: #3f75b5 url(/images/icons/next8-hover.png)no-repeat center center;
+.csslider9 > .arrownext:hover > label{
+    background: #3f75b5 url(/images/icons/next8.png)no-repeat center center;
+}
+.csslider9 > .arrowprev:hover > label,
+.csslider9 > .arrownext:hover > label {  
+    opacity: 1;
+    box-shadow: inset 0 0 0 4px transparent;
 }
 
 /*arrows moving*/
@@ -118,15 +122,14 @@
 .csslider9 > #slide9-1:checked ~ .arrownext > .num2, 
 .csslider9 > #slide9-2:checked ~ .arrowprev > .num1,
 .csslider9 > #slide9-2:checked ~ .arrownext > .num0{
-    opacity: 1;
     z-index: 5;
 }
 @keyframes arrow9 {
     0%, 33.32333333333334% {
-        opacity: 1; z-index: 5;
+        z-index: 5;
     }
     33.333333333333336%, 100%  { 
-        opacity: 0; z-index: -1;
+        z-index: -1;
     }
 }
 .csslider9 > #play9:checked ~ .arrowprev > .num2,
@@ -158,6 +161,7 @@
     background: rgba(255,255,255,0.9);
     transform: scale(0);    
     z-index: 2;
+    opacity: 0;
     transition:
         500ms opacity 300ms ease,
         500ms transform 300ms ease,

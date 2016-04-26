@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="/css/styles7.css"> 
         <link rel="stylesheet" href="/css/styles8.css">
         <link rel="stylesheet" href="/css/styles9.css">
+        <link rel="stylesheet" href="/css/styles10.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -27,7 +28,51 @@
             }
         </script>
     </head>
-    <body>
+    <body> 
+        <div>
+            <h2 class="h2">Slider #10</h2>
+            <div class='csslider10 lwrap'>
+                <input name="anchor10" id='slide10-0' type="radio">
+                <input name="anchor10" id='slide10-1' type="radio">
+                <input name="anchor10" id='slide10-2' type="radio">
+                <input name="anchor10" id='play10' type="radio" checked>
+                <input name="anchor10" id='pause10-0' type="radio">
+                <input name="anchor10" id='pause10-1' type="radio">
+                <input name="anchor10" id='pause10-2' type="radio">
+                <ul>
+                    <li><img src="/images/macaw.jpg"></li>
+                    <li class='num0'><img src='/images/macaw.jpg' width="640" height="480" alt='Macaw' title='Macaw'></li>
+                    <li class='num1'><img src='/images/rainbowlorikeet.jpg' width="640" height="480" alt='Rainbowlorikeet' title='Rainbowlorikeet'></li>
+                    <li class='num2'><img src='/images/blauaras.jpg' width="640" height="480" alt='Blauaras' title='Blauaras'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'><big><span>Macaw</span></big></label>
+                    <label class='num1'><big><span>Rainbow Lorikeet</span></big></label>
+                    <label class='num2'><big><span>Blauaras</span></big></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play10'></label>
+                    <label class='pause num0' for='pause10-0'></label>
+                    <label class='pause num1' for='pause10-1'></label>
+                    <label class='pause num2' for='pause10-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide10-0'></label>
+                    <label class='num1' for='slide10-1'></label>
+                    <label class='num2' for='slide6-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide10-0'></label>
+                    <label class='num1' for='slide10-1'></label>
+                    <label class='num2' for='slide10-2'></label>
+                </div>
+                <div class='bullets'>
+                    <label class='num0' for='slide10-0'><figure><img src='/images/macawsm.jpg' width="64" height="48" alt='Macaw' title='Macaw'></figure></label>
+                    <label class='num1' for='slide10-1'><figure><img src='/images/rainbowlorikeetsm.jpg' width="64" height="48" alt='Rainbowlorikeet' title='Rainbowlorikeet'></figure></label>
+                    <label class='num2' for='slide10-2'><figure><img src='/images/blauarassm.jpg' width="64" height="48" alt='Blauaras' title='Blauaras'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #9</h2>
             <div class='csslider9 lwrap'>
@@ -46,15 +91,15 @@
                     <label class='num1'>Flower Child</label>
                     <label class='num2'>Girl</label>
                 </div>
-                <div class='arrowprev'>
-                    <label class='num0' for='slide9-0'></label>
-                    <label class='num1' for='slide9-1'></label>
-                    <label class='num2' for='slide9-2'></label>
+                <div class='arrowprev' data-childs="center -center">
+                    <label class='num0' for='slide9-0'><span></span></label>
+                    <label class='num1' for='slide9-1'><span></span></label>
+                    <label class='num2' for='slide9-2'><span></span></label>
                 </div>
-                <div class='arrownext'>
-                    <label class='num0' for='slide9-0'></label>
-                    <label class='num1' for='slide9-1'></label>
-                    <label class='num2' for='slide9-2'></label>
+                <div class='arrownext' data-childs="center -center">
+                    <label class='num0' for='slide9-0'><span></span></label>
+                    <label class='num1' for='slide9-1'><span></span></label>
+                    <label class='num2' for='slide9-2'><span></span></label>
                 </div>
                 <div class='bullets' data-flex="center">
                     <label class='num0' for='slide9-0'><figure><img src='/images/summerfieldsm.jpg' width="64" height="48" alt='Summerfield' title='Summerfield'></figure></label>
@@ -151,9 +196,9 @@
                 <input name="anchor6" id='pause6-2' type="radio">
                 <ul>
                     <li><img src="/images/mustang.jpg"></li>
-                    <li class='num0'><img src='/images/mustang.jpg' alt='Mustang' title='Mustang'></li>
-                    <li class='num1'><img src='/images/volga.jpg' alt='Volga' title='Volga'></li>
-                    <li class='num2'><img src='/images/mercedes.jpg' alt='Mercedes' title='Mercedes'></li>
+                    <li class='num0'><img src='/images/mustang.jpg' width="960" height="500" alt='Mustang' title='Mustang'></li>
+                    <li class='num1'><img src='/images/volga.jpg' width="960" height="500" alt='Volga' title='Volga'></li>
+                    <li class='num2'><img src='/images/mercedes.jpg' width="960" height="500" alt='Mercedes' title='Mercedes'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
                     <label class='num0'><span>Mustang</span><small>Power on wheels</small></label>
@@ -177,9 +222,9 @@
                     <label class='num2' for='slide6-2'></label>
                 </div>
                 <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide6-0'><figure><img src='/images/mustangsm.jpg' alt='Mustang' title='Mustang'></figure></label>
-                    <label class='num1' for='slide6-1'><figure><img src='/images/volgasm.jpg' alt='Volga' title='Volga'></figure></label>
-                    <label class='num2' for='slide6-2'><figure><img src='/images/mercedessm.jpg' alt='Mercedes' title='Mercedes'></figure></label>
+                    <label class='num0' for='slide6-0'><figure><img src='/images/mustangsm.jpg' width="92" height="48" alt='Mustang' title='Mustang'></figure></label>
+                    <label class='num1' for='slide6-1'><figure><img src='/images/volgasm.jpg' width="92" height="48" alt='Volga' title='Volga'></figure></label>
+                    <label class='num2' for='slide6-2'><figure><img src='/images/mercedessm.jpg' width="92" height="48" alt='Mercedes' title='Mercedes'></figure></label>
                 </div>
             </div>
         </div>

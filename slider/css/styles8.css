@@ -4,13 +4,13 @@
 .csslider8 {
     position: relative;
     max-width: 830px;
-    overflow: hidden;
+    overflow: hidden;    
 }
 .csslider8 > input[type=radio] {
     display: none;
 }
 .csslider8 > ul > li:first-child {
-    position: static;
+    visibility: hidden;
 }
 .csslider8 > ul > li > img{
     width: 100%;
@@ -60,12 +60,12 @@
     50%, 67.07317073170732%  { margin-top: -86.74698795180723%; }
     75%, 92.07317073170732%  { margin-top: -130.12048192771084%; }
 }
-.csslider8  > #play8:checked ~ ul > li {
+.csslider8  > #play8:checked ~ ul > li:not(:first-child) {
     animation: slide8 16400ms infinite;
 }
 /* IE 10+ hack - cant animate translate :( */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .csslider8  > #play8:checked ~ ul > li {
+    .csslider8  > #play8:checked ~ ul > li:not(:first-child) {
         animation: slide8-ie 16400ms infinite;
     }
 }
@@ -214,6 +214,7 @@
     background: transparent;
     width: 2px;
     height: 2px;
+    display: block;
 }
 .csslider8 > .bullets > label > figure {
     visibility: hidden;
@@ -288,12 +289,16 @@
 }
 .csslider8 > .description > label > big{
     font-size: 17px;
+    line-height: 17px;
     transition: 750ms opacity 390ms ease;
     margin-bottom: 15px;
+    height: 47px;
 }
 .csslider8 > .description > label > small{
     font-size: 14px;
+    line-height: 14px;
     transition: 750ms opacity 640ms ease;
+    height: 43px;
 }
 .csslider8 > .description > label span{
     display: inline-block;
@@ -301,14 +306,14 @@
     transform: scale(0);
 }
 .csslider8 > .description > label > big > span {
-  transition:
-    750ms opacity 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
-    750ms transform 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition:
+        750ms opacity 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 .csslider8 > .description > label > small > span {
-  transition:
-    750ms opacity 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
-    750ms transform 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition:
+        750ms opacity 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 .csslider8 > #slide8-0:checked ~ .description > .num0 > big,
 .csslider8 > #slide8-0:checked ~ .description > .num0 > small,

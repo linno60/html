@@ -222,10 +222,11 @@
     opacity: 1;
     z-index: 4;
     transition: .5s opacity .2s ease, .5s transform .2s ease;
+    transform: translateY(0);
 }
 .csslider5 > input:checked ~ .description > label {
     opacity: 0;
-    transform: translateX(0%);
+    transform: translateX(-100%);
 }
 @keyframes description5 {
     2.0833333333333335%, 27.073333333333334%  {

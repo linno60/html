@@ -10,14 +10,14 @@
     display: none;
 }
 .csslider1 > ul > li:first-child{
-   position: static;
+    visibility: hidden;
 }
 .csslider1 > ul > li > img {
     width: 100%;
     height: 100%;
     display: block;
 }
-.csslider1 > ul > li{
+.csslider1 > ul > li:not(:first-child) {
     position: absolute;
     transition: transform 1600ms;
 }
@@ -51,12 +51,12 @@
     33.333333333333336%, 52.991452991452995%  { margin-top: -52.083333333333336%; }
     66.66666666666667%, 86.32478632478632%  { margin-top: -104.16666666666667%; }
 }
-.csslider1  > #play1:checked ~ ul > li{
+.csslider1  > #play1:checked ~ ul > li:not(:first-child){
     animation: slide1 11700ms infinite;
 }
 /*IE*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .csslider1 > #play1:checked ~ ul > li{
+    .csslider1 > #play1:checked ~ ul > li:not(:first-child){
         animation: slide1-ie 11700ms infinite;
     }
 }
