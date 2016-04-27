@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="/css/styles8.css">
         <link rel="stylesheet" href="/css/styles9.css">
         <link rel="stylesheet" href="/css/styles10.css">
+        <link rel="stylesheet" href="/css/styles11.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -29,6 +30,41 @@
         </script>
     </head>
     <body> 
+        <div>
+            <h2 class="h2">Slider #11</h2>
+            <div class='csslider11 lwrap'>
+                <input name="anchor11" id='slide11-0' type="radio">
+                <input name="anchor11" id='slide11-1' type="radio">
+                <input name="anchor11" id='slide11-2' type="radio">
+                <input name="anchor11" id='play11' type="radio" checked>
+                <ul>
+                    <li><img src="/images/wristwatch.jpg"></li>
+                    <li class='num0'><img src='/images/wristwatch.jpg' width="830" height="360" alt='Wrist Watch' title='Wrist Watch'></li>
+                    <li class='num1'><img src='/images/luxurywatch.jpg' width="830" height="360" alt='Luxury Watch' title='Luxury Watch'></li>
+                    <li class='num2'><img src='/images/malewatch.jpg' width="830" height="360" alt='Male Watch' title='Male Watch'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'>Wrist Watch</label>
+                    <label class='num1'>Luxury Watch</label>
+                    <label class='num2'>Male Watch</label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide11-0'></label>
+                    <label class='num1' for='slide11-1'></label>
+                    <label class='num2' for='slide11-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide11-0'></label>
+                    <label class='num1' for='slide11-1'></label>
+                    <label class='num2' for='slide11-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide11-0'><figure><img src='/images/wristwatchsm.jpg' width="120" height="52" alt='Wrist Watch' title='Wrist Watch'></figure></label>
+                    <label class='num1' for='slide11-1'><figure><img src='/images/luxurywatchsm.jpg' width="120" height="52" alt='Luxury Watch' title='Luxury Watch'></figure></label>
+                    <label class='num2' for='slide11-2'><figure><img src='/images/malewatchsm.jpg' width="120" height="52" alt='Male Watch' title='Male Watch'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #10</h2>
             <div class='csslider10 lwrap'>
@@ -59,14 +95,14 @@
                 <div class='arrowprev'>
                     <label class='num0' for='slide10-0'></label>
                     <label class='num1' for='slide10-1'></label>
-                    <label class='num2' for='slide6-2'></label>
+                    <label class='num2' for='slide10-2'></label>
                 </div>
                 <div class='arrownext'>
                     <label class='num0' for='slide10-0'></label>
                     <label class='num1' for='slide10-1'></label>
                     <label class='num2' for='slide10-2'></label>
                 </div>
-                <div class='bullets'>
+                <div class='bullets' data-flex="center">
                     <label class='num0' for='slide10-0'><figure><img src='/images/macawsm.jpg' width="64" height="48" alt='Macaw' title='Macaw'></figure></label>
                     <label class='num1' for='slide10-1'><figure><img src='/images/rainbowlorikeetsm.jpg' width="64" height="48" alt='Rainbowlorikeet' title='Rainbowlorikeet'></figure></label>
                     <label class='num2' for='slide10-2'><figure><img src='/images/blauarassm.jpg' width="64" height="48" alt='Blauaras' title='Blauaras'></figure></label>

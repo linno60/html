@@ -47,3 +47,121 @@ label{
 .item:hover {  
     transform: translateZ(-50px) rotateX(-95deg);  
 }
+
+.gate {
+    position: relative;
+    width: 100px; 
+    height: 40px;
+    perspective: 500px;    
+}
+.gate > big {
+    padding: 10rem;    
+    transform-origin: 0% 0%;
+    border-radius: 4px;
+    display: inline-block;    
+    margin: 5px;
+    transition:
+        750ms opacity 900ms ease,
+        750ms transform 900ms ease;
+    position: absolute;
+}
+.gate > big.first {
+    background: red;
+    opacity: 0;
+    transform: rotateX(90deg);    
+}
+@keyframes gate-first {
+    0%  {
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+    50%  {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }   
+    100%  {
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+}
+.gate:hover > big.first {
+    animation: gate-first 2000ms infinite 0ms ease;
+}
+.gate > big.second{
+    background: blue;
+    opacity: 1;
+    transform: rotateX(0deg);
+    transition:
+        750ms opacity 900ms ease,
+        750ms transform 900ms ease;
+}
+@keyframes gate-second {
+    0% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+    50%  {
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+.gate:hover > big.second {
+    animation: gate-second 2000ms infinite 0ms ease;
+}
+.gate > big > span {
+    color: white;  
+    opacity: 1;
+    display: inline-block;
+    transform: translateX(0%);
+    transition:
+        750ms opacity 900ms ease,
+        750ms transform 900ms ease;
+}
+@keyframes gate-text{
+    0%  {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    50%  {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    0%  {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.gate:hover > big > span {
+    animation: gate-text 1230ms infinite 0ms ease;
+}
+
+.rising {
+    position: relative;
+    perspective: 500px;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    background: blue;
+}
+.rising > div {
+    position: absolute;
+    opacity: 0;
+    left: -40px;
+    top: -100px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition:
+        opacity 0.5s ease-in-out,
+        transform 0.5s ease-in-out;
+    transform-origin: 0% 100% 0px;
+    transform: rotateX(90deg);
+}
+.rising:hover > div {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
