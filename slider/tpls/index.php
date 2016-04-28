@@ -21,6 +21,8 @@
         <link rel="stylesheet" href="/css/styles9.css">
         <link rel="stylesheet" href="/css/styles10.css">
         <link rel="stylesheet" href="/css/styles11.css">
+        <link rel="stylesheet" href="/css/styles12.css">
+        <link rel="stylesheet" href="/css/styles13.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -31,6 +33,82 @@
     </head>
     <body> 
         <div>
+            <h2 class="h2">Slider #13</h2>
+            <div class='csslider13 lwrap'>
+                <input name="anchor13" id='slide13-0' type="radio">
+                <input name="anchor13" id='slide13-1' type="radio">
+                <input name="anchor13" id='slide13-2' type="radio">
+                <input name="anchor13" id='slide13-3' type="radio">
+                <input name="anchor13" id='play13' type="radio" checked>
+                <ul>
+                    <li><img src="/images/rose.jpg" width="600" height="600"></li>
+                    <li class='num0'><img src='/images/rose.jpg' width="600" height="600" alt='Rose' title='Rose'></li>
+                    <li class='num1'><img src='/images/dahlia.jpg' width="600" height="600" alt='Dahlia' title='Dahlia'></li>
+                    <li class='num2'><img src='/images/poppy.jpg' width="600" height="600" alt='Poppy' title='Poppy'></li>
+                    <li class='num3'><img src='/images/primrose.jpg' width="600" height="600" alt='Primrose' title='Primrose'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'><span>Rose</span></label>
+                    <label class='num1'><span>Dahlia</span></label>
+                    <label class='num2'><span>Poppy</span></label>
+                    <label class='num3'><span>Primrose</span></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide13-0'></label>
+                    <label class='num1' for='slide13-1'></label>
+                    <label class='num2' for='slide13-2'></label>
+                    <label class='num3' for='slide13-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide13-0'></label>
+                    <label class='num1' for='slide13-1'></label>
+                    <label class='num2' for='slide13-2'></label>
+                    <label class='num3' for='slide13-3'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide13-0'><figure><img src='/images/rosesm.jpg' width="120" height="120" alt='Rose' title='Rose'></figure></label>
+                    <label class='num1' for='slide13-1'><figure><img src='/images/dahliasm.jpg' width="120" height="120" alt='Dahlia' title='Dahlia'></figure></label>
+                    <label class='num2' for='slide13-2'><figure><img src='/images/poppysm.jpg' width="120" height="120" alt='Poppy' title='Poppy'></figure></label>
+                    <label class='num3' for='slide13-3'><figure><img src='/images/primrosesm.jpg' width="120" height="120" alt='Primrose' title='Primrose'></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="h2">Slider #12</h2>
+            <div class='csslider12 lwrap'>
+                <input name="anchor12" id='slide12-0' type="radio">
+                <input name="anchor12" id='slide12-1' type="radio">
+                <input name="anchor12" id='slide12-2' type="radio">
+                <input name="anchor12" id='play12' type="radio" checked>
+                <ul>
+                    <li><img src="/images/retrocar.jpg" width="830" height="400"></li>
+                    <li class='num0'><img src='/images/retrocar.jpg' width="830" height="400" alt='Retro Car' title='Retro Car'></li>
+                    <li class='num1'><img src='/images/carshow.jpg' width="830" height="400" alt='Car Show' title='Car Show'></li>
+                    <li class='num2'><img src='/images/oldtimer.jpg' width="830" height="400" alt='Oldtimer' title='Oldtimer'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'><span>Wrist Watch</span></label>
+                    <label class='num1'><span>Luxury Watch</span></label>
+                    <label class='num2'><span>Male Watch</span></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide12-0'></label>
+                    <label class='num1' for='slide12-1'></label>
+                    <label class='num2' for='slide12-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide12-0'></label>
+                    <label class='num1' for='slide12-1'></label>
+                    <label class='num2' for='slide12-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide12-0'><figure><img src='/images/retrocarsm.jpg' width="120" height="57" alt='Retro Car' title='Retro Car'></figure></label>
+                    <label class='num1' for='slide12-1'><figure><img src='/images/carshowsm.jpg' width="120" height="57" alt='Car Show' title='Car Show'></figure></label>
+                    <label class='num2' for='slide12-2'><figure><img src='/images/oldtimersm.jpg' width="120" height="57" alt='Oldtimer' title='Oldtimer'></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
             <h2 class="h2">Slider #11</h2>
             <div class='csslider11 lwrap'>
                 <input name="anchor11" id='slide11-0' type="radio">
@@ -38,7 +116,7 @@
                 <input name="anchor11" id='slide11-2' type="radio">
                 <input name="anchor11" id='play11' type="radio" checked>
                 <ul>
-                    <li><img src="/images/wristwatch.jpg"></li>
+                    <li><img src="/images/wristwatch.jpg" width="830" height="360"></li>
                     <li class='num0'><img src='/images/wristwatch.jpg' width="830" height="360" alt='Wrist Watch' title='Wrist Watch'></li>
                     <li class='num1'><img src='/images/luxurywatch.jpg' width="830" height="360" alt='Luxury Watch' title='Luxury Watch'></li>
                     <li class='num2'><img src='/images/malewatch.jpg' width="830" height="360" alt='Male Watch' title='Male Watch'></li>
@@ -76,7 +154,7 @@
                 <input name="anchor10" id='pause10-1' type="radio">
                 <input name="anchor10" id='pause10-2' type="radio">
                 <ul>
-                    <li><img src="/images/macaw.jpg"></li>
+                    <li><img src="/images/macaw.jpg" width="640" height="480"></li>
                     <li class='num0'><img src='/images/macaw.jpg' width="640" height="480" alt='Macaw' title='Macaw'></li>
                     <li class='num1'><img src='/images/rainbowlorikeet.jpg' width="640" height="480" alt='Rainbowlorikeet' title='Rainbowlorikeet'></li>
                     <li class='num2'><img src='/images/blauaras.jpg' width="640" height="480" alt='Blauaras' title='Blauaras'></li>
@@ -117,7 +195,7 @@
                 <input name="anchor9" id='slide9-2' type="radio">
                 <input name="anchor9" id='play9' type="radio" checked>
                 <ul> 
-                    <li><img src='/images/summerfield.jpg' width="640" height="480" alt='Summerfield' title='Summerfield'></li>
+                    <li><img src='/images/summerfield.jpg' width="640" height="480"></li>
                     <li class='num0'><img src='/images/summerfield.jpg' width="640" height="480" alt='Summerfield' title='Summerfield'></li>
                     <li class='num1'><img src='/images/flowerchild.jpg' width="640" height="480" alt='Flowerchild' title='Flowerchild'></li>
                     <li class='num2'><img src='/images/asiangirl.jpg' width="640" height="480" alt='Girl' title='Girl'></li>
@@ -153,7 +231,7 @@
                 <input name="anchor8" id='slide8-3' type="radio">
                 <input name="anchor8" id='play8' type="radio" checked>
                 <ul> 
-                    <li><img src='/images/polaroid.jpg' width="830" height="360" alt='Polaroid' title='Polaroid'></li>
+                    <li><img src='/images/polaroid.jpg' width="830" height="360"></li>
                     <li class='num0'><img src='/images/polaroid.jpg' width="830" height="360" alt='Polaroid' title='Polaroid'></li>
                     <li class='num1'><img src='/images/kodak.jpg' width="830" height="360" alt='Kodak' title='Kodak'></li>
                     <li class='num2'><img src='/images/nikon.jpg' width="830" height="360" alt='Nikon' title='Nikon'></li>
@@ -193,7 +271,7 @@
                 <input name="anchor7" id='slide7-2' type="radio">
                 <input name="anchor7" id='play7' type="radio" checked>
                 <ul>
-                    <li><img src="/images/vintage.jpg"></li>
+                    <li><img src="/images/vintage.jpg" width="960" height="500"></li>
                     <li class='num0'><img src='/images/vintage.jpg' width="960" height="500" alt='Vintage' title='Vintage'></li>
                     <li class='num1'><img src='/images/vespa.jpg' width="960" height="500" alt='Vespa' title='Vespa'></li>
                     <li class='num2'><img src='/images/street.jpg' width="960" height="500" alt='Street' title='Street'></li>
@@ -231,7 +309,7 @@
                 <input name="anchor6" id='pause6-1' type="radio">
                 <input name="anchor6" id='pause6-2' type="radio">
                 <ul>
-                    <li><img src="/images/mustang.jpg"></li>
+                    <li><img src="/images/mustang.jpg" width="960" height="500"></li>
                     <li class='num0'><img src='/images/mustang.jpg' width="960" height="500" alt='Mustang' title='Mustang'></li>
                     <li class='num1'><img src='/images/volga.jpg' width="960" height="500" alt='Volga' title='Volga'></li>
                     <li class='num2'><img src='/images/mercedes.jpg' width="960" height="500" alt='Mercedes' title='Mercedes'></li>
@@ -321,7 +399,7 @@
                 <input name="anchor4" id='pause-4-2' type="radio">
                 <input name="anchor4" id='pause-4-3' type="radio">
                 <ul>
-                    <li><img src="/images/cat1.jpg"></li>
+                    <li><img src="/images/cat1.jpg" width="830" height="560"></li>
                     <li class='num0'><img src='/images/cat1.jpg' alt='Elegant Cat' title='Elegant Cat' width="830" height="560"></li>
                     <li class='num1'><img src='/images/cat2.jpg' alt='Graceful Cat' title='Graceful Cat' width="830" height="560"></li>
                     <li class='num2'><img src='/images/cat3.jpg' alt='Proud Cat' title='Proud Cat' width="830" height="560"></li>
@@ -456,7 +534,7 @@
                 <input name="anchor1" id='slide1-2' type="radio">
                 <input name="anchor1" id='play1' type="radio" checked>                
                 <ul>
-                    <li><img src="/images/chicago.jpg" width="960" height="500" alt="Chicago" title="Chicago"></li>
+                    <li><img src="/images/chicago.jpg" width="960" height="500"></li>
                     <li class='num0'><img src="/images/chicago.jpg" width="960" height="500" alt="Chicago" title="Chicago"></li>
                     <li class='num1'><img src="/images/moscow.jpg" width="960" height="500" alt="Moscow" title="Moscow"></li>
                     <li class='num2'><img src="/images/newyork.jpg" width="960" height="500" alt="New York" title="New York"></li>

@@ -1,0 +1,225 @@
+/*------- SLIDER #13 -------*/
+
+/*COMMON*/
+.csslider13 {
+    position: relative;
+    max-width: 600px; 
+    box-shadow: 0 0 0 white;
+    overflow: hidden;
+}
+.csslider13 > input[type=radio] {
+    display: none;
+}
+.csslider13 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider13 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider13 > ul > li:not(:first-child) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: transform 3100ms ease, opacity 3100ms ease;
+    transform: rotate(180deg) scale(7);
+}
+
+/*SLIDESHOW*/
+.csslider13 > #slide13-0:checked ~ ul > .num0,
+.csslider13 > #slide13-1:checked ~ ul > .num1,
+.csslider13 > #slide13-2:checked ~ ul > .num2,
+.csslider13 > #slide13-3:checked ~ ul > .num3{
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg) scale(1);
+}
+@keyframes rotate13 {
+    0%, 41.14583333333333%, 100%  {
+        opacity: 0;
+        transform: rotate(180deg) scale(7);
+    }
+    16.145833333333332%, 25%  {
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+    }
+    0%, 24.999%  { z-index: 2; }
+    25.001%, 100%  { z-index: 1; }
+}
+.csslider13 > #play13:checked ~ ul > li.num0 {
+    animation: rotate13 19200ms infinite -3100ms;
+}
+.csslider13 > #play13:checked ~ ul > li.num1 {
+    animation: rotate13 19200ms infinite 1700ms;
+}
+.csslider13 > #play13:checked ~ ul > li.num2 {
+    animation: rotate13 19200ms infinite 6500ms;
+}
+.csslider13 > #play13:checked ~ ul > li.num3 {
+    animation: rotate13 19200ms infinite 11300ms;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider13 > .arrowprev,
+.csslider13 > .arrownext {
+    position: absolute;
+    top: 50%;
+}
+.csslider13 > .arrowprev {
+    left: 20px;
+    margin-left: 20px;
+}
+.csslider13 > .arrownext {
+    margin-right: 20px;
+    right: 20px;
+}
+.csslider13 > .arrowprev > label,
+.csslider13 > .arrownext > label {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-color: white;
+    transition: transform .2s ease;
+    transform: rotate(45deg);
+}
+.csslider13 > .arrowprev > label {
+    border-width: 0px 0px 1px 1px;
+}
+.csslider13 > .arrownext > label {
+    border-width: 1px 1px 0px 0px;
+}
+.csslider13 > .arrownext > label:hover,
+.csslider13 > .arrowprev > label:hover {
+    transform: scale(1.1) rotate(45deg);
+}
+
+/*arrows moving*/
+.csslider13 > #slie13-0:checked ~ .arrowprev > .num3,
+.csslider13 > #slie13-0:checked ~ .arrownext > .num1,
+.csslider13 > #slie13-1:checked ~ .arrowprev > .num0,
+.csslider13 > #slie13-1:checked ~ .arrownext > .num2,
+.csslider13 > #slie13-2:checked ~ .arrowprev > .num1,
+.csslider13 > #slie13-2:checked ~ .arrownext > .num3,
+.csslider13 > #slie13-3:checked ~ .arrowprev > .num2,
+.csslider13 > #slie13-3:checked ~ .arrownext > .num0{
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow13 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider13 > #play13:checked ~ .arrowprev > .num3,
+.csslider13 > #play13:checked ~ .arrownext > .num1 {
+    animation: arrow13 19200ms infinite -3100ms;
+}
+.csslider13 > #play13:checked ~ .arrowprev > .num0,
+.csslider13 > #play13:checked ~ .arrownext > .num2 {
+    animation: arrow13 19200ms infinite 1700ms;
+}
+.csslider13 > #play13:checked ~ .arrowprev > .num1,
+.csslider13 > #play13:checked ~ .arrownext > .num3 {
+    animation: arrow13 19200ms infinite 6500ms;
+}
+.csslider13 > #play13:checked ~ .arrowprev > .num2,
+.csslider13 > #play13:checked ~ .arrownext > .num0 {
+    animation: arrow13 19200ms infinite 11300ms;
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider13 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    font-family: Lobster;
+    font-size: 20px;
+    text-align: right;
+    top: 20rem;
+    right: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    transform: translate(-200px, 0);
+    transition: 750ms opacity 930ms ease, 750ms transform 930ms ease;
+}
+.csslider13 > .description > label > span {
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0);
+    transition:
+        750ms opacity 1080ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 1080ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider13 > #slide13-0:checked ~ .description > .num0,
+.csslider13 > #slide13-1:checked ~ .description > .num1,
+.csslider13 > #slide13-2:checked ~ .description > .num2,
+.csslider13 > #slide13-3:checked ~ .description > .num3{
+    opacity: 1;
+    z-index: 4;
+    transform: translate(0, 0);
+}
+.csslider13 > #slide13-0:checked ~ .description > .num0 span,
+.csslider13 > #slide13-1:checked ~ .description > .num1 span,
+.csslider13 > #slide13-2:checked ~ .description > .num2 span,
+.csslider13 > #slide13-3:checked ~ .description > .num3 span{
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes description13 {
+    3.125%, 21.865%  {
+        opacity: 1;
+        z-index: 2;
+        transform: translate(0, 0);
+    }
+    28.125%  {
+        opacity: 0;
+        z-index: 2;
+        transform: translate(-200px, 0);        
+    }
+    28.135%, 100%  { z-index: 0; }
+}
+.csslider13 > #play13:checked ~ .description > .num0{
+    animation: description13 19200ms infinite -2170ms ease;
+}
+.csslider13 > #play13:checked ~ .description > .num1{
+    animation: description13 19200ms infinite 2630ms ease;
+}
+.csslider13 > #play13:checked ~ .description > .num2{
+    animation: description13 19200ms infinite 7430ms ease;
+}
+.csslider13 > #play13:checked ~ .description > .num3{
+    animation: description13 19200ms infinite 12230ms ease;
+}
+@keyframes description13-text {
+    2.1875%, 22.8025% {
+        opacity: 0.7;
+        transform: scale(1.15);
+    }
+    3.125%, 21.865% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    0%, 28.125%  {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+.csslider13 > #play13:checked ~ .description > .num0 > span {
+    animation: description13-text 19200ms infinite -2020ms ease;
+}
+.csslider13 > #play13:checked ~ .description > .num1 > span {
+    animation: description13-text 19200ms infinite 2780ms ease;
+}
+.csslider13 > #play13:checked ~ .description > .num2 > span {
+    animation: description13-text 19200ms infinite 7580ms ease;
+}
+.csslider13 > #play13:checked ~ .description > .num3 > span {
+    animation: description13-text 19200ms infinite 12380ms ease;
+}
