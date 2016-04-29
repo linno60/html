@@ -16,6 +16,9 @@ label{
 .description label{
     cursor: default;
 }
+figure > img{
+    display: block;
+}
 
 .wrapper {  
     width: 100px;  

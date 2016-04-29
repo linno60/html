@@ -143,6 +143,8 @@
     text-align: right;
     top: 20rem;
     right: 10px;
+    opacity: 0;
+    z-index: 7;
     color: white;
     border: 1px solid white;
     padding: 15px;
@@ -165,10 +167,10 @@
     z-index: 4;
     transform: translate(0, 0);
 }
-.csslider13 > #slide13-0:checked ~ .description > .num0 span,
-.csslider13 > #slide13-1:checked ~ .description > .num1 span,
-.csslider13 > #slide13-2:checked ~ .description > .num2 span,
-.csslider13 > #slide13-3:checked ~ .description > .num3 span{
+.csslider13 > #slide13-0:checked ~ .description > .num0 > span,
+.csslider13 > #slide13-1:checked ~ .description > .num1 > span,
+.csslider13 > #slide13-2:checked ~ .description > .num2 > span,
+.csslider13 > #slide13-3:checked ~ .description > .num3 > span{
     opacity: 1;
     transform: scale(1);
 }
@@ -222,4 +224,74 @@
 }
 .csslider13 > #play13:checked ~ .description > .num3 > span {
     animation: description13-text 19200ms infinite 12380ms ease;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider13 > .bullets {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    z-index: 7;
+}
+.csslider13 > .bullets > label {
+    position: relative;
+    width:40px;
+    height:8px;
+    border: 1px solid white;
+    margin-left:8px;
+    margin-top: 5px;
+}
+.csslider13 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -60px;
+    top: -120px;
+    border: 1px solid white;
+    margin-left: 15px;
+    margin-top: -10px;
+    transition: all 0.3s;    
+}
+.csslider13 > .bullets > label > figure > img{
+    display: block;
+}
+.csslider13 > .bullets > label:hover > figure{
+    visibility: visible;
+    opacity: 1;
+}
+.csslider13 > .bullets > label:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.csslider13 > #slide13-0:checked ~ .bullets > label.num0:after,
+.csslider13 > #slide13-1:checked ~ .bullets > label.num1:after,
+.csslider13 > #slide13-2:checked ~ .bullets > label.num2:after,
+.csslider13 > #slide13-3:checked ~ .bullets > label.num3:after{
+    border-color: white;
+}
+@keyframes bullet13 {
+    0%, 24.99%  { border-color: white; }
+    25%, 100% { border-color: transparent; }
+}
+.csslider13 > #play13:checked ~ .bullets > label.num0:after {
+    animation: bullet13 19200ms infinite -3100ms;
+}
+.csslider13 > #play13:checked ~ .bullets > label.num1:after {
+    animation: bullet13 19200ms infinite 1700ms;
+}
+.csslider13 > #play13:checked ~ .bullets > label.num2:after {
+    animation: bullet13 19200ms infinite 6500ms;
+}
+.csslider13 > #play13:checked ~ .bullets > label.num3:after {
+    animation: bullet13 19200ms infinite 11300ms;
 }

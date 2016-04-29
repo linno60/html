@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="/css/styles11.css">
         <link rel="stylesheet" href="/css/styles12.css">
         <link rel="stylesheet" href="/css/styles13.css">
+        <link rel="stylesheet" href="/css/styles14.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -32,6 +33,41 @@
         </script>
     </head>
     <body> 
+        <div>
+            <h2 class="h2">Slider #14</h2>
+            <div class='csslider14 lwrap'>
+                <input name="anchor14" id='slide14-0' type="radio">
+                <input name="anchor14" id='slide14-1' type="radio">
+                <input name="anchor14" id='slide14-2' type="radio">
+                <input name="anchor14" id='play14' type="radio" checked>
+                <ul>
+                    <li><img src="/images/arch.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/arch.jpg' width="830" height="360" alt='Arch' title='Arch'></li>
+                    <li class='num1'><img src='/images/brycecanyon.jpg' width="830" height="360" alt='Bryce Canyon' title='Bryce Canyon'></li>
+                    <li class='num2'><img src='/images/lakepowell.jpg' width="830" height="360" alt='Lake Powell' title='Lake Powell'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'><span>Arch</span></label>
+                    <label class='num1'><span>Bryce Canyon</span></label>
+                    <label class='num2'><span>Lake Powell</span></label>
+                </div>
+                <div class='arrowprev' data-childs="-center center">
+                    <label class='num0' for='slide14-0'></label>
+                    <label class='num1' for='slide14-1'></label>
+                    <label class='num2' for='slide14-2'></label>
+                </div>
+                <div class='arrownext' data-childs="-center center">
+                    <label class='num0' for='slide14-0'></label>
+                    <label class='num1' for='slide14-1'></label>
+                    <label class='num2' for='slide14-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide14-0'><figure><img src='/images/archsm.jpg' width="110" height="48" alt='Arch' title='Arch'></figure></label>
+                    <label class='num1' for='slide14-1'><figure><img src='/images/brycecanyonsm.jpg' width="110" height="48" alt='Bryce Canyon' title='Bryce Canyon'></figure></label>
+                    <label class='num2' for='slide14-2'><figure><img src='/images/lakepowellsm.jpg'  width="110" height="48" alt='Lake Powell' title='Lake Powell'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #13</h2>
             <div class='csslider13 lwrap'>
