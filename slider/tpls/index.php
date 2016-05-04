@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="/css/styles12.css">
         <link rel="stylesheet" href="/css/styles13.css">
         <link rel="stylesheet" href="/css/styles14.css">
+        <link rel="stylesheet" href="/css/styles15.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -33,6 +34,50 @@
         </script>
     </head>
     <body> 
+        <div>
+            <h2 class="h2">Slider #15</h2>
+            <div class='csslider15 lwrap'>
+                <input name="anchor15" id='slide15-0' type="radio">
+                <input name="anchor15" id='slide15-1' type="radio">
+                <input name="anchor15" id='slide15-2' type="radio">
+                <input name="anchor15" id='play15' type="radio" checked>
+                <input name="anchor15" id='pause15-0' type="radio">
+                <input name="anchor15" id='pause15-1' type="radio">
+                <input name="anchor15" id='pause15-2' type="radio">
+                <ul>
+                    <li><img src="/images/dashboard1.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/dashboard1.jpg' width="830" height="360" alt='old veteran car dashboard' title='old veteran car dashboard'></li>
+                    <li class='num1'><img src='/images/dashboard1.jpg' width="830" height="360" alt='retro dashboard in veteran car' title='retro dashboard in veteran car'></li>
+                    <li class='num2'><img src='/images/dashboard1.jpg' width="830" height="360" alt='oldtimer car steering wheel' title='oldtimer car steering wheel'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'><big><span>old veteran car dashboard</span></big></label>
+                    <label class='num1'><big><span>retro dashboard in veteran car</span></big></label>
+                    <label class='num2'><big><span>oldtimer car steering wheel</span></big></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play15'></label>
+                    <label class='pause num0' for='pause15-0'></label>
+                    <label class='pause num1' for='pause15-1'></label>
+                    <label class='pause num2' for='pause15-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide15-0'></label>
+                    <label class='num1' for='slide15-1'></label>
+                    <label class='num2' for='slide15-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide15-0'></label>
+                    <label class='num1' for='slide15-1'></label>
+                    <label class='num2' for='slide15-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide15-0'><figure><img src='/images/dashboard1.jpg' width="110" height="48" alt='old veteran car dashboard' title='old veteran car dashboard'></figure></label>
+                    <label class='num1' for='slide15-1'><figure><img src='/images/dashboard1.jpg' width="110" height="48" alt='retro dashboard in veteran car' title='retro dashboard in veteran car'></figure></label>
+                    <label class='num2' for='slide15-2'><figure><img src='/images/dashboard1.jpg' width="110" height="48" alt='oldtimer car steering wheel' title='oldtimer car steering wheel'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #14</h2>
             <div class='csslider14 lwrap'>

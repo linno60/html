@@ -1,0 +1,203 @@
+/*------- SLIDER #15 -------*/
+
+/*COMMON*/
+.csslider15 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+}
+.csslider15 > input[type=radio] {
+    display: none;
+}
+.csslider15 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider15 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider15 > ul > li:not(:first-child) {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: opacity 1900ms ease, transform 23100ms cubic-bezier(0.840, 0.970, 0.855, 1.000);
+}
+
+/*SLIDESHOW*/
+.csslider15 > ul > .num0 {
+    transform-origin: 100% 0;
+}
+.csslider15 > ul > .num1 {
+    transform-origin: 0 0;
+}
+.csslider15 > ul > .num2 {
+    transform-origin: 100% 100%;
+}
+.csslider15 > #slide15-0:checked ~ ul > .num0,
+.csslider15 > #pause15-0:checked ~ ul > .num0,
+.csslider15 > #slide15-1:checked ~ ul > .num1,
+.csslider15 > #pause15-1:checked ~ ul > .num1,
+.csslider15 > #slide15-2:checked ~ ul > .num2,
+.csslider15 > #pause15-2:checked ~ ul > .num2 {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+}
+@keyframes kenburns15 {
+    0.001%, 33.33233333333334%  { z-index: 2; }
+    0%, 100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    8.225108225108226%, 33.333333333333336% { opacity: 1 }
+    41.55844155844156%, 66.66666666666666% {
+        opacity: 0;
+        transform: scale(1.3);
+    }
+    33.33433333333333%, 100%  { z-index: 1; }
+}
+.csslider15 > #play15:checked ~ ul > .num0 {
+    animation: kenburns15 23100ms infinite -1900ms linear;
+}
+.csslider15 > #play15:checked ~ ul > .num1 {
+    animation: kenburns15 23100ms infinite 5800ms linear;
+}
+.csslider15 > #play15:checked ~ ul > .num2 {
+    animation: kenburns15 23100ms infinite 13500ms linear;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider15 > .arrowprev,
+.csslider15 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider15 > .arrowprev {
+    left: 35px;
+}
+.csslider15 > .arrownext {
+    right: 35px;
+}
+.csslider15 > .arrowprev > label,
+.csslider15 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    margin-top: -25px; 
+    margin-left: -25px; 
+    width: 50px;
+    height: 50px;
+    box-shadow: inset 0 0 0 2px #cdbdb6;
+    border-radius: 50%;
+    transition: background .25s ease-in-out;
+}
+.csslider15 > .arrowprev > label{
+    background: #cdbdb6 url(/images/icons/prev15.png) no-repeat center center;
+}
+.csslider15 > .arrownext > label {
+    background: #cdbdb6 url(/images/icons/next15.png) no-repeat center center;
+}
+.csslider15 > .arrowprev:hover > label{
+    background: url(/images/icons/prev15.png) no-repeat center center;
+}
+.csslider15 > .arrownext:hover > label {
+    background: url(/images/icons/next15.png) no-repeat center center;
+}
+
+/*arrows moving*/
+.csslider15 > #slide15-0:checked ~ .arrowprev > .num2,
+.csslider15 > #pause15-0:checked ~ .arrowprev > .num2,
+.csslider15 > #slide15-0:checked ~ .arrownext > .num1,
+.csslider15 > #pause15-0:checked ~ .arrownext > .num1, 
+.csslider15 > #slide15-1:checked ~ .arrowprev > .num0,
+.csslider15 > #pause15-1:checked ~ .arrowprev > .num0,
+.csslider15 > #slide15-1:checked ~ .arrownext > .num2,
+.csslider15 > #pause15-1:checked ~ .arrownext > .num2, 
+.csslider15 > #slide15-2:checked ~ .arrowprev > .num1,
+.csslider15 > #pause15-2:checked ~ .arrowprev > .num1,
+.csslider15 > #slide15-2:checked ~ .arrownext > .num0,
+.csslider15 > #pause15-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow15 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider15 > #play15:checked ~ .arrowprev > .num2,
+.csslider15 > #play15:checked ~ .arrownext > .num1 {
+    animation: arrow15 23100ms infinite -1900ms;
+}
+.csslider15 > #play15:checked ~ .arrowprev > .num0,
+.csslider15 > #play15:checked ~ .arrownext > .num2 {
+    animation: arrow15 23100ms infinite 5800ms;
+}
+.csslider15 > #play15:checked ~ .arrowprev > .num1,
+.csslider15 > #play15:checked ~ .arrownext > .num0 {
+    animation: arrow15 23100ms infinite 13500ms;
+}
+
+/*PLAY-PAUSE*/
+.csslider15 > .play-pause {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+}
+.csslider15 > .play-pause > label {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: -29px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #cdbdb6;   
+    transition: background .25s ease-in-out;
+}
+.csslider15 > .play-pause:hover > .play {
+    background: transparent url(/images/icons/play15.png) no-repeat center center;
+}
+.csslider15 > .play-pause:hover > .pause {
+    background: transparent url(/images/icons/pause15.png) no-repeat center center;
+}
+.csslider15 > .play-pause > .play {
+    background: #cdbdb6 url(/images/icons/play15.png) no-repeat center center;
+}
+.csslider15 > .play-pause > .pause {
+    background: #cdbdb6 url(/images/icons/pause15.png) no-repeat center center;
+}
+.csslider15 > #play15:checked ~ .play-pause > .pause,
+.csslider15 > input:checked ~ .play-pause > .play {
+    display: block;
+    z-index: 5;
+}
+.csslider15 > #play15:checked ~ .play-pause > .play,
+.csslider15 > input:checked ~ .play-pause > .pause {
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause15 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider15 > #play15:checked ~ .play-pause > .pause.num0 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause15 23100ms infinite -1900ms;
+}
+.csslider15 > #play15:checked ~ .play-pause > .pause.num1 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause15 23100ms infinite 5800ms;
+}
+.csslider15 > #play15:checked ~ .play-pause > .pause.num2 {
+    opacity: 0;
+    z-index: -1;
+    animation: play-pause15 23100ms infinite 13500ms;
+}
