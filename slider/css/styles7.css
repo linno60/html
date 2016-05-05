@@ -197,6 +197,7 @@
     right: 45rem;
     position: absolute;
     max-width: 50%;
+    z-index: 10;
 }
 .csslider7 > .description > label > * {
     font-family: Gurajada;

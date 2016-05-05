@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="/css/styles13.css">
         <link rel="stylesheet" href="/css/styles14.css">
         <link rel="stylesheet" href="/css/styles15.css">
+        <link rel="stylesheet" href="/css/styles16.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -33,7 +34,51 @@
             }
         </script>
     </head>
-    <body> 
+    <body>
+        <div>
+            <h2 class="h2">Slider #16</h2>
+            <div class='csslider16 lwrap'>
+                <input name="anchor16" id='slide16-0' type="radio">
+                <input name="anchor16" id='slide16-1' type="radio">
+                <input name="anchor16" id='slide16-2' type="radio">
+                <input name="anchor16" id='play16' type="radio" checked>
+                <input name="anchor16" id='pause16-0' type="radio">
+                <input name="anchor16" id='pause16-1' type="radio">
+                <input name="anchor16" id='pause16-2' type="radio">
+                <ul>
+                    <li><img src="/images/cat5.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/cat5.jpg' width="830" height="360" alt='Monty The Cat in the Garden' title='Monty The Cat in the Garden'></li>
+                    <li class='num1'><img src='/images/cat6.jpg' width="830" height="360" alt='White Cat In Her Arms' title='White Cat In Her Arms'></li>
+                    <li class='num2'><img src='/images/cat7.jpg' width="830" height="360" alt='Cute Little Cat at Home' title='Cute Little Cat at Home'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'>Monty The Cat in the Garden</label>
+                    <label class='num1'>White Cat In Her Arms</label>
+                    <label class='num2'>Cute Little Cat at Home</label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play16'></label>
+                    <label class='pause num0' for='pause16-0'></label>
+                    <label class='pause num1' for='pause16-1'></label>
+                    <label class='pause num2' for='pause16-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide16-0'></label>
+                    <label class='num1' for='slide16-1'></label>
+                    <label class='num2' for='slide16-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide16-0'></label>
+                    <label class='num1' for='slide16-1'></label>
+                    <label class='num2' for='slide16-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide16-0'><figure><img src='/images/cat5sm.jpg' width="110" height="48" alt='Monty The Cat in the Garden' title='Monty The Cat in the Garden'></figure></label>
+                    <label class='num1' for='slide16-1'><figure><img src='/images/cat6sm.jpg' width="110" height="48" alt='White Cat In Her Arms' title='White Cat In Her Arms'></figure></label>
+                    <label class='num2' for='slide16-2'><figure><img src='/images/cat7sm.jpg' width="110" height="48" alt='Cute Little Cat at Home' title='Cute Little Cat at Home'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #15</h2>
             <div class='csslider15 lwrap'>
@@ -47,13 +92,13 @@
                 <ul>
                     <li><img src="/images/dashboard1.jpg" width="830" height="360"></li>
                     <li class='num0'><img src='/images/dashboard1.jpg' width="830" height="360" alt='old veteran car dashboard' title='old veteran car dashboard'></li>
-                    <li class='num1'><img src='/images/dashboard1.jpg' width="830" height="360" alt='retro dashboard in veteran car' title='retro dashboard in veteran car'></li>
-                    <li class='num2'><img src='/images/dashboard1.jpg' width="830" height="360" alt='oldtimer car steering wheel' title='oldtimer car steering wheel'></li>
+                    <li class='num1'><img src='/images/dashboard2.jpg' width="830" height="360" alt='retro dashboard in veteran car' title='retro dashboard in veteran car'></li>
+                    <li class='num2'><img src='/images/dashboard2.jpg' width="830" height="360" alt='oldtimer car steering wheel' title='oldtimer car steering wheel'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'><big><span>old veteran car dashboard</span></big></label>
-                    <label class='num1'><big><span>retro dashboard in veteran car</span></big></label>
-                    <label class='num2'><big><span>oldtimer car steering wheel</span></big></label>
+                    <label class='num0'>old veteran car dashboard</label>
+                    <label class='num1'>retro dashboard in veteran car</label>
+                    <label class='num2'>oldtimer car steering wheel</label>
                 </div>
                 <div class='play-pause'>
                     <label class='play' for='play15'></label>
@@ -72,9 +117,9 @@
                     <label class='num2' for='slide15-2'></label>
                 </div>
                 <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide15-0'><figure><img src='/images/dashboard1.jpg' width="110" height="48" alt='old veteran car dashboard' title='old veteran car dashboard'></figure></label>
-                    <label class='num1' for='slide15-1'><figure><img src='/images/dashboard1.jpg' width="110" height="48" alt='retro dashboard in veteran car' title='retro dashboard in veteran car'></figure></label>
-                    <label class='num2' for='slide15-2'><figure><img src='/images/dashboard1.jpg' width="110" height="48" alt='oldtimer car steering wheel' title='oldtimer car steering wheel'></figure></label>
+                    <label class='num0' for='slide15-0'><figure><img src='/images/dashboard1sm.jpg' width="110" height="48" alt='old veteran car dashboard' title='old veteran car dashboard'></figure></label>
+                    <label class='num1' for='slide15-1'><figure><img src='/images/dashboard2sm.jpg' width="110" height="48" alt='retro dashboard in veteran car' title='retro dashboard in veteran car'></figure></label>
+                    <label class='num2' for='slide15-2'><figure><img src='/images/dashboard3sm.jpg' width="110" height="48" alt='oldtimer car steering wheel' title='oldtimer car steering wheel'></figure></label>
                 </div>
             </div>
         </div>

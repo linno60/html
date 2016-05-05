@@ -1,0 +1,134 @@
+/*------- SLIDER #16 -------*/
+
+/*COMMON*/
+.csslider16 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+}
+.csslider16 > input[type=radio] {
+    display: none;
+}
+.csslider16 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider16 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider16 > ul > li:not(:first-child) {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 1900ms ease;
+}
+
+/*SLIDESHOW*/
+.csslider16 > #slide1-0:checked ~ ul > .num0,
+.csslider16 > #pause1-0:checked ~ ul > .num0,
+.csslider16 > #slide1-1:checked ~ ul > .num1,
+.csslider16 > #pause1-1:checked ~ ul > .num1,
+.csslider16 > #slide1-2:checked ~ ul > .num2,
+.csslider16 > #pause1-2:checked ~ ul > .num2 {
+    opacity: 1;
+    z-index: 2;
+}
+@keyframes fade16 {
+    0%, 50.925925925925924%, 100%  { opacity: 0; }
+    17.59259259259259%, 33.333333333333336%  { opacity: 1; }
+    0%, 33.33233333333334%  { z-index: 2; }
+    33.33433333333333%, 100%  { z-index: 1; }
+}
+.csslider16 > #play16:checked ~ ul > .num0 {
+    animation: fade16 10800ms infinite -1900ms;
+}
+.csslider16 > #play16:checked ~ ul > .num1 {
+    animation: fade16 10800ms infinite 1700ms;
+}
+.csslider16 > #play16:checked ~ ul > .num2 {
+    animation: fade16 10800ms infinite 5300ms;
+}
+
+/*btns show*/
+.csslider16 > .cs_play_pause {
+    transition: .4s all 0s ease;
+}
+.csslider16 > .cs_arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider16 > .cs_arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider16 > .cs_arrowprev,
+.csslider16 > .cs_arrownext,
+.csslider16 > .cs_play_pause {
+    opacity: 0;
+    transform: scale(2);
+}
+
+.csslider16:hover > .cs_arrowprev,
+.csslider16:hover > .cs_arrownext,
+.csslider16:hover > .cs_play_pause {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider16 > .description {
+    z-index: 3;
+}
+.csslider16 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    font-family: Raleway;
+    font-size: 23px;
+    z-index: 3;
+    bottom: 40px;
+    left: 27px;
+    margin: 10px;
+    background: rgba(255,255,255,0.9);
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0);
+    transition:
+        500ms opacity 570ms ease,
+        500ms transform 570ms ease;
+    color: #ba91ba;
+    padding: 10px;
+    border-radius: 10px;
+}
+.csslider16 > #slide16-0:checked ~ .description > .num0,
+.csslider16 > #pause16-0:checked ~ .description > .num0,
+.csslider16 > #slide16-1:checked ~ .description > .num1,
+.csslider16 > #pause16-1:checked ~ .description > .num1,
+.csslider16 > #slide16-2:checked ~ .description > .num2,
+.csslider16 > #pause16-2:checked ~ .description > .num2 {
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes cs_title {
+    4.62962962962963%, 33.333333333333336%  {
+        opacity: 1;
+        z-index: 2;
+        transform: scale(1);
+    }
+    37.96296296296296%  {
+        opacity: 0;
+        z-index: 2;
+        transform: scale(0);
+    }
+    37.97296296296296%, 100%  { z-index: 0; }
+}
+.csslider16 > #play16:checked ~ .description > .num0{
+    animation: cs_title 10800ms infinite -1330ms ease;
+}
+.csslider16 > #play16:checked ~ .description > .num1{
+    animation: cs_title 10800ms infinite 2270ms ease;
+}
+.csslider16 > #play16:checked ~ .description > .num2{
+    animation: cs_title 10800ms infinite 5870ms ease;
+}

@@ -286,6 +286,8 @@
     padding: 15rem;
     opacity: 0;
     border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
 }
 .csslider8 > .description > label > big{
     font-size: 17px;

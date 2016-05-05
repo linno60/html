@@ -69,6 +69,29 @@
     animation: kenburns15 23100ms infinite 13500ms linear;
 }
 
+/*show btns*/
+.csslider15 > .play-pause {
+    transition: .4s all 0s ease;
+}
+.csslider15 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider15 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider15 > .arrowprev,
+.csslider15 > .arrownext,
+.csslider15 > .play-pause {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.csslider15:hover > .arrowprev,
+.csslider15:hover > .arrownext,
+.csslider15:hover > .play-pause {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /*ARROWS*/
 
 /*arrows template*/
@@ -186,18 +209,139 @@
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
 }
-.csslider15 > #play15:checked ~ .play-pause > .pause.num0 {
+.csslider15 > #play15:checked ~ .play-pause > .pause{
     opacity: 0;
     z-index: -1;
+}
+.csslider15 > #play15:checked ~ .play-pause > .pause.num0 {
     animation: play-pause15 23100ms infinite -1900ms;
 }
 .csslider15 > #play15:checked ~ .play-pause > .pause.num1 {
-    opacity: 0;
-    z-index: -1;
     animation: play-pause15 23100ms infinite 5800ms;
 }
 .csslider15 > #play15:checked ~ .play-pause > .pause.num2 {
-    opacity: 0;
-    z-index: -1;
     animation: play-pause15 23100ms infinite 13500ms;
+}
+
+/*DESCRIPTION*/
+
+/*desccription template*/
+.csslider15 > .description > label {
+    position: absolute;
+    font-family: Lobster;
+    font-size: 20px;
+    left: 10px;
+    bottom: 45px;
+    padding: 10rem;
+    border-radius: 12px;
+    background: #cdbdb6;
+    color: white;
+    text-transform: uppercase;
+}
+/*description moving*/
+.csslider15 > input:checked ~ .description > label {
+    opacity: 0;
+    transform: translateY(-30px);  
+}
+.csslider15 > #slide15-0:checked ~ .description > .num0,
+.csslider15 > #pause15-0:checked ~ .description > .num0,
+.csslider15 > #slide15-1:checked ~ .description > .num1,
+.csslider15 > #pause15-1:checked ~ .description > .num1,
+.csslider15 > #slide15-2:checked ~ .description > .num2,
+.csslider15 > #pause15-2:checked ~ .description > .num2 {
+    opacity: 1;
+    z-index: 4;
+    transition: .5s opacity .2s ease, .5s transform .2s ease;
+    transform: translateY(0);
+}
+@keyframes description15 {
+    2.1645021645021645%, 27.046277056277056%  {
+        opacity: 1;
+        z-index: 4;
+        transform: translateY(0);
+    }
+    0%, 29.22077922077922%, 100%  {
+        opacity: 0;
+        z-index: 0;
+        transform: translateY(-30px);   
+    }
+}
+.csslider15 > #play15:checked ~ .description > .num0 {
+    animation: description15 23100ms infinite 0ms;
+}
+.csslider15 > #play15:checked ~ .description > .num1 {
+    animation: description15 23100ms infinite 7700ms;
+}
+.csslider15 > #play15:checked ~ .description > .num2 {
+    animation: description15 23100ms infinite 15400ms;
+}
+
+/*BULLETS*/
+.csslider15 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 5px;
+}
+.csslider15 > .bullets > label {
+    position: relative;
+    margin: 4px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #cdbdb6;
+    background: #cdbdb6;
+    transition: background .25s ease-in-out;
+}
+.csslider15 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -51px;
+    top: -59px;
+    opacity: 0;
+    transition: all 0.5s;
+    border: 2px solid #cdbdb6;
+}
+.csslider15 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 48px;
+    margin-left: -5px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #cdbdb6;
+}
+.csslider15 > .bullets > label:hover > figure {
+    visibility: visible;
+    opacity: 1;
+}
+.csslider15 > .bullets > label:hover,
+.csslider15 > #slide15-0:checked ~ .bullets > .num0,
+.csslider15 > #pause15-0:checked ~ .bullets > .num0,
+.csslider15 > #slide15-1:checked ~ .bullets > .num1,
+.csslider15 > #pause15-1:checked ~ .bullets > .num1,
+.csslider15 > #slide15-2:checked ~ .bullets > .num2,
+.csslider15 > #pause15-2:checked ~ .bullets > .num2 {
+    background: transparent;
+}
+@keyframes bullet15 {
+    0%, 33.32333333333334%  { background: transparent; }
+    33.333333333333336%, 100% { background: #cdbdb6; }
+}
+.csslider15 > #play15:checked ~ .bullets > .num0 {
+    animation: bullet15 23100ms infinite -1900ms;
+}
+.csslider15 > #play15:checked ~ .bullets > .num1 {
+    animation: bullet15 23100ms infinite 5800ms;
+}
+.csslider15 > #play15:checked ~ .bullets > .num2 {
+    animation: bullet15 23100ms infinite 13500ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider15 > .description, .csslider15 > .bullets {display: none;}
 }
