@@ -1,0 +1,224 @@
+/*------- SLIDER #17 -------*/
+
+/*COMMON*/
+.csslider17 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+}
+.csslider17 > input[type=radio] {
+    display: none;
+}
+.csslider17 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider17 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider17 > ul > li:not(:first-child) {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 1900ms ease;
+}
+
+/*SLIDESHOW*/
+.csslider17 > #slide17-0:checked ~ ul > .num0,
+.csslider17 > #pause17-0:checked ~ ul > .num0,
+.csslider17 > #slide17-1:checked ~ ul > .num1,
+.csslider17 > #pause17-1:checked ~ ul > .num1,
+.csslider17 > #slide17-2:checked ~ ul > .num2,
+.csslider17 > #pause17-2:checked ~ ul > .num2 {
+    opacity: 1;
+    z-index: 2;
+}
+@keyframes fade17 {
+    0%, 50.925925925925924%, 100%  { opacity: 0; }
+    17.59259259259259%, 33.333333333333336%  { opacity: 1; }
+    0%, 33.33233333333334%  { z-index: 2; }
+    33.33433333333333%, 100%  { z-index: 1; }
+}
+.csslider17 > #play17:checked ~ ul > .num0 {
+    animation: fade17 10800ms infinite -1900ms;
+}
+.csslider17 > #play17:checked ~ ul > .num1 {
+    animation: fade17 10800ms infinite 1700ms;
+}
+.csslider17 > #play17:checked ~ ul > .num2 {
+    animation: fade17 10800ms infinite 5300ms;
+}
+
+/*btns show*/
+.csslider17 {
+    perspective: 500px;
+}
+.csslider17 > .play-pause {
+    transition: .5s opacity 0s ease;
+}
+.csslider17 > .arrowprev {
+    transition: .5s opacity .15s ease, .5s transform .15s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateY(-90deg);
+}
+.csslider17 > .arrownext {
+    transition: .5s opacity .3s ease, .5s transform .3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateY(90deg);
+}
+.csslider17 > .arrowprev,
+.csslider17 > .arrownext,
+.csslider17 > .play-pause {
+    opacity: 0;
+}
+.csslider17:hover > .arrowprev,
+.csslider17:hover > .arrownext,
+.csslider17:hover > .play-pause {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider17 > .arrowprev,
+.csslider17 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider17 > .arrowprev {
+    left: 70px;
+}
+.csslider17 > .arrownext {
+    right: 70px;
+}
+.csslider17 > .arrowprev > label,
+.csslider17 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    margin-top: -35px;
+    width: 40px;
+    height: 70px;
+    border-radius: 4px;
+    transition: 300ms width ease, 300ms margin-left ease, 300ms background ease;
+}
+.csslider17 > .arrowprev > label {
+    right: 0;
+    background: rgba(0,0,0,.6) url(/images/icons/prev17.png)no-repeat center center;
+}
+.csslider17 > .arrownext > label {
+    left: 0;
+    background: rgba(0,0,0,.6) url(/images/icons/next17.png)no-repeat center center;
+}
+.csslider17 > .arrowprev:hover > label {
+    background: #289dcc url(/images/icons/prev17.png)no-repeat center center;
+    width: 70px;
+}
+.csslider17 > .arrownext:hover > label {
+    background: #289dcc url(/images/icons/next17.png)no-repeat center center;
+    width: 70px;
+}
+
+/*arrows moving*/
+.csslider17 > input:checked ~ .arrowprev > label,
+.csslider17 > input:checked ~ .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider17 > #slide17-0:checked ~ .arrowprev > .num2,
+.csslider17 > #pause17-0:checked ~ .arrowprev > .num2,
+.csslider17 > #slide17-0:checked ~ .arrownext > .num1,
+.csslider17 > #pause17-0:checked ~ .arrownext > .num1, 
+.csslider17 > #slide17-1:checked ~ .arrowprev > .num0,
+.csslider17 > #pause17-1:checked ~ .arrowprev > .num0,
+.csslider17 > #slide17-1:checked ~ .arrownext > .num2,
+.csslider17 > #pause17-1:checked ~ .arrownext > .num2, 
+.csslider17 > #slide17-2:checked ~ .arrowprev > .num1,
+.csslider17 > #pause17-2:checked ~ .arrowprev > .num1,
+.csslider17 > #slide17-2:checked ~ .arrownext > .num0,
+.csslider17 > #pause17-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow17 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider17 > #play17:checked ~ .arrowprev > .num2,
+.csslider17 > #play17:checked ~ .arrownext > .num1 {
+    animation: arrow17 10800ms infinite -1900ms;
+}
+.csslider17 > #play17:checked ~ .arrowprev > .num0,
+.csslider17 > #play17:checked ~ .arrownext > .num2 {
+    animation: arrow17 10800ms infinite 1700ms;
+}
+.csslider17 > #play17:checked ~ .arrowprev > .num1,
+.csslider17 > #play17:checked ~ .arrownext > .num0 {
+    animation: arrow17 10800ms infinite 5300ms;
+}
+
+/*PLAY-PAUSE*/
+
+/*play-pause template*/
+.csslider17 > .play-pause {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+}
+.csslider17 > .play-pause > label {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -35px; 
+    width: 40px;
+    height: 70px;    
+    border-radius: 4px;
+    transition: 300ms width ease, 300ms margin-left ease, 300ms background ease;
+}
+.csslider17 > .play-pause > .play{
+    background: rgba(0,0,0,0.6) url(/images/icons/play17.png)no-repeat center center;
+}
+.csslider17 > .play-pause > .pause{
+    background: rgba(0,0,0,0.6) url(/images/icons/pause17.png)no-repeat center center;
+}
+.csslider17 > .play-pause:hover > .play {
+    background: #289dcc url(/images/icons/play17.png)no-repeat center center;
+}
+.csslider17 > .play-pause:hover > .pause {
+    background: #289dcc url(/images/icons/pause17.png)no-repeat center center;
+}
+.csslider17 > .play-pause:hover > label {
+    width: 70px;
+    margin-left: -35px;
+}
+
+/*arrows moving*/
+.csslider17 > #play17:checked ~ .play-pause > .pause,
+.csslider17 > input:checked ~ .play-pause > .play {
+    display: block;
+    z-index: 5;
+}
+.csslider17 > #play17:checked ~ .play-pause > .play,
+.csslider17 > input:checked ~ .play-pause > .pause {
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause17 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider17 > #play17:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider17 > #play17:checked ~ .play-pause > .num0 {
+    animation: play-pause17 10800ms infinite -1900ms;
+}
+.csslider17 > #play17:checked ~ .play-pause > .num1 {
+    animation: play-pause17 10800ms infinite 1700ms;
+}
+.csslider17 > #play17:checked ~ .play-pause > .num2 {
+    animation: play-pause17 10800ms infinite 5300ms;
+}

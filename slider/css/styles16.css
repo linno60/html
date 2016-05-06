@@ -26,12 +26,12 @@
 }
 
 /*SLIDESHOW*/
-.csslider16 > #slide1-0:checked ~ ul > .num0,
-.csslider16 > #pause1-0:checked ~ ul > .num0,
-.csslider16 > #slide1-1:checked ~ ul > .num1,
-.csslider16 > #pause1-1:checked ~ ul > .num1,
-.csslider16 > #slide1-2:checked ~ ul > .num2,
-.csslider16 > #pause1-2:checked ~ ul > .num2 {
+.csslider16 > #slide16-0:checked ~ ul > .num0,
+.csslider16 > #pause16-0:checked ~ ul > .num0,
+.csslider16 > #slide16-1:checked ~ ul > .num1,
+.csslider16 > #pause16-1:checked ~ ul > .num1,
+.csslider16 > #slide16-2:checked ~ ul > .num2,
+.csslider16 > #pause16-2:checked ~ ul > .num2 {
     opacity: 1;
     z-index: 2;
 }
@@ -52,27 +52,31 @@
 }
 
 /*btns show*/
-.csslider16 > .cs_play_pause {
+.csslider16 > .play-pause {
     transition: .4s all 0s ease;
 }
-.csslider16 > .cs_arrowprev {
+.csslider16 > .arrowprev {
     transition: .4s all .15s ease;
 }
-.csslider16 > .cs_arrownext {
+.csslider16 > .arrownext {
     transition: .4s all .3s ease;
 }
-.csslider16 > .cs_arrowprev,
-.csslider16 > .cs_arrownext,
-.csslider16 > .cs_play_pause {
+.csslider16 > .arrowprev,
+.csslider16 > .arrownext,
+.csslider16 > .play-pause {
     opacity: 0;
     transform: scale(2);
 }
-
-.csslider16:hover > .cs_arrowprev,
-.csslider16:hover > .cs_arrownext,
-.csslider16:hover > .cs_play_pause {
-    opacity: 1;
+.csslider16:hover > .arrowprev,
+.csslider16:hover > .arrownext,
+.csslider16:hover > .play-pause {
+    opacity: 0.6;
     transform: scale(1);
+}
+.csslider16:hover > .arrowprev:hover,
+.csslider16:hover > .arrownext:hover,
+.csslider16:hover > .play-pause:hover {
+    opacity: 1;
 }
 
 /*DESCRIPTION*/
@@ -83,23 +87,20 @@
 }
 .csslider16 > .description > label {
     position: absolute;
-    max-width: 50%;
     font-family: Raleway;
     font-size: 23px;
     z-index: 3;
     bottom: 40px;
-    left: 27px;
-    margin: 10px;
+    left: 27rem;
     background: rgba(255,255,255,0.9);
     opacity: 0;
-    z-index: 2;
     transform: scale(0);
     transition:
         500ms opacity 570ms ease,
         500ms transform 570ms ease;
     color: #ba91ba;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10rem;
 }
 .csslider16 > #slide16-0:checked ~ .description > .num0,
 .csslider16 > #pause16-0:checked ~ .description > .num0,
@@ -110,7 +111,7 @@
     opacity: 1;
     transform: scale(1);
 }
-@keyframes cs_title {
+@keyframes description16 {
     4.62962962962963%, 33.333333333333336%  {
         opacity: 1;
         z-index: 2;
@@ -124,11 +125,209 @@
     37.97296296296296%, 100%  { z-index: 0; }
 }
 .csslider16 > #play16:checked ~ .description > .num0{
-    animation: cs_title 10800ms infinite -1330ms ease;
+    animation: description16 10800ms infinite -1330ms ease;
 }
 .csslider16 > #play16:checked ~ .description > .num1{
-    animation: cs_title 10800ms infinite 2270ms ease;
+    animation: description16 10800ms infinite 2270ms ease;
 }
 .csslider16 > #play16:checked ~ .description > .num2{
-    animation: cs_title 10800ms infinite 5870ms ease;
+    animation: description16 10800ms infinite 5870ms ease;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider16 > .arrowprev,
+.csslider16 > .arrownext,
+.csslider16 > .play-pause{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider16 > .arrowprev  {
+    left: 47px;
+}
+.csslider16 > .arrownext {
+    right: 47px;
+}
+.csslider16 > .arrowprev > label,
+.csslider16 > .arrownext > label,
+.csslider16 > .play-pause > label{
+    position: absolute;
+    height: 47px;
+    width: 47px;
+    margin-top: -23.5px;
+    margin-left: -23.5px;
+    opacity: 0.6;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 4px white;
+    transition: background 0.4s, box-shadow 0.4s;
+}
+.csslider16 > .arrowprev > label{
+    background: url(/images/icons/prev8.png)no-repeat center center;
+}
+.csslider16 > .arrownext > label{
+    background: url(/images/icons/next8.png)no-repeat center center;
+}
+.csslider16 > .arrowprev:hover > label{
+    background: #ba91ba url(/images/icons/prev8.png)no-repeat center center;
+}
+.csslider16 > .arrownext:hover > label{
+    background: #ba91ba url(/images/icons/next8.png)no-repeat center center;
+}
+.csslider16 > .arrowprev:hover > label,
+.csslider16 > .arrownext:hover > label,
+.csslider16 > .play-pause:hover > label {    
+    opacity: 1;
+    box-shadow: inset 0 0 0 4px transparent;
+}
+
+/*arrows moving*/
+.csslider16 > #slide16-0:checked ~ .arrowprev > .num2,
+.csslider16 > #pause16-0:checked ~ .arrowprev > .num2,
+.csslider16 > #slide16-0:checked ~ .arrownext > .num1,
+.csslider16 > #pause16-0:checked ~ .arrownext > .num1, 
+.csslider16 > #slide16-1:checked ~ .arrowprev > .num0,
+.csslider16 > #pause16-1:checked ~ .arrowprev > .num0,
+.csslider16 > #slide16-1:checked ~ .arrownext > .num2,
+.csslider16 > #pause16-1:checked ~ .arrownext > .num2, 
+.csslider16 > #slide16-2:checked ~ .arrowprev > .num1,
+.csslider16 > #pause16-2:checked ~ .arrowprev > .num1,
+.csslider16 > #slide16-2:checked ~ .arrownext > .num0,
+.csslider16 > #pause16-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow16 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider16 > #play16:checked ~ .arrowprev > .num2,
+.csslider16 > #play16:checked ~ .arrownext > .num1 {
+    animation: arrow16 10800ms infinite -1900ms;
+}
+.csslider16 > #play16:checked ~ .arrowprev > .num0,
+.csslider16 > #play16:checked ~ .arrownext > .num2 {
+    animation: arrow16 10800ms infinite 1700ms;
+}
+.csslider16 > #play16:checked ~ .arrowprev > .num1,
+.csslider16 > #play16:checked ~ .arrownext > .num0 {
+    animation: arrow16 10800ms infinite 5300ms;
+}
+
+/*PLAY-PAUSE*/
+
+/*play-pause template*/
+.csslider16 > .play-pause {
+    left: 50%;
+}
+.csslider16 > .play-pause > .play{
+    background: url(/images/icons/play16.png)no-repeat center center;
+}
+.csslider16 > .play-pause > .pause{
+    background: url(/images/icons/pause16.png)no-repeat center center;
+}
+.csslider16 > .play-pause:hover > .play{
+    background: #ba91ba url(/images/icons/play16.png)no-repeat center center;
+}
+.csslider16 > .play-pause:hover > .pause{
+    background: #ba91ba url(/images/icons/pause16.png)no-repeat center center;
+}
+
+/*play-pause moving*/
+.csslider16 > #play16:checked ~ .play-pause > .pause,
+.csslider16 > input:checked ~ .play-pause > .play {
+    display: block;
+    z-index: 5;
+}
+.csslider16 > #play16:checked ~ .play-pause > .play,
+.csslider16 > input:checked ~ .play-pause > .pause {
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause16 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider16 > #play16:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider16 > #play16:checked ~ .play-pause > .pause.num0 {
+    animation: play-pause16 10800ms infinite -1900ms;
+}
+.csslider16 > #play16:checked ~ .play-pause > .pause.num1 {
+    animation: play-pause16 10800ms infinite 1700ms;
+}
+.csslider16 > #play16:checked ~ .play-pause > .pause.num2 {
+    animation: play-pause16 10800ms infinite 5300ms;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider16 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 4px;
+}
+.csslider16 > .bullets > label {
+    position: relative;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 0 0 2px transparent; 
+    transition: box-shadow .4s, background .4s;
+}
+.csslider16 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -55px;
+    top: -59px;
+    border: 4px solid rgba(255,255,255,.6);
+    border-radius: 10px;
+    transform: scale(2) translateY(-20px);
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.csslider16 > .bullets > label:hover figure {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.csslider16 > .bullets > label figure:hover {
+    border: 4px solid white;
+}
+
+/*bullets moving*/
+.csslider16 > #slide16-0:checked ~ .bullets > .num0,
+.csslider16 > #pause16-0:checked ~ .bullets > .num0,
+.csslider16 > #slide16-1:checked ~ .bullets > .num1,
+.csslider16 > #pause16-1:checked ~ .bullets > .num1,
+.csslider16 > #slide16-2:checked ~ .bullets > .num2,
+.csslider16 > #pause16-2:checked ~ .bullets > .num2 {
+    background: transparent;
+    box-shadow: 0 0 0 2px white; 
+}
+@keyframes bullet16 {
+    0%, 33.32333333333334%  { box-shadow: 0 0 0 2px white; background: transparent;}
+    33.333333333333336%, 100% { box-shadow: 0 0 0 2px transparent; background: rgba(255,255,255,.6);}
+}
+.csslider16 > #play16:checked ~ .bullets > .num0 {
+    animation: bullet16 10800ms infinite -1900ms;
+}
+.csslider16 > #play16:checked ~ .bullets > .num1 {
+    animation: bullet16 10800ms infinite 1700ms;
+}
+.csslider16 > #play16:checked ~ .bullets > .num2 {
+    animation: bullet16 10800ms infinite 5300ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider16 > .description, .csslider16 > .bullets {display: none;}
 }

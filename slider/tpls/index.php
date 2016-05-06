@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="/css/styles14.css">
         <link rel="stylesheet" href="/css/styles15.css">
         <link rel="stylesheet" href="/css/styles16.css">
+        <link rel="stylesheet" href="/css/styles17.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -35,6 +36,50 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #17</h2>
+            <div class='csslider17 lwrap'>
+                <input name="anchor17" id='slide17-0' type="radio">
+                <input name="anchor17" id='slide17-1' type="radio">
+                <input name="anchor17" id='slide17-2' type="radio">
+                <input name="anchor17" id='play17' type="radio" checked>
+                <input name="anchor17" id='pause17-0' type="radio">
+                <input name="anchor17" id='pause17-1' type="radio">
+                <input name="anchor17" id='pause17-2' type="radio">
+                <ul>
+                    <li><img src="/images/cableway1.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/cableway1.jpg' width="830" height="360" alt='Cableway' title='Cableway'></li>
+                    <li class='num1'><img src='/images/cableway2.jpg' width="830" height="360" alt='Cableway' title='Cableway'></li>
+                    <li class='num2'><img src='/images/cableway3.jpg' width="830" height="360" alt='Cableway' title='Cableway'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'><big><span>Cableway</span></big><small><span>Blue Sky & White Snow</span></small></label>
+                    <label class='num1'><big><span>Cableway</span></big><small><span>Ski Resort in Austria</span></small></label>
+                    <label class='num2'><big><span>Cableway</span></big><small><span>The Eindpoint of Cableway</span></small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play17'></label>
+                    <label class='pause num0' for='pause17-0'></label>
+                    <label class='pause num1' for='pause17-1'></label>
+                    <label class='pause num2' for='pause17-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide17-0'></label>
+                    <label class='num1' for='slide17-1'></label>
+                    <label class='num2' for='slide17-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide17-0'><span></span></label>
+                    <label class='num1' for='slide17-1'><span></span></label>
+                    <label class='num2' for='slide17-2'><span></span></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide17-0'><figure><img src='/images/cableway1sm.jpg' width="110" height="48" alt='Cableway' title='Cableway'></figure></label>
+                    <label class='num1' for='slide17-1'><figure><img src='/images/cableway2sm.jpg' width="110" height="48" alt='Cableway' title='Cableway'></figure></label>
+                    <label class='num2' for='slide17-2'><figure><img src='/images/cableway3sm.jpg' width="110" height="48" alt='Cableway' title='Cableway'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #16</h2>
             <div class='csslider16 lwrap'>
