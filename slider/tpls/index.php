@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="/css/styles15.css">
         <link rel="stylesheet" href="/css/styles16.css">
         <link rel="stylesheet" href="/css/styles17.css">
+        <link rel="stylesheet" href="/css/styles18.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -36,6 +37,58 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #18</h2>
+            <div class='csslider18 lwrap'>
+                <input name="anchor18" id='slide18-0' type="radio">
+                <input name="anchor18" id='slide18-1' type="radio">
+                <input name="anchor18" id='slide18-2' type="radio">
+                <input name="anchor18" id='slide18-3' type="radio">
+                <input name="anchor18" id='play18' type="radio" checked>
+                <input name="anchor18" id='pause18-0' type="radio">
+                <input name="anchor18" id='pause18-1' type="radio">
+                <input name="anchor18" id='pause18-2' type="radio">
+                <input name="anchor18" id='pause18-3' type="radio">
+                <ul>
+                    <li><img src="/images/road1.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/road1.jpg' width="830" height="360" alt='Road & Van' title='Road & Van'></li>
+                    <li class='num1'><img src='/images/road2.jpg' width="830" height="360" alt='American Interstaet in Utah' title='American Interstaet in Utah'></li>
+                    <li class='num2'><img src='/images/road3.jpg' width="830" height="360" alt='Storm Clouds Over the Road' title='Storm Clouds Over the Road'></li>
+                    <li class='num3'><img src='/images/road4.jpg' width="830" height="360" alt='American Interstaet in Utah' title='American Interstaet in Utah'></li>
+                </ul>
+                <div class='description'>
+                    <label class='num0'>Road & Van</label>
+                    <label class='num1'>American Interstaet in Utah</label>
+                    <label class='num2'>Storm Clouds Over the Road</label>
+                    <label class='num3'>American Interstaet in Utah</label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play18'></label>
+                    <label class='pause num0' for='pause18-0'></label>
+                    <label class='pause num1' for='pause18-1'></label>
+                    <label class='pause num2' for='pause18-2'></label>
+                    <label class='pause num3' for='pause18-3'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide18-0'></label>
+                    <label class='num1' for='slide18-1'></label>
+                    <label class='num2' for='slide18-2'></label>
+                    <label class='num3' for='slide18-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide18-0'></label>
+                    <label class='num1' for='slide18-1'></label>
+                    <label class='num2' for='slide18-2'></label>
+                    <label class='num3' for='slide18-3'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide18-0'><figure><img src='/images/road1sm.jpg' width="110" height="48" alt='Road & Van' title='Road & Van'></figure></label>
+                    <label class='num1' for='slide18-1'><figure><img src='/images/road2sm.jpg' width="110" height="48" alt='American Interstaet in Utah' title='American Interstaet in Utah'></figure></label>
+                    <label class='num2' for='slide18-2'><figure><img src='/images/road3sm.jpg' width="110" height="48" alt='Storm Clouds Over the Road' title='Storm Clouds Over the Road'></figure></label>
+                    <label class='num3' for='slide18-3'><figure><img src='/images/road4sm.jpg' width="110" height="48" alt='American Interstaet in Utah' title='American Interstaet in Utah'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #17</h2>
             <div class='csslider17 lwrap'>
@@ -52,7 +105,7 @@
                     <li class='num1'><img src='/images/cableway2.jpg' width="830" height="360" alt='Cableway' title='Cableway'></li>
                     <li class='num2'><img src='/images/cableway3.jpg' width="830" height="360" alt='Cableway' title='Cableway'></li>
                 </ul>
-                <div class='description'>
+                <div class='description' data-childs="col -start">
                     <label class='num0'><big><span>Cableway</span></big><small><span>Blue Sky & White Snow</span></small></label>
                     <label class='num1'><big><span>Cableway</span></big><small><span>Ski Resort in Austria</span></small></label>
                     <label class='num2'><big><span>Cableway</span></big><small><span>The Eindpoint of Cableway</span></small></label>
@@ -69,9 +122,9 @@
                     <label class='num2' for='slide17-2'></label>
                 </div>
                 <div class='arrownext'>
-                    <label class='num0' for='slide17-0'><span></span></label>
-                    <label class='num1' for='slide17-1'><span></span></label>
-                    <label class='num2' for='slide17-2'><span></span></label>
+                    <label class='num0' for='slide17-0'></label>
+                    <label class='num1' for='slide17-1'></label>
+                    <label class='num2' for='slide17-2'></label>
                 </div>
                 <div class='bullets' data-flex="center">
                     <label class='num0' for='slide17-0'><figure><img src='/images/cableway1sm.jpg' width="110" height="48" alt='Cableway' title='Cableway'></figure></label>

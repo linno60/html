@@ -63,7 +63,7 @@
 .csslider8  > #play8:checked ~ ul > li:not(:first-child) {
     animation: slide8 16400ms infinite;
 }
-/* IE 10+ hack - cant animate translate :( */
+/* IE 10+*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .csslider8  > #play8:checked ~ ul > li:not(:first-child) {
         animation: slide8-ie 16400ms infinite;
@@ -192,6 +192,7 @@
 }
 
 /*BULLETS*/
+
 /*bullets template*/
 .csslider8 > .bullets {
     position: absolute;

@@ -222,3 +222,294 @@
 .csslider17 > #play17:checked ~ .play-pause > .num2 {
     animation: play-pause17 10800ms infinite 5300ms;
 }
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider17 > .description > label {
+    position: absolute;
+    max-width: 50%;       
+    perspective: 500px;
+    bottom: 40rem;
+    left: 30rem;
+    z-index: 10;
+}
+.csslider17 > .description > label > * {
+    font-family: Roboto; 
+    padding: 10rem;
+    color: white;
+    transform-origin: 0% 0% 0px;
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: 0;
+}
+.csslider17 > .description > label > big {
+    font-size: 20px;
+    margin-bottom: 1.5px;
+    z-index: 2;
+    background: rgba(0,0,0,.6);
+    transform: rotateX(90deg);
+    transition:
+        750ms opacity 945ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 945ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider17 > .description > label > small {
+    text-align: left;
+    font-size: 16px;  
+    z-index: 1;
+    background: #289dcc;
+    transform: rotateX(-90deg);
+    transition:
+        750ms opacity 720ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 570ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider17 > .description > label span, 
+.csslider17 > .description > label span{
+    display: inline-block;
+}
+.csslider17 > .description > label > big > span {    
+    transform: translateX(-100%);
+    transition:
+        750ms opacity 1420ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 1420ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider17 > .description > label > small > span {
+    transform: translateX(100%);
+    transition:
+        750ms opacity 1645ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 1645ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+/*description moving*/
+.csslider17 > #slide17-0:checked ~ .description > .num0,
+.csslider17 > #pause17-0:checked ~ .description > .num0,
+.csslider17 > #slide17-1:checked ~ .description > .num1,
+.csslider17 > #pause17-1:checked ~ .description > .num1,
+.csslider17 > #slide17-2:checked ~ .description > .num2,
+.csslider17 > #pause17-2:checked ~ .description > .num2 {
+    z-index: 2;
+}
+.csslider17 > #slide17-0:checked ~ .description > .num0 > small,
+.csslider17 > #pause17-0:checked ~ .description > .num0 > small,
+.csslider17 > #slide17-1:checked ~ .description > .num1 > small,
+.csslider17 > #pause17-1:checked ~ .description > .num1 > small,
+.csslider17 > #slide17-2:checked ~ .description > .num2 > small,
+.csslider17 > #pause17-2:checked ~ .description > .num2 > small {
+    opacity: 1;
+    transition:
+        750ms opacity 1320ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 1320ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateX(0deg);
+}
+.csslider17 > #slide17-0:checked ~ .description > .num0 > big,
+.csslider17 > #pause17-0:checked ~ .description > .num0 > big,
+.csslider17 > #slide17-1:checked ~ .description > .num1 > big,
+.csslider17 > #pause17-1:checked ~ .description > .num1 > big,
+.csslider17 > #slide17-2:checked ~ .description > .num2 > big,
+.csslider17 > #pause17-2:checked ~ .description > .num2 > big {
+    opacity: 1;
+    transition:
+        750ms opacity 1170ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        750ms transform 1170ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateX(0deg);
+}
+.csslider17 > #slide17-0:checked ~ .description > .num0 span,
+.csslider17 > #pause17-0:checked ~ .description > .num0 span,
+.csslider17 > #slide17-1:checked ~ .description > .num1 span,
+.csslider17 > #pause17-1:checked ~ .description > .num1 span,
+.csslider17 > #slide17-2:checked ~ .description > .num2 span,
+.csslider17 > #pause17-2:checked ~ .description > .num2 span {
+    opacity: 1;
+    transform: translateX(0);
+}
+@keyframes description17 {
+    3.4027777777777772%, 38.19444444444444%  { z-index: 2; }
+    38.20444444444444%, 100%  { z-index: 0; }
+}
+.csslider17 > #play17:checked ~ .description > .num0 {
+    animation: description17 10800ms infinite -1330ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num1 {
+    animation: description17 10800ms infinite 2270ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num2 {
+    animation: description17 10800ms infinite 5870ms ease;
+}
+@keyframes description17-big {
+    3.4027777777777772%, 29.920555555555556%  {
+        opacity: 1;
+        z-index: 2;
+        transform: rotateX(-9deg);
+    }
+    4.861111111111111%, 28.462222222222223%  {
+        opacity: 1;
+        z-index: 2;
+        transform: rotateX(0deg);
+    }
+    33.333333333333336%  {
+        opacity: 0;
+        z-index: 2;
+        transform: rotateX(90deg);
+    }
+    33.343333333333334%, 100%  { z-index: 0; }
+}
+@keyframes description17-small {
+    6.8055555555555545%, 25.059444444444445%  {
+        opacity: 1;
+        z-index: 1;
+        transform: rotateX(9deg);
+    }
+    9.722222222222221%, 23.601111111111113%  {
+        opacity: 1;
+        z-index: 1;
+        transform: rotateX(0deg);
+    }
+    33.333333333333336%  {
+        opacity: 0;
+        z-index: 1;
+        transform: rotateX(-90deg);
+    }
+    33.343333333333334%, 100%  { z-index: 0; }
+}
+.csslider17 > #play17:checked ~ .description > .num0 > big {
+    animation: description17-big 10800ms infinite -1330ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num1 > big {
+    animation: description17-big 10800ms infinite 2270ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num2 > big {
+    animation: description17-big 10800ms infinite 5870ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num0 > small {
+    animation: description17-small 10800ms infinite -1330ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num1 > small {
+    animation: description17-small 10800ms infinite 2270ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num2 > small {
+    animation: description17-small 10800ms infinite 5870ms ease;
+}
+@keyframes description17-big-text {
+    3.4027777777777772%, 29.920555555555556%  {
+        opacity: 1;
+        transform: translateX(-1%);
+    }
+    4.861111111111111%, 28.462222222222223%  {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    33.333333333333336%  {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+@keyframes description17-small-text {
+    6.8055555555555545%, 25.059444444444445%  {
+        opacity: 1;
+        transform: translateX(1%);
+    }
+    9.722222222222221%, 23.601111111111113%  {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    33.333333333333336%  {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+.csslider17 > #play17:checked ~ .description > .num0 > big > span {
+    animation: description17-big-text 10800ms infinite -1120ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num1 > big > span {
+    animation: description17-big-text 10800ms infinite 2480ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num2 > big > span {
+    animation: description17-big-text 10800ms infinite 6080ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num0 > small > span {
+    animation: description17-small-text 10800ms infinite -1120ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num1 > small > span {
+    animation: description17-small-text 10800ms infinite 2480ms ease;
+}
+.csslider17 > #play17:checked ~ .description > .num2 > small > span {
+    animation: description17-small-text 10800ms infinite 6080ms ease;
+}
+
+/*BULLETS*/
+.csslider17 > .bullets {
+    position: absolute;
+    width: 100%;
+    bottom: 4px;
+}
+.csslider17 > .bullets > label {
+    position: relative;
+    perspective: 500px;
+    margin: 6px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.6);
+    z-index: 10;
+}
+.csslider17 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -52px;
+    top: -59px;
+    border: 3px solid #289dcc;
+    transition:
+        opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275),
+        transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275),
+        visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    transform-origin: 0% 100% 0px;
+    transform: rotateX(90deg);
+}
+.csslider17 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    bottom: -8px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #289dcc;
+}
+.csslider17 > .bullets > label:hover > figure {
+    visibility: visible;
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+
+/*bullets moving*/
+.csslider17 > #slide17-0:checked ~ .bullets > .num0,
+.csslider17 > #pause17-0:checked ~ .bullets > .num0,
+.csslider17 > #slide17-1:checked ~ .bullets > .num1,
+.csslider17 > #pause17-1:checked ~ .bullets > .num1,
+.csslider17 > #slide17-2:checked ~ .bullets > .num2,
+.csslider17 > #pause17-2:checked ~ .bullets > .num2 {
+    background: #289dcc;
+}
+.csslider17 > .bullets > label:hover {
+    background: #289dcc;
+}
+@keyframes bullet17 {
+    0%, 33.32333333333334%  { background: #289dcc; }
+    33.333333333333336%, 100% { background: rgba(0,0,0,.6); }
+}
+.csslider17 > #play17:checked ~ .bullets > .num0 {
+    animation: bullet17 10800ms infinite -1900ms;
+}
+.csslider17 > #play17:checked ~ .bullets > .num1 {
+    animation: bullet17 10800ms infinite 1700ms;
+}
+.csslider17 > #play17:checked ~ .bullets > .num2 {
+    animation: bullet17 10800ms infinite 5300ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider17 > .description, .csslider17 > .bullets {display: none;}
+}

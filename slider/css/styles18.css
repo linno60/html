@@ -1,0 +1,104 @@
+/*------- SLIDER #18 -------*/
+
+/*COMMON*/
+.csslider18 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #35bd46;
+}
+.csslider18 > input[type=radio] {
+    display: none;
+}
+.csslider18 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider18 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider18 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    transition: transform 1900ms;
+}
+
+/*SLIDESHOW*/
+.csslider18 > ul > .num0 {
+    left: 0%;
+}
+.csslider18 > ul > .num1 {
+    left: 100%;
+}
+.csslider18 > ul > .num2 {
+    left: 200%;
+}
+.csslider18 > ul > .num3 {
+    left: 300%;
+}
+.csslider18 > #slide18-0:checked ~ ul > li,
+.csslider18 > #pause18-0:checked ~ ul > li{
+    transform: translateX(0%);
+}
+.csslider18 > #slide18-1:checked ~ ul > li,
+.csslider18 > #pause18-1:checked ~ ul > li {
+    transform: translateX(-100%);
+}
+.csslider18 > #slide18-2:checked ~ ul > li,
+.csslider18 > #pause18-2:checked ~ ul > li {
+    transform: translateX(-200%);
+}
+.csslider18 > #slide18-3:checked ~ ul > li,
+.csslider18 > #pause18-3:checked ~ ul > li {
+    transform: translateX(-300%);
+}
+@keyframes slide {
+    0%, 11.805555555555555%  { transform: translateX(0%); }
+    25%, 36.80555555555556%  { transform: translateX(-100%); }
+    50%, 61.80555555555556%  { transform: translateX(-200%); }
+    75%, 86.80555555555556%  { transform: translateX(-300%); }
+
+}
+@keyframes slide-ie {
+    0%, 11.805555555555555%  { margin-left: 0%; }
+    25%, 36.80555555555556%  { margin-left: -100%; }
+    50%, 61.80555555555556%  { margin-left: -200%; }
+    75%, 86.80555555555556%  { margin-left: -300%; }
+
+}
+.csslider18 > #play18:checked ~ ul > li:not(:first-child) {
+    animation: slide 14400ms infinite;
+}
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider18 > #play18:checked ~ ul > li:not(:first-child) {
+        animation: slide-ie 14400ms infinite;
+    }
+}
+
+/*btns show*/
+.csslider18 > .play-pause {
+    transition: .4s all 0s ease;
+}
+.csslider18 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider18 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider18 > .arrowprev,
+.csslider18 > .arrownext,
+.csslider18 > .play-pause {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.csslider18:hover > .arrowprev,
+.csslider18:hover > .arrownext,
+.csslider18:hover > .play-pause {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -259,19 +259,6 @@
     opacity: 1;
     transform: scale(1);
 }
-@keyframes description7-wrap {
-    3.24390243902439%, 37.96747967479675%  { z-index: 2; }
-    37.97747967479675%, 100%  { z-index: 0; }
-}
-.csslider7 > #play7:checked ~ .description > .num0 {
-    animation: description7-wrap 12300ms infinite -909.9999999999999ms ease;
-}
-.csslider7 > #play7:checked ~ .description > .num1 {
-    animation: description7-wrap 12300ms infinite 3190ms ease;
-}
-.csslider7 > #play7:checked ~ .description > .num2 {
-    animation: description7-wrap 12300ms infinite 7290ms ease;
-}
 @keyframes description7 {
     3.24390243902439%, 30.079430894308945%  {
         opacity: 1;
