@@ -28,6 +28,8 @@
         <link rel="stylesheet" href="/css/styles16.css">
         <link rel="stylesheet" href="/css/styles17.css">
         <link rel="stylesheet" href="/css/styles18.css">
+        <link rel="stylesheet" href="/css/styles19.css">
+        <link rel="stylesheet" href="/css/styles20.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -37,6 +39,102 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #20</h2>
+            <div class='csslider20 lwrap'>
+                <input name="anchor20" id='slide20-0' type="radio">
+                <input name="anchor20" id='slide20-1' type="radio">
+                <input name="anchor20" id='slide20-2' type="radio">
+                <input name="anchor20" id='play20' type="radio" checked>
+                <input name="anchor20" id='pause20-0' type="radio">
+                <input name="anchor20" id='pause20-1' type="radio">
+                <input name="anchor20" id='pause20-2' type="radio">
+                <ul>
+                    <li><img src="/images/.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num1'><img src='/images/.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num2'><img src='/images/.jpg' width="830" height="360" alt='' title=''></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause20-0'><big></big><small></small></label>
+                    <label class='num1' for='pause20-1'><big></big><small></small></label>
+                    <label class='num2' for='pause20-2'><big></big><small></small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play20'></label>
+                    <label class='pause num0' for='pause20-0'></label>
+                    <label class='pause num1' for='pause20-1'></label>
+                    <label class='pause num2' for='pause20-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide20-0'></label>
+                    <label class='num1' for='slide20-1'></label>
+                    <label class='num2' for='slide20-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide20-0'></label>
+                    <label class='num1' for='slide20-1'></label>
+                    <label class='num2' for='slide20-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide20-0'><figure><img src='/images/.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num1' for='slide20-1'><figure><img src='/images/.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num2' for='slide20-2'><figure><img src='/images/.jpg' width="110" height="48" alt='' title=''></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="h2">Slider #19</h2>
+            <div class='csslider19 lwrap'>
+                <input name="anchor19" id='slide19-0' type="radio">
+                <input name="anchor19" id='slide19-1' type="radio">
+                <input name="anchor19" id='slide19-2' type="radio">
+                <input name="anchor19" id='slide19-3' type="radio">
+                <input name="anchor19" id='play19' type="radio" checked>
+                <input name="anchor19" id='pause19-0' type="radio">
+                <input name="anchor19" id='pause19-1' type="radio">
+                <input name="anchor19" id='pause19-2' type="radio">
+                <input name="anchor19" id='pause19-3' type="radio">
+                <ul>
+                    <li><img src="/images/sunflowers.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/sunflowers.jpg' width="830" height="360" alt='Colorful' title='Colorful'></li>
+                    <li class='num1'><img src='/images/grapes.jpg' width="830" height="360" alt='Grapevine' title='Grapevine'></li>
+                    <li class='num2'><img src='/images/tulips.jpg' width="830" height="360" alt='Flowers' title='Flowers'></li>
+                    <li class='num3'><img src='/images/apricots.jpg' width="830" height="360" alt='Fruit' title='Fruit'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause19-0'><big>Colorful</big><small>Sunflowers Field</small></label>
+                    <label class='num1' for='pause19-1'><big>Grapevine</big><small>Detail of Grapes</small></label>
+                    <label class='num2' for='pause19-2'><big>Flowers</big><small>Tulips from below</small></label>
+                    <label class='num3' for='pause19-3'><big>Fruit</big><small>Fresh Apricots On The Tree</small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play19'></label>
+                    <label class='pause num0' for='pause19-0'></label>
+                    <label class='pause num1' for='pause19-1'></label>
+                    <label class='pause num2' for='pause19-2'></label>
+                    <label class='pause num3' for='pause19-3'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide19-0'></label>
+                    <label class='num1' for='slide19-1'></label>
+                    <label class='num2' for='slide19-2'></label>
+                    <label class='num3' for='slide19-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide19-0'></label>
+                    <label class='num1' for='slide19-1'></label>
+                    <label class='num2' for='slide19-2'></label>
+                    <label class='num3' for='slide19-3'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide19-0'><figure><img src='/images/sunflowerssm.jpg' width="110" height="48" alt='Colorful' title='Colorful'></figure></label>
+                    <label class='num1' for='slide19-1'><figure><img src='/images/grapessm.jpg' width="110" height="48" alt='Grapevine' title='Grapevine'></figure></label>
+                    <label class='num2' for='slide19-2'><figure><img src='/images/tulipssm.jpg' width="110" height="48" alt='Flowers' title='Flowers'></figure></label>
+                    <label class='num3' for='slide19-3'><figure><img src='/images/apricotssm.jpg' width="110" height="48" alt='Fruit' title='Fruit'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #18</h2>
             <div class='csslider18 lwrap'>
@@ -57,10 +155,10 @@
                     <li class='num3'><img src='/images/road4.jpg' width="830" height="360" alt='American Interstaet in Utah' title='American Interstaet in Utah'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'>Road & Van</label>
-                    <label class='num1'>American Interstaet in Utah</label>
-                    <label class='num2'>Storm Clouds Over the Road</label>
-                    <label class='num3'>American Interstaet in Utah</label>
+                    <label class='num0' for='pause18-0'>Road & Van</label>
+                    <label class='num1' for='pause18-1'>American Interstaet in Utah</label>
+                    <label class='num2' for='pause18-2'>Storm Clouds Over the Road</label>
+                    <label class='num3' for='pause18-3'>American Interstaet in Utah</label>
                 </div>
                 <div class='play-pause'>
                     <label class='play' for='play18'></label>

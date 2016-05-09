@@ -3,9 +3,9 @@
 /*COMMON*/
 .csslider18 {
     position: relative;
-    max-width: 830px; 
+    max-width: 840px; 
     overflow: hidden;
-    box-shadow: 0 0 0 5px #35bd46;
+    border: 5px solid #35bd46;
 }
 .csslider18 > input[type=radio] {
     display: none;
@@ -316,4 +316,85 @@
 .csslider18 > #play18:checked ~ .arrowprev > label.num2,
 .csslider18 > #play18:checked ~ .arrownext > label.num0 {
     animation: arrows18 14400ms infinite 8900ms;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider18 > .bullets {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+.csslider18 > .bullets > label {
+    position: relative;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: transparent;
+    transition: all 0.3s;
+}
+.csslider18 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    left: -53px;
+    top: -63px;
+    height: 0px; 
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: 10;
+}
+.csslider18 > .bullets > label > figure > img {
+    border: 3px solid #35bd46;
+    box-sizing: content-box;
+}
+.csslider18 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 3.5px);
+    top: 54px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #35bd46;
+}
+.csslider18 > .bullets > label:hover > figure {
+    height: 61px;
+    visibility: visible;
+}
+
+/*bullets moving*/
+.csslider18 > .bullets > label:hover,
+.csslider18 > #slide18-0:checked ~ .bullets > .num0,
+.csslider18 > #pause18-0:checked ~ .bullets > .num0,
+.csslider18 > #slide18-1:checked ~ .bullets > .num1,
+.csslider18 > #pause18-1:checked ~ .bullets > .num1,
+.csslider18 > #slide18-2:checked ~ .bullets > .num2,
+.csslider18 > #pause18-2:checked ~ .bullets > .num2,
+.csslider18 > #slide18-3:checked ~ .bullets > .num3,
+.csslider18 > #pause18-3:checked ~ .bullets > .num3 {
+    border: 2px solid rgba(255,255,255,0);
+    background: #35bd46;
+}
+@keyframes bullet18 {
+    0%, 24.99%  { border: 2px solid rgba(255,255,255,0); background: #35BD46; }
+    25%, 100% { border: 2px solid #fff; background: transparent; }
+}
+.csslider18 > #play18:checked ~ .bullets > .num0 {
+    animation: bullet18 14400ms infinite -1900ms;
+}
+.csslider18 > #play18:checked ~ .bullets > .num1 {
+    animation: bullet18 14400ms infinite 1700ms;
+}
+.csslider18 > #play18:checked ~ .bullets > .num2 {
+    animation: bullet18 14400ms infinite 5300ms;
+}
+.csslider18 > #play18:checked ~ .bullets > .num3 {
+    animation: bullet18 14400ms infinite 8900ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider18 > .description, .csslider18 > .bullets {display: none;}
 }
