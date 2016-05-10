@@ -50,15 +50,15 @@
                 <input name="anchor20" id='pause20-1' type="radio">
                 <input name="anchor20" id='pause20-2' type="radio">
                 <ul>
-                    <li><img src="/images/.jpg" width="830" height="360"></li>
-                    <li class='num0'><img src='/images/.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num1'><img src='/images/.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num2'><img src='/images/.jpg' width="830" height="360" alt='' title=''></li>
+                    <li><img src="/images/christmasgirls.jpg" width="640" height="360"></li>
+                    <li class='num0'><img src='/images/christmasgirls.jpg' width="640" height="360" alt='Christmas' title='Christmas'></li>
+                    <li class='num1'><img src='/images/fir.jpg' width="640" height="360" alt='Christmas Girl' title='Christmas Girl'></li>
+                    <li class='num2'><img src='/images/littlegirl.jpg' width="640" height="360" alt='Christmas Girl' title='Christmas Girl'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
-                    <label class='num0' for='pause20-0'><big></big><small></small></label>
-                    <label class='num1' for='pause20-1'><big></big><small></small></label>
-                    <label class='num2' for='pause20-2'><big></big><small></small></label>
+                    <label class='num0' for='pause20-0'><big><span>Christmas</span></big><small><span>Christmas girls</span></small></label>
+                    <label class='num1' for='pause20-1'><big><span>Christmas Girl</span></big><small><span>Decorates the Christmas tree</span></small></label>
+                    <label class='num2' for='pause20-2'><big><span>Christmas Girl</span></big><small><span>Looking at the Christmas tree</span></small></label>
                 </div>
                 <div class='play-pause'>
                     <label class='play' for='play20'></label>
@@ -77,9 +77,9 @@
                     <label class='num2' for='slide20-2'></label>
                 </div>
                 <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide20-0'><figure><img src='/images/.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num1' for='slide20-1'><figure><img src='/images/.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num2' for='slide20-2'><figure><img src='/images/.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num0' for='slide20-0'><figure><img src='/images/christmasgirlssm.jpg' width="85" height="48" alt='Christmas' title='Christmas'></figure></label>
+                    <label class='num1' for='slide20-1'><figure><img src='/images/firsm.jpg' width="85" height="48" alt='Christmas Girl' title='Christmas Girl'></figure></label>
+                    <label class='num2' for='slide20-2'><figure><img src='/images/littlegirlsm.jpg' width="85" height="48" alt='Christmas Girl' title='Christmas Girl'></figure></label>
                 </div>
             </div>
         </div>
