@@ -456,12 +456,12 @@
     position: absolute;
     width: 100%;
     z-index: 6;
-    bottom: 10px;
+    bottom: 5px;
 }
 .csslider20 > .bullets > label {
     position: relative;
     border-radius: 50%;
-    margin: 0 5px;
+    margin: 5px;
     width: 18px;
     height: 18px;
     background: #fcd4dc;
