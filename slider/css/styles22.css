@@ -1,0 +1,113 @@
+/*------- SLIDER #22 -------*/
+
+/*COMMON*/
+.csslider22 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+     box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transition: box-shadow .5s cubic-bezier(.4,0,.2,1);
+}
+.csslider22:hover {
+    box-shadow: 0px 17px 50px rgba(0, 0, 0, 0.19);
+}
+.csslider22 > input[type=radio] {
+    display: none;
+}
+.csslider22 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider22 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider22 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0;
+    z-index: 1;
+    transition:
+        opacity 1900ms ease,
+        transform 22200ms cubic-bezier(0.840, 0.970, 0.855, 1.000);
+}
+
+/*SLIDESHOW*/
+.csslider22 > ul > .num0 {
+    transform: scale(1.3);
+    transform-origin: 100% 0; 
+}
+.csslider22 > ul > .num1 {
+    transform: scale(1.3);
+    transform-origin: 0 0;      
+}
+.csslider22 > ul > .num2 {
+    transform: scale(1.3);
+    transform-origin: 100% 100%;      
+}
+.csslider22 > ul > .num3 {
+    transform: scale(1.3);
+    transform-origin: 0 100%;      
+}
+.csslider22 > #slide22-0:checked ~ ul > .num0,
+.csslider22 > #pause22-0:checked ~ ul > .num0,
+.csslider22 > #slide22-1:checked ~ ul > .num1,
+.csslider22 > #pause22-1:checked ~ ul > .num1,
+.csslider22 > #slide22-2:checked ~ ul > .num2,
+.csslider22 > #pause22-2:checked ~ ul > .num2,
+.csslider22 > #slide22-3:checked ~ ul > .num3,
+.csslider22 > #pause22-3:checked ~ ul > .num3 {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+}
+@keyframes kenburns22 {
+    0.001%, 24.999%  { z-index: 2; }
+    0%, 100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    6.418918918918919%, 25% { opacity: 1 }
+    31.41891891891892%, 75% {
+        opacity: 0;
+        transform: scale(1.3);
+    }
+    25.001%, 100%  { z-index: 1; }
+}
+.csslider22 > #play22:checked ~ ul > .num0 {
+    animation: kenburns22 29600ms infinite -1900ms linear;
+}
+.csslider22 > #play22:checked ~ ul > .num1 {
+    animation: kenburns22 29600ms infinite 5500ms linear;
+}
+.csslider22 > #play22:checked ~ ul > .num2 {
+    animation: kenburns22 29600ms infinite 12900ms linear;
+}
+.csslider22 > #play22:checked ~ ul > .num3 {
+    animation: kenburns22 29600ms infinite 20300ms linear;
+}
+
+/*btns show*/
+.csslider22 > .play-pause {
+    transition: .4s all 0s ease;
+}
+.csslider22 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider22 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider22 > .arrowprev,
+.csslider22 > .arrownext,
+.csslider22 > .play-pause {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.csslider22:hover > .arrowprev,
+.csslider22:hover > .arrownext,
+.csslider22:hover > .play-pause {
+    opacity: 1;
+    transform: translateY(0);
+}

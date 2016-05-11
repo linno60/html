@@ -8,7 +8,7 @@ body{
 }
 body > div{
     border-bottom: 1px dashed gray;
-    padding: 10px;
+    padding: 10px 0px;
 }
 label{
     cursor: pointer;
@@ -41,11 +41,11 @@ figure > img{
 }
 .item:after {   
     transform: translateZ(50px); 
-    background: red;
+    background: blue;
 }  
 .item:before {      
     transform: rotateX(90deg) translateZ(50px);    
-    background: blue; 
+    background: red; 
 }   
 .item:hover {  
     transform: translateZ(-50px) rotateX(-95deg);  
@@ -153,10 +153,10 @@ figure > img{
 .rising > div {
     position: absolute;
     opacity: 0;
-    left: -40px;
-    top: -100px;
-    width: 100px;
-    height: 100px;
+    left: 0px;
+    top: -20px;
+    width: 20px;
+    height: 20px;
     background: red;
     transition:
         opacity 0.5s ease-in-out,
@@ -167,4 +167,49 @@ figure > img{
 .rising:hover > div {
     opacity: 1;
     transform: rotateX(0deg);
+}
+
+.sun{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: blue;
+    position: relative;
+}
+.sun:before,
+.sun:before,
+.sun:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
+    display: block;
+    transform: scale(.9);
+}
+@keyframes sunshine {
+    0% { opacity: .3; }
+    40% {
+        opacity: .5;
+        box-shadow: 
+            0 0 0 2px rgba(255,255,255,.1),
+            0 0 10px 10px blue,
+            0 0 0 10px rgba(255,255,255,.5);
+    }
+    100% {
+        opacity: 0;
+        box-shadow:
+            0 0 0 2px rgba(255,255,255,.1),
+            0 0 10px 10px blue,
+            0 0 0 10px rgba(255,255,255,.5);
+        transform: scale(1.5);
+    }
+}
+.sun:hover:before,
+.sun:hover:before,
+.sun:hover:before {
+    animation: sunshine 2s infinite ease-out;
 }

@@ -4,3 +4,4 @@
     <big class="second"><span>Second</span></big>
 </div>
 <div class="rising"><div></div></div>
+<div class="sun"></div>

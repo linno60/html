@@ -30,6 +30,8 @@
         <link rel="stylesheet" href="/css/styles18.css">
         <link rel="stylesheet" href="/css/styles19.css">
         <link rel="stylesheet" href="/css/styles20.css">
+        <link rel="stylesheet" href="/css/styles21.css">
+        <link rel="stylesheet" href="/css/styles22.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -39,6 +41,102 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #22</h2>
+            <div class='csslider22 lwrap'>
+                <input name="anchor22" id='slide22-0' type="radio">
+                <input name="anchor22" id='slide22-1' type="radio">
+                <input name="anchor22" id='slide22-2' type="radio">
+                <input name="anchor22" id='slide22-3' type="radio">
+                <input name="anchor22" id='play22' type="radio" checked>
+                <input name="anchor22" id='pause22-0' type="radio">
+                <input name="anchor22" id='pause22-1' type="radio">
+                <input name="anchor22" id='pause22-2' type="radio">
+                <input name="anchor22" id='pause22-3' type="radio">
+                <ul>
+                    <li><img src="/images/macbook.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/macbook.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num1'><img src='/images/iphone5.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num2'><img src='/images/iphone6.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num3'><img src='/images/macbookpro.jpg' width="830" height="360" alt='' title=''></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause22-0'><big><span></span></big><small><span></span></small></label>
+                    <label class='num1' for='pause22-1'><big><span></span></big><small><span></span></small></label>
+                    <label class='num2' for='pause22-2'><big><span></span></big><small><span></span></small></label>
+                    <label class='num3' for='pause22-2'><big><span></span></big><small><span></span></small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play22'></label>
+                    <label class='pause num0' for='pause22-0'></label>
+                    <label class='pause num1' for='pause22-1'></label>
+                    <label class='pause num2' for='pause22-2'></label>
+                    <label class='pause num3' for='pause22-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide22-0'></label>
+                    <label class='num1' for='slide22-1'></label>
+                    <label class='num2' for='slide22-2'></label>
+                    <label class='num3' for='slide22-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide22-0'></label>
+                    <label class='num1' for='slide22-1'></label>
+                    <label class='num2' for='slide22-2'></label>
+                    <label class='num3' for='slide22-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide22-0'><figure><img src='/images/macbooksm.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num1' for='slide22-1'><figure><img src='/images/iphone5sm.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num2' for='slide22-2'><figure><img src='/images/iphone6sm.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num3' for='slide22-2'><figure><img src='/images/macbookprosm.jpg' width="110" height="48" alt='' title=''></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="h2">Slider #21</h2>
+            <div class='csslider21 lwrap'>
+                <input name="anchor21" id='slide21-0' type="radio">
+                <input name="anchor21" id='slide21-1' type="radio">
+                <input name="anchor21" id='slide21-2' type="radio">
+                <input name="anchor21" id='play21' type="radio" checked>
+                <input name="anchor21" id='pause21-0' type="radio">
+                <input name="anchor21" id='pause21-1' type="radio">
+                <input name="anchor21" id='pause21-2' type="radio">
+                <ul>
+                    <li><img src="/images/presentbox.jpg" width="830" height="430"></li>
+                    <li class='num0'><img src='/images/presentbox.jpg' width="830" height="430" alt='Christmas' title='Christmas'></li>
+                    <li class='num1'><img src='/images/giftsheap.jpg' width="830" height="430" alt='Gift' title='Gift'></li>
+                    <li class='num2'><img src='/images/pouch.jpg' width="830" height="430" alt='Bag' title='Bag'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause21-0'><big>christmas</big><small>Christmas present</small></label>
+                    <label class='num1' for='pause21-1'><big>gift</big><small>Christmas present</small></label>
+                    <label class='num2' for='pause21-2'><big>bag</big><small>Christmas present</small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play21'></label>
+                    <label class='pause num0' for='pause21-0'></label>
+                    <label class='pause num1' for='pause21-1'></label>
+                    <label class='pause num2' for='pause21-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide21-0'></label>
+                    <label class='num1' for='slide21-1'></label>
+                    <label class='num2' for='slide21-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide21-0'></label>
+                    <label class='num1' for='slide21-1'></label>
+                    <label class='num2' for='slide21-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide21-0'><figure><img src='/images/presentboxsm.jpg' width="110" height="48" alt='Christmas' title='Christmas'></figure></label>
+                    <label class='num1' for='slide21-1'><figure><img src='/images/giftsheap.jpg' width="110" height="48" alt='Gift' title='Gift'></figure></label>
+                    <label class='num2' for='slide21-2'><figure><img src='/images/pouchsm.jpg' width="110" height="48" alt='Bag' title='Bag'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #20</h2>
             <div class='csslider20 lwrap'>
