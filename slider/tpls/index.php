@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="/css/styles20.css">
         <link rel="stylesheet" href="/css/styles21.css">
         <link rel="stylesheet" href="/css/styles22.css">
+        <link rel="stylesheet" href="/css/styles23.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -41,6 +42,50 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #23</h2>
+            <div class='csslider23 lwrap'>
+                <input name="anchor23" id='slide23-0' type="radio">
+                <input name="anchor23" id='slide23-1' type="radio">
+                <input name="anchor23" id='slide23-2' type="radio">
+                <input name="anchor23" id='play23' type="radio" checked>
+                <input name="anchor23" id='pause23-0' type="radio">
+                <input name="anchor23" id='pause23-1' type="radio">
+                <input name="anchor23" id='pause23-2' type="radio">
+                <ul>
+                    <li><img src="/images/yummy.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/yummy.jpg' width="830" height="360" alt='Yummy' title='Yummy'></li>
+                    <li class='num1'><img src='/images/sweet.jpg' width="830" height="360" alt='Sweet' title='Sweet'></li>
+                    <li class='num2'><img src='/images/cooking.jpg' width="830" height="360" alt='Cooking' title='Cooking'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause23-0'><big><span>Yummy</span></big><small><span>Chocolate cereal balls breakfast</span></small></label>
+                    <label class='num1' for='pause23-1'><big><span>Sweet</span></big><small><span>Typical czech sweet cakes</span></small></label>
+                    <label class='num2' for='pause23-2'><big><span>Cooking</span></big><small><span>Christmas baking</span></small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play23'></label>
+                    <label class='pause num0' for='pause23-0'></label>
+                    <label class='pause num1' for='pause23-1'></label>
+                    <label class='pause num2' for='pause23-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide23-0'></label>
+                    <label class='num1' for='slide23-1'></label>
+                    <label class='num2' for='slide23-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide23-0'></label>
+                    <label class='num1' for='slide23-1'></label>
+                    <label class='num2' for='slide23-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide23-0'><figure><img src='/images/yummysm.jpg' width="110" height="48" alt='Yummy' title='Yummy'></figure></label>
+                    <label class='num1' for='slide23-1'><figure><img src='/images/sweetsm.jpg' width="110" height="48" alt='Sweet' title='Sweet'></figure></label>
+                    <label class='num2' for='slide23-2'><figure><img src='/images/cookingsm.jpg' width="110" height="48" alt='Cooking' title='Cooking'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #22</h2>
             <div class='csslider22 lwrap'>
@@ -55,16 +100,16 @@
                 <input name="anchor22" id='pause22-3' type="radio">
                 <ul>
                     <li><img src="/images/macbook.jpg" width="830" height="360"></li>
-                    <li class='num0'><img src='/images/macbook.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num1'><img src='/images/iphone5.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num2'><img src='/images/iphone6.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num3'><img src='/images/macbookpro.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num0'><img src='/images/macbook.jpg' width="830" height="360" alt='MacBook' title='MacBook'></li>
+                    <li class='num1'><img src='/images/iphone5.jpg' width="830" height="360" alt='iPhone' title='iPhone'></li>
+                    <li class='num2'><img src='/images/iphone6.jpg' width="830" height="360" alt='iPhone 6' title='iPhone 6'></li>
+                    <li class='num3'><img src='/images/macbookpro.jpg' width="830" height="360" alt='MacBook Pro' title='MacBook Pro'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
-                    <label class='num0' for='pause22-0'><big><span></span></big><small><span></span></small></label>
-                    <label class='num1' for='pause22-1'><big><span></span></big><small><span></span></small></label>
-                    <label class='num2' for='pause22-2'><big><span></span></big><small><span></span></small></label>
-                    <label class='num3' for='pause22-2'><big><span></span></big><small><span></span></small></label>
+                    <label class='num0' for='pause22-0'><big><span>MacBook</span></big><small>MacBook and clutter?<span></span></small></label>
+                    <label class='num1' for='pause22-1'><big><span>iPhone</span></big><small><span>iPhone 5S Gold connectors detail</span></small></label>
+                    <label class='num2' for='pause22-2'><big><span>iPhone 6</span></big><small><span>Girl with iPhone 6 in Sunlights</span></small></label>
+                    <label class='num3' for='pause22-2'><big><span>MacBook Pro</span></big><small><span>Closed MacBook Pro on the Table</span></small></label>
                 </div>
                 <div class='play-pause'>
                     <label class='play' for='play22'></label>
@@ -86,10 +131,10 @@
                     <label class='num3' for='slide22-2'></label>
                 </div>
                 <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide22-0'><figure><img src='/images/macbooksm.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num1' for='slide22-1'><figure><img src='/images/iphone5sm.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num2' for='slide22-2'><figure><img src='/images/iphone6sm.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num3' for='slide22-2'><figure><img src='/images/macbookprosm.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num0' for='slide22-0'><figure><img src='/images/macbooksm.jpg' width="110" height="48" alt='MacBook' title='MacBook'></figure></label>
+                    <label class='num1' for='slide22-1'><figure><img src='/images/iphone5sm.jpg' width="110" height="48" alt='iPhone' title='iPhone'></figure></label>
+                    <label class='num2' for='slide22-2'><figure><img src='/images/iphone6sm.jpg' width="110" height="48" alt='iPhone 6' title='iPhone 6'></figure></label>
+                    <label class='num3' for='slide22-2'><figure><img src='/images/macbookprosm.jpg' width="110" height="48" alt='MacBook Pro' title='MacBook Pro'></figure></label>
                 </div>
             </div>
         </div>

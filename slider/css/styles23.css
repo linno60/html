@@ -1,0 +1,67 @@
+/*------- SLIDER #23 -------*/
+
+/*COMMON*/
+.csslider23 {
+    position: relative;
+    max-width: 830px; 
+}
+.csslider23 > ul {
+    position: relative;
+    overflow: hidden;
+}
+.csslider23 > input[type=radio] {
+    display: none;
+}
+.csslider23 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider23 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider23 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0;
+    z-index: 1;
+    transition: transform 1300ms ease, opacity 1300ms ease;
+    transform: scale(2);
+}
+
+/*SLIDESHOW*/
+
+.csslider23 > #slide23-0:checked ~ ul > .num0,
+.csslider23 > #pause23-0:checked ~ ul > .num0,
+.csslider23 > #slide23-1:checked ~ ul > .num1,
+.csslider23 > #pause23-1:checked ~ ul > .num1,
+.csslider23 > #slide23-2:checked ~ ul > .num2,
+.csslider23 > #pause23-2:checked ~ ul > .num2 {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+}
+@keyframes fade-in23 {
+    0%, 45.370370370370374%, 100%  {
+        opacity: 0;
+        transform: scale(2);
+    }
+    12.037037037037038%, 33.333333333333336%  {
+        opacity: 1;
+        transform: scale(1);
+    }
+    0%, 33.33233333333334%  { z-index: 2; }
+    33.33433333333333%, 100%  { z-index: 1; }
+}
+
+.csslider23 > #play23:checked ~ ul > .num0 {
+    animation: fade-in23 10800ms infinite -1300ms;
+}
+.csslider23 > #play23:checked ~ ul > .num1 {
+    animation: fade-in23 10800ms infinite 2300ms;
+}
+.csslider23 > #play23:checked ~ ul > .num2 {
+    animation: fade-in23 10800ms infinite 5900ms;
+}

@@ -352,18 +352,18 @@
 .csslider21 > #pause21-2:checked ~ .bullets > .num2 {
     background: transparent;
 }
-@keyframes bullet {
+@keyframes bullets21 {
     0%, 33.32333333333334%  { background: transparent; }
     33.333333333333336%, 100% { background: #38b6cd; }
 }
 .csslider21 > #play21:checked ~ .bullets > .num0 {
-    animation: bullet 22200ms infinite -1900ms;
+    animation: bullets21 22200ms infinite -1900ms;
 }
 .csslider21 > #play21:checked ~ .bullets > .num1 {
-    animation: bullet 22200ms infinite 5500ms;
+    animation: bullets21 22200ms infinite 5500ms;
 }
 .csslider21 > #play21:checked ~ .bullets > .num2 {
-    animation: bullet 22200ms infinite 12900ms;
+    animation: bullets21 22200ms infinite 12900ms;
 }
 
 /*MEDIA QUERIES*/

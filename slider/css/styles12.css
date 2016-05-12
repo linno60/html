@@ -95,7 +95,7 @@
 .csslider12 > .arrownext:hover > label {
     background: #344294;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    transform: translate3d(0, -1px, 0);
+    transform: translateY(-1px);
 }
 .csslider12 > .arrowprev > label:after,
 .csslider12 > .arrownext > label:after {

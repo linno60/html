@@ -348,7 +348,7 @@
     opacity: 1;
     transform: translateY(0);
 }
-@keyframes description-big {
+@keyframes description20-big {
     3.0787037037037033%, 30.244629629629628%  {
         opacity: 1;
         z-index: 2;
@@ -366,7 +366,7 @@
     }
     37.74148148148148%, 100%  { z-index: 0; }
 }
-@keyframes description-small {
+@keyframes description20-small {
     3.0787037037037033%, 30.244629629629628%  {
         opacity: 1;
         z-index: 1;
@@ -385,24 +385,24 @@
     37.74148148148148%, 100%  { z-index: 0; }
 }
 .csslider20 > #play20:checked ~ .description > .num0  > big {
-    animation: description-big 10800ms infinite -1330ms ease;
+    animation: description20-big 10800ms infinite -1330ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num1  > big {
-    animation: description-big 10800ms infinite 2270ms ease;
+    animation: description20-big 10800ms infinite 2270ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num2  > big {
-    animation: description-big 10800ms infinite 5870ms ease;
+    animation: description20-big 10800ms infinite 5870ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num0  > small {
-    animation: description-small 10800ms infinite -1080ms ease;
+    animation: description20-small 10800ms infinite -1080ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num1  > small {
-    animation: description-small 10800ms infinite 2520ms ease;
+    animation: description20-small 10800ms infinite 2520ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num2  > small {
-    animation: description-small 10800ms infinite 6120ms ease;
+    animation: description20-small 10800ms infinite 6120ms ease;
 }
-@keyframes cs_title_text {
+@keyframes description20-big-text {
     3.0787037037037033%, 30.244629629629628%  {
         opacity: 1;
         transform: translateY(10px);
@@ -416,7 +416,7 @@
         transform: translateY(-100px);
     }
 }
-@keyframes cs_descr_text {
+@keyframes description20-small-text {
     3.0787037037037033%, 30.244629629629628%  {
         opacity: 1;
         transform: translateY(-10px);
@@ -431,22 +431,22 @@
     }
 }
 .csslider20 > #play20:checked ~ .description > .num0 big > span {
-    animation: cs_title_text 10800ms infinite -1180ms ease;
+    animation: description20-big-text 10800ms infinite -1180ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num1 big > span {
-    animation: cs_title_text 10800ms infinite 2420ms ease;
+    animation: description20-big-text 10800ms infinite 2420ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num2 big > span {
-    animation: cs_title_text 10800ms infinite 6020ms ease;
+    animation: description20-big-text 10800ms infinite 6020ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num0 small > span {
-    animation: cs_descr_text 10800ms infinite -930ms ease;
+    animation: description20-small-text 10800ms infinite -930ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num1 small > span {
-    animation: cs_descr_text 10800ms infinite 2670ms ease;
+    animation: description20-small-text 10800ms infinite 2670ms ease;
 }
 .csslider20 > #play20:checked ~ .description > .num2 small > span {
-    animation: cs_descr_text 10800ms infinite 6270ms ease;
+    animation: description20-small-text 10800ms infinite 6270ms ease;
 }
 
 /*BULLETS*/
