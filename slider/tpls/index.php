@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="/css/styles21.css">
         <link rel="stylesheet" href="/css/styles22.css">
         <link rel="stylesheet" href="/css/styles23.css">
+        <link rel="stylesheet" href="/css/styles24.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -42,6 +43,50 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #24</h2>
+            <div class='csslider24 lwrap'>
+                <input name="anchor24" id='slide24-0' type="radio">
+                <input name="anchor24" id='slide24-1' type="radio">
+                <input name="anchor24" id='slide24-2' type="radio">
+                <input name="anchor24" id='play24' type="radio" checked>
+                <input name="anchor24" id='pause24-0' type="radio">
+                <input name="anchor24" id='pause24-1' type="radio">
+                <input name="anchor24" id='pause24-2' type="radio">
+                <ul>
+                    <li><img src="/images/mojito.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/mojito.jpg' width="830" height="360" alt='Mojito' title='Mojito'></li>
+                    <li class='num1'><img src='/images/alcohol.jpg' width="830" height="360" alt='Alcohol' title='Alcohol'></li>
+                    <li class='num2'><img src='/images/cocktail.jpg' width="830" height="360" alt='Cocktail' title='Cocktail'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause24-0'><big>Mojito</big><small>Great virgin mojito</small></label>
+                    <label class='num1' for='pause24-1'><big>Alcohol</big><small>Two glasses with alcohol drink</small></label>
+                    <label class='num2' for='pause24-2'><big>Cocktail</big><small>Fresh lemon drinks</small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play24'></label>
+                    <label class='pause num0' for='pause24-0'></label>
+                    <label class='pause num1' for='pause24-1'></label>
+                    <label class='pause num2' for='pause24-2'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide24-0'></label>
+                    <label class='num1' for='slide24-1'></label>
+                    <label class='num2' for='slide24-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide24-0'></label>
+                    <label class='num1' for='slide24-1'></label>
+                    <label class='num2' for='slide24-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide24-0'><figure><img src='/images/mojitosm.jpg' width="110" height="48" alt='Mojito' title='Mojito'></figure></label>
+                    <label class='num1' for='slide24-1'><figure><img src='/images/alcoholsm.jpg' width="110" height="48" alt='Alcohol' title='Alcohol'></figure></label>
+                    <label class='num2' for='slide24-2'><figure><img src='/images/cocktailsm.jpg' width="110" height="48" alt='Cocktail' title='Cocktail'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #23</h2>
             <div class='csslider23 lwrap'>
@@ -80,9 +125,9 @@
                     <label class='num2' for='slide23-2'></label>
                 </div>
                 <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide23-0'><figure><img src='/images/yummysm.jpg' width="110" height="48" alt='Yummy' title='Yummy'></figure></label>
-                    <label class='num1' for='slide23-1'><figure><img src='/images/sweetsm.jpg' width="110" height="48" alt='Sweet' title='Sweet'></figure></label>
-                    <label class='num2' for='slide23-2'><figure><img src='/images/cookingsm.jpg' width="110" height="48" alt='Cooking' title='Cooking'></figure></label>
+                    <label class='num0' for='slide23-0'><i class="icon-point23"></i><figure><img src='/images/yummysm.jpg' width="110" height="48" alt='Yummy' title='Yummy'></figure></label>
+                    <label class='num1' for='slide23-1'><i class="icon-point23"></i><figure><img src='/images/sweetsm.jpg' width="110" height="48" alt='Sweet' title='Sweet'></figure></label>
+                    <label class='num2' for='slide23-2'><i class="icon-point23"></i><figure><img src='/images/cookingsm.jpg' width="110" height="48" alt='Cooking' title='Cooking'></figure></label>
                 </div>
             </div>
         </div>

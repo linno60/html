@@ -32,7 +32,6 @@
 }
 
 /*SLIDESHOW*/
-
 .csslider23 > #slide23-0:checked ~ ul > .num0,
 .csslider23 > #pause23-0:checked ~ ul > .num0,
 .csslider23 > #slide23-1:checked ~ ul > .num1,
@@ -64,4 +63,392 @@
 }
 .csslider23 > #play23:checked ~ ul > .num2 {
     animation: fade-in23 10800ms infinite 5900ms;
+}
+
+/*btns show*/
+.csslider23 > .play-pause {
+    transition: .4s all 0s ease;
+}
+.csslider23 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider23 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider23 > .arrowprev,
+.csslider23 > .arrownext,
+.csslider23 > .play-pause {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.csslider23:hover > .arrowprev,
+.csslider23:hover > .arrownext,
+.csslider23:hover > .play-pause {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider23 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    bottom: 55rem;
+    left: 20rem;
+    z-index: 3;
+}
+.csslider23 > .description > label > * {
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    font-family: Pacifico;
+    opacity: 0;
+}
+.csslider23 > .description > label > big {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 5rem;
+    z-index: 2;
+    transform: translateY(-100px);
+    transition:
+        950ms opacity 390ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        950ms transform 390ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider23 > .description > label > small {
+    font-size: 14px;   
+    z-index: 1;
+    transform: translateY(100px);
+    transition:
+        950ms opacity 640ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        950ms transform 640ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider23 > .description > label span{
+    opacity: 0;
+    display: inline-block;
+}
+.csslider23 > .description > label > big > span {   
+    transform: translateY(-100px);
+    transition:
+        950ms opacity 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        950ms transform 540ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider23 > .description > label > small > span {
+    transform: translateY(100px);
+    transition:
+        950ms opacity 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+        950ms transform 790ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+/*description moving*/
+.csslider23 > #slide23-0:checked ~ .description > .num0 > big,
+.csslider23 > #slide23-0:checked ~ .description > .num0 > small,
+.csslider23 > #pause23-0:checked ~ .description > .num0 > big,
+.csslider23 > #pause23-0:checked ~ .description > .num0 > small,
+.csslider23 > #slide23-1:checked ~ .description > .num1 > big,
+.csslider23 > #slide23-1:checked ~ .description > .num1 > small,
+.csslider23 > #pause23-1:checked ~ .description > .num1 > big,
+.csslider23 > #pause23-1:checked ~ .description > .num1 > small,
+.csslider23 > #slide23-2:checked ~ .description > .num2 > big,
+.csslider23 > #slide23-2:checked ~ .description > .num2 > small,
+.csslider23 > #pause23-2:checked ~ .description > .num2 > big,
+.csslider23 > #pause23-2:checked ~ .description > .num2 > small {
+    opacity: 1;
+    transform: translateY(0);
+}
+.csslider23 > #slide23-0:checked ~ .description > .num0 span,
+.csslider23 > #pause23-0:checked ~ .description > .num0 span,
+.csslider23 > #slide23-1:checked ~ .description > .num1 span,
+.csslider23 > #pause23-1:checked ~ .description > .num1 span,
+.csslider23 > #slide23-2:checked ~ .description > .num2 span,
+.csslider23 > #pause23-2:checked ~ .description > .num2 span {
+    opacity: 1;
+    transform: translateY(0);
+}
+@keyframes description23-big {
+    3.0787037037037033%, 30.244629629629628%  {
+        opacity: 1;
+        z-index: 2;
+        transform: translateY(10px);
+    }
+    4.398148148148148%, 28.925185185185185%  {
+        opacity: 1;
+        z-index: 2;
+        transform: translateY(0px);
+    }
+    37.73148148148148%  {
+        opacity: 0;
+        z-index: 2;
+        transform: translateY(-100px);
+    }
+    37.74148148148148%, 100%  { z-index: 0; }
+}
+@keyframes description23-small {
+    3.0787037037037033%, 30.244629629629628%  {
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(-10px);
+    }
+    4.398148148148148%, 28.925185185185185%  {
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0px);
+    }
+    37.73148148148148%  {
+        opacity: 0;
+        z-index: 1;
+        transform: translateY(100px);
+    }
+    37.74148148148148%, 100%  { z-index: 0; }
+}
+.csslider23 > #play23:checked ~ .description > .num0  > big {
+    animation: description23-big 10800ms infinite -909.9999999999999ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num1  > big {
+    animation: description23-big 10800ms infinite 2690ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num2  > big {
+    animation: description23-big 10800ms infinite 6290ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num0  > small {
+    animation: description23-small 10800ms infinite -659.9999999999999ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num1  > small {
+    animation: description23-small 10800ms infinite 2940ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num2  > small {
+    animation: description23-small 10800ms infinite 6540ms ease;
+}
+@keyframes description23-big-text {
+    3.0787037037037033%, 30.244629629629628%  {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    4.398148148148148%, 28.925185185185185%  {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    37.73148148148148%  {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+@keyframes description23-small-text {
+    3.0787037037037033%, 30.244629629629628%  {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    4.398148148148148%, 28.925185185185185%  {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    37.73148148148148%  {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
+.csslider23 > #play23:checked ~ .description > .num0 big > span {
+    animation: description23-big-text 10800ms infinite -759.9999999999999ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num1 big > span {
+    animation: description23-big-text 10800ms infinite 2840ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num2 big > span {
+    animation: description23-big-text 10800ms infinite 6440ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num0 small > span {
+    animation: description23-small-text 10800ms infinite -509.9999999999999ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num1 small > span {
+    animation: description23-small-text 10800ms infinite 3090ms ease;
+}
+.csslider23 > #play23:checked ~ .description > .num2 small > span {
+    animation: description23-small-text 10800ms infinite 6690ms ease;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider23 > .play-pause,
+.csslider23 > .arrowprev,
+.csslider23 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider23 > .arrowprev {
+    left: 47px;
+}
+.csslider23 > .arrownext {
+    right: 47px;
+}
+.csslider23 > .arrowprev > label,
+.csslider23 > .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider23 > .play-pause > label,
+.csslider23 > .arrowprev > label,
+.csslider23 > .arrownext > label {
+    position: absolute;
+    height: 40px;
+    width: 34px;
+    margin-top: -20px;
+    margin-left: -17px;
+}
+.csslider23 > .arrowprev > label{
+    background: url(/images/icons/prev23.png)no-repeat center center;
+}
+.csslider23 > .arrownext > label{
+    background: url(/images/icons/next23.png)no-repeat center center;
+}
+
+/*arrows moving*/
+.csslider23 > #slide23-0:checked ~ .arrowprev > .num2,
+.csslider23 > #pause23-0:checked ~ .arrowprev > .num2,
+.csslider23 > #slide23-0:checked ~ .arrownext > .num1,
+.csslider23 > #pause23-0:checked ~ .arrownext > .num1, 
+.csslider23 > #slide23-1:checked ~ .arrowprev > .num0,
+.csslider23 > #pause23-1:checked ~ .arrowprev > .num0,
+.csslider23 > #slide23-1:checked ~ .arrownext > .num2,
+.csslider23 > #pause23-1:checked ~ .arrownext > .num2, 
+.csslider23 > #slide23-2:checked ~ .arrowprev > .num1,
+.csslider23 > #pause23-2:checked ~ .arrowprev > .num1,
+.csslider23 > #slide23-2:checked ~ .arrownext > .num0,
+.csslider23 > #pause23-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrows23 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider23 > #play23:checked ~ .arrowprev > .num2,
+.csslider23 > #play23:checked ~ .arrownext > .num1 {
+    animation: arrows23 10800ms infinite -1300ms;
+}
+.csslider23 > #play23:checked ~ .arrowprev > .num0,
+.csslider23 > #play23:checked ~ .arrownext > .num2 {
+    animation: arrows23 10800ms infinite 2300ms;
+}
+.csslider23 > #play23:checked ~ .arrowprev > .num1,
+.csslider23 > #play23:checked ~ .arrownext > .num0 {
+    animation: arrows23 10800ms infinite 5900ms;
+}
+
+/*PLAY-PAUSE*/
+.csslider23 > .play-pause {
+    left: 50%;
+}
+.csslider23 > .play-pause > .pause{
+    background: url(/images/icons/pause23.png)no-repeat left center;
+}
+.csslider23 > .play-pause > .play{
+    background: url(/images/icons/play23.png)no-repeat left center;
+}
+
+/*play-pause moving*/
+.csslider23 > #play23:checked ~ .play-pause > .pause,
+.csslider23 > input:checked ~ .play-pause > .play{
+    display: block;
+    z-index: 5;
+}
+.csslider23 > #play23:checked ~ .play-pause > .play,
+.csslider23 > input:checked ~ .play-pause > .pause{
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause23 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider23 > #play23:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider23 > #play23:checked ~ .play-pause > .num0 {
+    animation: play-pause23 10800ms infinite -1300ms;
+}
+.csslider23 > #play23:checked ~ .play-pause > .num1 {
+    animation: play-pause23 10800ms infinite 2300ms;
+}
+.csslider23 > #play23:checked ~ .play-pause > .num2 {
+    animation: play-pause23 10800ms infinite 5900ms;
+}
+
+/*BULLETS*/
+.csslider23 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 5px;
+}
+.csslider23 > .bullets > label i{
+    opacity: 0;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+}
+.csslider23 > .bullets > label {
+    position: relative;
+    margin: 5px;
+    border-radius: 50%;
+    width: 23px;
+    height: 22px;
+    border: 2px solid white; 
+    background: transparent;
+}
+.csslider23 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -50px;
+    top: -84px;
+    border: 2px solid white;
+    transition: all .3s;
+}
+.csslider23 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -9px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+}
+.csslider23 > .bullets > label:hover > figure {
+    top: -61px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/*bullets moving*/
+.csslider23 > .bullets > label:hover i,
+.csslider23 > #slide23-0:checked ~ .bullets > .num0 i,
+.csslider23 > #pause23-0:checked ~ .bullets > .num0 i,
+.csslider23 > #slide23-1:checked ~ .bullets > .num1 i,
+.csslider23 > #pause23-1:checked ~ .bullets > .num1 i,
+.csslider23 > #slide23-2:checked ~ .bullets > .num2 i,
+.csslider23 > #pause23-2:checked ~ .bullets > .num2 i{
+    opacity: 1;
+}
+@keyframes bullets23 {
+    0%, 33.32333333333334%  { opacity: 1; }
+    33.333333333333336%, 100% { opacity: 0; }
+}
+.csslider23 > #play23:checked ~ .bullets > .num0 i{
+    animation: bullets23 10800ms infinite -1300ms;
+}
+.csslider23 > #play23:checked ~ .bullets > .num1 i{
+    animation: bullets23 10800ms infinite 2300ms;
+}
+.csslider23 > #play23:checked ~ .bullets > .num2 i{
+    animation: bullets23 10800ms infinite 5900ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider23 > .description, .csslider23 > .bullets {display: none;}
 }

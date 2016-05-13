@@ -1,0 +1,250 @@
+/*------- SLIDER #24 -------*/
+
+/*COMMON*/
+.csslider24 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+}
+.csslider24 > input[type=radio] {
+    display: none;
+}
+.csslider24 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider24 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider24 > ul > li:not(:first-child) {
+    position: absolute;
+    left: 0px;
+    transition: transform 1300ms;
+}
+
+/*SLIDESHOW*/
+.csslider24 > ul > .num0 {
+    top: 0%;
+}
+.csslider24 > ul > .num1 {
+    top: 100%;
+}
+.csslider24 > ul > .num2 {
+    top: 200%;
+}
+.csslider24 > #slide24-0:checked ~ ul > li,
+.csslider24 > #pause24-0:checked ~ ul > li {
+    transform: translateY(0%);
+}
+.csslider24 > #slide24-1:checked ~ ul > li,
+.csslider24 > #pause24-1:checked ~ ul > li {
+    transform: translateY(-100%);
+}
+.csslider24 > #slide24-2:checked ~ ul > li,
+.csslider24 > #pause24-2:checked ~ ul > li {
+    transform: translateY(-200%);
+}
+@keyframes slide24 {
+    0%, 21.296296296296298%  { transform: translateY(0%); }
+    33.333333333333336%, 54.62962962962963%  { transform: translateY(-100%); }
+    66.66666666666667%, 87.96296296296296%  { transform: translateY(-200%); } 
+}
+@keyframes slide24-ie {
+    0%, 21.296296296296298%  { margin-top: 0%; }
+    33.333333333333336%, 54.62962962962963%  { margin-top: -43.373493975903614%; }
+    66.66666666666667%, 87.96296296296296%  { margin-top: -86.74698795180723%; }  
+}
+.csslider24  > #play24:checked ~ ul > li:not(:first-child) {
+    animation: slide24 10800ms infinite;
+}
+/* IE 10+*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider24  > #play24:checked ~ ul > li:not(:first-child) {
+        animation: slide24-ie 10800ms infinite;
+    }
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider24 > .play-pause,
+.csslider24 > .arrowprev,
+.csslider24 > .arrownext {
+    position: absolute;    
+    width: 15%;
+    top: 0px;
+    z-index: 5;
+}
+.csslider24 > .arrowprev,
+.csslider24 > .arrownext {
+    height: 100%;    
+}
+.csslider24 > .arrowprev {
+    left: 0;
+}
+.csslider24 > .arrownext {
+    right: 0;
+}
+.csslider24 > .arrowprev > label,
+.csslider24 > .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider24 > .arrowprev > label,
+.csslider24 > .arrownext > label,
+.csslider24 > .play-pause > label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.csslider24 > .arrowprev > label {
+    cursor: url(/images/icons/prev24.png), default;
+}
+.csslider24 > .arrownext > label {
+    cursor: url(/images/icons/next24.png), default;
+}
+
+/*arrows moving*/
+.csslider24 > #slide24-0:checked ~ .arrowprev > label.num2,
+.csslider24 > #pause24-0:checked ~ .arrowprev > label.num2,
+.csslider24 > #slide24-0:checked ~ .arrownext > label.num1,
+.csslider24 > #pause24-0:checked ~ .arrownext > label.num1, 
+.csslider24 > #slide24-1:checked ~ .arrowprev > label.num0,
+.csslider24 > #pause24-1:checked ~ .arrowprev > label.num0,
+.csslider24 > #slide24-1:checked ~ .arrownext > label.num2,
+.csslider24 > #pause24-1:checked ~ .arrownext > label.num2, 
+.csslider24 > #slide24-2:checked ~ .arrowprev > label.num1,
+.csslider24 > #pause24-2:checked ~ .arrowprev > label.num1,
+.csslider24 > #slide24-2:checked ~ .arrownext > label.num0,
+.csslider24 > #pause24-2:checked ~ .arrownext > label.num0 {
+    opacity: 1;
+    z-index: 5;
+}
+
+@keyframes arrow24 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider24 > #play24:checked ~ .arrowprev > label.num2,
+.csslider24 > #play24:checked ~ .arrownext > label.num1 {
+    animation: arrow24 10800ms infinite -1300ms;
+}
+.csslider24 > #play24:checked ~ .arrowprev > label.num0,
+.csslider24 > #play24:checked ~ .arrownext > label.num2 {
+    animation: arrow24 10800ms infinite 2300ms;
+}
+.csslider24 > #play24:checked ~ .arrowprev > label.num1,
+.csslider24 > #play24:checked ~ .arrownext > label.num0 {
+    animation: arrow24 10800ms infinite 5900ms;
+}
+
+/*PLAY-PAUSE*/
+
+/*play-pause template*/
+.csslider24 > .play-pause {
+    bottom: 40px;
+    height: calc(100% - 40px);
+    left: 42.5%;
+}
+.csslider24 > .play-pause > .pause {
+    cursor: url(/images/icons/pause24.png), default;
+}
+.csslider24 > .play-pause > .play {
+    cursor: url(/images/icons/play24.png), default;
+}
+
+/*arrows moving*/
+.csslider24 > #play24:checked ~ .play-pause > .pause,
+.csslider24 > input:checked ~ .play-pause > .play{
+    display: block;
+    z-index: 5;
+}
+.csslider24 > #play24:checked ~ .play-pause > .play,
+.csslider24 > input:checked ~ .play-pause > .pause{
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause24 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider24 > #play24:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider24 > #play24:checked ~ .play-pause > .num0 {
+    animation: play-pause24 10800ms infinite -1300ms;
+}
+.csslider24 > #play24:checked ~ .play-pause > .num1 {
+    animation: play-pause24 10800ms infinite 2300ms;
+}
+.csslider24 > #play24:checked ~ .play-pause > .num2 {
+    animation: play-pause24 10800ms infinite 5900ms;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider24 > .description > label {
+    font-family: "Slabo 27px";
+    position: absolute;
+    z-index: 3;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    max-width: 60%;
+    color: white;
+    bottom: 50px;
+    left: 20px;
+}
+.csslider24 > .description > label > *{
+    opacity: 0;
+    transition: opacity .4s;
+}
+.csslider24 > .description > label > big {
+    margin-bottom: 10px;
+    font-size: 24px;
+    z-index: 2;    
+}
+.csslider24 > .description > label > small {
+    font-size: 14px;
+    z-index: 1;
+}
+
+/*arrows moving*/
+.csslider24 > #slide24-0:checked ~ .description > .num0 > big,
+.csslider24 > #slide24-0:checked ~ .description > .num0 > small,
+.csslider24 > #pause24-0:checked ~ .description > .num0 > big,
+.csslider24 > #pause24-0:checked ~ .description > .num0 > small,
+.csslider24 > #slide24-1:checked ~ .description > .num1 > big,
+.csslider24 > #slide24-1:checked ~ .description > .num1 > small,
+.csslider24 > #pause24-1:checked ~ .description > .num1 > big,
+.csslider24 > #pause24-1:checked ~ .description > .num1 > small,
+.csslider24 > #slide24-2:checked ~ .description > .num2 > big,
+.csslider24 > #slide24-2:checked ~ .description > .num2 > small,
+.csslider24 > #pause24-2:checked ~ .description > .num2 > big,
+.csslider24 > #pause24-2:checked ~ .description > .num2 > small {
+    opacity: 1;
+}
+@keyframes description24 {
+    4.62962962962963%, 33.333333333333336%  { opacity: 1; z-index: 2; }
+    37.96296296296296%  { opacity: 0; z-index: 2; }
+    37.97296296296296%, 100%  { z-index: 0; }
+}
+.csslider24 > #play24:checked ~ .description > .num0  > big {
+    animation: description24 10800ms infinite -909.9999999999999ms ease;
+}
+.csslider24 > #play24:checked ~ .description > .num1  > big {
+    animation: description24 10800ms infinite 2690ms ease;
+}
+.csslider24 > #play24:checked ~ .description > .num2  > big {
+    animation: description24 10800ms infinite 6290ms ease;
+}
+.csslider24 > #play24:checked ~ .description > .num0  > small {
+    animation: description24 10800ms infinite -909.9999999999999ms ease;
+}
+.csslider24 > #play24:checked ~ .description > .num1  > small {
+    animation: description24 10800ms infinite 2690ms ease;
+}
+.csslider24 > #play24:checked ~ .description > .num2  > small {
+    animation: description24 10800ms infinite 6290ms ease;
+}
