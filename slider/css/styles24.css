@@ -99,10 +99,10 @@
     height: 100%;
 }
 .csslider24 > .arrowprev > label {
-    cursor: url(/images/icons/prev24.png), default;
+    cursor: url(/images/icons/prev24.png)20 20, default;
 }
 .csslider24 > .arrownext > label {
-    cursor: url(/images/icons/next24.png), default;
+    cursor: url(/images/icons/next24.png)20 20, default;
 }
 
 /*arrows moving*/
@@ -121,7 +121,6 @@
     opacity: 1;
     z-index: 5;
 }
-
 @keyframes arrow24 {
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
@@ -148,10 +147,10 @@
     left: 42.5%;
 }
 .csslider24 > .play-pause > .pause {
-    cursor: url(/images/icons/pause24.png), default;
+    cursor: url(/images/icons/pause24.png)20 20 , default;
 }
 .csslider24 > .play-pause > .play {
-    cursor: url(/images/icons/play24.png), default;
+    cursor: url(/images/icons/play24.png)20 20, default;
 }
 
 /*arrows moving*/
@@ -182,10 +181,24 @@
 .csslider24 > #play24:checked ~ .play-pause > .num2 {
     animation: play-pause24 10800ms infinite 5900ms;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider24 > .arrownext > label:hover {
+        background: url(/images/icons/next24.png)no-repeat center center;
+    }
+    .csslider24 > .arrowprev > label:hover {
+        background: url(/images/icons/prev24.png)no-repeat center center;
+    }
+    .csslider24 > .play-pause > .play:hover {
+        background: url(/images/icons/play24.png)no-repeat center center;
+    }
+    .csslider24 > .play-pause > .pause:hover {
+        background: url(/images/icons/pause24.png)no-repeat center center;
+    }    
+}
 
-/*ARROWS*/
+/*DESCRIPTION*/
 
-/*arrows template*/
+/*description template*/
 .csslider24 > .description > label {
     font-family: "Slabo 27px";
     position: absolute;
@@ -193,20 +206,20 @@
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     max-width: 60%;
     color: white;
-    bottom: 50px;
-    left: 20px;
+    bottom: 60rem;
+    left: 20rem;
 }
 .csslider24 > .description > label > *{
     opacity: 0;
     transition: opacity .4s;
 }
 .csslider24 > .description > label > big {
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
     font-size: 24px;
     z-index: 2;    
 }
 .csslider24 > .description > label > small {
-    font-size: 14px;
+    font-size: 11px;
     z-index: 1;
 }
 
@@ -252,3 +265,77 @@
 /*BULLETS*/
 
 /*bullets template*/
+.csslider24 > .bullets {
+    position: absolute;
+    z-index: 6;
+    bottom: 18px;
+    width: 70%;
+    left: 15%;   
+}
+.csslider24 > .bullets > label {
+    position: relative;
+    margin: 2px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px white;
+}
+.csslider24 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -52px;
+    top: -56px;
+    border: 1px solid white;
+    transition: opacity .3s, visibility .3s;
+}
+.csslider24 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    bottom: -6px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white;
+}
+.csslider24 > .bullets > label:hover > figure {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*bullets moving*/
+.csslider24 > #slide24-0:checked ~ .bullets > label.num0,
+.csslider24 > #pause24-0:checked ~ .bullets > label.num0,
+.csslider24 > #slide24-1:checked ~ .bullets > label.num1,
+.csslider24 > #pause24-1:checked ~ .bullets > label.num1,
+.csslider24 > #slide24-2:checked ~ .bullets > label.num2,
+.csslider24 > #pause24-2:checked ~ .bullets > label.num2 {
+    background: white;
+    padding: 6px;
+}
+@keyframes bullets24 {
+    0%, 33.32333333333334%  {
+        box-shadow: none;
+        background: white;
+    }
+    33.333333333333336%, 100% {
+        box-shadow: inset 0 0 0 1px white;
+        background: none;
+    }
+}
+.csslider24 > #play24:checked ~ .bullets > label.num0 {
+    animation: bullets24 10800ms infinite -1300ms;
+}
+.csslider24 > #play24:checked ~ .bullets > label.num1 {
+    animation: bullets24 10800ms infinite 2300ms;
+}
+.csslider24 > #play24:checked ~ .bullets > label.num2 {
+    animation: bullets24 10800ms infinite 5900ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider24 > .description, .csslider24 > .bullets {display: none;}
+}

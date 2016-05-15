@@ -7,6 +7,9 @@
     <div class="rising"><div></div></div>
     <div class="sun"></div>
     <div class="moon"></div>
+    <div class="hoja"></div>
+    <div class="prev"><label></label></div>
+    <div class="next"><label></label></div>
 </div>
 
 <div class="animated"><span class="bounce">bounce</span></div>

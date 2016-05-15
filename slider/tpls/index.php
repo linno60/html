@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="/css/styles22.css">
         <link rel="stylesheet" href="/css/styles23.css">
         <link rel="stylesheet" href="/css/styles24.css">
+        <link rel="stylesheet" href="/css/styles25.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -43,6 +44,41 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #25</h2>
+            <div class='csslider25 lwrap'>
+                <input name="anchor25" id='slide25-0' type="radio">
+                <input name="anchor25" id='slide25-1' type="radio">
+                <input name="anchor25" id='slide25-2' type="radio">
+                <input name="anchor25" id='play25' type="radio" checked>
+                <ul>
+                    <li><img src="/images/material1.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/material1.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num1'><img src='/images/material2.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num2'><img src='/images/material3.jpg' width="830" height="360" alt='' title=''></li>
+                </ul>
+                <div class='description' data-childs="col -center">
+                    <label class='num0' for='pause25-0'><big>Material Design</big><small>Material design is a design language developed by Google and announced at the Google I/O conference on June 25, 2014.</small></label>
+                    <label class='num1' for='pause25-1'><big>Material Design</big><small>Expanding upon the "card" motifs first seen in Google Now, it is a cleaner design with increased use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.</small></label>
+                    <label class='num2' for='pause25-2'><big>Material Design</big><small>Designer MatГ­as Duarte explained that "unlike real paper, our digital material can expand and reform intelligently. Material has physical surfaces and edges. Seams and shadows provide meaning about what you can touch." Google states that their new design language is based on paper and ink.</small></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide25-0'></label>
+                    <label class='num1' for='slide25-1'></label>
+                    <label class='num2' for='slide25-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide25-0'></label>
+                    <label class='num1' for='slide25-1'></label>
+                    <label class='num2' for='slide25-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide25-0'><figure><img src='/images/material1.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num1' for='slide25-1'><figure><img src='/images/material2.jpg' width="110" height="48" alt='' title=''></figure></label>
+                    <label class='num2' for='slide25-2'><figure><img src='/images/material3.jpg' width="110" height="48" alt='' title=''></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #24</h2>
             <div class='csslider24 lwrap'>
