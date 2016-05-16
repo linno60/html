@@ -204,13 +204,13 @@
     color: white;
     padding: 2rem 12rem;
     opacity: 0;
+    transform: scale(0);
     background: #1a2223;
     color: #54d2c0;
 }
 .csslider7 > .description > label > big {
     font-size: 26px;
-    text-transform: uppercase;
-    transform: scale(0);
+    text-transform: uppercase;    
     margin-bottom: 10rem;
     transition:
         950ms opacity 390ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
@@ -218,7 +218,6 @@
 }
 .csslider7 > .description > label > small {
     font-size: 18px;
-    transform: scale(0);
     transition:
         950ms opacity 640ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
         950ms transform 640ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
@@ -226,6 +225,7 @@
 .csslider7 > .description > label span{
     opacity: 0;
     transform: scale(0);
+    display: inline-block;
 }
 .csslider7 > .description > label > big > span {    
     transition:

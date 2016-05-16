@@ -35,6 +35,7 @@
         <link rel="stylesheet" href="/css/styles23.css">
         <link rel="stylesheet" href="/css/styles24.css">
         <link rel="stylesheet" href="/css/styles25.css">
+        <link rel="stylesheet" href="/css/styles26.css">       
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -45,6 +46,41 @@
     </head>
     <body>
         <div>
+            <h2 class="h2">Slider #26</h2>
+            <div class='csslider26 lwrap'>
+                <input name="anchor26" id='slide26-0' type="radio">
+                <input name="anchor26" id='slide26-1' type="radio">
+                <input name="anchor26" id='slide26-2' type="radio">
+                <input name="anchor26" id='play26' type="radio" checked>
+                <ul>
+                    <li><img src="/images/pinkflower.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/pinkflower.jpg' width="830" height="360" alt='Pink Flower' title='Pink Flower'></li>
+                    <li class='num1'><img src='/images/twilight.jpg' width="830" height="360" alt='Twilight' title='Twilight'></li>
+                    <li class='num2'><img src='/images/sailing.jpg' width="830" height="360" alt='Sailing' title='Sailing'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='slide26-0'><big>Pink Flower</big><small>Evening Pink Sky</small></label>
+                    <label class='num1' for='slide26-1'><big>Twilight</big><small>Evening Pink Sky</small></label>
+                    <label class='num2' for='slide26-2'><big>Sailing</big><small>Purple Sail</small></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide26-0'></label>
+                    <label class='num1' for='slide26-1'></label>
+                    <label class='num2' for='slide26-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide26-0'></label>
+                    <label class='num1' for='slide26-1'></label>
+                    <label class='num2' for='slide26-2'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide26-0'><figure><img src='/images/pinkflowersm.jpg' width="110" height="48" alt='Pink Flower' title='Pink Flower'></figure></label>
+                    <label class='num1' for='slide26-1'><figure><img src='/images/twilightsm.jpg' width="110" height="48" alt='Twilight' title='Twilight'></figure></label>
+                    <label class='num2' for='slide26-2'><figure><img src='/images/sailingsm.jpg' width="110" height="48" alt='Sailing' title='Sailing'></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
             <h2 class="h2">Slider #25</h2>
             <div class='csslider25 lwrap'>
                 <input name="anchor25" id='slide25-0' type="radio">
@@ -53,14 +89,14 @@
                 <input name="anchor25" id='play25' type="radio" checked>
                 <ul>
                     <li><img src="/images/material1.jpg" width="830" height="360"></li>
-                    <li class='num0'><img src='/images/material1.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num1'><img src='/images/material2.jpg' width="830" height="360" alt='' title=''></li>
-                    <li class='num2'><img src='/images/material3.jpg' width="830" height="360" alt='' title=''></li>
+                    <li class='num0'><img src='/images/material1.jpg' width="830" height="360" alt='Material Design' title='Material Design'></li>
+                    <li class='num1'><img src='/images/material2.jpg' width="830" height="360" alt='Material Design' title='Material Design'></li>
+                    <li class='num2'><img src='/images/material3.jpg' width="830" height="360" alt='Material Design' title='Material Design'></li>
                 </ul>
                 <div class='description' data-childs="col -center">
-                    <label class='num0' for='pause25-0'><big>Material Design</big><small>Material design is a design language developed by Google and announced at the Google I/O conference on June 25, 2014.</small></label>
-                    <label class='num1' for='pause25-1'><big>Material Design</big><small>Expanding upon the "card" motifs first seen in Google Now, it is a cleaner design with increased use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.</small></label>
-                    <label class='num2' for='pause25-2'><big>Material Design</big><small>Designer MatГ­as Duarte explained that "unlike real paper, our digital material can expand and reform intelligently. Material has physical surfaces and edges. Seams and shadows provide meaning about what you can touch." Google states that their new design language is based on paper and ink.</small></label>
+                    <label class='num0' for='slide25-0'><big>Material Design</big><small>Material design is a design language developed by Google and announced at the Google I/O conference on June 25, 2014.</small></label>
+                    <label class='num1' for='slide25-1'><big>Material Design</big><small>Expanding upon the "card" motifs first seen in Google Now, it is a cleaner design with increased use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.</small></label>
+                    <label class='num2' for='slide25-2'><big>Material Design</big><small>Designer MatГ­as Duarte explained that "unlike real paper, our digital material can expand and reform intelligently. Material has physical surfaces and edges. Seams and shadows provide meaning about what you can touch." Google states that their new design language is based on paper and ink.</small></label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide25-0'></label>
@@ -72,10 +108,10 @@
                     <label class='num1' for='slide25-1'></label>
                     <label class='num2' for='slide25-2'></label>
                 </div>
-                <div class='bullets' data-flex="center">
-                    <label class='num0' for='slide25-0'><figure><img src='/images/material1.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num1' for='slide25-1'><figure><img src='/images/material2.jpg' width="110" height="48" alt='' title=''></figure></label>
-                    <label class='num2' for='slide25-2'><figure><img src='/images/material3.jpg' width="110" height="48" alt='' title=''></figure></label>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide25-0'><figure><img src='/images/material1.jpg' width="110" height="48" alt='Material Design' title='Material Design'></figure></label>
+                    <label class='num1' for='slide25-1'><figure><img src='/images/material2.jpg' width="110" height="48" alt='Material Design' title='Material Design'></figure></label>
+                    <label class='num2' for='slide25-2'><figure><img src='/images/material3.jpg' width="110" height="48" alt='Material Design' title='Material Design'></figure></label>
                 </div>
             </div>
         </div>
@@ -557,9 +593,9 @@
                     <li class='num2'><img src='/images/lakepowell.jpg' width="830" height="360" alt='Lake Powell' title='Lake Powell'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'><span>Arch</span></label>
-                    <label class='num1'><span>Bryce Canyon</span></label>
-                    <label class='num2'><span>Lake Powell</span></label>
+                    <label class='num0' for="slide14-0"><span>Arch</span></label>
+                    <label class='num1' for="slide14-1"><span>Bryce Canyon</span></label>
+                    <label class='num2' for="slide14-2"><span>Lake Powell</span></label>
                 </div>
                 <div class='arrowprev' data-childs="-center center">
                     <label class='num0' for='slide14-0'></label>
@@ -594,10 +630,10 @@
                     <li class='num3'><img src='/images/primrose.jpg' width="600" height="600" alt='Primrose' title='Primrose'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'><span>Rose</span></label>
-                    <label class='num1'><span>Dahlia</span></label>
-                    <label class='num2'><span>Poppy</span></label>
-                    <label class='num3'><span>Primrose</span></label>
+                    <label class='num0' for="slide13-0"><span>Rose</span></label>
+                    <label class='num1' for="slide13-1"><span>Dahlia</span></label>
+                    <label class='num2' for="slide13-2"><span>Poppy</span></label>
+                    <label class='num3' for="slide13-3"><span>Primrose</span></label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide13-0'></label>
@@ -633,9 +669,9 @@
                     <li class='num2'><img src='/images/oldtimer.jpg' width="830" height="400" alt='Oldtimer' title='Oldtimer'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'><span>Wrist Watch</span></label>
-                    <label class='num1'><span>Luxury Watch</span></label>
-                    <label class='num2'><span>Male Watch</span></label>
+                    <label class='num0' for="slide12-0"><span>Wrist Watch</span></label>
+                    <label class='num1' for="slide12-1"><span>Luxury Watch</span></label>
+                    <label class='num2' for="slide12-2"><span>Male Watch</span></label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide12-0'></label>
@@ -668,9 +704,9 @@
                     <li class='num2'><img src='/images/malewatch.jpg' width="830" height="360" alt='Male Watch' title='Male Watch'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'>Wrist Watch</label>
-                    <label class='num1'>Luxury Watch</label>
-                    <label class='num2'>Male Watch</label>
+                    <label class='num0' for="slide11-0">Wrist Watch</label>
+                    <label class='num1' for="slide11-0">Luxury Watch</label>
+                    <label class='num2' for="slide11-0">Male Watch</label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide11-0'></label>
@@ -747,9 +783,9 @@
                     <li class='num2'><img src='/images/asiangirl.jpg' width="640" height="480" alt='Girl' title='Girl'></li>
                 </ul>
                 <div class='description'>
-                    <label class='num0'>Summerfield</label>
-                    <label class='num1'>Flower Child</label>
-                    <label class='num2'>Girl</label>
+                    <label class='num0' for="slide9-0">Summerfield</label>
+                    <label class='num1' for="slide9-1">Flower Child</label>
+                    <label class='num2' for="slide9-2">Girl</label>
                 </div>
                 <div class='arrowprev' data-childs="center -center">
                     <label class='num0' for='slide9-0'><span></span></label>
@@ -784,10 +820,10 @@
                     <li class='num3'><img src='/images/pentax.jpg' width="830" height="360" alt='Pentax' title='Pentax'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
-                    <label class='num0'><big><span>Polaroid</span></big><small><span>Instant photo</span></small></label>
-                    <label class='num1'><big><span>Camera</span></big><small><span>Retro</span></small></label>
-                    <label class='num2'><big><span>Photography</span></big><small><span>Analog</span></small></label>
-                    <label class='num3'><big><span>Camera</span></big><small><span>Nostalgia</span></small></label>
+                    <label class='num0' for="slide8-0"><big><span>Polaroid</span></big><small><span>Instant photo</span></small></label>
+                    <label class='num1' for="slide8-1"><big><span>Camera</span></big><small><span>Retro</span></small></label>
+                    <label class='num2' for="slide8-2"><big><span>Photography</span></big><small><span>Analog</span></small></label>
+                    <label class='num3' for="slide8-3"><big><span>Camera</span></big><small><span>Nostalgia</span></small></label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide8-0'></label>
@@ -823,9 +859,9 @@
                     <li class='num2'><img src='/images/street.jpg' width="960" height="500" alt='Street' title='Street'></li>
                 </ul>
                 <div class='description' data-childs="col -end">
-                    <label class='num0'><big><span>Scooter</span></big><small><span>Vintage</span></small></label>
-                    <label class='num1'><big><span>Scooter</span></big><small><span>Vespa</span></small></label>
-                    <label class='num2'><big><span>Scooter</span></big><small><span>Street</span></small></label>
+                    <label class='num0' for="slide7-0"><big><span>Scooter</span></big><small><span>Vintage</span></small></label>
+                    <label class='num1' for="slide7-1"><big><span>Scooter</span></big><small><span>Vespa</span></small></label>
+                    <label class='num2' for="slide7-2"><big><span>Scooter</span></big><small><span>Street</span></small></label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide7-0'><span><i></i></span></label>

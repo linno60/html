@@ -1,0 +1,296 @@
+/*------- SLIDER #26 -------*/
+
+/*COMMON*/
+.csslider26 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+}
+.csslider26 > input[type=radio] {
+    display: none;
+}
+.csslider26 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider26 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider26 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0;
+    z-index: 1;  
+    transition: opacity 2000ms ease, transform 24000ms cubic-bezier(0.840, 0.970, 0.855, 1.000);
+}
+
+/*SLIDESHOW*/
+.csslider26 > ul > li.num0 {
+    transform: scale(1.3);
+    transform-origin: 100% 0;
+}
+.csslider26 > ul > li.num1 {
+    transform: scale(1.3);
+    transform-origin: 0 0;
+}
+.csslider26 > ul > li.num2 {
+    transform: scale(1.3);
+    transform-origin: 100% 100%;
+}
+.csslider26 > #slide26-0:checked ~ ul > .num0,
+.csslider26 > #slide26-1:checked ~ ul > .num1,
+.csslider26 > #slide26-2:checked ~ ul > .num2{
+    opacity: 1;
+    transform: scale(1);
+    z-index: 2;
+}
+@keyframes kenburns26 {
+    0%, 100% { transform: scale(1); opacity: 0 }
+    8.333333333333334%, 33.333333333333336% { opacity: 1 }
+    41.66666666666667%, 66.66666666666666% { transform: scale(1.3); opacity: 0; z-index: 2; }
+}
+.csslider26 > #play26:checked ~ ul > .num0 {
+    animation: kenburns26 24000ms infinite -2000ms linear;	
+}
+.csslider26 > #play26:checked ~ ul > .num1 {
+    animation: kenburns26 24000ms infinite 6000ms linear;	
+}
+.csslider26 > #play26:checked ~ ul > .num2 {
+    animation: kenburns26 24000ms infinite 14000ms linear;	
+}
+
+/*btns show*/
+.csslider26 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider26 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider26 > .arrowprev,
+.csslider26 > .arrownext {
+    opacity: 0;
+    transform: scale(2);
+}
+.csslider26:hover > .arrowprev,
+.csslider26:hover > .arrownext {
+    opacity: 0.6;
+    transform: scale(1);
+}
+.csslider26:hover > .arrowprev:hover,
+.csslider26:hover > .arrownext:hover {
+    opacity: 1;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider26 > .arrowprev,
+.csslider26 > .arrownext{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider26 > .arrowprev  {
+    left: 47px;
+}
+.csslider26 > .arrownext {
+    right: 47px;
+}
+.csslider26 > .arrowprev > label,
+.csslider26 > .arrownext > label{
+    position: absolute;
+    height: 47px;
+    width: 47px;
+    margin-top: -23.5px;
+    margin-left: -23.5px;
+    opacity: 0.6;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 4px white;
+    transition: background 0.4s, opacity 0.4s, box-shadow 0.4s;
+}
+.csslider26 > .arrowprev > label{
+    background: url(/images/icons/prev8.png)no-repeat center center;
+}
+.csslider26 > .arrownext > label{
+    background: url(/images/icons/next8.png)no-repeat center center;
+}
+.csslider26 > .arrowprev:hover > label{
+    background: #926fba url(/images/icons/prev8.png)no-repeat center center;
+}
+.csslider26 > .arrownext:hover > label{
+    background: #926fba url(/images/icons/next8.png)no-repeat center center;
+}
+.csslider26 > .arrowprev:hover > label,
+.csslider26 > .arrownext:hover > label {    
+    opacity: 1;
+    box-shadow: inset 0 0 0 4px transparent;
+}
+
+/*arrows moving*/
+.csslider26 > #slide26-0:checked ~ .arrowprev > .num2,
+.csslider26 > #slide26-0:checked ~ .arrownext > .num1, 
+.csslider26 > #slide26-1:checked ~ .arrowprev > .num0,
+.csslider26 > #slide26-1:checked ~ .arrownext > .num2, 
+.csslider26 > #slide26-2:checked ~ .arrowprev > .num1,
+.csslider26 > #slide26-2:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrows26 {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+}
+.csslider26 > #play26:checked ~ .arrowprev > .num2,
+.csslider26 > #play26:checked ~ .arrownext > .num1 {
+    animation: arrows26 24000ms infinite -2000ms;
+}
+.csslider26 > #play26:checked ~ .arrowprev > .num0,
+.csslider26 > #play26:checked ~ .arrownext > .num2 {
+    animation: arrows26 24000ms infinite 6000ms;
+}
+.csslider26 > #play26:checked ~ .arrowprev > .num1,
+.csslider26 > #play26:checked ~ .arrownext > .num0 {
+    animation: arrows26 24000ms infinite 14000ms;
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider26 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    font-family: Raleway;   
+    bottom: 35rem;
+    left: 27rem;
+    z-index: 3;
+}
+.csslider26 > .description > label > * {
+    color: #926fba;    
+    border-radius: 10px;
+    opacity: 0;
+    transform: scale(0);
+}
+.csslider26 > .description > label > big {
+    font-size: 23px;
+    margin-bottom: 5rem;
+    padding: 10rem;
+    background: rgba(255,255,255,0.9);    
+    z-index: 2;    
+    transition: 500ms opacity 600ms ease, 500ms transform 600ms ease;
+}
+.csslider26 > .description > label > small {
+    font-size: 18px;
+    z-index: 1;
+    padding: 6rem 10rem;
+    transition: 500ms opacity 850ms ease, 500ms transform 850ms ease; 
+    background: rgba(255,255,255,.5);
+    border: 4px solid white;
+}
+
+.csslider26 > #slide26-0:checked ~ .description > .num0 > big,
+.csslider26 > #slide26-0:checked ~ .description > .num0 > small,
+.csslider26 > #slide26-1:checked ~ .description > .num1 > big,
+.csslider26 > #slide26-1:checked ~ .description > .num1 > small,
+.csslider26 > #slide26-2:checked ~ .description > .num2 > big,
+.csslider26 > #slide26-2:checked ~ .description > .num2 > small{
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes description26-big {
+    2.0833333333333335%, 33.333333333333336%{ opacity: 1; transform: scale(1); z-index: 2;}
+    35.41666666666667%{ opacity: 0; transform: scale(0); z-index: 2;}
+    35.42666666666667%, 100%{ z-index: 0; }
+}
+@keyframes description26-small {
+    2.0833333333333335%, 33.333333333333336%	{ opacity: 1; transform: scale(1); z-index: 1;}
+    35.41666666666667%	{ opacity: 0; transform: scale(0); z-index: 1;}
+    35.42666666666667%, 100%	{ z-index: 0; }
+}
+.csslider26 > #play26:checked ~ .description > .num0  > big {
+    animation: description26-big 24000ms infinite -1400ms ease;
+}
+.csslider26 > #play26:checked ~ .description > .num1  > big {
+    animation: description26-big 24000ms infinite 6600ms ease;
+}
+.csslider26 > #play26:checked ~ .description > .num2  > big {
+    animation: description26-big 24000ms infinite 14600ms ease;
+}
+.csslider26 > #play26:checked ~ .description > .num0  > small {
+    animation: description26-small 24000ms infinite -1150ms ease;
+}
+.csslider26 > #play26:checked ~ .description > .num1  > small {
+    animation: description26-small 24000ms infinite 6850ms ease;
+}
+.csslider26 > #play26:checked ~ .description > .num2  > small {
+    animation: description26-small 24000ms infinite 14850ms ease;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider26 > .bullets {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 6;
+    bottom: 4px;
+}
+.csslider26 > .bullets > label {
+    position: relative;
+    margin: 6px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.6);
+    transition: box-shadow .4s, background .4s;
+}
+.csslider26 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -55px;
+    top: -60px;
+    border: 4px solid rgba(255,255,255,.6);
+    border-radius: 10px;
+    transform: scale(2) translateY(-20px);
+    transition: all .3s;
+    overflow: hidden;
+}
+.csslider26 > .bullets > label:hover figure {
+    visibility: visible;
+    opacity: 1;
+    transform:scale(1);
+}
+.csslider26 > .bullets > label figure:hover {
+    border: 4px solid white;
+}
+
+/*bullets moving*/
+.csslider26 > #slide26-0:checked ~ .bullets > .num0,
+.csslider26 > #slide26-1:checked ~ .bullets > .num1,
+.csslider26 > #slide26-2:checked ~ .bullets > .num2{
+    background: transparent;
+    box-shadow: 0 0 0 2px white; 
+}
+@keyframes bullets26 {
+    0%, 33.32333333333334% { box-shadow: 0 0 0 2px white; background: transparent;}
+    33.333333333333336%, 100% { box-shadow: 0 0 0 2px transparent; background: rgba(255, 255, 255, 0.6);}
+}
+.csslider26 > #play26:checked ~ .bullets > .num0 {
+    animation: bullets26 24000ms infinite -2000ms;
+}
+.csslider26 > #play26:checked ~ .bullets > .num1 {
+    animation: bullets26 24000ms infinite 6000ms;
+}
+.csslider26 > #play26:checked ~ .bullets > .num2 {
+    animation: bullets26 24000ms infinite 14000ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider26 > .description, .csslider26 > .bullets {display: none;}
+}

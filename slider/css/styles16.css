@@ -161,7 +161,7 @@
     opacity: 0.6;
     border-radius: 50%;
     box-shadow: inset 0 0 0 4px white;
-    transition: background 0.4s, box-shadow 0.4s;
+    transition: background 0.4s, opacity 0.4s, box-shadow 0.4s;
 }
 .csslider16 > .arrowprev > label{
     background: url(/images/icons/prev8.png)no-repeat center center;
