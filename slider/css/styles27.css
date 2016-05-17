@@ -1,0 +1,262 @@
+/*------- SLIDER #27 -------*/
+
+/*COMMON*/
+.csslider27 {
+    position: relative;
+    max-width: 960px; 
+    overflow: hidden;
+    box-shadow: 0 0 0 1px white;
+}
+.csslider27 > input[type=radio] {
+    display: none;
+}
+.csslider27 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider27 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider27 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0;
+    transform: scale(2);
+    z-index: 1;  
+    transition: transform 2000ms ease, opacity 2000ms ease;
+}
+
+/*SLIDESHOW*/
+.csslider27 > #slide27-0:checked ~ ul > .num0,
+.csslider27 > #pause27-0:checked ~ ul > .num0,
+.csslider27 > #slide27-1:checked ~ ul > .num1,
+.csslider27 > #pause27-1:checked ~ ul > .num1,
+.csslider27 > #slide27-2:checked ~ ul > .num2,
+.csslider27 > #pause27-2:checked ~ ul > .num2,
+.csslider27 > #slide27-3:checked ~ ul > .num3,
+.csslider27 > #pause27-3:checked ~ ul > .num3 {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+}
+@keyframes fade-in27 {
+    0%, 37.5%, 100% { opacity: 0; z-index: 2; transform: scale(2); }
+    12.5%, 25% { opacity: 1; z-index: 2; transform: scale(1); }
+}
+.csslider27 > #play27:checked ~ ul > .num0 {
+    animation: fade-in27 16000ms infinite -2000ms;
+}
+.csslider27 > #play27:checked ~ ul > .num1 {
+    animation: fade-in27 16000ms infinite 2000ms;
+}
+.csslider27 > #play27:checked ~ ul > .num2 {
+    animation: fade-in27 16000ms infinite 6000ms;
+}
+.csslider27 > #play27:checked ~ ul > .num3 {
+    animation: fade-in27 16000ms infinite 10000ms;
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider27 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    left: 0;    
+    bottom: 30px;
+    z-index: 3;
+}
+.csslider27 > .description > label > * {
+    color: white;
+    border: 1px solid white;
+    padding: 15rem;
+    margin: 5rem 10rem;
+    opacity: 0;
+}
+.csslider27 > .description > label > * > span {
+    display: inline-block;
+    opacity: 0;
+    transform: scale(0);
+}
+.csslider27 > .description > label > small {   
+    transform: translate(200px, 0);
+    transition: 750ms opacity 600ms ease, 750ms transform 600ms ease;
+}
+.csslider27 > .description > label > big {
+    transform: translate(0, -200px);
+    transition: 750ms opacity 850ms ease, 750ms transform 850ms ease;
+}
+.csslider27 > .description > label > small > span { 
+    font-size: 16px;
+    transition: 750ms opacity 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider27 > .description > label > big > span {
+    font-size: 20px;
+    transition: 750ms opacity 1000ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 1000ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+/*description moving*/
+.csslider27 > #slide27-0:checked ~ .description > .num0 > small,
+.csslider27 > #slide27-0:checked ~ .description > .num0 > big,
+.csslider27 > #pause27-0:checked ~ .description > .num0 > small,
+.csslider27 > #pause27-0:checked ~ .description > .num0 > big,
+.csslider27 > #slide27-1:checked ~ .description > .num1 > small,
+.csslider27 > #slide27-1:checked ~ .description > .num1 > big,
+.csslider27 > #pause27-1:checked ~ .description > .num1 > small,
+.csslider27 > #pause27-1:checked ~ .description > .num1 > big,
+.csslider27 > #slide27-2:checked ~ .description > .num2 > small,
+.csslider27 > #slide27-2:checked ~ .description > .num2 > big,
+.csslider27 > #pause27-2:checked ~ .description > .num2 > small,
+.csslider27 > #pause27-2:checked ~ .description > .num2 > big,
+.csslider27 > #slide27-3:checked ~ .description > .num3 > small,
+.csslider27 > #slide27-3:checked ~ .description > .num3 > big,
+.csslider27 > #pause27-3:checked ~ .description > .num3 > small,
+.csslider27 > #pause27-3:checked ~ .description > .num3 > big {
+    opacity: 1;
+    z-index: 4;
+    transform: translate(0, 0);
+}
+.csslider27 > #slide27-0:checked ~ .description > .num0 span,
+.csslider27 > #pause27-0:checked ~ .description > .num0 span,
+.csslider27 > #slide27-1:checked ~ .description > .num1 span,
+.csslider27 > #pause27-1:checked ~ .description > .num1 span,
+.csslider27 > #slide27-2:checked ~ .description > .num2 span,
+.csslider27 > #pause27-2:checked ~ .description > .num2 span,
+.csslider27 > #slide27-3:checked ~ .description > .num3 span,
+.csslider27 > #pause27-3:checked ~ .description > .num3 span {
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes description27-big {
+    3.75%, 21.24% { opacity: 1; transform: translate(0, 0); z-index: 2;}
+    28.75% { opacity: 0; transform: translate(0, -200px); z-index: 2;}
+    28.76%, 100% { z-index: 0; }
+}
+@keyframes description27-small {
+    3.75%, 21.24% { opacity: 1; transform: translate(0, 0); z-index: 1;}
+    28.75% { opacity: 0; transform: translate(200px, 0); z-index: 1;}
+    28.76%, 100% { z-index: 0; }
+}
+.csslider27 > #play27:checked ~ .description > .num0  > big {
+    animation: description27-big 16000ms infinite -1400ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num1  > big {
+    animation: description27-big 16000ms infinite 2600ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num2  > big {
+    animation: description27-big 16000ms infinite 6600ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num3  > big {
+    animation: description27-big 16000ms infinite 10600ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num0  > small {
+    animation: description27-small 16000ms infinite -1150ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num1  > small {
+    animation: description27-small 16000ms infinite 2850ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num2  > small {
+    animation: description27-small 16000ms infinite 6850ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num3  > small {
+    animation: description27-small 16000ms infinite 10850ms ease;
+}
+@keyframes description27-big-text {
+    2.625%, 22.365% { opacity: 0.7; transform: scale(1.15); }
+    3.75%, 21.24% { opacity: 1; transform: scale(1); }
+    0%, 28.75% { opacity: 0; transform: scale(0); }
+}
+@keyframes description27-small-text {
+    2.625%, 22.365% { opacity: 0.7; transform: scale(1.15); }
+    3.75%, 21.24% { opacity: 1; transform: scale(1); }
+    0%, 28.75% { opacity: 0; transform: scale(0); }
+}
+.csslider27 > #play27:checked ~ .description > .num0 big > span {
+    animation: description27-big-text 16000ms infinite -1250ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num1 big > span {
+    animation: description27-big-text 16000ms infinite 2750ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num2 big > span {
+    animation: description27-big-text 16000ms infinite 6750ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num3 big > span {
+    animation: description27-big-text 16000ms infinite 10750ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num0 small > span {
+    animation: description27-small-text 16000ms infinite -1000ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num1 small > span {
+    animation: description27-small-text 16000ms infinite 3000ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num2 small > span {
+    animation: description27-small-text 16000ms infinite 7000ms ease;
+}
+.csslider27 > #play27:checked ~ .description > .num3 small > span {
+    animation: description27-small-text 16000ms infinite 11000ms ease;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider27 > .bullets {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 6;
+    bottom: 12.5px;
+}
+.csslider27 > .bullets > label {
+    position: relative;
+    width: 40px;
+    height: 12px;
+    box-shadow: inset 0px 0px 0px 1px white;
+    position: relative;
+    margin: 2.5px 4px;
+    border: 1px solid transparent;
+}
+.csslider27 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -49px;
+    top: -58px;
+    border: 1px solid white;
+    transition: all 0.3s;
+}
+.csslider27 > .bullets > label:hover > figure {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*bullets moving*/
+.csslider27 > #slide27-0:checked ~ .bullets > label.num0,
+.csslider27 > #pause27-0:checked ~ .bullets > label.num0,
+.csslider27 > #slide27-1:checked ~ .bullets > label.num1,
+.csslider27 > #pause27-1:checked ~ .bullets > label.num1,
+.csslider27 > #slide27-2:checked ~ .bullets > label.num2,
+.csslider27 > #pause27-2:checked ~ .bullets > label.num2,
+.csslider27 > #slide27-3:checked ~ .bullets > label.num3,
+.csslider27 > #pause27-3:checked ~ .bullets > label.num3{
+    border-color: white;
+}
+@keyframes bullets27 {
+    0%, 24.99%	{ border-color: white; }
+    25%, 100% { border-color: transparent; }
+}
+.csslider27 > #play27:checked ~ .bullets > label.num0{
+    animation: bullets27 16000ms infinite -2000ms;
+}
+.csslider27 > #play27:checked ~ .bullets > label.num1{
+    animation: bullets27 16000ms infinite 2000ms;
+}
+.csslider27 > #play27:checked ~ .bullets > label.num2{
+    animation: bullets27 16000ms infinite 6000ms;
+}
+.csslider27 > #play27:checked ~ .bullets > label.num3{
+    animation: bullets27 16000ms infinite 10000ms;
+}

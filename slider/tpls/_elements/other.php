@@ -1,15 +1,28 @@
-<div class="wrap" data-flex="w">
+<div class="wrap" data-flex="-start w">
     <div class="wrapper"><div class="item"></div></div>
     <div class="gate">
         <big class="first"><span>First</span></big>
         <big class="second"><span>Second</span></big>
     </div>
     <div class="rising"><div></div></div>
-    <div class="sun"></div>
+    <div class="sun"></div>    
     <div class="moon"></div>
-    <div class="hoja"></div>
     <div class="prev"><label></label></div>
     <div class="next"><label></label></div>
+    <div class="mirror">Hey!!!</div>
+    <div class="ball"></div>
+    <div id="page-flip">
+        <div id="r1"><div id="p1"><div><div></div></div></div></div>
+        <div id="p2"><div></div></div>
+        <div id="r3"><div id="p3"><div><div></div></div></div></div>
+        <div class="s"><div id="s3"><div id="sp3"></div></div></div>
+        <div class="s" id="s4"><div id="s2"><div id="sp2"></div></div></div>
+    </div>
+    <div class="curl"></div>
+    <div class="card">
+        <img src="/images/alcoholsm.jpg" alt="img">
+        <span>Text</span>
+    </div>
 </div>
 
 <div class="animated"><span class="bounce">bounce</span></div>
