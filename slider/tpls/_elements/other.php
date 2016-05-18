@@ -1,5 +1,5 @@
 <div class="wrap" data-flex="-start w">
-    <div class="wrapper"><div class="item"></div></div>
+    <div class="cube"><div></div></div>
     <div class="gate">
         <big class="first"><span>First</span></big>
         <big class="second"><span>Second</span></big>
@@ -9,19 +9,36 @@
     <div class="moon"></div>
     <div class="prev"><label></label></div>
     <div class="next"><label></label></div>
-    <div class="mirror">Hey!!!</div>
     <div class="ball"></div>
     <div id="page-flip">
-        <div id="r1"><div id="p1"><div><div></div></div></div></div>
-        <div id="p2"><div></div></div>
-        <div id="r3"><div id="p3"><div><div></div></div></div></div>
-        <div class="s"><div id="s3"><div id="sp3"></div></div></div>
-        <div class="s" id="s4"><div id="s2"><div id="sp2"></div></div></div>
+        <div id="r1"><div id="p1"><div></div></div></div>
+        <div id="p2"></div>
+        <div id="r3"><div id="p3"><div></div></div></div>
     </div>
     <div class="curl"></div>
     <div class="card">
         <img src="/images/alcoholsm.jpg" alt="img">
         <span>Text</span>
+    </div>
+    <div class="decoration">Lorem</div>
+    <div class="oblique" data-hover="Lorem">Lorem</div>
+    <div class="spinner"></div>
+    <div class="cube-grid" data-flex="stripe w">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+        <div class="cube3"></div>
+        <div class="cube4"></div>
+        <div class="cube5"></div>
+        <div class="cube6"></div>
+        <div class="cube7"></div>
+        <div class="cube8"></div>
+        <div class="cube9"></div>
+    </div>
+    <div class="cube-folding">
+        <div class="cubef1"></div>
+        <div class="cubef2"></div>
+        <div class="cubef4"></div>
+        <div class="cubef3"></div>
     </div>
 </div>
 

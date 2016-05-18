@@ -59,6 +59,31 @@
     animation: fade-in27 16000ms infinite 10000ms;
 }
 
+/*btns show*/
+.csslider27 > .arrowprev {
+    transition: .4s all 0s ease;
+    transform: translateX(240px);	
+}
+.csslider27 > .arrownext {
+    transition: .4s all .15s ease;
+    transform: translateX(-240px);	
+}
+.csslider27 > .play-pause {
+    transition: .4s all .3s ease;
+    transform: scale(0.2);	
+}
+.csslider27 > .arrowprev,
+.csslider27 > .arrownext,
+.csslider27 > .play-pause {
+    opacity: 0;
+}
+.csslider27:hover > .arrowprev,
+.csslider27:hover > .arrownext,
+.csslider27:hover > .play-pause {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
+}
+
 /*DESCRIPTION*/
 
 /*description template*/
@@ -66,7 +91,7 @@
     position: absolute;
     max-width: 50%;
     left: 0;    
-    bottom: 30px;
+    bottom: 30rem;
     z-index: 3;
 }
 .csslider27 > .description > label > * {
@@ -83,11 +108,11 @@
 }
 .csslider27 > .description > label > small {   
     transform: translate(200px, 0);
-    transition: 750ms opacity 600ms ease, 750ms transform 600ms ease;
+    transition: 750ms opacity 850ms ease, 750ms transform 850ms ease;    
 }
 .csslider27 > .description > label > big {
     transform: translate(0, -200px);
-    transition: 750ms opacity 850ms ease, 750ms transform 850ms ease;
+    transition: 750ms opacity 600ms ease, 750ms transform 600ms ease;
 }
 .csslider27 > .description > label > small > span { 
     font-size: 16px;
@@ -259,4 +284,167 @@
 }
 .csslider27 > #play27:checked ~ .bullets > label.num3{
     animation: bullets27 16000ms infinite 10000ms;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider27 > .arrowprev,
+.csslider27 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider27 > .arrowprev {
+    top: 50%;
+    left: 40px;
+}
+.csslider27 > .arrownext {
+    top: 50%;
+    right: 40px;
+}
+.csslider27 > .arrowprev > label,
+.csslider27 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    margin-top: -20px;
+    margin-left: -20px;
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-color: white;
+    transition: transform 0.2s ease;
+    transform: rotate(45deg);   
+}
+.csslider27 > .arrowprev > label {
+    border-width: 0 0 1px 1px;
+}
+.csslider27 > .arrownext > label {
+    border-width: 1px 1px 0 0;
+}
+.csslider27 > .arrownext > label:hover,
+.csslider27 > .arrowprev > label:hover {
+    transform: scale(1.1) rotate(45deg);	
+}
+.csslider27 > #slide27-0:checked ~ .arrowprev > label.num3,
+.csslider27 > #pause27-0:checked ~ .arrowprev > label.num3,
+.csslider27 > #slide27-0:checked ~ .arrownext > label.num1,
+.csslider27 > #pause27-0:checked ~ .arrownext > label.num1, 
+.csslider27 > #slide27-1:checked ~ .arrowprev > label.num0,
+.csslider27 > #pause27-1:checked ~ .arrowprev > label.num0,
+.csslider27 > #slide27-1:checked ~ .arrownext > label.num2,
+.csslider27 > #pause27-1:checked ~ .arrownext > label.num2, 
+.csslider27 > #slide27-2:checked ~ .arrowprev > label.num1,
+.csslider27 > #pause27-2:checked ~ .arrowprev > label.num1,
+.csslider27 > #slide27-2:checked ~ .arrownext > label.num3,
+.csslider27 > #pause27-2:checked ~ .arrownext > label.num3, 
+.csslider27 > #slide27-3:checked ~ .arrowprev > label.num2,
+.csslider27 > #pause27-3:checked ~ .arrowprev > label.num2,
+.csslider27 > #slide27-3:checked ~ .arrownext > label.num0,
+.csslider27 > #pause27-3:checked ~ .arrownext > label.num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow27 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100% { opacity: 0; z-index: -1; }
+}
+.csslider27 > #play27:checked ~ .arrowprev > label.num3,
+.csslider27 > #play27:checked ~ .arrownext > label.num1 {
+    animation: arrow27 16000ms infinite -2000ms;	
+}
+.csslider27 > #play27:checked ~ .arrowprev > label.num0,
+.csslider27 > #play27:checked ~ .arrownext > label.num2 {
+    animation: arrow27 16000ms infinite 2000ms;	
+}
+.csslider27 > #play27:checked ~ .arrowprev > label.num1,
+.csslider27 > #play27:checked ~ .arrownext > label.num3 {
+    animation: arrow27 16000ms infinite 6000ms;	
+}
+.csslider27 > #play27:checked ~ .arrowprev > label.num2,
+.csslider27 > #play27:checked ~ .arrownext > label.num0 {
+    animation: arrow27 16000ms infinite 10000ms;	
+}
+
+/*PLAY-PAUSE*/
+
+/*play-pause template*/
+.csslider27 > .play-pause{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+}
+.csslider27 > .play-pause > label {
+    position: absolute;
+    margin-top: -15px;
+    transition: all 0.2s;
+}
+.csslider27 > .play-pause > .play {
+    margin-left: -12px;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    transform: rotate(45deg) scale(1);
+}
+.csslider27 > .play-pause > .play:after {
+    content: '';
+    position: absolute;
+    height: 43px;
+    border-left: 2px solid white;
+    left: 14px;
+    top: -7px;
+    transform: rotate(-45deg);
+}
+.csslider27 > .play-pause > .pause {
+    width: 12px;
+    height: 40px;
+    margin-left: 5px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.csslider27 > .play-pause > .play:hover {
+    transform: scale(1.1) rotate(45deg);
+}
+.csslider27 > .play-pause > .pause:hover {
+    transform: scale(1.1);
+}
+
+/*play-pause moving*/
+.csslider27 > #play27:checked ~ .play-pause > .pause,
+.csslider27 > input:checked ~ .play-pause > .play{
+    display: block;
+    z-index: 5;
+}
+.csslider27 > #play27:checked ~ .play-pause > .play,
+.csslider27 > input:checked ~ .play-pause > .pause{
+    display: none;
+    z-index: -1;
+}
+@keyframes play-pause27 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100% { opacity: 0; z-index: -1; }
+}
+.csslider27 > #play27:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;	
+}
+.csslider27 > #play27:checked ~ .play-pause > .num0 {
+    animation: play-pause27 16000ms infinite -2000ms;	
+}
+.csslider27 > #play27:checked ~ .play-pause > .num1 {
+    animation: play-pause27 16000ms infinite 2000ms;	
+}
+.csslider27 > #play27:checked ~ .play-pause > .num2 {
+    animation: play-pause27 16000ms infinite 6000ms;	
+}
+.csslider27 > #play27:checked ~ .play-pause > .num3 {
+    animation: play-pause27 16000ms infinite 10000ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .csslider27 > .description, .csslider27 > .bullets {display: none;}
 }

@@ -47,6 +47,58 @@
     </head>
     <body>
         <div>
+            <h2 class="h2">Slider #28</h2>
+            <div class='csslider28 lwrap'>
+                <input name="anchor28" id='slide28-0' type="radio">
+                <input name="anchor28" id='slide28-1' type="radio">
+                <input name="anchor28" id='slide28-2' type="radio">
+                <input name="anchor28" id='slide28-3' type="radio">
+                <input name="anchor28" id='play28' type="radio" checked>
+                <input name="anchor28" id='pause28-0' type="radio">
+                <input name="anchor28" id='pause28-1' type="radio">
+                <input name="anchor28" id='pause28-2' type="radio">
+                <input name="anchor28" id='pause28-3' type="radio">
+                <ul>
+                    <li><img src="/images/.jpg" width="960" height="480"></li>
+                    <li class='num0'><img src='/images/.jpg' width="960" height="360" alt='Hyundai i20' title='Hyundai i20'></li>
+                    <li class='num1'><img src='/images/.jpg' width="960" height="360" alt='Citroën DS3 WRC' title='Citroën DS3 WRC'></li>
+                    <li class='num2'><img src='/images/.jpg' width="960" height="360" alt='Volkswagen Polo R WRC' title='Volkswagen Polo R WRC'></li>
+                    <li class='num3'><img src='/images/.jpg' width="960" height="360" alt='Škoda Fabia Super 2000' title='Škoda Fabia Super 2000'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause28-0'><big>Hyundai i20</big><small>World rally championship</small></label>
+                    <label class='num1' for='pause28-1'><big>Citroën DS3 WRC</big><small>Sébastien Loeb</small></label>
+                    <label class='num2' for='pause28-2'><big>Volkswagen Polo R WRC</big><small>Sébastien Ogier</small></label>
+                    <label class='num3' for='pause28-3'><big>Škoda Fabia Super 2000</big><small>Jan Kopecký</small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play28'></label>
+                    <label class='pause num0' for='pause28-0'></label>
+                    <label class='pause num1' for='pause28-1'></label>
+                    <label class='pause num2' for='pause28-2'></label>
+                    <label class='pause num3' for='pause28-3'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide28-0'></label>
+                    <label class='num1' for='slide28-1'></label>
+                    <label class='num2' for='slide28-2'></label>
+                    <label class='num3' for='slide28-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide28-0'></label>
+                    <label class='num1' for='slide28-1'></label>
+                    <label class='num2' for='slide28-2'></label>
+                    <label class='num3' for='slide28-3'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide28-0'><figure><img src='/images/.jpg' width="128" height="48" alt='Hyundai i20' title='Hyundai i20'></figure></label>
+                    <label class='num1' for='slide28-1'><figure><img src='/images/.jpg' width="128" height="48" alt='Citroën DS3 WRC' title='Citroën DS3 WRC'></figure></label>
+                    <label class='num2' for='slide28-2'><figure><img src='/images/.jpg' width="128" height="48" alt='Volkswagen Polo R WRC' title='Volkswagen Polo R WRC'></figure></label>                    
+                    <label class='num3' for='slide28-3'><figure><img src='/images/.jpg' width="128" height="48" alt='Škoda Fabia Super 2000' title='Škoda Fabia Super 2000'></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
             <h2 class="h2">Slider #27</h2>
             <div class='csslider27 lwrap'>
                 <input name="anchor27" id='slide27-0' type="radio">
@@ -54,6 +106,10 @@
                 <input name="anchor27" id='slide27-2' type="radio">
                 <input name="anchor27" id='slide27-3' type="radio">
                 <input name="anchor27" id='play27' type="radio" checked>
+                <input name="anchor27" id='pause27-0' type="radio">
+                <input name="anchor27" id='pause27-1' type="radio">
+                <input name="anchor27" id='pause27-2' type="radio">
+                <input name="anchor27" id='pause27-3' type="radio">
                 <ul>
                     <li><img src="/images/bmwbike.jpg" width="960" height="480"></li>
                     <li class='num0'><img src='/images/bmwbike.jpg' width="960" height="480" alt='BMW F-800' title='BMW F-800'></li>
