@@ -1,0 +1,70 @@
+/*------- SLIDER #29 -------*/
+
+/*COMMON*/
+.csslider29 {
+    position: relative;
+    max-height: 430px;
+    width: 100%;
+    overflow: hidden;
+}
+.csslider29 > ul{
+    position: relative;
+}
+.csslider29 > input[type=radio] {
+    display: none;
+}
+.csslider29 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider29 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider29 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 1;
+    transition: visibility .3s linear, opacity .3s linear;
+}
+
+/*SLIDESHOW*/
+.csslider29 > ul > li.num0 {
+    left: 0%;
+}
+.csslider29 > ul > li.num1 {
+    left: 100%;
+}
+.csslider29 > ul > li.num2 {
+    left: 200%;
+}
+.csslider29 > ul > li.num3 {
+    left: 300%;
+}
+.csslider29 > #slide29-0:checked ~ ul > li,
+.csslider29 > #pause29-0:checked ~ ul > li {
+    transform: translateX(0%);
+}
+.csslider29 > #slide29-1:checked ~ ul > li,
+.csslider29 > #pause29-1:checked ~ ul > li {
+    transform: translateX(-100%);
+}
+.csslider29 > #slide29-2:checked ~ ul > li,
+.csslider29 > #pause29-2:checked ~ ul > li {
+    transform: translateX(-200%);
+}
+.csslider29 > #slide29-3:checked ~ ul > li,
+.csslider29 > #pause29-3:checked ~ ul > li {
+    transform: translateX(-300%);
+}
+@keyframes slide29 {
+    0%, 13.372093023255815%{ transform: translateX(0%); }
+    25%, 38.372093023255815%{ transform: translateX(-100%); }
+    50%, 63.372093023255815%{ transform: translateX(-200%); }
+    75%, 88.37209302325581%{ transform: translateX(-300%); }
+}
+.csslider29  > #play29:checked ~ ul > li {
+    animation: slide29 17200ms infinite;	
+}

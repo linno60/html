@@ -119,30 +119,22 @@
     opacity: 0;
     transform: translateY(-30px);
 }
-.csslider18 > #slide18-0:checked ~ .description  > .num0,
-.csslider18 > #pause18-0:checked ~ .description  > .num0,
-.csslider18 > #slide18-1:checked ~ .description  > .num1,
-.csslider18 > #pause18-1:checked ~ .description  > .num1,
-.csslider18 > #slide18-2:checked ~ .description  > .num2,
-.csslider18 > #pause18-2:checked ~ .description  > .num2,
-.csslider18 > #slide18-3:checked ~ .description  > .num3,
-.csslider18 > #pause18-3:checked ~ .description  > .num3 {
+.csslider18 > #slide18-0:checked ~ .description > .num0,
+.csslider18 > #pause18-0:checked ~ .description > .num0,
+.csslider18 > #slide18-1:checked ~ .description > .num1,
+.csslider18 > #pause18-1:checked ~ .description > .num1,
+.csslider18 > #slide18-2:checked ~ .description > .num2,
+.csslider18 > #pause18-2:checked ~ .description > .num2,
+.csslider18 > #slide18-3:checked ~ .description > .num3,
+.csslider18 > #pause18-3:checked ~ .description > .num3 {
     opacity: 1;
-    z-index: 4;
-    transition: .5s opacity .2s ease, .5s transform .2s ease;
+    z-index: 4;    
     transform: translateY(0);
+    transition: .5s opacity .2s ease, .5s transform .2s ease;
 }
 @keyframes description18 {
-    3.4722222222222223%, 14.920555555555557%  {
-        opacity: 1;
-        z-index: 4;
-        transform: translateY(0);
-    }
-    0%, 18.40277777777778%, 100%  {
-        opacity: 0;
-        z-index: 0;
-        transform: translateY(-30px);    
-    }
+    3.4722222222222223%, 14.920555555555557%  { opacity: 1; z-index: 4; transform: translateY(0); }
+    0%, 18.40277777777778%, 100%  { opacity: 0; z-index: 0; transform: translateY(-30px); }
 }
 .csslider18 > #play18:checked ~ .description  > .num0 {
     animation: description18 14400ms infinite 0ms;
@@ -202,7 +194,6 @@
 .csslider18 > .arrowprev > label:after,
 .csslider18 > .arrownext > label:after,
 .csslider18 > .play-pause > label:after{    
-    top: 0px;
     top: 0px;    
     height: 100%;   
 }
@@ -378,7 +369,7 @@
     background: #35bd46;
 }
 @keyframes bullet18 {
-    0%, 24.99%  { border: 2px solid rgba(255,255,255,0); background: #35BD46; }
+    0%, 24.99%  { border: 2px solid rgba(255,255,255,0); background: #35bd46; }
     25%, 100% { border: 2px solid #fff; background: transparent; }
 }
 .csslider18 > #play18:checked ~ .bullets > .num0 {

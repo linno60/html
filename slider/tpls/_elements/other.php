@@ -9,12 +9,7 @@
     <div class="moon"></div>
     <div class="prev"><label></label></div>
     <div class="next"><label></label></div>
-    <div class="ball"></div>
-    <div id="page-flip">
-        <div id="r1"><div id="p1"><div></div></div></div>
-        <div id="p2"></div>
-        <div id="r3"><div id="p3"><div></div></div></div>
-    </div>
+    <div class="ball"></div>    
     <div class="curl"></div>
     <div class="card">
         <img src="/images/alcoholsm.jpg" alt="img">
@@ -40,8 +35,35 @@
         <div class="cubef4"></div>
         <div class="cubef3"></div>
     </div>
+    <div class="tooth"></div>
+    <div class="loader"></div>
+    <div class="loader-alt"></div>
+    <input id="check" type="checkbox" name="wonderfulcheck">
+    <label for="check" data-flex></label>
+    <div class="ribbon">ribbon</div>
+    <div class="steps"></div>  
 </div>
-
+<div class="animated"><span class="magic">magic</span></div>
+<div class="animated"><span class="twisterInDown">twisterInDown</span></div>
+<div class="animated"><span class="twisterInUp">twisterInUp</span></div>
+<div class="animated"><span class="swap">swap</span></div>
+<div class="animated"><span class="perspectiveDown">perspectiveDown</span></div>
+<div class="animated"><span class="perspectiveUp">perspectiveUp</span></div>
+<div class="animated"><span class="perspectiveLeft">perspectiveLeft</span></div>
+<div class="animated"><span class="perspectiveRight">perspectiveRight</span></div>
+<div class="animated"><span class="perspectiveDownRetourn">perspectiveDownRetourn</span></div>
+<div class="animated"><span class="perspectiveUpRetourn">perspectiveUpRetourn</span></div>
+<div class="animated"><span class="perspectiveLeftRetourn">perspectiveLeftRetourn</span></div>
+<div class="animated"><span class="perspectiveRightRetourn">perspectiveRightRetourn</span></div>
+<div class="animated"><span class="rotateDown">rotateDown</span></div>
+<div class="animated"><span class="rotateLeft">rotateLeft</span></div>
+<div class="animated"><span class="rotateRight">rotateRight</span></div>
+<div class="animated"><span class="rotateUp">rotateUp</span></div>
+<div class="animated"><span class="foolishOut">foolishOut</span></div>
+<div class="animated"><span class="foolishIn">foolishIn</span></div>
+<div class="animated"><span class="holeOut">holeOut</span></div>
+<div class="animated"><span class="boingInUp">boingInUp</span></div>
+<div class="animated"><span class="boingOutDown">boingOutDown</span></div>
 <div class="animated"><span class="bounce">bounce</span></div>
 <div class="animated"><span class="flash">flash</span></div>
 <div class="animated"><span class="pulse">pulse</span></div>
@@ -116,3 +138,9 @@
 <div class="animated"><span class="slideOutLeft">slideOutLeft</span></div>
 <div class="animated"><span class="slideOutRight">slideOutRight</span></div>
 <div class="animated"><span class="slideOutUp">slideOutUp</span></div>
+
+<div id="page-flip">
+    <div id="r1"><div id="p1"><div></div></div></div>
+    <div id="p2"></div>
+    <div id="r3"><div id="p3"><div></div></div></div>
+</div>

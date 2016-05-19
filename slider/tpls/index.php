@@ -37,6 +37,8 @@
         <link rel="stylesheet" href="/css/styles25.css">
         <link rel="stylesheet" href="/css/styles26.css">
         <link rel="stylesheet" href="/css/styles27.css"> 
+        <link rel="stylesheet" href="/css/styles28.css">
+        <link rel="stylesheet" href="/css/styles29.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -46,6 +48,58 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #29</h2>
+            <div class='csslider29 lwrap'>
+                <input name="anchor29" id='slide29-0' type="radio">
+                <input name="anchor29" id='slide29-1' type="radio">
+                <input name="anchor29" id='slide29-2' type="radio">
+                <input name="anchor29" id='slide29-3' type="radio">
+                <input name="anchor29" id='play29' type="radio" checked>
+                <input name="anchor29" id='pause29-0' type="radio">
+                <input name="anchor29" id='pause29-1' type="radio">
+                <input name="anchor29" id='pause29-2' type="radio">
+                <input name="anchor29" id='pause29-3' type="radio">
+                <ul>
+                    <li><img src="/images/daisy.jpg" width="830" height="430"></li>
+                    <li class='num0'><img src='/images/daisy.jpg' width="830" height="430" alt='' title=''></li>
+                    <li class='num1'><img src='/images/chamomile.jpg' width="830" height="430" alt='' title=''></li>
+                    <li class='num2'><img src='/images/pansy.jpg' width="830" height="430" alt='' title=''></li>
+                    <li class='num3'><img src='/images/rosewhite.jpg' width="830" height="430" alt='' title=''></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause29-0'><big></big><small></small></label>
+                    <label class='num1' for='pause29-1'><big></big><small></small></label>
+                    <label class='num2' for='pause29-2'><big></big><small></small></label>
+                    <label class='num3' for='pause29-3'><big></big><small></small></label>
+                </div>
+                <div class='play-pause'>
+                    <label class='play' for='play29'></label>
+                    <label class='pause num0' for='pause29-0'></label>
+                    <label class='pause num1' for='pause29-1'></label>
+                    <label class='pause num2' for='pause29-2'></label>
+                    <label class='pause num3' for='pause29-3'></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide29-0'></label>
+                    <label class='num1' for='slide29-1'></label>
+                    <label class='num2' for='slide29-2'></label>
+                    <label class='num3' for='slide29-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide29-0'></label>
+                    <label class='num1' for='slide29-1'></label>
+                    <label class='num2' for='slide29-2'></label>
+                    <label class='num3' for='slide29-3'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide29-0'><figure><img src='/images/.jpg' width="92" height="48" alt='' title=''></figure></label>
+                    <label class='num1' for='slide29-1'><figure><img src='/images/.jpg' width="92" height="48" alt='' title=''></figure></label>
+                    <label class='num2' for='slide29-2'><figure><img src='/images/.jpg' width="92" height="48" alt='' title=''></figure></label>                    
+                    <label class='num3' for='slide29-3'><figure><img src='/images/.jpg' width="92" height="48" alt='' title=''></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #28</h2>
             <div class='csslider28 lwrap'>
@@ -59,11 +113,11 @@
                 <input name="anchor28" id='pause28-2' type="radio">
                 <input name="anchor28" id='pause28-3' type="radio">
                 <ul>
-                    <li><img src="/images/.jpg" width="960" height="480"></li>
-                    <li class='num0'><img src='/images/.jpg' width="960" height="360" alt='Hyundai i20' title='Hyundai i20'></li>
-                    <li class='num1'><img src='/images/.jpg' width="960" height="360" alt='Citroën DS3 WRC' title='Citroën DS3 WRC'></li>
-                    <li class='num2'><img src='/images/.jpg' width="960" height="360" alt='Volkswagen Polo R WRC' title='Volkswagen Polo R WRC'></li>
-                    <li class='num3'><img src='/images/.jpg' width="960" height="360" alt='Škoda Fabia Super 2000' title='Škoda Fabia Super 2000'></li>
+                    <li><img src="/images/hyundai.jpg" width="960" height="480"></li>
+                    <li class='num0'><img src='/images/hyundai.jpg' width="960" height="360" alt='Hyundai i20' title='Hyundai i20'></li>
+                    <li class='num1'><img src='/images/citroen.jpg' width="960" height="360" alt='Citroën DS3 WRC' title='Citroën DS3 WRC'></li>
+                    <li class='num2'><img src='/images/volkswagen.jpg' width="960" height="360" alt='Volkswagen Polo R WRC' title='Volkswagen Polo R WRC'></li>
+                    <li class='num3'><img src='/images/skoda.jpg' width="960" height="360" alt='Škoda Fabia Super 2000' title='Škoda Fabia Super 2000'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
                     <label class='num0' for='pause28-0'><big>Hyundai i20</big><small>World rally championship</small></label>
@@ -91,10 +145,10 @@
                     <label class='num3' for='slide28-3'></label>
                 </div>
                 <div class='bullets' data-flex="center -center">
-                    <label class='num0' for='slide28-0'><figure><img src='/images/.jpg' width="128" height="48" alt='Hyundai i20' title='Hyundai i20'></figure></label>
-                    <label class='num1' for='slide28-1'><figure><img src='/images/.jpg' width="128" height="48" alt='Citroën DS3 WRC' title='Citroën DS3 WRC'></figure></label>
-                    <label class='num2' for='slide28-2'><figure><img src='/images/.jpg' width="128" height="48" alt='Volkswagen Polo R WRC' title='Volkswagen Polo R WRC'></figure></label>                    
-                    <label class='num3' for='slide28-3'><figure><img src='/images/.jpg' width="128" height="48" alt='Škoda Fabia Super 2000' title='Škoda Fabia Super 2000'></figure></label>
+                    <label class='num0' for='slide28-0'><figure><img src='/images/hyundaism.jpg' width="128" height="48" alt='Hyundai i20' title='Hyundai i20'></figure></label>
+                    <label class='num1' for='slide28-1'><figure><img src='/images/citroensm.jpg' width="128" height="48" alt='Citroën DS3 WRC' title='Citroën DS3 WRC'></figure></label>
+                    <label class='num2' for='slide28-2'><figure><img src='/images/volkswagensm.jpg' width="128" height="48" alt='Volkswagen Polo R WRC' title='Volkswagen Polo R WRC'></figure></label>                    
+                    <label class='num3' for='slide28-3'><figure><img src='/images/skodasm.jpg' width="128" height="48" alt='Škoda Fabia Super 2000' title='Škoda Fabia Super 2000'></figure></label>
                 </div>
             </div>
         </div>
