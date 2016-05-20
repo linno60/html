@@ -259,30 +259,30 @@
 }
 
 /*bullets moving*/
-.csslider27 > #slide27-0:checked ~ .bullets > label.num0,
-.csslider27 > #pause27-0:checked ~ .bullets > label.num0,
-.csslider27 > #slide27-1:checked ~ .bullets > label.num1,
-.csslider27 > #pause27-1:checked ~ .bullets > label.num1,
-.csslider27 > #slide27-2:checked ~ .bullets > label.num2,
-.csslider27 > #pause27-2:checked ~ .bullets > label.num2,
-.csslider27 > #slide27-3:checked ~ .bullets > label.num3,
-.csslider27 > #pause27-3:checked ~ .bullets > label.num3{
+.csslider27 > #slide27-0:checked ~ .bullets > .num0,
+.csslider27 > #pause27-0:checked ~ .bullets > .num0,
+.csslider27 > #slide27-1:checked ~ .bullets > .num1,
+.csslider27 > #pause27-1:checked ~ .bullets > .num1,
+.csslider27 > #slide27-2:checked ~ .bullets > .num2,
+.csslider27 > #pause27-2:checked ~ .bullets > .num2,
+.csslider27 > #slide27-3:checked ~ .bullets > .num3,
+.csslider27 > #pause27-3:checked ~ .bullets > .num3{
     border-color: white;
 }
 @keyframes bullets27 {
     0%, 24.99%	{ border-color: white; }
     25%, 100% { border-color: transparent; }
 }
-.csslider27 > #play27:checked ~ .bullets > label.num0{
+.csslider27 > #play27:checked ~ .bullets > .num0{
     animation: bullets27 16000ms infinite -2000ms;
 }
-.csslider27 > #play27:checked ~ .bullets > label.num1{
+.csslider27 > #play27:checked ~ .bullets > .num1{
     animation: bullets27 16000ms infinite 2000ms;
 }
-.csslider27 > #play27:checked ~ .bullets > label.num2{
+.csslider27 > #play27:checked ~ .bullets > .num2{
     animation: bullets27 16000ms infinite 6000ms;
 }
-.csslider27 > #play27:checked ~ .bullets > label.num3{
+.csslider27 > #play27:checked ~ .bullets > .num3{
     animation: bullets27 16000ms infinite 10000ms;
 }
 

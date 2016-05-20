@@ -38,10 +38,41 @@
     <div class="tooth"></div>
     <div class="loader"></div>
     <div class="loader-alt"></div>
+    <form action="#" method="post" data-flex="end" class="search">
+        <input type="button">
+        <input type="search" placeholder="search">    
+    </form>
     <input id="check" type="checkbox" name="wonderfulcheck">
     <label for="check" data-flex></label>
+    <input id="checks" type="checkbox" name="wonderfulcheck">
+    <label for="checks">check</label>
     <div class="ribbon">ribbon</div>
-    <div class="steps"></div>  
+    <div class="steps"></div> 
+    <div class="infinity">
+        <div id="infinity"></div>
+        <div id="infinity2"></div> 
+    </div>
+    <div class="nav">        
+        <input name="menu" id="open" type="radio">
+        <label for="open"><span></span></label>
+        <input name="menu" id="close" type="radio" checked="checked">
+        <label for="close"><span></span></label>       
+    </div>
+    <ul class="menu" data-flex>
+        <a href="#" data-bubble="117">Messages</a>
+        <a href="#" data-bubble="4">New Posts</a>
+        <a href="#" data-bubble="19">Notifications</a>
+        <a href="#" data-bubble="1">Hidden Coins</a>
+    </ul>
+    <div class="toggle_radio" data-flex="stripe">
+        <input type="radio" class="toggle_option" id="first_toggle" name="toggle_option">
+        <input type="radio" checked class="toggle_option" id="second_toggle" name="toggle_option">
+        <input type="radio" class="toggle_option" id="third_toggle" name="toggle_option">
+        <label for="first_toggle"><p>First Button</p></label>
+        <label for="second_toggle"><p>Second Button</p></label>
+        <label for="third_toggle"><p>Third Button</p></label>
+        <div class="toggle_option_slider"></div>
+    </div>
 </div>
 <div class="animated"><span class="magic">magic</span></div>
 <div class="animated"><span class="twisterInDown">twisterInDown</span></div>
