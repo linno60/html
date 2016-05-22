@@ -73,6 +73,20 @@
         <label for="third_toggle"><p>Third Button</p></label>
         <div class="toggle_option_slider"></div>
     </div>
+    <div class="progressbar-wrap">
+        <input type="radio" name="progress" id="five">
+        <label for="five">5%</label>
+        <input type="radio" name="progress" id="twentyfive" checked>
+        <label for="twentyfive">25%</label>
+        <input type="radio" name="progress" id="fifty">
+        <label for="fifty">50%</label>
+        <input type="radio" name="progress" id="seventyfive">
+        <label for="seventyfive">75%</label>
+        <input type="radio" name="progress" id="onehundred">
+        <label for="onehundred">100%</label>
+        <div class="progress"></div>
+    </div>
+    <div id="progress-bar" data-flex></div>
 </div>
 <div class="animated"><span class="magic">magic</span></div>
 <div class="animated"><span class="twisterInDown">twisterInDown</span></div>

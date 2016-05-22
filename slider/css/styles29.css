@@ -68,3 +68,272 @@
 .csslider29  > #play29:checked ~ ul > li {
     animation: slide29 17200ms infinite;	
 }
+
+/*BTNS SHOW*/
+.csslider29 > .arrowprev,
+.csslider29 > .arrownext,
+.csslider29 > .play-pause {
+    opacity: 0;
+    transform: scale(2);
+}
+.csslider29 > .play-pause {
+    transition: .4s all 0s ease;
+}
+.csslider29 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider29 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider29 > .arrowprev > label:after,
+.csslider29 > .arrownext > label:after,
+.csslider29 > .play-pause > label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
+    z-index: -1;
+    opacity: 0;
+    transform: scale(0.9);	
+}
+.csslider29:hover > .arrowprev,
+.csslider29:hover > .arrownext,
+.csslider29:hover > .play-pause {
+    opacity: 1;
+    transform: scale(1);
+}
+.csslider29 > .arrowprev > label:hover,
+.csslider29 > .arrownext > label:hover,
+.csslider29 > .play-pause > label:hover {
+    transform: scale(0.9);	
+}
+.csslider29 > .arrowprev > label:hover {
+    background: #4c62c3 url(/images/icons/prev19.png)no-repeat center center;
+}
+.csslider29 > .arrownext > label:hover {
+    background: #4c62c3 url(/images/icons/next19.png)no-repeat center center;
+}
+.csslider29 > .play-pause > .play:hover {
+    background: #4c62c3 url(/images/icons/play19.png)no-repeat center center;
+}
+.csslider29 > .play-pause > .pause:hover {
+    background: #4c62c3 url(/images/icons/pause19.png)no-repeat center center;
+}
+@keyframes controls29 {
+    0% { opacity: 0.3; }
+    40% { opacity: 0.5; box-shadow: 0 0 0 2px rgba(255,255,255,.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,.5); }
+    100% { box-shadow: 0 0 0 2px rgba(255,255,255,.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,.5); transform: scale(1.5); opacity: 0; }
+}
+.csslider29 > .arrowprev > label:hover:after,
+.csslider29 > .arrownext > label:hover:after,
+.csslider29 > .play-pause > label:hover:after{
+    animation: controls29 1s ease-out;	
+}
+
+/*DESCRIPTION*/
+.csslider29 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    left: 10rem;
+    bottom: 35rem;
+}
+.csslider29 > .description > label > * {
+    background: rgba(56,81,188,.6);
+    color: white;
+    padding: 10rem;
+    font-family: Duru Sans;
+    opacity: 0;
+    transform: scale(2);
+}
+.csslider29 > .description > label > big {
+    font-size: 18px;
+    z-index: 2;
+    margin-bottom: 10rem;
+    transition: 500ms opacity 600ms ease, 500ms transform 600ms ease;
+}
+.csslider29 > .description > label > small {
+    font-size: 14px;    
+    z-index: 1;    
+    transition: 500ms opacity 850ms ease, 500ms transform 850ms ease;
+}
+
+/*description moving*/
+.csslider29 > #slide29-0:checked ~ .description > .num0 > big,
+.csslider29 > #slide29-0:checked ~ .description > .num0 > small,
+.csslider29 > #pause29-0:checked ~ .description > .num0 > big,
+.csslider29 > #pause29-0:checked ~ .description > .num0 > small,
+.csslider29 > #slide29-1:checked ~ .description > .num1 > big,
+.csslider29 > #slide29-1:checked ~ .description > .num1 > small,
+.csslider29 > #pause29-1:checked ~ .description > .num1 > big,
+.csslider29 > #pause29-1:checked ~ .description > .num1 > small,
+.csslider29 > #slide29-2:checked ~ .description > .num2 > big,
+.csslider29 > #slide29-2:checked ~ .description > .num2 > small,
+.csslider29 > #pause29-2:checked ~ .description > .num2 > big,
+.csslider29 > #pause29-2:checked ~ .description > .num2 > small,
+.csslider29 > #slide29-3:checked ~ .description > .num3 > big,
+.csslider29 > #slide29-3:checked ~ .description > .num3 > small,
+.csslider29 > #pause29-3:checked ~ .description > .num3 > big,
+.csslider29 > #pause29-3:checked ~ .description > .num3 > small {
+    opacity: 1;
+    z-index: 4;
+    transform: scale(1);
+
+}
+@keyframes description29 {
+    2.9069767441860463%, 22.083023255813952% { opacity: 1; z-index: 1; transform: scale(1)}
+    27.906976744186046%	{ opacity: 0; z-index: 2; transform: scale(2);}
+    27.916976744186048%, 100% { z-index: 0; }
+}
+.csslider29 > #play29:checked ~ .description > .num0  > big {
+    animation: description29 17200ms infinite -1400ms;
+}
+.csslider29 > #play29:checked ~ .description > .num1  > big {
+    animation: description29 17200ms infinite 2900ms;
+}
+.csslider29 > #play29:checked ~ .description > .num2  > big {
+    animation: description29 17200ms infinite 7200ms;
+}
+.csslider29 > #play29:checked ~ .description > .num3  > big {
+    animation: description29 17200ms infinite 11500ms;
+}
+.csslider29 > #play29:checked ~ .description > .num0  > small {
+    animation: description29 17200ms infinite -1150ms;
+}
+.csslider29 > #play29:checked ~ .description > .num1  > small {
+    animation: description29 17200ms infinite 3150ms;
+}
+.csslider29 > #play29:checked ~ .description > .num2  > small {
+    animation: description29 17200ms infinite 7450ms;
+}
+.csslider29 > #play29:checked ~ .description > .num3  > small {
+    animation: description29 17200ms infinite 11750ms;
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider29 > .play-pause,
+.csslider29 > .arrowprev,
+.csslider29 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider29 > .arrowprev {
+    left: 32px;
+}
+.csslider29 > .arrownext {
+    right: 32px;
+}
+.csslider29 > .play-pause > label,
+.csslider29 > .arrowprev > label,
+.csslider29 > .arrownext > label {
+    position: absolute;
+    margin-top: -22px; 
+    margin-left: -22px; 
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: all .3s ease; 
+}
+.csslider29 > .arrowprev > label,
+.csslider29 > .arrownext > label {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider29 > .arrowprev > label {
+    background: #3851bc url(/images/icons/prev19.png)no-repeat center center;
+}
+.csslider29 > .arrownext > label {
+    background: #3851bc url(/images/icons/next19.png)no-repeat center center;
+}
+
+/*arrows moving*/
+.csslider29 > #slide29-0:checked ~ .arrowprev > label.num3,
+.csslider29 > #pause29-0:checked ~ .arrowprev > label.num3,
+.csslider29 > #slide29-0:checked ~ .arrownext > label.num1,
+.csslider29 > #pause29-0:checked ~ .arrownext > label.num1, 
+.csslider29 > #slide29-1:checked ~ .arrowprev > label.num0,
+.csslider29 > #pause29-1:checked ~ .arrowprev > label.num0,
+.csslider29 > #slide29-1:checked ~ .arrownext > label.num2,
+.csslider29 > #pause29-1:checked ~ .arrownext > label.num2, 
+.csslider29 > #slide29-2:checked ~ .arrowprev > label.num1,
+.csslider29 > #pause29-2:checked ~ .arrowprev > label.num1,
+.csslider29 > #slide29-2:checked ~ .arrownext > label.num3,
+.csslider29 > #pause29-2:checked ~ .arrownext > label.num3, 
+.csslider29 > #slide29-3:checked ~ .arrowprev > label.num2,
+.csslider29 > #pause29-3:checked ~ .arrowprev > label.num2,
+.csslider29 > #slide29-3:checked ~ .arrownext > label.num0,
+.csslider29 > #pause29-3:checked ~ .arrownext > label.num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrows29 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100% { opacity: 0; z-index: -1; }
+}
+.csslider29 > #play29:checked ~ .arrowprev > label.num3,
+.csslider29 > #play29:checked ~ .arrownext > label.num1 {
+    animation: arrows29 17200ms infinite -2000ms;
+}
+.csslider29 > #play29:checked ~ .arrowprev > label.num0,
+.csslider29 > #play29:checked ~ .arrownext > label.num2 {
+    animation: arrows29 17200ms infinite 2300ms;
+}
+.csslider29 > #play29:checked ~ .arrowprev > label.num1,
+.csslider29 > #play29:checked ~ .arrownext > label.num3 {
+    animation: arrows29 17200ms infinite 6600ms;
+}
+.csslider29 > #play29:checked ~ .arrowprev > label.num2,
+.csslider29 > #play29:checked ~ .arrownext > label.num0 {
+    animation: arrow29 17200ms infinite 10900ms;
+}
+
+/*PLAY-PAUSE*/
+
+/*play-pause template*/
+.csslider29 > .play-pause {
+    left: 50%;
+}
+.csslider29 > #play29:checked ~ .play-pause > .pause,
+.csslider29 > input:checked ~ .play-pause > .play {
+    display: block;
+    z-index: 5;
+}
+.csslider29 > #play29:checked ~ .play-pause > .play,
+.csslider29 > input:checked ~ .play-pause > .pause {
+    display: none;
+    z-index: -1;
+}
+.csslider29 > .play-pause > .play:hover {
+    background: #3851bc url(/images/icons/play19.png)no-repeat center center;
+}
+.csslider29 > .play-pause > .pause:hover {
+    background: #3851bc url(/images/icons/pause19.png)no-repeat center center;
+}
+
+/*play-pause moving*/
+@keyframes play-pause29 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100% { opacity: 0; z-index: -1; }
+}
+.csslider29 > #play29:checked ~ .play-pause > .pause {
+    opacity: 0;
+    z-index: -1;
+}
+.csslider29 > #play29:checked ~ .play-pause > .pause.num0 {
+    animation: play-pause29 17200ms infinite -2000ms;
+}
+.csslider29 > #play29:checked ~ .play-pause > .pause.num1 {
+    animation: play-pause29 17200ms infinite 2300ms;
+}
+.csslider29 > #play29:checked ~ .play-pause > .pause.num2 {
+    animation: play-pause29 17200ms infinite 6600ms;
+}
+.csslider29 > #play29:checked ~ .play-pause > .pause.num3 {
+    animation: play-pause29 17200ms infinite 10900ms;
+}

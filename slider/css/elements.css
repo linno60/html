@@ -1009,6 +1009,83 @@ figure > img{
     100%{background-position: 3px -70px, 3px -70px, 15px -80px, 15px -80px}
 }
 
+.progressbar-wrap {
+    width: 400px;
+    text-align: center;
+}
+.progress {
+    padding: 4px;
+    background: rgba(0,0,0,.25);
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+.progress:before {
+    content: "";
+    height: 16px;
+    display: block;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+#five:checked ~ .progress:before {
+    width: 5%;
+    background-color: #f63a0f;
+}
+#twentyfive:checked ~ .progress:before {
+    width: 25%;
+    background-color: #f27011;
+}
+#fifty:checked ~ .progress:before {
+    width: 50%;
+    background-color: #f2b01e;
+}
+#seventyfive:checked ~ .progress:before {
+    width: 75%;
+    background-color: #f2d31b;
+}
+#onehundred:checked ~ .progress:before {
+    width: 100%;
+    background-color: #86e01e;
+}
+.progressbar-wrap > input{
+    display: none;
+}
+.progressbar-wrap label {
+    margin: 0 5px 20px;
+    padding: 3px 8px;
+    color: #aaa;
+    text-shadow: 0 1px black;
+    border-radius: 3px;
+}
+.progressbar-wrap > input:checked + label {
+    color: white;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+
+#progress-bar:after {
+    content: "";   
+    background: repeating-linear-gradient(-45deg, lightgreen, lightgreen 20px, lightcyan 20px, lightcyan 40px);
+    border-radius: 10px;
+    animation: roll 5s linear infinite;
+    box-shadow: inset 0 10px 10px rgba(255,255,255,0.2),  inset 0 1px 0 rgba(255,255,255,0.3),  inset 0 -5px 3px rgba(0,0,0,0.2), 0 3px 2px rgba(0,0,0,0.3);
+}
+#progress-bar {
+    width: 300px;
+    height: 20px;
+    background: darkcyan;
+    border-radius: 12px; 
+    padding: 2px;
+    left: -5px;
+    top: -5px;
+}
+@keyframes roll {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
 /*MAGIC*/
 @keyframes magic {
     0% { opacity: 1; transform-origin: 100% 200%; transform: scale(1, 1) rotate(0deg); }
