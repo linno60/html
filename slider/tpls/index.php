@@ -50,54 +50,54 @@
     </head>
     <body>
         <div>
-            <h2 class="h2">Slider #29</h2>
-            <div class='csslider29 lwrap'>
-                <input name="anchor29" id='slide29-0' type="radio">
-                <input name="anchor29" id='slide29-1' type="radio">
-                <input name="anchor29" id='slide29-2' type="radio">
-                <input name="anchor29" id='slide29-3' type="radio">
-                <input name="anchor29" id='play29' type="radio" checked>
-                <input name="anchor29" id='pause29-0' type="radio">
-                <input name="anchor29" id='pause29-1' type="radio">
-                <input name="anchor29" id='pause29-2' type="radio">
-                <input name="anchor29" id='pause29-3' type="radio">
+            <h2 class="h2">Slider #30</h2>
+            <div class='csslider30 lwrap'>
+                <input name="anchor30" id='slide30-0' type="radio">
+                <input name="anchor30" id='slide30-1' type="radio">
+                <input name="anchor30" id='slide30-2' type="radio">
+                <input name="anchor30" id='slide30-3' type="radio">
+                <input name="anchor30" id='play30' type="radio" checked>
+                <input name="anchor30" id='pause30-0' type="radio">
+                <input name="anchor30" id='pause30-1' type="radio">
+                <input name="anchor30" id='pause30-2' type="radio">
+                <input name="anchor30" id='pause30-3' type="radio">
                 <ul>
-                    <li><img src="/images/daisy.jpg" width="830" height="430"></li>
-                    <li class='num0'><img src='/images/daisy.jpg' width="830" height="430" alt='Daisy Mauve Flower' title='Daisy Mauve Flower'></li>
-                    <li class='num1'><img src='/images/chamomile.jpg' width="830" height="430" alt='White daisies' title='White daisies'></li>
-                    <li class='num2'><img src='/images/pansy.jpg' width="830" height="430" alt='Pansy' title='Pansy'></li>
-                    <li class='num3'><img src='/images/rosewhite.jpg' width="830" height="430" alt='White rose' title='White rose'></li>
+                    <li><img src="/images/roadforest.jpg" width="830" height="430"></li>
+                    <li class='num0'><img src='/images/roadforest.jpg' width="830" height="450" alt='Road in park' title='Road in park'></li>
+                    <li class='num1'><img src='/images/squantzpond.jpg' width="830" height="450" alt='Squantz pond' title='Squantz pond'></li>
+                    <li class='num2'><img src='/images/winter.jpg' width="830" height="450" alt='Ice trees' title='Ice trees'></li>
+                    <li class='num3'><img src='/images/autumn.jpg' width="830" height="450" alt='Forest in fog' title='Forest in fog'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
-                    <label class='num0' for='pause29-0'><big>Daisy Mauve Flower</big><small>Aster Tongolensis</small></label>
-                    <label class='num1' for='pause29-1'><big>White daisies</big><small>field plant</small></label>
-                    <label class='num2' for='pause29-2'><big>Pansy</big><small>purple flowers</small></label>
-                    <label class='num3' for='pause29-3'><big>White rose</big><small>garden plant</small></label>
+                    <label class='num0' for='pause30-0'><big>Road in park</big><small></small></label>
+                    <label class='num1' for='pause30-1'><big></big><small></small></label>
+                    <label class='num2' for='pause30-2'><big></big><small></small></label>
+                    <label class='num3' for='pause30-3'><big></big><small></small></label>
                 </div>
                 <div class='play-pause'>
-                    <label class='play' for='play29'></label>
-                    <label class='pause num0' for='pause29-0'></label>
-                    <label class='pause num1' for='pause29-1'></label>
-                    <label class='pause num2' for='pause29-2'></label>
-                    <label class='pause num3' for='pause29-3'></label>
+                    <label class='play' for='play30'></label>
+                    <label class='pause num0' for='pause30-0'></label>
+                    <label class='pause num1' for='pause30-1'></label>
+                    <label class='pause num2' for='pause30-2'></label>
+                    <label class='pause num3' for='pause30-3'></label>
                 </div>
                 <div class='arrowprev'>
-                    <label class='num0' for='slide29-0'></label>
-                    <label class='num1' for='slide29-1'></label>
-                    <label class='num2' for='slide29-2'></label>
-                    <label class='num3' for='slide29-3'></label>
+                    <label class='num0' for='slide30-0'></label>
+                    <label class='num1' for='slide30-1'></label>
+                    <label class='num2' for='slide30-2'></label>
+                    <label class='num3' for='slide30-3'></label>
                 </div>
                 <div class='arrownext'>
-                    <label class='num0' for='slide29-0'></label>
-                    <label class='num1' for='slide29-1'></label>
-                    <label class='num2' for='slide29-2'></label>
-                    <label class='num3' for='slide29-3'></label>
+                    <label class='num0' for='slide30-0'></label>
+                    <label class='num1' for='slide30-1'></label>
+                    <label class='num2' for='slide30-2'></label>
+                    <label class='num3' for='slide30-3'></label>
                 </div>
                 <div class='bullets' data-flex="center -center">
-                    <label class='num0' for='slide29-0'><figure><img src='/images/daisysm.jpg' width="92" height="48" alt='Daisy Mauve Flower' title='Daisy Mauve Flower'></figure></label>
-                    <label class='num1' for='slide29-1'><figure><img src='/images/chamomilesm.jpg' width="92" height="48" alt='White daisies' title='White daisies'></figure></label>
-                    <label class='num2' for='slide29-2'><figure><img src='/images/pansy.jpg' width="92" height="48" alt='Pansy' title='Pansy'></figure></label>                    
-                    <label class='num3' for='slide29-3'><figure><img src='/images/rosewhite.jpg' width="92" height="48" alt='White rose' title='White rose'></figure></label>
+                    <label class='num0' for='slide30-0'><figure><img src='/images/roadforestsm.jpg.jpg' width="88" height="48" alt='Road in park' title='Road in park'></figure></label>
+                    <label class='num1' for='slide30-1'><figure><img src='/images/squantzpondsm.jpg.jpg' width="88" height="48" alt='Squantz pond' title='Squantz pond'></figure></label>
+                    <label class='num2' for='slide30-2'><figure><img src='/images/wintersm.jpg' width="88" height="48" alt='Ice trees' title='Ice trees'></figure></label>                    
+                    <label class='num3' for='slide30-3'><figure><img src='/images/autumnsm.jpg' width="88" height="48" alt='Forest in fog' title='Forest in fog'></figure></label>
                 </div>
             </div>
         </div>
