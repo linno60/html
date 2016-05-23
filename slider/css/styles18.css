@@ -55,27 +55,25 @@
 .csslider18 > #pause18-3:checked ~ ul > li {
     transform: translateX(-300%);
 }
-@keyframes slide {
+@keyframes slide18 {
     0%, 11.805555555555555%  { transform: translateX(0%); }
     25%, 36.80555555555556%  { transform: translateX(-100%); }
     50%, 61.80555555555556%  { transform: translateX(-200%); }
     75%, 86.80555555555556%  { transform: translateX(-300%); }
-
 }
-@keyframes slide-ie {
+@keyframes slide18-ie {
     0%, 11.805555555555555%  { margin-left: 0%; }
     25%, 36.80555555555556%  { margin-left: -100%; }
     50%, 61.80555555555556%  { margin-left: -200%; }
     75%, 86.80555555555556%  { margin-left: -300%; }
-
 }
 .csslider18 > #play18:checked ~ ul > li:not(:first-child) {
-    animation: slide 14400ms infinite;
+    animation: slide18 14400ms infinite;
 }
 /* IE 10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .csslider18 > #play18:checked ~ ul > li:not(:first-child) {
-        animation: slide-ie 14400ms infinite;
+        animation: slide18-ie 14400ms infinite;
     }
 }
 

@@ -27,7 +27,7 @@
     height: 100%;
     top: 0px;
     z-index: 1;
-    transition: visibility .3s linear, opacity .3s linear;
+    transition: transform 2000ms cubic-bezier(0.4, 1.3, 0.65, 1);
 }
 
 /*SLIDESHOW*/
@@ -65,17 +65,23 @@
     50%, 63.372093023255815%{ transform: translateX(-200%); }
     75%, 88.37209302325581%{ transform: translateX(-300%); }
 }
+@keyframes slide29-ie {
+    0%, 13.372093023255815%{ margin-left: 0%; }
+    25%, 38.372093023255815%{ margin-left: -100%; }
+    50%, 63.372093023255815%{ margin-left: -200%; }
+    75%, 88.37209302325581%{ margin-left: -300%; }
+}
 .csslider29  > #play29:checked ~ ul > li {
     animation: slide29 17200ms infinite;	
 }
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .csslider29 > #play29:checked ~ ul > li:not(:first-child) {
+        animation: slide29-ie 14400ms infinite;
+    }
+}
 
 /*BTNS SHOW*/
-.csslider29 > .arrowprev,
-.csslider29 > .arrownext,
-.csslider29 > .play-pause {
-    opacity: 0;
-    transform: scale(2);
-}
 .csslider29 > .play-pause {
     transition: .4s all 0s ease;
 }
@@ -85,53 +91,17 @@
 .csslider29 > .arrownext {
     transition: .4s all .3s ease;
 }
-.csslider29 > .arrowprev > label:after,
-.csslider29 > .arrownext > label:after,
-.csslider29 > .play-pause > label:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
-    z-index: -1;
+.csslider29 > .arrowprev,
+.csslider29 > .arrownext,
+.csslider29 > .play-pause {
     opacity: 0;
-    transform: scale(0.9);	
+    transform: scale(2);
 }
 .csslider29:hover > .arrowprev,
 .csslider29:hover > .arrownext,
 .csslider29:hover > .play-pause {
     opacity: 1;
     transform: scale(1);
-}
-.csslider29 > .arrowprev > label:hover,
-.csslider29 > .arrownext > label:hover,
-.csslider29 > .play-pause > label:hover {
-    transform: scale(0.9);	
-}
-.csslider29 > .arrowprev > label:hover {
-    background: #4c62c3 url(/images/icons/prev19.png)no-repeat center center;
-}
-.csslider29 > .arrownext > label:hover {
-    background: #4c62c3 url(/images/icons/next19.png)no-repeat center center;
-}
-.csslider29 > .play-pause > .play:hover {
-    background: #4c62c3 url(/images/icons/play19.png)no-repeat center center;
-}
-.csslider29 > .play-pause > .pause:hover {
-    background: #4c62c3 url(/images/icons/pause19.png)no-repeat center center;
-}
-@keyframes controls29 {
-    0% { opacity: 0.3; }
-    40% { opacity: 0.5; box-shadow: 0 0 0 2px rgba(255,255,255,.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,.5); }
-    100% { box-shadow: 0 0 0 2px rgba(255,255,255,.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,.5); transform: scale(1.5); opacity: 0; }
-}
-.csslider29 > .arrowprev > label:hover:after,
-.csslider29 > .arrownext > label:hover:after,
-.csslider29 > .play-pause > label:hover:after{
-    animation: controls29 1s ease-out;	
 }
 
 /*DESCRIPTION*/
@@ -221,7 +191,7 @@
 .csslider29 > .arrownext {
     position: absolute;
     top: 50%;
-    z-index: 5;
+    z-index: 10;
 }
 .csslider29 > .arrowprev {
     left: 32px;
@@ -251,24 +221,61 @@
 .csslider29 > .arrownext > label {
     background: #3851bc url(/images/icons/next19.png)no-repeat center center;
 }
+.csslider29 > .arrowprev > label:after,
+.csslider29 > .arrownext > label:after,
+.csslider29 > .play-pause > label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    transform: scale(0.9);	
+}
+.csslider29 > .arrowprev > label:hover,
+.csslider29 > .arrownext > label:hover,
+.csslider29 > .play-pause > label:hover {
+    transform: scale(0.9);	
+}
+.csslider29 > .arrowprev > label:hover {
+    background: #4c62c3 url(/images/icons/prev19.png)no-repeat center center;
+}
+.csslider29 > .arrownext > label:hover {
+    background: #4c62c3 url(/images/icons/next19.png)no-repeat center center;
+}
+@keyframes controls29 {
+    0% { opacity: 0.3; }
+    40% { opacity: 0.5; box-shadow: 0 0 0 2px rgba(255,255,255,.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,.5); }
+    100% { box-shadow: 0 0 0 2px rgba(255,255,255,.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255,255,255,.5); transform: scale(1.5); opacity: 0; }
+}
+.csslider29 > .arrowprev > label:hover:after,
+.csslider29 > .arrownext > label:hover:after,
+.csslider29 > .play-pause > label:hover:after{
+    animation: controls29 1s ease-out;	
+}
 
 /*arrows moving*/
-.csslider29 > #slide29-0:checked ~ .arrowprev > label.num3,
-.csslider29 > #pause29-0:checked ~ .arrowprev > label.num3,
-.csslider29 > #slide29-0:checked ~ .arrownext > label.num1,
-.csslider29 > #pause29-0:checked ~ .arrownext > label.num1, 
-.csslider29 > #slide29-1:checked ~ .arrowprev > label.num0,
-.csslider29 > #pause29-1:checked ~ .arrowprev > label.num0,
-.csslider29 > #slide29-1:checked ~ .arrownext > label.num2,
-.csslider29 > #pause29-1:checked ~ .arrownext > label.num2, 
-.csslider29 > #slide29-2:checked ~ .arrowprev > label.num1,
-.csslider29 > #pause29-2:checked ~ .arrowprev > label.num1,
-.csslider29 > #slide29-2:checked ~ .arrownext > label.num3,
-.csslider29 > #pause29-2:checked ~ .arrownext > label.num3, 
-.csslider29 > #slide29-3:checked ~ .arrowprev > label.num2,
-.csslider29 > #pause29-3:checked ~ .arrowprev > label.num2,
-.csslider29 > #slide29-3:checked ~ .arrownext > label.num0,
-.csslider29 > #pause29-3:checked ~ .arrownext > label.num0 {
+.csslider29 > #slide29-0:checked ~ .arrowprev > .num3,
+.csslider29 > #pause29-0:checked ~ .arrowprev > .num3,
+.csslider29 > #slide29-0:checked ~ .arrownext > .num1,
+.csslider29 > #pause29-0:checked ~ .arrownext > .num1, 
+.csslider29 > #slide29-1:checked ~ .arrowprev > .num0,
+.csslider29 > #pause29-1:checked ~ .arrowprev > .num0,
+.csslider29 > #slide29-1:checked ~ .arrownext > .num2,
+.csslider29 > #pause29-1:checked ~ .arrownext > .num2, 
+.csslider29 > #slide29-2:checked ~ .arrowprev > .num1,
+.csslider29 > #pause29-2:checked ~ .arrowprev > .num1,
+.csslider29 > #slide29-2:checked ~ .arrownext > .num3,
+.csslider29 > #pause29-2:checked ~ .arrownext > .num3, 
+.csslider29 > #slide29-3:checked ~ .arrowprev > .num2,
+.csslider29 > #pause29-3:checked ~ .arrowprev > .num2,
+.csslider29 > #slide29-3:checked ~ .arrownext > .num0,
+.csslider29 > #pause29-3:checked ~ .arrownext > .num0 {
     opacity: 1;
     z-index: 5;
 }
@@ -276,21 +283,21 @@
     0%, 24.99% { opacity: 1; z-index: 5; }
     25%, 100% { opacity: 0; z-index: -1; }
 }
-.csslider29 > #play29:checked ~ .arrowprev > label.num3,
-.csslider29 > #play29:checked ~ .arrownext > label.num1 {
+.csslider29 > #play29:checked ~ .arrowprev > .num3,
+.csslider29 > #play29:checked ~ .arrownext > .num1 {
     animation: arrows29 17200ms infinite -2000ms;
 }
-.csslider29 > #play29:checked ~ .arrowprev > label.num0,
-.csslider29 > #play29:checked ~ .arrownext > label.num2 {
+.csslider29 > #play29:checked ~ .arrowprev > .num0,
+.csslider29 > #play29:checked ~ .arrownext > .num2 {
     animation: arrows29 17200ms infinite 2300ms;
 }
-.csslider29 > #play29:checked ~ .arrowprev > label.num1,
-.csslider29 > #play29:checked ~ .arrownext > label.num3 {
+.csslider29 > #play29:checked ~ .arrowprev > .num1,
+.csslider29 > #play29:checked ~ .arrownext > .num3 {
     animation: arrows29 17200ms infinite 6600ms;
 }
-.csslider29 > #play29:checked ~ .arrowprev > label.num2,
-.csslider29 > #play29:checked ~ .arrownext > label.num0 {
-    animation: arrow29 17200ms infinite 10900ms;
+.csslider29 > #play29:checked ~ .arrowprev > .num2,
+.csslider29 > #play29:checked ~ .arrownext > .num0 {
+    animation: arrows29 17200ms infinite 10900ms;
 }
 
 /*PLAY-PAUSE*/
@@ -299,6 +306,20 @@
 .csslider29 > .play-pause {
     left: 50%;
 }
+.csslider29 > .play-pause > .play {
+    background: #3851bc url(/images/icons/play19.png)no-repeat center center;
+}
+.csslider29 > .play-pause > .pause {
+    background: #3851bc url(/images/icons/pause19.png)no-repeat center center;
+}
+.csslider29 > .play-pause > .play:hover {
+    background: #4c62c3 url(/images/icons/play19.png)no-repeat center center;
+}
+.csslider29 > .play-pause > .pause:hover {
+    background: #4c62c3 url(/images/icons/pause19.png)no-repeat center center;
+}
+
+/*play-pause moving*/
 .csslider29 > #play29:checked ~ .play-pause > .pause,
 .csslider29 > input:checked ~ .play-pause > .play {
     display: block;
@@ -309,14 +330,6 @@
     display: none;
     z-index: -1;
 }
-.csslider29 > .play-pause > .play:hover {
-    background: #3851bc url(/images/icons/play19.png)no-repeat center center;
-}
-.csslider29 > .play-pause > .pause:hover {
-    background: #3851bc url(/images/icons/pause19.png)no-repeat center center;
-}
-
-/*play-pause moving*/
 @keyframes play-pause29 {
     0%, 24.99% { opacity: 1; z-index: 5; }
     25%, 100% { opacity: 0; z-index: -1; }
@@ -336,4 +349,95 @@
 }
 .csslider29 > #play29:checked ~ .play-pause > .pause.num3 {
     animation: play-pause29 17200ms infinite 10900ms;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider29 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 0px;
+}
+.csslider29 > .bullets > label {
+    position: relative;
+    margin: 10px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #3851bc;
+}
+.csslider29 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -46px;
+    top: -61px;
+    border: 3px solid rgba(56,81,188,.6);
+    transform: scale(1.3);
+    transition: all 0.3s;   
+}
+.csslider29 > .bullets > label:hover figure {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.csslider29 > .bullets > label > figure:before {
+    content: '';
+    position: absolute; 
+    left: 50%;
+    bottom: -10px;
+    margin-left: -3px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid rgba(56,81,188,0.6);
+    transition: 0.3s opacity 0.1s;
+}
+.csslider29 > .bullets > label:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    background: rgba(255,255,255,.7);
+    transition: all 0.3s;
+    transform: scale(0);
+    content: "";
+}
+
+/*bullets moving*/
+.csslider29 > #slide29-0:checked ~ .bullets > .num0:after,
+.csslider29 > #pause29-0:checked ~ .bullets > .num0:after,
+.csslider29 > #slide29-1:checked ~ .bullets > .num1:after,
+.csslider29 > #pause29-1:checked ~ .bullets > .num1:after,
+.csslider29 > #slide29-2:checked ~ .bullets > .num2:after,
+.csslider29 > #pause29-2:checked ~ .bullets > .num2:after,
+.csslider29 > #slide29-3:checked ~ .bullets > .num3:after,
+.csslider29 > #pause29-3:checked ~ .bullets > .num3:after{
+    transform:scale(1.5);
+}
+@keyframes bullets29 {
+    0%, 24.99%	{ transform:scale(1.5); background: rgba(255,255,255,.7);}
+    25%, 100% { transform:scale(0); background: transparent;}
+}
+.csslider29 > #play29:checked ~ .bullets > .num0:after{
+    animation: bullets29 17200ms infinite -2000ms;
+}
+.csslider29 > #play29:checked ~ .bullets > .num1:after{
+    animation: bullets29 17200ms infinite 2300ms;
+}
+.csslider29 > #play29:checked ~ .bullets > .num2:after{
+    animation: bullets29 17200ms infinite 6600ms;
+}
+.csslider29 > #play29:checked ~ .bullets > .num3:after{
+    animation: bullets29 17200ms infinite 10900ms;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider29 > .description, .csslider29 > .bullets {display: none;}
 }

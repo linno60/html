@@ -86,7 +86,25 @@
         <label for="onehundred">100%</label>
         <div class="progress"></div>
     </div>
-    <div id="progress-bar" data-flex></div>
+    <div id="progress-bar" data-flex></div>    
+    <a href="#" class="btn btn-store"><big>$29</big><i class="icon-loc"></i><span><small>Available on the Apple</small> App Store</span><em></em></a>
+    <a href="#" class="btn btn-register"><span><big>Register now</big><small>Get a promotion</small></span><em></em></a>
+    <a href="#" class="btn btn-login"><span>Enter</span><small>Log in!</small></a>
+    <a href="#" class="btn btn-download"><span><big>Download Now</big><small>Windows Vista / Windows 7</small></span></a>
+    <form action="#" method="post" class="form-default">    
+        <input type="text" required>
+        <span></span>
+        <label>Name</label>
+    </form>
+    <section class="cap">
+        <div class="button"><a href="#"> ------ btn ------ </a></div>
+        <div class="cover">
+            <div class="innie"></div>
+            <div class="spine"></div>
+            <div class="outie"></div>
+        </div>
+        <div class="shadow"></div>
+    </section>
 </div>
 <div class="animated"><span class="magic">magic</span></div>
 <div class="animated"><span class="twisterInDown">twisterInDown</span></div>

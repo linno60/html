@@ -30,6 +30,7 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     src: url("/fonts/fonts.com/dc50c02f-3f77-4e75-b89c-e3f9bb4752e6.woff2") format("woff2"), url("/fonts/fonts.com/ce6f5b38-1cb5-4a27-8182-583aa68b2436.woff") format("woff");
 }
 /* ICONS */
+.icon-loc {width: 64px; height: 64px; background: url('/images/icons/loc.png');}
 .icon-next1 {width: 18px; height: 8px; background: url('/images/icons/next1.png');}
 .icon-next10 {width: 12px; height: 20px; background: url('/images/icons/next10.png');}
 .icon-next15 {width: 20px; height: 24px; background: url('/images/icons/next15.png');}
