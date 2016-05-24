@@ -267,7 +267,7 @@
             <div class="studio-right" data-flex>                  
                 <div data-flex="stripe" data-flex-480="vstripe">
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisc&shy;ing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p>
+                        <p>Lorem ipsum dolor sit amet, &nbsp;consectetur adipisc&shy;ing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</p>
                         <p>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</p>
                         <hr>
                         <p>Aenean ullamcorper porta nisl, ac lobortis elit com&shy;modo placerat. </p>

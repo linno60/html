@@ -27,12 +27,12 @@ section > a:last-child{
 
 /*HEADER*/
 header > div{
-    border-top: 5px solid rgba(0,0,0,.3);
+    border-top: 5rem solid rgba(0,0,0,.3);
 }
 
 /*SLIDER-TOP*/
 .slider-top {
-    padding: 13px 12px 12px 12px;
+    padding: 13rem 12rem 12rem 12rem;
     position: relative;
     background: url('/images/bg-slider.png');
 }
@@ -54,7 +54,7 @@ header > div{
 .slider-top .links-controls{
     position: absolute;
     left: 50%;
-    bottom: 20px;
+    bottom: 20rem;
     transform: translateX(-50%);
 }
 .slider-top figure{
@@ -63,7 +63,7 @@ header > div{
 
 /*SLIDER-MIDDLE*/
 .slider-middle{
-    padding: 13px 11px 12px 13px;
+    padding: 13rem 11rem 12rem 13rem;
 }
 .slider-middle, .slider-bottom{
     background: rgba(255,255,255,.5);
@@ -89,7 +89,7 @@ header > div{
 
 /*SLIDER-BOTTOM*/
 .slider-bottom{
-    padding: 16px 12px 13px 12px;
+    padding: 16rem 12rem 13rem 12rem;
 }
 .slider-bottom article{
     width: 30%;
@@ -122,7 +122,7 @@ header > div{
     font-family: Homestead;
     font-weight: normal;
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
 }
 .slider-bottom > div {
     padding: 24rem 2px 0px 24rem;

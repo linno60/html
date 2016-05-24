@@ -65,7 +65,10 @@ body{
     padding: 5px 5px 5px 5px;
 }
 .links-socialteam a{
-    margin: 15rem 13rem 9rem 14rem;
+    margin: 15rem 13rem 12rem 14rem;
+}
+.links-socialteam a > i{
+    display: block;
 }
 .links-footer{
     padding-right: 2px;

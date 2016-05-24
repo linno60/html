@@ -69,7 +69,7 @@
         </section>
         <section class='slider-product lwrap' data-flex="stripe">
             <a href='#' class='btn btn-arrow'><i class='icon-left'></i></a>
-            <div data-flex='stripe' data-childs="axis">
+            <div data-flex='stripe' data-childs="around -center">
                 <div>
                     <figure><img src="/images/img2.png"></figure>
                     <div data-flex="col -start">

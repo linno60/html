@@ -153,11 +153,13 @@ header hgroup h2 i{
     border-radius: 6px;
     background: #fbf9f5;
     padding: 20rem;
+    width: 100%;
     box-shadow: 1px 1px 4px rgba(0,0,0,.3);
     margin: 124rem 0px 57rem 0px;
 }
 .slider > div{
     position: relative;
+    width: 100%;
 }
 .slider > span{
     text-align: center;
@@ -205,6 +207,9 @@ header hgroup h2 i{
 .about .lwrap{
     padding: 99rem 6px 136rem 10px;
 }
+.about .lwrap > div{
+    width: 100%;
+}
 .about article{
     margin: 76rem 0px 0px 0px;
     width: 23.6%;
@@ -227,6 +232,9 @@ header hgroup h2 i{
     font-family: Roboto Slab;
     font-size: 28rem;
     line-height: 50rem;
+}
+.about article p{
+    width: 100%;
 }
 .about article p a{
     color: #37393b;
@@ -254,6 +262,9 @@ header hgroup h2 i{
 .portfolio .lwrap{
     padding: 99rem 10px 107rem 10px;
 }
+.portfolio .lwrap > div{
+    width: 100%;
+}
 .portfolio .lwrap > hr{
     margin: 28rem 0px 8rem 0px;
 }
@@ -267,6 +278,7 @@ header hgroup h2 i{
 }
 .portfolio .lbl-figure{
     margin-top: -26rem;
+    position: relative;
 }
 .portfolio figcaption{
     margin: -5rem 0px 20rem 0px;
@@ -301,6 +313,9 @@ header hgroup h2 i{
 .blog .lwrap{
     padding: 101rem 10px 106rem 10px;
 }
+.blog .lwrap > div{
+    width: 100%;
+}
 .blog .hdr p{
     margin-bottom: 68rem;
 }
@@ -313,7 +328,7 @@ header hgroup h2 i{
 .blog .hdr-article{
     margin-right: 8rem;
 }
-.blog article{
+.blog article{   
     padding: 0px 13rem 64rem 20rem;
 }
 .blog article:last-child{
@@ -410,6 +425,7 @@ footer .hdr p {
 }
 footer form{
     padding: 68rem 0px 83rem 0px;
+    width: 100%;
 }
 
 /*MEDIA QUERIES*/

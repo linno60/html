@@ -138,5 +138,5 @@ input[name=input], textarea{
     box-shadow: 1px 1px 0 rgba(255,255,255,.4), inset 1px 1px 0 rgba(0,0,0,.2);
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #a9a8a8;}
-input[name=input]::-moz-placeholder, textarea::-webkit-input-placeholder {color: #a9a8a8;}
-input[name=input]:-ms-input-placeholder, textarea::-webkit-input-placeholder {color: #a9a8a8;}
+input[name=input]::-moz-placeholder, textarea::-moz-input-placeholder {color: #a9a8a8;}
+input[name=input]::-ms-input-placeholder, textarea::-ms-input-placeholder {color: #a9a8a8;}

@@ -42,7 +42,7 @@ body{
 
 /*FORMS*/
 input[type=search]{
-    margin: 5px 10px 5px 25px;
+    margin: 5px 10px 5px 25rem;
     max-width: 436px;
     flex-grow: 1;
     height: 33px;

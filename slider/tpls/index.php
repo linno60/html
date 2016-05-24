@@ -69,10 +69,10 @@
                     <li class='num3'><img src='/images/autumn.jpg' width="830" height="450" alt='Forest in fog' title='Forest in fog'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
-                    <label class='num0' for='pause30-0'><big>Road in park</big><small></small></label>
-                    <label class='num1' for='pause30-1'><big></big><small></small></label>
-                    <label class='num2' for='pause30-2'><big></big><small></small></label>
-                    <label class='num3' for='pause30-3'><big></big><small></small></label>
+                    <label class='num0' for='pause30-0'><big>Road in park</big><small>leaf fall</small></label>
+                    <label class='num1' for='pause30-1'><big>Squantz pond</big><small>Connecticut</small></label>
+                    <label class='num2' for='pause30-2'><big>Ice trees</big><small>winter forest</small></label>
+                    <label class='num3' for='pause30-3'><big>Forest in fog</big><small>Autumn</small></label>
                 </div>
                 <div class='play-pause'>
                     <label class='play' for='play30'></label>
@@ -94,8 +94,8 @@
                     <label class='num3' for='slide30-3'></label>
                 </div>
                 <div class='bullets' data-flex="center -center">
-                    <label class='num0' for='slide30-0'><figure><img src='/images/roadforestsm.jpg.jpg' width="88" height="48" alt='Road in park' title='Road in park'></figure></label>
-                    <label class='num1' for='slide30-1'><figure><img src='/images/squantzpondsm.jpg.jpg' width="88" height="48" alt='Squantz pond' title='Squantz pond'></figure></label>
+                    <label class='num0' for='slide30-0'><figure><img src='/images/roadforestsm.jpg' width="88" height="48" alt='Road in park' title='Road in park'></figure></label>
+                    <label class='num1' for='slide30-1'><figure><img src='/images/squantzpondsm.jpg' width="88" height="48" alt='Squantz pond' title='Squantz pond'></figure></label>
                     <label class='num2' for='slide30-2'><figure><img src='/images/wintersm.jpg' width="88" height="48" alt='Ice trees' title='Ice trees'></figure></label>                    
                     <label class='num3' for='slide30-3'><figure><img src='/images/autumnsm.jpg' width="88" height="48" alt='Forest in fog' title='Forest in fog'></figure></label>
                 </div>

@@ -232,9 +232,8 @@
     border-right: 2.5px solid white;
     border-bottom: 2.5px solid rgba(255,255,255,.99);
     top: 50%;
-    transition: margin .4s ease;
+    transition: transform .4s ease;
     content: "";
-
 }
 @keyframes arrownext14 {
     0%, 100% { transform: translateX(0px) rotate(-45deg); }

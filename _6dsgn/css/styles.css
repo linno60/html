@@ -52,7 +52,7 @@ address{
 }
 .header-right > div {
     padding: 50rem 120rem 100rem 60rem;
-    background: url('/images/line1.png') no-repeat -2px 0;
+    background: url('/images/line1.png') no-repeat -2px 0;   
 }
 .nav{
     position: relative;
@@ -65,7 +65,7 @@ address{
     position: absolute;
     top: 0;
     right: 46rem;
-    z-index: 1;
+    z-index: 10;
 }
 #r1:checked ~ .links-nav{
     display: flex;
@@ -105,7 +105,7 @@ address{
     color: #333;
 }
 .projects-hdr h3{
-    margin: 50px 49px 0px 0px;
+    margin: 50px 40px 0px 0px;
 }
 .projects-hdr .links-default{
     margin: 21rem 95rem 0px 0px;
@@ -222,7 +222,7 @@ address{
 .tabano .description{
     right: 12.5%;
     bottom: 8.7%;
-    left: 10px;
+    margin-left: 10px;
 }
 .tabano .view{
     margin: 0px 19rem 0px 27rem;
@@ -251,7 +251,7 @@ address{
     left: 20.5%;
     bottom: 6.9%;
     max-width: 95%;
-    right: 10px;
+    margin-right: 10px;
 }
 .sesann .description h2{
     margin-bottom: 0px;
@@ -298,6 +298,9 @@ address{
 .timeline-right, .wrapper.one{  
     background: #ebb240;  
 }
+.wrapper.one > .wrap{
+    width: 100%;
+}
 .wrapper.two{
     flex-grow: 1;
     background: #546c76;    
@@ -327,6 +330,7 @@ address{
 }
 .studio-left > div {
     background: url('/images/line4.png') no-repeat 0px -3px;
+    width: 100%;
 }
 .studio-right > div {
     padding: 93rem 10px 50rem 118rem;
@@ -430,6 +434,7 @@ address{
 }
 .news-left > div {
     background: url('/images/line5.png') no-repeat 0px -2px;
+    width: 100%;
 }
 .news-right > div {
     padding: 78rem 10px 42rem 101rem;

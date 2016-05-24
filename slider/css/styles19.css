@@ -29,7 +29,6 @@
     z-index: 1;
     transform: rotate(180deg) scale(7);
     transition: transform 1900ms ease, opacity 1900ms ease;
-
 }
 
 /*SLIDESHOW*/

@@ -44,6 +44,7 @@ body{
 }
 .links-controls a.active:before, .links-controls a:active:before, .links-controls a:hover:before, .links-controls a:focus:before{
     content: "";
+    display: block;
     width: 9px;
     height: 7px;
     border: 1px solid #fff;

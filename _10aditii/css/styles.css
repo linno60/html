@@ -72,6 +72,7 @@ header > .lwrap{
 .slider-product > div{
     flex-grow: 1;
     max-width: 1050px;
+    width: 100%;
 }
 .slider-product.lwrap{
     max-width: 1222px;
