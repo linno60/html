@@ -42,6 +42,12 @@ header > .lwrap > div:last-child{
     padding-left: 8px;
     line-height: 16px;
 }
+.form-search:hover{
+    box-shadow: 0px 0px 1px 0px white;
+}
+.form-search{
+    margin: 3px 0px;
+}
 
 /*SLIDER*/
 .slider h1 {
@@ -50,6 +56,7 @@ header > .lwrap > div:last-child{
     font-size: 80rem;
     line-height: 96rem;
     letter-spacing: -0.0025em;
+    max-width: 500px;
 }
 .slider > div{
     max-width: 428px;
@@ -168,7 +175,7 @@ footer{
     background: black;
 }
 footer .lwrap{
-    padding: 74rem 11px 58rem 32rem;
+    padding: 74rem 11px 60rem 32rem;
     max-width: 1014px;
 }
 .footer h5{
@@ -182,7 +189,7 @@ footer .lwrap{
     letter-spacing: 0.01em;
 }
 .copyright{
-    padding-top: 34rem;
+    padding-top: 35rem;
 }
 .footer > div{
     width: 22.5%;

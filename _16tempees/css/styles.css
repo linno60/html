@@ -145,3 +145,6 @@ footer span a:active, footer span a:hover, footer span a:focus{
 @media (max-width: 640px) {
     .slider h1 {font-size: 32px;}
 }
+@media (max-width: 480px) {
+    .slider .lwrap > div:first-child {display: none;}
+}

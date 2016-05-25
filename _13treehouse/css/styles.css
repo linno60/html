@@ -56,6 +56,7 @@ header.lwrap{
     letter-spacing: -0.025em;
     font-size: 20px;    
     font-family: Roboto Slab;
+    display: inline-block;
 }
 
 /*SERVICES*/
@@ -216,8 +217,10 @@ header.lwrap{
     height: 2px;
     background: #777;
     top: 38px;
-    transform: translateX(-50%);
+/*    transform: translateX(-85rem);*/
+    margin-left: -85rem;
     position: absolute;
+    display: block;
 }
 
 /*TESTIMONIALS*/
@@ -319,6 +322,7 @@ header.lwrap{
 }
 .footer p{
     line-height: 22px;
+    width: 100%;
 }
 .footer a.hashtag{
     font-weight: 700;
@@ -329,6 +333,9 @@ header.lwrap{
 }
 .footer > .lwrap > div:last-child > div{
     padding: 7px 0px;
+}
+.footer > .lwrap > div:last-child > div > div{
+    width: 100%;
 }
 .footer h4{
     margin-bottom: 14rem;

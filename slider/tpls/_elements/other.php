@@ -1,4 +1,5 @@
 <div class="wrap" data-flex="-start w">
+    <hgroup class="ribbons"><h2>I'm ribbon</h2></hgroup>
     <div class="cube"><div></div></div>
     <div class="gate">
         <big class="first"><span>First</span></big>
@@ -96,15 +97,27 @@
         <span></span>
         <label>Name</label>
     </form>
-    <section class="cap">
-        <div class="button"><a href="#"> ------ btn ------ </a></div>
+    <div class="cap">
+        <div class="button"><a href="#"> ------ BTN ------ </a></div>
         <div class="cover">
             <div class="innie"></div>
             <div class="spine"></div>
             <div class="outie"></div>
         </div>
         <div class="shadow"></div>
-    </section>
+    </div>
+    <div class="flip-container">
+        <div class="flipper">
+            <div class="front">
+                <img src="/images/cat2sm.jpg" width="150" height="99" alt="">
+                <span>front</span>
+            </div>
+            <div class="back">
+                <img src="/images/cat3sm.jpg" width="150" height="99" alt="">
+                <span>back</span>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="animated"><span class="magic">magic</span></div>
 <div class="animated"><span class="twisterInDown">twisterInDown</span></div>

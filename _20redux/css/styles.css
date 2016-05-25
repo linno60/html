@@ -166,7 +166,7 @@ header p{
     padding: 18rem 19rem 19rem 26rem;
     border-radius: 5px;
     border: 1px solid #d1cec5;
-    box-shadow: 0px 0px 6px rgba(0,0,0,.25);
+    box-shadow: 0px 0px 1px rgba(0,0,0,.25);
     background: linear-gradient(rgba(255,255,255,.5), rgba(246,246,246,.5));
 }
 .callout h2{
@@ -189,6 +189,7 @@ header p{
 }
 .callout .btn-default{
     min-width: 214rem;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.5);
 }
 .about h5 {
     padding-bottom: 22rem;
@@ -279,13 +280,15 @@ header p{
 }
 .blog blockquote cite{
     font-style: normal;
-    color: #434343;
+    color: #444;
 }
 .blog blockquote cite strong {
     margin-bottom: 5rem;
+    display: inline-block;
 }
 .blog blockquote cite span {    
     margin-bottom: 7rem;
+    display: inline-block;
 }
 .blog blockquote q {
     font-family: Georgia;
@@ -296,6 +299,7 @@ header p{
 }
 .blog blockquote cite a{
     margin-bottom: 20rem;
+    display: inline-block;
 }
 .blog blockquote{
     padding: 9rem 0px 27rem 0px;
@@ -351,6 +355,7 @@ header p{
 }
 .copyright span{
     color: #626262;
+    display: inline-block;
 }
 .copyright a{
     color: #9c9c9c;

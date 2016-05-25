@@ -29,8 +29,7 @@ body{
 }
 .links-nav a{
     height: 42px;
-    flex-grow: 1;
-    flex-basis: 12.5%;
+    width: 12.5%;
     padding: 0px 5px;
     color: #909090;
     font-family: Homestead;

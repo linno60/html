@@ -178,6 +178,9 @@ i{
 .direction article{
     margin-bottom: 96rem;
 }
+.direction article > div{
+    width: 100%;
+}
 article h3 {
     color: #6d6d71;
     font-size: 26px;
@@ -235,6 +238,9 @@ article p {
 .projects .hdr h2{
     margin: 40rem 0px 0px 0px;
     line-height: 58px;
+}
+.projects hgroup, .team-wrap hgroup{
+    width: 100%;
 }
 .tabpanel > div{
     padding: 16rem 13rem 0 13rem;

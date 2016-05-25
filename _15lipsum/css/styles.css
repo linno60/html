@@ -113,6 +113,7 @@ body {
 .preview figcaption span{
     font-size: 40rem;
     line-height: 48rem;
+    max-width: 430px;
 }
 .preview p{
     color: #3b3b3b;
@@ -120,6 +121,7 @@ body {
     font-family: HelveticaNarrow;
     font-weight: 600;
     line-height: 23px;
+    width: 100%;
 }
 
 /*CONTENT*/
@@ -154,6 +156,7 @@ body {
     padding: 0px 10px 0px 3rem;
     margin: 2rem 10px 0px 0px;
     border-right: 1px solid #c7c7c7;
+    max-width: 32px;
 }
 .news time span{
     color: #f1ab04;
@@ -186,6 +189,7 @@ body {
     max-width: 250px;
     margin-left: 2rem;
     letter-spacing: 0.005em;
+    max-width: 210px;
 }
 .news article{
     padding: 15px 0px 12px 1rem;

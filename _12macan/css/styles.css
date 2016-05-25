@@ -17,7 +17,8 @@ figure img, #logo img{
 }
 .lwrap > h2 + span{
     font-size: 18px;
-    margin-bottom: 13rem;
+    margin-bottom: 20rem;
+    display: inline-block;
 }
 .btn-anchor{
     position: fixed;
@@ -28,7 +29,7 @@ figure img, #logo img{
 .services .lwrap > h2, .services .lwrap > h2 + span, footer .lwrap > h2, footer .lwrap > h2 + span{
     color: #fff;
 }
-.services .hr, .services .hr > div, .services .hr > div, footer .hr, footer .hr > div, footer .hr > div{
+.services .hr, .services .hr:after, .services .hr:before, footer .hr, footer .hr:after, footer .hr:before{
     background: #fff;
 }
 
@@ -142,9 +143,6 @@ header{
 .portfolio h2 {
     letter-spacing: 0.01em;
 }
-.portfolio h2 + span {
-    margin-bottom: 7rem;
-}
 .tabs figure{
     position: relative;
     width: 31.7%;
@@ -186,7 +184,7 @@ header{
 }
 .tabs{
     width: 100%;
-    padding: 78rem 0px 22rem 0px;
+    padding: 79rem 0px 22rem 0px;
 }
 .tabs + a{
     color: #323232;
@@ -213,11 +211,8 @@ header{
     margin-bottom: 13rem;
     letter-spacing: 0em;
 }
-.testimonials h2 + span{
-    margin-bottom: 15rem;
-}
 .testimonials .hr{
-    margin-bottom: 53rem;
+    margin-bottom: 55rem;
 }
 
 /*MAP*/
@@ -267,7 +262,7 @@ footer address{
 }
 footer .lwrap > div{
     width: 100%;
-    padding-top: 64rem;
+    padding-top: 78rem;
 }
 footer .lwrap > div > *{
     width: 48.8%;
@@ -286,9 +281,6 @@ form .btn-default{
 footer .lwrap > h2{
     margin-bottom: 2rem;
 }
-footer .lwrap > h2 + span {
-    margin-bottom: 16rem;
-}
 .copyright{
     background: #161828;
     padding: 55rem 10px 49rem 10px;
@@ -297,6 +289,7 @@ footer .lwrap > h2 + span {
     color: #76777f;
     margin-bottom: 25rem;
     font-size: 14px;
+    display: inline-block;
 }
 
 /*MEDIA QUERIES*/

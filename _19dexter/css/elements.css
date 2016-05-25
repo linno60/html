@@ -56,10 +56,9 @@ blockquote figure{
     bottom: -52px;
 }
 blockquote cite{
-    padding: 21rem 30px 16rem 34rem;
+    padding: 21rem 30px 16px 34rem;
     display: inline-block;
     color: #00a3e3;
     font-size: 18px;
     font-style: normal;
 }
-

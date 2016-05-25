@@ -68,6 +68,7 @@ header figure{
     background: white;
     position: relative;
     padding: 0px 3px 0px 2px;
+    display: inline-block;
 }
 .btn-facebook + .counter{
     border: 1px solid #c1c1c1;
@@ -127,7 +128,7 @@ header figure{
 }
 .content h2 {
     font-weight: 700;
-    font-size: 55px;
+    font-size: 55rem;
     color: #000;
     margin-left: -3rem;
 }
@@ -231,13 +232,14 @@ footer h4 ~ a{
 }
 footer p{
     line-height: 25px;
-    max-width: 89%;
+    max-width: 222px;
 }
 
 /*MEDIA QUERIES*/
 @media (max-width: 480px) {
     header figure, .content figure {display: none;}
     header{text-align: center;}
-    header h1{font-size: 24px;line-height: 28px;}
+    header h1{line-height: 28px;}
+    header h1, .content h2{font-size: 24px;}
     .content > div:nth-child(odd), .content > div:nth-child(even){padding: 0px;}
 }

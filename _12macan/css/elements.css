@@ -82,7 +82,6 @@ input[name=input]:-ms-input-placeholder, form textarea:-ms-input-placeholder {co
 
 /*CITES*/
 blockquote {
-    margin-bottom: 12px;
     font-size: 18px;
     line-height: 30px;
     font-style: italic;
@@ -90,6 +89,8 @@ blockquote {
     margin-bottom: 13rem;
     letter-spacing: 0.025em;
     min-width: 280px;
+    width: 100%;
+    max-width: 770px;
 }
 blockquote > div{
     width: 100%;
@@ -106,6 +107,7 @@ blockquote cite{
     font-style: normal;
     padding-top:  20rem;
     letter-spacing: -0.01em;
+    display: inline-block;
 }
 
 /*TABS*/
@@ -130,9 +132,11 @@ blockquote cite{
     width: 281px;
     background: #323232;
 }
-.hr > div{
+.hr:after, .hr:before{
     width: 13px;
     height: 13px;
     background: #323232;
     border-radius: 50%;
+    content: "";
+    display: block;
 }

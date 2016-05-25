@@ -8,6 +8,9 @@ figure img, #logo img{
     max-width: 1200px;
     padding: 0px 10px;
 }
+#logo{
+    display: inline-block;
+}
 
 /*HEADER*/
 header{
@@ -22,6 +25,7 @@ header span{
     line-height: 36rem;
     letter-spacing: 0.012em;
     width: 100%;
+    display: inline-block;
 }
 header .lwrap{
     padding: 92rem 10px 0px 73rem;

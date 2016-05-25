@@ -17,20 +17,28 @@ body{
 .links-default a{
     color: #c9c9c9;
     margin: 2px 0px 11px 0px;
+    display: inline-block;
 }
 .links-social a{
     margin: 0px 0px 5px 26rem;
+    display: inline-block;
 }
 .links-social a:first-child{
     margin: 0px 0px 5px -6rem;
 }
 
 /*FORMS*/
-select{
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    padding-left: 28px;
+    background: black url('/images/icons/usa.png') left center no-repeat;
     color: white;
-    background: black;
     border: none;
-    text-align: right;
+    outline: none;
+    margin-right: 3rem;
 }
 input[type=email]{
     border: none;
@@ -53,14 +61,13 @@ input[type=email]:-ms-input-placeholder{
 input[type=search]{
     border: none;
     color: white;
-    padding: 0px 10px;
     height: 20px;
     outline: none;
-    background: black url(/images/icons/search.png)no-repeat right center;
-    margin: 5px 0px; 
+    background: none;
+    margin: 2px 10px; 
 }
-input[type=search]:hover, input[type=search]:focus{
-    box-shadow: 0px 0px 1px 0px white;
+input[type=search]:focus{
+   box-shadow: 0px 1px 0px 0px white;
 }
 
 /*BUTTONS*/

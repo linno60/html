@@ -46,6 +46,7 @@ body{
     content: "";
     background: #818181;
     flex-shrink: 0;
+    display: inline-block;
 }
 .list-skills li:nth-child(1):after{
     width: 6.5%;

@@ -36,8 +36,9 @@
                     </nav>
                 </div>
                 <div data-flex='-center end w'>
-                    <form action='#' method='post'>
+                    <form action='#' method='post' class="form-search" data-flex="-center">
                         <input type="search" name='search'>
+                        <input type="image" name="image" src="/images/icons/search.png">
                     </form>
                     <div class="cart" data-flex="-center">
                         <a href="#"></a>
@@ -162,7 +163,7 @@
                 <section class="copyright" data-flex="axis w">
                     <span><small>&copy;</small> 2014 Mountains Snowboards</span>
                     <select>
-                        <option>Change region</option>
+                        <option>Change Region</option>
                         <option>UK</option>
                         <option>Ukraine</option>
                         <option>Urugway</option>

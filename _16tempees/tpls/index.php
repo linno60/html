@@ -34,7 +34,7 @@
             </div>
         </header>
         <section class="slider">
-            <div class="lwrap" data-flex="stripe">
+            <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
                 <div data-flex="-end">
                     <figure><img src="images/phone.png"></figure>
                 </div>

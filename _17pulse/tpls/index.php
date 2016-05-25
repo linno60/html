@@ -85,7 +85,7 @@
                     </article>
                 </div>
                 <div class="slideshow" data-flex="axis">
-                    <a class="btn btn-slide prev"><i class="icon-left"></i></a>
+                    <a href="#" class="btn btn-slide prev"><i class="icon-left"></i></a>
                     <div data-flex="stripe">
                         <div>
                             <figure>
@@ -112,7 +112,7 @@
                             </figure>
                         </div>
                     </div>
-                    <a class="btn btn-slide next"><i class="icon-right"></i></a>
+                    <a href="#" class="btn btn-slide next"><i class="icon-right"></i></a>
                 </div>
             </div>
         </section>
