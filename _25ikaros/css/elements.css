@@ -50,6 +50,7 @@ a{
 .lbl-date span{
     font-size: 22px;
     line-height: 21px;
+    display: inline-block;
 }
 
 /*LISTS*/

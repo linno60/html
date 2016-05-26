@@ -98,7 +98,7 @@
                     <a href="#" class="btn btn-thumb next"></a>
                 </div>             
             </div>
-            <div data-flex='-start between' data-flex-480="vstripe">
+            <div class="content-wrap" data-flex='-start between' data-flex-480="vstripe">
                 <div class="content">                
                     <div class='twin' data-flex='stripe'>
                         <div>

@@ -1,0 +1,341 @@
+/*------- SLIDER #28 -------*/
+
+/*COMMON*/
+.csslider31 {
+    position: relative;
+    max-width: 833px; 
+    overflow: hidden;
+}
+.csslider31 > input[type=radio] {
+    display: none;
+}
+.csslider31 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider31 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider31 > ul > li:not(:first-child) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;  
+    transition: opacity 2000ms ease;
+}
+
+/*SLIDESHOW*/
+
+
+.csslider31 > .arrowprev,
+.csslider31 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider31 > .arrowprev > label,
+.csslider31 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.csslider31 > .arrowprev {
+    left: 0;
+}
+.csslider31 > .arrownext {
+    right: 0;
+}
+.csslider31 > .arrowprev > label.num2,
+.csslider31 > .arrownext > label.num1 {
+    opacity: 1;
+    z-index: 5;
+}
+
+.csslider31 > #slide31-0:checked ~ .arrowprev > label.num2,
+.csslider31 > #slide31-0:checked ~ .arrownext > label.num1, 
+.csslider31 > #slide31-1:checked ~ .arrowprev > label.num0,
+.csslider31 > #slide31-1:checked ~ .arrownext > label.num2, 
+.csslider31 > #slide31-2:checked ~ .arrowprev > label.num1,
+.csslider31 > #slide31-2:checked ~ .arrownext > label.num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow {
+    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
+    33.333333333333336%, 100%	{ opacity: 0; z-index: -1; }
+}
+.csslider31 > #play31:checked ~ .arrowprev > label.num2,
+.csslider31 > #play31:checked ~ .arrownext > label.num1 {
+    animation: arrow 12000ms infinite -2000ms;
+}
+.csslider31 > #play31:checked ~ .arrowprev > label.num0,
+.csslider31 > #play31:checked ~ .arrownext > label.num2 {
+    animation: arrow 12000ms infinite 2000ms;
+}
+.csslider31 > #play31:checked ~ .arrowprev > label.num1,
+.csslider31 > #play31:checked ~ .arrownext > label.num0 {
+    animation: arrow 12000ms infinite 6000ms;
+}
+
+.csslider31 > .bullets {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 6;
+}
+.csslider31 > .bullets > div {
+    margin-left: -50%;
+    width: 100%;
+}
+.csslider31 > .bullets > label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.csslider31 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    line-height: 0;
+    left: -39.5px;
+    top: -48px;
+}
+
+.csslider31 > #slide31-0:checked ~ ul > li.num0,
+.csslider31 > #slide31-1:checked ~ ul > li.num1,
+.csslider31 > #slide31-2:checked ~ ul > li.num2 {
+    opacity: 1;
+    z-index: 2;
+}
+.csslider31 > ul > li.num0 {
+    opacity: 1;
+    z-index: 2;
+}
+.csslider31 > .slide:checked ~ ul > li.num0 {
+    opacity: 0;
+    z-index: 1;
+}
+@keyframes fade {
+    0%, 50%, 100%	{ opacity: 0; z-index: 2; }
+    16.666666666666668%, 33.333333333333336%	{ opacity: 1; z-index: 2; }
+}
+.csslider31 > #play31:checked ~ ul > li.num0 {
+    animation: fade 12000ms infinite -2000ms;
+}
+.csslider31 > #play31:checked ~ ul > li.num1 {
+    animation: fade 12000ms infinite 2000ms;
+}
+.csslider31 > #play31:checked ~ ul > li.num2 {
+    animation: fade 12000ms infinite 6000ms;
+}
+.csslider31 {
+    perspective: 500px;
+}
+.csslider31 > .arrowprev {
+    transition: .5s opacity .15s ease, .5s transform .15s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateY(-90deg);
+}
+.csslider31 > .arrownext {
+    transition: .5s opacity .3s ease, .5s transform .3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateY(90deg);
+}
+.csslider31 > .arrowprev,
+.csslider31 > .arrownext {
+    opacity: 0;
+}
+.csslider31:hover > .arrowprev,
+.csslider31:hover > .arrownext {
+    opacity: 1;
+    transform: rotateX(0deg);
+
+}
+.csslider31 > .arrowprev > label,
+.csslider31 > .arrownext > label {
+    overflow: hidden;
+    margin-top: -35px;
+    width: 40px;
+    height: 70px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 4px;
+}
+.csslider31 > .arrowprev {
+    left: 70px;
+}
+.csslider31 > .arrownext {
+    right: 70px;
+}
+.csslider31 > .arrowprev > label {
+    right: 0;
+}
+.csslider31 > .arrownext > label {
+    left: 0;
+}
+.csslider31 > .arrowprev > label:after {
+
+}
+.csslider31 > .arrownext > label:after {
+    
+}
+.csslider31 > .arrowprev > label:after,
+.csslider31 > .arrownext > label:after {
+    display: block;
+    color: #fff;
+}
+.csslider31 > .arrowprev > label,
+.csslider31 > .arrownext > label {
+    transition: 300ms width ease, 300ms margin-left ease, 300ms background-color ease;
+}
+.csslider31 > .arrowprev:hover > label {
+    background-color: #1FA5AD;
+    width: 70px;
+}
+.csslider31 > .arrownext:hover > label {
+    background-color: #1FA5AD;
+    width: 70px;
+}
+.csslider31 > .bullets {
+    bottom: 5px;
+    margin-bottom: 5px;
+}
+.csslider31 > .bullets > label {
+    perspective: 500px;
+
+}
+.csslider31 > .bullets > label > figure {
+    border: 3px solid #1FA5AD;
+    margin-top: -11px;
+    transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    transform-origin: 0% 100% 0px;
+    transform: rotateX(90deg);
+}
+.csslider31 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    left: 50%;
+    margin-left: -1px;
+    bottom: -8px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #1FA5AD;
+}
+.csslider31 > .bullets > label:hover > figure {
+    visibility: visible;
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+.csslider31 > .bullets > label {
+    margin: 0 6px;
+    padding: 9px;
+    border-radius: 50%;
+    background: #000;
+    background-color: rgba(0,0,0,0.6);
+}
+.csslider31 > .bullets > label.num0 {
+    background-color: #1FA5AD;
+}
+.csslider31 > .slide:checked ~ .bullets > label {
+    background-color: rgba(0,0,0,0.6);
+}
+.csslider31 > #slide31-0:checked ~ .bullets > label.num0,
+.csslider31 > #slide31-1:checked ~ .bullets > label.num1,
+.csslider31 > #slide31-2:checked ~ .bullets > label.num2 {
+    background-color: #1FA5AD;
+}
+.csslider31 > .bullets > label:hover {
+    background-color: #1FA5AD;
+}
+@keyframes bullet {
+    0%, 33.32333333333334%	{ background-color: #1FA5AD; }
+    33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
+}
+.csslider31 > #play31:checked ~ .bullets > label.num0 {
+    animation: bullet 12000ms infinite -2000ms;
+}
+.csslider31 > #play31:checked ~ .bullets > label.num1 {
+    animation: bullet 12000ms infinite 2000ms;
+}
+.csslider31 > #play31:checked ~ .bullets > label.num2 {
+    animation: bullet 12000ms infinite 6000ms;
+}
+
+.csslider31 > .description {
+    z-index: 3;
+    position: absolute;
+    max-width: 50%;
+    left: 0;
+    bottom: 0px;
+}
+.csslider31 > .description > label {
+    font: 20px Roboto;
+    bottom: 35px;
+    left: 20px;
+    perspective: 500px;
+    padding: 10px;
+    color: #fff;
+    overflow: hidden;
+    transform-origin: 0% 0% 0px;
+    border-radius: 4px;
+    margin: 0px 10px;
+    opacity: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.6);
+    transform: rotateX(90deg);
+    transition: 750ms opacity 975ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 975ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider31 > #slide31-0:checked ~ .description > .num0,
+.csslider31 > #slide31-1:checked ~ .description > .num1,
+.csslider31 > #slide31-2:checked ~ .description > .num2 {
+    z-index: 2;
+}
+.csslider31 > #slide31-0:checked ~ .description > .num0,
+.csslider31 > #slide31-1:checked ~ .description > .num1,
+.csslider31 > #slide31-2:checked ~ .description > .num2 {
+    opacity: 1;
+    transition: 750ms opacity 1200ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 1200ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateX(0deg);
+}
+.csslider31 > #slide31-0:checked ~ .description > .num0 span,
+.csslider31 > #slide31-1:checked ~ .description > .num1 span,
+.csslider31 > #slide31-2:checked ~ .description > .num2 span {
+    opacity: 1;
+    transform: translateX(0);
+}
+.csslider31 > .description > label > span {
+    display: inline-block;
+    transform: translateX(-100%);
+    transition: 750ms opacity 1450ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 1450ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+@keyframes description31 {
+    3.0625%, 30.260833333333334%	{ opacity: 1; transform: rotateX(-9deg); z-index: 2;}
+    4.375%, 28.948333333333334%	{ opacity: 1; transform: rotateX(0deg); z-index: 2;}
+    33.333333333333336%	{ opacity: 0; transform: rotateX(90deg); z-index: 2;}
+    33.343333333333334%, 100%	{ z-index: 0; }
+}
+.csslider31 > #play31:checked ~ .description > .num0 {
+    animation: description31 12000ms infinite -1400ms ease;
+}
+.csslider31 > #play31:checked ~ .description > .num1 {
+    animation: description31 12000ms infinite 2600ms ease;
+}
+.csslider31 > #play31:checked ~ .description > .num2 {
+    animation: description31 12000ms infinite 6600ms ease;
+}
+@keyframes description31-text {
+    3.0625%, 30.260833333333334%	{ opacity: 1; transform: translateX(-1%); }
+    4.375%, 28.948333333333334%	{ opacity: 1; transform: translateX(0%); }
+    33.333333333333336%	{ opacity: 0; transform: translateX(100%); }
+}
+.csslider31 > #play31:checked ~ .description > .num0 > span {
+    animation: description31-text 12000ms infinite -1190ms ease;
+}
+.csslider31 > #play31:checked ~ .description > .num1 > span {
+    animation: description31-text 12000ms infinite 2810ms ease;
+}
+.csslider31 > #play31:checked ~ .description > .num2 > span {
+    animation: description31-text 12000ms infinite 6810ms ease;
+}

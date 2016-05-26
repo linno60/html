@@ -41,7 +41,7 @@
         <section class='banner' data-flex="col -center center">            
             <span><strong>Hello</strong>, You've Reached</span>
             <h1>hotel deluxe</h1>
-            <p>hotel - spa saloon - fine dining</p>
+            <span>hotel - spa saloon - fine dining</span>
         </section>
         <section class='booking' data-flex="col -center">
             <form action='#' method='post' data-flex='axis w' data-childs="col">

@@ -117,7 +117,9 @@
                 <span>back</span>
             </div>
         </div>
-    </div>
+    </div>  
+    <input type="checkbox" id="check-me">        
+    <label for="check-me">Check me</label>  
 </div>
 <div class="animated"><span class="magic">magic</span></div>
 <div class="animated"><span class="twisterInDown">twisterInDown</span></div>

@@ -29,7 +29,7 @@ header form{
 }
 .header > .lwrap{
     max-width: 1430px;
-    min-height: 300rem;
+    height: 300rem;
     padding: 29rem 151rem;
     background: url('/images/img1.png')no-repeat right bottom;
 }
@@ -167,6 +167,7 @@ footer b{
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 4px;
+    display: inline-block;
 }
 footer address{
     text-align: center;

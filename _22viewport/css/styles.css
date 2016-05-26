@@ -126,6 +126,7 @@ header + .lwrap{
 }
 .thumbnails a{
     margin: 1px;
+    display: inline-block;
 }
 .thumbnails .btn-thumb{
     height: auto;
@@ -148,7 +149,7 @@ header + .lwrap{
     max-width: 662px;
 }
 .content{
-    width: 100%
+    width: 65%
 }
 .content article figure, .content .twin article:first-child figure{
     padding: 4px;
@@ -348,6 +349,7 @@ header + .lwrap{
 }
 .copyright > span:last-child{
     text-align: right;
+    display: inline-block;
 }
 
 /*MEDIA QUERIES*/
@@ -355,7 +357,7 @@ header + .lwrap{
     .footer .lwrap > div {width: 48%;}
     .slider figcaption h2 {font-size: 12px;}
     .sidebar {width: 38%;}
-    .hidden {display: none;}
+    .thumbnails .hidden {display: none;}
 }
 @media (max-width: 480px) {
     header > .lwrap > div {padding: 10px;}
@@ -365,7 +367,7 @@ header + .lwrap{
     .sidebar > .advertisement {width: 69%;}
     .sidebar > .sponsors {width: 29%;}
     .sponsors figure {width: 100%}
-    .hidden-sm, .slider figcaption {display: none;}
+    .thumbnails .hidden-sm, .slider figcaption {display: none;}
     .slider figcaption {top: 5px;left: 5px;}
     .slider > figure:hover > figcaption {display: flex;}
 }

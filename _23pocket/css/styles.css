@@ -41,6 +41,7 @@ header > .slider.lwrap{
     max-width: 1075px;
 }
 #logo{
+    display: inline-block;
     margin: 0px 41rem 0px 10rem;
 }
 .slider > a:first-child{
@@ -70,6 +71,7 @@ header > .slider.lwrap{
 .slider > div > div:last-child{
     flex-grow: 1;
     position: relative;
+    max-width: 660px;
 }
 .slider h1 {
     color: rgb(102,102,102);

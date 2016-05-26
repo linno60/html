@@ -15,7 +15,7 @@ header {
     background-size: cover;
 }
 header > .lwrap{
-    max-width: 1067px;
+    max-width: 1046px;
     padding: 0px;
 }
 .contact{
@@ -67,7 +67,7 @@ header > .lwrap{
     margin: 20px 0px -35rem 10px;
 }
 .slider hgroup + div .btn{
-    margin: 0px 18rem 26rem 1rem;
+    margin: 0px 18rem 6rem 1rem;
 }
 .slider hgroup h1, .slider hgroup h2{
     color: white;
@@ -192,6 +192,12 @@ header > .lwrap{
     padding: 12rem 10px 51rem 22rem;
     max-width: 1090px;
 }
+.featured .lwrap > div{
+    width: 100%;
+}
+.featured .lwrap > div > div{
+    width: 100%;
+}
 .featured figcaption{
     border-bottom: 1px solid #c5c5cc;
 }
@@ -230,7 +236,7 @@ header > .lwrap{
     width: 47.5%;
     min-height: 33px;
     line-height: 12px;
-    display: block;
+    display: inline-flex;
 }
 .featured figcaption > span.price{
     color: #0a89e4;

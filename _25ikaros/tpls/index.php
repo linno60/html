@@ -51,7 +51,7 @@
                         <a href="#tab3">Graphics</a>
                     </div>
                     <div class="tabset">
-                        <div id="tab1" class="tabpanel active clearfix" data-flex-480="vstripe">
+                        <div id="tab1" class="tabpanel active clearfix">
                             <figure><img src="/images/img1.png"></figure>
                             <h3>Ipsum Fusce Aenean Cursus Euismod</h3>
                             <p>Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. </p>

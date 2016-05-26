@@ -108,7 +108,7 @@ header{
 }
 .blog article{
     width: 48%;
-    margin-bottom: 37rem;
+    margin-bottom: 39rem;
 }
 .blog h5{
     font-size: 17px;
@@ -116,7 +116,7 @@ header{
     margin-bottom: 6rem;
 }
 .blog article p{
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     font-family: Droid Sans;
     max-width: 382px;
 }
@@ -124,6 +124,9 @@ header{
     color: #6b99b5;
     font-size: 11px;
     font-family: Droid Sans;
+}
+.blog article p + div a:active, .blog article p + div a:hover, .blog article p + div a:focus{
+    text-decoration: underline;
 }
 .blog > div{
     padding-top: 21rem;
@@ -215,6 +218,5 @@ footer form{
     .links-nav, .links-nav a {border: none;}
 }
 @media (max-width: 480px) {
-    .tabpanel figure {float: none;width: auto;margin: 0px 0px 10px 0px;}
     .projects figure {width: 49%;}
 }

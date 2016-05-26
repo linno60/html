@@ -19,6 +19,7 @@ body{
 }
 .links-social a{
     margin: 6rem 5rem 0px 5rem;
+    display: inline-block;
 }
 .links-footer, .links-footer a{
     color: #9e9e9e;

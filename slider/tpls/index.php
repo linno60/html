@@ -40,6 +40,7 @@
         <link rel="stylesheet" href="/css/styles28.css">
         <link rel="stylesheet" href="/css/styles29.css">
         <link rel="stylesheet" href="/css/styles30.css">
+        <link rel="stylesheet" href="/css/styles31.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -49,6 +50,41 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #31</h2>
+            <div class='csslider31 lwrap'>
+                <input name="anchor31" id='slide31-0' type="radio">
+                <input name="anchor31" id='slide31-1' type="radio">
+                <input name="anchor31" id='slide31-2' type="radio">
+                <input name="anchor31" id='play31' type="radio" checked>
+                <ul>
+                    <li><img src="/images/clouds.jpg" width="833" height="500"></li>
+                    <li class='num0'><img src='/images/clouds.jpg' width="833" height="500" alt='Clouds' title='Clouds'></li>
+                    <li class='num1'><img src='/images/typewriter.jpg' width="833" height="500" alt='Typewriter' title='Typewriter'></li>
+                    <li class='num2'><img src='/images/bicycle.jpg' width="833" height="500" alt='Clouds' title='Clouds'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='slide31-0'><span>Clouds</span></label>
+                    <label class='num1' for='slide31-1'><span>Typewriter</span></label>
+                    <label class='num2' for='slide31-2'><span>Bicycle</span></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide30-0'></label>
+                    <label class='num1' for='slide30-1'></label>
+                    <label class='num2' for='slide30-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide30-0'></label>
+                    <label class='num1' for='slide30-1'></label>
+                    <label class='num2' for='slide30-2'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide30-0'><figure><img src='/images/cloudssm.jpg' width="79" height="48" alt='Clouds' title='Clouds'></figure></label>
+                    <label class='num1' for='slide30-1'><figure><img src='/images/typewritersm.jpg' width="79" height="48" alt='Typewriter' title='Typewriter'></figure></label>
+                    <label class='num2' for='slide30-2'><figure><img src='/images/bicyclesm.jpg' width="79" height="48" alt='Bicycle' title='Bicycle'></figure></label>                    
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #30</h2>
             <div class='csslider30 lwrap'>
