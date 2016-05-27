@@ -369,6 +369,7 @@
     border-radius: 10px;
     opacity: 0;
     transform: scale(0);
+    display: inline-block;
 }
 .csslider30 > .description > label > big {
     margin: -5rem 10rem;

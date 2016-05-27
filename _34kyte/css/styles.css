@@ -40,6 +40,7 @@ header .lwrap{
     padding: 12rem 21rem 15rem 21rem;
     margin-bottom: 25rem;
     letter-spacing: -0.006em;
+    display: inline-block;
 }
 
 /*ABOUT*/
@@ -77,8 +78,11 @@ header .lwrap{
     margin-bottom: 55rem;
     width: 100%;
 }
-.about div{
+.about > div{
     width: 100%;
+}
+.about > article > div{
+    max-width: 787px;
 }
 .about > div > article{
     width: 31.55%;
@@ -117,7 +121,7 @@ header .lwrap{
     background: #f0f0f0;
 }
 .blog figcaption{
-    padding: 21rem 21rem 22rem 25rem;
+    padding: 22rem 21rem 25rem 25rem;
     margin-bottom: 21rem;
     background: rgba(220, 220, 220, 0.17);
     font-weight: 900;

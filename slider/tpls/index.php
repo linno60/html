@@ -64,9 +64,9 @@
                     <li class='num2'><img src='/images/bicycle.jpg' width="833" height="500" alt='Clouds' title='Clouds'></li>
                 </ul>
                 <div class='description' data-childs="col -start">
-                    <label class='num0' for='slide31-0'><span>Clouds</span></label>
-                    <label class='num1' for='slide31-1'><span>Typewriter</span></label>
-                    <label class='num2' for='slide31-2'><span>Bicycle</span></label>
+                    <label class='num0' for='slide31-0'><big><span>Clouds</span></big></label>
+                    <label class='num1' for='slide31-1'><big><span>Typewriter</span></big></label>
+                    <label class='num2' for='slide31-2'><big><span>Bicycle</span></big></label>
                 </div>
                 <div class='arrowprev'>
                     <label class='num0' for='slide30-0'></label>

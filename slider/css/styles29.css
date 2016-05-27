@@ -118,6 +118,7 @@
     font-family: Duru Sans;
     opacity: 0;
     transform: scale(2);
+    display: inline-block;
 }
 .csslider29 > .description > label > big {
     font-size: 18px;

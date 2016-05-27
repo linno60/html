@@ -100,6 +100,7 @@
     padding: 15rem;
     margin: 5rem 10rem;
     opacity: 0;
+    display: inline-block;
 }
 .csslider27 > .description > label > * > span {
     display: inline-block;

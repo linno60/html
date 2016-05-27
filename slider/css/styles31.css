@@ -5,6 +5,7 @@
     position: relative;
     max-width: 833px; 
     overflow: hidden;
+    perspective: 500px;
 }
 .csslider31 > input[type=radio] {
     display: none;
@@ -27,32 +28,81 @@
 }
 
 /*SLIDESHOW*/
+.csslider31 > #slide31-0:checked ~ ul > .num0,
+.csslider31 > #slide31-1:checked ~ ul > .num1,
+.csslider31 > #slide31-2:checked ~ ul > .num2 {
+    opacity: 1;
+    z-index: 2;
+}
+@keyframes fade31 {
+    0%, 50%, 100% { opacity: 0; z-index: 2; }
+    16.666666666666668%, 33.333333333333336% { opacity: 1; z-index: 2; }
+}
+.csslider31 > #play31:checked ~ ul > .num0 {
+    animation: fade31 12000ms infinite -2000ms;
+}
+.csslider31 > #play31:checked ~ ul > .num1 {
+    animation: fade31 12000ms infinite 2000ms;
+}
+.csslider31 > #play31:checked ~ ul > .num2 {
+    animation: fade31 12000ms infinite 6000ms;
+}
 
+/*ARROWS*/
 
+/*arrows template*/
 .csslider31 > .arrowprev,
 .csslider31 > .arrownext {
     position: absolute;
     top: 50%;
     z-index: 5;
+    opacity: 0;
+}
+.csslider31 > .arrowprev {
+    left: 70px;
+    transition: .5s opacity .15s ease, .5s transform .15s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateY(-90deg);
+}
+.csslider31 > .arrownext {
+    right: 70px;
+    transition: .5s opacity .3s ease, .5s transform .3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: rotateY(90deg);
 }
 .csslider31 > .arrowprev > label,
 .csslider31 > .arrownext > label {
     position: absolute;
     opacity: 0;
     z-index: -1;
+    transition: 300ms width ease, 300ms margin-left ease, 300ms background ease;
+    overflow: hidden;
+    margin-top: -35px;
+    width: 40px;
+    height: 70px;
+    border-radius: 4px;
 }
-.csslider31 > .arrowprev {
-    left: 0;
-}
-.csslider31 > .arrownext {
+.csslider31 > .arrowprev > label {
     right: 0;
+    background: rgba(0,0,0,.6) url(/images/icons/prev10.png)no-repeat center center;
 }
-.csslider31 > .arrowprev > label.num2,
-.csslider31 > .arrownext > label.num1 {
+.csslider31 > .arrownext > label {
+    left: 0;
+    background: rgba(0,0,0,.6) url(/images/icons/next10.png)no-repeat center center;
+}
+.csslider31:hover > .arrowprev,
+.csslider31:hover > .arrownext {
     opacity: 1;
-    z-index: 5;
+    transform: rotateX(0deg);
+}
+.csslider31 > .arrowprev:hover > label {
+    background: #1fa5ad url(/images/icons/prev10.png)no-repeat center center;
+    width: 70px;
+}
+.csslider31 > .arrownext:hover > label {
+    background: #1fa5ad url(/images/icons/next10.png)no-repeat center center;
+    width: 70px;
 }
 
+/*arrows moving*/
 .csslider31 > #slide31-0:checked ~ .arrowprev > label.num2,
 .csslider31 > #slide31-0:checked ~ .arrownext > label.num1, 
 .csslider31 > #slide31-1:checked ~ .arrowprev > label.num0,
@@ -62,280 +112,167 @@
     opacity: 1;
     z-index: 5;
 }
-@keyframes arrow {
+@keyframes arrows31 {
     0%, 33.32333333333334% { opacity: 1; z-index: 5; }
     33.333333333333336%, 100%	{ opacity: 0; z-index: -1; }
 }
 .csslider31 > #play31:checked ~ .arrowprev > label.num2,
 .csslider31 > #play31:checked ~ .arrownext > label.num1 {
-    animation: arrow 12000ms infinite -2000ms;
+    animation: arrows31 12000ms infinite -2000ms;
 }
 .csslider31 > #play31:checked ~ .arrowprev > label.num0,
 .csslider31 > #play31:checked ~ .arrownext > label.num2 {
-    animation: arrow 12000ms infinite 2000ms;
+    animation: arrows31 12000ms infinite 2000ms;
 }
 .csslider31 > #play31:checked ~ .arrowprev > label.num1,
 .csslider31 > #play31:checked ~ .arrownext > label.num0 {
-    animation: arrow 12000ms infinite 6000ms;
+    animation: arrows31 12000ms infinite 6000ms;
 }
 
+/*BULLETS*/
+
+/*bullets template*/
 .csslider31 > .bullets {
     position: absolute;
-    left: 0;
     width: 100%;
     z-index: 6;
-}
-.csslider31 > .bullets > div {
-    margin-left: -50%;
-    width: 100%;
+    bottom: 4px;
 }
 .csslider31 > .bullets > label {
     position: relative;
-    display: inline-block;
-    cursor: pointer;
+    perspective: 500px;
+    margin: 6px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.6);
 }
 .csslider31 > .bullets > label > figure {
     visibility: hidden;
     position: absolute;
     opacity: 0;
     z-index: 1;
-    line-height: 0;
     left: -39.5px;
-    top: -48px;
-}
-
-.csslider31 > #slide31-0:checked ~ ul > li.num0,
-.csslider31 > #slide31-1:checked ~ ul > li.num1,
-.csslider31 > #slide31-2:checked ~ ul > li.num2 {
-    opacity: 1;
-    z-index: 2;
-}
-.csslider31 > ul > li.num0 {
-    opacity: 1;
-    z-index: 2;
-}
-.csslider31 > .slide:checked ~ ul > li.num0 {
-    opacity: 0;
-    z-index: 1;
-}
-@keyframes fade {
-    0%, 50%, 100%	{ opacity: 0; z-index: 2; }
-    16.666666666666668%, 33.333333333333336%	{ opacity: 1; z-index: 2; }
-}
-.csslider31 > #play31:checked ~ ul > li.num0 {
-    animation: fade 12000ms infinite -2000ms;
-}
-.csslider31 > #play31:checked ~ ul > li.num1 {
-    animation: fade 12000ms infinite 2000ms;
-}
-.csslider31 > #play31:checked ~ ul > li.num2 {
-    animation: fade 12000ms infinite 6000ms;
-}
-.csslider31 {
-    perspective: 500px;
-}
-.csslider31 > .arrowprev {
-    transition: .5s opacity .15s ease, .5s transform .15s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    transform: rotateY(-90deg);
-}
-.csslider31 > .arrownext {
-    transition: .5s opacity .3s ease, .5s transform .3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    transform: rotateY(90deg);
-}
-.csslider31 > .arrowprev,
-.csslider31 > .arrownext {
-    opacity: 0;
-}
-.csslider31:hover > .arrowprev,
-.csslider31:hover > .arrownext {
-    opacity: 1;
-    transform: rotateX(0deg);
-
-}
-.csslider31 > .arrowprev > label,
-.csslider31 > .arrownext > label {
-    overflow: hidden;
-    margin-top: -35px;
-    width: 40px;
-    height: 70px;
-    background-color: rgba(0,0,0,0.6);
-    border-radius: 4px;
-}
-.csslider31 > .arrowprev {
-    left: 70px;
-}
-.csslider31 > .arrownext {
-    right: 70px;
-}
-.csslider31 > .arrowprev > label {
-    right: 0;
-}
-.csslider31 > .arrownext > label {
-    left: 0;
-}
-.csslider31 > .arrowprev > label:after {
-
-}
-.csslider31 > .arrownext > label:after {
-    
-}
-.csslider31 > .arrowprev > label:after,
-.csslider31 > .arrownext > label:after {
-    display: block;
-    color: #fff;
-}
-.csslider31 > .arrowprev > label,
-.csslider31 > .arrownext > label {
-    transition: 300ms width ease, 300ms margin-left ease, 300ms background-color ease;
-}
-.csslider31 > .arrowprev:hover > label {
-    background-color: #1FA5AD;
-    width: 70px;
-}
-.csslider31 > .arrownext:hover > label {
-    background-color: #1FA5AD;
-    width: 70px;
-}
-.csslider31 > .bullets {
-    bottom: 5px;
-    margin-bottom: 5px;
-}
-.csslider31 > .bullets > label {
-    perspective: 500px;
-
-}
-.csslider31 > .bullets > label > figure {
-    border: 3px solid #1FA5AD;
-    margin-top: -11px;
+    top: -59px;
+    border: 3px solid #1fa5ad;
     transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
     transform-origin: 0% 100% 0px;
     transform: rotateX(90deg);
 }
 .csslider31 > .bullets > label > figure:before {
     content: '';
-    position: absolute;
-    width: 0; 
-    height: 0; 
+    position: absolute; 
     left: 50%;
     margin-left: -1px;
     bottom: -8px;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid #1FA5AD;
+    border-top: 7px solid #1fa5ad;
 }
 .csslider31 > .bullets > label:hover > figure {
     visibility: visible;
     opacity: 1;
     transform: rotateX(0deg);
 }
-.csslider31 > .bullets > label {
-    margin: 0 6px;
-    padding: 9px;
-    border-radius: 50%;
-    background: #000;
-    background-color: rgba(0,0,0,0.6);
+
+/*bullets moving*/
+.csslider31 > .bullets > label:hover,
+.csslider31 > #slide31-0:checked ~ .bullets > .num0,
+.csslider31 > #slide31-1:checked ~ .bullets > .num1,
+.csslider31 > #slide31-2:checked ~ .bullets > .num2 {
+    background: #1fa5ad;
 }
-.csslider31 > .bullets > label.num0 {
-    background-color: #1FA5AD;
+@keyframes bullets31 {
+    0%, 33.32333333333334% { background: #1fa5ad; }
+    33.333333333333336%, 100% { background: #000; background: rgba(0,0,0,.6); }
 }
-.csslider31 > .slide:checked ~ .bullets > label {
-    background-color: rgba(0,0,0,0.6);
+.csslider31 > #play31:checked ~ .bullets > .num0 {
+    animation: bullets31 12000ms infinite -2000ms;
 }
-.csslider31 > #slide31-0:checked ~ .bullets > label.num0,
-.csslider31 > #slide31-1:checked ~ .bullets > label.num1,
-.csslider31 > #slide31-2:checked ~ .bullets > label.num2 {
-    background-color: #1FA5AD;
+.csslider31 > #play31:checked ~ .bullets > .num1 {
+    animation: bullets31 12000ms infinite 2000ms;
 }
-.csslider31 > .bullets > label:hover {
-    background-color: #1FA5AD;
-}
-@keyframes bullet {
-    0%, 33.32333333333334%	{ background-color: #1FA5AD; }
-    33.333333333333336%, 100% { background: #000; background-color: rgba(0,0,0,0.6); }
-}
-.csslider31 > #play31:checked ~ .bullets > label.num0 {
-    animation: bullet 12000ms infinite -2000ms;
-}
-.csslider31 > #play31:checked ~ .bullets > label.num1 {
-    animation: bullet 12000ms infinite 2000ms;
-}
-.csslider31 > #play31:checked ~ .bullets > label.num2 {
-    animation: bullet 12000ms infinite 6000ms;
+.csslider31 > #play31:checked ~ .bullets > .num2 {
+    animation: bullets31 12000ms infinite 6000ms;
 }
 
-.csslider31 > .description {
-    z-index: 3;
-    position: absolute;
-    max-width: 50%;
-    left: 0;
-    bottom: 0px;
-}
+/*DESCRIPTION*/
+
+/*description template*/
 .csslider31 > .description > label {
-    font: 20px Roboto;
-    bottom: 35px;
-    left: 20px;
+    position: absolute;
+    max-width: 50%;    
+    bottom: 35rem;
+    left: 20rem;
     perspective: 500px;
-    padding: 10px;
-    color: #fff;
+    z-index: 3;
+}
+.csslider31 > .description > label > big {
+    padding: 10px;    
     overflow: hidden;
     transform-origin: 0% 0% 0px;
     border-radius: 4px;
-    margin: 0px 10px;
     opacity: 0;
     z-index: 2;
-    background-color: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,.6);
     transform: rotateX(90deg);
+    display: inline-block;
     transition: 750ms opacity 975ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 975ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
-.csslider31 > #slide31-0:checked ~ .description > .num0,
-.csslider31 > #slide31-1:checked ~ .description > .num1,
-.csslider31 > #slide31-2:checked ~ .description > .num2 {
-    z-index: 2;
+.csslider31 > .description > label > big > span {
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    transform: translateX(-100%);
+    transition: 750ms opacity 1450ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 1450ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
-.csslider31 > #slide31-0:checked ~ .description > .num0,
-.csslider31 > #slide31-1:checked ~ .description > .num1,
-.csslider31 > #slide31-2:checked ~ .description > .num2 {
+
+/*description moving*/
+.csslider31 > #slide31-0:checked ~ .description > .num0 > big,
+.csslider31 > #slide31-1:checked ~ .description > .num1 > big,
+.csslider31 > #slide31-2:checked ~ .description > .num2 > big {
     opacity: 1;
     transition: 750ms opacity 1200ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 1200ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    transform: rotateX(0deg);
+    transform: rotateX(0deg);	
 }
 .csslider31 > #slide31-0:checked ~ .description > .num0 span,
 .csslider31 > #slide31-1:checked ~ .description > .num1 span,
 .csslider31 > #slide31-2:checked ~ .description > .num2 span {
     opacity: 1;
-    transform: translateX(0);
-}
-.csslider31 > .description > label > span {
-    display: inline-block;
-    transform: translateX(-100%);
-    transition: 750ms opacity 1450ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 750ms transform 1450ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: translateX(0);	
 }
 @keyframes description31 {
-    3.0625%, 30.260833333333334%	{ opacity: 1; transform: rotateX(-9deg); z-index: 2;}
+    3.0625%, 30.260833333333334% { opacity: 1; transform: rotateX(-9deg); z-index: 2;}
     4.375%, 28.948333333333334%	{ opacity: 1; transform: rotateX(0deg); z-index: 2;}
     33.333333333333336%	{ opacity: 0; transform: rotateX(90deg); z-index: 2;}
-    33.343333333333334%, 100%	{ z-index: 0; }
+    33.343333333333334%, 100% { z-index: 0; }
 }
-.csslider31 > #play31:checked ~ .description > .num0 {
+.csslider31 > #play31:checked ~ .description > .num0 > big {
     animation: description31 12000ms infinite -1400ms ease;
 }
-.csslider31 > #play31:checked ~ .description > .num1 {
+.csslider31 > #play31:checked ~ .description > .num1 > big {
     animation: description31 12000ms infinite 2600ms ease;
 }
-.csslider31 > #play31:checked ~ .description > .num2 {
+.csslider31 > #play31:checked ~ .description > .num2 > big {
     animation: description31 12000ms infinite 6600ms ease;
 }
 @keyframes description31-text {
-    3.0625%, 30.260833333333334%	{ opacity: 1; transform: translateX(-1%); }
+    3.0625%, 30.260833333333334% { opacity: 1; transform: translateX(-1%); }
     4.375%, 28.948333333333334%	{ opacity: 1; transform: translateX(0%); }
     33.333333333333336%	{ opacity: 0; transform: translateX(100%); }
 }
-.csslider31 > #play31:checked ~ .description > .num0 > span {
+.csslider31 > #play31:checked ~ .description > .num0 > big > span {
     animation: description31-text 12000ms infinite -1190ms ease;
 }
-.csslider31 > #play31:checked ~ .description > .num1 > span {
+.csslider31 > #play31:checked ~ .description > .num1 > big > span {
     animation: description31-text 12000ms infinite 2810ms ease;
 }
-.csslider31 > #play31:checked ~ .description > .num2 > span {
+.csslider31 > #play31:checked ~ .description > .num2 > big > span {
     animation: description31-text 12000ms infinite 6810ms ease;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    .csslider31 > .description, .csslider31 > .bullets {display: none;}
 }

@@ -126,6 +126,7 @@
     padding: 10rem;
     font-family: Roboto;
     opacity: 0;
+    display: inline-block;
 }
 .csslider22 > .description > label > big {
     font-size: 20px;

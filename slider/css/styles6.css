@@ -192,12 +192,12 @@
     bottom: 20rem;
     left: 27rem;
 }
-.csslider6 > .description > label > span,
-.csslider6 > .description > label > small{
+.csslider6 > .description > label > *{
     border-radius: 3px;
     font-family: Bitter;
     transform: scale(0);
     opacity: 0;
+    display: inline-block;
 }
 .csslider6 > .description > label > span {
     color: #33bbd9;

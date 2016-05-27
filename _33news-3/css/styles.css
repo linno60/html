@@ -5,7 +5,7 @@ figure img, #logo img{
     display: block;
 }
 .lwrap{
-    padding: 0px 10px;
+    padding: 0px 10rem;
     max-width: 640px;
 }
 body {
@@ -21,6 +21,10 @@ p a{
 }
 p a:active, p a:hover, p a:focus{
     text-decoration: none;
+}
+address{
+    font-style: normal;
+    display: inline;
 }
 
 /*HEADER*/
@@ -138,7 +142,7 @@ header p a{
     width: 47.5%;
 }
 .content{
-    width: 100%;
+    width: 62.5%;
 }
 .content-wrap figure .lbl-default{
     position: absolute;
@@ -239,6 +243,11 @@ header p a{
     border-style: solid;
     padding: 6rem 12rem 6rem 3rem;
     border-image: linear-gradient(#f9f9f9, #e7e7e7, #f9f9f9) 1;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .compare > div:first-child {
+        border-color: #f9f9f9;
+    }
 }
 .recipe figure{
     position: relative;

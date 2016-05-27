@@ -212,6 +212,7 @@
 .csslider24 > .description > label > *{
     opacity: 0;
     transition: opacity .4s;
+    display: inline-block;
 }
 .csslider24 > .description > label > big {
     margin-bottom: 10rem;

@@ -104,6 +104,7 @@
     border: 2px solid white;
     font-family: Pacifico;
     opacity: 0;
+    display: inline-block;
 }
 .csslider23 > .description > label > big {
     text-transform: uppercase;

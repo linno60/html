@@ -195,7 +195,7 @@
                     <a href="#">Privacy Policy</a>|
                     <a href="#">Terms & Conditions</a>
                 </nav>
-                <span>Copyright &copy; 2013 Company Name. All Rights Reserved. East Pixel Bld. 99, Creative City 9000, Republic of Design</span>
+                <span>Copyright &copy; 2013 Company Name. All Rights Reserved. <address>East Pixel Bld. 99, Creative City 9000, Republic of Design</address></span>
                 <div class="links-footer contacts" data-flex="-center center w">
                     <a href="#" class="web">www.YourSiteName.com</a>|
                     <a href="mailto:email@yoursitename.com" class="mail">email@yoursitename.com</a>|

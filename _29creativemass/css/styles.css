@@ -54,6 +54,7 @@ header{
 .figure-wrap{
     padding-left: 30rem;
     flex-grow: 1;
+    width: 68.7%;
 }
 .works .figure-wrap figure{
     width: 21.5%;

@@ -207,6 +207,7 @@
     transform: scale(0);
     background: #1a2223;
     color: #54d2c0;
+    display: inline-block;
 }
 .csslider7 > .description > label > big {
     font-size: 26px;

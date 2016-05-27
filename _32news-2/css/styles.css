@@ -57,6 +57,7 @@ header p a:active, header p a:hover, header p a:focus{
     letter-spacing: -0.03em;
     margin: 0px -1rem 5rem 10px;
     text-align: right;
+    display: inline-block;
 }
 
 /*FEATURED*/
@@ -122,6 +123,7 @@ body > .lwrap{
 }
 .content{
     margin-bottom: 10px;
+    width: 67%;
 }
 .content article > figure{
     margin-bottom: 10rem;

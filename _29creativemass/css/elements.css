@@ -52,6 +52,8 @@ a, button{
 .btn-slider:before, .btn-slider:after{
     content: "";
     position: absolute;
+    display: inline-block;
+    top: 0px;
 }
 .next:before{
     right: 0px;

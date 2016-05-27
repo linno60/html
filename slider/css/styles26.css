@@ -170,6 +170,7 @@
     border-radius: 10px;
     opacity: 0;
     transform: scale(0);
+    display: inline-block;
 }
 .csslider26 > .description > label > big {
     font-size: 23px;

@@ -106,18 +106,18 @@
 }
 .csslider17 > .arrowprev > label {
     right: 0;
-    background: rgba(0,0,0,.6) url(/images/icons/prev17.png)no-repeat center center;
+    background: rgba(0,0,0,.6) url(/images/icons/prev10.png)no-repeat center center;
 }
 .csslider17 > .arrownext > label {
     left: 0;
-    background: rgba(0,0,0,.6) url(/images/icons/next17.png)no-repeat center center;
+    background: rgba(0,0,0,.6) url(/images/icons/next10.png)no-repeat center center;
 }
 .csslider17 > .arrowprev:hover > label {
-    background: #289dcc url(/images/icons/prev17.png)no-repeat center center;
+    background: #289dcc url(/images/icons/prev10.png)no-repeat center center;
     width: 70px;
 }
 .csslider17 > .arrownext:hover > label {
-    background: #289dcc url(/images/icons/next17.png)no-repeat center center;
+    background: #289dcc url(/images/icons/next10.png)no-repeat center center;
     width: 70px;
 }
 
@@ -242,6 +242,7 @@
     border-radius: 4px;
     overflow: hidden;
     opacity: 0;
+    display: inline-block;
 }
 .csslider17 > .description > label > big {
     font-size: 20px;

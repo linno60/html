@@ -248,6 +248,7 @@
     font-family: Lobster;
     padding: 10rem;
     border-radius: 12px;
+    display: inline-block;
 }
 .csslider21 > .description > label > big {
     font-size: 20px;
