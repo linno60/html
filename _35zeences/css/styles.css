@@ -82,6 +82,9 @@ header > section{
     width: 21.2%;
     margin-bottom: 20px;
 }
+.services p{
+    max-width:600px;
+}
 
 /*WORKS*/
 .works-slider{
@@ -121,6 +124,7 @@ footer > div{
 }
 footer .grid a{
     margin: 5px 15rem 10rem 0px;
+    display: inline-block;
 }
 footer .grid{
     margin-right: -16rem;
@@ -155,6 +159,7 @@ footer .list-default li{
 .post time span{
     font-size: 27px;
     line-height: 25px;
+    display: inline-block;
 }
 .post time small{
     text-transform: uppercase;

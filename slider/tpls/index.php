@@ -41,6 +41,7 @@
         <link rel="stylesheet" href="/css/styles29.css">
         <link rel="stylesheet" href="/css/styles30.css">
         <link rel="stylesheet" href="/css/styles31.css">
+        <link rel="stylesheet" href="/css/styles32.css">
         <script>
             var LAYOUT_WIDTH = 1024;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -50,6 +51,47 @@
         </script>
     </head>
     <body>
+        <div>
+            <h2 class="h2">Slider #32</h2>
+            <div class='csslider32 lwrap'>
+                <input name="anchor32" id='slide32-0' type="radio">
+                <input name="anchor32" id='slide32-1' type="radio">
+                <input name="anchor32" id='slide32-2' type="radio">
+                <input name="anchor32" id='slide32-3' type="radio">
+                <input name="anchor32" id='play32' type="radio" checked>
+                <ul>
+                    <li><img src="/images/airplane.jpg" width="830" height="360"></li>
+                    <li class='num0'><img src='/images/airplane.jpg' width="830" height="360" alt='Landing of airplane' title='Landing of airplane'></li>
+                    <li class='num1'><img src='/images/cityscape.jpg' width="830" height="360" alt='Amazing cityscape' title='Amazing cityscape'></li>
+                    <li class='num2'><img src='/images/quay.jpg' width="830" height="360" alt='Quay' title='Quay'></li>
+                    <li class='num3'><img src='/images/sunrise.jpg' width="830" height="360" alt='Sunrise' title='Sunrise'></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='pause32-0'><big><span>Landing of airplane</span></big><small><span>Brisbane, Australia</span></small></label>
+                    <label class='num1' for='pause32-1'><big><span>Amazing cityscape</span></big><small><span>Brisbane, Australia</span></small></label>
+                    <label class='num2' for='pause32-2'><big><span>Quay</span></big><small><span>Brisbane, Australia</span></small></label>
+                    <label class='num3' for='pause32-3'><big><span>Sunrise</span></big><small><span>Brisbane, Australia</span></small></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide32-0'></label>
+                    <label class='num1' for='slide32-1'></label>
+                    <label class='num2' for='slide32-2'></label>
+                    <label class='num3' for='slide32-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide32-0'></label>
+                    <label class='num1' for='slide32-1'></label>
+                    <label class='num2' for='slide32-2'></label>
+                    <label class='num3' for='slide32-3'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide32-0'><figure><img src='/images/airplanesm.jpg' width="110" height="48" alt='Landing of airplane' title='Landing of airplane'></figure></label>
+                    <label class='num1' for='slide32-1'><figure><img src='/images/cityscapesm.jpg' width="110" height="48" alt='Amazing cityscape' title='Amazing cityscape'></figure></label>
+                    <label class='num2' for='slide32-2'><figure><img src='/images/quaysm.jpg' width="110" height="48" alt='Quay' title='Quay'></figure></label>                    
+                    <label class='num3' for='slide32-3'><figure><img src='/images/sunrisesm.jpg' width="110" height="48" alt='Sunrise' title='Sunrise'></figure></label>
+                </div>
+            </div>
+        </div>
         <div>
             <h2 class="h2">Slider #31</h2>
             <div class='csslider31 lwrap'>

@@ -74,7 +74,6 @@
     opacity: 0;
     z-index: -1;
     transition: 300ms width ease, 300ms margin-left ease, 300ms background ease;
-    overflow: hidden;
     margin-top: -35px;
     width: 40px;
     height: 70px;
@@ -93,13 +92,15 @@
     opacity: 1;
     transform: rotateX(0deg);
 }
-.csslider31 > .arrowprev:hover > label {
-    background: #1fa5ad url(/images/icons/prev10.png)no-repeat center center;
+.csslider31 > .arrowprev:hover > label,
+.csslider31 > .arrownext:hover > label{
     width: 70px;
+}
+.csslider31 > .arrowprev:hover > label {
+    background: #1fa5ad url(/images/icons/prev10.png)no-repeat center center;    
 }
 .csslider31 > .arrownext:hover > label {
     background: #1fa5ad url(/images/icons/next10.png)no-repeat center center;
-    width: 70px;
 }
 
 /*arrows moving*/
