@@ -104,6 +104,7 @@ header > .lwrap{
 .content{
     flex-grow: 1;
     margin: 0px 15rem;
+    width: 50%;
 }
 .blog h2{
     color: #717171;
@@ -163,12 +164,6 @@ header > .lwrap{
     font-weight: 400;
     text-transform: uppercase;
 }
-.responses a{
-    color: #535353;
-}
-.responses a:active, .responses a:hover, .responses a:focus{
-    text-decoration: underline;
-}
 .responses form{
     padding-bottom: 4rem;
 }
@@ -225,6 +220,7 @@ header > .lwrap{
     margin: 3px 0px 6px 0px;
     width: 30%;
     min-width: 50px;
+    display: inline-block;
 }
 .comments p{
     margin: 0px 0px 9px 2px;
@@ -282,4 +278,7 @@ footer > .lwrap{
     .slider figure:hover figcaption{display: block;}
     .sidebar{width: 49%;}
     .content{width:100%;margin: 0px;}
+}
+@media (max-width: 480px) {
+.slider .posts article:last-child {background: none;}
 }

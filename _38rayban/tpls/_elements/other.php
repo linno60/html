@@ -8,4 +8,3 @@
     <span>sun</span>
 </div>
 <a href="#" class="link">[Change]</a>
-<div class="counter" data-flex="-center center">1</div>

@@ -25,6 +25,7 @@ body{
     padding-left: 24px;
     margin-bottom: 24rem;
     width: 100%;
+    display: inline-block;
 }
 .links-tweet a:active, .links-tweet a:hover, .links-tweet a:focus{
     text-decoration: underline;

@@ -184,12 +184,12 @@
                             <article class="clearfix">
                                 <figure><img src="/images/img15.png"></figure>
                                 <h4>barmey simpler</h4>
-                                <p><a href="#">Vivamus a turpis justo, nec lobortis felis. Donec id diam enim euismod gravida. Sed non dui nec sapien mollis ornare.</a></p> 
+                                <p>Vivamus a turpis justo, nec lobortis felis. Donec id diam enim euismod gravida. Sed non dui nec sapien mollis ornare.</p> 
                             </article>
                             <article class="clearfix">
                                 <figure><img src="/images/img15.png"></figure>
                                 <h4>barney simpler</h4>
-                                <p><a href="#">Vivamus a turpis justo, nec lobortis felis. Donec id diam enim euismod gravida. Sed non dui nec sapien mollis ornare.</a></p> 
+                                <p>Vivamus a turpis justo, nec lobortis felis. Donec id diam enim euismod gravida. Sed non dui nec sapien mollis ornare.</p> 
                             </article>
                         </div>
                         <h3>leave a comment</h3>
@@ -206,7 +206,7 @@
                     <div class="search">
                         <h3 class="hdr">search</h3>
                         <form action="#" method="post">
-                            <input type="search" name="input" placeholder="Search">
+                            <input type="search" name="input">
                         </form>
                     </div>
                     <div class="posts">

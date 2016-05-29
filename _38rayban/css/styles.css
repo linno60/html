@@ -25,11 +25,21 @@ figure img{
 #logo, #logo-alt{
     margin: 0px 17rem 1rem 0px;
     border-right: 1px solid rgba(51,51,51,.35);
+    display: inline-block;
+}
+address{
+    font-style: normal;
+}
+.product, .map{
+    width: 31.1%;
+}
+.cart, .sales{
+    width: 65.5%;
 }
 
 /*HEADER*/
 header{
-    padding: 20rem 49rem 18rem 40rem;
+    padding: 17rem 49rem 15rem 40rem;
 }
 #logo{
     padding: 14px 39rem 14px 0px;
@@ -83,9 +93,6 @@ header form{
 }
 
 /*PRODUCT*/
-.product, .map{
-    width: 31.1%;
-}
 .product > div{
     padding: 14rem 30rem 20rem 31rem;
 }
@@ -103,6 +110,7 @@ header form{
 }
 .product b{
     margin: 9rem 0px 21rem 0px;
+    display: inline-block;
 }
 
 /*SALES*/
@@ -131,15 +139,13 @@ header form{
     font-size: 30px;
     margin-bottom: 7rem;
     font-weight: 700;
+    display: inline-block;
 }
 .caption small{
     font-weight: 500;
 }
 
 /*CART*/
-.cart, .sales{
-    width: 65.5%;
-}
 .cart > h4{
     font-size: 21px;
     font-weight: 700;
@@ -152,6 +158,14 @@ header form{
     font-size: 24px;
     font-weight: 700;
     letter-spacing: -0.18px;
+}
+.cart-items figure{
+    width: 17.6%;
+    flex-shrink: 0;
+    min-width: 52px;
+}
+.cart-items > div > div{
+    flex-grow: 1;
 }
 .cart .counter + strong {
     padding-left: 31rem;
@@ -187,6 +201,7 @@ header form{
     font-size: 21px;
     font-weight: 700;
     margin-bottom: 1px;
+    display: inline-block;
 }
 .map iframe{
     min-height: 327rem;
@@ -203,7 +218,7 @@ footer{
 
 /*MEDIA QUERIES*/
 @media (max-width: 640px) {
-    .links-nav{order: 2;width: 100%;}
+    .wrap > header{padding: 7px;}
     .product .price {font-size: 15px;}
     .product, .map{width: 48%;} 
     .cart, .sales{width: 100%;}

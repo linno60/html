@@ -38,14 +38,14 @@
                 </form>
             </header>
             <section class="lwrap">
-                <div class="banner" data-flex="stripe">
+                <div class="banner" data-flex="stripe" data-flex-480="vstripe">
                     <div data-flex="col -start center">
                         <figure><img src="/images/logo-lg.png"></figure>
                         <h2>RB2132 901 NEW WAYFARER</h2>
                         <p>The Ray-Ban® Wayfarer® is simply the most recognizable style in sunglasses. The distinct shape is paired with the traditional Ray-Ban signature logo on the sculpted temples. After its initial design in 1952, the Ray-Ban Wayfarer quickly endeared itself to Hollywood filmmakers, celebrities, musicians and artists, solidifying its iconic status for years to come. </p>
                         <a href="#" class="btn btn-more">find out more</a>
                     </div>
-                    <div data-flex="col -end between">
+                    <div data-flex="col -end between" data-flex-480="axis">
                         <figure><img src="/images/logo-sm.png"></figure>
                         <h3>never hide</h3>
                     </div>
@@ -96,35 +96,35 @@
                 <div class="cart">
                     <h4>Shopping Bag</h4>
                     <div class="cart-items" data-childs="axis">
-                        <div data-childs="axis">
+                        <div data-childs="-center">
                             <div>
                                 <figure><img src="/images/product1.png"></figure>
                                 <h5>Vans Vault 2012 Summer OG Era LX Pack<a href="#" class="link">[Remove]</a></h5>                            
                             </div>
-                            <div>
-                                <div class="counter" data-flex="-center center">1</div>
+                            <form action="#" method="post">
+                                <input type="text" class="counter" name="counter" placeholder="1">
                                 <strong>&pound;54.00</strong>
-                            </div>                        
+                            </form>                        
                         </div>
-                        <div data-childs="axis">
+                        <div data-childs="-center">
                             <div>
-                               <figure><img src="/images/product2.png"></figure>
+                                <figure><img src="/images/product2.png"></figure>
                                 <h5>Emerica Pure 12 T Shirt Red<a href="#" class="link">[Remove]</a></h5>
                             </div>
-                            <div>
-                                <div class="counter" data-flex="-center center">2</div>
+                            <form>
+                                <input type="text" class="counter" name="counter" placeholder="2">
                                 <strong>&pound;32.00</strong>
-                            </div>                        
+                            </form>                        
                         </div>
-                        <div data-childs="axis">
+                        <div data-childs="-center">
                             <div>
                                 <figure><img src="/images/product3.png"></figure>
                                 <h5>Fred Perry Dark Yellow Checked Shirt<a href="#" class="link">[Remove]</a></h5>
                             </div>
-                            <div>
-                                <div class="counter" data-flex="-center center">1</div>
+                            <form>
+                                <input type="text" class="counter" name="counter" placeholder="1">
                                 <strong>&pound;70.00</strong>
-                            </div>                        
+                            </form>                        
                         </div>
                         <div>
                             <strong>Total: &pound;156.00</strong>
@@ -134,9 +134,11 @@
                 </div>
                 <div class="map" data-flex="vstripe">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d171337.03543942622!2d35.17535355!3d47.856229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1441653049474"></iframe>
-                    <div data-flex="col">
-                        <strong>1600 Pacific Ave</strong>
-                        <small>Venice, CA, United States</small>
+                    <div>
+                        <address data-flex="col">
+                            <strong>1600 Pacific Ave</strong>
+                            <small>Venice, CA, United States</small>
+                        </address>
                     </div>
                 </div>
             </section>

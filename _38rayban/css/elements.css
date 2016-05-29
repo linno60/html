@@ -10,7 +10,7 @@ body{
     padding-top: 3rem;
 }
 .links-nav a{
-    margin: 2px 22rem;
+    margin: 5px 22rem;
     line-height: 32px;
     color: #333;
     font-weight: 500;
@@ -23,6 +23,7 @@ body{
 }
 .links-social a{
     margin: 10px;
+    display: inline-block;
 }
 
 /*BUTTONS*/
@@ -92,6 +93,8 @@ input[name=image]{
 .link:active, .link:hover, .link:focus{
     text-decoration: underline;
 }
+
+/*FORMS*/
 .counter{
     width: 34px;
     height: 34px;
@@ -99,4 +102,9 @@ input[name=image]{
     border: 1px solid #d7d7d7;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
+    color: black;
 }
+.counter::-webkit-input-placeholder { color: #444; }
+.counter::-moz-placeholder { color: #444; }
+.counter:-ms-input-placeholder { color: #444; }

@@ -162,7 +162,10 @@ footer h5{
 footer address{
     font-style: normal;
     padding-top: 24rem;
-    max-width: 201px;
+}
+footer address span{
+    display: inline-block;
+    max-width: 203px;
 }
 footer i{
     flex-shrink: 0;

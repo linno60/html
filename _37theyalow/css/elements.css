@@ -82,6 +82,7 @@ body{
 .lbl-date small{
     color: #b26529;
     font-size: 21px;
+    display: inline-block;
 }
 .lbl-free{
     color: white;
@@ -107,6 +108,7 @@ body{
     line-height: 26px;
     padding-bottom: 21rem;
     letter-spacing: 0.0018em;
+    display: inline-block;
 }
 .list-default li:before{
     width: 14px;

@@ -212,8 +212,8 @@
                             </div>
                             <div data-flex="vstripe">
                                 <ul class="links-actions" data-childs="axis">
-                                    <li><a href="#">buy on amazon</a>15 $</li>
-                                    <li><a href="#">watch on netflix</a>7 $</li>
+                                    <li><a href="#">buy on amazon</a><span>15 $</span></li>
+                                    <li><a href="#">watch on netflix</a><span>7 $</span></li>
                                     <li><a href="#">subscribe on updates</a></li>
                                 </ul>
                                 <div data-flex="-start">

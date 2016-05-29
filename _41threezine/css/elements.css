@@ -11,6 +11,7 @@ body{
 }
 .links-top a{
     margin: 2px 9px 3px 0px;
+    display: inline-block;
 }
 .links-top a, .links-meta a{
     color: #535353;
@@ -32,6 +33,7 @@ body{
     text-transform: uppercase;
     margin: 6px 22rem;
     letter-spacing: 0.001em;
+    display: inline-block;
 }
 .links-tags a, .links-archive a, .links-tag a, .links-tag{
     color: #717171;
@@ -49,6 +51,7 @@ body{
 .links-archive a{
     margin-bottom: 12px;
     letter-spacing: -0.002em;
+    display: inline-block;
 }
 .links-archive a:last-child{
     margin-bottom: 4px;

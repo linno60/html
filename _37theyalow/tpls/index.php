@@ -66,7 +66,7 @@
             <div class="lwrap">
                 <h2>lorem ipsum dolor sit amet</h2>
                 <div class="banners" data-flex="stripe" data-flex-640="-start" data-flex-480="stripe w">
-                    <div data-flex data-flex-640="stripe w">
+                    <div data-flex data-flex-640="vstripe">
                         <div class="banners-item">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci&shy;didunt ut</p>
                             <a href="#"><i class="icon-plus"></i></a>

@@ -165,6 +165,7 @@ header > .lwrap > div{
     font-weight: 300;
     line-height: 38rem;
     margin-top: 8rem;
+    max-width: 300px;
 }
 
 /*CONDITIONS*/

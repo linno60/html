@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=d4bb3db7-185e-40eb-9fc0-405e2af8d408");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Fertigo";
+    src: url("/fonts/fonts.com/07e296e0-f4b2-459a-9e50-1ce5f402170c.woff2") format("woff2"), url("/fonts/fonts.com/5308ae1c-341f-49f2-a276-926c63ed8297.woff") format("woff");
+}

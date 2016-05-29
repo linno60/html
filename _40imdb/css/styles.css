@@ -168,7 +168,7 @@ header em{
 }
 .insert{  
     flex-grow: 1;
-    height: 98%;
+    height: 48%;
     overflow: hidden;
     background: url('/images/grid.png'), linear-gradient(#4fa0b5, #468899);
 }
@@ -210,10 +210,12 @@ header em{
     text-transform: uppercase;
     letter-spacing: 0.59em;
     margin: 0px 0px 11rem 7rem;
+    display: inline-block;
 }
 .cash{
     width: 74%;
     flex-shrink: 0;
+    height: 97%;
 }
 .slider .links-actions{
     flex-grow: 1;
@@ -299,12 +301,14 @@ footer article:last-child{
     border-top: 1px solid rgba(0,0,0,.05);
     margin-top: 35rem;
     line-height: 18px;
+    display: inline-block;
 }
 .copyright span a{
     color: #478c9d;
 }
 #logoalt{
     margin: 1rem -2rem 0px 0px;
+    display: inline-block;
 }
 
 /*MEDIA QUERIES*/

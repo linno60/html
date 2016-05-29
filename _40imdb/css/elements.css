@@ -83,6 +83,9 @@ body{
     text-transform: uppercase;
     color: #ccc;
 }
+.links-actions span{
+    display: inline-block;
+}
 .links-actions a:active, .links-actions a:hover, .links-actions a:focus{
     color: #4f9eb2;
 }
@@ -181,6 +184,7 @@ body{
     font-size: 21px;
     font-weight: 700;
     text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+    display: inline-block;
 }
 .accordion > a small{
     text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
