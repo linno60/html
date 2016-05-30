@@ -88,7 +88,7 @@ body{
 
 /*CONTENT*/
 .content{
-    width: 100%;
+    width: 69.75%;
     padding: 34rem 28rem 31rem 23rem;
     background: linear-gradient(white, white) left top / calc(100% - 10rem) no-repeat,
         linear-gradient(white, white) left bottom / 100% calc(100% - 10rem) no-repeat,
@@ -143,12 +143,14 @@ body{
 }
 .products figcaption a{
     color: #818181;
+    display: inline-block;
 }
 .products figcaption a:active, .products figcaption a:hover, .products figcaption a:focus{
     text-decoration: underline;
 }
 .products figcaption span{
     color: #f02b63;
+    display: inline-block;
 }
 
 /*SIDEBAR*/
@@ -200,6 +202,7 @@ body{
 }
 .payment a{
     margin: 1px 1px 9rem 1px;
+    display: inline-block;
 }
 .payment > div{
     margin: -1px;

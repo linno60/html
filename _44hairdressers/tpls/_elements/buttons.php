@@ -1,0 +1,2 @@
+<a href="#" class="btn btn-trial" data-childs="col center"><span><strong>start the free trial</strong><small>and enjoy it for 2 months!</small></span></a>
+<a href="#" class="btn btn-features"><i class="icon-arrow"></i><em>All features</em></a>

@@ -104,6 +104,7 @@ body{
 }
 .btn-cart:after{
     content: "";
+    display: inline-block;
     width: 44px;
     height: 36px;
     background: url("/images/icons/cart.png")no-repeat center center, url("/images/btn.png");
@@ -139,7 +140,7 @@ body{
 
 /*FORMS*/
 .form-email{
-    margin-bottom: 16px;
+    margin-bottom: 16rem;
     max-width: 387px;
     padding: 3px 5px 4px 3px;
     background: rgba(255, 220, 162, 0.6);

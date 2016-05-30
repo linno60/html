@@ -164,6 +164,7 @@ header .lwrap{
 }
 .range:before{
     content: "";
+    display: inline-block;
     width: 163rem;
     height: 6px;
     background: rgba(118,80,40,.1) url('/images/handle.png') no-repeat center center;
@@ -182,6 +183,9 @@ header .lwrap{
     flex-shrink: 0;
     margin: 6rem 0px 7rem 41rem;
 }
+.offer > div{
+    width: 67%;
+}
 .offer p{
     margin-bottom: 15rem;
 }
@@ -190,9 +194,10 @@ header .lwrap{
     font-family: SansusWebissimo;
     color: #931d1d;
     margin-bottom: 4rem;
+    display: inline-block;    
 }
 .price-old > span{
-    color: #b7926c;
+    color: #b7926c;   
 }
 .price-old > span > span, .price-new span{
     font-family: MyriadPro;

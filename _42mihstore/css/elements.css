@@ -24,6 +24,7 @@ body{
     position: relative;
     letter-spacing: 0.02em;
     height: 33px;
+    display: inline-block;
 }
 .links-nav a:first-child{
     margin: 0px 38rem 0px 34rem;
@@ -106,7 +107,8 @@ body{
 }
 .lbl-shop span {
     font-family: Times New Roman;
-    color: #fff;    
+    color: #fff;  
+    display: inline-block;
 }
 
 /*FORMS*/

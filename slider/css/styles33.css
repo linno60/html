@@ -1,0 +1,392 @@
+/*------- SLIDER #33 -------*/
+
+/*COMMON*/
+.csslider33 {
+    position: relative;
+    max-width: 830px; 
+    overflow: hidden;
+    box-shadow: 0 0 0 3px white;
+    margin-top: 13px;
+}
+.csslider33 > input[type=radio] {
+    display: none;
+}
+.csslider33 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider33 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider33 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    transition: transform 2000ms;
+}
+
+/*SLIDESHOW*/
+.csslider33 > ul > .num0 {
+    left: 0%;
+}
+.csslider33 > ul > .num1 {
+    left: 100%;
+}
+.csslider33 > ul > .num2 {
+    left: 200%;
+}
+.csslider33 > ul > .num3 {
+    left: 300%;
+}
+.csslider33 > #slide33-0:checked ~ ul > li {
+    transform: translateX(0%);	
+}
+.csslider33 > #slide33-1:checked ~ ul > li {
+    transform: translateX(-100%);	
+}
+.csslider33 > #slide33-2:checked ~ ul > li {
+    transform: translateX(-200%);	
+}
+.csslider33 > #slide33-3:checked ~ ul > li {
+    transform: translateX(-300%);	
+}
+@keyframes slide33 {
+    0%, 12.5% { transform: translateX(0%); }
+    25%, 37.5% { transform: translateX(-100%); }
+    50%, 62.5% { transform: translateX(-200%); }
+    75%, 87.5% { transform: translateX(-300%); }	
+}
+.csslider33  > #play33:checked ~ ul > li {
+    animation: slide33 16000ms infinite;	
+} 
+
+/*BTNS SHOW*/
+.csslider33 > .arrowprev {
+    transition: .5s transform 0s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider33 > .arrownext {
+    transition: .5s transform .3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider33 > .arrowprev,
+.csslider33 > .arrownext {
+    transform: scale(0) rotate(180deg);
+}
+.csslider33:hover > .arrowprev,
+.csslider33:hover > .arrownext {
+    transform: scale(1) rotate(0);
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider33 > .arrowprev,
+.csslider33 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider33 > .arrowprev {
+    left: 45px;
+}
+.csslider33 > .arrownext {
+    right: 45px;
+}
+.csslider33 > .arrowprev > label,
+.csslider33 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    margin-top: -22px; 
+    margin-left: -22px; 
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px white;
+    transition: box-shadow .4s ease, background .4s ease;
+}
+.csslider33 > .arrowprev > label:after {
+    background: url(/images/icons/prev33.png)no-repeat center center;
+}
+.csslider33 > .arrownext > label:after {
+    background: url(/images/icons/next33.png)no-repeat center center;
+}
+.csslider33 > .arrowprev > label:after,
+.csslider33 > .arrownext > label:after {
+    display: inline-block;
+    color: white;
+    transition: background .4s ease;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+@keyframes pulse33 {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.2);}
+}
+.csslider33 > .arrowprev:hover > label,
+.csslider33 > .arrownext:hover > label {
+    background: white;
+    box-shadow: 0 0 0 6px rgba(255,255,255,0.3);
+    animation: pulse 1s alternate infinite ease-in-out;
+}
+.csslider33 > .arrownext:hover > label:after {
+    background: url(/images/icons/next33-hover.png)no-repeat center center;
+    animation: nextArrow .3s forwards;
+}
+.csslider33 > .arrowprev:hover > label:after {
+    background: url(/images/icons/prev33-hover.png)no-repeat center center;
+    animation: prevArrow .3s forwards;
+}
+
+/*arrows moving*/
+@keyframes nextArrow {
+    49% { transform: translate(100%); }
+    50% { opacity: 0; transform: translate(-100%); }
+    51% { opacity: 1; }
+}
+@keyframes prevArrow {
+    49% { transform: translate(-100%); }
+    50% { opacity: 0; transform: translate(100%); }
+    51% { opacity: 1; }
+}
+.csslider33 > #slide33-0:checked ~ .arrowprev > .num3,
+.csslider33 > #slide33-0:checked ~ .arrownext > .num1, 
+.csslider33 > #slide33-1:checked ~ .arrowprev > .num0,
+.csslider33 > #slide33-1:checked ~ .arrownext > .num2, 
+.csslider33 > #slide33-2:checked ~ .arrowprev > .num1,
+.csslider33 > #slide33-2:checked ~ .arrownext > .num3, 
+.csslider33 > #slide33-3:checked ~ .arrowprev > .num2,
+.csslider33 > #slide33-3:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrows33 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100%	{ opacity: 0; z-index: -1; }
+}
+.csslider33 > #play33:checked ~ .arrowprev > .num3,
+.csslider33 > #play33:checked ~ .arrownext > .num1 {
+    animation: arrows33 16000ms infinite -2000ms;
+}
+.csslider33 > #play33:checked ~ .arrowprev > .num0,
+.csslider33 > #play33:checked ~ .arrownext > .num2 {
+    animation: arrows33 16000ms infinite 2000ms;
+}
+.csslider33 > #play33:checked ~ .arrowprev > .num1,
+.csslider33 > #play33:checked ~ .arrownext > .num3 {
+    animation: arrows33 16000ms infinite 6000ms;
+}
+.csslider33 > #play33:checked ~ .arrowprev > .num2,
+.csslider33 > #play33:checked ~ .arrownext > .num0 {
+    animation: arrows33 16000ms infinite 10000ms;
+}
+
+/*BULLETS*/
+
+/*bullets template*/
+.csslider33 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 0px;
+}
+.csslider33 > .bullets > label {
+    position: relative;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background: white;
+    box-shadow: 0px 0px 0px 1px white;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.csslider33 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    left: -55px;
+    top: -48px;
+}
+.csslider33 > .bullets > label > figure {
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    border: 3px solid white;
+    margin-top: -13px;
+    transform: scale(0);
+}
+.csslider33 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    bottom: -10px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+}
+.csslider33 > .bullets > label:hover > figure {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.csslider33 > .bullets > label:hover,
+.csslider33 > #slide33-0:checked ~ .bullets > .num0,
+.csslider33 > #slide33-1:checked ~ .bullets > .num1,
+.csslider33 > #slide33-2:checked ~ .bullets > .num2,
+.csslider33 > #slide33-3:checked ~ .bullets > .num3 {
+    background: #6d90d0;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.3);
+    border: 5px solid white;
+}
+
+/*bullets moving*/
+@keyframes bullets33 {
+    0%, 24.99%	{ background: #6d90d0; box-shadow: 0 0 0 3px rgba(255,255,255,.3); border: 5px solid white; }
+    25%, 100% { background: white; box-shadow: 0 0 0 1px white; border: 5px solid transparent; background-clip: content-box; }
+}
+.csslider33 > #play33:checked ~ .bullets > .num0 {
+    animation: bullets33 16000ms infinite -2000ms;
+}
+.csslider33 > #play33:checked ~ .bullets > .num1 {
+    animation: bullets33 16000ms infinite 2000ms;
+}
+.csslider33 > #play33:checked ~ .bullets > .num2 {
+    animation: bullets33 16000ms infinite 6000ms;
+}
+.csslider33 > #play33:checked ~ .bullets > .num3 {
+    animation: bullets33 16000ms infinite 10000ms;
+}
+
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider33 > .description {
+    z-index: 3;
+}
+.csslider33 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    left: 0;
+    font: 18px Hammersmith One;
+    left: 15px;
+    bottom: 35px;
+    z-index: 1;
+    opacity: 1;
+}
+.csslider33 > .description > label span {
+    display: inline-block;
+}
+.csslider33 > .description > label > * {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    opacity: 0;
+}
+.csslider33 > .description > label > big {
+    background: white;
+    color: #6D90D0;
+    transform: scale(0);
+    transition: 950ms opacity 600ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider33 > .description > label > small {
+    font-size: 0.8em;
+    box-shadow: inset 0 0 0 2px white;
+    transform: scale(0);
+    transition: 950ms opacity 850ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 850ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider33 > .description > label > big > span {
+    opacity: 0;
+    transform: scale(0);
+    transition: 950ms opacity 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider33 > .description > label > small > span {
+    opacity: 0;
+    transform: scale(0);
+    transition: 950ms opacity 1000ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 1000ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+/*description moving*/
+.csslider33 > #slide33-0:checked ~ .description > .num0 > big,
+.csslider33 > #slide33-0:checked ~ .description > .num0 > small,
+.csslider33 > #slide33-1:checked ~ .description > .num1 > big,
+.csslider33 > #slide33-1:checked ~ .description > .num1 > small,
+.csslider33 > #slide33-2:checked ~ .description > .num2 > big,
+.csslider33 > #slide33-2:checked ~ .description > .num2 > small,
+.csslider33 > #slide33-3:checked ~ .description > .num3 > big,
+.csslider33 > #slide33-3:checked ~ .description > .num3 > small {
+    opacity: 1;
+    transform: scale(1);
+}
+.csslider33 > #slide33-0:checked ~ .description > .num0 span,
+.csslider33 > #slide33-1:checked ~ .description > .num1 span,
+.csslider33 > #slide33-2:checked ~ .description > .num2 span,
+.csslider33 > #slide33-3:checked ~ .description > .num3 span {
+    opacity: 1;
+    transform: scale(1);
+}
+@keyframes description33 {
+    2.49375%, 22.49625%	{ opacity: 1; transform: scale(1.1); z-index: 2; }
+    3.5625%, 21.4275%	{ opacity: 1; transform: scale(1); z-index: 2; }
+    28.5625%	{ opacity: 0; transform: scale(0); z-index: 2; }
+    28.5725%, 100%	{ z-index: 0; }
+}
+.csslider33 > #play33:checked ~ .description > .num0  > big {
+    animation: description33 16000ms infinite -1400ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num1  > big {
+    animation: description33 16000ms infinite 2600ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num2  > big {
+    animation: description33 16000ms infinite 6600ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num3  > big {
+    animation: description33 16000ms infinite 10600ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num0  > small {
+    animation: description33 16000ms infinite -1150ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num1  > small {
+    animation: description33 16000ms infinite 2850ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num2  > small {
+    animation: description33 16000ms infinite 6850ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num3  > small {
+    animation: description33 16000ms infinite 10850ms ease;
+}
+@keyframes description33-text {
+    2.49375%, 22.49625%	{ opacity: 1; transform: scale(1.1); }
+    3.5625%, 21.4275%	{ opacity: 1; transform: scale(1); }
+    28.5625% { opacity: 0; transform: scale(0); }
+}
+.csslider33 > #play33:checked ~ .description > .num0 big > span {
+    animation: description33-text 16000ms infinite -1250ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num1 big > span {
+    animation: description33-text 16000ms infinite 2750ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num2 big > span {
+    animation: description33-text 16000ms infinite 6750ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num3 big > span {
+    animation: description33-text 16000ms infinite 10750ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num0 small > span {
+    animation: description33-text 16000ms infinite -1000ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num1 small > span {
+    animation: description33-text 16000ms infinite 3000ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num2 small > span {
+    animation: description33-text 16000ms infinite 7000ms ease;
+}
+.csslider33 > #play33:checked ~ .description > .num3 small > span {
+    animation: description33-text 16000ms infinite 11000ms ease;
+}
