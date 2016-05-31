@@ -58,13 +58,14 @@ header:after{
     z-index: -1;
 }
 .checkout{
-    padding-right: 10rem;
+    padding-right: 47rem;
 }
 .checkout span{
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 9rem 0px 12rem 0px;
+    display: inline-block;
 }
 .checkout figure{
     margin-right: 11rem;
@@ -111,6 +112,7 @@ header:after{
     color: white;
     line-height: 16px;
     letter-spacing: -0.004em;
+    max-width: 670px;
 }
 .bottles{
     margin: 0px 46rem 14rem 0px;
@@ -157,8 +159,8 @@ header:after{
     margin-bottom: 15rem;
     max-width: 960px;
 }
-.content > div > div{
-    width: 100%;
+.product-wrap{
+    width: 74.9%;
 }
 .content:after{
     content: "";
@@ -225,6 +227,7 @@ header:after{
 }
 .slider > div{
     padding: 24rem 0px 5rem 0px;
+    max-width: 620px;
 }
 .slider .btn-slide.prev{
     margin: 0px 4rem 20rem -8px;

@@ -67,6 +67,9 @@ header > .lwrap{
     margin-bottom: 18rem;
     letter-spacing: 0.04em;
 }
+.services p{
+    max-width: 300px;
+}
 .services .lbl-default{
     margin: 3rem 31rem 0px 0px;
 }
@@ -111,7 +114,7 @@ header > .lwrap{
     margin-bottom: 33rem;    
 }
 .about > div{
-    width: 100%;
+    max-width: 770px;
 }
 
 /*SUBSCRIBE*/
@@ -194,6 +197,7 @@ header > .lwrap{
 }
 .info h5 ~ a{
     margin: 2rem 0px 5rem 0px;
+    display: inline-block;
 }
 .info h5{
     color: #e84c3d;
@@ -223,8 +227,9 @@ header > .lwrap{
 .info form .btn-default i{
     margin-left: 14rem;
 }
-.info span{
+.info .item span{
     line-height: 24px;
+    display: inline-block;
 }
 
 /*FOOTER*/

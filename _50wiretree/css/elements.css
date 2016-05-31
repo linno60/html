@@ -120,6 +120,7 @@ blockquote q{
     background: #efefef;
     padding: 14rem 20rem 16rem 21rem;
     margin: 7px 0px 17px 0px;
+    display: inline-block;
 }
 blockquote q:after{
     content: "";

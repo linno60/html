@@ -14,6 +14,7 @@ hr{
     background: rgba(0,0,0,.15);
     width: 40px;
     margin: 0px 0px 16rem 0px;
+    display: inline-block;
 }
 p{
     color: #616161;
@@ -121,6 +122,10 @@ header h1 span{
 }
 .services article p{
     margin: 0px 30rem 18rem 1rem;
+    width: 100%;
+}
+.services article > div{
+    width: calc(100% - 64px - 24rem);
 }
 
 /*ABOUT*/

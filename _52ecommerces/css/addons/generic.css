@@ -1,0 +1,33 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=8c120361-fc90-4b0c-bdbc-a448aaf6fd50");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Arial Narrow";
+  font-weight:400;
+    src: url("/fonts/fonts.com/fae01616-fdd0-4e19-acf9-b5e567e9398a.woff2") format("woff2"), url("/fonts/fonts.com/e4d7f52c-43bd-44b0-b89d-12aa2f1e9e18.woff") format("woff");
+}
+@font-face {
+    font-family: "Arial Narrow";
+  font-weight:700;
+    src: url("/fonts/fonts.com/f03d6476-c3dd-42fa-b98a-e390e000683a.woff2") format("woff2"), url("/fonts/fonts.com/d3e50519-10cc-4ea1-b785-e89b5073e26d.woff") format("woff");
+}
+/* ICONS */
+.icon-arrow-left {width: 9px; height: 17px; background: url('/images/icons/icon-arrow-left.png');}
+.icon-arrow-right {width: 9px; height: 17px; background: url('/images/icons/icon-arrow-right.png');}
+.icon-canada {width: 20px; height: 11px; background: url('/images/icons/icon-canada.png');}
+.icon-fb {width: 32px; height: 32px; background: url('/images/icons/icon-fb.png');}
+.icon-linkedin {width: 32px; height: 32px; background: url('/images/icons/icon-linkedin.png');}
+.icon-mail {width: 32px; height: 32px; background: url('/images/icons/icon-mail.png');}
+.icon-message {width: 30px; height: 22px; background: url('/images/icons/icon-message.png');}
+.icon-order {width: 41px; height: 36px; background: url('/images/icons/icon-order.png');}
+.icon-phone {width: 20px; height: 22px; background: url('/images/icons/icon-phone.png');}
+.icon-secure {width: 56px; height: 55px; background: url('/images/icons/icon-secure.png');}
+.icon-twitter {width: 32px; height: 32px; background: url('/images/icons/icon-twitter.png');}
+.icon-usa {width: 20px; height: 11px; background: url('/images/icons/icon-usa.png');}

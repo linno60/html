@@ -24,6 +24,7 @@ a{
 }
 .links-default a{
     margin-bottom: 5px;
+    display: inline-block;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: underline;

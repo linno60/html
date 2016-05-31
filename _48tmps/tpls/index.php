@@ -115,11 +115,11 @@
                     </article>
                     <article class="item clearfix">
                         <figure><img src="/images/img2.png"></figure>
-                        <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=</a></p>
+                        <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=></a></p>
                     </article>
                     <article class="item clearfix">
                         <figure><img src="/images/img3.png"></figure>
-                        <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=</a></p>
+                        <p>Donec nec justo eget felis facilisis fermen&shy;tum. Aliquam porttitor<br><a href="#" class="more"> more&ensp;=></a></p>
                     </article>                        
                 </div>
                 <div>

@@ -69,11 +69,11 @@ input[name=input], textarea{
 input[name=input]{
     height: 41px;
     border-radius: 20px;
-    padding: 0px 17rem;
+    padding: 0px 17px;
 }
 textarea{
     height: 82px;
-    padding: 10px 17rem;
+    padding: 10px 17px;
     border-radius: 10px;
 }
 input[name=input]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #9faaad; font-style: italic;}

@@ -125,7 +125,7 @@
                         <a href="#"><img src='/images/mcafee.png'></a>
                     </div>                        
                 </aside>
-                <div>
+                <div class="product-wrap">
                     <form class='form-sort' action='#' method='post' data-flex='axis w'>
                         <div data-flex='-center w'>
                             <label>Sort by:</label>

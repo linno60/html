@@ -10,6 +10,7 @@ body{
 }
 .links-social a{
     margin: 0px 21rem 17rem 0px;
+    display: inline-block;
 }
 
 /*LISTS*/

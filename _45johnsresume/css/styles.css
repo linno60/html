@@ -247,6 +247,7 @@ header:after{
 footer span, footer a{
     color: #87b2e4;
     line-height: 20px;
+    display: inline-block;
 }
 .link:active, .link:hover, .link:focus{
     text-decoration: none;

@@ -129,7 +129,7 @@
 .csslider33 > .arrowprev:hover > label,
 .csslider33 > .arrownext:hover > label {
     background: white;
-    box-shadow: 0 0 0 6px rgba(255,255,255,0.3);
+    box-shadow: 0 0 0 6px rgba(255,255,255,.3);
     animation: pulse 1s alternate infinite ease-in-out;
 }
 .csslider33 > .arrownext:hover > label:after {

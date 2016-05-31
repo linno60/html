@@ -55,6 +55,9 @@ header.lwrap{
     width: 31.7%;
     margin-bottom: 63rem;
 }
+.content article > div{
+    width: calc(100% - 62px - 17rem);
+}
 .content i{
     flex-shrink: 0;
     margin: 5rem 17rem 0px 0px;

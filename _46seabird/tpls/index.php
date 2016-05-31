@@ -113,7 +113,7 @@
                         <h4>get in touch</h4>
                         <p>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna. </p>
                         <div data-childs>
-                            <address><i class="icon-location"></i>Moonshine Street No: 14/05 Light City, Jupiter</address>
+                            <address><i class="icon-location"></i>Moonshine Street No: 14/05<br> Light City, Jupiter</address>
                             <span><i class="icon-phone"></i>0247 541 65 87</span>
                             <span><i class="icon-mail"></i><a href="mailto:support@longwave.com">support@&shy;longwave.com</a></span>
                         </div>

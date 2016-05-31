@@ -36,7 +36,7 @@ p{
     padding-bottom: 42rem;
 }
 .slider hgroup h1{
-    font-size: 35px;
+    font-size: 35rem;
     font-weight: 700;
     letter-spacing: -0.05em;
     margin: 40rem 0px 12rem 0px;
@@ -190,6 +190,7 @@ p{
 .footer address{
     max-width: 230px;
     font-style: normal;
+    display: inline-flex;
 }
 .footer time{
     color: #949494;
@@ -207,6 +208,9 @@ p{
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .slider hgroup h1 {font-size: 27px;}
+}
 @media (max-width: 480px) {
     .lwrap > div, .footer {padding: 5px;}
     .lwrap, .slider hgroup h1, .slider hgroup h2, .services-wrap h2{margin:0;}

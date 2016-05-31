@@ -48,7 +48,7 @@
                 <div data-flex="stripe" data-flex-640="vstripe">
                     <div data-flex-640="vaxis">
                         <h1>Etiam Sem Nisl</h1>
-                        <p>Nunc luctus porta mi a estib ulum Etiam sem nisl auctor sit amet <a href="#">molestie sed pharetra</a> a purus. Fusce massa dolor, facilisis eu sagittis elementum, portti&shy;tor id nisi. Dus vel ipsum neque !</p>
+                        <p>Nunc luctus porta mi a estib ulum Etiam sem nisl auctor sit amet <mark>molestie sed pharetra</mark> a purus. Fusce massa dolor, facilisis eu sagittis elementum, portti&shy;tor id nisi. Dus vel ipsum neque !</p>
                         <a href="#" class="btn btn-default">Get Started</a>
                     </div>
                     <div data-flex="-end">
@@ -150,7 +150,7 @@
         <footer>
             <section class="lwrap" data-flex="axis" data-flex-480="vaxis">
                 <div>
-                    <span>All rights reserved 2012&ensp; visit our website : <a href="#">www.blugraphic.com</a>&ensp; follow us at <a href="#">twitter</a>,</span>
+                    <span>All rights reserved 2012&ensp; visit our website : <a href="#" rel="copyright">www.blugraphic.com</a>&ensp; follow us at <a href="#">twitter</a>,</span>
                     <div class="links-footer" data-flex="w" data-flex-480="center w">
                         <a href="#">About</a>.
                         <a href="#">Portfolio</a>.

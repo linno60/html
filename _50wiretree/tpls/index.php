@@ -177,10 +177,10 @@
                     <div class="contact">
                         <h6>Get in Touch</h6>
                         <p>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-                        <div data-flex="col" data-childs="-start">
-                            <address><i class="icon-location"></i>Moonshine Street No: 14/05 Light City, Jupiter</address>
-                            <span><i class="icon-phone"></i>0247 541 65 87</span>
-                            <a href="mailto:support@longwave.com"><i class="icon-letter"></i>support@&shy;longwave.com</a>
+                        <div data-flex="col" data-childs="-start" itemscope itemtype="http://schema.org/Thing">
+                            <address itemprop="address"><i class="icon-location"></i>Moonshine Street No: 14/05 Light<br> City, Jupiter</address>
+                            <span itemprop="telephone"><i class="icon-phone"></i>0247 541 65 87</span>
+                            <a href="mailto:support@longwave.com" itemprop="email"><i class="icon-letter"></i>support@&shy;longwave.com</a>
                         </div>                                
                     </div>
                 </div>

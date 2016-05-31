@@ -68,6 +68,8 @@ body{
 .links-social li a{
     color: #434343;
     line-height: 16px;
+    display: inline-flex;
+    max-width: 180px;
 }
 .links-social li a i{
     flex-shrink: 0;
@@ -80,6 +82,7 @@ body{
 .links-footer a{
     color: #cfcfcf;
     margin-bottom: 5px;
+    display: inline-block;
 }
 
 /*PAGINATION*/
@@ -152,6 +155,7 @@ select {
     font-size: 12px;
     width: 108px;
     padding-right: 25px;
+    padding-left: 5px;
     margin-right: 12rem;
     box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.3);
     background: url('/images/select.png') right center no-repeat,
@@ -170,6 +174,7 @@ select {
     height: 35px;
     position: relative;
     flex-shrink: 0;
+    display: inline-block;
 }
 .btn-slide.prev{
     background: url(/images/icons/prev.png)no-repeat center center, linear-gradient(90deg, #7d7e7d, silver);
