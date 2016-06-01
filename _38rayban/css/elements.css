@@ -105,6 +105,14 @@ input[name=image]{
     text-align: center;
     color: black;
 }
+.counter::-webkit-outer-spin-button,
+.counter::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.counter {
+    -moz-appearance: textfield;
+}
 .counter::-webkit-input-placeholder { color: #444; }
 .counter::-moz-placeholder { color: #444; }
 .counter:-ms-input-placeholder { color: #444; }

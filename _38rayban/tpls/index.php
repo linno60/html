@@ -102,7 +102,7 @@
                                 <h5>Vans Vault 2012 Summer OG Era LX Pack<a href="#" class="link">[Remove]</a></h5>                            
                             </div>
                             <form action="#" method="post">
-                                <input type="text" class="counter" name="counter" placeholder="1">
+                                <input type="number" class="counter" name="counter" placeholder="1">
                                 <strong>&pound;54.00</strong>
                             </form>                        
                         </div>
@@ -112,7 +112,7 @@
                                 <h5>Emerica Pure 12 T Shirt Red<a href="#" class="link">[Remove]</a></h5>
                             </div>
                             <form>
-                                <input type="text" class="counter" name="counter" placeholder="2">
+                                <input type="number" class="counter" name="counter" placeholder="2">
                                 <strong>&pound;32.00</strong>
                             </form>                        
                         </div>
@@ -122,7 +122,7 @@
                                 <h5>Fred Perry Dark Yellow Checked Shirt<a href="#" class="link">[Remove]</a></h5>
                             </div>
                             <form>
-                                <input type="text" class="counter" name="counter" placeholder="1">
+                                <input type="number" class="counter" name="counter" placeholder="1">
                                 <strong>&pound;70.00</strong>
                             </form>                        
                         </div>

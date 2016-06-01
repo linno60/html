@@ -39,6 +39,9 @@ body{
     background: #2a2a2a;
     border-radius: 3px;
 }
+.links-categories li span{
+    display: inline-block;
+}
 .links-categories a{
     color: #a4a4a4;
     letter-spacing: 0.02em;
@@ -69,6 +72,7 @@ body{
 }
 .links-default a{
     color: #a4a4a4;
+    display: inline-block;
 }
 .links-default p{
     margin-bottom: 0px;
@@ -98,6 +102,7 @@ body{
     font-size: 11px;
     border-radius: 50%;
     text-align: center;
+    display: inline-block;
 }
 .pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: #fefefe;
@@ -130,7 +135,7 @@ input[name=input]{
 }
 textarea{
     height: 115px;
-    padding: 10px;
+    padding: 10rem;
     margin-bottom: 7px;
 }
 input[name=input], textarea{

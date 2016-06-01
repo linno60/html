@@ -54,6 +54,47 @@
     </head>
     <body>
         <div>
+            <h2 class="h2">Slider #34</h2>
+            <div class='csslider34 lwrap'>
+                <input name="anchor34" id='slide34-0' type="radio">
+                <input name="anchor34" id='slide34-1' type="radio">
+                <input name="anchor34" id='slide34-2' type="radio">
+                <input name="anchor34" id='slide34-3' type="radio">
+                <input name="anchor34" id='play34' type="radio" checked>
+                <ul>
+                    <li><img src="/images/canal.jpg" width="960" height="360"></li>
+                    <li class='num0'><img src='/images/canal.jpg' width="960" height="360" alt='Canal' title='Canal'></li>
+                    <li class='num1'><img src='/images/cannaregio.jpg' width="960" height="360" alt='Cannaregio district' title='Cannaregio district'></li>
+                    <li class='num2'><img src='/images/dorsoduro.jpg' width="960" height="360" alt='Dorsoduro' title='Dorsoduro'></li>
+                    <li class='num3'><img src='/images/houses.jpg' width="960" height="360" alt='' title=''></li>
+                </ul>
+                <div class='description' data-childs="col -start">
+                    <label class='num0' for='slide34-0'><big><span>Canal</span></big><small><span>Venice, Italy</span></small></label>
+                    <label class='num1' for='slide34-1'><big><span>Cannaregio district</span></big><small><span>The northernmost of the six historic sestieri (districts) of Venice</span></small></label>
+                    <label class='num2' for='slide34-2'><big><span>Dorsoduro</span></big><small><span>Dorsoduro is one of the six sestieri of Venice, northern Italy.</span></small></label>
+                    <label class='num3' for='slide34-3'><big><span>Bright houses</span></big><small><span>Venice, Italy</span></small></label>
+                </div>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide34-0'></label>
+                    <label class='num1' for='slide34-1'></label>
+                    <label class='num2' for='slide34-2'></label>
+                    <label class='num3' for='slide34-3'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide34-0'></label>
+                    <label class='num1' for='slide34-1'></label>
+                    <label class='num2' for='slide34-2'></label>
+                    <label class='num3' for='slide34-3'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide34-0'><figure><img src='/images/canalsm.jpg' width="128" height="48" alt='Canal' title='Canal'></figure></label>
+                    <label class='num1' for='slide34-1'><figure><img src='/images/cannaregiosm.jpg' width="128" height="48" alt='Cannaregio district' title='Cannaregio district'></figure></label>
+                    <label class='num2' for='slide34-2'><figure><img src='/images/dorsodurosm.jpg' width="128" height="48" alt='Dorsoduro' title='Dorsoduro'></figure></label>                    
+                    <label class='num3' for='slide34-3'><figure><img src='/images/housessm.jpg' width="128" height="48" alt='Bright houses' title='Bright houses'></figure></label>
+                </div>
+            </div>
+        </div>
+        <div>
             <h2 class="h2">Slider #33</h2>
             <div class='csslider33 lwrap'>
                 <input name="anchor33" id='slide33-0' type="radio">

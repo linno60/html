@@ -106,7 +106,7 @@ body{
     text-transform: uppercase;
     color: darkgrey;
     margin: 0px 15px 5px 0px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.026em;
 }
 .links-footer a.active, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     color: #f0f0f0; 

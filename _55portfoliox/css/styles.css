@@ -15,8 +15,8 @@ p{
 }
 .portfolio figure, .resume figure, .slider figure{
     border: 1px solid white;
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background: white;
 }
 
 /*HEADER*/
@@ -93,11 +93,14 @@ header > .lwrap{
 
 /*PORTFOLIO*/
 .portfolio > .lwrap{
-    padding: 77rem 10px 72rem 10px;
+    padding: 77rem 10px 70rem 10px;
 }
 .portfolio > .lwrap > div > figure{
     width: 48.2%;
-    margin-bottom: 18rem;
+    margin-bottom: 19rem;
+}
+.portfolio > .lwrap > div{
+    width: calc(51.8% + 20rem);
 }
 .portfolio > .lwrap > figure{
     position: relative;
@@ -116,6 +119,7 @@ header > .lwrap{
 }
 .portfolio > .lwrap > figure > figcaption > p{
     padding: 0px 19rem 5rem 19rem;
+    max-width: 350px;
 }
 
 /*CONTACTS*/
@@ -141,7 +145,7 @@ header > .lwrap{
     color: black;
 }
 .resume p{
- margin-bottom: 21rem;
+    margin-bottom: 21rem;
 }
 .resume a:active, .resume a:hover, .resume a:focus{
     text-decoration: underline;

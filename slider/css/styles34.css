@@ -1,0 +1,418 @@
+/*------- SLIDER #26 -------*/
+
+/*COMMON*/
+.csslider34 {
+    position: relative;
+    max-width: 960px; 
+    overflow: hidden;
+}
+.csslider34 > input[type=radio] {
+    display: none;
+}
+.csslider34 > ul > li:first-child {
+    visibility: hidden;
+}
+.csslider34 > ul > li > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.csslider34 > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 2000ms ease, transform 12000ms linear;
+}
+
+/*SLIDESHOW*/
+.csslider34 > ul > .num0 {
+    transform: scale(1.3) translate(-11.53846%, 11.53846%);
+}
+.csslider34 > ul > .num1 {
+    transform: scale(1.3) translate(11.53846%, 11.53846%);
+}
+.csslider34 > ul > .num2 {
+    transform: scale(1.3) translate(-11.53846%, -11.53846%);
+}
+.csslider34 > ul > .num3 {
+    transform: scale(1.3) translate(11.53846%, -11.53846%);
+}
+.csslider34 > ul > .num0 {
+    opacity: 1;
+    z-index: 2;
+}
+.csslider34 > #slide34-0:checked ~ ul > .num0,
+.csslider34 > #slide34-1:checked ~ ul > .num1,
+.csslider34 > #slide34-2:checked ~ ul > .num2,
+.csslider34 > #slide34-3:checked ~ ul > .num3 {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+    z-index: 2;
+}
+@keyframes kenburns33-tr {
+    0%, 100% { transform: scale(1); opacity: 0 }
+    12.5%, 25% { opacity: 1 }
+    37.5%, 75% { transform: scale(1.3) translate(-11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenburns33-br {
+    0%, 100% { transform: scale(1); opacity: 0 }
+    12.5%, 25% { opacity: 1 }
+    37.5%, 75% { transform: scale(1.3) translate(11.53846%, 11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenburns33-tl {
+    0%, 100% { transform: scale(1); opacity: 0 }
+    12.5%, 25% { opacity: 1 }
+    37.5%, 75% { transform: scale(1.3) translate(-11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+@keyframes kenburns33-bl {
+    0%, 100% { transform: scale(1); opacity: 0 }
+    12.5%, 25% { opacity: 1 }
+    37.5%, 75% { transform: scale(1.3) translate(11.53846%, -11.53846%); opacity: 0; z-index: 2; }
+}
+.csslider34 > #play34:checked ~ ul > .num0{
+    animation: kenburns33-tr 16000ms infinite -2000ms linear;
+}
+.csslider34 > #play34:checked ~ ul > .num1 {
+    animation: kenburns33-br 16000ms infinite 2000ms linear;
+}
+.csslider34 > #play34:checked ~ ul > .num2 {
+    animation: kenburns33-tl 16000ms infinite 6000ms linear;
+}
+.csslider34 > #play34:checked ~ ul > .num3 {
+    animation: kenburns33-bl 16000ms infinite 10000ms linear;
+}
+
+/*BTNS SHOW*/
+.csslider34 > .arrowprev {
+    transition: .4s all .15s ease;
+}
+.csslider34 > .arrownext {
+    transition: .4s all .3s ease;
+}
+.csslider34 > .arrowprev,
+.csslider34 > .arrownext {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.csslider34:hover > .arrowprev,
+.csslider34:hover > .arrownext {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*ARROWS*/
+
+/*arrows template*/
+.csslider34 > .arrowprev,
+.csslider34 > .arrownext {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.csslider34 > .arrowprev {
+    left: 47px;
+}
+.csslider34 > .arrownext {
+    right: 47px;
+}
+.csslider34 > .arrowprev > label,
+.csslider34 > .arrownext > label {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    height: 57px;
+    width: 57px;
+    margin-top: -28px;
+    margin-left: -28px;
+    background: #cbecfd;
+    border-radius: 50%;
+    transition: background .4s;
+}
+.csslider34 > .arrowprev > label:after,
+.csslider34 > .arrownext > label:after {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: background .4s;
+}
+.csslider34 > .arrowprev > label:after {
+    background: url(/images/icons/prev34.png)no-repeat center center;
+}
+.csslider34 > .arrownext > label:after {
+    background: url(/images/icons/next34.png)no-repeat center center;
+}
+
+/*arrows hover*/
+.csslider34 > .arrowprev:hover > label,
+.csslider34 > .arrownext:hover > label {
+    background: #e5f6fe;
+}
+.csslider34 > .arrownext:hover > label:after {
+    background: url(/images/icons/next34-hover.png)no-repeat center center;
+    animation: next34 .7s infinite ease-in-out;
+}
+.csslider34 > .arrowprev:hover > label:after {
+    background: url(/images/icons/prev34-hover.png)no-repeat center center;
+    animation: prev34 .7s infinite ease-in-out;
+}
+@keyframes next34 {
+    0%, 100% { transform: translateX(0px); }
+    25% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+}
+@keyframes prev34 {
+    0%, 100% { transform: translateX(0px); }
+    25% { transform: translateX(-2px); }
+    75% { transform: translateX(2px); }
+}
+
+/*arrows moving*/
+.csslider34 > #slide34-0:checked ~ .arrowprev > .num3,
+.csslider34 > #slide34-0:checked ~ .arrownext > .num1, 
+.csslider34 > #slide34-1:checked ~ .arrowprev > .num0,
+.csslider34 > #slide34-1:checked ~ .arrownext > .num2, 
+.csslider34 > #slide34-2:checked ~ .arrowprev > .num1,
+.csslider34 > #slide34-2:checked ~ .arrownext > .num3, 
+.csslider34 > #slide34-3:checked ~ .arrowprev > .num2,
+.csslider34 > #slide34-3:checked ~ .arrownext > .num0 {
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrows34 {
+    0%, 24.99% { opacity: 1; z-index: 5; }
+    25%, 100% { opacity: 0; z-index: -1; }
+}
+.csslider34 > #play34:checked ~ .arrowprev > .num3,
+.csslider34 > #play34:checked ~ .arrownext > .num1 {
+    animation: arrows34 16000ms infinite -2000ms;
+}
+.csslider34 > #play34:checked ~ .arrowprev > .num0,
+.csslider34 > #play34:checked ~ .arrownext > .num2 {
+    animation: arrows34 16000ms infinite 2000ms;
+}
+.csslider34 > #play34:checked ~ .arrowprev > .num1,
+.csslider34 > #play34:checked ~ .arrownext > .num3 {
+    animation: arrows34 16000ms infinite 6000ms;
+}
+.csslider34 > #play34:checked ~ .arrowprev > .num2,
+.csslider34 > #play34:checked ~ .arrownext > .num0 {
+    animation: arrows34 16000ms infinite 10000ms;
+}
+
+/*BULLETS*/
+.csslider34 > .bullets {
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    bottom: 0px;   
+}
+.csslider34 > .bullets > label {
+    border-radius: 50%;
+    margin: 5px;
+    padding: 9px;
+    background: #cbecfd;
+    position: relative;
+}
+.csslider34 > .bullets > label > figure {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    line-height: 0;
+    left: -64px;
+    top: -48px;
+}
+.csslider34 > .bullets > label > figure {
+    border: 3px solid #cbecfd;
+    margin-top: -150%;
+    transition: all 0.3s;
+}
+.csslider34 > .bullets > label > figure:before {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    left: 50%;
+    margin-left: -1px;
+    bottom: -9px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #cbecfd;
+}
+.csslider34 > .bullets > label:hover > figure {
+    margin-top: -12px;
+    opacity: 1;
+    visibility: visible;
+}
+.csslider34 > .bullets > label:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -2px;
+    margin-top: -2px;
+    background: transparent;
+    border-radius: 50%;
+    padding: 2px;
+}
+.csslider34 > .bullets > label:hover:after,
+.csslider34 > #slide34-0:checked ~ .bullets > .num0:after,
+.csslider34 > #slide34-1:checked ~ .bullets > .num1:after,
+.csslider34 > #slide34-2:checked ~ .bullets > .num2:after,
+.csslider34 > #slide34-3:checked ~ .bullets > .num3:after {
+    background: #3a4a5a;
+}
+@keyframes bullets34 {
+    0%, 24.99%	{ background: #3a4a5a; }
+    25%, 100% { background: transparent; }
+}
+.csslider34 > #play34:checked ~ .bullets > .num0:after {
+    animation: bullets34 16000ms infinite -2000ms;
+}
+.csslider34 > #play34:checked ~ .bullets > .num1:after {
+    animation: bullets34 16000ms infinite 2000ms;
+}
+.csslider34 > #play34:checked ~ .bullets > .num2:after {
+    animation: bullets34 16000ms infinite 6000ms;
+}
+.csslider34 > #play34:checked ~ .bullets > .num3:after {
+    animation: bullets34 16000ms infinite 10000ms;
+}
+
+/*DESCRIPTION*/
+
+/*description template*/
+.csslider34 > .description > label {
+    position: absolute;
+    max-width: 50%;
+    z-index: 3;    
+    bottom: 40px;
+    left: 10px;
+}
+.csslider34 > .description > label span,
+.csslider34 > .description > label > * {
+    display: inline-block;
+    opacity: 0;
+}
+.csslider34 > .description > label span {   
+    color: #3a4a5a;    
+}
+.csslider34 > .description > label > * { 
+    padding: 13rem;
+    border-radius: 10px;
+}
+.csslider34 > .description > label > big {    
+    background: #cbecfd;
+    margin: -5px 10px;
+    z-index: 2;
+    transform: translateY(-100px);
+    transition: 950ms opacity 600ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider34 > .description > label > small {
+    background: #e5f6fe;
+    margin: -5px 20px;    
+    z-index: 1;
+    transform: translateY(100px);
+    transition: 950ms opacity 850ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 850ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider34 > .description > label > big > span {
+    font-size: 20px;
+    transform: translateY(-100px);
+    transition: 950ms opacity 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 750ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+.csslider34 > .description > label > small > span {  
+    font-size: 16px;
+    transform: translateY(100px);
+    transition: 950ms opacity 1000ms cubic-bezier(0.680, -0.550, 0.265, 1.550), 950ms transform 1000ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+/*description moving*/
+.csslider34 > #slide34-0:checked ~ .description > .num0 > big,
+.csslider34 > #slide34-0:checked ~ .description > .num0 > small,
+.csslider34 > #slide34-1:checked ~ .description > .num1 > big,
+.csslider34 > #slide34-1:checked ~ .description > .num1 > small,
+.csslider34 > #slide34-2:checked ~ .description > .num2 > big,
+.csslider34 > #slide34-2:checked ~ .description > .num2 > small,
+.csslider34 > #slide34-3:checked ~ .description > .num3 > big,
+.csslider34 > #slide34-3:checked ~ .description > .num3 > small,
+.csslider34 > #slide34-0:checked ~ .description > .num0 span,
+.csslider34 > #slide34-1:checked ~ .description > .num1 span,
+.csslider34 > #slide34-2:checked ~ .description > .num2 span,
+.csslider34 > #slide34-3:checked ~ .description > .num3 span {
+    opacity: 1;
+    transform: translateY(0);
+}
+@keyframes cs_title {
+    2.078125%, 22.911875% { opacity: 1; transform: translateY(10px); z-index: 2; }
+    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); z-index: 2; }
+    27.96875% { opacity: 0; transform: translateY(-100px); z-index: 2; }
+    27.97875%, 100% { z-index: 0; }
+}
+@keyframes cs_descr {
+    2.078125%, 22.911875% { opacity: 1; transform: translateY(-10px); z-index: 1; }
+    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); z-index: 1; }
+    27.96875% { opacity: 0; transform: translateY(100px); z-index: 1; }
+    27.97875%, 100% { z-index: 0; }
+}
+.csslider34 > #play34:checked ~ .description > .num0 > big {
+    animation: cs_title 16000ms infinite -1400ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num1 > big {
+    animation: cs_title 16000ms infinite 2600ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num2 > big {
+    animation: cs_title 16000ms infinite 6600ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num3 > big {
+    animation: cs_title 16000ms infinite 10600ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num0 > small {
+    animation: cs_descr 16000ms infinite -1150ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num1 > small {
+    animation: cs_descr 16000ms infinite 2850ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num2 > small {
+    animation: cs_descr 16000ms infinite 6850ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num3 > small {
+    animation: cs_descr 16000ms infinite 10850ms ease;
+}
+@keyframes cs_title_text {
+    2.078125%, 22.911875% { opacity: 1; transform: translateY(10px); }
+    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); }
+    27.96875% { opacity: 0; transform: translateY(-100px); }
+}
+@keyframes cs_descr_text {
+    2.078125%, 22.911875% { opacity: 1; transform: translateY(-10px); }
+    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); }
+    27.96875% { opacity: 0; transform: translateY(100px); }
+}
+.csslider34 > #play34:checked ~ .description > .num0 big > span {
+    animation: cs_title_text 16000ms infinite -1250ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num1 big > span {
+    animation: cs_title_text 16000ms infinite 2750ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num2 big > span {
+    animation: cs_title_text 16000ms infinite 6750ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num3 big > span {
+    animation: cs_title_text 16000ms infinite 10750ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num0 small > span {
+    animation: cs_descr_text 16000ms infinite -1000ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num1 small > span {
+    animation: cs_descr_text 16000ms infinite 3000ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num2 small > span {
+    animation: cs_descr_text 16000ms infinite 7000ms ease;
+}
+.csslider34 > #play34:checked ~ .description > .num3 small > span {
+    animation: cs_descr_text 16000ms infinite 11000ms ease;
+}

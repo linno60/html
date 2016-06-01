@@ -161,6 +161,7 @@ header form label{
     padding: 19rem 36rem 69rem 17rem;
 }
 .content{
+    width: 57.4%;
     padding: 12rem 34rem 0px 38rem;
 }
 .content-wrap a:active, .content-wrap a:hover, .content-wrap a:focus{
@@ -208,6 +209,7 @@ footer > div:first-child #logo-alt + em{
     line-height: 18px;
     max-width: 150px;
     letter-spacing: 0.005em;
+    display: inline-block;
 }
 .footer-items > div{
     margin-bottom: 10px;
@@ -233,6 +235,7 @@ footer > div:first-child #logo-alt + em{
     padding: 0px 13rem 0px 3rem;
 }
 #logo-alt{
+    display: inline-block;
     margin: 3rem 0px 15rem 0px;
 }
 
@@ -244,6 +247,7 @@ footer > div:first-child #logo-alt + em{
     .content-wrap, .content{padding: 5px;}
 }
 @media (max-width: 640px) {
+    .content{width: 100%;}
     .links-slider a{width: 50%;}
     .sidebar, .sidebar.latest{width: 49%;order:1;}
     .slider figcaption h3{font-size: 12px;}

@@ -229,6 +229,7 @@
 .csslider32 > .description > label > * {
     padding: 10rem;    
     overflow: hidden;
+    display: inline-block;
     transform-origin: 0% 0% 0px;
     border-radius: 4px;
     opacity: 0;

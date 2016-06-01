@@ -42,7 +42,7 @@
             </div>                     
         </div>
         <div class="services">
-            <div class="lwrap" data-flex="stripe w">
+            <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                 <article>
                     <i class="icon-android"></i>
                     <h3>Consectetur</h3>

@@ -65,7 +65,7 @@ header > .lwrap{
     max-width: 1150px;
 }
 .services article h3{
-    margin: 22px 0px 9px 0px;
+    margin: 22rem 0px 9rem 0px;
     font-size: 18px;
     font-weight: 900;
     letter-spacing: 0.02em;
@@ -76,7 +76,7 @@ header > .lwrap{
     color: #616161;
 }
 .works{
-    padding: 53rem 10px 70rem 10px;
+    padding: 53rem 10px 71rem 10px;
 }
 .works h2{
     font-size: 30px;
@@ -138,5 +138,9 @@ footer span i, footer address i{
 @media (max-width: 640px) {
     .slider h1{font-size: 34px;}
     .slider p{font-size: 23px;line-height: 28px;}
-    .services article, .works .tabpanel figure{width:49%}
+    .services article{width:49%}
+    .works .tabpanel figure{width:32.5%}
+}
+@media (max-width: 480px) {
+    .works .tabpanel figure{width:49%}
 }

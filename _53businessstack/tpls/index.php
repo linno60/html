@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Businessstack</title>
+        <title>Business Stack</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="/css/addons/reset.css">
@@ -108,7 +108,7 @@
                     <h3>Side Menu</h3>
                     <nav class="links-side" data-flex="col"> 
                         <a href="#">Home</a>
-                        <a href="#" class="active">Pages</a>
+                        <a href="#">Pages</a>
                         <a href="#">Team</a>
                         <a href="#">Blog</a>
                         <a href="#">Portfolio</a>
