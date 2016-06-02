@@ -8,6 +8,7 @@ body{
     padding: 40rem 0px 26rem 0px;
 }
 .links-nav a{
+    display: inline-block;
     font-family: Oswald;
     font-size: 15px;
     text-transform: uppercase;

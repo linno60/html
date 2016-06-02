@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="blurb lwrap" data-flex="axis" data-flex-640="axis w">
+        <div class="blurb lwrap" data-flex="axis" data-flex-640="vaxis">
             <span>We can make your online business easy & usable for all walks of people</span>
             <a href="#" class="btn btn-start">let's start<strong>your website</strong></a>
         </div>

@@ -127,6 +127,9 @@ header > .lwrap{
     padding-right: 33rem;
     margin-bottom: 20px;
 }
+.about article > div{
+    width: calc(100% - 34px - 12rem);
+}
 .about article:last-child{
     padding-right: 0px;
 }
@@ -211,7 +214,7 @@ header > .lwrap{
     margin: 0px 1rem 0px -10rem;
 }
 .gallery > div{
-    width: 100%;
+    width: calc(100% - 49px);
     margin: 23rem -21rem 0px -18rem;
     position:  relative;
 }

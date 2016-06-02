@@ -80,7 +80,7 @@ header.nav > .lwrap{
 /*CONTENT*/
 .content{
     background: white;
-    width: 100%;
+    width: 68.75%;
     padding: 29rem 20rem 39rem 21rem;
 }
 .gallery{
@@ -97,6 +97,7 @@ header.nav > .lwrap{
     width: 32.2%;
     border: 5px solid white;
     box-shadow: 0 0 0 1px rgba(195, 195, 195, 0.75);
+    display: inline-block;
 }
 .popular > div{
     background: #f0f0f0;
@@ -161,6 +162,7 @@ footer p{
     margin: -1rem -16rem 0px -11rem;
 }
 .flickr a{
+    display: inline-block;
     width: 22.7%;
     margin: 0px 15rem 30rem 15rem;
 }

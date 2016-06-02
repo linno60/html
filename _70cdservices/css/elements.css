@@ -94,6 +94,7 @@ blockquote cite{
 }
 .more, .view{
     color: #fe9b00; 
+    display: inline-block;
 }
 .view{
     font-size: 15px;

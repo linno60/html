@@ -80,6 +80,7 @@ header.lwrap{
     font-weight: 600;
     letter-spacing: -0.05em;
     margin: 9rem 0px;
+    display: inline-block;
 }
 .profile time{
     color: #cccbcb;

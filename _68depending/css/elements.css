@@ -32,6 +32,7 @@ body{
     font-weight: 300;
     line-height: 18px;
     text-decoration: underline;
+    display: inline-block;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: none;
@@ -136,6 +137,7 @@ blockquote{
     padding: 8px 0px;
 }
 blockquote q{
+    display: inline-block;
     color: white;
     font-size: 14px;
     line-height: 18px;
@@ -162,4 +164,5 @@ blockquote q:after{
     border-right: 13px solid transparent;
     left: 33rem;
     bottom: -13px;
+    display: inline-block;
 }

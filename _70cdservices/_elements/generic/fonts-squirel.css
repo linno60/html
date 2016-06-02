@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'nevis';
+    src: url('/fonts/fontsquirel.com/nevis.woff2') format('woff2'), url('/fonts/fontsquirel.com/nevis.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

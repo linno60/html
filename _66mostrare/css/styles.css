@@ -99,7 +99,7 @@ p{
     color: white;
     font-family: HelveticaNeue;
     font-size: 14px;
-    padding: 25rem 0px 24rem 0px;
+    padding: 22rem 0px 21rem 0px;
 }
 .post-details > span{
     color: #848484;
@@ -145,6 +145,7 @@ p{
     color: #f39c12;
 }
 .comments p{
+    max-width: 540px;
     margin: 2rem 0px 29rem 0px;
 }
 .comments article span a:active, .comments article span a:hover, .comments article span a:focus{
@@ -159,7 +160,7 @@ p{
 
 /*MEDIA QUERIES*/
 @media (max-width: 640px) {
-    .hidden{display: none;}
+    .hidden, .links-nav a.hidden{display: none;}
     .hidden.alt{display: block;}
     .hidden, .content, .sidebar > aside, .links-nav{padding: 10px;}
     .sidebar > aside{max-width: 100%;}

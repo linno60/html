@@ -24,6 +24,7 @@ body{
     padding: 13rem 20rem;
     margin: 6rem 5rem 0px 5rem;
     position: relative;
+    display: inline-block;
 }
 .links-nav a i{
     margin-left: 5rem;

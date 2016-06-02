@@ -1,9 +1,10 @@
 
 /* FONTS */
 @font-face {
-	font-family: 'nevis';
-	src: local('в�є'), url('/fonts/nevis.woff') format('woff'), url('/fonts/nevis.woff2') format('woff2');
-	font-weight: 700;
+    font-family: 'nevis';
+    src: url('/fonts/fontsquirel.com/nevis.woff2') format('woff2'), url('/fonts/fontsquirel.com/nevis.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 /* ICONS */
 .icon-arrow1 {width: 11px; height: 7px; background: url('/images/icons/arrow1.png');}

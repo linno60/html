@@ -4,6 +4,9 @@
 .csslider34 {
     position: relative;
     max-width: 960px; 
+}
+.csslider34 > ul{
+    position: relative;
     overflow: hidden;
 }
 .csslider34 > input[type=radio] {
