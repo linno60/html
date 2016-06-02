@@ -21,6 +21,7 @@ body{
 }
 .links-social a{
     margin-bottom: 1px;
+    display: inline-block;
 }
 
 /*BUTTONS*/

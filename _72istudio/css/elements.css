@@ -15,6 +15,9 @@ body{
     font-family: Open Sans Condensed;
     letter-spacing: -0.005em;
 }
+.links-nav a:last-of-type{
+    margin: 0px 13px 0px 21rem;
+}
 .links-nav > span{
     height: 18px;
     border-left: 1px solid #282827;
@@ -23,6 +26,7 @@ body{
     padding-top: 15rem;
 }
 .links-controls a{
+    display: inline-block;
     width: 19px;
     height: 19px;
     margin: 5rem 5rem 5rem 6rem;
@@ -36,6 +40,7 @@ body{
 .links-footer a{
     color: #a8a8a8;
     margin-bottom: 7px;
+    display: inline-block;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus, 
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{

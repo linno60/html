@@ -83,6 +83,7 @@ header > .lwrap{
 /*CONTENT*/
 .content{
     padding-left: 2px;
+    width: 71.1%;
 }
 .content article figure{
     padding: 10rem;

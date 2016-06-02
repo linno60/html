@@ -109,6 +109,7 @@ header .links-social{
 .info p{
     color: #2d2d2d;
     margin-bottom: 6rem;
+    max-width: 300px;
 }
 .info i{
     flex-shrink: 0;
