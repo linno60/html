@@ -38,6 +38,7 @@ body{
     padding: 7rem 11rem;
     border-radius: 8px 0px 0px 8px;
     margin-bottom: -3.5rem;
+    display: inline-block;
 }
 .links-product{
     max-width: 460px;
@@ -93,6 +94,7 @@ body{
     border: 2px solid #7f9007;
     margin: 4px;
     border-radius: 50%;
+    display: inline-block;
 }
 .links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
     background: #e5e8d0;
