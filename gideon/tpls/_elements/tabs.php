@@ -3,8 +3,9 @@
 <div class="tabs" data-tabs>
 
     <div class="tablist">
-        <a href="#tab1" class="active">fashion</a>
-        <a href="#tab2">cinema</a>
+        <a href="#tab1" class="active">Description</a>
+        <a href="#tab2">Feature</a>
+        <a href="#tab3">Reviews</a>
     </div>
 
     <div class="tabset">
@@ -12,6 +13,8 @@
         <div id="tab1" class="tabpanel active">Tab number 1</div>
         <a href="#tab2">fashion</a>
         <div id="tab2" class="tabpanel">Tab number 2</div>
+        <a href="#tab3">fashion</a>
+        <div id="tab3" class="tabpanel">Tab number 3</div>
     </div>
 
 </div>

@@ -16,6 +16,16 @@
     <a href="#">Fashion</a>
     <a href="#">Life Style</a>
 </div>
+<div class="links-categories alt" data-flex="col -start" data-childs="-start">
+    <a href="#">All</a>
+    <a href="#">Soft toys</a>
+    <a href="#">Trendy Key Chains</a>
+    <a href="#">Flower Bouquet</a>
+    <a href="#">Ceramic Dolls</a>
+    <a href="#">Fancy Mag</a>
+    <a href="#">Candles</a>
+    <a href="#">Other</a>
+</div>
 <div class="links-follow" data-flex="center w" data-childs="center -center">
     <a href="#"><i class="icon-follow-tw"></i></a>
     <a href="#"><i class="icon-follow-fb"></i></a>
@@ -36,6 +46,13 @@
     <a href="#"><i class="icon-share-pin"></i></a>
     <a href="#"><i class="icon-share-inst"></i></a>
     <a href="#"><i class="icon-share-gp"></i></a>
+</div>
+<div class="links-sharesm" data-flex="end -center w" data-childs="center -center">
+    <a href="#"><i class="icon-sharesm-fb"></i></a>
+    <a href="#"><i class="icon-sharesm-tw"></i></a>
+    <a href="#"><i class="icon-sharesm-gp"></i></a>
+    <a href="#"><i class="icon-sharesm-in"></i></a>
+    <a href="#"><i class="icon-sharesm-pin"></i></a>
 </div>
 <div class="links-social" data-flex="center w" data-childs="center -center">
     <a href="#" data-title="twitter 58937"><i class="icon-social-tw"></i></a>
@@ -64,4 +81,12 @@
     <a href="#">Video file</a>
     <a href="#">Audio</a>
     <a href="#">Post</a>
+</div>
+<div class="links-marks">
+    <a href="#">Kitchen Set</a>, 
+    <a href="#">Gift</a>, 
+    <a href="#">Spoon</a>, 
+    <a href="#">Wooden</a>, 
+    <a href="#">material</a>, 
+    <a href="#">Accessories</a> 
 </div>

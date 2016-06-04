@@ -6,3 +6,6 @@
 <button class="btn btn-search"></button>
 <a href="#" class="btn btn-slide prev"></a>
 <a href="#" class="btn btn-slide next"></a>
+<input type="checkbox" id="c1" class="expand">
+<label for="c1" class="btn btn-expand"></label>
+<a href="#" class="btn btn-zoom"></a>
