@@ -133,7 +133,7 @@
                                 <div>
                                     <div data-flex="w">
                                         <a href="#" class="btn btn-author">Yazar Hakkinda</a>
-                                        <a href="#" class="btn btn-blog">Diğer Yazıları<span></span></a>
+                                        <a href="#" class="btn btn-blog">Diğer Yazıları</a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed est lorem, tincidunt id imperdiet lacinia, vulputate et dolor. Praesent iaculis convallis odio sed suscipit. Proin sodales, sapien ut posuere interdum, dui magna vestibulum mi, sed vulputate erat felis non mi. Morbi at libero leo, quis volutpat lectus. Morbi eu ipsum lectus, sed porta augue. Nulla sed elit id nulla consectetur volutpat sed qui</p>
                                 </div>

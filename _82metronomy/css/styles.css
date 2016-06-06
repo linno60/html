@@ -22,7 +22,7 @@ body{
     padding: 12rem 11rem 7rem 14rem;
 }
 .content > *{
-    padding: 14rem 15rem 9rem 15rem;
+    padding: 14rem 15rem 0px 15rem;
 }
 .content > .slider{
     padding: 15rem;
@@ -33,7 +33,7 @@ body{
 }
 .slider > div{
     position: absolute;
-    bottom: 29rem;
+    bottom: 28rem;
     right: 30rem;
 }
 .slider .btn-thumb{
@@ -48,6 +48,7 @@ body{
 }
 .content{
     padding-left: 10px;
+    width: 79.1%;
 }
 h1{
     color: #8d8d8d;
@@ -78,6 +79,7 @@ h1{
 .popular article p{
     line-height: 20px;
     margin-top: -4px;
+    max-width: 120px;
 }
 .popular article p a{
     color: #7d7d7d;

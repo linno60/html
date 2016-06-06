@@ -30,7 +30,7 @@ header > .lwrap{
     text-decoration: underline;
 }
 .content-wrap{
-    padding: 23rem 10px 10rem 10px;
+    padding: 23rem 10px 10px 10px;
     position: relative;
 }
 .content-wrap:before, .content-wrap:after{
@@ -49,6 +49,7 @@ header > .lwrap{
     background: url("../images/shadow-right.png");
 }
 .content{
+    width: 63.8%;
     padding: 0px 0px 10px 15rem;
 }
 .sidebar{
@@ -108,6 +109,7 @@ header > .lwrap{
     margin-bottom: 14px;
     line-height: 16px;
     letter-spacing: -0.009em;
+    max-width: 400px;
 }
 .content-items > div{
     width: 48%;
@@ -143,6 +145,7 @@ header > .lwrap{
 .news-item p{
     line-height: 16px;
     margin: 0px;
+    max-width: 300px;
 }
 .grid > figure{
     border: 5px solid #e7e7e7;
@@ -177,6 +180,7 @@ header > .lwrap{
     color: #010101;
     font-weight: 700;
     line-height:  15px;
+    display: inline-block;
 }
 .social-networking a{
     color: #eb4900;
@@ -231,7 +235,7 @@ header > .lwrap{
     margin: 2px 0px 5px 0px;
 }
 .banner{
-    margin: 30px 0px 20px 0px;
+    margin: 30rem 0px 20rem 0px;
 }
 .video > div{
     margin-left:  1px;
@@ -287,7 +291,10 @@ footer .title{
 }
 @media (max-width: 640px) {
     .sidebar{padding: 0px;}
-    .sidebar > *{width: 49%;}
-    .sidebar > form, .social-networking{width: 100%;}
-    .advertisements{order: 1;}
+    .sidebar > *{width: 49%;order:4;}
+    .advertisements, .video{order: 3;}
+    .sidebar > .categories, .sidebar > .post-wrap{order: 2;}
+    .sidebar > .social-networking{width: 100%;order:1;}
+    .sidebar > form{order:0; margin: 5px 0px;}
+    input[type=email]{margin: 0px;max-width: 500px;}
 }

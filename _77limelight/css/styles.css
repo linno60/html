@@ -1,4 +1,4 @@
-figure img{
+figure img, a > img{
     width: 100%;
     height: 100%;
     display: block;
@@ -117,7 +117,7 @@ blockquote > .lbl-default:last-child{
     font-size: 28px;
     font-weight: 700;
     line-height: 28px;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.013em;
 }
 .news h2 span{
     font-family: NexaBold;
@@ -126,7 +126,7 @@ blockquote > .lbl-default:last-child{
     margin-bottom: 72rem;
 }
 .news article{
-    padding-bottom: 75rem;
+    padding-bottom: 72rem;
 }
 .news article > figure{
     width: 26.7%;
@@ -142,7 +142,7 @@ blockquote > .lbl-default:last-child{
     color: #aaa;
     font-size: 14px;
     font-weight: 600;
-    margin-bottom: 30rem;
+    margin-bottom: 26rem;
 }
 .caption a{
     color: #aaa;
@@ -154,8 +154,9 @@ blockquote > .lbl-default:last-child{
     color: #222;
     font-size: 16px;
     line-height: 24px;
-    margin: 0px 5rem 14rem 1rem;
+    margin: 0px 5rem 18rem 1rem;
     letter-spacing: -0.024em;
+    max-width: 650px;
 }
 .dot{
     flex-shrink: 0;

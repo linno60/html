@@ -37,7 +37,7 @@ figure img, #logo img{
     padding: 24rem 0px 12rem 0px;
 }
 .content{
-    width: 100%;
+    width: 77.3%;
     padding: 3px 30rem 32rem 0px;
 }
 .sidebar{
@@ -62,6 +62,7 @@ figure img, #logo img{
     border-radius: 3px;
     box-shadow: 0px 0px 0px 10px rgba(0,0,0,.05);
     margin: 10rem 0px 0px 21rem;
+    width: 82%;
 }
 .post{
     padding: 13rem 34rem 10rem 18rem;

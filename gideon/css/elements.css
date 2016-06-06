@@ -2,8 +2,11 @@ body{
     font-size: 12px;
     font-family: Roboto Slab;
 }
-body, a, ._tabs > div > div{
+body, a, select, ._tabs > div > div{
     color: #858585;
+}
+p{
+    line-height: 24px;
 }
 
 /*BUTTONS*/
@@ -103,14 +106,30 @@ body, a, ._tabs > div > div{
 /*FORMS*/
 input, textarea{
     outline: none;
+    color: #333;
+}
+input[name=checkout], textarea[name=checkout]{
+    width: 100%;
+    max-width: 640px;    
+    background: #f8f8f8;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+input[name=checkout]{
+    height: 50px;
+    padding: 0px 20px;
+}
+textarea[name=checkout]{
+    height: 130px;
+    padding: 20px 20px;
 }
 label{
     font-size: 14px;
 }
 input[name=post], textarea[name=post], input[name=contact], textarea[name=contact]{
     width: 100%;  
-    margin-bottom: 20px; 
-    color: #333;
+    margin-bottom: 20px;    
 }
 input[name=post]{
     height: 49px;
@@ -156,15 +175,21 @@ input[name=post]:-ms-input-placeholder, textarea:-ms-input-placeholder { color: 
 input[type=search]::-webkit-input-placeholder { font-style: italic; }
 input[type=search]::-moz-placeholder { font-style: italic; }
 input[type=search]:-ms-input-placeholder { font-style: italic; }
+input[name=checkout]::-webkit-input-placeholder,
+textarea[name=checkout]::-webkit-input-placeholder,
 .spinner::-webkit-input-placeholder,
 input[name=contact]::-webkit-input-placeholder,
 textarea[name=contact]::-webkit-input-placeholder,
 .search-sidebar input[type=search]::-webkit-input-placeholder { color: #858585; }
+input[name=checkout]::-moz-placeholder,
+textarea[name=checkout]::-moz-placeholder,
 .spinner::-moz-placeholder,
 input[name=contact]::-moz-placeholder,
 textarea[name=contact]::-moz-placeholder,
 .search-sidebar input[type=search]::-moz-placeholder { color: #858585; }
-.spinner:-ms-input-placeholder
+input[name=checkout]:-ms-input-placeholder,
+textarea[name=checkout]:-ms-input-placeholder,
+.spinner:-ms-input-placeholder,
 input[name=contact]:-ms-input-placeholder,
 textarea[name=contact]:-ms-input-placeholder,
 .search-sidebar input[type=search]:-ms-input-placeholder { color: #858585; }
@@ -184,7 +209,6 @@ input[type=password]:-ms-input-placeholder { color: #bbb; }
     flex-grow: 1;
     border: none;
     padding: 0px 10px;
-    color: #333;
 }
 input[type=password]{
     width: 100%;
@@ -193,19 +217,27 @@ input[type=password]{
     background: white;
     border: 1px solid #ddd;
     padding: 0px 30px;
-    color: #333;
 }
-.select-sorting::-ms-expand{display: none;}
-.select-sorting {
+select::-ms-expand{display: none;}
+select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; 
     width: 100%;
+    border: none;
+}
+.select-sorting {
     max-width: 270px;
     height: 42px;
-    background-color: white;
     padding: 0px 30px;
     background: white url('/images/icons/arrowdown.png') right 15px center no-repeat;
+}
+.select-checkout {
+    font-size: 13px;
+    max-width: 570px;
+    height: 50px;
+    padding: 0px 20px;
+    background: #f8f8f8 url('/images/icons/arrowdown.png') right 15px center no-repeat;
 }
 .counter{
     width: 50px;
@@ -235,7 +267,6 @@ input[type=number] {
     background: none;
     border: none;
     text-align: center;
-    color: #333;
 }
 .spinner > *{
     width: calc(100% / 3);
@@ -438,6 +469,19 @@ input[type=number] {
     color: white;
     font-style: italic;
 }
+.lbl-price{
+    min-width: 81px;
+    height: 35px;
+    color: #f4f5f7;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #ff6766;
+    padding: 0px 5px;
+}
+.lbl-price.free{
+    background: #7dd249;
+}
 .lbl-date{
     flex-direction: column;
     border: 1px solid #ff6766;
@@ -530,6 +574,11 @@ input[type=number] {
     display: inline-block;
     margin-right: 5px;
 }
+.list-marker li{
+    font-size: 14px;
+    padding: 0px 0px 5px 20px;
+    background: url(/images/icons/list-marker.png)no-repeat left 5px;
+}
 
 /*TABS*/
 .tablist{
@@ -573,6 +622,42 @@ input[type=number] {
 .tablist > a.active:before, .tablist > a:hover:before{
     opacity: 1;
 }
+.accordion{
+    background: white;
+}
+.acc-radio > a{
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding: 15px 5px 15px 60px;
+    background: #f8f8f8 url(/images/icons/radio.png)no-repeat 28px 14px;
+}
+.acc-radio > a.active{
+    background: #f8f8f8 url(/images/icons/radiocheck.png)no-repeat 28px 14px;
+}
+.acc-radio > div{
+    padding: 20px 0px 30px 0px;
+}
+.acc-faqs{
+    border: 1px solid #f1f1f1;
+    border-top: none;
+}
+.acc-faqs > a{
+    color: #212121;
+    font-size: 14px;
+    padding: 15px 5px 15px 60px;
+    border-top: 1px solid #f1f1f1;
+    margin-bottom: 1px;
+    background: url(/images/icons/open.png)no-repeat left 15px center, linear-gradient(90deg, #f1f1f1, #f1f1f1 46px, transparent 47px, transparent);
+}
+.acc-faqs > a.active{
+    background: url(/images/icons/closered.png)no-repeat left 15px center, linear-gradient(90deg, #f1f1f1, #f1f1f1 46px, transparent 47px, transparent);
+    margin-bottom: 0px;
+}
+.acc-faqs > div{
+    padding: 20px 20px 20px 50px;
+    border-top: 1px solid #f1f1f1;    
+}
 
 /*TABLES*/
 .table{
@@ -612,8 +697,8 @@ input[type=number] {
 }
 .table.extend thead td{
     color: #212121;
-font-size: 16px;
-font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
 }
 .table.extend{
     border-top: none;
@@ -637,6 +722,7 @@ font-weight: 700;
     background: url(/images/icons/pen.png)no-repeat left 5px;
     text-indent: 30px;
     display: inline-block;
+    padding: 5px;
 }
 .read, .read-alt{      
     text-decoration: underline;
@@ -653,4 +739,22 @@ font-weight: 700;
 }
 .read-alt:active, .read-alt:hover, .read-alt:focus, .read-alt:active, .read-alt:hover, .read-alt:focus{
     text-decoration: none;
+}
+.title-shopcart {
+    color: #333;
+    font-size: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-bottom: 5px;
+    background: linear-gradient(#ddd 100%, transparent 0%) left bottom / 40px 3px no-repeat;
+}
+.title-lessons {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    background: linear-gradient(#ff6766 100%, transparent 0%) left bottom / 60px 2px no-repeat;
 }

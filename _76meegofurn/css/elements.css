@@ -37,6 +37,7 @@ body{
     height: 5px;
     margin: 11px 10px 0px 0px;
     background-color: #6d6d6d;
+    display: inline-block;
 }
 
 /*CITES*/
@@ -68,6 +69,7 @@ body{
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.04em;
+    display: inline-block;
 }
 
 /*CITES*/

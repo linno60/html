@@ -159,7 +159,9 @@ body{
     letter-spacing: -0.015em;
     padding-left: 5rem;
 }
-.btn-blog span{
+.btn-blog:after{
+    content: '';
+    display: inline-block;
     height: 38px;
     width: 24px;
     background: #21c1d3 url("/images/icons/arrow2.png")no-repeat center center;

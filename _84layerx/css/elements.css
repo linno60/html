@@ -23,12 +23,14 @@ body{
     line-height: 19px;
     letter-spacing: -0.02em;
     text-align: center;
+    display: inline-block;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
     text-decoration: underline;
 }
 .links-tags{
     margin: 0px -5rem 41rem 18rem;
+    max-width: 220px;
 }
 .links-tags a{
     padding: 0px 10rem;

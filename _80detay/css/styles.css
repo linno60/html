@@ -81,7 +81,7 @@ header{
     padding: 0px 32rem 0px 30rem;
 }
 .content{
-    width: 100%;
+    width: 67.4%;
 }
 .sidebar{
     flex-shrink: 0;
@@ -188,6 +188,7 @@ header{
     line-height: 18px;
     margin: 9px 10px 10px 0px;
     letter-spacing: -0.003em;
+    max-width: 550px;
 }
 .video{
     margin-left: 1px;

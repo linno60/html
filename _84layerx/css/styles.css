@@ -22,7 +22,7 @@ body{
     background: #f6f6f6;
 }
 .content-wrap{
-    flex-grow: 1;
+    width: 63%;
     position: relative;
     box-shadow: inset 0px 4px 0px 0px rgba(0,0,0,0.2);
     background: url("/images/bg.png");
@@ -37,7 +37,6 @@ body{
     left: 50px;
 }
 .content-wrap > div{
-    width: 100%;
     max-width: 766px;
     background: rgba(255,255,255,.2);
 }
@@ -52,6 +51,8 @@ body{
     line-height: 15px;
     padding: 25rem 15rem 41rem 15rem;
     letter-spacing: -0.02em;
+    display: inline-block;
+    max-width: 220px;
 }
 #logo{
     margin-bottom: 5rem;
@@ -64,7 +65,8 @@ body{
     letter-spacing: -0.02em;
 }
 #logo + span, #logo + span a{
-    color: grey;    
+    color: grey;   
+    display: inline-block;
 }
 #logo + span a:active, #logo + span a:hover, #logo + span a:focus{
     text-decoration: underline;
@@ -75,6 +77,8 @@ body{
     font-size: 11px;
     text-align: center;
     line-height: 13px;
+    display: inline-block;
+    max-width: 220px;
 }
 .copyright {
     padding: 0px 1rem 0px 4rem;
@@ -107,11 +111,13 @@ body{
     margin-bottom: 51px;
 }
 .content{
+    width: 100%;
     padding: 84rem 41rem 60rem 42px;
 }
 .content article{
     padding-bottom: 46rem;
     position: relative;
+    width: 100%;
 }
 .content article:before, .content article:after{
     content: "";

@@ -96,7 +96,13 @@ body{
     border-radius: 0px 5px 5px 0px;
     border-width: 0px 0px 1px 1px;
     border-style: solid;
-    border-image: linear-gradient(0deg, #94ff00 0%, #ecff00 100%) 1 100%;
+    border-image: linear-gradient(0deg, #94ff00 0%, #ecff00 100%) 1 100%;    
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .btn-comments {
+        border-color: #ecff00;
+        border-width: 0px 0px 0px 1px;
+    }
 }
 .btn-comments i{
     flex-shrink: 0;

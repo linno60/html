@@ -80,6 +80,7 @@ p a:active, p a:hover, p a:focus{
     padding: 24rem 0px 31rem 0px;
     background: #f0f0f0;
     box-shadow: inset 0 1px 0 rgba(0,0,0,.13), 0 1px 0 rgba(0,0,0,.13);
+    overflow: hidden;
 }
 .projects > div:last-child{
     margin: 0px -68px 0px -48px;
@@ -143,6 +144,7 @@ p a:active, p a:hover, p a:focus{
     background: whitesmoke;
     border-radius: 5px;
     padding: 14px 10px 6px 19px;
+    width: 69.5%;
 }
 .about-content figure{
     float: left;

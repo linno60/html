@@ -115,6 +115,7 @@ blockquote q{
     padding: 10rem;
     line-height: 39px;
     letter-spacing: -0.03em;
+    display: inline-block;
 }
 
 /*OTHER*/
@@ -161,6 +162,7 @@ hgroup h4{
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
+    display: inline-flex;
 }
 .more:active, .more:hover, .more:focus{
     text-decoration: underline;

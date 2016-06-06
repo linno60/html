@@ -183,6 +183,7 @@ time.lbl-default{
 .lbl-default strong{
     font-size: 19px;
     line-height: 18px;
+    display: inline-block;
 }
 .lbl-default small{
     font-size: 10px;

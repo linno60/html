@@ -187,9 +187,9 @@
                 </div>
                 <div class="tabs-sidebar" data-tabs data-tabs-800="accordion">
                     <div class="tablist">
-                        <a href="#tab1" class="active">Popular</a>
-                        <a href="#tab2">Recent</a>
-                        <a href="#tab3">Comments</a>
+                        <a href="#tab1" class="active">Popu&shy;lar</a>
+                        <a href="#tab2">Re&shy;cent</a>
+                        <a href="#tab3">Com&shy;ments</a>
                         <a href="#tab4">Tags</a>
                     </div>
                     <div class="tabset">

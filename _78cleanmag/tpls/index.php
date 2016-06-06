@@ -119,7 +119,7 @@
                     </article>                    
                 </div>
                 <div class='pagination' data-flex='center'>
-                    <a href='#'>1</a>
+                    <a href='#' class="active">1</a>
                     <a href='#'>2</a>
                     <a href='#'>3</a>
                     <a href='#'>4</a>
@@ -180,7 +180,7 @@
                     </div>
                 </div>
             </div>
-            <aside class='sidebar' data-flex='col' data-flex-640="stripe w" data-flex-480="vstripe">
+            <aside class='sidebar' data-flex='col' data-flex-640="-start between w" data-flex-480="vstripe">
                 <form action='#' method='post'>
                     <input type='search' name="search" placeholder="Search Blog">
                 </form>

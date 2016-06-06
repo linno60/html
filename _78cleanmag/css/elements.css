@@ -16,6 +16,7 @@ body{
 }
 .links-default a{
     margin: -2px 0px 11px 0px;
+    display: inline-block;
 }
 .links-top{
     margin-left: -15px;
@@ -96,6 +97,7 @@ input[type="email"]{
     padding: 0px 7px;
     letter-spacing: -0.01em;
     margin: 5px 0px 7px 0px;
+    max-width: 210px;
 }
 input[type="email"], input[type="search"]{
     color: black;
@@ -111,7 +113,7 @@ input[type="email"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeh
 /*PAGINATIONS*/
 .pagination{
     padding: 2px 20px 10px 10px;
-    margin-bottom: 37rem;
+    margin-bottom: 38rem;
     border-bottom: 1px solid #e6e6e6;
 }
 .pagination-slider a{

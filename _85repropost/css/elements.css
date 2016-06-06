@@ -64,6 +64,7 @@ body{
     color: #444;
     font-family: Arial;
     line-height: 24px;
+    display: inline-block;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: underline;
@@ -157,9 +158,10 @@ input[type="text"]:-ms-input-placeholder{color: #444;}
 }
 .tabs-sidebar > .tablist > a{
     flex-grow: 1;
-    padding: 0px 11px;
+    padding: 0px 11rem;
     border-right: 1px solid gainsboro;
-    box-shadow:inset 1px 0px 0px 0px white;    
+    box-shadow:inset 1px 0px 0px 0px white;  
+    text-align: center;
 }
 .tabset > a, .tabs-sidebar > .tablist > a {
     color: #555;
@@ -227,6 +229,7 @@ blockquote:before {
     content: "";
     height: 10px;
     background: url("/images/border.png"); 
+    display: inline-block;
 }
 .hdr-sm:before{
     width: 18px;
