@@ -24,6 +24,7 @@ body{
     color: #ff7800;
     font-style: italic;
     line-height: 20px;
+    display: inline-block;
 }
 .links-accounts a:active, .links-accounts a:hover, .links-accounts a:focus{
     text-decoration: underline;

@@ -40,6 +40,7 @@ figure > img, a > img{
     letter-spacing: -0.05em;
     margin-top: 4rem;
     text-align: right;
+    display: inline-block;
 }
 .call span{
     color: #002859;

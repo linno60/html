@@ -62,6 +62,11 @@ figure > img{
     border-bottom-width: 0px;
     z-index: -1;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .item-wrap:after{
+        border-color: #b2b2b2;
+    }
+}
 
 /*HEADER*/
 header .links-nav{

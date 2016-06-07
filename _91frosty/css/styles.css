@@ -19,6 +19,7 @@ header{
     padding-bottom: 60px;
     margin-bottom: -60px;
     background:  #3a3938 url("/images/highlight.png")no-repeat 0% -200px;
+        box-shadow: 0px 0px 150px 100px rgba(0,0,0,.15);
 }
 
 /*CONTENT*/
@@ -69,7 +70,7 @@ header{
     right: 1.5%;
 }
 .links-controls{
-    padding: 12rem 0px 39rem 0px;
+    padding: 11rem 0px 40rem 0px;
 }
 .grid{
     max-width: 896px;
@@ -102,6 +103,7 @@ header{
 }
 .item span {
     letter-spacing: -0.022em;
+    display: inline-block;
 }
 .grid .more{
     line-height: 19px;

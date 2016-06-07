@@ -85,7 +85,7 @@ hgroup .title{
 }
 .slider-lg{
     width: 100%;
-    padding: 11rem 10rem 10rem 10rem;
+    padding: 11rem 10rem 10px 10rem;
     border-bottom: 1px solid white;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,.3);
     position: relative;
@@ -97,16 +97,19 @@ hgroup .title{
 .slider-lg .video figure{
     padding-top: 48.5%;
 }
-.slider-caption{
+.slider-caption{    
     padding: 15rem 12rem 0px 18rem;
 }
 .slider-caption .title{
     line-height: 34px;
     margin-bottom: 13rem;
+    max-width: 360px;
+    width: 100%;
 }
 .slider-caption p{
     letter-spacing: -0.005em;
     margin: 0px 0px 31rem 3rem;
+    max-width: 360px;
 }
 .slider-sm{
     padding: 10rem 10rem 0rem 8rem;
@@ -122,14 +125,16 @@ hgroup .title{
 }
 .slider-sm figure{
     border: 1px solid rgba(255, 255, 255, 0.8);
-    box-shadow: 0 1px 3px white;
-    
+    box-shadow: 0 1px 3px white;    
 }
 .slider-sm .video figure{
     padding-bottom: 29px;
 }
 
 /*CONTENT*/
+.content{
+    width: 71.5%;
+}
 .content > div{
     padding-bottom: 76rem;
     background: url("/images/border.png")center bottom 8rem no-repeat;
@@ -163,12 +168,14 @@ footer address, footer span, footer span a{
     font-style: normal;
     line-height: 22px;
     letter-spacing: 0.05em;
+    display: inline-block;
 }
 footer address{
     padding: 1rem 0px 22rem 0px;
 }
 footer .title{
     margin-bottom: 10rem;
+    margin-right: 10px;
 }
 footer a:active, footer a:hover, footer a:focus{
     text-decoration: underline;
@@ -218,7 +225,8 @@ footer iframe{
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
     .hidden-md{display: none;}
-    .slider-sm > div > *{width: 32%;}
+    .slider-sm > div > *{width: 32%;}    
+    .slider-caption .title, .slider-caption p{max-width: 100%;}
 }
 @media (max-width: 640px) {
     .sidebar {width: 40%;}
@@ -226,7 +234,7 @@ footer iframe{
     .hidden-sm{display: none;}
     .slider-sm > div > *{width: 49%;}
 }
-@media (max-width: 480px) {
-.slider-sm .video figure {padding-bottom: 42px;}
-footer > .lwrap > div:last-child > div{width: 47%;}
+@media (max-width: 480px) {  
+    .slider-sm .video figure {padding-bottom: 42px;}
+    footer > .lwrap > div:last-child > div{width: 47%;}
 }

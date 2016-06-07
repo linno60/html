@@ -66,6 +66,7 @@ header .lwrap{
 .overlay span, .overlay a{
     color: #111;
     font-size: 45rem;
+    display: inline-block;
 }
 .overlay a:active, .overlay a:hover, .overlay a:focus{
     text-decoration: underline;
@@ -80,6 +81,7 @@ header .lwrap{
     font-size: 22px;
     line-height: 24px;
     margin: 7rem 10rem 0px 0px;
+    max-width: 780px;
 }
 .grid{
     padding: 0px 2rem 53rem 0px;
@@ -155,7 +157,8 @@ footer form label{
     footer > .lwrap {padding: 10px;}
     .form-subscribe .btn-subscribe{position: static;}
 }
-@media (max-width: 480px) {    
+@media (max-width: 480px) { 
+    .form-subscribe input{width:100%;}
     .grid figure{float: left;width: 48%;margin-right: 10px;} 
     .form-subscribe .btn-subscribe{position: absolute;}
 }

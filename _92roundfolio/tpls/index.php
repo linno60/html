@@ -151,15 +151,15 @@
                 <div class="flickr">
                     <h5>flickr</h5>
                     <div data-flex="w">
-                        <figure><img src="/images/flickr1.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr2.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr3.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr4.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr5.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr6.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr7.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr8.png" width="80" height="80" alt=""></figure>
-                        <figure><img src="/images/flickr9.png" width="80" height="80" alt=""></figure>
+                        <a><img src="/images/flickr1.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr2.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr3.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr4.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr5.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr6.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr7.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr8.png" width="80" height="80" alt=""></a>
+                        <a><img src="/images/flickr9.png" width="80" height="80" alt=""></a>
                     </div>
                 </div>
                 <div class="facebook">

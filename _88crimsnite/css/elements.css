@@ -37,6 +37,7 @@ body, a{
 .links-default a{
     color: #e4e4e4;
     line-height: 20px;
+    display: inline-block;
 }
 
 /*BUTTONS*/

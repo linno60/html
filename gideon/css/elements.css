@@ -95,12 +95,17 @@ p{
 .expand:checked + .btn-expand:after{
     content: "+"
 }
-.btn-zoom{
+.btn-plus{
     width: 43px;
     height: 43px;
     border: 1px solid white;
     border-radius: 50%;
     background: url(/images/icons/plusbg.png)no-repeat center center;
+}
+.btn-overlay{
+    width: 37px;
+    height: 37px;
+    border: 2px solid white;
 }
 
 /*FORMS*/

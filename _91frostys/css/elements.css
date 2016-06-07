@@ -1,0 +1,45 @@
+body{
+    font-family: LucidaGrande;
+    font-size: 14px;
+    font-weight: 400;  
+}
+.lbl-about-us{
+}
+.links-social a{
+    margin:0 6rem 0 0;
+}
+.links-social a:last-child{
+    margin:0;
+}
+.links-nav a{
+    padding:0 7px 0 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #292929;
+    padding: 0 7rem 0 11rem;
+    border-bottom: 5px solid transparent;
+    margin: 0 22rem 0 0;
+    height: 40px;
+    text-decoration: none;
+}
+.links-nav a:hover, .links-nav a:focus, .links-nav a.active{
+    color:#fff;
+    border-color:#fff;
+}
+.links-slider a{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, #dadada 100%, #f1f1f1 30%, #fefefe 30%);
+    margin: 0 4px 0 0;
+    box-shadow: 1px 3px 7px #ededed inset;
+    background: #fff;
+}
+.links-slider a:hover, .links-slider a:focus, .links-slider a.active{
+    background: #696969 none repeat scroll 0 0;  
+}
+.btn-slider{
+    width:36px;
+    height:35px;
+    border-radius: 50%;
+}

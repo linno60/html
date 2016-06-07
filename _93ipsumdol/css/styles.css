@@ -26,6 +26,7 @@ header{
     color: #979797;
     line-height: 18px;
     letter-spacing: -0.053em;
+    display: inline-block;
 }
 .contact span {
     color: #3e3e3e;
@@ -101,6 +102,7 @@ header{
     color: #494949;
     margin-bottom: 26rem;
     letter-spacing: -0.059em;
+    max-width: 560px;
 }
 .about p a {
     text-decoration: underline;

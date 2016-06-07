@@ -13,6 +13,7 @@ body{
     color: silver;
     font-size: 13px;
     line-height: 24px;
+    display: inline-block;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #b72706;
@@ -69,8 +70,9 @@ input[type="email"]:-ms-input-placeholder{color: #50504f;}
 /*OTHER*/
 .title{
     max-width: 360px;
+    text-align: center;
     background: black;
-    padding: 18px 5px 13px 5px;
+    padding: 18rem 5px 13rem 5px;
     border-radius: 4px;
     color: #fff600;
     font-size: 15px;

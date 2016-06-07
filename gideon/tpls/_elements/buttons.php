@@ -8,4 +8,5 @@
 <a href="#" class="btn btn-slide next"></a>
 <input type="checkbox" id="c1" class="expand">
 <label for="c1" class="btn btn-expand"></label>
-<a href="#" class="btn btn-zoom"></a>
+<a href="#" class="btn btn-plus"></a>
+<a href="#" class="btn btn-overlay"><i class="icon-heart"></i></a>

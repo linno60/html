@@ -118,6 +118,7 @@ header:before{
     padding: 0px 10px 44rem 0px;
 }
 .grid{
+    width: 69.9%;
     padding: 6px 0px 0px 0px;
 }
 .grid article h4{
@@ -219,6 +220,10 @@ footer address, footer address a{
     color: #e6e6e6;
     font-style: normal;
     line-height: 20px;
+    display: inline-block;
+}
+footer span{
+    display: inline-block;
 }
 footer{
     border-top: 1px solid #fff;

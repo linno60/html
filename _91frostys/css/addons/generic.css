@@ -1,0 +1,24 @@
+
+/* FONTS */
+@font-face {
+    font-family: 'LucidaGrande';
+    src: url('/fonts/fontsquirel.com/24003_lucidagrande_1.woff2') format('woff2'), url('/fonts/fontsquirel.com/24003_lucidagrande_1.woff') format('woff');
+    font-weight:400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LucidaGrande';
+    src: url('/fonts/fontsquirel.com/911fonts.com_lucidagrandebold__-_911fonts.com-fonts-3l6h.woff2') format('woff2'), url('/fonts/fontsquirel.com/911fonts.com_lucidagrandebold__-_911fonts.com-fonts-3l6h.woff') format('woff');
+    font-weight:700;
+    font-style: normal;
+}
+/* ICONS */
+.icon-arrow {width: 7px; height: 6px; background: url('/images/icons/icon-arrow.png');}
+.icon-chat {width: 38px; height: 37px; background: url('/images/icons/icon-chat.png');}
+.icon-design {width: 37px; height: 36px; background: url('/images/icons/icon-design.png');}
+.icon-fb {width: 28px; height: 28px; background: url('/images/icons/icon-fb.png');}
+.icon-linkedin {width: 28px; height: 28px; background: url('/images/icons/icon-linkedin.png');}
+.icon-locate {width: 37px; height: 36px; background: url('/images/icons/icon-locate.png');}
+.icon-next {width: 36px; height: 35px; background: url('/images/icons/icon-next.png');}
+.icon-prev {width: 36px; height: 35px; background: url('/images/icons/icon-prev.png');}
+.icon-twitter {width: 28px; height: 28px; background: url('/images/icons/icon-twitter.png');}

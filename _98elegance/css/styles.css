@@ -44,6 +44,7 @@ header .lwrap{
     color: #050506;
     font-size: 15px;
     line-height: 17px;
+    display: inline-block;
 }
 .slider-wrap figcaption small{
     color: #50504f;
@@ -130,6 +131,7 @@ header .lwrap{
     line-height: 24px;
     font-weight: 600;
     letter-spacing: 0.015em;
+    display: inline-block;
 }
 .post a:active, .post a:hover, .post a:focus{
     text-decoration: underline;

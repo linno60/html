@@ -81,6 +81,7 @@ header .lwrap{
     font-size: 14rem;
     line-height: 20rem;
     color: rgba(255,255,255,.75);
+    max-width: 200px;
 }
 .slider figcaption p span{
     color: rgba(255,120,0,.75);
@@ -226,6 +227,7 @@ header .lwrap{
 }
 .about form button{
     margin-left: 2px;
+    border-radius: 4px;
 }
 
 /*FOOTER*/
@@ -262,7 +264,7 @@ footer .lwrap > div{
 .flickr > div{
     padding-right: 14rem;
 }
-.flickr > div figure{
+.flickr > div a{
     width: 33.05%;
     min-width: 53px;
 }

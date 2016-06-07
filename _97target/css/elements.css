@@ -67,7 +67,7 @@ body{
 
 /*CITES*/
 blockquote{
-    margin-bottom: 27rem;
+    margin-bottom: 26rem;
     color: #8c8c8c;
 }
 blockquote q{
@@ -80,9 +80,11 @@ blockquote q{
     background: white;
     position: relative;
     text-align: center;
+    display: inline-block;
 }
 blockquote cite{    
     font-style: normal;
+    display: inline-block;
     padding: 13rem 10px 10px 45px;
 }
 blockquote cite em{
@@ -107,19 +109,13 @@ blockquote q:before{
 }
 
 /*LISTS*/
-.list-default li:before{
-    content: "";
-    background: url(/images/icons/marker.png);
-    width: 12px;
-    height: 12px;
-    margin: 11px 8rem 0px 0px;
-    flex-shrink: 0;
-}
 .list-default li{
     color: #dd8c5c;
     line-height: 33px;
     border-bottom: 1px solid #f3f3f3;
     letter-spacing: -0.01em;
+    text-indent: 20px;
+    background: url(/images/icons/marker.png)no-repeat left 11px;
 }
 .list-default li:last-child{
     border-bottom: none;

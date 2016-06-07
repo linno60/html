@@ -39,6 +39,7 @@ p{
 }
 #logo{
     margin-right: 25rem;
+    display: inline-block;
 }
 .header{
     padding: 22rem 20rem 25rem 20rem;
@@ -248,7 +249,7 @@ p{
 .copyright{
     background: #222;
     border-top: 1px solid #3f3f3f;
-    padding: 11rem 18rem 14rem 18rem;
+    padding: 10rem 18rem 12rem 18rem;
 }
 .copyright span{
     color: #8c8c8c;

@@ -1,1 +1,0 @@
-<button><span class="btn btn-post">Post comment</span></button>

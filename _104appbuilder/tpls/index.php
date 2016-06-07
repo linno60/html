@@ -26,7 +26,7 @@
                     <a href="#" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="176" height="29" alt="Appbuilder">
                     </a>
-                    <span class="lbl lbl-default">we're hiring</span>
+                    <span class="lbl lbl-default">we're<br> hiring</span>
                 </div>
                 <hr>
                 <nav class="links-nav" data-flex="-center w">

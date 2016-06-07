@@ -20,6 +20,7 @@ body{
     text-transform: uppercase;
     letter-spacing: -0.05em;
     margin: 0px 11px;
+    text-align: center;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background: linear-gradient(0deg, #e0e0e0, #f6f6f6 90%, white 92%, white);
@@ -106,6 +107,8 @@ blockquote q{
     font-style: italic;
     line-height: 18px;
     padding: 9rem 20rem 10rem 32rem;
+    max-width: 570px;
+    display: inline-block;
 }
 blockquote figure{
     flex-shrink: 0;

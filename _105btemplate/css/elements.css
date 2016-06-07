@@ -10,6 +10,7 @@ body{
     background: rgba(255,255,255,.1);
     margin-bottom: 1px;
     padding: 0px 10rem;
+    display: inline-block;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #ede9dc;
@@ -50,6 +51,7 @@ body{
 }
 .links-categories em{
     text-align: right;
+    display: inline-block;
 }
 .links-subscribe li {
     padding: 0px 10rem 0px 32px;

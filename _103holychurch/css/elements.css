@@ -21,6 +21,7 @@ body{
     box-shadow: 0 0 2px rgba(0,0,0,.41);
     margin: 4.5px;
     border-radius: 50%;
+    display: inline-block;
 }
 .links-controls a.active, .links-controls a:active, .links-controls a:hover, .links-controls a:focus{
     background: #fafafa;
@@ -47,6 +48,7 @@ body{
     font-family: TrajanPro;
     font-size: 17px;
     letter-spacing: -0.045em;
+    display: inline-block;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #575a2e;
@@ -60,6 +62,7 @@ body{
 }
 .links-header a{
     margin: 2px 8px;
+    display: inline-block;
 }
 .links-footer{
     padding-left: 2px;
@@ -67,6 +70,7 @@ body{
 .links-footer a{
     color: #828464;
     line-height: 29px;
+    display: inline-block;
 }
 .links-footer i {
     margin: 0px 11rem 0px -1rem;
