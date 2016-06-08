@@ -60,7 +60,7 @@ header .lwrap{
     border-image-source: url("/images/shadow.png");
 }
 .content{
-    width: 100%;
+    width: calc(74.85% - 55rem);
 }
 .post > div{
     width: 100%;
@@ -184,7 +184,7 @@ footer p{
     #logo{margin: 0px 5px 0px 0px;}
     .links-nav{overflow: hidden;margin: 0px;}
     .links-nav a:first-child, .links-nav a:last-child{border-radius: 0px;}
-    .links-nav a{padding: 0px 5px;width: 50%;border:none;box-shadow: none;}
+    .links-nav a{padding: 0px 5px;width: 50%;border:none;box-shadow: none;font-size: 15px;}
     header .lwrap {padding: 25rem 12rem 250rem 12rem;}
     .wrap .lwrap {margin: -225rem auto -57rem auto;padding: 5px;}
 }

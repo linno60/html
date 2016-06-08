@@ -44,6 +44,7 @@ body{
     font-size: 21px;
     text-transform: uppercase;
     line-height: 24px;
+    display: inline-block;
 }
 .btn-default small{
     color: #19293e;
@@ -77,6 +78,7 @@ blockquote{
     margin: 0px 5rem 28rem 4rem;
 }
 blockquote q{
+    display: inline-block;
     width: 100%;
     font-style: italic;
     text-align: center;

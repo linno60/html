@@ -22,7 +22,6 @@
 </form>
 <input name="checkout" type="text" placeholder="Company Name">
 <textarea name="checkout" placeholder="Note about your order, Eg, Special nots for your delivery"></textarea>
-
 <form action="#" method="post" data-flex class="search-sidebar">
     <input type="search" name="search" placeholder="Search">
     <button class="btn btn-search"></button>

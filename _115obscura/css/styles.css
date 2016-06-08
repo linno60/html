@@ -98,6 +98,8 @@ header > .lwrap{
     font-size: 18px;
     margin-bottom: 5px;
     line-height: 25px;
+    width: 100%;
+    display: inline-block;
 }
 .grid article blockquote cite{
     font-style: normal;
@@ -160,7 +162,7 @@ footer{
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.07);
 }
 footer > .lwrap{
-    padding: 58rem 9px 29rem 10px;
+    padding: 58rem 9px 23rem 10px;
 }
 footer h5{
     font-size: 14px;
@@ -185,6 +187,9 @@ footer article p{
 }
 footer article:last-child{
     background: none;
+}
+footer time{
+    line-height: 26px;
 }
 
 /*MEDIA QUERIES*/

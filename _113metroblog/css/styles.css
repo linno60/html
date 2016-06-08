@@ -14,7 +14,7 @@ p, span, time{
     line-height: 20px;
 }
 .content{
-    width: 100%;
+    width: calc(68.9% - 23rem);
 }
 
 /*HEADER*/
@@ -37,11 +37,12 @@ header > .lwrap{
     color: #5d5d5d;
     line-height: 59rem;
     font-size: 61rem;
-    margin-bottom: 5px;
+    margin-bottom: 5px;  
     font-weight: 300;
 }
 .banner h1 small{
     font-size: 47rem;
+    display: inline-block;
 }
 .banner figure{
     margin-right: -156rem;
@@ -159,6 +160,7 @@ header > .lwrap{
     margin-bottom: 11rem;
 }
 .join h4{
+    max-width: 300px;
     font-family: OptimaLT;
     font-size: 23px;
     font-weight: 500;

@@ -34,6 +34,7 @@ body{
     background-size: cover;   
 }
 .links-nav a{
+    text-align: center;
     flex-grow: 1;
     min-height: 36px;
     background: linear-gradient(transparent, rgba(255,255,255,.1)50%, transparent 51%, transparent);
@@ -41,7 +42,8 @@ body{
     border-left: 1px solid rgba(0,0,0,.2);
     color: #ece8d7;
     font-family: Trebuchet MS;
-    font-size: 18px;
+    font-size: 18rem;
+    line-height: 15px;
     font-weight: 700;
     font-style: italic;
     height: 56rem;    
@@ -66,6 +68,7 @@ body{
     font-weight: 700;
     color: rgba(255,255,255,.5);
     letter-spacing: -0.012em;
+    display: inline-block;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
@@ -184,9 +187,9 @@ body{
     background: url("/images/horizontal.png")repeat-x center bottom;
 }
 ._elements hr.border, .border{
-    height: 17rem;
+    height: 15rem;
     background: linear-gradient(90deg, transparent 0%, white 25px, white calc(100% - 25px), transparent 100%);
-    margin: 41rem -25rem 43rem -25rem;
+    margin: 42rem -25rem 44rem -25rem;
     border-width: 1px;
     border-style: solid;
     border-image-slice: 1 0 1 0;

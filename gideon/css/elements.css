@@ -15,6 +15,7 @@ p{
     height: 43px;
     border-radius: 50%;
     background: #ff6766 url(/images/icons/anchor.png)no-repeat center center;
+    margin-left: 5px;
 }
 .btn-default, .btn-alt{
     min-width: 140px;
@@ -113,6 +114,9 @@ input, textarea{
     outline: none;
     color: #333;
 }
+label{
+    font-size: 14px;
+}
 input[name=checkout], textarea[name=checkout]{
     width: 100%;
     max-width: 640px;    
@@ -129,20 +133,9 @@ textarea[name=checkout]{
     height: 130px;
     padding: 20px 20px;
 }
-label{
-    font-size: 14px;
-}
 input[name=post], textarea[name=post], input[name=contact], textarea[name=contact]{
     width: 100%;  
     margin-bottom: 20px;    
-}
-input[name=post]{
-    height: 49px;
-    padding: 0px 10px; 
-}
-input[name=contact]{
-    height: 52px;
-    padding: 0px 20px; 
 }
 input[name=contact], textarea[name=contact]{
     border: 1px solid rgba(49, 49, 49, 0.5);
@@ -153,6 +146,14 @@ input[name=post], textarea[name=post]{
     max-width: 670px;
     border: 1px solid #eaeae8;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
+}
+input[name=post]{
+    height: 49px;
+    padding: 0px 10px; 
+}
+input[name=contact]{
+    height: 52px;
+    padding: 0px 20px; 
 }
 textarea[name=post]{
     height: 179px;
@@ -166,17 +167,62 @@ textarea[name=contact]{
     background: none;
     border: none;
     color: white;
-    padding: 0px 10px;
+    margin: 0px 10px;
     height: 30px;
+    transition: box-shadow ease .3s;
 }
 .search-header input[type=search]:focus{
     box-shadow: 0px 1px 0px 0px #ff6766;
 }
-
+.search-sidebar{
+    max-width: 330px;
+}
+.search-sidebar input[type=search]{
+    height: 49px;
+    flex-grow: 1;
+    border: none;
+    padding: 0px 10px;
+}
+input[type=password]{
+    width: 100%;
+    max-width: 179px;
+    height: 42px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 0px 30px;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.spinner{
+    width: 100px;
+    height: 50px;
+    background: #f8f8f8;
+}
+.spinner > input[type=number]{
+    background: none;
+    border: none;
+    text-align: center;
+}
+.spinner > *{
+    width: calc(100% / 3);
+}
+.counter{
+    width: 50px;
+    height: 42px;
+    background: #212121;
+    text-align: center;
+    color: white;
+    border: none;
+}
 input[name=post]::-webkit-input-placeholder, textarea::-webkit-input-placeholder  { color: #cacaca; }
 input[name=post]::-moz-placeholder, textarea::-moz-placeholder { color: #cacaca; }
 input[name=post]:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #cacaca; }
-
 input[type=search]::-webkit-input-placeholder { font-style: italic; }
 input[type=search]::-moz-placeholder { font-style: italic; }
 input[type=search]:-ms-input-placeholder { font-style: italic; }
@@ -198,31 +244,15 @@ textarea[name=checkout]:-ms-input-placeholder,
 input[name=contact]:-ms-input-placeholder,
 textarea[name=contact]:-ms-input-placeholder,
 .search-sidebar input[type=search]:-ms-input-placeholder { color: #858585; }
-
 .search-header input[type=search]::-webkit-input-placeholder { color: #999; }
 .search-header input[type=search]::-moz-placeholder { color: #999; }
 .search-header input[type=search]:-ms-input-placeholder { color: #999; }
 input[type=password]::-webkit-input-placeholder { color: #bbb; }
 input[type=password]::-moz-placeholder { color: #bbb; }
 input[type=password]:-ms-input-placeholder { color: #bbb; }
-
-.search-sidebar{
-    max-width: 330px;
-}
-.search-sidebar input[type=search]{
-    height: 49px;
-    flex-grow: 1;
-    border: none;
-    padding: 0px 10px;
-}
-input[type=password]{
-    width: 100%;
-    max-width: 179px;
-    height: 42px;
-    background: white;
-    border: 1px solid #ddd;
-    padding: 0px 30px;
-}
+.counter::-webkit-input-placeholder { color: white; }
+.counter::-moz-placeholder { color: white; }
+.counter:-ms-input-placeholder { color: white; }
 select::-ms-expand{display: none;}
 select {
     -webkit-appearance: none;
@@ -243,38 +273,6 @@ select {
     height: 50px;
     padding: 0px 20px;
     background: #f8f8f8 url('/images/icons/arrowdown.png') right 15px center no-repeat;
-}
-.counter{
-    width: 50px;
-    height: 42px;
-    background: #212121;
-    text-align: center;
-    color: white;
-    border: none;
-}
-input[type=number]::-webkit-outer-spin-button,
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-input[type=number] {
-    -moz-appearance: textfield;
-}
-.counter::-webkit-input-placeholder { color: white; }
-.counter::-moz-placeholder { color: white; }
-.counter:-ms-input-placeholder { color: white; }
-.spinner{
-    width: 100px;
-    height: 50px;
-    background: #f8f8f8;
-}
-.spinner > input[type=number]{
-    background: none;
-    border: none;
-    text-align: center;
-}
-.spinner > *{
-    width: calc(100% / 3);
 }
 
 /*LINKS*/
@@ -742,7 +740,7 @@ input[type=number] {
     color: #ff6766;
     font-size: 12px;
 }
-.read-alt:active, .read-alt:hover, .read-alt:focus, .read-alt:active, .read-alt:hover, .read-alt:focus{
+.read:active, .read:hover, .read:focus, .read-alt:active, .read-alt:hover, .read-alt:focus{
     text-decoration: none;
 }
 .title-shopcart {

@@ -22,7 +22,7 @@ header{
     box-shadow: 0px 0px 0px 10px rgba(108,108,97,.07);
 }
 .blog{
-    width: 100%;
+    width: 71.88%;
     padding: 32rem 30rem 40rem 30rem;
     line-height: 20px;
     color: #7f7f78;
@@ -30,6 +30,7 @@ header{
 .blog span{
     padding-right: 10px;
     font-style: italic;
+    display: inline-block;
 }
 .preview{
     color: #6e797d;
@@ -63,6 +64,7 @@ header{
     font-weight: normal;
     margin-bottom: 25rem;
     letter-spacing: -0.003em;
+    width: 100%;
 }
 .blog article time{
     flex-shrink: 0;
@@ -70,14 +72,19 @@ header{
     font-style: italic;
     line-height: 30px;
 }
+.blog article > div{
+    max-width: 510px;
+}
 .blog article p{
     margin-bottom: 21rem;
-    letter-spacing: 0.0075em;
+    letter-spacing: 0.0075em;  
+    max-width: 510px;
 }
 .blog article a{
     color: #a76143;
     white-space: nowrap;
     font-style: italic;
+    display: inline-block;
 }
 .blog article i{
     margin: 2px 8px -2px 0px;
@@ -142,6 +149,7 @@ header{
     width: 28.4%;
     margin: 0px 1.5px 15rem 0px;
     min-width: 50px;
+    display: inline-block;
 }
 .sponsors figure{    
     margin: 5rem 0px 18rem 0px;

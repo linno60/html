@@ -1,0 +1,75 @@
+body{
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 400;
+}
+.btn-older{
+    width: 111px;
+    height: 31px;
+    background-color: #1d1d1d;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22); 
+    color: #dedede;
+    font-weight: 700;
+    line-height: 19px;
+    font-family: Open Sans Condensed;
+}
+.btn-slider{
+    width: 21px;
+    height: 21px;
+    background:rgba(24, 24, 24, 0.77); 
+}
+.links-header a{
+    color: #dedede;
+    font-family: Open Sans Condensed;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;  
+    margin:0 35rem 0 0;
+}
+.links-header a:last-child{
+    margin:0;
+}
+.links-social a{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.02) 0%, rgba(118, 118, 118, 0.02) 50%, rgba(159, 159, 159, 0.02) 51%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+    border-radius: 50%;
+    margin:0 7rem 0 0;
+}
+.list-categories a{
+    color: #b9b9b9;
+    line-height: 26px;
+}
+.list-categories a:hover{
+    text-decoration: underline;
+}
+.cite-main{
+    padding: 0 0 36px 0;
+}
+.cite-main p{
+    color: #b9b9b9;
+    font-size: 18px;
+    font-style: italic;  
+    padding: 19px 8px 4px 21px;
+    line-height: 25px;
+}
+.cite-main cite{
+    color: #797979;
+    font-style:normal;
+    margin: 0 0 0 23px;
+}
+.cite-main cite span{
+    font-size:15px;
+}
+.friends-cite{
+    color: #b9b9b9; 
+    font-weight:400;
+}
+.friends-cite cite{
+    font-style:normal;
+    font-weight: 700;
+    margin: 0 7px 0 0;
+}

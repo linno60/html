@@ -87,11 +87,13 @@ header{
 }
 .portfolio{
     padding: 13rem 10rem 0px 14rem;
+    max-width: 646px;
 }
 .portfolio > a > img{
     border: 1px solid white;
 }
 .portfolio > a{
+    display: inline-block;
     margin-bottom: 17rem;
     width: 31.9%;
     background: rgba(120,120,120,.5);

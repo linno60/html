@@ -108,7 +108,7 @@
     transition: box-shadow .4s ease, background .4s ease; 
 }
 .csslider33 > .arrowprev > .num3,
-.csslider33 > .arrownext > label.num1 {
+.csslider33 > .arrownext > .num1 {
     opacity: 1;
     z-index: 5;
 }

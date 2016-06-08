@@ -123,6 +123,9 @@ header{
     flex-shrink: 0;
     margin: 5px 12rem 0px 0px;
 }
+.tweet > div{
+    width: calc(100% - 24px - 12rem);
+}
 .blog h4{
     font-size: 18px;
     font-weight: 700;

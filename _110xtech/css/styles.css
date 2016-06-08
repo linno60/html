@@ -10,13 +10,13 @@ figure > img, a > img, figure > iframe{
     background: url("/images/bg.png")no-repeat center top, url("/images/bg2.png");
 }
 .lwrap{
-    border-radius: 3rem;
+    border-radius: 4rem;
     overflow: hidden;
     max-width: 1002px;
     background: #f7f7f7;   
 }
 .lwrap > div{
-    padding: 32rem 27rem 76rem 27rem;
+    padding: 32rem 27rem 75rem 27rem;
 }
 .prompt, .testimonials h2{
     color: #5790dc;
@@ -49,6 +49,7 @@ header > span{
     font-weight: 200;
     text-align: right;
     padding: 0px 2rem 28rem 20px;
+    display: inline-block;
 }
 header > span > strong{
     text-transform: uppercase;
@@ -96,6 +97,9 @@ header > span > strong{
 .features article > i{
     margin: 3rem 11rem 0px 0px;
     flex-shrink: 0;
+}
+.features article > div{
+    width: calc(100% - 72px - 11rem);
 }
 .features article h4{
     color: black;
@@ -152,7 +156,7 @@ footer p{
     margin: 0px 10rem 10rem 0px;
 }
 .footer{
-    padding: 27rem 24rem 4rem 32rem;   
+    padding: 28rem 24rem 4rem 32rem;   
 }
 footer a:active, footer a:hover, footer a:focus{
     text-decoration: underline;

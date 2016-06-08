@@ -37,6 +37,7 @@ header{
     line-height: 18px;
     letter-spacing: -0.055em;
     margin-bottom: 4rem;
+    display: inline-block;
 }
 .order small{
     color: rgba(255,255,255,.5);
@@ -67,7 +68,7 @@ header > div:first-child{
     background: white;
 }
 .content{
-    width: 100%;
+    width: calc(76.6% - 20rem);
 }
 .filter{
     margin-bottom: 19rem;
@@ -101,6 +102,7 @@ header > div:first-child{
     font-weight: 700;
     line-height: 24px;  
     margin: 0px 0px 14rem 2rem;
+    width: 100%;
 }
 .product-grid h6 a{
     color: #3d3d3d;  
@@ -144,7 +146,7 @@ header > div:first-child{
     letter-spacing: -0.055em;
 }
 .legen:active, .legen:hover, .legen:focus{
-    border-bottom: none;
+    border-bottom: 1px solid transparent;
 }
 .cart-content figure{
     margin-right: 8px;
