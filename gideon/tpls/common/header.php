@@ -5,7 +5,7 @@
                 <input type="image" src="/images/icons/searchgrey.png">
                 <input type="search" name="search" placeholder="Search">
             </form>
-            <a href="#" class="btn btn-cart"></a>
+            <a href="#" class="btn btn-cart"><span class="lbl lbl-counter">3</span></a>
         </div>
     </div>
     <div class="logo-wrap" data-flex="center -center">

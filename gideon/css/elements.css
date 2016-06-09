@@ -307,13 +307,20 @@ select {
 .links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"]{
     width: 34px;
     height: 34px;
+    transition: background ease .3s;
+}
+.links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"], .links-follow a:hover > i[class^="icon-"], .links-share a:hover > i[class^="icon-"]{
     background-position: center center;
     background-repeat: no-repeat;
-    transition: background ease .3s;
 }
 .links-follow a:active, .links-follow a:hover, .links-follow a:focus, .links-share a:active, .links-share a:hover, .links-share a:focus{
     border-color: #ff6766;
 }
+.links-follow a:hover > .icon-follow-fb {background: url('/images/icons/follow-fb-hover.png');}
+.links-follow a:hover > .icon-follow-gp {background: url('/images/icons/follow-gp-hover.png');}
+.links-follow a:hover > .icon-follow-inst {background: url('/images/icons/follow-inst-hover.png');}
+.links-follow a:hover > .icon-follow-pin {background: url('/images/icons/follow-pin-hover.png');}
+.links-follow a:hover > .icon-follow-tw {background: url('/images/icons/follow-tw-hover.png');}
 .links-social{
     padding-bottom: 50px;
 }

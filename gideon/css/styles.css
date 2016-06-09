@@ -29,6 +29,15 @@ header, footer{
 .top-wrap > .lwrap, .copyright > .lwrap{
     height: 53px;
 }
+.top-wrap .btn-cart{
+    position: relative;
+}
+.top-wrap .btn-cart .lbl-counter{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .logo-wrap{
     height: 204px;
 }
@@ -37,6 +46,22 @@ header, footer{
 }
 
 /*SLIDER-HEADER*/
+.slider-header {
+    position: relative;
+    overflow: hidden;
+}
+.slider-header > input[type=radio] {
+    display: none;
+}
+.slider-header > div > figure:not(:first-child) {
+    width: 25%;
+    height: 100%;
+    top: 0px;
+    transition: transform 2000ms;
+    position: absolute;    
+}
+
+/*slider figcaption*/
 .slider-header figure > figcaption{
     position: absolute;
     width: 100%;
@@ -87,61 +112,40 @@ header, footer{
 .slider-header figure > figcaption > time{
     font-style: italic;
 }
-.slider-header {
-    position: relative;
-    overflow: hidden;
-}
-.slider-header > input[type=radio] {
-    display: none;
-}
-.slider-header > div > figure:not(:first-child) {
-    width: 25%;
-    height: 100%;
-    top: 0px;
-    transition: transform 2000ms;
-    position: absolute;    
-}
-.slider-header > div > figure.num0 {
+
+/*slider slideshow*/
+.slider-header > div > figure.num1 {
     left: 0%;
 }
-.slider-header > div > figure.num1 {
+.slider-header > div > figure.num2 {
     left: 25%;
 }
-.slider-header > div > figure.num2 {
+.slider-header > div > figure.num3 {
     left: 50%;
 }
-.slider-header > div > figure.num3 {
+.slider-header > div > figure.num4 {
     left: 75%;
 }
-.slider-header > div > figure.num4 {
+.slider-header > div > figure.num5 {
     left: 100%;
 }
-.slider-header > div > figure.num5 {
+.slider-header > div > figure.num6 {
     left: 125%;
 }
-.slider-header > div > figure.num6 {
+.slider-header > div > figure.num7 {
     left: 150%;
 }
-.slider-header > #slide1-0:checked ~ div > figure {
+.slider-header > #slide1-1:checked ~ div > figure {
     transform: translateX(0%);	
 }
-.slider-header > #slide1-1:checked ~ div > figure {
-    transform: translateX(-25%);	
-}
 .slider-header > #slide1-2:checked ~ div > figure {
-    transform: translateX(-50%);	
-}
-.slider-header > #slide1-3:checked ~ div > figure {
-    transform: translateX(-750%);	
-}
-.slider-header > #slide1-4:checked ~ div > figure {
     transform: translateX(-100%);	
 }
-.slider-header > #slide1-5:checked ~ div > figure {
-    transform: translateX(-125%);	
+.slider-header > #slide1-3:checked ~ div > figure {
+    transform: translateX(-200%);	
 }
-.slider-header > #slide1-6:checked ~ div > figure {
-    transform: translateX(-150%);	
+.slider-header > #slide1-4:checked ~ div > figure {
+    transform: translateX(-300%);	
 }
 @keyframes slider1 {
     0%, 12.5% { transform: translateX(0%); }
@@ -152,6 +156,8 @@ header, footer{
 .slider-header  > #play1:checked ~ div > figure {
     animation: slider1 16000ms infinite;	
 } 
+
+/*slider arrows template*/
 .arrowprev, .arrownext{
     position: absolute;
     z-index: 5;
@@ -162,11 +168,15 @@ header, footer{
 .arrownext > label, .arrowprev > label{
     width: 100%;
     height: 100%;
-    background: red;
+    width: 64px;
+    height: 64px;
+    border: 2px solid white;
     position: absolute;     
     z-index: 10;
     opacity: 0;
     z-index: -1;
+    color: white;
+    font-size: 30px;
 }
 .arrowprev{
     left: 20px;
@@ -176,23 +186,22 @@ header, footer{
 }
 .arrowprev > label{
     left: 0px;
+    background: url(/images/icons/prev.png)no-repeat center center;
 }
 .arrownext > label{
     right: 0px;
+    background: url(/images/icons/next.png)no-repeat center center;
 }
-.csslider33 > .arrowprev > .num3,
-.csslider33 > .arrownext > .num1 {
-    opacity: 1;
-    z-index: 5;
-}
-.slider-header > #slide33-0:checked ~ .arrowprev > .num3,
-.slider-header > #slide33-0:checked ~ .arrownext > .num1, 
-.slider-header > #slide33-1:checked ~ .arrowprev > .num0,
-.slider-header > #slide33-1:checked ~ .arrownext > .num2, 
-.slider-header > #slide33-2:checked ~ .arrowprev > .num1,
-.slider-header > #slide33-2:checked ~ .arrownext > .num3, 
-.slider-header > #slide33-3:checked ~ .arrowprev > .num2,
-.slider-header > #slide33-3:checked ~ .arrownext > .num0 {
+
+/*slider arrows change*/
+.slider-header > #slide1-1:checked ~ .arrowprev > .num4,
+.slider-header > #slide1-1:checked ~ .arrownext > .num2, 
+.slider-header > #slide1-2:checked ~ .arrowprev > .num1,
+.slider-header > #slide1-2:checked ~ .arrownext > .num3, 
+.slider-header > #slide1-3:checked ~ .arrowprev > .num2,
+.slider-header > #slide1-3:checked ~ .arrownext > .num4, 
+.slider-header > #slide1-4:checked ~ .arrowprev > .num3,
+.slider-header > #slide1-4:checked ~ .arrownext > .num1 {
     opacity: 1;
     z-index: 5;
 }
@@ -200,20 +209,20 @@ header, footer{
     0%, 24.99% { opacity: 1; z-index: 5; }
     25%, 100% { opacity: 0; z-index: -1; }
 }
-.slider-header > #play1:checked ~ .arrowprev > .num3,
-.slider-header > #play1:checked ~ .arrownext > .num1 {
-    animation: arrows1 16000ms infinite -2000ms;	
-}
-.slider-header > #play1:checked ~ .arrowprev > .num0,
+.slider-header > #play1:checked ~ .arrowprev > .num4,
 .slider-header > #play1:checked ~ .arrownext > .num2 {
-    animation: arrows1 16000ms infinite 2000ms;	
+    animation: arrows1 16000ms infinite -2000ms;	
 }
 .slider-header > #play1:checked ~ .arrowprev > .num1,
 .slider-header > #play1:checked ~ .arrownext > .num3 {
-    animation: arrows1 16000ms infinite 6000ms;	
+    animation: arrows1 16000ms infinite 2000ms;	
 }
 .slider-header > #play1:checked ~ .arrowprev > .num2,
-.slider-header > #play1:checked ~ .arrownext > .num0 {
+.slider-header > #play1:checked ~ .arrownext > .num4 {
+    animation: arrows1 16000ms infinite 6000ms;	
+}
+.slider-header > #play1:checked ~ .arrowprev > .num3,
+.slider-header > #play1:checked ~ .arrownext > .num1 {
     animation: arrows1 16000ms infinite 10000ms;	
 }
 
@@ -226,7 +235,7 @@ header, footer{
     padding: 20px;
 }
 .content{
-    width: 80%;
+    width: 78.5%;
     padding-right: 20px;
 }
 .content > div:not(.pagination){
@@ -277,7 +286,7 @@ header, footer{
 /*SIDEBAR*/
 .sidebar{
     flex-shrink: 0;
-    width: 19.5%;
+    width: 21.5%;
 }
 .sidebar > *{
     margin-bottom: 20px;
@@ -360,14 +369,14 @@ header, footer{
     margin-bottom: 40px;
 }
 .footer > div > article{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .footer > div > article > a{
     float: left;
     margin-right: 10px;
 }
 .footer > div > article > p{
-    figurene-height: 16px;
+    line-height: 16px;
     font-size: 13px;
     margin-bottom: 3px;
 }

@@ -4,11 +4,11 @@
     </div>
     <div class="slider-footer">
         <div data-flex="stripe">
-            <figure><img src="/images/img4.png" width="381" height="341" alt=""></figure>
-            <figure><img src="/images/img4.png" width="381" height="341" alt=""></figure>
-            <figure><img src="/images/img4.png" width="381" height="341" alt=""></figure>
-            <figure><img src="/images/img4.png" width="381" height="341" alt=""></figure>
-            <figure><img src="/images/img4.png" width="381" height="341" alt=""></figure>
+            <figure><img src="/images/imagsf1.jpg" width="381" height="341" alt=""></figure>
+            <figure><img src="/images/imagsf2.jpg" width="381" height="341" alt=""></figure>
+            <figure><img src="/images/imagsf3.jpg" width="381" height="341" alt=""></figure>
+            <figure><img src="/images/imagsf4.jpg" width="381" height="341" alt=""></figure>
+            <figure><img src="/images/imagsf5.jpg" width="381" height="341" alt=""></figure>
         </div>
     </div>
     <div class="media-wrap">
@@ -36,19 +36,19 @@
         <div>
             <h5>recent post</h5>
             <article>
-                <a href="#"><img src="/images/img6.png" width="76" height="70" alt=""></a>
+                <a href="#"><img src="/images/img6.jpg" width="76" height="70" alt=""></a>
                 <h6>Nullam sit amet metus eget</h6>
                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa</p>
                 <time>19 Aug 2016</time>
             </article>
             <article>
-                <a href="#"><img src="/images/img6.png" width="76" height="70" alt=""></a>
+                <a href="#"><img src="/images/img6.jpg" width="76" height="70" alt=""></a>
                 <h6>Here are some of the fantastic</h6>
                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa</p>
                 <time>28 Aug 2016</time>
             </article>
             <article>
-                <a href="#"><img src="/images/img6.png" width="76" height="70" alt=""></a>
+                <a href="#"><img src="/images/img6.jpg" width="76" height="70" alt=""></a>
                 <h6>Get out there and buy it</h6>
                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa</p>
                 <time>12 Aug 2016</time>
@@ -57,14 +57,14 @@
         <div>
             <h5>photo stream</h5>
             <div class="stream" data-flex="stripe w">
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a href="#">
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
-                <a href="#"><img src="/images/img10.png" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a href="#">
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
+                <a href="#"><img src="/images/img10.jpg" width="85" height="85" alt=""></a>
             </div>
         </div>
     </div>
