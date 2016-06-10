@@ -36,7 +36,7 @@
         <div class="lwrap">
             <div class="banner" data-flex="axis">
                 <div>
-                    <h1>Apple iPad <small>Reviews</small></h1>
+                    <h1 data-flex="col"><big>Apple iPad</big> <small>Reviews</small></h1>
                     <a href="#" class="btn btn-default"><i class="icon-camera"></i>Video review</a>
                 </div>
                 <figure><img src="/images/banner.png" width="817" height="384" alt=""></figure>
@@ -50,7 +50,7 @@
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus&shy;try's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scram&shy;bled it to make a type specimen book. It has survived not only five centuries</p>
                         </article>
                         <div class="thumbs" data-flex="-end end">
-                            <a href="#" class="btn btn-thumb prev active"></a>
+                            <a href="#" class="btn btn-thumb prev"></a>
                             <a href="#" class="btn btn-thumb next"></a>
                         </div>
                     </div>

@@ -309,18 +309,24 @@ select {
     height: 34px;
     transition: background ease .3s;
 }
-.links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"], .links-follow a:hover > i[class^="icon-"], .links-share a:hover > i[class^="icon-"]{
+.links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"], .links-follow a:active > i[class^="icon-"], .links-share a:active > i[class^="icon-"],
+.links-follow a:hover > i[class^="icon-"], .links-share a:hover > i[class^="icon-"], .links-follow a:focus > i[class^="icon-"], .links-share a:focus > i[class^="icon-"]{
     background-position: center center;
     background-repeat: no-repeat;
 }
 .links-follow a:active, .links-follow a:hover, .links-follow a:focus, .links-share a:active, .links-share a:hover, .links-share a:focus{
     border-color: #ff6766;
 }
-.links-follow a:hover > .icon-follow-fb {background: url('/images/icons/follow-fb-hover.png');}
-.links-follow a:hover > .icon-follow-gp {background: url('/images/icons/follow-gp-hover.png');}
-.links-follow a:hover > .icon-follow-inst {background: url('/images/icons/follow-inst-hover.png');}
-.links-follow a:hover > .icon-follow-pin {background: url('/images/icons/follow-pin-hover.png');}
-.links-follow a:hover > .icon-follow-tw {background: url('/images/icons/follow-tw-hover.png');}
+.links-follow a:active > .icon-follow-fb, .links-follow a:hover > .icon-follow-fb, .links-follow a:focus > .icon-follow-fb {background: url('/images/icons/follow-fb-hover.png');}
+.links-follow a:active > .icon-follow-gp, .links-follow a:hover > .icon-follow-gp, .links-follow a:focus > .icon-follow-gp {background: url('/images/icons/follow-gp-hover.png');}
+.links-follow a:active > .icon-follow-inst, .links-follow a:hover > .icon-follow-inst, .links-follow a:focus > .icon-follow-inst {background: url('/images/icons/follow-inst-hover.png');}
+.links-follow a:active > .icon-follow-pin, .links-follow a:hover > .icon-follow-pin, .links-follow a:focus > .icon-follow-pin {background: url('/images/icons/follow-pin-hover.png');}
+.links-follow a:active > .icon-follow-tw, .links-follow a:hover > .icon-follow-tw, .links-follow a:focus > .icon-follow-tw {background: url('/images/icons/follow-tw-hover.png');}
+.links-share a:active > .icon-share-fb, .links-share a:hover > .icon-share-fb, .links-share a:focus > .icon-share-fb {background: url('/images/icons/share-fb-hover.png');}
+.links-share a:active > .icon-share-gp, .links-share a:hover > .icon-share-gp, .links-share a:focus > .icon-share-gp {background: url('/images/icons/share-gp-hover.png');}
+.links-share a:active > .icon-share-inst, .links-share a:hover > .icon-share-inst, .links-share a:focus > .icon-share-inst {background: url('/images/icons/share-inst-hover.png');}
+.links-share a:active > .icon-share-pin, .links-share a:hover > .icon-share-pin, .links-share a:focus > .icon-share-pin {background: url('/images/icons/share-pin-hover.png');}
+.links-share a:active > .icon-share-tw, .links-share a:hover > .icon-share-tw, .links-share a:focus > .icon-share-tw {background: url('/images/icons/share-tw-hover.png');}
 .links-social{
     padding-bottom: 50px;
 }
@@ -571,6 +577,7 @@ select {
     line-height: 24px;
     padding-left: 70px;
     min-height: 50px;
+    max-width: 500px;
     background: url(/images/icons/quotesalt.png)no-repeat left 15px;
 }
 

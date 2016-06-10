@@ -168,6 +168,9 @@ header > .lwrap{
     font-weight: 700;
     letter-spacing: -0.025em;
 }
+.recent article > div{
+    width: calc(100% - 60px - 20rem);
+}
 .recent article{
     margin-bottom: 44rem;
 }

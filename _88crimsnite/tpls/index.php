@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <blockquote data-flex='-center center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.  </blockquote>
+            <blockquote data-flex='-center center'><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</q></blockquote>
             <div class='content' data-flex='-start between' data-flex-480="vstripe">
                 <div class='grid' data-flex='stripe w' data-flex-640="vstripe" data-childs>
                     <article>

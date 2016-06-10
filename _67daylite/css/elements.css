@@ -142,6 +142,7 @@ blockquote q{
     font-weight: 300;
     line-height: 30px;
     max-width: 900px;
+    display: inline-block;
 }
 blockquote cite{
     color: #a89574;

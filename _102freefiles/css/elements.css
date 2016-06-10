@@ -123,7 +123,7 @@ body{
 /*FORMS*/
 .form-search{
     margin: 2px 1px 2px 0px;
-    flex-grow: 1;
+    width: 100%;
     background: black linear-gradient(rgba(0,0,0,.19), rgba(53,53,53,.19));
     max-width: 261px;
     border-radius: 17px;    

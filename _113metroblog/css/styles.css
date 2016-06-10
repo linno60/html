@@ -31,22 +31,25 @@ header > .lwrap{
     padding: 116rem 0px 32rem 22rem;
 }
 .banner .btn-default{
-    margin: 15rem 0px 81rem 1px;
+    margin: 10rem 0px 84rem 1px;
 }
 .banner h1{
-    color: #5d5d5d;
-    line-height: 59rem;
-    font-size: 61rem;
+    color: #5d5d5d;       
     margin-bottom: 5px;  
     font-weight: 300;
 }
+.banner h1 big{
+    font-size: 61rem;
+    line-height: 63rem; 
+}
 .banner h1 small{
     font-size: 47rem;
+    line-height: 68rem; 
     display: inline-block;
 }
 .banner figure{
     margin-right: -156rem;
-    width: 107.5%;
+    width: 81.7%;
 }
 
 /*SLIDER*/

@@ -99,17 +99,17 @@
                 <h3 class="title">Recent Blogs</h3> 
                 <div data-flex="stripe" data-flex-480="vstripe">
                     <article>
-                        <h4 data-flex="-center"><time class="lbl lbl-default" data-flex="col"><strong>21</strong><small>sep</small></time>Magna Mollis Ultricies Euismod Fermentum Elit</h4>
+                        <h4 data-flex="-center"><time class="lbl lbl-default" data-flex="col"><strong>21</strong><small>sep</small></time><span>Magna Mollis Ultricies Euismod Fermentum Elit</span></h4>
                         <figure><img src="/images/blog-img.png" width="292" height="140" alt=""></figure>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat ante venenatis dapibus posuere velit aliquet.</p>
                     </article>
                     <article>
-                        <h4 data-flex="-center"><time class="lbl lbl-default" data-flex="col"><strong>20</strong><small>sep</small></time>Ornare Nullam Risus Mollis Parturient</h4>
+                        <h4 data-flex="-center"><time class="lbl lbl-default" data-flex="col"><strong>20</strong><small>sep</small></time><span>Ornare Nullam Risus Mollis Parturient</span></h4>
                         <figure><img src="/images/blog-img.png" width="292" height="140" alt=""></figure>
                         <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, <a href="#">vestibulum</a> at eros.</p>
                     </article>
                     <article>
-                        <h4 data-flex="-center"><time class="lbl lbl-default" data-flex="col"><strong>18</strong><small>sep</small></time>Euismod Nullam Vehicula Elit Venenatis Consectetur</h4>
+                        <h4 data-flex="-center"><time class="lbl lbl-default" data-flex="col"><strong>18</strong><small>sep</small></time><span>Euismod Nullam Vehicula Elit Venenatis Consectetur</span></h4>
                         <figure><img src="/images/blog-img.png" width="292" height="140" alt=""></figure>
                         <p>Praesent commodo cursus magna, scelerisque nisl consectetur et. Sed posuere consectetur at lobortis. Duis mollis, non commodoelit .</p>
                     </article>

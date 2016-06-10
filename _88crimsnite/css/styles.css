@@ -131,8 +131,11 @@ header:before{
     color: #3d3d3d;
     line-height: 24px;
 }
-.grid article > div{
+.grid article > div:first-child{
     min-width: 56px;
+}
+.grid article > div:last-child{
+    max-width: calc(100% - 56px);
 }
 .content{
     padding: 55rem 0px 29rem 0px;

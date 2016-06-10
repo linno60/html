@@ -19,7 +19,7 @@ p{
     color: #5d5d5d;
     font-family: Arial;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 24px;   
 }
 .wrap{
     background: white;
@@ -64,6 +64,7 @@ header > .lwrap{
 }
 #logo{
     margin: 3rem 5px 4rem 1rem;
+    display: inline-block
 }
 header .btn-alt{
     margin: 5px 0px 7px 0px;
@@ -120,6 +121,9 @@ header .btn-alt{
     flex-shrink: 0;
     margin: 0px 20rem 18rem 0px;
 }
+.sidebar p, .sidebar em{
+    max-width: 100%;
+}
 .sidebar h3{
     font-size: 24px; 
     margin-bottom: 15rem;
@@ -138,6 +142,7 @@ header .btn-alt{
     max-width: 245px;
 }
 .sidebar .wrap{
+    width: 100%;
     padding: 21rem 20rem 19rem 26rem;
     margin-bottom: 42rem;
 }
@@ -169,7 +174,7 @@ header .btn-alt{
 
 /*FUNCTIONS*/
 .sidebar + div{
-    width: 100%;
+    width: calc(68% - 20rem);
 }
 .functions{
     margin-bottom: 10px;
@@ -226,6 +231,9 @@ footer > .lwrap{
     background-image: linear-gradient(-45deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.16) 50%, rgba(255, 255, 255, 0.16) 100%);
     border: 2px solid white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+footer form{
+    width: calc(72.7% - 56rem);
 }
 footer form > div:first-child{
     width: 35.5%;

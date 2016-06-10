@@ -198,6 +198,11 @@ blockquote {
     font-style: italic;
     line-height: 20px;
     letter-spacing: 0.042em;
+    width: 100%;
+}
+blockquote q{
+    display: inline-block;
+    max-width: 100%;
 }
 blockquote:before {
     content: "\0201C";

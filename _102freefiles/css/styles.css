@@ -118,6 +118,9 @@ header{
     flex-shrink: 0;
     margin-left: 29rem;
 }
+.content-wrap > div > div:first-child{
+    width: calc(69.1% - 29rem);
+}
 .content-wrap .btn-default {
     min-width: 98rem;
     height: 26px;
@@ -148,6 +151,9 @@ header{
 .contact{
     line-height: 18px;
     color: #a8a8a8;
+}
+.contact span{
+    display: inline-block;
 }
 .contact address{
     display: inline;

@@ -55,12 +55,14 @@ body{
     font-size: 9px;
 }
 .links-footer a, .links-footer{
-    color: #7a7979;      
+    color: #7a7979;    
 }
 .links-footer a{
     margin: 6rem 14.5rem;
     font-size: 11px;
     letter-spacing: -0.012em;
+    display: inline-block;
+    text-align: center;
 }
 .links-footernav{
     border-bottom-width: 1px;

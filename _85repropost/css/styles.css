@@ -62,7 +62,8 @@ body{
 }
 p{
     line-height: 20px;
-    color: #444; 
+    color: #444;
+    max-width: 100%;
 }
 .blog p{
     margin-bottom: 19px;
@@ -121,6 +122,9 @@ p{
 .about figure {        
     margin: -1px 17px 0px 0px;
 }
+.about figure ~ p{
+    width: calc(100% - 97px);
+}
 .about .hdr-sm {
     margin-bottom: 31px;
 }
@@ -152,7 +156,7 @@ p{
     position: relative;
 }
 .message > div{
-    width: 100%;
+    width: calc(100% - 60px - 21rem);
 }
 .message:last-child{
     padding: 28rem 10rem 21rem 11rem;

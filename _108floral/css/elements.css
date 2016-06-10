@@ -198,3 +198,11 @@ body{
     border-image-repeat: repeat repeat;
     border-image-source: url("/images/horizontal.png");
 }
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .border   {
+        border: none;
+        border-top: 1px dashed rgba(0,0,0,.2);
+        border-bottom: 1px dashed rgba(0,0,0,.2);
+    }
+} 

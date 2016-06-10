@@ -291,6 +291,9 @@ header{
     flex-shrink: 0;
     margin-right: 4rem;
 }
+.product-items > article > div:last-child{
+    width: 66%;
+}
 .product-items .price{
     color: #ff4200;
     font-weight: 700; 

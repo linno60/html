@@ -12,7 +12,7 @@ body, .nav-wrap > .lwrap, .media-wrap{
     background: #f4f5f7;
 }
 p{
-    figurene-height: 24px;
+    line-height: 24px;
     font-size: 14px;
 }
 
@@ -29,6 +29,9 @@ header, footer{
 .top-wrap > .lwrap, .copyright > .lwrap{
     height: 53px;
 }
+.top-wrap > .lwrap{
+    position: relative;
+}
 .top-wrap .btn-cart{
     position: relative;
 }
@@ -37,6 +40,63 @@ header, footer{
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
+}
+.top-wrap .btn-cart + .popup{
+    position: absolute;
+    border-top: 4px solid #ff6766;
+    top: 78px;
+    right: 50px;
+    width: 250px;
+    background: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    padding: 10px 10px 10px 10px;
+    z-index: 100;
+    display: none;
+}
+.top-wrap .btn-cart:hover + .popup, .top-wrap .btn-cart:focus + .popup,.top-wrap .btn-cart + .popup:hover, .top-wrap .btn-cart + .popup:focus{
+    display: block;
+}
+.popup:before{
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: 20px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ff6766;
+}
+.popup > div > div{
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.popup > div{
+    width: 100%;
+}
+.popup figure + div > span{
+    display: inline-block;
+}
+.popup figure + div{
+    flex-grow: 1;
+}
+.popup figure{
+    margin-right: 10px;
+}
+.popup strong{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2a2a26;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.popup strong span{
+    color: #ff6766;
+}
+.popup .btn-default{
+    min-width: 110rem;
+    height: 32px;
 }
 .logo-wrap{
     height: 204px;
@@ -106,7 +166,7 @@ header, footer{
     background: #ff6766;
 }
 .slider-header figure > figcaption > p{
-    figurene-height: 22px;
+    line-height: 22px;
     margin-bottom: 15px;
 }
 .slider-header figure > figcaption > time{
@@ -283,6 +343,90 @@ header, footer{
     padding: 40px 30px;
 }
 
+/*SINGLE POST*/
+.single-post .article-wrap > article .details{
+    border-right: none;
+}
+.single-post .article-wrap > article h3 + hr {
+    background: #212121;
+    width: 300px;
+    margin: 0px;
+}
+.single-post .article-wrap .lbl-date{
+    margin-right: -2px;
+}
+.single-post .details-wrap{
+    padding-left: 30px;
+}
+.single-post .article-wrap > article{
+    padding-right: 60px;
+}
+.single-post .article-wrap > article + div{
+    padding: 0px 60px;
+}
+.author{
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 30px 0px 30px 0px;
+}
+.author figure{
+    float: left;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    padding: 4px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.author h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.links-share span{
+    color: #656565;
+    font-size: 14px;
+}
+.comment figure{
+    float: left;
+    margin-right: 20px;
+}
+.comment > .comment > div:last-child{
+    border-bottom: none;
+}
+.comment > .comment{
+    padding: 0px 0px 0px 50px;
+}
+.comment > div{
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.comment h4{
+    color: black;
+font-size: 16px;
+font-weight: 400;
+}
+.comment time{
+    color: #c5c5c5;
+}
+.comment a{
+   color: black; 
+}
+.comment a:active, .comment a:hover, .comment a:focus{
+    text-decoration: underline;
+}
+.comment p{
+    font-size: 13px;
+line-height: 22px;
+}
+.article-wrap h2{
+    color: black;
+font-size: 20px;
+font-weight: 400;
+}
+
+
+
+
 /*SIDEBAR*/
 .sidebar{
     flex-shrink: 0;
@@ -303,6 +447,12 @@ header, footer{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.sidebar > div p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
     margin-bottom: 20px;
 }
 .sidebar > .about > figure{

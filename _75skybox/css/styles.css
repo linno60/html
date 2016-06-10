@@ -125,6 +125,10 @@ p a:active, p a:hover, p a:focus{
     line-height: 22px;
     height: 66px;
 }
+.blogs article h4 span{
+    display: inline-block;
+    width: calc(100% - 45px - 10rem);
+}
 .testimonials > div{
     width: 47.8%;
 }

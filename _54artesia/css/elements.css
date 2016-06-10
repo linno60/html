@@ -77,10 +77,12 @@ body{
 .lbl-date span{
     font-size: 34px;
     line-height: 34px;
+    display: inline-block;
 }
 .lbl-default span{
     font-size: 11px;
     line-height: 11px;
+    display: inline-block;
 }
 .lbl-default{
     height: 49px;
@@ -91,6 +93,7 @@ body{
 
 /*CITES*/
 blockquote{
+    max-width: 600px;
     color: #8c8c8c;
     font-size: 21px;
     line-height: 28px;
