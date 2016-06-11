@@ -59,6 +59,7 @@ header{
     position: relative;
     margin: 3px 0px 11rem 0px;
     font-size: 19px;
+    display: inline-block;
 }
 .slider figcaption a:before {
     content: "";
@@ -116,7 +117,7 @@ header{
 /*CONTENT*/
 .content{
     padding-bottom: 10px;
-    width: 73.3%;
+    width: 67.3%;
 }
 .content h2{
     color: black;

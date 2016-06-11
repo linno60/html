@@ -9,8 +9,10 @@
 .icon-closered {width: 12px; height: 12px; background: url('/images/icons/closered.png');}
 .icon-download {width: 14px; height: 12px; background: url('/images/icons/download.png');}
 .icon-heart {width: 17px; height: 15px; background: url('/images/icons/heart.png');}
+.icon-letter {width: 37px; height: 23px; background: url('/images/icons/letter.png');}
 .icon-list-marker {width: 8px; height: 9px; background: url('/images/icons/list-marker.png');}
 .icon-list {width: 17px; height: 14px; background: url('/images/icons/list.png');}
+.icon-location {width: 26px; height: 35px; background: url('/images/icons/location.png');}
 .icon-mark {width: 16px; height: 16px; background: url('/images/icons/mark.png');}
 .icon-media-db {width: 30px; height: 31px; background: url('/images/icons/media-db.png');}
 .icon-media-fb {width: 17px; height: 33px; background: url('/images/icons/media-fb.png');}
@@ -22,6 +24,7 @@
 .icon-open {width: 14px; height: 12px; background: url('/images/icons/open.png');}
 .icon-pause {width: 15px; height: 22px; background: url('/images/icons/pause.png');}
 .icon-pen {width: 19px; height: 18px; background: url('/images/icons/pen.png');}
+.icon-phone {width: 30px; height: 30px; background: url('/images/icons/phone.png');}
 .icon-plus {width: 22px; height: 21px; background: url('/images/icons/plus.png');}
 .icon-plusbg {width: 17px; height: 17px; background: url('/images/icons/plusbg.png');}
 .icon-prev {width: 28px; height: 36px; background: url('/images/icons/prev.png');}

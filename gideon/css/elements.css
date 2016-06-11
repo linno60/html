@@ -74,7 +74,7 @@ p{
 .expand{
     display: none;
 }
-.expand + .btn-expand{
+.btn-expand{
     width: 15px;
     height: 15px;
     background: #ff6766;
@@ -85,16 +85,18 @@ p{
     text-align: center;
     position: relative;
 }
-.expand + .btn-expand:after{
+.btn-expand:after{
     content: "-";
     width: 100%;
     height: 100%;
     top: 0px;
     left: 0px;
     position: absolute;
+    padding: 1px 0px 0px 1px;
 }
-.expand:checked + .btn-expand:after{
-    content: "+"
+.expand:checked + div > .btn-expand:after{
+    content: "+";
+    font-size: 15px;
 }
 .btn-plus{
     width: 43px;
@@ -444,6 +446,11 @@ select {
 }
 
 /*PAGINATIONS*/
+.pagination{
+    width: 100%;
+    border-top: 1px solid rgba(42,42,38,.1);
+    padding: 40px 10px 40px 10px;
+}
 .pagination a{
     width: 49px;
     height: 49px;
@@ -460,20 +467,41 @@ select {
     background: #ff6766;
     box-shadow: none;
 }
-.thumb{
+.thumbs > div:first-child{
+    border-right: 1px solid black;
+    padding-right: 50rem;
+    align-items: flex-start;
+}
+.thumbs > div:last-child{
+    align-items: flex-end;
+    text-align: right;
+    padding-left: 50rem;
+}
+.thumbs > div{
+    flex-grow: 1; 
+    flex-basis: 50%;
+}
+.thumbs a{
     color: #2a2a26;
     font-size: 16px;
+    display: inline-block;
+    padding-bottom: 30px;
 }
-.thumb.prev{
-    background: url(/images/icons/thumbprev.png)no-repeat left center;
-    padding-left: 40px;
+.thumbs > div:first-child a:first-child{
+    background: url(/images/icons/thumbprev.png)no-repeat left 0px;
+    padding-left: 50px;
 }
-.thumb.next{
-    background: url(/images/icons/thumbnext.png)no-repeat right center;
-    padding-right: 40px;
+.thumbs > div:last-child a:first-child{
+    background: url(/images/icons/thumbnext.png)no-repeat right 0px;
+    padding-right: 50px;
 }
-.thumb:active, .thumb:hover, .thumb:focus{
+.thumbs > div:hover{
     opacity: .3;
+}
+.thumbs span{
+    color: black;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 /*LABELS*/

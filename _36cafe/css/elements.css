@@ -45,6 +45,7 @@ body{
 .links-default a{
     color: #513a2d;
     margin-bottom: 5px;
+    display: inline-block;
 }
 .links-top a:active, .links-top a:hover, .links-top a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: underline;
@@ -78,6 +79,7 @@ body{
 }
 .links-social:before, .links-social:after{
     flex-grow: 1;
+    display: inline-block;
     content: "";
     height: 24px;
     background:url("/images/border.png")repeat-x left center;

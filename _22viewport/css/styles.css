@@ -63,6 +63,7 @@ header:after{
     font-style: italic;
     padding: 0px 5px;
     letter-spacing: 0.01em;
+    display: inline-block;
 }
 
 /*CONTENT*/
@@ -149,7 +150,7 @@ header + .lwrap{
     max-width: 662px;
 }
 .content{
-    width: 65%
+    width: calc(65% - 25rem);
 }
 .content article figure, .content .twin article:first-child figure{
     padding: 4px;

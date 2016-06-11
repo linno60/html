@@ -46,73 +46,83 @@
                             </div>
                         </article>
                         <div>
-                        <div class="author clearfix">
-                            <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
-                            <h4>Steve Smith</h4>
-                            <p>A love lock or love padlock is a padlock which sweethearts lock to a bridge, fence, gate, or similar public fixture to symbolize their love.</p>
-                            <a href="#" class="read-alt">Read more..</a>
-                        </div>
-                        <div class="links-share" data-flex="end w" data-childs="center -center">
-                            <span>Share with:</span>
-                            <a href="#"><i class="icon-share-fb"></i></a>
-                            <a href="#"><i class="icon-share-tw"></i></a>
-                            <a href="#"><i class="icon-share-pin"></i></a>
-                            <a href="#"><i class="icon-share-inst"></i></a>
-                            <a href="#"><i class="icon-share-gp"></i></a>
-                        </div>
-                        <div>
-                            <h2>3 Comments Found</h2>
-                            <div class="comment">
-                                <div class="clearfix">
-                                    <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
-                                    <div data-flex="-start between">
-                                        <div>
-                                            <h4>Micheal Bevan</h4>
-                                            <time>19 May 2015</time>
+                            <div class="author clearfix">
+                                <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
+                                <h4>Steve Smith</h4>
+                                <p>A love lock or love padlock is a padlock which sweethearts lock to a bridge, fence, gate, or similar public fixture to symbolize their love.</p>
+                                <a href="#" class="read-alt">Read more..</a>
+                            </div>
+                            <div class="links-share" data-flex="end w" data-childs="center -center">
+                                <span>Share with:</span>
+                                <a href="#"><i class="icon-share-fb"></i></a>
+                                <a href="#"><i class="icon-share-tw"></i></a>
+                                <a href="#"><i class="icon-share-pin"></i></a>
+                                <a href="#"><i class="icon-share-inst"></i></a>
+                                <a href="#"><i class="icon-share-gp"></i></a>
+                            </div>
+                            <div>
+                                <h2>3 Comments Found</h2>
+                                <div class="comment">
+                                    <div class="clearfix">
+                                        <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
+                                        <div data-flex="-start between">
+                                            <div>
+                                                <h4>Micheal Bevan</h4>
+                                                <time>19 May 2015</time>
+                                            </div>
+                                            <a href="#">Reply</a>
                                         </div>
-                                        <a href="#">Reply</a>
+                                        <p>When thinking of User Experience, we often think of a simple, beautiful, and easy to use feature-set of a product, that makes the user’s life easier.</p>
                                     </div>
-                                    <p>When thinking of User Experience, we often think of a simple, beautiful, and easy to use feature-set of a product, that makes the user’s life easier.</p>
+                                    <div class="comment">
+                                        <div class="clearfix">
+                                            <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
+                                            <div data-flex="-start between">
+                                                <div>
+                                                    <h4>Anita John</h4>
+                                                    <time>19 May 2015</time>
+                                                </div>
+                                                <a href="#">Reply</a>
+                                            </div>
+                                            <p>They are only a few of many thinkable solutions for a user’s problem the product tries to solve. Thinking in products means thinking</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="comment">
                                     <div class="clearfix">
                                         <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
                                         <div data-flex="-start between">
                                             <div>
-                                                <h4>Anita John</h4>
+                                                <h4>Richard Bravo</h4>
                                                 <time>19 May 2015</time>
                                             </div>
                                             <a href="#">Reply</a>
                                         </div>
-                                        <p>They are only a few of many thinkable solutions for a user’s problem the product tries to solve. Thinking in products means thinking</p>
+                                        <p>When thinking of User Experience, we often think of a simple, beautiful, and easy to use feature-set of a product, that makes the user’s life easier.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="comment">
-                                <div class="clearfix">
-                                    <figure><img src="/images/imgcircle.png" width="103" height="103" alt=""></figure>
-                                    <div data-flex="-start between">
-                                        <div>
-                                            <h4>Richard Bravo</h4>
-                                            <time>19 May 2015</time>
-                                        </div>
-                                        <a href="#">Reply</a>
-                                    </div>
-                                    <p>When thinking of User Experience, we often think of a simple, beautiful, and easy to use feature-set of a product, that makes the user’s life easier.</p>
-                                </div>
+                            <div>
+                                <h2>Leave Your Comment</h2>
+                                <form action="#" method="post" data-flex="col -center">
+                                    <input type="text" name="post" placeholder="Name*" required="">
+                                    <input type="email" name="post" placeholder="Email*" required="">
+                                    <textarea name="post" placeholder="Message*" required=""></textarea>
+                                    <a href="#" class="btn btn-default">Send</a>
+                                </form>
                             </div>
+                        </div>
+                    </div>  
+                    <div data-flex="stripe" class="pg thumbs" data-childs="col">
+                        <div>
+                            <a href="#">Old Story</a>
+                            <a href=""><span>Behind the Lens: Photography the President</span></a>
                         </div>
                         <div>
-                            <h2>Leave Your Comment</h2>
-                            <form action="#" method="post" data-flex="col -center">
-                                <input type="text" name="post" placeholder="Name*" required="">
-                                <input type="email" name="post" placeholder="Email*" required="">
-                                <textarea name="post" placeholder="Message*" required=""></textarea>
-                                <a href="#" class="btn btn-default">Send</a>
-                            </form>
+                            <a href="#">New Story</a>
+                            <a href="#"><span>When thinking of User Esperience, we often think of a simple,</span></a>
                         </div>
                     </div>
-                    </div>                    
                 </div>
                 <aside class="sidebar">
                     <form action="#" method="post" data-flex class="search-sidebar">

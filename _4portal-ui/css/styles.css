@@ -179,7 +179,7 @@ i{
     margin-bottom: 96rem;
 }
 .direction article > div{
-    width: 100%;
+    max-width: calc(100% - 117px);
 }
 article h3 {
     color: #6d6d71;

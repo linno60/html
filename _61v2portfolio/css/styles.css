@@ -80,6 +80,9 @@ header .lwrap{
     width: 38%;
     padding: 5rem 0px 10px 0px;
 }
+.review > div{
+    max-width: 100%;
+}
 .review > span{
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     color: white;
@@ -145,6 +148,7 @@ header .lwrap{
     line-height: 18px;
     letter-spacing: -0.01em;
     margin-bottom: 13rem;
+    max-width: 100%;
 }
 .sidebar article figure + div{
     padding: 0px 6rem;
@@ -156,6 +160,9 @@ header .lwrap{
 /*CONTENT*/
 .content{
     padding: 21rem 10px 28rem 10px;
+}
+.content > .sidebar + div{
+    width: calc(67% - 19rem);
 }
 .slider.alt{
     margin-bottom: 21rem;
@@ -201,6 +208,7 @@ header .lwrap{
     position: relative;
     font-family: Arial;
     font-size: 12px;
+    display: inline-block;
 }
 .counter.add{
     border: 1px solid #ccc;
@@ -280,6 +288,7 @@ footer p{
 footer address + span{
     margin-bottom: 18rem;
     letter-spacing: -0.03em;
+    display: inline-block;
 }
 footer h6, footer h5 a{
     font-size: 14px;

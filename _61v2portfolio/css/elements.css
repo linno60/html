@@ -20,7 +20,7 @@ body{
     border-style: solid;
     letter-spacing: -0.02em;
     border-image: linear-gradient(transparent, transparent) 1 100%;
-}
+} 
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: white;
     border-image: linear-gradient(transparent, rgba(255, 255, 255, 0.3)) 1 100%;
@@ -91,10 +91,12 @@ body{
     font-style: normal;
     padding: 0px 2px;
     max-height: 43px;
+    display: inline-block;
 }
 .btn-default span{
     width: 43px;
     height: 43px;
+    display: inline-block;
     border-radius: 3px 0px 0px 3px;
     background: url(/images/icons/arrow.png)no-repeat center center, linear-gradient(#5f5656,#2f2828);
 }
@@ -106,6 +108,7 @@ body{
 .list-default li:before{
     content: "";
     width: 11px;
+    display: inline-block;
     height: 10px;
     background: url('/images/icons/check.png');
     margin: 5px 5px 0px 0px;
@@ -138,12 +141,14 @@ blockquote cite, blockquote q{
 blockquote q{
     margin-bottom: 20px;
     letter-spacing: -0.015em;
+    display: inline-block;
 }
 blockquote cite span{
     color: #f28839;
 }
 blockquote cite{
     font-style: normal;
+    display: inline-block;
 }
 
 /*OTHER*/
