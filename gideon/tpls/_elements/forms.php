@@ -15,6 +15,8 @@
 </select>
 <input type="number" class="counter" placeholder="01">
 <input type="password" name="password" placeholder="Enter your code">
+<input type="checkbox" class="check" name id="check1-1">
+<label for="check1-1">All</label>
 <div class="spinner" data-flex data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div>
 <form action="#" method="post" data-flex="-center" class="search-header">
     <input type="image" src="/images/icons/searchgrey.png">

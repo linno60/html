@@ -16,16 +16,6 @@
     <a href="#">Fashion</a>
     <a href="#">Life Style</a>
 </div>
-<div class="links-categories alt" data-flex="col -start" data-childs="-start">
-    <a href="#">All</a>
-    <a href="#">Soft toys</a>
-    <a href="#">Trendy Key Chains</a>
-    <a href="#">Flower Bouquet</a>
-    <a href="#">Ceramic Dolls</a>
-    <a href="#">Fancy Mag</a>
-    <a href="#">Candles</a>
-    <a href="#">Other</a>
-</div>
 <div class="links-follow" data-flex="center w" data-childs="center -center">
     <a href="#"><i class="icon-follow-tw"></i></a>
     <a href="#"><i class="icon-follow-fb"></i></a>

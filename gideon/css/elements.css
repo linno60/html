@@ -276,9 +276,39 @@ select {
     padding: 0px 20px;
     background: #f8f8f8 url('/images/icons/arrowdown.png') right 15px center no-repeat;
 }
+.check{
+    display: none;
+}
+.check + label{
+    font-size: 14px;
+    margin-bottom: 5px;
+    transition: color ease .3s;
+}
+.check:checked + label, .check + label:hover{
+    color: #212121;
+}
+.check:checked + label:before, .check + label:hover:before{
+    background: #ff6766;
+    box-shadow: 0px 0px 0px 1px #ff6766;
+    background-clip: content-box;
+}
+.check + label:before {
+    background: #858585;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 0px 1px #858585;
+    background-clip: content-box;
+    width: 3px;
+    height: 3px;
+    content: "";
+    border-radius: 50%;
+    margin: 5px 5px 0px 0px;
+    display: inline-block;
+    transition: all ease .3s;
+}
 
 /*LINKS*/
 .links-nav a{
+    display: inline-block;
     padding: 30rem 0rem 27rem 0rem;
     margin: 0px 25rem;
     color: #2a2a26;
@@ -415,26 +445,12 @@ select {
     display: inline-block;
     transition: all ease .3s;
 }
-.links-categories.alt a:before{
-    background: #858585;
-    border: 2px solid transparent;
-    box-shadow: 0px 0px 0px 1px #858585;
-    background-clip: content-box;
-    width: 3px;
-    height: 3px;
-}
 .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
     color: #212121;
 }
 .links-categories a:active:before, .links-categories a:hover:before, .links-categories a:focus:before{
     background: #ff6766;
     border-color: #ff6766;
-}
-.links-categories.alt a:active:before, .links-categories.alt a:hover:before, .links-categories.alt a:focus:before{
-    background: #ff6766;
-    border-color: transparent;
-    background-clip: content-box;
-    box-shadow: 0px 0px 0px 1px #ff6766;
 }
 .links-marks{
     background: url(/images/icons/mark.png)no-repeat left 7px;
@@ -557,8 +573,8 @@ select {
 }
 .lbl-quotes{
     flex-shrink: 0;
-    width: 129px;
-    height: 129px;
+    width: 129rem;
+    height: 129rem;
     background: white url(/images/icons/quotes.png)no-repeat center center;
 }
 .lbl-discount{
@@ -581,6 +597,7 @@ select {
     padding-left: 20px;
     display: inline-block;
     font-style: italic;
+    max-width: calc(100% - 129rem);
 }
 .blockquote-tw > *{
     text-align: center;

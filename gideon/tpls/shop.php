@@ -196,104 +196,77 @@
                     <div>
                         <input type="checkbox" id="c1" class="expand">
                         <div class="hdr" data-flex="axis">
-                            <h3>categories</h3>
-                            
+                            <h3>categories</h3>                            
                             <label for="c1" class="btn btn-expand"></label>
                         </div>
-                        <div class="links-categories alt" data-flex="col -start" data-childs="-start">
-                            <a href="#">All</a>
-                            <a href="#">Soft toys</a>
-                            <a href="#">Trendy Key Chains</a>
-                            <a href="#">Flower Bouquet</a>
-                            <a href="#">Ceramic Dolls</a>
-                            <a href="#">Fancy Mag</a>
-                            <a href="#">Candles</a>
-                            <a href="#">Other</a>
-                        </div>
+                        <form data-flex="col -start" data-childs="-start">
+                            <input type="checkbox" class="check all" name="check" id="check1-1">
+                            <label for="check1-1">All</label>
+                            <input type="checkbox" class="check" name="check" id="check1-2">
+                            <label for="check1-2">Soft Toys</label>
+                            <input type="checkbox" class="check" name="check" id="check1-3">
+                            <label for="check1-3">Trendy Key Chains</label>
+                            <input type="checkbox" class="check" name="check" id="check1-4">
+                            <label for="check1-4">Flower Bouquet</label>
+                            <input type="checkbox" class="check" name="check" id="check1-5">
+                            <label for="check1-5">Ceramic Dolls</label>
+                            <input type="checkbox" class="check" name="check" id="check1-6">
+                            <label for="check1-6">Fancy Mug</label>
+                            <input type="checkbox" class="check" name="check" id="check1-7">
+                            <label for="check1-7">Candles</label>
+                            <input type="checkbox" class="check" name="check" id="check1-8">
+                            <label for="check1-8">Other</label>
+                        </form>
                     </div>
                     <div>
+                        <input type="checkbox" id="c2" class="expand">
                         <div class="hdr" data-flex="axis">
-                            <h3>price</h3>
-                            <input type="checkbox" id="c2" class="expand">
+                            <h3>price</h3>                            
                             <label for="c2" class="btn btn-expand"></label>
                         </div>
-                        <div class="links-categories alt" data-flex="col -start" data-childs="-start">
-                            <a href="#">All</a>
-                            <a href="#">Soft toys</a>
-                            <a href="#">Trendy Key Chains</a>
-                            <a href="#">Flower Bouquet</a>
-                            <a href="#">Ceramic Dolls</a>
-                            <a href="#">Fancy Mag</a>
-                            <a href="#">Candles</a>
-                            <a href="#">Other</a>
+                        <div>
+
+                            <a href="#" class="btn btn-default">Filter</a>
                         </div>
                     </div>
                     <div>
+                        <input type="checkbox" id="c3" class="expand">
                         <div class="hdr" data-flex="axis">
-                            <h3>brand</h3>
-                            <input type="checkbox" id="c3" class="expand">
+                            <h3>brand</h3>                            
                             <label for="c3" class="btn btn-expand"></label>
                         </div>
-                        <div class="links-categories alt" data-flex="col -start" data-childs="-start">
-                            <a href="#">All</a>
-                            <a href="#">Soft toys</a>
-                            <a href="#">Trendy Key Chains</a>
-                            <a href="#">Flower Bouquet</a>
-                            <a href="#">Ceramic Dolls</a>
-                            <a href="#">Fancy Mag</a>
-                            <a href="#">Candles</a>
-                            <a href="#">Other</a>
+                        <div data-flex="col -start" data-childs="-start">
+                            
                         </div>
                     </div>
                     <div>
+                        <input type="checkbox" id="c4" class="expand">
                         <div class="hdr" data-flex="axis">
                             <h3>product rating</h3>
-                            <input type="checkbox" id="c4" class="expand">
                             <label for="c4" class="btn btn-expand"></label>
                         </div>
-                        <div class="links-categories alt" data-flex="col -start" data-childs="-start">
-                            <a href="#">All</a>
-                            <a href="#">Soft toys</a>
-                            <a href="#">Trendy Key Chains</a>
-                            <a href="#">Flower Bouquet</a>
-                            <a href="#">Ceramic Dolls</a>
-                            <a href="#">Fancy Mag</a>
-                            <a href="#">Candles</a>
-                            <a href="#">Other</a>
+                        <div data-flex="col -start" data-childs="-start">
+                            
                         </div>
                     </div>
                     <div>
+                        <input type="checkbox" id="c5" class="expand">
                         <div class="hdr" data-flex="axis">
-                            <h3>discount</h3>
-                            <input type="checkbox" id="c5" class="expand">
+                            <h3>discount</h3>                            
                             <label for="c5" class="btn btn-expand"></label>
                         </div>
-                        <div class="links-categories alt" data-flex="col -start" data-childs="-start">
-                            <a href="#">All</a>
-                            <a href="#">Soft toys</a>
-                            <a href="#">Trendy Key Chains</a>
-                            <a href="#">Flower Bouquet</a>
-                            <a href="#">Ceramic Dolls</a>
-                            <a href="#">Fancy Mag</a>
-                            <a href="#">Candles</a>
-                            <a href="#">Other</a>
+                        <div data-flex="col -start" data-childs="-start">
+
                         </div>
                     </div>
                     <div>
+                        <input type="checkbox" id="c6" class="expand">
                         <div class="hdr" data-flex="axis">
-                            <h3>availability</h3>
-                            <input type="checkbox" id="c6" class="expand">
+                            <h3>availability</h3>                            
                             <label for="c6" class="btn btn-expand"></label>
                         </div>
-                        <div class="links-categories alt" data-flex="col -start" data-childs="-start">
-                            <a href="#">All</a>
-                            <a href="#">Soft toys</a>
-                            <a href="#">Trendy Key Chains</a>
-                            <a href="#">Flower Bouquet</a>
-                            <a href="#">Ceramic Dolls</a>
-                            <a href="#">Fancy Mag</a>
-                            <a href="#">Candles</a>
-                            <a href="#">Other</a>
+                        <div data-flex="col -start" data-childs="-start">
+                 
                         </div>
                     </div>
                 </aside>
