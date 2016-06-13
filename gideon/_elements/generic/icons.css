@@ -9,6 +9,7 @@
 .icon-closered {width: 12px; height: 12px; background: url('/images/icons/closered.png');}
 .icon-download {width: 14px; height: 12px; background: url('/images/icons/download.png');}
 .icon-heart {width: 17px; height: 15px; background: url('/images/icons/heart.png');}
+.icon-heartb {width: 18px; height: 17px; background: url('/images/icons/heartb.png');}
 .icon-letter {width: 37px; height: 23px; background: url('/images/icons/letter.png');}
 .icon-list-marker {width: 8px; height: 9px; background: url('/images/icons/list-marker.png');}
 .icon-list {width: 17px; height: 14px; background: url('/images/icons/list.png');}
@@ -24,6 +25,7 @@
 .icon-open {width: 14px; height: 12px; background: url('/images/icons/open.png');}
 .icon-pause {width: 15px; height: 22px; background: url('/images/icons/pause.png');}
 .icon-pen {width: 19px; height: 18px; background: url('/images/icons/pen.png');}
+.icon-penb {width: 18px; height: 18px; background: url('/images/icons/penb.png');}
 .icon-phone {width: 30px; height: 30px; background: url('/images/icons/phone.png');}
 .icon-plus {width: 22px; height: 21px; background: url('/images/icons/plus.png');}
 .icon-plusbg {width: 17px; height: 17px; background: url('/images/icons/plusbg.png');}
@@ -47,9 +49,6 @@
 .icon-social-pin {width: 12px; height: 13px; background: url('/images/icons/social-pin.png');}
 .icon-social-sk {width: 13px; height: 13px; background: url('/images/icons/social-sk.png');}
 .icon-social-tw {width: 12px; height: 11px; background: url('/images/icons/social-tw.png');}
-.icon-star3 {width: 82px; height: 13px; background: url('/images/icons/star3.png');}
-.icon-stars1 {width: 85px; height: 133px; background: url('/images/icons/stars1.png');}
-.icon-stars2 {width: 87px; height: 15px; background: url('/images/icons/stars2.png');}
 .icon-thumbnext {width: 37px; height: 24px; background: url('/images/icons/thumbnext.png');}
 .icon-thumbprev {width: 37px; height: 24px; background: url('/images/icons/thumbprev.png');}
 .icon-user {width: 44px; height: 38px; background: url('/images/icons/user.png');}

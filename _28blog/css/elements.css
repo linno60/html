@@ -68,6 +68,8 @@ body{
     line-height: 17px;
     font-weight: 300;
     letter-spacing: 0.008em;
+    display: inline-block;
+    max-width: 100%;
 }
 .links-aside li{
     padding: 9rem 0px 7rem 0px;

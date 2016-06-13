@@ -52,6 +52,10 @@ header{
 }
 
 /*SLIDER*/
+.slider figcaption{
+    min-height: 120px;
+    position: static;
+}
 .slider figcaption a {
     padding: 7rem 5px 6rem 10rem;
     text-transform: uppercase;
@@ -60,6 +64,7 @@ header{
     margin: 3px 0px 11rem 0px;
     font-size: 19px;
     display: inline-block;
+    min-height: 35px;
 }
 .slider figcaption a:before {
     content: "";
@@ -117,7 +122,7 @@ header{
 /*CONTENT*/
 .content{
     padding-bottom: 10px;
-    width: 67.3%;
+    width: calc(67.3% - 22rem);
 }
 .content h2{
     color: black;

@@ -146,6 +146,7 @@ header hgroup h2 i{
     margin: 10rem 0px -53rem 0px;
     position:  relative;
     z-index: 1;
+    display: inline-block;
 }
 
 /*SLIDER*/
@@ -162,6 +163,7 @@ header hgroup h2 i{
     width: 100%;
 }
 .slider > span{
+    display: inline-block;
     text-align: center;
     color: #383a3c;
     font-family: Bazar;
@@ -282,7 +284,9 @@ header hgroup h2 i{
 }
 .portfolio figcaption{
     margin: -5rem 0px 20rem 0px;
-    text-align: center;    
+    text-align: center;  
+    display: block;
+    position: relative;
 }
 .portfolio figcaption a{
     color: #37393b;
@@ -290,6 +294,7 @@ header hgroup h2 i{
     font-weight: 600;
     font-size: 24rem;
     text-align: center;
+    display: inline-block;
 }
 .portfolio figcaption a:active, .portfolio figcaption a:hover, .portfolio figcaption a:focus{
     text-decoration: underline;

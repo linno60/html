@@ -199,22 +199,22 @@
                             <h3>categories</h3>                            
                             <label for="c1" class="btn btn-expand"></label>
                         </div>
-                        <form data-flex="col -start" data-childs="-start">
+                        <form action="#" method="post" data-flex="col -start" data-childs="-start">
                             <input type="checkbox" class="check all" name="check" id="check1-1">
                             <label for="check1-1">All</label>
-                            <input type="checkbox" class="check" name="check" id="check1-2">
+                            <input type="checkbox" class="check" name="check1" id="check1-2">
                             <label for="check1-2">Soft Toys</label>
-                            <input type="checkbox" class="check" name="check" id="check1-3">
+                            <input type="checkbox" class="check" name="check1" id="check1-3">
                             <label for="check1-3">Trendy Key Chains</label>
-                            <input type="checkbox" class="check" name="check" id="check1-4">
+                            <input type="checkbox" class="check" name="check1" id="check1-4">
                             <label for="check1-4">Flower Bouquet</label>
-                            <input type="checkbox" class="check" name="check" id="check1-5">
+                            <input type="checkbox" class="check" name="check1" id="check1-5">
                             <label for="check1-5">Ceramic Dolls</label>
-                            <input type="checkbox" class="check" name="check" id="check1-6">
+                            <input type="checkbox" class="check" name="check1" id="check1-6">
                             <label for="check1-6">Fancy Mug</label>
-                            <input type="checkbox" class="check" name="check" id="check1-7">
+                            <input type="checkbox" class="check" name="check1" id="check1-7">
                             <label for="check1-7">Candles</label>
-                            <input type="checkbox" class="check" name="check" id="check1-8">
+                            <input type="checkbox" class="check" name="check1" id="check1-8">
                             <label for="check1-8">Other</label>
                         </form>
                     </div>
@@ -224,10 +224,10 @@
                             <h3>price</h3>                            
                             <label for="c2" class="btn btn-expand"></label>
                         </div>
-                        <div>
+                        <form  action="#" method="post">
 
                             <a href="#" class="btn btn-default">Filter</a>
-                        </div>
+                        </form>
                     </div>
                     <div>
                         <input type="checkbox" id="c3" class="expand">
@@ -235,9 +235,30 @@
                             <h3>brand</h3>                            
                             <label for="c3" class="btn btn-expand"></label>
                         </div>
-                        <div data-flex="col -start" data-childs="-start">
-                            
-                        </div>
+                        <form  action="#" method="post" data-flex="col -start" data-childs="-start">
+                            <input type="checkbox" class="check all" name="check2" id="check2-1">
+                            <label for="check2-1">All</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-2">
+                            <label for="check2-2">Watches</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-3">
+                            <label for="check2-3">Bags</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-4">
+                            <label for="check2-4">Kitchen Items</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-5">
+                            <label for="check2-5">Book Rack</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-6">
+                            <label for="check2-6">Light Sets</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-7">
+                            <label for="check2-7">Mugs</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-8">
+                            <label for="check2-8">Clock</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-9">
+                            <label for="check2-9">Pen Set</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-10">
+                            <label for="check2-10">Tables</label>
+                            <input type="checkbox" class="check" name="check2" id="check2-11">
+                            <label for="check2-11">Chairs</label>
+                        </form>
                     </div>
                     <div>
                         <input type="checkbox" id="c4" class="expand">
@@ -245,9 +266,18 @@
                             <h3>product rating</h3>
                             <label for="c4" class="btn btn-expand"></label>
                         </div>
-                        <div data-flex="col -start" data-childs="-start">
-                            
-                        </div>
+                        <form  action="#" method="post" data-flex="col -start" data-childs="-start">
+                            <input type="checkbox" class="check" name="check3" id="check3-1">
+                            <label for="check3-1"><img src="/images/rating5.png" width="85" height="13" alt=""></label>
+                            <input type="checkbox" class="check" name="check3" id="check3-1">
+                            <label for="check3-1"><img src="/images/rating4.png" width="85" height="13" alt=""></label>
+                            <input type="checkbox" class="check" name="check3" id="check3-1">
+                            <label for="check3-1"><img src="/images/rating3.png" width="85" height="13" alt=""></label>
+                            <input type="checkbox" class="check" name="check3" id="check3-1">
+                            <label for="check3-1"><img src="/images/rating2.png" width="85" height="13" alt=""></label>
+                            <input type="checkbox" class="check" name="check3" id="check3-1">
+                            <label for="check3-1"><img src="/images/rating1.png" width="85" height="13" alt=""></label>
+                        </form>
                     </div>
                     <div>
                         <input type="checkbox" id="c5" class="expand">
@@ -255,9 +285,18 @@
                             <h3>discount</h3>                            
                             <label for="c5" class="btn btn-expand"></label>
                         </div>
-                        <div data-flex="col -start" data-childs="-start">
-
-                        </div>
+                        <form  action="#" method="post" data-flex="col -start" data-childs="-start">
+                            <input type="checkbox" class="check" name="check2" id="check4-1">
+                            <label for="check4-1">Less than 5%</label>
+                            <input type="checkbox" class="check" name="check2" id="check4-2">
+                            <label for="check4-2">5% - 10%</label>
+                            <input type="checkbox" class="check" name="check2" id="check4-3">
+                            <label for="check4-3">10% - 20%</label>
+                            <input type="checkbox" class="check" name="check2" id="check4-4">
+                            <label for="check4-4">20% - 30%</label>
+                            <input type="checkbox" class="check" name="check2" id="check4-5">
+                            <label for="check4-5">30% - 40%</label>
+                        </form>
                     </div>
                     <div>
                         <input type="checkbox" id="c6" class="expand">
@@ -265,9 +304,14 @@
                             <h3>availability</h3>                            
                             <label for="c6" class="btn btn-expand"></label>
                         </div>
-                        <div data-flex="col -start" data-childs="-start">
-                 
-                        </div>
+                        <form  action="#" method="post" data-flex="col -start" data-childs="-start">
+                            <input type="checkbox" class="check all" name="check2" id="check5-1">
+                            <label for="check5-1">All</label>
+                            <input type="checkbox" class="check" name="check2" id="check5-2">
+                            <label for="check5-2">Exclude Out of stock</label>
+                            <input type="checkbox" class="check" name="check2" id="check5-3">
+                            <label for="check5-3">Include Out of stock</label>
+                        </form>
                     </div>
                 </aside>
             </div>

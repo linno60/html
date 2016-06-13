@@ -57,6 +57,7 @@ body{
 .links-default time span{
     font-size: 27px;
     line-height: 25px;
+    display: inline-block;
 }
 .links-default time small{
     text-transform: uppercase;
@@ -76,6 +77,9 @@ body{
 }
 .links-default p{
     margin-bottom: 0px;
+}
+.links-default time ~ p{
+    max-width: 85%;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: underline;

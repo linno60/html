@@ -61,7 +61,7 @@ header.lwrap{
     text-decoration: underline;
 }
 .blog{
-    width: 70.6%;
+    width: calc(70.6% - 40rem);
     padding-bottom: 32rem;
 }
 .blog article{
@@ -98,6 +98,7 @@ header.lwrap{
     font-size: 50px;
     margin-right: 10rem;
     line-height: 20px;
+    display: inline-block;
 }
 .hdr time small{
     font-size: 17px;

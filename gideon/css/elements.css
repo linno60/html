@@ -2,7 +2,7 @@ body{
     font-size: 12px;
     font-family: Roboto Slab;
 }
-body, a, select, ._tabs > div > div{
+body, a, select, ._tabs > div > div, .tabset *{
     color: #858585;
 }
 p{
@@ -10,6 +10,9 @@ p{
 }
 
 /*BUTTONS*/
+button > .btn{
+    width: 100%;
+}
 .btn-anchor{
     width: 43px;
     height: 43px;
@@ -20,9 +23,7 @@ p{
 .btn-default, .btn-alt{
     min-width: 140px;
     height: 42px;
-    font-style: italic;
     padding: 0px 5px;
-    font-style: italic;
     font-size: 12px;
     text-align: center;
 }
@@ -185,7 +186,7 @@ textarea[name=contact]{
     border: none;
     padding: 0px 10px;
 }
-input[type=password]{
+input[name=password]{
     width: 100%;
     max-width: 179px;
     height: 42px;
@@ -249,9 +250,9 @@ textarea[name=contact]:-ms-input-placeholder,
 .search-header input[type=search]::-webkit-input-placeholder { color: #999; }
 .search-header input[type=search]::-moz-placeholder { color: #999; }
 .search-header input[type=search]:-ms-input-placeholder { color: #999; }
-input[type=password]::-webkit-input-placeholder { color: #bbb; }
-input[type=password]::-moz-placeholder { color: #bbb; }
-input[type=password]:-ms-input-placeholder { color: #bbb; }
+input[name=password]::-webkit-input-placeholder { color: #bbb; }
+input[name=password]::-moz-placeholder { color: #bbb; }
+input[name=password]:-ms-input-placeholder { color: #bbb; }
 .counter::-webkit-input-placeholder { color: white; }
 .counter::-moz-placeholder { color: white; }
 .counter:-ms-input-placeholder { color: white; }
@@ -262,6 +263,7 @@ select {
     appearance: none; 
     width: 100%;
     border: none;
+    outline: none;
 }
 .select-sorting {
     max-width: 270px;
@@ -272,6 +274,7 @@ select {
 .select-checkout {
     font-size: 13px;
     max-width: 570px;
+    margin-bottom: 10px;
     height: 50px;
     padding: 0px 20px;
     background: #f8f8f8 url('/images/icons/arrowdown.png') right 15px center no-repeat;
@@ -725,6 +728,8 @@ select {
 .table{
     width: 100%;
     margin-bottom: 20px;
+}
+.table.total{
     border-top: 1px solid #eee;
 }
 .table > tbody > tr > td{
@@ -735,7 +740,19 @@ select {
     font-size: 14px;
     min-width: 180px;
 }
-.table td:last-child{
+.table.cart td{
+    vertical-align: middle;
+}
+.table.cart tbody td figure{
+    display: inline-block;
+}
+.table.cart tbody td:nth-child(3){
+    font-size: 15px;
+}
+.table.cart tbody td:nth-child(4), .table.cart td:nth-child(6){
+    color: #666666;
+}
+.table.total td:last-child{
     width: 100%;
 }
 .table > tfoot > tr > td:last-child, .table.extend > tfoot > tr{
@@ -754,10 +771,13 @@ select {
     font-size: 18px;
     text-transform: uppercase;
 }
-.table thead{
+.table.extend thead{
     background: #f8f8f8;
 }
-.table.extend thead td{
+.table.cart thead{
+    background: #f4f5f7;
+}
+.table thead td{
     color: #212121;
     font-size: 16px;
     font-weight: 700;
@@ -809,6 +829,7 @@ select {
     font-weight: 700;
     line-height: 22px;
     padding-bottom: 5px;
+    margin-bottom: 20px;
     background: linear-gradient(#ddd 100%, transparent 0%) left bottom / 40px 3px no-repeat;
 }
 .title-lessons {
