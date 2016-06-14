@@ -130,6 +130,14 @@ body{
     background: url(/images/icons/soundtrack-hover.png)no-repeat center center;
     border-image-source: url('/images/add-hover.png');
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .btn-add{
+        background: url(/images/icons/soundtrack.png)no-repeat center center, url('/images/add.png')no-repeat center center;
+    }
+    .btn-add:active, .btn-add:hover, .btn-add:focus{
+        background: url(/images/icons/soundtrack-hover.png)no-repeat center center, url('/images/add-hover.png')no-repeat center center;
+    }
+}  
 .btn-psd{
     min-width: 133px;
     height: 66px;

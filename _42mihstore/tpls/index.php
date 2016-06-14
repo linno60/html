@@ -78,73 +78,73 @@
                     </div>
                     <div class="products">
                         <h2 class="hdr">featured products</h2> 
-                        <div data-flex="stripe w" data-childs="col between">                            
-                            <figure>
+                        <div class="grid" data-flex="stripe w" data-childs="col between">                            
+                            <div>
                                 <span class="lbl lbl-discount green">-50%</span>
-                                <img src="/images/img3.png">
-                                <figcaption data-flex="axis">
+                                <figure><img src="/images/img3.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
+                                </div>
+                            </div>
+                            <div>
                                 <span class="lbl lbl-discount pink">-35%</span>
-                                <img src="/images/img4.png">
-                                <figcaption data-flex="axis">
+                                <figure><img src="/images/img4.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
+                                </div>
+                            </div>
+                            <div>
                                 <span class="lbl lbl-discount azure">-20%</span>
-                                <img src="/images/img5.png">
-                                <figcaption data-flex="axis">
+                                <figure><img src="/images/img5.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img6.png">
-                                <figcaption data-flex="axis">
+                                </div>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img6.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img7.png">
-                                <figcaption data-flex="axis">
+                                </div>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img7.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img8.png">
-                                <figcaption data-flex="axis">
+                                </div>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img8.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img3.png">
-                                <figcaption data-flex="axis">
+                                </div>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img3.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img4.png">
-                                <figcaption data-flex="axis">
+                                </div>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img4.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
-                            <figure class="hidden">
-                                <img src="/images/img5.png">
-                                <figcaption data-flex="axis">
+                                </div>
+                            </div>
+                            <div class="hidden">
+                                <figure><img src="/images/img5.png"></figure>
+                                <div class="figcaption" data-flex="axis">
                                     <a href="#">Pure Slim Xe</a>
                                     <span>$60.00</span>
-                                </figcaption>
-                            </figure>
+                                </div>
+                            </div>
                         </div>
                         <div class="pagination" data-flex="center w" data-childs="-center center">
                             <a href="#" class="active">1</a>
@@ -161,40 +161,40 @@
                         <h2 class="hdr">sort products</h2>
                         <form action="#" method="post" data-flex="col">
                             <div class="select">
-                                <label data-flex="-center">Sort by</label>
-                                <select>
+                                <label data-flex="-center" for="s1">Sort by</label>
+                                <select id="s1">
                                     <option selected>price</option>
                                     <option>Cheap</option>
                                     <option>Expensive</option>
                                 </select>
                             </div>
                             <div class="select">
-                                <label data-flex="-center">Sort by</label>
-                                <select>
+                                <label data-flex="-center" for="s2">Sort by</label>
+                                <select id="s2">
                                     <option selected>style</option>
                                     <option>Sport</option>
                                     <option>Classic</option>
                                 </select>
                             </div>
                             <div class="select">
-                                <label data-flex="-center">Sort by</label>
-                                <select>
+                                <label data-flex="-center" for="s3">Sort by</label>
+                                <select id="s3">
                                     <option selected>colour</option>
                                     <option>White</option>
                                     <option>Black</option>
                                 </select>
                             </div>
                             <div class="select">
-                                <label data-flex="-center">Sort by</label>
-                                <select>
+                                <label data-flex="-center" for="s4">Sort by</label>
+                                <select id="s4">
                                     <option selected>season</option>
                                     <option>Summer</option>
                                     <option>Winter</option>
                                 </select>
                             </div>
                             <div class="select">
-                                <label data-flex="-center">Sort by</label>
-                                <select>
+                                <label data-flex="-center" for="s5">Sort by</label>
+                                <select id="s5">
                                     <option selected>rating</option>
                                     <option>High</option>
                                     <option>Low</option>

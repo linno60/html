@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gideon 300</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="/css/addons/reset.css">
+        <link rel="stylesheet" href="/css/addons/reset-elements.css">
+        <link rel="stylesheet" href="/css/addons/data-flex.css">
+        <link rel="stylesheet" href="/css/addons/data-tabs.css">
+        <link rel="stylesheet" href="/css/addons/generic.css">
+        <link rel="stylesheet" href="/css/elements.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <script>
+            var LAYOUT_WIDTH = 960;
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            }
+        </script>
+    </head>
+    <body data-flex="col between">
+        <div>
+            <?= require_tpl('common/header') ?>
+            <div class="shop-checkout">
+                <div class="lwrap">
+                    <div data-flex="-start between w">
+                        <form action="#" method="post" data-flex="stripe w">
+                            <h4>Billing Details</h4>
+                            <select class="select-checkout">
+                                <option>Select your Country</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>Canada</option>
+                                <option>Australia</option>
+                            </select>
+                            <input name="checkout" class="half" type="text" placeholder="First Name">
+                            <input name="checkout" class="half" type="text" placeholder="Last Name">
+                            <input name="checkout" type="text" placeholder="Company Name">
+                            <input name="checkout" type="text" placeholder="Street Address">
+                            <input name="checkout" type="text" placeholder="Appartment, Suite, Unit ECT. (Optional)">
+                            <input name="checkout" class="half" type="text" placeholder="State / Country">
+                            <input name="checkout" class="half" type="text" placeholder="Postalcode / ZIP">
+                            <input name="checkout" class="half" type="email" placeholder="Email">
+                            <input name="checkout" class="half" type="tel" placeholder="Phone">
+                            <span data-flex="w"><input type="checkbox" id="checkbox1"><label for="checkbox1">Create an account?</label></span>
+                        </form>
+                        <form action="#" method="post" data-flex="stripe w">
+                            <h4>Ship to a Different Address?</h4>
+                            <select class="select-checkout">
+                                <option>Select your Country</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>Canada</option>
+                                <option>Australia</option>
+                            </select>
+                            <input name="checkout" class="half" type="text" placeholder="First Name">
+                            <input name="checkout" class="half" type="text" placeholder="Last Name">
+                            <input name="checkout" type="text" placeholder="Company Name">
+                            <input name="checkout" type="text" placeholder="Street Address">
+                            <input name="checkout" type="text" placeholder="Appartment, Suite, Unit ECT. (Optional)">
+                            <input name="checkout" class="half" type="text" placeholder="State / Country">
+                            <input name="checkout" class="half" type="text" placeholder="Postalcode / ZIP">
+                            <input name="checkout" class="half" type="email" placeholder="Email">
+                            <input name="checkout" class="half" type="tel" placeholder="Phone">
+                            <textarea name="checkout" placeholder="Note about your order, Eg, Special nots for your delivery"></textarea>
+                        </form>
+                    </div>
+                    <div data-flex="col -center">
+                        <table class="table extend">
+                            <caption>billing details</caption>
+                            <thead>
+                                <tr>
+                                    <td>Product</td>
+                                    <td></td>
+                                    <td>Total</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Black Spoon Set x 1</td>
+                                    <td></td>
+                                    <td>$15</td>
+                                </tr>
+                                <tr>
+                                    <td>Wall Clock</td>
+                                    <td></td>
+                                    <td>$50</td>
+                                </tr>
+                                <tr>
+                                    <td>Cart Subtotal</td>
+                                    <td></td>
+                                    <td>$75</td>
+                                </tr>
+                                <tr>
+                                    <td>Sheeping and Handing</td>
+                                    <td></td>
+                                    <td>Free Shipping</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>Order Total</td>
+                                    <td></td>
+                                    <td>75$</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <div class="accordion acc-radio">
+                            <a href="#" class="active">direct bank transfer</a>
+                            <div class="active">
+                                <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                            </div>
+                            <a href="#">cheque payment</a>
+                            <div>Tab number 2</div>
+                            <a href="#">paypal</a>
+                            <div>Tab number 3</div>
+                        </div>
+                        <a href="#" class="btn btn-default">Place Order</a>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <?= require_tpl('common/footer') ?>
+        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/tabs-accordions.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
+

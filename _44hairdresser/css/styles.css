@@ -15,6 +15,7 @@ body{
 /*HEADER*/
 #logo{
     margin: 10px;
+    display: inline-block;
 }
 header{
     background: url('/images/bg.png')no-repeat;
@@ -60,6 +61,11 @@ header{
     flex-grow: 1;
     padding: 39rem 25rem 24rem 38rem;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .features > div{
+        max-width: 25%;
+    }
+}    
 .features article{
     width: 100%;
 }
@@ -134,6 +140,7 @@ footer span{
     padding: 0px 17rem 16rem 17rem;
     letter-spacing: -0.02em;
     margin-bottom: 18rem;
+    display: inline-block;
 }
 footer span a{
     color: white;

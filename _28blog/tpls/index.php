@@ -52,27 +52,21 @@
             <section class="slider" data-flex="stripe">
                 <a href="#"></a>
                 <div data-flex="stripe" data-childs="col" data-flex-480="vstripe">
-                    <figure class="hidden-sm">
-                        <img src="/images/img1.png">
-                        <figcaption data-flex="col">
-                            <a href="#" data-flex="-center">cinema</a>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="hidden">
-                        <img src="/images/img2.png">
-                        <figcaption data-flex="col">
-                            <a href="#" data-flex="-center">travel</a>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/images/img3.png">
-                        <figcaption data-flex="col">
-                            <a href="#" data-flex="-center">television</a>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-                        </figcaption>
-                    </figure>
+                    <article class="hidden-sm">
+                        <figure><img src="/images/img1.png"></figure>
+                        <a href="#" data-flex="-center">cinema</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </article>
+                    <article class="hidden">
+                        <figure><img src="/images/img2.png"></figure>
+                        <a href="#" data-flex="-center">travel</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </article>
+                    <article>
+                        <figure><img src="/images/img3.png"></figure>
+                        <a href="#" data-flex="-center">television</a>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    </article>
                 </div>
                 <a href="#"></a>
             </section>
@@ -214,7 +208,8 @@
                             <a href="#" data-weight="6">Beyonc&egrave; Blake</a>
                             <a href="#" data-weight="4">Lively</a>
                             <a href="#" data-weight="4">Brad Pitt</a>
-                            <a href="#" data-weight="4">Cameron <span data-weight="13">Diaz&nbsp;</span></a><a href="#" data-weight="13">Daniel <span data-weight="15">Rad&shy;cliffe</span></a>
+                            <a href="#" data-weight="4">Cameron <span data-weight="13">Diaz&nbsp;</span></a>
+                            <a href="#" data-weight="13">Daniel <span data-weight="15">Rad&shy;cliffe</span></a>
                             <a href="#" data-weight="15">David <span data-weight="5">Beckham</span></a>
                             <a href="#" data-weight="5">Demi <span data-weight="4">Moore</span></a>
                             <a href="#" data-weight="4">Emma <span data-weight="8">Watson</span></a>

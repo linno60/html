@@ -110,45 +110,47 @@ body{
 .products .hdr{
     margin-bottom: 18rem;
 }
-.products figure{
+.products .grid > div{
     width: 31.2%;
     margin-bottom: 21rem;
     background: #fcfcfc;
     border: 1px solid #f6f6f6;
     box-shadow: 0 1px 0 gainsboro;
     position: relative;
-    padding: 1px 0px;
 }
-.products figure .lbl-discount{
+.products .grid > div .lbl-discount{
     position: absolute;
 }
-.products figure .lbl-discount.green{
+.products .grid > div .lbl-discount.green{
     top: 39%;
     left: 7%;
 }
-.products figure .lbl-discount.pink{
+.products .grid > div .lbl-discount.pink{
     top: 32%;
     left: 22%;
     background: #f02b63;
 }
-.products figure .lbl-discount.azure{
+.products .grid > div .lbl-discount.azure{
     top: 9%;
     left: 47%;
     background: #4cb1ca;
 }
-.products figcaption{
+.products .grid figure{
+    padding-top: 1rem;
+}
+.products .figcaption{
     font-size: 14px;
     background: rgba(0,0,0,.08);
-    padding: 6px 9rem 1rem 9rem;
+    padding: 6px 9rem 2rem 9rem;
 }
-.products figcaption a{
+.products .figcaption a{
     color: #818181;
     display: inline-block;
 }
-.products figcaption a:active, .products figcaption a:hover, .products figcaption a:focus{
+.products .figcaption a:active, .products .figcaption a:hover, .products .figcaption a:focus{
     text-decoration: underline;
 }
-.products figcaption span{
+.products .figcaption span{
     color: #f02b63;
     display: inline-block;
 }
@@ -228,7 +230,7 @@ footer a:active, footer a:hover, footer a:focus{
     .links-nav a, .links-nav a:first-child {margin: 0px 8px;}
 }
 @media (max-width: 800px) {
-    .products figure{width: 48%;}
+    .products .grid > div{width: 48%;}
     .hidden{display: none;}
 }
 @media (max-width: 640px) {

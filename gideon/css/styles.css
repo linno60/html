@@ -307,7 +307,7 @@ header, footer{
     padding: 20px;
 }
 .content{
-    width: 78.5%;
+    width: 76.5%;
     padding-right: 20px;
 }
 .content-wrap > * > div:not(.pagination), .about{
@@ -439,7 +439,7 @@ header, footer{
 /*SIDEBAR*/
 .sidebar{
     flex-shrink: 0;
-    width: 21.5%;
+    width: 23.5%;
 }
 .sidebar > *{
     margin-bottom: 20px;
@@ -785,7 +785,7 @@ article:nth-child(4) .percentage:after {
 }
 
 /*SHOP PRODUCT DETAILS*/
-.product-detail{
+.product-detail, .shop-cart, .shop-checkout{
     background: white;    
 }
 .product-detail > .lwrap{
@@ -852,6 +852,9 @@ article:nth-child(4) .percentage:after {
 .tabwrap{
     padding: 50px 10px 50px 10px;
 }
+.tabwrap .tablist > a{
+    min-width: 122px;
+}
 .tabset form{
     padding-bottom: 20px;
 }
@@ -898,9 +901,6 @@ article:nth-child(4) .percentage:after {
 }
 
 /*SHOP CART*/
-.shop-cart{
-    background: white;
-}
 .shop-cart > .lwrap{
     padding: 30px 10px 30px 10px;
 }
@@ -908,15 +908,106 @@ article:nth-child(4) .percentage:after {
     border-bottom: 1px solid rgba(33,33,33,.1);
     margin-bottom: 20px;
 }
+.shop-cart .table.cart + form .btn-default{
+    height: 50px;
+}
+.shop-cart .table.cart + form > div > *{
+    margin-bottom: 10px;
+}
+.shop-cart .table.cart + form > div:first-child > *{
+    margin-right: 5px;
+}
+.shop-cart .table.cart + form > div:last-child > *{
+    margin-left: 5px;
+}
 .total-wrap > div{
     width: 49%;
-}
-.total-wrap form input[name=checkout], .select-checkout{
-    
 }
 .total-wrap form input[name=checkout]::-webkit-input-placeholder { text-transform: uppercase; }
 .total-wrap form input[name=checkout]::-moz-placeholder { text-transform: uppercase; }
 .total-wrap form input[name=checkout]:-ms-input-placeholder { text-transform: uppercase; }
+
+/*SHOP CHECKOUT*/
+.shop-checkout form h4{
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.shop-checkout > .lwrap{
+    padding: 50px 10px 50px 10px;
+    border-bottom: 1px solid rgba(33,33,33,.1);
+}
+.shop-checkout > .lwrap > div:first-child > form{
+    width: 48%;
+}
+.shop-checkout input[name=checkout].half{
+    width: 49%;
+}
+.shop-checkout #checkbox1{
+    margin: 5px 5px 0px 0px;
+}
+
+/*PAGE NOT FOUND*/
+.pagenotfound strong{
+    color: #212121;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+.pagenotfound small{
+    font-size: 16px;
+    text-align: center;
+}
+.pagenotfound > #logo-404{
+    margin: 50px 0px 50px 0px;
+}
+.pagenotfound .links-social{
+    margin: 30px 0px 30px 0px;  
+}
+
+/*SEARCH RESULTS*/
+.result{
+    position: relative;
+}
+.result > div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    padding: 50px 10px;
+}
+.result > div > strong{
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.result > div > strong > big{
+    font-size: 28px;
+}
+.result > div > small{
+    color: #727272;
+    font-size: 16px;
+}
+.sidebar .tablist > a{
+    flex-grow: 1;
+}
+.sidebar .tabset{
+    padding: 10px 10px 10px 10px;
+}
+.sidebar .tabset article figure{
+    float: left;
+    margin-right: 10px;
+}
+.sidebar .tabset article{
+    margin-bottom: 20px;
+}
+.sidebar .tabset article p{
+    margin-bottom: 3px;
+}
 
 /*FOOTER*/
 .footer-title{

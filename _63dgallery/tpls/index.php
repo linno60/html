@@ -65,30 +65,30 @@
                 <div class="content">
                     <div class="gallery">
                         <div data-flex="stripe w" data-childs="col">
-                            <figure>
-                                <img src="/images/img1.png" width="300" height="200" alt="">
-                                <figcaption><a href="#">Lorem ipsum dolor sit amet</a></figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img2.png" width="300" height="200" alt="">
-                                <figcaption><a href="#">Lorem ipsum dolor sit amet</a></figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img3.png" width="300" height="200" alt="">
-                                <figcaption><a href="#">Lorem ipsum dolor sit amet</a></figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img4.png" width="300" height="200" alt="">
-                                <figcaption><a href="#">Lorem ipsum dolor sit amet</a></figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img5.png" width="300" height="200" alt="">
-                                <figcaption><a href="#">Lorem ipsum dolor sit amet</a></figcaption>
-                            </figure>
-                            <figure>
-                                <img src="/images/img6.png" width="300" height="200" alt="">
-                                <figcaption><a href="#">Lorem ipsum dolor sit amet</a></figcaption>
-                            </figure>
+                            <div>
+                                <figure><img src="/images/img1.png" width="300" height="200" alt=""></figure>
+                                <span><a href="#">Lorem ipsum dolor sit amet</a></span>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img2.png" width="300" height="200" alt=""></figure>
+                                <span><a href="#">Lorem ipsum dolor sit amet</a></span>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img3.png" width="300" height="200" alt=""></figure>
+                                <span><a href="#">Lorem ipsum dolor sit amet</a></span>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img4.png" width="300" height="200" alt=""></figure>
+                                <span><a href="#">Lorem ipsum dolor sit amet</a></span>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img5.png" width="300" height="200" alt=""></figure>
+                                <span><a href="#">Lorem ipsum dolor sit amet</a></span>
+                            </div>
+                            <div>
+                                <figure><img src="/images/img6.png" width="300" height="200" alt=""></figure>
+                                <span><a href="#">Lorem ipsum dolor sit amet</a></span>
+                            </div>
                         </div>
                         <div class="pagination" data-flex="center">
                             <a href="#" class="active">1</a>

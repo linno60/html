@@ -118,51 +118,51 @@
                 <h3 class="hdr">Featured <strong>Apartments</strong></h3>
                 <div data-flex="stripe">
                     <a href="#" class="btn btn-slide prev"></a>
-                    <div data-flex="stripe" data-childs="vstripe">
-                        <figure>
-                            <img src="/images/img1.png">
-                            <figcaption data-flex="stripe w">
+                    <div class="featured-slider" data-flex="stripe" data-childs="vstripe">
+                        <div>
+                            <figure><img src="/images/img1.png"></figure>
+                            <div class="figcaption" data-flex="stripe w">
                                 <div data-flex="axis w">
                                     <h5><a href="#">river north</a></h5>
                                     <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">United States</span>
                                 <span class="price" data-flex="-center center">1 899 &euro;</span>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="/images/img2.png">
-                            <figcaption data-flex="stripe w">
+                            </div>
+                        </div>
+                        <div>
+                            <figure><img src="/images/img2.png"></figure>
+                            <div class="figcaption" data-flex="stripe w">
                                 <div data-flex="axis w">
                                     <h5><a href="#">streeterville</a></h5>
                                     <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">Canada</span>
                                 <span class="price" data-flex="-center center">11 899 &euro;</span>
-                            </figcaption>
-                        </figure>
-                        <figure class="hidden">
-                            <img src="/images/img3.png">
-                            <figcaption data-flex="stripe w">
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <figure><img src="/images/img3.png"></figure>
+                            <div class="figcaption" data-flex="stripe w">
                                 <div data-flex="axis w">
                                     <h5><a href="#">Gold Coast</a></h5>
                                     <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">United Kingdom</span>
                                 <span class="price" data-flex="-center center">111 899 &euro;</span>
-                            </figcaption>
-                        </figure>
-                        <figure class="hidden-sm">
-                            <img src="/images/img4.png">
-                            <figcaption data-flex="stripe w">
+                            </div>
+                        </div>
+                        <div class="hidden-sm">
+                            <figure><img src="/images/img4.png"></figure>
+                            <div class="figcaption" data-flex="stripe w">
                                 <div data-flex="axis w">
                                     <h5><a href="#">lakeshore east</a></h5>
                                     <div><img src="/images/rating.png"></div>
                                 </div>
                                 <span data-flex="-center">Miami City</span>
                                 <span class="price" data-flex="-center center">15 899 &euro;</span>
-                            </figcaption>
-                        </figure>
+                            </div>
+                        </div>
                     </div>
                     <a href="#" class="btn btn-slide next"></a>
                 </div>

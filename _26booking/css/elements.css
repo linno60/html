@@ -135,9 +135,27 @@ body{
     color: #686868;
     font-size: 22px;
     font-weight: normal;
-    background: linear-gradient(#00aec8 100%, transparent 0%) left bottom / 47px 4px no-repeat,          linear-gradient(transparent 0%, transparent calc(100% - 1px), #ececec calc(100% - 1px), #ececec);
+    background: linear-gradient(#00aec8 100%, transparent 0%) left bottom / 47px 4px no-repeat,
+        linear-gradient(transparent 0%, transparent calc(100% - 1px), #ececec calc(100% - 1px), #ececec 100%);
     max-width: 940px;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .hdr {
+        border-bottom: 1px solid #ececec;
+        background: none;
+        position: relative;
+    }
+    .hdr:after{
+        content: "";
+        display: inline-block;
+        width: 47px;
+        height: 4px;
+        background: #00aec8;
+        position: absolute;
+        left: 0px;
+        bottom: -1px;
+    }
+} 
 .hdr strong{
     font-weight: 600;
 }
@@ -151,7 +169,8 @@ body{
     font-weight: 500;
     border-left: 1px solid rgba(47, 47, 47, 0.2);
     box-shadow: -1px 0px 0px 0px rgba(43, 43, 43, 0.1);
-    background: url(/images/icons/price.png)no-repeat right 3px bottom 3px,          linear-gradient(-45deg, rgba(95, 95, 95, 0.94), rgba(95, 95, 95, 0.94) 50%, transparent 50%) right bottom / 19px 20px no-repeat;
+    background: url(/images/icons/price.png)no-repeat right 3px bottom 3px,
+        linear-gradient(-45deg, rgba(95, 95, 95, 0.94), rgba(95, 95, 95, 0.94) 50%, transparent 50%) right bottom / 19px 20px no-repeat;
 }
 
 /*FORMS*/

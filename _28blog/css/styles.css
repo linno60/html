@@ -15,12 +15,30 @@ body{
     padding: 28rem 23rem 29rem 29rem;
     background: white url("/images/bottom.png")repeat-x left -1px bottom;
     border-right-width: 1px;
+    border-style: solid;
     border-image-slice: 0 13 0 0;
     border-image-width: 0px 13px 0px 0px;
     border-image-outset: 0px 14px 0px 0px;
     border-image-repeat: stretch stretch;
     border-image-source: url('/images/right.png');
+    position: relative;
 }
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .lwrap.wrap  {
+        border-right-width: 0px;
+    }
+    .lwrap.wrap:after{
+        content: "";
+        width: 13px;
+        height: 100%;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: -13px;
+        background: url('/images/right.png');
+    }
+}      
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus,
 .tabpanel h4 a:active, .tabpanel h4 a:hover, .tabpanel h4 a:focus, 
 .medications a:active, .medications a:hover, .medications a:focus,
@@ -52,11 +70,7 @@ header{
 }
 
 /*SLIDER*/
-.slider figcaption{
-    min-height: 120px;
-    position: static;
-}
-.slider figcaption a {
+.slider article figure + a {
     padding: 7rem 5px 6rem 10rem;
     text-transform: uppercase;
     color: #fff;
@@ -64,9 +78,8 @@ header{
     margin: 3px 0px 11rem 0px;
     font-size: 19px;
     display: inline-block;
-    min-height: 35px;
 }
-.slider figcaption a:before {
+.slider article figure + a:before {
     content: "";
     display: inline-block;
     border-left: 7px solid #fff;
@@ -74,16 +87,16 @@ header{
     border-bottom: 7px solid transparent;
     margin-right: 13rem;
 }
-.slider figure:nth-child(1) figcaption a {
-    background-color: #00aedb;
+.slider article:nth-child(1) figure + a {
+    background: #00aedb;
 }
-.slider figure:nth-child(2) figcaption a{
-    background-color: #f78f1d;
+.slider article:nth-child(2) figure + a{
+    background: #f78f1d;
 }
-.slider figure:nth-child(3) figcaption a{
-    background-color: #ec098d;
+.slider article:nth-child(3) figure + a{
+    background: #ec098d;
 }
-.slider figcaption p {
+.slider article figure ~ p {
     color: #6a6666;
     line-height: 20px;
     font-size: 15px;
@@ -91,7 +104,7 @@ header{
     max-width: 300px;
     font-weight: 700;
 }
-.slider figure{
+.slider article{
     margin-bottom: 10px;
     width: 32.7%;
 }
@@ -272,7 +285,7 @@ footer span, footer a {
 @media screen and (max-width: 640px) {
     .content h2{font-size: 22px;line-height: 25px;}
     .hidden{display: none;}
-    .slider figure {width: 49%;}
+    .slider article {width: 49%;}
     .sidebar > div{width: 49%;}
 }
 @media screen and (max-width: 480px) {

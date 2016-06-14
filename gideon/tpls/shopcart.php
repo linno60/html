@@ -34,6 +34,7 @@
                                     <td>Price</td>
                                     <td>Quantity</td>
                                     <td>Total</td>
+                                    <td></td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -44,6 +45,7 @@
                                     <td>$15</td>
                                     <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
                                     <td>$15</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#"><i class="icon-closepopup"></i></a></td>
@@ -52,6 +54,7 @@
                                     <td>$50</td>
                                     <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
                                     <td>$50</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#"><i class="icon-closepopup"></i></a></td>
@@ -60,15 +63,16 @@
                                     <td>$10</td>
                                     <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
                                     <td>$10</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
                         <form action="#" method="post" data-flex="axis w">
-                            <div data-flex="">
+                            <div data-flex="-center">
                                 <input name="checkout" type="password" placeholder="Enter Coupon Code">
                                 <button><span class="btn btn-default">Apply Coupon</span></button>
                             </div>
-                            <div data-flex="end">
+                            <div data-flex="-center end w">
                                 <button><span class="btn btn-default">Update Cart</span></button>
                                 <button><span class="btn btn-default">Proceed to Checkout</span></button>
                             </div>

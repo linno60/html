@@ -89,7 +89,7 @@ header.nav > .lwrap{
     margin-bottom: 22rem;
     border-bottom: 1px solid #c3c3c3;
 }
-.gallery figure{
+.gallery > div > div{
     margin-bottom: 20px;
     width: 48.5%;
 }
@@ -103,6 +103,21 @@ header.nav > .lwrap{
 .popular > div{
     background: #f0f0f0;
     padding: 15rem 16rem 10rem 21rem;
+}
+.gallery > div > div > span{
+    padding: 9rem 12rem;
+    background: #191923;
+    display: inline-block;
+}
+.gallery > div > div > span a{
+    color: #c3c3c3;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    display: inline-block;
+}
+.gallery > div > div > span > a:active, .gallery > div > div > span > a:hover, .gallery > div > div > span > a:focus{
+    text-decoration: underline;
 }
 
 /*SIDEBAR*/

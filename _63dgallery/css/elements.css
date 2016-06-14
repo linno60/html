@@ -87,20 +87,3 @@ body{
 .pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: black;
 }
-
-/*OTHER*/
-figcaption{
-    padding: 9rem 12rem;
-    background: #191923;
-    display: inline-block;
-}
-figcaption a{
-    color: #c3c3c3;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.015em;
-    display: inline-block;
-}
-figcaption a:active, figcaption a:hover, figcaption a:focus{
-    text-decoration: underline;
-}

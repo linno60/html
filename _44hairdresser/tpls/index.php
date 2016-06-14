@@ -93,9 +93,9 @@
                 <h2><i class="icon-heart"></i>our clients love our app..</h2>
                 <h4>just check out what they say:</h4>
             </hgroup>
-            <blockquote data-flex="col -center" data-childs="col -center">
+            <blockquote data-flex="col -center">
                 <q>"Praesent id tellus justo. Quisque dictum tortor volutpat, scelerisque lectus id, suscipit risus. Donec tellus dolor, vehicula nec fermentum a, bibendum ut neque. Duis at turpis odio. Morbi aliquam at lacus vel scelerisque. Cras sed orci id turpis laoreet aliquam in nec libero."</q>
-                <cite><span>Justin Lin</span><small>(Award winning hair stylist, NYC)</small></cite>
+                <cite data-flex="col -center"><span>Justin Lin</span><small>(Award winning hair stylist, NYC)</small></cite>
             </blockquote>
         </section> 
         <footer data-flex="col -center">

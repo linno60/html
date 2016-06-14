@@ -174,7 +174,7 @@
                         <h6>Your Company,</h6>
                         <address>Address line 1,</address>
                         <address>Full Adrdess line 2 here</address>
-                        <span>+ 1 234 5678,+46 987 6542</span>
+                        <span><span>+ 1 234 5678</span>, <span>+46 987 6542</span></span>
                         <a href="mailto:info@v2portfolio.com">info@v2portfolio.com</a>
                         <a href="mailto:sales@v2portfolio.com">sales@v2portfolio.com</a>
                     </div>

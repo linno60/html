@@ -123,47 +123,47 @@
                     <a href="#">t-shirts</a>
                     <a href="#">videos</a>
                 </div>
-                <div data-flex='stripe w' data-childs='vaxis'>
-                    <figure>
-                        <img src="images/img2.png">
+                <div class="gallery" data-flex='stripe w' data-childs='vaxis'>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-photo"></i></div>
-                        <figcaption><a href="#">galleries are funny</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">galleries are funny</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-tv-sm"></i></div>
-                        <figcaption><a href="#">a vimeo reel</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">a vimeo reel</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-volume"></i></div>
-                        <figcaption><a href="#">love for old cameras</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">love for old cameras</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-note"></i></div>
-                        <figcaption><a href="#">detailed project page</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">detailed project page</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-tv-sm"></i></div>
-                        <figcaption><a href="#">youtube video</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">youtube video</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-clip"></i></div>
-                        <figcaption><a href="#">another external link</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">another external link</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-photo"></i></div>
-                        <figcaption><a href="#">a lightbox image</a></figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/img2.png">
+                        <a href="#">a lightbox image</a>
+                    </div>
+                    <div>
+                        <figure><img src="images/img2.png"></figure>
                         <div class="lbl lbl-figure"><i class="icon-volume"></i></div>
-                        <figcaption><a href="#">the dark tempest</a></figcaption>
-                    </figure>            
+                        <a href="#">the dark tempest</a>
+                    </div>            
                 </div>
                 <hr>
                 <a href='#' class="more">browse all</a>

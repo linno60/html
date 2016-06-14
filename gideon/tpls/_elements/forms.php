@@ -22,12 +22,16 @@
     <input type="image" src="/images/icons/searchgrey.png">
     <input type="search" name="search" placeholder="Search">
 </form>
-<input name="checkout" type="text" placeholder="Company Name">
-<textarea name="checkout" placeholder="Note about your order, Eg, Special nots for your delivery"></textarea>
+<form action="#" method="post" data-flex="axis" class="search-notfound">
+    <input type="search" name="search" placeholder="Search again">
+    <input type="image" src="/images/icons/searchgrey.png">
+</form>
 <form action="#" method="post" data-flex class="search-sidebar">
     <input type="search" name="search" placeholder="Search">
     <button class="btn btn-search"></button>
 </form>
+<input name="checkout" type="text" placeholder="Company Name">
+<textarea name="checkout" placeholder="Note about your order, Eg, Special nots for your delivery"></textarea>
 <input type="text" name="post" placeholder="Name*" required>
 <textarea name="post" placeholder="Message*" required></textarea>
 <input type="text" name="contact" placeholder="Name*" required>
