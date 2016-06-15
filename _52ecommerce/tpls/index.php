@@ -113,10 +113,10 @@
                         <input type="email" name="email">
                         <a href='#' class='btn btn-join'>Join Now</a>                        
                         <ul class="links-social" data-childs="-start">
-                            <li><a href="#" data-flex="-center"><i class="icon-tw"></i>Follow us on Twitter</a></li>
-                            <li><a href="#" data-flex="-center"><i class="icon-fb"></i>Become our fan on Facebook</a></li>
-                            <li><a href="#" data-flex="-center"><i class="icon-in"></i>Connect with us on LinkedIn</a></li>
-                            <li><a href="#" data-flex="-center"><i class="icon-mail"></i>Send us your email enquiries</a></li>
+                            <li><a href="#" data-flex="-center"><i class="icon-tw"></i><span>Follow us on Twitter</span></a></li>
+                            <li><a href="#" data-flex="-center"><i class="icon-fb"></i><span>Become our fan on Facebook</span></a></li>
+                            <li><a href="#" data-flex="-center"><i class="icon-in"></i><span>Connect with us on LinkedIn</span></a></li>
+                            <li><a href="#" data-flex="-center"><i class="icon-mail"></i><span>Send us your email enquiries</span></a></li>
                         </ul>
                     </form>
                     <div class="payment" data-flex='col -center'>

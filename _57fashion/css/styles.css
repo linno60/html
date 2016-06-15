@@ -5,8 +5,7 @@ figure img, a > img{
     display: block;
 }
 .lwrap{
-    max-width: 1010px;
-    padding: 0px 5px;
+    max-width: 1000px;
 }
 body{
     background: url("/images/bg.png");
@@ -245,6 +244,7 @@ footer > div:first-child #logo-alt + em{
     .links-slider a{width: calc(100% / 3);flex-basis: auto;}
     .sidebar, .sidebar.latest{width: 25%;}
     .content-wrap, .content{padding: 5px;}
+    footer{margin-bottom: 0px;}
 }
 @media (max-width: 640px) {
     .content{width: 100%;}

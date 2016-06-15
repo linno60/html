@@ -7,13 +7,10 @@ figure img{
     height: 100%;
     display: block;
 }
-.lwrap{
-    max-width: 1048px;
+body > .lwrap{
+    max-width: 1036px;
     padding: 0px 10px;
-}
-header.lwrap, footer.lwrap{
-    max-width: 940px;
-    padding: 0px;
+    min-height: 100%;
 }
 .slider-wrap{
     margin: 43rem 0px 44rem 0px;
@@ -26,7 +23,9 @@ section > a:last-child{
 }
 
 /*HEADER*/
-header > div{
+header.lwrap{
+    max-width: 940px;
+    padding: 0px;
     border-top: 5rem solid rgba(0,0,0,.3);
 }
 
@@ -130,9 +129,11 @@ header > div{
 }
 
 /*FOOTER*/
-footer > div{
+footer.lwrap{
+    width: 100%;
     padding: 49rem 0px 20rem 0px;
     border-bottom: 14px solid rgba(0,0,0,.3);
+    max-width: 940px;
 }
 footer span, footer span a {
     color: #9e9e9e;

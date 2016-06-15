@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 1010;
+            var LAYOUT_WIDTH = 1000;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';

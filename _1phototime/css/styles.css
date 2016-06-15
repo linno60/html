@@ -10,6 +10,9 @@ figure img{
 .links-social{
     margin-top: 213rem;
 }
+body > div{
+    flex-grow: 1;
+}
 header{    
     background: url('/images/bg1.png')no-repeat; 
     background-size: cover;
@@ -158,6 +161,8 @@ article p a {
     margin: 11rem 12rem 11rem 9rem;
 }
 footer.lwrap{
+    width: 100%;
+    flex-shrink: 0;
     max-width: 1061px;
     padding: 36rem 18rem 35rem 10px;
 }

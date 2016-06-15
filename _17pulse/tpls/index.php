@@ -19,54 +19,54 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap">
-                <div data-flex="axis">
-                    <a href="/" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="138" height="77" alt="Pulse">
-                    </a>
-                    <nav class="links-nav" data-flex="-center end w">
-                        <a href="#" class="active">home</a>
-                        <a href="#">services</a>
-                        <a href="#">portfolio</a>
-                        <a href="#">products</a>
-                        <a href="#">blog</a>
-                        <a href="#">contact us</a>
-                    </nav>
-                </div> 
-                <div class="slider" data-flex="stripe" data-flex-640="vstripe r">
-                    <div data-flex="-end">
-                        <figure><img src="/images/img1.png" width="328" height="478" alt=""></figure>
-                        <figure><img src="/images/img2.png" width="514" height="312" alt=""></figure>
-                        <figure><img src="/images/img3.png" width="268" height="419" alt=""></figure>
-                    </div>
-                    <div data-flex="vaxis">
-                        <div>
-                            <h1>Download Excellent PSD Templates</h1>
-                            <p>GraphicsFuel.com is a design blog where you can download high quality &ldquo;Photoshop Freebies&rdquo; with the original source files in .PSD format.&ensp;Absolutely free!</p>
-                            <a href="#" class="btn btn-browse" data-childs="-center center"><em>Browse Templates</em></a>
+    <body data-flex="col between">
+        <div>
+            <header>
+                <div class="lwrap">
+                    <div data-flex="axis">
+                        <a href="/" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="138" height="77" alt="Pulse">
+                        </a>
+                        <nav class="links-nav" data-flex="-center end w">
+                            <a href="#" class="active">home</a>
+                            <a href="#">services</a>
+                            <a href="#">portfolio</a>
+                            <a href="#">products</a>
+                            <a href="#">blog</a>
+                            <a href="#">contact us</a>
+                        </nav>
+                    </div> 
+                    <div class="slider" data-flex="stripe" data-flex-640="vstripe r">
+                        <div data-flex="-end">
+                            <figure><img src="/images/img1.png" width="328" height="478" alt=""></figure>
+                            <figure><img src="/images/img2.png" width="514" height="312" alt=""></figure>
+                            <figure><img src="/images/img3.png" width="268" height="419" alt=""></figure>
                         </div>
-                        <div class="links-controls" data-flex="center">
-                            <a href="#"></a>
-                            <a href="#" class="active"></a>
-                            <a href="#"></a>
+                        <div data-flex="vaxis">
+                            <div>
+                                <h1>Download Excellent PSD Templates</h1>
+                                <p>GraphicsFuel.com is a design blog where you can download high quality &ldquo;Photoshop Freebies&rdquo; with the original source files in .PSD format.&ensp;Absolutely free!</p>
+                                <a href="#" class="btn btn-browse" data-childs="-center center"><em>Browse Templates</em></a>
+                            </div>
+                            <div class="links-controls" data-flex="center">
+                                <a href="#"></a>
+                                <a href="#" class="active"></a>
+                                <a href="#"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <section class="about">
-            <div class="lwrap" data-flex="axis" data-flex-640="vaxis"> 
-                <div data-flex="-center">
-                    <i class="icon-case"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id accumsan massa. Donec suscipit commodo velit. Fusce pharetra mi sit amet felis auctor tempor. Donec vel odio enim, id ultricies odio. Ut euismod arcu a tortor consectetur eu lobortis augue congue. Duis quis ipsum quam.</p>               
+            </header>
+            <section class="about">
+                <div class="lwrap" data-flex="axis" data-flex-640="vaxis"> 
+                    <div data-flex="-center">
+                        <i class="icon-case"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id accumsan massa. Donec suscipit commodo velit. Fusce pharetra mi sit amet felis auctor tempor. Donec vel odio enim, id ultricies odio. Ut euismod arcu a tortor consectetur eu lobortis augue congue. Duis quis ipsum quam.</p>               
+                    </div>
+                    <a href="#" class="more">learn more</a>
                 </div>
-                <a href="#" class="more">learn more</a>
-            </div>
-        </section>
-        <section class="content">
-            <div class="lwrap">
+            </section>
+            <section class="lwrap content">
                 <div data-flex="stripe" data-flex-480="vstripe">
                     <article>
                         <h4>Service Text Heading #1</h4>
@@ -114,8 +114,8 @@
                     </div>
                     <a href="#" class="btn btn-slide next"><i class="icon-right"></i></a>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <footer>
             <div class="lwrap" data-flex="stripe" data-flex-640="stripe w">
                 <div>

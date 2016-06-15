@@ -69,14 +69,18 @@ body{
     color: #434343;
     line-height: 16px;
     display: inline-flex;
-    max-width: 180px;
+    width: 100%;
+}
+.links-social li a span{
+    display: inline-block;
+    max-width: calc(100% - 32px - 28rem);
 }
 .links-social li a i{
     flex-shrink: 0;
     margin-right: 28rem;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-top a:active, .links-top a:hover, .links-top a:focus,
-.links-social a:active, .links-social a:hover, .links-social a:focus{
+.links-social a:active span, .links-social a:hover span, .links-social a:focus span{
     text-decoration: underline;
 }
 .links-footer a{

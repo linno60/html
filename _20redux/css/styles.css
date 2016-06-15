@@ -1,4 +1,7 @@
 /*COMMON*/
+body{
+    background: url('/images/content-bg.png');      
+}
 figure img{
     width: 100%;
     height: 100%;
@@ -16,8 +19,8 @@ figure img{
 
 /*HEADER*/
 header .lwrap{
-  padding: 34rem 10px 0px 10px;
-  max-width: 1078px;
+    padding: 34rem 10px 0px 10px;
+    max-width: 1078px;
 }
 header{
     text-align: center;
@@ -26,7 +29,7 @@ header{
     box-shadow: inset 0px -10px 0px 0px rgba(255,255,255,.03), inset 0px 1px 0px #343d4b;
 }
 #logo{
-     margin: 4rem 0px 0px 1rem;
+    margin: 4rem 0px 0px 1rem;
 }
 header .lwrap > div{
     width: 100%;
@@ -86,6 +89,10 @@ header p{
 }
 
 /*FEATURED*/
+.feature{
+    position: relative;
+    box-shadow: 0px 10px 0px 0px rgba(227,224,215,.5), 0px 1px 1px 0px rgba(0,0,0,0.5); 
+}
 .feature figure{
     position: relative;
     float: left;
@@ -136,11 +143,7 @@ header p{
 }
 
 /*ABOUT*/
-.content{
-    background: url('/images/content-bg.png');
-    box-shadow: inset 0px -9px 0px 0px rgba(227,224,215,.5), inset 0px 10px 0px 0px rgba(227,224,215,.5), inset 0px 1px 1px 0px rgba(0,0,0,0.5);   
-}
-.content .lwrap{
+.content.lwrap{
     padding: 56rem 10px 50rem 10px;
 }
 .about .btn-plus{
@@ -276,7 +279,7 @@ header p{
     border-bottom: none;
 }
 .blog blockquote figure{
-        margin: 2rem 15rem 0px 0px;
+    margin: 2rem 15rem 0px 0px;
 }
 .blog blockquote cite{
     font-style: normal;
@@ -306,6 +309,9 @@ header p{
 }
 
 /*FOOTER*/
+footer{
+    box-shadow: 0px -9px 0px 0px rgba(227,224,215,.5);
+}
 .footer .lwrap{
     padding: 38rem 11px 22rem 10rem;
 }
@@ -375,11 +381,12 @@ footer a:active, footer a:hover, footer a:focus{
 
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
-.footer > .lwrap > div:first-child, .footer > .lwrap > div:last-child{width: 49%;}
+    .footer > .lwrap > div:first-child, .footer > .lwrap > div:last-child{width: 49%;}
 }
 @media (max-width: 640px) {
-.about > div {width: 48%;}
-.about > div:first-child {width: 100%;}
+    .about > div {width: 48%;}
+    .about > div:first-child {width: 100%;}
 }
-@media (max-width: 480px) {.callout{text-align: center;}
+@media (max-width: 480px) {
+    .callout{text-align: center;}
 }

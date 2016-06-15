@@ -7,6 +7,9 @@ figure img{
     max-width: 1110px;
     padding: 0px 10px;
 }
+body > div{
+    flex-grow: 1;
+}
 header h1{
     text-align: center;
     font-size: 59rem;
@@ -104,6 +107,7 @@ header > .lwrap > div > a{
     text-decoration: underline;
 }
 .about-wrap{
+    flex-shrink: 0;
     background: #a99b77;
     padding: 77rem 10px 70rem 10px;
 }
@@ -135,6 +139,7 @@ header > .lwrap > div > a{
     font-size: 20px;
 }
 .twitter-wrap{
+    flex-shrink: 0;
     background: #535153;
 }
 .twitter-wrap .lwrap{
@@ -147,22 +152,23 @@ header > .lwrap > div > a{
     padding-left: 19rem;
 }
 footer{
+    flex-shrink: 0;
     background: #414141;
 }
-footer .lwrap{
+.footer{
     padding: 104rem 13px 102rem 10px;
     max-width: 1174px;
 }
-footer .lwrap > div{
+.footer > div{
     max-width: 320px;
 }
-footer h4{
+.footer h4{
     text-transform: uppercase;
     font-size: 20px;
     color: #fff;
     margin-bottom: 11rem;
 }
-footer p{
+.footer p{
     text-transform: uppercase;
     font-size: 10px;
     line-height: 20px;
@@ -170,7 +176,7 @@ footer p{
     margin-bottom: 10px;
     letter-spacing: -0.01em;
 }
-footer span{
+.footer span{
     font-size: 18px;
     color: #fff;
     margin: 8px 0px 4px 10px;
@@ -183,7 +189,7 @@ footer span{
     .product{width: 32%;}
 }
 @media (max-width: 640px) {
-    footer .lwrap > div{max-width: 640px;}
+    .footer > div{max-width: 640px;}
     .grid > .product:last-child{display: none;}
     .product{width: 49%;}
     header h1 {font-size: 34px;}

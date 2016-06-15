@@ -46,6 +46,7 @@ address{
     line-height: 18px;
     text-indent: 2px;
     letter-spacing: -0.03em;
+    display: inline-block;
 }
 .header-right{
     background: #7acec3; 
@@ -88,6 +89,7 @@ address{
     text-transform: uppercase;
     line-height: 14px;
     letter-spacing: 0.03em;
+    display: inline-block;
 }
 .header-right .links-nav a{
     letter-spacing: -0.02em;
@@ -359,6 +361,7 @@ address{
     text-transform: uppercase;
     line-height: 14px;
     letter-spacing: -0.01em;
+    display: inline-block;
 }
 .studio-right h5{
     max-width: 360px;
@@ -440,8 +443,11 @@ address{
     padding: 78rem 10px 42rem 101rem;
 }
 .news-right article{
-    width: 48%;  
+    width: 48%;
     margin-bottom: 20px;
+}
+.news-right > div > div{
+    max-width: 100%;
 }
 .news-right article h2{
     text-transform: uppercase;
@@ -480,6 +486,7 @@ address{
 .footer address span{
     line-height: 14px;
     letter-spacing: 0.035em;
+    display: inline-block;
 }
 .footer address > div{
     margin-top: 15rem;

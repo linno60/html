@@ -114,6 +114,9 @@ header > .lwrap{
     padding: 48rem 19rem 22rem 10px;
     max-width: 902px;
 }
+@media all and (-ms-high-contrast:none){
+    *::-ms-backdrop, .featured.lwrap { min-height: 688px; } /* IE11 */
+}
 .featured > div{
     padding: 20rem 20rem 29rem 20rem;
     width: 29%;

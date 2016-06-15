@@ -3,6 +3,10 @@ figure img, #logo img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 i{
     flex-shrink: 0;
 }
@@ -75,8 +79,8 @@ i{
     position: relative;
     margin: 66rem 49rem 0px 10px;
 }
-.links-contact a:active + .info, .links-contact a:focus + .info, .links-contact a + .info:hover,
-.links-map a:active .info, .links-map a:focus .info, .links-map a .info:hover{
+.links-contact a:active + .info, .links-contact a:focus + .info, .links-contact a:hover + .info, .links-contact a + .info:hover,
+.links-map a:active .info, .links-map a:focus .info, .links-map a .info:hover, .links-map a:hover .info{
     display: flex;
 }
 .links-contact a:active > .icon-phonesm, .links-contact a:hover > .icon-phonesm, .links-contact a:focus > .icon-phonesm{background: url('/images/icons/phonesm-hover.png');}
@@ -330,6 +334,7 @@ article p {
     height: 100%;
 }
 footer{
+    flex-shrink: 0;
     background: #2b2c2d;
 }
 .footer-bottom > span{
@@ -345,8 +350,9 @@ footer{
     margin: 6px 6px 1px 6px;
 }
 .form-mail{
+    width: 100%;
     background: url(/images/icons/mail.png)no-repeat 21rem center;
-    padding: 10rem 10px 10rem 74rem;
+    padding: 10rem 9rem 10rem 74rem;
     height: 66px;
     border-radius: 10px;
     background-color: #393b3c;

@@ -104,7 +104,7 @@ header{
 }
 .content > div{
     border-right: 1px solid #2b2b2b;
-    padding: 18rem 60rem 12rem 0px;
+    padding: 18rem 50rem 12rem 0px;
     width: 32.5%;
 }
 .content > div:first-child{
@@ -211,15 +211,18 @@ footer{
     margin: -4px 0px 19px 0px;
 }
 .copyright .lwrap{
-    padding: 19rem 80rem 37px 80rem;
+    padding: 7rem 78rem 37px 85rem;
     position: relative;
+}
+.copyright .btn-anchor{
+    margin: 8rem 0rem 0px 0rem;
 }
 .copyright span{
     color: #4d4d4d;
     font-size: 12px;
     text-align: center;
     padding: 0px 10px;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.008em;
 }
 @media (max-width: 800px) {
     .links-nav > a {margin: 2px 24rem 0px;}

@@ -19,86 +19,86 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap" data-flex='vaxis'>
-                <div data-flex='axis' data-flex-480='vaxis'>
-                    <div data-flex="-center w">
-                        <a href="/" title="Return to the homepage" id="logo">
-                            <img src="/images/logo.png" width="96" height="32" alt="Redux">
-                        </a>
-                        <small>|&ensp;Super-Dooper Business</small>
+    <body data-flex="col between">
+        <div>
+            <header>
+                <div class="lwrap" data-flex='vaxis'>
+                    <div data-flex='axis' data-flex-480='vaxis'>
+                        <div data-flex="-center w">
+                            <a href="/" title="Return to the homepage" id="logo">
+                                <img src="/images/logo.png" width="96" height="32" alt="Redux">
+                            </a>
+                            <small>|&nbsp;&nbsp;Super-Dooper Business</small>
+                        </div>
+                        <nav class="links-nav" data-flex="end w" data-childs="-center center" data-flex-480='center w'>
+                            <a href='#'>Features<i class='icon-arrow'></i></a>
+                            <a href='#'>Templates<i class='icon-arrow'></i></a>
+                            <a href='#'>Shortcodes</a>
+                            <a href='#'>Portfolio</a>
+                            <a href='#'>Blog</a>
+                            <a href='#' class='active'>Contact</a>
+                        </nav>
+                    </div> 
+                    <h1>The Theme You've Been Waiting For. Seriously.</h1>
+                    <p>A beautiful, unique, powerful, WordPress theme that oooozes quality, is jammed-packed with features, is ripe for customisation and better yet, kind to your wallet - sounds almost too good to be true!</p>
+                    <div class="slider" data-flex='axis'>
+                        <a href="#"><i class="icon-prev"></i></a>
+                        <div data-flex='-end between'> 
+                            <figure><img src="/images/left.png"></figure>
+                            <figure class='cover'><img src="/images/middle.png"></figure>
+                            <figure><img src="/images/right.png"></figure>
+                        </div>
+                        <a href="#"><i class="icon-next"></i></a>
+                    </div>  
+                </div>
+            </header>
+            <section class='feature'>
+                <div class='lwrap' data-flex='stripe' data-flex-480='vstripe'>
+                    <div>
+                        <article class='clearfix'>
+                            <figure>
+                                <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
+                                <img src="images/img1.png">
+                            </figure>
+                            <h6>Pixel Perfect Design</h6>
+                            <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
+                        </article> 
+                        <article class='clearfix'>
+                            <figure>
+                                <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
+                                <img src="images/img1.png">
+                            </figure>
+                            <h6>Pixel Perfect Design</h6>
+                            <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
+                        </article> 
                     </div>
-                    <nav class="links-nav" data-flex="end w" data-childs="-center center" data-flex-480='center w'>
-                        <a href='#'>Features<i class='icon-arrow'></i></a>
-                        <a href='#'>Templates<i class='icon-arrow'></i></a>
-                        <a href='#'>Shortcodes</a>
-                        <a href='#'>Portfolio</a>
-                        <a href='#'>Blog</a>
-                        <a href='#' class='active'>Contact</a>
-                    </nav>
-                </div> 
-                <h1>The Theme You've Been Waiting For. Seriously.</h1>
-                <p>A beautiful, unique, powerful, WordPress theme that oooozes quality, is jammed-packed with features, is ripe for customisation and better yet, kind to your wallet - sounds almost too good to be true!</p>
-                <div class="slider" data-flex='axis'>
-                    <a href="#"><i class="icon-prev"></i></a>
-                    <div data-flex='-end between'> 
-                        <figure><img src="/images/left.png"></figure>
-                        <figure class='cover'><img src="/images/middle.png"></figure>
-                        <figure><img src="/images/right.png"></figure>
+                    <div>
+                        <article class='clearfix'>
+                            <figure>
+                                <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
+                                <img src="images/img1.png">
+                            </figure>
+                            <h6>Pixel Perfect Design</h6>
+                            <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
+                        </article> 
+                        <article class='clearfix'>
+                            <figure>
+                                <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
+                                <img src="images/img1.png">
+                            </figure>
+                            <h6>Pixel Perfect Design</h6>
+                            <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
+                        </article> 
                     </div>
-                    <a href="#"><i class="icon-next"></i></a>
-                </div>  
-            </div>
-        </header>
-        <section class='feature'>
-            <div class='lwrap' data-flex='stripe' data-flex-480='vstripe'>
-                <div>
-                    <article class='clearfix'>
-                        <figure>
-                            <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
-                            <img src="images/img1.png">
-                        </figure>
+                    <div>                        
                         <h6>Pixel Perfect Design</h6>
-                        <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
-                    </article> 
-                    <article class='clearfix'>
-                        <figure>
-                            <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
-                            <img src="images/img1.png">
-                        </figure>
-                        <h6>Pixel Perfect Design</h6>
-                        <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
-                    </article> 
+                        <p>Gorgeous design with time and attention dedicated to every pixel. Gorgeous design with time and attention dedicated to every pixel. Time and attention</p>
+                        <a href='#' class='btn btn-default'>Feature Tour</a>
+                        <a href='#' class='btn btn-default'>Purchase Now!</a>
+                    </div>
                 </div>
-                <div>
-                    <article class='clearfix'>
-                        <figure>
-                            <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
-                            <img src="images/img1.png">
-                        </figure>
-                        <h6>Pixel Perfect Design</h6>
-                        <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
-                    </article> 
-                    <article class='clearfix'>
-                        <figure>
-                            <a href='#' class='btn btn-plus'><i class='icon-plus'></i></a>
-                            <img src="images/img1.png">
-                        </figure>
-                        <h6>Pixel Perfect Design</h6>
-                        <p>Gorgeous design with time and attention dedicated to each and every pixel.</p>
-                    </article> 
-                </div>
-                <div>                        
-                    <h6>Pixel Perfect Design</h6>
-                    <p>Gorgeous design with time and attention dedicated to every pixel. Gorgeous design with time and attention dedicated to every pixel. Time and attention</p>
-                    <a href='#' class='btn btn-default'>Feature Tour</a>
-                    <a href='#' class='btn btn-default'>Purchase Now!</a>
-                </div>
-            </div>
-        </section>
-        <section class='content'>
-            <div class='lwrap'>
+            </section>
+            <section class='content lwrap'>
                 <div class='about' data-flex='stripe w' data-flex-480='vstripe'>
                     <div>
                         <h5>Endlessly configurable content.</h5>
@@ -194,8 +194,8 @@
                         </blockquote>                    
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <footer>
             <section class='footer'>
                 <div class='lwrap' data-flex="stripe" data-flex-480='vstripe'>

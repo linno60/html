@@ -24,9 +24,9 @@ button > .btn{
     margin-left: 5px;
 }
 .btn-default, .btn-alt{
-    min-width: 140px;
+    min-width: 140rem;
     height: 42px;
-    padding: 0px 5px;
+    padding: 0px 25rem;
     font-size: 12px;
     text-align: center;
 }
@@ -543,6 +543,20 @@ select {
     font-size: 22px;
     line-height: 30px;
 }
+.thumbs-sm{
+    padding: 20px 0px 20px 0px;
+}
+.thumbs-sm > a.prev{
+    padding-left: 20px;
+    background: url(/images/icons/prevsm.png)no-repeat left 2px;
+}
+.thumbs-sm > a.next{
+    padding-right: 20px;
+    background: url(/images/icons/nextsm.png)no-repeat right 2px;
+}
+.thumbs-sm > a:active, .thumbs-sm > a:hover, .thumbs-sm > a:focus{
+    text-decoration: underline;
+}
 
 /*LABELS*/
 .lbl-default{
@@ -660,6 +674,9 @@ select {
     display: inline-block;
     margin-right: 5px;
 }
+.list-marker{
+    padding-bottom: 20px;
+}
 .list-marker li{
     font-size: 14px;
     padding: 0px 0px 5px 20px;
@@ -727,6 +744,7 @@ select {
 .acc-faqs{
     border: 1px solid #f1f1f1;
     border-top: none;
+    margin-bottom: 30px;
 }
 .acc-faqs > a{
     color: #212121;
@@ -886,5 +904,6 @@ select {
     line-height: 26px;
     text-transform: uppercase;
     padding-bottom: 10px;
+    margin-bottom: 10px;
     background: linear-gradient(#ff6766 100%, transparent 0%) left bottom / 60px 2px no-repeat;
 }

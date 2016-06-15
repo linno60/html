@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body data-flex="col between">
+    <body data-flex="col">
         <div>
             <?= require_tpl('common/header') ?>
             <?= require_tpl('common/slider') ?>

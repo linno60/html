@@ -11,6 +11,9 @@ figure img, #logo img{
 i[class^="icon-"] {
     flex-shrink: 0;
 }
+body{
+    background: url('/images/bg2.png');
+}
 
 /*HEADER*/
 header{
@@ -61,8 +64,8 @@ header .lwrap{
     left: 11px;
 }
 .slider figure:last-child{
- bottom: -1px;
- right: -2px;
+    bottom: -1px;
+    right: -2px;
 }
 
 /*ABOUT*/
@@ -91,20 +94,20 @@ header .lwrap{
 }
 
 /*CONTENT*/
-.content{
-    background: url('/images/bg2.png');
-}
-.content .lwrap{
+.lwrap.content{
     max-width: 1000px;
     padding: 52rem 20rem 34rem 20rem;
 }
-.content .lwrap > div{
+@media all and (-ms-high-contrast:none){
+    *::-ms-backdrop, .lwrap.content { min-height: 750px; } /* IE11 */
+}
+.content > div{
     margin-bottom: 34rem;
     background: #1b1b1c;
     border: 1px solid #000;
     box-shadow: 0px 1px 0px 0px #8a8a8a;
 }
-.content .lwrap > div:first-child{
+.content > div:first-child{
     padding: 33rem 22rem 3rem 44rem;
 }
 .content article{
@@ -206,23 +209,11 @@ footer p{
     .about p{border-right: none;}
     .about .lwrap > div{border-bottom: 1px solid #1b1b1c;}
     footer .lwrap > div, footer .lwrap > div:first-child, footer .lwrap > div:last-child{width: 48%;padding:0px;}
-    .slider > div:first-child {
-    display: none;
-}
-.slider h1 {
-    color: #FFF;
-    font-family: Georgia;
-    font-size: 39px;
-    line-height: 40px;
-    font-weight: normal;
-    margin: 0px 0px 10px 0px;
-    text-align: left;
-}
+    .slider > div:first-child {display: none;}
+    .slider h1 {margin: 0px 0px 10px 0px;text-align: left;}
 }
 @media (max-width: 480px) {
     .hidden-sm{display: none;}
-    .about i {
-   float: left;
-}
-.about .lwrap > div{display: block;}
+    .about i {float: left;}
+    .about .lwrap > div{display: block;}
 }

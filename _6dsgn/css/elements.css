@@ -40,6 +40,7 @@ a:active, a:hover, a:focus{
     text-transform: uppercase;
     padding-left: 29px;
     letter-spacing: 0.035em;
+    display: inline-block;
 }
 .links-default a.active, .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: none;

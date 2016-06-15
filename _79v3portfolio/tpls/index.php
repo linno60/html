@@ -62,21 +62,21 @@
                 <div data-flex-480="stripe">
                     <div>
                         <h3>contact me</h3>
-                    <address data-flex="col" data-childs="-center">
-                        <a href="mailto:graphicsfuel@gmail.com" data-flex="w"><div data-flex="-center"><i class="icon-mail"></i></div>graphicsfuel@gmail.com</a>
-                        <span><div data-flex="-center"><i class="icon-phone"></i></div>123-456-7890</span>
-                        <a href="#"><div data-flex="-center"><i class="icon-download"></i></div>Download My CV</a>
-                    </address>
+                        <address data-flex="col" data-childs="-center">
+                            <a href="mailto:graphicsfuel@gmail.com" data-flex="w"><div data-flex="-center"><i class="icon-mail"></i></div>graphicsfuel<wbr>@gmail.com</a>
+                            <span><div data-flex="-center"><i class="icon-phone"></i></div>123-456-7890</span>
+                            <a href="#"><div data-flex="-center"><i class="icon-download"></i></div>Download My CV</a>
+                        </address>
                     </div>
                     <div>
                         <h3>connect with me</h3>
-                    <div class="links-social" data-flex="w">
-                        <a href="#"><i class="icon-tw"></i></a>
-                        <a href="#"><i class="icon-fb"></i></a>
-                        <a href="#"><i class="icon-in"></i></a>
-                        <a href="#"><i class="icon-fl"></i></a>
-                        <a href="#"><i class="icon-db"></i></a>
-                    </div>
+                        <div class="links-social" data-flex="w">
+                            <a href="#"><i class="icon-tw"></i></a>
+                            <a href="#"><i class="icon-fb"></i></a>
+                            <a href="#"><i class="icon-in"></i></a>
+                            <a href="#"><i class="icon-fl"></i></a>
+                            <a href="#"><i class="icon-db"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,8 @@
                 </div>
             </div>
             <div class="copyright">
-                <div class="lwrap" data-flex="-center center">
+                <div class="lwrap" data-flex="axis">
+                    <span></span>
                     <span>Copyright &copy; Portfolio Theme. All Rights Reserved. Designed by GraphicsFuel.com</span>
                     <a href="#" class="btn btn-anchor"><i class="icon-top"></i></a>
                 </div>
