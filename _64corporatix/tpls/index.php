@@ -19,88 +19,90 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class='lwrap' data-flex='axis'>
-                <a href="/" title="Return to the homepage">
-                    <img src="/images/logo.png" width="219" height="58" alt="">
-                </a>
-                <nav class="links-nav" data-flex="end w" data-childs="-center center">
-                    <a href="#" class="active">Home</a>
-                    <a href="#">Services</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Testimonial</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact Us</a>
-                </nav>
-            </div>
-        </header>
-        <div class="slider">
-            <div class="lwrap" data-flex="col -center">
-                <figure><img src="/images/header.png" width="934" height="437" alt=""></figure>
-                <div class="links-controls" data-flex="center">
-                    <a href="#" class="active"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class='lwrap' data-flex='axis'>
+                    <a href="/" title="Return to the homepage">
+                        <img src="/images/logo.png" width="219" height="58" alt="">
+                    </a>
+                    <nav class="links-nav" data-flex="end w" data-childs="-center center">
+                        <a href="#" class="active">Home</a>
+                        <a href="#">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Testimonial</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact Us</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="slider">
+                <div class="lwrap" data-flex="col -center">
+                    <figure><img src="/images/header.png" width="934" height="437" alt=""></figure>
+                    <div class="links-controls" data-flex="center">
+                        <a href="#" class="active"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="blurb lwrap" data-flex="axis" data-flex-640="vaxis">
-            <span>We can make your online business easy & usable for all walks of people</span>
-            <a href="#" class="btn btn-start">let's start<strong>your website</strong></a>
-        </div>
-        <div class="lwrap">            
-            <div class="works" data-flex="stripe w">
-                <article>
-                    <figure><img src="/images/img1.png" width="181" height="111" alt=""></figure>
-                    <h3>Business Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
-                    <a class='btn btn-default' href='#'>Read More ></a>
-                </article>
-                <article>
-                    <figure><img src="/images/img2.png" width="181" height="111" alt=""></figure>
-                    <h3>Business Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
-                    <a class='btn btn-default' href='#'>Read More ></a>
-                </article>
-                <article>
-                    <figure><img src="/images/img3.png" width="181" height="111" alt=""></figure>
-                    <h3>Business Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
-                    <a class='btn btn-default' href='#'>Read More ></a>
-                </article>
-                <article>
-                    <figure><img src="/images/img4.png" width="181" height="111" alt=""></figure>
-                    <h3>Business Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
-                    <a class='btn btn-default' href='#'>Read More ></a>
-                </article>
+            <div class="blurb lwrap" data-flex="axis" data-flex-640="vaxis">
+                <span>We can make your online business easy & usable for all walks of people</span>
+                <a href="#" class="btn btn-start">let's start<strong>your website</strong></a>
             </div>
-            <div class="about" data-flex="stripe" data-flex-640="vstripe">
-                <div data-flex="stripe w">
+            <div class="lwrap">            
+                <div class="works" data-flex="stripe w">
                     <article>
-                        <h4 data-flex="-center"><i class="icon-user"></i><span>Title Heading</span></h4>
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        <figure><img src="/images/img1.png" width="181" height="111" alt=""></figure>
+                        <h3>Business Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
+                        <a class='btn btn-default' href='#'>Read More ></a>
                     </article>
                     <article>
-                        <h4 data-flex="-center"><i class="icon-globe"></i><span>Title Heading</span></h4>
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        <figure><img src="/images/img2.png" width="181" height="111" alt=""></figure>
+                        <h3>Business Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
+                        <a class='btn btn-default' href='#'>Read More ></a>
                     </article>
                     <article>
-                        <h4 data-flex="-center"><i class="icon-compass"></i><span>Title Heading</span></h4>
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        <figure><img src="/images/img3.png" width="181" height="111" alt=""></figure>
+                        <h3>Business Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
+                        <a class='btn btn-default' href='#'>Read More ></a>
                     </article>
                     <article>
-                        <h4 data-flex="-center"><i class="icon-lamp"></i><span>Title Heading</span></h4>
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        <figure><img src="/images/img4.png" width="181" height="111" alt=""></figure>
+                        <h3>Business Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. </p>
+                        <a class='btn btn-default' href='#'>Read More ></a>
                     </article>
                 </div>
-                <article>
-                    <h4>About the Company</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. Nulla erat orci, adipiscing vel molestie ac, vehicula in dui. Proin vel lorem in tellus placerat eleifend. Duis iaculis lorem a ipsum euismod vel ullamcorper arcu placerat. Aenean elementum tortor vel nisi bibendum bibendum. Aliquam fringilla feugiat ante in vestibulum. Sed non justo justo. Aenean et quam dolor. Vivamus aliquet gravida nunc, sed elementum elit blandit vel. Aliquam neque quam, dignissim ac mattis at, hendrerit nec elit. Cras commodo gravida placerat. </p>
-                    <a href='#' class='more'>Read More ></a>
-                </article>
+                <div class="about" data-flex="stripe" data-flex-640="vstripe">
+                    <div data-flex="stripe w">
+                        <article>
+                            <h4 data-flex="-center"><i class="icon-user"></i><span>Title Heading</span></h4>
+                            <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        </article>
+                        <article>
+                            <h4 data-flex="-center"><i class="icon-globe"></i><span>Title Heading</span></h4>
+                            <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        </article>
+                        <article>
+                            <h4 data-flex="-center"><i class="icon-compass"></i><span>Title Heading</span></h4>
+                            <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        </article>
+                        <article>
+                            <h4 data-flex="-center"><i class="icon-lamp"></i><span>Title Heading</span></h4>
+                            <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Aliqu am tincidunt mi id libero egestas ut interdum nibh cursus.</p>
+                        </article>
+                    </div>
+                    <article>
+                        <h4>About the Company</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. Nulla erat orci, adipiscing vel molestie ac, vehicula in dui. Proin vel lorem in tellus placerat eleifend. Duis iaculis lorem a ipsum euismod vel ullamcorper arcu placerat. Aenean elementum tortor vel nisi bibendum bibendum. Aliquam fringilla feugiat ante in vestibulum. Sed non justo justo. Aenean et quam dolor. Vivamus aliquet gravida nunc, sed elementum elit blandit vel. Aliquam neque quam, dignissim ac mattis at, hendrerit nec elit. Cras commodo gravida placerat. </p>
+                        <a href='#' class='more'>Read More ></a>
+                    </article>
+                </div>
             </div>
         </div>
         <footer>

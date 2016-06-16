@@ -8,6 +8,11 @@ figure img, #logo img{
     max-width: 1200px;
     padding: 0px 10px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}   
+
 
 /*HEADER*/
 header, .booking form{
@@ -173,6 +178,7 @@ a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
 
 /*FOOTER*/
 footer {
+    flex-shrink: 0;
     border-bottom: 34rem solid #1f1f1f;
     background: #333;
     color: white;

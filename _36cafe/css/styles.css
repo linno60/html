@@ -10,6 +10,8 @@ body{
 
 /*HEADER*/
 header{
+    width: 100%;
+    flex-shrink: 0;
     height: 380px;
     background: url('/images/bg1.png');
     margin-bottom: -195px;
@@ -24,7 +26,7 @@ header:after{
     width: 100%;
     display: block;
     position: absolute;
-    top: calc(100% - 262px);
+    top: 380px;
     background: url('/images/bg2.png');
 }
 .delivery{
@@ -62,6 +64,26 @@ header:after{
     position: relative;
     padding: 1rem 13rem 0px 13rem;
     border-top-width: 1px;
+    border-style: solid;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-height: 100%;
+    border-top-color: #e5bda7;
+    position: relative;
+}
+@media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, .content-wrap { border-top-width: 0px; } /* IE11 */
+}
+/* IE10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .content-wrap > div:first-child{
+        height: 17px;
+        position: absolute;
+        width: 100%;
+        top: -17px;
+        left: 0px;
+        background: url("/images/line1.png")repeat-x left bottom;
+    }
 }
 .content-wrap:before, .content-wrap:after{
     content: "";
@@ -79,8 +101,14 @@ header:after{
     background: url("/images/shadow-right.png");
 }
 .content{
+    flex-grow: 1;
+    flex-shrink: 0;
     padding: 24rem 23rem 0px 23rem;
     background: url("/images/border.png")repeat-x left top, url("/images/border-side.png")repeat-y top left, url("/images/border-side.png")repeat-y top right;
+}
+.content > div{
+    flex-grow: 1;
+    flex-shrink: 0;    
 }
 
 /*SLIDER*/
@@ -106,6 +134,7 @@ header:after{
     padding: 5rem 25rem 21rem 25rem;
     background: #e35948;
     border-bottom-width: 1px;
+    border-style: solid;
     border-image-slice: 0 0 17 0;
     border-image-width: 0px 0px 17px 0px;
     border-image-outset: 0px 0px 17px 0px;
@@ -120,6 +149,23 @@ header:after{
 .menu article:last-child{
     background: #98c618;
     border-image-source: url("/images/line4.png");
+}
+/* IE10 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .menu article{
+        padding-bottom: 38rem;
+        border: none;
+        background: url("/images/line3.png")repeat-x left bottom,
+            linear-gradient(#e35948, #e35948 calc(100% - 16px), transparent calc(100% - 16px), transparent);
+    }
+    .menu article:first-child{
+        background: url("/images/line2.png")repeat-x left bottom,
+            linear-gradient(#f7ba05, #f7ba05 calc(100% - 16px), transparent calc(100% - 16px), transparent);
+    }
+    .menu article:last-child{
+        background: url("/images/line4.png")repeat-x left bottom,
+            linear-gradient(#98c618, #98c618 calc(100% - 16px), transparent calc(100% - 16px), transparent);
+    }
 }
 .menu article > h3{
     color: #af182a;
@@ -155,14 +201,14 @@ header:after{
     border-image-outset: 0px 0px 28px 0px;
     border-image-repeat: repeat repeat;
     border-image-source: url("/images/shadow1.png");
-    padding: 21rem 11px 7rem 26rem;
+    padding: 21rem 11px 8rem 26rem;
 }
 .news > div{
-    width: 32.5%;
+    width: 32.7%;
     margin-bottom: 20px;
 }
 .news > div:first-child{
-    width: 31.9%;
+    width: 30.7%;
 }
 .news > div:last-child{
     width: 31.9%;
@@ -184,6 +230,7 @@ header:after{
     font-weight: 700;
     font-style: italic;
     letter-spacing: 0.02em;
+    padding-left: 3rem;
 }
 .more:active, .more:hover, .more:focus{
     text-decoration: underline;
@@ -202,11 +249,12 @@ header:after{
 .video{
     padding-bottom: 0px;
     padding-top: 54.7%;
-    margin-bottom: 14rem;
+    margin-bottom: 13rem;
 }
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     padding: 14rem 68rem 30rem 10px;
     background: #a2745a url("/images/shadow2.png")repeat-x left bottom;
     text-align: center;

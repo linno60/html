@@ -1,4 +1,11 @@
 /*COMMON*/
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+body{
+    background: #3c5399;
+}
 figure img{
     width: 100%;
     height: 100%;
@@ -143,15 +150,22 @@ header .lwrap > div{
 }
 
 /*SKILLS*/
-.skills.lwrap{
+.skills{
+    background: white;
+}
+.skills .lwrap{
+    width: 100%;
     padding: 111rem 10px 94rem 10px;
     max-width: 1070px;
+}
+.skills .lwrap > div{
+    width: 100%;
 }
 .skills article{
     margin-bottom: 20px;
     width: 20%;
 }
-.skills.lwrap > h2 ~ p {
+.skills .lwrap > h2 ~ p {
     max-width: 583px;
     margin-bottom: 92rem;
 }
@@ -290,12 +304,12 @@ header .lwrap > div{
 }
 
 /*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
 footer > .lwrap{
     padding: 114rem 10px 115rem 10px;
     max-width: 880px;
-}
-footer {
-    background: #3c5399;
 }
 footer form, footer form > div{
     width: 100%;

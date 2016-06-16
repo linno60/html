@@ -19,174 +19,176 @@
             }
         </script>
     </head>
-    <body>
-        <a href='#top' class='btn btn-anchor'></a>
-        <header>
-            <a name='top'></a>
-            <section class="topbar">
-                <div class="lwrap" data-flex="axis">
-                    <a href="#" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="184" height="28" alt="Macan">
-                    </a>
-                    <nav class='links-nav' data-flex='-center end w'>
-                        <a href="#">Home</a>
-                        <a href="#">Services</a>
-                        <a href="#">Work</a>
-                        <a href="#">Testimonials</a>
-                        <a href="#">Contact</a>
-                    </nav>
+    <body data-flex="col">
+        <div>
+            <a href='#top' class='btn btn-anchor'></a>
+            <header>
+                <a name='top'></a>
+                <section class="topbar">
+                    <div class="lwrap" data-flex="axis">
+                        <a href="#" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="184" height="28" alt="Macan">
+                        </a>
+                        <nav class='links-nav' data-flex='-center end w'>
+                            <a href="#">Home</a>
+                            <a href="#">Services</a>
+                            <a href="#">Work</a>
+                            <a href="#">Testimonials</a>
+                            <a href="#">Contact</a>
+                        </nav>
+                    </div>
+                </section>
+                <section class="header"> 
+                    <div class="lwrap" data-flex="axis" data-flex-480="vstripe r">
+                        <div data-flex="col -start" data-flex-480="vaxis">
+                            <h1>Kalau Kita mau, Pasti ada Jalan</h1>
+                            <span>Semangat terus saudara-saudara!</span>
+                            <a href="#" class="btn btn-default">More</a>
+                        </div>
+                        <div data-flex="end">
+                            <figure><img src="images/img-slider.png"></figure>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <section class="services">
+                <div class="lwrap" data-flex="vaxis">
+                    <h2>Our Services</h2>
+                    <span>our awesome services</span>
+                    <span class="hr" data-flex="axis"><div></div><div></div></span>
+                    <div data-flex="stripe" data-childs="col -center" data-flex-640="stripe w">
+                        <article>
+                            <i class="icon-heart"></i>
+                            <h3>Beautiful Design</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
+                            <a href="#" class="btn btn-default">More</a>
+                        </article>
+                        <article>
+                            <i class="icon-globe"></i>
+                            <h3>Global Trend</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
+                            <a href="#" class="btn btn-default">More</a>
+                        </article>
+                        <article>
+                            <i class="icon-monitor"></i>
+                            <h3>Responsive</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
+                            <a href="#" class="btn btn-default">More</a>
+                        </article>
+                        <article>
+                            <i class="icon-rocket"></i>
+                            <h3>Awesome Design</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
+                            <a href="#" class="btn btn-default">More</a>
+                        </article>                    
+                    </div>                    
                 </div>
             </section>
-            <section class="header"> 
-                <div class="lwrap" data-flex="axis" data-flex-480="vstripe r">
-                    <div data-flex="col -start" data-flex-480="vaxis">
-                        <h1>Kalau Kita mau, Pasti ada Jalan</h1>
-                        <span>Semangat terus saudara-saudara!</span>
-                        <a href="#" class="btn btn-default">More</a>
-                    </div>
-                    <div data-flex="end">
-                        <figure><img src="images/img-slider.png"></figure>
-                    </div>
-                </div>
+            <section class="works-header" data-flex="col -center center">
+                <h1>Our Gratest Works</h1>
+                <span>come from awesome imagination</span>
             </section>
-        </header>
-        <section class="services">
-            <div class="lwrap" data-flex="vaxis">
-                <h2>Our Services</h2>
-                <span>our awesome services</span>
+            <section class="portfolio lwrap" data-flex="vaxis">
+                <h2>Portofolio</h2>
+                <span>our awesome works</span>
                 <span class="hr" data-flex="axis"><div></div><div></div></span>
-                <div data-flex="stripe" data-childs="col -center" data-flex-640="stripe w">
-                    <article>
-                        <i class="icon-heart"></i>
-                        <h3>Beautiful Design</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
-                        <a href="#" class="btn btn-default">More</a>
-                    </article>
-                    <article>
-                        <i class="icon-globe"></i>
-                        <h3>Global Trend</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
-                        <a href="#" class="btn btn-default">More</a>
-                    </article>
-                    <article>
-                        <i class="icon-monitor"></i>
-                        <h3>Responsive</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
-                        <a href="#" class="btn btn-default">More</a>
-                    </article>
-                    <article>
-                        <i class="icon-rocket"></i>
-                        <h3>Awesome Design</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, </p>
-                        <a href="#" class="btn btn-default">More</a>
-                    </article>                    
-                </div>                    
-            </div>
-        </section>
-        <section class="works-header" data-flex="col -center center">
-            <h1>Our Gratest Works</h1>
-            <span>come from awesome imagination</span>
-        </section>
-        <section class="portfolio lwrap" data-flex="vaxis">
-            <h2>Portofolio</h2>
-            <span>our awesome works</span>
-            <span class="hr" data-flex="axis"><div></div><div></div></span>
-            <div class="tabs" data-tabs>
-                <div class="tablist" data-flex="center">
-                    <a href="#tab1" class="active">All</a>/
-                    <a href="#tab2">Web</a>/
-                    <a href="#tab3">Print</a>
-                </div>
-                <div class="tabset">
-                    <div id="tab1" class="tabpanel active" data-flex="stripe w" data-flex-480="vstripe">
-                        <figure>
-                            <img src="/images/img.png">
-                            <div class="overlay" data-flex="col center -center">
-                                <h6>Macankumbang</h6>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
-                                <a href="#"></a>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img src="/images/img.png">
-                            <div class="overlay" data-flex="col center -center">
-                                <h6>Macankumbang</h6>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
-                                <a href="#"></a>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img src="/images/img.png">
-                            <div class="overlay" data-flex="col center -center">
-                                <h6>Macankumbang</h6>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
-                                <a href="#"></a>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img src="/images/img.png">
-                            <div class="overlay" data-flex="col center -center">
-                                <h6>Macankumbang</h6>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
-                                <a href="#"></a>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img src="/images/img.png">
-                            <div class="overlay" data-flex="col center -center">
-                                <h6>Macankumbang</h6>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
-                                <a href="#"></a>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img src="/images/img.png">
-                            <div class="overlay" data-flex="col center -center">
-                                <h6>Macankumbang</h6>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
-                                <a href="#"></a>
-                            </div>
-                        </figure>
+                <div class="tabs" data-tabs>
+                    <div class="tablist" data-flex="center">
+                        <a href="#tab1" class="active">All</a>/
+                        <a href="#tab2">Web</a>/
+                        <a href="#tab3">Print</a>
                     </div>
-                    <div id="tab2" class="tabpanel">Tab number 2</div>
-                    <div id="tab3" class="tabpanel">Tab number 3</div>
-                </div>
-            </div>                   
-            <a href="#" data-flex="vaxis">
-                <span>Browse All</span>
-                <span>300+</span>
-            </a>            
-        </section>
-        <section class="testimonials lwrap" data-flex="vaxis">
-            <h2>What Our Happy Customer Say</h2>
-            <span>lorem ipsum dolor sit amet</span>
-            <span class="hr" data-flex="axis"><div></div><div></div></span>
-            <div data-flex="axis" data-flex-480="vaxis">
-                <figure><img src="/images/circle.png"></figure>
-                <blockquote data-flex>
-                    <q>&ldquo;</q>
-                    <div data-flex="col">
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                        <cite>John Doe</cite>
+                    <div class="tabset">
+                        <div id="tab1" class="tabpanel active" data-flex="stripe w" data-flex-480="vstripe">
+                            <figure>
+                                <img src="/images/img.png">
+                                <div class="overlay" data-flex="col center -center">
+                                    <h6>Macankumbang</h6>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+                                    <a href="#"></a>
+                                </div>
+                            </figure>
+                            <figure>
+                                <img src="/images/img.png">
+                                <div class="overlay" data-flex="col center -center">
+                                    <h6>Macankumbang</h6>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+                                    <a href="#"></a>
+                                </div>
+                            </figure>
+                            <figure>
+                                <img src="/images/img.png">
+                                <div class="overlay" data-flex="col center -center">
+                                    <h6>Macankumbang</h6>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+                                    <a href="#"></a>
+                                </div>
+                            </figure>
+                            <figure>
+                                <img src="/images/img.png">
+                                <div class="overlay" data-flex="col center -center">
+                                    <h6>Macankumbang</h6>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+                                    <a href="#"></a>
+                                </div>
+                            </figure>
+                            <figure>
+                                <img src="/images/img.png">
+                                <div class="overlay" data-flex="col center -center">
+                                    <h6>Macankumbang</h6>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+                                    <a href="#"></a>
+                                </div>
+                            </figure>
+                            <figure>
+                                <img src="/images/img.png">
+                                <div class="overlay" data-flex="col center -center">
+                                    <h6>Macankumbang</h6>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sooicitudin, lorem quis bibendum auctor, nisi elit consequat</p>
+                                    <a href="#"></a>
+                                </div>
+                            </figure>
+                        </div>
+                        <div id="tab2" class="tabpanel">Tab number 2</div>
+                        <div id="tab3" class="tabpanel">Tab number 3</div>
                     </div>
-                </blockquote>
-            </div>
-            <div class="links-controls" data-flex="center">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#" class="active"></a>
-            </div>
-        </section>
-        <section class="works-footer" data-flex="col -center center">
-            <h1>Get in Touch With us</h1>
-            <span>Ready for 24/7</span>
-        </section>
-        <section class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8505.038451901682!2d43.965580613990085!3d26.328825230878778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1436953049202"></iframe>               
-            <i class="icon-location"></i>
-        </section>
+                </div>                   
+                <a href="#" data-flex="vaxis">
+                    <span>Browse All</span>
+                    <span>300+</span>
+                </a>            
+            </section>
+            <section class="testimonials lwrap" data-flex="vaxis">
+                <h2>What Our Happy Customer Say</h2>
+                <span>lorem ipsum dolor sit amet</span>
+                <span class="hr" data-flex="axis"><div></div><div></div></span>
+                <div data-flex="axis" data-flex-480="vaxis">
+                    <figure><img src="/images/circle.png"></figure>
+                    <blockquote data-flex>
+                        <q>&ldquo;</q>
+                        <div data-flex="col">
+                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                            <cite>John Doe</cite>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="links-controls" data-flex="center">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#" class="active"></a>
+                </div>
+            </section>
+            <section class="works-footer" data-flex="col -center center">
+                <h1>Get in Touch With us</h1>
+                <span>Ready for 24/7</span>
+            </section>            
+        </div>
         <footer>
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8505.038451901682!2d43.965580613990085!3d26.328825230878778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1436953049202"></iframe>               
+                <i class="icon-location"></i>
+            </section>
             <section class="lwrap" data-flex="vaxis">
                 <h2>Contact</h2>
                 <span>Let's talk business, get in touch!</span>

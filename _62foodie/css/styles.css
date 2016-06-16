@@ -15,6 +15,10 @@ body, .form-search{
     background: white;
     box-shadow: inset 0 0 15px rgba(154, 55, 0, .1), 0 0 0 5px rgba(231, 227, 168, .75);
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 #logo{
@@ -27,6 +31,8 @@ body, .form-search{
     background: url("/images/bg1.png");
 }
 .top-bar{
+    position: relative;
+    border-style: solid;
     border-width: 1px;
     border-image-slice: 0 0 14 0;
     border-image-width: 0px 0px 14px 0px;
@@ -34,6 +40,23 @@ body, .form-search{
     border-image-repeat: repeat repeat;
     border-image-source: url("/images/bordertop.png");
 }
+/* IE10 */
+@media all and (-ms-high-contrast:none) {
+    .top-bar:after { 
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 14px;
+        bottom: -14px;
+        left: 0px;
+        background:  url("/images/bordertop.png")repeat-x left top;
+    }
+    *::-ms-backdrop, .top-bar:after { display: none; } 
+}
+/* IE11 */
+@media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, .top-bar { border-width: 0px; } 
+} 
 .top-bar > .lwrap{
     padding: 2px 9px 6px 10px;
 }
@@ -327,6 +350,8 @@ header > .lwrap > div:last-child{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
+    position: relative;
     color: #cfcfcf;
     font-size: 13px;
     border-width: 1px;
@@ -334,7 +359,25 @@ footer{
     border-image-width: 15px 0px 0px 0px;
     border-image-outset: 15px 0px 0px 0px;
     border-image-repeat: repeat repeat;
+    border-style: solid;
     border-image-source: url("/images/borderbottom.png");
+}
+/* IE10 */
+@media all and (-ms-high-contrast:none) {
+    footer:before { 
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        top: -15px;
+        left: 0px;
+        background:  url("/images/borderbottom.png")repeat-x left bottom;
+    } 
+    *::-ms-backdrop, footer:before { display: none; } 
+}
+/* IE11 */
+@media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, footer { border-width: 0px; } 
 }
 footer h5{
     color: #f8f5c6;

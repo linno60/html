@@ -20,6 +20,10 @@ p{
 header, .about, .portfolio{
     border-bottom: 1px solid #c0c0c0;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 #logo{
@@ -122,6 +126,7 @@ header{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #e2e2e2;
 }
 footer .lwrap{

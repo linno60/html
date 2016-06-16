@@ -19,32 +19,33 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class='lwrap' data-flex='axis'>
-                <div data-flex="-center w">
-                    <a href="/" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="201" height="23" alt="Hotel-Deluxe">                    
-                    </a>
-                    <small>Hotel & Motel Theme</small>
-                </div>                
-                <nav class="links-nav" data-flex='end w' data-childs="-center center">
-                    <a href='#' class='active'>start</a>
-                    <a href='#'>facilities</a>
-                    <a href='#'>restaurant</a>
-                    <a href='#'>conference</a>
-                    <a href='#'>bookings</a>
-                    <a href='#'>contact us</a>
-                </nav>
-            </div>
-        </header>
-        <section class='banner' data-flex="col -center center">            
-            <span><strong>Hello</strong>, You've Reached</span>
-            <h1>hotel deluxe</h1>
-            <span>hotel - spa saloon - fine dining</span>
-        </section>
-        <section class='booking' data-flex="col -center">
-            <form action='#' method='post' data-flex='axis w' data-childs="col">
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class='lwrap' data-flex='axis'>
+                    <div data-flex="-center w">
+                        <a href="/" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="201" height="23" alt="Hotel-Deluxe">                    
+                        </a>
+                        <small>Hotel & Motel Theme</small>
+                    </div>                
+                    <nav class="links-nav" data-flex='end w' data-childs="-center center">
+                        <a href='#' class='active'>start</a>
+                        <a href='#'>facilities</a>
+                        <a href='#'>restaurant</a>
+                        <a href='#'>conference</a>
+                        <a href='#'>bookings</a>
+                        <a href='#'>contact us</a>
+                    </nav>
+                </div>
+            </header>
+            <section class='banner' data-flex="col -center center">            
+                <span><strong>Hello</strong>, You've Reached</span>
+                <h1>hotel deluxe</h1>
+                <span>hotel - spa saloon - fine dining</span>
+            </section>
+            <section class='booking' data-flex="col -center">
+                <form action='#' method='post' data-flex='axis w' data-childs="col">
                     <fieldset>
                         <label class="label-lg">Arrival</label>
                         <input type="text" name="date" placeholder="21/08/2013">                   
@@ -64,112 +65,113 @@
                     </fieldset>
                     <button><span class='btn btn-default'>View Prices</span></button> 
                 </form>
-            <div class="lwrap" data-flex="col -center"> 
-                <h2>Book A Package</h2>
-                <p>Sed euismod sem id consequat rutrum. Ut convallis lorem a orci mollis, eu vulputate libero aliquet. Praesent egestas nisi sed purus tincidunt faucibus. Aliquam lobortis orci lacus, sed faucibus augue dapibus vitae. Ut vitae mi sapien. Phasellus a eros justo. Curabitur odio massa, tincidunt nec nibh sit amet</p>
-                <div class="slider" data-flex="axis">
-                    <a href="#"><i class="icon-prev"></i></a>
-                    <div data-flex="axis" data-flex-640="around">
-                        <figure><img src="/images/preview.png"></figure>
-                        <figure class="hidden-sm"><img src="/images/preview.png"></figure>
-                        <figure class="hidden"><img src="/images/preview.png"></figure>
-                    </div>
-                    <a href="#"><i class="icon-next"></i></a>
-                </div>  
-            </div>
-        </section>
-        <section class='rooms'>
-            <div class='lwrap'>
-                <h2>Our Room Types</h2>
-                <div data-flex='stripe w' data-flex-480="vstripe">
-                    <article>
-                        <figure><img src="/images/img1.png"></figure>
-                        <h3><a href="#">Standard Double Room</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
-                        <div class='options'>
-                            <i class='icon-condition'></i>
-                            <i class='icon-fan'></i>
-                            <i class='icon-iron'></i>
-                            <i class='icon-tv'></i>
-                            <i class='icon-wifi'></i>
-                            <i class='icon-cup'></i>                            
+                <div class="lwrap" data-flex="col -center"> 
+                    <h2>Book A Package</h2>
+                    <p>Sed euismod sem id consequat rutrum. Ut convallis lorem a orci mollis, eu vulputate libero aliquet. Praesent egestas nisi sed purus tincidunt faucibus. Aliquam lobortis orci lacus, sed faucibus augue dapibus vitae. Ut vitae mi sapien. Phasellus a eros justo. Curabitur odio massa, tincidunt nec nibh sit amet</p>
+                    <div class="slider" data-flex="axis">
+                        <a href="#"><i class="icon-prev"></i></a>
+                        <div data-flex="axis" data-flex-640="around">
+                            <figure><img src="/images/preview.png"></figure>
+                            <figure class="hidden-sm"><img src="/images/preview.png"></figure>
+                            <figure class="hidden"><img src="/images/preview.png"></figure>
                         </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img2.png"></figure>
-                        <h3><a href="#">Supperior Double Room</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
-                        <div class='options'>
-                            <i class='icon-condition'></i>
-                            <i class='icon-fan'></i>
-                            <i class='icon-iron'></i>
-                            <i class='icon-tv'></i>
-                            <i class='icon-wifi'></i>
-                            <i class='icon-cup'></i>                            
-                        </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img3.png"></figure>
-                        <h3><a href="#">Family Room</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
-                        <div class='options'>
-                            <i class='icon-condition'></i>
-                            <i class='icon-fan'></i>
-                            <i class='icon-iron'></i>
-                            <i class='icon-tv'></i>
-                            <i class='icon-wifi'></i>
-                            <i class='icon-cup'></i>                            
-                        </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img4.png"></figure>
-                        <h3><a href="#">Standard Single Room</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
-                        <div class='options'>
-                            <i class='icon-condition'></i>
-                            <i class='icon-fan'></i>
-                            <i class='icon-iron'></i>
-                            <i class='icon-tv'></i>
-                            <i class='icon-wifi'></i>
-                            <i class='icon-cup'></i>                            
-                        </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img5.png"></figure>
-                        <h3><a href="#">Supperior Single Room</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
-                        <div class='options'>
-                            <i class='icon-condition'></i>
-                            <i class='icon-fan'></i>
-                            <i class='icon-iron'></i>
-                            <i class='icon-tv'></i>
-                            <i class='icon-wifi'></i>
-                            <i class='icon-cup'></i>                            
-                        </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img6.png"></figure>
-                        <h3><a href="#">VIP Room</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
-                        <div class='options'>
-                            <i class='icon-condition'></i>
-                            <i class='icon-fan'></i>
-                            <i class='icon-iron'></i>
-                            <i class='icon-tv'></i>
-                            <i class='icon-wifi'></i>
-                            <i class='icon-cup'></i>                            
-                        </div>
-                    </article>
+                        <a href="#"><i class="icon-next"></i></a>
+                    </div>  
                 </div>
-            </div>
-        </section>
-        <section class='located'>
-            <div class='lwrap' data-flex="col center">
-                <h2>143 City&nbsp;&nbsp;Located Hotels World Wide</h2>
-                <blockquote>"Hospitality, Quality & Good Locations. We only provide you with the best hotels" <cite>- John Doe</cite></blockquote>
-                <figure><img src="/images/man.png"></figure>
-            </div>
-        </section>
+            </section>
+            <section class='rooms'>
+                <div class='lwrap'>
+                    <h2>Our Room Types</h2>
+                    <div data-flex='stripe w' data-flex-480="vstripe">
+                        <article>
+                            <figure><img src="/images/img1.png"></figure>
+                            <h3><a href="#">Standard Double Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
+                            <div class='options'>
+                                <i class='icon-condition'></i>
+                                <i class='icon-fan'></i>
+                                <i class='icon-iron'></i>
+                                <i class='icon-tv'></i>
+                                <i class='icon-wifi'></i>
+                                <i class='icon-cup'></i>                            
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img2.png"></figure>
+                            <h3><a href="#">Supperior Double Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
+                            <div class='options'>
+                                <i class='icon-condition'></i>
+                                <i class='icon-fan'></i>
+                                <i class='icon-iron'></i>
+                                <i class='icon-tv'></i>
+                                <i class='icon-wifi'></i>
+                                <i class='icon-cup'></i>                            
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img3.png"></figure>
+                            <h3><a href="#">Family Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
+                            <div class='options'>
+                                <i class='icon-condition'></i>
+                                <i class='icon-fan'></i>
+                                <i class='icon-iron'></i>
+                                <i class='icon-tv'></i>
+                                <i class='icon-wifi'></i>
+                                <i class='icon-cup'></i>                            
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img4.png"></figure>
+                            <h3><a href="#">Standard Single Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
+                            <div class='options'>
+                                <i class='icon-condition'></i>
+                                <i class='icon-fan'></i>
+                                <i class='icon-iron'></i>
+                                <i class='icon-tv'></i>
+                                <i class='icon-wifi'></i>
+                                <i class='icon-cup'></i>                            
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img5.png"></figure>
+                            <h3><a href="#">Supperior Single Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
+                            <div class='options'>
+                                <i class='icon-condition'></i>
+                                <i class='icon-fan'></i>
+                                <i class='icon-iron'></i>
+                                <i class='icon-tv'></i>
+                                <i class='icon-wifi'></i>
+                                <i class='icon-cup'></i>                            
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img6.png"></figure>
+                            <h3><a href="#">VIP Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prae&shy;sent scelerisque lectus vitae dui sollicitudin commodo.</p>
+                            <div class='options'>
+                                <i class='icon-condition'></i>
+                                <i class='icon-fan'></i>
+                                <i class='icon-iron'></i>
+                                <i class='icon-tv'></i>
+                                <i class='icon-wifi'></i>
+                                <i class='icon-cup'></i>                            
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class='located'>
+                <div class='lwrap' data-flex="col center">
+                    <h2>143 City&nbsp;&nbsp;Located Hotels World Wide</h2>
+                    <blockquote>"Hospitality, Quality & Good Locations. We only provide you with the best hotels" <cite>- John Doe</cite></blockquote>
+                    <figure><img src="/images/man.png"></figure>
+                </div>
+            </section>
+        </div>
         <footer>
             <div class='lwrap' data-flex="stripe w">
                 <div>

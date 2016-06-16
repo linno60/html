@@ -5,6 +5,7 @@ body{
 
 /*LINKS*/
 .links-nav{
+    flex-shrink: 0;
     margin: 22rem 0px 21rem 0px;
     background: url('/images/nav.png');
     padding: 0px 8rem 0px 5rem;
@@ -20,12 +21,19 @@ body{
     border-image-repeat: repeat repeat;
     border-image-source: url('/images/nav-border.png');
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    .links-nav{
+        border: none;
+        background: url('/images/nav-border.png')repeat-x left top,  url('/images/nav-border.png')repeat-x left bottom, url('/images/nav.png');
+    }
+}
 .links-nav a{
     color: #513a2d;
     font-size: 14px;
     margin: 13rem 5rem;
     text-align: center;
     font-weight: bold;
+    display: inline-block;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #ae1829;
@@ -39,7 +47,7 @@ body{
     margin: 0px 12rem;
 }
 .links-default{
-    width: 50%;
+    width: 48%;
     padding: 7rem 10px 0px 2rem;
 }
 .links-default a{

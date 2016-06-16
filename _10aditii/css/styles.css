@@ -8,6 +8,10 @@ figure img{
     max-width: 1024px;
     padding: 0px 10px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 .nav{ 
@@ -92,6 +96,7 @@ header > .lwrap{
     line-height: 25px;
 }
 .slider-product span{
+    display: inline-block;
     margin: 16rem 0px 17rem 0px;
     max-width: 100px;
 }
@@ -114,9 +119,6 @@ header > .lwrap{
     padding: 48rem 19rem 22rem 10px;
     max-width: 902px;
 }
-@media all and (-ms-high-contrast:none){
-    *::-ms-backdrop, .featured.lwrap { min-height: 688px; } /* IE11 */
-}
 .featured > div{
     padding: 20rem 20rem 29rem 20rem;
     width: 29%;
@@ -138,6 +140,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #3cc3b5;
 }
 footer .lwrap{

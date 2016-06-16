@@ -10,6 +10,10 @@ figure img{
 body{
     background: url("/images/bg-body.png");
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}  
 p{
     line-height: 20px;
 }
@@ -284,6 +288,9 @@ header + .lwrap{
 }
 
 /*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
 .footer{
     background: url("/images/bg2.png");
     box-shadow: inset 0px -10px 0px 0px rgba(255,255,255,0.1), inset 0px 10px 0px 0px rgba(255,255,255,0.1);

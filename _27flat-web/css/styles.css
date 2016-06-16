@@ -1,4 +1,8 @@
 /*COMMON*/
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}  
 .lwrap{
     max-width: 1140px;
     padding: 0px 10px;
@@ -137,6 +141,7 @@ header form{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     color: #8e8e8e;
     background: #3a3a3a;    
     font-size: 14px;

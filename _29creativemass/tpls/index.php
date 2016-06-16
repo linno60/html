@@ -37,8 +37,8 @@
                 </nav> 
             </header>
             <section class="works"> 
-                <h2 class="hdr" data-flex="axis">latest works
-                    <div>
+                <h2 class="hdr" data-flex="axis"><span>latest works</span>
+                    <div data-flex="end -center">
                         <a href="#" class="btn btn-slider prev"></a>
                         <a href="#" class="btn btn-slider next"></a>
                     </div>

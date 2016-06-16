@@ -8,6 +8,10 @@ figure img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header {
@@ -359,6 +363,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer {
+    flex-shrink: 0;
     color: grey;   
     background:
         url('/images/city1.png') no-repeat right top,

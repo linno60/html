@@ -131,6 +131,7 @@ input[name=input], textarea{
     max-width: 960px;    
     color: #333;
     font-size: 32px;
+    outline: none;
     border-radius: 6px;
     background-clip: padding-box;
     background-color: #fff;

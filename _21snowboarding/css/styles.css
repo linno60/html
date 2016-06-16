@@ -13,6 +13,10 @@ h2{
     font-size: 48rem;
     text-transform: uppercase;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 header{
@@ -172,6 +176,7 @@ header > .lwrap > div:last-child{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: black;
 }
 footer .lwrap{

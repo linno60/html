@@ -11,6 +11,10 @@ figure > img, a > img{
 body{
     background: #dadfeb;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{
@@ -108,6 +112,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #565f81;
     border-top: 1px solid white;
     color: #dadfeb;

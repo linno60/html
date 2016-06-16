@@ -1,4 +1,8 @@
 /*COMMON*/
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 figure img, #logo img{
     display: block;
     width: 100%;
@@ -387,7 +391,8 @@ header hgroup h2 i{
 
 /*FOOTER*/
 footer{
-    background: url('/images/bg5.png')
+    background: url('/images/bg5.png');
+    flex-shrink: 0;
 }
 footer .lwrap{
     max-width: 980px;

@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body>
+    <body data-flex="col -center">
         <div class="lwrap">
             <header data-flex="axis">
                 <a href="/" title="Return to the homepage" id="logo">
@@ -59,7 +59,7 @@
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non augue eu tortor porttitor tempor nec sed dolor. Sed dui nulla, commodo eu pretium in, scelerisque quis dolor. In tempus justo id nulla dapibus interdum. Aenean a ante velit, nec rutrum arcu. Nullam mi nulla, consectetur ut gravida eget, ullamcorper nec magna. Proin sed mattis massa. Pellentesque neque mi, gravida id ornare vel, hendrerit et urna.</p>
                             <p>Quisque iaculis, erat id volutpat rhoncus, justo erat congue risus, dapibus vestibulum odio leo quis nibh. Maecenas imperdiet accumsan posuere. Donec tellus leo, varius ac porta ac, bibendum ac mi. Integer iaculis orci interdum neque porta ac molestie ipsum aliquet. Vestibulum malesuada sem sed ipsum ali&shy;quet pharetra vulputate eget nunc. Cras enim ipsum, viverra non posuere eu, commodo et odio. Morbi sagittis tincidunt justo, a interdum tortor sagittis dictum. Suspendisse pharetra, quam quis semper auctor, elit sem pharetra nulla, id fringilla quam turpis ut quam. Praesent id massa felis. Cras dignissim mollis dui, vitae consequat orci posuere nec.</p>
-                            <blockquote data-flex="">&ldquo;Vestibulum malesuada sem sed ipsum aliquet pharetra vulpu­tate eget nunc. Cras enim ipsum, viverra non posuere eu, com­modo et odio.&rdquo;</blockquote>
+                            <blockquote data-flex><q>&ldquo;Vestibulum malesuada sem sed ipsum aliquet pharetra vulpu­tate eget nunc. Cras enim ipsum, viverra non posuere eu, com­modo et odio.&rdquo;</q></blockquote>
                             <p>Commodo et odio. Morbi sagittis tincidunt justo, a interdum tortor sagittis dictum. Suspendisse pharetra, quam quis semper auctor, elit sem pharetra nulla, id fringilla quam turpis ut quam. Praesent id massa felis. Cras dignissim mollis dui, vitae consequat orci posuere nec.</p>
                         </article>
                         <article class="about clearfix">

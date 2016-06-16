@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body>
+    <body data-flex="col -center">
         <div class="lwrap">
             <header class="header" data-flex="axis" data-flex-640="vaxis">
                 <a href="/" title="Return to the homepage" id="logo">

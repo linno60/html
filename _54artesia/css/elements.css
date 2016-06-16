@@ -101,6 +101,10 @@ blockquote{
     margin: 14rem 0px 28rem 22rem;
     background: linear-gradient(#d4d4d4 100%, transparent) left center/ 12px 85% no-repeat;
 }
+blockquote q{
+    max-width: 100%;
+    display: inline-block;
+}
 
 /*FORMS*/
 input[name=input], textarea{

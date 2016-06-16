@@ -108,7 +108,10 @@ body{
     line-height: 26px;
     padding-bottom: 21rem;
     letter-spacing: 0.0018em;
+}
+.list-default li > span{
     display: inline-block;
+    max-width: 100%;
 }
 .list-default li:before{
     width: 14px;

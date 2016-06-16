@@ -20,19 +20,19 @@
         </script>
     </head>
     <body>
-        <div class="lwrap" data-flex="col between">
+        <div class="lwrap" data-flex="col">
             <div>
                 <header class="lwrap">
-                        <nav class='links-nav' data-flex="stripe" data-flex-640="center w" data-childs="-center center">
-                            <a href="#" title="Return to the homepage" id="logo"><img src="/images/logo.png" width="99" height="30" alt="Dynamic"></a>
-                            <a href="#">about</a>
-                            <a href="#">services</a>
-                            <a href="#">clients</a>
-                            <a href="#">portfolio</a>
-                            <a href="#">blog</a>
-                            <a href="#">careers</a>
-                            <a href="#">contact</a>
-                        </nav>
+                    <nav class='links-nav' data-flex="stripe" data-flex-640="center w" data-childs="-center center">
+                        <a href="#" title="Return to the homepage" id="logo"><img src="/images/logo.png" width="99" height="30" alt="Dynamic"></a>
+                        <a href="#">about</a>
+                        <a href="#">services</a>
+                        <a href="#">clients</a>
+                        <a href="#">portfolio</a>
+                        <a href="#">blog</a>
+                        <a href="#">careers</a>
+                        <a href="#">contact</a>
+                    </nav>
                 </header>
                 <section data-flex="axis">
                     <a href="#"><i class="icon-prev"></i></a>

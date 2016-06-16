@@ -4,6 +4,10 @@ figure img, #logo img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 .lwrap{
     max-width: 980px;
     padding: 0px 10px;
@@ -98,9 +102,6 @@ header .lwrap{
     max-width: 1000px;
     padding: 52rem 20rem 34rem 20rem;
 }
-@media all and (-ms-high-contrast:none){
-    *::-ms-backdrop, .lwrap.content { min-height: 750px; } /* IE11 */
-}
 .content > div{
     margin-bottom: 34rem;
     background: #1b1b1c;
@@ -155,6 +156,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     border-top: 1px solid #6d6d6d;
     background: #1b1c1c;
 }

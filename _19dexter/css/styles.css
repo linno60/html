@@ -4,6 +4,10 @@ figure img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 .lwrap{
     max-width: 1128px;
     padding: 0px 10px;
@@ -137,16 +141,16 @@ header figure{
     max-width: 524px;
 }
 .content > div:nth-child(odd){
-   padding: 0px 73rem 140rem 94rem;
+    padding: 0px 73rem 140rem 94rem;
 }
 .content > div:nth-child(even){
-   padding: 0px 0px 97rem 40rem;
+    padding: 0px 0px 97rem 40rem;
 }
 .content > div:nth-child(even) > div{
-   padding-bottom: 61rem;
+    padding-bottom: 61rem;
 }
 .content > div:nth-child(even) p{
-   margin: 35rem 0px 39rem 0px;
+    margin: 35rem 0px 39rem 0px;
 }
 
 /*TEAM*/
@@ -198,6 +202,7 @@ header figure{
 
 /*FOOTER*/
 footer {
+    flex-shrink: 0;
     background: #d8af0b url('/images/bb.png') no-repeat left bottom;
 }
 footer .lwrap{

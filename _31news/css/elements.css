@@ -9,14 +9,14 @@ body{
     font-family: Tahoma;
     font-size: 11px;
     text-decoration: underline;
-    margin-left: 5px;
+    margin-left: 23rem;
 }
 .links-top a:before{
     content: "";
     border-top: 3px solid transparent;
     border-left: 3px solid #56606b;
     border-bottom: 3px solid transparent;
-    margin-right: 3px;
+    margin-right: 5rem;
     display: inline-block;
 }
 .links-top a:active, .links-top a:hover, .links-top a:focus{

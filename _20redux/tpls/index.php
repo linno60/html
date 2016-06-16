@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body data-flex="col between">
+    <body data-flex="col">
         <div>
             <header>
                 <div class="lwrap" data-flex='vaxis'>

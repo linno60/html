@@ -4,6 +4,10 @@ figure img, #logo img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 .lwrap{
     max-width: 1190px;
     padding: 0px 10px;
@@ -232,6 +236,7 @@ header{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #475a85;
 }
 footer .lwrap{

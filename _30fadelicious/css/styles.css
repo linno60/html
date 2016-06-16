@@ -4,6 +4,10 @@ figure img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 .lwrap{
     padding: 0px 10px;
     max-width: 980px;
@@ -111,6 +115,8 @@ header{
 
 /*FOOTER*/
 footer {
+    width: 100%;
+    flex-shrink: 0;
     box-shadow: inset 0px 5px 6px 0px rgba(0,0,0,0.75), inset 0px -2px 0px 0px rgba(255,255,255,0.5);
     background: url('/images/footer-light.png')no-repeat center -330px, url('/images/footer-bg.png');
 }

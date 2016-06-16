@@ -4,6 +4,10 @@ figure img, a img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 .lwrap{
     max-width: 980px;
 }
@@ -22,7 +26,6 @@ hr{
 
 /*HEADER*/
 header{
-    margin: 0px -5rem;
     position:  relative;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
     margin-bottom: 24rem;
@@ -41,6 +44,12 @@ header{
     padding: 4px 8px 0px 7px;
     background: url('/images/header-bg.png')no-repeat center bottom;
 }
+.header .form-search{
+    margin-top: 2rem;
+}
+.header .form-search input{
+    height: 30px;
+}
 .nav{
     border-top: 1px solid #fa8749;
     background: linear-gradient(#fa8749, #a81704 1%, #5f0d02 96%, #120000);
@@ -58,13 +67,13 @@ header:after{
     z-index: -1;
 }
 .checkout{
-    padding-right: 47rem;
+    padding: 0px 47rem 2px 0px;
 }
 .checkout span{
     color: white;
     font-size: 20px;
     text-align: center;
-    padding: 9rem 0px 12rem 0px;
+    padding: 11rem 0px 12rem 0px;
     display: inline-block;
 }
 .checkout figure{
@@ -237,6 +246,9 @@ header:after{
 }
 
 /*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
 .security{
     background: linear-gradient(#0e0200, #3e0902 97%, #f33f3f 99%, #f33f3f);
 }
@@ -275,6 +287,7 @@ header:after{
     margin-bottom: 20px;
 }
 .footer span{
+    display: inline-block;
     color: #cfcfcf;
     margin-bottom: 5px;
 }

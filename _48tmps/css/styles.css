@@ -17,6 +17,10 @@ address{
     max-width: 270px;
     line-height: 24px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 header{
@@ -115,6 +119,7 @@ header > .lwrap{
 }
 .about > div{
     max-width: 770px;
+    width: 65.82%;
 }
 
 /*SUBSCRIBE*/
@@ -234,6 +239,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #202628;
 }
 footer > .lwrap{
@@ -256,5 +262,5 @@ footer a:active, footer a:hover, footer a:focus{
 @media (max-width: 640px) {
     .about figure {display: none;}
     .info > div{width: 48%;}
-    .info > div:first-child{width: 100%;}
+    .info > div:first-child, .about > div{width: 100%;}
 }

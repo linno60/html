@@ -11,6 +11,10 @@ figure img, #logo img{
 #logo{
     display: inline-block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{
@@ -141,6 +145,7 @@ header .lwrap > div:first-child{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #e3e3e3;
     padding: 51rem 0px 50rem 0px;
 }

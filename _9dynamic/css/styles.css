@@ -10,7 +10,11 @@ figure img{
 body > .lwrap{
     max-width: 1036px;
     padding: 0px 10px;
-    min-height: 100%;
+    height: 100%;
+}
+body > .lwrap > div{
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 .slider-wrap{
     margin: 43rem 0px 44rem 0px;
@@ -129,6 +133,9 @@ header.lwrap{
 }
 
 /*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
 footer.lwrap{
     width: 100%;
     padding: 49rem 0px 20rem 0px;

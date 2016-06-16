@@ -19,129 +19,131 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap" data-flex="axis" data-flex-480="vaxis">
-                <a href="/" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="236" height="45" alt="Businessstack">
-                </a>
-                <nav class="links-nav" data-flex="end w" data-flex-480="center w"> 
-                    <a href="#">Home</a>
-                    <a href="#" class="active">Pages</a>
-                    <a href="#">Team</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="breadcrumbs">
-            <div class="lwrap" data-flex="w">
-                <a href="#">Home</a><span>/</span>        
-                <a href="#">Page</a><span>/</span>
-                <a href="#">2 Col. Page</a>
-            </div>
-        </div>
-        <div class="hdr">
-            <h1 class="lwrap">2 Columns Layout</h1>
-        </div>
-        <div class="content-wrap lwrap" data-flex="stripe" data-flex-640="vstripe">
-            <div class="content">
-                <section>
-                    <p>Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. </p>
-                    <p>The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived </p>                    
-                </section>
-                <section>
-                    <h3>Blockquote</h3>
-                    <blockquote data-flex>
-                        <q>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</q>
-                    </blockquote>
-                    <p>The vehicle explodes, literally explodes, off the pad. The simulator shakes you a little bit, but the actual liftoff shakes your entire body and soul. The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species </p>
-                </section>
-                <section>
-                    <h3>Accordion</h3>
-                    <div class="accordion" data-childs="axis">   
-                        <a href="#" class="active">Accordion 1</a>
-                        <div class="active">
-                            <p>The vehicle explodes, literally explodes, off the pad. The simulator shakes you a little bit, but the actual liftoff shakes your entire body and soul.</p>
-                        </div>
-                        <a href="#">Accordion 2</a>
-                        <div>Tab number 2</div>
-                        <a href="#">Accordion 3</a>
-                        <div>Tab number 3</div>
-                        <a href="#">Accordion 4</a>
-                        <div>Tab number 4</div>
-                    </div>
-                </section>
-                <section>
-                    <h3>Multiple Tab</h3>
-                    <div class="tabs" data-tabs="">
-                        <div class="tablist">
-                            <a href="#tab1">Tab 1</a>
-                            <a href="#tab2" class="active">Tab 2</a>
-                            <a href="#tab3">Tab 3</a>
-                            <a href="#tab4">Tab 4</a>
-                        </div>
-                        <div class="tabset">
-                            <div id="tab1" class="tabpanel">Tab number 1</div>
-                            <div id="tab2" class="tabpanel active">
-                                <p>The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," </p>
-                            </div>
-                            <div id="tab3" class="tabpanel">Tab number 3</div>
-                            <div id="tab4" class="tabpanel">Tab number 4</div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <aside class="sidebar" data-flex-640="stripe w">
-                <section>
-                    <h3>Blog Categories</h3>
-                    <ul class="links-categories" data-childs="axis">
-                        <li><a href="#">Design</a><span>1</span></li>
-                        <li><a href="#">Programming</a><span>3</span></li>
-                        <li><a href="#">Art</a><span>5</span></li>
-                        <li><a href="#">Opinion</a><span>3</span></li>
-                        <li><a href="#">Lifestyle</a><span>10</span></li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Side Menu</h3>
-                    <nav class="links-side" data-flex="col"> 
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class="lwrap" data-flex="axis" data-flex-480="vaxis">
+                    <a href="/" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="236" height="45" alt="Businessstack">
+                    </a>
+                    <nav class="links-nav" data-flex="end w" data-flex-480="center w"> 
                         <a href="#">Home</a>
-                        <a href="#">Pages</a>
+                        <a href="#" class="active">Pages</a>
                         <a href="#">Team</a>
                         <a href="#">Blog</a>
                         <a href="#">Portfolio</a>
                         <a href="#">Contact</a>
                     </nav>
-                </section>
-                <section>
-                    <h3>Recent Tweet</h3>
-                    <div data-childs="-start">
-                        <article>
-                            <div class="lbl lbl-twit"><i class="icon-tw"></i></div>
-                            <div>
-                                <p><a href="#">ur posturings, our imagined self-importan&shy;ce, the delusion ...</a></p>
-                                <time>Fri Sep 21 08:25:04</time>
+                </div>
+            </header>
+            <div class="breadcrumbs">
+                <div class="lwrap" data-flex="w">
+                    <a href="#">Home</a><span>/</span>        
+                    <a href="#">Page</a><span>/</span>
+                    <a href="#">2 Col. Page</a>
+                </div>
+            </div>
+            <div class="hdr">
+                <h1 class="lwrap">2 Columns Layout</h1>
+            </div>
+            <div class="content-wrap lwrap" data-flex="stripe" data-flex-640="vstripe">
+                <div class="content">
+                    <section>
+                        <p>Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. </p>
+                        <p>The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived </p>                    
+                    </section>
+                    <section>
+                        <h3>Blockquote</h3>
+                        <blockquote data-flex>
+                            <q>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</q>
+                        </blockquote>
+                        <p>The vehicle explodes, literally explodes, off the pad. The simulator shakes you a little bit, but the actual liftoff shakes your entire body and soul. The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species </p>
+                    </section>
+                    <section>
+                        <h3>Accordion</h3>
+                        <div class="accordion" data-childs="axis">   
+                            <a href="#" class="active">Accordion 1</a>
+                            <div class="active">
+                                <p>The vehicle explodes, literally explodes, off the pad. The simulator shakes you a little bit, but the actual liftoff shakes your entire body and soul.</p>
                             </div>
-                        </article>
-                        <article>
-                            <div class="lbl lbl-twit"><i class="icon-tw"></i></div>
-                            <div>
-                                <p><a href="#">ur posturings, our imagined self-importan&shy;ce, the delusion ...</a></p>
-                                <time>Fri Sep 21 08:25:04</time>
+                            <a href="#">Accordion 2</a>
+                            <div>Tab number 2</div>
+                            <a href="#">Accordion 3</a>
+                            <div>Tab number 3</div>
+                            <a href="#">Accordion 4</a>
+                            <div>Tab number 4</div>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Multiple Tab</h3>
+                        <div class="tabs" data-tabs="">
+                            <div class="tablist">
+                                <a href="#tab1">Tab 1</a>
+                                <a href="#tab2" class="active">Tab 2</a>
+                                <a href="#tab3">Tab 3</a>
+                                <a href="#tab4">Tab 4</a>
                             </div>
-                        </article>
-                        <article>
-                            <div class="lbl lbl-twit"><i class="icon-tw"></i></div>
-                            <div>
-                                <p><a href="#">ur posturings, our imagined self-importan&shy;ce, the delusion ...</a></p>
-                                <time>Fri Sep 21 08:25:04</time>
+                            <div class="tabset">
+                                <div id="tab1" class="tabpanel">Tab number 1</div>
+                                <div id="tab2" class="tabpanel active">
+                                    <p>The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," </p>
+                                </div>
+                                <div id="tab3" class="tabpanel">Tab number 3</div>
+                                <div id="tab4" class="tabpanel">Tab number 4</div>
                             </div>
-                        </article>
-                    </div>
-                </section>
-            </aside>
+                        </div>
+                    </section>
+                </div>
+                <aside class="sidebar" data-flex-640="stripe w">
+                    <section>
+                        <h3>Blog Categories</h3>
+                        <ul class="links-categories" data-childs="axis">
+                            <li><a href="#">Design</a><span>1</span></li>
+                            <li><a href="#">Programming</a><span>3</span></li>
+                            <li><a href="#">Art</a><span>5</span></li>
+                            <li><a href="#">Opinion</a><span>3</span></li>
+                            <li><a href="#">Lifestyle</a><span>10</span></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Side Menu</h3>
+                        <nav class="links-side" data-flex="col"> 
+                            <a href="#">Home</a>
+                            <a href="#">Pages</a>
+                            <a href="#">Team</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Contact</a>
+                        </nav>
+                    </section>
+                    <section>
+                        <h3>Recent Tweet</h3>
+                        <div data-childs="-start">
+                            <article>
+                                <div class="lbl lbl-twit"><i class="icon-tw"></i></div>
+                                <div>
+                                    <p><a href="#">ur posturings, our imagined self-importan&shy;ce, the delusion ...</a></p>
+                                    <time>Fri Sep 21 08:25:04</time>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="lbl lbl-twit"><i class="icon-tw"></i></div>
+                                <div>
+                                    <p><a href="#">ur posturings, our imagined self-importan&shy;ce, the delusion ...</a></p>
+                                    <time>Fri Sep 21 08:25:04</time>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="lbl lbl-twit"><i class="icon-tw"></i></div>
+                                <div>
+                                    <p><a href="#">ur posturings, our imagined self-importan&shy;ce, the delusion ...</a></p>
+                                    <time>Fri Sep 21 08:25:04</time>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </aside>
+            </div>
         </div>
         <footer>
             <div class="lwrap">

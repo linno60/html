@@ -11,6 +11,10 @@ figure img{
 body{
     background: #f7f7f7;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{
@@ -123,6 +127,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: url("/images/bg-footer.png");
     color: #cacaca;
     line-height: 24px;

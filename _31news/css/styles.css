@@ -11,7 +11,11 @@ figure img, #logo img, #logoalt img{
 body{
     background: #f5f5f5;
 }
-body > .lwrap{
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
+body > div > .lwrap{
     background: white;
     box-shadow: 0px 0px 0px 1px rgba(15,16,16,.1);
     margin: -160rem auto -16rem auto;
@@ -97,7 +101,7 @@ p a{
 .featured figure{
     float: right;
     border: 1px solid rgba(2, 2, 2, 0.17);
-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 .featured p{
     color: #7e8c95;
@@ -186,6 +190,7 @@ article p{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     position: relative;    
     background: #1e2735;
 }

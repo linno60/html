@@ -47,6 +47,9 @@ header{
 .works {
     background: url('/images/shadow2.png')no-repeat center 13px;
 }
+.works .hdr > div{
+    padding-top: 4rem;
+}
 .works figure{
     width: 31.3%;
     flex-shrink: 0;

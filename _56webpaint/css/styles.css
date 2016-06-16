@@ -15,6 +15,10 @@ p{
 address{
     font-style: normal;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 header{
@@ -99,6 +103,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     color: #bebebe;
     background: #313131;    
 }

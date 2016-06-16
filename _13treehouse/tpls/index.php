@@ -19,165 +19,167 @@
             }
         </script>
     </head>
-    <body>
-        <header class="lwrap" data-flex='axis'>
-            <a href="#" title="Return to the homepage" id="logo">
-                <img src="/images/logo.png" width="142" height="29" alt="Treehouse">
-            </a>
-            <nav class="links-nav" data-flex='end w'>
-                <a href='#'>home</a>
-                <a href='#'>about</a>
-                <a href='#'>blog</a>
-                <a href='#'>portfolio</a>
-                <a href='#'>contact</a>
-            </nav>
-        </header>
-        <section class='title-wrap' data-flex='col -center'>
-            <h1>creative digital solutions</h1>
-            <span>Proin iaculis purus consequat sem cure.</span>
-            <a href='#' class='btn btn-default'>view portfolio</a>
-        </section>
-        <section class='services lwrap'>
-            <hgroup data-flex='vaxis'>
-                <h2>professional services</h2>
-                <h5>Proin iaculis purus consequat sem cure</h5>
-            </hgroup>
-            <div data-flex='stripe' data-childs="col -center" data-flex-480="vstripe">
-                <article>
-                    <i class='icon-heart'></i>
-                    <h2>beautiful desings</h2>
-                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </article>
-                <article>
-                    <i class='icon-mobile'></i>
-                    <h2>responsive web</h2>
-                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </article>
-                <article>
-                    <i class='icon-graph'></i>
-                    <h2>marketing tools</h2>
-                    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </article>
-            </div>            
-        </section>
-        <section class='relax' data-flex='center'>
-            <div data-flex="-center end">
-                <figure><img src="/images/gear.png" width="196" height="416" alt=""></figure>
-            </div>
-            <div>
-                <div data-flex="col -start center">
-                    <h2>just relax <span>&</span> let us do the heavy lifting</h2>
-                    <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
-                    <ul class="list-relax" data-childs>
-                        <li>Initial Setup & Customizations</li>
-                        <li>Regular Updates</li>
-                        <li>Round The Clock Support</li>
-                    </ul>
-                    <a href='#' class='btn btn-default'>learn more</a>
-                </div>
-            </div>
-        </section>        
-        <section class='projects-wrap'>
-            <hgroup data-flex="vaxis">
-                <h2>latest project</h2>
-                <h5>Proin iaculis purus consequat sem cure</h5>
-            </hgroup>
-            <div class="projects" data-flex='center' data-flex-640="vstripe">
-                <div data-flex="-center end" data-flex-640="-center">
-                    <div>
-                        <h5>developing a framework</h5>
-                        <p>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
-                        <article data-flex="-center">
-                            <div class="lbl lbl-project"><i class="icon-basket"></i></div>
-                            <div>
-                                <h6>E-Commerce Ready</h6>
-                                <p>Proin iaculis purus consequat sem cure  digni ssim. </p>
-                            </div>
-                        </article>
-                        <article data-flex="-center">
-                            <div class="lbl lbl-project"><i class="icon-laptop"></i></div>
-                            <div>
-                                <h6>Powerful SEO Features</h6>
-                                <p>Proin iaculis purus consequat sem cure.</p>
-                            </div>
-                        </article>
-                        <article data-flex="-center">
-                            <div class="lbl lbl-project"><i class="icon-lock"></i></div>
-                            <div>
-                                <h6>Secure Encryption</h6>
-                                <p>Proin iaculis purus consequat sem cure iaculis purus.</p>
-                            </div>
-                        </article>
-                        <p>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in.</p>
-                        <a href="#" class="view">view details</a>
-                    </div>
-                </div>
-                <div data-flex="-end end">
-                    <figure><img src="images/ipad.png"></figure>
-                </div>
-            </div> 
-        </section>
-        <section class='values'>
-            <div class='lwrap' data-flex='col-center-center'>  
-                <hgroup data-flex="vaxis">
-                    <h2>culture & values</h2>
+    <body data-flex="col">
+        <div>
+            <header class="lwrap" data-flex='axis'>
+                <a href="#" title="Return to the homepage" id="logo">
+                    <img src="/images/logo.png" width="142" height="29" alt="Treehouse">
+                </a>
+                <nav class="links-nav" data-flex='end w'>
+                    <a href='#'>home</a>
+                    <a href='#'>about</a>
+                    <a href='#'>blog</a>
+                    <a href='#'>portfolio</a>
+                    <a href='#'>contact</a>
+                </nav>
+            </header>
+            <section class='title-wrap' data-flex='col -center'>
+                <h1>creative digital solutions</h1>
+                <span>Proin iaculis purus consequat sem cure.</span>
+                <a href='#' class='btn btn-default'>view portfolio</a>
+            </section>
+            <section class='services lwrap'>
+                <hgroup data-flex='vaxis'>
+                    <h2>professional services</h2>
                     <h5>Proin iaculis purus consequat sem cure</h5>
                 </hgroup>
                 <div data-flex='stripe' data-childs="col -center" data-flex-480="vstripe">
                     <article>
-                        <div class='lbl lbl-article'><i class='icon-music'></i></div>
-                        <h2>work-life balance</h2>
+                        <i class='icon-heart'></i>
+                        <h2>beautiful desings</h2>
                         <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </article>
-                    <hr>
                     <article>
-                        <div class='lbl lbl-article'><i class='icon-rating'></i></div>
-                        <h2>quality over quantity</h2>
+                        <i class='icon-mobile'></i>
+                        <h2>responsive web</h2>
                         <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </article>
-                    <hr>
                     <article>
-                        <div class='lbl lbl-article'><i class='icon-star'></i></div>
-                        <h2>deliver excellence</h2>
+                        <i class='icon-graph'></i>
+                        <h2>marketing tools</h2>
                         <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </article>
-                </div> 
-            </div>
-        </section>
-        <section class='testimonials'>
-            <div class='lwrap'>
-                <hgroup data-flex='vaxis'>
-                    <h2>our awesome clients</h2>
-                    <h5>Proin iaculis purus consequat sem cure</h5>
-                </hgroup>
+                </div>            
+            </section>
+            <section class='relax' data-flex='center'>
+                <div data-flex="-center end">
+                    <figure><img src="/images/gear.png" width="196" height="416" alt=""></figure>
+                </div>
                 <div>
-                    <div class="testimonial" data-flex="-center">  
-                        <figure><img src="images/circle.png"></figure> 
-                        <blockquote data-flex="col">
-                            &ldquo;&nbsp;Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus.&nbsp;&rdquo;
-                            <cite>- Jamie Richardson, Founder of Cocoa Media</cite>
-                        </blockquote>                        
-                    </div>
-                    <div class="testimonial" data-flex="-center">   
-                        <figure><img src="images/circle.png"></figure> 
-                        <blockquote data-flex="col">
-                            &ldquo;&nbsp;Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus.&nbsp;&rdquo;
-                            <cite>- Kim Thompson, Founder of Rainel</cite>
-                        </blockquote>                         
+                    <div data-flex="col -start center">
+                        <h2>just relax <span>&</span> let us do the heavy lifting</h2>
+                        <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+                        <ul class="list-relax" data-childs>
+                            <li>Initial Setup & Customizations</li>
+                            <li>Regular Updates</li>
+                            <li>Round The Clock Support</li>
+                        </ul>
+                        <a href='#' class='btn btn-default'>learn more</a>
                     </div>
                 </div>
-            </div>            
-        </section>
-        <section class='contact' data-flex='vaxis'>
-            <h3>ready to talk about your next project?</h3>
-            <a href="#" class="btn btn-contact">contact us</a>
-        </section>
-        <section class="brands" data-flex="-center center" data-flex-640="-center center w">
-            <figure><img src="images/envato.png"></figure> 
-            <figure><img src="images/wordpress.png"></figure> 
-            <figure><img src="images/tuts.png"></figure> 
-            <figure><img src="images/microlancer.png"></figure> 
-        </section>
+            </section>        
+            <section class='projects-wrap'>
+                <hgroup data-flex="vaxis">
+                    <h2>latest project</h2>
+                    <h5>Proin iaculis purus consequat sem cure</h5>
+                </hgroup>
+                <div class="projects" data-flex='center' data-flex-640="vstripe">
+                    <div data-flex="-center end" data-flex-640="-center">
+                        <div>
+                            <h5>developing a framework</h5>
+                            <p>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+                            <article data-flex="-center">
+                                <div class="lbl lbl-project"><i class="icon-basket"></i></div>
+                                <div>
+                                    <h6>E-Commerce Ready</h6>
+                                    <p>Proin iaculis purus consequat sem cure  digni ssim. </p>
+                                </div>
+                            </article>
+                            <article data-flex="-center">
+                                <div class="lbl lbl-project"><i class="icon-laptop"></i></div>
+                                <div>
+                                    <h6>Powerful SEO Features</h6>
+                                    <p>Proin iaculis purus consequat sem cure.</p>
+                                </div>
+                            </article>
+                            <article data-flex="-center">
+                                <div class="lbl lbl-project"><i class="icon-lock"></i></div>
+                                <div>
+                                    <h6>Secure Encryption</h6>
+                                    <p>Proin iaculis purus consequat sem cure iaculis purus.</p>
+                                </div>
+                            </article>
+                            <p>Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in.</p>
+                            <a href="#" class="view">view details</a>
+                        </div>
+                    </div>
+                    <div data-flex="-end end">
+                        <figure><img src="images/ipad.png"></figure>
+                    </div>
+                </div> 
+            </section>
+            <section class='values'>
+                <div class='lwrap' data-flex='col-center-center'>  
+                    <hgroup data-flex="vaxis">
+                        <h2>culture & values</h2>
+                        <h5>Proin iaculis purus consequat sem cure</h5>
+                    </hgroup>
+                    <div data-flex='stripe' data-childs="col -center" data-flex-480="vstripe">
+                        <article>
+                            <div class='lbl lbl-article'><i class='icon-music'></i></div>
+                            <h2>work-life balance</h2>
+                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        </article>
+                        <hr>
+                        <article>
+                            <div class='lbl lbl-article'><i class='icon-rating'></i></div>
+                            <h2>quality over quantity</h2>
+                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        </article>
+                        <hr>
+                        <article>
+                            <div class='lbl lbl-article'><i class='icon-star'></i></div>
+                            <h2>deliver excellence</h2>
+                            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        </article>
+                    </div> 
+                </div>
+            </section>
+            <section class='testimonials'>
+                <div class='lwrap'>
+                    <hgroup data-flex='vaxis'>
+                        <h2>our awesome clients</h2>
+                        <h5>Proin iaculis purus consequat sem cure</h5>
+                    </hgroup>
+                    <div>
+                        <div class="testimonial" data-flex="-center">  
+                            <figure><img src="images/circle.png"></figure> 
+                            <blockquote data-flex="col">
+                                &ldquo;&nbsp;Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus.&nbsp;&rdquo;
+                                <cite>- Jamie Richardson, Founder of Cocoa Media</cite>
+                            </blockquote>                        
+                        </div>
+                        <div class="testimonial" data-flex="-center">   
+                            <figure><img src="images/circle.png"></figure> 
+                            <blockquote data-flex="col">
+                                &ldquo;&nbsp;Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus.&nbsp;&rdquo;
+                                <cite>- Kim Thompson, Founder of Rainel</cite>
+                            </blockquote>                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section class='contact' data-flex='vaxis'>
+                <h3>ready to talk about your next project?</h3>
+                <a href="#" class="btn btn-contact">contact us</a>
+            </section>
+            <section class="brands" data-flex="-center center" data-flex-640="-center center w">
+                <figure><img src="images/envato.png"></figure> 
+                <figure><img src="images/wordpress.png"></figure> 
+                <figure><img src="images/tuts.png"></figure> 
+                <figure><img src="images/microlancer.png"></figure> 
+            </section>
+        </div>
         <footer>
             <section class="footer">
                 <div class="lwrap" data-flex="stripe" data-flex-640="stripe w" data-flex-480="vstripe">

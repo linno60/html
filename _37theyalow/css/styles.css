@@ -8,6 +8,13 @@ figure img, #logo img{
     padding: 0px 10px;
     max-width: 1040px;
 }
+body{
+    background: url("/images/bg4.png");
+}
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 header{
@@ -169,9 +176,6 @@ header > .lwrap > div{
 }
 
 /*CONDITIONS*/
-.conditions{
-    background: url("/images/bg4.png");
-}
 .conditions > .lwrap{
     padding: 36rem 10px 75rem 10px;
 }
@@ -212,6 +216,7 @@ header > .lwrap > div{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #4c4c4c;
     box-shadow: 0 -3px 5px rgba(0,0,0,.75);
 }

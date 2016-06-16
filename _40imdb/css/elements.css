@@ -144,7 +144,7 @@ body{
 }
 
 /*FORMS*/
-.form-search{
+.form-search{    
     flex-grow: 1;
     max-width: 205px;
     background: white;
@@ -153,12 +153,17 @@ body{
     padding: 0px 10rem;
     border-radius: 12px;
 }
+/* IE11 */
+@media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, .form-search{ width: 100%; }
+}
 .form-search input[type=search]{
     border: none;
     outline: none;
     text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
     color: black;
-    font-style: italic;   
+    font-style: italic;
+    flex-grow: 1;    
 }
 .form-search input[type=search]::-webkit-input-placeholder { color: #bcbcbc; }
 .form-search input[type=search]::-moz-placeholder { color: #bcbcbc; }

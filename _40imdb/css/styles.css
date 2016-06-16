@@ -36,6 +36,7 @@ header em{
     padding: 0px 15rem 24rem 6rem;
 }
 #logo{
+    display: inline-block;
     margin: 2rem 40rem 0px 0px;
 }
 .header{

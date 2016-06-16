@@ -19,102 +19,104 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <section class="lwrap" data-flex="axis" data-flex-480="axis w">
-                <div data-flex='-center'>
-                    <a href="/" title="Return to the homepage" id='logo'>
-                        <img src="/images/logo.png" width="69" height="51" alt="Snowboarding">
-                    </a>   
-                    <nav class='links-nav' data-flex="w">
-                        <a href="#">shop</a>
-                        <a href="#">team</a>
-                        <a href="#">events</a>
-                        <a href="#">experience</a>  
-                        <a href="#">company</a>
-                        <a href="#">contact</a>
-                    </nav>
+    <body data-flex="col">
+        <div>
+            <header>
+                <section class="lwrap" data-flex="axis" data-flex-480="axis w">
+                    <div data-flex='-center'>
+                        <a href="/" title="Return to the homepage" id='logo'>
+                            <img src="/images/logo.png" width="69" height="51" alt="Snowboarding">
+                        </a>   
+                        <nav class='links-nav' data-flex="w">
+                            <a href="#">shop</a>
+                            <a href="#">team</a>
+                            <a href="#">events</a>
+                            <a href="#">experience</a>  
+                            <a href="#">company</a>
+                            <a href="#">contact</a>
+                        </nav>
+                    </div>
+                    <div data-flex='-center end w'>
+                        <form action='#' method='post' class="form-search" data-flex="-center">
+                            <input type="search" name='search'>
+                            <input type="image" name="image" src="/images/icons/search.png">
+                        </form>
+                        <div class="cart" data-flex="-center">
+                            <a href="#"></a>
+                            <span>&euro;0</span>
+                        </div>
+                    </div>
+                </section> 
+            </header>
+            <section class="slider" data-flex='-center center'>
+                <div data-flex='col -end'>
+                    <h1>run over everything</h1>
+                    <a href="#" class="btn btn-default">see details</a>
                 </div>
-                <div data-flex='-center end w'>
-                    <form action='#' method='post' class="form-search" data-flex="-center">
-                        <input type="search" name='search'>
-                        <input type="image" name="image" src="/images/icons/search.png">
-                    </form>
-                    <div class="cart" data-flex="-center">
-                        <a href="#"></a>
-                        <span>&euro;0</span>
+            </section>
+            <section class="snowboards-wrap" data-flex="col -center">
+                <h2>snowboards</h2>
+                <p>aliquam erat volutpat. curabitur ut consequat arcu eget laoreet est</p>
+                <a href="#"><i class="icon-close"></i></a>
+                <div class="snowboards" data-flex="axis">
+                    <a href="#"><i class="icon-prev"></i></a>
+                    <div class="img-wrap" data-flex="axis">
+                        <figure><img src="images/board1.png"></figure>
+                        <figure><img src="images/board2.png"></figure>
+                        <figure><img src="images/board3.png"></figure>
+                        <figure><img src="images/board4.png"></figure>
+                        <figure><img src="images/board5.png"></figure>
+                    </div>                
+                    <a href="#"><i class="icon-next"></i></a>
+                </div>
+                <span>snowboard extreme series</span>
+            </section>
+            <section class="about">
+                <div class='lwrap'>
+                    <h2>the mountains snowboarding<sup>&reg;</sup></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt auctor facilisis. Nam massa dui, imperdiet et mi ut, sagittis viverra odio. Duis et lectus eu enim gravida vulputate nec eget nisi. Nunc ultrices velit blandit, dapibus lacus in, feugiat erat. Donec non porttitor augue, sit amet lacinia purus. Nulla fringilla quam est, luctus dapibus odio suscipit ut. Vivamus et lectus a nunc fringilla volutpat. Morbi sed congue sem.</p>
+                    <p>Aliquam erat volutpat. Curabitur ut consequat arcu, eget laoreet est. Vivamus semper nibh sit amet libero hendrerit luctus. Fusce non bibendum lorem. Fusce laoreet risus eget tortor lobortis egestas. Etiam tempus quam sed felis viverra scelerisque. Integer fringilla libero risus, vel euismod turpis auctor ac. Proin elementum aliquet libero a dapibus. Mauris et tempor dolor.</p>  
+                </div>
+            </section>
+            <section class="features lwrap" data-flex="col -center">
+                <h2>features</h2>
+                <a href="#"><i class="icon-close"></i></a>
+                <div data-flex="stripe w">
+                    <div>
+                        <figure>
+                            <img src="/images/img3.png">
+                            <figcaption>
+                                <a href="#">Born Identity: Bringing Burton Hardgoods to Life</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="/images/img4.png">
+                            <figcaption>
+                                <a href="#">Jeremy Jones: On That Street Grind</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="/images/img5.png">
+                            <figcaption>
+                                <a href="#">Burton's Tokyo Rail Days Recap</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="/images/img6.png">
+                            <figcaption>
+                                <a href="#">Burton's Tokyo Rail Days Preview</a>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
-            </section> 
-        </header>
-        <section class="slider" data-flex='-center center'>
-            <div data-flex='col -end'>
-                <h1>run over everything</h1>
-                <a href="#" class="btn btn-default">see details</a>
-            </div>
-        </section>
-        <section class="snowboards-wrap" data-flex="col -center">
-            <h2>snowboards</h2>
-            <p>aliquam erat volutpat. curabitur ut consequat arcu eget laoreet est</p>
-            <a href="#"><i class="icon-close"></i></a>
-            <div class="snowboards" data-flex="axis">
-                <a href="#"><i class="icon-prev"></i></a>
-                <div class="img-wrap" data-flex="axis">
-                    <figure><img src="images/board1.png"></figure>
-                    <figure><img src="images/board2.png"></figure>
-                    <figure><img src="images/board3.png"></figure>
-                    <figure><img src="images/board4.png"></figure>
-                    <figure><img src="images/board5.png"></figure>
-                </div>                
-                <a href="#"><i class="icon-next"></i></a>
-            </div>
-            <span>snowboard extreme series</span>
-        </section>
-        <section class="about">
-            <div class='lwrap'>
-                <h2>the mountains snowboarding<sup>&reg;</sup></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt auctor facilisis. Nam massa dui, imperdiet et mi ut, sagittis viverra odio. Duis et lectus eu enim gravida vulputate nec eget nisi. Nunc ultrices velit blandit, dapibus lacus in, feugiat erat. Donec non porttitor augue, sit amet lacinia purus. Nulla fringilla quam est, luctus dapibus odio suscipit ut. Vivamus et lectus a nunc fringilla volutpat. Morbi sed congue sem.</p>
-                <p>Aliquam erat volutpat. Curabitur ut consequat arcu, eget laoreet est. Vivamus semper nibh sit amet libero hendrerit luctus. Fusce non bibendum lorem. Fusce laoreet risus eget tortor lobortis egestas. Etiam tempus quam sed felis viverra scelerisque. Integer fringilla libero risus, vel euismod turpis auctor ac. Proin elementum aliquet libero a dapibus. Mauris et tempor dolor.</p>  
-            </div>
-        </section>
-        <section class="features lwrap" data-flex="col -center">
-            <h2>features</h2>
-            <a href="#"><i class="icon-close"></i></a>
-            <div data-flex="stripe w">
-                <div>
-                    <figure>
-                        <img src="/images/img3.png">
-                        <figcaption>
-                            <a href="#">Born Identity: Bringing Burton Hardgoods to Life</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="/images/img4.png">
-                        <figcaption>
-                            <a href="#">Jeremy Jones: On That Street Grind</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="/images/img5.png">
-                        <figcaption>
-                            <a href="#">Burton's Tokyo Rail Days Recap</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="/images/img6.png">
-                        <figcaption>
-                            <a href="#">Burton's Tokyo Rail Days Preview</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <footer>
             <div class='lwrap'>
                 <section class='footer' data-flex="stripe w">

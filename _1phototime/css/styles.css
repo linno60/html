@@ -12,6 +12,7 @@ figure img{
 }
 body > div{
     flex-grow: 1;
+    flex-shrink: 0;
 }
 header{    
     background: url('/images/bg1.png')no-repeat; 

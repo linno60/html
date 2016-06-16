@@ -37,6 +37,10 @@ h3{
     font-weight: 400;
     letter-spacing: 0.02em;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 header{
@@ -256,6 +260,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #1f1f1f;
     border-top: 1px solid black;
     box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.3);
