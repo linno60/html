@@ -19,53 +19,55 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap" data-flex="axis">
-                <a href="#" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="158" height="25" alt="Continuum">
-                </a>
-                <nav class="links-nav" data-flex="end w" data-childs="-center center">
-                    <a href="#" class="active">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Full Width</a>
-                    <a href="#">Shortcodes</a>
-                </nav>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class="lwrap" data-flex="axis">
+                    <a href="#" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="158" height="25" alt="Continuum">
+                    </a>
+                    <nav class="links-nav" data-flex="end w" data-childs="-center center">
+                        <a href="#" class="active">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Full Width</a>
+                        <a href="#">Shortcodes</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="banner-wrap">
+                <div class="lwrap banner" data-flex="-center center">
+                    <figure>
+                        <img src="/images/slider.png" width="845" height="325" alt="">
+                        <div class="overlay" data-flex="col -center around">
+                            <span>Cathedral Photo by _gee_ from Flickr</span>
+                            <a href="#">http://www.flickr.com/photos/gee01/</a>
+                        </div>
+                    </figure>                    
+                </div>
             </div>
-        </header>
-        <div class="banner-wrap">
-            <div class="lwrap banner" data-flex="-center center">
-                <figure>
-                    <img src="/images/slider.png" width="845" height="325" alt="">
-                    <div class="overlay" data-flex="col -center around">
-                        <span>Cathedral Photo by _gee_ from Flickr</span>
-                        <a href="#">http://www.flickr.com/photos/gee01/</a>
-                    </div>
-                </figure>                    
-            </div>
-        </div>
-        <div class="lwrap">
-            <div class="welcome" data-flex="axis">
-                <p>Sed porttitor ipsum at justo suscipit quis sollicitudin dolor facilisis. Fusce vestibulum blandit ultricies.</p>
-                <a href="#" class="btn btn-default">View Portfolio</a>
-            </div>
-            <div class="grid" data-flex="stripe w" data-flex-480="vstripe">
-                <article>
-                    <figure><img src="/images/img1.png" width="289" height="127" alt=""></figure>
-                    <h2>Fusce volutpat elementum</h2>
-                    <p>Maecenas arcu lectus, vehicula vitae dignissim id, venenatis convallis urna. In vitae lacus et justo congue scelerisque. Duis purus neque, ultricies sed vulputate quis, vehicula at lorem. Praesent lobortis posuere tincidunt.</p>
-                </article>
-                <article>
-                    <figure><img src="/images/img2.png" width="289" height="127" alt=""></figure>
-                    <h2>Fusce volutpat elementum</h2>
-                    <p>Maecenas arcu lectus, vehicula vitae dignissim id, venenatis convallis urna. In vitae lacus et justo congue scelerisque. Duis purus neque, ultricies sed vulputate quis, vehicula at lorem. Praesent lobortis posuere tincidunt.</p>
-                </article>
-                <article>
-                    <figure><img src="/images/img3.png" width="289" height="127" alt=""></figure>
-                    <h2>Fusce volutpat elementum</h2>
-                    <p>Maecenas arcu lectus, vehicula vitae dignissim id, venenatis convallis urna. In vitae lacus et justo congue scelerisque. Duis purus neque, ultricies sed vulputate quis, vehicula at lorem. Praesent lobortis posuere tincidunt.</p>
-                </article>
+            <div class="lwrap">
+                <div class="welcome" data-flex="axis">
+                    <p>Sed porttitor ipsum at justo suscipit quis sollicitudin dolor facilisis. Fusce vestibulum blandit ultricies.</p>
+                    <a href="#" class="btn btn-default">View Portfolio</a>
+                </div>
+                <div class="grid" data-flex="stripe w" data-flex-480="vstripe">
+                    <article>
+                        <figure><img src="/images/img1.png" width="289" height="127" alt=""></figure>
+                        <h2>Fusce volutpat elementum</h2>
+                        <p>Maecenas arcu lectus, vehicula vitae dignissim id, venenatis convallis urna. In vitae lacus et justo congue scelerisque. Duis purus neque, ultricies sed vulputate quis, vehicula at lorem. Praesent lobortis posuere tincidunt.</p>
+                    </article>
+                    <article>
+                        <figure><img src="/images/img2.png" width="289" height="127" alt=""></figure>
+                        <h2>Fusce volutpat elementum</h2>
+                        <p>Maecenas arcu lectus, vehicula vitae dignissim id, venenatis convallis urna. In vitae lacus et justo congue scelerisque. Duis purus neque, ultricies sed vulputate quis, vehicula at lorem. Praesent lobortis posuere tincidunt.</p>
+                    </article>
+                    <article>
+                        <figure><img src="/images/img3.png" width="289" height="127" alt=""></figure>
+                        <h2>Fusce volutpat elementum</h2>
+                        <p>Maecenas arcu lectus, vehicula vitae dignissim id, venenatis convallis urna. In vitae lacus et justo congue scelerisque. Duis purus neque, ultricies sed vulputate quis, vehicula at lorem. Praesent lobortis posuere tincidunt.</p>
+                    </article>
+                </div>
             </div>
         </div>
         <footer>

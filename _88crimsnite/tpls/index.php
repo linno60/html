@@ -19,92 +19,94 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class='lwrap'>
-                <div data-flex='axis' data-flex-480="vaxis">
-                    <a href="#" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="197" height="32" alt="Crimsnite">
-                    </a>
-                    <nav class='links-nav' data-flex="end w" data-childs="-center center" data-flex-480="center w">
-                        <a href='#' class='active'>home</a>
-                        <a href='#'>about us</a>
-                        <a href='#'>services</a>
-                        <a href='#'>products</a>
-                        <a href='#'>blog</a>
-                        <a href='#'>contact us</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <div class='lwrap wrap'>
-            <div class='banner-wrap'>  
-                <div class="banner" data-flex="-center">
-                    <div data-flex='col -center'>
-                        <figure><img src="/images/slidertitle.png" width="420" height="113" alt=""></figure>
-                        <a href='#' class='btn btn-download'>download now</a>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class='lwrap'>
+                    <div data-flex='axis' data-flex-480="vaxis">
+                        <a href="#" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="197" height="32" alt="Crimsnite">
+                        </a>
+                        <nav class='links-nav' data-flex="end w" data-childs="-center center" data-flex-480="center w">
+                            <a href='#' class='active'>home</a>
+                            <a href='#'>about us</a>
+                            <a href='#'>services</a>
+                            <a href='#'>products</a>
+                            <a href='#'>blog</a>
+                            <a href='#'>contact us</a>
+                        </nav>
                     </div>
                 </div>
-            </div>
-            <blockquote data-flex='-center center'><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</q></blockquote>
-            <div class='content' data-flex='-start between' data-flex-480="vstripe">
-                <div class='grid' data-flex='stripe w' data-flex-640="vstripe" data-childs>
-                    <article>
-                        <div><i class="icon-target"></i></div>
-                        <div>
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
+            </header>
+            <div class='lwrap wrap'>
+                <div class='banner-wrap'>  
+                    <div class="banner" data-flex="-center">
+                        <div data-flex='col -center'>
+                            <figure><img src="/images/slidertitle.png" width="420" height="113" alt=""></figure>
+                            <a href='#' class='btn btn-download'>download now</a>
                         </div>
-                    </article>
-                    <article>
-                        <div><i class="icon-case"></i></div>
-                        <div>
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <div><i class="icon-note"></i></div>
-                        <div>
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
-                        </div>
-                    </article>
-                    <article>
-                        <div><i class="icon-battery"></i></div>
-                        <div>
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-                            <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
-                        </div>
-                    </article>
+                    </div>
                 </div>
-                <div class='form-wrap'>
-                    <h3 class='hdr' data-flex='-center center'>sign up for free trial</h3>
-                    <form action='#' method='post' data-flex='col -center'>
-                        <div data-flex="col">
-                            <label for='i1'>Your Name</label>
-                            <input type='text' name="input" id='i1'>
-                            <label for='i2'>Your Email</label>
-                            <input type='email'name="input" id='i2'>
-                            <label for='i3'>Your Website</label>
-                            <input type='url'name="input" id='i3'>
-                        </div>                        
-                        <a href='#' class='btn btn-download' data-flex="w">download <span> &nbsp;free trial</span></a>
-                        <p>We respect your privacy. We do not sell or share your email address.</p>
-                    </form>
+                <blockquote data-flex='-center center'><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</q></blockquote>
+                <div class='content' data-flex='-start between' data-flex-480="vstripe">
+                    <div class='grid' data-flex='stripe w' data-flex-640="vstripe" data-childs>
+                        <article>
+                            <div><i class="icon-target"></i></div>
+                            <div>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><i class="icon-case"></i></div>
+                            <div>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><i class="icon-note"></i></div>
+                            <div>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div><i class="icon-battery"></i></div>
+                            <div>
+                                <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                                <p>adipiscing elit. Curabitur eu interdum dui. Aliquam turpis mauris, rhoncus et tempus ac, pellentesque quis sem. Nullam a leo arcu, in posuere leo.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class='form-wrap'>
+                        <h3 class='hdr' data-flex='-center center'>sign up for free trial</h3>
+                        <form action='#' method='post' data-flex='col -center'>
+                            <div data-flex="col">
+                                <label for='i1'>Your Name</label>
+                                <input type='text' name="input" id='i1'>
+                                <label for='i2'>Your Email</label>
+                                <input type='email'name="input" id='i2'>
+                                <label for='i3'>Your Website</label>
+                                <input type='url'name="input" id='i3'>
+                            </div>                        
+                            <a href='#' class='btn btn-download' data-flex="w">download <span> &nbsp;free trial</span></a>
+                            <p>We respect your privacy. We do not sell or share your email address.</p>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class='portfolio-wrap'>
-                <h2>Portfolio</h2>
-                <div class='portfolio' data-flex='axis w'>
-                    <a href='#'><i class="icon-prev"></i></a>
-                    <figure><img src="/images/slider1.png" width="232" height="160" alt=""></figure>
-                    <figure class="hidden"><img src="/images/slider2.png" width="232" height="160" alt=""></figure>
-                    <figure class="hidden-md"><img src="/images/slider3.png" width="232" height="160" alt=""></figure>
-                    <figure class="hidden-sm"><img src="/images/slider4.png" width="232" height="160" alt=""></figure>
-                    <a href='#'><i class="icon-next"></i></a>
+                <div class='portfolio-wrap'>
+                    <h2>Portfolio</h2>
+                    <div class='portfolio' data-flex='axis w'>
+                        <a href='#'><i class="icon-prev"></i></a>
+                        <figure><img src="/images/slider1.png" width="232" height="160" alt=""></figure>
+                        <figure class="hidden"><img src="/images/slider2.png" width="232" height="160" alt=""></figure>
+                        <figure class="hidden-md"><img src="/images/slider3.png" width="232" height="160" alt=""></figure>
+                        <figure class="hidden-sm"><img src="/images/slider4.png" width="232" height="160" alt=""></figure>
+                        <a href='#'><i class="icon-next"></i></a>
+                    </div>
+                    <div data-flex="end"><a href="#" class="more">See All Works ></a></div>
                 </div>
-                <div data-flex="end"><a href="#" class="more">See All Works ></a></div>
             </div>
         </div>
         <footer>

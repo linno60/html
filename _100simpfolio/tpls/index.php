@@ -19,60 +19,62 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap" data-flex="axis">
-                <a href="#" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="132" height="30" alt="Simpfolio">
-                </a>
-                <nav class="links-nav" data-flex="end w" data-childs="-center center">
-                    <a href="#" class="active">portfolio</a>
-                    <a href="#">about</a>
-                    <a href="#">contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="lwrap" data-flex="col -center">
-            <h1 class="hdr" data-flex="col around">Welcome to My Folio! I am John Doe, GUI Designer. This is my website where I showcase my design works. Browse thru and enjoy!</h1>            
-            <div data-childs="axis w">
-                <div class="post">
-                    <figure><img src="/images/img1.png" width="960" height="400" alt=""></figure>
-                    <div>
-                        <h2>Project Name and title </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
-                    </div>
-                    <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class="lwrap" data-flex="axis">
+                    <a href="#" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="132" height="30" alt="Simpfolio">
+                    </a>
+                    <nav class="links-nav" data-flex="end w" data-childs="-center center">
+                        <a href="#" class="active">portfolio</a>
+                        <a href="#">about</a>
+                        <a href="#">contact</a>
+                    </nav>
                 </div>
-                <div class="post">
-                    <figure><img src="/images/img2.png" width="960" height="400" alt=""></figure>
-                    <div>
-                        <h2>Project Name and title </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+            </header>
+            <div class="lwrap" data-flex="col -center">
+                <h1 class="hdr" data-flex="col around">Welcome to My Folio! I am John Doe, GUI Designer. This is my website where I showcase my design works. Browse thru and enjoy!</h1>            
+                <div data-childs="axis w">
+                    <div class="post">
+                        <figure><img src="/images/img1.png" width="960" height="400" alt=""></figure>
+                        <div>
+                            <h2>Project Name and title </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+                        </div>
+                        <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
                     </div>
-                    <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
-                </div>
-                <div class="post">
-                    <figure><img src="/images/img3.png" width="960" height="400" alt=""></figure>
-                    <div>
-                        <h2>Project Name and title </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+                    <div class="post">
+                        <figure><img src="/images/img2.png" width="960" height="400" alt=""></figure>
+                        <div>
+                            <h2>Project Name and title </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+                        </div>
+                        <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
                     </div>
-                    <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
-                </div>
-                <div class="post">
-                    <figure><img src="/images/img4.png" width="960" height="400" alt=""></figure>
-                    <div>
-                        <h2>Project Name and title </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+                    <div class="post">
+                        <figure><img src="/images/img3.png" width="960" height="400" alt=""></figure>
+                        <div>
+                            <h2>Project Name and title </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+                        </div>
+                        <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
                     </div>
-                    <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
+                    <div class="post">
+                        <figure><img src="/images/img4.png" width="960" height="400" alt=""></figure>
+                        <div>
+                            <h2>Project Name and title </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetueruer adipiscing elit, sed diam nonummy nibhhhitest euismod tincidunt ut laoreet dolore magnamus aliquam erat volutpat.</p>
+                        </div>
+                        <a href="#" class="btn btn-web">visit&ensp; website <i class="icon-arroww"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="links-pagination" data-flex="center" data-childs="-center center">
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
+                <div class="links-pagination" data-flex="center" data-childs="-center center">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </div>
             </div>
         </div>
         <footer>

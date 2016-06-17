@@ -8,6 +8,10 @@ figure > img, a > img{
     padding: 0px 10px;
     max-width: 1060px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+} 
 
 /*HEADER*/
 header .lwrap{
@@ -81,6 +85,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #444;
 }
 footer > .lwrap > div {

@@ -14,6 +14,7 @@ figure img{
 }
 body{
     height: auto;
+    min-height: 100%;
     overflow-x: hidden;
 }
 .side-wrap{
@@ -37,6 +38,7 @@ body{
     left: 50px;
 }
 .content-wrap > div{
+    min-height: 100%;
     max-width: 766px;
     background: rgba(255,255,255,.2);
 }

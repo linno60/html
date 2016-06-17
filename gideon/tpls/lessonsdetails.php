@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body data-flex="col between">
+    <body data-flex="col">
         <div>
             <?= require_tpl('common/header') ?>
             <?= require_tpl('common/slider') ?>
@@ -189,7 +189,13 @@
                 </div>
             </div>
         </div>
-        <?= require_tpl('common/footer') ?>
+        <footer>
+            <div class="lwrap footer-title" data-flex="center -center">
+                <h2>follow me on instagram</h2>
+            </div>
+            <?= require_tpl('common/galleryalt') ?>
+            <?= require_tpl('common/footer') ?>  
+        </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>

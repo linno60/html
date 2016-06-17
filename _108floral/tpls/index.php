@@ -19,97 +19,99 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap" data-flex="axis">
-                <a href="#" title="Return to the homepage" id="logo">
-                    <img src="images/logo.png" width="270" height="81" alt="Floral">
-                </a>
-                <nav class="links-nav" data-flex data-flex-800="w" data-childs="-center center">
-                    <a href="#" class="active">Home</a>
-                    <a href="#">Articles</a>
-                    <a href="#">Tutorials</a>
-                    <a href="#">Contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="wrap">
-            <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
-                <div class="content">
-                    <div class="post" data-flex="col -end">
-                        <div data-flex="axis">
-                            <h2>Some Tittle Goes Here</h2>
-                            <div data-flex="col -end">
-                                <em class="author">John Doe</em>
-                                <time>may. 26. 2011</time>
-                            </div>
-                        </div>
-                        <figure><img src="images/img1.png" width="602" height="220" alt=""></figure>
-                        <em>Phasellus vel arcu vitae neque sagittis aliquet ac at purus. Vestibulum varius eros in dui sagittis non ultrices orci hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </em>
-                        <p><strong>Sed euismod feugiat sodales.</strong> Vivamus dui ipsum, laoreet vitae euismod sit amet, euismod ac est. Sed turpis massa, convallis vitae facilisis eget, malesuada ullamcorper nibh. Nunc pulvinar augue non felis dictum ultricies. Donec lacinia, enim sit amet volutpat sodales, lorem velit fringilla metus, et semper metus sapien non odio. Nulla facilisi.&ensp; <a href="#">Praesent gravida suscipit leo</a>, eget fermentum magna malesuada ac. Maecenas pulvinar malesuada elementum. </p>
-                        <a href="#" class="more" data-flex="-center">Read More</a>
-                    </div>
-                    <hr class="border">
-                    <div class="post" data-flex="col -end">
-                        <div data-flex="axis">
-                            <h2>Some Tittle Goes Here</h2>
-                            <div data-flex="col -end">
-                                <em class="author">John Doe</em>
-                                <time>may. 26. 2011</time>
-                            </div>
-                        </div>
-                        <figure><img src="images/img2.png" width="602" height="220" alt=""></figure>
-                        <em>Phasellus vel arcu vitae neque sagittis aliquet ac at purus. Vestibulum varius eros in dui sagittis non ultrices orci hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </em>
-                        <p><strong>Sed euismod feugiat sodales.</strong> Vivamus dui ipsum, laoreet vitae euismod sit amet, euismod ac est. Sed turpis massa, convallis vitae facilisis eget, malesuada ullamcorper nibh. Nunc pulvinar augue non felis dictum ultricies. Donec lacinia, enim sit amet volutpat sodales, lorem velit fringilla metus, et semper metus sapien non odio. Nulla facilisi.&ensp; <a href="#">Praesent gravida suscipit leo</a>, eget fermentum magna malesuada ac. Maecenas pulvinar malesuada elementum. </p>
-                        <a href="#" class="more" data-flex="-center">Read More</a>
-                    </div>
-                    <div class="pagination" data-flex="axis">
-                        <a href="#">Prev <<</a>
-                        <div data-flex="-center center w">
-                            <a href="#">1</a>|
-                            <a href="#">2</a>|
-                            <a href="#">3</a>|
-                            <a href="#" class="active">4</a>|
-                            <a href="#">5</a>|
-                            <a href="#">6</a>|
-                            <a href="#">7</a>|
-                            <a href="#">8</a>|
-                            <a href="#">9</a>|
-                            <a href="#">10</a>|
-                            <a href="#">11</a>|
-                            <a href="#">12</a>
-                        </div>
-                        <a href="#">>> Next</a>
-                    </div>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class="lwrap" data-flex="axis">
+                    <a href="#" title="Return to the homepage" id="logo">
+                        <img src="images/logo.png" width="270" height="81" alt="Floral">
+                    </a>
+                    <nav class="links-nav" data-flex data-flex-800="w" data-childs="-center center">
+                        <a href="#" class="active">Home</a>
+                        <a href="#">Articles</a>
+                        <a href="#">Tutorials</a>
+                        <a href="#">Contact</a>
+                    </nav>
                 </div>
-                <aside class="sidebar" data-flex="col" data-flex-480="w">
-                    <div>
-                        <div>
-                            <h2 class="title">Categories</h2>
-                            <ul class="links-sidebar" data-flex="col">
-                                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                <li><a href="#">Consectetur adipiscing elit</a></li>
-                                <li><a href="#">Etiam aliquet convallis enim ut </a></li>
-                                <li><a href="#">Donec at pretium dui</a></li>
-                                <li><a href="#">Nulla sed massa sagittis venenatis</a></li>
-                                <li><a href="#">Praesent nec tortor nec massa </a></li>
-                            </ul>
+            </header>
+            <div class="wrap">
+                <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
+                    <div class="content">
+                        <div class="post" data-flex="col -end">
+                            <div data-flex="axis">
+                                <h2>Some Tittle Goes Here</h2>
+                                <div data-flex="col -end">
+                                    <em class="author">John Doe</em>
+                                    <time>may. 26. 2011</time>
+                                </div>
+                            </div>
+                            <figure><img src="images/img1.png" width="602" height="220" alt=""></figure>
+                            <em>Phasellus vel arcu vitae neque sagittis aliquet ac at purus. Vestibulum varius eros in dui sagittis non ultrices orci hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </em>
+                            <p><strong>Sed euismod feugiat sodales.</strong> Vivamus dui ipsum, laoreet vitae euismod sit amet, euismod ac est. Sed turpis massa, convallis vitae facilisis eget, malesuada ullamcorper nibh. Nunc pulvinar augue non felis dictum ultricies. Donec lacinia, enim sit amet volutpat sodales, lorem velit fringilla metus, et semper metus sapien non odio. Nulla facilisi.&ensp; <a href="#">Praesent gravida suscipit leo</a>, eget fermentum magna malesuada ac. Maecenas pulvinar malesuada elementum. </p>
+                            <a href="#" class="more" data-flex="-center">Read More</a>
                         </div>
-                        <div>
-                            <h2 class="title">Recent Comments</h2>
-                            <ul class="links-sidebar comments" data-flex="col">
-                                <li><p><a href="#">Donec consequat</a> suscipit leo at accumsan. In hac habitasse platea dictumst.</p></li>
-                                <li><p><a href="#">Aliquam erat ipsum,</a> consequat id venenatis suscipit, venenatis sed leo. Ut nec lacus in sem eleifend semper id ac dolor.</p></li>
-                                <li><p><a href="#">Etiam aliquet convallis enim ut Donec at pretium dui</p></a></li>
-                                <li><p><a href="#">Nulla sed massa sagittis</a> venenatis Praesent nec tortor nec massa</p></li>
-                                <li><p><a href="#">Donec faucibus mollis dolor in ullamcorper.</p></a></li>
-                            </ul>
-                            <a href="#" class="more" data-flex="-center">View More</a>
+                        <hr class="border">
+                        <div class="post" data-flex="col -end">
+                            <div data-flex="axis">
+                                <h2>Some Tittle Goes Here</h2>
+                                <div data-flex="col -end">
+                                    <em class="author">John Doe</em>
+                                    <time>may. 26. 2011</time>
+                                </div>
+                            </div>
+                            <figure><img src="images/img2.png" width="602" height="220" alt=""></figure>
+                            <em>Phasellus vel arcu vitae neque sagittis aliquet ac at purus. Vestibulum varius eros in dui sagittis non ultrices orci hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </em>
+                            <p><strong>Sed euismod feugiat sodales.</strong> Vivamus dui ipsum, laoreet vitae euismod sit amet, euismod ac est. Sed turpis massa, convallis vitae facilisis eget, malesuada ullamcorper nibh. Nunc pulvinar augue non felis dictum ultricies. Donec lacinia, enim sit amet volutpat sodales, lorem velit fringilla metus, et semper metus sapien non odio. Nulla facilisi.&ensp; <a href="#">Praesent gravida suscipit leo</a>, eget fermentum magna malesuada ac. Maecenas pulvinar malesuada elementum. </p>
+                            <a href="#" class="more" data-flex="-center">Read More</a>
+                        </div>
+                        <div class="pagination" data-flex="axis">
+                            <a href="#">Prev <<</a>
+                            <div data-flex="-center center w">
+                                <a href="#">1</a>|
+                                <a href="#">2</a>|
+                                <a href="#">3</a>|
+                                <a href="#" class="active">4</a>|
+                                <a href="#">5</a>|
+                                <a href="#">6</a>|
+                                <a href="#">7</a>|
+                                <a href="#">8</a>|
+                                <a href="#">9</a>|
+                                <a href="#">10</a>|
+                                <a href="#">11</a>|
+                                <a href="#">12</a>
+                            </div>
+                            <a href="#">>> Next</a>
                         </div>
                     </div>
-                    <a href="#" class="btn btn-default">FreePSDFiles&shy;.net</a>
-                    <a href="#" class="btn btn-default alt">Web&shy;-Backgrounds.net</a>
-                </aside>
+                    <aside class="sidebar" data-flex="col" data-flex-480="w">
+                        <div>
+                            <div>
+                                <h2 class="title">Categories</h2>
+                                <ul class="links-sidebar" data-flex="col">
+                                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                    <li><a href="#">Consectetur adipiscing elit</a></li>
+                                    <li><a href="#">Etiam aliquet convallis enim ut </a></li>
+                                    <li><a href="#">Donec at pretium dui</a></li>
+                                    <li><a href="#">Nulla sed massa sagittis venenatis</a></li>
+                                    <li><a href="#">Praesent nec tortor nec massa </a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="title">Recent Comments</h2>
+                                <ul class="links-sidebar comments" data-flex="col">
+                                    <li><p><a href="#">Donec consequat</a> suscipit leo at accumsan. In hac habitasse platea dictumst.</p></li>
+                                    <li><p><a href="#">Aliquam erat ipsum,</a> consequat id venenatis suscipit, venenatis sed leo. Ut nec lacus in sem eleifend semper id ac dolor.</p></li>
+                                    <li><p><a href="#">Etiam aliquet convallis enim ut Donec at pretium dui</p></a></li>
+                                    <li><p><a href="#">Nulla sed massa sagittis</a> venenatis Praesent nec tortor nec massa</p></li>
+                                    <li><p><a href="#">Donec faucibus mollis dolor in ullamcorper.</p></a></li>
+                                </ul>
+                                <a href="#" class="more" data-flex="-center">View More</a>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-default">FreePSDFiles&shy;.net</a>
+                        <a href="#" class="btn btn-default alt">Web&shy;-Backgrounds.net</a>
+                    </aside>
+                </div>
             </div>
         </div>
         <footer>

@@ -3,6 +3,10 @@ a > img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}  
 .lwrap{
     padding: 0px 10px;
     max-width: 1000px;
@@ -109,6 +113,9 @@ article p{
     color: #2e5c00;
     padding-right: 15px;
 }
+footer{
+    flex-shrink: 0;
+}
 .footer-top{
     background: #f3f3f3;
     box-shadow: inset 0 1px 2px rgba(19,19,19,.15);
@@ -130,59 +137,24 @@ article p{
     letter-spacing: -0.015em;
     padding-bottom: 1px;
 }
+/*MEDIA QUERIES*/
 @media (max-width: 1200px) {
-    .slider-wrap > a{
-        color: transparent;
-    }
-    .icon-prev, .icon-next{
-        width: 30px;
-        height: 30px;
-        flex-shrink: 0;
-        border-radius: 50%;
-    }
-    .icon-next {
-    
-    background: rgba(0,0,0,.3) url("/images/icons/next.png") no-repeat center center;
-}
-    .icon-prev {
-    
-    background: rgba(0,0,0,.3) url("/images/icons/next.png") no-repeat center center;
-}
+    .slider-wrap > a{color: transparent;}
+    .icon-prev, .icon-next{width: 30px; height: 30px; flex-shrink: 0; border-radius: 50%;}
+    .icon-next {background: rgba(0,0,0,.3) url("/images/icons/next.png") no-repeat center center;}
+    .icon-prev {background: rgba(0,0,0,.3) url("/images/icons/next.png") no-repeat center center;}
 }
 @media (max-width: 800px) {
-    .links-submenu a{
-        width: calc(100% / 3);
-    }
-    .btn-comments{
-        min-width: 100px;
-    }
+    .links-submenu a{width: calc(100% / 3);}
+    .btn-comments{min-width: 100px;}
 }
 @media (max-width: 480px) {
-    header .lwrap {
-    padding: 5px;
-}
-.slider-wrap h1 {
-    font-size: calc(35px / 2);
-}
-.slider-wrap p {
-    font-size: calc(23px / 2);
-}
-.links-smallmenu{
-    box-shadow: none;
-    border-left: none;
-    padding: 0px;
-}
-.links-smallmenu a{
-    margin: 4px;
-}
-.links-submenu, .btn-comments{
-    border-radius: 5px;
-    border:none;
-}
-.links-submenu a{
-        width: 50%;
-    }
-.footer-bottom .lwrap > div:first-child {
-    width: 0rem;
-}
+    header .lwrap {padding: 5px;}
+    .slider-wrap h1 {font-size: calc(35px / 2);}
+    .slider-wrap p {font-size: calc(23px / 2);}
+    .links-smallmenu{box-shadow: none; border-left: none; padding: 0px;}
+    .links-smallmenu a{margin: 4px;}
+    .links-submenu, .btn-comments{border-radius: 5px; border:none;}
+    .links-submenu a{width: 50%;}
+    .footer-bottom .lwrap > div:first-child {width: 0rem;}
 }

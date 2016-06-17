@@ -8,6 +8,11 @@ figure > img, a > img{
     max-width: 960px;
     padding: 0px 10px 51px 10px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: url("/images/hdrbg.png")repeat-x left bottom, linear-gradient(#cbcbcb 0%, #cbcbcb 100px, #fefefe 468px, #fff 100%);
+}  
 
 /*HEADER*/
 .border-top{
@@ -51,9 +56,6 @@ header .lwrap{
 }
 
 /*SLIDER*/
-.wrap {
-    background: url("/images/hdrbg.png")repeat-x left bottom, linear-gradient(#cbcbcb 0%, #cbcbcb 100px, #fefefe 468px, #fff 100%);
-}
 .slider{
     position: relative;
         margin-bottom: 18px;
@@ -232,6 +234,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer {
+    flex-shrink: 0;
     border-top: 1px solid white;
     background-color: #2d2d2d;
 }

@@ -8,6 +8,10 @@ figure > img, a > img{
     max-width: 980px;
     padding: 0px 10px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 .header-wrap{ 
@@ -167,7 +171,8 @@ blockquote a:active, blockquote a:hover, blockquote a:focus{
 }
 
 /*FOOTER*/
-footer{   
+footer{  
+    flex-shrink: 0;
     background: url("/images/shadowfooter.png")no-repeat center bottom,
         radial-gradient(ellipse closest-side, #d3efff, #d3efff calc(99% + 5px), transparent),
         linear-gradient(white, white 152rem, #d3efff 153rem, #d3efff);

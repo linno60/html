@@ -19,48 +19,48 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap">
-                <div class="header" data-flex="axis w" data-flex-480="vaxis">
-                    <a href="/" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="212" height="39" alt="Meegofurn">
-                    </a>
-                    <dl>
-                        <dt>Call Us: </dt>
-                        <dd>0548 784 44 66</dd>
-                    </dl>
-                </div>
-                <div class="banner" data-flex="-start between" data-flex-640="vstripe">
-                    <figure><img src="/images/img1.png" width="650" height="360" alt=""></figure>
-                    <div>
-                        <h2>March into the Sea</h2>
-                        <p>Morbi sed lectus nibh ut velest elit. Curabitur at mauris at velit laoreet sedat odio. Nam ut biben sagittis tortora volutpat. Etiam nonet leo purus,elementum libero. Aenean vitae quam leo mure rutrum.</p>
-                        <ul class="list" data-childs>
-                            <li>Curabitur at mauris</li>
-                            <li>Nam biben sagittis tortora</li>
-                            <li>Etiam non leo elementum</li>
-                        </ul>
-                        <a href="#" class="btn btn-default">go to link</a>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class="lwrap">
+                    <div class="header" data-flex="axis w" data-flex-480="vaxis">
+                        <a href="/" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="212" height="39" alt="Meegofurn">
+                        </a>
+                        <dl>
+                            <dt>Call Us: </dt>
+                            <dd>0548 784 44 66</dd>
+                        </dl>
                     </div>
-                </div>                
-            </div>
-        </header>
-        <div class="slider">
-            <div class="lwrap" data-flex="axis">
-                <a href="#"><i class="icon-prev"></i></a>
-                <div data-flex="stripe w">
-                    <figure><img src="/images/img2.png" width="118" height="88" alt=""></figure>
-                    <figure><img src="/images/img3.png" width="118" height="88" alt=""></figure>
-                    <figure><img src="/images/img4.png" width="118" height="88" alt=""></figure>
-                    <figure><img src="/images/img5.png" width="118" height="88" alt=""></figure>
-                    <figure class="hidden"><img src="/images/img6.png" width="118" height="88" alt=""></figure>
-                    <figure class="hidden"><img src="/images/img7.png" width="118" height="88" alt=""></figure>
+                    <div class="banner" data-flex="-start between" data-flex-640="vstripe">
+                        <figure><img src="/images/img1.png" width="650" height="360" alt=""></figure>
+                        <div>
+                            <h2>March into the Sea</h2>
+                            <p>Morbi sed lectus nibh ut velest elit. Curabitur at mauris at velit laoreet sedat odio. Nam ut biben sagittis tortora volutpat. Etiam nonet leo purus,elementum libero. Aenean vitae quam leo mure rutrum.</p>
+                            <ul class="list" data-childs>
+                                <li>Curabitur at mauris</li>
+                                <li>Nam biben sagittis tortora</li>
+                                <li>Etiam non leo elementum</li>
+                            </ul>
+                            <a href="#" class="btn btn-default">go to link</a>
+                        </div>
+                    </div>                
                 </div>
-                <a href="#"><i class="icon-next"></i></a>
+            </header>
+            <div class="slider">
+                <div class="lwrap" data-flex="axis">
+                    <a href="#"><i class="icon-prev"></i></a>
+                    <div data-flex="stripe w">
+                        <figure><img src="/images/img2.png" width="118" height="88" alt=""></figure>
+                        <figure><img src="/images/img3.png" width="118" height="88" alt=""></figure>
+                        <figure><img src="/images/img4.png" width="118" height="88" alt=""></figure>
+                        <figure><img src="/images/img5.png" width="118" height="88" alt=""></figure>
+                        <figure class="hidden"><img src="/images/img6.png" width="118" height="88" alt=""></figure>
+                        <figure class="hidden"><img src="/images/img7.png" width="118" height="88" alt=""></figure>
+                    </div>
+                    <a href="#"><i class="icon-next"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="content-wrap">
             <div class="lwrap">
                 <blockquote class="blockquote">Mauris sodales risus non enim tempor euro mat vehicula metus porta. Fusce eget molestie urna. Maecenas eu condimentum sem. Fusce in odio vitae risus tincidunt feugiat idet augue.</blockquote>
                 <div class="services" data-flex="stripe" data-flex-640="vstripe">

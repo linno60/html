@@ -1,7 +1,6 @@
 /*COMMON*/
 .lwrap{
     max-width: 1170px;
-    padding: 0px 10px;
 }
 figure > img, a > img, figure > img{
     display: block;
@@ -21,6 +20,7 @@ mark{
 }
 body > div{
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 /*HEADER*/
@@ -35,12 +35,15 @@ header, footer{
 }
 .top-wrap > .lwrap, .copyright > .lwrap{
     height: 53px;
+    padding: 0px 10px;
 }
 .top-wrap > .lwrap{
     position: relative;
 }
 .top-wrap .btn-cart{
-    position: relative;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 .top-wrap .btn-cart .lbl-counter{
     position: absolute;
@@ -108,7 +111,7 @@ header, footer{
     height: 32px;
 }
 .logo-wrap{
-    height: 204px;
+    padding: 35rem 10px;
 }
 .nav-wrap{
     background: url("/images/nav.png");
@@ -118,7 +121,6 @@ header, footer{
 .slider-header {
     position: relative;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 .slider-header > input[type=radio] {
     display: none;
@@ -136,12 +138,12 @@ header, footer{
     position: absolute;
     width: 100%;
     margin: 5px;
-    max-width: 300px;
+    max-width: 300rem;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) scale(0);
     box-shadow: inset 0px 0px 0px 2px #ff6766, 0px 0px 0px 30px rgba(255,255,255,.9);
-    padding: 20px;
+    padding: 20rem;
     text-align: center;
     background: white;
     opacity: 0;
@@ -180,7 +182,7 @@ header, footer{
 }
 .slider-header figure > figcaption > p{
     line-height: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
 }
 .slider-header figure > figcaption > time{
     font-style: italic;
@@ -234,15 +236,16 @@ header, footer{
 .arrowprev, .arrownext{
     position: absolute;
     z-index: 5;
-    width: 50px;
-    height: 50px;
-    top: 50%;    
+    width: 64rem;
+    height: 64rem;
+    min-height: 42px;
+    min-width: 42px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .arrownext > label, .arrowprev > label{
     width: 100%;
     height: 100%;
-    width: 64px;
-    height: 64px;
     border: 2px solid white;
     position: absolute;     
     z-index: 10;
@@ -300,48 +303,62 @@ header, footer{
 }
 
 /*CONTENT*/
-.content-wrap > * > *:not(.pg), .wrap{    
+
+
+.content-wrap > * > div:not(.pg), .wrap{    
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
 }
-.content-wrap > * > *:not(.pg), .wrap, .sidebar > div{
+.content-wrap > * > div:not(.pg), .wrap, .sidebar > div{
     background: white;
 }
 .content-wrap{
-    padding: 20px;
+    padding: 20rem 0px 20rem 0px;
 }
 .content{
-    width: 76.5%;
-    padding-right: 20px;
+    width: calc(76.5% - 20rem);
+    margin-right: 20rem;
 }
 .content-wrap > * > div:not(.pagination), .about{
-    padding: 20px;
+    padding: 20rem 20rem 20rem 20rem;
 }
+
+
 .article-wrap{
-    margin-bottom: 30px;
+    margin-bottom: 30rem;
 }
 .article-wrap > figure{
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
     position: relative;
 }
 .article-wrap .lbl-date{
-    margin-right: 30px;
+    margin-right: 30rem;
+}
+.article-wrap > article > .lbl-date + div{
+    width: calc(100% - 77px - 30rem);
 }
 .article-wrap > article h3{
     color: black;
     font-size: 26px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 .article-wrap > article p{
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
+}
+.article-wrap > article .btn-default{
+    font-style: italic;
 }
 .article-wrap > article .details{
-    margin-right: 20px;
-    padding: 15px 20px 0px 0px;
+    padding: 15rem 20rem 0px 0px;
+    margin-right: 20rem;
     border-right: 1px solid #212121;
+    width: 23.1%;
+    flex-shrink: 0;
 }
 .article-wrap > article .details + div{
-    padding: 5px 0px 10px 0px;
+    padding-top: 5px;
+    width: calc(76.9% - 20rem);
+    flex-grow: 1;
 }
 .article-wrap > article .details > .lbl-default{
     margin-bottom: 15px;
@@ -355,7 +372,38 @@ header, footer{
     position: absolute;
     top: 0px;
     left: 0px;
-    padding: 40px 30px;
+    padding: 40rem 30rem;
+}
+.article-wrap + .btn-alt{
+    margin-bottom: 20px;
+}
+
+.soundcloud{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.soundcloud .btn-pause{
+    margin-bottom: 5px;
+}
+.soundcloud figure{
+    margin-left: 5px;
+}
+.soundbar a, .soundcloud span{
+    color: #737373;
+    font-family: Open Sans;
+    font-size: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+.soundbar a{
+    border-bottom: 1px solid #ccc;
+}
+.soundbar a:last-child{
+    border-bottom: none;
 }
 
 /*SINGLE POST*/
@@ -445,13 +493,13 @@ header, footer{
     width: 23.5%;
 }
 .sidebar > *{
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
-.sidebar > div:not(.about){
-    padding: 15px;
+.sidebar > div:not(.about-blogger){
+    padding: 15rem;
 }
-.sidebar > div.about{
-    padding: 15px 0px;
+.sidebar > div.about-blogger{
+    padding: 15px 0px 0px 0px;
 }
 .sidebar > div > h2{
     color: #212121;
@@ -459,33 +507,35 @@ header, footer{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 .sidebar > div p{
     font-size: 13px;
     font-weight: 300;
     line-height: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
-.sidebar > .about > figure{
+.sidebar > .about-blogger > figure{
     position: relative;
-    margin-bottom: 30px;
 }
-.sidebar > .about > figure > .btn-more{
+.sidebar > .about-blogger > article{
+    padding: 20px 10rem 10rem 10rem;
+}
+.sidebar > .about-blogger > figure > .btn-more{
     position: absolute;
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
 }
-.sidebar > .about > article > *{
+.sidebar > .about-blogger > article > *{
     text-align: center;
 }
-.sidebar > .about > article > strong{
+.sidebar > .about-blogger > article > strong{
     color: black;
     font-size: 18px;
     font-weight: 700;
 }
-.sidebar > .about > article > small{
+.sidebar > .about-blogger > article > small{
     font-style: italic;
     margin-bottom: 10px;
 }
@@ -1054,14 +1104,17 @@ article:nth-child(4) .percentage:after {
 }
 
 /*LESSONS DETAILS*/
+.lessondetails{
+    padding: 40px 10px 40px 10px;
+}
 .lessondetails .video{
     width: 70%;
     padding-top: 40%;
 }
-.lessondetails article{
+.lessondetails > div > article{
     margin-bottom: 20px;
 }
-.lessondetails article h2{
+.lessondetails > div > article h2{
     color: black;
     font-size: 26px;
     font-weight: 400;
@@ -1121,6 +1174,7 @@ article:nth-child(4) .percentage:after {
     overflow-y: scroll;
     height: 300px;
     margin-bottom: 30px;
+    padding-right: 20px;
 }
 .scroll-wrap::-webkit-scrollbar-track{
     background: linear-gradient(90deg, white 0px, white 4px, #212121 4px, #212121 12px, white 12px, white 16px);
@@ -1137,8 +1191,11 @@ article:nth-child(4) .percentage:after {
 }
 
 /*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
 .footer-title{
-    height: 135px;
+    padding: 40rem 10px 40rem 10px;
 }
 .footer-title h2{
     color: #2a2a26;
@@ -1148,22 +1205,49 @@ article:nth-child(4) .percentage:after {
     text-align: center;
 }
 .media-wrap > .lwrap{
-    height: 150px;
+    padding: 50rem 0px;
 }
-.slider-footer figure:first-child{
+.gallery-footer figure:first-child{
     margin-left: 0px;
 }
-.slider-footer figure:last-child{
+.gallery-footer figure:last-child{
     margin-right: 0px;
 }
-.slider-footer figure{
+.gallery-footer figure{
     margin: 0px 3px;
+    position: relative;
+}
+.gallery-footer figure a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    color: transparent;
+    transform: scale(0);
+    transition: all ease .3s;
+    background: transparent;
+}
+.gallery-footer figure a:hover, .gallery-footer figure:hover a{
+    background: rgba(0,0,0,.7);
+    color: white;
+    transform: scale(1);
+}
+.gallery-footer figure a span{
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.gallery-footer figure a strong{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .footer{
     padding: 30px 10px 10px 10px;
 }
 .footer > div{
-    width: 33%; 
+    width: 32.2%; 
     margin-bottom: 20px;
 }
 .footer > div > h5{
@@ -1171,13 +1255,12 @@ article:nth-child(4) .percentage:after {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 40px;
 }
-.footer > div > figure{
-    margin-bottom: 40px;
+.footer > div > figure, .footer > div > h5{
+    margin-bottom: 40rem;
 }
 .footer > div > article{
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
 }
 .footer > div > article > a{
     float: left;
@@ -1186,23 +1269,21 @@ article:nth-child(4) .percentage:after {
 .footer > div > article > p{
     line-height: 16px;
     font-size: 13px;
-    margin-bottom: 3px;
+    margin-bottom: 3rem;
 }
 .footer > div > article > h6{
     color: black;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 3px;
+    margin-bottom: 3rem;
 }
 .footer > div > article > time{
     color: #212121;
     font-size: 11px;
 }
-.stream{
-    margin: -5px;
-}
-.stream > a{
-    margin: 5px;    
+.stream > a{  
+    width: 22.355%;
+    margin-bottom: 10px;
 }
 .stream > a, .footer > div > article > a{
     position: relative;
@@ -1223,6 +1304,39 @@ article:nth-child(4) .percentage:after {
 .stream > a:hover:before{
     background: rgba(255,103,102,.7);
 }
-.copyright{
+.copyright, .copyright a{
     color: #ccc;
+}
+.copyright > .lwrap > span > a{
+    text-align: right;
+}
+.copyright > .lwrap > span > a:active, .copyright > .lwrap > span > a:hover, .copyright > .lwrap > span > a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .stream > a{width: 47%}
+}
+@media (max-width: 640px) {
+    .stream > a{width: 22.355%;}
+    .sidebar > *:not(.popular){width: 49%;}
+    .sidebar > .search-sidebar{order: 0;}
+    .sidebar > .following{order: 1;}
+    .sidebar > .twit{order: 2;}
+    .sidebar > .tags{order: 3;}
+    .sidebar > .about-blogger, .sidebar > .category{order: 4;}
+    .sidebar > .banner{order: 5;}
+    .sidebar > .popular{order: 6;}
+    .sidebar > .popular article{width: 32%;}
+    .blockquote-lg q{font-size: 12px; line-height: 12px;}
+}
+@media (max-width: 480px) {
+    .sidebar > .tags{order: 2;}
+    .sidebar > .about-blogger{order: 3;}
+    .sidebar > .twit{order: 4;}
+    .sidebar > .search-sidebar, .sidebar > .following{width: 100%;}
+    .btn-search{width: 60px;}
+    .article-wrap > article .details{border-bottom: 1px solid #212121;border-right: none;}
+    .article-wrap .lbl-date { flex-direction: row; }
 }

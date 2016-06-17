@@ -13,6 +13,10 @@ figure > img, a > img{
 p{
     line-height: 20px;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{    
@@ -46,6 +50,7 @@ header .lwrap{
     background: url("/images/wrap.png")no-repeat center 111px, url("/images/wrapbottom.png")no-repeat center bottom 56px;
 }
 .wrap .lwrap{
+    min-height: 430px;
     position: relative;
     margin: -110rem auto -57rem auto;
     border: 1px solid white;
@@ -146,6 +151,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     box-shadow: 0px -1px 0px 0px rgba(255,255,255,.1);
     background: #54472a url("/images/footer.png")repeat-x center top;
     border-bottom: 44rem solid rgba(0,0,0,.3);

@@ -19,89 +19,91 @@
             }
         </script>
     </head>
-    <body>
+    <body data-flex="col">
         <div>
-            <header>
-                <div class="lwrap" data-flex="axis" data-flex-480="-center around w">
-                    <div data-flex="col -start">
-                        <a href="/" title="Return to the homepage" id="logo">
-                            <img src="/images/logo.png" height="45" width="106" alt="Apprmb">
-                        </a>
-                        <span>save all what do you like on one place / in one app :)</span>
+            <div>
+                <header>
+                    <div class="lwrap" data-flex="axis" data-flex-480="-center around w">
+                        <div data-flex="col -start">
+                            <a href="/" title="Return to the homepage" id="logo">
+                                <img src="/images/logo.png" height="45" width="106" alt="Apprmb">
+                            </a>
+                            <span>save all what do you like on one place / in one app :)</span>
+                        </div>
+                        <a href="#" class="btn btn-alt">download app</a>
+                        <div class="links-top" data-flex="-center center w">
+                            <a href="#">more info</a>|
+                            <a href="#">contact us</a>
+                        </div>
                     </div>
-                    <a href="#" class="btn btn-alt">download app</a>
-                    <div class="links-top" data-flex="-center center w">
-                        <a href="#">more info</a>|
-                        <a href="#">contact us</a>
-                    </div>
-                </div>
-            </header>
-            <div class="slider">
-                <div class="lwrap" data-flex="axis" data-flex-480="vstripe r">
-                    <figure><img src="/images/iphone.png" width="318" height="407" alt=""></figure>
-                    <div>
-                        <figure class="wrap">
-                            <div class="video" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/5_8Zreg1RRQ" frameborder="0" allowfullscreen></iframe></div>
-                        </figure>
-                        <div class="action">Don't miss the chance and download this app :)</div>
-                    </div>
-                </div>
-            </div>
-            <div class="lwrap content">
-                <div class="hdr" data-flex="axis">
-                    <h2>More info</h2>
-                    <a href="#" class="btn btn-alt">download app</a>
-                </div>
-                <div data-flex="stripe" data-flex-640="vstripe r">
-                    <aside class="sidebar" data-flex="-start around w">
-                        <article class="wrap">
-                            <h3>About app</h3>
-                            <em>Morbi egestas adipiscing bibendum. Nullam consequat aliquam massa sed posuere. Aenean sodales est non sapien laoreet accumsan. </em>
-                            <p>Integer molestie bibendum est, ac sol&shy;licitudin erat bibendum a. Proin convallis elit eu felis iaculis placerat. Vivamus in nisi ipsum. Etiam dignissim tristique lectus, eget consectetur metus auctor eu. Donec vitae risus lacus, eu bibendum ipsum.</p>
-                        </article>
+                </header>
+                <div class="slider">
+                    <div class="lwrap" data-flex="axis" data-flex-480="vstripe r">
+                        <figure><img src="/images/iphone.png" width="318" height="407" alt=""></figure>
                         <div>
-                            <h4>Newsletter</h4>
-                            <form action="#" method="post" data-flex="col -end">
-                                <input type="email" name="input" placeholder="your e-mail">
-                                <button><span class="btn btn-default">submit</span></button>
-                            </form>
+                            <figure class="wrap">
+                                <div class="video" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/5_8Zreg1RRQ" frameborder="0" allowfullscreen></iframe></div>
+                            </figure>
+                            <div class="action">Don't miss the chance and download this app :)</div>
                         </div>
-                        <div data-flex="w">
-                            <h4>Follow us</h4>
-                            <div class="links-social" data-flex="w" data-childs="-center"> 
-                                <a href="#"><i class="icon-tw"></i>twitter</a>
-                                <a href="#"><i class="icon-fb"></i>facebook</a>
+                    </div>
+                </div>
+                <div class="lwrap content">
+                    <div class="hdr" data-flex="axis">
+                        <h2>More info</h2>
+                        <a href="#" class="btn btn-alt">download app</a>
+                    </div>
+                    <div data-flex="stripe" data-flex-640="vstripe r">
+                        <aside class="sidebar" data-flex="-start around w">
+                            <article class="wrap">
+                                <h3>About app</h3>
+                                <em>Morbi egestas adipiscing bibendum. Nullam consequat aliquam massa sed posuere. Aenean sodales est non sapien laoreet accumsan. </em>
+                                <p>Integer molestie bibendum est, ac sol&shy;licitudin erat bibendum a. Proin convallis elit eu felis iaculis placerat. Vivamus in nisi ipsum. Etiam dignissim tristique lectus, eget consectetur metus auctor eu. Donec vitae risus lacus, eu bibendum ipsum.</p>
+                            </article>
+                            <div>
+                                <h4>Newsletter</h4>
+                                <form action="#" method="post" data-flex="col -end">
+                                    <input type="email" name="input" placeholder="your e-mail">
+                                    <button><span class="btn btn-default">submit</span></button>
+                                </form>
                             </div>
-                        </div>
-                    </aside>
-                    <div>
-                        <div class="wrap functions">
-                            <h3>Functions</h3>
-                            <div data-flex="stripe w" data-flex-480="vstripe">
-                                <article>
-                                    <h4 data-flex="-center"><i class="icon-microphone"></i>Music</h4>
-                                    <p>Suspendisse a metus sit amet odio elementum suscipit id lectus sed accumsan ipsum.</p>
-                                </article>
-                                <article>
-                                    <h4 data-flex="-center"><i class="icon-images"></i>Photos</h4>
-                                    <p>Vestibulum laoreet mollis felis vitae volutpat. Vivamus malesuada metus vitae neque adipiscing sollicitudin.</p>
-                                </article>
-                                <article>
-                                    <h4 data-flex="-center"><i class="icon-marker"></i>Places</h4>
-                                    <p>Proin posuere sem ac justo pulvinar malesuada. Suspendisse facilisis quam sed arcu dictum congue nisi iaculis.</p>
-                                </article>
-                                <article>
-                                    <h4 data-flex="-center"><i class="icon-bubbles"></i>Hot discussions</h4>
-                                    <p>Praesent dictum elit quis est pharetra vitae venenatis nunc posuere. Sed vet est volutpat ultrices et sed sapien.</p>
-                                </article>
-                                <article>
-                                    <h4 data-flex="-center"><i class="icon-mail"></i>Messages</h4>
-                                    <p>Donec egestas bibendum neque, posuere pulvinar lacus porta at.</p>
-                                </article>
-                                <article>
-                                    <h4 data-flex="-center"><i class="icon-fav"></i>Favorite</h4>
-                                    <p>Etiam quis nibh quis nulla placerat scelerisque.</p>
-                                </article>
+                            <div data-flex="w">
+                                <h4>Follow us</h4>
+                                <div class="links-social" data-flex="w" data-childs="-center"> 
+                                    <a href="#"><i class="icon-tw"></i>twitter</a>
+                                    <a href="#"><i class="icon-fb"></i>facebook</a>
+                                </div>
+                            </div>
+                        </aside>
+                        <div>
+                            <div class="wrap functions">
+                                <h3>Functions</h3>
+                                <div data-flex="stripe w" data-flex-480="vstripe">
+                                    <article>
+                                        <h4 data-flex="-center"><i class="icon-microphone"></i>Music</h4>
+                                        <p>Suspendisse a metus sit amet odio elementum suscipit id lectus sed accumsan ipsum.</p>
+                                    </article>
+                                    <article>
+                                        <h4 data-flex="-center"><i class="icon-images"></i>Photos</h4>
+                                        <p>Vestibulum laoreet mollis felis vitae volutpat. Vivamus malesuada metus vitae neque adipiscing sollicitudin.</p>
+                                    </article>
+                                    <article>
+                                        <h4 data-flex="-center"><i class="icon-marker"></i>Places</h4>
+                                        <p>Proin posuere sem ac justo pulvinar malesuada. Suspendisse facilisis quam sed arcu dictum congue nisi iaculis.</p>
+                                    </article>
+                                    <article>
+                                        <h4 data-flex="-center"><i class="icon-bubbles"></i>Hot discussions</h4>
+                                        <p>Praesent dictum elit quis est pharetra vitae venenatis nunc posuere. Sed vet est volutpat ultrices et sed sapien.</p>
+                                    </article>
+                                    <article>
+                                        <h4 data-flex="-center"><i class="icon-mail"></i>Messages</h4>
+                                        <p>Donec egestas bibendum neque, posuere pulvinar lacus porta at.</p>
+                                    </article>
+                                    <article>
+                                        <h4 data-flex="-center"><i class="icon-fav"></i>Favorite</h4>
+                                        <p>Etiam quis nibh quis nulla placerat scelerisque.</p>
+                                    </article>
+                                </div>
                             </div>
                         </div>
                     </div>

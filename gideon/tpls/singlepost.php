@@ -189,7 +189,13 @@
                 </aside>
             </div>
         </div>
-        <?= require_tpl('common/footer') ?>
+        <footer>
+            <div class="lwrap footer-title" data-flex="center -center">
+                <h2>follow me on instagram</h2>
+            </div>
+            <?= require_tpl('common/gallery') ?>
+            <?= require_tpl('common/footer') ?>  
+        </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>

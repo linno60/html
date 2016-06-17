@@ -7,6 +7,11 @@ figure > img, a > img{
     height: 100%;
     display: block;
 }
+body > div{
+    background: #f1f1f1;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{
@@ -88,7 +93,6 @@ header .lwrap{
 
 /*CONTENT*/
 .content{
-    background: #f1f1f1;
     border-bottom: 1px solid #3c3c3c;
     box-shadow: 0px 5px 0px 0px #fff600;
     margin-bottom: 5px;
@@ -180,6 +184,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background-color: #3c3c3c;
 }
 .footer{

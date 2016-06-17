@@ -13,6 +13,10 @@ figure > img, a > img{
     flex-grow: 1;
     width: 100%;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 p{
     color: #888;
 }
@@ -38,6 +42,7 @@ header{
 }
 #logo{
     margin-bottom: 95rem;
+    display: inline-block;
 }
 
 /*ABOUT*/
@@ -141,6 +146,9 @@ header{
 }
 
 /*FOOTER*/
+footer{
+    flex-shrink: 0;
+}
 footer > .lwrap{
     padding: 23rem 10px;
     text-align: center;

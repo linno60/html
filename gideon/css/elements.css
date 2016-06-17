@@ -13,15 +13,25 @@ p{
 }
 
 /*BUTTONS*/
-button > .btn{
-    width: 100%;
+.btn-pause{
+    width: 59rem;
+    height: 59rem;
+    min-width: 34px;
+    min-height: 34px;
+    background: #ff6766 url(/images/icons/pause.png)no-repeat center center;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(11, 12, 12, 0.22);
+    border-radius: 50%;
 }
 .btn-anchor{
-    width: 43px;
-    height: 43px;
+    width: 43rem;
+    height: 43rem;
+    min-width: 20px;
+    min-height: 20px;
     border-radius: 50%;
     background: #ff6766 url(/images/icons/anchor.png)no-repeat center center;
     margin-left: 5px;
+    flex-shrink: 0;
 }
 .btn-default, .btn-alt{
     min-width: 140rem;
@@ -60,13 +70,15 @@ button > .btn{
     background: #ff6766 url(/images/icons/cart.png)no-repeat center center;
 }
 .btn-search{
-    width: 60px;
+    width: 60rem;
     height: 49px;
+    min-width: 20px;
+    flex-shrink: 0;
     background: #212121 url(/images/icons/searchwhite.png)no-repeat center center;
 }
 .btn-slide{
-    width: 64px;
-    height: 64px;
+    width: 64rem;
+    height: 64rem;
     border: 2px solid white;
 }
 .btn-slide.prev{
@@ -181,11 +193,12 @@ textarea[name=contact]{
     box-shadow: 0px 1px 0px 0px #ff6766;
 }
 .search-sidebar{
-    max-width: 330px;
+    max-width: 480px;
 }
 .search-sidebar input[type=search]{
     height: 49px;
     flex-grow: 1;
+    width: calc(100% - 60rem);
     border: none;
     padding: 0px 10px;
 }
@@ -349,12 +362,12 @@ select {
 .links-follow a{
     border: 1px solid #212121;
     margin: 3.5px;
-    transition: border-color ease .3s;
+    transition: border-color ease .3s, background ease .3s;
 }
 .links-share a{
     border: 1px solid lightgray;
     margin: 2px;
-    transition: border-color ease .3s;
+    transition: border-color ease .3s, background ease .3s;
     border-radius: 50%;
 }
 .links-sharesm a{
@@ -383,9 +396,6 @@ select {
 .links-share a:active > .icon-share-inst, .links-share a:hover > .icon-share-inst, .links-share a:focus > .icon-share-inst {background: url('/images/icons/share-inst-hover.png');}
 .links-share a:active > .icon-share-pin, .links-share a:hover > .icon-share-pin, .links-share a:focus > .icon-share-pin {background: url('/images/icons/share-pin-hover.png');}
 .links-share a:active > .icon-share-tw, .links-share a:hover > .icon-share-tw, .links-share a:focus > .icon-share-tw {background: url('/images/icons/share-tw-hover.png');}
-.links-social{
-    padding-bottom: 50px;
-}
 .links-socialalt a{
     margin: 3px;
     width: 34px;
@@ -415,7 +425,7 @@ select {
     height: 43px;
     background: #212121;
     border-radius: 50%;
-    margin: 5px;
+    margin: 5px 5px 50px 5px;
     border: 2px solid white;
     transition: background ease .3s;
     position: relative;
@@ -559,23 +569,23 @@ select {
 }
 
 /*LABELS*/
+.lbl-default, .lbl-price{
+    background: #ff6766;
+    padding: 0px 3px;
+    color: white;
+}
 .lbl-default{
     min-width: 120rem;
-    height: 28px;
-    background: #ff6766;
-    padding: 0px 5px;
-    color: white;
+    height: 28px;    
     font-style: italic;
 }
 .lbl-price{
-    min-width: 81px;
+    min-width: 81rem;
     height: 35px;
     color: #f4f5f7;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    background: #ff6766;
-    padding: 0px 5px;
 }
 .lbl-price.free{
     background: #7dd249;
@@ -583,13 +593,13 @@ select {
 .lbl-date{
     flex-direction: column;
     border: 1px solid #ff6766;
-    min-width: 77px;
-    height: 107px;
+    min-width: 77rem;
     padding: 5px;
 }
 .lbl-date > *{
     display: inline-block;
     color: black;
+    padding: 5px;
 }
 .lbl-date > big{
     font-size: 36px;
@@ -601,38 +611,39 @@ select {
 .lbl-date > span{
     font-size: 20px;
 }
-.lbl-counter{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: white;
-    border: 2px solid #ff6766;
-    color: #212121;
-}
 .lbl-quotes{
     flex-shrink: 0;
     width: 129rem;
     height: 129rem;
+    min-width: 60px;
+    min-height: 60px;
     background: white url(/images/icons/quotes.png)no-repeat center center;
 }
-.lbl-discount{
+.lbl-counter, .lbl-discount{
     color: #212121;
     background: white;
-    font-size: 14px;
     border: 2px solid #ff6766;
-    width: 58px;
-    height: 58px;
     border-radius: 50%;
-    padding: 5px;
+    border-radius: 50%;
+    padding: 4px;
     text-align: center;
+}
+.lbl-counter{
+    width: 25px;
+    height: 25px;    
+}
+.lbl-discount{    
+    font-size: 14px;
+    width: 58px;
+    height: 58px;    
 }
 
 /*CITES*/
 .blockquote-lg q{
     color: white;
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: 20px;
+    font-size: 18rem;
+    line-height: 30rem;
+    padding-left: 20rem;
     display: inline-block;
     font-style: italic;
     max-width: calc(100% - 129rem);
@@ -649,6 +660,8 @@ select {
 .blockquote-tw q{
     font-size: 14px;
     line-height: 24px;
+    display: inline-block;
+    width: 100%;
 }
 .blockquote-tw time{
     color: black;
@@ -867,9 +880,8 @@ select {
 .name{
     font-size: 13px;
     background: url(/images/icons/pen.png)no-repeat left 5px;
-    text-indent: 30px;
     display: inline-block;
-    padding: 5px;
+    padding: 5px 5px 5px 30px;
 }
 .read, .read-alt{      
     text-decoration: underline;

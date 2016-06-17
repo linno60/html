@@ -11,6 +11,10 @@ figure > img, a > img{
     height: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 #logo{
@@ -103,6 +107,7 @@ h1.hdr:after{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #34373f;
     border-top: 1px solid white;
 }

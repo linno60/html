@@ -1,4 +1,5 @@
 <a href="#" class="btn btn-anchor"></a>
+<a href="#" class="btn btn-pause"></a>
 <a href="#" class="btn btn-more"></a>
 <a href="#" class="btn btn-default">Read More</a>
 <a href="#" class="btn btn-alt">Load More</a>

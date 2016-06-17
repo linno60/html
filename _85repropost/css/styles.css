@@ -6,6 +6,10 @@ figure img, #logo-alt img, #logo img{
 figure{
     flex-shrink: 0; 
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}  
 body{
     background: url("/images/bg.png");
 }
@@ -308,6 +312,7 @@ p{
     border: 5px solid rgba(86,86,89,.03)
 }
 footer {
+    flex-shrink: 0;
     box-shadow: 0px -9px 0px 0px rgba(44, 39, 39, 0.06);
     background: url("/images/bgalt.png");
 }

@@ -2,6 +2,7 @@
 .lwrap{
     max-width: 1010px; 
     min-height: 100%;
+    height: 100%;
 }
 figure > img, a > img{
     width: 100%;

@@ -16,6 +16,10 @@ p, span, time{
 .content{
     width: calc(68.9% - 23rem);
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{
@@ -199,6 +203,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: #393a39;
 }
 footer > .lwrap{
@@ -210,6 +215,7 @@ footer span, footer span a{
     font-size: 16px;
 }
 footer span{
+    display: inline-block;
     padding-bottom: 14rem;
 }
 footer span a:active, footer span a:hover, footer span a:focus{

@@ -7,6 +7,10 @@ body{
     background: url("/images/body.png");
     background-size: cover;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 figure > img, a > img, figure > iframe{
     width: 100%;
     height: 100%;
@@ -158,6 +162,7 @@ header > .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     background: rgba(0, 0, 0, 0.44);
     box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.07);
 }

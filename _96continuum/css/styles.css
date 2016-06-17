@@ -2,6 +2,10 @@
 body{
     background: #f1f1f1;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
 .lwrap{
     max-width: 960px;
     padding: 0px 9px 0px 10px;
@@ -113,6 +117,7 @@ header .lwrap{
 
 /*FOOTER*/
 footer{
+    flex-shrink: 0;
     box-shadow: inset 0px 10px 30px 5px rgba(0,0,0,0.75);
     background: url("/images/bgfooter.png");
     letter-spacing: -0.005em;

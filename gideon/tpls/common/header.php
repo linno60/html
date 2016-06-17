@@ -1,4 +1,5 @@
 <header>
+    <a name="top"></a>
     <div class="top-wrap">
         <div class="lwrap" data-flex="axis">
             <form action="#" method="post" data-flex="-center" class="search-header">

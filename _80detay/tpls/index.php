@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body>
+    <body data-flex="col -center">
         <div class="lwrap">
             <div class="links-top" data-flex="end w">
                 <a href="#" class="active">TV</a>

@@ -20,7 +20,7 @@
         </script>
     </head>
     <body>
-        <div class='lwrap' data-flex="vstripe">
+        <div class='lwrap' data-flex="col">
             <div>
                 <header>
                     <div data-flex="axis">

@@ -3,15 +3,19 @@ figure img, #logo img{
     width: 100%;
     display: block;
 }
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}  
 body{
     background: url("/images/bg.png");
 }
 #logo{position: relative;}
-header{
+header{    
     position: relative;  
     border-top: 8px solid #880c0b;
     background:
-    linear-gradient(0deg, #d02627 0%, #b93535 7%, #b93535 16%, #d02627 17%, #bd5959 81%, #bd5959 100%);   
+        linear-gradient(0deg, #d02627 0%, #b93535 7%, #b93535 16%, #d02627 17%, #bd5959 81%, #bd5959 100%);   
     box-shadow: 1px 1.7px 0 white, inset 0px 1px 0px #d67a7a;
 }
 .lwrap{
@@ -53,10 +57,10 @@ header:after{
     transform: translateX(-50%);
 }
 header:before{
-    width: 101%;
+    width: 100%;
     height: 265rem;
     top: 100%;
-    left: -1px;
+    left: 0px;
     background: url("/images/shadow1.png")no-repeat center bottom, linear-gradient(0deg, #cecece 0%, #cecece 30%, #d5ac9c 100%);
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -229,6 +233,7 @@ footer span{
     display: inline-block;
 }
 footer{
+    flex-shrink: 0;
     border-top: 1px solid #fff;
     background: #cd3e38 url("../images/footer.png")no-repeat center top;
 }
@@ -278,61 +283,30 @@ header .lwrap:after, header:after, .banner-wrap:before, .banner-wrap > figure:af
 header .lwrap:before{
     background-size: cover;
 }
+
+/*MEDIA QUERIES*/
 @media (max-width: 1200px) {
-    .portfolio > a:first-child{
-    left: -5px;
-}
-.portfolio > a:last-child{
-    right: -4px;
-}
+    .portfolio > a:first-child{left: -5px;}
+    .portfolio > a:last-child{right: -4px;}
 }
 @media (max-width: 960px) {
-    header .lwrap:before{
-        display: none;
-    }
-    header .lwrap{
-        background: url("/images/shadow8.png") no-repeat center top,
-         url("/images/shadow7.png")no-repeat -300px top;
-    }  
+    header .lwrap:before{display: none;}
+    header .lwrap{background: url("/images/shadow8.png") no-repeat center top, url("/images/shadow7.png")no-repeat -300px top;}  
 }
 @media (max-width: 800px) {
-      footer > .lwrap > div {
-    width: 33%;
-}
-.links-default {
-    padding: 0px 10px 10px 0px;
-}
+    footer > .lwrap > div {width: 33%;}
+    .links-default {padding: 0px 10px 10px 0px;}
 }
 @media (max-width: 640px) {
-    .banner:after{
-    display: none;
-}
-.banner{
-    background-size: 105%;
-}
-blockquote{
-    font-size: 14px;
-    line-height: 16px;
-}
-.portfolio > figure {
-    width: 31%;
-}
-.hidden-md{
-    display: none;
-}
+    .banner:after{display: none;}
+    .banner{background-size: 105%;}
+    blockquote{font-size: 14px; line-height: 16px;}
+    .portfolio > figure {width: 31%;}
+    .hidden-md{display: none;}
 }
 @media (max-width: 480px) {
-    header .lwrap:after{
-    display: none;
-}
-.banner .btn-download {
-    font-size: 11px;
-    height: 38px;
-}
-.hidden-sm{
-    display: none;
-}
-.portfolio > figure {
-    width: 47%;
-}
+    header .lwrap:after{display: none;}
+    .banner .btn-download {font-size: 11px;height: 38px;}
+    .hidden-sm{display: none;}
+    .portfolio > figure {width: 47%;}
 }

@@ -19,75 +19,77 @@
             }
         </script>
     </head>
-    <body>
-        <header>
-            <div class="lwrap" data-flex="axis">
-                <a href="/" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="170" height="50" alt="Longwave">
-                </a>
-                <nav class="links-nav" data-flex="end w">
-                    <a href="#" class="active">home</a>
-                    <a href="#">portfolio</a>
-                    <a href="#">about</a>
-                    <a href="#">contact</a>
-                </nav>
-            </div>
-        </header>
-        <div class="intro">
-            <div class="lwrap">
-                <p>Maecenas sed <em>diam & eget risus</em> malesuada varius <strong>blandit</strong> sit amet non atsit magna, etiam portasemy malesuada mollis euismod aenean leo quam.</p>
-            </div>
-        </div>
-        <div class="portfolio">
-            <div class="lwrap">
-                <div data-flex="axis">
-                    <h2 class="title">portfolio &nbsp;&ensp;--</h2>
-                    <a href="#" class="btn btn-default">categories</a>
+    <body data-flex="col">
+        <div>
+            <header>
+                <div class="lwrap" data-flex="axis">
+                    <a href="/" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="170" height="50" alt="Longwave">
+                    </a>
+                    <nav class="links-nav" data-flex="end w">
+                        <a href="#" class="active">home</a>
+                        <a href="#">portfolio</a>
+                        <a href="#">about</a>
+                        <a href="#">contact</a>
+                    </nav>
                 </div>
-                <div class="grid" data-flex="stripe w">
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
-                    <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+            </header>
+            <div class="intro">
+                <div class="lwrap">
+                    <p>Maecenas sed <em>diam & eget risus</em> malesuada varius <strong>blandit</strong> sit amet non atsit magna, etiam portasemy malesuada mollis euismod aenean leo quam.</p>
                 </div>
             </div>
-        </div>
-        <div class="articles">
-            <div class="lwrap">
-                <h2 class="title">from journal &nbsp;&ensp;--</h2>
-                <div data-flex="stripe w" data-flex-640="vstripe">
-                    <article class="clearfix">
-                        <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
-                        <h4>Adipiscing Mollis Inceptos</h4>
-                        <p>Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh quam.</p>
-                        <a href="#" class="read">Continue Reading &rarr;</a>
-                    </article>
-                    <article class="clearfix">
-                        <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
-                        <h4>Sem Fermentum Fringilla Dolor</h4>
-                        <p>Aenean lacinia bibendum nulla consectetur, curabitur blandit tempus porttitor.</p>
-                        <a href="#" class="read">Continue Reading &rarr;</a>
-                    </article>
-                    <article class="clearfix">
-                        <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
-                        <h4>Cursus Justo Commodo</h4>
-                        <p>Aenean leo quam. Pellentesque ornare orta lacinia quam venenatis vestibulum.</p>
-                        <a href="#" class="read">Continue Reading &rarr;</a>
-                    </article>
-                    <article class="clearfix">
-                        <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
-                        <h4>Mattis Bibendum Ligula</h4>
-                        <p>Etiam porta dian malesuada magna mollis euismod, integer posuere ante venenatis.</p>
-                        <a href="#" class="read">Continue Reading &rarr;</a>
-                    </article>
+            <div class="portfolio">
+                <div class="lwrap">
+                    <div data-flex="axis">
+                        <h2 class="title">portfolio &nbsp;&ensp;--</h2>
+                        <a href="#" class="btn btn-default">categories</a>
+                    </div>
+                    <div class="grid" data-flex="stripe w">
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                        <figure><img src="/images/img.png" width="257" height="200" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+            <div class="articles">
+                <div class="lwrap">
+                    <h2 class="title">from journal &nbsp;&ensp;--</h2>
+                    <div data-flex="stripe w" data-flex-640="vstripe">
+                        <article class="clearfix">
+                            <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
+                            <h4>Adipiscing Mollis Inceptos</h4>
+                            <p>Fusce dapibus, tellus cursus commodo, tortor mauris condimentum nibh quam.</p>
+                            <a href="#" class="read">Continue Reading &rarr;</a>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
+                            <h4>Sem Fermentum Fringilla Dolor</h4>
+                            <p>Aenean lacinia bibendum nulla consectetur, curabitur blandit tempus porttitor.</p>
+                            <a href="#" class="read">Continue Reading &rarr;</a>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
+                            <h4>Cursus Justo Commodo</h4>
+                            <p>Aenean leo quam. Pellentesque ornare orta lacinia quam venenatis vestibulum.</p>
+                            <a href="#" class="read">Continue Reading &rarr;</a>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/img2.png" width="152" height="112" alt=""></figure>
+                            <h4>Mattis Bibendum Ligula</h4>
+                            <p>Etiam porta dian malesuada magna mollis euismod, integer posuere ante venenatis.</p>
+                            <a href="#" class="read">Continue Reading &rarr;</a>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>

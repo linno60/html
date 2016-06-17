@@ -13,35 +13,35 @@
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
             var LAYOUT_WIDTH = 960;
-            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
-            window.onresize = function() {
-                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth/LAYOUT_WIDTH+'px' : '1px';
+            document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
+            window.onresize = function () {
+                document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body>
-        <div class="border-top"></div>
-        <header>
-            <div class="lwrap" data-flex="stripe">
-                <div data-flex="-center w" class="logo-wrap">
-                    <a href="#" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="192" height="57" alt="Roundfolio">
-                    </a>
-                    <em>A circle is the reflection of eternity.</em>
-                </div>                
-                <div data-flex="col -end">
-                    <span class="rss" data-flex="-center"><a href="#" data-flex><i class="icon-rss"></i></a>1,001&nbsp;Subscribers&nbsp;</span>
-                    <div class="links-social" data-flex="end" data-flex-480="end w">
-                        <a href="#"><i class="icon-sv"></i></a>
-                        <a href="#"><i class="icon-support"></i></a>
-                        <a href="#"><i class="icon-fb"></i></a>
-                        <a href="#"><i class="icon-fl"></i></a>
-                        <a href="#"><i class="icon-tw"></i></a>
+    <body data-flex="col">
+        <div>
+            <div class="border-top"></div>
+            <header>
+                <div class="lwrap" data-flex="stripe">
+                    <div data-flex="-center w" class="logo-wrap">
+                        <a href="#" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="192" height="57" alt="Roundfolio">
+                        </a>
+                        <em>A circle is the reflection of eternity.</em>
+                    </div>                
+                    <div data-flex="col -end">
+                        <span class="rss" data-flex="-center"><a href="#" data-flex><i class="icon-rss"></i></a>1,001&nbsp;Subscribers&nbsp;</span>
+                        <div class="links-social" data-flex="end" data-flex-480="end w">
+                            <a href="#"><i class="icon-sv"></i></a>
+                            <a href="#"><i class="icon-support"></i></a>
+                            <a href="#"><i class="icon-fb"></i></a>
+                            <a href="#"><i class="icon-fl"></i></a>
+                            <a href="#"><i class="icon-tw"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <div class="wrap">
+            </header>
             <div class="lwrap">               
                 <div class="slider" data-flex="col -center">
                     <figure>
