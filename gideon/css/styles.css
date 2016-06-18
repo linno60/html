@@ -14,6 +14,7 @@ p{
     line-height: 24px;
     font-size: 14px;
     max-width: 100%;
+    letter-spacing: 0.05em;
 }
 mark{
     color: #ff6676;
@@ -33,88 +34,93 @@ header, footer{
 .top-wrap, .copyright{
     background: #212121;
 }
-.top-wrap > .lwrap, .copyright > .lwrap{
-    height: 53px;
-    padding: 0px 10px;
-}
 .top-wrap > .lwrap{
+    max-width: 1190px;
+    height: 50px;
     position: relative;
 }
 .top-wrap .btn-cart{
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 0px;
 }
 .top-wrap .btn-cart .lbl-counter{
     position: absolute;
-    bottom: -10px;
+    bottom: -12px;
     left: 50%;
     transform: translateX(-50%);
 }
+.logo-wrap{
+    padding: 39rem 0px;
+}
+.nav-wrap{
+    background: url("/images/nav.png");
+}
 
 /*POPUP*/
-.top-wrap .btn-cart + .popup{
+.cart-popup{
     position: absolute;
     border-top: 4px solid #ff6766;
-    top: 78px;
-    right: 50px;
+    top: 87px;
+    right: 10px;
     width: 250px;
     background: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
-    padding: 10px 10px 10px 10px;
+    padding: 10rem 13rem 20rem 20rem;
     z-index: 100;
     display: none;
 }
-.top-wrap .btn-cart:hover + .popup, .top-wrap .btn-cart:focus + .popup,.top-wrap .btn-cart + .popup:hover, .top-wrap .btn-cart + .popup:focus{
+.top-wrap .btn-cart:hover + .cart-popup, .top-wrap .btn-cart:focus + .cart-popup,.top-wrap .btn-cart + .cart-popup:hover, .top-wrap .btn-cart + .cart-popup:focus{
     display: flex;
 }
-.popup:before{
+.cart-popup:before{
     content: "";
     position: absolute;
-    top: -9px;
-    right: 20px;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #ff6766;
+    top: -12px;
+    right: 8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #ff6766;
 }
-.popup > div > div{
+.cart-popup > div > div{
     border-bottom: 1px solid #f6f6f6;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding: 10rem 4rem 10rem 0px;
     width: 100%;
 }
-.popup > div{
+.cart-popup > div{
     width: 100%;
 }
-.popup figure + div > span{
+.cart-popup figure + div > span{
     display: inline-block;
+    margin-bottom: 4rem;
+    letter-spacing: 0.05em;
 }
-.popup figure + div{
+.cart-popup figure + div{
     flex-grow: 1;
+    padding-top: 16rem;
 }
-.popup figure{
-    margin-right: 10px;
+.cart-popup figure + div + a{
+    margin-top: 17rem;
 }
-.popup strong{
+.cart-popup figure{
+    margin-right: 10rem;
+}
+.cart-popup strong{
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: #2a2a26;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 3rem 0px 16rem 0px;
+    letter-spacing: 0.05em;
 }
-.popup strong span{
+.cart-popup strong span{
     color: #ff6766;
 }
-.popup .btn-default{
+.cart-popup .btn-default{
     min-width: 110rem;
     height: 32px;
-}
-.logo-wrap{
-    padding: 35rem 10px;
-}
-.nav-wrap{
-    background: url("/images/nav.png");
+    font-style: italic;
 }
 
 /*SLIDER-HEADER*/
@@ -303,35 +309,39 @@ header, footer{
 }
 
 /*CONTENT*/
-
-
-.content-wrap > * > div:not(.pg), .wrap{    
+.content > div:not(.pg), .sidebar > *, .wrap{    
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
-}
-.content-wrap > * > div:not(.pg), .wrap, .sidebar > div{
     background: white;
 }
 .content-wrap{
-    padding: 20rem 0px 20rem 0px;
+    padding: 100rem 0px 20rem 0px;
 }
 .content{
-    width: calc(76.5% - 20rem);
-    margin-right: 20rem;
+    width: calc(77% - 32rem);
+    margin: 0px 31rem 40rem 1rem;
 }
-.content-wrap > * > div:not(.pagination), .about{
-    padding: 20rem 20rem 20rem 20rem;
+.content > div:not(.pg), .about{
+    padding: 14rem 14rem 14rem 15rem;
 }
-
 
 .article-wrap{
-    margin-bottom: 30rem;
+    margin-bottom: 60rem;
 }
 .article-wrap > figure{
-    margin-bottom: 20rem;
+    margin-bottom: 29rem;
     position: relative;
 }
+.article-wrap > .video-1{
+    padding-top: 42.2%;
+}
+.article-wrap > .video-2{
+    padding-top: 55.7%;
+}
+.article-wrap > article{
+    margin-bottom: 16rem;
+}
 .article-wrap .lbl-date{
-    margin-right: 30rem;
+    margin: 0px 30rem 0px 10rem;
 }
 .article-wrap > article > .lbl-date + div{
     width: calc(100% - 77px - 30rem);
@@ -340,30 +350,32 @@ header, footer{
     color: black;
     font-size: 26px;
     font-weight: 400;
-    margin-bottom: 20rem;
+    margin: 2rem 0px 23rem 0px;
 }
 .article-wrap > article p{
-    margin-bottom: 10rem;
+    margin-bottom: 23rem;
 }
 .article-wrap > article .btn-default{
     font-style: italic;
 }
 .article-wrap > article .details{
-    padding: 15rem 20rem 0px 0px;
-    margin-right: 20rem;
+    padding: 20rem 20rem 0px 0px;
+    margin-right: 30rem;
     border-right: 1px solid #212121;
-    width: 23.1%;
+    width: 21.1%;
     flex-shrink: 0;
 }
 .article-wrap > article .details + div{
-    padding-top: 5px;
-    width: calc(76.9% - 20rem);
+    padding: 2rem 42rem 20rem 0px;
+    width: calc(78.9% - 30rem);
     flex-grow: 1;
 }
 .article-wrap > article .details > .lbl-default{
-    margin-bottom: 15px;
+    margin-bottom: 20rem;
 }
-.article-wrap > article p:first-of-type:first-letter, .lessons > article p:first-of-type:first-letter{
+.article-wrap > article .details-wrap ~ p:first-of-type:first-letter,
+.article-wrap > article .details + div p:first-of-type:first-letter,
+.lessons > article p:first-of-type:first-letter{
     color: #212121;
     font-size: 24px;
     color: black;
@@ -372,12 +384,13 @@ header, footer{
     position: absolute;
     top: 0px;
     left: 0px;
-    padding: 40rem 30rem;
+    padding: 70rem 39rem 10rem 96rem;
 }
 .article-wrap + .btn-alt{
     margin-bottom: 20px;
 }
 
+/*SOUNDCLOUD*/
 .soundcloud{
     position: absolute;
     left: 0px;
@@ -386,20 +399,23 @@ header, footer{
     height: 100%;
     padding: 5px;
 }
+.soundcloud > div:first-child{
+    margin: 9rem 0px 0px 8rem;
+}
 .soundcloud .btn-pause{
-    margin-bottom: 5px;
+    margin-bottom: 6rem;
 }
 .soundcloud figure{
-    margin-left: 5px;
+    margin-left: 9rem;
 }
 .soundbar a, .soundcloud span{
     color: #737373;
     font-family: Open Sans;
-    font-size: 10px;
-    padding: 2rem;
+    font-size: 10px;    
     text-align: center;
 }
 .soundbar a{
+    padding: 3rem 4rem;    
     border-bottom: 1px solid #ccc;
 }
 .soundbar a:last-child{
@@ -409,34 +425,47 @@ header, footer{
 /*SINGLE POST*/
 .single-post .article-wrap > article .details{
     border-right: none;
+    width: 100%;
+    max-width: 306px;
+    margin-bottom: 50rem;
+}
+.single-post .article-wrap > article .details > .lbl-default{
+    margin-bottom: 6rem;
 }
 .single-post .article-wrap > article h3 + hr {
     background: #212121;
-    width: 300px;
-    margin: 0px;
+    width: 211px;
+    margin: -1px 0px 0px 0px;
 }
 .single-post .article-wrap .lbl-date{
-    margin-right: -2px;
+    margin-right: -2rem;
 }
 .single-post .details-wrap{
-    padding-left: 30px;
+    padding-left: 32rem;
 }
 .single-post .article-wrap > article{
-    padding-right: 60px;
+    padding-right: 60rem;    
 }
-.single-post .article-wrap > article + div{
-    padding: 0px 60px;
+.single-post .article-wrap > article .details-wrap ~ p:first-of-type{
+    margin-bottom: 38rem;
+}
+.single-post .article-wrap > article .details-wrap ~ p:last-of-type{
+    margin-bottom: 43rem;
+}
+.single-post .article-wrap > article .details-wrap ~ p{
+    margin-bottom: 26rem;
 }
 .author{
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
-    padding: 30px 0px 30px 0px;
+    padding: 30rem 0px;
+    margin-bottom: 17rem;
 }
 .author figure{
     float: left;
     background-color: white;
     border: 1px solid #d6d6d6;
-    padding: 4px;
+    padding: 3px;
     margin-right: 20px;
     border-radius: 50%;
 }
@@ -444,23 +473,35 @@ header, footer{
     color: black;
     font-size: 18px;
     font-weight: 400;
+    margin: 3rem 0px 9rem 0px;
+    letter-spacing: 0.05em;
+}
+.article-wrap > article .author p{
+    font-size: 13px;
+    margin-bottom: 6rem;
+    line-height: 22px;
+}
+.single-post .links-share{
+    margin-bottom: 57rem;
 }
 .links-share span{
     color: #656565;
     font-size: 14px;
+    margin: 10rem 16rem 0px 0px;
+    letter-spacing: 0.05em;
 }
 .comment figure{
     float: left;
-    margin-right: 20px;
+    margin-right: 28rem;
 }
 .comment > .comment > div:last-child{
     border-bottom: none;
 }
 .comment > .comment{
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 59rem;
 }
 .comment > div{
-    padding: 30px 0px 30px 0px;
+    padding: 33rem 0px;
     border-bottom: 1px solid #e4e4e4;
 }
 .comment h4{
@@ -481,49 +522,83 @@ header, footer{
     font-size: 13px;
     line-height: 22px;
 }
-.article-wrap h2{
+.single-post .article-wrap h2{
     color: black;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 400;    
+}
+.single-post .comments-wrap h2{
+    margin-bottom: 23rem;
+}
+.single-post .comments-wrap{
+    margin-bottom: 54rem;
+}
+.single-post .form-comment h2{
+    margin-bottom: 55rem;
+}
+.form-comment form{
+    margin: 0px 0px 50rem -3rem;
+}
+.single-post .article-wrap {
+    margin-bottom: 87rem;
 }
 
 /*SIDEBAR*/
 .sidebar{
     flex-shrink: 0;
-    width: 23.5%;
+    width: 23%;
 }
 .sidebar > *{
-    margin-bottom: 20rem;
+    margin-bottom: 30rem;
 }
-.sidebar > div:not(.about-blogger){
-    padding: 15rem;
+.sidebar > div{
+    padding: 37rem 23rem 20rem 23rem;
 }
-.sidebar > div.about-blogger{
-    padding: 15px 0px 0px 0px;
+.sidebar > .following{
+    padding-top: 27rem;
 }
-.sidebar > div > h2{
+.sidebar > .categories{
+    padding: 26rem 0px 20rem 0px;
+}
+.sidebar > .about-blogger{
+    padding: 29rem 0px 20rem 0px;
+}
+.sidebar > .popular article figure{
+    padding: 7rem 0px 11rem 0px;
+}
+.sidebar > div h2{
     color: #212121;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20rem;
+    letter-spacing: 0.05em;
 }
-.sidebar > div p{
+.sidebar > .popular p{
     font-size: 13px;
     font-weight: 300;
     line-height: 16px;
-    margin-bottom: 20rem;
+}
+.sidebar > .popular article{
+    padding: 0px 0px 21rem 1rem;
+}
+.sidebar > .popular article:last-of-type{
+    padding-bottom: 7rem;
+}
+.category-wrap .sidebar > .popular article:last-of-type{
+    padding-bottom: 54rem;
 }
 .sidebar > .about-blogger > figure{
     position: relative;
+    margin-left: -1rem;
 }
 .sidebar > .about-blogger > article{
-    padding: 20px 10rem 10rem 10rem;
+    padding: 41rem 15rem 6rem 15rem;
 }
 .sidebar > .about-blogger > figure > .btn-more{
     position: absolute;
-    bottom: -20px;
+    bottom: -32rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -534,10 +609,93 @@ header, footer{
     color: black;
     font-size: 18px;
     font-weight: 700;
+    letter-spacing: 0.05em;
 }
 .sidebar > .about-blogger > article > small{
     font-style: italic;
-    margin-bottom: 10px;
+    margin: 2rem 0px 14rem 0px;
+    letter-spacing: 0.05em;
+}
+.sidebar > .about-blogger > article > p{
+    letter-spacing: 0.03em;
+}
+
+/*SLIDER TWITTER*/
+.slider-twitter > input[type=radio]{
+    display: none;
+}
+.slider-twitter > .slide{
+    position: relative;
+    min-height: 174px;
+    overflow: hidden;
+}
+.slider-twitter > .slide > .blockquote-tw{
+    width: 100%;
+    position: absolute;
+    transition: transform .3s;
+}
+.slider-twitter > .slide > .blockquote-tw q{
+    max-height: 72px;
+    overflow-y: hidden;
+}
+.slider-twitter > .slide > .num1{
+    left: 0%;
+}
+.slider-twitter > .slide > .num2{
+    left: 100%;
+}
+.slider-twitter > .slide > .num3{
+    left: 200%;
+}
+.slider-twitter > #tw1:checked ~ div > .blockquote-tw{
+    transform: translateX(0%);
+}
+.slider-twitter > #tw2:checked ~ div > .blockquote-tw{
+    transform: translateX(-100%);
+}
+.slider-twitter > #tw3:checked ~ div > .blockquote-tw{
+    transform: translateX(-200%);
+}
+.slider-twitter .bullets{
+    padding-bottom: 18rem;
+}
+.slider-twitter .bullets label{
+    width: 11px;
+    height: 11px;
+    background: #ebecee;
+    transition: background ease .3s;
+    border-radius: 50%;
+    margin: 2px;
+}
+.slider-twitter > #tw1:checked ~ .bullets > .num1,
+.slider-twitter > #tw2:checked ~ .bullets > .num2,
+.slider-twitter > #tw3:checked ~ .bullets > .num3 {
+    background: #ff6766; 
+}
+
+/*CATEGORY*/
+.category-wrap > figure{
+    position: relative;
+}
+.category-wrap > figure > h1{
+    position: absolute;
+    color: black;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.category-wrap .article-wrap + .btn-alt{
+    margin-bottom: 40rem;
+    font-style: italic;
+}
+.category-wrap .article-wrap:last-of-type{
+    margin-bottom: 72rem;
 }
 
 /*ABOUT*/
@@ -1195,7 +1353,7 @@ footer{
     flex-shrink: 0;
 }
 .footer-title{
-    padding: 40rem 10px 40rem 10px;
+    padding: 54rem 10px 55rem 10px;
 }
 .footer-title h2{
     color: #2a2a26;
@@ -1203,9 +1361,10 @@ footer{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 0.057em;
 }
 .media-wrap > .lwrap{
-    padding: 50rem 0px;
+    padding: 54rem 88rem;
 }
 .gallery-footer figure:first-child{
     margin-left: 0px;
@@ -1214,7 +1373,7 @@ footer{
     margin-right: 0px;
 }
 .gallery-footer figure{
-    margin: 0px 3px;
+    margin: 0px 1px;
     position: relative;
 }
 .gallery-footer figure a{
@@ -1244,10 +1403,11 @@ footer{
     text-transform: uppercase;
 }
 .footer{
-    padding: 30px 10px 10px 10px;
+    max-width: 1196px;
+    padding: 83rem 10px 47rem 16rem;
 }
 .footer > div{
-    width: 32.2%; 
+    width: 31.7%; 
     margin-bottom: 20px;
 }
 .footer > div > h5{
@@ -1255,35 +1415,44 @@ footer{
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
-.footer > div > figure, .footer > div > h5{
+.footer > div > h5{
     margin-bottom: 40rem;
 }
+.footer > div:first-child > figure:first-child{
+    margin: 2rem 0px 27rem 0px;
+}
+.footer > div:first-child > p{
+    margin-bottom: 12rem;
+}
 .footer > div > article{
-    margin-bottom: 15rem;
+    margin-bottom: 18rem;
 }
 .footer > div > article > a{
     float: left;
-    margin-right: 10px;
+    margin: 2rem 14rem 0px 0px;
 }
 .footer > div > article > p{
     line-height: 16px;
     font-size: 13px;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 .footer > div > article > h6{
     color: black;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
 }
 .footer > div > article > time{
     color: #212121;
     font-size: 11px;
+    letter-spacing: 0.05em;
 }
 .stream > a{  
-    width: 22.355%;
-    margin-bottom: 10px;
+    width: 22.9%;
+    margin: 2px 0px 8px 0px;
 }
 .stream > a, .footer > div > article > a{
     position: relative;
@@ -1307,8 +1476,18 @@ footer{
 .copyright, .copyright a{
     color: #ccc;
 }
-.copyright > .lwrap > span > a{
+.copyright > .lwrap{
+    padding: 29rem 10px;
+    max-width: 1194px;
+}
+.copyright > .lwrap > span > a:first-child{
     text-align: right;
+    margin: 0px 11rem 3rem 0px;
+    letter-spacing: 0.05em;
+}
+.copyright > .lwrap > span:first-child{
+    padding: 0px 0px 5rem 5rem;
+    letter-spacing: 0.05em;
 }
 .copyright > .lwrap > span > a:active, .copyright > .lwrap > span > a:hover, .copyright > .lwrap > span > a:focus{
     text-decoration: underline;
@@ -1325,11 +1504,13 @@ footer{
     .sidebar > .following{order: 1;}
     .sidebar > .twit{order: 2;}
     .sidebar > .tags{order: 3;}
-    .sidebar > .about-blogger, .sidebar > .category{order: 4;}
+    .category-wrap .sidebar > .tags{width: 100%;}
+    .sidebar > .about-blogger, .sidebar > .categories{order: 4;}
     .sidebar > .banner{order: 5;}
     .sidebar > .popular{order: 6;}
     .sidebar > .popular article{width: 32%;}
     .blockquote-lg q{font-size: 12px; line-height: 12px;}
+    .category-wrap .slider-twitter > .slide{min-height: 100px;}
 }
 @media (max-width: 480px) {
     .sidebar > .tags{order: 2;}
@@ -1339,4 +1520,5 @@ footer{
     .btn-search{width: 60px;}
     .article-wrap > article .details{border-bottom: 1px solid #212121;border-right: none;}
     .article-wrap .lbl-date { flex-direction: row; }
+    .article-wrap > figure > .blockquote-lg {padding: 50rem;}    
 }

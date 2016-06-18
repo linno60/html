@@ -19,7 +19,7 @@
 <label for="check1-1">All</label>
 <div class="spinner" data-flex data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div>
 <form action="#" method="post" data-flex="-center" class="search-header">
-    <input type="image" src="/images/icons/searchgrey.png">
+    <input type="image" src="/images/icons/searchwhite.png">
     <input type="search" name="search" placeholder="Search">
 </form>
 <form action="#" method="post" data-flex="axis" class="search-notfound">

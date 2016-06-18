@@ -37,7 +37,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
+                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper lao&shy;reet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -45,18 +45,18 @@
                         </article>
                     </div>
                     <div class="article-wrap">
-                        <figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
+                        <figure class="video-1" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-17"><big>17</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-17"><big>22</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>The Day Gabby Returned to Congress to Make Her Voice</h3>
                                 <div data-flex data-flex-480="vstripe">
                                     <div class="details">
-                                        <span class="lbl lbl-default">Business</span>
+                                        <span class="lbl lbl-default">Photography</span>
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>Since we’re all at here at Sunstone, and specifically in this session, I’m going to make an assumption that you have all, at some point, felt that you were not Mormon enough — whatever that means. Today I’m going to share a story about a time when I was sure I was not Mormon enough.</p>
+                                        <p>Back in the summer of 2011, as Gabby was continuing in her recov&shy;ery and I thought I had seen what real courage and bravery was all about, Gabby up-ed the ante. It was about seven months after she had been injured. At the time, Gabby was a full-time rehab patient at a hospital in Houston.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                             </blockquote>
                         </figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-09"><big>17</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Sunstone is an organization that brings together</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -91,7 +91,7 @@
                     <div class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-30"><big>30</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-30"><big>09</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Taking Liberties, Taking Shortcuts</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -100,7 +100,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>In a recent interview, photographer Bruce Gilden said, “…you have to be sneaky to get the picture…” He said other things about respecting his subjects, his need to get very close and that only by veering into abstraction could he get closer. Let us not mistake being close for being sympathetic, though.</p>
+                                        <p>In a recent interview, photographer Bruce Gilden said, “...you have to be sneaky to get the picture...” He said other things about respecting his subjects, his need to get very close and that only by veering into abstraction could he get closer. Let us not mistake being close for being sympathetic, though.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                             </div>
                         </figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-03"><big>03</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-03"><big>30</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Africa: Black & White, An Antidote For Apathy</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -135,7 +135,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>This is my reality, visiting Africa almost killed me. It was more than I expected. Richer than I expected. Poorer than I expected. My mind has become a museum of memories using a muse as a murder weapon. It is if Medusa had the face of the Virgin Mary. I am suspended by her beauty and her sacrifice.</p>
+                                        <p>This is my reality, visiting Africa almost killed me. It was more than I expected. Richer than I expected. Poorer than I expected. My mind has become a museum of memories using a muse as a murder weapon. It is if Medusa had the face of the Virgin Mary. I am sus&shy;pended by her beauty and her sacrifice.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -143,9 +143,9 @@
                         </article>
                     </div>
                     <div class="article-wrap">
-                        <figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
+                        <figure class="video-2" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-16"><big>03</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Behind the Lens: Photographing the President</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -161,6 +161,10 @@
                             </div>
                         </article>
                     </div>
+                    <div data-flex="stripe" class="thumbs pg">
+                        <a href="#">Old Story</a>
+                        <a href="#">New Story</a>
+                    </div>
                 </div>
                 <aside class="sidebar" data-flex-640="-start between w">
                     <form action="#" method="post" data-flex class="search-sidebar">
@@ -173,7 +177,7 @@
                         <article data-flex="vaxis">
                             <strong>Steve Smith</strong>
                             <small> - Professional blogger</small>
-                            <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus.</p>
+                            <p>Cras sit amet dui ac lectus moles&shy;tie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus</p>
                         </article>
                     </div>
                     <div class="following">
@@ -205,7 +209,33 @@
                     </div>
                     <div class="twit">
                         <h2>twitter</h2>
-                        <blockquote data-flex="col -center" class="blockquote-tw"><i>“</i><q>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</q><time>1 hour ago</time></blockquote>
+                        <div class="slider-twitter">
+                            <input type="radio" name="twitter" id="tw1" checked>
+                            <input type="radio" name="twitter" id="tw2">
+                            <input type="radio" name="twitter" id="tw3">
+                            <div class="slide" data-flex>
+                                <blockquote data-flex="col -center" class="blockquote-tw num1">
+                                    <i>“</i>
+                                    <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>
+                                    <time>- 1 hour ago</time>
+                                </blockquote>
+                                <blockquote data-flex="col -center" class="blockquote-tw num2">
+                                    <i>“</i>
+                                    <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>
+                                    <time>- 2 hour ago</time>
+                                </blockquote>
+                                <blockquote data-flex="col -center" class="blockquote-tw num3">
+                                    <i>“</i>
+                                    <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>
+                                    <time>- 3 hour ago</time>
+                                </blockquote>
+                            </div>
+                            <div class="bullets" data-flex="center">
+                                <label class="num1" for="tw1"></label>
+                                <label class="num2" for="tw2"></label>
+                                <label class="num3" for="tw3"></label>
+                            </div>
+                        </div>
                     </div>
                     <div class="tags">
                         <h2>tags</h2>
@@ -223,9 +253,7 @@
                             <a href="#">Post</a>
                         </div>
                     </div>
-                    <div class="banner">
-                        <figure><img src="/images/img12.jpg" width="222" height="194" alt=""></figure>
-                    </div>
+                    <figure class="banner"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                 </aside>
             </div>
         </div>

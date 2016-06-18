@@ -5,7 +5,7 @@
     <input name="anchor1" id='slide1-4' type="radio">
     <input name="anchor1" id='play1' type="radio" checked>
     <div data-flex>
-        <figure><img src="/images/1.png" width="1920" height="478" alt=""></figure>
+        <figure><img src="/images/2.png" width="1903" height="478" alt=""></figure>
         <figure class='num1'>
             <img src="/images/imgsh1.jpg" width="481" height="478" alt="">
             <figcaption data-flex="vaxis">

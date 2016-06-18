@@ -3,11 +3,11 @@
     <div class="top-wrap">
         <div class="lwrap" data-flex="axis">
             <form action="#" method="post" data-flex="-center" class="search-header">
-                <input type="image" src="/images/icons/searchgrey.png">
+                <input type="image" src="/images/icons/searchheader.png">
                 <input type="search" name="search" placeholder="Search">
             </form>
             <a href="#" class="btn btn-cart"><span class="lbl lbl-counter">3</span></a>
-            <div class="popup" data-flex="col -center">
+            <div class="cart-popup" data-flex="col -center">
                 <div data-childs="-start between">
                     <div>
                         <figure><img src="/images/spoons.png" width="69" height="69" alt=""></figure>

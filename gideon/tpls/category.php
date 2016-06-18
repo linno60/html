@@ -19,10 +19,10 @@
             }
         </script>
     </head>
-    <body data-flex="col between">
-        <div>
+    <body data-flex="col">
+        <div class="category-wrap">
             <?= require_tpl('common/header') ?>
-            <figure><img src="/images/imgcategory.jpg" width="1920" height="250" alt=""></figure>
+            <figure><img src="/images/imgcategory.jpg" width="1920" height="250" alt=""><h1>photography</h1></figure>
             <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content" data-flex="col -center">
                     <div class="article-wrap">
@@ -133,8 +133,8 @@
                         <input type="search" name="search" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
-                    <div class="category">
-                        <h2>category</h2>
+                    <div class="categories">
+                        <h2>categories</h2>
                         <div class="links-categories" data-flex="col -start" data-childs="-start">
                             <a href="#">All</a>
                             <a href="#">Inspiration</a>
@@ -170,10 +170,36 @@
                                 <p>Increased font sizes are seen mostly often in headings..</p>
                             </article>
                         </div>
-                    </div>
-                    <div class="twit">
-                        <h2>twitter</h2>
-                        <blockquote data-flex="col -center" class="blockquote-tw"><i>“</i><q>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</q><time>1 hour ago</time></blockquote>
+                        <div class="twit">
+                            <h2>twitter</h2>
+                            <div class="slider-twitter">
+                                <input type="radio" name="twitter" id="tw1" checked>
+                                <input type="radio" name="twitter" id="tw2">
+                                <input type="radio" name="twitter" id="tw3">
+                                <div class="slide" data-flex>
+                                    <blockquote data-flex="col -center" class="blockquote-tw num1">
+                                        <i>“</i>
+                                        <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>
+                                        <time>- 1 hour ago</time>
+                                    </blockquote>
+                                    <blockquote data-flex="col -center" class="blockquote-tw num2">
+                                        <i>“</i>
+                                        <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>
+                                        <time>- 2 hour ago</time>
+                                    </blockquote>
+                                    <blockquote data-flex="col -center" class="blockquote-tw num3">
+                                        <i>“</i>
+                                        <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>
+                                        <time>- 3 hour ago</time>
+                                    </blockquote>
+                                </div>
+                                <div class="bullets" data-flex="center">
+                                    <label class="num1" for="tw1"></label>
+                                    <label class="num2" for="tw2"></label>
+                                    <label class="num3" for="tw3"></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tags">
                         <h2>tags</h2>
@@ -191,9 +217,7 @@
                             <a href="#">Post</a>
                         </div>
                     </div>
-                    <div class="banner">
-                        <figure><img src="/images/img12.jpg" width="222" height="194" alt=""></figure>
-                    </div>
+                    <figure class="banner"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                 </aside>
             </div>
         </div>
