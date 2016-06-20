@@ -37,8 +37,8 @@
                         <div class="sub-details" data-flex="axis">
                             <figure><img src="/images/star3.png" width="82" height="13" alt=""></figure>
                             <div data-flex="end w" data-childs>
-                                <a href="#"><i class="icon-penb"></i>write review</a>
-                                <a href="#"><i class="icon-heartb"></i>add to wishlist</a>
+                                <a href="#"><i class="icon-penb"></i>Write review</a>
+                                <a href="#"><i class="icon-heartb"></i>Add to wishlist</a>
                             </div>
                         </div>
                         <div class="price" data-flex="axis">
@@ -59,13 +59,13 @@
                             <span>Sold by John Doe</span>
                         </div>
                         <form class="availability" action="#" method="post" data-flex>
-                            <label data-flex="-center"><i class="icon-location"></i>Check Availability at</label>
-                            <input type="password" name="password" placeholder="Enter your code">
+                            <label data-flex="-center"><i class="icon-locationsm"></i>Check Availability at</label>
+                            <input type="password" name="password" placeholder="Enter your pincode">
                             <button><span class="btn btn-default">Check</span></button>
                         </form>
                         <div>
                             <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
-                            <a href="#" class="btn btn-default">Read more</a>
+                            <a href="#" class="btn btn-default">Read More</a>
                         </div>
                     </div>
                 </div>

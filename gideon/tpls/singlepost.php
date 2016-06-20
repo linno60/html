@@ -22,11 +22,11 @@
     <body data-flex="col">
         <div class="single-post">
             <?= require_tpl('common/header') ?>
-            <div class="lwrap content-wrap" data-flex="stripe">
+            <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content">
                     <div class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
-                        <article data-flex="-start">
+                        <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
                             <div>
                                 <div class="details-wrap">
@@ -112,7 +112,7 @@
                     <div data-flex="stripe" class="pg thumbs" data-childs="col">
                         <div>
                             <a href="#">Previous</a>
-                            <a href=""><span>Behind the Lens: Photography the President</span></a>
+                            <a href=""><span>Behind the Lens: Photographing the President</span></a>
                         </div>
                         <div>
                             <a href="#">Next</a>

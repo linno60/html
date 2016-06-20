@@ -12,18 +12,18 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1170;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="col between">
-        <div>
+    <body data-flex="col">
+        <div class="shop">
             <?= require_tpl('common/header') ?>
             <div class="main-product">
-                <div class="lwrap" data-flex>
+                <div class="lwrap" data-flex="stripe">
                     <figure><img src="/images/img14.jpg" width="571" height="677" alt=""><a href="#" class="btn btn-default">Shop Now</a></figure>
                     <div data-flex="stripe w">
                         <figure>
@@ -69,9 +69,9 @@
                     </div>
                 </div> 
             </div>
-            <div class="lwrap" data-flex="stripe">
+            <div class="lwrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content">
-                    <div data-flex="axis">
+                    <div class="sorting" data-flex="axis">
                         <select class="select-sorting">
                             <option>Default Sorting</option>
                             <option>Default Sorting</option>
@@ -79,7 +79,7 @@
                             <option>Default Sorting</option>
                             <option>Default Sorting</option>
                         </select>
-                        <span>showing all <mark>12</mark> results of <mark>200</mark> results</span>
+                        <span>Showing all <mark>12</mark> results of <mark>200</mark> results</span>
                     </div>
                     <div data-flex="stripe w" class="products">
                         <figure data-childs="col center -center">
@@ -108,13 +108,14 @@
                         </figure>                       
                         <figure data-childs="col center -center">
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
-                            <div>
+                            <div>                                
                                 <a href="#" class="btn btn-overlay"><i class="icon-zoom"></i></a>
                                 <a href="#" class="btn btn-overlay"><i class="icon-heart"></i></a>
                             </div>
                             <figcaption><span>Creative Pen Set</span><mark>$25</mark></figcaption>
                         </figure>
                         <figure data-childs="col center -center">
+                            <span class="lbl lbl-sold">Sold Out</span>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
                                 <a href="#" class="btn btn-overlay"><i class="icon-zoom"></i></a>
@@ -224,8 +225,8 @@
                             <h3>price</h3>                            
                             <label for="c2" class="btn btn-expand"></label>
                         </div>
-                        <form  action="#" method="post">
-
+                        <form  action="#" method="post" data-flex="col -center">
+                            <div class="range"></div>
                             <a href="#" class="btn btn-default">Filter</a>
                         </form>
                     </div>
@@ -260,13 +261,13 @@
                             <label for="check2-11">Chairs</label>
                         </form>
                     </div>
-                    <div>
+                    <div class="rating">
                         <input type="checkbox" id="c4" class="expand">
                         <div class="hdr" data-flex="axis">
                             <h3>product rating</h3>
                             <label for="c4" class="btn btn-expand"></label>
                         </div>
-                        <form  action="#" method="post" data-flex="col -start" data-childs="-start">
+                        <form action="#" method="post" data-flex="col -start" data-childs="-start">
                             <input type="checkbox" class="check" name="check3" id="check3-1">
                             <label for="check3-1"><img src="/images/rating5.png" width="85" height="13" alt=""></label>
                             <input type="checkbox" class="check" name="check3" id="check3-1">
@@ -318,9 +319,9 @@
         </div>
         <footer>
             <div class="lwrap footer-title" data-flex="center -center">
-                <h2>follow me on instagram</h2>
+                <h2>popular items</h2>
             </div>
-            <?= require_tpl('common/gallery') ?>
+            <?= require_tpl('common/galleryalt') ?>
             <?= require_tpl('common/footer') ?>  
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>

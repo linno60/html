@@ -159,6 +159,7 @@ input[name=contact], textarea[name=contact]{
     border: 1px solid rgba(49, 49, 49, 0.5);
     max-width: 770px;
     font-size: 14px;
+    letter-spacing: 0.05em;
 }
 input[name=post], textarea[name=post]{
     max-width: 670px;
@@ -173,16 +174,18 @@ input[name=post]{
 }
 input[name=contact]{
     height: 52px;
-    padding: 0px 20px; 
+    padding: 0px 20rem; 
+    margin-bottom: 30rem;
 }
 textarea[name=post]{
     height: 179px;
-    padding: 15px 29rem; 
+    padding: 15rem 29rem; 
     margin-bottom: 30rem;
 }
 textarea[name=contact]{
-    height: 162px;
-    padding: 15px 20px;   
+    height: 248px;
+    padding: 18rem 25rem;   
+    margin-bottom: 30rem;
 }
 .search-header{
     padding: 0px 16rem 2rem 16rem;
@@ -233,7 +236,8 @@ input[name=password]{
     height: 42px;
     background: white;
     border: 1px solid #ddd;
-    padding: 0px 30px;
+    padding: 0px 29rem;
+    letter-spacing: 0.05em;
 }
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
@@ -312,8 +316,9 @@ select {
 .select-sorting {
     max-width: 270px;
     height: 42px;
-    padding: 0px 30px;
-    background: white url('/images/icons/arrowdown.png') right 15px center no-repeat;
+    padding: 0px 26rem;
+    letter-spacing: 0.1em;
+    background: white url('/images/icons/arrowdown.png') right 21rem center no-repeat;
 }
 .select-checkout {
     font-size: 13px;
@@ -330,6 +335,8 @@ select {
     font-size: 14px;
     margin-bottom: 5px;
     transition: color ease .3s;
+    margin-bottom: 9rem;
+    letter-spacing: 0.06em;
 }
 .check:checked + label, .check + label:hover{
     color: #212121;
@@ -341,14 +348,14 @@ select {
 }
 .check + label:before {
     background: #858585;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     box-shadow: 0px 0px 0px 1px #858585;
     background-clip: content-box;
     width: 3px;
     height: 3px;
     content: "";
     border-radius: 50%;
-    margin: 5px 5px 0px 0px;
+    margin: 6px 13rem;
     display: inline-block;
     transition: all ease .3s;
 }
@@ -417,7 +424,7 @@ select {
 .links-share a:active > .icon-share-pin, .links-share a:hover > .icon-share-pin, .links-share a:focus > .icon-share-pin {background: url('/images/icons/share-pin-hover.png');}
 .links-share a:active > .icon-share-tw, .links-share a:hover > .icon-share-tw, .links-share a:focus > .icon-share-tw {background: url('/images/icons/share-tw-hover.png');}
 .links-socialalt a{
-    margin: 3px;
+    margin: 4rem 3.5rem 4rem 4rem;
     width: 34px;
     height: 34px;
     border-radius: 50%;
@@ -533,7 +540,6 @@ select {
 /*PAGINATIONS*/
 .pagination{
     width: 100%;
-    border-top: 1px solid rgba(42,42,38,.1);
     padding: 40px 10px 40px 10px;
 }
 .pagination a{
@@ -545,7 +551,13 @@ select {
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
     color: #2a2a26;
     font-size: 14px;
+    padding: 5px;
+    margin-bottom: 60rem;
     transition: all ease .3s;
+}
+.pagination a:last-child{
+    width: auto;
+    padding: 0px 24rem;
 }
 .pagination a.active, .pagination a:active, .pagination a:hover, .pagination a:focus{
     color: white;
@@ -556,14 +568,14 @@ select {
     padding: 12rem 0px;
 }
 .thumbs > div:first-child{    
-    padding-right: 50rem;
+    padding: 3rem 50rem 0rem 0rem;
     align-items: flex-start;
 }
 .thumbs > div:last-child{
     border-left: 1px solid black;    
     align-items: flex-end;
     text-align: right;
-    padding-left: 40rem;
+    padding: 3rem 0rem 0rem 40rem;
 }
 .thumbs > div{
     flex-grow: 1; 
@@ -572,17 +584,22 @@ select {
 .thumbs a{
     color: #2a2a26;
     font-size: 16px;
-    display: inline-block;
-    padding-bottom: 30px;
+    display: inline-block;    
     letter-spacing: 0.05em;
+}
+.thumbs a:first-of-type{
+    padding-bottom: 30rem;
+}
+.thumbs a:last-of-type{
+    padding-bottom: 27rem;
 }
 .thumbs > div:first-child a:first-child, .thumbs > a:first-child{
     background: url(/images/icons/thumbprev.png)no-repeat left -1px;
-    padding-left: 59px;    
+    padding-left: 57px;    
 }
 .thumbs > div:last-child a:first-child, .thumbs > a:last-child{
     background: url(/images/icons/thumbnext.png)no-repeat right -1px;
-    padding-right: 59px;
+    padding-right: 57px;
 }
 .thumbs > *:hover{
     opacity: .3;
@@ -591,6 +608,7 @@ select {
     color: black;
     font-size: 22px;
     line-height: 30px;
+    letter-spacing: 0em;
 }
 .thumbs-sm{
     padding: 20px 0px 20px 0px;
@@ -608,7 +626,7 @@ select {
 }
 
 /*LABELS*/
-.lbl-default, .lbl-price{
+.lbl-default, .lbl-price, .lbl-sold{
     background: #ff6766;
     padding: 0px 3px;
     color: white;
@@ -626,6 +644,10 @@ select {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.lbl-sold{
+    min-width: 90px;
+    height: 42px;
 }
 .lbl-price.free{
     background: #7dd249;
@@ -723,7 +745,7 @@ select {
     color: #ff6766;
     font-size: 15px;
     line-height: 24px;
-    padding-left: 74rem;
+    padding-left: 74px;
     min-height: 50px;
     max-width: 498px;
     font-style: italic;
