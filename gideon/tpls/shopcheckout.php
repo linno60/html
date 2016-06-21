@@ -12,19 +12,19 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1170;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="col between">
-        <div>
+    <body data-flex="col">
+        <div class="shop-checkout">
             <?= require_tpl('common/header') ?>
-            <div class="shop-checkout">
+            <div>
                 <div class="lwrap">
-                    <div data-flex="-start between w">
+                    <div data-flex="-start between w" data-flex-480="vstripe">
                         <form action="#" method="post" data-flex="stripe w">
                             <h4>Billing Details</h4>
                             <select class="select-checkout">
@@ -38,9 +38,9 @@
                             <input name="checkout" class="half" type="text" placeholder="Last Name">
                             <input name="checkout" type="text" placeholder="Company Name">
                             <input name="checkout" type="text" placeholder="Street Address">
-                            <input name="checkout" type="text" placeholder="Appartment, Suite, Unit ECT. (Optional)">
+                            <input name="checkout" type="text" placeholder="Apartment, Suite, Unit ECT. (Optional)">
                             <input name="checkout" class="half" type="text" placeholder="State / Country">
-                            <input name="checkout" class="half" type="text" placeholder="Postalcode / ZIP">
+                            <input name="checkout" class="half" type="text" placeholder="Postalcode / Zip">
                             <input name="checkout" class="half" type="email" placeholder="Email">
                             <input name="checkout" class="half" type="tel" placeholder="Phone">
                             <span data-flex="w"><input type="checkbox" id="checkbox1"><label for="checkbox1">Create an account?</label></span>
@@ -58,9 +58,9 @@
                             <input name="checkout" class="half" type="text" placeholder="Last Name">
                             <input name="checkout" type="text" placeholder="Company Name">
                             <input name="checkout" type="text" placeholder="Street Address">
-                            <input name="checkout" type="text" placeholder="Appartment, Suite, Unit ECT. (Optional)">
+                            <input name="checkout" type="text" placeholder="Apartment, Suite, Unit ECT. (Optional)">
                             <input name="checkout" class="half" type="text" placeholder="State / Country">
-                            <input name="checkout" class="half" type="text" placeholder="Postalcode / ZIP">
+                            <input name="checkout" class="half" type="text" placeholder="Postalcode / Zip">
                             <input name="checkout" class="half" type="email" placeholder="Email">
                             <input name="checkout" class="half" type="tel" placeholder="Phone">
                             <textarea name="checkout" placeholder="Note about your order, Eg, Special nots for your delivery"></textarea>
@@ -123,9 +123,9 @@
         </div>
         <footer>
             <div class="lwrap footer-title" data-flex="center -center">
-                <h2>follow me on instagram</h2>
+                <h2>related items</h2>
             </div>
-            <?= require_tpl('common/gallery') ?>
+            <?= require_tpl('common/galleryalt') ?>
             <?= require_tpl('common/footer') ?>  
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>

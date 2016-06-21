@@ -12,14 +12,14 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1170;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="col center -center" class='pagenotfound'>
+    <body data-flex="col -center" class='pagenotfound'>
         <a href="/" title="Return to the homepage" id="logo-404">
             <img src="/images/logo404.png" width="193" height="81" alt="Gideon">
         </a>
@@ -30,9 +30,9 @@
             <input type="search" name="search" placeholder="Search again">
             <input type="image" src="/images/icons/searchgrey.png">
         </form>
-        <div>
+        <div data-flex="center">
             <a href='#' class='btn btn-default'>Back</a>
-            <a href='#' class='btn btn-default'>Home</a>
+            <a href='#' class='btn btn-alt'>Home</a>
         </div>
         <div class="links-social" data-flex="center w" data-childs="center -center">
             <a href="#" data-title="twitter 58937"><i class="icon-social-tw"></i></a>

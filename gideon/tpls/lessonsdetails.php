@@ -20,14 +20,17 @@
         </script>
     </head>
     <body data-flex="col">
-        <div>
+        <div class="lessondetails">
             <?= require_tpl('common/header') ?>
             <?= require_tpl('common/slider') ?>
-            <div class="lwrap lessondetails">
+            <div class="lwrap">
                 <div data-flex="stripe w">
                     <article>
-                        <h2>Improving Search Engine optimization (SEO)</h2>
-                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. At nos hinc posthac, sitientis piros Afros. At nos hinc posthac, sitientis piros Afros. Magna pars studiorum, prodita quaerimus. commodi consequat.  Cras mattis iudicium purus sit amet fermentum.  Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam  est lacus,  consequat vita eil semper tristique, temp us in magna. At nos hinc posthac, sitientis piros Afros. At noshinc posthac, sitientis piros Afros. Magna pars.</p>
+                        <div data-flex="axis">
+                            <h2>Improving Search Engine optimization (SEO)</h2>
+                            <span class="lbl lbl-price">$25</span>
+                        </div>
+                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. At nos hinc posthac, sitientis piros Afros. At nos hinc posthac, sitientis piros Afros. Magna pars studiorum, prodita quaerimus. commodi consequat. &nbsp;Cras mattis iudi&shy;cium purus sit amet fermentum. &nbsp;Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam &nbsp;est lacus, &nbsp;consequat vita eil semper tris&shy;tique, temp us in magna. At nos hinc posthac, sitientis piros Afros. At noshinc posthac, sitientis piros Afros. Magna pars.</p>
                     </article>                   
                     <figure class="video" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>                   
                     <div>

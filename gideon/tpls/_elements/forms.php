@@ -13,6 +13,8 @@
     <option>Select your Country</option>
     <option>Select your Country</option>
 </select>
+<input type="text" name="review" required=""> 
+<textarea name="review" required=""></textarea>
 <input type="number" class="counter" placeholder="01">
 <input type="password" name="password" placeholder="Enter your code">
 <input type="checkbox" class="check" name id="check1-1">

@@ -33,6 +33,9 @@ p{
     margin-left: 5px;
     flex-shrink: 0;
 }
+button > .btn{
+    width: 100%;
+}
 .btn-default, .btn-alt{
     min-width: 140rem;
     height: 42px;
@@ -144,13 +147,30 @@ input[name=checkout], textarea[name=checkout]{
     margin-bottom: 10px;
     font-size: 13px;
 }
+input[name=review], textarea[name=review]{
+    width: 100%; 
+    max-width: 1032px;
+    color: #333;
+    border: 1px solid rgba(49, 49, 49, 0.25);
+}
+input[name=review]{
+    height: 42px;   
+    margin-bottom: 16rem;
+    padding: 0px 10px;
+}
+textarea[name=review]{
+    height: 162px;
+    margin-bottom: 30rem;
+    padding: 10px;
+}
 input[name=checkout]{
     height: 50px;
-    padding: 0px 20px;
+    padding: 0px 19rem;
+    letter-spacing: 0.055em;
 }
 textarea[name=checkout]{
     height: 130px;
-    padding: 20px 20px;
+    padding: 20rem;
 }
 input[name=post], textarea[name=post], input[name=contact], textarea[name=contact]{
     width: 100%;      
@@ -219,16 +239,19 @@ textarea[name=contact]{
     width: 100%;
     max-width: 474px;
     height: 39px;
-    padding: 0px 10px;
+    padding: 0px 18rem;
     background: rgba(244, 245, 247, 0.25);
     border: 1px solid #858585; 
-    margin: 20px 0px 20px 0px;
+    margin: 36rem 0px 15rem 0px;
+    flex-shrink: 0;   
 }
 .search-notfound input[type=search]{
     flex-grow: 1;
     margin-right: 5px;
     background: none;
     border: none;
+    font-size: 13px;
+    letter-spacing: 0.04em;
 }
 input[name=password]{
     width: 100%;
@@ -248,7 +271,7 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 .spinner{
-    width: 100px;
+    min-width: 100rem;
     height: 50px;
     background: #f8f8f8;
 }
@@ -324,8 +347,9 @@ select {
     font-size: 13px;
     max-width: 570px;
     margin-bottom: 10px;
+    letter-spacing: 0.05em;
     height: 50px;
-    padding: 0px 20px;
+    padding: 0px 19rem;
     background: #f8f8f8 url('/images/icons/arrowdown.png') right 15px center no-repeat;
 }
 .check{
@@ -391,8 +415,15 @@ select {
     transition: border-color ease .3s, background ease .3s;
     border-radius: 50%;
 }
+.links-sharesm{
+    margin-right: -9.5rem;
+}
 .links-sharesm a{
-    margin: 5px;
+    margin: 9.5rem;
+}
+.links-sharesm span{
+    font-size: 15px;
+    padding-right: 6rem;
 }
 .links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"]{
     transition: background ease .3s;
@@ -531,7 +562,10 @@ select {
 .links-marks{
     background: url(/images/icons/mark.png)no-repeat left 7px;
     font-size: 13px;
-    padding: 5px 5px 5px 30px;
+    padding: 5px 5px 5px 31px;
+}
+.links-marks a{
+    letter-spacing: 0.006em;
 }
 .links-marks a:active, .links-marks a:hover, .links-marks a:focus{
     text-decoration: underline;
@@ -758,6 +792,7 @@ select {
 .list-default li{
     font-size: 14px;
     line-height: 26px;
+    letter-spacing: 0.05em;
 }
 .list-default li:before{
     content: "*";
@@ -783,7 +818,7 @@ select {
     background: white;
     color: black;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 48rem 58rem;
 }
 .tablist > a{
     padding: 0px 10px;
@@ -797,7 +832,7 @@ select {
     content: "";
     opacity: 0;
     position: absolute;
-    top: 0px;
+    top: 3px;
     left: 50%;
     margin: -2.5px;
     border-left: 5px solid transparent;
@@ -810,26 +845,35 @@ select {
     height: 54px;
     font-size: 14px;
     color: #212121;
-    box-shadow: 0px -2px 0px 0px #ff6766;
+    box-shadow: inset 0px 2px 0px 0px #ff6766;
 }
 .tablist > a.active:before, .tablist > a:hover:before{
     opacity: 1;
 }
 .accordion{
     background: white;
+    width: 100%;
+}
+.acc-radio{
+    margin-bottom: 30rem;
+}
+.acc-radio p{
+    font-size: 12px;
+    letter-spacing: 0.0365em;
 }
 .acc-radio > a{
     color: #212121;
+    letter-spacing: 0.11em;
     text-transform: uppercase;
-    margin-bottom: 5px;
-    padding: 15px 5px 15px 60px;
-    background: #f8f8f8 url(/images/icons/radio.png)no-repeat 28px 14px;
+    margin-bottom: 9rem;
+    padding: 17px 5px 17px 73px;
+    background: #f8f8f8 url(/images/icons/radio.png)no-repeat 40px 15px;
 }
 .acc-radio > a.active{
-    background: #f8f8f8 url(/images/icons/radiocheck.png)no-repeat 28px 14px;
+    background: #f8f8f8 url(/images/icons/radiocheck.png)no-repeat 40px 15px;
 }
 .acc-radio > div{
-    padding: 20px 0px 30px 0px;
+    padding: 15rem 0px 32rem 0px;
 }
 .acc-faqs{
     border: 1px solid #f1f1f1;
@@ -856,22 +900,32 @@ select {
 /*TABLES*/
 .table{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 49rem;
 }
 .table.total{
     border-top: 1px solid #eee;
 }
-.table > tbody > tr > td{
+.table tr > td{
     border-bottom: 1px solid #eee;
 }
+.table.extend thead tr td{
+    border-bottom: none;
+}
 .table td{
-    padding: 10px;
-    font-size: 14px;
-    min-width: 180px;
+    padding: 10rem;
+    font-size: 14px;    
+}
+.table.total td{
+    padding: 11rem 5rem;
+    letter-spacing: 0.1em;
+    min-width: 219px;
 }
 .table.cart td{
     vertical-align: middle;
     text-align: center;
+}
+.table.cart thead td{
+    height: 51px;
 }
 .table.cart td > .spinner{
     margin: auto;
@@ -887,25 +941,25 @@ select {
     color: #666666;
 }
 .table.cart td:nth-child(1){
-    width: 10%;
+    width: 6%;
 }
 .table.cart td:nth-child(2){
-    width: 10%;
+    width: 11%;
 }
 .table.cart td:nth-child(3){
-    width: 31%;
+    width: 33%;
     text-align: left;
 }
 .table.cart td:nth-child(4){
     width: 15%;
 }
 .table.cart td:nth-child(5){
+    width: 26%;
+}
+.table.cart td:nth-child(6){
     width: 15%;
 }
-.table.cart td:last-child(6){
-    width: 15%;
-}
-.table.cart td:last-child(6){
+.table.cart td:nth-child(7){
     width: 4%;
 }
 .table.total td:last-child{
@@ -918,14 +972,18 @@ select {
 .table > tfoot > tr > td:last-child{
     font-size: 16px;
 }
+.table.extend{
+    margin-bottom: 30rem;
+}
 .table.extend > tfoot > tr > td{
     font-size: 18px;
 }
 .table caption{
     color: #333;
-    padding: 5px 5px 20px 5px;
+    padding-bottom: 39rem;
     font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 0.105em;
 }
 .table.extend thead{
     background: #f8f8f8;
@@ -941,13 +999,14 @@ select {
 .table.extend, .table.cart{
     table-layout: fixed;
 }
-.table.extend td{
+.table.extend td:nth-child(odd){
     text-align: center;
     width: 100%;
+    padding: 12rem;
 }
 .table.extend td:nth-child(even){
     border-bottom: 1px solid transparent;
-    width: 30px;
+    width: 30rem;
 }
 .table.extend > tbody > tr > td:last-child{
     color: #333;
@@ -986,8 +1045,9 @@ select {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+    padding-bottom: 10rem;
+    margin-bottom: 39rem;
+    letter-spacing: 0.055em;
     background: linear-gradient(#ddd 100%, transparent 0%) left bottom / 40px 3px no-repeat;
 }
 .title-lessons {
@@ -996,7 +1056,8 @@ select {
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 17rem;
+    margin-bottom: 14rem;
+    letter-spacing: 0.05em;
     background: linear-gradient(#ff6766 100%, transparent 0%) left bottom / 60px 2px no-repeat;
 }

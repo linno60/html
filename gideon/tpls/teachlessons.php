@@ -12,18 +12,18 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1170;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="col between">
-        <div>
+    <body data-flex="col">
+        <div class="lessons">
             <?= require_tpl('common/header') ?>
             <?= require_tpl('common/slider') ?>
-            <div class="lessons lwrap" data-flex="col -center">
+            <div class="lwrap" data-flex="col -center">
                 <article>
                     <h2 class="title-lessons">lessons</h2>
                     <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna.</p>
@@ -86,7 +86,7 @@
                         <div>
                             <span class="lbl lbl-price">$25</span>
                             <h5><a href="#">Improving search engine optimization (SEO)</a></h5>
-                            <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
+                            <p>Cras sit amet dui ac lectus molestie porttitor.</p>
                             <div class="info" data-flex="around w" data-childs="col -center">
                                 <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Beginner</span></span>
@@ -125,7 +125,7 @@
                         <div>
                             <span class="lbl lbl-price">$35</span>
                             <h5><a href="#">Best practices for search engine opti&shy;mization</a></h5>
-                            <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
+                            <p>Cras sit amet dui ac lectus molestie porttitor.</p>
                             <div class="info" data-flex="around w" data-childs="col -center">
                                 <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Beginner</span></span>

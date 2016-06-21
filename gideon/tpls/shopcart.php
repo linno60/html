@@ -12,17 +12,17 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1170;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             }
         </script>
     </head>
-    <body data-flex="col between">
-        <div>
+    <body data-flex="col">
+        <div class="shop-cart">
             <?= require_tpl('common/header') ?>
-            <div class="shop-cart">
+            <div>
                 <div class="lwrap">
                     <div>
                         <table class="table cart">
@@ -78,9 +78,9 @@
                             </div>
                         </form>
                     </div>
-                    <div data-flex="stripe" class="total-wrap">
+                    <div data-flex="stripe" class="total-wrap" data-flex-480="vstripe">
                         <div>
-                            <h2 class="title-shopcart">Cart Totals</h2>
+                            <h2 class="title-shopcart">Calculate Shipping</h2>
                             <form action="#" method="post" data-flex="col">
                                 <select class="select-checkout">
                                     <option>SELECT A COUNTRY</option>
@@ -96,15 +96,15 @@
                         </div>
                         <div>
                             <h2 class="title-shopcart">Cart Totals</h2>
-                            <table class="table">
+                            <table class="table total">
                                 <tbody>
                                     <tr>
                                         <td>Cart Subtotal:</td>
                                         <td>$75.00</td>
                                     </tr>
                                     <tr>
-                                        <td>Sheeping and Handing:</td>
-                                        <td>Order Total:</td>
+                                        <td>Shipping and Handling:</td>
+                                        <td>Free Shipping:</td>
                                     </tr>
                                 </tbody>
                                 <tfoot>
@@ -121,9 +121,9 @@
         </div>
         <footer>
             <div class="lwrap footer-title" data-flex="center -center">
-                <h2>follow me on instagram</h2>
+                <h2>related items</h2>
             </div>
-            <?= require_tpl('common/gallery') ?>
+            <?= require_tpl('common/galleryalt') ?>
             <?= require_tpl('common/footer') ?>  
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>

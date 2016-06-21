@@ -309,7 +309,7 @@ header, footer{
 }
 
 /*CONTENT*/
-.content > div:not(.pg), .sidebar > *{    
+.content > div:not(.pg), .sidebar > *:not(.tabs){    
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
     background: white;
 }
@@ -375,7 +375,7 @@ header, footer{
 }
 .article-wrap > article .details-wrap ~ p:first-of-type:first-letter,
 .article-wrap > article .details + div p:first-of-type:first-letter,
-.lessons > article p:first-of-type:first-letter{
+.lessons > .lwrap > article p:first-of-type:first-letter{
     color: #212121;
     font-size: 24px;
     color: black;
@@ -564,13 +564,13 @@ header, footer{
 .sidebar > *{
     margin-bottom: 30rem;
 }
-.sidebar > div{
+.sidebar > div:not(.tabs){
     padding: 37rem 23rem 20rem 23rem;
 }
 .sidebar > .following{
     padding-top: 27rem;
 }
-.sidebar > .categories{
+.sidebar > div.categories{
     padding: 26rem 0px 20rem 0px;
 }
 .sidebar > .about-blogger{
@@ -687,21 +687,32 @@ header, footer{
 }
 
 /*CATEGORY*/
-.category-wrap > figure{
+header + figure{
     position: relative;
 }
-.category-wrap > figure > h1{
+header + figure > div{
     position: absolute;
-    color: black;
-    font-size: 28px;
-    line-height: 28px;
+    text-align: center;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;  
+    padding: 9rem 10rem 10rem 10rem;
+}
+header + figure > div > strong{
+    color: black;    
     font-weight: 700;
+    font-size: 24px;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 0.1em;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+}
+header + figure > div > strong > big{
+    font-size: 28px;
+}
+header + figure > div > small{
+    color: #727272;
+    font-size: 16px;
+    letter-spacing: 0.1em;
 }
 .category-wrap .article-wrap + .btn-alt{
     margin-bottom: 40rem;
@@ -1113,7 +1124,8 @@ article:nth-child(4) .percentage:after {
     background: white;    
 }
 .product-detail > .lwrap{
-    padding: 80rem 0px 82rem 0px;
+    padding: 80rem 10px 62rem 10px;
+    max-width: 1190px;
 }
 .product-detail > .lwrap > .main{
     width: 48.7%;
@@ -1123,6 +1135,16 @@ article:nth-child(4) .percentage:after {
 }
 .product-detail .main > figure{
     margin-bottom: 30rem;
+    position: relative;
+}
+.product-detail .main > div > figure{
+    width: 30.15%;
+    margin-bottom: 20px;
+}
+.product-detail .main > figure > .lbl-discount{
+    position: absolute;
+    right: 23rem;
+    top: 32rem;
 }
 .product-detail .detail > *:not(:last-child){
     border-bottom: 1px dashed rgba(133,133,133,.5);
@@ -1142,34 +1164,51 @@ article:nth-child(4) .percentage:after {
     padding: 10px 0px 13px 0px;
 }
 .sub-details a{
-    margin-left: 20px;
+    margin: 2px 0px 2px 34rem;
+    letter-spacing: 0.05em;
 }
 .sub-details a:active, .sub-details a:hover, .sub-details a:focus{
     text-decoration: underline;
 }
 .sub-details a i{
-    margin-right: 20px;
+    margin-right: 5rem;
 }
 .price{
-    padding: 42rem 0px 40rem 0px;
+    padding: 38rem 0px 37rem 0px;
 }
 .price big{
     color: #212121;
     font-size: 36px;
+    letter-spacing: 0.1em;
+    margin-right: 8rem;
 }
 .price small{
     font-size: 14px;
+    letter-spacing: 0.05em;
 }
 .price .counter{
-    margin-left: 10px;
+    margin-left: 13rem;
+}
+.price form label{
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+.price > div{
+    padding: 0px 10px 7rem 0px;
 }
 .add{
-    padding: 33rem 0px 41rem 0px;
+    padding: 33rem 0px 37rem 0px;
 }
 .add > span{
     max-width: 70px;
     text-align: right;
     line-height: 18px;
+    display: inline-block;
+    padding-bottom: 5rem;
+    letter-spacing: 0.05em;
+}
+.add > div > .btn-default{
+    margin: 4rem 6rem 0px 0px;
 }
 .availability{
     padding: 29rem 0px;
@@ -1180,7 +1219,7 @@ article:nth-child(4) .percentage:after {
     letter-spacing: 0.05em;
 }
 .availability input[type=password]{
-    margin-right: 20px;
+    margin-right: 20rem;
 }
 .availability label{
     letter-spacing: 0.05em;
@@ -1188,50 +1227,84 @@ article:nth-child(4) .percentage:after {
 }
 .availability label i{
     margin: 2rem 20rem 0rem 1px;
+    flex-shrink: 0;
 }
 .tabwrap{
-    padding: 50px 10px 50px 10px;
+    padding: 71rem 0px 102rem 0px;
 }
 .tabwrap .tablist > a{
-    min-width: 122px;
+    min-width: 124rem;
+    letter-spacing: 0.05em;
 }
-.tabset form{
-    padding-bottom: 20px;
+.tabset .form-review{
+    padding: 46rem 11rem 35rem 11rem;
 }
 .tabset p{
-    margin-bottom: 20px;
+    margin-bottom: 22rem;
 }
 .tabset h3{
     color: #212121;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin: -3rem 0rem 17rem 13rem;
+    letter-spacing: 0.05em;
+}
+.form-review h3{
+    margin: 0rem 0rem 21rem 2rem;
+}
+.form-review h3 + span{
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin-bottom: 22rem;
 }
 .ftr-details{
     border-top: 1px dashed #858585;
     border-bottom: 1px dashed #858585;
-    padding: 10px 0px 10px 0px;
+    padding: 15rem 0px 20rem 0px;
+    margin: 25rem 5rem 11rem 0px;
+}
+.shop-product-details + footer .footer-title, .shop-cart + footer .footer-title, .shop-checkout + footer .footer-title {
+    padding: 53rem 10px 48rem 10px;
+}
+.shop-product-details + footer .footer-title h2, .shop-cart + footer .footer-title h2, .shop-checkout + footer .footer-title h2 {
+    letter-spacing: 0.105em;
 }
 .review-item{
-    margin-bottom: 20px;
+    margin-bottom: 30rem;
 }
 .review-item a{
     text-align: center;
+    margin-top: 17rem;
+    letter-spacing: 0.1em;
 }
 .review-item > div{
-    width: 100px;
+    min-width: 120rem;
     flex-shrink: 0;
+    margin: 26rem 22rem 0px 0px;
 }
 .review-item > article{
     background: #f4f5f7;
     flex-grow: 1;
-    padding: 10px 10px 10px 10px;
+    padding: 22rem 40rem 3rem 37rem;
+    max-width: 900px;
+}
+.review-item > article > div{
+    width: 100%;
+    margin-bottom: 11rem;
+}
+.review-item > article > div > time{
+    letter-spacing: 0.02em;
+    padding-top: 2rem;
+    display: inline-block;
+}
+.review-item > article p{
+    max-width: 800px;
 }
 .links-sharesm span{
     color: #212121;
 }
-.tabset input[name=contact]{
-    width: 48%;
+.tabset fieldset{
+    width: 48.5%;
 }
 .tabset input[name=contact], .tabset textarea[name=contact]{
     border: 1px solid rgba(49, 49, 49, 0.25);
@@ -1239,20 +1312,38 @@ article:nth-child(4) .percentage:after {
 .tabset textarea[name=contact]{
     max-width: 100%;
 }
+.form-review label{
+    margin-bottom: 6rem;
+    letter-spacing: 0.05em;
+}
+.form-review > div > div{
+    width: 100%;
+}
+.form-review .btn-default{
+    font-size: 14px;
+    letter-spacing: 0.04em;
+}
 
 /*SHOP CART*/
-.shop-cart > .lwrap{
-    padding: 30px 10px 30px 10px;
+.shop-cart > div > .lwrap{
+    padding: 80rem 10px 0px 10px;
+    max-width: 1190px;
 }
-.shop-cart > .lwrap > div:not(:last-child){
+.shop-cart > div > .lwrap > div{
     border-bottom: 1px solid rgba(33,33,33,.1);
-    margin-bottom: 20px;
+    margin-bottom: 55rem;
+    padding-bottom: 50rem;
 }
-.shop-cart .table.cart + form .btn-default{
-    height: 50px;
+.shop-cart > div > .lwrap > .total-wrap{
+    margin-bottom: 0rem;
+    padding-bottom: 80rem;
 }
 .shop-cart .table.cart + form > div > *{
     margin-bottom: 10px;
+}
+.shop-cart .table.cart + form > div > input[name=checkout]{
+    font-size: 14px;  
+    padding-left: 68rem;
 }
 .shop-cart .table.cart + form > div:first-child > *{
     margin-right: 5px;
@@ -1261,7 +1352,14 @@ article:nth-child(4) .percentage:after {
     margin-left: 5px;
 }
 .total-wrap > div{
-    width: 49%;
+    width: 48.88%;
+    margin-bottom: 20px;
+}
+.shop-cart .btn-default{
+    height: 50px;
+    font-size: 14px;
+    padding: 0px 39rem;
+    letter-spacing: 0.05em;
 }
 .total-wrap form input[name=checkout]::-webkit-input-placeholder { text-transform: uppercase; }
 .total-wrap form input[name=checkout]::-moz-placeholder { text-transform: uppercase; }
@@ -1272,14 +1370,17 @@ article:nth-child(4) .percentage:after {
     color: #333;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 38rem;
+    letter-spacing: 0.055em;
 }
-.shop-checkout > .lwrap{
-    padding: 50px 10px 50px 10px;
+.shop-checkout > div > .lwrap{
+    max-width: 1190px;
+    padding: 73rem 10px 100rem 10px;
     border-bottom: 1px solid rgba(33,33,33,.1);
 }
-.shop-checkout > .lwrap > div:first-child > form{
-    width: 48%;
+.shop-checkout > div > .lwrap > div:first-child > form{
+    width: 48.8%;
+    margin-bottom: 64rem;
 }
 .shop-checkout input[name=checkout].half{
     width: 49%;
@@ -1287,98 +1388,127 @@ article:nth-child(4) .percentage:after {
 .shop-checkout #checkbox1{
     margin: 5px 5px 0px 0px;
 }
+.shop-checkout .acc-radio + .btn-default{
+    height: 50px;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    min-width: 160rem;
+}
 
 /*PAGE NOT FOUND*/
+.pagenotfound{
+    height: auto;
+    padding: 0px 10px;
+}
+.pagenotfound > .icon-404{
+    flex-shrink: 0;
+    width: 228rem;
+    height: 229rem;
+    background-size: cover;
+    background-position: center center;
+}
 .pagenotfound strong{
     color: #212121;
-    font-size: 50px;
+    font-size: 50rem;
     font-weight: 700;
     text-align: center;
-    margin: 50px 0px 50px 0px;
+    margin: 55rem 0px 21rem 0px;
+    letter-spacing: 0.041em;
 }
 .pagenotfound small{
     font-size: 16px;
     text-align: center;
+    letter-spacing: 0.041em;
 }
 .pagenotfound > #logo-404{
-    margin: 50px 0px 50px 0px;
+    margin: 125rem 0px 81rem 0px;
+    flex-shrink: 0;
 }
 .pagenotfound .links-social{
-    margin: 30px 0px 30px 0px;  
+    margin: 72rem 0px 74rem 0px;  
+}
+.pagenotfound .btn{
+    height: 32px;
+    margin: 5px;
+    min-width: 90rem;
+    font-style: italic;
+}
+.pagenotfound .btn-alt{
+    border-width: 1px;
+    color: #ff6676;
+}
+.pagenotfound .btn-alt:active, .pagenotfound .btn-alt:hover, .pagenotfound .btn-alt:focus{
+    color: white;
 }
 
 /*SEARCH RESULTS*/
-.result{
-    position: relative;
-}
-.result > div{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    padding: 50px 10px;
-}
-.result > div > strong{
-    color: black;
-    font-weight: 700;
-    font-size: 24px;
-    text-transform: uppercase;
-}
-.result > div > strong > big{
-    font-size: 28px;
-}
-.result > div > small{
-    color: #727272;
-    font-size: 16px;
+.search-results header + figure > div{
+    padding: 49rem 10rem 40rem 10rem;
 }
 .sidebar .tablist > a{
     flex-grow: 1;
 }
 .sidebar .tabset{
-    padding: 10px 10px 10px 10px;
+    padding: 35rem 26rem 20rem 26rem;
 }
 .sidebar .tabset article figure{
     float: left;
-    margin-right: 10px;
+    margin-right: 17rem;
 }
 .sidebar .tabset article{
-    margin-bottom: 20px;
+    margin-bottom: 21rem;
 }
 .sidebar .tabset article p{
-    margin-bottom: 3px;
+    margin: 4rem 0px 6rem 0px;
+    color: #666666;
+    line-height: 14px;
+    font-size: 12px;
+}
+.sidebar .tabset article p + time{
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    padding-left: 1rem;
 }
 
 /*TEACH LESSONS*/
-.lessons{
-    padding: 20px 10px 30px 10px;
+.lessons > .lwrap{
+    padding: 97rem 10px 30rem 10px;
+    max-width: 1190px;
 }
 .lessons .grid{
-    padding-top: 40px;
+    padding-top: 60rem;
 }
 .lessons .grid article{
-    width: 30%;
+    width: 31.55%;
     background: white;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin-bottom: 45rem;
 }
 .lessons .grid article > div{
-    padding: 10px 10px 10px 10px;
+    padding: 16rem 21rem 16rem 21rem;
     position: relative;
 }
 .lessons .grid article > div .lbl-price{
     position: absolute;
-    right: 10px;
-    top: -20px;
+    right: 9rem;
+    top: -24rem;
 }
-.lessons .grid article > div > .info{
-    padding-top: 20px;
+.lessons .grid article > div i + *{
+    margin-top: 4rem;
+    display: inline-block;
 }
 .lessons .grid article h5{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
+    letter-spacing: 0.025em;
+}
+.lessons .grid article p{
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 16rem;
+    letter-spacing: 0.03em;
 }
 .lessons .grid article h5 a{
     color: #212121;
@@ -1387,28 +1517,35 @@ article:nth-child(4) .percentage:after {
     text-decoration: underline;
 }
 .grid + .btn-default{
-    width: 30%;
+    width: 31.55%;
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
 }
 
 /*LESSONS DETAILS*/
-.lessondetails{
-    padding: 40px 10px 40px 10px;
+.lessondetails > .lwrap{
+    max-width: 1190px;
+    padding: 91rem 10px 40px 10px;
 }
 .lessondetails .video{
-    width: 70%;
-    padding-top: 40%;
+    width: 66%;
+    padding-top: 40.85%;
 }
-.lessondetails > div > article{
-    margin-bottom: 20px;
+.lessondetails > .lwrap > div > article{
+    margin-bottom: 49rem;
 }
-.lessondetails > div > article h2{
+.lessondetails > .lwrap > div > article h2{
     color: black;
     font-size: 26px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 34rem;
+}
+.lessondetails > .lwrap > div > article .lbl-price{
+    margin-bottom: 14rem;
 }
 .lessondetails .video + div{
-    width: 28%;
+    width: 31.55%;
     background: white;
     padding: 20px 20px 20px 20px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
@@ -1444,7 +1581,7 @@ article:nth-child(4) .percentage:after {
     font-size: 24px;
 }
 .lessondetails .tabs{
-    padding: 50px 0px 50px 0px;
+    padding: 130rem 0px 50px 0px;
 }
 .lessondetails .tabset > div h5{
     color: #212121;
@@ -1522,18 +1659,19 @@ footer{
     transform: scale(1);
 }
 .gallery-footer figure a span{
-    font-size: 18px;
+    font-size: 18rem;
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
+    text-align: center;
 }
 .gallery-footer figure a strong{
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 .footer{
     max-width: 1196px;
-    padding: 83rem 10px 47rem 16rem;
+    padding: 83rem 10px 47rem 16px;
 }
 .footer > div{
     width: 31.7%; 
@@ -1625,13 +1763,15 @@ footer{
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
     .stream > a{width: 47%}
+    .gallery-footer figure a span{font-size: 10px;}
+    .gallery-footer figure a strong{font-size: 12px;}
 }
 @media (max-width: 640px) {
     .stream > a{width: 22.355%;}
     .sidebar > *:not(.popular){width: 49%;}
     .sidebar > .search-sidebar{order: 0;}
-    .sidebar > .following{order: 1;}
-    .sidebar > .twit{order: 2;}
+    .sidebar > .following, .search-results .sidebar > .categories{order: 1;}
+    .sidebar > .twit, .search-results .sidebar > .tabs{order: 2;}
     .sidebar > .tags{order: 3;}
     .category-wrap .sidebar > .tags{width: 100%;}
     .sidebar > .about-blogger, .sidebar > .categories{order: 4;}
@@ -1640,6 +1780,8 @@ footer{
     .sidebar > .popular article{width: 32%;}
     .blockquote-lg q{font-size: 12px; line-height: 12px;}
     .category-wrap .slider-twitter > .slide{min-height: 100px;}
+    .gallery-footer figure.hidden{display: none;}
+    .shop-checkout input.half[name="checkout"] {width: 100%;}
 }
 @media (max-width: 480px) {
     .sidebar > .tags{order: 2;}
@@ -1651,4 +1793,5 @@ footer{
     .article-wrap .lbl-date { flex-direction: row; }
     .article-wrap > figure > .blockquote-lg {padding: 50rem;}   
     .skills article{width: 46%;}
+    .gallery-footer figure.hidden-sm{display: none;}
 }

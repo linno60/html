@@ -22,7 +22,12 @@
     <body data-flex="col">
         <div class="category-wrap">
             <?= require_tpl('common/header') ?>
-            <figure><img src="/images/imgcategory.jpg" width="1920" height="250" alt=""><h1>photography</h1></figure>
+            <figure>
+                <img src="/images/imgcategory.jpg" width="1903" height="250" alt="">
+                <div data-flex="col -center around">
+                    <strong><big>photography</big></strong>
+                </div>
+            </figure>
             <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content" data-flex="col -center">
                     <div class="article-wrap">
