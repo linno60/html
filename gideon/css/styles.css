@@ -1,6 +1,7 @@
 /*COMMON*/
 .lwrap{
-    max-width: 1170px;
+    max-width: 1190px;
+    padding: 0px 10rem;
 }
 figure > img, a > img, figure > img{
     display: block;
@@ -35,7 +36,6 @@ header, footer{
     background: #212121;
 }
 .top-wrap > .lwrap{
-    max-width: 1190px;
     height: 50px;
     position: relative;
 }
@@ -44,7 +44,7 @@ header, footer{
     right: 10px;
     top: 0px;
 }
-.top-wrap .btn-cart .lbl-counter{
+.top-wrap .btn-cart .lbl-circle{
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -55,6 +55,9 @@ header, footer{
 }
 .nav-wrap{
     background: url("/images/nav.png");
+}
+.nav-wrap > .lwrap{
+    max-width: 1170px;
 }
 
 /*POPUP*/
@@ -113,6 +116,7 @@ header, footer{
     text-align: center;
     margin: 3rem 0px 16rem 0px;
     letter-spacing: 0.05em;
+    display: inline-block;
 }
 .cart-popup strong span{
     color: #ff6766;
@@ -142,14 +146,13 @@ header, footer{
 /*slider figcaption*/
 .slider-header figure > figcaption{
     position: absolute;
-    width: 100%;
-    margin: 5px;
-    max-width: 300rem;
+    max-width: 100%;
+    width: 64.65%;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) scale(0);
-    box-shadow: inset 0px 0px 0px 2px #ff6766, 0px 0px 0px 30px rgba(255,255,255,.9);
-    padding: 20rem;
+    box-shadow: inset 0px 0px 0px 2px #ff6766, 0px 0px 0px 30rem rgba(255,255,255,.9);
+    padding: 15rem 5rem 19rem 5rem;
     text-align: center;
     background: white;
     opacity: 0;
@@ -178,20 +181,26 @@ header, footer{
 .slider-header figure > figcaption > h6{
     color: black;
     font-style: italic;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 400;
+    letter-spacing: 0.05em;
 }
 .slider-header figure > figcaption > hr{
-    width: 30px;
-    height: 2px;
+    width: 30rem;
+    height: 2rem;
     background: #ff6766;
+    margin: 6rem auto 15rem auto;
 }
 .slider-header figure > figcaption > p{
-    line-height: 22px;
-    margin-bottom: 15rem;
+    line-height: 22rem;
+    margin-bottom: 29rem;
+    font-size: 14rem;
+    max-width: 261px;
 }
 .slider-header figure > figcaption > time{
     font-style: italic;
+    font-size: 12rem;
+    letter-spacing: 0.1em;
 }
 
 /*slider slideshow*/
@@ -261,10 +270,10 @@ header, footer{
     font-size: 30px;
 }
 .arrowprev{
-    left: 20px;
+    left: 20rem;
 }
 .arrownext{
-    right: 20px;
+    right: 20rem;
 }
 .arrowprev > label{
     left: 0px;
@@ -314,7 +323,7 @@ header, footer{
     background: white;
 }
 .content-wrap{
-    padding: 100rem 0px 20rem 0px;
+    padding: 100rem 10rem 20rem 10rem;
 }
 .content{
     width: calc(77% - 32rem);
@@ -323,9 +332,9 @@ header, footer{
 .content > div:not(.pg){
     padding: 14rem 14rem 14rem 15rem;
 }
-
 .article-wrap{
     margin-bottom: 60rem;
+    width: 100%;
 }
 .article-wrap > figure{
     margin-bottom: 29rem;
@@ -437,6 +446,7 @@ header, footer{
     background: #212121;
     width: 211px;
     margin: -1px 0px 0px 0px;
+    display: inline-block;
 }
 .single-post .article-wrap .lbl-date{
     margin-right: -2rem;
@@ -564,8 +574,11 @@ header, footer{
 .sidebar > *{
     margin-bottom: 30rem;
 }
-.sidebar > div:not(.tabs){
+.sidebar > div{
     padding: 37rem 23rem 20rem 23rem;
+}
+.sidebar > .tabs{
+    padding: 0px;
 }
 .sidebar > .following{
     padding-top: 27rem;
@@ -617,6 +630,7 @@ header, footer{
 }
 .sidebar > .about-blogger > article > *{
     text-align: center;
+    display: inline-block;
 }
 .sidebar > .about-blogger > article > strong{
     color: black;
@@ -705,6 +719,7 @@ header + figure > div > strong{
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    display: inline-block;
 }
 header + figure > div > strong > big{
     font-size: 28px;
@@ -713,6 +728,7 @@ header + figure > div > small{
     color: #727272;
     font-size: 16px;
     letter-spacing: 0.1em;
+    display: inline-block;
 }
 .category-wrap .article-wrap + .btn-alt{
     margin-bottom: 40rem;
@@ -887,6 +903,9 @@ article:nth-child(4) .percentage:after {
 .contact-details > div:first-child{
     border-left: none;
 }
+.contact-details > div > span, .contact-details > div > a{
+    display: inline-block;
+}
 .contact .article-wrap > figure{
     padding: 20rem 20rem 0px 20rem;
     margin-bottom: 0px;
@@ -915,6 +934,9 @@ article:nth-child(4) .percentage:after {
 }
 
 /*SHOP*/
+.shop > .lwrap{
+    padding: 60rem 10rem 56rem 10rem;
+}
 .shop .content > div:not(.pg){    
     box-shadow: none;
     background: none;
@@ -922,23 +944,23 @@ article:nth-child(4) .percentage:after {
 }
 .main-product{
     background: white;
-    margin-bottom: 60rem;
 }
 .main-product > .lwrap{
-    padding: 81rem 10px 58rem 10px;
-    max-width: 1190px;
+    padding: 81rem 10rem 50rem 10rem;
+}
+.main-product > .lwrap figure{
+    margin-bottom: 28rem;
 }
 .main-product > .lwrap > figure{
     width: 48.9%;
 }
 .main-product > .lwrap > figure > .btn-default{
     position: absolute;
-    right: 22rem;
-    bottom: 41rem;
+    right: 23rem;
+    bottom: 21rem;
 }
 .main-product > .lwrap > div > figure{
     width: 47.25%;
-    margin-bottom: 21px;
 }
 .main-product figure{
     position: relative;
@@ -950,8 +972,8 @@ article:nth-child(4) .percentage:after {
     height: 100%;
     width: 100%;
     background: rgba(0,0,0,.0);
-    padding: 26rem;
-    transition: background ease .3s;
+    padding: 15rem 5rem 23rem 5rem;
+    transition: background ease .3s;    
 }
 .main-product > .lwrap > div > figure > figcaption:hover{
     background: rgba(0,0,0,.7);
@@ -962,9 +984,10 @@ article:nth-child(4) .percentage:after {
 .main-product > .lwrap > div > figure > figcaption span{
     color: white;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 23rem;
     display: inline-block;
     text-align: center;
+    letter-spacing: 0.05em;
 }
 .main-product figcaption:hover .btn-default{
     background: #ff6766;
@@ -979,7 +1002,7 @@ article:nth-child(4) .percentage:after {
     opacity: 1;
 }
 .main-product > .lwrap > div{
-    width: 48.7%;
+    width: 48.8%;
 }
 .shop .sorting{
     margin-bottom: 42rem;
@@ -988,9 +1011,10 @@ article:nth-child(4) .percentage:after {
     display: inline-block;
     padding-bottom: 5rem;
     letter-spacing: 0.1em;
+    text-align: right;
 }
 .shop .content > div.products{
-    padding-bottom: 25rem;
+    padding-bottom: 24rem;
     margin-bottom: 46rem;
     border-bottom: 1px solid rgba(42,42,38,.1);
 }
@@ -1003,6 +1027,9 @@ article:nth-child(4) .percentage:after {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+.products > figure > img{
+    height: calc(100% - 100px);
 }
 .products > figure > img + div{
     position: absolute;
@@ -1025,12 +1052,13 @@ article:nth-child(4) .percentage:after {
 }
 .products > figure > figcaption > *{
     display: inline-block;
+    text-align: center;
 }
 .products > figure > figcaption > span{
     margin-bottom: 8rem;
 }
 .products > figure > div > .btn-overlay{
-    margin: 5px;
+    margin: 7rem;
 }
 .products > figure > img:hover + div{
     opacity: 1;
@@ -1100,10 +1128,40 @@ article:nth-child(4) .percentage:after {
 .shop .sidebar > div {
     padding: 25rem 23rem 29rem 31rem;
 }
-.range{
-    height: 72px;
+
+#slider-snap{
+    height: 5px;
+    width: 100%;
+    margin: 24rem 0px 28rem 0px;
 }
-.range + .btn-default{
+.example-val, .example-val + span{
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+}
+.noUi-horizontal .noUi-handle {
+    background: #2a2a26;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 3px #ff6766;
+    background-clip: content-box;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transition: all ease .3s;
+    left: 0px;
+    top: -4px;
+}
+.noUi-target {
+    box-shadow: none;
+    border: none;
+    background: #e2e5ec;
+    border-radius: 0px;
+}
+.noUi-handle:before, .noUi-handle:after{
+    display: none;
+}
+
+#slider-snap + .btn-default{
     min-width: 86px;
     padding: 0px 5px;
     height: 30px;
@@ -1124,8 +1182,7 @@ article:nth-child(4) .percentage:after {
     background: white;    
 }
 .product-detail > .lwrap{
-    padding: 80rem 10px 62rem 10px;
-    max-width: 1190px;
+    padding: 80rem 10rem 62rem 10rem;
 }
 .product-detail > .lwrap > .main{
     width: 48.7%;
@@ -1141,7 +1198,7 @@ article:nth-child(4) .percentage:after {
     width: 30.15%;
     margin-bottom: 20px;
 }
-.product-detail .main > figure > .lbl-discount{
+.product-detail .main > figure > .lbl-circle{
     position: absolute;
     right: 23rem;
     top: 32rem;
@@ -1161,10 +1218,10 @@ article:nth-child(4) .percentage:after {
     margin-bottom: 34rem;
 }
 .sub-details{
-    padding: 10px 0px 13px 0px;
+    padding: 10rem 0px;
 }
 .sub-details a{
-    margin: 2px 0px 2px 34rem;
+    margin: 3px 0px 0px 34rem;
     letter-spacing: 0.05em;
 }
 .sub-details a:active, .sub-details a:hover, .sub-details a:focus{
@@ -1230,7 +1287,7 @@ article:nth-child(4) .percentage:after {
     flex-shrink: 0;
 }
 .tabwrap{
-    padding: 71rem 0px 102rem 0px;
+    padding: 71rem 10rem 102rem 10rem;
 }
 .tabwrap .tablist > a{
     min-width: 124rem;
@@ -1263,10 +1320,10 @@ article:nth-child(4) .percentage:after {
     padding: 15rem 0px 20rem 0px;
     margin: 25rem 5rem 11rem 0px;
 }
-.shop-product-details + footer .footer-title, .shop-cart + footer .footer-title, .shop-checkout + footer .footer-title {
+.shop-product-details + footer .footer-title, .shop-cart + footer .footer-title, .shop-checkout + footer .footer-title, .lessondetails + footer .footer-title{
     padding: 53rem 10px 48rem 10px;
 }
-.shop-product-details + footer .footer-title h2, .shop-cart + footer .footer-title h2, .shop-checkout + footer .footer-title h2 {
+.shop-product-details + footer .footer-title h2, .shop-cart + footer .footer-title h2, .shop-checkout + footer .footer-title h2, .lessondetails + footer .footer-title {
     letter-spacing: 0.105em;
 }
 .review-item{
@@ -1276,6 +1333,7 @@ article:nth-child(4) .percentage:after {
     text-align: center;
     margin-top: 17rem;
     letter-spacing: 0.1em;
+    display: inline-block;
 }
 .review-item > div{
     min-width: 120rem;
@@ -1326,8 +1384,7 @@ article:nth-child(4) .percentage:after {
 
 /*SHOP CART*/
 .shop-cart > div > .lwrap{
-    padding: 80rem 10px 0px 10px;
-    max-width: 1190px;
+    padding: 80rem 10rem 0px 10rem;
 }
 .shop-cart > div > .lwrap > div{
     border-bottom: 1px solid rgba(33,33,33,.1);
@@ -1374,8 +1431,7 @@ article:nth-child(4) .percentage:after {
     letter-spacing: 0.055em;
 }
 .shop-checkout > div > .lwrap{
-    max-width: 1190px;
-    padding: 73rem 10px 100rem 10px;
+    padding: 73rem 10rem 100rem 10rem;
     border-bottom: 1px solid rgba(33,33,33,.1);
 }
 .shop-checkout > div > .lwrap > div:first-child > form{
@@ -1414,14 +1470,17 @@ article:nth-child(4) .percentage:after {
     text-align: center;
     margin: 55rem 0px 21rem 0px;
     letter-spacing: 0.041em;
+    display: inline-block;
 }
 .pagenotfound small{
     font-size: 16px;
     text-align: center;
     letter-spacing: 0.041em;
+    display: inline-block;
 }
 .pagenotfound > #logo-404{
     margin: 125rem 0px 81rem 0px;
+    display: inline-block;
     flex-shrink: 0;
 }
 .pagenotfound .links-social{
@@ -1472,11 +1531,14 @@ article:nth-child(4) .percentage:after {
 
 /*TEACH LESSONS*/
 .lessons > .lwrap{
-    padding: 97rem 10px 30rem 10px;
-    max-width: 1190px;
+    padding: 97rem 10rem 30rem 10rem;
+}
+.lessons > .lwrap > article{
+    width: 100%;
 }
 .lessons .grid{
     padding-top: 60rem;
+    width: 100%;
 }
 .lessons .grid article{
     width: 31.55%;
@@ -1525,8 +1587,7 @@ article:nth-child(4) .percentage:after {
 
 /*LESSONS DETAILS*/
 .lessondetails > .lwrap{
-    max-width: 1190px;
-    padding: 91rem 10px 40px 10px;
+    padding: 91rem 10rem 100rem 10rem;
 }
 .lessondetails .video{
     width: 66%;
@@ -1534,6 +1595,7 @@ article:nth-child(4) .percentage:after {
 }
 .lessondetails > .lwrap > div > article{
     margin-bottom: 49rem;
+    width: 100%;
 }
 .lessondetails > .lwrap > div > article h2{
     color: black;
@@ -1547,7 +1609,7 @@ article:nth-child(4) .percentage:after {
 .lessondetails .video + div{
     width: 31.55%;
     background: white;
-    padding: 20px 20px 20px 20px;
+    padding: 24rem 29rem 20rem 30rem;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 .lessondetails .video + div h3{
@@ -1555,6 +1617,7 @@ article:nth-child(4) .percentage:after {
     color: #212121;
     font-size: 18px;
     font-weight: 400;
+    letter-spacing: 0.05em;
 }
 .lessondetails .video + div p{
     font-size: 13px;
@@ -1562,16 +1625,18 @@ article:nth-child(4) .percentage:after {
 }
 .lessondetails .video + div > div > .btn-default{
     font-size: 14px;
+    letter-spacing: 0.05em;
+    padding: 0px 27rem;
 }
 .lessondetails .video + div > div:not(.info){
     border-top: 1px dashed rgba(133,133,133,.3);
     border-bottom: 1px dashed rgba(133,133,133,.3);
-    padding: 20px 0px 20px 0px;
-    margin-bottom: 30px;
+    padding: 26rem 0px 28rem 0px;
+    margin-bottom: 45rem;
 }
 .lessondetails .video + div p + span{
     color: #212121;
-    padding: 30px 0px 20px 0px;
+    padding: 20rem 0px 32rem 0px;
     display: inline-block;
 }
 .lessondetails .video + div p + span > big{
@@ -1581,37 +1646,57 @@ article:nth-child(4) .percentage:after {
     font-size: 24px;
 }
 .lessondetails .tabs{
-    padding: 130rem 0px 50px 0px;
+    padding-top: 130rem;
+}
+.lessondetails .tablist > a.active, .lessondetails .tablist > a:active, .lessondetails .tablist > a:hover, .lessondetails .tablist > a:focus{
+    font-size: inherit;
+    padding-top: 4px;
+}
+.lessondetails .tabset{
+    padding: 30rem 58rem;
+}
+.lessondetails .tabset p{
+    margin-bottom: 29rem;
+}
+.lessondetails .tabset .acc-faqs p{
+    margin-bottom: 19rem;
+}
+.lessondetails .tabset .scroll-wrap p{
+    margin-bottom: 24rem;
 }
 .lessondetails .tabset > div h5{
     color: #212121;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 28rem;
+    letter-spacing: 0.05em;
 }
 .lessondetails .tabset > div h6{
     color: black;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 16rem;
+    font-size: 14px;
+    letter-spacing: 0.05em;
 }
 .scroll-wrap{
     overflow-y: scroll;
-    height: 300px;
-    margin-bottom: 30px;
-    padding-right: 20px;
+    height: 427px;
+    margin-bottom: 55rem;
+    padding-right: 22rem;
 }
 .scroll-wrap::-webkit-scrollbar-track{
-    background: linear-gradient(90deg, white 0px, white 4px, #212121 4px, #212121 12px, white 12px, white 16px);
+    background: linear-gradient(white 0px, white 8px, transparent 8px, transparent),linear-gradient(90deg, white 0px, white 4px, #212121 4px, #212121 12px, white 12px, white 16px);
     width: 16px;
 }
 .scroll-wrap::-webkit-scrollbar{
     width: 16px;
-    background: linear-gradient(90deg, white 0px, white 4px, #212121 5px, #212121 12px, white 13px, white 16px);
+    background: linear-gradient(white 0px, white 8px, transparent 8px, transparent),linear-gradient(90deg, white 0px, white 4px, #212121 5px, #212121 12px, white 13px, white 16px);
 }
 .scroll-wrap::-webkit-scrollbar-thumb{
     width: 16px;
     background: #ff6766;
     border-radius: 5px;
+
 }
 
 /*FOOTER*/
@@ -1782,6 +1867,11 @@ footer{
     .category-wrap .slider-twitter > .slide{min-height: 100px;}
     .gallery-footer figure.hidden{display: none;}
     .shop-checkout input.half[name="checkout"] {width: 100%;}
+    .slider-header figure > figcaption > p{display: none;}
+    .slider-header figure > figcaption > time{font-size: 10px;}
+    .slider-header figure > figcaption > h6{font-size: 12px;}
+    .slider-header figure > figcaption{width: calc(100% - 4px); box-shadow:none;}
+    .links-social a:after{line-height: 12px;}
 }
 @media (max-width: 480px) {
     .sidebar > .tags{order: 2;}
@@ -1794,4 +1884,5 @@ footer{
     .article-wrap > figure > .blockquote-lg {padding: 50rem;}   
     .skills article{width: 46%;}
     .gallery-footer figure.hidden-sm{display: none;}
+    .products > figure{width: 48%;}
 }

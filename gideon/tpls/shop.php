@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
         <link rel="stylesheet" href="/css/addons/generic.css">
         <link rel="stylesheet" href="/css/elements.css">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link href="/js/jquery/plugins/noUiSlider.8.5.1/nouislider.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/styles.css">        
         <script>
             var LAYOUT_WIDTH = 1170;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -27,20 +28,20 @@
                     <figure><img src="/images/img14.jpg" width="571" height="677" alt=""><a href="#" class="btn btn-default">Shop Now</a></figure>
                     <div data-flex="stripe w">
                         <figure>
-                            <img src="/images/img13.jpg" width="270" height="329" alt="">
+                            <img src="/images/img13.jpg" width="270" height="3318" alt="">
                             <figcaption data-flex="vaxis" data-childs="col -center">
                                 <div>
-                                    <span>Wooden spoon</span>
+                                    <span>Wooden Spoon</span>
                                     <a href="#" class="btn btn-plus"></a>
                                 </div>
                                 <a href="#" class="btn btn-default">Shop Now</a>
                             </figcaption>
                         </figure>
                         <figure>
-                            <img src="/images/img15.jpg" width="270" height="329" alt="">
+                            <img src="/images/img15.jpg" width="270" height="318" alt="">
                             <figcaption data-flex="vaxis" data-childs="col -center">
                                 <div>
-                                    <span>Wooden spoon</span>
+                                    <span>Wooden Spoon</span>
                                     <a href="#" class="btn btn-plus"></a>
                                 </div>
                                 <a href="#" class="btn btn-default">Shop Now</a>
@@ -50,7 +51,7 @@
                             <img src="/images/img16.jpg" width="270" height="329" alt="">
                             <figcaption data-flex="vaxis" data-childs="col -center">
                                 <div>
-                                    <span>Wooden spoon</span>
+                                    <span>Wooden Spoon</span>
                                     <a href="#" class="btn btn-plus"></a>
                                 </div>
                                 <a href="#" class="btn btn-default">Shop Now</a>
@@ -60,7 +61,7 @@
                             <img src="/images/img17.jpg" width="270" height="329" alt="">
                             <figcaption data-flex="vaxis" data-childs="col -center">
                                 <div>
-                                    <span>Wooden spoon</span>
+                                    <span>Wooden Spoon</span>
                                     <a href="#" class="btn btn-plus"></a>
                                 </div>
                                 <a href="#" class="btn btn-default">Shop Now</a>
@@ -226,7 +227,12 @@
                             <label for="c2" class="btn btn-expand"></label>
                         </div>
                         <form  action="#" method="post" data-flex="col -center">
-                            <div class="range"></div>
+                            <div data-flex="center -center">
+                                <span class="example-val" id="slider-snap-value-lower"></span>                              
+                                <span>&nbsp;-&nbsp;</span>
+                                <span class="example-val" id="slider-snap-value-upper"></span>
+                            </div>
+                            <div id="slider-snap"></div>
                             <a href="#" class="btn btn-default">Filter</a>
                         </form>
                     </div>
@@ -327,6 +333,29 @@
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script src="/js/jquery/plugins/noUiSlider.8.5.1/nouislider.min.js"></script>
+        <script src="/js/jquery/plugins/wnumb-1.0.2/wNumb.js"></script>
+        <script>
+            var snapSlider = document.getElementById('slider-snap');
+            noUiSlider.create(snapSlider, {
+                start: [10, 300],
+                range: {
+                    'min': 0,
+                    'max': 372
+                },
+                format: wNumb({
+                    decimals: 0,
+                    prefix: '$'
+                })
+            });
+            var snapValues = [
+                document.getElementById('slider-snap-value-lower'),
+                document.getElementById('slider-snap-value-upper')
+            ];
+            snapSlider.noUiSlider.on('update', function (values, handle) {
+                snapValues[handle].innerHTML = values[handle];
+            });
+        </script>
     </body>
 </html>
 

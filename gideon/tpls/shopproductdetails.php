@@ -25,7 +25,7 @@
             <div class="product-detail">
                 <div class="lwrap" data-flex="stripe" data-flex-640="vstripe">
                     <div class="main">
-                        <figure><span class="lbl lbl-discount">15% Off</span><img src="/images/main.png" width="571" height="478" alt=""></figure>
+                        <figure><span class="lbl lbl-circle lg">15% Off</span><img src="/images/main.png" width="571" height="478" alt=""></figure>
                         <div data-flex="stripe w">
                             <figure><img src="/images/img18.jpg" width="136" height="133" alt=""></figure>
                             <figure><img src="/images/img18.jpg" width="136" height="133" alt=""></figure>

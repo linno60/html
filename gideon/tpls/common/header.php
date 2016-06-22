@@ -6,7 +6,7 @@
                 <input type="image" src="/images/icons/searchheader.png">
                 <input type="search" name="search" placeholder="Search">
             </form>
-            <a href="#" class="btn btn-cart"><span class="lbl lbl-counter">3</span></a>
+            <a href="#" class="btn btn-cart"><span class="lbl lbl-circle sm">3</span></a>
             <div class="cart-popup" data-flex="col -center">
                 <div data-childs="-start between">
                     <div>

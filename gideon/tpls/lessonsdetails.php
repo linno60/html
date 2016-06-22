@@ -34,7 +34,7 @@
                     </article>                   
                     <figure class="video" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>                   
                     <div>
-                        <h3>Improving Search Engine optimization (SEO)</h3>
+                        <h3>Improving search engine optimization (SEO)</h3>
                         <p>Cras sit amet dui ac lectus molestie porttitor. Aenean user ratings, and media galleries; and push content to Twitter and Facebook. The course also covers transitioning from a Drupal Gardens.</p>
                         <span><small>$</small><big>25</big></span>
                         <div>
@@ -42,21 +42,20 @@
                         </div>
                         <div class="info" data-flex="around w" data-childs="col -center">
                             <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
-                            <span><i class="icon-list"></i><span>Advanced</span></span>
+                            <span><i class="icon-list"></i><span>Beginner</span></span>
                             <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                         </div>
                     </div>
                 </div>
-                <div class="tabs" data-tabs="">
+                <div class="tabs" data-tabs>
                     <div class="tablist">
-                        <a href="#tab1" class="active">Lessons Details</a>
+                        <a href="#tab1">Lessons Details</a>
                         <a href="#tab2">Transcripts</a>
-                        <a href="#tab3">FAQs</a>
+                        <a href="#tab3" class="active">FAQs</a>
                     </div>
                     <div class="tabset">
-                        <a href="#tab1" class="active">Lessons Details</a>
-                        <div id="tab1" class="tabpanel active">
-                            <p>Author Tom Geller demonstrates how to create and publish a complete web site with the powerful tools in Acquia's hosted service, Drupal Gardens. The course shows how to leverage the pre-built page layouts and add custom styling using the ThemeBuilder tool; integrate rich site features, such as surveys, user ratings, and media galleries; and push content to Twitter and Facebook. The course also covers transitioning from a Drupal Gardens site to a self-hosted Drupal site. Exercise files are included with the course.</p>
+                        <div id="tab1" class="tabpanel">
+                            <p>Author Tom Geller demonstrates how to create and publish a complete web site with the powerful tools in Acquia's hosted service, Drupal Gar&shy;dens. The course shows how to leverage the pre-built page layouts and add custom styling using the ThemeBuilder tool; integrate rich site fea&shy;tures, such as surveys, user ratings, and media galleries; and push content to Twitter and Facebook. The course also covers transitioning from a Drupal Gardens site to a self-hosted Drupal site. Exercise files are included with the course.</p>
                             <h6>Topics include:</h6>
                             <ul class="list-marker">
                                 <li>Creating and managing content and content types</li>
@@ -95,12 +94,11 @@
                                 <a href="#" class="next">Combining CRO with SEO</a>
                             </div>
                         </div>
-                        <a href="#tab2">Transcripts</a>
                         <div id="tab2" class="tabpanel">
                             <div>
-                                <h5>Improving search engine optimization</h5>
+                                <h5>Improving search engine optimization (SEO)</h5>
                                 <article class="scroll-wrap">                            
-                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of in&shy;formation here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
                                     <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
                                     <p>That is important to search engines, so you might as well leave it in. The second method gives your site credibility to the companies that run search engines, such as Google and Yahoo. I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
                                     <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
@@ -108,6 +106,26 @@
                                     <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
                                     <p>That is important to search engines, so you might as well leave it in. The second method gives your site credibility to the companies that run search engines, such as Google and Yahoo. I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
                                     <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>                                
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>
+                                    <p>To do that, click Configuration and then click Site information. In Slogan, I'm going to say "California tourism and travel." Now, if I Show it and click Save configuration, it appears right here under the title, but there is still some value if I add that and then hide it, and I'll show you. I'll scroll to the bottom after unclicking that Show slogan. Now, it doesn't show up under the title, but it still shows up here in the browser's title bar.</p>  
+                                    <p>That's at google.com/webmasters. I have already logged in to the Webmaster tools with my account. Now I go down and add a site. Here I I'll show you how it works with Google, although Drupal Gardens lets you verify your site to other search engines such as Bing and Yahoo and Yandex. It does this through a module called Site Verification, which is way down here near the bottom of the Modules page. It's turned on automatically, so you don't have to worry about it. The way that you add a verification is that you go to Google's webmasters page.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking, but also better quality search results. Here are four ways to do that in Drupal Gardens. The first one you've already seen, which is to add a little bit of information here called a site slogan. Earlier in the course, we got rid of our site slogan, and now we're going to return it back in but not have it show up here underneath the title.</p>                                    
                                 </article>
                             </div>
                             <div class="ftr-details" data-flex="axis">
@@ -116,8 +134,7 @@
                                     <a href="#">WordPress</a>, 
                                     <a href="#">Tips</a>, 
                                     <a href="#">Lesson</a>, 
-                                    <a href="#">Improvement</a>, 
-                                    <a href="#">Accessories</a> 
+                                    <a href="#">Improvement</a>
                                 </div>
                                 <div class="links-sharesm" data-flex="end -center w" data-childs="center -center">
                                     <span>Share: </span>
@@ -133,12 +150,11 @@
                                 <a href="#" class="next">Combining CRO with SEO</a>
                             </div>
                         </div>
-                        <a href="#tab3">FAQs</a>
-                        <div id="tab3" class="tabpanel">
+                        <div id="tab3" class="tabpanel active">
                             <div class="accordion acc-faqs">
                                 <a href="#" class="active">Sophisticated page and language analysis</a>
                                 <div class="active">
-                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking  using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site.</p>
+                                    <p>Google and other search engines catalog the web automatically, using sophisticated page and language analysis to figure out what a site is about. There are things you can do to make your site more readable to them, resulting not only in better search ranking &nbsp;using sophis&shy;ticated page and language analysis to figure out what a site is about. There are things you can do to make your site.</p>
                                 </div>
                                 <a href="#">That is important to search engines</a>
                                 <div>
@@ -171,8 +187,7 @@
                                     <a href="#">WordPress</a>, 
                                     <a href="#">Tips</a>, 
                                     <a href="#">Lesson</a>, 
-                                    <a href="#">Improvement</a>, 
-                                    <a href="#">Accessories</a> 
+                                    <a href="#">Improvement</a>
                                 </div>
                                 <div class="links-sharesm" data-flex="end -center w" data-childs="center -center">
                                     <span>Share: </span>
@@ -194,7 +209,7 @@
         </div>
         <footer>
             <div class="lwrap footer-title" data-flex="center -center">
-                <h2>follow me on instagram</h2>
+                <h2>related lessons</h2>
             </div>
             <?= require_tpl('common/galleryalt') ?>
             <?= require_tpl('common/footer') ?>  
