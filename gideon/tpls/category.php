@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -42,7 +42,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
+                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper lao&shy;reet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
+                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper lao&shy;reet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                     <div class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-16"><big>09</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Taking Liberties, Taking Shortcuts</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -80,7 +80,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>In a recent interview, photographer Bruce Gilden said, “…you have to be sneaky to get the picture…” He said other things about respecting his subjects, his need to get very close and that only by veering into abstraction could he get closer. Let us not mistake being close for being sympathetic, though.</p>
+                                        <p>In a recent interview, photographer Bruce Gilden said, “...you have to be sneaky to get the picture...” He said other things about respecting his subjects, his need to get very close and that only by veering into abstraction could he get closer. Let us not mistake being close for being sympathetic, though.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                             </blockquote>
                         </figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-17"><big>17</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Sunstone is an organization that brings together</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -124,7 +124,7 @@
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
-                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
+                                        <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper lao&shy;reet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</p>
                                         <a href="#" class="btn btn-default">Read More</a>
                                     </div>
                                 </div>
@@ -135,7 +135,7 @@
                 </div>
                 <aside class="sidebar" data-flex-640="-start between w">
                     <form action="#" method="post" data-flex class="search-sidebar">
-                        <input type="search" name="search" placeholder="Search">
+                        <input type="search" name="search" id="searchside2" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
                     <div class="categories">

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -27,8 +27,8 @@
         <strong>Error 404 - Page Not Found</strong>
         <small>The Page you're locking couldn't be found</small>
         <form action="#" method="post" data-flex="axis" class="search-notfound">
-            <input type="search" name="search" placeholder="Search again">
-            <input type="image" src="/images/icons/searchgrey.png">
+            <input type="search" name="search" id="search404" placeholder="Search again">
+            <input type="image" name="image" id="image404" src="/images/icons/searchgrey.png">
         </form>
         <div data-flex="center">
             <a href='#' class='btn btn-default'>Back</a>

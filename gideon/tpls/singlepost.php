@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -100,8 +100,8 @@
                                 <div class="form-comment">
                                     <h2>Leave Your Comment</h2>
                                     <form action="#" method="post" data-flex="col -center">
-                                        <input type="text" name="post" placeholder="Name*" required="">
-                                        <input type="email" name="post" placeholder="Email*" required="">
+                                        <input type="text" id="text4" name="post" placeholder="Name*" required="">
+                                        <input type="email" id="email2" name="post" placeholder="Email*" required="">
                                         <textarea name="post" placeholder="Message*" required=""></textarea>
                                         <a href="#" class="btn btn-default">Send</a>
                                     </form>
@@ -122,7 +122,7 @@
                 </div>
                 <aside class="sidebar" data-flex-640="-start between w">
                     <form action="#" method="post" data-flex class="search-sidebar">
-                        <input type="search" name="search" placeholder="Search">
+                        <input type="search" id="searchside5" name="search" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
                     <div class="about-blogger">

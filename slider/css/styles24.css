@@ -106,18 +106,18 @@
 }
 
 /*arrows moving*/
-.csslider24 > #slide24-0:checked ~ .arrowprev > label.num2,
-.csslider24 > #pause24-0:checked ~ .arrowprev > label.num2,
-.csslider24 > #slide24-0:checked ~ .arrownext > label.num1,
-.csslider24 > #pause24-0:checked ~ .arrownext > label.num1, 
-.csslider24 > #slide24-1:checked ~ .arrowprev > label.num0,
-.csslider24 > #pause24-1:checked ~ .arrowprev > label.num0,
-.csslider24 > #slide24-1:checked ~ .arrownext > label.num2,
-.csslider24 > #pause24-1:checked ~ .arrownext > label.num2, 
-.csslider24 > #slide24-2:checked ~ .arrowprev > label.num1,
-.csslider24 > #pause24-2:checked ~ .arrowprev > label.num1,
-.csslider24 > #slide24-2:checked ~ .arrownext > label.num0,
-.csslider24 > #pause24-2:checked ~ .arrownext > label.num0 {
+.csslider24 > #slide24-0:checked ~ .arrowprev > .num2,
+.csslider24 > #pause24-0:checked ~ .arrowprev > .num2,
+.csslider24 > #slide24-0:checked ~ .arrownext > .num1,
+.csslider24 > #pause24-0:checked ~ .arrownext > .num1, 
+.csslider24 > #slide24-1:checked ~ .arrowprev > .num0,
+.csslider24 > #pause24-1:checked ~ .arrowprev > .num0,
+.csslider24 > #slide24-1:checked ~ .arrownext > .num2,
+.csslider24 > #pause24-1:checked ~ .arrownext > .num2, 
+.csslider24 > #slide24-2:checked ~ .arrowprev > .num1,
+.csslider24 > #pause24-2:checked ~ .arrowprev > .num1,
+.csslider24 > #slide24-2:checked ~ .arrownext > .num0,
+.csslider24 > #pause24-2:checked ~ .arrownext > .num0 {
     opacity: 1;
     z-index: 5;
 }
@@ -181,19 +181,19 @@
 .csslider24 > #play24:checked ~ .play-pause > .num2 {
     animation: play-pause24 10800ms infinite 5900ms;
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .csslider24 > .arrownext > label:hover {
-        background: url(/images/icons/next24.png)no-repeat center center;
-    }
-    .csslider24 > .arrowprev > label:hover {
+@media all and (-ms-high-contrast:none) {
+    .csslider24:hover > .arrowprev > label{
         background: url(/images/icons/prev24.png)no-repeat center center;
     }
-    .csslider24 > .play-pause > .play:hover {
-        background: url(/images/icons/play24.png)no-repeat center center;
+    .csslider24:hover > .arrownext > label{
+        background: url(/images/icons/next24.png)no-repeat center center;
     }
-    .csslider24 > .play-pause > .pause:hover {
-        background: url(/images/icons/pause24.png)no-repeat center center;
-    }    
+    .csslider24:hover > .play-pause > .pause {
+        background: url(/images/icons/pause24.png)no-repeat center 55%;
+    }
+    .csslider24:hover > .play-pause > .play {
+        background: url(/images/icons/play24.png)no-repeat center 55%;
+    } /* IE10 */
 }
 
 /*DESCRIPTION*/
@@ -307,12 +307,12 @@
 }
 
 /*bullets moving*/
-.csslider24 > #slide24-0:checked ~ .bullets > label.num0,
-.csslider24 > #pause24-0:checked ~ .bullets > label.num0,
-.csslider24 > #slide24-1:checked ~ .bullets > label.num1,
-.csslider24 > #pause24-1:checked ~ .bullets > label.num1,
-.csslider24 > #slide24-2:checked ~ .bullets > label.num2,
-.csslider24 > #pause24-2:checked ~ .bullets > label.num2 {
+.csslider24 > #slide24-0:checked ~ .bullets > .num0,
+.csslider24 > #pause24-0:checked ~ .bullets > .num0,
+.csslider24 > #slide24-1:checked ~ .bullets > .num1,
+.csslider24 > #pause24-1:checked ~ .bullets > .num1,
+.csslider24 > #slide24-2:checked ~ .bullets > .num2,
+.csslider24 > #pause24-2:checked ~ .bullets > .num2 {
     background: white;
     padding: 6px;
 }
@@ -326,13 +326,13 @@
         background: none;
     }
 }
-.csslider24 > #play24:checked ~ .bullets > label.num0 {
+.csslider24 > #play24:checked ~ .bullets > .num0 {
     animation: bullets24 10800ms infinite -1300ms;
 }
-.csslider24 > #play24:checked ~ .bullets > label.num1 {
+.csslider24 > #play24:checked ~ .bullets > .num1 {
     animation: bullets24 10800ms infinite 2300ms;
 }
-.csslider24 > #play24:checked ~ .bullets > label.num2 {
+.csslider24 > #play24:checked ~ .bullets > .num2 {
     animation: bullets24 10800ms infinite 5900ms;
 }
 

@@ -3,8 +3,8 @@
     <div class="top-wrap">
         <div class="lwrap" data-flex="axis">
             <form action="#" method="post" data-flex="-center" class="search-header">
-                <input type="image" src="/images/icons/searchheader.png">
-                <input type="search" name="search" placeholder="Search">
+                <input type="image" id="image1" src="/images/icons/searchheader.png">
+                <input type="search" id="search1" name="search" placeholder="Search">
             </form>
             <a href="#" class="btn btn-cart"><span class="lbl lbl-circle sm">3</span></a>
             <div class="cart-popup" data-flex="col -center">

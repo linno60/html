@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -120,7 +120,7 @@
                 </div>
                 <aside class="sidebar" data-flex-640="-start between w" data-flex-480="vstripe">
                     <form action="#" method="post" data-flex class="search-sidebar">
-                        <input type="search" name="search" placeholder="Search">
+                        <input type="search" name="search" id="searchside3" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
                     <div class="categories">

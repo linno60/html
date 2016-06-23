@@ -49,7 +49,7 @@
                             <input type="radio" name="nav" id="r1">
                             <label for="r1" data-flex="-center center"></label>
                             <nav class="links-nav" data-flex="axis" data-flex-480="axis r">
-                                <div data-flex="axis" data-flex-480="axis w">
+                                <div data-flex="around w">
                                     <a href="#">home</a>
                                     <a href="#">projects</a>
                                     <a href="#">studio</a>

@@ -28,6 +28,56 @@ figure > img{
     margin: 5px;
 }
 
+.creative {
+    overflow: hidden;
+    padding: 0px 15px;
+    height: 24px;
+    font-size: 16px;
+    color: darkcyan;
+    background: lightcyan;
+    text-transform: uppercase;
+}
+.creative span {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.creative span:before {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    content: attr(data-hover);
+    font-weight: 700;
+    transform: translateX(-50%);
+}
+.creative:hover span,
+.creative:focus span {
+    transform: translateY(-100%);
+}
+.creative2 {
+    color: darkcyan;
+    position: relative;
+    font-size: 16px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+} 
+.creative2:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 0;
+    border-bottom: 2px solid lightcyan;
+    color: lightcyan;
+    content: attr(data-hover);
+    transition: max-width .5s;
+}
+.creative2:hover:before,
+.creative2:focus:before {
+    max-width: 100%;
+}
+
 /*CHECK ME*/
 #check-me{
     display: none;

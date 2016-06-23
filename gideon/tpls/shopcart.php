@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -30,10 +30,10 @@
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td>Product</td>
-                                    <td>Price</td>
-                                    <td>Quantity</td>
-                                    <td>Total</td>
+                                    <td>Pro&shy;duct</td>
+                                    <td>Pri&shy;ce</td>
+                                    <td>Quan&shy;tity</td>
+                                    <td>To&shy;tal</td>
                                     <td></td>
                                 </tr>
                             </thead>
@@ -41,35 +41,47 @@
                                 <tr>
                                     <td><a href="#"><i class="icon-closepopup"></i></a></td>
                                     <td><figure><img src="/images/spoons.png" width="69" height="69" alt=""></figure></td>
-                                    <td>Black Spoon</td>
-                                    <td>$15</td>
-                                    <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
-                                    <td>$15</td>
+                                    <td><span>Black Spoon</span></td>
+                                    <td><span>$15</span></td>
+                                    <td>
+                                        <div class="spinner" data-flex data-childs="center -center">
+                                            <a href="#">&minus;</a><input type="number" id="num1" placeholder="1"><a href="#">+</a>
+                                        </div>
+                                    </td>
+                                    <td><span>$15</span></td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#"><i class="icon-closepopup"></i></a></td>
                                     <td><figure><img src="/images/clock.png" width="69" height="69" alt=""></figure></td>
-                                    <td>Wall Clock</td>
-                                    <td>$50</td>
-                                    <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
-                                    <td>$50</td>
+                                    <td><span>Wall Clock</span></td>
+                                    <td><span>$50</span></td>
+                                    <td>
+                                        <div class="spinner" data-flex data-childs="center -center">
+                                            <a href="#">&minus;</a><input type="number" id="num2" placeholder="1"><a href="#">+</a>
+                                        </div>
+                                    </td>
+                                    <td><span>$50</span></td>
                                     <td></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#"><i class="icon-closepopup"></i></a></td>
                                     <td><figure><img src="/images/eggs.png" width="69" height="69" alt=""></figure></td>
-                                    <td>Egg Tray</td>
-                                    <td>$10</td>
-                                    <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
-                                    <td>$10</td>
+                                    <td><span>Egg Tray</span></td>
+                                    <td><span>$10</span></td>
+                                    <td>
+                                        <div class="spinner" data-flex data-childs="center -center">
+                                            <a href="#">&minus;</a><input type="number" id="num3" placeholder="1"><a href="#">+</a>
+                                        </div>
+                                    </td>
+                                    <td><span>$10</span></td>
                                     <td></td>
                                 </tr>
                             </tbody>
                         </table>
                         <form action="#" method="post" data-flex="axis w">
-                            <div data-flex="-center">
-                                <input name="checkout" type="password" placeholder="Enter Coupon Code">
+                            <div data-flex="-center w">
+                                <input name="checkout" type="password" id="password1" placeholder="Enter Coupon Code">
                                 <button><span class="btn btn-default">Apply Coupon</span></button>
                             </div>
                             <div data-flex="-center end w">
@@ -82,15 +94,15 @@
                         <div>
                             <h2 class="title-shopcart">Calculate Shipping</h2>
                             <form action="#" method="post" data-flex="col">
-                                <select class="select-checkout">
+                                <select class="select-checkout" id="selectcountry1">
                                     <option>SELECT A COUNTRY</option>
                                     <option>USA</option>
                                     <option>UK</option>
                                     <option>Canada</option>
                                     <option>Australia</option>
                                 </select>
-                                <input name="checkout" type="text" placeholder="state/country">
-                                <input name="checkout" type="text" placeholder="postcode/zip">
+                                <input name="checkout" type="text" id="state1" placeholder="state/country">
+                                <input name="checkout" type="text" id="postcode1" placeholder="postcode/zip">
                                 <button><span class="btn btn-default">Update Total</span></button>
                             </form>
                         </div>

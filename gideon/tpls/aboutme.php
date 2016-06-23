@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -43,25 +43,25 @@
                                 molestie porttitor. Aenean sagittis imperdiet massa. Nam  est lacus,  consequat vita eil semper tristique,
                                 temp us in magna. At nos hinc posthac, sitientis piros Afros. At nos </p>
                         </div>
-                        <div class="skills">
+                        <div class="skills-wrap">
                             <h2>my skills</h2>
-                            <div data-flex='stripe w' data-childs="col -center">
-                                <article>
+                            <div class="skills" data-flex='stripe w' data-childs="col -center">
+                                <div>
                                     <div class="percentage" data-flex="center -center"><span></span><big>85</big></div>
                                     <span>Professional Blog</span>
-                                </article>
-                                <article>
+                                </div>
+                                <div>
                                     <div class="percentage" data-flex="center -center"><span></span><big>75</big></div>
                                     <span>Design</span>
-                                </article>
-                                <article>
+                                </div>
+                                <div>
                                     <div class="percentage" data-flex="center -center"><span></span><big>80</big></div>
                                     <span>Photography</span>
-                                </article>
-                                <article>
+                                </div>
+                                <div>
                                     <div class="percentage" data-flex="center -center"><span></span><big>60</big></div>
                                     <span>Story Writting</span>
-                                </article>
+                                </div>
                             </div>
                         </div>
                     </div>

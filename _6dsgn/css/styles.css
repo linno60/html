@@ -74,6 +74,10 @@ address{
     top: 0;
     right: 46rem;
     z-index: 10;
+    width: 725rem;
+}
+.links-nav > div{
+    flex-grow: 1;
 }
 #r1:checked ~ .links-nav{
     display: flex;
@@ -322,6 +326,9 @@ address{
 }
 .wrapper.five{
     background: #f7f7f3;    
+}
+.wrapper.six{
+    background: white;    
 }
 
 /*STUDIO*/

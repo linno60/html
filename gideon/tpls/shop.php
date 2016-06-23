@@ -13,7 +13,7 @@
         <link href="/js/jquery/plugins/noUiSlider.8.5.1/nouislider.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/styles.css">        
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -24,7 +24,7 @@
         <div class="shop">
             <?= require_tpl('common/header') ?>
             <div class="main-product">
-                <div class="lwrap" data-flex="stripe">
+                <div class="lwrap" data-flex="stripe" data-flex-480="vstripe">
                     <figure><img src="/images/img14.jpg" width="571" height="677" alt=""><a href="#" class="btn btn-default">Shop Now</a></figure>
                     <div data-flex="stripe w">
                         <figure>
@@ -190,12 +190,12 @@
                         <a href="#">Next</a>
                     </div>
                 </div>
-                <aside class="sidebar">
+                <aside class="sidebar" data-flex="-start between w">
                     <form action="#" method="post" data-flex class="search-sidebar">
-                        <input type="search" name="search" placeholder="Search">
+                        <input type="search" name="search" id="searchside4" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
-                    <div>
+                    <div class="categories-check">
                         <input type="checkbox" id="c1" class="expand">
                         <div class="hdr" data-flex="axis">
                             <h3>categories</h3>                            
@@ -220,7 +220,7 @@
                             <label for="check1-8">Other</label>
                         </form>
                     </div>
-                    <div>
+                    <div class="price-wrap">
                         <input type="checkbox" id="c2" class="expand">
                         <div class="hdr" data-flex="axis">
                             <h3>price</h3>                            
@@ -236,7 +236,7 @@
                             <a href="#" class="btn btn-default">Filter</a>
                         </form>
                     </div>
-                    <div>
+                    <div class="brand">
                         <input type="checkbox" id="c3" class="expand">
                         <div class="hdr" data-flex="axis">
                             <h3>brand</h3>                            
@@ -286,7 +286,7 @@
                             <label for="check3-1"><img src="/images/rating1.png" width="85" height="13" alt=""></label>
                         </form>
                     </div>
-                    <div>
+                    <div class="discount">
                         <input type="checkbox" id="c5" class="expand">
                         <div class="hdr" data-flex="axis">
                             <h3>discount</h3>                            
@@ -305,10 +305,10 @@
                             <label for="check4-5">30% - 40%</label>
                         </form>
                     </div>
-                    <div>
+                    <div class="availability-wrap">
                         <input type="checkbox" id="c6" class="expand">
                         <div class="hdr" data-flex="axis">
-                            <h3>availability</h3>                            
+                            <h3>availabi&shy;lity</h3>                            
                             <label for="c6" class="btn btn-expand"></label>
                         </div>
                         <form  action="#" method="post" data-flex="col -start" data-childs="-start">

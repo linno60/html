@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -34,8 +34,8 @@
                             </div> 
                             <div>
                                 <i class="icon-phone"></i>
-                                <span>+871 2357 8520</span>
-                                <span>+061 5542 6234</span>
+                                <span>+ 871 2357 8520</span>
+                                <span>+ 061 5542 6234</span>
                             </div> 
                             <div>
                                 <i class="icon-letter"></i>
@@ -45,11 +45,11 @@
                         </div>
                         <form action="#" method="post" data-flex="col -center">
                             <div data-flex="stripe w">
-                                <input type="text" name="contact" placeholder="First Name" required="">
-                                <input type="text" name="contact" placeholder="Last Name" required="">
-                                <input type="email" name="contact" placeholder="Email" required="">
-                                <input type="url" name="contact" placeholder="Website" required="">
-                                <textarea name="contact" placeholder="Message" required=""></textarea>
+                                <input type="text" name="contact" id="firstname" placeholder="First Name" required="">
+                                <input type="text" name="contact" id="lastname" placeholder="Last Name" required="">
+                                <input type="email" name="contact" id="email" placeholder="Email" required="">
+                                <input type="url" name="contact" id="website" placeholder="Website" required="">
+                                <textarea name="contact" id="message" placeholder="Message" required=""></textarea>
                             </div>
                             <button><span class="btn btn-default">Send Message</span></button>
                         </form>

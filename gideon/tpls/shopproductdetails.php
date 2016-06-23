@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">
         <link rel="stylesheet" href="/css/styles.css">
         <script>
-            var LAYOUT_WIDTH = 1170;
+            var LAYOUT_WIDTH = 1190;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -42,13 +42,13 @@
                             </div>
                         </div>
                         <div class="price" data-flex="axis w">
-                            <div>
+                            <div data-flex="-end w">
                                 <big>$45</big>
                                 <small> + &ensp;Free Shipping</small>
                             </div>
                             <form action="#" method="post">
                                 <label>Quantity</label>
-                                <input type="number" class="counter" placeholder="01">
+                                <input type="number" id="number1" class="counter" placeholder="01">
                             </form>
                         </div>
                         <div class="add" data-flex="axis w">
@@ -60,7 +60,7 @@
                         </div>
                         <form class="availability" action="#" method="post" data-flex="w">
                             <label data-flex="-center"><i class="icon-locationsm"></i>Check Availability at</label>
-                            <input type="password" name="password" placeholder="Enter your pincode">
+                            <input type="password" id="password2" name="password" placeholder="Enter your pincode">
                             <button><span class="btn btn-default">Check</span></button>
                         </form>
                         <div>
@@ -71,22 +71,21 @@
                 </div>
             </div>
             <div class="lwrap tabwrap">
-                <div class="tabs" data-tabs="">
+                <div class="tabs" data-tabs>
                     <div class="tablist">
-                        <a href="#tab1">Description</a>
+                        <a href="#tab1" class="active">Description</a>
                         <a href="#tab2">Feature</a>
-                        <a href="#tab3" class="active">Reviews</a>
+                        <a href="#tab3">Reviews</a>
                     </div>
                     <div class="tabset">
-                        <a href="#tab1">Description</a>
-                        <div id="tab1" class="tabpanel">
+                        <div id="tab1" class="tabpanel active">
                             <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. </p>
                             <ul class="list-default" data-childs="">
                                 <li>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa.</li>
                                 <li>Nam est lacus, consequat vita eil semper tristique, temp us in magna. </li>
                                 <li>Nullam sit amet metus eget dolor semper laoreet. </li>
                             </ul>
-                            <div class="ftr-details" data-flex="axis">
+                            <div class="ftr-details" data-flex="axis w">
                                 <div class="links-marks">
                                     <a href="#">Kitchen Set</a>, 
                                     <a href="#">Gift</a>, 
@@ -105,10 +104,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#tab2">Feature</a>
                         <div id="tab2" class="tabpanel">Tab number 2</div>
-                        <a href="#tab3" class="active">Reviews</a>
-                        <div id="tab3" class="tabpanel active">
+                        <div id="tab3" class="tabpanel">
                             <div>
                                 <h3>Reviews of Modern Wooden Spoon</h3>
                                 <div class="review-item" data-flex>
@@ -143,21 +140,21 @@
                                 <span data-flex="-start w">Rate it:&ensp;<figure><img src="/images/stars2.png" width="87" height="15" alt=""></figure></span>
                                 <div data-flex="stripe w" data-childs="col">
                                     <fieldset>
-                                        <label>Name*</label>
-                                        <input type="text" name="review" required=""> 
+                                        <label for="text1">Name*</label>
+                                        <input type="text" id="text1" name="review" required=""> 
                                     </fieldset>
                                     <fieldset>
-                                        <label>E-mail*</label>
-                                        <input type="text" name="review" required=""> 
+                                        <label for="text2">E-mail*</label>
+                                        <input type="text" id="text2" name="review" required=""> 
                                     </fieldset>
                                     <div>
-                                        <label>Review*</label>
-                                        <textarea name="review" required=""></textarea>
+                                        <label for="text3">Review*</label>
+                                        <textarea id="text3" name="review" required=""></textarea>
                                     </div>
                                 </div> 
                                 <button><span class="btn btn-default">Submit</span></button>
                             </form>
-                            <div class="ftr-details" data-flex="axis">
+                            <div class="ftr-details" data-flex="axis w">
                                 <div class="links-marks">
                                     <a href="#">Kitchen Set</a>, 
                                     <a href="#">Gift</a>, 

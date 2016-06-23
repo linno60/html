@@ -217,14 +217,14 @@ header.lwrap{
 }
 .values hr{
     width: 170rem;
-    flex-shrink: 0;
     height: 2px;
     background: #777;
-    top: 38px;
-    /*    transform: translateX(-85rem);*/
-    margin-left: -85rem;
+    top: 45px;    
+    margin: 0px -85rem;
     position: absolute;
-    display: block;
+}
+@media all and (-webkit-min-device-pixel-ratio:0) {
+    .values hr {transform: translateX(-14%);}
 }
 
 /*TESTIMONIALS*/

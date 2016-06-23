@@ -243,9 +243,21 @@ header, footer{
     50%, 62.5% { transform: translateX(-200%); }
     75%, 87.5% { transform: translateX(-300%); }	
 }
+@keyframes slider1-ie {
+    0%, 12.5% { margin-left: 0%; }
+    25%, 37.5% { margin-left: -25%; }
+    50%, 62.5% { margin-left: -50%; }
+    75%, 87.5% { margin-left: -75%; }
+}
 .slider-header  > #play1:checked ~ div > figure {
     animation: slider1 16000ms infinite;	
-} 
+}
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .slider-header  > #play1:checked ~ div > figure {
+        animation: slider1-ie 16000ms infinite;	
+    }
+}
 
 /*slider arrows template*/
 .arrowprev, .arrownext{
@@ -444,9 +456,9 @@ header, footer{
 }
 .single-post .article-wrap > article h3 + hr {
     background: #212121;
-    width: 211px;
-    margin: -1px 0px 0px 0px;
-    display: inline-block;
+    width: 211rem;
+    text-align: left;
+    margin: -1rem 0px 0px 0px;
 }
 .single-post .article-wrap .lbl-date{
     margin-right: -2rem;
@@ -572,6 +584,7 @@ header, footer{
     width: 23%;
 }
 .sidebar > *{
+    width: 100%;
     margin-bottom: 30rem;
 }
 .sidebar > div{
@@ -591,6 +604,10 @@ header, footer{
 }
 .sidebar > .popular article figure{
     padding: 7rem 0px 11rem 0px;
+}
+.sidebar > div.categories h2{
+    margin-bottom: 15rem;
+    letter-spacing: 0.1em;
 }
 .sidebar > div h2{
     color: #212121;
@@ -653,8 +670,9 @@ header, footer{
 }
 .slider-twitter > .slide{
     position: relative;
-    min-height: 174px;
+    min-height: 139px;
     overflow: hidden;
+    margin-bottom: 35rem
 }
 .slider-twitter > .slide > .blockquote-tw{
     width: 100%;
@@ -716,17 +734,17 @@ header + figure > div{
 header + figure > div > strong{
     color: black;    
     font-weight: 700;
-    font-size: 24px;
+    font-size: 24rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     display: inline-block;
 }
 header + figure > div > strong > big{
-    font-size: 28px;
+    font-size: 28rem;
 }
 header + figure > div > small{
     color: #727272;
-    font-size: 16px;
+    font-size: 16rem;
     letter-spacing: 0.1em;
     display: inline-block;
 }
@@ -764,7 +782,6 @@ header + figure > div > small{
     color: black;
     font-size: 32px;
     margin-bottom: 6rem;
-    letter-spacing: 0.05em;
 }
 .about-author h2 + div > span, .about-author h2 + div{
     font-size: 14px;
@@ -782,15 +799,15 @@ header + figure > div > small{
 }
 
 /*SKILLS*/
-.skills{
+.skills-wrap{
     width: 100%;
     max-width: 1034px;
     margin-bottom: 60rem;
 }
-.skills article{
+.skills > div{
     margin: 0px 5px 20px 5px;
 }
-.skills h2{
+.skills-wrap h2{
     color: #212121;
     font-size: 24px;
     font-weight: 700;
@@ -799,7 +816,7 @@ header + figure > div > small{
     letter-spacing: 0.1em;
 }
 .percentage {
-    width: 132rem;
+    width: 131rem;
     height: 131rem;
     min-width: 89px;
     min-height: 89px;
@@ -818,7 +835,7 @@ header + figure > div > small{
     left: -10px;
 }
 .percentage > span{
-    width: 132rem;
+    width: 131rem;
     height: 131rem;
     min-width: 89px;
     min-height: 89px;
@@ -828,11 +845,10 @@ header + figure > div > small{
     z-index: 3;
     top: -4px;
     left: -4px;
-    border-radius: 50%;
+    border-radius: 50%;    
     box-shadow: 0.5px -0.5px 0px 0px #ff6676;
 }
-.percentage:before{
-    transform: rotate(-45deg);
+.percentage:before{    
     border-left: 7px solid white;
     border-top: 7px solid white;
     border-right: 7px solid #ff6766;
@@ -844,28 +860,35 @@ header + figure > div > small{
     border-right: 7px solid #ff6766;
     border-bottom: 7px solid #ff6766;
 }
-article:nth-child(1) .percentage:after { 
-    transform: rotate(100deg);
+.skills > div:nth-child(1) .percentage:after { 
+    transform: rotate(94deg);
 }
-article:nth-child(2) .percentage:after {
-    transform: rotate(48deg);
+.skills > div:nth-child(2) .percentage:after {
+    transform: rotate(23deg);
 }
-article:nth-child(3) .percentage:after {
-    transform: rotate(-45deg);
+.skills > div:nth-child(3) .percentage:after {
+    transform: rotate(-46deg);
 }
-article:nth-child(4) .percentage:after { 
-    transform: rotate(135deg);
-}
-article:nth-child(4) .percentage:before{
-    transform: rotate(250deg);
-    top: -11px;
-    left: -9px;
-}
-article:nth-child(4) .percentage:after {
+.skills > div:nth-child(4) .percentage:after { 
+    transform: rotate(129deg);
     border-right: 12px solid white;
     border-bottom: 12px solid white;
     top: -12px;
-    left: -12px;   
+    left: -12px;
+}
+.skills > div:nth-child(1) .percentage:before { 
+    transform: rotate(-43deg);
+}
+.skills > div:nth-child(2) .percentage:before {
+    transform: rotate(-48deg);
+}
+.skills > div:nth-child(3) .percentage:before {
+    transform: rotate(-43deg);
+}
+.skills > div:nth-child(4) .percentage:before{
+    transform: rotate(241deg);
+    top: -11px;
+    left: -9px;
 }
 .skills .percentage + span{
     margin-top: 26rem;
@@ -878,6 +901,10 @@ article:nth-child(4) .percentage:after {
 .skills big{
     color: #313131;
     font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 7px 7px 0px;
+    letter-spacing: 0.05em;
 }
 
 /*CONTACT*/
@@ -983,7 +1010,7 @@ article:nth-child(4) .percentage:after {
 }
 .main-product > .lwrap > div > figure > figcaption span{
     color: white;
-    font-size: 18px;
+    font-size: 18rem;
     margin-bottom: 23rem;
     display: inline-block;
     text-align: center;
@@ -1111,6 +1138,7 @@ article:nth-child(4) .percentage:after {
 }
 .shop .sidebar > div{
     margin-bottom: 33rem;
+    padding: 25rem 23rem 29rem 31rem;
 }
 .shop .search-sidebar{
     margin-bottom: 41rem;
@@ -1125,10 +1153,6 @@ article:nth-child(4) .percentage:after {
 .shop .search-sidebar input[type=search]::-webkit-input-placeholder { color: #212121; }
 .shop .search-sidebar input[type=search]::-moz-placeholder { color: #212121; }
 .shop .search-sidebar input[type=search]:-ms-input-placeholder { color: #212121; }
-.shop .sidebar > div {
-    padding: 25rem 23rem 29rem 31rem;
-}
-
 #slider-snap{
     height: 5px;
     width: 100%;
@@ -1173,6 +1197,15 @@ article:nth-child(4) .percentage:after {
 .rating .hdr{
     margin-bottom: 24rem;
 }
+.shop .sidebar > .discount {
+    padding-bottom: 17rem;
+}
+.shop .sidebar > .availability-wrap {
+    padding-bottom: 27rem;
+}
+.discount .hdr, .availability-wrap .hdr{
+    margin-bottom: 19rem;
+}
 .rating .check + label:before{
     margin: -1rem 19rem 13rem 13rem;
 }
@@ -1182,7 +1215,7 @@ article:nth-child(4) .percentage:after {
     background: white;    
 }
 .product-detail > .lwrap{
-    padding: 80rem 10rem 62rem 10rem;
+    padding: 80rem 10rem 61rem 10rem;
 }
 .product-detail > .lwrap > .main{
     width: 48.7%;
@@ -1237,10 +1270,11 @@ article:nth-child(4) .percentage:after {
     color: #212121;
     font-size: 36px;
     letter-spacing: 0.1em;
-    margin-right: 8rem;
+    margin-right: 11rem;
 }
 .price small{
     font-size: 14px;
+    margin-bottom: 8rem;
     letter-spacing: 0.05em;
 }
 .price .counter{
@@ -1287,14 +1321,14 @@ article:nth-child(4) .percentage:after {
     flex-shrink: 0;
 }
 .tabwrap{
-    padding: 71rem 10rem 102rem 10rem;
+    padding: 71rem 10rem 80rem 10rem;
 }
 .tabwrap .tablist > a{
     min-width: 124rem;
     letter-spacing: 0.05em;
 }
 .tabset .form-review{
-    padding: 46rem 11rem 35rem 11rem;
+    padding: 45rem 11rem 35rem 11rem;
 }
 .tabset p{
     margin-bottom: 22rem;
@@ -1327,7 +1361,7 @@ article:nth-child(4) .percentage:after {
     letter-spacing: 0.105em;
 }
 .review-item{
-    margin-bottom: 30rem;
+    margin-bottom: 31rem;
 }
 .review-item a{
     text-align: center;
@@ -1398,9 +1432,13 @@ article:nth-child(4) .percentage:after {
 .shop-cart .table.cart + form > div > *{
     margin-bottom: 10px;
 }
+.shop-cart .table.cart + form > div{
+    flex-grow: 1;
+}
 .shop-cart .table.cart + form > div > input[name=checkout]{
     font-size: 14px;  
     padding-left: 68rem;
+    max-width: 270px;
 }
 .shop-cart .table.cart + form > div:first-child > *{
     margin-right: 5px;
@@ -1411,6 +1449,12 @@ article:nth-child(4) .percentage:after {
 .total-wrap > div{
     width: 48.88%;
     margin-bottom: 20px;
+}
+.total-wrap form input[name=checkout], .total-wrap form .select-checkout{
+    padding: 0px 36rem;
+}
+.total-wrap form .select-checkout{
+    background-position-x: calc(100% - 24rem);
 }
 .shop-cart .btn-default{
     height: 50px;
@@ -1438,11 +1482,16 @@ article:nth-child(4) .percentage:after {
     width: 48.8%;
     margin-bottom: 64rem;
 }
+.shop-checkout > div > .lwrap > div > form > span{
+    padding-top: 7rem;
+}
+.shop-checkout > div > .lwrap > div > form > span > label{
+    font-size: 13px;
+    margin-left: 11rem;
+    letter-spacing: 0.03em;
+}
 .shop-checkout input[name=checkout].half{
     width: 49%;
-}
-.shop-checkout #checkbox1{
-    margin: 5px 5px 0px 0px;
 }
 .shop-checkout .acc-radio + .btn-default{
     height: 50px;
@@ -1504,6 +1553,9 @@ article:nth-child(4) .percentage:after {
 .search-results header + figure > div{
     padding: 49rem 10rem 40rem 10rem;
 }
+.search-results .thumbs{
+    padding: 22rem 0px 12rem 0px;
+}
 .sidebar .tablist > a{
     flex-grow: 1;
 }
@@ -1531,33 +1583,45 @@ article:nth-child(4) .percentage:after {
 
 /*TEACH LESSONS*/
 .lessons > .lwrap{
-    padding: 97rem 10rem 30rem 10rem;
+    padding: 97rem 10rem 100rem 10rem;
 }
 .lessons > .lwrap > article{
     width: 100%;
 }
 .lessons .grid{
-    padding-top: 60rem;
+    padding: 60rem 0px 25rem 0px;
     width: 100%;
 }
 .lessons .grid article{
     width: 31.55%;
     background: white;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-    margin-bottom: 45rem;
+    margin-bottom: 43rem;
 }
-.lessons .grid article > div{
-    padding: 16rem 21rem 16rem 21rem;
+.lessons .grid article > figure{
     position: relative;
 }
-.lessons .grid article > div .lbl-price{
+.lessons .grid article > div{
+    padding: 16rem 12rem 12rem 12rem;  
+    flex-grow: 1;
+}
+.lessons .grid article > div > div:first-child{
+    padding: 0px 8rem;
+    flex-grow: 1;
+}
+.lessons .grid article > figure .lbl-price{
     position: absolute;
     right: 9rem;
-    top: -24rem;
+    bottom: -11rem;
 }
-.lessons .grid article > div i + *{
-    margin-top: 4rem;
+.info i + *{
+    margin-top: 3rem;
     display: inline-block;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.info > span{
+    margin: 5px;
 }
 .lessons .grid article h5{
     font-size: 16px;
@@ -1569,7 +1633,7 @@ article:nth-child(4) .percentage:after {
 .lessons .grid article p{
     font-size: 13px;
     line-height: 18px;
-    margin-bottom: 16rem;
+    margin-bottom: 10rem;
     letter-spacing: 0.03em;
 }
 .lessons .grid article h5 a{
@@ -1580,7 +1644,7 @@ article:nth-child(4) .percentage:after {
 }
 .grid + .btn-default{
     width: 31.55%;
-    height: 50px;
+    height: 52px;
     font-size: 14px;
     letter-spacing: 0.05em;
 }
@@ -1591,7 +1655,9 @@ article:nth-child(4) .percentage:after {
 }
 .lessondetails .video{
     width: 66%;
-    padding-top: 40.85%;
+}
+.lessondetails .video > figure{
+    padding-top: 61.86%;
 }
 .lessondetails > .lwrap > div > article{
     margin-bottom: 49rem;
@@ -1601,7 +1667,7 @@ article:nth-child(4) .percentage:after {
     color: black;
     font-size: 26px;
     font-weight: 400;
-    margin-bottom: 34rem;
+    margin: 0px 5px 34rem 0px;
 }
 .lessondetails > .lwrap > div > article .lbl-price{
     margin-bottom: 14rem;
@@ -1632,7 +1698,7 @@ article:nth-child(4) .percentage:after {
     border-top: 1px dashed rgba(133,133,133,.3);
     border-bottom: 1px dashed rgba(133,133,133,.3);
     padding: 26rem 0px 28rem 0px;
-    margin-bottom: 45rem;
+    margin-bottom: 40rem;
 }
 .lessondetails .video + div p + span{
     color: #212121;
@@ -1644,6 +1710,9 @@ article:nth-child(4) .percentage:after {
 }
 .lessondetails .video + div p + span > small{
     font-size: 24px;
+}
+.lessondetails .info i + *{
+    letter-spacing: 0.07em;
 }
 .lessondetails .tabs{
     padding-top: 130rem;
@@ -1696,7 +1765,6 @@ article:nth-child(4) .percentage:after {
     width: 16px;
     background: #ff6766;
     border-radius: 5px;
-
 }
 
 /*FOOTER*/
@@ -1850,18 +1918,20 @@ footer{
     .stream > a{width: 47%}
     .gallery-footer figure a span{font-size: 10px;}
     .gallery-footer figure a strong{font-size: 12px;}
+    .main-product > .lwrap > div > figure > figcaption span {font-size: 12px;}
+    .product-detail .main > div > figure {width: 48%;}
 }
 @media (max-width: 640px) {
     .stream > a{width: 22.355%;}
     .sidebar > *:not(.popular){width: 49%;}
     .sidebar > .search-sidebar{order: 0;}
-    .sidebar > .following, .search-results .sidebar > .categories{order: 1;}
-    .sidebar > .twit, .search-results .sidebar > .tabs{order: 2;}
-    .sidebar > .tags{order: 3;}
+    .sidebar > .following, .search-results .sidebar > .categories, .shop .sidebar > .price-wrap{order: 1;}
+    .sidebar > .twit, .search-results .sidebar > .tabs, .shop .sidebar > .categories-check{order: 2;}
+    .sidebar > .tags, .shop .sidebar > .brand{order: 3;}
     .category-wrap .sidebar > .tags{width: 100%;}
-    .sidebar > .about-blogger, .sidebar > .categories{order: 4;}
-    .sidebar > .banner{order: 5;}
-    .sidebar > .popular{order: 6;}
+    .sidebar > .about-blogger, .sidebar > .categories, .shop .sidebar > .discount{order: 4;}
+    .sidebar > .banner, .shop .sidebar > .rating{order: 5;}
+    .sidebar > .popular, .shop .sidebar > .availability-wrap{order: 6;}
     .sidebar > .popular article{width: 32%;}
     .blockquote-lg q{font-size: 12px; line-height: 12px;}
     .category-wrap .slider-twitter > .slide{min-height: 100px;}
@@ -1872,11 +1942,19 @@ footer{
     .slider-header figure > figcaption > h6{font-size: 12px;}
     .slider-header figure > figcaption{width: calc(100% - 4px); box-shadow:none;}
     .links-social a:after{line-height: 12px;}
+    .product-detail .main > div > figure {width: 32%;}
+    .table.cart td:nth-child(7) {display: none;}
+    .table.cart td:nth-child(5){width: 19.93%;}
+    header + figure > div > small{font-size: 9px;}
+    header + figure > div > strong > big {font-size: 15px;}
+    header + figure > div > strong {font-size: 12px;}
+    .lessons .grid article{width: 48%;}
+    .lessons .grid article.hidden{display: none;}
 }
 @media (max-width: 480px) {
-    .sidebar > .tags{order: 2;}
+    .sidebar > .tags, .shop .sidebar > .discount{order: 2;}
     .sidebar > .about-blogger{order: 3;}
-    .sidebar > .twit{order: 4;}
+    .sidebar > .twit, .shop .sidebar > .categories-check{order: 4;}
     .sidebar > .search-sidebar, .sidebar > .following{width: 100%;}
     .btn-search{width: 60px;}
     .article-wrap > article .details{border-bottom: 1px solid #212121;border-right: none;}
@@ -1885,4 +1963,6 @@ footer{
     .skills article{width: 46%;}
     .gallery-footer figure.hidden-sm{display: none;}
     .products > figure{width: 48%;}
+    .table.total td, .table.total td:last-child{width: auto;}
+    .pagenotfound strong{font-size: 20px;}    
 }

@@ -25,32 +25,36 @@
             <td>Price</td>
             <td>Quantity</td>
             <td>Total</td>
+            <td></td>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td><a href="#"><i class="icon-closepopup"></i></a></td>
             <td><figure><img src="/images/spoons.png" width="69" height="69" alt=""></figure></td>
-            <td>Black Spoon</td>
-            <td>$15</td>
+            <td><span>Black Spoon</span></td>
+            <td><span>$15</span></td>
             <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
-            <td>$15</td>
+            <td><span>$15</span></td>
+            <td></td>
         </tr>
         <tr>
             <td><a href="#"><i class="icon-closepopup"></i></a></td>
             <td><figure><img src="/images/clock.png" width="69" height="69" alt=""></figure></td>
-            <td>Wall Clock</td>
-            <td>$50</td>
+            <td><span>Wall Clock</span></td>
+            <td><span>$50</span></td>
             <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
-            <td>$50</td>
+            <td><span>$50</span></td>
+            <td></td>
         </tr>
         <tr>
             <td><a href="#"><i class="icon-closepopup"></i></a></td>
             <td><figure><img src="/images/eggs.png" width="69" height="69" alt=""></figure></td>
-            <td>Egg Tray</td>
-            <td>$10</td>
+            <td><span>Egg Tray</span></td>
+            <td><span>$10</span></td>
             <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
-            <td>$10</td>
+            <td><span>$10</span></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
@@ -89,7 +93,7 @@
         <tr>
             <td>Order Total</td>
             <td></td>
-            <td>75$</td>
+            <td>$75</td>
         </tr>
     </tfoot>
 </table>
