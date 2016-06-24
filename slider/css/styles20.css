@@ -43,16 +43,10 @@
     transform: scale(1);
 }
 @keyframes fade-in20 {
-    0%, 50.925925925925924%, 100%  {
-        opacity: 0;
-        transform: scale(2);
-    }
-    17.59259259259259%, 33.333333333333336%  {
-        opacity: 1;
-        transform: scale(1);
-    }
-    0%, 33.33233333333334%  { z-index: 2; }
-    33.33433333333333%, 100%  { z-index: 1; }
+    0%, 50.925%, 100%  { opacity: 0; transform: scale(2); }
+    17.592%, 33.333%  { opacity: 1; transform: scale(1); }
+    0%, 33.332%  { z-index: 2; }
+    33.334%, 100%  { z-index: 1; }
 }
 .csslider20 > #play20:checked ~ ul > .num0 {
     animation: fade-in20 10800ms infinite -1900ms;
@@ -157,26 +151,14 @@
 }
 
 @keyframes arrownext20 {
-    0%, 100% {
-        transform: translateX(0px);
-    }
-    25% {
-        transform: translateX(2px);
-    }
-    75% {
-        transform: translateX(-2px);
-    }
+    0%, 100% { transform: translateX(0px); }
+    25% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
 }
 @keyframes arrowprev20 {
-    0%, 100% {
-        transform: translateX(0px);
-    }
-    25% {
-        transform: translateX(-2px);
-    }
-    75% {
-        transform: translateX(2px);
-    }
+    0%, 100% { transform: translateX(0px); }
+    25% { transform: translateX(-2px); }
+    75% { transform: translateX(2px); }
 }
 
 /*arrows moving*/
@@ -196,8 +178,8 @@
     z-index: 5;
 }
 @keyframes arrows20 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 
 .csslider20 > #play20:checked ~ .arrowprev > .num2,
@@ -253,8 +235,8 @@
     z-index: -1;
 }
 @keyframes play-pause20 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider20 > #play20:checked ~ .play-pause > .pause {
     opacity: 0;
@@ -350,40 +332,40 @@
     transform: translateY(0);
 }
 @keyframes description20-big {
-    3.0787037037037033%, 30.244629629629628%  {
+    3.078%, 30.244%  {
         opacity: 1;
         z-index: 2;
         transform: translateY(10px);
     }
-    4.398148148148148%, 28.925185185185185%  {
+    4.398%, 28.925%  {
         opacity: 1;
         z-index: 2;
         transform: translateY(0px);
     }
-    37.73148148148148%  {
+    37.731%  {
         opacity: 0;
         z-index: 2;
         transform: translateY(-100px);
     }
-    37.74148148148148%, 100%  { z-index: 0; }
+    37.741%, 100%  { z-index: 0; }
 }
 @keyframes description20-small {
-    3.0787037037037033%, 30.244629629629628%  {
+    3.078%, 30.244%  {
         opacity: 1;
         z-index: 1;
         transform: translateY(-10px);
     }
-    4.398148148148148%, 28.925185185185185%  {
+    4.398%, 28.925%  {
         opacity: 1;
         z-index: 1;
         transform: translateY(0px);
     }
-    37.73148148148148%  {
+    37.731%  {
         opacity: 0;
         z-index: 1;
         transform: translateY(100px);
     }
-    37.74148148148148%, 100%  { z-index: 0; }
+    37.741%, 100%  { z-index: 0; }
 }
 .csslider20 > #play20:checked ~ .description > .num0  > big {
     animation: description20-big 10800ms infinite -1330ms ease;
@@ -404,32 +386,14 @@
     animation: description20-small 10800ms infinite 6120ms ease;
 }
 @keyframes description20-big-text {
-    3.0787037037037033%, 30.244629629629628%  {
-        opacity: 1;
-        transform: translateY(10px);
-    }
-    4.398148148148148%, 28.925185185185185%  {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-    37.73148148148148%  {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
+    3.078%, 30.244%  { opacity: 1; transform: translateY(10px); }
+    4.398%, 28.925%  { opacity: 1; transform: translateY(0px); }
+    37.731%  { opacity: 0; transform: translateY(-100px); }
 }
 @keyframes description20-small-text {
-    3.0787037037037033%, 30.244629629629628%  {
-        opacity: 1;
-        transform: translateY(-10px);
-    }
-    4.398148148148148%, 28.925185185185185%  {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-    37.73148148148148%  {
-        opacity: 0;
-        transform: translateY(100px);
-    }
+    3.078%, 30.244%  { opacity: 1; transform: translateY(-10px); }
+    4.398%, 28.925%  { opacity: 1; transform: translateY(0px); }
+    37.731%  { opacity: 0; transform: translateY(100px); }
 }
 .csslider20 > #play20:checked ~ .description > .num0 big > span {
     animation: description20-big-text 10800ms infinite -1180ms ease;
@@ -510,8 +474,8 @@
     background: #3a4a5a;
 }
 @keyframes bullet20 {
-    0%, 33.32333333333334%  { background: #3a4a5a; }
-    33.333333333333336%, 100% { background: transparent; }
+    0%, 33.323%  { background: #3a4a5a; }
+    33.333%, 100% { background: transparent; }
 }
 .csslider20 > #play20:checked ~ .bullets > label.num0:after,
 .csslider20 > input:checked ~ .bullets > label.num0:after {

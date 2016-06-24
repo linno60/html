@@ -42,14 +42,14 @@
     transform: translateY(-200%);
 }
 @keyframes slide1 {
-    0%, 19.65811965811966%  { transform: translateY(0%); }
-    33.333333333333336%, 52.991452991452995%  { transform: translateY(-100%); }
-    66.66666666666667%, 86.32478632478632%  { transform: translateY(-200%); }
+    0%, 19.658%  { transform: translateY(0%); }
+    33.333%, 52.991%  { transform: translateY(-100%); }
+    66.666%, 86.324%  { transform: translateY(-200%); }
 }
 @keyframes slide1-ie {
-    0%, 19.65811965811966%  { margin-top: 0%; }
-    33.333333333333336%, 52.991452991452995%  { margin-top: -52.083333333333336%; }
-    66.66666666666667%, 86.32478632478632%  { margin-top: -104.16666666666667%; }
+    0%, 19.658%  { margin-top: 0%; }
+    33.333%, 52.991%  { margin-top: -52.083%; }
+    66.666%, 86.324%  { margin-top: -104.166%; }
 }
 .csslider1  > #play1:checked ~ ul > li:not(:first-child){
     animation: slide1 11700ms infinite;
@@ -185,12 +185,12 @@
     transform: translateX(-100%);
 }
 @keyframes description1 {
-    4.273504273504273%, 22.212222222222223%  {
+    4.273%, 22.212%  {
         opacity: 1;
         z-index: 4;
         transform: translateX(0);
     }
-    0%, 26.495726495726498%, 100%  {
+    0%, 26.495%, 100%  {
         opacity: 0;
         z-index: 0;
         transform: translateX(-100%);

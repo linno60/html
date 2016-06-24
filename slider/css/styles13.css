@@ -36,14 +36,8 @@
     transform: rotate(0deg) scale(1);
 }
 @keyframes rotate13 {
-    0%, 41.14583333333333%, 100%  {
-        opacity: 0;
-        transform: rotate(180deg) scale(7);
-    }
-    16.145833333333332%, 25%  {
-        opacity: 1;
-        transform: rotate(0deg) scale(1);
-    }
+    0%, 41.145%, 100%  { opacity: 0; transform: rotate(180deg) scale(7); }
+    16.145%, 25%  { opacity: 1; transform: rotate(0deg) scale(1); }
     0%, 24.999%  { z-index: 2; }
     25.001%, 100%  { z-index: 1; }
 }
@@ -175,16 +169,8 @@
     transform: scale(1);
 }
 @keyframes description13 {
-    3.125%, 21.865%  {
-        opacity: 1;
-        z-index: 2;
-        transform: translate(0, 0);
-    }
-    28.125%  {
-        opacity: 0;
-        z-index: 2;
-        transform: translate(-200px, 0);        
-    }
+    3.125%, 21.865%  { opacity: 1; z-index: 2; transform: translate(0, 0); }
+    28.125%  { opacity: 0; z-index: 2; transform: translate(-200px, 0); }
     28.135%, 100%  { z-index: 0; }
 }
 .csslider13 > #play13:checked ~ .description > .num0{
@@ -200,18 +186,9 @@
     animation: description13 19200ms infinite 12230ms ease;
 }
 @keyframes description13-text {
-    2.1875%, 22.8025% {
-        opacity: 0.7;
-        transform: scale(1.15);
-    }
-    3.125%, 21.865% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    0%, 28.125%  {
-        opacity: 0;
-        transform: scale(0);
-    }
+    2.1875%, 22.8025% { opacity: 0.7; transform: scale(1.15); }
+    3.125%, 21.865% { opacity: 1; transform: scale(1); }
+    0%, 28.125%  { opacity: 0; transform: scale(0); }
 }
 .csslider13 > #play13:checked ~ .description > .num0 > span {
     animation: description13-text 19200ms infinite -2020ms ease;

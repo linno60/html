@@ -8,17 +8,11 @@ figure > img, a > img, figure > img{
     width: 100%;
     height: 100%;
 }
-body, .nav-wrap > .lwrap, .media-wrap{
+body, .nav-wrap > .lwrap, .media-wrap, .review-item > article{
     background: #f4f5f7;
 }
-p{
-    line-height: 24px;
-    font-size: 14px;
-    max-width: 100%;
-    letter-spacing: 0.05em;
-}
-mark{
-    color: #ff6676;
+header, footer, .main-product, .product-detail, .shop-cart, .shop-checkout{
+    background: white;
 }
 body > div{
     flex-grow: 1;
@@ -26,12 +20,8 @@ body > div{
 }
 
 /*HEADER*/
-header, footer{
-    background: white;
-}
-#logo{
-    display: inline-block;
-}
+
+/*top-wrap*/
 .top-wrap, .copyright{
     background: #212121;
 }
@@ -50,6 +40,11 @@ header, footer{
     left: 50%;
     transform: translateX(-50%);
 }
+
+/*nav-wrap*/
+#logo{
+    display: inline-block;
+}
 .logo-wrap{
     padding: 39rem 0px;
 }
@@ -60,7 +55,7 @@ header, footer{
     max-width: 1170px;
 }
 
-/*POPUP*/
+/*popup*/
 .cart-popup{
     position: absolute;
     border-top: 4px solid #ff6766;
@@ -88,9 +83,8 @@ header, footer{
 .cart-popup > div > div{
     border-bottom: 1px solid #f6f6f6;
     padding: 10rem 4rem 10rem 0px;
-    width: 100%;
 }
-.cart-popup > div{
+.cart-popup > div, .cart-popup > div > div{
     width: 100%;
 }
 .cart-popup figure + div > span{
@@ -125,6 +119,7 @@ header, footer{
     min-width: 110rem;
     height: 32px;
     font-style: italic;
+    letter-spacing: 0.04em;
 }
 
 /*SLIDER-HEADER*/
@@ -147,6 +142,8 @@ header, footer{
 .slider-header figure > figcaption{
     position: absolute;
     max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
     width: 64.65%;
     top: 50%;
     left: 50%;
@@ -282,10 +279,10 @@ header, footer{
     font-size: 30px;
 }
 .arrowprev{
-    left: 20rem;
+    left: 50rem;
 }
 .arrownext{
-    right: 20rem;
+    right: 50rem;
 }
 .arrowprev > label{
     left: 0px;
@@ -329,7 +326,9 @@ header, footer{
     animation: arrows1 16000ms infinite 10000ms;	
 }
 
-/*CONTENT*/
+/*HOMEPAGE*/
+
+/*content*/
 .content > div:not(.pg), .sidebar > *:not(.tabs){    
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
     background: white;
@@ -406,12 +405,15 @@ header, footer{
     top: 0px;
     left: 0px;
     padding: 70rem 39rem 10rem 96rem;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
 }
 .article-wrap + .btn-alt{
     margin-bottom: 20px;
 }
 
-/*SOUNDCLOUD*/
+/*soundcloud*/
 .soundcloud{
     position: absolute;
     left: 0px;
@@ -441,6 +443,184 @@ header, footer{
 }
 .soundbar a:last-child{
     border-bottom: none;
+}
+
+/*sidebar*/
+.sidebar{
+    flex-shrink: 0;
+    width: 23%;
+}
+.sidebar > *{
+    width: 100%;
+    margin-bottom: 30rem;
+}
+.sidebar > div{
+    padding: 37rem 23rem 20rem 23rem;
+}
+.sidebar > .tabs{
+    padding: 0px;
+}
+.sidebar > .following{
+    padding-top: 27rem;
+}
+.sidebar > div.categories{
+    padding: 26rem 0px 20rem 0px;
+}
+.sidebar > .about-blogger{
+    padding: 29rem 0px 20rem 0px;
+}
+.sidebar > .popular article figure{
+    padding: 7rem 0px 11rem 0px;
+}
+.sidebar > div.categories h2{
+    margin-bottom: 15rem;
+    letter-spacing: 0.1em;
+}
+.sidebar > div h2{
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20rem;
+    letter-spacing: 0.05em;
+}
+.sidebar > .popular p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+.sidebar > .popular article{
+    padding: 0px 0px 21rem 1rem;
+}
+.sidebar > .popular article:last-of-type{
+    padding-bottom: 7rem;
+}
+.category-wrap .sidebar > .popular article:last-of-type{
+    padding-bottom: 54rem;
+}
+.sidebar > .about-blogger > figure{
+    position: relative;
+    margin-left: -1rem;
+}
+.sidebar > .about-blogger > article{
+    padding: 41rem 15rem 6rem 15rem;
+}
+.sidebar > .about-blogger > figure > .btn-more{
+    position: absolute;
+    bottom: -32rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sidebar > .about-blogger > article > *{
+    text-align: center;
+    display: inline-block;
+}
+.sidebar > .about-blogger > article > strong{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.sidebar > .about-blogger > article > small{
+    font-style: italic;
+    margin: 2rem 0px 14rem 0px;
+    letter-spacing: 0.05em;
+}
+.sidebar > .about-blogger > article > p{
+    letter-spacing: 0.03em;
+}
+
+/*slider-twitter*/
+.slider-twitter > input[type=radio]{
+    display: none;
+}
+.slider-twitter > .slide{
+    position: relative;
+    min-height: 139px;
+    overflow: hidden;
+    margin-bottom: 35rem
+}
+.slider-twitter > .slide > .blockquote-tw{
+    width: 100%;
+    position: absolute;
+    transition: transform .3s;
+}
+.slider-twitter > .slide > .blockquote-tw q{
+    max-height: 72px;
+    overflow: hidden;
+}
+.slider-twitter > .slide > .num1{
+    left: 0%;
+}
+.slider-twitter > .slide > .num2{
+    left: 100%;
+}
+.slider-twitter > .slide > .num3{
+    left: 200%;
+}
+.slider-twitter > #tw1:checked ~ div > .blockquote-tw{
+    transform: translateX(0%);
+}
+.slider-twitter > #tw2:checked ~ div > .blockquote-tw{
+    transform: translateX(-100%);
+}
+.slider-twitter > #tw3:checked ~ div > .blockquote-tw{
+    transform: translateX(-200%);
+}
+.slider-twitter .bullets{
+    padding-bottom: 18rem;
+}
+.slider-twitter .bullets label{
+    width: 11px;
+    height: 11px;
+    background: #ebecee;
+    transition: background ease .3s;
+    border-radius: 50%;
+    margin: 2px;
+}
+.slider-twitter > #tw1:checked ~ .bullets > .num1,
+.slider-twitter > #tw2:checked ~ .bullets > .num2,
+.slider-twitter > #tw3:checked ~ .bullets > .num3 {
+    background: #ff6766; 
+}
+
+/*CATEGORY*/
+header + figure{
+    position: relative;
+}
+header + figure > div{
+    position: absolute;
+    text-align: center;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;  
+    padding: 9rem 10rem 10rem 10rem;
+}
+header + figure > div > strong{
+    color: black;    
+    font-weight: 700;
+    font-size: 24rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+header + figure > div > strong > big{
+    font-size: 28rem;
+}
+header + figure > div > small{
+    color: #727272;
+    font-size: 16rem;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+.category-wrap .article-wrap + .btn-alt{
+    margin-bottom: 40rem;
+    font-style: italic;
+}
+.category-wrap .article-wrap:last-of-type{
+    margin-bottom: 72rem;
 }
 
 /*SINGLE POST*/
@@ -578,184 +758,6 @@ header, footer{
     padding-bottom: 28rem;
 }
 
-/*SIDEBAR*/
-.sidebar{
-    flex-shrink: 0;
-    width: 23%;
-}
-.sidebar > *{
-    width: 100%;
-    margin-bottom: 30rem;
-}
-.sidebar > div{
-    padding: 37rem 23rem 20rem 23rem;
-}
-.sidebar > .tabs{
-    padding: 0px;
-}
-.sidebar > .following{
-    padding-top: 27rem;
-}
-.sidebar > div.categories{
-    padding: 26rem 0px 20rem 0px;
-}
-.sidebar > .about-blogger{
-    padding: 29rem 0px 20rem 0px;
-}
-.sidebar > .popular article figure{
-    padding: 7rem 0px 11rem 0px;
-}
-.sidebar > div.categories h2{
-    margin-bottom: 15rem;
-    letter-spacing: 0.1em;
-}
-.sidebar > div h2{
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 20rem;
-    letter-spacing: 0.05em;
-}
-.sidebar > .popular p{
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 16px;
-}
-.sidebar > .popular article{
-    padding: 0px 0px 21rem 1rem;
-}
-.sidebar > .popular article:last-of-type{
-    padding-bottom: 7rem;
-}
-.category-wrap .sidebar > .popular article:last-of-type{
-    padding-bottom: 54rem;
-}
-.sidebar > .about-blogger > figure{
-    position: relative;
-    margin-left: -1rem;
-}
-.sidebar > .about-blogger > article{
-    padding: 41rem 15rem 6rem 15rem;
-}
-.sidebar > .about-blogger > figure > .btn-more{
-    position: absolute;
-    bottom: -32rem;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.sidebar > .about-blogger > article > *{
-    text-align: center;
-    display: inline-block;
-}
-.sidebar > .about-blogger > article > strong{
-    color: black;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-}
-.sidebar > .about-blogger > article > small{
-    font-style: italic;
-    margin: 2rem 0px 14rem 0px;
-    letter-spacing: 0.05em;
-}
-.sidebar > .about-blogger > article > p{
-    letter-spacing: 0.03em;
-}
-
-/*SLIDER TWITTER*/
-.slider-twitter > input[type=radio]{
-    display: none;
-}
-.slider-twitter > .slide{
-    position: relative;
-    min-height: 139px;
-    overflow: hidden;
-    margin-bottom: 35rem
-}
-.slider-twitter > .slide > .blockquote-tw{
-    width: 100%;
-    position: absolute;
-    transition: transform .3s;
-}
-.slider-twitter > .slide > .blockquote-tw q{
-    max-height: 72px;
-    overflow-y: hidden;
-}
-.slider-twitter > .slide > .num1{
-    left: 0%;
-}
-.slider-twitter > .slide > .num2{
-    left: 100%;
-}
-.slider-twitter > .slide > .num3{
-    left: 200%;
-}
-.slider-twitter > #tw1:checked ~ div > .blockquote-tw{
-    transform: translateX(0%);
-}
-.slider-twitter > #tw2:checked ~ div > .blockquote-tw{
-    transform: translateX(-100%);
-}
-.slider-twitter > #tw3:checked ~ div > .blockquote-tw{
-    transform: translateX(-200%);
-}
-.slider-twitter .bullets{
-    padding-bottom: 18rem;
-}
-.slider-twitter .bullets label{
-    width: 11px;
-    height: 11px;
-    background: #ebecee;
-    transition: background ease .3s;
-    border-radius: 50%;
-    margin: 2px;
-}
-.slider-twitter > #tw1:checked ~ .bullets > .num1,
-.slider-twitter > #tw2:checked ~ .bullets > .num2,
-.slider-twitter > #tw3:checked ~ .bullets > .num3 {
-    background: #ff6766; 
-}
-
-/*CATEGORY*/
-header + figure{
-    position: relative;
-}
-header + figure > div{
-    position: absolute;
-    text-align: center;    
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;  
-    padding: 9rem 10rem 10rem 10rem;
-}
-header + figure > div > strong{
-    color: black;    
-    font-weight: 700;
-    font-size: 24rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    display: inline-block;
-}
-header + figure > div > strong > big{
-    font-size: 28rem;
-}
-header + figure > div > small{
-    color: #727272;
-    font-size: 16rem;
-    letter-spacing: 0.1em;
-    display: inline-block;
-}
-.category-wrap .article-wrap + .btn-alt{
-    margin-bottom: 40rem;
-    font-style: italic;
-}
-.category-wrap .article-wrap:last-of-type{
-    margin-bottom: 72rem;
-}
-
 /*ABOUT*/
 .about{
     text-align: center;
@@ -798,7 +800,7 @@ header + figure > div > small{
     margin-bottom: 80rem;
 }
 
-/*SKILLS*/
+/*skills*/
 .skills-wrap{
     width: 100%;
     max-width: 1034px;
@@ -968,9 +970,6 @@ header + figure > div > small{
     box-shadow: none;
     background: none;
     padding: 0px;
-}
-.main-product{
-    background: white;
 }
 .main-product > .lwrap{
     padding: 81rem 10rem 50rem 10rem;
@@ -1153,6 +1152,32 @@ header + figure > div > small{
 .shop .search-sidebar input[type=search]::-webkit-input-placeholder { color: #212121; }
 .shop .search-sidebar input[type=search]::-moz-placeholder { color: #212121; }
 .shop .search-sidebar input[type=search]:-ms-input-placeholder { color: #212121; }
+#slider-snap + .btn-default{
+    min-width: 86px;
+    padding: 0px 5px;
+    height: 30px;
+    margin-bottom: 7rem;
+}
+.shop .sidebar > .rating{
+    padding-bottom: 11rem;
+}
+.rating .hdr{
+    margin-bottom: 24rem;
+}
+.shop .sidebar > .discount {
+    padding-bottom: 17rem;
+}
+.shop .sidebar > .availability-wrap {
+    padding-bottom: 27rem;
+}
+.discount .hdr, .availability-wrap .hdr{
+    margin-bottom: 19rem;
+}
+.rating .check + label:before{
+    margin: -1rem 19rem 13rem 13rem;
+}
+
+/*price-wrap*/
 #slider-snap{
     height: 5px;
     width: 100%;
@@ -1185,46 +1210,18 @@ header + figure > div > small{
     display: none;
 }
 
-#slider-snap + .btn-default{
-    min-width: 86px;
-    padding: 0px 5px;
-    height: 30px;
-    margin-bottom: 7rem;
-}
-.shop .sidebar > .rating{
-    padding-bottom: 11rem;
-}
-.rating .hdr{
-    margin-bottom: 24rem;
-}
-.shop .sidebar > .discount {
-    padding-bottom: 17rem;
-}
-.shop .sidebar > .availability-wrap {
-    padding-bottom: 27rem;
-}
-.discount .hdr, .availability-wrap .hdr{
-    margin-bottom: 19rem;
-}
-.rating .check + label:before{
-    margin: -1rem 19rem 13rem 13rem;
-}
-
 /*SHOP PRODUCT DETAILS*/
-.product-detail, .shop-cart, .shop-checkout{
-    background: white;    
-}
 .product-detail > .lwrap{
-    padding: 80rem 10rem 61rem 10rem;
+    padding: 80rem 10rem 59rem 10rem;
 }
 .product-detail > .lwrap > .main{
-    width: 48.7%;
+    width: 48.75%;
 }
 .product-detail > .lwrap > .detail{
     width: 48.6%;
 }
 .product-detail .main > figure{
-    margin-bottom: 30rem;
+    margin-bottom: 32rem;
     position: relative;
 }
 .product-detail .main > div > figure{
@@ -1321,7 +1318,7 @@ header + figure > div > small{
     flex-shrink: 0;
 }
 .tabwrap{
-    padding: 71rem 10rem 80rem 10rem;
+    padding: 70rem 10rem 80rem 10rem;
 }
 .tabwrap .tablist > a{
     min-width: 124rem;
@@ -1351,7 +1348,7 @@ header + figure > div > small{
 .ftr-details{
     border-top: 1px dashed #858585;
     border-bottom: 1px dashed #858585;
-    padding: 15rem 0px 20rem 0px;
+    padding: 14rem 0px 18rem 0px;
     margin: 25rem 5rem 11rem 0px;
 }
 .shop-product-details + footer .footer-title, .shop-cart + footer .footer-title, .shop-checkout + footer .footer-title, .lessondetails + footer .footer-title{
@@ -1375,7 +1372,6 @@ header + figure > div > small{
     margin: 26rem 22rem 0px 0px;
 }
 .review-item > article{
-    background: #f4f5f7;
     flex-grow: 1;
     padding: 22rem 40rem 3rem 37rem;
     max-width: 900px;
@@ -1720,9 +1716,10 @@ header + figure > div > small{
 .lessondetails .tablist > a.active, .lessondetails .tablist > a:active, .lessondetails .tablist > a:hover, .lessondetails .tablist > a:focus{
     font-size: inherit;
     padding-top: 4px;
+    letter-spacing: 0.04em;
 }
 .lessondetails .tabset{
-    padding: 30rem 58rem;
+    padding: 29rem 58rem 30rem 59rem;
 }
 .lessondetails .tabset p{
     margin-bottom: 29rem;
@@ -1748,7 +1745,7 @@ header + figure > div > small{
     letter-spacing: 0.05em;
 }
 .scroll-wrap{
-    overflow-y: scroll;
+    overflow: scroll;
     height: 427px;
     margin-bottom: 55rem;
     padding-right: 22rem;
@@ -1950,6 +1947,7 @@ footer{
     header + figure > div > strong {font-size: 12px;}
     .lessons .grid article{width: 48%;}
     .lessons .grid article.hidden{display: none;}
+    .skills > div{width: 46%;}
 }
 @media (max-width: 480px) {
     .sidebar > .tags, .shop .sidebar > .discount{order: 2;}
@@ -1959,7 +1957,7 @@ footer{
     .btn-search{width: 60px;}
     .article-wrap > article .details{border-bottom: 1px solid #212121;border-right: none;}
     .article-wrap .lbl-date { flex-direction: row; }
-    .article-wrap > figure > .blockquote-lg {padding: 50rem;}   
+    .article-wrap > figure > .blockquote-lg {padding: 45rem;}   
     .skills article{width: 46%;}
     .gallery-footer figure.hidden-sm{display: none;}
     .products > figure{width: 48%;}

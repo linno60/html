@@ -41,21 +41,21 @@
     transform: translateY(0);
 }
 @keyframes jump3 {
-    0%, 47.00854700854701%, 100%  {
+    0%, 47.008%, 100%  {
         opacity: 0;
         transform: translateY(-50%);
         animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
     }
-    13.675213675213676%, 33.333333333333336%  {
+    13.675%, 33.333%  {
         opacity: 1;
         transform: translateY(0);
         animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
     }
-    0%, 33.33233333333334%  {
+    0%, 33.332%  {
         z-index: 2;
         animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
     }
-    33.33433333333333%, 100%  {
+    33.334%, 100%  {
         z-index: 1; 
     }
 }
@@ -202,8 +202,8 @@
     z-index: 5;
 }
 @keyframes arrow3 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider3 > #play3:checked ~ .arrowprev > label.num2,
 .csslider3 > #play3:checked ~ .arrownext > label.num1 {
@@ -243,9 +243,9 @@
     z-index: 2;
 }
 @keyframes description3 {
-    4.273504273504273%, 33.333333333333336%  { opacity: 1; z-index: 2;}
-    37.60683760683761%  { opacity: 0; z-index: 2;}
-    37.616837606837606%, 100%  { z-index: 0; }
+    4.273%, 33.333%  { opacity: 1; z-index: 2;}
+    37.606%  { opacity: 0; z-index: 2;}
+    37.616%, 100%  { z-index: 0; }
 }
 .csslider3 > #play3:checked ~ .description > .num0{
     animation: description3 11700ms infinite -1120ms ease;
@@ -301,12 +301,8 @@
     background: #b0e8ee;
 }
 @keyframes bullet3 {
-    0%, 33.32333333333334%  {
-        background: #b0e8ee;
-    }
-    33.333333333333336%, 100% {
-        background: #34495e;
-    }
+    0%, 33.323%  {background: #b0e8ee;}
+    33.333%, 100% {background: #34495e;}
 }
 .csslider3 > #play3:checked ~ .bullets > label.num0 {
     animation: bullet3 11700ms infinite -1600ms;
@@ -382,8 +378,8 @@
     z-index: -1;
 }
 @keyframes play-pause3 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider3 > #play3:checked ~ .play-pause > .pause {
     opacity: 0;

@@ -37,7 +37,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Begin&shy;ner</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -51,7 +51,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-19">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Begin&shy;ner</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -65,7 +65,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Advan&shy;ced</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -79,7 +79,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Begin&shy;ner</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -93,7 +93,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor.</p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Begin&shy;ner</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -107,7 +107,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Advan&shy;ced</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -121,7 +121,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Begin&shy;ner</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -135,7 +135,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor.</p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Begin&shy;ner</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>
@@ -149,7 +149,7 @@
                                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. </p>
                             </div>
                             <div class="info" data-flex="around w" data-childs="col -center">
-                                <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                                <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                                 <span><i class="icon-list"></i><span>Advan&shy;ced</span></span>
                                 <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                             </div>

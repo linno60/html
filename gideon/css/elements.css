@@ -10,6 +10,12 @@ body, a, select, ._tabs > div > div, .tabset *{
 }
 p{
     line-height: 24px;
+    font-size: 14px;
+    max-width: 100%;
+    letter-spacing: 0.05em;
+}
+mark{
+    color: #ff6676;
 }
 
 /*BUTTONS*/
@@ -135,9 +141,14 @@ button > .btn{
 }
 
 /*FORMS*/
+
+/*input*/
 input, textarea{
     outline: none;
-    color: #333;
+    color: #333;    
+}
+input:not(input[type=image]), textarea{
+    background: white;
 }
 label{
     font-size: 14px;
@@ -298,6 +309,68 @@ input[type=number] {
     border: none;
     letter-spacing: 0.1em;
 }
+
+/*select*/
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.select-sorting {
+    max-width: 270px;
+    height: 42px;
+    padding: 0px 26rem;
+    letter-spacing: 0.1em;
+    background: white url('/images/icons/arrowdown.png') right 21rem center no-repeat;
+}
+.select-checkout {
+    font-size: 13px;
+    max-width: 570px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+    height: 50px;
+    padding: 0px 19rem;
+    background: #f8f8f8 url('/images/icons/arrowdown.png') right 15rem center no-repeat;
+}
+
+/*checkbox*/
+.check{
+    display: none;
+}
+.check + label{
+    font-size: 14px;
+    margin-bottom: 5px;
+    transition: color ease .3s;
+    margin-bottom: 9rem;
+    letter-spacing: 0.06em;
+}
+.check:checked + label, .check + label:hover{
+    color: #212121;
+}
+.check:checked + label:before, .check + label:hover:before{
+    background: #ff6766;
+    box-shadow: 0px 0px 0px 1px #ff6766;
+    background-clip: content-box;
+}
+.check + label:before {
+    background: #858585;
+    border: 3px solid transparent;
+    box-shadow: 0px 0px 0px 1px #858585;
+    background-clip: content-box;
+    width: 3px;
+    height: 3px;
+    content: "";
+    border-radius: 50%;
+    margin: 6px 13rem 0px 0px;
+    display: inline-block;
+    transition: all ease .3s;
+}
+
+/*placeholder*/
 input[name=post]::-webkit-input-placeholder, textarea::-webkit-input-placeholder  { color: #cacaca; }
 input[name=post]::-moz-placeholder, textarea::-moz-placeholder { color: #cacaca; }
 input[name=post]:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #cacaca; }
@@ -334,62 +407,6 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .search-notfound input[type=search]::-webkit-input-placeholder { color: #c9c9c9; }
 .search-notfound input[type=search]::-moz-placeholder { color: #c9c9c9; }
 .search-notfound input[type=search]:-ms-input-placeholder { color: #c9c9c9; }
-select::-ms-expand{display: none;}
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; 
-    width: 100%;
-    border: none;
-    outline: none;
-}
-.select-sorting {
-    max-width: 270px;
-    height: 42px;
-    padding: 0px 26rem;
-    letter-spacing: 0.1em;
-    background: white url('/images/icons/arrowdown.png') right 21rem center no-repeat;
-}
-.select-checkout {
-    font-size: 13px;
-    max-width: 570px;
-    margin-bottom: 10px;
-    letter-spacing: 0.05em;
-    height: 50px;
-    padding: 0px 19rem;
-    background: #f8f8f8 url('/images/icons/arrowdown.png') right 15rem center no-repeat;
-}
-.check{
-    display: none;
-}
-.check + label{
-    font-size: 14px;
-    margin-bottom: 5px;
-    transition: color ease .3s;
-    margin-bottom: 9rem;
-    letter-spacing: 0.06em;
-}
-.check:checked + label, .check + label:hover{
-    color: #212121;
-}
-.check:checked + label:before, .check + label:hover:before{
-    background: #ff6766;
-    box-shadow: 0px 0px 0px 1px #ff6766;
-    background-clip: content-box;
-}
-.check + label:before {
-    background: #858585;
-    border: 3px solid transparent;
-    box-shadow: 0px 0px 0px 1px #858585;
-    background-clip: content-box;
-    width: 3px;
-    height: 3px;
-    content: "";
-    border-radius: 50%;
-    margin: 6px 13rem;
-    display: inline-block;
-    transition: all ease .3s;
-}
 
 /*LINKS*/
 .links-nav a{
@@ -423,7 +440,7 @@ select {
     border-radius: 50%;
 }
 .links-sharesm{
-    margin-right: -9.5rem;
+    margin: 3px -9.5rem 0px 0px;
 }
 .links-sharesm a{
     margin: 9.5rem;
@@ -661,7 +678,7 @@ select {
     display: inline-block;
 }
 .thumbs-sm > a.prev{
-    padding-left: 15px;
+    padding-left: 16px;
     background: url(/images/icons/prevsm.png)no-repeat left 4px;
 }
 .thumbs-sm > a.next{
@@ -772,7 +789,7 @@ select {
 }
 .blockquote-tw i{
     color: #ff6766;
-    font-size: 48rem;
+    font-size: 48px;
     font-weight: 700;
     line-height: 17px;
     font-style: normal;
@@ -860,7 +877,7 @@ select {
     transition: opacity ease .3s;
 }
 .tablist > a.active, .tablist > a:active, .tablist > a:hover, .tablist > a:focus{
-    height: 54px;
+    height: 55px;
     font-size: 14px;
     color: #212121;
     box-shadow: inset 0px 2px 0px 0px #ff6766;

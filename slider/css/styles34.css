@@ -349,73 +349,73 @@
     opacity: 1;
     transform: translateY(0);
 }
-@keyframes cs_title {
-    2.078125%, 22.911875% { opacity: 1; transform: translateY(10px); z-index: 2; }
-    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); z-index: 2; }
-    27.96875% { opacity: 0; transform: translateY(-100px); z-index: 2; }
-    27.97875%, 100% { z-index: 0; }
+@keyframes description34-big {
+    2.078%, 22.911% { opacity: 1; transform: translateY(10px); z-index: 2; }
+    2.968%, 22.021% { opacity: 1; transform: translateY(0px); z-index: 2; }
+    27.968% { opacity: 0; transform: translateY(-100px); z-index: 2; }
+    27.978%, 100% { z-index: 0; }
 }
-@keyframes cs_descr {
-    2.078125%, 22.911875% { opacity: 1; transform: translateY(-10px); z-index: 1; }
-    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); z-index: 1; }
-    27.96875% { opacity: 0; transform: translateY(100px); z-index: 1; }
-    27.97875%, 100% { z-index: 0; }
+@keyframes description34-small {
+    2.078%, 22.911% { opacity: 1; transform: translateY(-10px); z-index: 1; }
+    2.968%, 22.021% { opacity: 1; transform: translateY(0px); z-index: 1; }
+    27.968% { opacity: 0; transform: translateY(100px); z-index: 1; }
+    27.978%, 100% { z-index: 0; }
 }
 .csslider34 > #play34:checked ~ .description > .num0 > big {
-    animation: cs_title 16000ms infinite -1400ms ease;
+    animation: description34-big 16000ms infinite -1400ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num1 > big {
-    animation: cs_title 16000ms infinite 2600ms ease;
+    animation: description34-big 16000ms infinite 2600ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num2 > big {
-    animation: cs_title 16000ms infinite 6600ms ease;
+    animation: description34-big 16000ms infinite 6600ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num3 > big {
-    animation: cs_title 16000ms infinite 10600ms ease;
+    animation: description34-big 16000ms infinite 10600ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num0 > small {
-    animation: cs_descr 16000ms infinite -1150ms ease;
+    animation: description34-small 16000ms infinite -1150ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num1 > small {
-    animation: cs_descr 16000ms infinite 2850ms ease;
+    animation: description34-small 16000ms infinite 2850ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num2 > small {
-    animation: cs_descr 16000ms infinite 6850ms ease;
+    animation: description34-small 16000ms infinite 6850ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num3 > small {
-    animation: cs_descr 16000ms infinite 10850ms ease;
+    animation: description34-small 16000ms infinite 10850ms ease;
 }
-@keyframes cs_title_text {
-    2.078125%, 22.911875% { opacity: 1; transform: translateY(10px); }
-    2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); }
-    27.96875% { opacity: 0; transform: translateY(-100px); }
+@keyframes description34-big-text {
+    2.078%, 22.911% { opacity: 1; transform: translateY(10px); }
+    2.968%, 22.021% { opacity: 1; transform: translateY(0px); }
+    27.968% { opacity: 0; transform: translateY(-100px); }
 }
-@keyframes cs_descr_text {
+@keyframes description34-small-text {
     2.078125%, 22.911875% { opacity: 1; transform: translateY(-10px); }
     2.96875%, 22.02125%	{ opacity: 1; transform: translateY(0px); }
     27.96875% { opacity: 0; transform: translateY(100px); }
 }
 .csslider34 > #play34:checked ~ .description > .num0 big > span {
-    animation: cs_title_text 16000ms infinite -1250ms ease;
+    animation: description34-big-text 16000ms infinite -1250ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num1 big > span {
-    animation: cs_title_text 16000ms infinite 2750ms ease;
+    animation: description34-big-text 16000ms infinite 2750ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num2 big > span {
-    animation: cs_title_text 16000ms infinite 6750ms ease;
+    animation: description34-big-text 16000ms infinite 6750ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num3 big > span {
-    animation: cs_title_text 16000ms infinite 10750ms ease;
+    animation: description34-big-text 16000ms infinite 10750ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num0 small > span {
-    animation: cs_descr_text 16000ms infinite -1000ms ease;
+    animation: description34-small-text 16000ms infinite -1000ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num1 small > span {
-    animation: cs_descr_text 16000ms infinite 3000ms ease;
+    animation: description34-small-text 16000ms infinite 3000ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num2 small > span {
-    animation: cs_descr_text 16000ms infinite 7000ms ease;
+    animation: description34-small-text 16000ms infinite 7000ms ease;
 }
 .csslider34 > #play34:checked ~ .description > .num3 small > span {
-    animation: cs_descr_text 16000ms infinite 11000ms ease;
+    animation: description34-small-text 16000ms infinite 11000ms ease;
 }

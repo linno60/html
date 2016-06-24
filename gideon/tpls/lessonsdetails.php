@@ -41,7 +41,7 @@
                             <a href="#" class="btn btn-default">Purchase this Lesson</a>                            
                         </div>
                         <div class="info" data-flex="stripe w" data-flex-960="around w" data-childs="col -center">
-                            <span><i class="icon-calendar"></i><time>16 June 2015</time></span>
+                            <span><i class="icon-calendar"></i><time data-time="2015-06-16">16 June 2015</time></span>
                             <span><i class="icon-list"></i><span>Beginner</span></span>
                             <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                         </div>
@@ -80,7 +80,7 @@
                                     <a href="#">Improvement</a>
                                 </div>
                                 <div class="links-sharesm" data-flex="end -center w" data-childs="center -center">
-                                    <span>Share: </span>
+                                    <span>Share : </span>
                                     <a href="#"><i class="icon-sharesm-fb"></i></a>
                                     <a href="#"><i class="icon-sharesm-tw"></i></a>
                                     <a href="#"><i class="icon-sharesm-gp"></i></a>
@@ -136,7 +136,7 @@
                                     <a href="#">Improvement</a>
                                 </div>
                                 <div class="links-sharesm" data-flex="end -center w" data-childs="center -center">
-                                    <span>Share: </span>
+                                    <span>Share : </span>
                                     <a href="#"><i class="icon-sharesm-fb"></i></a>
                                     <a href="#"><i class="icon-sharesm-tw"></i></a>
                                     <a href="#"><i class="icon-sharesm-gp"></i></a>
@@ -189,7 +189,7 @@
                                     <a href="#">Improvement</a>
                                 </div>
                                 <div class="links-sharesm" data-flex="end -center w" data-childs="center -center">
-                                    <span>Share: </span>
+                                    <span>Share : </span>
                                     <a href="#"><i class="icon-sharesm-fb"></i></a>
                                     <a href="#"><i class="icon-sharesm-tw"></i></a>
                                     <a href="#"><i class="icon-sharesm-gp"></i></a>

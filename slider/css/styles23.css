@@ -43,16 +43,10 @@
     transform: scale(1);
 }
 @keyframes fade-in23 {
-    0%, 45.370370370370374%, 100%  {
-        opacity: 0;
-        transform: scale(2);
-    }
-    12.037037037037038%, 33.333333333333336%  {
-        opacity: 1;
-        transform: scale(1);
-    }
-    0%, 33.33233333333334%  { z-index: 2; }
-    33.33433333333333%, 100%  { z-index: 1; }
+    0%, 45.370%, 100%  { opacity: 0; transform: scale(2); }
+    12.037%, 33.333%  { opacity: 1; transform: scale(1); }
+    0%, 33.332%  { z-index: 2; }
+    33.334%, 100%  { z-index: 1; }
 }
 
 .csslider23 > #play23:checked ~ ul > .num0 {
@@ -167,40 +161,40 @@
     transform: translateY(0);
 }
 @keyframes description23-big {
-    3.0787037037037033%, 30.244629629629628%  {
+    3.078%, 30.244%  {
         opacity: 1;
         z-index: 2;
         transform: translateY(10px);
     }
-    4.398148148148148%, 28.925185185185185%  {
+    4.398%, 28.925%  {
         opacity: 1;
         z-index: 2;
         transform: translateY(0px);
     }
-    37.73148148148148%  {
+    37.731%  {
         opacity: 0;
         z-index: 2;
         transform: translateY(-100px);
     }
-    37.74148148148148%, 100%  { z-index: 0; }
+    37.741%, 100% { z-index: 0; }
 }
 @keyframes description23-small {
-    3.0787037037037033%, 30.244629629629628%  {
+    3.078%, 30.244%  {
         opacity: 1;
         z-index: 1;
         transform: translateY(-10px);
     }
-    4.398148148148148%, 28.925185185185185%  {
+    4.398%, 28.925%  {
         opacity: 1;
         z-index: 1;
         transform: translateY(0px);
     }
-    37.73148148148148%  {
+    37.731%  {
         opacity: 0;
         z-index: 1;
         transform: translateY(100px);
     }
-    37.74148148148148%, 100%  { z-index: 0; }
+    37.741%, 100%  { z-index: 0; }
 }
 .csslider23 > #play23:checked ~ .description > .num0  > big {
     animation: description23-big 10800ms infinite -909.9999999999999ms ease;
@@ -221,29 +215,29 @@
     animation: description23-small 10800ms infinite 6540ms ease;
 }
 @keyframes description23-big-text {
-    3.0787037037037033%, 30.244629629629628%  {
+    3.078%, 30.244%  {
         opacity: 1;
         transform: translateY(10px);
     }
-    4.398148148148148%, 28.925185185185185%  {
+    4.398%, 28.925%  {
         opacity: 1;
         transform: translateY(0px);
     }
-    37.73148148148148%  {
+    37.731%  {
         opacity: 0;
         transform: translateY(-100px);
     }
 }
 @keyframes description23-small-text {
-    3.0787037037037033%, 30.244629629629628%  {
+    3.078%, 30.244%  {
         opacity: 1;
         transform: translateY(-10px);
     }
-    4.398148148148148%, 28.925185185185185%  {
+    4.398%, 28.925%  {
         opacity: 1;
         transform: translateY(0px);
     }
-    37.73148148148148%  {
+    37.731%  {
         opacity: 0;
         transform: translateY(100px);
     }
@@ -321,8 +315,8 @@
     z-index: 5;
 }
 @keyframes arrows23 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider23 > #play23:checked ~ .arrowprev > .num2,
 .csslider23 > #play23:checked ~ .arrownext > .num1 {
@@ -360,8 +354,8 @@
     z-index: -1;
 }
 @keyframes play-pause23 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider23 > #play23:checked ~ .play-pause > .pause {
     opacity: 0;
@@ -436,8 +430,8 @@
     opacity: 1;
 }
 @keyframes bullets23 {
-    0%, 33.32333333333334%  { opacity: 1; }
-    33.333333333333336%, 100% { opacity: 0; }
+    0%, 33.323%  { opacity: 1; }
+    33.333%, 100% { opacity: 0; }
 }
 .csslider23 > #play23:checked ~ .bullets > .num0 i{
     animation: bullets23 10800ms infinite -1300ms;

@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body data-flex="col -center" class='pagenotfound'>
+    <body data-flex="col center -center" class='pagenotfound'>
         <a href="/" title="Return to the homepage" id="logo-404">
             <img src="/images/logo404.png" width="193" height="81" alt="Gideon">
         </a>

@@ -45,7 +45,7 @@
                         </div>
                         <div class="skills-wrap">
                             <h2>my skills</h2>
-                            <div class="skills" data-flex='stripe w' data-childs="col -center">
+                            <div class="skills" data-flex='stripe w' data-flex-800="around w" data-childs="col -center">
                                 <div>
                                     <div class="percentage" data-flex="center -center"><span></span><big>85</big></div>
                                     <span>Professional Blog</span>

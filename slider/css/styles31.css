@@ -36,7 +36,7 @@
 }
 @keyframes fade31 {
     0%, 50%, 100% { opacity: 0; z-index: 2; }
-    16.666666666666668%, 33.333333333333336% { opacity: 1; z-index: 2; }
+    16.666%, 33.333% { opacity: 1; z-index: 2; }
 }
 .csslider31 > #play31:checked ~ ul > .num0 {
     animation: fade31 12000ms infinite -2000ms;
@@ -114,8 +114,8 @@
     z-index: 5;
 }
 @keyframes arrows31 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%	{ opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%	{ opacity: 0; z-index: -1; }
 }
 .csslider31 > #play31:checked ~ .arrowprev > label.num2,
 .csslider31 > #play31:checked ~ .arrownext > label.num1 {
@@ -184,8 +184,8 @@
     background: #1fa5ad;
 }
 @keyframes bullets31 {
-    0%, 33.32333333333334% { background: #1fa5ad; }
-    33.333333333333336%, 100% { background: #000; background: rgba(0,0,0,.6); }
+    0%, 33.323% { background: #1fa5ad; }
+    33.333%, 100% { background: #000; background: rgba(0,0,0,.6); }
 }
 .csslider31 > #play31:checked ~ .bullets > .num0 {
     animation: bullets31 12000ms infinite -2000ms;
@@ -244,10 +244,10 @@
     transform: translateX(0);	
 }
 @keyframes description31 {
-    3.0625%, 30.260833333333334% { opacity: 1; transform: rotateX(-9deg); z-index: 2;}
-    4.375%, 28.948333333333334%	{ opacity: 1; transform: rotateX(0deg); z-index: 2;}
-    33.333333333333336%	{ opacity: 0; transform: rotateX(90deg); z-index: 2;}
-    33.343333333333334%, 100% { z-index: 0; }
+    3.0625%, 30.260% { opacity: 1; transform: rotateX(-9deg); z-index: 2;}
+    4.375%, 28.948% { opacity: 1; transform: rotateX(0deg); z-index: 2;}
+    33.333% { opacity: 0; transform: rotateX(90deg); z-index: 2;}
+    33.343%, 100% { z-index: 0; }
 }
 .csslider31 > #play31:checked ~ .description > .num0 > big {
     animation: description31 12000ms infinite -1400ms ease;
@@ -259,9 +259,9 @@
     animation: description31 12000ms infinite 6600ms ease;
 }
 @keyframes description31-text {
-    3.0625%, 30.260833333333334% { opacity: 1; transform: translateX(-1%); }
-    4.375%, 28.948333333333334%	{ opacity: 1; transform: translateX(0%); }
-    33.333333333333336%	{ opacity: 0; transform: translateX(100%); }
+    3.0625%, 30.260% { opacity: 1; transform: translateX(-1%); }
+    4.375%, 28.948% { opacity: 1; transform: translateX(0%); }
+    33.333% { opacity: 0; transform: translateX(100%); }
 }
 .csslider31 > #play31:checked ~ .description > .num0 > big > span {
     animation: description31-text 12000ms infinite -1190ms ease;

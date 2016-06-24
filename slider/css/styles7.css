@@ -36,16 +36,16 @@
     transform: scale(1);
 }
 @keyframes fade-in7 {
-    0%, 43.90243902439025%, 100%  {
+    0%, 43.902%, 100%  {
         opacity: 0;
         transform: scale(2);
     }
-    10.569105691056912%, 33.333333333333336%  {
+    10.569%, 33.333%  {
         opacity: 1;
         transform: scale(1);
     }
-    0%, 33.33233333333334%  { z-index: 2; }
-    33.33433333333333%, 100%  { z-index: 1; }
+    0%, 33.332%  { z-index: 2; }
+    33.334%, 100%  { z-index: 1; }
 }
 .csslider7 > #play7:checked ~ ul > .num0 {
     animation: fade-in7 12300ms infinite -1300ms;
@@ -172,8 +172,8 @@
     z-index: 5;
 }
 @keyframes arrow7 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider7 > #play7:checked ~ .arrowprev > .num2,
 .csslider7 > #play7:checked ~ .arrownext > .num1 {
@@ -261,22 +261,22 @@
     transform: scale(1);
 }
 @keyframes description7 {
-    3.24390243902439%, 30.079430894308945%  {
+    3.243%, 30.079%  {
         opacity: 1;
         z-index: 2;
         transform: scale(1.1);
     }
-    4.634146341463414%, 28.68918699186992%  {
+    4.634%, 28.689%  {
         opacity: 1;
         z-index: 2;
         transform: scale(1);
     }
-    37.96747967479675%  {
+    37.967%  {
         opacity: 0;
         z-index: 2;
         transform: scale(0);
     }
-    37.97747967479675%, 100%  { z-index: 0; }
+    37.977%, 100%  { z-index: 0; }
 }
 .csslider7 > #play7:checked ~ .description > .num0  > big {
     animation: description7 12300ms infinite -909.9999999999999ms ease;
@@ -297,18 +297,9 @@
     animation: description7 12300ms infinite 7540ms ease;
 }
 @keyframes description7-text {
-    3.24390243902439%, 30.079430894308945% {
-        opacity: 1;
-        transform: scale(1.1);
-    }
-    4.634146341463414%, 28.68918699186992% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    37.96747967479675% {
-        opacity: 0;
-        transform: scale(0);
-    }
+    3.243%, 30.079% {opacity: 1;transform: scale(1.1);}
+    4.634%, 28.689% {opacity: 1;transform: scale(1);}
+    37.967% {opacity: 0;transform: scale(0);}
 }
 .csslider7 > #play7:checked ~ .description > .num0 > big > span {
     animation: description7-text 12300ms infinite -759.9999999999999ms ease;
@@ -369,22 +360,18 @@
 .csslider7 > #slide7-2:checked ~ .bullets > label.num2{
     background: #54d2c0;
 }
-@keyframes bullet {
-    0%, 33.32333333333334%  {
-        background: #54d2c0;
-    }
-    33.333333333333336%, 100% {
-        background: #1a2223;
-    }
+@keyframes bullets7 {
+    0%, 33.323%  { background: #54d2c0; }
+    33.333%, 100% { background: #1a2223; }
 }
 .csslider7 > #play7:checked ~ .bullets > .num0{
-    animation: bullet 12300ms infinite -1300ms;
+    animation: bullets7 12300ms infinite -1300ms;
 }
 .csslider7 > #play7:checked ~ .bullets > .num1{
-    animation: bullet 12300ms infinite 2800ms;
+    animation: bullets7 12300ms infinite 2800ms;
 }
 .csslider7 > #play7:checked ~ .bullets > .num2{
-    animation: bullet 12300ms infinite 6900ms;
+    animation: bullets7 12300ms infinite 6900ms;
 }
 
 /*MEDIA QUERIES*/

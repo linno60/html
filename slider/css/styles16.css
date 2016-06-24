@@ -36,10 +36,10 @@
     z-index: 2;
 }
 @keyframes fade16 {
-    0%, 50.925925925925924%, 100%  { opacity: 0; }
-    17.59259259259259%, 33.333333333333336%  { opacity: 1; }
-    0%, 33.33233333333334%  { z-index: 2; }
-    33.33433333333333%, 100%  { z-index: 1; }
+    0%, 50.925%, 100%  { opacity: 0; }
+    17.592%, 33.333%  { opacity: 1; }
+    0%, 33.332%  { z-index: 2; }
+    33.334%, 100%  { z-index: 1; }
 }
 .csslider16 > #play16:checked ~ ul > .num0 {
     animation: fade16 10800ms infinite -1900ms;
@@ -112,17 +112,9 @@
     transform: scale(1);
 }
 @keyframes description16 {
-    4.62962962962963%, 33.333333333333336%  {
-        opacity: 1;
-        z-index: 2;
-        transform: scale(1);
-    }
-    37.96296296296296%  {
-        opacity: 0;
-        z-index: 2;
-        transform: scale(0);
-    }
-    37.97296296296296%, 100%  { z-index: 0; }
+    4.629%, 33.333%  { opacity: 1; z-index: 2; transform: scale(1); }
+    37.962%  { opacity: 0; z-index: 2; transform: scale(0); }
+    37.972%, 100%  { z-index: 0; }
 }
 .csslider16 > #play16:checked ~ .description > .num0{
     animation: description16 10800ms infinite -1330ms ease;
@@ -199,8 +191,8 @@
     z-index: 5;
 }
 @keyframes arrow16 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider16 > #play16:checked ~ .arrowprev > .num2,
 .csslider16 > #play16:checked ~ .arrownext > .num1 {
@@ -246,8 +238,8 @@
     z-index: -1;
 }
 @keyframes play-pause16 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider16 > #play16:checked ~ .play-pause > .pause {
     opacity: 0;
@@ -314,8 +306,8 @@
     box-shadow: 0 0 0 2px white; 
 }
 @keyframes bullet16 {
-    0%, 33.32333333333334%  { box-shadow: 0 0 0 2px white; background: transparent;}
-    33.333333333333336%, 100% { box-shadow: 0 0 0 2px transparent; background: rgba(255,255,255,.6);}
+    0%, 33.323%  { box-shadow: 0 0 0 2px white; background: transparent;}
+    33.333%, 100% { box-shadow: 0 0 0 2px transparent; background: rgba(255,255,255,.6);}
 }
 .csslider16 > #play16:checked ~ .bullets > .num0 {
     animation: bullet16 10800ms infinite -1900ms;

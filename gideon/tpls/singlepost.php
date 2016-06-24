@@ -63,7 +63,7 @@
                                             <div data-flex="-start between">
                                                 <div>
                                                     <h4>Micheal Bevan</h4>
-                                                    <time>19 May 2015</time>
+                                                    <time data-time="2015-05-19">19 May 2015</time>
                                                 </div>
                                                 <a href="#">Reply</a>
                                             </div>
@@ -75,7 +75,7 @@
                                                 <div data-flex="-start between">
                                                     <div>
                                                         <h4>Anita John</h4>
-                                                        <time>19 May 2015</time>
+                                                        <time data-time="2015-05-19">19 May 2015</time>
                                                     </div>
                                                     <a href="#">Reply</a>
                                                 </div>
@@ -89,7 +89,7 @@
                                             <div data-flex="-start between">
                                                 <div>
                                                     <h4>Richard Bravo</h4>
-                                                    <time>19 May 2015</time>
+                                                    <time data-time="2015-05-19">19 May 2015</time>
                                                 </div>
                                                 <a href="#">Reply</a>
                                             </div>

@@ -38,20 +38,12 @@
     transition: transform 2800ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 @keyframes zoomout6 {
-    0%, 46.14379084967321%, 100%  {
-        transform: scale(0);
-    }
-    9.150326797385622% {
-        transform: scale(1.1);
-    }
-    18.300653594771244%, 33.333333333333336%  {
-        transform: scale(1);
-    }
-    38.82352941176471% {
-        transform: scale(1.1);
-    }
-    0%, 33.33233333333334%  { z-index: 1; }
-    33.33433333333333%, 100%  { z-index: 2; }
+    0%, 46.143%, 100%  {transform: scale(0);}
+    9.150% {transform: scale(1.1);}
+    18.300%, 33.333%  {transform: scale(1);}
+    38.823% {transform: scale(1.1);}
+    0%, 33.332%  { z-index: 1; }
+    33.334%, 100%  { z-index: 2; }
 }
 .csslider6 > #play6:checked ~ ul > .num0 {
     animation: zoomout6 15300ms infinite -2800ms;
@@ -166,8 +158,8 @@
     z-index: 5;
 }
 @keyframes arrow6 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider6 > #play6:checked ~ .arrowprev > .num2,
 .csslider6 > #play6:checked ~ .arrownext > .num1 {
@@ -238,30 +230,30 @@
     transform: scale(1);
 }
 @keyframes title6 {
-    3.2679738562091503%, 33.333333333333336%  {
+    3.267%, 33.333%  {
         opacity: 1;
         z-index: 2;
         transform: scale(1);
     }
-    36.60130718954249%  {
+    36.601%  {
         opacity: 0;
         z-index: 2;
         transform: scale(0);
     }
-    36.61130718954249%, 100%  { z-index: 0; }
+    36.611%, 100%  { z-index: 0; }
 }
 @keyframes descr6 {
-    3.2679738562091503%, 33.333333333333336%  {
+    3.267%, 33.333%  {
         opacity: 1;
         z-index: 1;
         transform: scale(1);
     }
-    36.60130718954249%  {
+    36.601%  {
         opacity: 0;
         z-index: 1;
         transform: scale(0);
     }
-    36.61130718954249%, 100%  { z-index: 0; }
+    36.611%, 100%  { z-index: 0; }
 }
 .csslider6 > #play6:checked ~ .description > .num0  > span {
     animation: title6 15300ms infinite -1959.9999999999998ms ease;
@@ -338,12 +330,12 @@
     border: 2px solid #33bbd9;
 }
 @keyframes bullet6 {
-    0%, 33.32333333333334%  {
+    0%, 33.323%  {
         transform: rotate(45deg);
         background: #33bbd9;
         border: 2px solid #33bbd9;
     }
-    33.333333333333336%, 100% {
+    33.333%, 100% {
         transform: rotate(0deg);
         background: transparent;
         border: 2px solid white;
@@ -384,8 +376,8 @@
     z-index: -1;
 }
 @keyframes play-pause6 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider6 > #play6:checked ~ .play-pause > .pause.num0 {
     opacity: 0;

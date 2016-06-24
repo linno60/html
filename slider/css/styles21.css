@@ -57,16 +57,10 @@
     transform: scale(1);
 }
 @keyframes kenburns21 {
-    0.001%, 33.33233333333334%  { z-index: 2; }
-    0%, 100% {
-        opacity: 0;
-        transform: scale(1);
-    }
-    8.558558558558559%, 33.333333333333336% { opacity: 1 }
-    41.891891891891895%, 66.66666666666666% {
-        opacity: 0;
-        transform: scale(1.3);
-    }
+    0.001%, 33.332%  { z-index: 2; }
+    0%, 100% { opacity: 0; transform: scale(1); }
+    8.558%, 33.333% { opacity: 1 }
+    41.891%, 66.666% { opacity: 0; transform: scale(1.3); }
     33.33433333333333%, 100%  { z-index: 1; }
 }
 .csslider21 > #play21:checked ~ ul > .num0 {
@@ -166,8 +160,8 @@
     z-index: 5;
 }
 @keyframes arrows21 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider21 > #play21:checked ~ .arrowprev > label.num2,
 .csslider21 > #play21:checked ~ .arrownext > label.num1 {
@@ -213,8 +207,8 @@
     z-index: -1;
 }
 @keyframes play-pause21 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider21 > #play21:checked ~ .play-pause > .pause{
     opacity: 0;
@@ -277,7 +271,7 @@
 
 /*description moving*/
 @keyframes description21 {
-    2.2522522522522523%, 26.791801801801803%  {
+    2.252%, 26.791%  {
         opacity: 1;
         z-index: 4;
         transform: translateY(0);
@@ -354,8 +348,8 @@
     background: transparent;
 }
 @keyframes bullets21 {
-    0%, 33.32333333333334%  { background: transparent; }
-    33.333333333333336%, 100% { background: #38b6cd; }
+    0%, 33.323%  { background: transparent; }
+    33.333%, 100% { background: #38b6cd; }
 }
 .csslider21 > #play21:checked ~ .bullets > .num0 {
     animation: bullets21 22200ms infinite -1900ms;

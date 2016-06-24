@@ -116,7 +116,7 @@
                                     <article data-flex="col -start">
                                         <div data-flex="axis w">
                                             <figure><img src="/images/review4.png" width="68" height="13" alt=""></figure>
-                                            <time>24 Sep, 2016</time>
+                                            <time data-time="2016-09-24">24 Sep, 2016</time>
                                         </div>
                                         <p>Nice wooden material. Excellent more Quality of the product what I’m expecting, I highly Recommend this Product.</p>
                                     </article>
@@ -129,7 +129,7 @@
                                     <article data-flex="col -start">
                                         <div data-flex="axis w">
                                             <figure><img src="/images/review5.png" width="68" height="13" alt=""></figure>
-                                            <time>24 Sep, 2016</time>
+                                            <time data-time="2016-06-24">24 Sep, 2016</time>
                                         </div>
                                         <p>Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor.</p>
                                     </article>

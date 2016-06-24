@@ -60,16 +60,16 @@
     transform: translateX(-300%);
 }
 @keyframes slide29 {
-    0%, 13.372093023255815%{ transform: translateX(0%); }
-    25%, 38.372093023255815%{ transform: translateX(-100%); }
-    50%, 63.372093023255815%{ transform: translateX(-200%); }
-    75%, 88.37209302325581%{ transform: translateX(-300%); }
+    0%, 13.372%{ transform: translateX(0%); }
+    25%, 38.372%{ transform: translateX(-100%); }
+    50%, 63.372%{ transform: translateX(-200%); }
+    75%, 88.372%{ transform: translateX(-300%); }
 }
 @keyframes slide29-ie {
-    0%, 13.372093023255815%{ margin-left: 0%; }
-    25%, 38.372093023255815%{ margin-left: -100%; }
-    50%, 63.372093023255815%{ margin-left: -200%; }
-    75%, 88.37209302325581%{ margin-left: -300%; }
+    0%, 13.372%{ margin-left: 0%; }
+    25%, 38.372%{ margin-left: -100%; }
+    50%, 63.372%{ margin-left: -200%; }
+    75%, 88.372%{ margin-left: -300%; }
 }
 .csslider29  > #play29:checked ~ ul > li {
     animation: slide29 17200ms infinite;	
@@ -155,9 +155,9 @@
 
 }
 @keyframes description29 {
-    2.9069767441860463%, 22.083023255813952% { opacity: 1; z-index: 1; transform: scale(1)}
-    27.906976744186046%	{ opacity: 0; z-index: 2; transform: scale(2);}
-    27.916976744186048%, 100% { z-index: 0; }
+    2.906%, 22.083% { opacity: 1; z-index: 1; transform: scale(1)}
+    27.906% { opacity: 0; z-index: 2; transform: scale(2);}
+    27.916%, 100% { z-index: 0; }
 }
 .csslider29 > #play29:checked ~ .description > .num0  > big {
     animation: description29 17200ms infinite -1400ms;

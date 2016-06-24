@@ -34,10 +34,10 @@
     z-index: 2;
 }
 @keyframes fade14 {
-    0%, 47.22222222222223%, 100%  { opacity: 0; }
-    13.88888888888889%, 33.333333333333336%  { opacity: 1; }
-    0%, 33.33233333333334%  { z-index: 2; }
-    33.33433333333333%, 100%  { z-index: 1; }
+    0%, 47.222%, 100%  { opacity: 0; }
+    13.888%, 33.333%  { opacity: 1; }
+    0%, 33.332%  { z-index: 2; }
+    33.334%, 100%  { z-index: 1; }
 }
 .csslider14 > #play14:checked ~ ul > .num0 {
     animation: fade14 14400ms infinite -2000ms;
@@ -84,17 +84,9 @@
     transform: scale(1);
 }
 @keyframes description14 {
-    3.4722222222222223%, 33.333333333333336%  {
-        opacity: 1;
-        z-index: 2;
-        transform: scale(1);
-    }
-    36.80555555555556%  {
-        opacity: 0;
-        z-index: 2;
-        transform: scale(0);
-    }
-    36.815555555555555%, 100%  { z-index: 0; }
+    3.472%, 33.333%  { opacity: 1; z-index: 2; transform: scale(1); }
+    36.805%  { opacity: 0; z-index: 2; transform: scale(0); }
+    36.815%, 100%  { z-index: 0; }
 }
 .csslider14 > #play14:checked ~ .description > .num0 > span {
     animation: description14 14400ms infinite -1400ms ease;
@@ -172,14 +164,8 @@
     transform: scale(1.4);
 }
 @keyframes bullet14 {
-    0%, 33.32333333333334%  {
-        border-color: #fd6004;
-        transform:scale(1.4);
-    }
-    33.333333333333336%, 100% {
-        border-color: transparent;
-        transform:scale(0.9);
-    }
+    0%, 33.323% { border-color: #fd6004; transform: scale(1.4); }
+    33.333%, 100% { border-color: transparent; transform: scale(0.9); }
 }
 .csslider14 > #play14:checked ~ .bullets > label.num0:after {
     animation: bullet14 14400ms infinite -2000ms;
@@ -281,8 +267,8 @@
     z-index: 5;
 }
 @keyframes arrow14 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider14 > #play14:checked ~ .arrowprev > .num2,
 .csslider14 > #play14:checked ~ .arrownext > .num1 {

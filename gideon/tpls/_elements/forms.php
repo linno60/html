@@ -1,20 +1,4 @@
 <label>Name*</label>
-<select class="select-sorting">
-    <option>Default Sorting</option>
-    <option>Default Sorting</option>
-    <option>Default Sorting</option>
-    <option>Default Sorting</option>
-    <option>Default Sorting</option>
-</select>
-<select class="select-checkout">
-    <option>Select your Country</option>
-    <option>Select your Country</option>
-    <option>Select your Country</option>
-    <option>Select your Country</option>
-    <option>Select your Country</option>
-</select>
-<input type="text" name="review" required=""> 
-<textarea name="review" required=""></textarea>
 <input type="number" class="counter" placeholder="01">
 <input type="password" name="password" placeholder="Enter your code">
 <input type="checkbox" class="check" name id="check1-1">
@@ -38,3 +22,19 @@
 <textarea name="post" placeholder="Message*" required></textarea>
 <input type="text" name="contact" placeholder="Name*" required>
 <textarea name="contact" placeholder="Message*" required></textarea>
+<input type="text" name="review" required=""> 
+<textarea name="review" required=""></textarea>
+<select class="select-sorting">
+    <option>Default Sorting</option>
+    <option>Default Sorting</option>
+    <option>Default Sorting</option>
+    <option>Default Sorting</option>
+    <option>Default Sorting</option>
+</select>
+<select class="select-checkout">
+    <option>Select your Country</option>
+    <option>Select your Country</option>
+    <option>Select your Country</option>
+    <option>Select your Country</option>
+    <option>Select your Country</option>
+</select>

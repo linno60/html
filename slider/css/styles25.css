@@ -45,14 +45,14 @@
     transform: translateX(-200%);
 }
 @keyframes slide25 {
-    0%, 25.203252032520325% { transform: translateX(0%); }
-    33.333333333333336%, 58.53658536585366% { transform: translateX(-100%); }
-    66.66666666666667%, 91.869918699187% { transform: translateX(-200%); }	
+    0%, 25.203% { transform: translateX(0%); }
+    33.333%, 58.536% { transform: translateX(-100%); }
+    66.666%, 91.869% { transform: translateX(-200%); }	
 }
 @keyframes slide25-ie {
-    0%, 25.203252032520325%  { margin-left: 0%; }
-    33.333333333333336%, 58.53658536585366%  { margin-left: -100%; }
-    66.66666666666667%, 91.869918699187%  { margin-left: -200%; }  
+    0%, 25.203%  { margin-left: 0%; }
+    33.333%, 58.536%  { margin-left: -100%; }
+    66.666%, 91.869%  { margin-left: -200%; }  
 }
 .csslider25  > #play25:checked ~ ul > li:not(:first-child) {
     animation: slide25 12300ms infinite;	
@@ -142,8 +142,8 @@
     z-index: 5;
 }
 @keyframes arrows25 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%	{ opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100% { opacity: 0; z-index: -1; }
 }
 .csslider25 > #play25:checked ~ .arrowprev > label.num2,
 .csslider25 > #play25:checked ~ .arrownext > label.num1 {
@@ -211,14 +211,8 @@
     box-shadow: 0 0 0 1px white;
 }
 @keyframes bullets25 {
-    0%, 33.32333333333334%	{
-        background: white;
-        box-shadow: 0 0 0 1px white;
-    }
-    33.333333333333336%, 100% {
-        background: none;
-        box-shadow: none;
-    }
+    0%, 33.323%	{ background: white; box-shadow: 0 0 0 1px white; }
+    33.333%, 100% { background: none; box-shadow: none; }
 }
 .csslider25 > #play25:checked ~ .bullets > label.num0 {
     animation: bullets25 12300ms infinite -1000ms;
@@ -270,9 +264,9 @@
     opacity: 1;
 }
 @keyframes description25 {
-    4.065040650406504%, 33.333333333333336%	{ opacity: 1; z-index: 2;}
-    37.39837398373984%	{ opacity: 0; z-index: 2;}
-    37.408373983739835%, 100%	{ z-index: 0; }
+    4.065%, 33.333% { opacity: 1; z-index: 2;}
+    37.398% { opacity: 0; z-index: 2;}
+    37.408%, 100% { z-index: 0; }
 }
 .csslider25 > #play25:checked ~ .description > .num0  > big {
     animation: description25 12300ms infinite -700ms ease;

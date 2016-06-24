@@ -50,23 +50,11 @@
     transform: scale(1);
 }
 @keyframes kenburns5 {
-    0.001%, 33.33233333333334%  { 
-        z-index: 2;
-    }
-    0%, 100% {
-        opacity: 0;
-        transform: scale(1);
-    }
-    6.2745098039215685%, 33.333333333333336% {
-        opacity: 1 
-    }
-    39.6078431372549%, 66.66666666666666% {
-        opacity: 0;
-        transform: scale(1.3);
-    }
-    33.33433333333333%, 100%  {
-        z-index: 1;
-    }
+    0.001%, 33.332%  { z-index: 2;}
+    0%, 100% {opacity: 0;transform: scale(1);}
+    6.274%, 33.333% {opacity: 1 }
+    39.607%, 66.666% {opacity: 0;transform: scale(1.3);}
+    33.334%, 100%  {z-index: 1;}
 }
 .csslider5 > #play5:checked ~ ul > .num0 {
     animation: kenburns5 25500ms infinite -1600ms linear;
@@ -177,8 +165,8 @@
     z-index: 5;
 }
 @keyframes arrow5 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider5 > #play5:checked ~ .arrowprev > label.num2,
 .csslider5 > #play5:checked ~ .arrownext > label.num1 {
@@ -229,12 +217,12 @@
     transform: translateX(-100%);
 }
 @keyframes description5 {
-    2.0833333333333335%, 27.073333333333334%  {
+    2.083%, 27.073%  {
         opacity: 1;
         z-index: 4;
         transform: translateX(0);
     }
-    0%, 29.166666666666668%, 100%  {
+    0%, 29.166%, 100%  {
         opacity: 0;
         z-index: 0;
         transform: translateX(-100%);   
@@ -291,8 +279,8 @@
     background: #40b59e;
 }
 @keyframes bullet5 {
-    0%, 33.32333333333334%  { background: #40b59e; }
-    33.333333333333336%, 100% { background: #47c9af; }
+    0%, 33.323%  { background: #40b59e; }
+    33.333%, 100% { background: #47c9af; }
 }
 .csslider5 > #play5:checked ~ .bullets > label.num0{
     animation: bullet5 24000ms infinite -2000ms;
@@ -349,8 +337,8 @@
     z-index: -1;
 }
 @keyframes play-pause5 {
-    0%, 33.32333333333334% { opacity: 1; z-index: 5; }
-    33.333333333333336%, 100%  { opacity: 0; z-index: -1; }
+    0%, 33.323% { opacity: 1; z-index: 5; }
+    33.333%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider5 > #play5:checked ~ .play-pause > .pause.num0 {
     opacity: 0;

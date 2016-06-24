@@ -48,17 +48,17 @@
     transform: translateY(-300%);
 }
 @keyframes slide8 {
-    0%, 17.073170731707318%  { transform: translateY(0%); }
-    25%, 42.073170731707314%  { transform: translateY(-100%); }
-    50%, 67.07317073170732%  { transform: translateY(-200%); }
-    75%, 92.07317073170732%  { transform: translateY(-300%); }
+    0%, 17.073%  { transform: translateY(0%); }
+    25%, 42.073%  { transform: translateY(-100%); }
+    50%, 67.073%  { transform: translateY(-200%); }
+    75%, 92.073%  { transform: translateY(-300%); }
 
 }
 @keyframes slide8-ie {
-    0%, 17.073170731707318%  { margin-top: 0%; }
-    25%, 42.073170731707314%  { margin-top: -43.373493975903614%; }
-    50%, 67.07317073170732%  { margin-top: -86.74698795180723%; }
-    75%, 92.07317073170732%  { margin-top: -130.12048192771084%; }
+    0%, 17.073%  { margin-top: 0%; }
+    25%, 42.073%  { margin-top: -43.373%; }
+    50%, 67.073%  { margin-top: -86.746%; }
+    75%, 92.073%  { margin-top: -130.120%; }
 }
 .csslider8  > #play8:checked ~ ul > li:not(:first-child) {
     animation: slide8 16400ms infinite;
@@ -254,21 +254,21 @@
 .csslider8 > #slide8-3:checked ~ .bullets > .num3:after{
     background: black;
 }
-@keyframes bullet8 {
+@keyframes bullets8 {
     0%, 24.99%  { background: black; }
     25%, 100% { background: transparent; }
 }
 .csslider8 > #play8:checked ~ .bullets > .num0:after{
-    animation: bullet8 16400ms infinite -1300ms;
+    animation: bullets8 16400ms infinite -1300ms;
 }
 .csslider8 > #play8:checked ~ .bullets > .num1:after{
-    animation: bullet8 16400ms infinite 2800ms;
+    animation: bullets8 16400ms infinite 2800ms;
 }
 .csslider8 > #play8:checked ~ .bullets > .num2:after{
-    animation: bullet8 16400ms infinite 6900ms;
+    animation: bullets8 16400ms infinite 6900ms;
 }
 .csslider8 > #play8:checked ~ .bullets > .num3:after{
-    animation: bullet8 16400ms infinite 11000ms;
+    animation: bullets8 16400ms infinite 11000ms;
 }
 
 /*DESCRIPTION*/
@@ -336,26 +336,14 @@
     transform: scale(1);
 }
 @keyframes title8 {
-    3.658536585365854%, 21.331463414634143%  {
-        opacity: 1;
-        z-index: 2;
-    }
-    28.658536585365855%  {
-        opacity: 0;
-        z-index: 2;
-    }
-    28.668536585365857%, 100%  { z-index: 0; }
+    3.658%, 21.331%  { opacity: 1; z-index: 2; }
+    28.658%  { opacity: 0; z-index: 2; }
+    28.668%, 100%  { z-index: 0; }
 }
 @keyframes description8 {
-    3.658536585365854%, 21.331463414634143%  {
-        opacity: 1;
-        z-index: 1;
-    }
-    28.658536585365855%  {
-        opacity: 0;
-        z-index: 1;
-    }
-    28.668536585365857%, 100%  { z-index: 0; }
+    3.658%, 21.331%  { opacity: 1; z-index: 1; }
+    28.658%  { opacity: 0; z-index: 1; }
+    28.668%, 100%  { z-index: 0; }
 }
 .csslider8 > #play8:checked ~ .description > .num0 > big {
     animation: title8 16400ms infinite -909.9999999999999ms ease;
@@ -382,32 +370,14 @@
     animation: description8 16400ms infinite 11640ms ease;
 }
 @keyframes title8-text {
-    2.5609756097560976%, 22.4290243902439% {
-        opacity: 0.7;
-        transform: scale(1.15);
-    }
-    3.658536585365854%, 21.331463414634143% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    0%, 28.658536585365855%  {
-        opacity: 0;
-        transform: scale(0);
-    }
+    2.560%, 22.429% { opacity: 0.7; transform: scale(1.15); }
+    3.658%, 21.331% { opacity: 1; transform: scale(1); }
+    0%, 28.658%  { opacity: 0; transform: scale(0); }
 }
 @keyframes description8-text {
-    2.5609756097560976%, 22.4290243902439% {
-        opacity: 0.7;
-        transform: scale(1.15);
-    }
-    3.658536585365854%, 21.331463414634143% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    0%, 28.658536585365855% {
-        opacity: 0;
-        transform: scale(0);
-    }
+    2.560%, 22.429% { opacity: 0.7; transform: scale(1.15);}
+    3.658%, 21.331% { opacity: 1; transform: scale(1); }
+    0%, 28.658% { opacity: 0; transform: scale(0); }
 }
 .csslider8 > #play8:checked ~ .description > .num0 > big > span {
     animation: title8-text 16400ms infinite -759.9999999999999ms ease;

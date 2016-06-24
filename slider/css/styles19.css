@@ -45,14 +45,8 @@
     transform: rotate(0deg) scale(1);
 }
 @keyframes rotate19 {
-    0%, 38.19444444444444%, 100%  {
-        opacity: 0;
-        transform: rotate(180deg) scale(7);
-    }
-    13.194444444444445%, 25%  {
-        opacity: 1;
-        transform: rotate(0deg) scale(1);
-    }
+    0%, 38.194%, 100%  { opacity: 0; transform: rotate(180deg) scale(7); }
+    13.194%, 25%  { opacity: 1; transform: rotate(0deg) scale(1); }
     0%, 24.999%  { z-index: 2; }
     25.001%, 100%  { z-index: 1; }
 }
@@ -304,17 +298,17 @@
 }
 
 @keyframes description19 {
-    3.4722222222222223%, 21.517777777777777%  {
+    3.472%, 21.517%  {
         opacity: 1;
         z-index: 1;
         transform: scale(1);
     }
-    28.47222222222222%  {
+    28.472%  {
         opacity: 0;
         z-index: 2;
         transform: scale(2);
     }
-    28.482222222222223%, 100%  { z-index: 0; }
+    28.482%, 100%  { z-index: 0; }
 }
 .csslider19 > #play19:checked ~ .description > .num0  > big {
     animation: description19 14400ms infinite -1330ms;

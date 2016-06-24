@@ -47,7 +47,7 @@
                     <div class="article-wrap">
                         <figure class="video-1" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-17"><big>22</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-22"><big>22</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>The Day Gabby Returned to Congress to Make Her Voice</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -72,7 +72,7 @@
                             </blockquote>
                         </figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-09"><big>17</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-17"><big>17</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Sunstone is an organization that brings together</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -91,7 +91,7 @@
                     <div class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-30"><big>09</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Taking Liberties, Taking Shortcuts</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -126,7 +126,7 @@
                             </div>
                         </figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-03"><big>30</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-30"><big>30</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Africa: Black & White, An Antidote For Apathy</h3>
                                 <div data-flex data-flex-480="vstripe">
@@ -145,7 +145,7 @@
                     <div class="article-wrap">
                         <figure class="video-2" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
-                            <time class="lbl lbl-date" datetime="2016-04-16"><big>03</big><small>April</small><span>2016</span></time>
+                            <time class="lbl lbl-date" datetime="2016-04-03"><big>03</big><small>April</small><span>2016</span></time>
                             <div>
                                 <h3>Behind the Lens: Photographing the President</h3>
                                 <div data-flex data-flex-480="vstripe">

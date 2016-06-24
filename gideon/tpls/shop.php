@@ -190,7 +190,7 @@
                         <a href="#">Next</a>
                     </div>
                 </div>
-                <aside class="sidebar" data-flex="-start between w">
+                <aside class="sidebar" data-flex-640="-start between w">
                     <form action="#" method="post" data-flex class="search-sidebar">
                         <input type="search" name="search" id="searchside4" placeholder="Search">
                         <button class="btn btn-search"></button>

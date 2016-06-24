@@ -145,27 +145,27 @@
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                             </div>
                             <a href="#tab2">Popular</a>
@@ -173,17 +173,17 @@
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img19.jpg" width="60" height="60" alt=""></figure>
                                     <p>Li Europan lingues es membres del sam</p>
-                                    <time>19 Oct 2016</time>
+                                    <time data-time="2016-10-19">19 Oct 2016</time>
                                 </article>
                             </div>
                         </div>
