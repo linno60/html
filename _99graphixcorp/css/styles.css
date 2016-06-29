@@ -174,7 +174,7 @@ blockquote a:active, blockquote a:hover, blockquote a:focus{
 footer{  
     flex-shrink: 0;
     background: url("/images/shadowfooter.png")no-repeat center bottom,
-        radial-gradient(ellipse closest-side, #d3efff, #d3efff calc(99% + 5px), transparent),
+        radial-gradient(ellipse closest-side, #d3efff, #d3efff 99.6%, transparent 99.7%, transparent),
         linear-gradient(white, white 152rem, #d3efff 153rem, #d3efff);
 }
 footer > .lwrap{

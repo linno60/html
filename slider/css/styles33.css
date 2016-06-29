@@ -218,8 +218,6 @@
     z-index: 1;
     left: -59px;
     top: -55px;
-}
-.csslider33 > .bullets > label > figure {
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
     border: 3px solid white;
     margin-top: -13px;
@@ -248,11 +246,12 @@
     background: #6d90d0;
     box-shadow: 0 0 0 3px rgba(255,255,255,.3);
     border: 5px solid white;
+    background-clip: content-box;
 }
 
 /*bullets moving*/
 @keyframes bullets33 {
-    0%, 24.99%	{ background: #6d90d0; box-shadow: 0 0 0 3px rgba(255,255,255,.3); border: 5px solid white; }
+    0%, 24.99%	{ background: #6d90d0; box-shadow: 0 0 0 3px rgba(255,255,255,.3); border: 5px solid white; background-clip: content-box; }
     25%, 100% { background: white; box-shadow: 0 0 0 1px white; border: 5px solid transparent; background-clip: content-box; }
 }
 .csslider33 > #play33:checked ~ .bullets > .num0 {

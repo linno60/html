@@ -28,6 +28,13 @@ figure > img{
     margin: 5px;
 }
 
+.french {
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%;
+    background: radial-gradient(red 0px, red 3px, white 4px, white 7px, blue 8px, blue 20px);
+}
+
 .creative {
     overflow: hidden;
     padding: 0px 15px;
@@ -1015,64 +1022,44 @@ figure > img{
 }
 
 /*NAV*/
-.nav{
+.nav {
+    position: relative;
     width: 50px;
     height: 50px;
-    position: relative;
+    background: lightcyan;
+    margin: 2px;
 }
-.nav input{
+#nav{
     display: none;
 }
-#open + label, #close + label{
-    opacity: 1;
-    z-index: 5;
-    width: 100%;
-    height: 100%; 
-    top: 0px;
-    left: 0px;
-    position: absolute;
-}
-#open + label{
-    background: lightcyan;
-}
-#close + label{
-    background: lightgreen;
-}
-#open:checked + label,
-#close:checked + label {   
-    z-index: -1;
-    opacity: 0;
-}
-.nav label > span,
-.nav label:after,
-.nav label:before{
-    content: "";
+.nav span,
+.nav:before,
+.nav:after {
     position: absolute;
     width: 30px;
     height: 4px;
     background: darkgreen;
     left: 10px;
     display: inline-block;
+    top: calc(50% - 2px);
+    content: '';
+    transition: transform 0.3s, opacity 0.3s;
 }
-.nav label:after{    
-    top: 13px;
+.nav:before {
+    transform: translateY(-12px);
 }
-.nav label:before{
-    top: 33px;
+.nav:after {
+    transform: translateY(12px);
 }
-.nav label > span{
-    top: 23px;
+#nav:checked + .nav span{
+    opacity: 0;
+    transform: translateX(-100%);
 }
-.nav #close + label:after {   
-    transform: rotate(-45deg);
-    top: 23px;
-}
-.nav #close + label:before {   
+#nav:checked + .nav:before {
     transform: rotate(45deg);
-    top: 23px;
 }
-.nav #close + label > span {
-    height: 0px;
+#nav:checked + .nav:after {
+    transform: rotate(-45deg);
 }
 
 /*MENU*/

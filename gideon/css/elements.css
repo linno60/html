@@ -365,7 +365,7 @@ select {
     height: 3px;
     content: "";
     border-radius: 50%;
-    margin: 6px 13rem 0px 0px;
+    margin: 6px 13rem;
     display: inline-block;
     transition: all ease .3s;
 }

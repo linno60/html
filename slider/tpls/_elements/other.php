@@ -1,4 +1,5 @@
 <div class="wrap" data-flex="-start w">
+    <div class="french"></div>    
     <a href="#" class="creative"><span data-hover="creative">creative</span></a>
     <a href="#" class="creative2" data-hover="creative">creative</a>
     <hgroup class="ribbons"><h2>I'm ribbon</h2></hgroup>
@@ -55,12 +56,8 @@
         <div id="infinity"></div>
         <div id="infinity2"></div> 
     </div>
-    <div class="nav">        
-        <input name="menu" id="open" type="radio">
-        <label for="open"><span></span></label>
-        <input name="menu" id="close" type="radio" checked="checked">
-        <label for="close"><span></span></label>       
-    </div>
+    <input type="checkbox" id="nav">
+    <label for="nav" class="nav"><span></span></label>
     <ul class="menu" data-flex>
         <a href="#" data-bubble="117">Messages</a>
         <a href="#" data-bubble="4">New Posts</a>
