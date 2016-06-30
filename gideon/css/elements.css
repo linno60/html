@@ -1,3 +1,4 @@
+/*COMMON*/
 body{
     font-size: 12px;
     font-family: Roboto Slab;
@@ -610,6 +611,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     font-size: 14px;
     padding: 5rem;
     transition: all ease .3s;
+    text-align: center;
 }
 .pagination a:last-child{
     width: auto;
@@ -691,6 +693,9 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 }
 
 /*LABELS*/
+.lbl{
+    text-align: center;
+}
 .lbl-default, .lbl-price, .lbl-sold{
     background: #ff6766;
     padding: 0px 3px;
@@ -727,7 +732,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .lbl-date > *{
     display: inline-block;
     color: black;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 5px;
 }
 .lbl-date > big{
     font-size: 36px;
@@ -757,7 +762,6 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     border-radius: 50%;
     border-radius: 50%;
     padding: 4px;
-    text-align: center;
 }
 .lbl-circle.sm{
     width: 25px;

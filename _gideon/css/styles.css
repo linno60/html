@@ -1,0 +1,73 @@
+/*COMMON*/
+.lwrap{
+    max-width: 1190px;
+    padding: 0px 10rem;
+}
+figure > img, a > img, figure > img{
+    display: block;
+    width: 100%;
+}
+body, .nav-wrap > .lwrap, .media-wrap, .review-item > article{
+    background: #f4f5f7;
+}
+header, footer, .main-product, .product-detail, .shop-cart, .shop-checkout{
+    background: white;
+}
+body{
+    display: table;
+}
+body > div{
+    display: table-row;
+    height: 100%;
+}
+
+/*HEADER*/
+
+/*top-wrap*/
+.top-wrap, .copyright{
+    background: #212121;
+}
+.top-wrap > .lwrap{
+    height: 50px;
+    position: relative;
+    padding: 10px;
+}
+.top-wrap .btn-cart{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.top-wrap .btn-cart .lbl-circle{
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*nav-wrap*/
+#logo{
+    display: block;
+    width: 193px;
+    margin: 0 auto;
+}
+.logo-wrap{
+    padding: 39rem 0px;
+}
+.nav-wrap{
+    background: url("/images/nav.png");
+}
+.nav-wrap > .lwrap{
+    max-width: 1170px;
+    padding: 0px 100px;
+}
+
+/*FOOTER*/
+.copyright > .lwrap{
+    padding: 10px 10px 10px 10px;
+}
+.copyright > .lwrap > span:first-child{
+    float: left;
+}
+.copyright > .lwrap > span:last-child{
+    float: right;
+}

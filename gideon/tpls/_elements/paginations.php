@@ -8,11 +8,11 @@
 </div>
 <div data-flex="stripe" class="thumbs" data-childs="col">
     <div>
-        <a href="#">Old Story</a>
-        <a href=""><span>Behind the Lens: Photography the President</span></a>
+        <a href="#">Previous</a>
+        <a href="#"><span>Behind the Lens: Photography the President</span></a>
     </div>
     <div>
-        <a href="#">New Story</a>
+        <a href="#">Next</a>
         <a href="#"><span>When thinking of User Esperience, we often think of a simple,</span></a>
     </div>
 </div>

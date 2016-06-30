@@ -34,7 +34,7 @@
             <td><figure><img src="/images/spoons.png" width="69" height="69" alt=""></figure></td>
             <td><span>Black Spoon</span></td>
             <td><span>$15</span></td>
-            <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
+            <td><div class="spinner" data-flex data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
             <td><span>$15</span></td>
             <td></td>
         </tr>
@@ -43,7 +43,7 @@
             <td><figure><img src="/images/clock.png" width="69" height="69" alt=""></figure></td>
             <td><span>Wall Clock</span></td>
             <td><span>$50</span></td>
-            <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
+            <td><div class="spinner" data-flex data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
             <td><span>$50</span></td>
             <td></td>
         </tr>
@@ -52,7 +52,7 @@
             <td><figure><img src="/images/eggs.png" width="69" height="69" alt=""></figure></td>
             <td><span>Egg Tray</span></td>
             <td><span>$10</span></td>
-            <td><div class="spinner" data-flex="" data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
+            <td><div class="spinner" data-flex data-childs="center -center"><a href="#">-</a><input type="number" placeholder="1"><a href="#">+</a></div></td>
             <td><span>$10</span></td>
             <td></td>
         </tr>
