@@ -2,27 +2,12 @@
 a > img:only-of-type {
     display: block;
 }
+
 /* ICONS */
 i[class^="icon-"] {
     display: inline-block;
 }
-/* BTN & LBL */
-.btn, .lbl {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-/* ACCORDION */
-.accordion {
-    display: flex;
-    flex-direction: column;
-}
-.accordion > div {
-    display: none;
-}
-.accordion > div.active {
-    display: block;
-}
+
 /* LWRAP */
 .lwrap {
     margin: 0 auto;

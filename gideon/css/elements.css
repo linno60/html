@@ -850,8 +850,6 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     align-items: flex-end;
 }
 .tabset{
-    width: 100%;
-    min-height: 50px;
     background: white;
     color: black;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);

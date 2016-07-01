@@ -3,7 +3,7 @@ body{
     font-size: 12px;
     font-family: Roboto Slab;
 }
-body, a, select, ._tabs > div > div, .tabset *{
+body, a, select, ._tabs > div > div{
     color: #858585;
 }
 ._snippet-columns{
@@ -422,7 +422,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .links-nav a{
     display: inline-block;
     padding: 25rem 3rem 32rem 3rem;
-    margin: 0px 22rem;
+    margin: 0px 30rem;
     color: #2a2a26;
     font-size: 15px;
     letter-spacing: 0.044em;
@@ -434,7 +434,8 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     border-top: 3px solid #ff6766;
 }
 .links-media a{
-    margin: 5px;
+    margin: 5px 60rem;
+    display: inline-block;
 }
 .links-follow{
     padding-bottom: 5rem;
@@ -647,13 +648,17 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     padding: 12rem 0px;
 }
 .thumbs > div:first-child{    
-    padding: 3rem 50rem 0rem 0rem;
-    float: left;
+    padding: 3rem 50rem 0rem 0rem;    
 }
 .thumbs > div:last-child{
     border-left: 1px solid black;    
     text-align: right;
-    padding: 3rem 0rem 0rem 40rem;
+    padding: 3rem 0rem 0rem 40rem;    
+}
+.thumbs > *:first-child{
+    float: left;
+}
+.thumbs > *:last-child{
     float: right;
 }
 .thumbs > div{
@@ -873,30 +878,50 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 }
 
 /*TABS*/
-.tablist a{
-   display: inline-block;
-}
-.tabset{
-    width: 100%;
-    min-height: 50px;
+.tabs > div {
+    display: none;
     background: white;
-    color: black;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
     padding: 48rem 58rem;
 }
-.tablist > a{
+.tabs input {
+    display: none;
+}
+.tabs label {    
+    font-size: 12px;
+    margin: 0px -3px -5px 0px;
     padding: 0px 5px;
     height: 49px;
     background: white;
     border: 1px solid #f1f1f1; 
-    position: relative;
-    transition: all ease .3s;
+    transition: box-shadow ease .3s, color ease .3s;
     letter-spacing: 0.05em;
     min-width: 124rem;
+    text-align: center;
+    position: relative;
 }
-.tablist > a:before{
+.tabs label:after, .tabs label{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tabs label:after{
     content: "";
-    opacity: 0;
+    height: 100%;
+}
+.tabs input:checked + label {
+    height: 55px;
+    font-size: 14px;
+    color: #212121;
+    margin: 0px -3px 0px 0px;
+    box-shadow: inset 0px 2px 0px 0px #ff6766;   
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+    display: block;
+}
+.tabs input:checked + label:before{
+    content: "";
     position: absolute;
     top: 3px;
     left: 50%;
@@ -905,44 +930,52 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     border-right: 5px solid transparent;
     border-top: 5px solid #ff6766;
     display: inline-block;
-    transition: opacity ease .3s;
 }
-.tablist > a.active, .tablist > a:active, .tablist > a:hover, .tablist > a:focus{
-    height: 55px;
-    font-size: 14px;
-    color: #212121;
-    box-shadow: inset 0px 2px 0px 0px #ff6766;
-}
-.tablist > a.active:before, .tablist > a:hover:before{
-    opacity: 1;
-}
+
 /*accordion*/
 .accordion{
     background: white;
-    width: 100%;
 }
+.accordion input {
+    display: none;
+}
+.accordion > label {
+    display: block;
+    color: #212121;
+}
+.accordion > div {
+    height: 0px;
+    overflow: hidden;
+}
+.accordion input:checked + label + div {
+    height: auto;
+}
+.accordion p{
+    font-size: 12px;
+}
+
+/*acc-radio*/
 .acc-radio{
     margin-bottom: 30rem;
 }
 .acc-radio p{
-    font-size: 12px;
     letter-spacing: 0.0365em;
 }
-.acc-radio > a{
-    display: inline-block;
-    color: #212121;
+.acc-radio > label{   
     letter-spacing: 0.11em;
     text-transform: uppercase;
     margin-bottom: 9rem;
     padding: 17px 5px 17px 73px;
     background: #f8f8f8 url(/images/icons/radio.png)no-repeat 40px 15px;
 }
-.acc-radio > a.active{
+.acc-radio > input:checked + label{
     background: #f8f8f8 url(/images/icons/radiocheck.png)no-repeat 40px 15px;
 }
-.acc-radio > div{
+.acc-radio input:checked + label + div {
     padding: 15rem 0px 32rem 0px;
 }
+
+/*acc-faqs*/
 .acc-faqs{
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
@@ -950,29 +983,20 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     margin: 5rem 0px 44rem 0px;
     max-width: 924px;
 }
-.acc-faqs > a{
+.acc-faqs > label{
     letter-spacing: 0.05em;
-    display: inline-block;
-    color: #212121;
-    font-size: 14px;
     padding: 13rem 5px 16rem 65px;
     border-top: 1px solid #f1f1f1;
     margin-bottom: 1px;
     background: url(/images/icons/open.png)no-repeat left 15px center, linear-gradient(90deg, #f1f1f1, #f1f1f1 46px, transparent 47px, transparent);
 }
-.acc-faqs > a:last-of-type{
-    margin-bottom: 0px;
-}
-.acc-faqs > a.active{
+.acc-faqs > input:checked + label{
     background: url(/images/icons/closered.png)no-repeat left 15px center, linear-gradient(90deg, #f1f1f1, #f1f1f1 46px, transparent 47px, transparent);
     margin-bottom: 0px;
 }
-.acc-faqs > div{
+.acc-faqs input:checked + label + div {
     padding: 21rem 21rem 21rem 47rem;
-    border-top: 1px solid #f1f1f1;    
-}
-.acc-faqs p{
-    font-size: 12px;
+    border-top: 1px solid #f1f1f1;
 }
 
 /*TABLES*/

@@ -53,7 +53,7 @@
     <div>
         <p>tab 5</p>
     </div>
-    <a href="#"> Configuration and then down to XML sitemap</a>
+    <a href="#">Configuration and then down to XML sitemap</a>
     <div>
         <p>tab 6</p>
     </div>

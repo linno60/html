@@ -8,14 +8,14 @@
         <figure><img src="/images/back.png" width="1903" height="478" alt=""></figure>
         <figure class='num1'>
             <img src="/images/imgsh1.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie<br> porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
             </figcaption></figure>
         <figure class='num2'>
             <img src="/images/imgsh2.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie<br> porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
@@ -23,7 +23,7 @@
         </figure>
         <figure class='num3'>
             <img src="/images/imgsh3.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie<br> porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
@@ -31,7 +31,7 @@
         </figure>
         <figure class='num4'>
             <img src="/images/imgsh4.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie<br> porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
@@ -39,7 +39,7 @@
         </figure>
         <figure class='num5'>
             <img src="/images/imgsh5.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
@@ -47,7 +47,7 @@
         </figure>
         <figure class='num6'>
             <img src="/images/imgsh6.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
@@ -55,7 +55,7 @@
         </figure>
         <figure class='num7'>
             <img src="/images/imgsh7.jpg" width="481" height="478" alt="">
-            <figcaption data-flex="vaxis">
+            <figcaption>
                 <h6>Photo&shy;graphy</h6><hr>
                 <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis</p>
                 <time>16 June 2015</time>
@@ -75,3 +75,4 @@
         <label class='num4' for='slide1-4'></label>
     </div>
 </div>
+

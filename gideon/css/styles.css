@@ -398,7 +398,6 @@ body > div{
 .lessons > .lwrap > article p:first-of-type:first-letter{
     color: #212121;
     font-size: 24px;
-    color: black;
 }
 .article-wrap > figure > .blockquote-lg{
     position: absolute;
@@ -1745,7 +1744,7 @@ header + figure > div > small{
     letter-spacing: 0.05em;
 }
 .scroll-wrap{
-    overflow: scroll;
+    overflow-y: scroll;
     height: 427px;
     margin-bottom: 55rem;
     padding-right: 22rem;
@@ -1890,6 +1889,8 @@ footer{
 .stream > a:hover:before{
     background: rgba(255,103,102,.7);
 }
+
+/*copyright*/
 .copyright, .copyright a{
     color: #ccc;
 }
