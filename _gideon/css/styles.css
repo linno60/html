@@ -31,7 +31,7 @@ body > div{
 .top-wrap > .lwrap{
     height: 50px;
     position: relative;
-    padding: 10px;
+    padding: 9px 10px;
 }
 .top-wrap .btn-cart{
     position: absolute;
@@ -59,7 +59,51 @@ body > div{
 }
 .nav-wrap > .lwrap{
     max-width: 1170px;
-    padding: 0px 30px;
+}
+/*popup*/
+.cart-popup{
+    position: absolute;
+    border-top: 4px solid #ff6766;
+    top: 87px;
+    right: 10px;
+    width: 250px;
+    background: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    padding: 10rem 13rem 20rem 20rem;
+    z-index: 100;
+    display: none;
+}
+.top-wrap .btn-cart:hover + .cart-popup, .top-wrap .btn-cart:focus + .cart-popup,.top-wrap .btn-cart + .cart-popup:hover, .top-wrap .btn-cart + .cart-popup:focus{
+    display: block;
+}
+.cart-popup:before{
+    content: "";
+    position: absolute;
+    top: -12px;
+    right: 8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #ff6766;
+}
+.cart-popup strong{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2a2a26;
+    text-align: center;
+    margin: 3rem 0px 16rem 0px;
+    letter-spacing: 0.05em;
+    display: block;
+}
+.cart-popup strong span{
+    color: #ff6766;
+}
+.cart-popup .btn-default{
+    min-width: 110px;
+    height: 32px;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    transform: translateX(50%)
 }
 
 /*SLIDER-HEADER*/
@@ -132,7 +176,6 @@ body > div{
     line-height: 22rem;
     margin-bottom: 29rem;
     font-size: 14rem;
-    max-width: 261px;
 }
 .slider-header figure > figcaption > time{
     font-style: italic;
@@ -219,10 +262,10 @@ body > div{
     font-size: 30px;
 }
 .arrowprev{
-    left: 50rem;
+    left: 41rem;
 }
 .arrownext{
-    right: 50rem;
+    right: 41rem;
 }
 .arrowprev > label{
     left: 0px;
@@ -279,7 +322,7 @@ body > div{
 .content{
     float: left;
     width: calc(77% - 32rem);
-    margin: 0px 31rem 40rem 1rem;
+    margin: 0px 31rem 52rem 1rem;
 }
 .content > .article-wrap{
     padding: 14rem 14rem 14rem 15rem;
@@ -319,13 +362,13 @@ body > div{
 }
 .article-wrap > article .details{
     padding: 20rem 20rem 0px 0px; 
-    width: 21.1%;
+    width: 21%;
     float: left;
 }
 .article-wrap > article .details + div{
     padding: 2rem 42rem 20rem 30rem;
     float: right;
-    width: 78.9%;
+    width: 79%;
     border-left: 1px solid #212121;
 }
 .article-wrap > article .details > .lbl-default{
@@ -355,11 +398,11 @@ body > div{
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
+    width: 85%;
+    transform: translate(-48%, -44%);
 }
 .soundcloud > div:first-child{
-    margin: 9rem 0px 0px 8rem;
+    margin-top: 5rem;
     float: left;
 }
 .soundcloud .btn-pause{
@@ -379,7 +422,7 @@ body > div{
     text-align: center;
 }
 .soundbar a{
-    padding: 3rem 4rem;    
+    padding: 1.5rem 4rem;    
     border-bottom: 1px solid #ccc;
     display: block;
 }
@@ -395,7 +438,7 @@ body > div{
 .sidebar > *{
     margin-bottom: 30rem;
 }
-.sidebar > div{
+.sidebar > section{
     padding: 37rem 23rem 20rem 23rem;
 }
 .sidebar > .following{
@@ -414,7 +457,7 @@ body > div{
     margin-bottom: 15rem;
     letter-spacing: 0.1em;
 }
-.sidebar > div h2{
+.sidebar > section h2{
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -508,7 +551,7 @@ body > div{
     transform: translateX(-200%);
 }
 .slider-twitter .bullets{
-    padding-bottom: 18rem;
+    padding-bottom: 17rem;
     text-align: center;
 }
 .slider-twitter .bullets label{
@@ -517,12 +560,219 @@ body > div{
     background: #ebecee;
     transition: background ease .3s;
     border-radius: 50%;
-    margin: 2px;
+    margin: 1px;
 }
 .slider-twitter > #tw1:checked ~ .bullets > .num1,
 .slider-twitter > #tw2:checked ~ .bullets > .num2,
 .slider-twitter > #tw3:checked ~ .bullets > .num3 {
     background: #ff6766; 
+}
+
+/*CATEGORY*/
+header + figure{
+    position: relative;
+}
+header + figure > figcaption{
+    position: absolute;        
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;      
+}
+header + figure > figcaption > .lwrap{
+    padding: 9rem 10rem 10rem 10rem;
+    text-align: center; 
+    height: 100%;
+}
+header + figure > figcaption > .lwrap > strong{
+    color: black;    
+    font-weight: 700;
+    font-size: 24rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;    
+}
+header + figure > figcaption > .lwrap, header + figure > figcaption > .lwrap:after{   
+   vertical-align: middle;
+}
+header + figure > figcaption > .lwrap:after{
+    height: 100%;
+    content: "";
+    display: inline-block;
+}
+header + figure > figcaption > .lwrap > strong > big{
+    font-size: 28rem;
+}
+header + figure > figcaption > .lwrap > small{
+    color: #727272;
+    font-size: 16rem;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+.category-wrap .article-wrap + .btn-alt{
+    margin-bottom: 40rem;
+    font-style: italic;
+    display: block;
+    max-width: 140px;
+    margin: 0 auto;
+}
+.category-wrap .article-wrap:last-of-type{
+    margin-bottom: 72rem;
+}
+
+/*SINGLE POST*/
+.single-post .article-wrap > article .details{
+    float: none;
+    width: 100%;
+}
+.single-post .article-wrap > article .details > *{
+    margin-right: 47rem;
+}
+.single-post .article-wrap .lbl-date + div {
+    float: left;
+    width: calc(100% - 77px - 8rem);
+}
+.single-post .article-wrap > article .details-wrap{
+    padding: 0px 0px 47rem 32rem;
+}
+.single-post .article-wrap > article h3 + hr {
+    background: #212121;
+    width: 211rem;
+    text-align: left;
+    margin: -1rem 0px 0px 0px;
+}
+.single-post .article-wrap .lbl-date{
+    margin-right: -2rem;
+    float: left;
+}
+.single-post .article-wrap > article .details > .lbl-default {
+    margin-bottom: 9rem;
+}
+.single-post .article-wrap > article{
+    max-width: 758px;
+}
+.single-post .article-wrap > article .details-wrap ~ p:first-of-type{
+    margin-bottom: 38rem;
+}
+.single-post .article-wrap > article .details-wrap ~ p:last-of-type{
+    margin-bottom: 43rem;
+}
+.single-post .article-wrap > article .details-wrap ~ p{
+    margin-bottom: 26rem;
+}
+.author{
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 30rem 0px;
+    margin-bottom: 17rem;
+}
+.author figure{
+    float: left;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    padding: 3px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.author h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 3rem 0px 9rem 0px;
+    letter-spacing: 0.05em;
+}
+.article-wrap > article .author p{
+    font-size: 13px;
+    margin-bottom: 6rem;
+    line-height: 22px;
+}
+.single-post .links-share{
+    padding: 0px 1rem 57rem 0px
+}
+.single-post .links-share > *{
+    float: right;
+}
+.links-share span{
+    color: #656565;
+    font-size: 14px;
+    margin: 16rem 15rem 0px 0px;
+    letter-spacing: 0.05em;
+}
+.comment figure{
+    float: left;
+    margin-right: 28rem;
+}
+.comment figure + div{
+    float: left;
+    width: calc(100% - 103px - 28rem);
+}
+.comment figure + div > div{
+    float: left;
+}
+.comment > .comment > div:last-child{
+    border-bottom: none;
+}
+.comment > .comment{
+    padding: 0px 0px 0px 59rem;
+}
+.comment > div{
+    padding: 33rem 0px 33rem 0px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.comment h4{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2rem 0px 5rem 0px;
+    letter-spacing: 0.05em;
+}
+.comment time{
+    color: #c5c5c5;
+    margin-bottom: 9rem;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
+.comment a{
+    color: black; 
+    margin-top: 6rem;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    float: right;
+}
+.comment a:active, .comment a:hover, .comment a:focus{
+    text-decoration: underline;
+}
+.article-wrap > article .comment p{
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 8rem;
+}
+.single-post .article-wrap h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;    
+}
+.single-post .comments-wrap h2{
+    margin-bottom: 21rem;
+}
+.single-post .comments-wrap{
+    padding: 0px 2rem 53rem 0px;
+}
+.single-post .form-comment h2{
+    margin-bottom: 55rem;
+}
+.form-comment form{
+    margin-bottom: 50rem;
+}
+.form-comment form .btn-default{
+    margin: 0 auto;
+    display: block;
+    max-width: 140px;
+}
+.single-post .article-wrap {
+    margin-bottom: 87rem;
+}
+.single-post .content-wrap{
+    padding-bottom: 28rem;
 }
 
 /*FOOTER*/
@@ -539,7 +789,6 @@ body > div{
 }
 .media-wrap > .lwrap{
     padding: 54rem 10rem;
-    max-width: 900px;
 }
 .gallery-footer{
     overflow: hidden;
@@ -550,7 +799,7 @@ body > div{
     margin: 0px 1rem;
     position: relative;
     float: left;
-    width: 19.8%;
+    width: 19.835%;
 }
 .gallery-footer figure a{
     position: absolute;
@@ -581,12 +830,20 @@ body > div{
 }
 .footer{
     max-width: 1196px;
-    padding: 83rem 10px 47rem 16px;
+    padding: 83rem 10px 47rem 16rem;
 }
 .footer > div{
-    width: 31.7%; 
-    margin-bottom: 20px;
+    width: 34.2%; 
+    padding: 0px 4px 20px 0px;
     float: left;
+}
+.footer > div:last-child{
+    padding: 0px 0px 20px 0px;
+    width: 31.65%;
+}
+.footer > div:first-child{
+    padding: 0px 11rem 20px 0px;
+    width: 34.15%;
 }
 .footer > div > h5{
     color: #212121;
@@ -599,7 +856,7 @@ body > div{
     margin-bottom: 40rem;
 }
 .footer > div:first-child > figure:first-child{
-    margin: 2rem 0px 27rem 0px;
+    margin: 2rem 0px 24rem 0px;
     display: inline-block;
 }
 .footer > div:first-child > p{
@@ -629,9 +886,12 @@ body > div{
     font-size: 11px;
     letter-spacing: 0.05em;
 }
-.stream > a{  
-    width: 22.9%;
-    margin: 2px 0px 8px 0px;
+.stream{
+    margin: -3.5px;
+    padding-top: 2rem;
+}
+.stream > a{
+    margin: 3.5px;
 }
 .stream > a, .footer > div > article > a{
     position: relative;
@@ -652,13 +912,42 @@ body > div{
 .stream > a:hover:before{
     background: rgba(255,103,102,.7);
 }
+/*copyright*/
 .copyright > .lwrap{
-    padding: 10px 10px 10px 10px;
+    padding: 28rem 7px 30rem 13rem;
 }
 .copyright > .lwrap > span:first-child{
     float: left;
-    padding-top: 10rem;
+    padding: 12rem 10px 0px 0px;
+    letter-spacing: 0.05em;
+    max-width: 69%;
 }
 .copyright > .lwrap > span:last-child{
     float: right;
+}
+.copyright, .copyright a{
+    color: #ccc;
+}
+.copyright > .lwrap > span > a:first-child{
+    text-align: right;
+    letter-spacing: 0.05em;
+}
+.copyright > .lwrap > span > a:active, .copyright > .lwrap > span > a:hover, .copyright > .lwrap > span > a:focus{
+    text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .content, .sidebar, .footer > div:first-child, .footer > div:last-child, .footer > div, .sidebar > .popular{float: none;width: 100%;}
+    .sidebar > section:not(.popular){width: 49%;}
+    .sidebar > *:nth-child(odd), .sidebar > .popular article{float: left;}
+    .sidebar > .popular article{width: 32%; margin-right: 15rem;}
+    .sidebar > *:nth-child(even){float: right;} 
+    .article-wrap > article .details{width: 25%;}
+    .article-wrap > article .details + div {width: 75%}
+    .links-media a {margin: 3.5px 60rem;}
+}
+@media (max-width: 480px) {
+    .article-wrap .lbl-date, .article-wrap .lbl-date + div, .article-wrap > article .details, .article-wrap > article .details + div{width: 100%;}
+    .lbl-date > *{display: inline-block;}    
 }

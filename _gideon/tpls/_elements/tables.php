@@ -97,3 +97,43 @@
         </tr>
     </tfoot>
 </table>
+<table class="table popup">
+    <tbody>
+        <tr>
+            <td>
+                <figure><img src="/images/spoons.png" width="69" height="69" alt=""></figure>
+            </td>
+            <td>
+                <span>Black Spoon</span>
+                <span>1 x $15</span>
+            </td>
+            <td>
+                <a href="#"><i class="icon-closepopup"></i></a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figure><img src="/images/clock.png" width="69" height="69" alt=""></figure>
+            </td>
+            <td>
+                <span>Wall Clock</span>
+                <span>1 x $50</span>
+            </td>
+            <td>
+                <a href="#"><i class="icon-closepopup"></i></a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figure><img src="/images/eggs.png" width="69" height="69" alt=""></figure>
+            </td>
+            <td>
+                <span>Egg Tray</span>
+                <span>1 x $10</span>
+            </td>
+            <td>
+                <a href="#"><i class="icon-closepopup"></i></a>
+            </td>
+        </tr>
+    </tbody>
+</table>

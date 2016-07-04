@@ -31,7 +31,7 @@
                                 <h3>I Went On The Weirdest Spring Break Trip</h3>
                                 <div>
                                     <div class="details">
-                                        <span class="lbl-default">Inspiration</span>
+                                        <span class="lbl-default">Inspira&shy;tion</span>
                                         <span class="name">Steve Smith</span>
                                     </div>
                                     <div>
@@ -164,12 +164,12 @@
                         <a href="#">New Story</a>
                     </div>
                 </div>
-                <aside class="sidebar">
+                <aside class="sidebar clearfix">
                     <form action="#" method="post" class="search-sidebar">
                         <input type="search" name="search" id="searchside1" placeholder="Search">
                         <button class="btn-search"></button>
                     </form>
-                    <div class="about-blogger">
+                    <section class="about-blogger">
                         <h2>about me</h2>
                         <figure><img src="/images/img5.jpg" width="270" height="194" alt=""><a href="#" class="btn-more"></a></figure>   
                         <article>
@@ -177,8 +177,8 @@
                             <small> - Professional blogger</small>
                             <p>Cras sit amet dui ac lectus moles&shy;tie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus</p>
                         </article>
-                    </div>
-                    <div class="following">
+                    </section>
+                    <section class="following">
                         <h2>follow me</h2>
                         <div class="links-follow">
                             <a href="#"><i class="icon-follow-tw"></i></a>
@@ -187,8 +187,8 @@
                             <a href="#"><i class="icon-follow-pin"></i></a>
                             <a href="#"><i class="icon-follow-gp"></i></a>
                         </div>
-                    </div>
-                    <div class="popular">
+                    </section>
+                    <section class="popular">
                         <h2>popular post</h2>
                         <div>
                             <article>
@@ -204,8 +204,8 @@
                                 <p>Increased font sizes are seen mostly often in headings..</p>
                             </article>
                         </div>
-                    </div>
-                    <div class="twit">
+                    </section>
+                    <section class="twit">
                         <h2>twitter</h2>
                         <div class="slider-twitter">
                             <input type="radio" name="twitter" id="tw1" checked>
@@ -234,8 +234,8 @@
                                 <label class="num3" for="tw3"></label>
                             </div>
                         </div>
-                    </div>
-                    <div class="tags">
+                    </section>
+                    <section class="tags">
                         <h2>tags</h2>
                         <div class="links-tags">
                             <a href="#">Blog</a>
@@ -250,7 +250,7 @@
                             <a href="#">Audio</a>
                             <a href="#">Post</a>
                         </div>
-                    </div>
+                    </section>
                     <figure class="banner"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                 </aside>
             </div>
