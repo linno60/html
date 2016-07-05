@@ -107,7 +107,7 @@
                             </div>
                         </article>
                     </section> 
-                    <div class="thumbs">
+                    <div class="thumbs clearfix">
                         <div>
                             <a href="#">Previous</a>
                             <a href="#"><span>Behind the Lens: Photographing the President</span></a>
@@ -142,6 +142,7 @@
                             <a href="#"><i class="icon-follow-gp"></i></a>
                         </div>
                     </section>
+                    <figure class="banner hidden"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                     <section class="popular">
                         <h2>popular post</h2>
                         <div>
@@ -165,7 +166,7 @@
                             <input type="radio" name="twitter" id="tw1" checked>
                             <input type="radio" name="twitter" id="tw2">
                             <input type="radio" name="twitter" id="tw3">
-                            <div class="slide" data-flex>
+                            <div class="slide">
                                 <blockquote class="blockquote-tw num1">
                                     <i>“</i>
                                     <q>Cras sit amet dui ac lectus molestie porttitor. Aenean sag&shy;ittis imperdiet massa.</q>

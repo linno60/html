@@ -91,9 +91,8 @@ button > *{
     background: #ff6766 url(/images/icons/cart.png)no-repeat center center;
 }
 .btn-search{
-    width: 60rem;
+    width: 60px;
     height: 49px;
-    min-width: 20px;
     background: #212121 url(/images/icons/searchwhite.png)no-repeat center center;
 }
 .btn-slide{
@@ -255,7 +254,7 @@ textarea[name=contact]{
 }
 .search-sidebar input[type=search]{
     height: 49px;
-    width: calc(100% - 60rem);
+    width: calc(100% - 60px);
     border: none;
     letter-spacing: 0.05em;
     padding: 0px 15rem;
@@ -421,7 +420,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .search-notfound input[type=search]:-ms-input-placeholder { color: #c9c9c9; }
 
 /*LINKS*/
-.links-nav, .links-follow, .links-social, .links-media{
+.links-nav, .links-follow, .links-social, .links-media, .links-socialalt{
     text-align: center;
 }
 .links-nav a{

@@ -32,7 +32,7 @@
             </figure>
             <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content" data-flex="col -center">
-                    <div class="article-wrap">
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
@@ -50,8 +50,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
@@ -69,8 +69,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
@@ -88,8 +88,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure>
                             <img src="/images/img3.jpg" width="838" height="269" alt="">
                             <blockquote class="blockquote-lg" data-flex>
@@ -113,8 +113,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
+                    </section>
                     <a href="#" class="btn btn-alt">Load More</a>
                 </div>
                 <aside class="sidebar" data-flex-640="-start between w">
@@ -140,7 +140,7 @@
                         <input type="search" name="search" id="searchside2" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
-                    <div class="categories">
+                    <section class="categories">
                         <h2>categories</h2>
                         <div class="links-categories" data-flex="col -start" data-childs="-start">
                             <a href="#">All</a>
@@ -150,8 +150,8 @@
                             <a href="#">Fashion</a>
                             <a href="#">Life Style</a>
                         </div>
-                    </div>
-                    <div class="following">
+                    </section>
+                    <section class="following">
                         <h2>follow me</h2>
                         <div class="links-follow" data-flex="center w" data-childs="center -center">
                             <a href="#"><i class="icon-follow-tw"></i></a>
@@ -160,8 +160,8 @@
                             <a href="#"><i class="icon-follow-pin"></i></a>
                             <a href="#"><i class="icon-follow-gp"></i></a>
                         </div>
-                    </div>
-                    <div class="popular">
+                    </section>
+                    <section class="popular">
                         <h2>popular post</h2>
                         <div data-flex-640="stripe">
                             <article>
@@ -207,8 +207,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tags">
+                    </section>
+                    <section class="tags">
                         <h2>tags</h2>
                         <div class="links-tags" data-flex="w" data-childs="center -center">
                             <a href="#">Blog</a>
@@ -223,7 +223,7 @@
                             <a href="#">Audio</a>
                             <a href="#">Post</a>
                         </div>
-                    </div>
+                    </section>
                     <figure class="banner"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                 </aside>
             </div>

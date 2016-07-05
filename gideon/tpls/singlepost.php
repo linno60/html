@@ -109,7 +109,7 @@
                             </div>
                         </article>
                     </div>  
-                    <div data-flex="stripe" class="pg thumbs" data-childs="col">
+                    <div data-flex="stripe" class="thumbs" data-childs="col">
                         <div>
                             <a href="#">Previous</a>
                             <a href="#"><span>Behind the Lens: Photographing the President</span></a>

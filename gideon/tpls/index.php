@@ -25,7 +25,7 @@
             <?= require_tpl('common/slider') ?>
             <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content">
-                    <div class="article-wrap">
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
@@ -43,8 +43,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure class="video-1" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-22"><big>22</big><small>April</small><span>2016</span></time>
@@ -62,8 +62,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure>
                             <img src="/images/img3.jpg" width="838" height="269" alt="">
                             <blockquote class="blockquote-lg" data-flex="">
@@ -87,8 +87,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
@@ -106,8 +106,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure>
                             <img src="/images/img11.jpg" width="838" height="209" alt="">
                             <div class="soundcloud" data-flex="center -center">
@@ -141,8 +141,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure class="video-2" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-03"><big>03</big><small>April</small><span>2016</span></time>
@@ -160,8 +160,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div data-flex="stripe" class="thumbs pg">
+                    </section>
+                    <div data-flex="stripe" class="thumbs">
                         <a href="#">Old Story</a>
                         <a href="#">New Story</a>
                     </div>
@@ -171,7 +171,7 @@
                         <input type="search" name="search" id="searchside1" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
-                    <div class="about-blogger">
+                    <section class="about-blogger">
                         <h2>about me</h2>
                         <figure><img src="/images/img5.jpg" width="270" height="194" alt=""><a href="#" class="btn btn-more"></a></figure>   
                         <article data-flex="vaxis">
@@ -179,8 +179,8 @@
                             <small> - Professional blogger</small>
                             <p>Cras sit amet dui ac lectus moles&shy;tie porttitor. Aenean sagittis im&shy;perdiet massa. Nam est lacus</p>
                         </article>
-                    </div>
-                    <div class="following">
+                    </section>
+                    <section class="following">
                         <h2>follow me</h2>
                         <div class="links-follow" data-flex="center w" data-childs="center -center">
                             <a href="#"><i class="icon-follow-tw"></i></a>
@@ -189,8 +189,8 @@
                             <a href="#"><i class="icon-follow-pin"></i></a>
                             <a href="#"><i class="icon-follow-gp"></i></a>
                         </div>
-                    </div>
-                    <div class="popular">
+                    </section>
+                    <section class="popular">
                         <h2>popular post</h2>
                         <div data-flex-640="stripe">
                             <article>
@@ -206,8 +206,8 @@
                                 <p>Increased font sizes are seen mostly often in headings..</p>
                             </article>
                         </div>
-                    </div>
-                    <div class="twit">
+                    </section>
+                    <section class="twit">
                         <h2>twitter</h2>
                         <div class="slider-twitter">
                             <input type="radio" name="twitter" id="tw1" checked>
@@ -236,8 +236,8 @@
                                 <label class="num3" for="tw3"></label>
                             </div>
                         </div>
-                    </div>
-                    <div class="tags">
+                    </section>
+                    <section class="tags">
                         <h2>tags</h2>
                         <div class="links-tags" data-flex="w" data-childs="center -center">
                             <a href="#">Blog</a>
@@ -252,7 +252,7 @@
                             <a href="#">Audio</a>
                             <a href="#">Post</a>
                         </div>
-                    </div>
+                    </section>
                     <figure class="banner"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                 </aside>
             </div>

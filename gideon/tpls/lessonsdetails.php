@@ -24,7 +24,7 @@
             <?= require_tpl('common/header') ?>
             <?= require_tpl('common/slider') ?>
             <div class="lwrap">
-                <div data-flex="stripe w" data-flex-800="vstripe">
+                <section data-flex="stripe w" data-flex-800="vstripe">
                     <article>
                         <div data-flex="axis w">
                             <h2>Improving Search Engine optimization (SEO)</h2>
@@ -33,7 +33,7 @@
                         <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. At nos hinc posthac, sitientis piros Afros. At nos hinc posthac, sitientis piros Afros. Magna pars studiorum, prodita quaerimus. commodi consequat. &nbsp;Cras mattis iudi&shy;cium purus sit amet fermentum. &nbsp;Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam &nbsp;est lacus, &nbsp;consequat vita eil semper tris&shy;tique, temp us in magna. At nos hinc posthac, sitientis piros Afros. At noshinc posthac, sitientis piros Afros. Magna pars.</p>
                     </article>                   
                     <div class="video"><figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure></div>                   
-                    <div>
+                    <div class="article-wrap">
                         <h3>Improving search engine optimization (SEO)</h3>
                         <p>Cras sit amet dui ac lectus molestie porttitor. Aenean user ratings, and media galleries; and push content to Twitter and Facebook. The course also covers transitioning from a Drupal Gardens.</p>
                         <span><small>$</small><big>25</big></span>
@@ -46,8 +46,8 @@
                             <span><i class="icon-watch"></i><span>1hr 20 mins</span></span>
                         </div>
                     </div>
-                </div>
-                <div class="tabs" data-tabs>
+                </section>
+                <section class="tabs" data-tabs>
                     <div class="tablist">
                         <a href="#tab1" class="active">Lessons Details</a>
                         <a href="#tab2">Transcripts</a>
@@ -203,7 +203,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
         <footer>

@@ -24,14 +24,16 @@
             <?= require_tpl('common/header') ?>
             <figure>
                 <img src="/images/imgcategory.jpg" width="1903" height="250" alt="">
-                <div data-flex="col -center around">
-                    <strong>search:<big> inspiration</big></strong>
-                    <small>3 results found for "Inspiration"</small>
-                </div>
+                <figcaption data-flex="col -center around">
+                    <div class="lwrap">
+                        <strong>search:<big> inspiration</big></strong>
+                        <small>3 results found for "Inspiration"</small>
+                    </div>
+                </figcaption>
             </figure>
             <div class="lwrap content-wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content">
-                    <div class="article-wrap">
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-16"><big>16</big><small>April</small><span>2016</span></time>
@@ -49,8 +51,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure class="video-1" data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/J6ytVPNXy4A" frameborder="0" allowfullscreen></iframe></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-22"><big>22</big><small>April</small><span>2016</span></time>
@@ -68,8 +70,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure>
                             <img src="/images/img3.jpg" width="838" height="269" alt="">
                             <blockquote class="blockquote-lg" data-flex="">
@@ -93,8 +95,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div class="article-wrap">
+                    </section>
+                    <section class="article-wrap">
                         <figure><img src="/images/img2.jpg" width="838" height="388" alt=""></figure>
                         <article data-flex="-start" data-flex-480="vstripe">
                             <time class="lbl lbl-date" datetime="2016-04-09"><big>09</big><small>April</small><span>2016</span></time>
@@ -112,8 +114,8 @@
                                 </div>
                             </div>
                         </article>
-                    </div>
-                    <div data-flex="stripe" class="thumbs pg" data-childs="col">
+                    </section>
+                    <div data-flex="stripe" class="thumbs" data-childs="col">
                         <a href="#">Old Story</a>
                         <a href="#">New Story</a>
                     </div>
@@ -123,7 +125,7 @@
                         <input type="search" name="search" id="searchside3" placeholder="Search">
                         <button class="btn btn-search"></button>
                     </form>
-                    <div class="categories">
+                    <section class="categories">
                         <h2>categories</h2>
                         <div class="links-categories" data-flex="col -start" data-childs="-start">
                             <a href="#">All</a>
@@ -133,8 +135,8 @@
                             <a href="#">Fashion</a>
                             <a href="#">Life Style</a>
                         </div>
-                    </div>
-                    <div class="tabs" data-tabs>
+                    </section>
+                    <section class="tabs" data-tabs>
                         <div class="tablist">
                             <a href="#tab1" class="active">Recent</a>
                             <a href="#tab2">Popular</a>
@@ -187,8 +189,8 @@
                                 </article>
                             </div>
                         </div>
-                    </div>
-                    <div class="twit">
+                    </section>
+                    <section class="twit">
                         <h2>twitter</h2>
                         <div class="slider-twitter">
                             <input type="radio" name="twitter" id="tw1" checked>
@@ -217,7 +219,7 @@
                                 <label class="num3" for="tw3"></label>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </aside>
             </div>
         </div>

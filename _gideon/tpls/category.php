@@ -159,9 +159,10 @@
                             <a href="#"><i class="icon-follow-gp"></i></a>
                         </div>
                     </section>
+                    <figure class="banner hidden"><img src="/images/img24.jpg" width="270" height="225" alt=""></figure>
                     <section class="popular">
                         <h2>popular post</h2>
-                        <div>
+                        <div class="clearfix">
                             <article>
                                 <figure><img src="/images/img12.jpg" width="222" height="194" alt=""></figure>
                                 <p>How The New York Times web page uses uniquely typography</p>
