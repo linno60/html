@@ -24,7 +24,7 @@
             <?= require_tpl('common/header') ?>
             <div>
                 <div class="lwrap">
-                    <div data-flex="-start between w" data-flex-480="vstripe">
+                    <section data-flex="-start between w" data-flex-480="vstripe">
                         <form action="#" method="post" data-flex="stripe w">
                             <h4>Billing Details</h4>
                             <select class="select-checkout" id="selectcountry2">
@@ -65,8 +65,8 @@
                             <input name="checkout" id="i18" class="half" type="tel" placeholder="Phone">
                             <textarea name="checkout" id="t1" placeholder="Note about your order, Eg, Special nots for your delivery"></textarea>
                         </form>
-                    </div>
-                    <div data-flex="col -center">
+                    </section>
+                    <section data-flex="col -center">
                         <table class="table extend">
                             <caption>billing details</caption>
                             <thead>
@@ -117,7 +117,7 @@
                             <div>Tab number 3</div>
                         </div>
                         <a href="#" class="btn btn-default">Place Order</a>
-                    </div>
+                    </section>
                 </div>
             </div>            
         </div>

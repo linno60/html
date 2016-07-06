@@ -825,6 +825,7 @@ header + figure > figcaption > .lwrap > small{
 }
 .skills{
     text-align: center;
+    margin: 0px -20rem;
 }
 .skills > div{
     margin-bottom: 20px;    
@@ -932,7 +933,345 @@ header + figure > figcaption > .lwrap > small{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -61%);
+}
+
+/*CONTACT*/
+.contact .article-wrap{
+    margin-bottom: 80rem;
+}
+.contact-details{
+    border-bottom: 1px solid rgba(223,223,223,.5);
+    font-size: 14px;
+    line-height: 24px;
+    display: table;
+    width: 100%;
+}
+.contact-details > div > i{
+    margin-bottom: 15rem;
+}
+.contact-details > div{
+    width: calc(100% / 3);
+    border-left: 1px solid rgba(223,223,223,.5);
+    text-align: center;
+    padding: 129rem 5px 152rem 5px;
+    letter-spacing: 0.05em;  
+    display: table-cell;
+}
+.contact-details > div:first-child{
+    border-left: none;
+}
+.contact-details > div > span, .contact-details > div > a{
+    display: inline-block;
+}
+.contact .article-wrap > figure{
+    padding: 20rem 20rem 0px 20rem;
+    margin-bottom: 0px;
+}
+.contact .article-wrap {
+    padding: 0rem;
+}
+.contact-details address{
+    font-style: normal;
+}
+.contact-details a:active, .contact-details a:hover, .contact-details a:focus{
+    text-decoration: underline;
+}
+.contact .article-wrap form > div{
+    max-width: 770px;
+    margin: 0 auto; 
+    text-align: center;
+}
+.contact .article-wrap form{
+    padding: 77rem 10px 66rem 10px;
+}
+.contact .article-wrap form input{
+    width: 48%;
+}
+.contact .article-wrap form input:nth-child(odd){
+    float: left;
+}
+.contact .article-wrap form input:nth-child(even){
+    float: right;
+}
+.contact .article-wrap form .btn-default{
+    min-width: 160rem;
+}
+
+/*SHOP*/
+.shop > .lwrap{
+    padding: 60rem 10rem 56rem 10rem;
+}
+.main-product > .lwrap{
+    padding: 81rem 10rem 50rem 10rem;
+}
+.main-product > .lwrap figure{
+    margin-bottom: 28rem;
+}
+.main-product > .lwrap > figure{
+    width: 48.9%;
+    float: left;
+}
+.main-product > .lwrap > div{
+    width: 48.8%;
+    float: right;
+}
+.main-product > .lwrap > figure > .btn-default{
+    position: absolute;
+    right: 23rem;
+    bottom: 21rem;
+}
+.main-product > .lwrap > div > figure{
+    width: 47.25%;
+}
+.main-product > .lwrap > div > figure:nth-child(odd){
+    float: left;
+}
+.main-product > .lwrap > div > figure:nth-child(even){
+    float: right;
+}
+.main-product figure{
+    position: relative;
+}
+.main-product > .lwrap > div > figure > figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.0);
+    padding: 15rem 5rem 23rem 5rem;
+    transition: background ease .3s;    
+}
+.main-product > .lwrap > div > figure > figcaption:hover{
+    background: rgba(0,0,0,.7);
+}
+.main-product > .lwrap > div > figure > figcaption:before{
+    content: "";
+}
+.main-product > .lwrap > div > figure > figcaption span{
+    color: white;
+    font-size: 18rem;
+    margin-bottom: 23rem;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.main-product figcaption:hover .btn-default{
+    background: #ff6766;
+}
+.main-product figcaption .btn-plus, .main-product figcaption span{
+    transform: scale(0);
+    opacity: 0;
+    transition: all ease .3s;
+}
+.main-product figcaption:hover .btn-plus, .main-product figcaption:hover span{
+    transform: scale(1);
+    opacity: 1;
+}
+.shop .sorting{
+    margin-bottom: 42rem;
+}
+.shop .sorting > .select-sorting{
+    float: left;
+}
+.shop .sorting > span{
+    display: inline-block;
+    padding-bottom: 5rem;
+    letter-spacing: 0.1em;
+    text-align: right;
+    float: right;
+}
+.shop .content > .products{
+    padding-bottom: 24rem;
+    margin-bottom: 46rem;
+    border-bottom: 1px solid rgba(42,42,38,.1);
+}
+.products > figure {
+    float:left;
+    width: 31.2%;
+    margin-bottom:1em;
+    position: relative;
+    margin-bottom: 31rem;
+}
+.products > figure:nth-of-type(3n+1) {
+    margin-right: 10px;
+}
+.products > figure:nth-of-type(3n+2) {
+    margin: 0px 5px;
+}
+.products > figure:nth-of-type(3n+3) {
+    margin-left: 10px;
+}
+.products > figure:nth-of-type(3n+4) {
+    clear: left;
+}
+.products > figure .lbl-sold{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.products > figure > img{
+    height: calc(100% - 100px);
+}
+.products > figure > img + div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% - 100px);
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: opacity ease .3s;
+}
+.products > figure > img + div:hover{
+    opacity: 1;
+}
+.products > figure > figcaption{
+    height: 100px;
+    color: #212121;
+    font-size: 16px;
+    padding: 12px 5px 5px 5px;
+}
+.products > figure > figcaption > *{
+    display: block;
+    text-align: center;
+}
+.products > figure > figcaption > span{
+    margin-bottom: 8rem;
+}
+.products > figure > div > .btn-overlay{
+    margin: 7rem;
+}
+.products > figure > img:hover + div{
+    opacity: 1;
+}
+.hdr{    
+    border-bottom: 1px solid rgba(42,42,38,.1);
+    padding-bottom: 15rem;
+    margin-bottom: 27rem;        
+}
+.hdr h3{
+    float: left;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.hdr .btn-expand{
+    float: right;
+}
+.expand:checked ~ *:not(.hdr){
+    height: 0px;
+    overflow: hidden;
+}
+.expand:checked + .hdr{
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.all:checked ~ label{
+    opacity: .7;
+    pointer-events: none;
+    color: #858585;
+}
+.all:checked ~ label:before{
+    background: #858585;
+    background-clip: content-box;
+    box-shadow: 0px 0px 0px 1px #858585;
+}
+.all:checked + label:before{
+    background: #ff6766;
+    box-shadow: 0px 0px 0px 1px #ff6766;
+    background-clip: content-box;
+}
+.all:checked + label{
+    opacity: 1;
+    pointer-events: auto;
+}
+.shop + footer .footer-title {
+    padding: 49rem 10px 52rem 10px;
+}
+.shop + footer .footer-title h2{
+    letter-spacing: 0.1em;
+}
+.shop .sidebar > section{
+    margin-bottom: 33rem;
+    padding: 25rem 23rem 29rem 31rem;
+}
+.shop .search-sidebar{
+    margin-bottom: 41rem;
+}
+.shop .search-sidebar input[type=search], .shop .btn-search {
+    height: 42px;
+}
+.shop .search-sidebar input[type=search] {
+    color: black;
+    font-size: 14px;
+}
+.shop .search-sidebar input[type=search]::-webkit-input-placeholder { color: #212121; }
+.shop .search-sidebar input[type=search]::-moz-placeholder { color: #212121; }
+.shop .search-sidebar input[type=search]:-ms-input-placeholder { color: #212121; }
+#slider-snap + .btn-default{
+    min-width: 86px;
+    padding: 0px 5px;
+    height: 30px;
+    margin-bottom: 7rem;
+}
+.shop .sidebar > .rating{
+    padding-bottom: 11rem;
+}
+.rating .hdr{
+    margin-bottom: 24rem;
+}
+.shop .sidebar > .discount {
+    padding-bottom: 17rem;
+}
+.shop .sidebar > .availability-wrap {
+    padding-bottom: 27rem;
+}
+.discount .hdr, .availability-wrap .hdr{
+    margin-bottom: 19rem;
+}
+.rating .check + label:before{
+    margin: -1rem 19rem 13rem 13rem;
+}
+
+/*price-wrap*/
+.price-wrap{
+    text-align: center;
+}
+#slider-snap{
+    height: 5px;
+    width: 100%;
+    margin: 24rem 0px 28rem 0px;
+}
+.example-val, .example-val + span{
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+}
+.noUi-horizontal .noUi-handle {
+    background: #2a2a26;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 3px #ff6766;
+    background-clip: content-box;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transition: all ease .3s;
+    left: 0px;
+    top: -4px;
+}
+.noUi-target {
+    box-shadow: none;
+    border: none;
+    background: #e2e5ec;
+    border-radius: 0px;
+}
+.noUi-handle:before, .noUi-handle:after{
+    display: none;
 }
 
 /*FOOTER*/
@@ -1123,6 +1462,7 @@ header + figure > figcaption > .lwrap > small{
     .gallery-footer figure{width: calc(25% - 3px);}
     .soundcloud{width: 98%; transform: translate(-50%, -47%);}
     .article-wrap > article .details + div{border-left: none;}
+    .skills > div{width: 47%;}
 }
 @media (max-width: 480px) {
     .article-wrap .lbl-date, .article-wrap .lbl-date + div, .article-wrap > article .details, .article-wrap > article .details + div, .sidebar > .search-sidebar, .single-post .article-wrap .lbl-date + div{width: 100%;}

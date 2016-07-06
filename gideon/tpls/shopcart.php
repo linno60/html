@@ -24,7 +24,7 @@
             <?= require_tpl('common/header') ?>
             <div>
                 <div class="lwrap">
-                    <div>
+                    <section>
                         <table class="table cart">
                             <thead>
                                 <tr>
@@ -89,8 +89,8 @@
                                 <button><span class="btn btn-default">Proceed to Checkout</span></button>
                             </div>
                         </form>
-                    </div>
-                    <div data-flex="stripe" class="total-wrap" data-flex-480="vstripe">
+                    </section>
+                    <section data-flex="stripe" class="total-wrap" data-flex-480="vstripe">
                         <div>
                             <h2 class="title-shopcart">Calculate Shipping</h2>
                             <form action="#" method="post" data-flex="col">
@@ -127,7 +127,7 @@
                                 </tfoot>
                             </table>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>            
         </div>

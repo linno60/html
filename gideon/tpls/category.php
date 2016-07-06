@@ -24,7 +24,7 @@
             <?= require_tpl('common/header') ?>
             <figure>
                 <img src="/images/imgcategory.jpg" width="1903" height="250" alt="">
-                <figcaption data-flex="col -center around">
+                <figcaption data-flex="-center">
                     <div class="lwrap">
                         <strong><big>photography</big></strong>
                     </div>

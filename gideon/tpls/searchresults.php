@@ -24,8 +24,8 @@
             <?= require_tpl('common/header') ?>
             <figure>
                 <img src="/images/imgcategory.jpg" width="1903" height="250" alt="">
-                <figcaption data-flex="col -center around">
-                    <div class="lwrap">
+                <figcaption data-flex="-center">
+                    <div class="lwrap" data-flex="col -center around">
                         <strong>search:<big> inspiration</big></strong>
                         <small>3 results found for "Inspiration"</small>
                     </div>

@@ -264,7 +264,6 @@
             <?= require_tpl('common/footer') ?>             
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
-        <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
     </body>
 </html>

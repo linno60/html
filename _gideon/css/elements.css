@@ -228,7 +228,7 @@ textarea[name=post]{
 textarea[name=contact]{
     height: 248px;
     padding: 18rem 25rem;   
-    margin-bottom: 30rem;
+    margin-bottom: 27rem;
 }
 .search-header{
     float: left;
@@ -354,7 +354,7 @@ select {
 }
 .check + label{
     font-size: 14px;
-    margin-bottom: 5px;
+    display: block;
     transition: color ease .3s;
     margin-bottom: 9rem;
     letter-spacing: 0.06em;
@@ -622,7 +622,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 
 /*PAGINATIONS*/
 .pagination{
-    margin: 0 auto;
+    text-align: center;
 }
 .pagination a{
     width: 49px;

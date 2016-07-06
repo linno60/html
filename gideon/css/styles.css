@@ -1406,7 +1406,7 @@ header + figure > figcaption > .lwrap > small{
 .shop-cart > div > .lwrap{
     padding: 80rem 10rem 0px 10rem;
 }
-.shop-cart > div > .lwrap > div{
+.shop-cart > div > .lwrap > section{
     border-bottom: 1px solid rgba(33,33,33,.1);
     margin-bottom: 55rem;
     padding-bottom: 50rem;
@@ -1464,14 +1464,14 @@ header + figure > figcaption > .lwrap > small{
     padding: 73rem 10rem 100rem 10rem;
     border-bottom: 1px solid rgba(33,33,33,.1);
 }
-.shop-checkout > div > .lwrap > div:first-child > form{
+.shop-checkout > div > .lwrap > section:first-child > form{
     width: 48.8%;
     margin-bottom: 64rem;
 }
-.shop-checkout > div > .lwrap > div > form > span{
+.shop-checkout > div > .lwrap > section > form > span{
     padding-top: 7rem;
 }
-.shop-checkout > div > .lwrap > div > form > span > label{
+.shop-checkout > div > .lwrap > section > form > span > label{
     font-size: 13px;
     margin-left: 11rem;
     letter-spacing: 0.03em;
@@ -1578,20 +1578,19 @@ header + figure > figcaption > .lwrap > small{
     padding: 60rem 0px 25rem 0px;
     width: 100%;
 }
-.lessons .grid article{
+.lessons .grid .article-wrap{
     width: 31.55%;
-    background: white;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     margin-bottom: 43rem;
 }
-.lessons .grid article > figure{
+.lessons .grid .article-wrap > figure{
     position: relative;
+    margin-bottom: 0px;
 }
-.lessons .grid article > div{
+.lessons .grid .article-wrap > div{
     padding: 16rem 12rem 12rem 12rem;  
     flex-grow: 1;
 }
-.lessons .grid article > div > div:first-child{
+.lessons .grid .article-wrap > div > div:first-child{
     padding: 0px 8rem;
     flex-grow: 1;
 }
@@ -1609,23 +1608,23 @@ header + figure > figcaption > .lwrap > small{
 .info > span{
     margin: 5px;
 }
-.lessons .grid article h5{
+.lessons .grid .article-wrap h5{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 5rem;
     letter-spacing: 0.025em;
 }
-.lessons .grid article p{
+.lessons .grid .article-wrap p{
     font-size: 13px;
     line-height: 18px;
     margin-bottom: 10rem;
     letter-spacing: 0.03em;
 }
-.lessons .grid article h5 a{
+.lessons .grid .article-wrap h5 a{
     color: #212121;
 }
-.lessons .grid article h5 a:active, .lessons .grid article h5 a:hover, .lessons .grid article h5 a:focus{
+.lessons .grid .article-wrap h5 a:active, .lessons .grid .article-wrap h5 a:hover, .lessons .grid .article-wrap h5 a:focus{
     text-decoration: underline;
 }
 .grid + .btn-default{
@@ -1935,8 +1934,8 @@ footer{
     header + figure > div > small{font-size: 9px;}
     header + figure > div > strong > big {font-size: 15px;}
     header + figure > div > strong {font-size: 12px;}
-    .lessons .grid article{width: 48%;}
-    .lessons .grid article.hidden{display: none;}
+    .lessons .grid .article-wrap{width: 48%;}
+    .lessons .grid .article-wrap.hidden{display: none;}
     .skills > div{width: 46%;}
 }
 @media (max-width: 480px) {

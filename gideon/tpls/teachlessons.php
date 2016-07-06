@@ -29,7 +29,7 @@
                     <p>Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor. Aenean sagittis imperdiet massa. Aenean sagittis imperdiet massa. Nam est lacus, consequat vita eil semper tristique, temp us in magna.</p>
                 </article>
                 <div class="grid" data-flex="stripe w" data-flex-800="around w" data-childs="col">
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img20.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$15</span></figure>                        
                         <div data-flex="col between"> 
                             <div>
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img21.jpg" width="370" height="237" alt=""><span class="lbl lbl-price free">free</span></figure>
                         <div data-flex="col between">                            
                             <div>                                
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img20.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$35</span></figure>                        
                         <div data-flex="col between">                            
                             <div>                                
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img21.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$22</span></figure>
                         <div data-flex="col between">                            
                             <div>                                
@@ -85,7 +85,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img20.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$25</span></figure>                        
                         <div data-flex="col between">                            
                             <div>                                
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img21.jpg" width="370" height="237" alt=""><span class="lbl lbl-price free">free</span></figure>
                         <div data-flex="col between">                           
                             <div>  
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img20.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$30</span></figure>                        
                         <div data-flex="col between">
                             <div>                               
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                     </article>
-                    <article>
+                    <article class="article-wrap">
                         <figure><img src="/images/img21.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$35</span></figure>
                         <div data-flex="col between">                            
                             <div>                                
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="hidden">
+                    <article class="article-wrap hidden">
                         <figure><img src="/images/img20.jpg" width="370" height="237" alt=""><span class="lbl lbl-price">$40</span></figure>                        
                         <div data-flex="col between">                            
                             <div>                                

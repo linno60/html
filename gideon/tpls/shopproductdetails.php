@@ -22,7 +22,7 @@
     <body data-flex="col">
         <div class="shop-product-details">
             <?= require_tpl('common/header') ?>
-            <div class="product-detail">
+            <section class="product-detail">
                 <div class="lwrap" data-flex="stripe" data-flex-640="vstripe">
                     <div class="main">
                         <figure><span class="lbl lbl-circle lg">15% Off</span><img src="/images/main.png" width="571" height="478" alt=""></figure>
@@ -69,8 +69,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="lwrap tabwrap">
+            </section>
+            <section class="lwrap tabwrap">
                 <div class="tabs" data-tabs>
                     <div class="tablist">
                         <a href="#tab1" class="active">Description</a>
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
         <footer>
             <div class="lwrap footer-title" data-flex="center -center">
