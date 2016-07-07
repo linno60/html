@@ -21,11 +21,10 @@
     <body>
         <div class="shop">
             <?= require_tpl('common/header') ?>
-            <?= require_tpl('common/slider') ?>
             <div class="main-product">
                 <div class="lwrap clearfix">
                     <figure><img src="/images/img14.jpg" width="571" height="677" alt=""><a href="#" class="btn-default">Shop Now</a></figure>
-                    <div>
+                    <div class="clearfix">
                         <figure>
                             <img src="/images/img13.jpg" width="270" height="3318" alt="">
                             <figcaption>
@@ -58,18 +57,18 @@
                         </figure>
                         <figure>
                             <img src="/images/img17.jpg" width="270" height="329" alt="">
-                            <figcaption data-flex="vaxis" data-childs="col -center">
+                            <figcaption>
                                 <div>
                                     <span>Wooden Spoon</span>
                                     <a href="#" class="btn-plus"></a>
                                 </div>
                                 <a href="#" class="btn-default">Shop Now</a>
                             </figcaption>
-                        </figure>
+                        </figure>                        
                     </div>
                 </div> 
             </div>
-            <div class="lwrap">
+            <div class="lwrap clearfix">
                 <div class="content">
                     <div class="sorting clearfix">
                         <select class="select-sorting">
@@ -85,32 +84,40 @@
                         <figure>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Black Metal Spoon Set</span><mark>$120</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Inhouse Planter</span><mark>$85</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Portable Books Shelf</span><mark>$45</mark></figcaption>
                         </figure>                       
                         <figure>
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
                             <div>                                
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Creative Pen Set</span><mark>$25</mark></figcaption>
                         </figure>
@@ -118,64 +125,80 @@
                             <span class="lbl-sold">Sold Out</span>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Wooden Egg Stand</span><mark>$55</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Polythine Text Bag</span><mark>$15</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>                            
                             <figcaption><span>Carry Bottles Stand</span><mark>$33</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Black & White Watch</span><mark>$15</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Chandlier Lights</span><mark>$15</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Wall Mount Lights</span><mark>$25</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img1.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>WHite Wall Clock</span><mark>$55</mark></figcaption>
                         </figure>
                         <figure>
                             <img src="/images/img4.jpg" width="271" height="359" alt="">
                             <div>
-                                <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
-                                <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                <div class="overlay">
+                                    <a href="#" class="btn-overlay"><i class="icon-zoom"></i></a>
+                                    <a href="#" class="btn-overlay"><i class="icon-heart"></i></a>
+                                </div>
                             </div>
                             <figcaption><span>Power LED Lights</span><mark>$45</mark></figcaption>
                         </figure>
@@ -228,7 +251,7 @@
                         <form  action="#" method="post">
                             <div>
                                 <span class="example-val" id="slider-snap-value-lower"></span>                              
-                                <span>&nbsp;-&nbsp;</span>
+                                <span> - </span>
                                 <span class="example-val" id="slider-snap-value-upper"></span>
                             </div>
                             <div id="slider-snap"></div>
@@ -324,9 +347,9 @@
         </div>
         <footer>
             <div class="lwrap footer-title">
-                <h2>follow me on instagram</h2>
+                <h2>popular items</h2>
             </div>
-            <?= require_tpl('common/gallery') ?>
+            <?= require_tpl('common/galleryalt') ?>
             <?= require_tpl('common/footer') ?>             
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>

@@ -599,7 +599,7 @@ header + figure > figcaption > .lwrap > strong{
     letter-spacing: 0.1em;    
 }
 header + figure > figcaption > .lwrap, header + figure > figcaption > .lwrap:after{   
-   vertical-align: middle;
+    vertical-align: middle;
 }
 header + figure > figcaption > .lwrap:after{
     height: 100%;
@@ -1000,13 +1000,14 @@ header + figure > figcaption > .lwrap > small{
 
 /*SHOP*/
 .shop > .lwrap{
-    padding: 60rem 10rem 56rem 10rem;
+    padding: 60rem 10rem 44rem 10rem;
 }
+/*main product*/
 .main-product > .lwrap{
-    padding: 81rem 10rem 50rem 10rem;
+    padding: 81rem 10rem 48rem 10rem;
 }
 .main-product > .lwrap figure{
-    margin-bottom: 28rem;
+    margin-bottom: 30rem;
 }
 .main-product > .lwrap > figure{
     width: 48.9%;
@@ -1016,11 +1017,6 @@ header + figure > figcaption > .lwrap > small{
     width: 48.8%;
     float: right;
 }
-.main-product > .lwrap > figure > .btn-default{
-    position: absolute;
-    right: 23rem;
-    bottom: 21rem;
-}
 .main-product > .lwrap > div > figure{
     width: 47.25%;
 }
@@ -1029,6 +1025,11 @@ header + figure > figcaption > .lwrap > small{
 }
 .main-product > .lwrap > div > figure:nth-child(even){
     float: right;
+}
+.main-product > .lwrap > figure > .btn-default{
+    position: absolute;
+    right: 23rem;
+    bottom: 21rem;
 }
 .main-product figure{
     position: relative;
@@ -1040,22 +1041,35 @@ header + figure > figcaption > .lwrap > small{
     height: 100%;
     width: 100%;
     background: rgba(0,0,0,.0);
-    padding: 15rem 5rem 23rem 5rem;
-    transition: background ease .3s;    
+    padding: 5rem 5rem 65px 5rem;
+    transition: background ease .3s;
+    text-align: center;
+}
+.main-product > .lwrap > div > figure > figcaption > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-product > .lwrap > div > figure > figcaption:before{
+    display: inline-block;
+    vertical-align: middle;
+    height: 104%;
+    content: "";
 }
 .main-product > .lwrap > div > figure > figcaption:hover{
     background: rgba(0,0,0,.7);
 }
-.main-product > .lwrap > div > figure > figcaption:before{
-    content: "";
-}
 .main-product > .lwrap > div > figure > figcaption span{
     color: white;
     font-size: 18rem;
-    margin-bottom: 23rem;
-    display: inline-block;
+    margin-bottom: 23rem;    
     text-align: center;
     letter-spacing: 0.05em;
+}
+.main-product figcaption .btn-default{
+    position: absolute;
+    left: 50%;
+    bottom: 21rem;
+    transform: translateX(-50%);
 }
 .main-product figcaption:hover .btn-default{
     background: #ff6766;
@@ -1064,23 +1078,28 @@ header + figure > figcaption > .lwrap > small{
     transform: scale(0);
     opacity: 0;
     transition: all ease .3s;
+    display: block;
+    margin: 0 auto;
 }
 .main-product figcaption:hover .btn-plus, .main-product figcaption:hover span{
     transform: scale(1);
     opacity: 1;
 }
+/*products*/
 .shop .sorting{
     margin-bottom: 42rem;
 }
 .shop .sorting > .select-sorting{
     float: left;
+    width: 48%;
 }
 .shop .sorting > span{
     display: inline-block;
-    padding-bottom: 5rem;
+    padding-top: 11rem;
     letter-spacing: 0.1em;
     text-align: right;
     float: right;
+    width: 48%;
 }
 .shop .content > .products{
     padding-bottom: 24rem;
@@ -1092,16 +1111,16 @@ header + figure > figcaption > .lwrap > small{
     width: 31.2%;
     margin-bottom:1em;
     position: relative;
-    margin-bottom: 31rem;
+    margin-bottom: 10px;
 }
 .products > figure:nth-of-type(3n+1) {
-    margin-right: 10px;
+    margin-right: 15rem;
 }
 .products > figure:nth-of-type(3n+2) {
-    margin: 0px 5px;
+    margin: 0px 12.5rem;
 }
 .products > figure:nth-of-type(3n+3) {
-    margin-left: 10px;
+    margin-left: 15rem;
 }
 .products > figure:nth-of-type(3n+4) {
     clear: left;
@@ -1119,29 +1138,42 @@ header + figure > figcaption > .lwrap > small{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 121px);
     background: rgba(0,0,0,.7);
     opacity: 0;
     transition: opacity ease .3s;
+    text-align: center;
+}
+.products > figure > img + div:after{
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    content: "";
+}
+.products .overlay{
+    vertical-align: middle;
+    display: inline-block;
 }
 .products > figure > img + div:hover{
     opacity: 1;
 }
 .products > figure > figcaption{
-    height: 100px;
+    height: 121px;
     color: #212121;
     font-size: 16px;
-    padding: 12px 5px 5px 5px;
+    padding: 29rem 5px 5px 5px;
 }
 .products > figure > figcaption > *{
     display: block;
     text-align: center;
+    text-overflow: ellipsis;
 }
 .products > figure > figcaption > span{
     margin-bottom: 8rem;
 }
-.products > figure > div > .btn-overlay{
-    margin: 7rem;
+.products > figure > div .btn-overlay{
+    margin: 14rem auto;
+    display: block;
 }
 .products > figure > img:hover + div{
     opacity: 1;
@@ -1161,6 +1193,7 @@ header + figure > figcaption > .lwrap > small{
 }
 .hdr .btn-expand{
     float: right;
+    margin-top: 3rem;
 }
 .expand:checked ~ *:not(.hdr){
     height: 0px;
@@ -1223,7 +1256,7 @@ header + figure > figcaption > .lwrap > small{
     padding-bottom: 11rem;
 }
 .rating .hdr{
-    margin-bottom: 24rem;
+    margin-bottom: 21rem;
 }
 .shop .sidebar > .discount {
     padding-bottom: 17rem;
@@ -1235,7 +1268,7 @@ header + figure > figcaption > .lwrap > small{
     margin-bottom: 19rem;
 }
 .rating .check + label:before{
-    margin: -1rem 19rem 13rem 13rem;
+    margin: 0rem 19rem 5rem 13rem;
 }
 
 /*price-wrap*/
@@ -1272,6 +1305,274 @@ header + figure > figcaption > .lwrap > small{
 }
 .noUi-handle:before, .noUi-handle:after{
     display: none;
+}
+
+/*SHOP PRODUCT DETAILS*/
+.product-detail > .lwrap{
+    padding: 80rem 10px 60rem 10px;
+}
+.product-detail > .lwrap > .main{
+    width: 48.75%;
+    float: left;
+}
+.product-detail > .lwrap > .detail{
+    width: 48.6%;
+    float: right;
+}
+.product-detail .main > figure{
+    margin-bottom: 32rem;
+    position: relative;
+}
+.product-detail .main > div > figure{
+    float: left;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.product-detail .main > div > figure:nth-of-type(3n+1) {
+    margin-right: 15rem;
+}
+.product-detail .main > div > figure:nth-of-type(3n+2) {
+    margin: 0px 12.5rem;
+}
+.product-detail .main > div > figure:nth-of-type(3n+3) {
+    margin-left: 15rem;
+}
+.product-detail .main > div > figure:nth-of-type(3n+4) {
+    clear: left;
+}
+.product-detail .main > figure > .lbl-circle{
+    position: absolute;
+    right: 23rem;
+    top: 32rem;
+}
+.product-detail .detail > *:not(:last-child){
+    border-bottom: 1px dashed rgba(133,133,133,.5);
+}
+.product-detail .detail > h2{
+    color: #212121;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+.product-detail .detail p{
+    margin-bottom: 34rem;
+}
+.sub-details{
+    padding: 13rem 0px 12rem 0px;
+}
+.sub-details > figure{
+    display: inline-block;
+    float: left;
+}
+.sub-details > div{
+    float: right;
+    width: 60%;
+}
+.sub-details > div > *{
+    float: right;
+}
+.sub-details a{
+    margin: 3px 0px 0px 33rem;
+    letter-spacing: 0.05em;    
+}
+.sub-details a:active, .sub-details a:hover, .sub-details a:focus{
+    text-decoration: underline;
+}
+.write{    
+    padding: 4px 0px 0px 35px;
+    background: url(/images/icons/penb.png)no-repeat left 3px;
+}
+.wishlist{
+    padding: 4px 0px 0px 25px;
+    background: url(/images/icons/heartb.png)no-repeat left 3px;
+}
+.price{
+    padding: 37rem 0px 43rem 0px;
+}
+.price > div{
+    float: left;
+    width: 48%;
+}
+.price > form{
+    float: right;
+    width: 48%;
+    margin-top: 8rem;
+}
+.price > form > *{
+    float: right;
+}
+.price big{
+    color: #212121;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    margin-right: 8rem;
+}
+.price small{
+    font-size: 14px;
+    margin-bottom: 8rem;
+    letter-spacing: 0.05em;
+}
+.price .counter{
+    margin-left: 13rem;
+}
+.price form label{
+    font-size: 12px;
+    padding-top: 5px;
+    letter-spacing: 0.05em;
+}
+.add{
+    padding: 33rem 0px 37rem 0px;
+}
+.add > span{
+    max-width: 70px;
+    text-align: right;
+    line-height: 18px;
+    display: inline-block;
+    padding-top: 3rem;
+    letter-spacing: 0.05em;
+    float: right;
+}
+.add > div{
+    float: left;
+    width: 70%;
+}
+.add > div > .btn-default{
+    margin: 4rem 3rem 0px 0px;
+}
+.availability{
+    padding: 29rem 0px;
+    margin-bottom: 40rem;
+}
+.product-detail .btn-default{
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.availability input[type=password]{
+    margin: 5px 17rem 5px 0px;
+}
+.availability label{
+    background: url(/images/icons/locationsm.png)no-repeat 1px top;
+    letter-spacing: 0.05em;
+    padding: 2px 16rem 5px 39px;
+}
+.availability label i{
+    margin: 2rem 20rem 0rem 1px;
+}
+.tabwrap{
+    padding: 70rem 10rem 80rem 10rem;
+}
+.tabwrap .tablist > a{
+    min-width: 124rem;
+    letter-spacing: 0.05em;
+}
+.tabs .form-review{
+    padding: 45rem 11rem 35rem 11rem;
+}
+.tabs p{
+    margin-bottom: 22rem;
+}
+.tabs h3{
+    color: #212121;
+    font-size: 16px;
+    font-weight: 400;
+    margin: -3rem 0rem 17rem 13rem;
+    letter-spacing: 0.05em;
+}
+.form-review h3{
+    margin: 0rem 0rem 21rem 2rem;
+}
+.form-review h3 + span{
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin-bottom: 22rem;
+    display: inline-block;
+}
+.form-review h3 + span > figure{
+    display: inline-block;
+}
+.ftr-details{
+    border-top: 1px dashed #858585;
+    border-bottom: 1px dashed #858585;
+    padding: 17rem 0px 18rem 0px;
+    margin: 25rem 5rem 11rem 0px;
+}
+.ftr-details > .links-marks, .ftr-details > .links-sharesm{
+    width: 48%;
+}
+.ftr-details > .links-marks{
+    float: left;
+}
+.ftr-details > .links-sharesm{
+    float: right;
+    margin-right: -10rem;
+}
+.shop-product-details + footer .footer-title, .shop-cart + footer .footer-title, .shop-checkout + footer .footer-title, .lessondetails + footer .footer-title{
+    padding: 53rem 10px 48rem 10px;
+}
+.shop-product-details + footer .footer-title h2, .shop-cart + footer .footer-title h2, .shop-checkout + footer .footer-title h2, .lessondetails + footer .footer-title {
+    letter-spacing: 0.105em;
+}
+.review-item{
+    margin-bottom: 31rem;
+}
+.review-item a{
+    margin-top: 14rem;
+    letter-spacing: 0.1em;
+    display: block;
+}
+.review-item > div{
+    float: left;
+    text-align: center;
+    min-width: 120rem;
+    margin: 26rem 22rem 0px 0px;
+}
+.review-item > article{
+    float: left;
+    padding: 22rem 40rem 3rem 37rem;
+}
+.review-item > article > div{
+    margin-bottom: 11rem;
+}
+.review-item > article > div > figure{
+    display: inline-block;
+    float: left;
+}
+.review-item > article > div > time{
+    letter-spacing: 0.02em;
+    padding-top: 2rem;
+    display: inline-block;
+    float: right;
+}
+.review-item > article p{
+    max-width: 800px;
+}
+.tabs fieldset{
+    width: 48.5%;
+}
+.tabs fieldset:nth-child(odd){
+    float: left;
+}
+.tabs fieldset:nth-child(even){
+    float: right;
+}
+.tabs input[name=contact], .tabs textarea[name=contact]{
+    border: 1px solid rgba(49, 49, 49, 0.25);
+}
+.tabs textarea[name=contact]{
+    max-width: 100%;
+}
+.form-review label{
+    margin-bottom: 6rem;
+    letter-spacing: 0.05em;
+}
+.form-review > div > div{
+    width: 100%;
+}
+.form-review .btn-default{
+    font-size: 14px;
+    letter-spacing: 0.04em;
 }
 
 /*FOOTER*/
@@ -1465,7 +1766,8 @@ header + figure > figcaption > .lwrap > small{
     .skills > div{width: 47%;}
 }
 @media (max-width: 480px) {
-    .article-wrap .lbl-date, .article-wrap .lbl-date + div, .article-wrap > article .details, .article-wrap > article .details + div, .sidebar > .search-sidebar, .single-post .article-wrap .lbl-date + div{width: 100%;}
+    .article-wrap .lbl-date, .article-wrap .lbl-date + div, .article-wrap > article .details, .article-wrap > article .details + div, .sidebar > .search-sidebar,
+    .product-detail > .lwrap > .detail, .product-detail > .lwrap > .main, .single-post .article-wrap .lbl-date + div{width: 100%;}
     .lbl-date > *{display: inline-block;} 
     .article-wrap > figure > .blockquote-lg {padding: 45rem;}
     .gallery-footer figure.hidden-sm{display: none;}

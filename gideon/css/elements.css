@@ -448,6 +448,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .links-sharesm span{
     font-size: 15px;
     padding-right: 6rem;
+    color: #212121;
 }
 .links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"]{
     transition: background ease .3s;
@@ -717,6 +718,8 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .lbl-sold{
     min-width: 90rem;
     height: 42px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
 }
 .lbl-price.free{
     font-size: 14px;

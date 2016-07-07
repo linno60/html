@@ -19,15 +19,15 @@ mark{
     color: #ff6676;
 }
 *[class^="btn-"], *[class^="btn-"]:after, *[class^="lbl-"], *[class^="lbl-"]:after, .spinner > *, .spinner a:after, .links-tags a, .links-tags a:after, 
-.pagination a, .pagination a:after{
+.pagination a, .pagination a:after, .tabs > label:after, .tabs > label{
     display: inline-block;
     vertical-align: middle;
 }
-*[class^="btn-"], *[class^="lbl-"], .spinner > *, .links-tags a, .pagination a{
+*[class^="btn-"], *[class^="lbl-"], .spinner > *, .links-tags a, .pagination a, .tabs > label{
     text-align: center;
 }
-*[class^="btn-"]:after, *[class^="lbl-"]:after, .spinner a:after, .links-tags a:after, .pagination a:after{
-    height: 100%;
+*[class^="btn-"]:after, *[class^="lbl-"]:after, .spinner a:after, .links-tags a:after, .pagination a:after, .tabs > label:after{
+    height: 110%;
     content: "";
 }
 
@@ -182,7 +182,7 @@ input[name=review]{
 }
 textarea[name=review]{
     height: 162px;
-    margin-bottom: 30rem;
+    margin-bottom: 27rem;
     padding: 10px;
 }
 input[name=checkout]{
@@ -356,7 +356,7 @@ select {
     font-size: 14px;
     display: block;
     transition: color ease .3s;
-    margin-bottom: 9rem;
+    margin-bottom: 11rem;
     letter-spacing: 0.06em;
 }
 .check:checked + label, .check + label:hover{
@@ -456,16 +456,17 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     transition: border-color ease .3s, background ease .3s;
     border-radius: 50%;
 }
-.links-sharesm{
-    margin: 3px -9.5rem 0px 0px;
+.links-sharesm > *{
+    float: right;
 }
 .links-sharesm a{
-    margin: 9.5rem;
+    margin: 8rem;
     display: inline-block;
 }
 .links-sharesm span{
     font-size: 15px;
     padding-right: 6rem;
+    color: #212121;
 }
 .links-follow a > i[class^="icon-"], .links-share a > i[class^="icon-"]{
     transition: background ease .3s;
@@ -611,7 +612,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .links-marks{
     background: url(/images/icons/mark.png)no-repeat left 7px;
     font-size: 13px;
-    padding: 5px 5px 5px 31px;
+    padding: 6rem 0px 0px 31px;
 }
 .links-marks a{
     letter-spacing: 0.06em;
@@ -743,6 +744,8 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 .lbl-sold{
     min-width: 90rem;
     height: 42px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
 }
 .lbl-price.free{
     font-size: 14px;
@@ -885,10 +888,10 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
     padding: 48rem 58rem;
 }
-.tabs input {
+.tabs > input {
     display: none;
 }
-.tabs label {    
+.tabs > label {    
     font-size: 12px;
     margin: 0px -3px -5px 0px;
     padding: 0px 5px;
@@ -898,18 +901,9 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
     transition: box-shadow ease .3s, color ease .3s;
     letter-spacing: 0.05em;
     min-width: 124rem;
-    text-align: center;
     position: relative;
 }
-.tabs label:after, .tabs label{
-    display: inline-block;
-    vertical-align: middle;
-}
-.tabs label:after{
-    content: "";
-    height: 100%;
-}
-.tabs input:checked + label {
+.tabs > input:checked + label {
     height: 55px;
     font-size: 14px;
     color: #212121;
@@ -921,7 +915,7 @@ input[name=password]:-ms-input-placeholder { color: #bbb; }
 #tab3:checked ~ #content3 {
     display: block;
 }
-.tabs input:checked + label:before{
+.tabs > input:checked + label:before{
     content: "";
     position: absolute;
     top: 3px;

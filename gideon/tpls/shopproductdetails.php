@@ -106,7 +106,7 @@
                         </div>
                         <div id="tab2" class="tabpanel">Tab number 2</div>
                         <div id="tab3" class="tabpanel">
-                            <div>
+                            <section>
                                 <h3>Reviews of Modern Wooden Spoon</h3>
                                 <div class="review-item" data-flex>
                                     <div data-flex="col -center">
@@ -134,7 +134,7 @@
                                         <p>Nam est lacus, consequat vita eil semper tristique, temp us in magna. Nullam sit amet metus eget dolor semper laoreet. Cras sit amet dui ac lectus molestie porttitor.</p>
                                     </article>
                                 </div>
-                            </div>
+                            </section>
                             <form action="#" method="post" class="form-review">
                                 <h3>Write a Review</h3>
                                 <span data-flex="-start w">Rate it:&ensp;<figure><img src="/images/stars2.png" width="87" height="15" alt=""></figure></span>
