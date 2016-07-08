@@ -1531,12 +1531,14 @@ header + figure > figcaption > .lwrap > small{
 .review-item > article{
     float: left;
     padding: 22rem 40rem 3rem 37rem;
+    width: calc(100% - 154rem);
 }
 .review-item > article > div{
     margin-bottom: 11rem;
 }
 .review-item > article > div > figure{
     display: inline-block;
+    margin-top: 2rem;
     float: left;
 }
 .review-item > article > div > time{
@@ -1575,6 +1577,38 @@ header + figure > figcaption > .lwrap > small{
     letter-spacing: 0.04em;
 }
 
+/*SHOP CART*/
+.shop-cart .table.cart + form > div{
+    width: 48%;
+}
+.shop-cart .table.cart + form > div > *, .shop-cart .table.cart + form > div > * > *{
+    height: 50px;
+}
+.shop-cart .table.cart + form > div:first-child, .shop-cart .table.cart + form > div:first-child > *{
+    float: left;
+}
+.shop-cart .table.cart + form > div:last-child, .shop-cart .table.cart + form > div:last-child > *{
+    float: right;
+}
+.total-wrap > div{
+    width: 48%;
+}
+.shop-cart .table.cart + form > div:first-child > *{
+    margin: 0px 5px 5px 0px;
+}
+.shop-cart .table.cart + form > div:last-child > *{
+    margin: 0px 0px 5px 5px;    
+}
+.shop-cart .table.cart + form input[name=checkout]{
+    width: 50%;   
+}
+.total-wrap > div:first-child{
+    float: left;
+}
+.total-wrap > div:last-child{
+    float: right;
+}
+
 /*FOOTER*/
 .footer-title{
     padding: 54rem 10px 55rem 10px;
@@ -1605,10 +1639,12 @@ header + figure > figcaption > .lwrap > small{
     position: absolute;
     width: 100%;
     height: 100%;
+    padding: 5px;
     left: 0px;
     top: 0px;
+    text-align: center;
     color: transparent;
-    transform: scale(0);
+    transform: scale(1);
     transition: all ease .3s;
     background: transparent;
 }
@@ -1617,9 +1653,17 @@ header + figure > figcaption > .lwrap > small{
     color: white;
     transform: scale(1);
 }
+.gallery-footer figure a > div, .gallery-footer figure a:after{
+    display: inline-block;
+    vertical-align: middle;
+}
+.gallery-footer figure a:after{
+    content: "";
+    height: 100%;
+}
 .gallery-footer figure a span{
     font-size: 18rem;
-    display: inline-block;
+    display: block;
     margin-bottom: 5rem;
     text-align: center;
 }
