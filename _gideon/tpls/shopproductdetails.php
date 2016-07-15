@@ -180,7 +180,31 @@
             </div>
             <?= require_tpl('common/galleryalt') ?>
             <?= require_tpl('common/footer') ?>             
-        </footer>
+        </footer> 
+        <script>
+            var userName = prompt("Who's come?", '');
+
+            if (userName == "Admin") {
+
+                var pass = prompt("Enter password", '');
+
+                if (pass == "Black Lord") {
+                    alert("Welcome");
+                }
+                else if (pass == null) {
+                    alert("Entry canceled");
+                }
+                else {
+                    alert("password incorrect");
+                }
+            }
+            else if (userName == null) {
+                alert("Entry canceled");
+            }
+            else {
+                alert("I don't know you");
+            }
+        </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>
     </body>

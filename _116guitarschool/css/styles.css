@@ -1,0 +1,162 @@
+/*COMMON*/
+figure > img, a > img, figure > iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 1200px;
+}
+body{
+    background: #f8f9fb;
+}
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+p{
+    color: #616161;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+/*HEADER*/
+header{
+    position: relative;
+}
+header > .lwrap{
+    padding: 10rem 10px 10rem 10px;
+}
+.nav{
+    background: #032f3e;
+    box-shadow: 0 18px 29px rgba(0, 0, 0, 0.44);
+}
+header .contacts{
+    border-left: 1px solid #d5d5d5;
+}
+header .contacts > div{
+    border-right: 1px solid #d5d5d5;
+    padding: 5rem 10rem;
+}
+header .contacts a{
+    color: #032f3e;
+    font-family: Lato;
+    font-size: 18px;
+}
+header .contacts > div > i{
+    margin-right: 5rem;
+}
+
+/*SLIDER*/
+
+/*SERVICES*/
+.services-wrap, .projects, .testimonials, hgroup{
+    text-align: center;
+}
+.services-items h4{
+    color: #032f3e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.services-items > div{
+    max-width: 186px;
+    padding: 0px 5px 20px 5px;
+}
+
+/*LESSONS*/
+.lessons{
+    background: #032f3e;
+}
+.lessons hgroup{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.lessons hgroup h2{
+    font-size: 70px;
+}
+.lessons hgroup h3{
+    font-weight: 100;
+}
+
+/*TESTIMONIALS*/
+.testimonials{
+    background: url("/images/bg.png");
+}
+.testimonials .lwrap{
+    padding: 40rem 10px 40rem 10px;
+}
+.slider-cites figure{
+ border-radius: 50%;
+ overflow: hidden;
+    border: 3px solid #ab987a;
+}
+
+/*MAP*/
+.map > figure{
+    height: 655rem;
+}
+
+/*FOOTER*/
+footer{
+    background: #0d3542;
+    flex-shrink: 0;
+}
+footer, footer a, footer p{
+    color: white;
+}
+footer address{
+    font-style: normal;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 20rem;
+}
+footer > .lwrap{
+    padding: 20rem 10px 20rem 10px;
+}
+footer > .lwrap > div{
+    width: 30%;
+    margin-bottom: 20px;
+}
+footer > .lwrap > div .hr{
+    text-align: left;
+}
+footer > .lwrap > div h4{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer article time{
+    color: #ab987a;
+font-family: Lato;
+text-transform: uppercase;
+}
+footer article h6{
+    font-weight: 700;
+text-transform: uppercase;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+footer ul li{
+    margin-bottom: 10rem;
+}
+.copyright{
+    background: #032f3e;
+}
+.copyright .lwrap{
+    padding: 20rem 10px 20rem 10px;
+}
+.copyright span{
+    color: #5f737a;
+    font-size: 14px;
+    font-weight: 300;
+}
