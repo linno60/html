@@ -5,7 +5,7 @@ body{
 
 /*LINKS*/
 .links-socialhdr a{
-    margin: 5px;
+    margin: 5rem 15rem;
 }
 .links-nav{
     border-left: 1px solid #0d3948;
@@ -17,8 +17,9 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     flex-grow: 1;
-    height: 50px;
+    height: 100px;
     padding: 0px 5px;
+    letter-spacing: 0.1em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #ab987a;
@@ -36,6 +37,9 @@ body{
     background: #ab987a;
     border-color: #ab987a;
 }
+.links-controlssm{
+    padding: 28rem 0px 25rem 0px;
+}
 .links-controlssm > div > a{
     border: 3px solid #dadcdc;
 }
@@ -51,7 +55,7 @@ body{
     margin: 5px;
 }
 .links-socialftr a{
-    margin: 5px;
+    margin: 5px 17px;
 }
 
 /*BTNS*/
@@ -112,6 +116,9 @@ blockquote q{
     font-size: 18px;
     font-weight: 300;
     font-style: italic;
+    line-height: 29px;
+    max-width: 800px;
+    margin-bottom: 29rem;
 }
 blockquote cite {
     font-style: normal;
@@ -120,6 +127,7 @@ blockquote cite strong{
     color: #032f3e;
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 13rem;
 }
 blockquote cite small{
     color: #ab987a;
@@ -129,7 +137,8 @@ blockquote cite small{
 
 /*LISTS*/
 .list-lessons{
-    max-width: 400px;
+    max-width: 600px;
+    padding: 84rem 21rem;
 }
 .list-lessons li{
     color: white;
@@ -137,7 +146,7 @@ blockquote cite small{
     font-weight: 700;
     line-height: 29px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 5rem;
 }
 .list-lessons li:not(:last-child):after{
     content: "";
@@ -145,10 +154,10 @@ blockquote cite small{
     width: 1px;
     height: 58px;
     background: #d5d5d5;
-    margin: 5px 0px 0px 20px;
+    margin: 12rem 0px 0px 22rem;
 }
 .list-lessons li > span > i{
-    margin-right: 10px;
+    margin: 7rem 41rem 0px 0px;
     flex-shrink: 0;
 }
 
@@ -201,9 +210,11 @@ blockquote cite small{
     height: 2px;
     background: #ab987a;
     display: inline-block;
+    margin-bottom: 28rem;
 }
 .hdr{
     text-align: center;
+    margin-bottom: 20rem;
     color: #032f3e;
     font-size: 26px;
     font-weight: 700;

@@ -93,22 +93,122 @@
                     </ul>
                 </div>
             </section>
-            <section class="lwrap projects">
-                <h2 class="hdr">our projects</h2>
-                <hr class="hr">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
-                <div>
-                    
+            <section class="projects-wrap">
+                <div class="lwrap">
+                    <h2 class="hdr">our projects</h2>
+                    <hr class="hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
                 </div>
-                <div>
-                    
+                <div class="project-main">
+                    <div class="lwrap" data-flex="stripe">
+                        <div>
+                            <figure><img src="/images/img2.jpg" width="770" height="569" alt=""></figure>
+                            <div class="links-controlssm" data-flex="axis">
+                                <a href="#"><i class="icon-sliderprev"></i></a>
+                                <div data-flex="center -center">
+                                    <a href="#"></a>
+                                    <a href="#" class="active"></a>
+                                    <a href="#"></a>
+                                </div>
+                                <a href="#"><i class="icon-slidernext"></i></a>
+                            </div>
+                        </div>
+                        <article>
+                            <h3>lorem ipsum dolor sit amet, consec tetur adipscing elit.</h3>
+                            <hr class="hr">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
+                            <a href="#" class="btn btn-default alt">go to project</a>
+                            <div class="links-share" data-flex="-center w">
+                                <span>share:</span>
+                                <a href="#"><i class="icon-sharefb"></i></a>
+                                <a href="#"><i class="icon-sharetw"></i></a>
+                                <a href="#"><i class="icon-sharegp"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="lwrap">
+                    <div data-flex="stripe">
+                        <figure><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                    </div>
                 </div>
             </section>
             <section class="action">
-                
+                <div class="lwrap" data-flex="axis">
+                    <div data-flex>
+                        <i class="icon-skypelogo"></i>
+                        <span>
+                            <strong>call us on skype!</strong><br>
+                            <small>and learn how to play guitar</small>
+                        </span>
+                    </div>
+                    <div data-flex="end w">
+                        <a href="#" class="btn btn-default alt">more details</a>
+                        <a href="#" class="btn btn-default alt">choose your plan</a>
+                    </div>
+                </div>
             </section>
-            <section class="news">
-                
+            <section class="news lwrap" data-flex="vaxis">
+                <article>
+                    <h3 class="hdr">latest news</h3>
+                    <hr class="hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
+                </article>
+                <div data-flex="stripe">
+                    <article class="news-main">
+                        <figure><img src="/images/img6.jpg" width="570" height="187" alt=""></figure>
+                        <h3>lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing</h3>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis elit et elit interdum semper vel nec diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis elit et elit interdum semper vel nec diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </article>
+                    <div class="news-slider" data-flex="stripe">
+                        <div data-childs="stripe">
+                            <article>
+                                <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
+                                <div>
+                                    <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                    <span>guitar lessons</span>
+                                </div>
+                                <div data-flex="col -end">
+                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
+                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span>/<span>09</span></time></div>
+                                </div>
+                            </article>
+                            <article>
+                                <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
+                                <div>
+                                    <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                    <span>guitar lessons</span>
+                                </div>
+                                <div data-flex="col -end">
+                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
+                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span>/<span>09</span></time></div>
+                                </div>
+                            </article>
+                            <article>
+                                <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
+                                <div>
+                                    <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                    <span>guitar lessons</span>
+                                </div>
+                                <div data-flex="col -end">
+                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
+                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span>/<span>09</span></time></div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="links-controlslg" data-flex="vaxis">
+                            <a href="#"><i class="icon-sliderup"></i></a>
+                            <div data-flex="vaxis">
+                                <a href="#"></a>
+                                <a href="#" class="active"></a>
+                                <a href="#"></a>
+                            </div>
+                            <a href="#"><i class="icon-sliderdown"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-default">all articles</a>
             </section>
             <section class="testimonials">
                 <div class="lwrap">
@@ -116,15 +216,19 @@
                         <h2 class="hdr">testimonials</h2>
                         <hr class="hr">
                     </hgroup>
-                    <div class="slider-cites" data-flex="vaxis">
-                        <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
+                    <div class="slider-cites" data-flex="axis">
+                        <a href="#" class="btn btn-default"><i class="icon-prevsm"></i></a>
+                        <div data-flex="vaxis">
+                           <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
                         <blockquote data-flex="vaxis">
                             <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
                             <cite data-flex="vaxis">
                                 <strong>Andreea Koronikova</strong>
                                 <small>Music Teacher</small>
                             </cite>
-                        </blockquote>
+                        </blockquote> 
+                        </div>
+                        <a href="#" class="btn btn-default"><i class="icon-nextsm"></i></a>
                     </div>
                 </div>
             </section>
@@ -153,13 +257,13 @@
                     <h4>latest news</h4>
                     <hr class="hr">
                     <article>
-                        <time>02.08.2016</time>
-                        <h6><a href="#">lorem tempor odio tellus</a></h6>
+                        <time>02.08.2015</time>
+                        <h6><a href="#">etiam tempor odio tellus</a></h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus.</p>
                     </article>
                     <article>
-                        <time>02.08.2016</time>
-                        <h6><a href="#">lorem tempor odio tellus</a></h6>
+                        <time>02.08.2015</time>
+                        <h6><a href="#">etiam tempor odio tellus</a></h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus.</p>
                     </article>
                 </div>
