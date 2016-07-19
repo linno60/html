@@ -47,21 +47,22 @@
                     <nav class="links-nav lwrap" data-flex="stripe w" data-childs="center -center">
                         <a href="#" class="active">home</a>
                         <a href="#">about us</a>
-                        <a href="#">lessons</a>
-                        <a href="#">portfolio</a>
+                        <a href="#">les&shy;sons</a>
+                        <a href="#">port&shy;folio</a>
                         <a href="#">blog</a>
-                        <a href="#">contact</a>
+                        <a href="#">con&shy;tact</a>
                     </nav>
                 </div> 
             </header>
-            <section>
+            <section class="slider-wrap">
                 <figure><img src="/images/img1.jpg" width="1920" height="863" alt=""></figure>
-            </section>
+                <div class="wave"><div></div></div>
+            </section>           
             <section class="lwrap services-wrap">
                 <h2 class="hdr">services</h2>
                 <hr class="hr">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
-                <div class="services-items" data-flex="stripe w">
+                <div class="services-items" data-flex="stripe w" data-flex-640="around w">
                     <div>
                         <div class="lbl lbl-circle"><i class="icon-microphone"></i></div>
                         <h4>recording services</h4>
@@ -100,8 +101,9 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
                 </div>
                 <div class="project-main">
-                    <div class="lwrap" data-flex="stripe">
-                        <div>
+                    <div class="lwrap clearfix" data-flex-480="col">
+                        <a href="#" class="btn btn-close"></a>
+                        <div data-flex="vaxis">
                             <figure><img src="/images/img2.jpg" width="770" height="569" alt=""></figure>
                             <div class="links-controlssm" data-flex="axis">
                                 <a href="#"><i class="icon-sliderprev"></i></a>
@@ -114,10 +116,16 @@
                             </div>
                         </div>
                         <article>
-                            <h3>lorem ipsum dolor sit amet, consec tetur adipscing elit.</h3>
-                            <hr class="hr">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
-                            <a href="#" class="btn btn-default alt">go to project</a>
+                            <div>
+                                <div data-flex="-start between w">
+                                    <a href="#" class="link">shows</a>
+                                    <time  datetime="2015-08-21">21-08-2015</time>
+                                </div>
+                                <h3>lorem ipsum dolor sit amet, consec tetur adipiscing elit.</h3>
+                                <hr class="hr">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
+                                <a href="#" class="btn btn-default alt">go to project</a>
+                            </div>
                             <div class="links-share" data-flex="-center w">
                                 <span>share:</span>
                                 <a href="#"><i class="icon-sharefb"></i></a>
@@ -128,21 +136,30 @@
                     </div>
                 </div>
                 <div class="lwrap">
-                    <div data-flex="stripe">
-                        <figure><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                    <div class="gallery" data-flex="stripe w">
+                        <figure><a href="#" class="link alt">music</a><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                        <div data-flex="vstripe">
+                            <figure><a href="#" class="link alt">rock</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                            <figure><a href="#" class="link alt">shows</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                        </div>
+                        <figure><a href="#" class="link alt">lessons</a><img src="/images/img5.jpg" width="253" height="199" alt=""></figure>
+                    </div>
+                    <div class="arrows" data-flex="end">
+                        <a href="#" class="btn btn-default prev"></a>
+                        <a href="#" class="btn btn-default next"></a>
                     </div>
                 </div>
             </section>
             <section class="action">
-                <div class="lwrap" data-flex="axis">
-                    <div data-flex>
+                <div class="lwrap" data-flex="axis w">
+                    <div data-flex="-center">
                         <i class="icon-skypelogo"></i>
                         <span>
                             <strong>call us on skype!</strong><br>
                             <small>and learn how to play guitar</small>
                         </span>
                     </div>
-                    <div data-flex="end w">
+                    <div data-flex="end w" data-flex-480="around w">
                         <a href="#" class="btn btn-default alt">more details</a>
                         <a href="#" class="btn btn-default alt">choose your plan</a>
                     </div>
@@ -154,50 +171,62 @@
                     <hr class="hr">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
                 </article>
-                <div data-flex="stripe">
+                <div data-flex="between -start">
                     <article class="news-main">
-                        <figure><img src="/images/img6.jpg" width="570" height="187" alt=""></figure>
-                        <h3>lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing</h3>
-                        <hr class="hr">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis elit et elit interdum semper vel nec diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis elit et elit interdum semper vel nec diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <figure>
+                            <img src="/images/img6.jpg" width="570" height="187" alt="">
+                            <div data-flex="col -end">
+                                <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
+                                <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span> / <span>09</span></time></div>
+                            </div>
+                        </figure>
+                        <div>
+                            <h4>lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing.</h4>
+                            <hr class="hr">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis elit et elit interdum semper vel nec diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis elit et elit interdum semper vel nec diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                            <div data-flex="stripe">
+                                <a href="#" class="link">guitar lessons</a>
+                                <a href="#"><i class="icon-circlenext"></i></a>
+                            </div>
+                        </div>
                     </article>
                     <div class="news-slider" data-flex="stripe">
-                        <div data-childs="stripe">
+                        <div data-childs="between -start">
                             <article>
                                 <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
                                 <div>
                                     <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                    <span>guitar lessons</span>
+                                    <a href="#" class="link">guitar lessons</a>
                                 </div>
                                 <div data-flex="col -end">
-                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
-                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span>/<span>09</span></time></div>
+                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
                                 </div>
                             </article>
                             <article>
                                 <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
                                 <div>
                                     <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                    <span>guitar lessons</span>
+                                    <a href="#" class="link">guitar lessons</a>
                                 </div>
                                 <div data-flex="col -end">
-                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
-                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span>/<span>09</span></time></div>
+                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
                                 </div>
                             </article>
                             <article>
                                 <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
                                 <div>
                                     <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                    <span>guitar lessons</span>
+                                    <a href="#" class="link">guitar lessons</a>
                                 </div>
                                 <div data-flex="col -end">
-                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>19</span></div>
-                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>23</span>/<span>09</span></time></div>
+                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
                                 </div>
                             </article>
                         </div>
-                        <div class="links-controlslg" data-flex="vaxis">
+                        <div class="links-controlssm" data-flex="vaxis">
                             <a href="#"><i class="icon-sliderup"></i></a>
                             <div data-flex="vaxis">
                                 <a href="#"></a>
@@ -217,22 +246,30 @@
                         <hr class="hr">
                     </hgroup>
                     <div class="slider-cites" data-flex="axis">
-                        <a href="#" class="btn btn-default"><i class="icon-prevsm"></i></a>
+                        <a href="#" class="btn btn-default prev"></a>
                         <div data-flex="vaxis">
-                           <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
-                        <blockquote data-flex="vaxis">
-                            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
-                            <cite data-flex="vaxis">
-                                <strong>Andreea Koronikova</strong>
-                                <small>Music Teacher</small>
-                            </cite>
-                        </blockquote> 
+                            <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
+                            <blockquote data-flex="vaxis">
+                                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
+                                <cite data-flex="vaxis">
+                                    <strong>Andreea Koronikova</strong>
+                                    <small>Music Teacher</small>
+                                </cite>
+                            </blockquote> 
                         </div>
-                        <a href="#" class="btn btn-default"><i class="icon-nextsm"></i></a>
+                        <a href="#" class="btn btn-default next"></a>
                     </div>
+                    <div class="wave"><div></div></div>
                 </div>
             </section>
             <section class="map">
+                <div class="message clearfix">
+                    <i class="icon-logosm"></i>
+                    <h6>address</h6>
+                    <address>Greenplatz Ben 29, Germany<br> 60435 Frankfurt am Main</address>
+                    <a href="#"><i class="icon-close"></i></a>
+                    <span></span>
+                </div>
                 <figure><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8505.038451901682!2d43.965580613990085!3d26.328825230878778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1436953049202"></iframe></figure>
             </section>
         </div>
@@ -258,12 +295,12 @@
                     <hr class="hr">
                     <article>
                         <time>02.08.2015</time>
-                        <h6><a href="#">etiam tempor odio tellus</a></h6>
+                        <h6><a href="#">etiam tempor odio tellus.</a></h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus.</p>
                     </article>
                     <article>
                         <time>02.08.2015</time>
-                        <h6><a href="#">etiam tempor odio tellus</a></h6>
+                        <h6><a href="#">etiam tempor odio tellus.</a></h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus.</p>
                     </article>
                 </div>

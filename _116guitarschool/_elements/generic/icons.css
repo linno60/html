@@ -18,12 +18,10 @@
 .icon-mail {width: 20px; height: 20px; background: url('/images/icons/mail.png');}
 .icon-marker {width: 13px; height: 20px; background: url('/images/icons/marker.png');}
 .icon-microphone {width: 43px; height: 66px; background: url('/images/icons/microphone.png');}
-.icon-nextsm {width: 11px; height: 18px; background: url('/images/icons/nextsm.png');}
-.icon-note {width: 66px; height: 60px; background: url('/images/icons/note.png');}
+.icon-note {width: 84px; height: 60px; background: url('/images/icons/note.png');}
 .icon-phone {width: 20px; height: 20px; background: url('/images/icons/phone.png');}
 .icon-play {width: 58px; height: 58px; background: url('/images/icons/play.png');}
 .icon-prev {width: 11px; height: 18px; background: url('/images/icons/prev.png');}
-.icon-prevsm {width: 11px; height: 18px; background: url('/images/icons/prevsm.png');}
 .icon-rocket {width: 44px; height: 44px; background: url('/images/icons/rocket.png');}
 .icon-rss {width: 15px; height: 16px; background: url('/images/icons/rss.png');}
 .icon-rssftr {width: 15px; height: 16px; background: url('/images/icons/rssftr.png');}
@@ -41,3 +39,5 @@
 .icon-tel {width: 16px; height: 17px; background: url('/images/icons/tel.png');}
 .icon-tw {width: 16px; height: 14px; background: url('/images/icons/tw.png');}
 .icon-twft {width: 16px; height: 14px; background: url('/images/icons/twft.png');}
+.icon-nextsm {width: 11px; height: 18px; background: url('/images/icons/nextsm.png');}
+.icon-prevsm {width: 11px; height: 18px; background: url('/images/icons/prevsm.png');}
