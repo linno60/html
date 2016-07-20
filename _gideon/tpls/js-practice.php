@@ -9,10 +9,9 @@
     <body>
         <div>JS</div>
         <script>
+var arr = ["воз", "киборг", "корсет", "ЗОВ", "гробик", "костер", "сектор"];
 
-var str = "Widget with id";
-
-alert(str.indexOf("id", 2)) // 12, поиск начат с позиции 2
+alert( aclean(arr) ); // "воз,киборг,корсет" или "ЗОВ,гробик,сектор"
         </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>

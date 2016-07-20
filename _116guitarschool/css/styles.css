@@ -1,5 +1,5 @@
 /*COMMON*/
-figure > img, a > img, figure > iframe{
+figure > img, a > img, figure > iframe, .slider-main > ul > li > img{
     width: 100%;
     height: 100%;
     display: block;
@@ -58,6 +58,281 @@ header .contacts > div > i{
     margin: 6rem 10px 0rem 24rem;
 }
 
+/*SLIDER-MAIN*/
+.slider-main {
+    position: relative;
+    max-height: 862px;
+    overflow: hidden;
+}
+.slider-main > ul{
+    position: relative;
+}
+.slider-main > input[type=radio] {
+    display: none;
+}
+.slider-main > ul > li:first-child {
+    visibility: hidden;
+}
+.slider-main > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 1;
+    transition: transform 2000ms cubic-bezier(0.4, 1.3, 0.65, 1);
+}
+.slider-main > ul > .num0 {
+    left: 0%;
+}
+.slider-main > ul > .num1 {
+    left: 100%;
+}
+.slider-main > ul > .num2 {
+    left: 200%;
+}
+.slider-main > #slide1-0:checked ~ ul > li {
+    transform: translateX(0%);
+}
+.slider-main > #slide1-1:checked ~ ul > li {
+    transform: translateX(-100%);
+}
+.slider-main > #slide1-2:checked ~ ul > li {
+    transform: translateX(-200%);
+}
+@keyframes slide1 {
+    0%, 13.372%{ transform: translateX(0%); }
+    25%, 38.372%{ transform: translateX(-100%); }
+    50%, 63.372%{ transform: translateX(-200%); }
+}
+@keyframes slide1-ie {
+    0%, 13.372%{ margin-left: 0%; }
+    25%, 38.372%{ margin-left: -100%; }
+    50%, 63.372%{ margin-left: -200%; }
+}
+/*.slider-main  > #play1:checked ~ ul > li {
+    animation: slide1 17200ms infinite;	
+}*/
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .slider-main > #play1:checked ~ ul > li:not(:first-child) {
+        animation: slide1-ie 14400ms infinite;
+    }
+}
+.slider-nav{
+    position: absolute;
+    z-index: 1;
+    right: 32rem;
+    top: 50%;
+    height: 100%;
+    transform: translateY(-54%);
+    max-height: 192px;
+}
+.slider-main .arrowprev,
+.slider-main .arrownext {
+    position: relative;
+    width: 14px;
+    height: 8px;
+}
+.slider-main .arrowprev > label,
+.slider-main .arrownext > label {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.slider-main .arrowprev > label {
+    background: url(/images/icons/sliderup.png)no-repeat center center;
+}
+.slider-main .arrownext > label {
+    background: url(/images/icons/sliderdown.png)no-repeat center center;
+}
+.slider-main > #slide1-0:checked ~ .slider-nav .arrowprev > .num2,
+.slider-main > #slide1-0:checked ~ .slider-nav .arrownext > .num1, 
+.slider-main > #slide1-1:checked ~ .slider-nav .arrowprev > .num0,
+.slider-main > #slide1-1:checked ~ .slider-nav .arrownext > .num2, 
+.slider-main > #slide1-2:checked ~ .slider-nav .arrowprev > .num1,
+.slider-main > #slide1-2:checked ~ .slider-nav .arrownext > .num0 {
+    z-index: 5;
+}
+@keyframes arrows1 {
+    0%, 33.323% { z-index: 5; }
+    33.333%, 100% { z-index: -1; }
+}
+.slider-main > #play1:checked ~ .slider-nav .arrowprev > .num2,
+.slider-main > #play1:checked ~ .slider-nav .arrownext > .num1 {
+    animation: arrows1 12000ms infinite -2000ms;
+}
+.slider-main > #play1:checked ~ .slider-nav .arrowprev > .num0,
+.slider-main > #play1:checked ~ .slider-nav .arrownext > .num2 {
+    animation: arrows1 12000ms infinite 2000ms;
+}
+.slider-main > #play1:checked ~ .slider-nav .arrowprev > .num1,
+.slider-main > #play1:checked ~ .slider-nav .arrownext > .num0 {
+    animation: arrows1 12000ms infinite 6000ms;
+}
+.slider-main .bullets > label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    margin: 8.5px;
+    transform: rotate(45deg);
+}
+.slider-main > #slide1-0:checked ~ .slider-nav > .bullets > .num0,
+.slider-main > #slide1-1:checked ~ .slider-nav > .bullets > .num1,
+.slider-main > #slide1-2:checked ~ .slider-nav > .bullets > .num2{
+    background: #ab987a;
+}
+@keyframes bullets1 {
+    0%, 24.99%	{ background: #ab987a; }
+    25%, 100% { background: white; }
+}
+.slider-main > #play1:checked ~ .slider-nav > .bullets > .num0{
+    animation: bullets1 17200ms infinite -2000ms;
+}
+.slider-main > #play1:checked ~ .slider-nav > .bullets > .num1{
+    animation: bullets1 17200ms infinite 2300ms;
+}
+.slider-main > #play1:checked ~ .slider-nav > .bullets > .num2{
+    animation: bullets1 17200ms infinite 6600ms;
+}
+.slider-main > .description{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    z-index: 100;
+    max-width: 1194px;
+}
+.slider-main > .description > label {
+    position: absolute;
+    right: 10px;
+    bottom: 80rem;
+    cursor: default;
+}
+.slider-main > .description > label > * {
+    opacity: 0;
+}
+.slider-main > .description > label > big, .slider-main > .description > label > small {
+    color: white;
+    font-size: 70rem;
+    text-transform: uppercase;
+}
+.slider-main > .description > label > big {
+    font-weight: 700;
+    transition: opacity 600ms ease;
+}
+.slider-main > .description > label > small {
+    font-weight: 100;       
+    transition: opacity 850ms ease;
+}
+.slider-main > .description > label > figure{
+    width: 170px;
+    padding-top: 12.2%;
+    margin: 22rem 2rem 0px 0px;
+}
+.slider-main > #slide1-0:checked ~ .description > .num0 > *,
+.slider-main > #slide1-1:checked ~ .description > .num1 > *,
+.slider-main > #slide1-2:checked ~ .description > .num2 > *{
+    opacity: 1;
+}
+@keyframes description1 {
+    2.906%, 22.083% { opacity: 1;}
+    27.906% { opacity: 0;}
+}
+.slider-main > #play1:checked ~ .description > .num0  > big {
+    animation: description1 17200ms infinite -1400ms;
+}
+.slider-main > #play1:checked ~ .description > .num1  > big {
+    animation: description1 17200ms infinite 2900ms;
+}
+.slider-main > #play1:checked ~ .description > .num2  > big {
+    animation: description1 17200ms infinite 7200ms;
+}
+.slider-main > #play1:checked ~ .description > .num0  > small {
+    animation: description1 17200ms infinite -1150ms;
+}
+.slider-main > #play1:checked ~ .description > .num1  > small {
+    animation: description1 17200ms infinite 3150ms;
+}
+.slider-main > #play1:checked ~ .description > .num2  > small {
+    animation: description1 17200ms infinite 7450ms;
+}
+.slider-main > #play1:checked ~ .description > .num0  > figure {
+    animation: description1 17200ms infinite -900ms;
+}
+.slider-main > #play1:checked ~ .description > .num1  > figure {
+    animation: description1 17200ms infinite 3400ms;
+}
+.slider-main > #play1:checked ~ .description > .num2  > figure {
+    animation: description1 17200ms infinite 7700ms;
+}
+
+/*SLIDER-PROJECT*/
+.slider-project {
+    position: relative;
+    max-height: 569px;
+    overflow: hidden;
+}
+.slider-project > ul{
+    position: relative;
+}
+.slider-project > input[type=radio] {
+    display: none;
+}
+.slider-project > ul > li:first-child {
+    visibility: hidden;
+}
+.slider-project > ul > li:not(:first-child) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 1;
+    transition: transform 2000ms cubic-bezier(0.4, 1.3, 0.65, 1);
+}
+.slider-project > ul > .num0 {
+    left: 0%;
+}
+.slider-project > ul > .num1 {
+    left: 100%;
+}
+.slider-project > ul > .num2 {
+    left: 200%;
+}
+.slider-project > #slide2-0:checked ~ ul > li {
+    transform: translateX(0%);
+}
+.slider-project > #slide2-1:checked ~ ul > li {
+    transform: translateX(-100%);
+}
+.slider-project > #slide2-2:checked ~ ul > li {
+    transform: translateX(-200%);
+}
+@keyframes slide2 {
+    0%, 13.372%{ transform: translateX(0%); }
+    25%, 38.372%{ transform: translateX(-100%); }
+    50%, 63.372%{ transform: translateX(-200%); }
+}
+@keyframes slide2-ie {
+    0%, 13.372%{ margin-left: 0%; }
+    25%, 38.372%{ margin-left: -100%; }
+    50%, 63.372%{ margin-left: -200%; }
+}
+.slider-project > #play2:checked ~ ul > li {
+    animation: slide2 17200ms infinite;	
+}
+/* IE 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .slider-main > #play2:checked ~ ul > li:not(:first-child) {
+        animation: slide2-ie 14400ms infinite;
+    }
+}
+
 /*WAVE*/
 .wave{
     width: 60px;
@@ -67,8 +342,9 @@ header .contacts > div > i{
     bottom: 0px;
     left: 50%;
     margin-left: -31px;
+    z-index: 101;
 }
-.slider-wrap .wave{
+.slider-main .wave{
     background: #f8f9fb;
 }
 .testimonials .wave{
@@ -86,7 +362,7 @@ header .contacts > div > i{
     border-bottom: 8px solid transparent;
     transform: rotate(8deg);
 }
-.slider-wrap .wave:before{
+.slider-main .wave:before{
     border-right: 32px solid #f8f9fb;
 }
 .testimonials .wave:before{
@@ -98,7 +374,7 @@ header .contacts > div > i{
     border-bottom: 8px solid transparent;
     transform: rotate(-8deg);
 }
-.slider-wrap .wave:after{
+.slider-main .wave:after{
     border-left: 32px solid #f8f9fb;
 }
 .testimonials .wave:after{
@@ -108,7 +384,7 @@ header .contacts > div > i{
     width: 100%;
     height: 100%;
 }
-.slider-wrap .wave > div{
+.slider-main .wave > div{
     background: url(/images/icons/down.png)no-repeat center 18px;
 }
 .testimonials .wave > div{
@@ -121,7 +397,7 @@ header .contacts > div > i{
 .testimonials .wave > div:before, .testimonials .wave > div:after{
     border-bottom: 11px solid #ab987a;
 }
-.slider-wrap .wave > div:before, .slider-wrap .wave > div:after{
+.slider-main .wave > div:before, .slider-main .wave > div:after{
     border-bottom: 11px solid #f8f9fb;
 }
 .wave > div:before{
@@ -129,12 +405,6 @@ header .contacts > div > i{
 }
 .wave > div:after{
     right: -45px;    
-}
-
-/*SLIDER*/
-.slider-wrap{
-    overflow: hidden;
-    position: relative;
 }
 
 /*SERVICES*/
@@ -209,20 +479,20 @@ header .contacts > div > i{
 }
 .project-main > .lwrap > article time{
     color: #b5b5b5;
-font-size: 14px;
-text-transform: uppercase;
-background: url(/images/icons/calendar.png)no-repeat left 0px;
-padding-left: 23px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: url(/images/icons/calendar.png)no-repeat left 0px;
+    padding-left: 23px;
 }
 .project-main > .lwrap > article .hr{
     margin-bottom: 32rem;
 }
 .project-main > .lwrap > article h3{
     color: #032f3e;
-font-size: 18px;
-font-weight: 700;
-line-height: 29px;
-text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
     margin: 28rem 0px 13rem 0px;
 }
 .project-main > .lwrap > article .btn-default{
@@ -337,9 +607,9 @@ text-transform: uppercase;
 }
 .news article h4{
     font-size: 18px;
-font-weight: 700;
-line-height: 32px;
-text-transform: uppercase;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
 }
 .news-main h4{
     margin-bottom: 11rem;

@@ -53,11 +53,54 @@
                         <a href="#">con&shy;tact</a>
                     </nav>
                 </div> 
-            </header>
-            <section class="slider-wrap">
-                <figure><img src="/images/img1.jpg" width="1920" height="863" alt=""></figure>
-                <div class="wave"><div></div></div>
-            </section>           
+            </header> 
+            <section class='slider-main'>
+                <input name="anchor1" id='slide1-0' type="radio">
+                <input name="anchor1" id='slide1-1' type="radio">
+                <input name="anchor1" id='slide1-2' type="radio">
+                <input name="anchor1" id='play1' type="radio" checked>
+                <ul>
+                    <li><img src="/images/img1.jpg" width="1903" height="863" alt=""></li>
+                    <li class='num0'><img src="/images/img1.jpg" width="1903" height="863" alt=""></li>
+                    <li class='num1'><img src="/images/img12.jpg" width="1903" height="863" alt=""></li>
+                    <li class='num2'><img src="/images/img13.jpg" width="1903" height="863" alt=""></li>
+                </ul>
+                <div class='description lwrap' data-childs="col -end">
+                    <label class='num0' for='pause29-0'>
+                        <big>check our video</big>
+                        <small>learning in 6 weeks</small>
+                        <figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/6Kbv1OpIpaA" frameborder="0" allowfullscreen></iframe></figure>
+                    </label>
+                    <label class='num1' for='pause29-1'>
+                        <big>check your video</big>
+                        <small>learning in 7 weeks</small>
+                        <figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/hRUy-D0JU2I" frameborder="0" allowfullscreen></iframe></figure>
+                    </label>
+                    <label class='num2' for='pause29-2'>
+                        <big>check their video</big>
+                        <small>learning in 8 weeks</small>
+                        <figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/ssr92rJOI98" frameborder="0" allowfullscreen></iframe></figure>
+                    </label>
+                </div>
+                <div class="slider-nav" data-flex="vaxis">
+                    <div class='arrowprev'>
+                        <label class='num0' for='slide1-0'></label>
+                        <label class='num1' for='slide1-1'></label>
+                        <label class='num2' for='slide1-2'></label>
+                    </div>
+                    <div class='bullets' data-flex="vaxis">
+                        <label class='num0' for='slide1-0'></label>
+                        <label class='num1' for='slide1-1'></label>
+                        <label class='num2' for='slide1-2'></label>
+                    </div>
+                    <div class='arrownext'>
+                        <label class='num0' for='slide1-0'></label>
+                        <label class='num1' for='slide1-1'></label>
+                        <label class='num2' for='slide1-2'></label>
+                    </div>
+                </div> 
+                <a href="#" class="wave"><div></div></a>
+            </section>
             <section class="lwrap services-wrap">
                 <h2 class="hdr">services</h2>
                 <hr class="hr">
@@ -103,16 +146,33 @@
                 <div class="project-main">
                     <div class="lwrap clearfix" data-flex-480="col">
                         <a href="#" class="btn btn-close"></a>
-                        <div data-flex="vaxis">
-                            <figure><img src="/images/img2.jpg" width="770" height="569" alt=""></figure>
-                            <div class="links-controlssm" data-flex="axis">
-                                <a href="#"><i class="icon-sliderprev"></i></a>
-                                <div data-flex="center -center">
-                                    <a href="#"></a>
-                                    <a href="#" class="active"></a>
-                                    <a href="#"></a>
+                        <div class="slider-project" data-flex="vaxis">
+                            <input name="anchor2" id='slide2-0' type="radio">
+                            <input name="anchor2" id='slide2-1' type="radio">
+                            <input name="anchor2" id='slide2-2' type="radio">
+                            <input name="anchor2" id='play2' type="radio" checked>
+                            <ul>
+                                <li><img src="/images/img2.jpg" width="770" height="569" alt=""></li>
+                                <li class='num0'><img src="/images/img2.jpg" width="770" height="569" alt=""></li>
+                                <li class='num1'><img src="/images/img21.jpg" width="770" height="569" alt=""></li>
+                                <li class='num2'><img src="/images/img22.jpg" width="770" height="569" alt=""></li>
+                            </ul>
+                            <div class="slider-nav" data-flex="axis">
+                                <div class='arrowprev'>
+                                    <label class='num0' for='slide2-0'></label>
+                                    <label class='num1' for='slide2-1'></label>
+                                    <label class='num2' for='slide2-2'></label>
                                 </div>
-                                <a href="#"><i class="icon-slidernext"></i></a>
+                                <div class='bullets' data-flex="vaxis">
+                                    <label class='num0' for='slide2-0'></label>
+                                    <label class='num1' for='slide2-1'></label>
+                                    <label class='num2' for='slide2-2'></label>
+                                </div>
+                                <div class='arrownext'>
+                                    <label class='num0' for='slide2-0'></label>
+                                    <label class='num1' for='slide2-1'></label>
+                                    <label class='num2' for='slide2-2'></label>
+                                </div>
                             </div>
                         </div>
                         <article>
