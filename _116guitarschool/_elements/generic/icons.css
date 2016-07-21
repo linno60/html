@@ -30,10 +30,10 @@
 .icon-sharetw {width: 16px; height: 14px; background: url('/images/icons/sharetw.png');}
 .icon-skype {width: 16px; height: 17px; background: url('/images/icons/skype.png');}
 .icon-skypelogo {width: 104px; height: 104px; background: url('/images/icons/skypelogo.png');}
-.icon-sliderdown {width: 14px; height: 8px; background: url('/images/icons/sliderdown.png');}
-.icon-slidernext {width: 8px; height: 14px; background: url('/images/icons/slidernext.png');}
-.icon-sliderprev {width: 8px; height: 14px; background: url('/images/icons/sliderprev.png');}
-.icon-sliderup {width: 14px; height: 8px; background: url('/images/icons/sliderup.png');}
+.icon-slidernextgrey {width: 8px; height: 14px; background: url('/images/icons/slidernextgrey.png');}
+.icon-slidernextwhite {width: 8px; height: 14px; background: url('/images/icons/slidernextwhite.png');}
+.icon-sliderprevgrey {width: 8px; height: 14px; background: url('/images/icons/sliderprevgrey.png');}
+.icon-sliderprevwhite {width: 8px; height: 14px; background: url('/images/icons/sliderprevwhite.png');}
 .icon-sound {width: 44px; height: 44px; background: url('/images/icons/sound.png');}
 .icon-stack {width: 44px; height: 44px; background: url('/images/icons/stack.png');}
 .icon-tel {width: 16px; height: 17px; background: url('/images/icons/tel.png');}

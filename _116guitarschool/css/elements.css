@@ -31,25 +31,6 @@ body{
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: #ab987a;
 }
-*[class^="links-controls"] > div > a{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: white;
-    margin: 8px;
-    transform: rotate(45deg);
-}
-*[class^="links-controls"] > div > a.active, *[class^="links-controls"] > div > a:active,
-*[class^="links-controls"] > div > a:hover, *[class^="links-controls"] > div > a:focus{
-    background: #ab987a;
-    border-color: #ab987a;
-}
-.links-controlssm > div > a{
-    border: 3px solid #dadcdc;
-}
-.links-controlssm > div > a.active, .links-controlssm > div > a:active, .links-controlssm > div > a:hover, .links-controlssm > div > a:focus{
-    box-shadow: 0px 0px 0px 1px #ab987a;
-}
 .links-share span{
     color: #b5b5b5;
     font-size: 14px;
@@ -93,24 +74,6 @@ body{
     min-width: 20px;
     min-height: 20px;
     background: white url(/images/icons/close.png)no-repeat center center;
-}
-.btn-default.prev, .btn-default.next{
-    width: 70rem;
-    height: 62rem;
-    min-width: 30px;
-    min-height: 30px;
-}
-.btn-default.prev{
-    background: url(/images/icons/prevsm.png)no-repeat center center;
-}
-.btn-default.next{
-    background: url(/images/icons/nextsm.png)no-repeat center center;
-}
-.btn-default.prev:active, .btn-default.prev:hover, .btn-default.prev:focus{
-    background: #ab987a url(/images/icons/prevsm-hover.png)no-repeat center center;
-}
-.btn-default.next:active, .btn-default.next:hover, .btn-default.next:focus{
-    background: #ab987a url(/images/icons/nextsm-hover.png)no-repeat center center;
 }
 
 /*LABELS*/

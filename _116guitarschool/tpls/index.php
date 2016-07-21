@@ -55,10 +55,10 @@
                 </div> 
             </header> 
             <section class='slider-main'>
-                <input name="anchor1" id='slide1-0' type="radio">
-                <input name="anchor1" id='slide1-1' type="radio">
-                <input name="anchor1" id='slide1-2' type="radio">
-                <input name="anchor1" id='play1' type="radio" checked>
+                <input name="anchor1" id='slide1-0' class="num0" type="radio">
+                <input name="anchor1" id='slide1-1' class="num1" type="radio">
+                <input name="anchor1" id='slide1-2' class="num2" type="radio">
+                <input name="anchor1" id='play1' class="play" type="radio" checked>
                 <ul>
                     <li><img src="/images/img1.jpg" width="1903" height="863" alt=""></li>
                     <li class='num0'><img src="/images/img1.jpg" width="1903" height="863" alt=""></li>
@@ -82,7 +82,7 @@
                         <figure data-video="16:9"><iframe width="560" height="315" src="https://www.youtube.com/embed/ssr92rJOI98" frameborder="0" allowfullscreen></iframe></figure>
                     </label>
                 </div>
-                <div class="slider-nav" data-flex="vaxis">
+                <div class="nav-slider vrt white" data-flex="vaxis">
                     <div class='arrowprev'>
                         <label class='num0' for='slide1-0'></label>
                         <label class='num1' for='slide1-1'></label>
@@ -147,23 +147,23 @@
                     <div class="lwrap clearfix" data-flex-480="col">
                         <a href="#" class="btn btn-close"></a>
                         <div class="slider-project" data-flex="vaxis">
-                            <input name="anchor2" id='slide2-0' type="radio">
-                            <input name="anchor2" id='slide2-1' type="radio">
-                            <input name="anchor2" id='slide2-2' type="radio">
-                            <input name="anchor2" id='play2' type="radio" checked>
+                            <input name="anchor2" id='slide2-0' class="num0" type="radio">
+                            <input name="anchor2" id='slide2-1' class="num1" type="radio">
+                            <input name="anchor2" id='slide2-2' class="num2" type="radio">
+                            <input name="anchor2" id='play2' class="play" type="radio" checked>
                             <ul>
                                 <li><img src="/images/img2.jpg" width="770" height="569" alt=""></li>
                                 <li class='num0'><img src="/images/img2.jpg" width="770" height="569" alt=""></li>
                                 <li class='num1'><img src="/images/img21.jpg" width="770" height="569" alt=""></li>
                                 <li class='num2'><img src="/images/img22.jpg" width="770" height="569" alt=""></li>
                             </ul>
-                            <div class="slider-nav" data-flex="axis">
+                            <div class="nav-slider hrz grey" data-flex="axis">
                                 <div class='arrowprev'>
                                     <label class='num0' for='slide2-0'></label>
                                     <label class='num1' for='slide2-1'></label>
                                     <label class='num2' for='slide2-2'></label>
                                 </div>
-                                <div class='bullets' data-flex="vaxis">
+                                <div class='bullets' data-flex="axis">
                                     <label class='num0' for='slide2-0'></label>
                                     <label class='num1' for='slide2-1'></label>
                                     <label class='num2' for='slide2-2'></label>
@@ -196,17 +196,57 @@
                     </div>
                 </div>
                 <div class="lwrap">
-                    <div class="gallery" data-flex="stripe w">
-                        <figure><a href="#" class="link alt">music</a><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
-                        <div data-flex="vstripe">
-                            <figure><a href="#" class="link alt">rock</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
-                            <figure><a href="#" class="link alt">shows</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                    <div class="slider-gallery">
+                        <input name="anchor3" id='slide3-0' class="num0" type="radio">
+                        <input name="anchor3" id='slide3-1' class="num1" type="radio">
+                        <input name="anchor3" id='slide3-2' class="num2" type="radio">
+                        <input name="anchor3" id='play3' class="play" type="radio" checked>
+                        <ul data-childs="stripe">
+                            <li>
+                                <figure><a href="#" class="link alt">music</a><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                                <div data-flex="vstripe">
+                                    <figure><a href="#" class="link alt">rock</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                                    <figure><a href="#" class="link alt">shows</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                                </div>
+                                <figure><a href="#" class="link alt">lessons</a><img src="/images/img5.jpg" width="470" height="370" alt=""></figure>
+                            </li>
+                            <li class="num0">
+                                <figure><a href="#" class="link alt">music</a><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                                <div data-flex="vstripe">
+                                    <figure><a href="#" class="link alt">rock</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                                    <figure><a href="#" class="link alt">shows</a><img src="/images/img4.jpg" width="272" height="170" alt=""></figure>
+                                </div>
+                                <figure><a href="#" class="link alt">lessons</a><img src="/images/img5.jpg" width="470" height="370" alt=""></figure>
+                            </li>
+                            <li class="num1">
+                                <figure><a href="#" class="link alt">music</a><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                                <div data-flex="vstripe">
+                                    <figure><a href="#" class="link alt">rock</a><img src="/images/img41.jpg" width="272" height="170" alt=""></figure>
+                                    <figure><a href="#" class="link alt">shows</a><img src="/images/img41.jpg" width="272" height="170" alt=""></figure>
+                                </div>
+                                <figure><a href="#" class="link alt">lessons</a><img src="/images/img51.jpg" width="470" height="370" alt=""></figure>
+                            </li>
+                            <li class="num2">
+                                <figure><a href="#" class="link alt">music</a><img src="/images/img3.jpg" width="370" height="370" alt=""></figure>
+                                <div data-flex="vstripe">
+                                    <figure><a href="#" class="link alt">rock</a><img src="/images/img42.jpg" width="272" height="170" alt=""></figure>
+                                    <figure><a href="#" class="link alt">shows</a><img src="/images/img42.jpg" width="272" height="170" alt=""></figure>
+                                </div>
+                                <figure><a href="#" class="link alt">lessons</a><img src="/images/img52.jpg" width="470" height="370" alt=""></figure>
+                            </li>
+                        </ul>
+                        <div class="nav-slider" data-flex="end">
+                            <div class='arrowprev btns'>
+                                <label class='num0' for='slide3-0'></label>
+                                <label class='num1' for='slide3-1'></label>
+                                <label class='num2' for='slide3-2'></label>
+                            </div>
+                            <div class='arrownext btns'>
+                                <label class='num0' for='slide3-0'></label>
+                                <label class='num1' for='slide3-1'></label>
+                                <label class='num2' for='slide3-2'></label>
+                            </div>
                         </div>
-                        <figure><a href="#" class="link alt">lessons</a><img src="/images/img5.jpg" width="253" height="199" alt=""></figure>
-                    </div>
-                    <div class="arrows" data-flex="end">
-                        <a href="#" class="btn btn-default prev"></a>
-                        <a href="#" class="btn btn-default next"></a>
                     </div>
                 </div>
             </section>
@@ -250,50 +290,169 @@
                             </div>
                         </div>
                     </article>
-                    <div class="news-slider" data-flex="stripe">
-                        <div data-childs="between -start">
-                            <article>
-                                <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
-                                <div>
-                                    <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                    <a href="#" class="link">guitar lessons</a>
-                                </div>
-                                <div data-flex="col -end">
-                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
-                                </div>
-                            </article>
-                            <article>
-                                <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
-                                <div>
-                                    <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                    <a href="#" class="link">guitar lessons</a>
-                                </div>
-                                <div data-flex="col -end">
-                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
-                                </div>
-                            </article>
-                            <article>
-                                <figure><img src="/images/img7.png" width="170" height="125" alt=""></figure>
-                                <div>
-                                    <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                    <a href="#" class="link">guitar lessons</a>
-                                </div>
-                                <div data-flex="col -end">
-                                    <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                    <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="links-controlssm" data-flex="vaxis">
-                            <a href="#"><i class="icon-sliderup"></i></a>
-                            <div data-flex="vaxis">
-                                <a href="#"></a>
-                                <a href="#" class="active"></a>
-                                <a href="#"></a>
+                    <div class="slider-news" data-flex="axis">
+                        <input name="anchor4" id='slide4-0' class="num0" type="radio">
+                        <input name="anchor4" id='slide4-1' class="num1" type="radio">
+                        <input name="anchor4" id='slide4-2' class="num2" type="radio">
+                        <input name="anchor4" id='play4' class="play" type="radio" checked>
+                        <ul>
+                            <li data-childs="between -start">
+                                <article>
+                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class='num0' data-childs="between -start">
+                                <article>
+                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class='num1' data-childs="between -start">
+                                <article>
+                                    <figure><img src="/images/img72.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img72.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img72.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class='num2' data-childs="between -start">
+                                <article>
+                                    <figure><img src="/images/img73.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img73.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <figure><img src="/images/img73.jpg" width="170" height="125" alt=""></figure>
+                                    <div>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>                                    
+                            </li>
+                        </ul>
+                        <div class="nav-slider vrt grey" data-flex="vaxis">
+                            <div class='arrowprev'>
+                                <label class='num0' for='slide4-0'></label>
+                                <label class='num1' for='slide4-1'></label>
+                                <label class='num2' for='slide4-2'></label>
                             </div>
-                            <a href="#"><i class="icon-sliderdown"></i></a>
+                            <div class='bullets' data-flex="vaxis">
+                                <label class='num0' for='slide4-0'></label>
+                                <label class='num1' for='slide4-1'></label>
+                                <label class='num2' for='slide4-2'></label>
+                            </div>
+                            <div class='arrownext'>
+                                <label class='num0' for='slide4-0'></label>
+                                <label class='num1' for='slide4-1'></label>
+                                <label class='num2' for='slide4-2'></label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -306,18 +465,62 @@
                         <hr class="hr">
                     </hgroup>
                     <div class="slider-cites" data-flex="axis">
-                        <a href="#" class="btn btn-default prev"></a>
-                        <div data-flex="vaxis">
-                            <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
-                            <blockquote data-flex="vaxis">
-                                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
-                                <cite data-flex="vaxis">
-                                    <strong>Andreea Koronikova</strong>
-                                    <small>Music Teacher</small>
-                                </cite>
-                            </blockquote> 
+                        <input name="anchor5" id='slide5-0' class="num0" type="radio">
+                        <input name="anchor5" id='slide5-1' class="num1" type="radio">
+                        <input name="anchor5" id='slide5-2' class="num2" type="radio">
+                        <input name="anchor5" id='play5' class="play" type="radio" checked>
+                        <div class='arrowprev btns'>
+                            <label class='num0' for='slide5-0'></label>
+                            <label class='num1' for='slide5-1'></label>
+                            <label class='num2' for='slide5-2'></label>
                         </div>
-                        <a href="#" class="btn btn-default next"></a>
+                        <ul data-childs="vaxis">
+                            <li>
+                                <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
+                                <blockquote data-flex="vaxis">
+                                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
+                                    <cite data-flex="vaxis">
+                                        <strong>Andreea Koronikova</strong>
+                                        <small>Music Teacher</small>
+                                    </cite>
+                                </blockquote> 
+                            </li>
+                            <li class="num0">
+                                <figure><img src="/images/photo.jpg" width="168" height="168" alt=""></figure>
+                                <blockquote data-flex="vaxis">
+                                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
+                                    <cite data-flex="vaxis">
+                                        <strong>Andreea Koronikova</strong>
+                                        <small>Music Teacher</small>
+                                    </cite>
+                                </blockquote> 
+                            </li>
+                            <li class="num1">
+                                <figure><img src="/images/photo2.jpg" width="168" height="168" alt=""></figure>
+                                <blockquote data-flex="vaxis">
+                                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
+                                    <cite data-flex="vaxis">
+                                        <strong>Andreea Koronikova</strong>
+                                        <small>Music Teacher</small>
+                                    </cite>
+                                </blockquote> 
+                            </li>
+                            <li class="num2">
+                                <figure><img src="/images/photo3.jpg" width="168" height="168" alt=""></figure>
+                                <blockquote data-flex="vaxis">
+                                    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</q>
+                                    <cite data-flex="vaxis">
+                                        <strong>Andreea Koronikova</strong>
+                                        <small>Music Teacher</small>
+                                    </cite>
+                                </blockquote> 
+                            </li>
+                        </ul>
+                        <div class='arrownext btns'>
+                            <label class='num0' for='slide5-0'></label>
+                            <label class='num1' for='slide5-1'></label>
+                            <label class='num2' for='slide5-2'></label>
+                        </div>
                     </div>
                     <div class="wave"><div></div></div>
                 </div>

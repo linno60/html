@@ -1,5 +1,5 @@
 /*COMMON*/
-figure > img, a > img, figure > iframe, .slider-main > ul > li > img{
+figure > img, a > img, figure > iframe, *[class^="slider"] > ul > li > img{
     width: 100%;
     height: 100%;
     display: block;
@@ -58,22 +58,30 @@ header .contacts > div > i{
     margin: 6rem 10px 0rem 24rem;
 }
 
-/*SLIDER-MAIN*/
-.slider-main {
+/*SLIDERS*/
+*[class^="slider"] > ul, *[class^="slider"] {
     position: relative;
-    max-height: 862px;
     overflow: hidden;
 }
-.slider-main > ul{
-    position: relative;
+.slider-main > ul {
+    max-height: 862px;
 }
-.slider-main > input[type=radio] {
+.slider-gallery > ul{
+    max-height: 370px;
+}
+.slider-project > ul{
+    max-height: 569px;
+}
+.slider-news > ul{
+    max-height: 485px;
+}
+*[class^="slider"] > input[type=radio] {
     display: none;
 }
-.slider-main > ul > li:first-child {
+*[class^="slider"] > ul > li:first-child {
     visibility: hidden;
 }
-.slider-main > ul > li:not(:first-child) {
+*[class^="slider"] > ul > li:not(:first-child) {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -81,60 +89,51 @@ header .contacts > div > i{
     z-index: 1;
     transition: transform 2000ms cubic-bezier(0.4, 1.3, 0.65, 1);
 }
-.slider-main > ul > .num0 {
+*[class^="slider"] > ul > .num0 {
     left: 0%;
 }
-.slider-main > ul > .num1 {
+*[class^="slider"] > ul > .num1 {
     left: 100%;
 }
-.slider-main > ul > .num2 {
+*[class^="slider"] > ul > .num2 {
     left: 200%;
 }
-.slider-main > #slide1-0:checked ~ ul > li {
+*[class^="slider"] > .num0:checked ~ ul > li {
     transform: translateX(0%);
 }
-.slider-main > #slide1-1:checked ~ ul > li {
+*[class^="slider"] > .num1:checked ~ ul > li {
     transform: translateX(-100%);
 }
-.slider-main > #slide1-2:checked ~ ul > li {
+*[class^="slider"] > .num2:checked ~ ul > li {
     transform: translateX(-200%);
 }
-@keyframes slide1 {
+@keyframes slide {
     0%, 13.372%{ transform: translateX(0%); }
     25%, 38.372%{ transform: translateX(-100%); }
     50%, 63.372%{ transform: translateX(-200%); }
 }
-@keyframes slide1-ie {
+@keyframes slide-ie {
     0%, 13.372%{ margin-left: 0%; }
     25%, 38.372%{ margin-left: -100%; }
     50%, 63.372%{ margin-left: -200%; }
 }
-/*.slider-main  > #play1:checked ~ ul > li {
-    animation: slide1 17200ms infinite;	
-}*/
+.play:checked ~ ul > li:not(:first-child) {
+    animation: slide 17200ms infinite;	
+}
 /* IE 10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .slider-main > #play1:checked ~ ul > li:not(:first-child) {
-        animation: slide1-ie 14400ms infinite;
+    .play:checked ~ ul > li:not(:first-child) {
+        animation: slide-ie 14400ms infinite;
     }
 }
-.slider-nav{
-    position: absolute;
-    z-index: 1;
-    right: 32rem;
-    top: 50%;
-    height: 100%;
-    transform: translateY(-54%);
-    max-height: 192px;
-}
-.slider-main .arrowprev,
-.slider-main .arrownext {
+.arrowprev, .arrownext {
     position: relative;
-    width: 14px;
-    height: 8px;
+    cursor: pointer;
+    width: 8px;
+    height: 14px;
 }
-.slider-main .arrowprev > label,
-.slider-main .arrownext > label {
+.arrowprev > label,
+.arrownext > label {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -142,61 +141,135 @@ header .contacts > div > i{
     height: 100%;
     z-index: -1;
 }
-.slider-main .arrowprev > label {
-    background: url(/images/icons/sliderup.png)no-repeat center center;
+.vrt .arrownext, .vrt .arrowprev{
+    transform: rotate(90deg);
 }
-.slider-main .arrownext > label {
-    background: url(/images/icons/sliderdown.png)no-repeat center center;
+.white .arrowprev {
+    background: url(/images/icons/sliderprevwhite.png)no-repeat center center;
 }
-.slider-main > #slide1-0:checked ~ .slider-nav .arrowprev > .num2,
-.slider-main > #slide1-0:checked ~ .slider-nav .arrownext > .num1, 
-.slider-main > #slide1-1:checked ~ .slider-nav .arrowprev > .num0,
-.slider-main > #slide1-1:checked ~ .slider-nav .arrownext > .num2, 
-.slider-main > #slide1-2:checked ~ .slider-nav .arrowprev > .num1,
-.slider-main > #slide1-2:checked ~ .slider-nav .arrownext > .num0 {
+.white .arrownext {
+    background: url(/images/icons/slidernextwhite.png)no-repeat center center;
+}
+.grey .arrowprev {
+    background: url(/images/icons/sliderprevgrey.png)no-repeat center center;
+}
+.grey .arrownext {
+    background: url(/images/icons/slidernextgrey.png)no-repeat center center;
+}
+.btns{
+    width: 70rem;
+    height: 62rem;
+    min-width: 30px;
+    min-height: 30px;
+    border: 3px solid #ab987a;
+    transition: all .2s ease;
+}
+.arrowprev.btns{
+    background: url(/images/icons/prevsm.png)no-repeat center center;
+}
+.arrownext.btns{
+    background: url(/images/icons/nextsm.png)no-repeat center center;
+}
+.arrowprev.btns:active, .arrowprev.btns:hover, .arrowprev.btns:focus{
+    background: #ab987a url(/images/icons/prevsm-hover.png)no-repeat center center;
+}
+.arrownext.btns:active, .arrownext.btns:hover, .arrownext.btns:focus{
+    background: #ab987a url(/images/icons/nextsm-hover.png)no-repeat center center;
+}
+*[class^="slider"] > .num0:checked ~ .nav-slider .arrowprev > .num2,
+*[class^="slider"] > .num0:checked ~ .nav-slider .arrownext > .num1, 
+*[class^="slider"] > .num1:checked ~ .nav-slider .arrowprev > .num0,
+*[class^="slider"] > .num1:checked ~ .nav-slider .arrownext > .num2, 
+*[class^="slider"] > .num2:checked ~ .nav-slider .arrowprev > .num1,
+*[class^="slider"] > .num2:checked ~ .nav-slider .arrownext > .num0,
+*[class^="slider"] > .num0:checked ~ .arrowprev > .num2,
+*[class^="slider"] > .num0:checked ~ .arrownext > .num1, 
+*[class^="slider"] > .num1:checked ~ .arrowprev > .num0,
+*[class^="slider"] > .num1:checked ~ .arrownext > .num2, 
+*[class^="slider"] > .num2:checked ~ .arrowprev > .num1,
+*[class^="slider"] > .num2:checked ~ .arrownext > .num0{
     z-index: 5;
 }
 @keyframes arrows1 {
     0%, 33.323% { z-index: 5; }
     33.333%, 100% { z-index: -1; }
 }
-.slider-main > #play1:checked ~ .slider-nav .arrowprev > .num2,
-.slider-main > #play1:checked ~ .slider-nav .arrownext > .num1 {
+*[class^="slider"] > .play:checked ~ .nav-slider .arrowprev > .num2,
+*[class^="slider"] > .play:checked ~ .nav-slider .arrownext > .num1,
+*[class^="slider"] > .play:checked ~ .arrowprev > .num2,
+*[class^="slider"] > .play:checked ~ .arrownext > .num1{
     animation: arrows1 12000ms infinite -2000ms;
 }
-.slider-main > #play1:checked ~ .slider-nav .arrowprev > .num0,
-.slider-main > #play1:checked ~ .slider-nav .arrownext > .num2 {
+*[class^="slider"] > .play:checked ~ .nav-slider .arrowprev > .num0,
+*[class^="slider"] > .play:checked ~ .nav-slider .arrownext > .num2,
+*[class^="slider"] > .play:checked ~ .arrowprev > .num0,
+*[class^="slider"] > .play:checked ~ .arrownext > .num2{
     animation: arrows1 12000ms infinite 2000ms;
 }
-.slider-main > #play1:checked ~ .slider-nav .arrowprev > .num1,
-.slider-main > #play1:checked ~ .slider-nav .arrownext > .num0 {
+*[class^="slider"] > .play:checked ~ .nav-slider .arrowprev > .num1,
+*[class^="slider"] > .play:checked ~ .nav-slider .arrownext > .num0,
+*[class^="slider"] > .play:checked ~ .arrowprev > .num1,
+*[class^="slider"] > .play:checked ~ .arrownext > .num0{
     animation: arrows1 12000ms infinite 6000ms;
 }
-.slider-main .bullets > label {
-    display: inline-block;
+.bullets > label {
     width: 10px;
     height: 10px;
     background: white;
     margin: 8.5px;
     transform: rotate(45deg);
 }
-.slider-main > #slide1-0:checked ~ .slider-nav > .bullets > .num0,
-.slider-main > #slide1-1:checked ~ .slider-nav > .bullets > .num1,
-.slider-main > #slide1-2:checked ~ .slider-nav > .bullets > .num2{
+*[class^="slider"] > .num0:checked ~ .nav-slider > .bullets > .num0,
+*[class^="slider"] > .num1:checked ~ .nav-slider > .bullets > .num1,
+*[class^="slider"] > .num2:checked ~ .nav-slider > .bullets > .num2{
     background: #ab987a;
 }
-@keyframes bullets1 {
+@keyframes bullets {
     0%, 24.99%	{ background: #ab987a; }
     25%, 100% { background: white; }
 }
-.slider-main > #play1:checked ~ .slider-nav > .bullets > .num0{
-    animation: bullets1 17200ms infinite -2000ms;
+*[class^="slider"] > .play:checked ~ .nav-slider > .bullets > .num0{
+    animation: bullets 17200ms infinite -2000ms;
 }
-.slider-main > #play1:checked ~ .slider-nav > .bullets > .num1{
-    animation: bullets1 17200ms infinite 2300ms;
+*[class^="slider"] > .play:checked ~ .nav-slider > .bullets > .num1{
+    animation: bullets 17200ms infinite 2300ms;
 }
-.slider-main > #play1:checked ~ .slider-nav > .bullets > .num2{
-    animation: bullets1 17200ms infinite 6600ms;
+*[class^="slider"] > .play:checked ~ .nav-slider > .bullets > .num2{
+    animation: bullets 17200ms infinite 6600ms;
+}
+*[class^="slider"] .grey .bullets > label{
+    border: 3px solid #dadcdc;
+}
+*[class^="slider"] > .num0:checked ~ .nav-slider.grey > .bullets > .num0,
+*[class^="slider"] > .num1:checked ~ .nav-slider.grey > .bullets > .num1,
+*[class^="slider"] > .num2:checked ~ .nav-slider.grey > .bullets > .num2{
+    background: #ab987a;
+    box-shadow: 0px 0px 0px 1px #ab987a;
+    border-color: #ab987a;
+}
+@keyframes bulletsgrey {
+    0%, 24.99%	{ background: #ab987a; box-shadow: 0px 0px 0px 1px #ab987a; border-color: #ab987a; }
+    25%, 100% { background: white; box-shadow: none; border-color: #dadcdc; }
+}
+*[class^="slider"] > .play:checked ~ .nav-slider.grey > .bullets > .num0{
+    animation: bulletsgrey 17200ms infinite -2000ms;
+}
+*[class^="slider"] > .play:checked ~ .nav-slider.grey > .bullets > .num1{
+    animation: bulletsgrey 17200ms infinite 2300ms;
+}
+*[class^="slider"] > .play:checked ~ .nav-slider.grey > .bullets > .num2{
+    animation: bulletsgrey 17200ms infinite 6600ms;
+}
+
+/*SLIDER MAIN*/
+.slider-main .nav-slider{
+    position: absolute;
+    z-index: 1;
+    right: 32rem;
+    top: 50%;
+    height: 100%;
+    transform: translateY(-54%);
+    max-height: 198px;
 }
 .slider-main > .description{
     position: absolute;
@@ -270,67 +343,6 @@ header .contacts > div > i{
 }
 .slider-main > #play1:checked ~ .description > .num2  > figure {
     animation: description1 17200ms infinite 7700ms;
-}
-
-/*SLIDER-PROJECT*/
-.slider-project {
-    position: relative;
-    max-height: 569px;
-    overflow: hidden;
-}
-.slider-project > ul{
-    position: relative;
-}
-.slider-project > input[type=radio] {
-    display: none;
-}
-.slider-project > ul > li:first-child {
-    visibility: hidden;
-}
-.slider-project > ul > li:not(:first-child) {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    z-index: 1;
-    transition: transform 2000ms cubic-bezier(0.4, 1.3, 0.65, 1);
-}
-.slider-project > ul > .num0 {
-    left: 0%;
-}
-.slider-project > ul > .num1 {
-    left: 100%;
-}
-.slider-project > ul > .num2 {
-    left: 200%;
-}
-.slider-project > #slide2-0:checked ~ ul > li {
-    transform: translateX(0%);
-}
-.slider-project > #slide2-1:checked ~ ul > li {
-    transform: translateX(-100%);
-}
-.slider-project > #slide2-2:checked ~ ul > li {
-    transform: translateX(-200%);
-}
-@keyframes slide2 {
-    0%, 13.372%{ transform: translateX(0%); }
-    25%, 38.372%{ transform: translateX(-100%); }
-    50%, 63.372%{ transform: translateX(-200%); }
-}
-@keyframes slide2-ie {
-    0%, 13.372%{ margin-left: 0%; }
-    25%, 38.372%{ margin-left: -100%; }
-    50%, 63.372%{ margin-left: -200%; }
-}
-.slider-project > #play2:checked ~ ul > li {
-    animation: slide2 17200ms infinite;	
-}
-/* IE 10+ */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .slider-main > #play2:checked ~ ul > li:not(:first-child) {
-        animation: slide2-ie 14400ms infinite;
-    }
 }
 
 /*WAVE*/
@@ -412,7 +424,7 @@ header .contacts > div > i{
     text-align: center;
 }
 .services-wrap{
-    padding: 145rem 10px 99rem 10px;
+    padding: 146rem 10px 99rem 10px;
     max-width: 1004px;
 }
 .services-items{
@@ -466,16 +478,13 @@ header .contacts > div > i{
     right: 10px;
     bottom: 100%;
 }
-.project-main > .lwrap > div{
+.project-main > .lwrap > .slider-project{
     width: 65.85%;
     float: left;
-    margin-right: 27rem;
+    margin-right: 30rem;
 }
 .project-main > .lwrap > article{
     padding-top: 77rem;
-}
-.project-main > .lwrap > article > div:first-child{
-    padding-left: 2rem;
 }
 .project-main > .lwrap > article time{
     color: #b5b5b5;
@@ -501,35 +510,35 @@ header .contacts > div > i{
 .project-main > .lwrap > article p{
     margin-bottom: 43rem;
 }
-.project-main .links-controlssm{
-    max-width: 370px;
-    width: 100%;
-    padding: 28rem 0px 22rem 0px; 
-}
 .projects-wrap > .lwrap:last-child{
     padding: 152rem 10px 163rem 10px;
 }
-.gallery{
-    margin-bottom: 58rem;
+.slider-project .nav-slider{
+    width: 100%;
+    max-width: 370px;
+    padding: 26rem 0px 23rem 0px;
 }
-.gallery > figure:first-child{
+.slider-gallery li > figure:first-child{
     width: 31.62%;
 }
-.gallery > div{
+.slider-gallery li > div{
     width: 23.25%;
 }
-.gallery > figure:last-child{
+.slider-gallery li > figure:last-child{
     width: 40.17%;
 }
-.gallery figure{
+.slider-gallery li figure{
     position: relative;
 }
-.gallery figure a{
+.slider-gallery li figure a{
     position: absolute;
     left: 21rem;
     top: 18rem;
 }
-.arrows .btn-default{
+.slider-gallery .nav-slider{
+    padding-top: 58rem;
+}
+.slider-gallery .nav-slider .arrownext{
     margin-left: 30rem;
 }
 
@@ -538,7 +547,7 @@ header .contacts > div > i{
     background: #9e9e9e;
 }
 .action > .lwrap{
-    padding: 43rem 10px 33rem 10px;
+    padding: 43rem 10px 28rem 10px;
 }
 .action span strong{
     font-weight: 700;
@@ -555,14 +564,14 @@ header .contacts > div > i{
     padding-bottom: 5px;
 }
 .action .icon-skypelogo{
-    margin: 7rem 37rem 5px 0px;
+    margin: -7rem 37rem 5px 0px;
     flex-shrink: 0;
     width: 104rem;
     height: 104rem;
     background-size: cover;
 }
 .action .btn-default{
-    margin: 0px 0px 2px 32rem;
+    margin: 0px 0px 7px 32rem;
 }
 
 /*NEWS*/
@@ -595,13 +604,13 @@ header .contacts > div > i{
 .news-main > div{
     padding: 23rem 12rem 12rem 21rem;
 }
-.news-slider{
+.slider-news{
     width: 51%;    
 }
-.news-slider > div:first-child{
+.slider-news > div:first-child{
     width: calc(100% - 26px - 31rem);
 }
-.news-slider article, .news-main{
+.slider-news article, .news-main{
     background: white;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
 }
@@ -621,29 +630,30 @@ header .contacts > div > i{
     width: 171rem;
     margin-bottom: 18rem;
 }
-.news-slider article h4{
+.slider-news article h4{
     margin-bottom: 9rem;
 }
-.news-slider article h4 a{
+.slider-news article h4 a{
     color: #032f3e;
 }
-.news-slider article > div:not(:last-child){
+.slider-news article > div:not(:last-child){
     padding: 19rem 10rem 10rem 31rem;
 }
-.news-slider article > div:hover{
+.slider-news article:hover{
     background: #032f3e;
 }
-.news-slider article > div:hover h4 a{
+.slider-news article:hover h4 a{
     color: white;
 }
-.news-slider article figure{
+.slider-news article figure{
     flex-shrink: 0;
 }
-.news-slider article:not(:last-child){
+.slider-news article:not(:last-child){
     margin-bottom: 55rem;
 }
-.news-slider .links-controlssm{
-    padding-left: 31rem;
+.slider-news .nav-slider{
+    min-height: 200px;
+    padding-left: 30rem;
 }
 
 /*TESTIMONIALS*/
@@ -659,6 +669,9 @@ header .contacts > div > i{
     overflow: hidden;
     border: 3px solid #ab987a;
     margin: 43rem 0px 35rem 0px;
+}
+.slider-cites .btns{
+    margin-bottom: 44rem;
 }
 
 /*MAP*/
