@@ -1,0 +1,207 @@
+/*COMMON*/
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 1190px;
+}
+p{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.lwrap > h2{
+    color: black;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 13rem;
+    line-height: 60px;
+    max-width: 1000px;
+}
+
+/*HEADER*/
+header{
+    box-shadow: 0 2px 6px rgba(64, 64, 64, 0.3);
+    position: relative;
+}
+.top-bar{
+    background: #282828;
+}
+.top-bar > .lwrap{
+    padding: 6rem 10px 9rem 10px;
+}
+.top-bar *{
+    color: #fefefe;
+    font-size: 13px;
+    font-weight: 300;
+}
+.header > .lwrap{
+    padding: 23rem 10px;
+}
+.contacts span i[class^="icon-"]{
+    margin: 2px 5px 0px 0px;
+}
+.contacts > span{
+    padding-left: 20px;
+    margin: 3px 0px;
+}
+.contacts a:active, .contacts a:hover, .contacts a:focus{
+    text-decoration: underline;
+}
+
+/*PREVIEW*/
+.preview{
+    background: #4ca368;
+    text-align: center;
+}
+.preview > .lwrap{
+    padding: 96rem 10px 64rem 10px;
+}
+.preview p{
+    max-width: 778px;
+}
+.preview figure{
+    margin: 29rem 0px 78rem 0px;
+}
+.preview form{
+    margin-bottom: 11rem;
+}
+.preview form ~ p{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/*COMMUNITY*/
+.community, .features {
+    text-align: center;
+    background: repeating-linear-gradient(135deg, #ececec 0px, #ececec 1px, transparent 1px, transparent 2px, #ececec 2px);
+    background-size: 3px 3px;
+}
+.community > .lwrap{
+    padding: 89rem 10px 102rem 10px;
+}
+.slider{
+    width: 630px;
+    height: 255px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(64, 64, 64, 0.3);
+    margin: 25rem 0px 35rem 0px;
+}
+
+/*SERVICES*/
+.services > .lwrap{
+    padding: 89rem 10px 50rem 10px;
+    text-align: center;
+    max-width: 920px;
+}
+.edition-type{
+    padding: 26rem 0px 50rem 0px;
+}
+.edition-type .btn{
+    
+}
+.edition-type .btn:first-child{
+    
+}
+.edition-type .btn:last-child{
+    
+}
+.tariffs > div{
+    width: 30%;
+    border: 1px solid #ececec;
+    padding: 0px 10px 37rem 10px;
+    background: linear-gradient(#ececec, #ececec) center 111px / 100% 1px no-repeat;
+}
+
+/*FEATURES*/
+.features > .lwrap{
+    padding: 138rem 10px 70rem 10px;
+}
+.features-items{
+    padding-top: 30rem;
+}
+.features-items > article{
+    width: 23.1%;
+    background: white;
+    box-shadow: 0 1px 4px rgba(64, 64, 64, 0.3);
+    margin-bottom: 30rem;
+    padding: 36rem 20rem 54rem 20rem;
+}
+.features-items > article > p{
+    color: #777;
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 12px;
+}
+.features-items > article:hover{
+    background: #5db442;
+}
+.features-items > article:hover > p{
+    color: white;
+}
+.features-items > article > i[class^="icon-"] {
+    height: 61px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-bottom: 12rem
+}
+.features-items > article:hover > .icon-aero {background: url('/images/icons/aero-hover.png');}
+.features-items > article:hover > .icon-book {background: url('/images/icons/book-hover.png');}
+.features-items > article:hover > .icon-bug {background: url('/images/icons/bug-hover.png');}
+.features-items > article:hover > .icon-cup {background: url('/images/icons/cup-hover.png');}
+.features-items > article:hover > .icon-gear {background: url('/images/icons/gear-hover.png');}
+.features-items > article:hover > .icon-leaf {background: url('/images/icons/leaf-hover.png');}
+.features-items > article:hover > .icon-out {background: url('/images/icons/out-hover.png');}
+.features-items > article:hover > .icon-folder {background: url('/images/icons/folder-hover.png');}
+
+/*FOOTER*/
+footer{
+    flex-shrink: 0;
+    background: #efefef;
+}
+footer > .lwrap{
+    padding: 65rem 10px 12rem 10px;
+}
+footer > .lwrap > div:first-child{
+    width: 34.3%;
+}
+footer > .lwrap > div{
+    width: 16%;
+    margin-bottom: 20px;
+}
+footer h4{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 3rem 0px 34rem 0px;
+}
+footer > .lwrap > div:first-child h4{
+    margin: 0rem 0px 29rem 0px;
+}
+footer p{
+    color: #333;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 300;
+line-height: 24px;
+max-width: 340px;
+margin-bottom: 18rem;
+}
+.copyright{
+    border-top: 1px solid #e1e2e3;
+}
+.copyright > .lwrap{
+    padding: 45rem 10px 47rem 10px;
+}
+.copyright span{
+    color: #777;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 17px;
+    max-width: 250px;
+    text-align: right;
+}

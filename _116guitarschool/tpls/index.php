@@ -19,7 +19,7 @@
             }
         </script>
     </head>
-    <body>
+    <body data-flex="col">
         <div>
             <header>
                 <div class="lwrap" data-flex="axis">
