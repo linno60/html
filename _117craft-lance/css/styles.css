@@ -7,6 +7,11 @@ body > div{
     padding: 0px 10px;
     max-width: 1190px;
 }
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 p{
     color: black;
     font-size: 16px;
@@ -15,11 +20,12 @@ p{
 }
 .lwrap > h2{
     color: black;
-    font-size: 48px;
+    font-size: 48rem;
     font-weight: 300;
     margin-bottom: 13rem;
-    line-height: 60px;
+    line-height: 60rem;
     max-width: 1000px;
+    text-align: center;
 }
 
 /*HEADER*/
@@ -31,7 +37,7 @@ header{
     background: #282828;
 }
 .top-bar > .lwrap{
-    padding: 6rem 10px 9rem 10px;
+    padding: 6rem 10px 11rem 10px;
 }
 .top-bar *{
     color: #fefefe;
@@ -42,11 +48,10 @@ header{
     padding: 23rem 10px;
 }
 .contacts span i[class^="icon-"]{
-    margin: 2px 5px 0px 0px;
+    margin: 3px 8rem 0px 0px;
 }
 .contacts > span{
-    padding-left: 20px;
-    margin: 3px 0px;
+    margin: 4px -1rem 3px 40rem;
 }
 .contacts a:active, .contacts a:hover, .contacts a:focus{
     text-decoration: underline;
@@ -64,7 +69,7 @@ header{
     max-width: 778px;
 }
 .preview figure{
-    margin: 29rem 0px 78rem 0px;
+    margin: 29rem 0px 81rem 0px;
 }
 .preview form{
     margin-bottom: 11rem;
@@ -73,56 +78,159 @@ header{
     color: white;
     font-size: 14px;
     font-weight: 100;
+    letter-spacing: -0.005em;
 }
 
 /*COMMUNITY*/
-.community, .features {
-    text-align: center;
-    background: repeating-linear-gradient(135deg, #ececec 0px, #ececec 1px, transparent 1px, transparent 2px, #ececec 2px);
-    background-size: 3px 3px;
-}
+.community, .features {    
+    background: url(/images/bg.png)
+} 
 .community > .lwrap{
     padding: 89rem 10px 102rem 10px;
 }
-.slider{
-    width: 630px;
-    height: 255px;
-    background-color: white;
+.slider-wrap{
+    width: 100%;
+    max-width: 630px;
+    padding: 20rem;
+    background: white;
     box-shadow: 0 0 6px rgba(64, 64, 64, 0.3);
     margin: 25rem 0px 35rem 0px;
+}
+.slider-wrap > .icon-enter{
+    margin: 6px 29rem 0px 4px;
+    flex-shrink: 0;
+}
+.slider h3{
+    color: #5db442;
+    margin: 19rem 0px 10rem 0px;
+    font-size: 26px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.slider > ul{
+    position: relative;
+    overflow: hidden;
+    min-height: 157px;
+}
+.slider > input[type=radio] {
+    display: none;
+}
+.slider > ul > li:first-child{
+    visibility: hidden;
+}
+.slider > ul > li:not(:first-child) {
+    position: absolute;
+    transition: transform 1600ms;
+    height: 100%;
+}
+.slider > ul > .num0 {
+    top: 0%;
+}
+.slider > ul > .num1 {
+    top: 100%;
+}
+.slider > ul > .num2 {
+    top: 200%;
+}
+.slider > #slide1-0:checked ~ ul > li{
+    transform: translateY(0%);
+}
+.slider > #slide1-1:checked ~ ul > li{
+    transform: translateY(-100%);
+}
+.slider > #slide1-2:checked ~ ul > li{
+    transform: translateY(-200%);
+}
+.slider > .arrowprev,
+.slider > .arrownext {
+    width: 28px;
+    height: 14px;
+    position: relative;
+    margin: 10px 0px;
+}
+.slider > .arrowprev {
+    background: url(/images/icons/up.png);
+}
+.slider > .arrownext{
+    background: url(/images/icons/down.png);
+}
+.slider > .arrowprev > label,
+.slider > .arrownext > label {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.slider > #slide1-0:checked ~ .arrowprev > .num2,
+.slider > #slide1-0:checked ~ .arrownext > .num1, 
+.slider > #slide1-1:checked ~ .arrowprev > .num0,
+.slider > #slide1-1:checked ~ .arrownext > .num2, 
+.slider > #slide1-2:checked ~ .arrowprev > .num1,
+.slider > #slide1-2:checked ~ .arrownext > .num0{
+    opacity: 1;
+    z-index: 5;
+}
+@keyframes arrow1 {
+    0%, 33.32% { opacity: 1; z-index: 5; }
+    33.33%, 100%  { opacity: 0; z-index: -1; }
+}
+.slider > #play1:checked ~ .arrowprev > .num2,
+.slider > #play1:checked ~ .arrownext > .num1 {
+    animation: arrow1 11700ms infinite -1600ms;
+}
+.slider > #play1:checked ~ .arrowprev > .num0,
+.slider > #play1:checked ~ .arrownext > .num2 {
+    animation: arrow1 11700ms infinite 2300ms;
+}
+.slider > #play1:checked ~ .arrowprev > .num1,
+.slider > #play1:checked ~ .arrownext > .num0 {
+    animation: arrow1 11700ms infinite 6200ms;
 }
 
 /*SERVICES*/
 .services > .lwrap{
-    padding: 89rem 10px 50rem 10px;
+    padding: 89rem 10px 80rem 10px;
     text-align: center;
     max-width: 920px;
 }
 .edition-type{
     padding: 26rem 0px 50rem 0px;
 }
-.edition-type .btn{
-    
+.edition-type .btn-default{
+    text-transform: none;
+    min-width: 142rem;
+    letter-spacing: 0.05em;
+    font-size: 12px;
 }
-.edition-type .btn:first-child{
-    
+.edition-type .lbl-default{
+    margin: 0px -10px;
+    position: relative;
 }
-.edition-type .btn:last-child{
-    
+.edition-type .btn-default:first-child{
+    border-radius: 17px 0px 0px 17px;
+    border-right: none;
+}
+.edition-type .btn-default:last-child{
+    border-radius: 0px 17px 17px 0px;
+    border-left: none;
 }
 .tariffs > div{
     width: 30%;
+    margin-bottom: 20rem;
     border: 1px solid #ececec;
-    padding: 0px 10px 37rem 10px;
+    padding: 0px 10rem 37rem 10rem;
     background: linear-gradient(#ececec, #ececec) center 111px / 100% 1px no-repeat;
 }
 
 /*FEATURES*/
 .features > .lwrap{
-    padding: 138rem 10px 70rem 10px;
+    padding: 88rem 10px 70rem 10px;
+    text-align: center;
 }
 .features-items{
     padding-top: 30rem;
+    width: 100%;
 }
 .features-items > article{
     width: 23.1%;
@@ -135,7 +243,7 @@ header{
     color: #777;
     font-weight: 300;
     line-height: 22px;
-    font-size: 12px;
+    font-size: 12px;    
 }
 .features-items > article:hover{
     background: #5db442;
@@ -143,7 +251,7 @@ header{
 .features-items > article:hover > p{
     color: white;
 }
-.features-items > article > i[class^="icon-"] {
+.features-items > article > i[class^="icon-"], .features-items > article:hover > i[class^="icon-"] {
     height: 61px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -184,12 +292,12 @@ footer > .lwrap > div:first-child h4{
 }
 footer p{
     color: #333;
-font-family: Roboto;
-font-size: 12px;
-font-weight: 300;
-line-height: 24px;
-max-width: 340px;
-margin-bottom: 18rem;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 340px;
+    margin-bottom: 18rem;
 }
 .copyright{
     border-top: 1px solid #e1e2e3;
@@ -204,4 +312,11 @@ margin-bottom: 18rem;
     line-height: 17px;
     max-width: 250px;
     text-align: right;
+    display: inline-block;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .lwrap > h2{font-size: 25px;line-height: 32px;}
+    .features-items > article, footer > .lwrap > div, footer > .lwrap > div:first-child {width: 49%;}
 }

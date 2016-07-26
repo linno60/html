@@ -141,12 +141,8 @@
     z-index: 5;
 }
 @keyframes arrow1 {
-    0%, 33.32333333333334% {
-        opacity: 1; z-index: 5;
-    }
-    33.333333333333336%, 100%  { 
-        opacity: 0; z-index: -1;
-    }
+    0%, 33.32% { opacity: 1; z-index: 5; }
+    33.33%, 100%  { opacity: 0; z-index: -1; }
 }
 .csslider1 > #play1:checked ~ .arrowprev > .num2,
 .csslider1 > #play1:checked ~ .arrownext > .num1 {

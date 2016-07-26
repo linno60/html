@@ -30,7 +30,7 @@
                             <a href="#"><i class="icon-gp"></i></a>
                             <a href="#"><i class="icon-in"></i></a>
                         </div>
-                        <div class="contacts" data-childs data-flex="end w">
+                        <div class="contacts" data-childs data-flex="end -center w">
                             <span><i class="icon-phonew"></i><span>+44 99151012545</span></span>
                             <span><i class="icon-mailw"></i><a href="mailto:contact@bluelance.com">contact@bluelance.com</a></span>
                         </div>
@@ -65,21 +65,67 @@
             <section class="community">
                 <div class="lwrap" data-flex="vaxis">
                     <h2>Community Sign Up</h2>
-                    <div class="slider">
-
-                    </div>
-                    <div class="links-community" data-flex="around" data-childs="col -center">
+                    <div class="slider-wrap" data-flex="center -center">
+                        <i class="icon-enter"></i>
+                        <div class='slider'>
+                            <input name="anchor1" id='slide1-0' type="radio">
+                            <input name="anchor1" id='slide1-1' type="radio">
+                            <input name="anchor1" id='slide1-2' type="radio">
+                            <input name="anchor1" id='play1' type="radio" checked> 
+                            <div class='arrowprev'>
+                                <label class='num0' for='slide1-0'></label>
+                                <label class='num1' for='slide1-1'></label>
+                                <label class='num2' for='slide1-2'></label>
+                            </div>
+                            <div class='arrownext'>
+                                <label class='num0' for='slide1-0'></label>
+                                <label class='num1' for='slide1-1'></label>
+                                <label class='num2' for='slide1-2'></label>
+                            </div>
+                            <ul>
+                                <li>
+                                    <h3>signup process</h3>
+                                    <ol class="list-default">
+                                        <li>User enters email address</li>
+                                        <li>Clicks on "Sign up for free"</li>
+                                    </ol>
+                                </li>
+                                <li class='num0'>
+                                    <h3>signup process</h3>
+                                    <ol class="list-default">
+                                        <li>User enters email address</li>
+                                        <li>Clicks on "Sign up for free"</li>
+                                    </ol>                                  
+                                </li>
+                                <li class='num1'>
+                                    <h3>signup process</h3>
+                                    <ol class="list-default">
+                                        <li>User enters email address</li>
+                                        <li>Clicks on "Sign up for free"</li>
+                                    </ol>                                      
+                                </li>
+                                <li class='num2'>
+                                    <h3>signup process</h3>
+                                    <ol class="list-default">
+                                        <li>User enters email address</li>
+                                        <li>Clicks on "Sign up for free"</li>
+                                    </ol>
+                                </li>
+                            </ul>                            
+                        </div>
+                    </div>                    
+                    <div class="links-community" data-flex="around" data-childs="col end -center r">
                         <div>
-                            <a href="#"><i class="icon-edition"></i></a>
-                            <a href="#">Community Edition</a>
+                            <a href="#" class="active">Community Edition</a>
+                            <a href="#"><i class="icon-edition"></i></a>                            
                         </div>
                         <div>
-                            <a href="#"><i class="icon-signup"></i></a>
                             <a href="#">Complete Signup Process</a>
+                            <a href="#"><i class="icon-signup"></i></a>                            
                         </div>
                         <div>
-                            <a href="#"><i class="icon-check"></i></a>
                             <a href="#">Sign up</a>
+                            <a href="#"><i class="icon-check"></i></a>
                         </div>
                     </div>
                 </div>
@@ -87,12 +133,12 @@
             <section class="services">
                 <div class="lwrap">
                     <h2>Affordable Services Package</h2>
-                    <div class="edition-type" data-flex="center">
-<a href="#" class="btn btn-default">purchase</a>
-<span class="lbl lbl-default">or</span>
-<a href="#" class="btn btn-default">purchase</a>
+                    <div class="edition-type" data-flex="center -center">
+                        <a href="#" class="btn btn-default active">Business Edition</a>
+                        <span class="lbl lbl-default">or</span>
+                        <a href="#" class="btn btn-default">Community Edition</a>
                     </div>
-                    <div class="tariffs" data-childs="vaxis" data-flex="stripe w">
+                    <div class="tariffs" data-childs="vaxis" data-flex="stripe w" data-flex-480="vstripe">
                         <div>
                             <h3 class="hdr">basic</h3>
                             <div class="lbl lbl-price"><strong>$59</strong><em>per month</em></div>

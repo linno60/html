@@ -114,8 +114,9 @@ blockquote q{
     font-weight: 300;
     font-style: italic;
     line-height: 29px;
-    max-width: 800px;
-    margin-bottom: 29rem;
+    max-width: 820px;
+    padding: 0px 10px 29rem 10px;
+    display: inline-block;
 }
 blockquote cite {
     font-style: normal;
@@ -125,6 +126,7 @@ blockquote cite strong{
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 13rem;
+    display: inline-block;
 }
 blockquote cite small{
     color: #ab987a;
@@ -188,21 +190,21 @@ blockquote cite small{
     line-height: 26px;
 }
 .message > span{
-    width: 60px;
-    height: 100px;
+    width: 60rem;
+    height: 100rem;
     position: absolute;
     left: 50%;
-    bottom: -100px;
-    margin-left: -30px;
+    bottom: -100rem;
+    margin-left: -30rem;
     overflow: hidden;
 }
 .message > span:before{ 
     position: absolute;
     content: "";
-    height: 133px;
-    width: 93px;
-    bottom: 80px;
-    left: -20px;
+    height: 133rem;
+    width: 93rem;
+    bottom: 80rem;
+    left: -20rem;
     box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.19);
     transform: rotate(-46deg) skew(-37deg, -34deg);
     background: white;

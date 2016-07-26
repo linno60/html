@@ -251,7 +251,7 @@
                 </div>
             </section>
             <section class="action">
-                <div class="lwrap" data-flex="axis w">
+                <div class="lwrap" data-flex="axis">
                     <div data-flex="-center">
                         <i class="icon-skypelogo"></i>
                         <span>
@@ -271,7 +271,7 @@
                     <hr class="hr">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. Nullam fringilla pharetra diam non accumsan. Morbi eget aliquam mauris. Etiam vehicula efficitur mi.</p>
                 </article>
-                <div data-flex="between -start">
+                <div data-flex="between -start" data-flex-800="vstripe">
                     <article class="news-main">
                         <figure>
                             <img src="/images/img6.jpg" width="570" height="187" alt="">
@@ -537,7 +537,7 @@
             </section>
         </div>
         <footer>
-            <div class="lwrap" data-flex="stripe w">
+            <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                 <div>
                     <i class="icon-logosm"></i>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in egestas lectus. Etiam tempor odio tellus, at bibendum neque faucibus quis. Sed vel facilisis elit. </p>
