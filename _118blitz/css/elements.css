@@ -1,0 +1,54 @@
+body, body *{
+    color: #474747;
+    font-family: Bebas;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav a{
+    text-transform: uppercase;
+    margin: 0px 0px 26rem 60rem;
+    padding-top: 41rem;    
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background:
+        linear-gradient(-45deg, transparent, transparent 50%, #e2e2e2 50%, #e2e2e2) calc(50% + 4.5px) 0px / 9px 9px no-repeat,
+        linear-gradient(45deg, transparent, transparent 50%, #e2e2e2 50%, #e2e2e2) calc(50% - 4.5px) 0px / 9px 9px no-repeat;
+}
+.links-nav a strong{
+    color: #474747;
+    font-size: 20px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.links-nav a small{
+    color: #a5a5a5;
+    letter-spacing: 0.02em;
+}
+
+/*OTHER*/
+.link{
+    text-transform: uppercase;     
+    background: url(/images/icons/quotes.png)no-repeat -1rem 5px;
+    padding-left: 26px;
+    letter-spacing: 0.02em;
+}
+.link:active, .link:hover, .link:focus{
+    text-decoration: underline;
+}
+.hdr{
+    height: 28px;
+    background: repeating-linear-gradient(135deg, #cecece 0px, #cecece 1px, transparent 1px, transparent 3px, #cecece 3px, #cecece 3px);
+    background-size: 4px 4px;
+    margin-bottom: 52rem;
+}
+.hdr span{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: white;
+    padding: 8rem 27rem 12rem 27rem;
+    margin: 0px -12rem;
+    display: inline-block;
+    letter-spacing: 0.02em;
+}

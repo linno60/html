@@ -1,0 +1,29 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=0219b8d3-fcdb-4f45-abf5-f853acb4d020");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Bebas";
+    src: url("/fonts/fonts.com/80e50e80-4003-4876-ba9f-53b2dd6d6160.woff2") format("woff2"), url("/fonts/fonts.com/9a98e631-1f06-461b-a6a7-ba7822473018.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/dc50c02f-3f77-4e75-b89c-e3f9bb4752e6.woff2") format("woff2"), url("/fonts/fonts.com/ce6f5b38-1cb5-4a27-8182-583aa68b2436.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/3e8a8b56-3cb0-4347-b670-eaaf06b76e9b.woff2") format("woff2"), url("/fonts/fonts.com/07173950-fa69-4b65-9c71-0cf2ec00b51d.woff") format("woff");
+    font-weight: 500;
+}
+/* ICONS */
+.icon-glass {width: 41px; height: 38px; background: url('/images/icons/glass.png');}
+.icon-message {width: 46px; height: 41px; background: url('/images/icons/message.png');}
+.icon-quotes {width: 17px; height: 9px; background: url('/images/icons/quotes.png');}
+.icon-star {width: 41px; height: 39px; background: url('/images/icons/star.png');}

@@ -40,11 +40,11 @@
     transform: scale(1);
 }
 @keyframes fade-in4 {
-    0%, 35.869565217391305%, 100%  {
+    0%, 35.869%, 100%  {
         opacity: 0;
         transform: scale(2);
     }
-    10.869565217391305%, 25%  {
+    10.869%, 25%  {
         opacity: 1;
         transform: scale(1);
     }
@@ -259,19 +259,19 @@
     25%, 100% { background: transparent; }
 }
 .csslider4 > #play4:checked ~ .bullets > label.num0:before,
-.csslider4 > #cs_pause1:checked ~ .bullets > label.num0:before {
+.csslider4 > #pause4:checked ~ .bullets > label.num0:before {
     animation: bullet4 18400ms infinite -2000ms;
 }
 .csslider4 > #play4:checked ~ .bullets > label.num1:before,
-.csslider4 > #cs_pause1:checked ~ .bullets > label.num1:before {
+.csslider4 > #pause4:checked ~ .bullets > label.num1:before {
     animation: bullet4 18400ms infinite 2600ms;
 }
 .csslider4 > #play4:checked ~ .bullets > label.num2:before,
-.csslider4 > #cs_pause1:checked ~ .bullets > label.num2:before {
+.csslider4 > #pause4:checked ~ .bullets > label.num2:before {
     animation: bullet4 18400ms infinite 7200ms;
 }
 .csslider4 > #play4:checked ~ .bullets > label.num3:before,
-.csslider4 > #cs_pause1:checked ~ .bullets > label.num3:before {
+.csslider4 > #pause4:checked ~ .bullets > label.num3:before {
     animation: bullet4 18400ms infinite 11800ms;
 }
 

@@ -23,20 +23,20 @@
                     age: 18
                 }];
             function byField(field) {
-    return function(a, b) {
-      return a[field] > b[field] ? 1 : -1;
-    }
-  }
+                return function (a, b) {
+                    return a[field] > b[field] ? 1 : -1;
+                }
+            }
 
-users.sort(byField('name'));
-users.forEach(function(user) {
-  alert( user.name );
-});
+            users.sort(byField('name'));
+            users.forEach(function (user) {
+                alert(user.name);
+            });
 
-users.sort(byField('age'));
-users.forEach(function(user) {
-  alert( user.name );
-});
+            users.sort(byField('age'));
+            users.forEach(function (user) {
+                alert(user.name);
+            });
         </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>
