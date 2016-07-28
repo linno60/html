@@ -801,8 +801,8 @@ footer .icon-logosm{
 }
 @media (max-width: 480px) {
     .slider-gallery li > div {display: none;}
-.slider-gallery li > figure:first-child{width: 40%;}
-.slider-gallery li > figure:last-child{width: 55%;}
+    .slider-gallery li > figure:first-child{width: 40%;}
+    .slider-gallery li > figure:last-child{width: 55%;}
     .project-main > .lwrap > div {width: 100%; margin-right: 0rem;}
     .map .message{right: 10px;bottom: 50px;}
     footer > .lwrap > div:first-child p {max-width: 460px;}

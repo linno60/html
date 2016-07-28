@@ -10,6 +10,9 @@ body, body *{
     margin: 0px 0px 26rem 60rem;
     padding-top: 41rem;    
 }
+.links-nav a:first-child{
+    margin-left: 5px;  
+}
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background:
         linear-gradient(-45deg, transparent, transparent 50%, #e2e2e2 50%, #e2e2e2) calc(50% + 4.5px) 0px / 9px 9px no-repeat,
@@ -38,8 +41,7 @@ body, body *{
 }
 .hdr{
     height: 28px;
-    background: repeating-linear-gradient(135deg, #cecece 0px, #cecece 1px, transparent 1px, transparent 3px, #cecece 3px, #cecece 3px);
-    background-size: 4px 4px;
+    background: url(/images/hdr.png);
     margin-bottom: 52rem;
 }
 .hdr span{

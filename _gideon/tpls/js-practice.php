@@ -9,34 +9,33 @@
     <body>
         <div>JS</div>
         <script>
-            var users = [{
-                    name: "Вася",
-                    surname: 'Иванов',
-                    age: 20
-                }, {
-                    name: "Петя",
-                    surname: 'Чапаев',
-                    age: 25
-                }, {
-                    name: "Маша",
-                    surname: 'Медведева',
-                    age: 18
-                }];
-            function byField(field) {
-                return function (a, b) {
-                    return a[field] > b[field] ? 1 : -1;
-                }
-            }
+            "" + 1 + 0    1
+            "" - 1 + 0    -1
+            true + false    0
+            6 / "3" 2
+            "2" * "3"    6
+            4 + 5 + "px"   9px
+            "$" + 4 + 5   $45
 
-            users.sort(byField('name'));
-            users.forEach(function (user) {
-                alert(user.name);
-            });
+            "4" - 2      2
 
-            users.sort(byField('age'));
-            users.forEach(function (user) {
-                alert(user.name);
-            });
+            "4px" - 2    Nan
+
+            7 / 0
+
+            "  -9\n" + 5  -4
+            "  -9\n" - 5  -14
+            5 && 2     2
+
+            2 && 5     5
+
+            5 || 0     5
+
+            0 || 5     0
+            null + 1   1
+            undefined + 1  1
+            null == "\n0\n"  0
+                    + null == +"\n0\n"  0
         </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>

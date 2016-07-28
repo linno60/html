@@ -27,6 +27,9 @@ p{
 header{
     padding: 0px 2rem 23rem 4rem;
 }
+#logo{
+    margin: 5px 0px;
+}
 
 /*SLIDER*/
 .slider {
@@ -96,12 +99,12 @@ header{
 }
 .slider > div > figure > figcaption big{
     color: white;
-font-size: 28px;
-line-height: 32px;
+    font-size: 28rem;
+    line-height: 32px;
 }
 .slider > div > figure > figcaption small{
     color: #9a9a9a;
-font-size: 14px;
+    font-size: 14px;
 }
 .slider > .bullets {
     position: absolute;
@@ -144,8 +147,8 @@ font-size: 14px;
     background: linear-gradient(transparent 0px, transparent 9px, #fbfbfb 9px, #fbfbfb), 
         linear-gradient(135deg, transparent, transparent 50%, #fbfbfb 50%, #fbfbfb) calc(50% - 4.5px) 0px / 9px 9px no-repeat,
         linear-gradient(-135deg, transparent, transparent 50%, #fbfbfb 50%, #fbfbfb) calc(50% + 4.5px) 0px / 9px 9px no-repeat;
-    padding: 24rem 16rem 19rem 16rem;
-    margin: -11rem 0px 67rem 0px;
+    padding: 24px 16rem 19rem 16rem;
+    margin: -11px 0px 67rem 0px;
     position: relative;
     z-index: 10;
 }
@@ -171,16 +174,19 @@ font-size: 14px;
     margin-bottom: 20px;
 }
 .featured article h3{
-    display: flex;
-    color: #464646;
-    font-size: 20px;
+    color: #464646;    
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 27rem;
+    margin-bottom: 23rem;
+}
+.featured article h3 span{
+    font-size: 20px;
+    max-width: calc(100% - 48px - 31rem);
+    display: inline-block;
 }
 .featured article h3 i[class^="icon-"]{
     margin: 5rem 31rem 0px 2rem;
-    flex-shrink: 0;
+    float: left;
 }
 .featured p{
     max-width: 95%;
@@ -220,7 +226,7 @@ footer{
         repeating-linear-gradient(135deg, #cecece 0px, #cecece 1px, transparent 1px, transparent 3px, #cecece 3px, #cecece 3px)repeat-x 2px 0px / 4px 6px;
 }
 footer .lwrap{
-    padding: 26rem 13px;
+    padding: 26rem 10px;
 }
 footer *{
     font-family: HelveticaNeue;
@@ -235,5 +241,19 @@ footer a:active, footer a:hover, footer a:focus{
 }
 footer span{
     display: inline-block;
-    margin-bottom: 8rem;
+    margin: 0px 3px 8rem 3px;
+}
+footer span:last-child{
+    text-align: right;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{background: none; text-decoration: underline;}
+    .links-nav a small{display: none;}
+    .links-nav a{padding: 0px; margin: 5px;}
+    .description{background: linear-gradient(transparent 0px, transparent 9px, #fbfbfb 9px, #fbfbfb);}
+    .works article{ width: 49%; }
+    .slider > div > figure > figcaption big{ font-size: 18.5px; }
+
 }
