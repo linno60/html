@@ -9,33 +9,19 @@
     <body>
         <div>JS</div>
         <script>
-            "" + 1 + 0    1
-            "" - 1 + 0    -1
-            true + false    0
-            6 / "3" 2
-            "2" * "3"    6
-            4 + 5 + "px"   9px
-            "$" + 4 + 5   $45
+            function f() {
+                alert(1)
+            }
 
-            "4" - 2      2
+            var obj = {
+                f: function () {
+                    alert(2)
+                }
+            };
 
-            "4px" - 2    Nan
-
-            7 / 0
-
-            "  -9\n" + 5  -4
-            "  -9\n" - 5  -14
-            5 && 2     2
-
-            2 && 5     5
-
-            5 || 0     5
-
-            0 || 5     0
-            null + 1   1
-            undefined + 1  1
-            null == "\n0\n"  0
-                    + null == +"\n0\n"  0
+            with (obj) {
+                f();
+            }
         </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>
