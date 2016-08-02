@@ -1,0 +1,29 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=bf61b841-639d-467b-b07e-84ed16723928");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("/fonts/fonts.com/dc50c02f-3f77-4e75-b89c-e3f9bb4752e6.woff2") format("woff2"), url("/fonts/fonts.com/ce6f5b38-1cb5-4a27-8182-583aa68b2436.woff") format("woff");
+}
+@font-face {
+    font-family: 'Novecentowide';
+    src: url('/fonts/fontsquirel.com/novecentowide-medium.woff2') format('woff2'), url('/fonts/fontsquirel.com/novecentowide-medium.woff') format('woff');
+    font-weight: 600;
+}
+/* ICONS */
+.icon-link {width: 33px; height: 42px; background: url('/images/icons/link.png');}
+.icon-dribbble {width: 34px; height: 34px; background: url('/images/icons/dribbble.png');}
+.icon-facebook {width: 35px; height: 34px; background: url('/images/icons/facebook.png');}
+.icon-google {width: 35px; height: 34px; background: url('/images/icons/google.png');}
+.icon-next {width: 21px; height: 31px; background: url('/images/icons/next.png');}
+.icon-pinterest {width: 35px; height: 34px; background: url('/images/icons/pinterest.png');}
+.icon-prev {width: 21px; height: 31px; background: url('/images/icons/prev.png');}
+.icon-rss {width: 34px; height: 34px; background: url('/images/icons/rss.png');}
+.icon-twitter {width: 34px; height: 34px; background: url('/images/icons/twitter.png');}

@@ -305,18 +305,18 @@
 }
 
 /*arrows moving*/
-.csslider10 > #slide10-0:checked ~ .arrowprev > label.num2,
-.csslider10 > #pause10-0:checked ~ .arrowprev > label.num2,
-.csslider10 > #slide10-0:checked ~ .arrownext > label.num1,
-.csslider10 > #pause10-0:checked ~ .arrownext > label.num1, 
-.csslider10 > #slide10-1:checked ~ .arrowprev > label.num0,
-.csslider10 > #pause10-1:checked ~ .arrowprev > label.num0,
-.csslider10 > #slide10-1:checked ~ .arrownext > label.num2,
-.csslider10 > #pause10-1:checked ~ .arrownext > label.num2, 
-.csslider10 > #slide10-2:checked ~ .arrowprev > label.num1,
-.csslider10 > #pause10-2:checked ~ .arrowprev > label.num1,
-.csslider10 > #slide10-2:checked ~ .arrownext > label.num0,
-.csslider10 > #pause10-2:checked ~ .arrownext > label.num0 {
+.csslider10 > #slide10-0:checked ~ .arrowprev > .num2,
+.csslider10 > #pause10-0:checked ~ .arrowprev > .num2,
+.csslider10 > #slide10-0:checked ~ .arrownext > .num1,
+.csslider10 > #pause10-0:checked ~ .arrownext > .num1, 
+.csslider10 > #slide10-1:checked ~ .arrowprev > .num0,
+.csslider10 > #pause10-1:checked ~ .arrowprev > .num0,
+.csslider10 > #slide10-1:checked ~ .arrownext > .num2,
+.csslider10 > #pause10-1:checked ~ .arrownext > .num2, 
+.csslider10 > #slide10-2:checked ~ .arrowprev > .num1,
+.csslider10 > #pause10-2:checked ~ .arrowprev > .num1,
+.csslider10 > #slide10-2:checked ~ .arrownext > .num0,
+.csslider10 > #pause10-2:checked ~ .arrownext > .num0 {
     opacity: 1;
     z-index: 5;
 }

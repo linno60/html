@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Novecentowide';
+    src: url('/fonts/fontsquirel.com/novecentowide-medium.woff2') format('woff2'), url('/fonts/fontsquirel.com/novecentowide-medium.woff') format('woff');
+    font-weight: 600;
+}
