@@ -1,10 +1,10 @@
-<div class="links-social" data-flex="end w">
-    <a href="#"><i class="icon-twitter"></i></a>
-    <a href="#"><i class="icon-facebook"></i></a>
-    <a href="#"><i class="icon-rss"></i></a>
-    <a href="#"><i class="icon-pinterest"></i></a>
-    <a href="#"><i class="icon-google"></i></a>
-    <a href="#"><i class="icon-dribbble"></i></a>
+<div class="links-social" data-flex="end w" data-childs="center -center">
+    <a href="#" class="twitter"><i class="icon-tw"></i></a>
+    <a href="#" class="facebook"><i class="icon-fb"></i></a>
+    <a href="#" class="rss"><i class="icon-rs"></i></a>
+    <a href="#" class="pinterest"><i class="icon-pt"></i></a>
+    <a href="#" class="google-plus"><i class="icon-gp"></i></a>
+    <a href="#" class="dribble"><i class="icon-db"></i></a>
 </div>
 <nav class="links-nav" data-flex="w">
     <a href="#" class="active">home</a>

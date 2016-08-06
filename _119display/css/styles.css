@@ -21,6 +21,7 @@ p{
     line-height: 22px;
     margin-bottom: 22rem;
     letter-spacing: -0.058em;
+    width: 100%;
 }
 h3{
     color: #737373;
@@ -92,7 +93,7 @@ header.lwrap{
     margin-bottom: 16rem;
 }
 .gallery{
-    padding: 20rem 0px 41rem 0px;
+    padding: 21rem 0px 40rem 0px;
 }
 .gallery figure{
     width: 15.8%;
@@ -129,6 +130,7 @@ header.lwrap{
 }
 .slider-portfolio p{
     margin-bottom: 5rem;
+    text-overflow: ellipsis;
 }
 .slider-portfolio > ul{
     position: relative;
@@ -147,7 +149,7 @@ header.lwrap{
     height: 100%;
     top: 0px;
     transition: transform 1000ms;
-    padding: 0px 10px;
+    padding: 0px 10rem;
 }
 .slider-portfolio > ul > .num0 {
     left: 0%;
@@ -191,6 +193,7 @@ header.lwrap{
     position: relative;
     width: 21px;
     height: 31px;
+    flex-shrink: 0;
 }
 .slider-portfolio > .arrowprev > label,
 .slider-portfolio > .arrownext > label {
@@ -245,7 +248,7 @@ header.lwrap{
     background: #322f2f;
 }
 .findout .lwrap{
-    padding: 50rem 10px 47rem 10px;
+    padding: 50rem 5px 47rem 5px;
 }
 .findout h2{
     color: #efefef;
@@ -253,9 +256,10 @@ header.lwrap{
     font-weight: 600;
     letter-spacing: 0.009em;
     margin-bottom: 3rem;
+    margin: 0px 5px 3px 5px;
 }
 .findout .btn-default{
-    margin: 3rem 1rem 0px 0px;
+    margin: 3px 6px 0px 5px;
 }
 
 /*FOOTER*/
@@ -271,4 +275,20 @@ footer span{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.01em;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .gallery figure{width: 19%;}
+    .hidden{display: none;}
+}
+@media (max-width: 640px) {
+    .gallery figure{width: 24%;}
+    .hidden-md{display: none;}
+}
+@media (max-width: 480px) {
+    .gallery figure{width: 32%;}
+    .hidden-sm{display: none;}
+    .findout h2{text-align: center;}
+    .video{width: 54%;}
 }

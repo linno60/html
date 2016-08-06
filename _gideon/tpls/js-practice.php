@@ -9,19 +9,14 @@
     <body>
         <div>JS</div>
         <script>
-            function f() {
-                alert(1)
-            }
-
-            var obj = {
-                f: function () {
-                    alert(2)
+            var user = {
+                firstName: "Вася",
+                sayHi: function () {
+                    alert(this.firstName);
                 }
             };
 
-            with (obj) {
-                f();
-            }
+            setTimeout(user.sayHi, 1000); // undefined (не Вася!)
         </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/index.js"></script>

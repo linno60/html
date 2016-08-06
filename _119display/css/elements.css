@@ -22,7 +22,47 @@ body{
     color: #2ecc71;
 }
 .links-social a{
-    margin: 7rem 1rem -3rem 6rem;
+    margin: 9rem 1rem 0px 8rem;
+    width: 33px;
+    height: 34px;
+    border: 4px solid #dadada;
+    border-radius: 50%;
+}
+.links-social a.twitter.active, .links-social a.twitter:active, .links-social a.twitter:hover, .links-social a.twitter:focus{
+    border-color: #00bbf5;
+}
+.links-social a.facebook.active, .links-social a.facebook:active, .links-social a.facebook:hover, .links-social a.facebook:focus{
+    border-color: #3c5a99;
+}
+.links-social a.rss.active, .links-social a.rss:active, .links-social a.rss:hover, .links-social a.rss:focus{
+    border-color: #ff6600;
+}
+.links-social a.pinterest.active, .links-social a.pinterest:active, .links-social a.pinterest:hover, .links-social a.pinterest:focus{
+    border-color: #bd081c;
+}
+.links-social a.google-plus.active, .links-social a.google-plus:active, .links-social a.google-plus:hover, .links-social a.google-plus:focus{
+    border-color: #dd5044;
+}
+.links-social a.dribble.active, .links-social a.dribble:active, .links-social a.dribble:hover, .links-social a.dribble:focus{
+    border-color: #f26798;
+}
+.links-social a.twitter.active .icon-tw, .links-social a.twitter:active .icon-tw, .links-social a.twitter:hover .icon-tw, .links-social a.twitter:focus .icon-tw{
+    background: url('/images/icons/tw-hover.png');
+}
+.links-social a.facebook.active .icon-fb, .links-social a.facebook:active .icon-fb, .links-social a.facebook:hover .icon-fb, .links-social a.facebook:focus .icon-fb{
+    background: url('/images/icons/fb-hover.png');
+}
+.links-social a.rss.active .icon-rs, .links-social a.rss:active .icon-rs, .links-social a.rss:hover .icon-rs, .links-social a.rss:focus .icon-rs{
+    background: url('/images/icons/rs-hover.png');
+}
+.links-social a.pinterest.active .icon-pt, .links-social a.pinterest:active .icon-pt, .links-social a.pinterest:hover .icon-pt, .links-social a.pinterest:focus .icon-pt{
+    background: url('/images/icons/pt-hover.png');
+}
+.links-social a.google-plus.active .icon-gp, .links-social a.google-plus:active .icon-gp, .links-social a.google-plus:hover .icon-gp, .links-social a.google-plus:focus .icon-gp{
+    background: url('/images/icons/gp-hover.png');
+}
+.links-social a.dribble.active .icon-db, .links-social a.dribble:active .icon-db, .links-social a.dribble:hover .icon-db, .links-social a.dribble:focus .icon-db{
+    background: url('/images/icons/db-hover.png');
 }
 .links-navfooter, .links-navfooter a{
     color: #a5a5a5;
@@ -53,8 +93,10 @@ body{
     letter-spacing: 0.01em;
 }
 .btn-circle{
-    width: 97px;
-    height: 97px;
+    width: 97rem;
+    height: 97rem;
+    min-width: 50px;
+    min-height: 50px;
     background: #2ecc71;
     border-radius: 50%;
 }

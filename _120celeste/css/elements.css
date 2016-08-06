@@ -1,0 +1,124 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-main a{
+    width: 40px;
+    height: 100px;
+    background: #5fb7c6;
+    margin-left: 10rem;
+    padding-bottom: 5px;
+}
+.links-topmenu, .links-topmenu a{
+    color: #aaa;
+    font-family: ArialNarrow;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.links-topmenu a{
+    margin: 2px 10px;
+}
+.links-topmenu a:active, .links-topmenu a:hover, .links-topmenu a:focus{
+    text-decoration: underline;
+}
+.links-nav a{
+    padding-right: 5px;
+    border-right: 4px solid #eee;
+    margin: 0px 5rem 5rem 0px;
+}
+.links-nav a:last-child{
+    border-right: none;
+}
+.links-nav a big{
+    color: #0a8ca3;
+    font-family: LeagueGothic;
+    font-size: 24px;
+}
+.links-nav a small{
+    color: #aaacaf;
+    font-family: ArialNarrow;
+}
+.links-tags a[data-weight~='1']{
+    color: #0a8ca3;
+    font-size: 24px;
+}
+.links-tags a[data-weight~='2']{
+    color: #44afc2;
+    font-size: 16px;
+}
+.links-tags a[data-weight~='3']{
+    color: #70c7d6;
+    font-size: 14px;
+}
+.links-tags a[data-weight~='4']{
+    color: #555;
+    font-size: 12px;
+}
+.links-tags a[data-weight~='5']{
+    color: #999;
+    font-size: 11px;
+}
+.links-flickr a{
+    margin: 0px 5px 5px 0px;
+    border: 3px solid #5fb7c6;
+}
+.links-social a{
+    margin: 5rem;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 100rem;
+    height: 31px;
+    padding: 0px 10rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    background: #d3c5b9;
+}
+.btn-alt{
+    width: 41px;
+    height: 31px;
+    background: rgba(255,255,255,.5) url(/images/icons/arroww.png)no-repeat center center;
+}
+.btn-email{
+    height: 31px;
+    width: 31px;
+    background: #44afc2 url(/images/icons/arrowg.png)no-repeat center center;
+}
+
+/*FORMS*/
+.form-search{
+    min-width: 238rem;   
+    height: 30px;
+    background: #ebe4de;
+}
+.form-email > div, .form-search{
+    max-width: 300px;
+}
+.form-search input[type=search], .form-email input[type=email]{
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 0px 5px;
+    background: none;
+}
+.form-search input[type=search]{
+    background: none;
+}
+.form-email input[type=email]{
+    background: #eee;
+    height: 28px;
+}
+.form-email > div{
+    background: #44afc2;
+    padding: 3px;
+}
+.form-email label{
+    text-align: right;
+    color: #0a8ca3;
+    font-size: 11px;
+}

@@ -21,17 +21,19 @@
     </head>
     <body>
         <div>
-            <header class="lwrap" data-flex="between -end w">
-                <a href="/" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" height="50" width="163" alt="">
-                </a>
-                <div class="links-social" data-flex="end w">
-                    <a href="#"><i class="icon-twitter"></i></a>
-                    <a href="#"><i class="icon-facebook"></i></a>
-                    <a href="#"><i class="icon-rss"></i></a>
-                    <a href="#"><i class="icon-pinterest"></i></a>
-                    <a href="#"><i class="icon-google"></i></a>
-                    <a href="#"><i class="icon-dribbble"></i></a>
+            <header class="lwrap">
+                <div data-flex="between -end">
+                    <a href="/" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" height="50" width="163" alt="">
+                    </a>
+                    <div class="links-social" data-flex="end w" data-childs="center -center">
+                        <a href="#" class="twitter"><i class="icon-tw"></i></a>
+                        <a href="#" class="facebook"><i class="icon-fb"></i></a>
+                        <a href="#" class="rss"><i class="icon-rs"></i></a>
+                        <a href="#" class="pinterest"><i class="icon-pt"></i></a>
+                        <a href="#" class="google-plus"><i class="icon-gp"></i></a>
+                        <a href="#" class="dribble"><i class="icon-db"></i></a>
+                    </div>
                 </div>
                 <nav class="links-nav" data-flex="w">
                     <a href="#" class="active">home</a>
@@ -40,8 +42,8 @@
                     <a href="#">contact</a>
                 </nav>
             </header>
-            <div class="slider" data-flex="center -end">
-                <div class="lwrap">
+            <div class="slider">
+                <div class="lwrap" data-flex="center -end">
                     <figure><img src="/images/img.png" width="830" height="472" alt=""></figure>
                 </div>  
             </div>
@@ -66,9 +68,9 @@
                     <figure><img src="/images/img3.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
                     <figure><img src="/images/img2.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
                     <figure><img src="/images/img3.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
-                    <figure><img src="/images/img4.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
-                    <figure><img src="/images/img3.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
-                    <figure><img src="/images/img2.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
+                    <figure class="hidden"><img src="/images/img4.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
+                    <figure class="hidden-md"><img src="/images/img3.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
+                    <figure class="hidden-sm"><img src="/images/img2.png" width="300" height="200" alt=""><div class="overlay" data-flex="center -center"><a href="#" class="btn btn-circle"><i class="icon-link"></i></a></div></figure>
                 </div>
                 <div class='lwrap slider-portfolio' data-flex="axis">
                     <input name="anchor" id='slide-0' type="radio">
@@ -80,7 +82,7 @@
                         <label class='num1' for='slide-1'></label>
                         <label class='num2' for='slide-2'></label>
                     </div>
-                    <ul data-childs="col center -center">
+                    <ul data-childs="col -center">
                         <li>
                             <h4>dark ui kit freebie</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis.</p>
@@ -106,7 +108,7 @@
                 </div>
             </div>
             <div class="findout">
-                <div class="lwrap" data-flex="axis w">
+                <div class="lwrap" data-flex="axis" data-flex-480="vaxis">
                     <h2>are you ready to be blown away?</h2>
                     <a href="#" class="btn btn-default">click here to find out</a>
                 </div>
