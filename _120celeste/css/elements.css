@@ -87,38 +87,71 @@ body{
 .btn-email{
     height: 31px;
     width: 31px;
+    border-radius: 0px 2px 2px 0px;
     background: #44afc2 url(/images/icons/arrowg.png)no-repeat center center;
 }
 
 /*FORMS*/
 .form-search{
-    min-width: 238rem;   
-    height: 30px;
-    background: #ebe4de;
-}
-.form-email > div, .form-search{
+    min-width: 238rem;
     max-width: 300px;
+    height: 30px;
+    background: #ebe4de;    
 }
-.form-search input[type=search], .form-email input[type=email]{
-    border: none;
+textarea{
+    resize: none;
+}
+input[name=search], input[name=email], input[name=subscribe], input[name=contact], textarea{
     outline: none;
     flex-grow: 1;
-    padding: 0px 5px;
+    padding: 5px;
+    color: #333;
+}
+input[name=search], input[name=email]{
+    border: none;        
+}
+input[name=search], *[name=contact]{
     background: none;
 }
-.form-search input[type=search]{
-    background: none;
-}
-.form-email input[type=email]{
+input[name=email]{
     background: #eee;
-    height: 28px;
+    height: 31px;
+    border: 3px solid #44afc2;
+    border-radius: 2px 0px 0px 2px;
 }
-.form-email > div{
-    background: #44afc2;
-    padding: 3px;
+*[name=subscribe]{
+    background: #f1ede9;
+    border: 1px solid #d3c5b9;
 }
-.form-email label{
+input[name=subscribe]{
+    height: 31px;
+}
+*[name=contact]{
+    border: 1px solid rgba(255,255,255,.8);
+    color: white;
+}
+textarea[name=contact]{
+    height: 73px;
+}
+input[name=contact]{
+    height: 26px;
+}
+.label-email{
     text-align: right;
     color: #0a8ca3;
     font-size: 11px;
+}
+.label-subscribe{
+    color: #555;
+    font-size: 14px;
+}
+.label-contact{
+    background: rgba(255,255,255,.68);
+    color: #057f81;
+    height: 26px;
+    padding: 0px 10rem;
+    font-size: 11px;
+    width: 60px;
+    display: inline-flex;
+    align-items: center;
 }
