@@ -12,16 +12,14 @@ figure > img, a > img{
     padding: 0px 10px;
     max-width: 980px;
 }
-p{
-    color: #555;
-    line-height: 15px;
-    margin-bottom: 12rem;
-}
 
 /*HEADER*/
 
 
 /*CONTENT*/
+.content-wrap{
+    margin-bottom: -20rem;
+}
 .content{
     width: 72.9%;
     margin-right: 20rem;
@@ -53,51 +51,130 @@ p{
     font-size: 24px;
     font-weight: 700;
 }
+.post p{
+    margin-bottom: 12rem;
+    color: #555;
+    line-height: 15px;  
+}
+.content form{
+    padding: 20rem 20rem 20rem 20rem;
+}
+.content form > div{
+    width: 48%;
+}
 
 /*SIDEBAR*/
 .sidebar{
     width: calc(27.1% - 20rem);
+    padding-bottom: 40rem;
 }
 .sponsors figure{
     width: 48%;
     border: 1px solid #d5d5d5;
     margin-bottom: 10rem;
 }
-.sponsors h3{
+.sidebar h3{
     color: #0a8ca3;
     font-family: LeagueGothic;
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 20rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.news article{
+    border-bottom: 1px solid #ece8e8;
+    padding-bottom: 10rem;
+    margin-bottom: 10rem;
+}
+.news article figure{
+    float: left;
+    border: 4px solid #44afc2;
+    border-radius: 2px;
+    margin-right: 5rem;
+}
+.news article h4{    
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.news article h4 a{
+    color: #0a8ca3;
+}
+.news article h4 a:active, .news article h4 a:hover, .news article h4 a:focus{
+    text-decoration: underline;
+}
+.news article p{
+    color: #999;
+    font-size: 10px;
+    line-height: 11px;
+}
 
 /*FOOTER*/
 footer{
     flex-shrink: 0;
     background: url("/images/bg.png");
+    box-shadow: inset 0px -30px 0px 0px white;
+}
+.footer{
+    padding: 40rem 10px 40rem 10px;
+}
+.footer > div{
+    width: 24%;
+    margin-bottom: 20px;
+}
+.footer h5{
+    color: white;
+    font-family: LeagueGothic;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10rem;
+}
+.footer form > div{
+    margin-bottom: 10rem;
+    width: 100%;
+}
+.footer article{
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+}
+.footer article:not(:last-child){
+    border-bottom: 2px solid rgba(68,175,194,.9);
+}
+.footer article h6{    
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+.footer article h6 a{
+    color: #f3f0e6;
+}
+.footer article h6 a:active, .footer article h6 a:hover, .footer article h6 a:focus{
+    text-decoration: underline;
+}
+.footer article p{    
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 10rem;
+}
+.footer article p, .footer article p a{
+    color: #333;
+    font-weight: normal;
+}
+.footer article a{
+    color: white;
+    font-weight: 700;
+}
+.footer article a:active, .footer article a:hover, .footer article a:focus{
+    text-decoration: underline;
+}
+.footer .video{
+    border: 5px solid rgba(97,189,204,.9);
+}
+.copyright > div{
+    background: #ebe4de;
+    margin-top: -30rem;
+    padding: 20rem 20rem 20rem 20rem;
+    color: #777;
+    max-width: 220px;
+    line-height: 14px;
+    margin-right: 25%;
 }

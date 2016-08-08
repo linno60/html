@@ -52,7 +52,7 @@
     <a href="#"><img src="/images/fl7.png" width="47" height="47" alt=""></a>
     <a href="#"><img src="/images/fl8.png" width="47" height="47" alt=""></a>
 </div>
-<div class="links-social" data-flex="w">
+<div class="links-social" data-flex="end w">
     <a href="#"><i class="icon-twitter"></i></a>
     <a href="#"><i class="icon-facebook"></i></a>
     <a href="#"><i class="icon-rss"></i></a>

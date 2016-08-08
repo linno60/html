@@ -24,12 +24,11 @@ body{
     text-decoration: underline;
 }
 .links-nav a{
-    padding-right: 5px;
-    border-right: 4px solid #eee;
+    padding-right: 5px;    
     margin: 0px 5rem 5rem 0px;
 }
-.links-nav a:last-child{
-    border-right: none;
+.links-nav a:not(:last-child){
+    border-right: 4px solid #eee;
 }
 .links-nav a big{
     color: #0a8ca3;
@@ -98,12 +97,14 @@ body{
     height: 30px;
     background: #ebe4de;    
 }
+.form-search input[name=search], input[name=email], *[name=contact], textarea[name=subscribe]{
+    flex-grow: 1;
+}
 textarea{
     resize: none;
 }
 input[name=search], input[name=email], input[name=subscribe], input[name=contact], textarea{
-    outline: none;
-    flex-grow: 1;
+    outline: none;    
     padding: 5px;
     color: #333;
 }
@@ -122,9 +123,12 @@ input[name=email]{
 *[name=subscribe]{
     background: #f1ede9;
     border: 1px solid #d3c5b9;
+    width: 100%;
+    max-width: 460px;
 }
 input[name=subscribe]{
     height: 31px;
+    margin-bottom: 10rem;
 }
 *[name=contact]{
     border: 1px solid rgba(255,255,255,.8);
@@ -142,8 +146,10 @@ input[name=contact]{
     font-size: 11px;
 }
 .label-subscribe{
+    width: 100%;
     color: #555;
     font-size: 14px;
+    display: block;
 }
 .label-contact{
     background: rgba(255,255,255,.68);

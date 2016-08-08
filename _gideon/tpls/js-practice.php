@@ -7,72 +7,9 @@
         <link rel="stylesheet" href="/css/addons/reset.css">
     </head>
     <body>
-        <div>JS</div>
+        <div>JS&#x2702;</div>
         <script>
-            switch (browser) {
-            case 'IE':
-                    alert('О, да у вас IE!');
-                    break;
-                    case 'Chrome':
-                    case 'Firefox':
-                    case 'Safari':
-                    case 'Opera':
-                    alert('Да, и эти браузеры мы поддерживаем');
-                    break;
-                    default:
-                    alert('Мы надеемся, что и в вашем браузере все ок!');
-            }
-
-            var browser = prompt;
-                    if browser = 'IE'{
-                    alert('О, да у вас IE!');
-                    } else if browser = 'Chrome' || 'Firefox' || 'Safari' || 'Opera'{
-            alert('Да, и эти браузеры мы поддерживаем');
-            } else{
-            alert('Мы надеемся, что и в вашем браузере все ок!');
-            }
-
-
-
-
-            var a = + prompt('a?', '');
-                    if (a == 0) {
-            alert(0);
-            }
-
-            if (a == 1) {
-            alert(1);
-            }
-
-            if (a == 2 || a == 3) {
-            alert('2,3');
-            }
-
-            var a = + prompt('a?', '');
-                    switch (a){
-            case: (0):
-                    alert(0);
-                    break;
-                    case: (1):
-                    alert(1);
-                    break;
-                    case: 2:
-                    case: 3:
-                    alert('2,3');
-                    break;
-            }
-
-
-            a = + prompt("Enter a digit", "")
-                    switch (a)
-            {
-            case 0:
-                    case 1: alert(a);
-                    break;
-                    case 2:
-                    case 3: alert("2,3");
-                    break;
-            }
+            alert( (0.1.toFixed) + (0.2.toFixed) + '$' );
         </script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>
