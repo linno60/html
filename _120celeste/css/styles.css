@@ -14,87 +14,219 @@ figure > img, a > img{
 }
 
 /*HEADER*/
-
+header > div:first-child{
+    padding-bottom: 131rem;
+}
+header{
+    margin-bottom: 26rem;
+}
 
 /*CONTENT*/
 .content-wrap{
-    margin-bottom: -20rem;
+    margin-bottom: -46rem;
+    position: relative;
 }
 .content{
-    width: 72.9%;
+    width: 73%;
     margin-right: 20rem;
     background: #ebe4de;
 }
-.post{
-    padding: 20rem 20rem 20rem 20rem;
-    margin-bottom: 10rem;
+.content > *:not(:last-child){
     box-shadow: 0px 1px 0px 0px #faf8f7, 0px 2px 0px 0px #cec0b4;
 }
+.post{
+    padding: 23rem 21rem 36rem 20rem;
+    margin-bottom: 32rem;    
+}
 .post .details{
-    width: 10%;
-    margin-right: 10rem;
-    padding-right: 10rem;
+    width: 15.1%;
+    margin-right: 22rem;
+    padding: 56rem 15rem 10rem 0px;
     flex-shrink: 0;
     box-shadow: 1px 0px 0px 0px #cec0b4, 2px 0px 0px 0px #faf8f7;
     text-align: right;
 }
-.post .details time{
+.post .details + div{
+    width: calc(84.9% - 22rem);
+}
+.post .details > *{
+    margin-bottom: 33rem;
+}
+.post .details > time{
     color: #0a8ca3;
     font-family: LeagueGothic;
     font-size: 24px;
-    line-height: 24px;   
+    line-height: 24px;
+    padding-right: 2rem;
+    margin-bottom: 37rem;    
+}
+.post .details > time > span{
+    display: inline-block;
+}
+.post .details h5{
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.post .details > div > span{
+    color: #555;
+}
+.post .details strong{
+    color: #333;
+    font-family: LeagueGothic;
+    font-size: 24px;
+    line-height: 28px;
     display: inline-block;
 }
 .post h2{
-    margin-bottom: 20rem;
     color: #333;
     font-size: 24px;
     font-weight: 700;
+    line-height: 26px;
+    margin: 0px 0px 29rem 1rem;
+    letter-spacing: -0.05em;
+}
+.post figure{
+    padding: 1rem 0px 9rem 0px;
+    margin: 0px 1rem 0px -19rem;    
 }
 .post p{
-    margin-bottom: 12rem;
+    margin-bottom: 15rem;
     color: #555;
-    line-height: 15px;  
+    line-height: 15px;
+    letter-spacing: -0.008em;
+    width: 100%;
 }
-.content form{
-    padding: 20rem 20rem 20rem 20rem;
+.post p:last-child{
+    margin-bottom: 0px;
 }
-.content form > div{
-    width: 48%;
+.thread{
+    padding-bottom: 22rem;
+}
+.thread h3{
+    color: #0a8ca3;
+    font-family: LeagueGothic;
+    font-size: 24px;
+    font-weight: 400;
+    background: url(/images/icons/arrowb.png)no-repeat left 6px;
+    padding-left: 27px;
+    margin: 0px 0px 14rem 22rem;
+}
+.comments > div{
+    padding: 19rem 15rem 19rem 45rem;       
+}
+.comments > div figure{
+    background: white url("/images/frame.png");
+    padding: 9rem;  
+    margin: 1rem 20rem 0px 0px;
+    float: left;
+}
+.comments > div:first-of-type{
+    background: #f1ede9;    
+}
+.comments > div:first-of-type ~ div{
+    padding: 22rem 15rem 19rem 140rem;
+}
+.comments > div:first-of-type ~ div figure{
+    margin-right: 25rem;
+}
+.comments p{
+    color: #777;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 8rem;
+    letter-spacing: 0.015em;
+}
+.comments strong{
+    color: #1f1e1e;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.045em;
+}
+.comments span{
+    color: #9c9b9b;
+    font-size: 18px;
+    margin: 0px 6.5rem;
+}
+.comments time{
+    color: #9c9b9b;    
+    font-size: 14px;
+    letter-spacing: -0.055em;
+}
+.comments a{
+    color: #1ea1b5;
+    font-size: 14px;
+}
+.comments a:active, .comments a:hover, .comments a:focus{
+    text-decoration: underline;
+}
+.form-subscribe {
+    padding: 40rem 20rem 45rem 20rem;
+}
+.form-subscribe h3{
+    color: #333;
+font-family: LeagueGothic;
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 34rem;
+letter-spacing: 0.003em;
+}
+.form-subscribe form > div{
+    width: 48.5%;
 }
 
 /*SIDEBAR*/
 .sidebar{
-    width: calc(27.1% - 20rem);
-    padding-bottom: 40rem;
+    width: calc(27% - 20rem);
+    padding: 15rem 0px 40rem 0px;
+}
+.sidebar > form{
+    margin-bottom: 32rem;
+}
+.sidebar > .sponsors{
+    margin-bottom: 29rem;
 }
 .sponsors figure{
-    width: 48%;
+    width: 48.5%;
     border: 1px solid #d5d5d5;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
+}
+.sponsors h3{
+    margin-bottom: 21rem;
+}
+.news h3{
+    margin-bottom: 22rem;
 }
 .sidebar h3{
     color: #0a8ca3;
     font-family: LeagueGothic;
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 20rem;
+}
+.sidebar form > div{
+    width: 99.9%;
+    margin: 0px 1rem 0px 2rem;
+}
+.news{
+    margin-bottom: 41rem;
 }
 .news article{
     border-bottom: 1px solid #ece8e8;
-    padding-bottom: 10rem;
-    margin-bottom: 10rem;
+    padding-bottom: 17.5rem;
+    margin-bottom: 17rem;
 }
 .news article figure{
     float: left;
-    border: 4px solid #44afc2;
+    border: 5px solid #44afc2;
+    border-bottom-width: 4px;
     border-radius: 2px;
-    margin-right: 5rem;
+    margin: 1rem 20rem 0px 0px;
 }
 .news article h4{    
     font-size: 13px;
     font-weight: 400;
     margin-bottom: 3rem;
+    letter-spacing: -0.015em;
 }
 .news article h4 a{
     color: #0a8ca3;
@@ -106,6 +238,7 @@ figure > img, a > img{
     color: #999;
     font-size: 10px;
     line-height: 11px;
+    letter-spacing: -0.018em;
 }
 
 /*FOOTER*/
@@ -115,18 +248,21 @@ footer{
     box-shadow: inset 0px -30px 0px 0px white;
 }
 .footer{
-    padding: 40rem 10px 40rem 10px;
+    padding: 81rem 10px 40rem 10px;
 }
 .footer > div{
-    width: 24%;
+    width: 23%;
     margin-bottom: 20px;
+}
+.footer > div:last-child{
+    width: 25%;
 }
 .footer h5{
     color: white;
     font-family: LeagueGothic;
     font-size: 36px;
     font-weight: 400;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 .footer form > div{
     margin-bottom: 10rem;
@@ -162,6 +298,7 @@ footer{
 .footer article a{
     color: white;
     font-weight: 700;
+    font-size: 10px;
 }
 .footer article a:active, .footer article a:hover, .footer article a:focus{
     text-decoration: underline;

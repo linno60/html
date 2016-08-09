@@ -2,7 +2,7 @@
     <a href="#"><i class="icon-home"></i></a>
     <a href="#"><i class="icon-mail"></i></a>
 </div>
-<div class="links-topmenu" data-flex="end w">
+<div class="links-topmenu" data-flex="end -center w">
     <a href="#">mapa del sitio</a>|
     <a href="#">contÁctenos</a>|
     <a href="#">eventos</a>|

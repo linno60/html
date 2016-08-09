@@ -23,10 +23,10 @@
         <div>
             <div class="lwrap">
                 <header>
-                    <div data-flex="end -center">
-                        <div>
+                    <div data-flex="end -end">
+                        <div data-flex="col -end">
                             <form class="form-search" data-flex="axis" action="#" method="post"><input type="search" name="search"><input type="image" src="/images/icons/search.png"></form>
-                            <div class="links-topmenu" data-flex="end w">
+                            <div class="links-topmenu" data-flex="end -center w">
                                 <a href="#">mapa del sitio</a>|
                                 <a href="#">contÁctenos</a>|
                                 <a href="#">eventos</a>|
@@ -50,21 +50,62 @@
                 <div data-flex="stripe" class="content-wrap">
                     <div class="content">
                         <article class="post" data-flex="stripe">
-                            <div class="details">
-                                <time>24 Agosto</time>
+                            <div class="details" data-childs="col -end">
+                                <time><span>24</span><span>Agosto</span></time>
+                                <div>
+                                    <strong>2</strong>
+                                    <span>Comentarios</span>
+                                </div>
+                                <div>
+                                    <h5>Escrito por:</h5>
+                                    <span>Amuki</span>
+                                </div>
+                                <div>
+                                    <h5>Categorías:</h5>
+                                    <div class="links-default">
+                                        <a href="#">About us</a>, 
+                                        <a href="#">Eventos</a>, 
+                                        <a href="#">Feugiat</a>, 
+                                        <a href="#">Aeterno</a> 
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Compartir:</h5>
+                                    <div class="links-default" data-flex="col -end">
+                                        <a href="#">Facebook</a>
+                                        <a href="#">Twitter</a>
+                                        <a href="#">Digg</a>
+                                        <a href="#">Menéame</a>
+                                        <a href="#">Delicious</a>                                        
+                                    </div>
+                                </div>                                
                             </div>
                             <div>
                                 <h2>Vix sumo exerci, mel aeterno feugiat intellegam cu</h2>
-                                <p>Lorem ipsum mea ea error praesent vituperata. Pri mollis qualisque no, veritus persequeris vituperatoribus at pro, no volumus instructior mel. Dico admodum in duo, prompta constituto constituam mea id, per dicunt convenire cu. Nostro inimicus postulant mea no, ullum disputando sea ad. Cu habeo posse summo pro. Mei eu sonet habemus deseruisse, eius inimicus salutandi eum cu.</p>
+                                <p>Lorem ipsum mea ea error praesent vituperata. Pri mollis qualisque no, veritus persequeris vitupera&shy;toribus at pro, no volumus instructior mel. Dico admodum in duo, prompta constituto constituam mea id, per dicunt convenire cu. Nostro inimicus postulant mea no, ullum disputando sea ad. Cu habeo posse summo pro. Mei eu sonet habemus deseruisse, eius inimicus salutandi eum cu.</p>
                                 <figure><img src="/images/post.png" width="556" height="350" alt=""></figure>
                                 <p>Per et perfecto indoctum, te aperiam eripuit ocurreret eum. Vidit dolorem ei qui. Sit ea zzril repudiare, nullam noluisse ea eum, option recteque consequat mei ea. Mei prima soluta at, veri minim nemore vix id.</p>
                                 <p>Habeo congue aliquam usu at, per at admodum fastidii gloriatur. Aliquid intellegebat cu sea, ad pro etiam vocent. Et his diam luptatum elaboraret, definitiones concludaturque vim id, ad has modus affert soluta. Te nobis volumus dolores vim. In est reque summo nonummy, probo liber audiam cu eum. Ea nisl propriae lobortis duo, vidit aeque sadipscing ex ius.</p>
                                 <p>Tota persequeris intellegebat id nec, id qui scripta regione, lorem repudiare ex sea. Eu nec autem mediocrem, nec accumsan aliquyam atomorum ne. Id est audire repudiandae. Eu nec causae quaeque eleifend, nemore volutpat accusamus has et. Cu usu homero mollis, erat alienum vim cu, ex quot dissentias sea.  Modus persecuti ut vix. Illud scripta ut sit, eam omnium comprehensam an. In sit stet modus perfecto, postea phaedrum instructior sed te.</p>
                             </div>
                         </article>
-                        <div>
-
+                        <div class="thread">
+                            <h3>2 Comentarios</h3>
+                            <div class="comments">
+                                <div class="clearfix">
+                                    <figure><img src="/images/img5.png" width="57" height="57" alt=""></figure>
+                                    <strong>Nick Roach</strong><span>|</span><time>August 17, 2009</time><span>|</span><a href="#">Reply</a>
+                                    <p>Habeo congue aliquam usu at, per at admodum fastidii gloriatur. Aliquid intellegebat cu sea, ad pro etiam vocent. Et his diam luptatum elaboraret, definitiones concludaturque vim id, ad has modus affert soluta. Te nobis volumus dolores vim. In est reque summo nonummy, probo liber audiam cu eum. Ea nisl propriae lobortis duo, vidit aeque sadipscing ex ius.</p>
+                                </div>
+                                <div class="clearfix">
+                                    <figure><img src="/images/img6.png" width="57" height="57" alt=""></figure>
+                                    <strong>Lorem Ipsum</strong><span>|</span><time>August 22, 2009</time><span>|</span><a href="#">Reply</a>
+                                    <p>Habeo congue aliquam usu at, per at admodum fastidii gloriatur. Aliquid intellegebat cu sea, ad pro etiam vocent. Et his diam luptatum elaboraret, definitiones concludaturque vim id, ad has modus affert soluta. Te nobis volumus dolores vim. In est reque summo nonummy, probo liber audiam cu eum. Ea nisl propriae lobortis duo, vidit aeque sadipscing ex ius.</p>                               
+                                </div>
+                            </div>
                         </div>
+                        <div class="form-subscribe">
+                            <h3>Deja un comentario</h3>
                         <form action="#" method="post" data-flex="stripe w" data-childs="col -end">
                             <div>
                                 <label class="label-subscribe">Nombre:</label>
@@ -80,9 +121,10 @@
                                 <textarea name="subscribe"></textarea>
                             </div>
                         </form>
+                        </div>
                     </div>
                     <aside class="sidebar">
-                        <form action="#" method="post">
+                        <form action="#" method="post" data-flex="col -end">
                             <label class="label-email">Ingrese su correo electrónico para recibir nuestro newsletter</label>
                             <div data-flex><input type="email" name="email"><button class="btn-email"></button></div>
                         </form>
@@ -101,13 +143,13 @@
                             <h3>Noticias Recomendadas</h3>
                             <div>
                                 <article class="clearfix">
-                                    <figure><img src="/images/img1.png" width="56" height="56" alt=""></figure>
-                                    <h4><a href="#">Lorem ipsum ne pro nihil</a></h4>
+                                    <figure><img src="/images/img1.png" width="50" height="51" alt=""></figure>
+                                    <h4><a href="#">Eu vix sumo intellegam cu</a></h4>
                                     <p>Lorem ipsum ne pro nihil saperet int scaevola, eu vix sumo exerci, melsi aeterno feugiat intellegam cu.  Lom ipsum ne pro nihil saperet .</p>
                                 </article>
                                 <article class="clearfix">
                                     <figure><img src="/images/img2.png" width="56" height="56" alt=""></figure>
-                                    <h4><a href="#">Lorem ipsum ne pro nihil</a></h4>
+                                    <h4><a href="#">Pro nihil saperet scaevola</a></h4>
                                     <p>Lorem ipsum ne pro nihil saperet scaevola, eu vix sumo exerci, mel aeterno feugiat intellegam cu. </p>
                                 </article>
                                 <article class="clearfix">
