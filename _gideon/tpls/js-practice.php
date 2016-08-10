@@ -9,37 +9,53 @@
     <body>
         <div>JS&#x2702;</div>
         <script>
-//            "use strict";
-//
-//            var salaries = {
-//                "Вася": 100,
-//                "Петя": 300,
-//                "Даша": 250
-//            };
-//                        
-//            var max = 0;// переменная суммы
-//            var maxName = "";// переменная имени
-//                        
-//            for (var key in salaries) { // проверка в переборе
-//                if (max < salaries[key]) { // если значение переменной суммы меньше суммы текущего свойства обьекта,                    
-//                    max = salaries[key];// то ей присваивается новое значение,
-//                    maxName = key;// а переменной имени текущее имя
-//                }                 // в итоге в переменных останется максимальная сумма и соответствующее имя
+//            function makeBuffer() { /* ваш код */
 //            }
-//            
-//            alert(maxName);
+//
+//            var buffer = makeBuffer();
+//
+//// добавить значения к буферу
+//            buffer('Замыкания');
+//            buffer(' Использовать');
+//            buffer(' Нужно!');
+//
+//// получить текущее значение
+//            alert(buffer()); // Замыкания Использовать Нужно!
+//
+//            var buffer = makeBuffer();
+//            buffer(0);
+//            buffer(1);
+//            buffer(0);
+//
+//            alert(buffer()); // '010'          
 
-            var arr = ["Яблоко", "Апельсин", "Груша"];
 
-            for (var i = 0; i < arr.length; i++) {
-                alert(arr[i]);
+            function makeBuffer() {
+                var text = '';
+
+                return function (piece) {
+                    if (arguments.length == 0) { // вызов без аргументов
+                        return text;
+                    }
+                    text += piece;
+                };
             }
+            ;
 
+            var buffer = makeBuffer();
 
-            var styles = ['Jazz', 'Blues'];
-            styles[styles.length] = 'Rock';
-            styles[styles.length - 1] = 'Classic';
+// добавить значения к буферу
+            buffer('Замыкания');
+            buffer(' Использовать');
+            buffer(' Нужно!');
+            alert(buffer()); // 'Замыкания Использовать Нужно!'
 
+            var buffer2 = makeBuffer();
+            buffer2(0);
+            buffer2(1);
+            buffer2(0);
+
+            alert(buffer2()); // '010'
         </script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>

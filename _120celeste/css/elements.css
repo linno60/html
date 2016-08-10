@@ -50,6 +50,13 @@ body{
     color: #aaacaf;
     font-family: ArialNarrow;
 }
+.links-tags{
+    padding-top: 2rem;
+}
+.links-tags a{
+    display: inline-block;
+    line-height: 17px;
+}
 .links-tags a[data-weight~='1']{
     color: #0a8ca3;
     font-size: 24px;
@@ -70,13 +77,19 @@ body{
     color: #999;
     font-size: 11px;
 }
+.links-tags a:active, .links-tags a:hover, .links-tags a:focus{
+    text-decoration: underline;
+}
 .links-flickr a{
-    margin: 0px 5px 5px 0px;
-    border: 3px solid #5fb7c6;
+    margin: 0px 7rem 8rem 0px;
+    border: 4px solid #5fb7c6;
     display: inline-block
 }
+.links-social{
+    margin-right: -1rem;
+}
 .links-social a{
-    margin: 5rem;
+    margin: 5rem 0px;
 }
 .links-default{
     width: 100%;
@@ -85,9 +98,11 @@ body{
     color: #555;
     font-size: 10px;
     text-align: right;
+    letter-spacing: -0.02em;
 }
 .links-default a{
     display: inline-block;
+    margin-bottom: 1rem;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus{
     text-decoration: underline;
@@ -108,9 +123,11 @@ body{
 .btn-alt{
     width: 41px;
     height: 31px;
+    margin-right: -1rem;
     background: rgba(255,255,255,.5) url(/images/icons/arroww.png)no-repeat center center;
 }
 .btn-email{
+    flex-shrink: 0;
     height: 29px;
     width: 37px;
     border-radius: 0px 2px 2px 0px;
@@ -148,6 +165,7 @@ input[name=email]{
     height: 29px;
     border: 4px solid #44afc2;
     border-radius: 2px 0px 0px 2px;
+    width: calc(100% - 37px);
 }
 *[name=subscribe]{
     background: #f1ede9;
@@ -165,6 +183,9 @@ input[name=subscribe]{
 }
 textarea[name=contact]{
     height: 73px;
+}
+textarea[name=subscribe]{
+    min-height: 150px;
 }
 input[name=contact]{
     height: 26px;

@@ -47,14 +47,14 @@
                         <a href="#"><big>Pro nihil sumo</big><small>Lorem ipsum dolor</small></a>
                     </div>
                 </header>
-                <div data-flex="stripe" class="content-wrap">
+                <div class="content-wrap" data-flex="stripe" data-flex-640="vstripe">
                     <div class="content">
-                        <article class="post" data-flex="stripe">
-                            <div class="details" data-childs="col -end">
+                        <article class="post" data-flex="stripe" data-flex-480="vstripe">
+                            <div class="details" data-childs="col -end" data-flex-480="stripe w" data-childs-480="col -start">
                                 <time><span>24</span><span>Agosto</span></time>
                                 <div>
                                     <strong>2</strong>
-                                    <span>Comentarios</span>
+                                    <span>Comen&shy;tarios</span>
                                 </div>
                                 <div>
                                     <h5>Escrito por:</h5>
@@ -63,15 +63,15 @@
                                 <div>
                                     <h5>Categorías:</h5>
                                     <div class="links-default">
-                                        <a href="#">About us</a>, 
-                                        <a href="#">Eventos</a>, 
-                                        <a href="#">Feugiat</a>, 
+                                        <a href="#">About us,</a> 
+                                        <a href="#">Eventos,</a> 
+                                        <a href="#">Feugiat,</a> 
                                         <a href="#">Aeterno</a> 
                                     </div>
                                 </div>
                                 <div>
                                     <h5>Compartir:</h5>
-                                    <div class="links-default" data-flex="col -end">
+                                    <div class="links-default" data-flex="col -end" data-flex-480="stripe w">
                                         <a href="#">Facebook</a>
                                         <a href="#">Twitter</a>
                                         <a href="#">Digg</a>
@@ -106,7 +106,7 @@
                         </div>
                         <div class="form-subscribe">
                             <h3>Deja un comentario</h3>
-                        <form action="#" method="post" data-flex="stripe w" data-childs="col -end">
+                        <form action="#" method="post" data-flex="stripe w" data-childs="col -end" data-flex-480="vstripe">
                             <div>
                                 <label class="label-subscribe">Nombre:</label>
                                 <input type="text" name="subscribe">
@@ -123,7 +123,7 @@
                         </form>
                         </div>
                     </div>
-                    <aside class="sidebar">
+                    <aside class="sidebar" data-flex-640="stripe w" data-flex-480="vstripe">
                         <form action="#" method="post" data-flex="col -end">
                             <label class="label-email">Ingrese su correo electrónico para recibir nuestro newsletter</label>
                             <div data-flex><input type="email" name="email"><button class="btn-email"></button></div>
@@ -164,7 +164,7 @@
                                 </article>
                             </div>
                         </div>
-                        <div>
+                        <div class="tags">
                             <h3>Nube de Etiquetas</h3>
                             <div class="links-tags">
                                 <a href="#" data-weight="2">Lorem</a>
@@ -193,7 +193,7 @@
                                 <a href="#" data-weight="5">convenire cu</a>
                             </div>
                         </div>
-                        <div>
+                        <div class="flickr">
                             <h3>Galería Flickr</h3>
                             <div class="links-flickr" data-flex="w">
                                 <a href="#"><img src="/images/fl1.png" width="47" height="47" alt=""></a>
@@ -211,12 +211,12 @@
             </div>
         </div>
         <footer>
-            <div class="footer lwrap" data-flex="stripe w">
-                <div>
+            <div class="footer lwrap" data-flex="stripe w" data-flex-480="vstripe">
+                <div class="twits">
                     <h5>Twitteando</h5>
                     <article>
-                        <p>Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. Stet possim eloquentiam qui no <a href="#">[...]</a></p>
-                        <p>Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. Stet possim eloquentiam qui no  Lorem ipsum sea ei .<a href="#">[...]</a></p>
+                        <p>Lorem ipsum sea ei vidisse legendos, ne habe&shy;mus deterruisset cum. Stet possim eloquentiam qui no <a href="#">[...]</a></p>
+                        <p>Lorem ipsum sea ei vidisse legendos, ne habe&shy;mus deterruisset cum. Stet possim eloquentiam qui no  Lorem ipsum sea ei . <a href="#">[...]</a></p>
                         <a href="#">Síguenos enTwitter</a>
                     </article>
                     <div class="links-social" data-flex="end w">
@@ -230,11 +230,11 @@
                     <div>
                         <article>
                             <h6><a href="#">Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum.</a></h6>
-                            <p>Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. Stet possim eloquentiam qui no Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. Stet possim eloquentiam qui no</p>
+                            <p>Lorem ipsum sea ei vidisse legendos, ne habe&shy;mus deterruisset cum. Stet possim eloquentiam qui no Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. Stet possim eloquen&shy;tiam qui no</p>
                         </article>
                         <article>
                             <h6><a href="#">Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum.</a></h6>
-                            <p>Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. Stet possim eloquentiam qui no Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. </p>
+                            <p>Lorem ipsum sea ei vidisse legendos, ne habe&shy;mus deterruisset cum. Stet possim eloquentiam qui no Lorem ipsum sea ei vidisse legendos, ne habemus deterruisset cum. </p>
                         </article>
                     </div>
                 </div>
@@ -246,9 +246,9 @@
                     <h5>Contáctenos</h5>
                     <form action="#" method="post" data-flex="col -end" data-childs>
                         <div><label class="label-contact">Nombre:</label><input type="text" name="contact"></div>
-                        <div><label class="label-contact">Email:</label><input type="email" name="contact"></div>
+                        <div><label class="label-contact">E-mail:</label><input type="email" name="contact"></div>
                         <div><label class="label-contact">Mensaje:</label><textarea name="contact"></textarea></div>                        
-                        <button class="btn-email"></button>
+                        <button class="btn-alt"></button>
                     </form>
                 </div>
             </div>
