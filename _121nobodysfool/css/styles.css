@@ -7,6 +7,11 @@ body > div{
     flex-grow: 1;
     flex-shrink: 0;
 }
+figure > img, a > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 
 /*HEADER*/
 header{
@@ -14,6 +19,7 @@ header{
 }
 .topbar > .lwrap{
     position: relative;
+    padding: 10rem 10px 10rem 10px;
 }
 .topbar{
     transition: all .5s ease;
@@ -36,7 +42,7 @@ header{
     border-radius: 0px 0px 5px 5px;
     position: absolute;
     top: 100%;
-    right: 0px;
+    right: 10px;
 }
 
 /*SLIDER*/
@@ -46,8 +52,144 @@ header{
     border-bottom: 10px solid #e9e9e9;
     padding-top: 12rem;
 }
+.slider > ul > li h2{
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20rem;
+}
+.slider > ul > li p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20rem;
+}
+.slider > ul > li > figure{
+    margin-left: 30rem;
+    width: 57.1%;
+    flex-shrink: 0;
+}
+
+/*INTRO*/
+.intro{
+    padding: 20rem 10px 20rem 10px;
+}
+.intro > div{
+    width: 48%;
+}
+.intro article{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 20rem;
+}
+.intro article h5{
+    color: #09f;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10rem 0px 10rem 0px;
+}
+.intro article p{
+    color: #666666;
+    font-size: 13px;
+    line-height: 21px;
+}
+.arrow{
+    border: 24rem solid transparent;
+    border-left: 24rem solid #e0e0e0;
+    position: relative;
+    width: 120rem;
+    height: 120rem;
+    border-radius: 50%;
+}
+.arrow:before{
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-bottom: 40px solid #e0e0e0;
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    display: inline-block;
+    top: -32rem;
+    left: -8rem;
+}
+.bottom-left{
+    transform: rotate(-45deg);
+}
+.bottom-right{
+    transform: rotate(-135deg);
+}
+.top-right{
+    transform: rotate(135deg);
+}
+
+/*STREAMER*/
+.streamer{
+    background: #e0e0e0;
+    border-left: 10px solid #09f;
+    padding: 10rem 10rem 10rem 10rem;
+    margin-bottom: 50rem;
+}
+.streamer hgroup *{
+    color: #333;
+    font-weight: 400;
+}
+.streamer h1{
+    font-size: 36px;
+}
+.streamer h3{
+    font-size: 18px;
+}
 
 /*FOOTER*/
 footer{
     flex-shrink: 0;
+    background: #1a1a1a;
+    border-top: 5px solid black;
+    color: #666666;
+}
+footer > .lwrap{
+    padding: 20rem 10px 20rem 10px;
+}
+footer > .lwrap > div{
+    width: 23%;
+    margin-bottom: 20px;
+}
+footer p{    
+    line-height: 19px;
+}
+footer .read{
+    text-align: right;
+    float: right;
+}
+footer figure{
+    padding: 5px;
+    border: 1px solid #555;
+    margin-bottom: 10rem;
+}
+.post{
+    margin-bottom: 10rem;
+}
+.post h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.post span, .post time{
+    font-size: 10px;
+}
+.post p{
+    line-height: 14px;
+}
+footer h4{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20rem;
+    font-weight: 400;
+}
+.copyright{
+    border-top: 1px solid #2d2d2d;
+    background: #222;
+}
+.copyright > .lwrap{
+    padding: 20rem 10px 20rem 10px;
 }

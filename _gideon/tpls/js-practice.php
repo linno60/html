@@ -9,14 +9,38 @@
     <body>
         <div>JS&#x2702;</div>
         <script>
-            function Journal(date) {
-                this.date = date;
-                // ...
+            // вспомогательная функция для проверки на число
+            function checkNumber(value) {
+                return typeof value == 'number';
             }
-// возвращает значение, большее 0, если A больше B, иначе меньшее 0
-            Journal.compare = function (journalA, journalB) {
-                return journalA.date - journalB.date;
-            };
+
+// декоратор, проверяющий типы для f
+// второй аргумент checks - массив с функциями для проверки
+            function typeCheck(f, checks) {
+                return function () {
+                    for (var i = 0; i < arguments.length; i++) {
+                        if (!checks[i](arguments[i])) {
+                            alert("Некорректный тип аргумента номер " + i);
+                            return;
+                        }
+                    }
+                    return f.apply(this, arguments);
+                }
+            }
+
+            function sum(a, b) {
+                return a + b;
+            }
+
+// обернём декоратор для проверки
+            sum = typeCheck(sum, [checkNumber, checkNumber]); // оба аргумента - числа
+
+// пользуемся функцией как обычно
+            alert(sum(1, 2)); // 3, все хорошо
+
+// а вот так - будет ошибка
+            sum(true, null); // некорректный аргумент номер 0
+            sum(1, ["array", "in", "sum?!?"]); // некорректный аргумент номер 1
         </script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>

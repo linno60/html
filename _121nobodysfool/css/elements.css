@@ -112,6 +112,8 @@ input[name=search], input[name=contact], textarea[name=contact]{
     border: none;
     outline: none;
     padding: 0px 5px;
+    width: 100%;
+    max-width: 460px;
 }
 input[name=search], input[name=contact]{
     height: 31px;
@@ -124,9 +126,14 @@ input[name=contact], textarea[name=contact]{
     color: white;
     background: #232323;
 }
+input[name=contact]{
+    margin-bottom: 10rem;
+}
 textarea[name=contact]{
     height: 110px;
     padding: 5px;
+    margin-bottom: 9rem;
+    resize: none;
 }
 input[name=search]::-webkit-input-placeholder { color: #999; }
 input[name=search]::-moz-placeholder { color: #999; }
