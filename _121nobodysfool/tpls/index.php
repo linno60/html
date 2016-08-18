@@ -25,7 +25,7 @@
                 <input type="checkbox" id="collapse"> 
                 <div class="topbar">                                   
                     <div class="lwrap" data-flex="axis">
-                        <div class="links-topbar">
+                        <div class="links-topbar" data-flex="-center w">
                             <a href="#">Sign Up</a>|
                             <a href="#">Login</a>|
                             <a href="#">RSS Feeds</a>|
@@ -64,17 +64,57 @@
                 </div>                
             </header>
             <section class="slider-wrap">
-                <div class="slider lwrap">
-                    <ul data-childs="axis">
-                        <li>
-                            <div>
-                                <h2>Your title can be long and descriptive</h2>
-                                <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
-                                <a href="#" class="btn btn-default">read more &raquo;</a>
-                            </div>
-                            <figure><img src="/images/slider1.jpg" width="550" height="440" alt=""></figure>
-                        </li>
-                    </ul>
+                <div class="slider lwrap" data-flex="stripe">                   
+                    <input name="anchor1" id='slide1-0' type="radio">
+                    <input name="anchor1" id='slide1-1' type="radio">
+                    <input name="anchor1" id='slide1-2' type="radio">
+                    <input name="anchor1" id='slide1-3' type="radio">
+                    <input name="anchor1" id='slide1-4' type="radio">
+                    <input name="anchor1" id='play1' type="radio" checked>
+                    <div class="description" data-flex="col center">
+                        <label class="num0">
+                            <h2>Your title can be long and descriptive 1</h2>
+                            <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+                            <a href="#" class="btn btn-default">read more &raquo;</a>
+                        </label>
+                        <label class="num1">
+                            <h2>Your title can be long and descriptive 2</h2>
+                            <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+                            <a href="#" class="btn btn-default">read more &raquo;</a>
+                        </label>
+                        <label class="num2">
+                            <h2>Your title can be long and descriptive 3</h2>
+                            <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+                            <a href="#" class="btn btn-default">read more &raquo;</a>
+                        </label>
+                        <label class="num3">
+                            <h2>Your title can be long and descriptive 4</h2>
+                            <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+                            <a href="#" class="btn btn-default">read more &raquo;</a>
+                        </label>
+                        <label class="num4">
+                            <h2>Your title can be long and descriptive 5</h2>
+                            <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+                            <a href="#" class="btn btn-default">read more &raquo;</a>
+                        </label>
+                    </div>
+                    <div class="slider-pics">
+                        <ul>
+                            <li><img src="/images/empty.jpg" width="550" height="440" alt=""></li>
+                            <li class="num0"><img src="/images/slider1.jpg" width="550" height="440" alt=""></li>
+                            <li class="num1"><img src="/images/slider2.jpg" width="550" height="440" alt=""></li>
+                            <li class="num2"><img src="/images/slider3.jpg" width="550" height="440" alt=""></li>
+                            <li class="num3"><img src="/images/slider4.jpg" width="550" height="440" alt=""></li>
+                            <li class="num4"><img src="/images/slider5.jpg" width="550" height="440" alt=""></li>
+                        </ul>
+                        <div class='bullets' data-flex>
+                            <label class='num0' for='slide1-0'></label>
+                            <label class='num1' for='slide1-1'></label>
+                            <label class='num2' for='slide1-2'></label>
+                            <label class='num3' for='slide1-3'></label>
+                            <label class='num4' for='slide1-4'></label>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="intro lwrap" data-flex="stripe w">

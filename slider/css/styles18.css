@@ -134,16 +134,16 @@
     3.472%, 14.920%  { opacity: 1; z-index: 4; transform: translateY(0); }
     0%, 18.402%, 100%  { opacity: 0; z-index: 0; transform: translateY(-30px); }
 }
-.csslider18 > #play18:checked ~ .description  > .num0 {
+.csslider18 > #play18:checked ~ .description > .num0 {
     animation: description18 14400ms infinite 0ms;
 }
-.csslider18 > #play18:checked ~ .description  > .num1 {
+.csslider18 > #play18:checked ~ .description > .num1 {
     animation: description18 14400ms infinite 3600ms;
 }
-.csslider18 > #play18:checked ~ .description  > .num2 {
+.csslider18 > #play18:checked ~ .description > .num2 {
     animation: description18 14400ms infinite 7200ms;
 }
-.csslider18 > #play18:checked ~ .description  > .num3 {
+.csslider18 > #play18:checked ~ .description > .num3 {
     animation: description18 14400ms infinite 10800ms;
 }
 
