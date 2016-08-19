@@ -9,35 +9,26 @@
     <body>
         <div>JS&#x2702;</div>
         <script>
-            function throttle(func, ms) {
+            var expr, res;
 
-                var isThrottled = false,
-                        savedArgs,
-                        savedThis;
+            while (true) {
+                expr = prompt("Введите выражение?", '2-');
+                if (expr == null)
+                    break;
 
-                function wrapper() {
-
-                    if (isThrottled) { // (2)
-                        savedArgs = arguments;
-                        savedThis = this;
-                        return;
+                try {
+                    res = eval(expr);
+                    if (isNaN(res)) {
+                        throw new Error("Результат неопределён");
                     }
 
-                    func.apply(this, arguments); // (1)
-
-                    isThrottled = true;
-
-                    setTimeout(function () {
-                        isThrottled = false; // (3)
-                        if (savedArgs) {
-                            wrapper.apply(savedThis, savedArgs);
-                            savedArgs = savedThis = null;
-                        }
-                    }, ms);
+                    break;
+                } catch (e) {
+                    alert("Ошибка: " + e.message + ", повторите ввод");
                 }
-
-                return wrapper;
             }
+
+            alert(res);
         </script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>

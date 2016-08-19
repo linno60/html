@@ -31,18 +31,18 @@
                             <a href="#">RSS Feeds</a>|
                             <a href="#">Archived News</a>
                         </div>
+                        <label for="collapse"></label>
                         <div class="links-social" data-flex="end w">
                             <a href="#" class="linkedin"></a>
                             <a href="#" class="twitter"></a>
                             <a href="#" class="pinterest"></a>
                             <a href="#" class="google-plus"></a>
                             <a href="#" class="rss"></a>
-                        </div>  
-                        <label for="collapse"></label>
+                        </div>                          
                     </div>
                 </div>
                 <div class="lwrap">
-                    <nav class="links-nav" data-flex="w">
+                    <nav class="links-nav" data-flex="w" data-childs="center -center">
                         <a href="#" class="active">homepage</a>
                         <a href="#">style demo</a>
                         <a href="#">full width</a>
@@ -57,7 +57,7 @@
                             <img src="/images/logo.png" width="211" height="57" alt="Nobodysfool">
                         </a>
                         <form action="#" method="post" data-flex="end">
-                            <input type="search" name="search" placeholder="Search Our Website">
+                            <input type="search" name="search" placeholder="Search Our Website...">
                             <button><span class="btn btn-default">search</span></button>
                         </form>
                     </div>
@@ -117,17 +117,19 @@
                     </div>
                 </div>
             </section>
-            <section class="intro lwrap" data-flex="stripe w">
-                <div data-flex="between -start">
-                    <div data-flex="vaxis">
-                        <figure><img src="/images/monitor.png" width="310" height="248" alt=""></figure>
-                        <div data-flex="between -end">
+            <section class="intro lwrap" data-flex="between -start w">
+                <div data-flex="stripe">
+                    <div>
+                        <figure class="cycle-first"><img src="/images/monitor.png" width="310" height="248" alt=""></figure>
+                        <div class="cycle-third" data-flex="col">
                             <div class="arrow bottom-left"></div>
-                            <figure><img src="/images/phone.png" width="62" height="114" alt=""></figure>
-                            <figure><img src="/images/phoneside.png" width="114" height="62" alt=""></figure>
+                            <div data-flex="center -end">
+                                <figure><img src="/images/phone.png" width="62" height="114" alt=""></figure>
+                                <figure><img src="/images/phoneside.png" width="114" height="62" alt=""></figure>
+                            </div>
                         </div>
                     </div>
-                    <div data-flex="col center -center">
+                    <div class="cycle-second" data-flex="col center -center">
                         <div class="arrow top-right"></div>
                         <figure><img src="/images/touchpad.png" width="120" height="157" alt=""></figure>
                         <div class="arrow bottom-right"></div>
@@ -188,21 +190,21 @@
                         <li>»<a href="#">In nec justo non</a></li>
                         <li>»<a href="#">Vivamus mollis enim ut</a></li>
                         <li>»<a href="#">Curabitur hendrerit est</a></li>
-                        <li>»<a href="#">Sed a null urna</a></li>
+                        <li>»<a href="#">Sed a nulla urna</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4>latest blog posts</h4>
                     <article class="post clearfix">
                         <h6>Post Title</h6>
-                        <div><span>Admin</span>,<span>domainname.com</span></div>
+                        <div><span>Admin</span>, <span>domainname.com</span></div>
                         <time>Friday, 6th April 2000</time>
                         <p>Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.</p>
                         <a href="#" class="read">Read More &raquo;</a>
                     </article>
                     <article class="post clearfix">
                         <h6>Post Title</h6>
-                        <div><span>Admin</span>,<span>domainname.com</span></div>
+                        <div><span>Admin</span>, <span>domainname.com</span></div>
                         <time>Friday, 6th April 2000</time>
                         <p>Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.</p>
                         <a href="#" class="read">Read More &raquo;</a>
@@ -215,6 +217,7 @@
                         <input type="email" name="contact" placeholder="Email">
                         <input type="url" name="contact" placeholder="Subject">
                         <textarea name="contact" placeholder="Message"></textarea>
+                        <button><span class="btn btn-default">submit</span></button>
                     </form>
                 </div>
             </div>

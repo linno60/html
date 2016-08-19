@@ -25,9 +25,8 @@ body{
     text-transform: uppercase;
     color: #2e2e2e;
     font-size: 14px;
-    height: 38px;
     border-bottom: 5px solid #f1f1f1;
-    padding: 0px 8rem;
+    padding: 17.5rem 8rem;
     letter-spacing: 0.025em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
@@ -81,10 +80,14 @@ body{
 }
 .links-quick li{
     color: #989898;
-    padding: 5rem 0px
+    padding: 6rem 0px;
+    letter-spacing: 0.045em;
+}
+.links-quick li:first-child{
+    padding-top: 0px;
 }
 .links-quick li a{
-    margin-left: 5rem;
+    margin-left: 8rem;
     color: #09f;
 }
 .links-quick li a:active, .links-quick a:hover, .links-quick a:focus{
@@ -99,26 +102,23 @@ body{
 .btn-default{
     height: 31px;
     color: white;
-    padding: 0px 5rem;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: 0px 8.5rem;    
+    border-radius: 5px;    
 }
 .btn-lg{
     height: 58px;
     color: #e6e6e6;
     font-size: 26px;
     padding: 0px 10rem;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 /*FORMS*/
 input[name=search], input[name=contact], textarea[name=contact]{
     border-radius: 3px;
     border: none;
-    outline: none;
-    padding: 0px 5px;
-    width: 100%;
-    max-width: 460px;
+    outline: none;        
+    font-size: 13px;    
 }
 input[name=search], input[name=contact]{
     height: 31px;
@@ -126,18 +126,27 @@ input[name=search], input[name=contact]{
 input[name=search]{
     background: #f1f1f1;
     color: #333;
+    margin-right: 5rem;
+    max-width: 215px;
+    flex-grow: 1;
+    padding: 0px 5rem;
+    letter-spacing: 0.005em;
 }
 input[name=contact], textarea[name=contact]{
     color: white;
     background: #232323;
+    width: 100%;
+    max-width: 460px;
+    padding: 0px 10rem;
+    letter-spacing: 0.03em;
 }
 input[name=contact]{
     margin-bottom: 10rem;
 }
 textarea[name=contact]{
     height: 110px;
-    padding: 5px;
-    margin-bottom: 9rem;
+    padding: 10rem;
+    margin-bottom: 7rem;
     resize: none;
 }
 input[name=search]::-webkit-input-placeholder { color: #999; }

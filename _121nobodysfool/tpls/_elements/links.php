@@ -4,7 +4,7 @@
     <a href="#">RSS Feeds</a>|
     <a href="#">Archived News</a>
 </div>
-<nav class="links-nav" data-flex="w">
+<nav class="links-nav" data-flex="w" data-childs="center -center">
     <a href="#" class="active">homepage</a>
     <a href="#">style demo</a>
     <a href="#">full width</a>
