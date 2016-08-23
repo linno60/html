@@ -1,0 +1,35 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=27870156-461e-4791-87b9-362d97f4c261");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("/fonts/fonts.com/31f16622-b72f-4fa0-9e3b-cb48f7d62990.woff2") format("woff2"), url("/fonts/fonts.com/01932eb5-2a4e-4bd4-b8a8-8e04f69b2d66.woff") format("woff");
+}
+@font-face {
+    font-family: "ZurichBT";
+    src: url("/fonts/fonts.com/258c4607-9bd9-425d-965f-811f37b5aab9.woff2") format("woff2"), url("/fonts/fonts.com/cea21312-600e-4b75-9175-aa53f6248ac1.woff") format("woff");
+}
+@font-face {
+    font-family: "ZurichBT";
+    src: url("/fonts/fonts.com/14500e78-2bc1-450b-8280-9c5422f2d9fd.woff2") format("woff2"), url("/fonts/fonts.com/579c8f16-4492-4d7b-896d-744a68168c54.woff") format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'KlavikaMedium';
+    src: url('/fonts/fontsquirel.com/klavika_medium_plain.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika_medium_plain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ICONS */
+.icon-arrowgreen {width: 15px; height: 15px; background: url('/images/icons/arrowgreen.png');}
+.icon-select-disable {width: 21px; height: 19px; background: url('/images/icons/select-disable.png');}
+.icon-select {width: 21px; height: 19px; background: url('/images/icons/select.png');}
+.icon-twitter {width: 34px; height: 18px; background: url('/images/icons/twitter.png');}
+.icon-users {width: 19px; height: 15px; background: url('/images/icons/users.png');}

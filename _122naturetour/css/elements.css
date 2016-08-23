@@ -1,0 +1,214 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-menu{
+    margin: 6rem -7rem 0px 0px;
+}
+.links-menu a{
+    color: #209a28;
+    font-family: ZurichBT;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 7rem;
+    text-align: right;
+}
+.links-nav{
+    background: linear-gradient(#66c13e, #0f941a);
+    border: 1px solid #0c932f;
+    border-radius: 5px;
+    box-shadow: inset 2px 2.2px 0 #81de41;
+    padding-right: 34rem;
+}
+.links-nav a{
+    text-shadow: 0 -2px 0 rgba(0, 92, 19, 0.63);
+    color: white;
+    font-family: ZurichBT;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 39px;
+    text-align: center;
+}
+.links-quick a{
+    color: #757268;
+    margin-bottom: 6rem;
+}
+.links-menu a:active, .links-menu a:hover, .links-menu:focus, .links-nav a:active, .links-nav a:hover, .links-nav a:focus,
+.links-quick a:active, .links-quick a:hover, .links-quick a:focus, .links-breadcrumbs a:active, .links-breadcrumbs a:hover, .links-breadcrumbs a:focus{
+    text-decoration: underline;
+}
+.links-breadcrumbs{
+    padding: 13rem 10rem 7rem 23rem;
+}
+.links-breadcrumbs a, .links-breadcrumbs{
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #231f20;
+}
+.links-breadcrumbs a:last-child{
+    color: #14961c;
+}
+.links-breadcrumbs a:last-child:active, .links-breadcrumbs a:last-child:hover, .links-breadcrumbs a:last-child:focus{
+    text-decoration: none;
+    cursor: default;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 67rem;
+    height: 26px;
+    padding: 0px 5rem;
+    background: linear-gradient(#66c13e, #0f941a);
+    border: 1px solid #0c932f;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 3px #d8d5cc, inset 2px 2.2px 0 #81de41;
+    text-shadow: 0 -2px 0 rgba(0, 92, 19, 0.63);
+    color: white;
+    font-family: KlavikaMedium;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.btn-default.alt{
+    position: relative;
+    height: 34px;
+    background: url(/images/icons/arrowgreen.png) no-repeat right 10px center, linear-gradient(#66c13e, #0f941a);
+    border-right: none;
+    padding: 0px 40px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 20px;
+    box-shadow: 0px 3px 0px #d8d5cc, 0px -3px 0px 0px #d8d5cc, -1.5px 0px 0px 1.5px #d8d5cc, inset 2px 2.2px 0 #81de41;
+    margin-right: 20px;
+}
+.btn-default.alt:after{
+    background: url("/images/corner.png");
+    content: "";
+    height: 40px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    right: -20px;
+    top: -4px;
+}
+.btn-join{    
+    box-shadow: 0px 0px 0px 3px #d8d5cd;
+    border-bottom: 1px solid #685c4e;
+    border-top: 1px solid #867b6b;
+    border-right: 1px solid #796e5f;
+    border-left: 1px solid #796e5f;
+    border-radius: 5px;
+    background: linear-gradient(#948c80, #736b61);    
+}
+.btn-join span{
+    padding: 0px 10rem;
+    box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.2);
+    height: 24px;
+    border-radius: 5px 0px 0px 5px;
+    text-shadow: 0 -2px 0 #615741;
+    color: white;
+    font-family: KlavikaMedium;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+}
+.btn-join .icon-users{
+    width: 34px;
+    height: 24px;
+    border-left: 1px solid #796e5f;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 1px 1px 0px 0px rgba(255,255,255,.2);
+    border-radius: 0px 5px 5px 0px;
+}
+
+/*TABS*/
+.tablist{
+    background: linear-gradient(white, #f4f3f1);
+    border-radius: 5px;
+    margin-bottom: 27rem;
+}
+.tabpanel.active {
+    display: flex;
+}
+.tablist a{
+    color: #444137;
+    font-family: ZurichBT;
+    font-size: 18px;
+    flex-grow: 1;
+    height: 39px;
+    border: 1px solid #cfcdc5;
+    border-left: none;
+    box-shadow: inset 0 -2px 0 white; 
+    position: relative;
+}
+.tablist a span{
+    padding: 10px;
+    background: linear-gradient(45deg, #43ac2d 50%, transparent 50%) 0px calc(50% - 1px) / 5px 5px no-repeat,
+        linear-gradient(135deg, #43ac2d 50%, transparent 50%) 0px calc(50% + 4px) / 5px 5px no-repeat;
+}
+.tablist a:first-child{
+    border-radius: 5px 0px 0px 5px;
+    border-left: 1px solid #cfcdc5;
+}
+.tablist a:last-child{
+    border-radius: 0px 5px 5px 0px;   
+}
+.tablist a:last-child.active, .tablist a:last-child:active, .tablist a:last-child:hover, .tablist a:last-child:focus{
+    box-shadow: inset 2px 2.2px 0 #81de41, -1px 0px 0px 0px #0c932f;
+}
+.tablist a.active, .tablist a:active, .tablist a:hover, .tablist a:focus{
+    background: linear-gradient(#66c13e, #0f941a);
+    border-color: #0c932f;
+    box-shadow: inset 2px 2.2px 0 #81de41;
+    text-shadow: 0 -2px 0 rgba(0, 92, 19, 0.63);
+    color: white;
+}
+.tablist a:after{
+    content: "";
+    position: absolute;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;	
+    bottom: -8px;
+}
+.tablist a.active:after, .tablist a:active:after, .tablist a:hover:after, .tablist a:focus:after{
+    border-top: 8px solid #0f941a;
+}
+.tabset{
+    color: #3a3731;
+    padding: 0px 3rem;
+}
+
+/*FORMS*/
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;           
+    background: url('/images/icons/select.png') right 3px center no-repeat, linear-gradient(white, #f4f3f1);
+    padding: 0px 30px 0px 5px;
+    color: #231f20;   
+    margin-bottom: 10rem;
+}
+select.disable{
+    color: #999;
+    background: url('/images/icons/select-disable.png') right 3px center no-repeat, linear-gradient(white, #f4f3f1);
+}
+.input-default, select{
+    font-size: 11px;
+    outline: none;
+    height: 25px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #cfcdc5;
+    border-radius: 5px;
+    box-shadow: 0 0 0 3px #e8e5de, inset 0 -2px 0 white;
+}
+.input-default{
+    background: linear-gradient(white, #f4f3f1);
+    padding: 0px 8rem;
+}
+input::-webkit-input-placeholder { color: #666666; }
+input::-moz-placeholder { color: #666666; }
+input:-ms-input-placeholder { color: #666666; }

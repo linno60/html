@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'KlavikaMedium';
+    src: url('/fonts/fontsquirel.com/klavika_medium_plain.woff2') format('woff2'), url('/fonts/fontsquirel.com/klavika_medium_plain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
