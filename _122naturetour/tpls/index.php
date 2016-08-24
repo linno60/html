@@ -26,7 +26,7 @@
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="236" height="65" alt="Nature Tour">
                     </a>
-                    <div class="contact" data-flex="col around -end">
+                    <div class="info" data-flex="col around -end">
                         <small>For Friendly, Expert advice call</small>
                         <big>12 (0) 1234 567890</big>
                         <nav class="links-menu" data-flex="end w">
@@ -38,7 +38,7 @@
                         </nav>
                     </div>
                 </div>
-                <nav class="links-nav" data-flex="around w" data-childs="center -center">
+                <nav class="links-nav" data-flex="around w" data-flex-640="center w" data-childs="center -center">
                     <a href="#">destinations</a>
                     <a href="#">species</a>
                     <a href="#">tour types</a>
@@ -51,7 +51,7 @@
                     <a href="#">Home</a>
                 </div>
             </header>
-            <div class="wrap" data-flex="stripe">
+            <div class="wrap" data-flex="stripe" data-flex-640="vstripe">
                 <div class="content">
                     <div class='slider'>
                         <input name="anchor" id='slide-0' type="radio">
@@ -112,7 +112,7 @@
                     <div class="guids" data-flex="between -end">
                         <article>
                             <h1>naturetour&ensp;wild life holidays</h1>
-                            <p>A selection of worldwide bird watching, wild flower and natural history holidays (including wildlife tours, treks and cruises), all led by expert <a href="#">naturalist guides.</a></p>
+                            <p>A selection of worldwide bird watching, wild flower and natural history holidays (including wildlife tours, treks and cruises), all led by expert&nbsp; <a href="#">naturalist guides.</a></p>
                         </article>
                         <figure><img src="/images/cameraman.png" width="187" height="133" alt=""></figure>
                     </div>
@@ -167,11 +167,11 @@
                     <div>
                         <hgroup>
                             <h2>holiday search</h2>
-                            <h3>start your holiday search here:</h3>
-                        </hgroup>
-                        <form action="#" method="post">
+                            <h3>Start your holiday search here:</h3>
+                        </hgroup> 
+                        <form action="#" method="post" class="form-holidays" data-flex-640="stripe w">
                             <select>
-                                <option>Select region</option>
+                                <option>Select Region</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -196,22 +196,24 @@
                             </select>
                             <button><span class="btn btn-default alt">search holidays</span></button>
                         </form>
-                        <hgroup>
-                            <h2>quick search</h2>
-                            <h3>enter a country or tour code:</h3>
-                        </hgroup>
-                        <form action="#" method="post" data-flex="axis">
-                            <input class="input-default" type="search" name="search" placeholder="Country/Code ...">
-                            <button><span class="btn btn-default">search</span></button>
-                        </form>
+                        <div data-flex-640="stripe">
+                            <hgroup>
+                                <h2>quick search</h2>
+                                <h3>enter a country or tour code:</h3>
+                            </hgroup>
+                            <form action="#" method="post" class="form-quicksearch" data-flex="between -start w" data-flex-640="between -start" data-flex-480="between -start w">
+                                <input class="input-default" type="search" name="search" placeholder="Country/Code ...">
+                                <button><span class="btn btn-default">search</span></button>
+                            </form>
+                        </div>
                     </div>
                     <div>
                         <hgroup>
                             <h2>newsletter signup</h2>
                             <h3>New tours, special offers, extra departures and latest news</h3>
                         </hgroup>
-                        <form action="#" method="post">
-                            <input class="input-default" type="email" name="signup" placeholder="Enter email ...">
+                        <form action="#" method="post" class="form-signup" data-flex="between -start w" data-flex-640="between -start" data-flex-480="between -start w">
+                            <input class="input-default" type="email" name="signup" placeholder="Enter Email ...">
                             <input class="input-default" type="text" name="signup" placeholder="Enter Name ...">
                             <button><span class="btn btn-default">sign up</span></button>
                         </form>
@@ -239,10 +241,10 @@
                 <div class="footer">
                     <h3 class="hdr">Naturetour has 25 years experience in operating wildlife holidays.  Contact Us for friendly traval advice</h3>
                     <div data-flex="stripe w">
-                        <div>
+                        <div class="twitter">
                             <h5>follow us on twitter<i class="icon-twitter"></i></h5>
                             <p> <time>* 4 days ago</time> The new website is now live. We hope you enjoy it and any feedback is welcome.</p>
-                            <a href="#" class="btn btn-join"><span>join on facebook</span><i class="icon-users"></i></a>
+                            <a href="#" class="btn btn-join"><span>join us on facebook</span><i class="icon-users"></i></a>
                         </div>
                         <div data-flex="stripe w">
                             <h5>quick links</h5>

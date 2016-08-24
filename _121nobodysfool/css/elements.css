@@ -41,6 +41,7 @@ body{
     height: 32px;
     border-radius: 50%;
     margin: 5rem;
+    display: inline-block;
 }
 .links-social .linkedin{
     background: #787878 url(/images/icons/linkedin.png) no-repeat center center;
@@ -98,6 +99,7 @@ body{
 .btn-default, .btn-lg{
     background: #09f;
     text-transform: uppercase;
+    text-align: center;
 }
 .btn-default{
     height: 31px;
@@ -106,11 +108,18 @@ body{
     border-radius: 5px;    
 }
 .btn-lg{
-    height: 58px;
+    height: 58rem;
     color: #e6e6e6;
-    font-size: 26px;
+    font-size: 26rem;
     padding: 0px 10rem;
     border-radius: 6px;
+    position: relative;
+}
+.btn-lg > span{
+    display: inline-block;    
+    background: -webkit-linear-gradient(#ccadae, #e3e0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*FORMS*/
@@ -126,7 +135,6 @@ input[name=search], input[name=contact]{
 input[name=search]{
     background: #f1f1f1;
     color: #333;
-    margin-right: 5rem;
     max-width: 215px;
     flex-grow: 1;
     padding: 0px 5rem;

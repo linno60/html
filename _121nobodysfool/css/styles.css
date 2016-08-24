@@ -7,7 +7,7 @@ body > div{
     flex-grow: 1;
     flex-shrink: 0;
 }
-figure > img, a > img, .slider-pics li:not(:first-child) > img{
+figure > img, a > img, li > img{
     display: block;
     width: 100%;
     height: 100%;
@@ -18,8 +18,11 @@ header{
     margin-bottom: 42rem;
 }
 header > .lwrap form{
-    margin-bottom: 3rem;
+    margin: 0px 0px 3rem 5px;
     flex-grow: 1;
+}
+header > .lwrap form button{
+    margin: 3rem 0px 0px 5rem;
 }
 header > .lwrap form .btn-default{
     letter-spacing: 0.025em;
@@ -66,19 +69,18 @@ header > .lwrap form .btn-default{
 }
 .slider h2{
     color: #333;
-    font-size: 36px;
+    font-size: 36rem;
     font-weight: 400;
-    line-height: 36px;
-    margin: 43rem 0px 18rem 0px;
+    line-height: 36rem;
+    margin: 43rem 0px 18rem 3rem;
 }
 .slider p{
     color: #666666;
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 18rem;
+    margin: 0px 0px 18rem 3rem;
 }
 .slider p, .slider h2{
-    margin-left: 3rem;
     letter-spacing: -0.005em;
 }
 .slider .btn-default{
@@ -86,7 +88,7 @@ header > .lwrap form .btn-default{
 }
 .slider-pics{
     margin-left: 30rem;
-    width: 57.2%;
+    width: 57.25%;
     flex-shrink: 0;
     position: relative;
 }
@@ -99,7 +101,7 @@ header > .lwrap form .btn-default{
     display: none;
 }
 .slider-pics > ul > li:first-child {
-    visibility: hidden;    
+    visibility: hidden;
 }
 .slider-pics > ul > li:not(:first-child) {
     position: absolute;
@@ -123,19 +125,19 @@ header > .lwrap form .btn-default{
     12.5%, 25% { opacity: 1; z-index: 2; }
 }
 .slider > #play1:checked ~ .slider-pics > ul > .num0 {
-    animation: kenburns1 20000ms infinite 0ms ease;
+    animation: kenburns1 20000ms infinite -2000ms ease;
 }
 .slider > #play1:checked ~ .slider-pics > ul > .num1 {
-    animation: kenburns1 20000ms infinite 4000ms ease;
+    animation: kenburns1 20000ms infinite 2000ms ease;
 }
 .slider > #play1:checked ~ .slider-pics > ul > .num2 {
-    animation: kenburns1 20000ms infinite 8000ms ease;
+    animation: kenburns1 20000ms infinite 6000ms ease;
 }
 .slider > #play1:checked ~ .slider-pics > ul > .num3 {
-    animation: kenburns1 20000ms infinite 12000ms ease;
+    animation: kenburns1 20000ms infinite 10000ms ease;
 }
 .slider > #play1:checked ~ .slider-pics > ul > .num4 {
-    animation: kenburns1 20000ms infinite 16000ms ease;
+    animation: kenburns1 20000ms infinite 14000ms ease;
 }
 .slider .description{
     position: relative;
@@ -143,27 +145,23 @@ header > .lwrap form .btn-default{
 }
 .slider .description label{
     position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
     cursor: default;
-    transition: transform 4000ms ease, opacity 4000ms;
+    transition: all 4000ms ease;
+    z-index: -1;
 }
 .slider > #slide1-0:checked ~ .description > .num0,
 .slider > #slide1-1:checked ~ .description > .num1,
 .slider > #slide1-2:checked ~ .description > .num2,
 .slider > #slide1-3:checked ~ .description > .num3,
 .slider > #slide1-4:checked ~ .description > .num4{
-    opacity: 1;
     z-index: 2; 
-    transform: scale(1);
-}
-.slider > input:checked ~ .description > label {
-    opacity: 0;
-    z-index: 0;
-    transform: scale(0);
 }
 @keyframes description1 {
-    3.472%, 33.333%  { opacity: 1; z-index: 2; transform: scale(1); }
-    36.805%  { opacity: 0; z-index: 2; transform: scale(0); }
-    36.815%, 100%  { z-index: 0; }
+    0%, 19.999%  { z-index: 2; }
+    20%, 100%{ z-index: -1; }
 }
 .slider > #play1:checked ~ .description > .num0{
     animation: description1 20000ms infinite -2000ms ease;
@@ -209,19 +207,19 @@ header > .lwrap form .btn-default{
     20%, 100% { background: black; }
 }
 .slider > #play1:checked ~ .slider-pics .bullets > .num0 {
-    animation: bullet1 20000ms infinite 0ms;
+    animation: bullet1 20000ms infinite -2000ms;
 }
 .slider > #play1:checked ~ .slider-pics .bullets > .num1 {
-    animation: bullet1 20000ms infinite 4000ms;
+    animation: bullet1 20000ms infinite 2000ms;
 }
 .slider > #play1:checked ~ .slider-pics .bullets > .num2 {
-    animation: bullet1 20000ms infinite 8000ms;
+    animation: bullet1 20000ms infinite 6000ms;
 }
 .slider > #play1:checked ~ .slider-pics .bullets > .num3 {
-    animation: bullet1 20000ms infinite 12000ms;
+    animation: bullet1 20000ms infinite 10000ms;
 }
 .slider > #play1:checked ~ .slider-pics .bullets > .num4 {
-    animation: bullet1 20000ms infinite 16000ms;
+    animation: bullet1 20000ms infinite 14000ms;
 }
 
 /*INTRO*/
@@ -230,6 +228,7 @@ header > .lwrap form .btn-default{
 }
 .intro > div:first-child{
     width: 47.4%;
+    padding-bottom: 29rem;
 }
 .intro > div:last-child{
     width: 48.8%;
@@ -250,6 +249,7 @@ header > .lwrap form .btn-default{
     font-size: 13px;
     line-height: 21px;
     letter-spacing: 0.03em;
+    width: 100%;
 }
 .arrow{
     border: 24rem solid transparent;
@@ -260,9 +260,9 @@ header > .lwrap form .btn-default{
     border-radius: 50%;
 }
 .arrow:before{
-    border-left: 21px solid transparent;
-    border-right: 21px solid transparent;
-    border-bottom: 31px solid #e0e0e0;
+    border-left: 21rem solid transparent;
+    border-right: 21rem solid transparent;
+    border-bottom: 31rem solid #e0e0e0;
     content: "";
     position: absolute;
     transform: rotate(45deg);
@@ -289,8 +289,8 @@ header > .lwrap form .btn-default{
 /*STREAMER*/
 .streamer{
     background: #e0e0e0;
-    border-left: 10px solid #09f;
-    padding: 26rem 38rem 25rem 32rem;
+    border-left: 10rem solid #09f;
+    padding: 26rem 33rem 25rem 32rem;
     margin-bottom: 40rem;
 }
 .streamer hgroup *{
@@ -298,14 +298,17 @@ header > .lwrap form .btn-default{
     font-weight: 400;
 }
 .streamer h1{
-    font-size: 36px;
+    font-size: 36rem;
     margin-bottom: 5rem;
-        letter-spacing: 0.0015em;
+    letter-spacing: 0.0015em;
 }
 .streamer h3{
-    font-size: 18px;
+    font-size: 18rem;
     margin-bottom: 2rem;   
     letter-spacing: -0.005em;
+}
+.streamer .btn-lg{
+    margin: 5px;
 }
 
 /*FOOTER*/
@@ -362,7 +365,7 @@ footer h4{
     text-transform: uppercase;
     margin-bottom: 20rem;
     font-weight: 400;
-        letter-spacing: 0.3rem;
+    letter-spacing: 0.3rem;
 }
 footer form .btn-default{
     font-size: 14px;
@@ -373,6 +376,26 @@ footer form .btn-default{
     background: #222;
 }
 .copyright > .lwrap{
-    padding: 23rem 10px;
+    padding: 23rem 10px;    
+}
+.copyright span{
+    display: inline-block;
     letter-spacing: 0.04em;
+    width: 47%;
+}
+.copyright span:last-child{
+    text-align: right;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 640px) {
+    .streamer h1{font-size: 23px;}
+    .streamer h3{font-size: 11.5px;}
+    .btn-lg{font-size: 17px;height: 38px;line-height: 17px;}
+    footer > .lwrap > div{width: 48%;}
+}
+@media screen and (max-width: 480px) {
+    .slider h2{font-size: 17px;}
+    .slider .description{min-height: 160px;}
+    .streamer{text-align: center;}
 }

@@ -52,11 +52,11 @@
                         <a href="#">link text</a>
                         <a href="#">long link text</a>
                     </nav>
-                    <div data-flex="between -end w">
+                    <div data-flex="between -end">
                         <a href="/" title="Return to the homepage" id="logo">
                             <img src="/images/logo.png" width="211" height="57" alt="Nobodysfool">
                         </a>
-                        <form action="#" method="post" data-flex="end">
+                        <form action="#" method="post" data-flex="end -end w">
                             <input type="search" name="search" placeholder="Search Our Website...">
                             <button><span class="btn btn-default">search</span></button>
                         </form>
@@ -64,7 +64,7 @@
                 </div>                
             </header>
             <section class="slider-wrap">
-                <div class="slider lwrap" data-flex="stripe">                   
+                <div class="slider lwrap" data-flex="stripe" data-flex-480="vstripe r">                   
                     <input name="anchor1" id='slide1-0' type="radio">
                     <input name="anchor1" id='slide1-1' type="radio">
                     <input name="anchor1" id='slide1-2' type="radio">
@@ -117,8 +117,8 @@
                     </div>
                 </div>
             </section>
-            <section class="intro lwrap" data-flex="between -start w">
-                <div data-flex="stripe">
+            <section class="intro lwrap" data-flex="between -start w" data-flex-640="vstripe">
+                <div data-flex="stripe" data-flex-640="around">
                     <div>
                         <figure class="cycle-first"><img src="/images/monitor.png" width="310" height="248" alt=""></figure>
                         <div class="cycle-third" data-flex="col">
@@ -159,12 +159,12 @@
                 </div>
             </section>
             <section class="lwrap">
-                <div class="streamer" data-flex="axis">
+                <div class="streamer" data-flex="axis" data-flex-480="vaxis">
                     <hgroup>
-                        <h1>Lorem ipsum dolor sit amet elit !</h1>
-                        <h3>Why not try our services today, you won’t regret your choice !</h3>
+                        <h1>Lorem ipsum dolor sit amet elit&nbsp;!</h1>
+                        <h3>Why not try our services today, you won’t regret your choice&nbsp;!</h3>
                     </hgroup>
-                    <a href="#" class="btn btn-lg">contact us today</a>
+                    <a href="#" class="btn btn-lg"><span>contact us today</span></a>
                 </div>
             </section>
         </div>

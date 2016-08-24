@@ -3,12 +3,15 @@ body{
 }
 .lwrap{
     max-width: 1010px;
-    padding: 0px 10px;
+    padding: 0px 10rem;
 }
-figure img{
+figure > img, a > img, li > img{
     width: 100%;
     height: 100%;
     display: block;
+}
+button{
+    flex-shrink: 0;
 }
 
 /*HEADER*/
@@ -18,18 +21,20 @@ figure img{
 .header{
     padding: 14rem 0px 19rem 0px;
 }
-.contact small, .contact big{
+.info small, .info big{
     text-align: right;
+    display: inline-block;
 }
-.contact small{
+.info small{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     color: #585755;
     font-family: "Myriad Pro";
 }
-.contact big{
+.info big{
     color: #373737;
     font-family: "Myriad Pro";
     font-size: 20px;
+    line-height: 23px;
 }
 
 /*CONTENT*/
@@ -43,23 +48,19 @@ figure img{
     background: white;
     padding: 18rem 18rem 3rem 16rem;
     flex-grow: 1;
+    width: 74.8%;
 }
 .slider {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 .slider > input[type=radio] {
     display: none;
 }
 .slider > ul > li:first-child {
     visibility: hidden;
-}
-.slider > ul > li > img{
-    width: 100%;
-    height: 100%;
-    display: block;
 }
 .slider > ul > li:not(:first-child) {
     position: absolute;
@@ -101,19 +102,22 @@ figure img{
     background: rgba(37,29,20,.9);
     z-index: 100;
     border-radius: 0px 10px 10px 0px;
-    padding: 14rem 10rem 17rem 16rem;
+    padding: 14rem 10rem 17.5rem 16rem;
+}
+.bullets{
+    margin-left: -2rem;
 }
 .bullets label{
     background: #6b685e;
     box-shadow: inset 0.6px -0.8px 0 rgba(192, 186, 166, 0.75);
-    height: 22px;
-    width: 22px;
+    height: 21px;
+    width: 21px;
     border-radius: 50%;
     color: #cbcbcb;
     font-weight: 700;
     transform: scale(1);
     transition: all .4s ease; 
-    margin: 5rem;
+    margin: 5.5rem;
 }
 .slider > .controls > .bullets > label:hover,
 .slider > #slide-0:checked ~ .controls > .bullets > .num0,
@@ -123,10 +127,10 @@ figure img{
     background: linear-gradient(rgba(255, 255, 255, 0.41), rgba(0, 0, 0, 0.41)), #43ac2d;
     box-shadow: none;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 @keyframes bullets {
-    0%, 24.99%  { background: linear-gradient(rgba(255, 255, 255, 0.41), rgba(0, 0, 0, 0.41)), #43ac2d; box-shadow: none; color: white; transform: scale(1.1); }
+    0%, 24.99%  { background: linear-gradient(rgba(255, 255, 255, 0.41), rgba(0, 0, 0, 0.41)), #43ac2d; box-shadow: none; color: white; transform: scale(1.2); }
     25%, 100% { background: #6b685e; box-shadow: inset 0.6px -0.8px 0 rgba(192, 186, 166, 0.75); transform: scale(1); }
 }
 .slider > #play:checked ~ .controls > .bullets > .num0 {
@@ -179,23 +183,25 @@ figure img{
 }
 .description label h2{
     color: #28b028;
-    font-size: 32px;
+    font-size: 32rem;
     font-family: ZurichBT;
     font-weight: 400;
     margin-bottom: 11rem;
 }
 .description label h3{
     color: white;
-    font-size: 22px;
+    font-size: 22rem;
     font-family: ZurichBT;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 24rem;
 }
 .description label p{
     line-height: 18px;
     color: white;  
     margin: 0px 0px 2rem 2rem;
     letter-spacing: -0.008em;
+    max-height: 90px;
+    overflow: hidden;
 }
 .description label a{
     color: #28b028;
@@ -206,7 +212,7 @@ figure img{
     text-decoration: underline;
 }
 .guids figure{
-        width: 26.4%;
+    width: 26.4%;
     flex-shrink: 0;
     margin: -34rem 46rem 0px 10rem;
     position: relative;
@@ -220,15 +226,20 @@ figure img{
     text-transform: uppercase;
     margin-bottom: 8rem;
 }
+.guids article{
+    max-width: 480px;
+}
 .guids article p{
     line-height: 20px;
     color: #595447;
-    margin-bottom: 16rem;
+    margin: 0px 0px 16rem 2rem;
+    letter-spacing: -0.01em;
 }
 .guids article p a{
     color: #28b028;
     font-weight: 700;
     text-decoration: underline;
+    letter-spacing: 0em;
 }
 .guids article p a:active, .guids article p a:hover, .guids article p a:focus{
     text-decoration: none;
@@ -268,17 +279,16 @@ figure img{
     border: 1px solid white;
     border-left-color: #e1dbce;
     width: 25.2%;
-    flex-shrink: 0;    
+    flex-shrink: 0;
+    padding-top: 1rem;
 }
 .sidebar > div{
-    padding: 20rem 20rem 20rem 20rem;
+    padding: 16rem 24rem 2rem 22rem;
 }
 .sidebar > div:not(:last-child){
     border-bottom: 1px solid #e1dbce;
     box-shadow: 0px 1px 0px 0px white;
-}
-.sidebar hgroup{
-    margin-bottom: 20rem;
+    margin-bottom: 3rem;
 }
 .sidebar hgroup h2{
     color: #3f3b30;
@@ -286,13 +296,16 @@ figure img{
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-bottom: 4rem;
 }
 .sidebar hgroup h3{
     color: #3f3b30;
     font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 11rem;
 }
 .sidebar article{
-    margin-bottom: 10rem;
+    margin-bottom: 16rem;
 }
 .sidebar article h4 time, .sidebar article h4 a, .sidebar article h4, .sidebar article p{
     color: #3f3b30;
@@ -304,16 +317,38 @@ figure img{
 .sidebar article h4 a:active, .sidebar article h4 a:hover, .sidebar article h4 a:focus{
     text-decoration: underline;
 }
+.sidebar article h4{
+    padding-top: 2rem;
+    letter-spacing: 0.01em;
+}
+.sidebar .form-holidays{
+    padding: 0px 0px 21rem 2rem;
+}
+.sidebar .form-quicksearch{
+    padding: 0px 2rem 17rem 2rem;
+}
+.sidebar .form-quicksearch input{
+    margin: 0px 5px 5px 0px;
+}
+.sidebar .form-signup{
+    padding: 5rem 2rem 10rem 2rem;
+}
+.sidebar .form-signup input{
+    margin-bottom: 13rem;
+}
+.sidebar .form-signup input[type=text], .sidebar .form-quicksearch input{
+    max-width: 119px;
+}
 
 /*FOOTER*/
 footer{
-    padding-bottom: 75rem;
+    padding-bottom: 72rem;
 }
 .footer{    
     border-radius: 5px;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 15rem;
+    margin-bottom: 18rem;
 }
 .footer .hdr{
     background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05)), #878176;
@@ -328,25 +363,28 @@ footer{
 }
 .footer > div{
     background: #f4f2ec;
-    padding: 17rem 20rem 20rem 20rem;
+    padding: 17rem 17rem 0px 17rem;
 }
 .footer > div > div:not(:last-child){
-    border-right: 1px solid #d8d6ce;
-    box-shadow: 1px 0px 0px 0px #faf9f7;
+    background: linear-gradient(#faf9f7 0px, #faf9f7 2px) 100% 0px / 1px calc(100% - 20rem) no-repeat,
+        linear-gradient(#d8d6ce, #d8d6ce) calc(100% - 1px) 0px / 1px calc(100% - 20rem) no-repeat;
 }
 .footer > div > div{
-    width: 52%;
-    padding: 5rem 37rem 5rem 5rem;
+    width: 51.8%;
+    padding: 5rem 41rem 16rem 6rem;
 }
 .footer > div > div:first-child, 
 .footer > div > div:last-child{
-    padding: 5rem;
+    padding: 5rem 5rem 16rem 5rem;
 }
 .footer > div > div:first-child{
-    width: 24%;
+    width: 24.27%;
 }
 .footer > div > div:last-child{
-    width: 19.5%;
+    width: 19.7%;
+}
+.footer .links-quick{
+    width: 27.9%;
 }
 .footer h5{
     width: 100%;
@@ -357,6 +395,12 @@ footer{
     font-weight: normal;
     margin-bottom: 11rem;
 }
+.footer .twitter h5{
+    margin: 0px 0px 8rem 5rem;
+}
+.footer .twitter h5 .icon-twitter{
+    margin: -1px 5px -5px 6rem;
+}
 .contacts span, .contacts address, .contacts a{
     color: #757268;
 }
@@ -366,22 +410,24 @@ footer{
 }
 .contacts address{
     font-style: normal;
-        padding: 17rem 0px 0px 3rem;
+    padding: 17rem 0px 0px 3rem;
     line-height: 20px;
 }
 .contacts a:active, .contacts a:hover, .contacts a:focus{
     text-decoration: underline;
 }
-.footer h5 .icon-twitter{
-    margin: 5px 0px -5px 5rem;
-}
-.footer p{
+.footer .twitter p{
     color: #757268;
     line-height: 18px;
-    margin-bottom: 10rem;
+    padding: 0px 27rem 14rem 0px;
+    text-indent: 4rem;
+    letter-spacing: -0.005em;
 }
-.footer p time{
+.footer .twitter p time{
     font-size: 11px;
+}
+.footer .twitter .btn-join{
+    margin: 0px 5px 0px 2rem;
 }
 .copyright{
     text-align: center;
@@ -394,8 +440,35 @@ footer{
     font-weight: 700;
     display: block;
     margin-bottom: 5rem;
+    font-size: 11px;
 }
 .copyright span{
     color: #716c61;
     font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.003em;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 960px) {
+    .sidebar > div{padding: 5px;}
+    .links-nav{padding: 0px;}
+    #logo{margin: 0px 5px 0px 0px;}
+    .description label p{max-height: 54px;}
+}
+@media screen and (max-width: 640px) {
+    .footer > div > div{width: 100%;order: 2;padding: 5px;}
+    .footer > div > div:first-child, .footer > div > div:last-child, .tabset article { width: 48%;}
+    .footer > div > div:not(:first-child){background: none;}
+    .footer > div > div:first-child{order: 0;}
+    .footer > div > div:last-child{order: 1;}
+    .form-quicksearch{width: 59%;}
+    .sidebar select{width: 49.5%;}
+    .tablist a{font-size: 11px;}
+    .guids figure{display: none;}
+    .controls{width: 35.1%;}
+    .description label p{max-height: 21px;font-size: 10px; line-height: 10px;}   
+    .description label h2{font-size: 20px; line-height: 20px; margin: 0px;}
+    .description label h3{font-size: 14px; line-height: 14px;}
+    .sidebar .form-signup input, .sidebar .form-signup input[type=text], .sidebar .form-quicksearch input{max-width: 300px; margin: 0px 5px 18rem 0px;}
 }
