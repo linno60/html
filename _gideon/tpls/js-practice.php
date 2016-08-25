@@ -9,8 +9,63 @@
     <body>
         <div>JS&#x2702;</div>
         <script>
-            obj = {name: "Вася", age: 25}
-            alert(JSON.stringify(obj));  // => {"name": "Вася", "age": 25}
+//            function getDecimal(num) {
+//                var str = "" + num;
+//                var zeroPos = str.indexOf(".");
+//                if (zeroPos == -1)
+//                    return 0;
+//                str = str.slice(zeroPos);
+//                return +str;
+//            }
+//            
+//            alert(getDecimal(12.345)); // 0.345
+//            alert(getDecimal(1.2)); // 0.2
+//            alert(getDecimal(-1.2)); // 0.2
+
+
+//            var str = "Ослик Иа-Иа посмотрел на виадук"; // ищем в этой строке
+//            var target = "Иа"; // цель поиска
+//
+//            var pos = 0;
+//            while (true) {
+//                var foundPos = str.indexOf(target, pos);
+//                if (foundPos == -1)
+//                    break;
+//
+//                alert(foundPos); // нашли на этой позиции
+//                pos = foundPos + 1; // продолжить поиск со следующей
+//            }
+
+
+//            var string = "карамболь";
+//            
+//            var string1 = string.slice(0, 4);
+//            alert(string1);
+//
+//            var string2 = string.split("").reverse().join("").slice(1, 4);
+//            alert(string2);
+//
+//            var string3 = string.slice(-4);
+//            alert(string3);
+
+            var time = {
+                year: 2345,
+                month: 11,
+                day: 10,
+                hour: 11,
+                minute: 12,
+                second: 13,
+                microsecond: 123456
+            }
+
+            console.log(time); // (*)
+            time.microsecond++; // (**)
+
+            console.log(time);
+            time.microsecond++;
+
+            console.log(time);
+            time.microsecond++;
         </script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>
