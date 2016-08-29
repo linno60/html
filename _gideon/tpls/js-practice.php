@@ -48,24 +48,23 @@
 //            var string3 = string.slice(-4);
 //            alert(string3);
 
-            var time = {
-                year: 2345,
-                month: 11,
-                day: 10,
-                hour: 11,
-                minute: 12,
-                second: 13,
-                microsecond: 123456
+            function User(firstName, lastName) {
+                // вспомогательная переменная
+                var phrase = "Привет";
+
+                //  вспомогательная вложенная функция
+                function getFullName() {
+                    return firstName + " " + lastName;
+                }
+
+                this.sayHi = function () {
+                    alert(phrase + ", " + getFullName()); // использование
+                };
             }
 
-            console.log(time); // (*)
-            time.microsecond++; // (**)
+            var vasya = new User("Вася", "Петров");
+            vasya.sayHi(); // Привет, Вася Петров
 
-            console.log(time);
-            time.microsecond++;
-
-            console.log(time);
-            time.microsecond++;
         </script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>
