@@ -9,6 +9,12 @@ body > div{
 p{
     color: #010101;
     line-height: 18px;
+    letter-spacing: 0.01em;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;   
 }
 
 /*HEADER*/
@@ -16,31 +22,101 @@ p{
     background: linear-gradient(transparent, transparent calc(100% - 3px), #d6631d calc(100% - 3px), #d6631d), linear-gradient(#363636, #131313);
 }
 .search-wrap{
-    padding: 10rem 0px 10rem 0px;
+    padding: 9rem 9rem 22rem 0px;
+}
+.topbar{
+    margin-right: -2rem;
+}
+.topbar .links-topbar{
+    margin: 0px -16px 0px 7rem;
+    position: relative;
+}
+.topbar time{
+    color: #ccc;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.login{
+    text-transform: uppercase;
+    padding: 4rem 13rem 3rem 22px;    
+    background: linear-gradient(90deg, dimgrey, dimgrey calc(100% - 15rem), transparent calc(100% - 15rem)),
+        linear-gradient(112deg, dimgrey 49%, transparent 51%) right top / 15rem 100% no-repeat;
+    border-radius: 0px 0px 20px 0px;
+}
+#logo{
+    margin: 0px 5px 4px 4rem;
+}
+.topbar{
+    font-size: 11px;
+}
+.login span{
+    color: #ccc;
+    letter-spacing: -0.05em;
+}
+.login > div{
+    margin-left: 28rem;
+}
+.log, .login .log span{
+    color: white;
+    letter-spacing: -0.06em;
+}
+.log i{
+    margin: -1rem 6rem 1rem 1rem;
+}
+.log + span{
+    width: 1px;
+    height: 22px;
+    background: linear-gradient(transparent, #3c3c3c, transparent)
+}
+.join{
+    color: #70c7f4;
+    margin: 5px;
+    letter-spacing: -0.06em;
+    font-weight: 700;
+}
+.links-navsub .lwrap{
+    max-width: 1016px;
 }
 
 /*CONTENT*/
-.content > section{
-    width: 32%;
+.content > section:first-child{
+    width: 30.9%;
 }
-.content > section > *{
+.content > section{
+    width: 33.9%;
+    margin-bottom: 9px;
+}
+.content > section:last-child{
+    width: 30.9%;
+    margin: 0px -1rem 0px 6rem;
+}
+.content article{
+    margin-bottom: 2rem;
+    padding: 7rem 0px 10rem 0px;
+    border-bottom: 1px dotted rgba(0,0,0,.33);
+}
+.content article:last-of-type{
     margin-bottom: 10rem;
 }
 .content article h3{
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 .content article h6{
     color: #333;
     font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 5rem;
+    margin-bottom: 9rem;
+    letter-spacing: 0.02em;
 }
-.content article{
-    padding-bottom: 10rem;
-    border-bottom: 1px dotted rgba(0,0,0,.33);
+.content article h6 i{
+    margin: -2rem 0px 0px 6rem;
+}
+.content article time{
+    font-size: 12px;
+    color: #666666;
 }
 .price {
     color: #fe7801;
@@ -49,105 +125,244 @@ p{
 .content .links-default a{
     color: #369;
 }
+.slider {
+    position: relative;
+    max-width: 460px; 
+    overflow: hidden;
+    margin: 1rem 1rem 6rem 0px;
+}
+.slider > input[type=radio] {
+    display: none;
+}
+.slider > .slides > figure:first-child {
+    visibility: hidden;
+}
+.slider > .slides > figure > figcaption{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0,0,0,.58);
+    padding: 9rem 15rem 7rem 15rem;
+    letter-spacing: -0.005em;
+    color: white;
+    font-weight: 700;
+}
+.slider > .slides > figure:not(:first-child) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;  
+    transition: opacity 2000ms ease;
+}
+.slider > #slide-0:checked ~ .slides > .num0,
+.slider > #slide-1:checked ~ .slides > .num1,
+.slider > #slide-2:checked ~ .slides > .num2,
+.slider > #slide-3:checked ~ .slides > .num3 {
+    opacity: 1;
+    z-index: 2;
+}
+@keyframes fade-in {
+    0%, 37.5%, 100% { opacity: 0; z-index: 2; }
+    12.5%, 25% { opacity: 1; z-index: 2; }
+}
+.slider > #play:checked ~ .slides > .num0 {
+    animation: fade-in 16000ms infinite -2000ms;	
+}
+.slider > #play:checked ~ .slides > .num1 {
+    animation: fade-in 16000ms infinite 2000ms;	
+}
+.slider > #play:checked ~ .slides > .num2 {
+    animation: fade-in 16000ms infinite 6000ms;	
+}
+.slider > #play:checked ~ .slides > .num3 {
+    animation: fade-in 16000ms infinite 10000ms;	
+}
+.slider > .bullets{
+    padding: 1rem 1rem 4rem 1rem;
+    border-radius: 0px 0px 8px 8px;
+    background: #39393b linear-gradient(rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.16));
+}
+.slider > .bullets > label {
+    position: relative;
+    margin: 2.5px;
+    height: 14px;
+    width: 14px;
+    background: transparent;
+    transition: all 0.3s;
+    background: white linear-gradient(rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.16));
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+    color: black;
+}
+.slider > .bullets > label:hover,
+.slider > #slide-0:checked ~ .bullets > .num0,
+.slider > #slide-1:checked ~ .bullets > .num1,
+.slider > #slide-2:checked ~ .bullets > .num2,
+.slider > #slide-3:checked ~ .bullets > .num3 {
+    background: #ff9600 linear-gradient(rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.04));
+    color: white;
+}
+@keyframes bullet {
+    0%, 24.99%  { background: #ff9600 linear-gradient(rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.04));color: white; }
+    25%, 100% { background: white linear-gradient(rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.16));color: black; }
+}
+.slider > #play:checked ~ .bullets > .num0 {
+    animation: bullet 14400ms infinite -1900ms;
+}
+.slider > #play:checked ~ .bullets > .num1 {
+    animation: bullet 14400ms infinite 1700ms;
+}
+.slider > #play:checked ~ .bullets > .num2 {
+    animation: bullet 14400ms infinite 5300ms;
+}
+.slider > #play:checked ~ .bullets > .num3 {
+    animation: bullet 14400ms infinite 8900ms;
+}
 
 /*FEATURES*/
 .features{
-    padding: 20rem 10rem 20rem 10rem;
-    margin-bottom: 20rem;
+    padding: 12rem 25rem 0rem 15rem;
+    margin-bottom: 14rem;
     background: #f1f1f1 linear-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.03) 82%, rgba(255, 255, 255, 0.03) 13%, rgba(0, 0, 0, 0.05));
 }
 .features h2{
     color: #333;
     font-size: 11px;
     text-transform: uppercase;
-    margin-bottom: 20rem;
+    margin-bottom: 14rem;
 }
 .features figure{
-    width: 18%;
+    width: 18.25%;
+    margin-bottom: 6px;
 }
 .features figure figcaption{
+    padding: 6rem 1rem 1rem 1rem;
+    font-size: 11px;
+}
+.features figure figcaption span{
     color: #333;
-text-transform: uppercase;
-padding-top: 10rem;
+    text-transform: uppercase;
 }
 .features figure figcaption a{
-text-transform: lowercase;
+    line-height: 16px;
 }
-
 
 /*TOPICS*/
+.columns{
+    padding-left: 15px;
+}
 .columns > div:first-child{
-    width: 40%;
+    width: 40.1%;
 }
 .columns > div{
-    width: 24%;
-    margin-bottom: 10px;
+    width: 20.3%;
+    margin-bottom: 12px;
 }
 .columns > div:last-child{
-    width: 32%;
+    width: 31.4%;
+    margin-right: -2rem;
 }
 .topic article figure {
     float: left;
-    margin-right: 10rem;
+    margin-right: 17rem;
 }
 .topic article h4{
     font-family: Arial;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 3rem;
+    margin: 1rem 0px 5rem 0px;
 }
 .topic article h4 a{
     color: #114a84;
 }
 .topic article{
-    margin-bottom: 20rem;
+    padding: 7rem 0px 20rem 0px;
 }
 .info-box{
     border-radius: 10px;
     border: 1px solid #c1c1c1;
 }
 .panel{
-    padding: 10rem 10rem 10rem 10rem;
+    padding: 9rem 9rem 12rem 9rem;
 }
-.box{
+.video-wrap{
+    padding-top: 49.5%;
+}
+.media-box{
     background: #f1f1f1;
+    margin-top: 18rem;
 }
-.box .title ~ div{
-    padding: 5rem 5rem 5rem 5rem;
+.media-box .details{
+    padding: 8rem 5rem 9rem 10rem;
 }
-.box article{
+.media-box a{
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: -0.015em;
+}
+.media-box article{
     border-bottom: 1px solid #c3c3c3;
+        padding: 9rem 9rem 10rem 14rem;
 }
-.box article i{
+.media-box article i{
     flex-shrink: 0;
-    margin: 0px 10rem 5rem 0px;
+    margin: 7rem 17rem 0rem 0px;
 }
-.box article p{
+.media-box article p{
     color: #333;
+    font-size: 11px;
 }
 .membership{
-    margin-top: 10rem;
-    padding: 10rem 10rem 10rem 10rem;
+    margin: 0px 0px 7rem 2rem;
+    padding: 12rem 14rem 10rem 12rem;
     background: #9fceec;
 }
 .membership big{
     color: #333;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 9rem;
+    display: inline-block;
+}
+.membership p{
+    line-height: 14px;
+    color: black;
+        margin-left: 2rem;
 }
 .membership big span{
     color: white;
+}
+.membership .btn-default{
+    margin-top: 4rem;
 }
 
 /*FOOTER*/
 footer{
     flex-shrink: 0;
+    font-size: 11px;
 }
 .footer{
+    color: #999;
     background: #333 linear-gradient(rgba(255, 255, 255, 0.17), rgba(0, 0, 0, 0.17));
 }
-.footer h6{
+.footer .lwrap{
+    padding: 20rem 10px 20rem 30rem;
+    max-width: 1050px;
+}
+footer h6{
     color: #f1f1f1;
     margin-bottom: 5rem;
+    font-size: 12px;
+}
+.contacts address{
+    font-style: normal;
+}
+.contacts a{
+    color: #f17f02;
+}
+.copyright{
+    padding: 10rem 10px 30rem 10px;
 }
