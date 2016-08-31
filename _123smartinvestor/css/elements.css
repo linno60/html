@@ -33,6 +33,7 @@ figure > img, a > img{
     color: white;
     margin: 5rem 14rem;
     letter-spacing: -0.07em;
+    display: inline-block;
 }
 .links-topbar > span{
     width: 1px;
@@ -45,6 +46,7 @@ figure > img, a > img{
     border-right: 4px solid transparent;
     border-top: 6px solid #f60;
     margin-left: 6rem;
+    display: inline-block;
 }
 .links-navsup{
     border-radius: 10rem 10rem 0px 0px;
@@ -58,20 +60,21 @@ figure > img, a > img{
 }
 .links-navsup a.active:not(.sign):after, .links-navsup a:not(.sign):hover:after{
     content: '';
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 8px solid #d6631d;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-top: 8rem solid #d6631d;
     position: absolute;
-    bottom: -11px;
-    left: calc(50% - 3px);
+    bottom: -11rem;
+    left: calc(50% - 3rem);
     display: inline-block;
 }
 .links-navsup a{
     font-size: 14px;
     height: 36px;
     color: white;
+    text-align: center;
     letter-spacing: -0.005em;
-    padding: 0px 16rem;
+    padding: 0px 16.5rem;
     position: relative;
     background: linear-gradient(transparent, transparent 5px, #0b0b0b, transparent calc(100% - 5px), transparent) left top / 1px 100% no-repeat,
         #414141 linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));;
@@ -86,7 +89,9 @@ figure > img, a > img{
 .links-navsup a.sign{
     font-size: 12px;
     font-weight: 700;
+    padding: 0px 14rem;
     text-transform: uppercase;
+    letter-spacing: -0.02em;
     background: #6fa7ca linear-gradient(rgba(255, 255, 255, 0.17), rgba(0, 0, 0, 0.17))!important;
 }
 .links-navsub{
@@ -118,27 +123,31 @@ figure > img, a > img{
     margin-top: 1px;
     background: rgba(255,255,255,.18) url(/images/icons/arrow.png)no-repeat 6px 5px;
     letter-spacing: 0.01em;
+    display: inline-block;
 }
 .links-social{
     background: #e4e4e4;
     border-radius: 8px;
     font-size: 11px;
     margin: 0px 0px 7rem 1rem;
+    padding-right: 12rem;
 }
 .links-social a{
     color: black;
-    margin: 6.5rem;
+    margin: 8.5rem 2rem;
+    letter-spacing: -0.02em;
 }
 .links-social a i{
-    margin-right: 5rem;
+    margin-right: 4rem;
 }
 .links-social span{
-    padding: 5rem;
+    padding: 5rem 9rem;
     border-right: 1px solid #c7c7c7;
 }
 .links-brief span{
     color: #333;
     letter-spacing: -0.02em;
+    display: inline-block;
 }
 .links-brief li{
     background: #f1f1f1;
@@ -147,22 +156,27 @@ figure > img, a > img{
 }
 .links-asks a{
     margin-bottom: 6rem;
-    background: url(/images/icons/arrowo.png)no-repeat 5px 1px;
-    padding-left: 23px;
+    background: url(/images/icons/arrowo.png)no-repeat 7px 2px;
+    padding-left: 24px; 
+    display: inline-block;
+    letter-spacing: 0.015em;
 }
 .links-default li{
     margin-bottom: 4rem;
 }
 .links-default.marker li{
-    padding-left: 20px;
+    padding-left: 11px;
     background: linear-gradient(45deg, transparent 40%, #696969 50%, transparent 60%) left 5px / 3px 3px no-repeat,
         linear-gradient(135deg, transparent 40%, #696969 50%, transparent 60%) left 8px / 3px 3px no-repeat;
 }
 .links-default a{
     color: #114a84;
+    width: 100%;
+    letter-spacing: 0.015em;
 }
-.links-default span{
+.links-default > li > span{
     color: black;
+    display: inline-block;
 }
 .links-default time{
     color: #666;
@@ -175,23 +189,30 @@ figure > img, a > img{
 .links-tags a{
     font-weight: 700;
     text-transform: uppercase;
-    margin: 10rem;
+    margin: 11rem 13rem 9rem 14rem;
+    letter-spacing: -0.03em;
 }
 .links-podcasts li{
     background: #ededed;
     margin-bottom: 2px;
-    padding: 5rem 5rem 5rem 5rem;
+    padding: 5rem 7rem 3rem 8rem;
 }
 .links-podcasts a{
     color: #114a84;
 }
 .links-podcasts time{
     text-transform: uppercase;
+    font-size: 11px;
+    color: #666666;
+}
+.links-footer{
+    padding: 0px 38rem 23rem 0px;
 }
 .links-footer a{
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
     color: #999;
     font-size: 11px;
+    display: inline-block;
 }
 
 /*BUTTONS*/
@@ -200,7 +221,7 @@ a.btn:active, a.btn:hover, a.btn:focus{
 }
 .btn-default{
     min-width: 65px;
-    height: 27px;
+    height: 28px;
     background: #333 linear-gradient(rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.18));
     border: 1px solid black;
     border-radius: 8px;
@@ -220,6 +241,7 @@ a.btn:active, a.btn:hover, a.btn:focus{
     font-size: 20px;
     font-weight: 400;
     margin: 3rem 0px -1rem 0px;
+    display: inline-block;
 }
 .btn-search{
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
@@ -235,10 +257,10 @@ a.btn:active, a.btn:hover, a.btn:focus{
 .lbl-sm{
     height: 14px;
     min-width: 48rem;
-    padding: 0px 5rem;
+    padding: 0px 5px;
     text-transform: uppercase;
-    border-radius: 4px;
-    font-size: 11px;
+    border-radius: 5px;
+    font-size: 10px;
     color: white;
 }
 .video{
@@ -256,6 +278,9 @@ a.btn:active, a.btn:hover, a.btn:focus{
     border-radius: 8px;
     overflow: hidden;
 }
+.form-search button{
+    flex-grow: 1;
+}
 .form-search input[type=search]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
@@ -266,9 +291,11 @@ a.btn:active, a.btn:hover, a.btn:focus{
     outline: none;
     border-radius: 8px;
     box-shadow: inset 1.5px 2.6px 6px rgba(0, 0, 0, 0.34);
-    background: white url(/images/icons/search.png)no-repeat 9rem center;
+    background:linear-gradient(68deg, transparent 40%, #a8a8a8 50%, transparent 60%) 11px 17px / 16px 6px no-repeat,
+        radial-gradient(circle at 16px 12px, white 0px, white 5px, #a8a8a8 5px, #a8a8a8 7px, white 7px, white 100%);
     padding: 2rem 5px 0px 29px;
     color: black;
+    text-overflow: ellipsis;
 }
 .form-search input[type=search]::-webkit-input-placeholder { color: #828181; }
 .form-search input[type=search]::-moz-placeholder { color: #828181; }
@@ -301,11 +328,9 @@ a.btn:active, a.btn:hover, a.btn:focus{
 .tabs{
     max-width: 460px;
 }
-.tabs.podcasts .tabpanel.active {
-    display: flex;
-}
 .tabs.podcasts .tabpanel figure{
     margin-right: 14rem;
+    float: left;
 }
 .tabs .tablist a.active, .tabs .tablist a:hover{
     text-decoration: none;
@@ -315,9 +340,6 @@ a.btn:active, a.btn:hover, a.btn:focus{
 }
 .tabs .tablist a i{
     margin-left: 5rem;
-}
-.tab-ftr{
-    width: 100%;
 }
 .tabs.default .tab-ftr{
     padding: 6rem 15rem 4rem 15rem;
@@ -330,27 +352,21 @@ a.btn:active, a.btn:hover, a.btn:focus{
 .tabs.podcasts .tab-ftr{
     padding: 15rem 14rem;
 }
-.tabs.podcasts .tab-ftr a{
+.tabs.podcasts .more{
     color: #ff7b04;
     padding-left: 6px;
     font-size: 12px;
     background: linear-gradient(45deg, transparent 40%, #ff7b04 50%, transparent 60%) left 5px / 3px 3px no-repeat,
         linear-gradient(135deg, transparent 40%, #ff7b04 50%, transparent 60%) left 8px / 3px 3px no-repeat;
 }
-.tab-ftr a{
-    letter-spacing: -0.03em;
-    font-size: 11px;
-    padding-left: 7px;
-    background: linear-gradient(45deg, transparent 40%, #369 50%, transparent 60%) left 4px / 3px 3px no-repeat,
-        linear-gradient(135deg, transparent 40%, #369 50%, transparent 60%) left 7px / 3px 3px no-repeat;
-}
-.tabs.default.alt .tab-ftr a{
+.tabs.default.alt .more{
     padding-left: 8px;
     background: linear-gradient(45deg, transparent 40%, #696969 50%, transparent 60%) left 4px / 3px 3px no-repeat,
         linear-gradient(135deg, transparent 40%, #696969 50%, transparent 60%) left 7px / 3px 3px no-repeat;
 }
 .tab-ftr > span{
     font-size: 10px;
+    display: inline-block;
 }
 .tabs.podcasts{
     border-radius: 8px;
@@ -367,15 +383,15 @@ a.btn:active, a.btn:hover, a.btn:focus{
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.7);
 }
 .tabs.podcasts .tablist a{
-    height: 22px;
     color: white;
     font-size: 11px;
     text-transform: uppercase;
     margin: 0rem;
-    letter-spacing: -0.03em;
-    padding: 0px 5rem;
+    letter-spacing: -0.06em;
+    padding: 4rem 6rem;
     border-radius: 11px;
     border: 1px solid transparent;
+    text-align: center;
     background: linear-gradient(#c5c5c5, #aaa, #aaa calc(100% - 1px), #d1d1d1) left top / 1px 100% no-repeat;
 }
 .tabs.podcasts .tablist a.active, .tabs.podcasts .tablist a:hover{
@@ -397,25 +413,29 @@ a.btn:active, a.btn:hover, a.btn:focus{
     text-transform: uppercase;
     border-radius: 8px 8px 0px 0px;
     padding: 9rem 19rem 8rem 24rem;
-    margin: 2px 2px 0px 2px;
-    color: #333;
+    margin: 2px 2px 0px 2px;    
     letter-spacing: -0.025em;
-    min-width: 100rem;
+    min-width: 137rem;
+    color: #666666;
+    text-align: center;
 }
 .tabs.default.alt .tablist a{
     padding: 8rem 17rem 7rem 10rem;
     letter-spacing: -0.025em;
+    color: #333;
 }
 .tablist a .rss{
     width: 14px;
     height: 14px;
     background: url(/images/icons/rssdisable.png);
+    flex-shrink: 0;
 }
 .tablist a.active .rss{
     background: url(/images/icons/rsssm.png);
 }
 .tabs.default .tablist a.active, .tabs.default .tablist a:hover{
     background: white;
+    color: #333;
 }
 .tabs.default .tablist a.active{
     font-weight: 700;
@@ -427,7 +447,6 @@ a.btn:active, a.btn:hover, a.btn:focus{
     padding: 8rem 7rem 0rem 7rem;
 }
 
-
 /*OTHER*/
 .title{
     background: #525151 linear-gradient(rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.16));
@@ -436,6 +455,7 @@ a.btn:active, a.btn:hover, a.btn:focus{
     text-transform: uppercase;
     font-weight: 700;
     padding: 4rem 11rem 5rem 11rem;
+    letter-spacing: -0.025em;
 }
 .panel-heading.sup{
     background: #f1f1f1;
@@ -452,9 +472,6 @@ a.btn:active, a.btn:hover, a.btn:focus{
     border-top: 1px solid rgba(0,0,0,.11);
     border-bottom: 1px dotted rgba(0,0,0,.3);
 }
-.panel-heading a{
-    font-size: 11px;
-}
 .panel-heading h3{
     color: #333;
     font-size: 11px;
@@ -463,6 +480,7 @@ a.btn:active, a.btn:hover, a.btn:focus{
     letter-spacing: -0.04em;
 }
 .hdr h2{
+    color: #666666;
     font-family: "Times New Roman";
     font-size: 22px;
     font-weight: 400;
@@ -474,4 +492,11 @@ a.btn:active, a.btn:hover, a.btn:focus{
     border-top: 1px solid #8c8c8c;
     border-bottom: 1px dotted rgba(0,0,0,.3);
     margin-bottom: 11rem;
+}
+.more{
+    letter-spacing: -0.03em;
+    font-size: 11px;
+    padding-left: 7px;
+    background: linear-gradient(45deg, transparent 40%, #369 50%, transparent 60%) left 4px / 3px 3px no-repeat,
+        linear-gradient(135deg, transparent 40%, #369 50%, transparent 60%) left 7px / 3px 3px no-repeat;
 }

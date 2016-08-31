@@ -23,15 +23,15 @@
         <div>
             <header>
                 <div class='header'>
-                    <div class='lwrap'>
-                        <div class='topbar' data-flex='end'>
+                    <div class='lwrap' data-flex-480="between -start w">
+                        <div class='topbar' data-flex='end w'>
                             <time data-flex="-center">24 jan 10</time>
-                            <div class="links-topbar" data-flex="center -center w" data-childs="center -center">
+                            <div class="links-topbar" data-flex="center -center w" data-flex-480="end -center w" data-childs="center -center">
                                 <a href="#" class="dropdown">about us</a><span></span>
                                 <a href="#">contact us</a><span></span>
                                 <a href="#" class="dropdown">help</a>
                             </div>
-                            <div class="login" data-flex="-center end">
+                            <div class="login" data-flex="-center end w" data-flex-480="col -end">
                                 <span>welcome john addis</span>                                
                                 <div data-flex="center -center" data-childs="center -center">
                                     <a href="#" class="log"><span>logout</span><i class="icon-logout"></i></a>
@@ -40,22 +40,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="search-wrap" data-flex='axis'>
+                        <div class="search-wrap" data-flex='axis' data-flex-640="vaxis">
                             <a href="/" title="Return to the homepage" id='logo'>
                                 <img src="/images/logo.png" width="306" height="49" alt="Smart Investor">
                             </a>
-                            <form class="form-search" action="#" method="post" data-flex="end">
+                            <form class="form-search" action="#" method="post" data-flex="end" data-flex-480="end w">
                                 <input type="search" name="search" placeholder="Axs Code, Company name or Keyword">
                                 <button><span class="btn btn-search">go</span></button>
                             </form>
                         </div>
-                        <nav class="links-navsup" data-flex="w" data-childs="center -center">
-                            <a href="#">All the Latest</a>
-                            <a href="#" class="active">Recommendations</a>
-                            <a href="#">Companies</a>
-                            <a href="#">Portfolios</a>
-                            <a href="#">Investor's College</a>
-                            <a href="#" class="sign">sign up today</a>
+                        <nav class="links-navsup" data-flex data-childs="center -center" data-flex-640="around w">
+                            <a href="#">All the La&shy;test</a>
+                            <a href="#" class="active">Re&shy;com&shy;menda&shy;tions</a>
+                            <a href="#">Com&shy;panies</a>
+                            <a href="#">Port&shy;folios</a>
+                            <a href="#">In&shy;ves&shy;tor's Col&shy;lege</a>
+                            <a href="#" class="sign">sign up to&shy;day</a>
                         </nav>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     <strong>special alert</strong>
                     <span>Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam  ante ac quam</span>
                 </div>
-                <div class='content' data-flex='stripe w'>
+                <div class='content' data-flex='stripe w' data-flex-480="vstripe">
                     <section>
                         <div class='slider'>
                             <input name="anchor" id='slide-0' type="radio">
@@ -126,7 +126,7 @@
                             </div>
                             <div class="tab-ftr" data-flex="axis">
                                 <span>Updated <time>08 Mar10, 4:00:00 PM AEST</time></span>
-                                <a href="#">More</a>
+                                <a href="#" class="more">More</a>
                             </div>
                         </div>
                     </section>
@@ -135,28 +135,28 @@
                             <hgroup>
                                 <h6 data-flex>stocks in detail<i class="icon-rsssm"></i></h6>
                                 <h3><a href="#">Article Headline goes here</a></h3>
-                                <p><time>24 jan 10</time> | <strong class="price">Buy 2.70</strong> | Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam.</p>
+                                <p><time>24 Jan 10</time> | <strong class="price">Buy 2.70</strong> | Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam.</p>
                             </hgroup>
                         </article>
                         <article>
                             <hgroup>
                                 <h6>investor's college</h6>
                                 <h3><a href="#">Article Headline goes here</a></h3>
-                                <p><time>18 jan 10</time> | Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam,  justo convallis luctus.</p>
+                                <p><time>18 Jan 10</time> | Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam,  justo convallis luctus.</p>
                             </hgroup>
                         </article>
                         <article>
                             <hgroup>
                                 <h6>stock in detail</h6>
                                 <h3><a href="#">Article Headline goes here</a></h3>
-                                <p><time>18 jan 10</time> | Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam,  justo convallis luctus.</p>
+                                <p><time>18 Jan 10</time> | Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam,  justo convallis luctus.</p>
                             </hgroup>
                         </article>
                         <article>
                             <hgroup>
                                 <h6>stock in detail</h6>
                                 <h3><a href="#">Article Headline goes here</a></h3>
-                                <p><time>18 jan 10</time> | Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam,  justo convallis luctus.</p>
+                                <p><time>18 Jan 10</time> | Lorem ipsum dolor sit amet, conse ctetuer adipi scing elit. Praesent aliquam,  justo convallis luctus.</p>
                             </hgroup>
                         </article>
                         <ul class="links-default marker" data-childs="axis">
@@ -173,18 +173,20 @@
                                 <a href="#tab-p4">special reports</a>
                             </div>
                             <div class="tabset">
-                                <div id="tab-p1" class="tabpanel active" data-flex='stripe w'>
-                                    <figure><img src="/images/pod.png" width="71" height="103" alt=""></figure>
-                                    <div class="links-options" data-flex="col">
-                                        <a href="#">consectetuer adipiscing elit.</a>
-                                        <a href="#">Praesent aliquam, justo</a>
-                                        <a href="#">convallis luctus rutrum, erat</a>
-                                        <a href="#">nulla fermentum diam, at</a>
-                                        <a href="#">nonummy quam  ante ac quam</a>
-                                    </div>
+                                <div id="tab-p1" class="tabpanel active">
+                                    <div class="clearfix">
+                                        <figure><img src="/images/pod.png" width="71" height="103" alt=""></figure>
+                                        <div class="links-options" data-flex="col">
+                                            <a href="#">consectetuer adipiscing elit.</a>
+                                            <a href="#">Praesent aliquam, justo</a>
+                                            <a href="#">convallis luctus rutrum, erat</a>
+                                            <a href="#">nulla fermentum diam, at</a>
+                                            <a href="#">nonummy quam  ante ac quam</a>
+                                        </div>
+                                    </div> 
                                     <div class='tab-ftr' data-flex='axis w'>
-                                        <span></span>
-                                        <a href='#'> More</a>
+                                        <span>&nbsp;</span>
+                                        <a href='#' class="more"> More</a>
                                     </div>
                                 </div>
                                 <div id="tab-p2" class="tabpanel">Tab number 2</div>
@@ -194,8 +196,8 @@
                         </div>
                         <div class='membership' data-flex='axis'>
                             <div>
-                               <big><span>membership</span> renewal</big>
-                               <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit.</p>
+                                <big><span>membership</span> renewal</big>
+                                <p>Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit.</p>
                             </div>                          
                             <a href='#' class='btn btn-default alt'>renew <span>now</span></a>
                         </div>
@@ -223,7 +225,7 @@
                             </div>
                             <div class="tab-ftr" data-flex="axis">
                                 <span> </span>
-                                <a href="#">More</a>
+                                <a href="#" class="more">More</a>
                             </div>
                         </div>
                     </section>
@@ -239,7 +241,7 @@
                             <img src="/images/img2.png" width="175" height="130" alt="">
                             <figcaption><span>pdf:</span> <a href='#'>Title of goes here (328kb)</a></figcaption>
                         </figure>
-                        <figure>
+                        <figure class="hidden">
                             <img src="/images/img3.png" width="175" height="130" alt="">
                             <figcaption><span>article:</span> <a href='#'>Justo convallis luctus</a></figcaption>
                         </figure>
@@ -254,9 +256,9 @@
                     </div>
                 </section>
                 <section class='topic'>
-                    <div class="hdr" data-flex="w">
+                    <div class="hdr" data-flex>
                         <h2>stock research</h2>
-                        <div class="links-tags" data-flex="-center">
+                        <div class="links-tags" data-flex="-center w">
                             <a href="#">blue chips</a>|
                             <a href="#">second line</a>|
                             <a href="#">speculative</a>
@@ -269,12 +271,12 @@
                                 <h4><a href='#'>BHP gets a bullet</a></h4>
                                 <p><time>18 jan 10</time> | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy .</p>
                             </article>
-                            <ul class="links-default marker" data-childs="axis">
-                                <li><span><time>18 jan 10 | </time><a href="#">Lorem ipsum dolor sit amet</a></span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Praesent aliquam,  justo convallis</a></span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">fermentum diam, at nonummy</a></span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Maecenas urna purus, fermentum id</a></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Commodo  porttitor, felis. Nablandit</a></span></li>
+                            <ul class="links-default marker">
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis luctus rutrum, erat nulla </a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy quam  ante ac quam. </a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id, molestie in.</a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Commodo  porttitor, felis. Nam blandit quam ut lacus. </a></li>
                             </ul>
                         </div>
                         <div>
@@ -293,20 +295,20 @@
                             <div class='info-box'>
                                 <div class="panel-heading sup" data-flex="axis w">
                                     <h3>featured articles</h3>
-                                    <a href="#">&gt; More</a>
+                                    <a href="#" class="more">More</a>
                                 </div>
                                 <div class='panel'>
-                                    <ul class="links-default" data-childs="axis">
-                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet</a></span></li>
-                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis luctus</a></span></li>
-                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy quam</a></span></li>
-                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id</a></span></li>
-                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Commodo  porttitor, felis. Nam blandit</a></span></li>
+                                    <ul class="links-default">
+                                        <li><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet</a></li>
+                                        <li><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis luctus</a></li>
+                                        <li><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy quam</a></span></li>
+                                        <li><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id</a></li>
+                                        <li><time>18 jan 10 |&ensp;</time><a href="#">Commodo  porttitor, felis. Nam blandit</a></li>
                                     </ul>
                                 </div>
                                 <div class="panel-heading" data-flex="axis w">
                                     <h3>bulletin board</h3>
-                                    <a href="#">&gt; More</a>
+                                    <a href="#" class="more">More</a>
                                 </div>
                                 <div class='panel'>
                                     <ul class="links-default marker" data-childs="axis">
@@ -320,9 +322,9 @@
                     </div>
                 </section>
                 <section class='topic'>
-                    <div class="hdr" data-flex="w">
+                    <div class="hdr" data-flex>
                         <h2>investor's college</h2>
-                        <div class="links-tags" data-flex="-center">
+                        <div class="links-tags" data-flex="-center w">
                             <a href="#">masterclass</a>|
                             <a href="#">psychology</a>|
                             <a href="#">valuation</a>|
@@ -336,19 +338,19 @@
                                 <h4><a href='#'>BHP gets a bullet</a></h4>
                                 <p><time>18 jan 10</time> | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy .</p>
                             </article>
-                            <ul class="links-default marker" data-childs="axis">
-                                <li><span><time>18 jan 10 | </time><a href="#">Lorem ipsum dolor sit amet</a></span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Praesent aliquam,  justo convallis</a></span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">fermentum diam, at nonummy</a></span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Maecenas urna purus, fermentum id</a></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Commodo  porttitor, felis. Nablandit</a></li>
+                            <ul class="links-default marker">
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis luctus rutrum, erat nulla </a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy quam  ante ac quam. </a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id, molestie in.</a></li>
+                                <li><time>18 jan 10 |&ensp;</time><a href="#">Commodo  porttitor, felis. Nam blandit quam ut lacus. </a></li>
                             </ul>
                         </div>
                         <div>
                             <div class='media-box'>
                                 <h4 class="title">insight</h4>
                                 <div>
-                                    <article data-flex='-center'>
+                                    <article class="clearfix">
                                         <i class="icon-insight"></i>
                                         <p><strong>Lorem ipsum dolor sit</strong> amet, conse ctetuer adipiscing elit. praesent aliquam. conse ctetuer</p>
                                     </article>
@@ -380,21 +382,21 @@
                                     <div id="tab-d2" class="tabpanel">Tab number 2</div>
                                 </div>
                                 <div class="tab-ftr" data-flex="axis">
-                                    <span>updated <time>08 Mar10, 4:00:00 PM AEST</time></span>
-                                    <a href="#"><span>&gt;</span> More</a>
+                                    <span></span>
+                                    <a href="#" class="more">More</a>
                                 </div>
                             </div>
-                            <div class='membership' data-flex='axis w'>
-                                <big><span>membership</span> upgrade</big>
-                                <a href="#" class="btn btn-default">renew</a>
+                            <div class='membership' data-flex='axis' data-flex-480="axis w">
+                                <big><span>mem&shy;ber&shy;ship</span> up&shy;grade</big>
+                                <a href="#" class="btn btn-default">re&shy;new</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section class='topic'>
-                    <div class="hdr" data-flex="w">
+                    <div class="hdr" data-flex>
                         <h2>podcasts & videos</h2>
-                        <div class="links-tags" data-flex="-center">
+                        <div class="links-tags" data-flex="-center w">
                             <a href="#">dumb questions</a>|
                             <a href="#">stocktake</a>|
                             <a href="#">boss talk</a>|
@@ -405,14 +407,14 @@
                         <div>
                             <article class='clearfix'>
                                 <figure><img src="/images/graph.png" width="150" height="98" alt=""></figure>
-                                <h4><a href='#'>BHP gets a bullet</a></h4>
+                                <h4><a href='#'>Reporting season 14 Feb 10</a></h4>
                                 <p><time>18 jan 10</time> | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy .</p>
                             </article>
                             <ul class="links-podcasts" data-childs="axis">
-                                <li><span><time>18 jan 10 | </time><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></span><span class="lbl lbl-sm audio">audio</span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Praesent aliquam,  justo convallis luctus rutrum</a></span><span class="lbl lbl-sm video">video</span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">fermentum diam, at nonummy quam  ante ac</a></span><span class="lbl lbl-sm video">video</span></li>
-                                <li><span><time>18 jan 10 | </time><a href="#">Maecenas urna purus, fermentum id, molestie</a></span><span class="lbl lbl-sm audio">audio</span></li>
+                                <li><span><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></span><span class="lbl lbl-sm audio">audio</span></li>
+                                <li><span><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis luctus rutrum</a></span><span class="lbl lbl-sm video">video</span></li>
+                                <li><span><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy quam  ante ac</a></span><span class="lbl lbl-sm video">video</span></li>
+                                <li><span><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id, molestie</a></span><span class="lbl lbl-sm audio">audio</span></li>
                             </ul>
                         </div>
                         <div>
@@ -431,25 +433,25 @@
                             <div class='info-box'>
                                 <div class="panel-heading sup" data-flex="axis w">
                                     <h3>blogs</h3>
-                                    <a href="#">&gt; More</a>
+                                    <a href="#" class="more">More</a>
                                 </div>
                                 <div class='panel'>
                                     <ul class="links-default" data-childs="axis">
-                                        <li><span><time>18 jan 10 | </time><a href="#">Lorem ipsum dolor sit amet</a></span><span>(9)</span></li>
-                                        <li><span><time>18 jan 10 | </time><a href="#">Praesent aliquam,  justo convallis</a></span><span>(2)</span></li>
-                                        <li><span><time>18 jan 10 | </time><a href="#">fermentum diam, at nonummy</a></span><span>(11)</span></li>
-                                        <li><span><time>18 jan 10 | </time><a href="#">Maecenas urna purus, fermentum id</a></span><span>(1)</span></li>
-                                        <li><span><time>18 jan 10 | </time><a href="#">Commodo  porttitor, felis. Nablandit</a></span><span>(32)</span></li>
+                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet</a></span><span>(9)</span></li>
+                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis</a></span><span>(2)</span></li>
+                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy</a></span><span>(11)</span></li>
+                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id</a></span><span>(1)</span></li>
+                                        <li><span><time>18 jan 10 |&ensp;</time><a href="#">Commodo  porttitor, felis. Nablandit</a></span><span>(32)</span></li>
                                     </ul>
                                 </div>
                                 <div class="panel-heading" data-flex="axis w">
                                     <h3>latest comments</h3>
                                 </div>
                                 <div class='panel'>
-                                    <ul class="links-default marker" data-childs="axis">
-                                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                                        <li><a href="#">Praesent aliquam,  justo convallis</a></li>
-                                        <li><a href="#">fermentum diam, at nonummy</a></li>
+                                    <ul class="links-default marker">
+                                        <li><a href="#">Lorem ipsum dolor sit ame Nam blandit quam</a></li>
+                                        <li><a href="#">Praesent aliquam,  justo convallis luctus</a></li>
+                                        <li><a href="#">fermentum diam, at nonummy quam blandit</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -460,7 +462,7 @@
         </div>
         <footer>
             <div class='footer'>
-                <div class='lwrap' data-flex="stripe w">
+                <div class='lwrap' data-flex="between -start" data-flex-640="between -start w">
                     <div data-flex>
                         <div>
                             <h6>Main Heading</h6>
@@ -500,15 +502,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contacts" data-flex>
-                        <div>
-                            <h6>Contact details</h6>
+                    <div class="contacts" data-flex="stripe w">
+                        <h6>Contact Details</h6>
+                        <div>                            
                             <address>The Smart Investor<br>PO Box 1158<br>Bondi Junction NSW 1355</address>
                             <address>Publishing Pty ltd<br>Level2, 282 Oxford Street<br>Bondi Junction NSW 2022</address>
                         </div>
                         <div data-flex="col -start">
                             <span>Tel: 1234 567 890</span>
-                            <span>Fax: 1234 567 890</span>
+                            <span>Fax 1234 567 890</span>
                             <a href="mailto:Info@smartinvestor.com">Info@smartinvestor.com</a>
                             <span>Tel: 1234 567 890</span>
                             <span>Office Hours: 9:00am - 5:30pm</span>
@@ -518,7 +520,7 @@
             </div>
             <div class='copyright lwrap'>
                 <span>Copyright &copy; 2010 The Smart Investor.</span><br>
-                <span>ABN 1234 567 890 .Financial Serice Number 000000</span>
+                <span>ABN 1234 567 890 .Financial Service Number 000000</span>
             </div>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>

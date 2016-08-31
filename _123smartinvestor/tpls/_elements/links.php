@@ -53,16 +53,16 @@
     <li><span><time>18 jan 10 | </time><a href="#">Commodo  porttitor, felis. Nablandit</a></span><span>(32)</span></li>
 </ul>
 <div class="links-tags" data-flex='-center'>
-    <a href="#">masterclass</a>
-    <a href="#">psychology</a>
-    <a href="#">valuation</a>
+    <a href="#">masterclass</a>|
+    <a href="#">psychology</a>|
+    <a href="#">valuation</a>|
     <a href="#">fundamentals</a>
 </div>
-<ul class="links-podcasts" data-childs='axis'>
-    <li><span><time>18 jan 10</time><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></span><span class='lbl lbl-sm audio'>audio</span></li>
-    <li><span><time>18 jan 10</time><a href="#">Praesent aliquam,  justo convallis luctus rutrum</a></span><span class='lbl lbl-sm video'>video</span></li>
-    <li><span><time>18 jan 10</time><a href="#">fermentum diam, at nonummy quam  ante ac</a></span><span class='lbl lbl-sm video'>video</span></li>
-    <li><span><time>18 jan 10</time><a href="#">Maecenas urna purus, fermentum id, molestie</a></span><span class='lbl lbl-sm audio'>audio</span></li>
+<ul class="links-podcasts" data-childs="axis">
+    <li><span><time>18 jan 10 |&ensp;</time><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></span><span class="lbl lbl-sm audio">audio</span></li>
+    <li><span><time>18 jan 10 |&ensp;</time><a href="#">Praesent aliquam,  justo convallis luctus rutrum</a></span><span class="lbl lbl-sm video">video</span></li>
+    <li><span><time>18 jan 10 |&ensp;</time><a href="#">fermentum diam, at nonummy quam  ante ac</a></span><span class="lbl lbl-sm video">video</span></li>
+    <li><span><time>18 jan 10 |&ensp;</time><a href="#">Maecenas urna purus, fermentum id, molestie</a></span><span class="lbl lbl-sm audio">audio</span></li>
 </ul>
 <div class="links-footer" data-flex='col -start'>
     <a href="#">justo convallis luctus rutrum</a>
