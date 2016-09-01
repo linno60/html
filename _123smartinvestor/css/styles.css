@@ -466,9 +466,11 @@ footer{
     .content > section:last-child{width: 49%;order: 1;margin: 0px 0rem 9px 0px;}
     .content > section{width: 100%;order:2;}
     .columns > div:last-child, .columns > div {width: 49%;}
-    .columns > div:first-child{width:100%;}
+    .columns > div:first-child{width:100%;}    
+    .form-search{width: 100%;}
 }
 @media (max-width: 480px) {
+    .form-search button{flex-grow: 1;} 
     .topbar{order: 1;width: 49%;}
     .search-wrap{order: 0;width: 49%;}
 }

@@ -296,10 +296,10 @@
                         <input name="anchor4" id='slide4-2' class="num2" type="radio">
                         <input name="anchor4" id='play4' class="play" type="radio" checked>
                         <ul>
-                            <li data-childs="between -start">
+                            <li data-childs="stripe">
                                 <article>
-                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -309,32 +309,8 @@
                                     </div>
                                 </article>
                                 <article>
-                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
-                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                        <a href="#" class="link">guitar lessons</a>
-                                    </div>
-                                    <div data-flex="col -end">
-                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
-                                    </div>
-                                </article>
-                                <article>
-                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
-                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                        <a href="#" class="link">guitar lessons</a>
-                                    </div>
-                                    <div data-flex="col -end">
-                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class='num0' data-childs="between -start">
-                                <article>
-                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -344,19 +320,8 @@
                                     </div>
                                 </article>
                                 <article>
-                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
-                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                        <a href="#" class="link">guitar lessons</a>
-                                    </div>
-                                    <div data-flex="col -end">
-                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
-                                    </div>
-                                </article>
-                                <article>
-                                    <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -366,10 +331,10 @@
                                     </div>
                                 </article>
                             </li>
-                            <li class='num1' data-childs="between -start">
+                            <li class='num0' data-childs="stripe">
                                 <article>
-                                    <figure><img src="/images/img72.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -379,19 +344,19 @@
                                     </div>
                                 </article>
                                 <article>
-                                    <figure><img src="/images/img72.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
                                     <div data-flex="col -end">
                                         <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
                                     </div>
                                 </article>
                                 <article>
-                                    <figure><img src="/images/img72.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -401,10 +366,10 @@
                                     </div>
                                 </article>
                             </li>
-                            <li class='num2' data-childs="between -start">
+                            <li class='num1' data-childs="stripe">
                                 <article>
-                                    <figure><img src="/images/img73.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -414,19 +379,8 @@
                                     </div>
                                 </article>
                                 <article>
-                                    <figure><img src="/images/img73.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
-                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
-                                        <a href="#" class="link">guitar lessons</a>
-                                    </div>
-                                    <div data-flex="col -end">
-                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
-                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>02</span> / <span>09</span></time></div>
-                                    </div>
-                                </article>
-                                <article>
-                                    <figure><img src="/images/img73.jpg" width="170" height="125" alt=""></figure>
-                                    <div>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
                                         <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
                                         <a href="#" class="link">guitar lessons</a>
                                     </div>
@@ -434,7 +388,53 @@
                                         <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
                                         <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
                                     </div>
-                                </article>                                    
+                                </article>
+                                <article>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class='num2' data-childs="stripe">
+                                <article>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="clearfix">
+                                        <figure><img src="/images/img7.jpg" width="170" height="125" alt=""></figure>
+                                        <h4><a href="#">lorem ipsum dolor sit amet, consectetur adipiscing</a></h4>
+                                        <a href="#" class="link">guitar lessons</a>
+                                    </div>
+                                    <div data-flex="col -end">
+                                        <div class="lbl lbl-default"><i class="icon-comments"></i><span>8</span></div>
+                                        <div class="lbl lbl-date"><i class="icon-calendarlbl"></i><time><span>06</span> / <span>09</span></time></div>
+                                    </div>
+                                </article>                                   
                             </li>
                         </ul>
                         <div class="nav-slider vrt grey" data-flex="vaxis">

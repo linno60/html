@@ -278,9 +278,6 @@ a.btn:active, a.btn:hover, a.btn:focus{
     border-radius: 8px;
     overflow: hidden;
 }
-.form-search button{
-    flex-grow: 1;
-}
 .form-search input[type=search]::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
@@ -394,7 +391,11 @@ a.btn:active, a.btn:hover, a.btn:focus{
     text-align: center;
     background: linear-gradient(#c5c5c5, #aaa, #aaa calc(100% - 1px), #d1d1d1) left top / 1px 100% no-repeat;
 }
-.tabs.podcasts .tablist a.active, .tabs.podcasts .tablist a:hover{
+.tabs.podcasts .tablist a.active + a, .tabs.podcasts .tablist a:hover + a, .tabs.podcasts .tablist a:first-child{
+    background: none;
+}
+.tabs.podcasts .tablist a.active, .tabs.podcasts .tablist a:hover, .tabs.podcasts .tablist a.active + a:hover,
+.tabs.podcasts .tablist a:hover + a.active, .tabs.podcasts .tablist a.active:first-child{
     background: #ea7001 linear-gradient(rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.12));
     border-color: #3b3b3b
 }
