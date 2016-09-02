@@ -1,0 +1,12 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=5aef66b6-7021-4ebf-b803-d86fa9636555");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "FranklinGothic";
+    src: url("/fonts/fonts.com/254f8247-b1dd-4c98-bfba-d8af73bce81a.woff2") format("woff2"), url("/fonts/fonts.com/ee6ff89b-ed8c-4779-a235-1b2629d8db2a.woff") format("woff");
+    font-weight: 800;
+}

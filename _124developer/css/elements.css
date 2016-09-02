@@ -1,0 +1,98 @@
+body{
+    font-size: 14px;
+    font-family: Ubuntu;
+}
+
+/*LINKS*/
+.links-nav a{
+    width: 74px;
+    height: 70px;
+    background: #c0c0c2;
+    border: 1px solid white;
+    margin: 20rem;
+    color: white;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 50% 0px 50% 50%;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: #6c9ce4;
+}
+.links-default a{
+    text-transform: uppercase;
+    margin-bottom: 20rem;
+    padding-left: 20rem;
+    color: #2c2d2d;
+    background:
+        linear-gradient(135deg, transparent 40%, #989898 50%, transparent 60%) 1px 4px / 3px 3px no-repeat,
+        linear-gradient(45deg, transparent 40%, #989898 50%, transparent 60%) 1px 13px / 3px 3px no-repeat,
+        linear-gradient(45deg, transparent 40%, #989898 50%, transparent 60%) 2px 6px / 4px 4px no-repeat,
+        linear-gradient(135deg, transparent 40%, #989898 50%, transparent 60%) 2px 9px / 4px 4px no-repeat,
+        linear-gradient(45deg, transparent 45%, #989898 50%, transparent 55%) 3px 2px / 7px 9px no-repeat,
+        linear-gradient(135deg, transparent 45%, #989898 50%, transparent 55%) 3px 9px / 7px 9px no-repeat;
+}
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    color: #2067d2;
+}
+
+/*BUTTONS*/
+.btn-default{
+    width: 51px;
+    height: 48px;
+    background: #c0c0c2;
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    border-radius: 50% 0px 50% 50%;    
+}
+.btn-default:active, .btn-default:hover, .btn-default:focus{
+    background: #6c9ce4;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 47px;
+    height: 47px;
+    background: #c0c0c2;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+/*LISTS*/
+.list-default li{
+    color: #2d2d2f;
+    font-weight: 300;
+    margin-bottom: 15rem;
+    text-transform: uppercase;
+}
+
+/*FORMS*/
+input[name=message]{
+    height: 32px;
+    margin-bottom: 20px;
+    padding: 0px 10rem;
+}
+textarea[name=message]{
+    height: 125px;
+}
+input[name=message], textarea[name=message]{
+    background: white;
+    border: 1px solid #c0c0c2;
+    outline: none;
+    font-size: 13px;
+    padding: 10rem;
+    color: black;
+}
+input[name=message]::-webkit-input-placeholder, textarea[name=message]::-webkit-input-placeholder { color: #3f3f41; }
+input[name=message]::-moz-placeholder, textarea[name=message]::-moz-placeholder { color: #3f3f41; }
+input[name=message]:-ms-input-placeholder, textarea[name=message]:-ms-input-placeholder { color: #3f3f41; }
+
+/*OTHER*/
+.title{
+    color: #c0c0c2;
+    font-family: FranklinGothic;
+    font-size: 67px;
+    font-weight: 800;
+    text-transform: uppercase;
+}

@@ -1,0 +1,1 @@
+<span class="lbl lbl-default"><i class="icon-mail"></i></span>

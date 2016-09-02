@@ -110,11 +110,11 @@
                         </div>
                         <div class="tabs default alt" data-tabs="">
                             <div class="tablist" data-flex="stripe">
-                                <a href="#tab-d1" class="active">stocks in brief<i class="rss"></i></a>
-                                <a href="#tab-d2">latest feeds<i class="rss"></i></a>
+                                <a href="#tab-a1" class="active">stocks in brief<i class="rss"></i></a>
+                                <a href="#tab-a2">latest feeds<i class="rss"></i></a>
                             </div>
                             <div class="tabset">
-                                <div id="tab-d1" class="tabpanel active">
+                                <div id="tab-a1" class="tabpanel active">
                                     <ul class="links-brief" data-flex="col" data-childs="axis">
                                         <li><a href="#">BHP Billiton (BHP)</a><span>($34.87)</span></li>
                                         <li><a href="#">Quantas (QTS)</a><span>($12.10)</span></li>
@@ -122,7 +122,7 @@
                                         <li><a href="#">Aristacrat</a><span>($8.01)</span></li>
                                     </ul>
                                 </div>
-                                <div id="tab-d2" class="tabpanel">Tab number 2</div>
+                                <div id="tab-a2" class="tabpanel">Tab number 2</div>
                             </div>
                             <div class="tab-ftr" data-flex="axis">
                                 <span>Updated <time>08 Mar10, 4:00:00 PM AEST</time></span>
@@ -167,13 +167,13 @@
                     <section>
                         <div class="tabs podcasts" data-tabs="">
                             <div class="tablist" data-flex="axis">
-                                <a href="#tab-p1" class="active">podcasts</a>
-                                <a href="#tab-p2">video</a>
-                                <a href="#tab-p3">blogs</a>
-                                <a href="#tab-p4">special reports</a>
+                                <a href="#tab-b1" class="active">podcasts</a>
+                                <a href="#tab-b2">video</a>
+                                <a href="#tab-b3">blogs</a>
+                                <a href="#tab-b4">special reports</a>
                             </div>
                             <div class="tabset">
-                                <div id="tab-p1" class="tabpanel active">
+                                <div id="tab-b1" class="tabpanel active">
                                     <div class="clearfix">
                                         <figure><img src="/images/pod.png" width="71" height="103" alt=""></figure>
                                         <div class="links-options" data-flex="col">
@@ -189,9 +189,9 @@
                                         <a href='#' class="more"> More</a>
                                     </div>
                                 </div>
-                                <div id="tab-p2" class="tabpanel">Tab number 2</div>
-                                <div id="tab-p3" class="tabpanel">Tab number 3</div>
-                                <div id="tab-p4" class="tabpanel">Tab number 4</div>
+                                <div id="tab-b2" class="tabpanel">Tab number 2</div>
+                                <div id="tab-b3" class="tabpanel">Tab number 3</div>
+                                <div id="tab-b4" class="tabpanel">Tab number 4</div>
                             </div>
                         </div>
                         <div class='membership' data-flex='axis'>
@@ -209,11 +209,11 @@
                         </div>
                         <div class="tabs default" data-tabs="">
                             <div class="tablist" data-flex="stripe">
-                                <a href="#tab-d1" class="active">ask the experts</a>
-                                <a href="#tab-d2">coming up</a>
+                                <a href="#tab-c1" class="active">ask the experts</a>
+                                <a href="#tab-c2">coming up</a>
                             </div>
                             <div class="tabset">
-                                <div id="tab-d1" class="tabpanel active">
+                                <div id="tab-c1" class="tabpanel active">
                                     <div class="links-asks" data-flex="col -start">
                                         <a href="#">Justo convallis luctus rutrum, erat nulla</a>
                                         <a href="#">Germentum diam, at nonummy quam  ante ac</a>
@@ -221,7 +221,7 @@
                                         <a href="#">Molestie in, commodo  porttitor</a>
                                     </div>
                                 </div>
-                                <div id="tab-d2" class="tabpanel">Tab number 2</div>
+                                <div id="tab-c2" class="tabpanel">Tab number 2</div>
                             </div>
                             <div class="tab-ftr" data-flex="axis">
                                 <span> </span>
