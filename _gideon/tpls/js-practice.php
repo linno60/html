@@ -48,22 +48,7 @@
 //            var string3 = string.slice(-4);
 //            alert(string3);
 
-            function User(firstName, lastName) {
-                // вспомогательная переменная
-                var phrase = "Привет";
 
-                //  вспомогательная вложенная функция
-                function getFullName() {
-                    return firstName + " " + lastName;
-                }
-
-                this.sayHi = function () {
-                    alert(phrase + ", " + getFullName()); // использование
-                };
-            }
-
-            var vasya = new User("Вася", "Петров");
-            vasya.sayHi(); // Привет, Вася Петров
 
         </script>
     </script>
