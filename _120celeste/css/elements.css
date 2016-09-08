@@ -152,6 +152,8 @@ textarea{
 input[name=search], input[name=email], input[name=subscribe], input[name=contact], textarea{
     outline: none;    
     padding: 5px;
+}
+input[name=search], input[name=email], input[name=subscribe], textarea{
     color: #333;
 }
 input[name=search], input[name=email]{
@@ -178,7 +180,7 @@ input[name=subscribe]{
     margin-bottom: 20rem;
 }
 *[name=contact]{
-    border: 1px solid rgba(255,255,255,.8);
+    border: 1px solid rgba(255,255,255,.45);
     color: white;
 }
 textarea[name=contact]{
@@ -206,7 +208,7 @@ input[name=contact]{
     margin-bottom: 4rem;
 }
 .label-contact{
-    background: rgba(255,255,255,.68);
+    background: rgba(255,255,255,.45);
     color: #057f81;
     height: 26px;
     padding: 0px 10rem;
