@@ -1,0 +1,168 @@
+body{
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.links-nav a, .links-sign a, .links-sign{
+    font-family: "MS Sans Serif";
+    font-size: 16px;
+    color: #3a5362;
+}
+.links-nav{
+    padding-top: 6rem;
+    background: linear-gradient(#d7d7d7, #d7d7d7 calc(100% - 4px), #4a83a7 calc(100% - 4px), #4a83a7);
+}
+.links-nav a{
+    height: 44px;
+    padding: 0px 15rem 10rem 15rem;
+    border-radius: 9px 9px 0px 0px;
+    margin: 0px 8rem -4px 8rem;
+}
+.links-sign a{
+    margin: 0px 3rem;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: white;
+    position: relative;
+    background: linear-gradient(#598dad, #4f86a8 22px, #4d83a5 32px, #497b9a 43px, #5c8fae);
+}
+.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after, .links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+}
+.links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
+    border-top: 4px solid #29546f;
+    border-right: 4px solid transparent;
+    right: -4px;
+}
+.links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before{
+    border-top: 4px solid #29546f;
+    border-left: 4px solid transparent;
+    left: -4px;
+}
+.links-sign a:active, .links-sign a:hover, .links-sign a:focus, .links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-default a{
+    color: rgba(255,255,255,.8);
+    margin-bottom: 3rem;
+}
+.links-social a{
+    margin: 0px 5rem 5rem 0px;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 110rem;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 16rem;
+    background: linear-gradient(#6bb2dd, #498ab2);
+    border: 3px solid #d7d7d7;
+    border-radius: 8px;
+}
+.btn-signup{
+    min-width: 175px;
+    height: 48px;
+    background: linear-gradient(#ffa765, #ff6e02);
+    border: 1px solid white;
+    padding: 0px 10rem 0px 40rem;
+    border-radius: 6px;
+    color: white;
+    font-size: 22px;
+}
+
+/*LABELS*/
+.lbl-signup{
+    width: 320px;
+    height: 48px;
+    background: linear-gradient(#82bbdf, #679abb);
+    border: 1px solid #d7d7d7;
+    color: white;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+/*FORMS*/
+.checkbox-default{
+    display: none;
+}
+.checkbox-default + label {
+    text-indent: 20px;
+    line-height: 21px;
+    background: url(/images/icons/state-on.png) no-repeat;
+}
+.checkbox-default:checked + label {
+    background: url(/images/icons/state-off.png) no-repeat;
+}
+.input-address{
+    font-family: "MS Sans Serif";
+    font-size: 17px;
+    border-radius: 8px;
+    color: black;
+    height: 50px;
+    padding: 0px 18rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.05));
+    border: 3px solid #316e94;
+    outline: none;
+}
+.input-default{
+    font-size: 16px;
+    height: 32px;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 15rem;
+}
+.input-address::-webkit-input-placeholder { color: #347095; }
+.input-address::-moz-placeholder { color: #347095; }
+.input-address:-ms-input-placeholder { color: #347095; }
+.input-default::-webkit-input-placeholder { color: #4b7d9b; }
+.input-default::-moz-placeholder { color: #4b7d9b; }
+.input-default:-ms-input-placeholder { color: #4b7d9b; }
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;            
+    width: 204px;
+    height: 32px;
+    outline: none;
+    background: url('/images/icons/select.png') right 5rem center no-repeat,
+        linear-gradient(#fcfdfd, #fcfdfd 1px, white 1px, white 15px, #fafafa 15px, #fbfbfb 31px, #fcfdfd 31px);
+    border: 1px solid #bbb;
+    box-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.07), inset 0 0 0 2px #fcfdfd;
+    padding: 0px 30px 0px 15rem;
+    border-radius: 2px;
+    color: #347095;
+    font-family: Lucida Sans Unicode;
+    font-size: 14px;
+}
+
+/*TABS*/
+.tablist > a{
+    min-width: 132rem;
+    height: 44px;
+    padding: 0px 18rem;
+    background: #c2f2ed;
+    margin-right: 6rem;
+    border-radius: 9px 9px 0px 0px;
+    color: #4b83a6;
+    font-family: ArialRoundedMTBold;
+    font-size: 22px;
+}
+.tablist > a.active, .tablist > a:hover{
+    color: white;
+    background: rgba(255,255,255,.5);
+}
+.tabset{
+    border-radius: 0px 9px 0px 0px;
+    background: linear-gradient(rgba(255,255,255,.5), transparent);
+}
+.tabpanel{
+    padding: 25rem 38rem;
+}
