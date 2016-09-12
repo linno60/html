@@ -13,12 +13,12 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
     src: url("/fonts/fonts.com/7cd5de2f-8fb1-427c-9f45-6149d4edf425.woff2") format("woff2"), url("/fonts/fonts.com/62ca5e52-a23b-4365-b69a-9e06b00a8192.woff") format("woff");
 }
 /* ICONS */
-.icon-add {width: 51px; height: 51px; background: url('/images/icons/add.png');}
-.icon-facebook {width: 51px; height: 51px; background: url('/images/icons/facebook.png');}
+.icon-add {width: 48px; height: 48px; background: url('/images/icons/add.png');}
+.icon-facebook {width: 48px; height: 48px; background: url('/images/icons/facebook.png');}
 .icon-home {width: 32px; height: 31px; background: url('/images/icons/home.png');}
 .icon-next {width: 16px; height: 16px; background: url('/images/icons/next.png');}
 .icon-prev {width: 16px; height: 16px; background: url('/images/icons/prev.png');}
 .icon-select {width: 12px; height: 19px; background: url('/images/icons/select.png');}
 .icon-state-off {width: 20px; height: 21px; background: url('/images/icons/state-off.png');}
 .icon-state-on {width: 20px; height: 21px; background: url('/images/icons/state-on.png');}
-.icon-twitter {width: 51px; height: 51px; background: url('/images/icons/twitter.png');}
+.icon-twitter {width: 48px; height: 48px; background: url('/images/icons/twitter.png');}

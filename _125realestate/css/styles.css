@@ -5,32 +5,49 @@ body{
     max-width: 970px;
     padding: 0px 10px;
 }
-figure > img{
+figure > img, figure > div > img, a > img{
     width: 100%;
     display: block;
+    height: 100%;
 }
 
 /*HEADER*/
-header{
-    padding-top: 20rem;
+header > .lwrap{
+    max-width: 986px;
+    padding: 15rem 17px 4rem 10px;
+}
+#logo{
+    margin: 0px 10px 17rem 0px;
 }
 .navigation{
-    margin: 10rem 0px 20rem 0px;
-    background: linear-gradient(#d7d7d7, #d7d7d7 calc(100% - 4px), #4a83a7 calc(100% - 4px), #4a83a7);
+    margin-bottom: 18rem;
+    background: linear-gradient(0deg, #4a83a7, #4a83a7 4px, #d7d7d7 4px, #d7d7d7);
+}
+.navigation .lwrap{
+    max-width: 996px;
+}
+.navigation .links-sign{
+    padding-right: 30rem;
 }
 .callnumber{
     color: white;
     font-family: "Adobe Caslon Pro";
-    font-size: 24px;
+    font-size: 24rem;
+    text-align: right;
 }
 
 /*SLIDER*/
+.slider-wrap{
+    margin-top: 1rem;
+    width: 53.5%;
+}
 .slider-wrap > input[type=radio] {
     display: none;
 }
 .slider{
     position: relative;
     border: 10px solid #f2e8e8;
+    margin-bottom: 8rem;
 }
 .slider > figure:first-child {
     visibility: hidden;
@@ -47,14 +64,19 @@ header{
 .slider figcaption{
     background: rgba(0,0,0,.51);
     margin-top: 1px;
-    padding: 5px 20px;
+    padding: 10rem 25rem 10rem 25rem;
 }
 .slider figcaption h3{
     font-size: 20px;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
+    font-weight: 400;
 }
 .slider figcaption h3, .slider figcaption p{
     color: white;
+}
+.slider figcaption p{
+    font-size: 14px;
+    margin-bottom: 1rem;
 }
 .slider-wrap > #slide1-0:checked ~ .slider > .num0,
 .slider-wrap > #slide1-1:checked ~ .slider > .num1,
@@ -118,4 +140,210 @@ header{
 }
 .slider-wrap > #play1:checked ~ .bullets > .num4 {
     animation: bullet1 20000ms infinite 14000ms;
+}
+
+/*TABS*/
+.tabs{
+    width: 44.2%;
+}
+.tabpanel > form > label{
+    width: 100%;
+    padding: 0px 0px 15rem 3rem;
+}
+.tabpanel label{
+    color: white;
+    font-size: 16px;
+}
+.tabpanel > form > div{
+    margin: 1rem 3rem 18rem 0px;
+}
+.tabpanel > form > div label{   
+    text-align: right;
+}
+.tabpanel > form button{
+    margin-top: 14rem;
+}
+.tabpanel > form .btn-default{
+    min-width: 210px;
+    height: 45px;
+    font-size: 22px;
+}
+
+/*ABOUT*/
+.about{
+    background: linear-gradient(white, white 2px, #edfffd 2px, #c2f2ed 99%, #c2f2ed);
+}
+.about > .lwrap{
+    max-width: 1034px;
+    padding: 12rem 10px 0rem 44rem;
+}
+.about article{
+    width: 30.5%;
+    margin-bottom: 17px;
+}
+.about article h2{
+    color: #4484ad;
+    margin-bottom: 10rem;
+    padding-top: 9px;
+    font-size: 22px;
+    font-weight: 400;
+    background: url(/images/icons/home.png) no-repeat left 2px;
+    text-indent: 39px;
+}
+.about article p{
+    color: #43515a;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 2rem;
+}
+
+/*PORTFOLIO*/
+.portfolio{
+    background: white;
+}
+.portfolio > .lwrap{
+    padding: 20rem 14px 10rem 10px;
+}
+.portfolio figure{
+    width: 23.5%;
+    margin-bottom: 21rem;     
+}
+.portfolio figure figcaption{
+    background: #4f8fb7;
+    border-radius: 0px 0px 5px 5px;
+        padding: 5rem 11rem 8rem 12rem;   
+}
+.portfolio figure figcaption span{
+    display: inline-block;
+    color: white;
+    font-family: "MS Sans Serif";
+    font-size: 17px;
+    line-height: 21px;
+    max-width: 80%;
+    letter-spacing: -0.01em;
+}
+.portfolio figure figcaption span small{
+    font-size: 15px;
+    font-family: Arial;
+    letter-spacing: 0.01em;
+}
+.portfolio figure div{
+    border: 6px solid #e1dede;
+}
+.glass{
+    flex-shrink: 0;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    margin: 0px 15px 5rem 5rem;
+    display: inline-block;
+}
+.glass:after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background: white;
+    bottom: -7px;
+    right: -18px;
+    transform: rotate(33deg);
+}
+
+/*SUBSCRIBE*/
+.subscribe{
+    background: url("/images/bg.png");
+}
+.subscribe form{
+    padding: 9rem 16rem 17rem 19rem;
+    background-image: linear-gradient(to top, #679abb 0%, #82bbdf 100%);
+    border: 1px solid #d7d7d7;
+}
+.subscribe > .lwrap{
+    padding: 12rem 10px 0rem 16px;
+    max-width: 996px;
+}
+.subscribe > .lwrap > *{
+    width: 48.66%;
+    margin-bottom: 11rem;
+    border-radius: 5px;
+}
+.subscribe form input{    
+    flex-grow: 1;
+}
+.subscribe form > div > *{
+    margin: 5rem;
+}
+.subscribe form input:not([type=email]){
+    max-width: 150px;
+}
+.subscribe form label{
+    color: white;
+    font-size: 24px;
+    padding: 0px 0px 10rem 5rem;
+}
+.subscribe .lbl-signup{
+    border-right: none;
+    flex-grow: 1;
+    border-radius: 6px 0px 0px 6px;
+}
+.subscribe .btn-signup{
+    border-left: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+/*FOOTER*/
+footer > .lwrap{
+    padding: 21rem 10px 18rem 10px;
+    max-width: 950px;
+}
+footer > .lwrap > div{
+    width: 19.2%;
+    margin-bottom: 20px;
+}
+footer > .lwrap > .testimonials{
+    width: 35.2%;
+}
+footer > .lwrap > div:last-child{
+    width: 22.9%;
+}
+footer h5{
+    margin: 2rem 0px 13rem 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+footer p, footer span{
+    line-height: 22px;
+    color: rgba(255,255,255,.8);
+}
+#logoalt{
+    display: block;
+    margin-bottom: 31rem;
+}
+.testimonials hgroup a{
+    margin: 4rem;
+    display: inline-block;
+}
+.testimonials h5{
+    padding-right: 11rem;
+}
+.testimonials p{
+    margin-bottom:5rem
+}
+.testimonials strong{
+    margin-bottom: 7rem;
+    color: white;
+}
+footer span{
+    text-indent: 15rem;
+    display: inline-block;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    .portfolio figure{width: 49%;}
+    .callnumber{font-size: 18px;}
 }
