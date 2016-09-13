@@ -19,7 +19,7 @@ body{
     margin: 0px 8rem -4px 8rem;
 }
 .links-sign a{
-    margin: 0px 9rem;
+    margin: 5px 9rem;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: white;
@@ -64,25 +64,25 @@ body{
     border: 3px solid #d7d7d7;
     border-radius: 8px;
 }
-.btn-signup{
-    min-width: 175rem;
-    height: 48px;
-    background: linear-gradient(#ffa765, #ff6e02);
-    border: 1px solid white;
-    padding: 0px 10rem 0px 30px;
+.btn-signup, .lbl-signup{
     border-radius: 6px;
     color: white;
-    font-size: 22px;
+    font-size: 22rem;
+    line-height: 22rem;
+    text-align: center;
+    height: 48px;
+}
+.btn-signup{
+    min-width: 175rem;    
+    background: linear-gradient(#ffa765, #ff6e02);
+    border: 1px solid white;
+    padding: 0px 10px 0px 30px;    
 }
 
 /*LABELS*/
 .lbl-signup{
-    height: 48px;
     background: linear-gradient(#82bbdf, #679abb);
     border: 1px solid #d7d7d7;
-    color: white;
-    font-size: 22px;
-    border-radius: 6px;
     padding: 0px 5px;
     position: relative;
 }

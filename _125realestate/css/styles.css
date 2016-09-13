@@ -38,7 +38,7 @@ header > .lwrap{
 
 /*SLIDER*/
 .slider-wrap{
-    margin-top: 1rem;
+    padding: 1rem 0px 8px 0px;
     width: 53.5%;
 }
 .slider-wrap > input[type=radio] {
@@ -164,7 +164,7 @@ header > .lwrap{
     margin-top: 14rem;
 }
 .tabpanel > form .btn-default{
-    min-width: 210px;
+    min-width: 210rem;
     height: 45px;
     font-size: 22px;
 }
@@ -211,7 +211,7 @@ header > .lwrap{
 .portfolio figure figcaption{
     background: #4f8fb7;
     border-radius: 0px 0px 5px 5px;
-        padding: 5rem 11rem 8rem 12rem;   
+    padding: 5rem 11rem 8rem 12rem;   
 }
 .portfolio figure figcaption span{
     display: inline-block;
@@ -262,7 +262,7 @@ header > .lwrap{
     border: 1px solid #d7d7d7;
 }
 .subscribe > .lwrap{
-    padding: 12rem 10px 0rem 16px;
+    padding: 12rem 10px 0rem 16rem;
     max-width: 996px;
 }
 .subscribe > .lwrap > *{
@@ -320,7 +320,6 @@ footer p, footer span{
     color: rgba(255,255,255,.8);
 }
 #logoalt{
-    display: block;
     margin-bottom: 31rem;
 }
 .testimonials hgroup a{
@@ -331,7 +330,7 @@ footer p, footer span{
     padding-right: 11rem;
 }
 .testimonials p{
-    margin-bottom:5rem
+    margin-bottom: 5rem
 }
 .testimonials strong{
     margin-bottom: 7rem;
@@ -346,4 +345,17 @@ footer span{
 @media screen and (max-width: 800px) {
     .portfolio figure{width: 49%;}
     .callnumber{font-size: 18px;}
+    .btn-signup, .lbl-signup{font-size: 16px; line-height: 16px;}
+    .navigation .links-sign{padding-right: 0px;}
+}
+@media screen and (max-width: 640px) {
+    footer > .lwrap > div, footer > .lwrap > div:last-child{width: 32%;order: 1;}
+    footer > .lwrap > .testimonials{width: 100%;order: 0;}
+}
+@media screen and (max-width: 480px) {
+    select{min-width: 186px;}
+    footer > .lwrap > div{width: 49%;}
+    footer > .lwrap > div:last-child{width: 100%;}
+    .links-nav a{margin: 0px 2px 8px 2px;padding: 0px 5px;border-radius: 9px;height: 30px;}
+    .links-nav a:before, .links-nav a:after{display: none;}
 }

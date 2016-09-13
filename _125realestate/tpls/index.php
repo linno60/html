@@ -28,15 +28,15 @@
                 <span class="callnumber">Call us: (214) 227-7669</span>
             </div>
             <div class="navigation">
-                <div class="lwrap" data-flex="axis">
-                    <nav class="links-nav" data-flex="w" data-childs="center -center">
+                <div class="lwrap" data-flex="axis" data-flex-640="vaxis r">
+                    <nav class="links-nav" data-flex="w" data-childs="center -center" data-flex-640="center w">
                         <a href="#">Home</a>
                         <a href="#" class="active">Our Story</a>
                         <a href="#">Tenant</a>
                         <a href="#">Owner</a>
                         <a href="#">Contact us</a>
                     </nav>
-                    <div class="links-sign" data-flex="end w">
+                    <div class="links-sign" data-flex="end -center w" data-flex-640="center -center w">
                         <a href="#">Sign in</a>/
                         <a href="#">Sign up</a>
                     </div>
@@ -44,7 +44,7 @@
             </div>
         </header>
         <div>
-            <section class="lwrap" data-flex="stripe">
+            <section class="lwrap" data-flex="stripe" data-flex-480="vstripe">
                 <div class="slider-wrap">                   
                     <input name="anchor1" id='slide1-0' type="radio">
                     <input name="anchor1" id='slide1-1' type="radio">
@@ -127,7 +127,7 @@
                                     </select>
                                 </div>                                
                                 <div data-flex="end -center">
-                                    <label>Bedrooms&nbsp;:</label>
+                                    <label>Bed&shy;rooms&nbsp;:</label>
                                     <select>
                                         <option>Select one</option>
                                         <option>Select two</option>
@@ -144,7 +144,7 @@
                 </div>
             </section>
             <section class="about">
-                <div class="lwrap" data-flex="stripe w">
+                <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                     <article>
                         <h2>Buy a home</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
@@ -220,7 +220,7 @@
                 </div>
             </section>
             <section class="subscribe">
-                <div class="lwrap" data-flex="stripe w">
+                <div class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                     <form action="#" method="post">
                         <label>Member login</label>
                         <div data-flex="axis" data-flex-960="axis w">
@@ -283,7 +283,7 @@
                     <strong>Lorem Ipsum is simply</strong>
                     <strong>Owner, Lorem Ipsum</strong>
                 </div>
-                <div>
+                <div data-flex="col -start">
                     <a href="/" title="Return to the homepage" id="logoalt">
                         <img src="/images/logoalt.png" width="171" height="36" alt="Realestate Company">
                     </a>
