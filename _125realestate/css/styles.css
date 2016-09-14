@@ -12,7 +12,38 @@ figure > img, figure > div > img, a > img{
 }
 
 /*HEADER*/
+header > .lwrap:after, .navigation > .lwrap:before, header > .lwrap:before{
+    position: absolute;
+    content: '';
+    left: -139rem;
+}
+header > .lwrap:after{
+    top: 100%;
+    width: 869rem;
+    height: 337rem;
+    background: url("/images/shadow.png") center center / 100% 100% no-repeat;
+}
+.navigation > .lwrap:before{
+    background: url("/images/nav.png") center center / 100% 100% no-repeat;
+    width: 806rem;
+    height: calc(100% - 5px);
+    top: 0px;
+}
+header > .lwrap:before{
+    width: 830rem;
+    height: 100%;
+    bottom: 0px;
+    background: url("/images/header.png") center center / 100% 100% no-repeat;
+}
+header, header + div{
+    background: #4b83a6;
+}
+header + div{
+    padding-top: 18rem;
+    background: url("/images/slidershadow.png") center center / 100% 100% no-repeat;
+}
 header > .lwrap{
+    position: relative;
     max-width: 986px;
     padding: 15rem 17px 4rem 10px;
 }
@@ -20,11 +51,13 @@ header > .lwrap{
     margin: 0px 10px 17rem 0px;
 }
 .navigation{
-    margin-bottom: 18rem;
-    background: linear-gradient(0deg, #4a83a7, #4a83a7 4px, #d7d7d7 4px, #d7d7d7);
+    position: relative;
+    background: linear-gradient(0deg, #5388aa 0px, #5388aa 1px, #4a83a6 2px, #4a83a6 3px, #5187a8 3px, #5187a8 4px, #d7d7d7 4px,  #d7d7d7);
 }
-.navigation .lwrap{
+.navigation > .lwrap{
     max-width: 996px;
+    width: 100%;
+    position: relative;
 }
 .navigation .links-sign{
     padding-right: 30rem;

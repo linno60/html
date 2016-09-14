@@ -21,25 +21,29 @@
     </head>
     <body>
         <header>
-            <div class="lwrap" data-flex="between -end">
-                <a href="/" title="Return to the homepage" id="logo">
-                    <img src="/images/logo.png" width="281" height="77" alt="Realestate Company">
-                </a>
-                <span class="callnumber">Call us: (214) 227-7669</span>
+            <div class="lwrap">
+                <div data-flex="between -end">
+                    <a href="/" title="Return to the homepage" id="logo">
+                        <img src="/images/logo.png" width="281" height="77" alt="Realestate Company">
+                    </a>
+                    <span class="callnumber">Call us: (214) 227-7669</span>
+                </div>
             </div>
             <div class="navigation">
-                <div class="lwrap" data-flex="axis" data-flex-640="vaxis r">
-                    <nav class="links-nav" data-flex="w" data-childs="center -center" data-flex-640="center w">
-                        <a href="#">Home</a>
-                        <a href="#" class="active">Our Story</a>
-                        <a href="#">Tenant</a>
-                        <a href="#">Owner</a>
-                        <a href="#">Contact us</a>
-                    </nav>
-                    <div class="links-sign" data-flex="end -center w" data-flex-640="center -center w">
-                        <a href="#">Sign in</a>/
-                        <a href="#">Sign up</a>
-                    </div>
+                <div class="lwrap">
+                    <div data-flex="axis" data-flex-640="vaxis r">
+                        <nav class="links-nav" data-flex="w" data-childs="center -center" data-flex-640="center w">
+                            <a href="#">Home</a>
+                            <a href="#" class="active">Our Story</a>
+                            <a href="#">Tenant</a>
+                            <a href="#">Owner</a>
+                            <a href="#">Contact us</a>
+                        </nav>
+                        <div class="links-sign" data-flex="end -center w" data-flex-640="center -center w">
+                            <a href="#">Sign in</a>/
+                            <a href="#">Sign up</a>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </header>

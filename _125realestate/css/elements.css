@@ -10,20 +10,20 @@ body{
 }
 .links-nav{
     padding-top: 6rem;
-    background: linear-gradient(0deg, #4a83a7, #4a83a7 4px, #d7d7d7 4px, #d7d7d7);
+    background: linear-gradient(0deg, #5388aa 0px, #5388aa 1px, #4a83a6 2px, #4a83a6 3px, #5187a8 3px, #5187a8 4px, #d7d7d7 4px,  #d7d7d7);
 }
 .links-nav a{
-    height: 44px;
+    position: relative;
+    height: 43px;
     padding: 0px 15rem 10rem 15rem;
-    border-radius: 9px 9px 0px 0px;
-    margin: 0px 8rem -4px 8rem;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px 8rem -3px 8rem;
 }
 .links-sign a{
     margin: 5px 9rem;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
-    color: white;
-    position: relative;
+    color: white;    
     background: linear-gradient(#598dad, #4f86a8 22px, #4d83a5 32px, #497b9a 43px, #5c8fae);
 }
 .links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after, .links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before{
@@ -32,12 +32,12 @@ body{
     bottom: 0px;
 }
 .links-nav a.active:after, .links-nav a:active:after, .links-nav a:hover:after, .links-nav a:focus:after{
-    border-top: 4px solid #29546f;
+    border-top: 3px solid #29546f;
     border-right: 4px solid transparent;
     right: -4px;
 }
 .links-nav a.active:before, .links-nav a:active:before, .links-nav a:hover:before, .links-nav a:focus:before{
-    border-top: 4px solid #29546f;
+    border-top: 3px solid #29546f;
     border-left: 4px solid transparent;
     left: -4px;
 }
