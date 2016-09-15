@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=bdab4500-671b-44a6-83fc-70f0d5eb0117");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/d9fe41ee-4904-4a11-ba11-b61cd3be767f.woff2") format("woff2"), url("/fonts/fonts.com/2fa30669-9bbd-4ced-912f-db94a367ed6c.woff") format("woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/64017d81-9430-4cba-8219-8f5cc28b923e.woff2") format("woff2"), url("/fonts/fonts.com/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/0d416408-95c6-4ad7-b08d-e60573d3b37d.woff2") format("woff2"), url("/fonts/fonts.com/d999c07b-a049-4eb5-b8a6-4f36ae25e67e.woff") format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/fontsquirel.com/montserrat-light.woff2') format('woff2'), url('/fonts/fontsquirel.com/montserrat-light.woff') format('woff');
+    font-weight: 300;
+}
+/* ICONS */
+.icon-apple {width: 52px; height: 63px; background: url('/images/icons/apple.png');}
+.icon-asus {width: 116px; height: 21px; background: url('/images/icons/asus.png');}
+.icon-bbc {width: 164px; height: 47px; background: url('/images/icons/bbc.png');}
+.icon-be {width: 20px; height: 20px; background: url('/images/icons/be.png');}
+.icon-camera {width: 87px; height: 74px; background: url('/images/icons/camera.png');}
+.icon-cisco {width: 125px; height: 65px; background: url('/images/icons/cisco.png');}
+.icon-cnn {width: 97px; height: 47px; background: url('/images/icons/cnn.png');}
+.icon-db {width: 20px; height: 20px; background: url('/images/icons/db.png');}
+.icon-folder {width: 87px; height: 74px; background: url('/images/icons/folder.png');}
+.icon-google {width: 143px; height: 49px; background: url('/images/icons/google.png');}
+.icon-intel {width: 103px; height: 68px; background: url('/images/icons/intel.png');}
+.icon-ms {width: 144px; height: 31px; background: url('/images/icons/ms.png');}
+.icon-newyorktimes {width: 335px; height: 45px; background: url('/images/icons/newyorktimes.png');}
+.icon-qualcomm {width: 151px; height: 34px; background: url('/images/icons/qualcomm.png');}
+.icon-search {width: 13px; height: 14px; background: url('/images/icons/search.png');}
+.icon-speed {width: 87px; height: 68px; background: url('/images/icons/speed.png');}
+.icon-tc {width: 92px; height: 47px; background: url('/images/icons/tc.png');}
+.icon-tw {width: 20px; height: 20px; background: url('/images/icons/tw.png');}
+.icon-yahoo {width: 140px; height: 27px; background: url('/images/icons/yahoo.png');}

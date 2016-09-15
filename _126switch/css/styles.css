@@ -1,0 +1,119 @@
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.lwrap{
+    max-width: 940px;
+    padding: 0px 10px;
+}
+section > .lwrap > hgroup{
+    text-align: center;
+    margin-bottom: 30rem;
+}
+section > .lwrap > hgroup h2{
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+section > .lwrap > hgroup .hr{
+    margin: 5rem auto 5rem auto;
+}
+section > .lwrap > hgroup h6{
+    font-weight: 300;
+    font-family: Open Sans;
+    font-size: 16px;
+}
+section > .lwrap > hgroup h6 span{
+    font-family: Montserrat;
+    font-size: 15px;
+}
+
+/*HEADER*/
+header{
+    background: url("/images/header.png")no-repeat;
+    background-size: cover;
+}
+.hdr-group{
+    flex-basis: 500rem;
+}
+.navigation{
+    width: 100%;
+}
+.hdr-group h1{
+    color: white;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+header > .lwrap{
+    padding-bottom: 20rem; 
+}
+
+/*ABOUT*/
+.about > .lwrap{
+    text-align: center;
+    padding: 30rem 10px 30rem 10px;
+}
+.about hgroup h2{
+    color: #828181;
+}
+.about hgroup h6{
+    color: #b7b3b3;
+}
+.about article{
+    width: 30%;
+    margin-bottom: 10px;
+}
+.about article h3{
+    color: #828181;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 15rem 0px 15rem 0px;
+}
+.about article p{
+    color: #828181;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20rem;
+}
+
+/*WORKS*/
+.works, .team{
+    background: #54d154;
+}
+.works > .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+.works .tabs .tabpanel figure{
+    width: 18%;
+    margin-bottom: 30rem;
+}
+.works .tabs .tabpanel.active{
+    display: flex;
+}
+
+/*TESTIMONIALS*/
+.testimonials > .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+
+/*CLIENTS*/
+.clients{
+    background: #f2f1f1;
+}
+.clients > .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+
+/*TEAM*/
+.team > .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+
+/*FOOTER*/
+footer{
+    flex-shrink: 0;
+}

@@ -48,70 +48,25 @@
 //            var string3 = string.slice(-4);
 //            alert(string3);
 
-//            var calculator = {
-//                sum: function () {
-//                    return this.a + this.b;
-//                },
-//                mul: function () {
-//                    return this.a * this.b;
-//                },
-//                read: function () {
-//                    this.a = +prompt('a?', 0);
-//                    this.b = +prompt('b?', 0);
-//                }
-//            }
-//
-//            calculator.read();
-//            alert(calculator.sum());
-//            alert(calculator.mul());
-
 ///////////////////////////////////////////////////////////////////
+            function Calculator(){
 
-            function Calculator() {
-
-                var methods = {
-                    "-": function (a, b) {
-                        return a - b;
-                    },
-                    "+": function (a, b) {
-                        return a + b;
-                    }
+                this.read = function () {
+                    this.a = +prompt('a?', 0);
+                    this.b = +prompt('b?', 0);
                 };
-
-                this.calculate = function (str) {
-
-                    var split = str.split(' '),
-                            a = +split[0],
-                            op = split[1],
-                            b = +split[2]
-
-                    if (!methods[op] || isNaN(a) || isNaN(b)) {
-                        return NaN;
-                    }
-
-                    return methods[op](+a, +b);
-                }
-
-                this.addMethod = function (name, func) {
-                    methods[name] = func;
+                this.sum = function () {
+                    return this.a + this.b;
+                };
+                this.mul = function () {
+                    return this.a * this.b;
                 };
             }
 
-            var calc = new Calculator;
-
-            calc.addMethod("*", function (a, b) {
-                return a * b;
-            });
-            calc.addMethod("/", function (a, b) {
-                return a / b;
-            });
-            calc.addMethod("**", function (a, b) {
-                return Math.pow(a, b);
-            });
-
-            var result = calc.calculate("2 ** 3");
-            alert(result); // 8
-        </script>
+            var calculator = new Calculator();
+            calculator.read();
+            alert("Сумма=" + calculator.sum());
+            alert("Произведение=" + calculator.mul());</script>
     </script>
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>
     <script src="/js/index.js"></script>
