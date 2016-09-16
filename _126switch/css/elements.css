@@ -11,8 +11,13 @@ figure > img, a > img{
 /*LINKS*/
 .links-nav a{
     color: white;
-    margin: 0px 5px 3px 0px;
+    margin: 0px 20.5rem 3px 0px;
     border-top: 5px solid transparent;
+    line-height: 23px;
+    display: inline-block;
+}
+.links-nav a:last-child{
+    margin-right: 0px;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     border-color: #54d154;
@@ -20,16 +25,20 @@ figure > img, a > img{
 .links-nav a.active{
     font-weight: 700;
 }
+.links-brands{
+    width: 100%;
+}
 .links-brands a{
-    margin: 20rem;
+    margin: 24rem;
+    display: inline-block;
 }
 .links-social{
-    padding: 2px;
+    padding: 0.5px 2px;
     background: #e6e7e6;
     border-radius: 30px;
 }
 .links-social a{
-    margin: 3px;
+    margin: 3.5px;
     display: inline-flex;    
 }
 
@@ -40,7 +49,7 @@ figure > img, a > img{
 .btn-default, .btn-submit, .btn-more.alt{
     color: white;
 }
-.btn-default.md, .btn-more, .btn-submit{
+.btn-default.md, .btn-more{
     height: 40px;
 }
 .btn-default.md, .btn-more{   
@@ -62,6 +71,7 @@ figure > img, a > img{
     font-size: 19px;
     font-weight: 300;    
     box-shadow: -1.5px 4.8px 5px rgba(0,0,0,.1);
+    letter-spacing: -0.01em;
 }
 .btn-default.lg{
     min-width: 208rem;
@@ -74,36 +84,38 @@ figure > img, a > img{
     background: #2b9b2b;    
     font-size: 14px;
     padding: 0px 5px;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+    height: 32px;
 }
 .btn-more{
-    padding: 0px 40px 0px 5px;
+    padding: 0px 40px 0px 18rem;
     min-width: 186rem;
-    background: #dddcdc;
     color: #a59d9d;
     font-size: 18px;
-    background: linear-gradient(#a59d9d, #a59d9d) calc(100% - 20px) 20px / 14px 2px no-repeat,
-        linear-gradient(45deg, transparent, transparent 3px, #a59d9d 3px, #a59d9d 5px, transparent 5px, transparent) calc(100% - 19px) 16px / 8px 5px no-repeat,
-        linear-gradient(135deg, transparent, transparent 3px, #a59d9d 3px, #a59d9d 5px, transparent 5px, transparent) calc(100% - 19px) 21px / 8px 5px no-repeat,
+    background: linear-gradient(#a59d9d, #a59d9d) calc(100% - 21px) 19px / 12px 2px no-repeat,
+        linear-gradient(45deg, transparent, transparent 3px, #a59d9d 3px, #a59d9d 5px, transparent 5px, transparent) calc(100% - 19px) 15px / 8px 5px no-repeat,
+        linear-gradient(135deg, transparent, transparent 3px, #a59d9d 3px, #a59d9d 5px, transparent 5px, transparent) calc(100% - 19px) 20px / 8px 5px no-repeat,
         linear-gradient(#dddcdc, #dddcdc);
 }
 .btn-more.alt{
-    background: linear-gradient(white, white) calc(100% - 20px) 20px / 14px 2px no-repeat,
-        linear-gradient(45deg, transparent, transparent 3px, white 3px, white 5px, transparent 5px, transparent) calc(100% - 19px) 16px / 8px 5px no-repeat,
-        linear-gradient(135deg, transparent, transparent 3px, white 3px, white 5px, transparent 5px, transparent) calc(100% - 19px) 21px / 8px 5px no-repeat,
+    background: linear-gradient(white, white) calc(100% - 21px) 19px / 12px 2px no-repeat,
+        linear-gradient(45deg, transparent, transparent 3px, white 3px, white 5px, transparent 5px, transparent) calc(100% - 19px) 15px / 8px 5px no-repeat,
+        linear-gradient(135deg, transparent, transparent 3px, white 3px, white 5px, transparent 5px, transparent) calc(100% - 18px) 20px / 8px 5px no-repeat,
         linear-gradient(#2b9b2b, #2b9b2b);
 }
 .btn-scroll{
-    padding: 0px 30px 0px 5px;
+    margin-top: 5px;
+    padding: 0px 30px 0px 8rem;
     background: rgba(255,255,255,.7);
     min-width: 120rem;
     height: 25px;
     color: #111;
     font-weight: 300;
     border-radius: 13px;
-    background: linear-gradient(#111, #111) calc(100% - 20px) 10px / 2px 10px no-repeat,
-        linear-gradient(45deg, transparent, transparent 3px, #111 3px, #111 5px, transparent 5px, transparent) calc(100% - 20px) 16px / 8px 5px no-repeat,
-        linear-gradient(135deg, transparent, transparent 3px, #111 3px, #111 5px, transparent 5px, transparent) calc(100% - 15px) 16px / 8px 5px no-repeat,
+    background: linear-gradient(#111, #111) calc(100% - 19px) 8px / 1px 10px no-repeat,
+        linear-gradient(225deg, transparent 3px, #111 3px, #111 4.5px, transparent 4.5px) calc(100% - 19px) 12px / 4px 6px no-repeat,
+        linear-gradient(135deg, transparent 3px, #111 3px, #111 4.5px, transparent 4.5px) calc(100% - 16px) 13px / 5px 4px no-repeat,
         linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7));
 }
 
@@ -125,6 +137,7 @@ figure > img, a > img{
     font-size: 13px;
     font-weight: 300;
     text-transform: uppercase;
+    letter-spacing: -0.012em;
 }
 .lbl-tag.green{
     background: #54d154;
@@ -146,11 +159,11 @@ input[name=message], textarea[name=message], input[type=search]{
 }
 input[type=search]{
     color: black;
-    background: rgba(255,255,255,.8) url(/images/icons/search.png) right 5px center no-repeat;
+    background: rgba(255,255,255,.8) url(/images/icons/search.png) calc(100% - 9px) 6px no-repeat;
     width: 177px;
     height: 27px;
     border-radius: 14px;
-    padding: 0px 30px 0px 5px;
+    padding: 0px 25px 0px 12rem;
 }
 input[type=search]::-webkit-input-placeholder { color: #111; font-weight: 300; }
 input[type=search]::-moz-placeholder { color: #111; font-weight: 300; }
@@ -161,11 +174,11 @@ input[name=message], textarea[name=message]{
     margin-bottom: 2px;
 }
 input[name=message]{
-    padding: 0px 10px;
+    padding: 0px 14rem;
     height: 32px;
 }
 textarea[name=message]{
-    padding: 5px 10px;
+    padding: 5rem 14rem;
     height: 131px;
 }
 input[name=message]::-webkit-input-placeholder, textarea[name=message]::-webkit-input-placeholder { color: #777; }
@@ -174,16 +187,20 @@ input[name=message]:-ms-input-placeholder, textarea[name=message]:-ms-input-plac
 
 /*CITES*/
 blockquote{
-    max-width: 800px;
+    padding: 50rem 10px 0px 10px;
 }
 blockquote q{
     color: #444;
     text-align: center;
+    margin-bottom: 14rem;
+    line-height: 19px;
+    display: inline-block;
+    max-width: 500px;
 }
 blockquote figure{
     border: 2px solid #e1e1e1;
     border-radius: 50%;
-    margin-right: 10rem;
+    margin: 0px 7rem 0px -1rem;
 }
 blockquote cite{
     font-style: normal;
@@ -203,10 +220,10 @@ blockquote cite strong{
     overflow: hidden;
     border: 1px solid #2b9b2b;
     background: white;
-    margin-bottom: 50rem;
+    margin-bottom: 58rem;
 }
 .tablist > a{
-    height: 33px;
+    height: 31px;
     padding: 0px 18rem;
     color: #2b9b2b;
     border-left: 1px solid #2b9b2b;

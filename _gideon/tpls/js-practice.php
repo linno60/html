@@ -49,26 +49,16 @@
 //            alert(string3);
 
 ///////////////////////////////////////////////////////////////////
-            function Calculator(){
+            var a = 2,
+                    b = 3;
 
-                this.read = function () {
-                    this.a = +prompt('a?', 0);
-                    this.b = +prompt('b?', 0);
-                };
-                this.sum = function () {
-                    return this.a + this.b;
-                };
-                this.mul = function () {
-                    return this.a * this.b;
-                };
-            }
+// вместо обращения к a,b через eval
+// будем принимать их как аргументы динамически созданной функции
+            var mul = new Function('a, b', ' return a * b;');
 
-            var calculator = new Calculator();
-            calculator.read();
-            alert("Сумма=" + calculator.sum());
-            alert("Произведение=" + calculator.mul());</script>
-    </script>
-    <script src="/js/jquery/jquery-2.1.4.min.js"></script>
-    <script src="/js/index.js"></script>
-</body>
+            alert(mul(a, b)); // 6
+        </script>
+        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
 </html>

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 940;
+            var LAYOUT_WIDTH = 1130;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -23,17 +23,19 @@
         <div>
             <header>
                 <div class="lwrap" data-flex="vaxis">
-                    <div class="navigation" data-flex="axis">
+                    <div class="navigation" data-flex="between -start">
                         <nav class="links-nav" data-flex="w">
                             <a href="#" class="active">Home</a>
                             <a href="#">What we do?</a>
                             <a href="#">Testimonial</a>
                             <a href="#">Contact Us</a>
                         </nav>
-                        <a href="/" title="Return to the homepage" id="logo">
-                            <img src="/images/logo.png" width="62" height="19" alt="Switch">
-                        </a>             
-                        <form action="#" method="post">
+                        <div data-flex="center">
+                            <a href="/" title="Return to the homepage" id="logo">
+                                <img src="/images/logo.png" width="62" height="19" alt="Switch">
+                            </a> 
+                        </div>           
+                        <form action="#" method="post" data-flex="end">
                             <input type="search" placeholder="Search...">
                         </form>
                     </div>
@@ -51,23 +53,23 @@
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
-                    <div data-flex="stripe w" data-childs="col -center">
+                    <div class="about-items" data-flex="stripe w" data-childs="col -center">
                         <article>
                             <span class="lbl lbl-default"><i class="icon-camera"></i></span>
                             <h3>Lorem Ipsum</h3>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                            <p>This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
                             <a href="#" class="btn btn-default">Learn more</a>
                         </article>
                         <article>
-                            <span class="lbl lbl-default"><i class="icon-camera"></i></span>
+                            <span class="lbl lbl-default"><i class="icon-speed"></i></span>
                             <h3>Lorem Ipsum</h3>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                            <p>This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
                             <a href="#" class="btn btn-default">Learn more</a>
                         </article>
                         <article>
-                            <span class="lbl lbl-default"><i class="icon-camera"></i></span>
+                            <span class="lbl lbl-default"><i class="icon-folder"></i></span>
                             <h3>Lorem Ipsum</h3>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+                            <p>This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
                             <a href="#" class="btn btn-default">Learn more</a>
                         </article>
                     </div>
@@ -113,15 +115,92 @@
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
+                    <div class='slider1' data-flex="axis">
+                        <input name="anchor1" id='slide1-0' type="radio">
+                        <input name="anchor1" id='slide1-1' type="radio">
+                        <input name="anchor1" id='slide1-2' type="radio">
+                        <input name="anchor1" id='play1' type="radio" checked>
+                        <div class='arrowprev'>
+                            <label class='num0' for='slide11-0'></label>
+                            <label class='num1' for='slide11-1'></label>
+                            <label class='num2' for='slide11-2'></label>
+                        </div>
+                        <ul data-childs="center -center">
+                            <li>
+                                <blockquote data-flex="col -center">
+                                    <q>“Awalnya saya tidak menderita penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”</q>
+                                    <div data-flex="-center">
+                                        <figure><img src="/images/herp.png" width="42" height="42" alt=""></figure>
+                                        <cite>
+                                            <span>Mr. Herp</span>
+                                            <strong>CEO of Meme, Inc.</strong>
+                                        </cite>        
+                                    </div>
+                                </blockquote>
+                            </li>
+                            <li class='num0'>
+                                <blockquote data-flex="col -center">
+                                    <q>“Awalnya saya tidak menderita penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”</q>
+                                    <div data-flex="-center">
+                                        <figure><img src="/images/herp.png" width="42" height="42" alt=""></figure>
+                                        <cite>
+                                            <span>Mr. Herp</span>
+                                            <strong>CEO of Meme, Inc.</strong>
+                                        </cite>        
+                                    </div>
+                                </blockquote>
+                            </li>
+                            <li class='num1'>
+                                <blockquote data-flex="col -center">
+                                    <q>“Awalnya saya tidak menderita penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”</q>
+                                    <div data-flex="-center">
+                                        <figure><img src="/images/herp.png" width="42" height="42" alt=""></figure>
+                                        <cite>
+                                            <span>Mr. Herp</span>
+                                            <strong>CEO of Meme, Inc.</strong>
+                                        </cite>        
+                                    </div>
+                                </blockquote>
+                            </li>
+                            <li class='num2'>
+                                <blockquote data-flex="col -center">
+                                    <q>“Awalnya saya tidak menderita penyakit apapun,<br> namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”</q>
+                                    <div data-flex="-center">
+                                        <figure><img src="/images/herp.png" width="42" height="42" alt=""></figure>
+                                        <cite>
+                                            <span>Mr. Herp</span>
+                                            <strong>CEO of Meme, Inc.</strong>
+                                        </cite>        
+                                    </div>
+                                </blockquote>
+                            </li>
+                        </ul>                        
+                        <div class='arrownext'>
+                            <label class='num0' for='slide11-0'></label>
+                            <label class='num1' for='slide11-1'></label>
+                            <label class='num2' for='slide11-2'></label>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="clients">
-                <div class="lwrap">
+                <div class="lwrap" data-flex="col -center">
                     <hgroup>
                         <h2>our happy client</h2>
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
+                    <div class="links-brands" data-flex="axis w">
+                        <a href="#"><i class="icon-google"></i></a>
+                        <a href="#"><i class="icon-yahoo"></i></a>
+                        <a href="#"><i class="icon-ms"></i></a>
+                        <a href="#"><i class="icon-intel"></i></a>
+                        <a href="#"><i class="icon-qualcomm"></i></a>
+                        <a href="#"><i class="icon-cisco"></i></a>
+                        <a href="#"><i class="icon-apple"></i></a>
+                        <a href="#"><i class="icon-asus"></i></a>
+                    </div>
+                    <a href="#" class="btn btn-more">See all client</a>
                 </div>
             </section>
             <section class="team">
@@ -131,11 +210,151 @@
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
+                    <div class="team-members" data-flex="stripe w" data-childs="col -center">
+                        <div>
+                            <figure><img src="/images/photo1.png" width="124" height="124" alt=""></figure>
+                            <hr>
+                            <span>Krisna Wijaya</span>
+                            <div class="links-social" data-flex="center -center w">
+                                <a href="#"><i class="icon-db"></i></a>
+                                <a href="#"><i class="icon-be"></i></a>
+                                <a href="#"><i class="icon-tw"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <figure><img src="/images/photo2.png" width="124" height="124" alt=""></figure>
+                            <hr>
+                            <span>Gabriel Yoshua</span>
+                            <div class="links-social" data-flex="center -center w">
+                                <a href="#"><i class="icon-db"></i></a>
+                                <a href="#"><i class="icon-be"></i></a>
+                                <a href="#"><i class="icon-tw"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <figure><img src="/images/photo3.png" width="124" height="124" alt=""></figure>
+                            <hr>
+                            <span>Adik N.K.L.</span>
+                            <div class="links-social" data-flex="center -center w">
+                                <a href="#"><i class="icon-db"></i></a>
+                                <a href="#"><i class="icon-be"></i></a>
+                                <a href="#"><i class="icon-tw"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <figure><img src="/images/photo4.png" width="124" height="124" alt=""></figure>
+                            <hr>
+                            <span>Zan D.J</span>
+                            <div class="links-social" data-flex="center -center w">
+                                <a href="#"><i class="icon-db"></i></a>
+                                <a href="#"><i class="icon-be"></i></a>
+                                <a href="#"><i class="icon-tw"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <figure><img src="/images/photo5.png" width="124" height="124" alt=""></figure>
+                            <hr>
+                            <span>Faizal Febri</span>
+                            <div class="links-social" data-flex="center -center w">
+                                <a href="#"><i class="icon-db"></i></a>
+                                <a href="#"><i class="icon-be"></i></a>
+                                <a href="#"><i class="icon-tw"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="join">
+                <div class="lwrap" data-flex="center">
+                    <a href="#" class="btn btn-default md">work with us</a>
                 </div>
             </section>
         </div>
         <footer>
-
+            <section class="lwrap" data-flex="stripe w">
+                <div data-flex="col -center">
+                    <hgroup>
+                        <h4>about us</h4>
+                        <hr>
+                    </hgroup>
+                    <p>This is Photoshop's version &nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis biben&shy;dum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                    <div class="links-social" data-flex="center -center w">
+                        <a href="#"><i class="icon-db"></i></a>
+                        <a href="#"><i class="icon-be"></i></a>
+                        <a href="#"><i class="icon-tw"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <hgroup>
+                        <h4>recent posts</h4>
+                        <hr>
+                    </hgroup>
+                    <div>
+                        <article class="clearfix">
+                            <figure><img src="/images/recent1.png" width="53" height="53" alt=""></figure>
+                            <h5><a href="#">Lorem Ipsum Dolor Sit Amet.</a></h5>
+                            <span class="lbl lbl-tag green">magazine</span>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/recent2.png" width="53" height="53" alt=""></figure>
+                            <h5><a href="#">Lorem Ipsum Dolor Sit Amet.</a></h5>
+                            <span class="lbl lbl-tag yellow">ui design</span>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/recent3.png" width="53" height="53" alt=""></figure>
+                            <h5><a href="#">Lorem Ipsum Dolor Sit Amet.</a></h5>
+                            <span class="lbl lbl-tag blue">photography</span>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/recent4.png" width="53" height="53" alt=""></figure>
+                            <h5><a href="#">Lorem Ipsum Dolor Sit Amet.</a></h5>
+                            <span class="lbl lbl-tag red">book</span>
+                        </article>
+                        <article class="clearfix">
+                            <figure><img src="/images/recent5.png" width="53" height="53" alt=""></figure>
+                            <h5><a href="#">Lorem Ipsum Dolor Sit Amet.</a></h5>
+                            <span class="lbl lbl-tag yellow">ui design</span>
+                        </article>
+                    </div>
+                </div>
+                <div>
+                    <hgroup>
+                        <h4>contact us</h4>
+                        <hr>
+                    </hgroup>
+                    <div class="contacts" data-flex="col -center">
+                        <address>10044 West 23th Street, Suite 721<br> New York NY 10010</address>
+                        <span>Email: <a href="mailto:Username@email.com">Username@email.com</a></span>
+                        <span>Phone: +1 (0) 123 4567 890</span>
+                        <span>Fax: +1 (0) 321 4567 890</span>
+                    </div>
+                    <form action="#" method="post" data-flex="col">
+                        <input type="text" name="message" placeholder="Your Name...">
+                        <input type="email" name="message" placeholder="Your Email...">
+                        <textarea name="message" placeholder="Your Mesage..."></textarea>
+                        <button><span class="btn btn-submit">send</span></button>
+                    </form>
+                </div>
+            </section>
+            <section class="mass-media">
+                <div class="lwrap">
+                    <hgroup>
+                        <h2>as seen on</h2>
+                        <hr>
+                    </hgroup>
+                    <div class="links-brands" data-flex="axis w">
+                        <a href="#"><i class="icon-cnn"></i></a>
+                        <a href="#"><i class="icon-tc"></i></a>
+                        <a href="#"><i class="icon-bbc"></i></a>
+                        <a href="#"><i class="icon-newyorktimes"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="copyright">
+                <div class="lwrap">
+                    <span>made with <i class="icon-heart"></i> by Krisna :)</span>
+                </div>
+            </section>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
