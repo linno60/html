@@ -1,0 +1,33 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=2fbbf776-a362-4f6c-abca-30aa18dcf2e2");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("/fonts/fonts.com/eba438b3-9ab9-48ba-b1c5-610f83b38303.woff2") format("woff2"), url("/fonts/fonts.com/acfb7490-30f6-4bf4-a1b8-70ff9172d209.woff") format("woff");
+	font-weight: 700;
+}
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/fonts.com/f3750fd8-e60c-4354-9fd6-584d74d1d19e.woff2") format("woff2"), url("/fonts/fonts.com/4823eae2-791d-4382-8ef0-5916b5b1623f.woff") format("woff");
+	font-weight: 700;
+}
+/* ICONS */
+.icon-box {width: 32px; height: 29px; background: url('/images/icons/box.png');}
+.icon-fb {width: 16px; height: 16px; background: url('/images/icons/fb.png');}
+.icon-fl {width: 16px; height: 16px; background: url('/images/icons/fl.png');}
+.icon-in {width: 16px; height: 16px; background: url('/images/icons/in.png');}
+.icon-lamp {width: 23px; height: 31px; background: url('/images/icons/lamp.png');}
+.icon-mail {width: 16px; height: 16px; background: url('/images/icons/mail.png');}
+.icon-monitor {width: 63px; height: 62px; background: url('/images/icons/monitor.png');}
+.icon-paint {width: 30px; height: 28px; background: url('/images/icons/paint.png');}
+.icon-pen {width: 32px; height: 30px; background: url('/images/icons/pen.png');}
+.icon-rss {width: 16px; height: 16px; background: url('/images/icons/rss.png');}
+.icon-tw {width: 16px; height: 16px; background: url('/images/icons/tw.png');}
+.icon-drop {width: 14px; height: 10px; background: url('/images/icons/drop.png');}

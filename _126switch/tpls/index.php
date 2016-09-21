@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1130;
+            var LAYOUT_WIDTH = 1132;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -23,8 +23,8 @@
         <div>
             <header>
                 <div class="lwrap" data-flex="vaxis">
-                    <div class="navigation" data-flex="between -start">
-                        <nav class="links-nav" data-flex="w">
+                    <div class="navigation" data-flex="between -start" data-flex-480="vstripe">
+                        <nav class="links-nav" data-flex="w" data-flex-480="around w">
                             <a href="#" class="active">Home</a>
                             <a href="#">What we do?</a>
                             <a href="#">Testimonial</a>
@@ -35,7 +35,7 @@
                                 <img src="/images/logo.png" width="62" height="19" alt="Switch">
                             </a> 
                         </div>           
-                        <form action="#" method="post" data-flex="end">
+                        <form action="#" method="post" data-flex="end" data-flex-480="center">
                             <input type="search" placeholder="Search...">
                         </form>
                     </div>
@@ -43,17 +43,18 @@
                         <h1>Art is Eternal Happiness</h1>
                         <a href="#" class="btn btn-default lg">work with us</a>
                     </div>
-                    <a href="#" class="btn btn-scroll">scroll down</a>
+                    <a href="#top" class="btn btn-scroll">scroll down</a>
                 </div>
-            </header>
+            </header>            
             <section class="about">
-                <div class="lwrap">
-                    <hgroup>
+                <a href="#" id="top"></a>
+                <div class="lwrap">                    
+                    <hgroup>                        
                         <h2>what we do</h2>
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
-                    <div class="about-items" data-flex="stripe w" data-childs="col -center">
+                    <div class="about-items" data-flex="stripe w" data-flex-480="vstripe" data-childs="col -center">
                         <article>
                             <span class="lbl lbl-default"><i class="icon-camera"></i></span>
                             <h3>Lorem Ipsum</h3>
@@ -75,7 +76,7 @@
                     </div>
                 </div>
             </section>
-            <section class="works">
+            <section class="works">                
                 <div class="lwrap">
                     <hgroup>
                         <h2>our latest work</h2>
@@ -98,8 +99,8 @@
                                 <figure><img src="/images/img6.png" width="160" height="160" alt=""></figure>
                                 <figure><img src="/images/img7.png" width="160" height="160" alt=""></figure>
                                 <figure><img src="/images/img8.png" width="160" height="160" alt=""></figure>
-                                <figure><img src="/images/img9.png" width="160" height="160" alt=""></figure>
-                                <figure><img src="/images/img10.png" width="160" height="160" alt=""></figure>
+                                <figure class="hidden-sm"><img src="/images/img9.png" width="160" height="160" alt=""></figure>
+                                <figure class="hidden"><img src="/images/img10.png" width="160" height="160" alt=""></figure>
                             </div>
                             <div id="tab2" class="tabpanel">Tab number 2</div>
                             <div id="tab3" class="tabpanel">Tab number 3</div>
@@ -190,15 +191,15 @@
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
-                    <div class="links-brands" data-flex="axis w">
-                        <a href="#"><i class="icon-google"></i></a>
-                        <a href="#"><i class="icon-yahoo"></i></a>
-                        <a href="#"><i class="icon-ms"></i></a>
-                        <a href="#"><i class="icon-intel"></i></a>
-                        <a href="#"><i class="icon-qualcomm"></i></a>
-                        <a href="#"><i class="icon-cisco"></i></a>
-                        <a href="#"><i class="icon-apple"></i></a>
-                        <a href="#"><i class="icon-asus"></i></a>
+                    <div class="links-brands" data-flex="axis w" data-flex-960="around -center w">
+                        <a href="#"><img src="/images/google.png" width="143" height="49" alt=""></a>
+                        <a href="#"><img src="/images/yahoo.png" width="140" height="27" alt=""></a>
+                        <a href="#"><img src="/images/ms.png" width="144" height="31" alt=""></a>
+                        <a href="#"><img src="/images/intel.png" width="103" height="68" alt=""></a>
+                        <a href="#"><img src="/images/qualcomm.png" width="151" height="34" alt=""></a>
+                        <a href="#"><img src="/images/cisco.png" width="125" height="65" alt=""></a>
+                        <a href="#"><img src="/images/apple.png" width="52" height="63" alt=""></a>
+                        <a href="#"><img src="/images/asus.png" width="116" height="21" alt=""></a>
                     </div>
                     <a href="#" class="btn btn-more">See all client</a>
                 </div>
@@ -210,7 +211,7 @@
                         <hr class="hr">
                         <h6>Lorem ipsum dolor sit amet. <span>Proin gravida nibh vel velit auctor aliquet.</span></h6>
                     </hgroup>
-                    <div class="team-members" data-flex="stripe w" data-childs="col -center">
+                    <div class="team-members" data-flex="stripe w" data-flex-640="around w" data-childs="vaxis">
                         <div>
                             <figure><img src="/images/photo1.png" width="124" height="124" alt=""></figure>
                             <hr>
@@ -271,7 +272,7 @@
             </section>
         </div>
         <footer>
-            <section class="lwrap" data-flex="stripe w">
+            <section class="lwrap" data-flex="stripe w" data-flex-480="vstripe">
                 <div data-flex="col -center">
                     <hgroup>
                         <h4>about us</h4>
@@ -342,11 +343,11 @@
                         <h2>as seen on</h2>
                         <hr>
                     </hgroup>
-                    <div class="links-brands" data-flex="axis w">
-                        <a href="#"><i class="icon-cnn"></i></a>
-                        <a href="#"><i class="icon-tc"></i></a>
-                        <a href="#"><i class="icon-bbc"></i></a>
-                        <a href="#"><i class="icon-newyorktimes"></i></a>
+                    <div class="links-brands" data-flex="axis w" data-flex-960="around -center w">
+                        <a href="#"><img src="/images/cnn.png" width="97" height="47" alt=""></a>
+                        <a href="#"><img src="/images/tc.png" width="92" height="47" alt=""></a>
+                        <a href="#"><img src="/images/bbc.png" width="164" height="47" alt=""></a>
+                        <a href="#"><img src="/images/newyorktimes.png" width="335" height="45" alt=""></a>
                     </div>
                 </div>
             </section>

@@ -1,0 +1,150 @@
+body{
+    font-family: Myriad Pro;
+    font-size: 13px;
+}
+
+/*BUTTONS*/
+.btn, .links-nav a{
+    font-weight: 700;
+    text-align: center;    
+}
+.btn{
+    border-radius: 2px;
+    padding: 0px 5px;
+}
+.btn.lg{
+    font-family: MyriadPro;   
+}
+.btn-more, .btn.lg{
+    text-transform: uppercase;
+}
+.btn.sm{
+    font-variant: small-caps;
+    font-size: 14px;
+}
+.btn-default{
+    color: white;
+}
+.btn-default.lg{    
+    min-width: 198rem;
+    height: 54px;
+    background: linear-gradient(#4c5cb3, #011581);
+    border: 1px solid #011581;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.25);
+    text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.31);
+    font-size: 24px;
+}
+.btn-default.sm{
+    min-width: 82rem;
+    height: 27px;
+    background: linear-gradient(#4758b0, #0e218a);
+    border: 1px solid #091c86;
+    box-shadow: inset 0.5px 0.9px 0 rgba(255, 255, 255, 0.2);   
+}
+.btn-alt{
+    background: linear-gradient(white, #e8e5d0);
+    border: 1px solid #060c2e;
+    box-shadow: inset 0.5px 0.9px 0 rgba(255, 255, 255, 0.2);
+    color: #0d1a62;    
+}
+.btn-alt.lg{
+    min-width: 93rem;
+    height: 32px;    
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);    
+}
+.btn-alt.sm{
+    min-width: 82rem;
+    height: 27px;    
+}
+.btn-more{
+    color: #8c8872;
+    font-size: 9px;
+    min-width: 53rem;
+    height: 22px;
+    background: linear-gradient(#f9f8f2, #e9e7d8);
+    border: 1px solid #b7b49f;
+    box-shadow: 1px 1.7px 1px rgba(0, 0, 0, 0.21), inset 0.5px 0.9px 0 white;
+}
+
+/*LINKS*/
+.links-footer a{
+    text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 12px;
+    margin: 10rem;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus, .links-social a:active, .links-social a:hover, .links-social a:focus{
+    text-decoration: underline;
+}
+.links-nav a{
+    text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.15);
+    color: #011581;
+    font-size: 11px;
+    text-transform: uppercase;
+    min-width: 71rem;
+    height: 29px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 0px 15px;
+    border: 1px solid transparent;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    background: linear-gradient(#4758b2, #011581);
+    border: 1px solid #011581;
+    box-shadow: inset 0.5px 0.9px 0 rgba(255, 255, 255, 0.36);
+    text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+    color: #f9f8ef;
+}
+.links-nav a.dropdown-link{    
+    background: url(/images/icons/drop.png)calc(100% - 2px) 10px no-repeat;
+}
+.links-nav a.dropdown-link.active, .links-nav a.dropdown-link:active, .links-nav a.dropdown-link:hover, .links-nav a.dropdown-link:focus{    
+    background: url(/images/icons/drop-hover.png)calc(100% - 2px) 10px no-repeat, linear-gradient(#4758b2, #011581);
+}
+.links-dropdown{
+    background: #f6f4e7;
+    box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 white;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+.links-dropdown li{
+    padding: 5rem;
+}
+.links-dropdown li:not(:last-child){
+    border-bottom: 1px dotted #0e218a;
+}
+.links-dropdown li a{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
+    color: #0e218a;
+    font-size: 11px;
+}
+.links-dropdown li a:active, .links-dropdown li a:hover, .links-dropdown li a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    color: white;
+    margin-bottom: 10rem;
+}
+.links-social a i{
+    margin: 1px 5rem 0px 0px;
+}
+
+/*FORMS*/
+input[name=contact], textarea[name=contact]{
+    background: #1f3589;
+    border: 1px solid #0a1347;
+    box-shadow: inset 0.5px 0.9px 3px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 10px;
+}
+input[name=contact]{
+    width: 135px;
+    height: 26px;    
+}
+textarea[name=contact]{
+    width: 194px;
+    height: 96px;
+}
+input[name=contact]::-webkit-input-placeholder, textarea[name=contact]::-webkit-input-placeholder { color: #647bd0; }
+input[name=contact]::-moz-placeholder, textarea[name=contact]::-moz-placeholder { color: #647bd0; }
+input[name=contact]:-ms-input-placeholder, textarea[name=contact]:-ms-input-placeholder { color: #647bd0; }

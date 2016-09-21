@@ -11,7 +11,7 @@ figure > img, a > img{
 /*LINKS*/
 .links-nav a{
     color: white;
-    margin: 0px 20.5rem 3px 0px;
+    margin: 0px 20.5rem 3rem 0px;
     border-top: 5px solid transparent;
     line-height: 23px;
     display: inline-block;
@@ -24,9 +24,6 @@ figure > img, a > img{
 }
 .links-nav a.active{
     font-weight: 700;
-}
-.links-brands{
-    width: 100%;
 }
 .links-brands a{
     margin: 24rem;
@@ -65,6 +62,7 @@ figure > img, a > img{
     font-weight: 700;
     border-radius: 15px;
     padding: 0px 5px;
+    line-height: 14px;
 }
 .btn-default.md{
     min-width: 175rem;    
@@ -121,12 +119,12 @@ figure > img, a > img{
 
 /*LABELS*/
 .lbl-default{
+    min-width: 100px;
+    min-height: 100px;
     width: 142rem;
     height: 142rem;
-    min-width: 97px;
-    min-height: 84px;
     background: #e1f3e1;
-    border-radius: 30px;
+    border-radius: 30rem;
 }
 .lbl-tag{
     height: 18px;
@@ -160,10 +158,11 @@ input[name=message], textarea[name=message], input[type=search]{
 input[type=search]{
     color: black;
     background: rgba(255,255,255,.8) url(/images/icons/search.png) calc(100% - 9px) 6px no-repeat;
-    width: 177px;
+    width: 177rem;
+    min-width: 140px;
     height: 27px;
     border-radius: 14px;
-    padding: 0px 25px 0px 12rem;
+    padding: 0px 25px 0px 12px;
 }
 input[type=search]::-webkit-input-placeholder { color: #111; font-weight: 300; }
 input[type=search]::-moz-placeholder { color: #111; font-weight: 300; }

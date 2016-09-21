@@ -1,0 +1,29 @@
+<div class="links-footer" data-flex="end w">
+    <a href="#">About</a>
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">Contact</a>
+</div>
+<nav class="links-nav" data-flex="end w" data-childs="center -center">
+    <a href="#" class="active">home</a>
+    <a href="#" class="dropdown-link">services</a>
+    <a href="#">portfolio</a>
+    <a href="#">blog</a>
+    <a href="#">about us</a>
+    <a href="#">contact</a>
+</nav>
+<ul class="links-dropdown">
+    <li><a href="#">&raquo; Web Design</a></li>
+    <li><a href="#">&raquo; Graphic Design</a></li>
+    <li><a href="#">&raquo; Wordpress Development</a></li>
+    <li><a href="#">&raquo; SEO Consulting</a></li>
+    <li><a href="#">&raquo; Identity</a></li>
+</ul>
+<div class="links-social" data-childs data-flex="col -start">
+    <a href="#"><i class="icon-fb"></i>Like me on Facebook</a>
+    <a href="#"><i class="icon-tw"></i>Follow me on Twitter</a>
+    <a href="#"><i class="icon-rss"></i>Subscribe to my RSS Feeds</a>
+    <a href="#"><i class="icon-mail"></i>Get in touch by Mail</a>
+    <a href="#"><i class="icon-fl"></i>My shots on Flickr</a>
+    <a href="#"><i class="icon-in"></i>My LinkedIn profile</a>
+</div>

@@ -9,6 +9,58 @@
     <body>
         <div>JS&#x2702;</div>
         <script>
+            function pow(x, n) {
+                var result = x;
+
+                for (var i = 1; i < n; i++) {
+                    result *= x;
+                }
+
+                return result;
+            }
+
+            var x = prompt("x?", '');
+            var n = prompt("n?", '');
+
+            if (n <= 1) {
+                alert('Степень ' + n +
+                        'не поддерживается, введите целую степень, большую 1'
+                        );
+            } else {
+                alert(pow(x, n));
+            }
+        </script>
+        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
 //            function getDecimal(num) {
 //                var str = "" + num;
 //                var zeroPos = str.indexOf(".");
@@ -48,17 +100,5 @@
 //            var string3 = string.slice(-4);
 //            alert(string3);
 
-///////////////////////////////////////////////////////////////////
-            var a = 2,
-                    b = 3;
-
-// вместо обращения к a,b через eval
-// будем принимать их как аргументы динамически созданной функции
-            var mul = new Function('a, b', ' return a * b;');
-
-            alert(mul(a, b)); // 6
-        </script>
-        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
-        <script src="/js/index.js"></script>
-    </body>
-</html>
+///////////////////////////////////////////////////////////////////  
+</script>

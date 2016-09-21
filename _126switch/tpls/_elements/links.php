@@ -4,15 +4,15 @@
     <a href="#">Testimonial</a>
     <a href="#">Contact Us</a>
 </nav>
-<div class="links-brands" data-flex="around -center w">
-    <a href="#"><i class="icon-google"></i></a>
-    <a href="#"><i class="icon-yahoo"></i></a>
-    <a href="#"><i class="icon-ms"></i></a>
-    <a href="#"><i class="icon-intel"></i></a>
-    <a href="#"><i class="icon-qualcomm"></i></a>
-    <a href="#"><i class="icon-cisco"></i></a>
-    <a href="#"><i class="icon-apple"></i></a>
-    <a href="#"><i class="icon-asus"></i></a>
+<div class="links-brands" data-flex="axis w">
+    <a href="#"><img src="/images/google.png" width="143" height="49" alt=""></a>
+    <a href="#"><img src="/images/yahoo.png" width="140" height="27" alt=""></a>
+    <a href="#"><img src="/images/ms.png" width="144" height="31" alt=""></a>
+    <a href="#"><img src="/images/intel.png" width="103" height="68" alt=""></a>
+    <a href="#"><img src="/images/qualcomm.png" width="151" height="34" alt=""></a>
+    <a href="#"><img src="/images/cisco.png" width="125" height="65" alt=""></a>
+    <a href="#"><img src="/images/apple.png" width="52" height="63" alt=""></a>
+    <a href="#"><img src="/images/asus.png" width="116" height="21" alt=""></a>
 </div>
 <div class="links-social" data-flex="center -center w">
     <a href="#"><i class="icon-db"></i></a>

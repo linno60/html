@@ -41,7 +41,7 @@ header form{
     padding: 5rem 2rem 0px 0px;
 }
 #logo{
-    margin: 6rem;
+    margin: 6px;
     display: inline-block;
 }
 .hdr-group{
@@ -58,7 +58,7 @@ header form{
     letter-spacing: 0.005em;
     color: white;
     font-family: Montserrat;
-    font-size: 55px;
+    font-size: 55rem;
     font-weight: 700;
     text-align: center;
     margin: 22rem 0px 27rem 0px;
@@ -72,7 +72,7 @@ header > .lwrap{
     text-align: center;
     max-width: 1066px;
 }
-.about article{
+.about-items > article{
     width: 27%;
     margin-bottom: 10px;
 }
@@ -266,7 +266,7 @@ header > .lwrap{
     padding-top: 32rem;
 }
 .clients .links-brands{
-    padding: 41rem 0px 20rem 0px;
+    padding: 41rem 0px 30rem 0px;
 }
 
 /*TEAM*/
@@ -277,15 +277,17 @@ header > .lwrap{
     padding-top: 32rem;
 }
 .team-members{
-    padding: 48rem 0px 53rem 0px;
+    padding: 38rem 0px 54rem 0px;
 }
 .team-members > div{
     width: 17%;
-    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 126px;
 }
 .team-members > div > span{
     color: white;
     margin-bottom: 9rem;
+    text-align: center;
 }
 .team-members > div > hr{
     width: 2px;
@@ -316,7 +318,7 @@ footer > .lwrap > div{
     margin-bottom: 20px;
 }
 .mass-media > .lwrap{
-    padding-bottom: 6rem;
+    padding-bottom: 11rem;
     max-width: 1040px;
 }
 .copyright > .lwrap{
@@ -364,10 +366,9 @@ footer > .lwrap > div{
 footer p{
     color: #ccc;
     text-align: center;
-    margin: 8rem 0px 29rem 0px;
+    padding: 8rem 1rem 29rem 1rem;
     line-height: 19px;
-    text-indent: 34px;
-    max-width: 320px;
+    text-indent: 34rem;
     width: 100%;
 }
 footer article figure{
@@ -375,7 +376,7 @@ footer article figure{
     margin-right: 7rem;
 }
 footer article{
-    padding: 4rem 0px 8rem 17rem;
+    padding: 4rem 0px 8px 17rem;
 }
 footer article h5{
     font-family: Montserrat;
@@ -409,4 +410,22 @@ footer > .lwrap hgroup h4{
     font-size: 17px;
     font-weight: 300;
     letter-spacing: 0.14em;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 960px) {
+    footer > .lwrap > div, .about-items > article{width:30%;}    
+}
+@media screen and (max-width: 640px) {
+    .works .tabs .tabpanel figure {width: 31%;}
+    .works .tabs .tabpanel figure.hidden {display: none;}
+    footer > .lwrap > div:first-child{width: 100%;}
+    footer > .lwrap > div{width: 48%;}
+    .hdr-group h1{font-size: 31px;}
+}
+@media screen and (max-width: 480px) {
+    .works .tabs .tabpanel figure {width: 48%;}
+    .works .tabs .tabpanel figure.hidden-sm {display: none;}
+    .links-nav a{margin:0px 1px 3rem 1px;}
+    .clients .links-brands a{max-width: calc(50% - 48rem);}
 }
