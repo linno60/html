@@ -10,6 +10,10 @@ Imaging with any questions regarding Web Fonts:  http://www.fonts.com
 */
 @font-face {
     font-family: "Myriad Pro";
+    src: url("/fonts/fonts.com/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("/fonts/fonts.com/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff");	
+}
+@font-face {
+    font-family: "Myriad Pro";
     src: url("/fonts/fonts.com/eba438b3-9ab9-48ba-b1c5-610f83b38303.woff2") format("woff2"), url("/fonts/fonts.com/acfb7490-30f6-4bf4-a1b8-70ff9172d209.woff") format("woff");
 	font-weight: 700;
 }

@@ -1,0 +1,157 @@
+/*COMMON*/
+body{
+    background: #f7f5e9;
+}
+body > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.lwrap{
+    max-width: 996px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    height: 56px;
+    background: #f0ecd5;    
+}
+header > .lwrap{
+    background: radial-gradient(500rem at center, #fbfaf4, transparent);
+}
+#logo{
+    position: relative;
+    margin-bottom: -7px;
+}
+
+/*BANNER*/
+.banner{
+    background: white;
+}
+.about{
+    background: url("/images/triangle.png");
+    margin-left: -120rem;
+    padding: 20rem 0px 30px 150rem;
+}
+.about h1{
+    text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+    color: #0e218a;
+    font-family: MyriadPro;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 10rem;
+}
+.about p{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
+    color: #777;
+    margin-bottom: 10rem;
+    line-height: 16px;
+}
+
+/*SLIDERS*/
+.latest-posts{
+    position: relative;
+    width: 49%;
+    padding-top: 40px;
+    border-radius: 4px;
+    background: white;
+    margin: -20rem 0px -20rem 0px;
+    box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 white;
+}
+.latest-posts figure{
+    float: left;
+    background: linear-gradient(180deg, white 0%, #eee 100%);
+    border: 1px solid #d7d7d7;
+    box-shadow: inset 0.5px 0.9px 0 white;
+    border-radius: 3px;
+    padding: 8rem;
+    margin-right: 22rem;
+}
+.latest-posts article{
+    padding: 20rem 20rem 20rem 20rem;
+}
+.latest-posts article:not(:first-child){
+    background:url("/images/dividerlg.png")center top no-repeat;
+}
+.latest-posts article h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+}
+.latest-posts article h3 a{
+    color: #26389a;
+}
+.latest-posts article h3 a:active, .latest-posts article h3 a:hover, .latest-posts article h3 a:focus{
+    text-decoration: underline;
+}
+.latest-posts article p{
+    color: #777;
+    line-height: 18px;
+    margin-bottom: 10rem;
+}
+.details{
+    color: #c0bb9a;
+    font-size: 9px;
+    padding-bottom: 30rem;
+    background:url("/images/dividersm.png")center bottom no-repeat;
+}
+
+/*FOOTER*/
+footer{
+    background: linear-gradient(#0d1a62, #0d1a62 1px, #565f91 1px, #565f91 2px, #0d1a62 2px);
+    flex-shrink: 0;
+}
+.footer{
+    padding-top: 80rem;
+    background: radial-gradient(500rem at center, #12258b, transparent);
+}
+.footer > section{
+    flex-grow: 1;    
+}
+.footer > section:nth-child(1){
+    flex-basis: 40%;
+}
+.footer > section:nth-child(2){
+    flex-basis: 20%;
+}
+.footer > section:nth-child(3){
+    flex-basis: 40%;
+}
+.footer h5{
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30rem;
+    font-family: MyriadPro;
+}
+.footer p{
+    color: white;
+    line-height: 18px;
+    margin-bottom: 10rem;
+}
+.footer form input:not(:last-child){
+    margin-bottom: 9px;
+}
+.footer form fieldset{
+    flex-basis: 48%;
+}
+.footer form textarea{
+    flex-basis: 50%;    
+}
+.footer form button{
+    margin-top: 20rem;
+}
+.copyright{
+    background: linear-gradient(90deg, transparent, #32489e 5%, #32489e, #32489e 95%, transparent) center top / 100% 1px no-repeat,
+        radial-gradient(500rem at center -100rem, #203a90, transparent);
+    padding: 20rem 0px 20rem 0px;
+}
+.copyright span{
+    text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: 12px;
+}
