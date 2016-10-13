@@ -58,34 +58,56 @@
                                 <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
                                 <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div><a href="#" class="btn btn-default sm">read more</a></div>
+                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
                             <article class="clearfix">
                                 <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
                                 <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
                                 <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div><a href="#" class="btn btn-default sm">read more</a></div>
+                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
                             <article class="clearfix">
                                 <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
                                 <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
                                 <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div><a href="#" class="btn btn-default sm">read more</a></div>
+                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
                         </li>
                     </ul>
                 </section>
                 <section class="topical-posts">
-
+                    <h2>ut rutrum suscipit convallisris</h2>
+                    <div data-flex="stripe w" data-childs="col -end">
+                        <article>
+                            <h4><i class="icon-box"></i>ut rutrum sus cipit con</h4>
+                            <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
+                            <a href="#" class="btn btn-more">read more</a>
+                        </article>
+                        <article>
+                            <h4><i class="icon-paint"></i>ut rutrum sus cipit con</h4>
+                            <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
+                            <a href="#" class="btn btn-more">read more</a>
+                        </article>
+                        <article>
+                            <h4><i class="icon-pen"></i>ut rutrum sus cipit con</h4>
+                            <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
+                            <a href="#" class="btn btn-more">read more</a>
+                        </article>
+                        <article>
+                            <h4><i class="icon-lamp"></i>ut rutrum sus cipit con</h4>
+                            <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
+                            <a href="#" class="btn btn-more">read more</a>
+                        </article>
+                    </div>
                 </section>
             </div>
         </div>
         <footer>
             <div class="lwrap">
                 <div class="footer" data-flex="stripe w">
-                    <section>
+                    <section class="text-widget" data-flex="col -end">
                         <h5>Text Widget</h5>
                         <p>Mauris ultrices sodales pretium. Nulla ullamcorper vulputate sapien ut accumsan. Etiam volutpat, purus ut dignissim tincidunt, quam erat consectetur Vestibulum sit amet accumsan ipsum</p>
                         <p>metus, eget pharetra dolor mi vel anteQuisque posuere dolor sed ligula faci …</p>
@@ -127,9 +149,12 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer>       
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script>
+
+        </script>
     </body>
 </html>

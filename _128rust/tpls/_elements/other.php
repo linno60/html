@@ -1,0 +1,1 @@
+<h4 class="title-footer">Our Friends</h4>
