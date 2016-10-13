@@ -3,15 +3,15 @@
 <div class="tabs" data-tabs>
 
     <div class="tablist">
-        <a href="#tab1" class="active">fashion</a>
-        <a href="#tab2">cinema</a>
+        <a href="#tab1">Newest</a>
+        <a href="#tab2" class="active">Top Rated</a>
+        <a href="#tab3">Subject</a>
     </div>
 
     <div class="tabset">
-        <a href="#tab1" class="active">fashion</a>
-        <div id="tab1" class="tabpanel active">Tab number 1</div>
-        <a href="#tab2">fashion</a>
-        <div id="tab2" class="tabpanel">Tab number 2</div>
+        <div id="tab1" class="tabpanel">Tab number 1</div>
+        <div id="tab2" class="tabpanel active">Tab number 2</div>
+        <div id="tab3" class="tabpanel">Tab number 3</div>
     </div>
 
 </div>

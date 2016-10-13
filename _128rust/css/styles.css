@@ -34,37 +34,33 @@ header hr{
     margin-bottom: 141rem;
     overflow: hidden;
 }
-.content-wrap > section, footer, .sidebar + hr{
+.content-wrap > section, footer{
     width: 100%;
 }
 .blog{
-    width: 70.833%;
+    width: 70.83%;
     padding: 10rem 10rem 10rem 10rem;
 }
 .sidebar{
     width: 29.167%;
     background: rgba(75, 76, 72, 0.2);
 }
-.sidebar + hr{
-    height: 9px;
-    margin: 0;
-    background: #8e4423 linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
-}
 .breadcrumbs{
     padding: 10rem 10rem 10rem 0px;
     margin-left: 10rem;
     border-bottom: 1px solid #393b3d;
 }
+.blog article, .sidebar article{
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.43);
+    border-bottom: 1px solid #393b3d;
+}
 
 /*MAIN*/
 .blog article{
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.43);
-    border-bottom: 1px solid #393b3d;
     margin-bottom: 10rem;
+    max-width: 600px;
 }
 .blog article figure{
-    width: 100%;
     background: #8e4423;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.46), inset 0 1px 0 rgba(255, 255, 255, 0.22);
     padding: 5px;
@@ -102,9 +98,97 @@ header hr{
     color: #e6e3bb;
 }
 
-/*ASIDE*/
+/*SIDEBAR*/
+.sidebar{
+    padding: 0px 10rem;
+}
+.sidebar .divider{
+    margin: 0px -10rem 20rem -10rem;
+    width: calc(100% + 20rem);
+}
+.sidebar > div{
+    margin-bottom: 20rem;
+}
+.sidebar form input{
+    width: 60%;
+}
+.sidebar form label{
+    font-size: 14px;
+    color: #7b7a6d;
+}
+.sidebar form label span{
+    color: #8e4423;
+}
+.sidebar .links-tags{
+    padding-top: 20rem;
+}
+.comments article{
+    color: #7b7a6d;
+    font-size: 14px;
+    padding: 10rem 5rem;
+}
+.comments figure{
+    border: 2px solid #8e4423;
+    margin: 5rem 5rem 0px 0px;
+}
+.comments a{
+    color: #8e4423;
+    font-size: 20px;
+    font-weight: 600;
+}
+.comments a:active, .comments a:hover, .comments a:focus{
+    text-decoration: underline;
+}
+.comments time{
+    font-style: italic;   
+}
 
 /*ADDITION*/
+.addition{
+    padding: 10rem 10rem 10rem 10rem;
+}
+.addition article{
+    flex-basis: 30%;
+}
+.addition > *:not(hr){
+    flex-grow: 1;
+}
+.addition article figure{
+    float: right;
+    background-color: #8e4423;
+    box-shadow: 0 -1px 0 rgba(58, 58, 58, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.19);
+    padding: 5px;
+}
+.addition h4{
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.52);
+    color: #8e4423;
+    font-family: Titillium Web;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
+.addition article p{
+    color: #7b7a6d;;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10rem;
+}
+.addition hr{
+    width: 12px;
+    height: 100%;
+    margin: 0px 3px;
+    background:
+        radial-gradient(circle closest-side, #864224 1px, transparent 2px, transparent 3px, #864224 4px, #864224 5px, transparent 6px),
+        linear-gradient(#864224, #864224) center top / 1px calc(50% - 5.5px) no-repeat,
+    linear-gradient(#864224, #864224) center bottom / 1px calc(50% - 5.5px) no-repeat;
+}
+.twitbox{
+    border: 1px solid #3f3e3d;
+    border-radius: 6px;
+}
+.addition > div{    
+    flex-basis: 55%;
+}
 
 /*FOOTER*/
 .footer{
@@ -113,7 +197,25 @@ header hr{
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.15), inset 0 0 0 rgba(0, 0, 0, 0.23);
 }
 .footer > div{
-    width: 23%;
+    width: 20%;
+    margin-bottom: 10px;
+}
+.footer > .clients > div{
+    flex-grow: 1;
+}
+.footer > .flickr{
+    width: 30%;
+}
+.flickr .title-footer{
+    text-align: left;
+}
+.flickr a{
+    background: #8e4423;
+    border: 1px solid #242729;
+    padding: 5px;
+    margin: 0px 5px 5px 0px;
+    border-radius: 1px;
+    display: inline-block;
 }
 .copyright{
     padding: 10rem 10rem 10rem 10rem;
