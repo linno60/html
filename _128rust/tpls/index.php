@@ -21,7 +21,7 @@
     </head>
     <body>
         <div class="lwrap">
-            <header data-flex="axis">                
+            <header data-flex="axis" data-flex-480="vstripe">                
                 <section data-flex="-center">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="119" height="25" alt="Rust">
@@ -30,68 +30,84 @@
                     <nav class="links-nav">
                         <a href="#">Home</a>
                         <a href="#">About</a>
-                        <a href="#">Work</a>
+                        <div>Work
+                            <div class="links-dropdown" data-flex="col">
+                                <a href="#">Print</a>
+                                <a href="#">Interactive</a>
+                                <a href="#">Video</a>
+                                <a href="#">Mis &amp; Labs</a>   
+                            </div>
+                        </div>
                         <a href="#" class="active">Blog</a>
                         <a href="#">Contact</a>
                     </nav>
                 </section>
-                <form action="#" method="post" data-flex="end">
+                <form action="#" method="post" data-flex="end w" data-flex-480="center w">
                     <div class="input-wrap">
-                        <input class="input-default" type="text" name="input1">
-                        <label for="input1">Welcome Back, <span>John Doe81</span></label> 
+                        <input class="input-default" type="text" name="sign">
+                        <label for="sign">Welcome Back, <span>JohnDoe81</span></label> 
                     </div>
                     <button><span class="btn btn-default">Client Sign-Out</span></button>                   
                 </form>
             </header>
-            <div class="content-wrap" data-flex="stripe w">
+            <div class="content-wrap" data-flex="stripe w" data-flex-640="vstripe">
                 <section class="breadcrumbs">
-
+                    <div class="links-breadcrumbs">
+                        <a href="#">home&ensp;--></a>
+                        <a href="#">blog</a>
+                    </div>
                 </section>
-                <main class="blog" data-childs="stripe w">
-                    <article>
-                        <figure><img src="/images/img.png" width="590" height="233" alt=""></figure>
-                        <div data-flex="-center">
-                            <i class="icon-monitor"></i>
-                            <hgroup>
-                                <h2><a href="#">Krili havtret hyo gustripast</a></h2>
-                                <h6>Krili havtret hyo gustripast</h6>
-                            </hgroup>
-                        </div>
-                        <div>
-                            <strong>3.30.11</strong>
-                            <em>posted by: <a href="#">Admin</a></em>
-                        </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img.png" width="590" height="233" alt=""></figure>
-                        <div data-flex="-center">
-                            <i class="icon-monitor"></i>
-                            <hgroup>
-                                <h2><a href="#">Krili havtret hyo gustripast</a></h2>
-                                <h6>Krili havtret hyo gustripast</h6>
-                            </hgroup>
-                        </div>
-                        <div>
-                            <strong>3.30.11</strong>
-                            <em>posted by: <a href="#">Admin</a></em>
-                        </div>
-                    </article>
-                    <article>
-                        <figure><img src="/images/img.png" width="590" height="233" alt=""></figure>
-                        <div data-flex="-center">
-                            <i class="icon-monitor"></i>
-                            <hgroup>
-                                <h2><a href="#">Krili havtret hyo gustripast</a></h2>
-                                <h6>Krili havtret hyo gustripast</h6>
-                            </hgroup>
-                        </div>
-                        <div>
-                            <strong>3.30.11</strong>
-                            <em>posted by: <a href="#">Admin</a></em>
-                        </div>
-                    </article>
+                <main class="blog">
+                    <div data-childs="stripe w">
+                        <article>
+                            <figure><img src="/images/img.png" width="590" height="233" alt=""></figure>
+                            <div data-flex="-center">
+                                <i class="icon-monitor"></i>
+                                <hgroup>
+                                    <h2><a href="#">Krili havtret hyo gustripast</a></h2>
+                                    <h6>Krili havtret hyo gustripast</h6>
+                                </hgroup>
+                            </div>
+                            <div>
+                                <strong>3.30.11</strong>
+                                <em>posted by: <a href="#">Admin</a></em>
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img.png" width="590" height="233" alt=""></figure>
+                            <div data-flex="-center">
+                                <i class="icon-monitor"></i>
+                                <hgroup>
+                                    <h2><a href="#">Krili havtret hyo gustripast</a></h2>
+                                    <h6>Krili havtret hyo gustripast</h6>
+                                </hgroup>
+                            </div>
+                            <div>
+                                <strong>3.30.11</strong>
+                                <em>posted by: <a href="#">Admin</a></em>
+                            </div>
+                        </article>
+                        <article>
+                            <figure><img src="/images/img.png" width="590" height="233" alt=""></figure>
+                            <div data-flex="-center">
+                                <i class="icon-monitor"></i>
+                                <hgroup>
+                                    <h2><a href="#">Krili havtret hyo gustripast</a></h2>
+                                    <h6>Krili havtret hyo gustripast</h6>
+                                </hgroup>
+                            </div>
+                            <div>
+                                <strong>3.30.11</strong>
+                                <em>posted by: <a href="#">Admin</a></em>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pagination" data-flex="end">
+                        <a href="#" class="prev"></a>
+                        <a href="#" class="next"></a>
+                    </div>
                 </main>
-                <aside class="sidebar">
+                <aside class="sidebar" data-flex-640="stripe w" data-flex-480="vstripe">
                     <hr class="divider">
                     <div class="tabs" data-tabs="">
                         <div class="tablist">
@@ -115,7 +131,7 @@
                     </div>                    
                     <hr class="separator">
                     <div>
-                        <h3 class="title-sidebar">Latest Comments</h3>
+                        <h3 class="title-sidebar">Start your Project</h3>               
                         <blockquote>Donec pellentesque, justo eget imperd viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Erat quis nulla eget pharetra lorem nec quis non!</blockquote>
                         <form action="#" method="post" data-flex="stripe w">
                             <label>Get in Touch: <span>Just say, "hi!"</span></label>
@@ -125,7 +141,7 @@
                     </div>
                     <hr class="separator">
                     <div class="comments">
-                        <h3 class="title-sidebar">Start your Project</h3>
+                        <h3 class="title-sidebar">Latest Comments</h3>
                         <div data-childs="-center w">
                             <article>
                                 <figure><img src="/images/ava.png" width="16" height="16" alt=""></figure>
@@ -170,7 +186,7 @@
                     </div>
                 </aside>
                 <hr class="divider">
-                <section class="addition" data-flex="stripe w">
+                <section class="addition" data-flex="stripe w" data-flex-640="vstripe">
                     <article>
                         <figure><img src="/images/pharetra.png" width="136" height="86" alt=""></figure>
                         <h4><strong>Pharetra</strong> Eget</h4>
@@ -178,8 +194,22 @@
                         <p>Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra. Nunc commodo aliquam lectus quis bibendum.</p>
                     </article>
                     <hr>
-                    <div>
+                    <div class="subscription">
                         <h4><strong>Newsletter</strong> Subscription</h4>
+                        <form action="#" method="post" class="form-subscribe" data-flex="stripe">
+                            <input type="email" name="subscribe" placeholder="you@yourcompany.com">
+                            <button><span class="btn btn-alt">Sign-Up</span></button>
+                        </form>
+                        <div data-flex="stripe">
+                            <div class="twit-box twit-follow" data-flex="vstripe">
+                                <i class="icon-twitter"></i>
+                                <a href="#" class="btn btn-alt sm">follow</a>
+                            </div>
+                            <div class="twit-box" data-flex="col between -end">
+                                <p><span>RT @_1981_</span>: Check out his awesome template on #themeforest &nbsp;- <a href="#">http://www.themeforest.net</a> <span>:D</span></p>
+                                <a href="#"><i class="icon-retwit"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <footer>
@@ -199,7 +229,7 @@
                         </div>
                         <div class="clients">
                             <h4 class="title-footer">Featured Clients</h4>
-                            <div data-flex="vaxis">
+                            <div data-flex="col around -center">
                                 <a href="#"><img src="/images/nyt.png" width="168" height="24" alt=""></a>
                                 <a href="#"><img src="/images/cc.png" width="83" height="25" alt=""></a>
                                 <a href="#"><img src="/images/pixar.png" width="120" height="15" alt=""></a>
