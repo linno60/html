@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=d88f61cc-31d2-4e6e-ade2-ab5ad09ece6e");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("/fonts/fonts.com/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("/fonts/fonts.com/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff");
+}
+/* ICONS */
+.icon-bag {width: 20px; height: 19px; background: url('/images/icons/bag.png');}
+.icon-fb {width: 8px; height: 15px; background: url('/images/icons/fb.png');}
+.icon-gp {width: 14px; height: 14px; background: url('/images/icons/gp.png');}
+.icon-inst {width: 14px; height: 14px; background: url('/images/icons/inst.png');}
+.icon-line {width: 23px; height: 20px; background: url('/images/icons/line.png');}
+.icon-line2 {width: 26px; height: 20px; background: url('/images/icons/line2.png');}
+.icon-search {width: 19px; height: 15px; background: url('/images/icons/search.png');}
+.icon-tw {width: 15px; height: 12px; background: url('/images/icons/tw.png');}
+.icon-twitter {width: 32px; height: 24px; background: url('/images/icons/twitter.png');}
+.icon-user {width: 27px; height: 30px; background: url('/images/icons/user.png');}

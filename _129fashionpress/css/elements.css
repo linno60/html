@@ -1,0 +1,154 @@
+body{
+    font-family: Open Sans;
+    font-size: 12px;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0px 30rem 0px 10rem;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-social a:active, .links-social a:hover, .links-social a:focus,
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+.links-menu{
+    max-width: 460px;    
+}
+.links-menu a{
+    color: #333;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(90deg, transparent, rgba(0,0,0,.12) calc(100% - 2px), rgba(0,0,0,.05) calc(100% - 1px), rgba(0,0,0,.05)) left bottom / 100% 1px no-repeat;
+    padding: 11rem 17rem;
+}
+.links-menu a:before{
+    content: '';
+    border-top: 6px solid transparent;
+    border-left: 6px solid #e8e681;
+    border-bottom: 5px solid transparent;
+    margin-right: 12rem;
+    display: inline-block;
+}
+.links-menu a.active, .links-menu a:active, .links-menu a:hover, .links-menu a:focus{
+    background: linear-gradient(90deg, transparent, rgba(0,0,0,.12) calc(100% - 2px), rgba(0,0,0,.05) calc(100% - 1px), rgba(0,0,0,.05)) left bottom / 100% 1px no-repeat white;
+    box-shadow: 1px 0px 0px 0px #df1f26, inset -3px 0px 0px 0px #df1f26;
+}
+.links-social a{
+    color: #393939;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8rem;
+}
+.links-social a > span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: #e70505;
+    border-radius: 1px;
+    margin-right: 5rem;
+}
+.links-footer, .links-footer a{
+    color: #c3c3c3;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.links-footer a{
+    margin: 0px 10rem;   
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 103rem;
+    padding: 0px 5px;
+    height: 26px;
+    text-transform: uppercase;
+    background: linear-gradient(#e2393e,#ce1e24);
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: inset 1px 1px 2px 0px rgba(255,255,255,0.2), inset -1px -1px 2px 0px rgba(0,0,0,0.2);
+}
+.btn-submit{
+    width: 32px;
+    height: 29px;
+    background: #df1f26;
+}
+
+/*CITES*/
+blockquote{
+    max-width: 460px;
+}
+blockquote cite{
+    color: #333;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;   
+}
+blockquote q{
+    background: #f6f3f3;
+    display: block;
+    border-radius: 2px;
+    padding: 24rem 24rem 26rem 22rem;
+    color: #747474;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 20px;
+    position: relative;
+    letter-spacing: -0.022em;
+}
+blockquote .icon-user{
+    margin: 11rem 21rem -3rem 0rem;
+}
+blockquote q:after{
+    content: '';
+    border-top: 22px solid #f6f3f3;
+    border-right: 28px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 30px;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 150px;
+    height: 22px;
+    background: #d52229;
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transform: rotate(-51deg) translateX(-30%);
+    text-align: center;
+}
+
+/*FORMS*/
+.input-default{
+    min-width: 245rem;
+    height: 29px;
+    background: #c9c9c9;
+    padding: 0px 5px;
+    border: none;
+}
+
+/*OTHER*/
+.title{
+    background: #df1f26;
+    color: #eee;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 11rem 20rem;
+}

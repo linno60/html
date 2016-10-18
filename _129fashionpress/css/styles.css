@@ -1,0 +1,308 @@
+/*COMMON*/
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0px 10px;
+}
+body{
+    background: #eee;
+}
+
+/*HEADER*/
+header{
+    background: #f7f7f7;
+}
+#logo{
+    margin: 7rem;
+}
+.nav{
+    background: black;
+    border-top: 1px solid #89883e;
+    padding: 16rem 0px;    
+}
+.top-bar{
+    border-right: 1px solid #e4e2e2;
+}
+.top-bar > div{
+    height: 73px;
+    background: #eee;
+    border: 1px solid rgba(228, 226, 226, 0.64);
+    margin-right: 1px;
+    padding: 0px 15rem;
+    font-weight: 500;
+    font-family: Roboto;   
+}
+.top-bar > .bag{
+    padding: 0px 25rem;
+}
+.top-bar a{
+    color: #555;
+    font-size: 14px;
+}
+.top-bar .bag a{
+    color: #e70505;
+}
+.top-bar .bag a + span{
+    color: #231f20;
+    padding: 0px 6rem;
+}
+.top-bar a:active, .top-bar a:hover, .top-bar a:focus{
+    text-decoration: underline;
+}
+
+/*SLIDER*/
+.slider{
+    height: 744px;
+    background: url("/images/bgslider.png");
+    background-size: cover;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 27.5%;
+    border-right: 1px solid rgba(0,0,0,.2);
+    margin: 7rem 21rem 0px 0px;
+}
+.sidebar h3{
+    color: #d52229;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 22rem;
+}
+.twitter-posts{
+    margin-bottom: 37rem;
+}
+.twitter-posts h3{
+    text-transform: capitalize;
+    margin-bottom: 17rem;
+}
+.twitter-posts p{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 20px;
+    color: #838383;
+    background: url(/images/icons/twitter.png)no-repeat -3rem 2rem;
+    padding: 0px 0px 25px 42px;
+    letter-spacing: -0.022em;
+}
+.twitter-posts p a, .twitter-posts p time{
+    color: #d52229;
+}
+.twitter-posts p a:active, .twitter-posts p a:hover, .twitter-posts p a:focus{
+    text-decoration: underline;
+}
+.sidebar > *:not(:first-child){
+    padding: 0px 20rem 0rem 14rem;
+}
+.sidebar .links-menu{
+    margin-bottom: 35rem;
+}
+.banner{
+    margin: 0px 0px 55rem 7rem;
+}
+.banner h2{
+    color: #909191;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+        margin-top: 18rem;
+        line-height: 30px;
+}
+.banner h2 strong{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+/*CONTENT*/
+.filter{
+    background: linear-gradient(90deg,#dee9f1,#e8eced,#f9eae4);
+    padding: 7rem 0px;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+}
+.filter form label{
+    color: #df1f26;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 18rem;
+}
+.filter a{
+    margin-left: 14rem;
+}
+.content-wrap{
+    max-width: 978px;
+}
+.content{
+    padding: 0px 4rem 20rem 0px;
+    width: calc(72.5% - 21rem);
+    
+}
+.content h2{
+    width: 100%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+}
+.content h2 span{
+    color: #e70505;
+}
+.products{
+    max-width: 680px;
+}
+.products > div{
+    background: white;
+    padding: 6px 4px 4px 4px;
+    margin-bottom: 8rem;
+    width: 32.5%;
+}
+.products figure{
+    overflow: hidden;
+    position: relative;
+}
+.products figure .lbl-default{
+    position: absolute;
+}
+.products > .wide{
+    width: 66.2%;
+    padding: 5px 4px 0px 6px;
+}
+.details h6{
+    color: #565555;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    border-bottom: 1px solid #ededed;
+    padding: 10rem 5rem 4rem 7rem;
+    margin-bottom: 2rem;
+    max-width: 183px;
+}
+.details h5{
+    color: #565555;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    border-right: 1px solid #ededed;
+    width: 50%;
+    justify-content: flex-start;
+    padding-left: 10rem;
+}
+.details span{
+    font-size: 24px;
+    text-align: center;
+    color: #3e3f3f;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.details sup{
+    font-size: 14px;
+    vertical-align: super;
+    line-height: 14px;
+}
+.details small{
+    font-size: 14px;
+    line-height: 14px;
+}
+.details > div{
+    width: 50%;
+    padding: 2px;
+}
+.details > div:not(:last-child){
+    border-right: 1px solid #ededed;
+}
+.wide .details{
+    flex-grow: 1;
+}
+.wide .details > div{
+    width: 25%;
+}
+.separator{
+    height: 37rem;
+    background: url("/images/hr.png");
+    background-size: cover;
+    margin: 31rem 0px 0px 0px;
+}
+
+/*FOOTER*/
+footer{
+    background: white url("/images/footer.png");
+    background-size: cover;    
+}
+footer > .lwrap{
+    max-width: 988px;
+    padding: 31rem 10px 56rem 10px;
+}
+footer p{
+    color: #393939;
+    font-family: Roboto;
+    line-height: 16px;
+    font-weight: 500;
+    margin-left: 3rem;
+    width: 100%;
+}
+footer h5{
+    color: #343333;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12rem;
+}
+footer address{
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    color: #747474;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    font-style: normal;
+}
+footer > .lwrap > div:not(:last-child){
+    width: 24%;
+    background: linear-gradient(#e9eaed, #e9eaed) right 10px / 1px 80% no-repeat,
+        linear-gradient(#e1e0df, #e1e0df) calc(100% - 1px) 10px / 1px 80% no-repeat;
+    margin-bottom: 10px;
+}
+footer > .lwrap > div:last-child{
+    width: 40%;
+}
+#logo-alt{
+    margin: 10rem 0rem 30rem 5rem;
+}
+footer ul{
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+footer ul li a, footer ul{
+    color: #393939;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+.copyright{
+    padding: 14rem 0px;
+    background: url("/images/copyright.png");
+}
+.copyright span{
+    color: #7a7777;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
