@@ -1,5 +1,5 @@
 body{
-    font-family: Open Sans;
+    font-family: Roboto;
     font-size: 12px;
 }
 
@@ -20,7 +20,6 @@ body{
 }
 .links-menu a{
     color: #333;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
     background: linear-gradient(90deg, transparent, rgba(0,0,0,.12) calc(100% - 2px), rgba(0,0,0,.05) calc(100% - 1px), rgba(0,0,0,.05)) left bottom / 100% 1px no-repeat;
@@ -40,7 +39,6 @@ body{
 }
 .links-social a{
     color: #393939;
-    font-family: Roboto;
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
@@ -54,20 +52,25 @@ body{
     height: 20px;
     background: #e70505;
     border-radius: 1px;
-    margin-right: 5rem;
+    margin-right: 10rem;
+}
+.links-footer{
+    font-size: 8px;
 }
 .links-footer, .links-footer a{
     color: #c3c3c3;
-    font-family: Roboto;
     font-weight: 700;
 }
 .links-footer a{
-    margin: 0px 10rem;   
+    margin: 0px 7rem;
+    font-size: 12px;
+    letter-spacing: -0.005em;
 }
 
 /*BUTTONS*/
 .btn-default{
     min-width: 103rem;
+    line-height: 11px;
     padding: 0px 5px;
     height: 26px;
     text-transform: uppercase;
@@ -89,7 +92,6 @@ blockquote{
 }
 blockquote cite{
     color: #333;
-    font-family: Roboto;
     font-size: 13px;
     font-weight: 500;
     font-style: normal;   
@@ -121,16 +123,36 @@ blockquote q:after{
 
 /*LABELS*/
 .lbl-default{
-    width: 150px;
-    height: 22px;
+    width: 160px;
+    height: 27px;
     background: #d52229;
     color: white;
-    font-family: Roboto;
     font-size: 13px;
-    font-weight: 500;
-    text-transform: uppercase;
-    transform: rotate(-51deg) translateX(-30%);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;    
     text-align: center;
+}
+.lbl-slider{
+    height: 182px;
+    width: 184px;
+    border-radius: 50%;
+    background: url("/images/sliderlbl.png") center center;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Open Sans;
+    font-weight: 300;
+    color: white;
+    padding: 36rem;
+    flex-shrink: 0;
+}
+.lbl-slider big{    
+    font-size: 31rem;
+    line-height: 26rem;
+    margin-bottom: 5rem;
+}
+.lbl-slider small{
+    font-size: 19rem;
+    margin-bottom: 13rem;
 }
 
 /*FORMS*/
@@ -146,7 +168,6 @@ blockquote q:after{
 .title{
     background: #df1f26;
     color: #eee;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;

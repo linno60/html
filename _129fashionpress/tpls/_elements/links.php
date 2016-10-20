@@ -24,7 +24,7 @@
     <a href="#"><span><i class="icon-gp"></i></span>google</a>
     <a href="#"><span><i class="icon-inst"></i></span>instagram</a>
 </div>
-<div class="links-footer" data-flex="-center">
+<div class="links-footer" data-flex="-center w">
     <a href="#">Terms of Service</a>&bull;
     <a href="#">Privacy Policy</a>&bull;
     <a href="#">Creative Rights Policy</a>&bull;

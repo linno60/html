@@ -49,23 +49,80 @@
                 </nav>
             </div>
         </header>
-        <section class="slider">
-
+        <section class="slider-wrap">
+            <div class="slider" data-flex="axis">            
+                <div class='arrowprev'>
+                    <label class='num0' for='slide-0'></label>
+                    <label class='num1' for='slide-1'></label>
+                    <label class='num2' for='slide-2'></label>
+                </div>
+                <input name="anchor" id='slide-0' type="radio">
+                <input name="anchor" id='slide-1' type="radio">
+                <input name="anchor" id='slide-2' type="radio">
+                <input name="anchor" id='play' type="radio" checked>
+                <ul data-childs="between -start" data-childs-480="vstripe">
+                    <li>
+                        <hgroup>
+                            <h1>We pro&shy;vide worlds top fas&shy;hion for less fas&shy;hion&shy;press.</h1>
+                            <h6>Fashion&shy;Press the name of hi class fas&shy;hion web.</h6>
+                        </hgroup>
+                        <figure>
+                            <img src="/images/slider.png" width="623" height="616" alt="">
+                            <div class="lbl lbl-slider"><big>Pro&shy;duct<br> $24.00</big><small>Free PSD</small></div>
+                        </figure>
+                    </li>
+                    <li class='num0'>
+                        <hgroup>
+                            <h1>We pro&shy;vide worlds top fas&shy;hion for less fas&shy;hion&shy;press.</h1>
+                            <h6>Fashion&shy;Press the name of hi class fas&shy;hion web.</h6>
+                        </hgroup>
+                        <figure>
+                            <img src="/images/slider.png" width="623" height="616" alt="">
+                            <div class="lbl lbl-slider"><big>Pro&shy;duct<br> $24.00</big><small>Free PSD</small></div>
+                        </figure>
+                    </li>
+                    <li class='num1'>
+                        <hgroup>
+                            <h1>We pro&shy;vide worlds top fas&shy;hion for less fas&shy;hion&shy;press.</h1>
+                            <h6>Fashion&shy;Press the name of hi class fas&shy;hion web.</h6>
+                        </hgroup>
+                        <figure>
+                            <img src="/images/slider.png" width="623" height="616" alt="">
+                            <div class="lbl lbl-slider"><big>Pro&shy;duct<br> $24.00</big><small>Free PSD</small></div>
+                        </figure>
+                    </li>
+                    <li class='num2'>                    
+                        <hgroup>
+                            <h1>We pro&shy;vide worlds top fas&shy;hion for less fas&shy;hion&shy;press.</h1>
+                            <h6>Fashion&shy;Press the name of hi class fas&shy;hion web.</h6>
+                        </hgroup>
+                        <figure>
+                            <img src="/images/slider.png" width="623" height="616" alt="">
+                            <div class="lbl lbl-slider"><big>Pro&shy;duct<br> $24.00</big><small>Free PSD</small></div>
+                        </figure>
+                    </li>
+                </ul>
+                <div class='arrownext'>
+                    <label class='num0' for='slide-0'></label>
+                    <label class='num1' for='slide-1'></label>
+                    <label class='num2' for='slide-2'></label>
+                </div>
+            </div>
         </section>
         <section class="filter">
             <div class="lwrap" data-flex="axis">                
                 <form action="#" method="post" data-flex="-center">
                     <label>search product</label>
                     <input type="search" name="search" class="input-default">
-                    <button class="btn btn-submit"><i class="icon-search"></i></button>
+                    <button><span class="btn btn-submit"><i class="icon-search"></i></span></button>
                 </form> 
-                <div>
+                <div data-flex="end w" data-childs>
                     <a href="#"><i class="icon-line"></i></a>
                     <a href="#"><i class="icon-line2"></i></a>
                 </div>
             </div>            
         </section>
-        <section class="lwrap content-wrap" data-flex="stripe">
+        <section class="lwrap content-wrap" data-flex="stripe" data-flex-480="vstripe">
             <aside class="sidebar">
                 <section>
                     <h2 class="title">products menu</h2>
@@ -83,7 +140,10 @@
                 </section>
                 <section class="banner">
                     <figure><img src="/images/location.png" width="220" height="111" alt=""></figure>
-                    <h2>delivering <strong>world wide</strong></h2>
+                    <hgroup>
+                        <h2>deli&shy;ve&shy;ring</h2>
+                        <h4>world wide</h4>
+                    </hgroup>
                 </section>
                 <section class="twitter-posts">
                     <h3>latest from twitter</h3>
@@ -105,10 +165,10 @@
             <main class="content">
                 <div data-flex="stripe w" class="products">
                     <div>
-                        <figure><img src="/images/img1.png" width="210" height="202" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <figure><img src="/images/img1.png" width="207" height="207" alt=""></figure>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
@@ -116,55 +176,55 @@
                         <figure><img src="/images/img2.png" width="434" height="247" alt=""></figure>
                         <div class="details" data-flex="stripe" data-childs="center -center">
                             <h5>Serax fibrepots</h5>
-                            <div><span><small>$</small>24.<sup>99</sup></span></div>
+                            <div><strong><small>$</small>24.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img3.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img4.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img5.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img6.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img7.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img8.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
@@ -173,33 +233,33 @@
                     <h2><span>popular</span> products now</h2>
                     <div>
                         <figure><span class="lbl lbl-default">hot</span><img src="/images/img9.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img10.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img11.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
                     <div>
                         <figure><img src="/images/img12.png" width="207" height="207" alt=""></figure>
-                        <div class="details" data-flex="stripe w" data-childs="center -center">
-                            <h6>Kids Moon Colorblock Footed Tights</h6>
-                            <div><span><small>$</small>8.<sup>99</sup></span></div>
+                        <h6><span>Kids Moon Colorblock Footed Tights</span></h6>
+                        <div class="details" data-flex="stripe" data-childs="center -center">
+                            <div><strong><small>$</small>8.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
@@ -207,7 +267,7 @@
                         <figure><span class="lbl lbl-default">exclusive</span><img src="/images/img13.png" width="436" height="247" alt=""></figure>
                         <div class="details" data-flex="stripe" data-childs="center -center">
                             <h5>Serax fibrepots</h5>
-                            <div><span><small>$</small>24.<sup>99</sup></span></div>
+                            <div><strong><small>$</small>24.<sup>99</sup></strong></div>
                             <div><a href="#" class="btn btn-default">get it</a></div>
                         </div>
                     </div>
@@ -227,10 +287,10 @@
                 <div>
                     <h5>follow us</h5>
                     <div class="links-social" data-flex="col -start" data-childs="-center">
-                        <a href="#"><span><i class="icon-fb"></i></span>facebook</a>
-                        <a href="#"><span><i class="icon-tw"></i></span>twitter</a>
-                        <a href="#"><span><i class="icon-gp"></i></span>google</a>
-                        <a href="#"><span><i class="icon-inst"></i></span>instagram</a>
+                        <a href="#"><span><i class="icon-fb"></i></span>face&shy;book</a>
+                        <a href="#"><span><i class="icon-tw"></i></span>twit&shy;ter</a>
+                        <a href="#"><span><i class="icon-gp"></i></span>goog&shy;le</a>
+                        <a href="#"><span><i class="icon-inst"></i></span>insta&shy;gram</a>
                     </div>
                 </div>
                 <div>
@@ -239,7 +299,7 @@
                         <ul>
                             <li>Phone: 1.800.555.6789</li>
                             <li>Fax: 1.888.555.9876</li>
-                            <li>Email: <a href="mailto:letschat@11thagency.com">letschat@11thagency.com</a></li>
+                            <li>Email: <a href="mailto:letschat@11thagency.com">letschat@<wbr>11thagency.com</a></li>
                         </ul>
                         <address>John Doe, Comapny Inc.<br> 12345 North Main Street<br> Anywhere, USA</address>
                     </div>                    
@@ -247,7 +307,7 @@
             </section>
             <section class="copyright">
                 <div class="lwrap" data-flex="axis">
-                    <div class="links-footer" data-flex="-center">
+                    <div class="links-footer" data-flex="-center w">
                         <a href="#">Terms of Service</a>•
                         <a href="#">Privacy Policy</a>•
                         <a href="#">Creative Rights Policy</a>•
