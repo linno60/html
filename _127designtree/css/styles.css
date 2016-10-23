@@ -6,9 +6,28 @@ body > div{
     flex-shrink: 0;
     flex-grow: 1;
 }
+figure > img, a > img{
+    display: block;
+}
 .lwrap{
-    max-width: 996px;
+    max-width: 1004px;
     padding: 0px 10px;
+}
+
+/*RESET NEWSTICKER STYLES*/
+.nt-example1-container i{
+    margin: 0px;
+}
+.nt-example1 li, .nt-example1 li:hover{
+    background: none;
+    font-size: inherit;
+    border-bottom: none;
+}
+#nt-example1 li{
+    height: 217px;
+}
+#nt-example2 li{
+    height: 170px;
 }
 
 /*HEADER*/
@@ -17,6 +36,7 @@ header{
     background: #f0ecd5;    
 }
 header > .lwrap{
+    max-width: 996px;
     background: radial-gradient(500rem at center, #fbfaf4, transparent);
 }
 #logo{
@@ -27,11 +47,15 @@ header > .lwrap{
 /*BANNER*/
 .banner{
     background: white;
+    box-shadow: 0px 1px 0px 0px #e5e2d0;
+}
+.banner > .lwrap{
+    max-width: 1004px;
 }
 .about{
     background: url("/images/triangle.png");
-    margin-left: -120rem;
-    padding: 20rem 0px 30px 150rem;
+    margin-left: -158rem;
+    padding: 24rem 0px 56px 145rem;
 }
 .about h1{
     text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
@@ -40,23 +64,24 @@ header > .lwrap{
     font-size: 48px;
     font-weight: 700;
     line-height: 44px;
-    margin-bottom: 10rem;
+    margin-bottom: 16rem;
+    letter-spacing: -0.025em;
+    max-width: 350px;
 }
 .about p{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     color: #777;
-    margin-bottom: 10rem;
+    margin-bottom: 16rem;
     line-height: 16px;
 }
 
 /*SLIDERS*/
 .latest-posts{
     position: relative;
-    width: 49%;
-    padding-top: 40px;
+    width: 52.2%;
     border-radius: 4px;
     background: white;
-    margin: -20rem 0px -20rem 0px;
+    margin: -16rem 0px -20rem 0px;
     box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 white;
 }
 .latest-posts figure{
@@ -71,7 +96,7 @@ header > .lwrap{
 .latest-posts article{
     padding: 20rem 20rem 20rem 20rem;
 }
-.latest-posts article:not(:first-child){
+.latest-posts li:not(:first-child) article{
     background:url("/images/dividerlg.png")center top no-repeat;
 }
 .latest-posts article h3{
@@ -80,6 +105,7 @@ header > .lwrap{
     line-height: 18px;
     text-transform: uppercase;
     margin-bottom: 10rem;
+    font-family: Myriad Pro;
 }
 .latest-posts article h3 a{
     color: #26389a;
@@ -92,6 +118,34 @@ header > .lwrap{
     line-height: 18px;
     margin-bottom: 10rem;
 }
+.latest-posts .hdr{
+    border-radius: 0px 0px 3px 3px;
+    padding: 14rem 11rem;
+    max-width: 441px;
+    margin: -21rem auto 5px auto;
+    background: linear-gradient(#f7f5e9, #f0ecd5);
+    box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 white;
+    position: relative;
+}
+.latest-posts .hdr h2{
+    color: #213497;
+    font-family: Myriad Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-indent: 12rem;
+}
+.latest-posts .hdr:before{
+    width: 15px;
+    height: 15px;
+    left: 100%;
+    top: 0px;
+    content: "";
+    position: absolute;
+    background: linear-gradient(45deg, #4759bc 50%, transparent 50%);
+    box-shadow: 0px 5px 0px 0px #091c86;
+}
 .details{
     color: #c0bb9a;
     font-size: 9px;
@@ -101,9 +155,12 @@ header > .lwrap{
 
 /*TOPICAL POSTS*/
 .topical-posts{
-    width: 45%;
+    width: 43%;
+    position: relative;
+    padding-top: 50rem;
 }
 .topical-posts h2{
+    text-align: left;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     color: #172a90;
     font-family: MyriadPro;
@@ -113,14 +170,15 @@ header > .lwrap{
     text-transform: uppercase;
     margin-bottom: 20rem;
 }
-.topical-posts article{
+#nt-example2 li article{
     width: 45%;
     margin-bottom: 30rem;
 }
-.topical-posts article > *:not(.btn-more){
+#nt-example2 article > *:not(.btn-more){
     width: 100%;
 }
-.topical-posts article h4{
+#nt-example2 li article h4{
+    font-family: inherit;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     color: #a19c80;
     font-size: 14px;
@@ -129,15 +187,59 @@ header > .lwrap{
     text-transform: uppercase;
     margin-bottom: 15rem;
 }
-.topical-posts article p{
+#nt-example2 li article p{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
-    color: #777;
     line-height: 18px;
     margin-bottom: 15rem;
+}
+.topical-posts article p, .topical-posts p a{    
+    color: #777;    
 }
 .topical-posts article h4 i{
     margin: 0px 10rem 0px 0px;
     float: left;
+}
+.topical-posts .btn-more{
+    flex-shrink: 0;
+}
+.topical-posts .pagination-topical{
+    position: absolute;
+    top: -29px;
+    right: 61rem;
+}
+.twitter-posts article:not(:last-child){
+    padding-bottom: 30rem;
+    margin-bottom: 15rem;
+    background:url("/images/divider.png")no-repeat center bottom;
+}
+.twitter-posts p{
+    line-height: 14px;
+    margin-bottom: 2rem;
+}
+.twitter-posts p a.link{
+    color: #3243a2;
+}
+.twitter-posts p a:active, .twitter-posts a:hover, .twitter-posts a:focus{
+    text-decoration: underline;
+}
+.twitter-posts h3{
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
+    color: #539fc7;
+    font-family: MyriadPro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    max-width: 160px;
+    margin-bottom: 20rem;
+}
+.twitter-posts h3 > i{
+    flex-shrink: 0;
+    margin-right: 10rem;
+}
+.twitter-posts time{
+    color: #9a967d;
+font-size: 11px;
 }
 
 /*FOOTER*/

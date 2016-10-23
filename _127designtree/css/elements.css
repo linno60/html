@@ -22,7 +22,7 @@ body{
     font-variant: small-caps;
     font-size: 14px;
 }
-.btn-default{
+.btn-default, .btn-default:hover{
     color: white;
 }
 .btn-default.lg{    
@@ -56,11 +56,11 @@ body{
     min-width: 82rem;
     height: 27px;    
 }
-.btn-more{
+.btn-more, .btn-more:hover{
     color: #8c8872;
     font-size: 9px;
     min-width: 53rem;
-    height: 22px;
+    height: 22px!important;
     background: linear-gradient(#f9f8f2, #e9e7d8);
     border: 1px solid #b7b49f;
     box-shadow: 1px 1.7px 1px rgba(0, 0, 0, 0.21), inset 0.5px 0.9px 0 white;
@@ -79,14 +79,14 @@ body{
 .links-nav a{
     text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.15);
     color: #011581;
-    font-size: 11px;
     text-transform: uppercase;
     min-width: 71rem;
     height: 29px;
     border-radius: 15px;
-    margin: 5px;
-    padding: 0px 15px;
+    margin: 7px 9px 0px 9px;
+    padding: 0px 16px;
     border: 1px solid transparent;
+    letter-spacing: -0.05em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background: linear-gradient(#4758b2, #011581);
@@ -96,10 +96,10 @@ body{
     color: #f9f8ef;
 }
 .links-nav a.dropdown-link{    
-    background: url(/images/icons/drop.png)calc(100% - 2px) 10px no-repeat;
+    background: url(/images/icons/drop.png)right 10px no-repeat;
 }
 .links-nav a.dropdown-link.active, .links-nav a.dropdown-link:active, .links-nav a.dropdown-link:hover, .links-nav a.dropdown-link:focus{    
-    background: url(/images/icons/drop-hover.png)calc(100% - 2px) 10px no-repeat, linear-gradient(#4758b2, #011581);
+    background: url(/images/icons/drop-hover.png)right 10px no-repeat, linear-gradient(#4758b2, #011581);
 }
 .links-dropdown{
     background: #f6f4e7;
@@ -152,3 +152,36 @@ textarea[name=contact]{
 input[name=contact]::-webkit-input-placeholder, textarea[name=contact]::-webkit-input-placeholder { color: #647bd0; }
 input[name=contact]::-moz-placeholder, textarea[name=contact]::-moz-placeholder { color: #647bd0; }
 input[name=contact]:-ms-input-placeholder, textarea[name=contact]:-ms-input-placeholder { color: #647bd0; }
+
+/*PAGINATION*/
+.pagination-topical{
+    width: 98px;
+    background: linear-gradient(white, white) 46px 5px / 1px 40px no-repeat,
+        linear-gradient(#e1e0d9, #e1e0d9) 47px 5px / 1px 40px no-repeat,
+        linear-gradient(#f7f5e9,#f7f5e9);
+    border-top: 1px solid #f0ecd5;
+    border-right: 1px solid #f0ecd5;
+    border-left: 1px solid #f0ecd5;
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+    box-shadow: inset 0px 1px 0px 0px white;
+}
+.pagination-topical a{
+    width: 49px;
+    height: 31px;
+}
+a:hover .icon-up {background: url('/images/icons/up-hover.png');}
+a:hover .icon-down {background: url('/images/icons/down-hover.png');}
+a:hover .icon-next {background: url('/images/icons/next-hover.png');}
+a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
+.pagination-posts a{
+    margin-left: 6rem;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: #f7f5e9;
+    box-shadow: 0.5px 0.9px 0 white, inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.22);
+}
+.pagination-posts a:hover{
+    background: linear-gradient(#11248c, #4657af);
+}

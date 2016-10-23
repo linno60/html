@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700|Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=3c8faaad-78ec-4631-87b1-85c4ceeefbbe");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/64017d81-9430-4cba-8219-8f5cc28b923e.woff2") format("woff2"), url("/fonts/fonts.com/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff");
+}
+@font-face {
+    font-family: 'Scriptina';
+    src: url('/fonts/fontsquirel.com/scriptin.woff2') format('woff2'), url('/fonts/fontsquirel.com/scriptin.woff') format('woff');
+}
+/* ICONS */
+.icon-broad {width: 50px; height: 45px; background: url('/images/icons/broad.png');}
+.icon-fb {width: 8px; height: 15px; background: url('/images/icons/fb.png');}
+.icon-inst {width: 14px; height: 16px; background: url('/images/icons/inst.png');}
+.icon-tw {width: 16px; height: 13px; background: url('/images/icons/tw.png');}

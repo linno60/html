@@ -1,0 +1,275 @@
+/*COMMON*/
+.lwrap{
+    max-width: 1200px;
+    padding: 0px 10px;
+}
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+body{
+    background: #f3f1e9;
+}
+hgroup *{
+    font-weight: 700;
+    text-align: center;
+}
+hgroup h2{
+    color: #56534c;
+    font-size: 48px;
+}
+hgroup h4{
+    color: #a47d5e;
+    text-transform: uppercase;
+}
+
+/*HEADER*/
+header{
+    background: radial-gradient(circle 457px at center, rgba(86,79,76,.71), transparent), url("/images/header.png")center center;
+    background-size: cover;
+}
+header .links-nav{
+    flex-grow: 1;
+    max-width: 800px;
+}
+.nav{
+    background: rgba(86, 83, 76, 0.53);
+}
+.nav > .lwrap{
+    padding: 13rem 10px;
+    max-width: 1290px
+}
+.header{
+    text-align: center;
+    padding: 150rem 10px 204rem 10px;
+    position: relative;
+}
+.header hr{
+    width: 190rem;
+    height: 12rem;
+    background: url("/images/dash.png")center center;
+    background-size: cover;
+}
+.header h1, .header p{
+    color: white;
+    text-shadow: 0 1px 0 #3d3029;
+}
+.header h1{   
+    font-family: PlayfairDisplay;
+    font-size: 92rem;
+    font-weight: 700;
+    min-height: 200rem;
+}
+.header p{  
+    font-family: ProximaNova;
+    font-size: 24rem;
+    line-height: 36rem;
+    max-width: 500px;
+    min-height: 200rem;
+    margin: auto;
+}
+.header .btn-header{
+    display: inline-flex;
+}
+.header .lbl-sm{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    z-index: 1;
+    transform: translate(-50%, 50%);   
+}
+
+/*CAKES*/
+.cakes{
+    border-top: 10px solid white;
+    background: linear-gradient(225deg, transparent, white), url("/images/bg.png");
+}
+.cakes > .lwrap{
+    padding: 110rem 10px 105rem 10px;
+    max-width: 1250px;
+}
+.cakes > .lwrap > article{
+    width: 49.5%;
+}
+.cakes > .lwrap > .gallery{
+    width: 49.5%;
+}
+.cakes .gallery figure{
+    width: 48%;    
+    margin-bottom: 20px;
+    position: relative;
+}
+.cakes .gallery figure:before{
+    content: "";
+    position: absolute; 
+    border: 5px solid white;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+}
+.gallery{
+    position: relative;
+}
+.gallery .lbl-lg{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cakes p{
+    text-align: center;
+    color: #56534c;
+    font-family: ProximaNova;
+    line-height: 24px;
+}
+.cakes h3{
+    color: #56534c;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.cakes .avatar > span{
+    flex-grow: 1;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    padding: 20rem 0px;
+    color: #56534c;
+    font-size: 24px;
+}
+.cakes .avatar > figure{
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10rem;
+}
+
+/*PANCAKES*/
+.pancakes{
+    background: url("/images/board.png") center center;
+    background-size: cover;
+}
+.pancakes > .lwrap{
+    max-width: 1100px;
+    padding: 140rem 10px 103rem 10px;
+}
+
+/*BREAKFAST*/
+.breakfast{
+    background: url("/images/breakfast.png") center center;
+    background-size: cover;
+    text-align: center;
+}
+.breakfast > .lwrap{
+    max-width: 1320px;
+    padding: 90rem 10px 91rem 10px;
+}
+.breakfast hgroup h2{
+    color: white;
+    font-size: 60px;
+}
+.breakfast hgroup h4{
+    color: #c8a593;
+    font-size: 18px;
+}
+.menu{  
+    width: 56%;
+}
+.menu h5{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu p{
+    color: #c2beba;
+    font-family: ProximaNova;
+    font-size: 16px;
+    line-height: 30px;
+}
+.menu big{
+    color: #dfc691;
+    font-size: 36px;
+}
+.menu hr{
+    width: 104px;
+    height: 41px;
+    background: url("/images/bb.png")center center;
+    background-size: cover;
+}
+.description{
+    min-height: 579px;
+    width: 36%;
+    background:url("/images/morningbg.png")no-repeat right bottom, #f3f1e9;
+    padding: 10rem;
+    box-shadow: 7px 0 5px rgba(0, 0, 0, 0.8);
+}
+.description article{
+    border: 1px dashed #9e9c93;
+    padding: 20rem;
+}
+.description h2{
+    color: #56534c;
+    font-size: 44rem;
+    font-weight: 700;
+    line-height: 60rem;
+}
+.description p{
+    color: #56534c;
+    font-family: ProximaNova;
+    line-height: 30px;
+}
+.description .hdr{
+    width: 100%;
+    color: #56534c;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: url("/images/line.png")center bottom no-repeat, url("/images/eight.png")center bottom 15px no-repeat;
+    padding-bottom: 60px;
+}
+.description .hdr span{
+    padding: 5px;
+}
+
+/*SANDWICH*/
+.sandwich{
+    background: url("/images/landsape.png")center top no-repeat;
+}
+.sandwich > .lwrap{
+    max-width: 1290px;
+    padding: 86rem 10px 50rem 10px;
+}
+.sandwich hgroup{
+    width: 100%;
+    margin-bottom: 80rem;
+}
+.products{
+    width: 20%;
+    text-align: center;
+}
+.products figure{
+    box-shadow: 0 10px 10px rgba(0,0,0,.05);
+    border-radius: 50%;
+}
+.products h4{
+    color: #a47d5e;
+    font-family: Alegreya;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.products p{
+    color: #56534c;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.recipe{
+    width: 70%;
+}
+
+/*FOOTER*/
+footer{
+    min-height: 200px;
+}

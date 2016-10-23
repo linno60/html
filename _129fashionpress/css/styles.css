@@ -146,7 +146,7 @@ header > .lwrap{
     66.666%, 91.869%  { margin-left: -200%; }  
 }
 .slider  > #play:checked ~ ul > li:not(:first-child) {
-        animation: slide 12300ms infinite;
+    animation: slide 12300ms infinite;
 }
 /* IE 10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
