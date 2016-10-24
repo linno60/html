@@ -8,31 +8,16 @@ body > div{
 }
 figure > img, a > img{
     display: block;
+    width: 100%;
+    height: 100%;
 }
 .lwrap{
     max-width: 1004px;
     padding: 0px 10px;
 }
 
-/*RESET NEWSTICKER STYLES*/
-.nt-example1-container i{
-    margin: 0px;
-}
-.nt-example1 li, .nt-example1 li:hover{
-    background: none;
-    font-size: inherit;
-    border-bottom: none;
-}
-#nt-example1 li{
-    height: 217px;
-}
-#nt-example2 li{
-    height: 170px;
-}
-
 /*HEADER*/
 header{
-    height: 56px;
     background: #f0ecd5;    
 }
 header > .lwrap{
@@ -41,7 +26,7 @@ header > .lwrap{
 }
 #logo{
     position: relative;
-    margin-bottom: -7px;
+    margin: 0px 0px -7rem 2rem;
 }
 
 /*BANNER*/
@@ -49,21 +34,26 @@ header > .lwrap{
     background: white;
     box-shadow: 0px 1px 0px 0px #e5e2d0;
 }
-.banner > .lwrap{
-    max-width: 1004px;
+.banner .figure{
+    width: 70.3%;
 }
 .about{
-    background: url("/images/triangle.png");
-    margin-left: -158rem;
+    background: url("/images/triangle.png")no-repeat left top;
+    background-size: cover;
+    margin-left: -153rem;
     padding: 24rem 0px 56px 145rem;
+    width: 60%;
+}
+.about article{
+    width: 100%;
 }
 .about h1{
     text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
     color: #0e218a;
     font-family: MyriadPro;
-    font-size: 48px;
+    font-size: 48rem;
     font-weight: 700;
-    line-height: 44px;
+    line-height: 44rem;
     margin-bottom: 16rem;
     letter-spacing: -0.025em;
     max-width: 350px;
@@ -78,10 +68,11 @@ header > .lwrap{
 /*SLIDERS*/
 .latest-posts{
     position: relative;
+    max-height: 680px;
     width: 52.2%;
     border-radius: 4px;
     background: white;
-    margin: -16rem 0px -20rem 0px;
+    margin: -16rem 0px -22rem 0px;
     box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 white;
 }
 .latest-posts figure{
@@ -90,53 +81,57 @@ header > .lwrap{
     border: 1px solid #d7d7d7;
     box-shadow: inset 0.5px 0.9px 0 white;
     border-radius: 3px;
-    padding: 8rem;
-    margin-right: 22rem;
+    padding: 7rem;
+    margin: 0px 21rem 2px 0px;
+    width: 40.7%;
 }
-.latest-posts article{
-    padding: 20rem 20rem 20rem 20rem;
+.latest-posts li{
+    padding: 28rem 19rem 24rem 20rem;
 }
-.latest-posts li:not(:first-child) article{
+.latest-posts li:not(:first-child){
     background:url("/images/dividerlg.png")center top no-repeat;
 }
-.latest-posts article h3{
+.latest-posts article{
+    max-height: 36px;
+    overflow: hidden;
+    margin-bottom: 18rem;
+}
+.latest-posts article p{
+    color: #777;
+    line-height: 18px;    
+}
+.latest-posts h3{
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
     text-transform: uppercase;
-    margin-bottom: 10rem;
-    font-family: Myriad Pro;
+    margin: 6rem 0px 10rem 0px;
+    letter-spacing: -0.025em;
 }
-.latest-posts article h3 a{
+.latest-posts h3 a{
     color: #26389a;
 }
-.latest-posts article h3 a:active, .latest-posts article h3 a:hover, .latest-posts article h3 a:focus{
+.latest-posts h3 a:active, .latest-posts h3 a:hover, .latest-posts h3 a:focus{
     text-decoration: underline;
-}
-.latest-posts article p{
-    color: #777;
-    line-height: 18px;
-    margin-bottom: 10rem;
 }
 .latest-posts .hdr{
     border-radius: 0px 0px 3px 3px;
     padding: 14rem 11rem;
     max-width: 441px;
-    margin: -21rem auto 5px auto;
+    margin: -21rem auto -2rem auto;
     background: linear-gradient(#f7f5e9, #f0ecd5);
     box-shadow: 1px 1.7px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 white;
     position: relative;
 }
 .latest-posts .hdr h2{
     color: #213497;
-    font-family: Myriad Pro;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
     text-indent: 12rem;
 }
-.latest-posts .hdr:before{
+.latest-posts .hdr:after{
     width: 15px;
     height: 15px;
     left: 100%;
@@ -148,19 +143,30 @@ header > .lwrap{
 }
 .details{
     color: #c0bb9a;
-    font-size: 9px;
-    padding-bottom: 30rem;
+    font-size: 10px;
+    padding-bottom: 20rem;
     background: url("/images/dividersm.png")center bottom no-repeat;
+    letter-spacing: -0.03em;
+}
+.details small{
+    padding: 0px 5rem 0px 3rem;
+}
+.details span{
+    margin: 0px 4rem;
+}
+.newsticker li{
+    overflow: hidden;
+}
+#newsticker1 li{
+    height: 217px;
 }
 
 /*TOPICAL POSTS*/
 .topical-posts{
     width: 43%;
-    position: relative;
-    padding-top: 50rem;
+    position: relative;    
 }
 .topical-posts h2{
-    text-align: left;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     color: #172a90;
     font-family: MyriadPro;
@@ -168,16 +174,16 @@ header > .lwrap{
     font-weight: 700;
     line-height: 17px;
     text-transform: uppercase;
-    margin-bottom: 20rem;
+    margin-bottom: 28rem;
 }
-#nt-example2 li article{
-    width: 45%;
-    margin-bottom: 30rem;
+#newsticker2 li article{
+    width: 48%;
+    padding: 0px 30rem 5px 0px;
 }
-#nt-example2 article > *:not(.btn-more){
+#newsticker2 article > *:not(.btn-more){
     width: 100%;
 }
-#nt-example2 li article h4{
+#newsticker2 li article h4{
     font-family: inherit;
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     color: #a19c80;
@@ -185,36 +191,47 @@ header > .lwrap{
     font-weight: 400;
     line-height: 17px;
     text-transform: uppercase;
-    margin-bottom: 15rem;
+    margin-bottom: 11rem;
 }
-#nt-example2 li article p{
+#newsticker2 li article p{
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.75);
     line-height: 18px;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
+    max-height: 54px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+#newsticker2 li{
+    height: 150px;
+}
+.topical-posts > .newsticker{
+    padding: 46rem 0px 13rem 2rem;
 }
 .topical-posts article p, .topical-posts p a{    
     color: #777;    
 }
 .topical-posts article h4 i{
-    margin: 0px 10rem 0px 0px;
+    margin: 2rem 12rem 0px 0px;
     float: left;
 }
 .topical-posts .btn-more{
     flex-shrink: 0;
+    margin-right: 3rem;
 }
 .topical-posts .pagination-topical{
     position: absolute;
     top: -29px;
     right: 61rem;
 }
+.twitter-posts article{
+    padding-bottom: 25rem;
+    margin-bottom: 6rem;
+}
 .twitter-posts article:not(:last-child){
-    padding-bottom: 30rem;
-    margin-bottom: 15rem;
     background:url("/images/divider.png")no-repeat center bottom;
 }
 .twitter-posts p{
     line-height: 14px;
-    margin-bottom: 2rem;
 }
 .twitter-posts p a.link{
     color: #3243a2;
@@ -232,14 +249,16 @@ header > .lwrap{
     text-transform: uppercase;
     max-width: 160px;
     margin-bottom: 20rem;
+    text-indent: 2rem;
 }
 .twitter-posts h3 > i{
     flex-shrink: 0;
-    margin-right: 10rem;
+    margin: 6rem 13rem -3rem 0px;
+
 }
 .twitter-posts time{
     color: #9a967d;
-font-size: 11px;
+    font-size: 11px;
 }
 
 /*FOOTER*/
@@ -247,54 +266,84 @@ footer{
     background: linear-gradient(#0d1a62, #0d1a62 1px, #565f91 1px, #565f91 2px, #0d1a62 2px);
     flex-shrink: 0;
 }
+footer > .lwrap{
+    max-width: 964px;
+}
 .footer{
-    padding-top: 80rem;
+    padding: 43rem 0px 33rem 0px;
     background: radial-gradient(500rem at center, #12258b, transparent);
 }
+.footer > section{
+    margin-bottom: 10px;
+}
 .footer > .text-widget{
-    flex-basis: 38%;
+    flex-basis: 32.9%;
 }
 .footer > section:nth-child(2){
-    flex-basis: 20%;
+    flex-basis: 18.7%;
 }
 .footer > section:nth-child(3){
-    flex-basis: 38%;
+    flex-basis: 36.6%;
+}
+.footer form > div{
+    padding-right: 5rem;
 }
 .footer h5{
     text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 30rem;
+    margin-bottom: 12rem;
     font-family: MyriadPro;
+    letter-spacing: -0.025em;
 }
 .footer p{
     color: white;
     line-height: 18px;
-    margin-bottom: 10rem;
+    margin-bottom: 14rem;
+}
+.footer .text-widget p{
+    margin: 2rem 0px 16rem 0px;
+}
+.footer .text-widget p:last-of-type{
+    margin-bottom: 35rem;
 }
 .text-widget > *:not(.btn-alt){
     width: 100%;
 }
-.footer form input:not(:last-child){
-    margin-bottom: 9px;
+.footer form input{
+    margin-bottom: 9rem;
 }
 .footer form fieldset{
-    flex-basis: 48%;
+    width: 39.7%;
 }
 .footer form textarea{
-    flex-basis: 50%;    
-}
-.footer form button{
-    margin-top: 20rem;
+    width: 57%;
+    margin-bottom: 14rem;
 }
 .copyright{
     background: linear-gradient(90deg, transparent, #32489e 5%, #32489e, #32489e 95%, transparent) center top / 100% 1px no-repeat,
         radial-gradient(500rem at center -100rem, #203a90, transparent);
-    padding: 20rem 0px 20rem 0px;
+    padding: 14rem 29rem 24rem 10rem;
 }
 .copyright span{
     text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.19);
     color: white;
     font-size: 12px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .banner .figure, .latest-posts .hdr::after{display: none;}
+    .banner{background:url("/images/image.png")no-repeat center center;background-size: cover;}
+    .banner > .lwrap{background: rgba(255,255,255,.9);}
+    .about{margin:0px;background: none;padding: 0px 0px 50rem 0px;}
+}
+@media (max-width: 640px) {
+    .footer > .text-widget{flex-basis: 100%;}
+    .footer > section:nth-child(2){flex-basis: 39%;}
+    .footer > section:nth-child(3){flex-basis: 59%;}
+    .latest-posts{margin: 0px 0px 35px 0px;}
+    .latest-posts figure{width: 50%;}
+    .details{background: none;}
 }

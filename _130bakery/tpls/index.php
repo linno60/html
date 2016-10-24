@@ -128,7 +128,7 @@
                     <h2>The Jibarito sandwich</h2>
                     <h4>the best sandwich you've ever tasted!</h4>
                 </hgroup>
-                <div class='products' data-flex='vaxis' data-childs='vaxis'>
+                <div class='products' data-flex='vaxis'>
                     <article>
                         <figure><img src="/images/sandwich1.png" width="100" height="100" alt=""></figure>
                         <h4>Class aptent</h4>
@@ -146,7 +146,15 @@
                     </article>
                 </div>
                 <div class='recipe'>
-                    <figure><img src="/images/sandwichlg.png" width="820" height="536" alt=""></figure>
+                    <figure>
+                        <a href="#" class="btn btn-alt">full recipe</a>
+                        <img src="/images/sandwichlg.png" width="820" height="536" alt="">
+                        <div class="cooking-time" data-flex="vaxis">
+                            <span class="lbl lbl-time"><strong>prep</strong><time><span>15</span><small>mins</small></time></span>
+                            <span class="lbl lbl-time"><strong>cook</strong><time><span>35</span><small>mins</small></time></span>
+                            <span class="lbl lbl-time alt"><strong>ready in</strong><time><span>50</span><small>mins</small></time></span>
+                        </div>
+                    </figure>
                 </div>
             </div>
         </section>

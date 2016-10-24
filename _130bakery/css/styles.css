@@ -246,10 +246,15 @@ header .links-nav{
 .products{
     width: 20%;
     text-align: center;
+    height: 100%;
+}
+.products article{
+    padding: 5px;
 }
 .products figure{
     box-shadow: 0 10px 10px rgba(0,0,0,.05);
     border-radius: 50%;
+    display: inline-block;
 }
 .products h4{
     color: #a47d5e;
@@ -257,6 +262,7 @@ header .links-nav{
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
+    margin: 20rem 0px 20rem 0px;
 }
 .products p{
     color: #56534c;
@@ -264,9 +270,27 @@ header .links-nav{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    margin-bottom: 20rem;
 }
 .recipe{
     width: 70%;
+}
+.recipe figure{
+    position: relative;
+    border: 10px solid white;
+box-shadow: 0 0 18px rgba(0,0,0, .054);
+border: 10rem solid white;
+}
+.recipe figure .cooking-time{
+    position: absolute;
+    top: -20rem;
+    bottom: -20rem;
+    right: 0px;
+}
+.recipe figure .btn-alt{
+    position: absolute;
+    bottom: -15rem;
+    left: -15rem;
 }
 
 /*FOOTER*/

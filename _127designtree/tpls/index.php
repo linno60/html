@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="/css/addons/data-flex.css">
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
         <link rel="stylesheet" href="/css/addons/generic.css"> 
-        <link rel="stylesheet" href="/js/jquery/plugins/jquery-advanced-news-ticker-master/assets/css/main.css">  
         <link rel="stylesheet" href="/css/elements.css">        
         <link rel="stylesheet" href="/css/styles.css">         
         <script>
@@ -23,11 +22,11 @@
     <body data-flex="col">
         <div>
             <header>
-                <div class="lwrap" data-flex="stripe">
+                <div class="lwrap" data-flex="-start between" data-flex-480="vaxis">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="272" height="63" alt="Design Tree">
                     </a>
-                    <nav class="links-nav" data-flex="end w" data-childs="center -center">
+                    <nav class="links-nav" data-flex="end w" data-flex-480="center w" data-childs="center -center">
                         <a href="#" class="active">home</a>
                         <a href="#" class="dropdown-link">services</a>
                         <a href="#">portfolio</a>
@@ -38,8 +37,8 @@
                 </div>
             </header>
             <section class="banner">
-                <div class="lwrap" data-flex="stripe">
-                    <figure><img src="/images/image.png" width="604" height="386" alt=""></figure>
+                <div class="lwrap" data-flex="stripe" data-flex-800="vstripe">
+                    <div class="figure"><figure><img src="/images/image.png" width="604" height="386" alt=""></figure></div>
                     <div class="about" data-flex="col around -start">
                         <article>
                             <h1>I Create Beautiful Sites for My Clients</h1>
@@ -50,105 +49,107 @@
                     </div>
                 </div>
             </section>
-            <div class="lwrap" data-flex="stripe w">
-                <section class="nt-example1-container latest-posts">
-                    <div class="hdr" data-flex="axis">
-                        <h2>latest blog posts</h2>
-                        <div class="pagination-posts" data-flex data-childs="center -center">
-                            <a href="#"><i class="nt-example1-prev icon-next" id='nt-example1-prev'></i></a>
-                            <a href="#"><i class="nt-example1-next icon-prev" id='nt-example1-next'></i></a>
+            <div class="lwrap" data-flex="stripe w" data-flex-640="vstripe">
+                <section class="latest-posts newsticker">
+                    <div class="hdr">
+                        <div data-flex="axis">
+                            <h2>latest blog posts</h2>
+                            <div class="pagination-posts" data-flex data-childs="center -center">
+                                <a href="#" id='newsticker1-prev'><i class="icon-next"></i></a>
+                                <a href="#" id='newsticker1-next'><i class="icon-prev"></i></a>
+                            </div> 
                         </div>
                     </div>
-                    <ul class="nt-example1" id='nt-example1'>
-                        <li>
-                            <article class="clearfix">
-                                <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
-                                <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
-                                <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                    <ul id='newsticker1'>
+                        <li class="clearfix">
+                            <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
+                            <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
+                            <div class="details" data-flex="-center w"><small>Posted by charlie&emsp;|</small> <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                            <article>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
+                            <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                         </li>
-                        <li>
-                            <article class="clearfix">
-                                <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
-                                <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
-                                <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                        <li class="clearfix">
+                            <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
+                            <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
+                            <div class="details" data-flex="-center w"><small>Posted by charlie&emsp;|</small> <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                            <article>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
+                            <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                         </li>
-                        <li>
-                            <article class="clearfix">
-                                <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
-                                <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
-                                <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                        <li class="clearfix">
+                            <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
+                            <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
+                            <div class="details" data-flex="-center w"><small>Posted by charlie&emsp;|</small> <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                            <article>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
+                            <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                         </li>
-                        <li>
-                            <article class="clearfix">
-                                <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
-                                <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
-                                <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                        <li class="clearfix">
+                            <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
+                            <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
+                            <div class="details" data-flex="-center w"><small>Posted by charlie&emsp;|</small> <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                            <article>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
+                            <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                         </li>
-                        <li>
-                            <article class="clearfix">
-                                <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
-                                <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
-                                <div class="details" data-flex="-center w"><span>Posted by charlie</span> | <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                        <li class="clearfix">
+                            <figure><img src="/images/image2.png" width="177" height="127" alt=""></figure>
+                            <h3><a href="#">nulla ullamcorper vulp utate sapien</a></h3>
+                            <div class="details" data-flex="-center w"><small>Posted by charlie&emsp;|</small> <span>design</span> - <span>php</span> - <span>wordpress</span></div>
+                            <article>
                                 <p>Cras posuere, ipsum nec lobortis iaculis, metus quam convallis eros, at suscipit ante …</p>
-                                <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                             </article>
+                            <div data-flex="end"><a href="#" class="btn btn-default sm">read more</a></div>
                         </li>
                     </ul>
                 </section>
                 <section class="topical-posts">
-                    <div class="nt-example1-container">  
+                    <div class="newsticker" >  
                         <div class="pagination-topical" data-flex data-childs="center -center">
-                            <a href="#"><i class="nt-example1-prev icon-down" id='nt-example2-prev'></i></a>
-                            <a href="#"><i class="nt-example1-next icon-up" id='nt-example2-next'></i></a>
+                            <a href="#" id='newsticker2-prev'><i class="icon-down"></i></a>
+                            <a href="#" id='newsticker2-next'><i class="icon-up"></i></a>
                         </div>                  
                         <h2>ut rutrum suscipit convallisris</h2>
-                        <ul class="nt-example1" id='nt-example2' data-childs="stripe w">
+                        <ul id='newsticker2' data-childs="stripe w">
                             <li data-childs="col -end">
                                 <article>
                                     <h4><i class="icon-box"></i>ut rutrum sus cipit con</h4>
                                     <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
-                                    <a href="#" class="btn btn-more">read more</a>
+                                    <a href="#" class="btn btn-more">more</a>
                                 </article>
                                 <article>
                                     <h4><i class="icon-paint"></i>ut rutrum sus cipit con</h4>
                                     <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
-                                    <a href="#" class="btn btn-more">read more</a>
+                                    <a href="#" class="btn btn-more">more</a>
                                 </article>
                             </li>
                             <li data-childs="col -end">
                                 <article>
                                     <h4><i class="icon-pen"></i>ut rutrum sus cipit con</h4>
                                     <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
-                                    <a href="#" class="btn btn-more">read more</a>
+                                    <a href="#" class="btn btn-more">more</a>
                                 </article>
                                 <article>
                                     <h4><i class="icon-lamp"></i>ut rutrum sus cipit con</h4>
                                     <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
-                                    <a href="#" class="btn btn-more">read more</a>
+                                    <a href="#" class="btn btn-more">more</a>
                                 </article>
                             </li>
                             <li data-childs="col -end">
                                 <article>
                                     <h4><i class="icon-box"></i>ut rutrum sus cipit con</h4>
                                     <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
-                                    <a href="#" class="btn btn-more">read more</a>
+                                    <a href="#" class="btn btn-more">more</a>
                                 </article>
                                 <article>
                                     <h4><i class="icon-paint"></i>ut rutrum sus cipit con</h4>
                                     <p>Praesent varius faucibus nibh, nec imperdiet metus semper id. sent laoreet, leo quis gravida</p>
-                                    <a href="#" class="btn btn-more">read more</a>
+                                    <a href="#" class="btn btn-more">more</a>
                                 </article>
                             </li>
                             <li data-childs="col -end">
@@ -190,7 +191,7 @@
                         </ul>  
                     </div>
                     <div class="twitter-posts">
-                        <h3 data-flex="-center"><i class="icon-monitor"></i>follow me on twitter</h3>
+                        <h3 data-flex="-center"><i class="icon-monitor"></i><span>follow me on twitter</span></h3>
                         <article>
                             <p>A nice shot of my upcoming landing page design for the new category at <a href="#">#themeforest</a> <a href="#" class="link">http://drbl.in/DRH</a></p>
                             <time>2 days ago</time>
@@ -208,14 +209,14 @@
                 <div class="footer" data-flex="stripe w">
                     <section class="text-widget" data-flex="col -end">
                         <h5>Text Widget</h5>
-                        <p>Mauris ultrices sodales pretium. Nulla ullamcorper vulputate sapien ut accumsan. Etiam volutpat, purus ut dignissim tincidunt, quam erat consectetur Vestibulum sit amet accumsan ipsum</p>
-                        <p>metus, eget pharetra dolor mi vel anteQuisque posuere dolor sed ligula faci …</p>
+                        <p>Mauris ultrices sodales pretium. Nulla ullamcorper vulpu&shy;tate sapien ut accumsan. Etiam volutpat, purus ut dignis&shy;sim tincidunt, quam erat consectetur Vestibulum sit amet accumsan ipsum</p>
+                        <p>metus, eget pharetra dolor mi vel anteQuisque<br> posuere dolor sed ligula faci …</p>
                         <a href="#" class="btn btn-alt sm">read more</a>
                     </section>
                     <section>
                         <h5>Get in Touch</h5>
                         <div class="links-social" data-childs="" data-flex="col -start">
-                            <a href="#"><i class="icon-fb"></i>Like me on Facebook</a>
+                            <a href="#"><i class="icon-fb"></i>Like me on FaceBook</a>
                             <a href="#"><i class="icon-tw"></i>Follow me on Twitter</a>
                             <a href="#"><i class="icon-rss"></i>Subscribe to my RSS Feeds</a>
                             <a href="#"><i class="icon-mail"></i>Get in touch by Mail</a>
@@ -225,9 +226,10 @@
                     </section>
                     <section>
                         <h5>Quick contact</h5>
+                        <p>Aenean blandit auctor ullamcorper. Mauris eu enim vitae tellu ultrices vulputate in ac nibh. In viverra, enim ut varius </p>
                         <form action="#" method="post">
-                            <div data-flex="stripe" data-childs="col">
-                                <fieldset>
+                            <div data-flex="stripe" data-flex-480="vstripe">
+                                <fieldset data-flex="col">
                                     <input type="text" name="contact" placeholder="Name">
                                     <input type="email" name="contact" placeholder="E-Mail">
                                     <input type="text" name="contact" placeholder="Subject">
@@ -239,7 +241,7 @@
                     </section>
                 </div>
                 <div class="copyright" data-flex="axis">
-                    <span>&copy; 2010 bubblelicious.com | All Rights Reserved</span>
+                    <span>&copy; 2010 bubblelicious.com&nbsp; | &nbsp;All Rights Reserved</span>
                     <div class="links-footer" data-flex="end w">
                         <a href="#">About</a>
                         <a href="#">Facebook</a>
@@ -254,20 +256,22 @@
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
         <script>
-            var nt_example1 = $('#nt-example1').newsTicker({
+            var nt_example1 = $('#newsticker1').newsTicker({
                 row_height: 217,
                 max_rows: 3,
                 duration: 4000,
-                prevButton: $('#nt-example1-prev'),
-                nextButton: $('#nt-example1-next')
+                prevButton: $('#newsticker1-prev'),
+                nextButton: $('#newsticker1-next')
             });
-            var nt_example2 = $('#nt-example2').newsTicker({
-                row_height: 170,
+            nt_example1.newsTicker('stop');
+            var nt_example2 = $('#newsticker2').newsTicker({
+                row_height: 150,
                 max_rows: 2,
                 duration: 4000,
-                prevButton: $('#nt-example2-prev'),
-                nextButton: $('#nt-example2-next')
+                prevButton: $('#newsticker2-prev'),
+                nextButton: $('#newsticker2-next')
             });
+            nt_example2.newsTicker('stop');
         </script>
     </body>
 </html>

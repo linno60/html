@@ -88,11 +88,15 @@ body{
 .lbl-time{
     width: 200px;
     height: 200px;
-    background: url("/images/time.png")center center;
+    background: rgba(255,255,255,.8);
     background-size: cover;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    font-weight: 700;    
+}
+.lbl-time.alt{
+    background: url("/images/time.png")center center;
 }
 .lbl-time strong{
     color: #a47d5e;
@@ -100,9 +104,13 @@ body{
     text-transform: uppercase;
 }
 .lbl-time time span{
+   color: #56534c;
+font-size: 60px;
+    line-height: 40px;
+}
+.lbl-time.alt time span{
     color: #dfc691;
     font-size: 92px;
-    line-height: 40px;
 }
 .lbl-time time small{
     color: #979285;
