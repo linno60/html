@@ -278,8 +278,8 @@ header .links-nav{
 .recipe figure{
     position: relative;
     border: 10px solid white;
-box-shadow: 0 0 18px rgba(0,0,0, .054);
-border: 10rem solid white;
+    box-shadow: 0 0 18px rgba(0,0,0, .054);
+    border: 10rem solid white;
 }
 .recipe figure .cooking-time{
     position: absolute;
