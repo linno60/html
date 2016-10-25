@@ -79,7 +79,22 @@
         </section>
         <section class="pancakes">
             <div class="lwrap">
-                <img src="/images/pancakes.png" width="419" height="512" alt="">
+                <div class="pancakes-preview" data-flex="stripe">
+                    <figure><img src="/images/pancakes.png" width="419" height="512" alt=""><a href="#" class="btn btn-menu"></a></figure>                    
+                    <div data-flex="col around">
+                        <article>
+                            <hgroup>
+                                <h2>Tasty pancakes</h2>
+                                <h4>season favourite</h4>
+                            </hgroup>
+                            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+                        </article>
+                        <div class="pancakes-slider" data-flex="axis">
+                            <figure><img src="/images/slider1.png" width="90" height="90" alt=""></figure>
+                        </div>
+                    </div>
+                    <span class="lbl lbl-time alt"><strong>ready in</strong><time><span>40</span><small>mins</small></time></span>
+                </div>                
             </div>
         </section>
         <section class="breakfast">

@@ -63,6 +63,14 @@ body{
     border: 1px dashed #dfc691;
     color: #dfc691;
 }
+.btn-menu{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#d8bba3,#d8bba3) 20px 10px / 1px 30px no-repeat,
+        linear-gradient(#d8bba3,#d8bba3) 24px 10px / 1px 30px no-repeat,
+        linear-gradient(#d8bba3,#d8bba3) 28px 10px / 1px 30px no-repeat, white;
+}
 
 /*LABELS*/
 .lbl-lg{
@@ -93,7 +101,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    font-weight: 700;    
+    font-weight: 700; 
+    padding: 22rem;
 }
 .lbl-time.alt{
     background: url("/images/time.png")center center;
@@ -102,11 +111,13 @@ body{
     color: #a47d5e;
     font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 .lbl-time time span{
    color: #56534c;
 font-size: 60px;
-    line-height: 40px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
 }
 .lbl-time.alt time span{
     color: #dfc691;
@@ -116,6 +127,7 @@ font-size: 60px;
     color: #979285;
     font-size: 18px;
     display: block;
+    letter-spacing: 0.1em;
 }
 
 /*CITES*/
