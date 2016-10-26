@@ -131,7 +131,7 @@
                             <span>1893</span>
                         </div>
                         <h2>Your morning Escape with Flair</h2>
-                        <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+                        <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros<br> faucibus tincidunt. Duis leo.</p>
                         <a href="#" class="btn btn-default">read</a>
                     </article>
                 </div>                

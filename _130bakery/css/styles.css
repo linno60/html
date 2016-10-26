@@ -193,10 +193,10 @@ header .links-nav{
 }
 .pancakes-preview p{
     color: #56534c;
-font-family: ProximaNova;
-line-height: 24px;
-margin-bottom: 30rem;
-letter-spacing: 0.1em;
+    font-family: ProximaNova;
+    line-height: 24px;
+    margin-bottom: 30rem;
+    letter-spacing: 0.1em;
 }
 
 /*BREAKFAST*/
@@ -206,8 +206,12 @@ letter-spacing: 0.1em;
     text-align: center;
 }
 .breakfast > .lwrap{
-    max-width: 1320px;
-    padding: 90rem 10px 91rem 10px;
+    max-width: 1322px;
+    padding: 89rem 10px 91rem 10px;
+   background: url("/images/morningbg.png")no-repeat right bottom;
+}
+.breakfast hgroup{
+    margin-bottom: 60rem;
 }
 .breakfast hgroup h2{
     color: white;
@@ -242,26 +246,45 @@ letter-spacing: 0.1em;
     background-size: cover;
 }
 .description{
-    min-height: 579px;
-    width: 36%;
-    background:url("/images/morningbg.png")no-repeat right bottom, #f3f1e9;
+    border-radius: 0px 0px 0px 30px;
+    min-height: 600px;
+    margin-right: 25rem;
+    padding: 10rem;
+    width: 33.75%;
     padding: 10rem;
     box-shadow: 7px 0 5px rgba(0, 0, 0, 0.8);
+    background: 
+        linear-gradient(45deg, rgba(0,0,0,.05), transparent) 30px calc(100% - 30px) / 10px 10px no-repeat,
+        linear-gradient(90deg, rgba(0,0,0,.05), transparent) 30px bottom / 10px 30px no-repeat,
+        linear-gradient(transparent, rgba(0,0,0,.05)) left calc(100% - 30px) / 30px 10px no-repeat,
+        linear-gradient(#f3f1e9, #f3f1e9) bottom right / calc(100% - 30rem) no-repeat,
+        linear-gradient(#f3f1e9, #f3f1e9) left top / 100% calc(100% - 30rem) no-repeat,
+        linear-gradient(-135deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 49%, transparent 50%) left bottom / 30rem 30rem no-repeat,
+        linear-gradient(-135deg, white, white 49%, transparent 50%) left bottom / 30rem 30rem no-repeat;
 }
-.description article{
-    border: 1px dashed #9e9c93;
-    padding: 20rem;
+.description > article{
+    padding: 18rem 5px 40rem 5px;
+    border-radius: 0px 0px 0px 25px;
+    background:
+        url("/images/borderh.png") repeat-x 9px top,
+        url("/images/borderh.png") repeat-x 8px calc(100% - 1px),
+        url("/images/borderv.png") repeat-y left 3px,
+        url("/images/borderv.png") repeat-y right 1px;
 }
 .description h2{
     color: #56534c;
     font-size: 44rem;
     font-weight: 700;
     line-height: 60rem;
+    letter-spacing: 0.025em;
 }
 .description p{
     color: #56534c;
     font-family: ProximaNova;
     line-height: 30px;
+    letter-spacing: 0.05em;
+    max-width: 377px;
+    margin-bottom: 12rem;
 }
 .description .hdr{
     width: 100%;
@@ -269,7 +292,8 @@ letter-spacing: 0.1em;
     font-weight: 700;
     text-transform: uppercase;
     background: url("/images/line.png")center bottom no-repeat, url("/images/eight.png")center bottom 15px no-repeat;
-    padding-bottom: 60px;
+    padding-bottom: 65px;
+    margin-bottom: 30rem;
 }
 .description .hdr span{
     padding: 5px;
