@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1200;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -40,8 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div class="header lwrap" data-childs='center -center'>
-                <h1>Pastry with love</h1>
+            <div class="header lwrap" data-flex="col around -center" data-childs='center -center'>
+                <h1><span>P</span>astry with love</h1>
                 <hr>
                 <p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
                 <a href="#" class="btn btn-header">our menu</a>
@@ -49,13 +49,13 @@
             </div>
         </header>
         <section class="cakes">
-            <div class="lwrap" data-flex="-start between w" data-flex-640='vstripe'>
-                <article>
+            <div class="lwrap" data-flex="axis w" data-flex-640='vaxis'>
+                <article data-flex="vaxis">
                     <hgroup>
                         <h2>Art of cakes</h2>
                         <h4>we create delicious memories</h4>
                     </hgroup>
-                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
+                    <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
                     <h3>Chef Cook</h3>
                     <div class='avatar' data-flex='axis' data-childs='center -center'>
                         <span>Benito</span>
@@ -98,7 +98,7 @@
             </div>
         </section>
         <section class="breakfast">
-            <div class="lwrap" data-flex='between -start'>
+            <div class="lwrap" data-flex='axis w'>
                 <div class='menu'>
                     <hgroup>
                         <h2>Breakfast</h2>
@@ -124,13 +124,13 @@
                         </article>
                     </div>
                 </div>
-                <div class='description' data-flex>
-                    <article data-flex='col around -center'>
-                        <div class='hdr' data-flex='around'>
+                <div class='description'>
+                    <article data-flex="col around -center">
+                        <div class='hdr' data-flex='around -center'>
                             <span>est.</span>
                             <span>1893</span>
                         </div>
-                        <h2>Your morning Escape with Flair</h2>
+                        <h2 data-flex="-center">Your morning Escape with Flair</h2>
                         <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros<br> faucibus tincidunt. Duis leo.</p>
                         <a href="#" class="btn btn-default">read</a>
                     </article>
@@ -174,7 +174,7 @@
             </div>
         </section>
         <footer class="lwrap" data-flex='-center'>
-            <div class="links-menu" data-flex="axis" data-childs="around -center w">
+            <div class="links-menu" data-flex="between -end" data-childs="around -center w">
                 <div>
                     <a href="#">our menu</a>~
                     <a href="#">gallery</a>~

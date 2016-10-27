@@ -10,7 +10,7 @@
     <a href="#"><i class="icon-fb"></i></a>
     <a href="#"><i class="icon-inst"></i></a>
 </div>
-<div class="links-menu" data-flex="axis" data-childs="around -center w">
+<div class="links-menu" data-flex="between -end" data-childs="around -center w">
     <div>
         <a href="#">our menu</a>~
         <a href="#">gallery</a>~

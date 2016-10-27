@@ -10,12 +10,13 @@ body{
 }
 .links-nav a{
     margin: 0px 2px;    
+    letter-spacing: 0.3em;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-menu a:active, .links-menu a:hover, .links-menu a:focus{
     text-decoration: underline;
 }
 .links-social a{
-    margin: 14rem;
+    margin: 14.5rem;
     line-height: 1px;
 }
 .links-menu{
@@ -23,7 +24,7 @@ body{
 }
 .links-menu > div{
     flex-grow: 1;
-    padding: 20rem;
+    padding: 26rem 62rem;
     background: linear-gradient(#c2beba, #c2beba) center bottom / 90% 1px no-repeat,
         linear-gradient(#c2beba, #c2beba) center top / 90% 1px no-repeat,
         url("/images/shadowmenulg.png")center center / 99% no-repeat;
@@ -31,18 +32,21 @@ body{
 .links-menu, .links-menu a{
     color: #56534c;
     text-transform: uppercase;
+    letter-spacing: 0.3em;
 }
 
 /*BTNS*/
 .btn-header, .btn-default, .btn-alt{
     text-transform: uppercase;
     padding: 0px 5px;
-    font-weight: 700;
-    font-size: 18px; 
+    font-weight: 700;     
     text-align: center;
 }
 .btn-header, .btn-default{
     height: 50px;
+}
+.btn-default, .btn-alt{
+    font-size: 18px;
 }
 .btn-header{
     min-width: 200rem;    
@@ -54,7 +58,8 @@ body{
 .btn-default{
     min-width: 190rem;
     border: 1px solid #9e9c93;
-    color: #a47d5e;    
+    color: #a47d5e; 
+    letter-spacing: 0.05em;
 }
 .btn-alt{
     min-width: 171rem;
@@ -62,6 +67,7 @@ body{
     background: white;
     border: 1px dashed #dfc691;
     color: #dfc691;
+    letter-spacing: 0.05em;
 }
 .btn-menu{
     border-radius: 50%;
@@ -99,12 +105,13 @@ body{
     background: rgba(255,255,255,.8);
     background-size: cover;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
     font-weight: 700; 
-    padding: 22rem;
+    padding: 2px;
 }
 .lbl-time.alt{
+    padding: 22rem;
+    justify-content: space-around;
     background: url("/images/time.png")center center;
 }
 .lbl-time strong{
@@ -114,14 +121,15 @@ body{
     letter-spacing: 0.1em;
 }
 .lbl-time time span{
-   color: #56534c;
-font-size: 60px;
-    line-height: 84px;
+    color: #56534c;
+    font-size: 60px;
+    line-height: 66px;
     letter-spacing: 0.1em;
 }
 .lbl-time.alt time span{
     color: #dfc691;
     font-size: 92px;
+    line-height: 84px;
 }
 .lbl-time time small{
     color: #979285;
@@ -132,8 +140,9 @@ font-size: 60px;
 
 /*CITES*/
 blockquote{
-    max-width: 300px;
+    max-width: 410px;
     margin: auto;
+    width: 100%;
 }
 blockquote q{
     color: #a47d5e;
@@ -141,8 +150,9 @@ blockquote q{
     line-height: 30px;
     font-family: Scriptina;
     text-align: center;
-    padding: 0px 30px;
+    margin: -7px 49rem;
     display: inline-block;
+    letter-spacing: 0.025em;
 }
 blockquote span{
     color: rgba(86,83,76,.5);
@@ -151,8 +161,9 @@ blockquote span{
     display: block;
 }
 blockquote span:first-child{
-    line-height: 10px;
+    line-height: 1px;
 }
 blockquote span:last-child{
     text-align: right;
+    line-height: 54px;
 }
