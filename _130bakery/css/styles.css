@@ -32,8 +32,7 @@ header{
     background-size: cover;
 }
 .nav .links-nav{
-    flex-grow: 1;
-    max-width: 812px;
+    width: 63.36%;
 }
 .nav{
     background: rgba(86, 83, 76, 0.53);
@@ -88,7 +87,7 @@ header{
     left: 50%;
     bottom: 0px;
     z-index: 1;
-    transform: translate(-50%, 50%);   
+    transform: translate(-54%, 54%);   
 }
 
 /*CAKES*/
@@ -141,7 +140,7 @@ header{
     line-height: 24px;
     max-width: 500px;
     letter-spacing: 0.1em;
-    margin-bottom: 32rem;
+    margin-bottom: 33rem;
 }
 .cakes h3{
     color: #56534c;
@@ -149,7 +148,7 @@ header{
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-bottom: 39rem;
+    margin-bottom: 38rem;
 }
 .cakes .avatar{
     margin-bottom: 43rem;
@@ -178,14 +177,18 @@ header{
     max-width: 1100px;
     padding: 140rem 124rem 107rem 10px;
 }
-.pancakes-preview{    
+.pancakes-preview{   
+    border-radius: 0px 0px 0px 90px;
     position: relative;
+    margin-left: 1rem;
+    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.23);
     background:url("/images/mill.png") no-repeat bottom right,
         linear-gradient(white, white) 50px top / calc(100% - 50px) 100% no-repeat,
         linear-gradient(white, white) left top / 100% calc(100% - 50px) no-repeat;
 }
 .pancakes-preview > div{
     padding: 30rem 59rem 10px 61rem;
+    width: 56.55%;
 }
 .pancakes-preview .lbl-time, .pancakes-preview .btn-menu{
     position: absolute;
@@ -193,16 +196,29 @@ header{
 .pancakes-preview .lbl-time{
     right: -105rem;
     top: -43rem;
+    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.23);
 }
 .pancakes-preview .btn-menu{
     top: 50%;
     right: 0px;
-    transform: translate(50%, -50%);    
+    transform: translate(58%, -50%);    
 }
 .pancakes-preview > figure{
     position: relative;
     flex-shrink: 0;
-    width: 43.4%;
+    width: 43.45%;
+   position: relative;
+}
+.pancakes-preview > figure:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 7px -4px 9px rgba(0, 0, 0, 0.23);
+     background: 
+ linear-gradient(-136deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 51%, transparent 51%) left bottom / 50rem 50rem no-repeat,
+ linear-gradient(-136deg, white, white 51%, transparent 51%) left bottom / 50rem 50rem no-repeat;
 }
 .pancakes-preview hgroup{
     margin-bottom: 58rem;
@@ -279,6 +295,8 @@ header{
 }
 .description{
     border-radius: 0px 0px 0px 30px;
+    position: relative;
+    z-index: 1000;
     margin-right: 25rem;
     padding: 10rem;
     width: 33.75%;
@@ -291,6 +309,28 @@ header{
         linear-gradient(#f3f1e9, #f3f1e9) left top / 100% calc(100% - 30rem) no-repeat,
         linear-gradient(-135deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 49%, transparent 50%) left bottom / 30rem 30rem no-repeat,
         linear-gradient(-135deg, white, white 49%, transparent 50%) left bottom / 30rem 30rem no-repeat;
+}
+.description:before, .description:after{
+    content: "";
+    position: absolute;                  
+    background:url("/images/borderh.png") no-repeat left calc(100% - 10rem),
+        linear-gradient(#f3f1e9, #f3f1e9) right bottom / 20rem 20rem no-repeat,
+        url("/images/borderv.png") repeat-y 3rem 0rem,
+        linear-gradient(#f3f1e9, #f3f1e9);
+}
+.description:before{
+    top: 26rem;
+    bottom: 26rem;
+    right: -13rem;
+    width: 13rem;
+    box-shadow: inset 13px 0px 5px 0px rgba(0, 0, 0, 0.1), 7px 0px 5px 0px rgba(0, 0, 0, 0.8);
+}
+.description:after{
+    top: 50rem;
+    bottom: 49rem;
+    right: -25rem;
+    width: 12rem;
+    box-shadow: inset 13px 0px 5px 0px rgba(0, 0, 0, 0.2), 7px 0px 5px 0px rgba(0, 0, 0, 0.8);
 }
 .description > article{
     padding: 14rem 5px 56rem 5px;
@@ -308,6 +348,7 @@ header{
     line-height: 60rem;
     letter-spacing: 0.025em;
     min-height: 180px;
+    width: 100%;
 }
 .description p{
     color: #56534c;
@@ -372,34 +413,38 @@ header{
     line-height: 20px;    
     letter-spacing: 0.1em;
     margin: 0px -9rem;
+    max-width: 300px;
 }
 .products article:not(:last-child){
     margin-bottom: 54rem;
 }
 .recipe{
-    width: 67%;
+    width: 67.05%;
 }
 .recipe figure{
     position: relative;
     border: 10px solid white;
-    box-shadow: 0 0 18px rgba(0,0,0, .054);
+    box-shadow: 0px 10px 36px 0px rgba(0,0,0,.1);
     border: 10rem solid white;
 }
 .recipe figure .cooking-time{
     position: absolute;
     top: -34rem;
     bottom: -32rem;
-    right: 0px;
+    right: 0px;    
+}
+.recipe figure .lbl-time.alt{
+    box-shadow: 0px 10px 36px 0px rgba(0,0,0,.1);
 }
 .recipe figure .btn-alt{
     position: absolute;
-    bottom: -28rem;
-    left: -33rem;
+    bottom: -27rem;
+    left: -32rem;
 }
 
 /*FOOTER*/
 footer.lwrap{
-    min-height: 280px;
+    padding: 105rem 10px 70rem 10px;
         max-width: 1350px;
 }
 #logoalt{

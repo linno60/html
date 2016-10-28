@@ -73,9 +73,9 @@ body{
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    background: linear-gradient(#d8bba3,#d8bba3) 20px 10px / 1px 30px no-repeat,
-        linear-gradient(#d8bba3,#d8bba3) 24px 10px / 1px 30px no-repeat,
-        linear-gradient(#d8bba3,#d8bba3) 28px 10px / 1px 30px no-repeat, white;
+    background: linear-gradient(#d8bba3,#d8bba3) 18px 17px / 1px 16px no-repeat,
+        linear-gradient(#d8bba3,#d8bba3) 22px 17px / 1px 16px no-repeat,
+        linear-gradient(#d8bba3,#d8bba3) 26px 17px / 1px 16px no-repeat, white;
 }
 
 /*LABELS*/
@@ -86,8 +86,8 @@ body{
     text-transform: uppercase;
     padding: 20rem;
     text-align: center;
-    width: 279rem;
-    height: 279rem;
+    width: 238rem;
+    height: 238rem;
     background: url("/images/lbllg.png")center center;
     background-size: cover;
 }
@@ -96,7 +96,7 @@ body{
     height: 106rem;
     min-height: 80px;
     min-width: 80px;
-    background: radial-gradient(circle closest-side, white 70%, transparent 70%), url("/images/lblsm.png")center center;
+    background: radial-gradient(circle closest-side, white 74%, transparent 74%), url("/images/lblsm.png")center center;
     background-size: cover;
 }
 .lbl-time{
@@ -125,11 +125,14 @@ body{
     font-size: 60px;
     line-height: 66px;
     letter-spacing: 0.1em;
+    display: inline-block;
+    text-indent: 5rem; 
 }
 .lbl-time.alt time span{
     color: #dfc691;
     font-size: 92px;
     line-height: 84px;
+    text-indent: 10rem;    
 }
 .lbl-time time small{
     color: #979285;
