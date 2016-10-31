@@ -177,6 +177,7 @@ input[name=contact]:-ms-input-placeholder, textarea[name=contact]:-ms-input-plac
 .pagination-topical a{
     width: 49px;
     height: 31px;
+    cursor: pointer;
 }
 a:hover .icon-up {background: url('/images/icons/up-hover.png');}
 a:hover .icon-down {background: url('/images/icons/down-hover.png');}
@@ -188,6 +189,7 @@ a:hover .icon-prev {background: url('/images/icons/prev-hover.png');}
     height: 27px;
     border-radius: 50%;
     background: #f7f5e9;
+    cursor: pointer;
     box-shadow: 0.5px 0.9px 0 white, inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.22);
 }
 .pagination-posts a:hover{

@@ -77,6 +77,33 @@ body{
         linear-gradient(#d8bba3,#d8bba3) 22px 17px / 1px 16px no-repeat,
         linear-gradient(#d8bba3,#d8bba3) 26px 17px / 1px 16px no-repeat, white;
 }
+.btn-slide{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #d8bba3;
+    cursor: pointer;
+}
+.btn-slide.active, .btn-slide:active, .btn-slide:hover, .btn-slide:focus{
+    border: 2px solid #56534c;
+}
+.btn-slide.active:before, .btn-slide:active:before, .btn-slide:hover:before, .btn-slide:focus:before{
+    box-shadow: 2px 2px 0px #56534c;
+}
+.btn-slide:before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    box-shadow: 2px 2px 0px #d8bba3;
+}
+.btn-slide.prev:before{
+    transform: rotate(135deg);
+    margin-left: 9px;
+}
+.btn-slide.next:before{
+    transform: rotate(-45deg);
+    margin-right: 9px;
+}
 
 /*LABELS*/
 .lbl-lg{
@@ -86,10 +113,11 @@ body{
     text-transform: uppercase;
     padding: 20rem;
     text-align: center;
-    width: 238rem;
-    height: 238rem;
-    background: url("/images/lbllg.png")center center;
-    background-size: cover;
+    width: 279rem;
+    height: 279rem;
+    background:
+        url("/images/lbllg.png")center 18% / 87% 87% no-repeat,
+        url("/images/label-shadow.png") center center / 100% 100% no-repeat;
 }
 .lbl-sm{
     width: 106rem;

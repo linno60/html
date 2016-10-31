@@ -55,8 +55,8 @@
                         <div data-flex="axis">
                             <h2>latest blog posts</h2>
                             <div class="pagination-posts" data-flex data-childs="center -center">
-                                <a href="#" id='newsticker1-prev'><i class="icon-next"></i></a>
-                                <a href="#" id='newsticker1-next'><i class="icon-prev"></i></a>
+                                <a id='newsticker1-prev'><i class="icon-next"></i></a>
+                                <a id='newsticker1-next'><i class="icon-prev"></i></a>
                             </div> 
                         </div>
                     </div>
@@ -111,8 +111,8 @@
                 <section class="topical-posts">
                     <div class="newsticker" >  
                         <div class="pagination-topical" data-flex data-childs="center -center">
-                            <a href="#" id='newsticker2-prev'><i class="icon-down"></i></a>
-                            <a href="#" id='newsticker2-next'><i class="icon-up"></i></a>
+                            <a id='newsticker2-prev'><i class="icon-down"></i></a>
+                            <a id='newsticker2-next'><i class="icon-up"></i></a>
                         </div>                  
                         <h2>ut rutrum suscipit convallisris</h2>
                         <ul id='newsticker2' data-childs="stripe w">

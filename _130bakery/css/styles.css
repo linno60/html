@@ -182,12 +182,12 @@ header{
     position: relative;
     margin-left: 1rem;
     box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.23);
-    background:url("/images/mill.png") no-repeat bottom right,
+    background: url("/images/mill.png") no-repeat right bottom 3rem,
         linear-gradient(white, white) 50px top / calc(100% - 50px) 100% no-repeat,
         linear-gradient(white, white) left top / 100% calc(100% - 50px) no-repeat;
 }
 .pancakes-preview > div{
-    padding: 30rem 59rem 10px 61rem;
+    padding: 64rem 59rem 1px 61rem;
     width: 56.55%;
 }
 .pancakes-preview .lbl-time, .pancakes-preview .btn-menu{
@@ -203,11 +203,17 @@ header{
     right: 0px;
     transform: translate(58%, -50%);    
 }
+.pancakes-preview .rating-side{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30rem;
+}
 .pancakes-preview > figure{
     position: relative;
     flex-shrink: 0;
     width: 43.45%;
-   position: relative;
+    position: relative;
 }
 .pancakes-preview > figure:before{
     content: "";
@@ -216,9 +222,9 @@ header{
     width: 50px;
     height: 50px;
     box-shadow: 7px -4px 9px rgba(0, 0, 0, 0.23);
-     background: 
- linear-gradient(-136deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 51%, transparent 51%) left bottom / 50rem 50rem no-repeat,
- linear-gradient(-136deg, white, white 51%, transparent 51%) left bottom / 50rem 50rem no-repeat;
+    background: 
+        linear-gradient(-136deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 51%, transparent 51%) left bottom / 50rem 50rem no-repeat,
+        linear-gradient(-136deg, white, white 51%, transparent 51%) left bottom / 50rem 50rem no-repeat;
 }
 .pancakes-preview hgroup{
     margin-bottom: 58rem;
@@ -233,8 +239,36 @@ header{
     color: #56534c;
     font-family: ProximaNova;
     line-height: 24px;
-    margin-bottom: 30rem;
+    margin-bottom: 40rem;
     letter-spacing: 0.1em;
+}
+.owl-carousel{
+    width: calc(100% - 64px);
+}
+#owl-demo .item{
+    margin: 0px 15.5rem;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #d8bba3;
+    border-radius: 50%;
+    background: #d8bba3;
+    opacity: 1;
+    margin: 5px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: none;
+}
+.pancakes-slider .btn-slide{
+    flex-shrink: 0;
+    margin-bottom: 39rem;
+}
+.owl-theme .owl-controls {
+    margin-top: 13rem;
+}
+.rating{
+  margin: 0px 0px 32rem 4rem;  
 }
 
 /*BREAKFAST*/
@@ -245,8 +279,20 @@ header{
 }
 .breakfast > .lwrap{
     max-width: 1322px;
-    padding: 82rem 10px 62rem 10px;
-    background: url("/images/morningbg.png")no-repeat right bottom;
+    padding: 82rem 10px 62rem 10px;    
+    position: relative;
+}
+.breakfast > .lwrap:after{
+    position: absolute;
+    content: '';
+    right: -135rem;
+    bottom: 16rem;
+    background: url("/images/morningbg.png")no-repeat center center;
+    background-size: cover;
+    width: 346rem;
+    height: 204rem;
+    z-index: 1000;
+    pointer-events: none;
 }
 .breakfast hgroup{
     margin-bottom: 54rem;
@@ -445,7 +491,7 @@ header{
 /*FOOTER*/
 footer.lwrap{
     padding: 105rem 10px 70rem 10px;
-        max-width: 1350px;
+    max-width: 1350px;
 }
 #logoalt{
     margin: 3px;

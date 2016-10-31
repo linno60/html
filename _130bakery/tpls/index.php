@@ -8,9 +8,11 @@
         <link rel="stylesheet" href="/css/addons/reset-elements.css">
         <link rel="stylesheet" href="/css/addons/data-flex.css">
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
-        <link rel="stylesheet" href="/css/addons/generic.css">  
+        <link rel="stylesheet" href="/css/addons/generic.css">
+        <link rel="stylesheet" href="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="/js/jquery/plugins/owl.carousel/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="/css/elements.css">  
-        <link rel="stylesheet" href="/css/styles.css">  
+        <link rel="stylesheet" href="/css/styles.css">          
         <script>
             var LAYOUT_WIDTH = 1200;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -80,7 +82,11 @@
         <section class="pancakes">
             <div class="lwrap">
                 <div class="pancakes-preview" data-flex="stripe">
-                    <figure><img src="/images/pancakes.png" width="419" height="512" alt=""><a href="#" class="btn btn-menu"></a></figure>                    
+                    <figure>
+                        <div class="rating-side"><img src="/images/ratingside.png" width="21" height="140" alt=""></div>
+                        <img src="/images/pancakes.png" width="419" height="512" alt="">
+                        <a href="#" class="btn btn-menu"></a>
+                    </figure>                    
                     <div data-flex="col around">
                         <article>
                             <hgroup>
@@ -89,8 +95,24 @@
                             </hgroup>
                             <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
                         </article>
+                        <div class="rating"><img src="/images/rating.png" width="107" height="14" alt=""></div>
                         <div class="pancakes-slider" data-flex="axis">
-                            <figure><img src="/images/slider1.png" width="90" height="90" alt=""></figure>
+                            <a class="btn btn-slide prev"></a>
+                            <div id="owl-demo" class="owl-carousel owl-theme" data-flex="axis">
+                                <figure class="item"><img src="/images/slider1.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider2.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider3.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider1.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider2.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider3.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider1.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider2.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider3.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider1.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider2.png" width="90" height="90" alt=""></figure>
+                                <figure class="item"><img src="/images/slider3.png" width="90" height="90" alt=""></figure>
+                            </div>
+                            <a class="btn btn-slide next"></a>
                         </div>
                     </div>
                     <span class="lbl lbl-time alt"><strong>ready in</strong><time><span>40</span><small>mins</small></time></span>
@@ -191,7 +213,27 @@
             </div>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                var owl = $("#owl-demo");
+
+                owl.owlCarousel({
+                    items : 3
+                });
+
+                // Custom Navigation Events
+                $(".next").click(function () {
+                    owl.trigger('owl.next');
+                })
+                $(".prev").click(function () {
+                    owl.trigger('owl.prev');
+                })
+
+            });
+        </script>
     </body>
 </html>
