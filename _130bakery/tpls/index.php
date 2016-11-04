@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">          
         <script>
-            var LAYOUT_WIDTH = 1200;
+            var LAYOUT_WIDTH = 1350;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -24,11 +24,11 @@
     <body>
         <header>
             <div class="nav">
-                <div class="lwrap" data-flex="axis">
+                <div class="lwrap" data-flex="axis" data-flex-480="axis w">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="140" height="44" alt="Gustoso">
                     </a> 
-                    <nav class="links-nav" data-flex="around -center w">
+                    <nav class="links-nav" data-flex="around -center w" data-flex-800="center -center w">
                         <a href="#">welcome</a>~
                         <a href="#">menu</a>~
                         <a href="#">reservations</a>~
@@ -51,7 +51,7 @@
             </div>
         </header>
         <section class="cakes">
-            <div class="lwrap" data-flex="axis w" data-flex-640='vaxis'>
+            <div class="lwrap" data-flex="axis w" data-flex-640='vstripe'>
                 <article data-flex="vaxis">
                     <hgroup>
                         <h2>Art of cakes</h2>
@@ -120,10 +120,10 @@
             </div>
         </section>
         <section class="breakfast">
-            <div class="lwrap" data-flex='axis w'>
+            <div class="lwrap" data-flex='axis w' data-flex-480="vstripe">
                 <div class='menu'>
                     <hgroup>
-                        <h2>Breakfast</h2>
+                        <h2>Break&shy;fast</h2>
                         <h4>7am breakfast? we're open!</h4>
                     </hgroup>
                     <div>
@@ -160,12 +160,12 @@
             </div>
         </section>
         <section class="sandwich">
-            <div class="lwrap" data-flex='axis w'>
+            <div class="lwrap" data-flex='axis w' data-flex-800="vstripe">
                 <hgroup>
                     <h2>The Jibarito sandwich</h2>
                     <h4>the best sandwich you've ever tasted!</h4>
                 </hgroup>
-                <div class='products' data-flex='vaxis'>
+                <div class='products' data-flex='vaxis' data-flex-800="stripe" data-flex-480="vaxis">
                     <article>
                         <figure><img src="/images/sandwich1.png" width="100" height="100" alt=""></figure>
                         <h4>Class aptent</h4>

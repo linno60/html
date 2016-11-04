@@ -1,6 +1,5 @@
 /*COMMON*/
-.lwrap{
-    max-width: 1200px;
+.lwrap{ 
     padding: 0px 10px;
 }
 figure > img, a > img{
@@ -17,7 +16,7 @@ hgroup *{
 }
 hgroup h2{
     color: #56534c;
-    font-size: 48px;
+    font-size: 48rem;
     letter-spacing: 0.025em;
 }
 hgroup h4{
@@ -92,7 +91,7 @@ header{
 
 /*CAKES*/
 .cakes{
-    border-top: 10px solid white;
+    border-top: 10rem solid white;
     background: linear-gradient(225deg, transparent, white), url("/images/bg.png");
 }
 .cakes > .lwrap{
@@ -299,8 +298,8 @@ header{
 }
 .breakfast hgroup h2{
     color: white;
-    font-size: 60px;
-    line-height: 64px;
+    font-size: 60rem;
+    line-height: 64rem;
     letter-spacing: 0.05em;
 }
 .breakfast hgroup h4{
@@ -314,9 +313,9 @@ header{
 }
 .menu h5{
     color: white;
-    font-size: 30px;
+    font-size: 30rem;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 40rem;
     letter-spacing: 0.05em;
 }
 .menu p{
@@ -329,18 +328,18 @@ header{
 }
 .menu big{
     color: #dfc691;
-    font-size: 36px;
+    font-size: 36rem;
     letter-spacing: 0.05em;
 }
 .menu hr{
     width: 104px;
     height: 41px;
-    margin: 5px auto -6rem auto;
+    margin: 5rem auto -6rem auto;
     background: url("/images/bb.png")center center;
     background-size: cover;
 }
 .description{
-    border-radius: 0px 0px 0px 30px;
+    border-radius: 0px 0px 0px 30rem;
     position: relative;
     z-index: 1000;
     margin-right: 25rem;
@@ -348,9 +347,9 @@ header{
     width: 33.75%;
     box-shadow: 7px 0 5px rgba(0, 0, 0, 0.8);
     background: 
-        linear-gradient(45deg, rgba(0,0,0,.05), transparent) 30px calc(100% - 30px) / 10px 10px no-repeat,
-        linear-gradient(90deg, rgba(0,0,0,.05), transparent) 30px bottom / 10px 30px no-repeat,
-        linear-gradient(transparent, rgba(0,0,0,.05)) left calc(100% - 30px) / 30px 10px no-repeat,
+        linear-gradient(45deg, rgba(0,0,0,.05), transparent) 30rem calc(100% - 30rem) / 10rem 10rem no-repeat,
+        linear-gradient(90deg, rgba(0,0,0,.05), transparent) 30rem bottom / 10rem 30rem no-repeat,
+        linear-gradient(transparent, rgba(0,0,0,.05)) left calc(100% - 30rem) / 30rem 10rem no-repeat,
         linear-gradient(#f3f1e9, #f3f1e9) bottom right / calc(100% - 30rem) no-repeat,
         linear-gradient(#f3f1e9, #f3f1e9) left top / 100% calc(100% - 30rem) no-repeat,
         linear-gradient(-135deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 49%, transparent 50%) left bottom / 30rem 30rem no-repeat,
@@ -393,8 +392,8 @@ header{
     font-weight: 700;
     line-height: 60rem;
     letter-spacing: 0.025em;
-    min-height: 180px;
-    width: 100%;
+    min-height: 180rem;
+    max-width: 100%;
 }
 .description p{
     color: #56534c;
@@ -461,8 +460,8 @@ header{
     margin: 0px -9rem;
     max-width: 300px;
 }
-.products article:not(:last-child){
-    margin-bottom: 54rem;
+.products article{
+    margin: 27rem 10px;
 }
 .recipe{
     width: 67.05%;
@@ -495,4 +494,25 @@ footer.lwrap{
 }
 #logoalt{
     margin: 3px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+      .header p{font-size: 14px;line-height: 21px;}  
+      .menu, .description{width: 48%;}
+      hgroup h2 {font-size: 28px;}
+      .breakfast hgroup h2 {font-size: 36px; line-height: 38px;}
+      .menu h5{font-size: 18px; line-height: 24px;}
+      .menu big{font-size: 17px;}
+      .recipe figure .btn-alt{left: -10px;bottom: -10px;}
+      .recipe figure .cooking-time{top: 10px; bottom: 10px;}
+}
+@media (max-width: 640px) {
+       .lbl-lg{font-size: 14px;line-height: 18px;} 
+       .header .lbl-sm{display: none;}
+}
+@media (max-width: 480px) {
+    .description:after, .description:before{display: none;}
+       .nav .links-nav {width: 100%;order: 2;}
+       .description h2{font-size: 15.5px;line-height: 20px;}
 }

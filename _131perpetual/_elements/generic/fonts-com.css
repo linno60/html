@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=d1a8c2a6-1d48-4cf3-907e-542239a7a254");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "SARAHSCRIPT";
+    src: url("/fonts/fonts.com/a6e5ef23-4edd-4ba5-8f0c-20c30982f543.woff2") format("woff2"), url("/fonts/fonts.com/24385196-3035-41ba-9e80-cc6450a3552e.woff") format("woff");
+}

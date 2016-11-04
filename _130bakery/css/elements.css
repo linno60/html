@@ -9,7 +9,7 @@ body{
     text-transform: uppercase;
 }
 .links-nav a{
-    margin: 0px 2px;    
+    margin: 0px 3px;    
     letter-spacing: 0.3em;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-menu a:active, .links-menu a:hover, .links-menu a:focus{
@@ -111,13 +111,16 @@ body{
     font-size: 30rem;
     line-height: 36rem;
     text-transform: uppercase;
-    padding: 20rem;
+    padding: 20rem 20rem 45rem 20rem;
     text-align: center;
     width: 279rem;
     height: 279rem;
+    min-width: 110px;
+    min-height: 110px;
     background:
-        url("/images/lbllg.png")center 18% / 87% 87% no-repeat,
+        url("/images/lbllg.png")center 10% / 89% 89% no-repeat,
         url("/images/label-shadow.png") center center / 100% 100% no-repeat;
+    letter-spacing: 0.045em;
 }
 .lbl-sm{
     width: 106rem;
@@ -128,8 +131,10 @@ body{
     background-size: cover;
 }
 .lbl-time{
-    width: 200px;
-    height: 200px;
+    width: 200rem;
+    height: 200rem;
+    min-width: 85px;
+    min-height: 85px;
     background: rgba(255,255,255,.8);
     background-size: cover;
     flex-direction: column;
@@ -147,19 +152,21 @@ body{
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    line-height: 14px;
+    padding: 4rem;
 }
 .lbl-time time span{
     color: #56534c;
-    font-size: 60px;
-    line-height: 66px;
+    font-size: 60rem;
+    line-height: 66rem;
     letter-spacing: 0.1em;
     display: inline-block;
     text-indent: 5rem; 
 }
 .lbl-time.alt time span{
     color: #dfc691;
-    font-size: 92px;
-    line-height: 84px;
+    font-size: 92rem;
+    line-height: 84rem;
     text-indent: 10rem;    
 }
 .lbl-time time small{
@@ -181,7 +188,7 @@ blockquote q{
     line-height: 30px;
     font-family: Scriptina;
     text-align: center;
-    margin: -7px 49rem;
+    margin: -7px 49px;
     display: inline-block;
     letter-spacing: 0.025em;
 }
