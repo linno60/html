@@ -174,7 +174,7 @@ header{
 }
 .pancakes > .lwrap{
     max-width: 1100px;
-    padding: 140rem 124rem 107rem 10px;
+    padding: 140rem 124rem 108rem 10px;
 }
 .pancakes-preview{   
     border-radius: 0px 0px 0px 90px;
@@ -195,7 +195,7 @@ header{
 .pancakes-preview .lbl-time{
     right: -105rem;
     top: -43rem;
-    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 20rem 60rem 0px rgba(0, 0, 0, 0.23);
 }
 .pancakes-preview .btn-menu{
     top: 50%;
@@ -222,8 +222,8 @@ header{
     height: 50px;
     box-shadow: 7px -4px 9px rgba(0, 0, 0, 0.23);
     background: 
-        linear-gradient(-136deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 51%, transparent 51%) left bottom / 50rem 50rem no-repeat,
-        linear-gradient(-136deg, white, white 51%, transparent 51%) left bottom / 50rem 50rem no-repeat;
+        linear-gradient(-136deg, transparent, transparent 20%, rgba(86, 83, 76, .12) 51%, transparent 51%) left bottom / 50px 50px no-repeat,
+        linear-gradient(-136deg, white, white 51%, transparent 51%) left bottom / 50px 50px no-repeat;
 }
 .pancakes-preview hgroup{
     margin-bottom: 58rem;
@@ -267,7 +267,7 @@ header{
     margin-top: 13rem;
 }
 .rating{
-  margin: 0px 0px 32rem 4rem;  
+    margin: 0px 0px 32rem 4rem;  
 }
 
 /*BREAKFAST*/
@@ -278,7 +278,7 @@ header{
 }
 .breakfast > .lwrap{
     max-width: 1322px;
-    padding: 82rem 10px 62rem 10px;    
+    padding: 82rem 10px 61rem 10px;    
     position: relative;
 }
 .breakfast > .lwrap:after{
@@ -381,8 +381,8 @@ header{
     padding: 14rem 5px 56rem 5px;
     border-radius: 0px 0px 0px 25px;
     background:
-        url("/images/borderh.png") repeat-x 9px top,
-        url("/images/borderh.png") repeat-x 8px calc(100% - 1px),
+        url("/images/borderh.png") repeat-x 9rem top,
+        url("/images/borderh.png") repeat-x 8rem calc(100% - 1px),
         url("/images/borderv.png") repeat-y left 3px,
         url("/images/borderv.png") repeat-y right 1px;
 }
@@ -460,8 +460,8 @@ header{
     margin: 0px -9rem;
     max-width: 300px;
 }
-.products article{
-    margin: 27rem 10px;
+.products article:not(:last-child){
+    margin-bottom: 54rem;
 }
 .recipe{
     width: 67.05%;
@@ -497,22 +497,34 @@ footer.lwrap{
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+    .pancakes > .lwrap {padding: 140rem 0px 107rem 0px;}
+    .pancakes-preview > div {padding: 80rem 10px 1px 26px;width: 56.55%;}
+    .pancakes-preview .lbl-time {right: 5rem;top: -100rem;}
+}
+@media (max-width: 960px) {
+    .pancakes-preview > figure::before{display: none;}
+    .pancakes-preview {border-radius: 0px; margin-left: 0; background: url("/images/mill.png")no-repeat right bottom 3rem, white;}}
 @media (max-width: 800px) {
-      .header p{font-size: 14px;line-height: 21px;}  
-      .menu, .description{width: 48%;}
-      hgroup h2 {font-size: 28px;}
-      .breakfast hgroup h2 {font-size: 36px; line-height: 38px;}
-      .menu h5{font-size: 18px; line-height: 24px;}
-      .menu big{font-size: 17px;}
-      .recipe figure .btn-alt{left: -10px;bottom: -10px;}
-      .recipe figure .cooking-time{top: 10px; bottom: 10px;}
+    .header p{font-size: 14px;line-height: 21px;}  
+    .menu, .description{width: 48%;}
+    hgroup h2 {font-size: 28px;}
+    .breakfast hgroup h2 {font-size: 36px; line-height: 38px;}
+    .menu h5{font-size: 18px; line-height: 24px;}
+    .menu big{font-size: 17px;}
+    .recipe figure .btn-alt{left: -10px;bottom: -10px;}
+    .recipe figure .cooking-time{top: 10px; bottom: 10px;}
+    .links-menu > div{padding: 26rem;}
+    .products article{margin: 10px;}
 }
 @media (max-width: 640px) {
-       .lbl-lg{font-size: 14px;line-height: 18px;} 
-       .header .lbl-sm{display: none;}
+    .lbl-lg{font-size: 14px;line-height: 18px;} 
+    .header .lbl-sm{display: none;}
+    .pancakes-preview .btn-menu { bottom: 0px; top: auto; right: 50%; transform: translate(50%, 50%);}
 }
 @media (max-width: 480px) {
     .description:after, .description:before{display: none;}
-       .nav .links-nav {width: 100%;order: 2;}
-       .description h2{font-size: 15.5px;line-height: 20px;}
+    .nav .links-nav {width: 100%;order: 2;}
+    .description h2{font-size: 15.5px;line-height: 20px;}
+    .recipe figure .cooking-time{top: 0px; bottom: auto;}
 }

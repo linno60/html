@@ -1,0 +1,173 @@
+/*COMMON*/
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.lwrap{
+    max-width: 982px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    background:
+        linear-gradient(white, white) center calc(100% - 12rem)/ 100% 1px repeat-x,
+        linear-gradient(90deg, #960b38, #960b38 34rem, transparent 34rem , transparent 102rem) 0px bottom / 102rem 12rem repeat-x,
+        linear-gradient(90deg, #bf2e5d, #bf2e5d 34rem, transparent 34rem , transparent 102rem) 34rem bottom / 102rem 12rem repeat-x,
+        linear-gradient(90deg, #d1587f, #d1587f 34rem, transparent 34rem , transparent 102rem) 68rem bottom / 102rem 12rem repeat-x
+        #b1345d; 
+    padding-bottom: 13rem;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+#logo{
+    margin-bottom: -40rem;
+}
+
+/*SLIDER*/
+.slider-wrap{
+    background: #efefef linear-gradient(rgba(194, 191, 184, 0.25), rgba(146, 142, 133, 0.25));
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4);
+}
+.slider-wrap article{
+    width: 48%;
+}
+.slider-wrap h1{
+    color: #821237;
+    font-family: SARAHSCRIPT;
+    font-size: 49px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.slider-wrap p{
+    color: #131212;
+    font-size: 16px;
+    margin-bottom: 20rem;
+    line-height: 23px;
+}
+
+/*PREVIEW*/
+.preview{
+    border-top: 1px solid #900633;
+    background: #b1345d url("/images/borderfooter.png")repeat-x center 5px;
+    box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.3);
+}
+.preview > .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+.preview p{
+    color: white;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.preview h3{
+    text-shadow: 1.2px 1.6px 2px rgba(0, 0, 0, 0.65);
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10rem;
+    text-transform: capitalize;
+}
+
+/*CONTENT*/
+.content-wrap{
+    background: linear-gradient(transparent 60%, rgba(189, 188, 188, 0.9) 60%), linear-gradient(90deg, transparent 60%, rgba(189, 188, 188, 0.9) 60%) 6px 6px, #d7d6d6;
+    background-size: 5px 5px;
+}
+.content-wrap > .lwrap > div > *{
+    width: 48%;
+}
+.content-wrap h2{
+    color: #201e1e;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.content-wrap h2 [class^=icon-]{
+    margin-right: 10rem;
+}
+.content-wrap p{
+    color: #3b3939;
+    line-height: 24px;
+    margin-bottom: 10rem;
+}
+.featured{
+    padding: 30rem 0px;
+    background: url("/images/featuredborder.png")repeat-x center top;
+}
+.featured figure{
+    width: 33%;
+}
+
+/*NEWS*/
+.news{
+    background:         
+        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 0px 5px / 2px 1px,
+        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 0px 7px / 2px 1px,
+        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 0px 9px / 2px 1px,
+        linear-gradient(#fbfbfb, #fbfbfb) left 4px / 100% 6px repeat-x;
+}
+.news article{
+    width: 30%;
+    border-top: 6px solid #8f8e8f;
+    background: url("/images/newsbg.png")repeat-x 3px 1px;
+    padding: 20rem 0px;
+}
+.news .hdr{
+    margin: -20rem auto 30rem auto;
+}
+.news p{
+    color: #4c4b4b;
+    margin-bottom: 10rem;
+    font-size: 14px;
+    line-height: 24px;
+}
+.news h4{
+    color: #413f3f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.news h4 [class^=icon-]{
+    margin-right: 10rem;
+}
+
+/*FOOTER*/
+footer{
+    flex-shrink: 0;    
+}
+.footer > .lwrap{
+    padding: 30rem 10px 10rem 10px;
+}
+.footer{
+    background: url("/images/footertop.png")repeat-x center top, url("/images/borderfooter.png")repeat-x center bottom 2px, #b1345d;
+}
+.footer > .lwrap > div{
+    margin-bottom: 20px;
+}
+.footer h5{
+    text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer h3{
+    text-shadow: 1.2px 1.6px 2px rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer .input-default{
+    width: 48%;
+}
+.copyright{
+    color: #f9f9f9;
+    background: linear-gradient(#353434, #1b1a1a);
+    border-top: 1px solid #a8244f;
+    box-shadow: 0px -1px 0px 0px #aa2650, inset 0px 1px 0px 0px #97254a;
+    padding: 7rem 10px 5rem 10px;
+
+}

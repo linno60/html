@@ -27,7 +27,7 @@
                 <div class="lwrap" data-flex="axis" data-flex-480="axis w">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="140" height="44" alt="Gustoso">
-                    </a> 
+                    </a>                    
                     <nav class="links-nav" data-flex="around -center w" data-flex-800="center -center w">
                         <a href="#">welcome</a>~
                         <a href="#">menu</a>~
@@ -81,13 +81,14 @@
         </section>
         <section class="pancakes">
             <div class="lwrap">
-                <div class="pancakes-preview" data-flex="stripe">
+                <div class="pancakes-preview" data-flex="stripe" data-flex-640="vstripe">
                     <figure>
                         <div class="rating-side"><img src="/images/ratingside.png" width="21" height="140" alt=""></div>
                         <img src="/images/pancakes.png" width="419" height="512" alt="">
                         <a href="#" class="btn btn-menu"></a>
                     </figure>                    
                     <div data-flex="col around">
+                        <span class="lbl lbl-time alt"><strong>ready in</strong><time><span>40</span><small>mins</small></time></span>
                         <article>
                             <hgroup>
                                 <h2>Tasty pancakes</h2>
@@ -114,8 +115,7 @@
                             </div>
                             <a class="btn btn-slide next"></a>
                         </div>
-                    </div>
-                    <span class="lbl lbl-time alt"><strong>ready in</strong><time><span>40</span><small>mins</small></time></span>
+                    </div>                    
                 </div>                
             </div>
         </section>
@@ -186,7 +186,7 @@
                     <figure>
                         <a href="#" class="btn btn-alt">full recipe</a>
                         <img src="/images/sandwichlg.png" width="820" height="536" alt="">
-                        <div class="cooking-time" data-flex="vaxis">
+                        <div class="cooking-time" data-flex="vaxis" data-flex-480="end">
                             <span class="lbl lbl-time"><strong>prep</strong><time><span>15</span><small>mins</small></time></span>
                             <span class="lbl lbl-time"><strong>cook</strong><time><span>35</span><small>mins</small></time></span>
                             <span class="lbl lbl-time alt"><strong>ready in</strong><time><span>50</span><small>mins</small></time></span>
@@ -196,19 +196,19 @@
             </div>
         </section>
         <footer class="lwrap" data-flex='-center'>
-            <div class="links-menu" data-flex="between -end" data-childs="around -center w">
+            <div class="links-menu" data-flex="between -end" data-flex-800="axis" data-childs-800="center -center w" data-childs="around -center w">
                 <div>
-                    <a href="#">our menu</a>~
-                    <a href="#">gallery</a>~
-                    <a href="#">culture</a>
+                    <a href="#">our me&shy;nu</a>~
+                    <a href="#">gal&shy;lery</a>~
+                    <a href="#">cul&shy;ture</a>
                 </div>
                 <a href="/" title="Return to the homepage" id="logoalt">
                     <img src="/images/logoalt.png" width="140" height="44" alt="Gustoso">
                 </a>
                 <div>
-                    <a href="#">events</a>~
-                    <a href="#">catering</a>~
-                    <a href="#">visit us</a>
+                    <a href="#">ev&shy;ents</a>~
+                    <a href="#">cate&shy;ring</a>~
+                    <a href="#">vi&shy;sit us</a>
                 </div> 
             </div>
         </footer>

@@ -18,11 +18,13 @@
 
 <h>Accordion</h>
 
-<div class="accordion">
-    <a href="#" class="active">fashion</a>
+<div class="accordion" data-childs="-center">
+    <a href="#" class="active">ansen quist diam nibh lacus</a>
     <div class="active">Tab number 1</div>
-    <a href="#">fashion</a>
+    <a href="#">erat alium cras orci magnus nam sit</a>
     <div>Tab number 2</div>
-    <a href="#">fashion</a>
+    <a href="#">ligula aeanes quist</a>
     <div>Tab number 3</div>
+    <a href="#">odio mollus cursus penant maecasus</a>
+    <div>Tab number 4</div>
 </div>
