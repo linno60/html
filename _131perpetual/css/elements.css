@@ -17,9 +17,10 @@ body{
 .links-nav a{
     color: #ebebeb;
     font-size: 16px;
-    padding: 10rem;
+    padding: 0px 15rem;
     text-transform: capitalize;
     text-align: center;
+    letter-spacing: -0.008em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     background-color: #2b2a2a;
@@ -30,12 +31,15 @@ body{
     line-height: 1px;
     margin: 6rem;
 }
+.links-social{
+    margin-right: -6rem;
+}
 .links-footer a{
     color: white;
-    margin-bottom: 5rem;
-    padding-left: 15px;
+    margin-bottom: 9rem;
+    padding-left: 25px;
     text-indent: 7rem;
-    background: url(/images/icons/arrow.png) left 3px no-repeat;
+    background: url(/images/icons/arrow.png) 9px 3px no-repeat;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
@@ -49,6 +53,7 @@ body{
     color: white;
     text-transform: capitalize;
     padding: 0px 2px;
+    text-align: center;
 }
 .btn-default, .btn-submit{
     background: linear-gradient(#45494d, #171717 80%, #45484d);
@@ -71,6 +76,20 @@ body{
     height: 34px;
     border-radius: 3px;
 }
+.btn-alt.lg{
+    min-width: 263rem;
+    height: 64px;
+    font-size: 29px;
+    border-radius: 30px;
+    padding: 0px 65rem 0px 20rem;
+    text-align: left;
+    background:
+        linear-gradient(transparent, rgba(255,255,255,.25), transparent) calc(100% - 63rem) center / 1px 33px no-repeat,
+        linear-gradient(transparent, rgba(0,0,0,.25), transparent) calc(100% - 62px) center / 1px 33px no-repeat,
+        linear-gradient(32deg, white 50%, transparent 50%) calc(100% - 25px) 20px / 16px 11px no-repeat,
+        linear-gradient(148deg, white 50%, transparent 50%) calc(100% - 25px) 30px / 16px 11px no-repeat,
+        linear-gradient(#cd4d76, #9f274e);
+}
 
 /*FORMS*/
 .input-default, .textarea-default{
@@ -81,13 +100,13 @@ body{
 }
 .input-default{
     height: 31px;
-    padding: 0px 10rem;
+    padding: 0px 18rem;
     margin-bottom: 15rem;
 }
 .textarea-default{
     height: 97px;
-    padding: 10rem;
-    margin-bottom: 24rem;
+    padding: 18rem;
+    margin-bottom: 20rem;
     width: 100%;
 }
 .input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #120f0e; }
@@ -99,52 +118,54 @@ body{
     height: 48px;
     width: 100%;
     max-width: 460px;
-    background: url('/images/icons/down.png') right 10rem center no-repeat, white linear-gradient(rgba(238, 238, 238, 0.16), rgba(204, 204, 204, 0.16));
+    background: url('/images/icons/down.png') right 13rem center no-repeat, white linear-gradient(rgba(238, 238, 238, 0.16), rgba(204, 204, 204, 0.16));
     border: 1px solid #aeaeae;
     border-radius: 5px;
     color: #201e1e;
     font-size: 18px;
     font-weight: 700;
-    padding: 0px 30px 0px 20rem;
+    padding: 0px 30px 0px 12rem;
     text-transform: capitalize;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
 }
 .accordion > a.active{
-    background: url('/images/icons/up.png') right 10rem center no-repeat, #b1345d;;
+    color: white;
+    background: url('/images/icons/up.png') right 13rem center no-repeat, #b1345d;;
 }
 
 /*OTHER*/
 .hdr{
     background: linear-gradient(#c63463, #900633);
     border: 1px solid #900633;
-    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.3);
     text-align: center;
+    letter-spacing: 0.01em;
     text-shadow: 1.2px 1.6px 2px rgba(0, 0, 0, 0.65);
     color: #f9f9f9;
     font-family: SARAHSCRIPT;
     font-size: 45px;
     font-weight: 400;
     line-height: 40px;
-    padding: 10rem;
+    padding: 3rem 10rem 0px 10rem;
     position: relative;
     z-index: 0;
-    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.3);
+    min-width: 259rem;
 }
 .hdr:before, .hdr:after{
     content: "";
     position: absolute;
     width: 42px;
     height: 42px;
-    bottom: -20px;
+    bottom: -10px;
     z-index: -1;
 }
 .hdr:before{
     background: url("/images/leftflag.png");
-    left: -20px;
+    left: -29px;
 }
 .hdr:after{
     background: url("/images/rightflag.png");
-    right: -20px;
+    right: -35px;
 }
 .read-lnk{
     color: #950a38;

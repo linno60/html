@@ -7,6 +7,39 @@ body > div{
     max-width: 982px;
     padding: 0px 10px;
 }
+figure > img, a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.slider {
+    width: 60.9%;
+    height: 414px;
+    padding: 0px 50px;
+}
+#carousel{
+    width: 100%;
+    background: none;
+}
+.carousel-feature{
+    border: none;
+}
+.tracker-individual-container {
+    right: 50%;
+    transform: translateX(50%);
+    top: auto;
+    bottom: -100px;    
+}
+.tracker-individual-container .tracker-individual-blip{
+    color: transparent;
+    width: 11px;
+    height: 11px;
+    border-radius: 3px;
+    background: white;
+}
+.tracker-individual-container .tracker-individual-blip-selected{    
+    background: #0080ea;
+}
 
 /*HEADER*/
 header{
@@ -20,8 +53,14 @@ header{
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
     position: relative;
 }
+header > .lwrap{
+    max-width: 1032px;
+}
+header .links-nav{
+    margin-right: 11rem;
+}
 #logo{
-    margin-bottom: -40rem;
+    margin: 0px 5px -40rem 21rem;
 }
 
 /*SLIDER*/
@@ -29,8 +68,11 @@ header{
     background: #efefef linear-gradient(rgba(194, 191, 184, 0.25), rgba(146, 142, 133, 0.25));
     box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4);
 }
+.slider-wrap > .lwrap{
+    padding: 40rem 10px 20rem 10px;
+}
 .slider-wrap article{
-    width: 48%;
+    width: 35.9%;
 }
 .slider-wrap h1{
     color: #821237;
@@ -38,36 +80,49 @@ header{
     font-size: 49px;
     font-weight: 400;
     text-transform: capitalize;
+    margin: 14rem 0px 13rem 0px;
+    text-align: center;
+    letter-spacing: 0.051em;
 }
 .slider-wrap p{
     color: #131212;
     font-size: 16px;
-    margin-bottom: 20rem;
+    padding-bottom: 23rem;
     line-height: 23px;
+}
+.slider-wrap .btn-alt{
+    margin-top: 29rem;
 }
 
 /*PREVIEW*/
 .preview{
     border-top: 1px solid #900633;
-    background: #b1345d url("/images/borderfooter.png")repeat-x center 5px;
+    background: #b1345d url("/images/borderfooter.png")repeat-x 5rem 7rem;
     box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.3);
 }
 .preview > .lwrap{
-    padding: 30rem 10px 30rem 10px;
+    padding: 29rem 10px 27rem 10px;
 }
 .preview p{
     color: white;
     font-size: 16px;
     line-height: 23px;
-    margin-bottom: 20px;
+    margin-bottom: 26rem;
 }
 .preview h3{
     text-shadow: 1.2px 1.6px 2px rgba(0, 0, 0, 0.65);
     color: white;
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
     text-transform: capitalize;
+}
+.divider{
+    margin: 20rem;
+    color: rgba(255,255,255,.5);
+    font-family: Arial Narrow;
+    font-size: 107px;
+    line-height: 22px;
 }
 
 /*CONTENT*/
@@ -75,14 +130,26 @@ header{
     background: linear-gradient(transparent 60%, rgba(189, 188, 188, 0.9) 60%), linear-gradient(90deg, transparent 60%, rgba(189, 188, 188, 0.9) 60%) 6px 6px, #d7d6d6;
     background-size: 5px 5px;
 }
-.content-wrap > .lwrap > div > *{
-    width: 48%;
+.intro{
+    padding: 46rem 0px 31rem 0px;
+    background: url("/images/featuredborder.png")repeat-x 4rem bottom;
+}
+.intro > *{
+    margin-bottom: 10px;
+}
+.intro > article{
+    width: 50%;
+}
+.intro > .accordion{
+    width: 42.55%;
+    padding-top: 6rem;
 }
 .content-wrap h2{
     color: #201e1e;
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
+    margin-bottom: 2rem;
 }
 .content-wrap h2 [class^=icon-]{
     margin-right: 10rem;
@@ -90,44 +157,62 @@ header{
 .content-wrap p{
     color: #3b3939;
     line-height: 24px;
-    margin-bottom: 10rem;
+    margin-bottom: 32rem;
 }
 .featured{
-    padding: 30rem 0px;
-    background: url("/images/featuredborder.png")repeat-x center top;
+    padding: 64rem 0px 116rem 0px;   
 }
-.featured figure{
-    width: 33%;
+.featured article{
+    width: 31.4%;
+    margin-bottom: 10px;
+}
+.featured article p{
+    color: #3b3939;
+    line-height: 24px;
+    margin-bottom: 20rem;
+}
+.featured article figure{
+    margin-bottom: 24rem;
+}
+.featured article figure:after{
+    content: '';
+    width: 110%;
+    height: 20rem;
+    background: url("/images/featuredshadow.png")no-repeat center bottom;
+    background-size: 100%;
 }
 
 /*NEWS*/
 .news{
     background:         
-        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 0px 5px / 2px 1px,
-        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 0px 7px / 2px 1px,
-        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 0px 9px / 2px 1px,
-        linear-gradient(#fbfbfb, #fbfbfb) left 4px / 100% 6px repeat-x;
+        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 1px 4px / 2px 1px,
+        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 1px 6px / 2px 1px,
+        linear-gradient(90deg, #bbb, #bbb 1px, transparent 1px, transparent 2px)repeat-x 1px 8px / 2px 1px,
+        linear-gradient(#fbfbfb, #fbfbfb) left 3px / 100% 6px repeat-x;
 }
 .news article{
-    width: 30%;
-    border-top: 6px solid #8f8e8f;
+    width: 29.25%;
+    border-top: 3px solid #8f8e8f;
     background: url("/images/newsbg.png")repeat-x 3px 1px;
-    padding: 20rem 0px;
+    padding: 15rem 0px;
+    margin-bottom: 20rem;
 }
 .news .hdr{
-    margin: -20rem auto 30rem auto;
+    margin: -21rem auto 48rem auto;
 }
 .news p{
     color: #4c4b4b;
-    margin-bottom: 10rem;
+    margin-bottom: 18rem;
     font-size: 14px;
     line-height: 24px;
+    word-spacing: 10rem;
 }
 .news h4{
     color: #413f3f;
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
+    margin-bottom: 4rem;
 }
 .news h4 [class^=icon-]{
     margin-right: 10rem;
@@ -138,36 +223,44 @@ footer{
     flex-shrink: 0;    
 }
 .footer > .lwrap{
-    padding: 30rem 10px 10rem 10px;
+    padding: 64rem 10px 10rem 10px;
+    max-width: 984px;
 }
 .footer{
-    background: url("/images/footertop.png")repeat-x center top, url("/images/borderfooter.png")repeat-x center bottom 2px, #b1345d;
+    background: url("/images/footertop.png")repeat-x center top, url("/images/borderfooter.png")repeat-x center bottom 1px, #b1345d;
 }
 .footer > .lwrap > div{
-    margin-bottom: 20px;
+    margin-bottom: 13px;
+    width: 25%;
+}
+.footer > .lwrap > div:last-child{
+    width: 40%;
 }
 .footer h5{
     text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.75);
     color: white;
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20rem;
+    text-indent: 3rem;
 }
 .footer h3{
     text-shadow: 1.2px 1.6px 2px rgba(0, 0, 0, 0.6);
     color: white;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 27rem;
 }
 .footer .input-default{
-    width: 48%;
+    width: 47.7%;
 }
 .copyright{
     color: #f9f9f9;
     background: linear-gradient(#353434, #1b1a1a);
     border-top: 1px solid #a8244f;
     box-shadow: 0px -1px 0px 0px #aa2650, inset 0px 1px 0px 0px #97254a;
-    padding: 7rem 10px 5rem 10px;
-
+    padding: 9rem 10px 4rem 10px;
+}
+.copyright span{
+    padding: 2rem 17rem 0px 0px;
 }
