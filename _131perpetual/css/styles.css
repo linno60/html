@@ -12,23 +12,20 @@ figure > img, a > img{
     height: 100%;
     display: block;
 }
-.slider {
-    width: 60.9%;
-    height: 414px;
-    padding: 0px 50px;
-}
 #carousel{
-    width: 100%;
+    width: 59.9%;
+    height: auto;
     background: none;
 }
 .carousel-feature{
     border: none;
+    opacity: 1!important;
 }
 .tracker-individual-container {
     right: 50%;
     transform: translateX(50%);
     top: auto;
-    bottom: -100px;    
+    bottom: -62px;    
 }
 .tracker-individual-container .tracker-individual-blip{
     color: transparent;
@@ -36,19 +33,54 @@ figure > img, a > img{
     height: 11px;
     border-radius: 3px;
     background: white;
+    margin: 0px 4.5px;
 }
 .tracker-individual-container .tracker-individual-blip-selected{    
     background: #0080ea;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    opacity: 1;
+    width: 33px;
+    height: 31px;
+    border: 1px solid black;
+    box-shadow: inset 0.6px 0.8px 1px rgba(255, 255, 255, 0.2);
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.owl-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    max-width: 960px;
+    margin: auto;
+    background: url("/images/prevshadow.png")no-repeat 16px center, url("/images/nextshadow.png")no-repeat right 16px center;
+}
+.owl-theme .owl-controls{
+    margin:0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+     background: url(/images/icons/prev.png)no-repeat center center, linear-gradient(#45494d, #171717 80%, #45484d); 
+     border-radius: 16px 0px 0px 16px;
+     border-right: none;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next{
+    background: url(/images/icons/next.png)no-repeat center center, linear-gradient(#45494d, #171717 80%, #45484d);
+    border-radius: 0px 16px 16px 0px;
+    border-left: none;
 }
 
 /*HEADER*/
 header{
     background:
         linear-gradient(white, white) center calc(100% - 12rem)/ 100% 1px repeat-x,
-        linear-gradient(90deg, #960b38, #960b38 34rem, transparent 34rem , transparent 102rem) 0px bottom / 102rem 12rem repeat-x,
-        linear-gradient(90deg, #bf2e5d, #bf2e5d 34rem, transparent 34rem , transparent 102rem) 34rem bottom / 102rem 12rem repeat-x,
-        linear-gradient(90deg, #d1587f, #d1587f 34rem, transparent 34rem , transparent 102rem) 68rem bottom / 102rem 12rem repeat-x
-        #b1345d; 
+        linear-gradient(90deg, #960b38, #960b38 30rem, transparent 30rem , transparent 98rem) 58rem bottom / 98rem 12rem repeat-x,
+        linear-gradient(90deg, #bf2e5d, #bf2e5d 34rem, transparent 34rem , transparent 98rem) 88rem bottom / 98rem 12rem repeat-x,
+        linear-gradient(90deg, #d1587f, #d1587f 34rem, transparent 34rem , transparent 98rem) 122rem bottom / 98rem 12rem repeat-x,
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))0 0 / 4px 4px,
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))2px 2px / 4px 4px,
+        linear-gradient(#bc3e67, #961e45); 
     padding-bottom: 13rem;
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
     position: relative;
@@ -60,7 +92,7 @@ header .links-nav{
     margin-right: 11rem;
 }
 #logo{
-    margin: 0px 5px -40rem 21rem;
+    margin: 0px 5px -41rem 21rem;
 }
 
 /*SLIDER*/
@@ -69,10 +101,10 @@ header .links-nav{
     box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4);
 }
 .slider-wrap > .lwrap{
-    padding: 40rem 10px 20rem 10px;
+    padding: 41rem 10px 90rem 10px;
 }
 .slider-wrap article{
-    width: 35.9%;
+    width: 36.25%;
 }
 .slider-wrap h1{
     color: #821237;
@@ -82,13 +114,14 @@ header .links-nav{
     text-transform: capitalize;
     margin: 14rem 0px 13rem 0px;
     text-align: center;
-    letter-spacing: 0.051em;
+    letter-spacing: 0.0555em;
 }
 .slider-wrap p{
     color: #131212;
     font-size: 16px;
     padding-bottom: 23rem;
     line-height: 23px;
+    letter-spacing: -0.007em;
 }
 .slider-wrap .btn-alt{
     margin-top: 29rem;
@@ -97,11 +130,15 @@ header .links-nav{
 /*PREVIEW*/
 .preview{
     border-top: 1px solid #900633;
-    background: #b1345d url("/images/borderfooter.png")repeat-x 5rem 7rem;
+    background:
+        url("/images/borderdark.png")repeat-x 10rem 7rem,
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))0 0 / 4px 4px,
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))2px 2px / 4px 4px,
+        linear-gradient(#bc3e67, #961e45);
     box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.3);
 }
 .preview > .lwrap{
-    padding: 29rem 10px 27rem 10px;
+    padding: 29rem 10px 23rem 10px;
 }
 .preview p{
     color: white;
@@ -117,22 +154,31 @@ header .links-nav{
     margin-bottom: 9rem;
     text-transform: capitalize;
 }
+.preview article{
+    width: 43%;
+}
 .divider{
-    margin: 20rem;
+    padding: 17rem;    
+}
+.divider span{
+    margin: 4rem;
     color: rgba(255,255,255,.5);
     font-family: Arial Narrow;
     font-size: 107px;
-    line-height: 22px;
+    line-height:60px;
 }
 
 /*CONTENT*/
 .content-wrap{
-    background: linear-gradient(transparent 60%, rgba(189, 188, 188, 0.9) 60%), linear-gradient(90deg, transparent 60%, rgba(189, 188, 188, 0.9) 60%) 6px 6px, #d7d6d6;
-    background-size: 5px 5px;
+    background:
+        url("/images/introtop.png")repeat-x 3px top,
+        linear-gradient(transparent 80%, rgba(189, 188, 188, 0.99) 80%) center center / 3px 3px,
+        linear-gradient(90deg, transparent 80%, rgba(189, 188, 188, 0.99) 80%) center center / 3px 3px,
+        linear-gradient(rgba(236, 234, 234, 0.9), rgba(189, 188, 188, 0.9));
 }
 .intro{
-    padding: 46rem 0px 31rem 0px;
-    background: url("/images/featuredborder.png")repeat-x 4rem bottom;
+    padding: 50rem 0px 31rem 0px;
+    background: url("/images/borderdark.png")repeat-x 4rem bottom;
 }
 .intro > *{
     margin-bottom: 10px;
@@ -160,16 +206,17 @@ header .links-nav{
     margin-bottom: 32rem;
 }
 .featured{
-    padding: 64rem 0px 116rem 0px;   
+    padding: 64rem 0px 51rem 0px;
+    margin: 0px -15rem;
 }
 .featured article{
-    width: 31.4%;
+    padding: 0 15rem;
     margin-bottom: 10px;
 }
 .featured article p{
     color: #3b3939;
     line-height: 24px;
-    margin-bottom: 20rem;
+    margin-bottom: 23rem;
 }
 .featured article figure{
     margin-bottom: 24rem;
@@ -193,7 +240,7 @@ header .links-nav{
 .news article{
     width: 29.25%;
     border-top: 3px solid #8f8e8f;
-    background: url("/images/newsbg.png")repeat-x 3px 1px;
+    background: url("/images/bordertwice.png")repeat-x 3px 1px;
     padding: 15rem 0px;
     margin-bottom: 20rem;
 }
@@ -213,6 +260,7 @@ header .links-nav{
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 4rem;
+    letter-spacing: 0.01em;
 }
 .news h4 [class^=icon-]{
     margin-right: 10rem;
@@ -227,7 +275,12 @@ footer{
     max-width: 984px;
 }
 .footer{
-    background: url("/images/footertop.png")repeat-x center top, url("/images/borderfooter.png")repeat-x center bottom 1px, #b1345d;
+    background:
+        url("/images/footertop.png")repeat-x 3px top,
+        url("/images/borderdark.png")repeat-x 10px calc(100% - 1px),
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))0px 0px / 4px 4px,
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))2px 2px / 4px 4px,
+        linear-gradient(#bc3e67, #961e45);
 }
 .footer > .lwrap > div{
     margin-bottom: 13px;

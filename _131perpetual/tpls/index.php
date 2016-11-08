@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
         <link rel="stylesheet" href="/css/addons/generic.css"> 
         <link rel="stylesheet" href="/js/jquery/plugins/jQuery-Feature-Carousel/css/feature-carousel.css">
+        <link rel="stylesheet" href="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="/js/jquery/plugins/owl.carousel/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="/css/elements.css">         
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
@@ -40,21 +42,19 @@
             </header>
             <section class="slider-wrap">
                 <div class="lwrap" data-flex="stripe">
-                    <div class="slider">
-                        <div id="carousel">
-                            <div class="carousel-feature">
-                                <a href="#"><img class="carousel-image" src="/images/terion.png" width="521" height="343" alt=""></a>
-                            </div>
-                            <div class="carousel-feature">
-                                <a href="#"><img class="carousel-image" src="/images/vivaro.png" width="260" height="308" alt=""></a>
-                            </div>
-                            <div class="carousel-feature">
-                                <a href="#"><img class="carousel-image" src="/images/terion.png" width="521" height="343" alt=""></a>
-                            </div>
-                            <div class="carousel-feature">
-                                <a href="#"><img class="carousel-image" src="/images/vivaro.png" width="260" height="308" alt=""></a>
-                            </div>
+                    <div id="carousel">
+                        <div class="carousel-feature">
+                            <a href="#"><img class="carousel-image" src="/images/terion.png"  width="260" height="308" alt=""></a>
                         </div>
+                        <div class="carousel-feature">
+                            <a href="#"><img class="carousel-image" src="/images/killowatt.png" width="260" height="308" alt=""></a>
+                        </div>
+                        <div class="carousel-feature">
+                            <a href="#"><img class="carousel-image" src="/images/vivaro.png" width="260" height="308" alt=""></a>
+                        </div>
+                        <div class="carousel-feature">
+                            <a href="#"><img class="carousel-image" src="/images/killowatt.png" width="260" height="308" alt=""></a>
+                        </div>  
                     </div>
                     <article data-flex="col -center">
                         <h1>web design & more</h1>
@@ -66,17 +66,17 @@
             </section>
             <section class="preview">
                 <div class="lwrap" data-flex="axis">
-                    <div>
+                    <article>
                         <h3>lorem ipsum dolor sit amet neque</h3>
-                        <p>Sed gravida nunc at erat tincidunt iaculis. Nam ac orci amet commodo leo. Phasellus consequat augue sed.</p> 
+                        <p>Sed gravida nunc at erat tincidunt iaculis. Nam ac orci diam, sit amet commodo leo. Phasellus consequat augue.</p> 
                         <a href="#" class="btn btn-default">read more</a>
-                    </div>
-                    <span class="divider">{}</span>
-                    <div>
+                    </article>
+                    <span class="divider"><span>{</span><span>}</span></span>
+                    <article>
                         <h3>commodo phaellus arcu sed nibh</h3>
                         <p>Sed gravida nunc at erat tincidunt iaculis. Nam ac orci amet commodo leo. Phasellus consequat augue sed.</p> 
                         <a href="#" class="btn btn-default">read more</a>
-                    </div>
+                    </article>
                 </div>
             </section>
             <main class="content-wrap">
@@ -99,24 +99,52 @@
                         </div>
                     </div>
                     <div class="featured">
-                        <article>
-                            <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
-                            <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
-                        </article>
-                        <article>
-                            <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
-                            <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
-                        </article>
-                        <article>
-                            <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
-                            <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
-                        </article>
+                        <div id="owl-demo" class="owl-carousel owl-theme" data-flex="axis">
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
+                            </article>
+                            <article class="item">
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
+                            </article>
+                        </div>
+                        <a class="btn btn-slide prev"></a>
+                        <a class="btn btn-slide next"></a>
                     </div>
                 </div>
             </main>
             <section class="news">
                 <div class="lwrap" data-flex="vaxis">
-                    <h2 class="hdr">Latest News</h2>
+                    <h2 class="hdr"><span>Latest News</span></h2>
                     <div data-flex="stripe w">
                         <article>
                             <h4 data-flex="-center"><i class="icon-download"></i>torquent primis faucis</h4>
@@ -194,17 +222,30 @@
             </section>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/jquery/plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
         <script src="/js/jquery/plugins/jQuery-Feature-Carousel/js/jquery.featureCarousel.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
         <script>
             $(document).ready(function () {
                 var carousel = $("#carousel").featureCarousel({
-                    // include options like this:
-                    // (use quotes only for string values, and no trailing comma after last option)
-                    // option: value,
-                    // option: value
-                    trackerSummation: false
+                    trackerSummation: false,
+                    largeFeatureWidth: 1,
+                    largeFeatureHeight: 1,
+                    smallFeatureWidth: 0.9,
+                    smallFeatureHeight: 0.9,
+                    smallFeatureOffset: 18,
+                    sidePadding: -7
+                });
+            });
+
+            $(document).ready(function () {
+                var owl = $("#owl-demo");
+                owl.owlCarousel({
+                    items: 3,
+                    navigation: true,
+                    navigationText: ["", ""],
+                    pagination: false
                 });
             });
         </script>
