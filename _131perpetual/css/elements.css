@@ -87,6 +87,19 @@ body{
         linear-gradient(#bc3e67, #961e45);
 }
 
+/*LABELS*/
+.lbl-featured{
+    background:
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))0 0 / 4px 4px,
+        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))2px 2px / 4px 4px,
+        linear-gradient(#bc3e67, #961e45);
+    color: white;
+font-size: 25px;
+font-weight: 700;
+padding: 5rem;
+border-radius: 5px;
+}
+
 /*FORMS*/
 .input-default, .textarea-default{
     border: none;  

@@ -264,6 +264,7 @@ header .links-nav{
 }
 .news h4 [class^=icon-]{
     margin-right: 10rem;
+    flex-shrink: 0;
 }
 
 /*FOOTER*/
@@ -311,9 +312,14 @@ footer{
     color: #f9f9f9;
     background: linear-gradient(#353434, #1b1a1a);
     border-top: 1px solid #a8244f;
-    box-shadow: 0px -1px 0px 0px #aa2650, inset 0px 1px 0px 0px #97254a;
+    box-shadow: 0px -1px 0px 0px #aa2650, inset 0px 1px 0px 0px #97254a;    
+}
+.copyright > .lwrap{
     padding: 9rem 10px 4rem 10px;
 }
 .copyright span{
     padding: 2rem 17rem 0px 0px;
+}
+.social span{
+    text-align: right;
 }

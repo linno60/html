@@ -25,7 +25,7 @@
     <body data-flex="col">
         <div>
             <header>               
-                <div class="lwrap" data-flex="stripe">
+                <div class="lwrap" data-flex="stripe" data-flex-640="between -start">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="260" height="115" alt="Perpetual">
                     </a>
@@ -195,7 +195,7 @@
                     <div>
                         <h3>Questions for Us?</h3>
                         <form action="#" method="post">
-                            <div data-flex="stripe">
+                            <div data-flex="stripe" data-flex-640="vstripe">
                                 <input type="text" class="input-default" name="" placeholder="Subject">
                                 <input type="email" class="input-default" name="" placeholder="Email">
                             </div>
@@ -208,7 +208,7 @@
             <section class="copyright">
                 <div class="lwrap" data-flex="axis">
                     <span>&copy; All Rights Reserved by PSD Style 2011</span>
-                    <div data-flex="end -center">
+                    <div data-flex="end -center w" class="social">
                         <span>Socialize With Us</span>
                         <div class="links-social" data-flex="end w">
                             <a href="#"><i class="icon-tw"></i></a>
