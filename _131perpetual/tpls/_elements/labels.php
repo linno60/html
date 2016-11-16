@@ -1,1 +1,1 @@
-<span class="lbl lbl-featured">featured</span>
+<span class="lbl lbl-alt"><span>featured</span></span>

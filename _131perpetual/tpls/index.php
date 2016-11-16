@@ -101,39 +101,39 @@
                     <div class="featured">
                         <div id="owl-demo" class="owl-carousel owl-theme" data-flex="axis">
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p>Proin magna lorem, adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque.</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p> Integer pellentesque. Proin magna lorem, adipiscing sit amet semper placerat, cursus ut</p>
                             </article>
                             <article class="item">
-                                <figure><img src="/images/featured.png" width="302" height="151" alt=""></figure>
+                                <figure><img src="/images/featured.png" width="302" height="151" alt=""><span class="lbl lbl-alt"><span>featured</span></span></figure>
                                 <p>Adipiscing sit amet semper placerat, cursus ut nunc. Integer pellentesque. Phaeret eget unt.</p>
                             </article>
                         </div>

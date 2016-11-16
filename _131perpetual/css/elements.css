@@ -30,6 +30,7 @@ body{
     margin-bottom: 9rem;
     padding-left: 26px;
     text-indent: 7rem;
+    display: inline-block;
     background: url(/images/icons/arrow.png) 10px 3px no-repeat;
 }
 .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
@@ -88,16 +89,19 @@ body{
 }
 
 /*LABELS*/
-.lbl-featured{
-    background:
-        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))0 0 / 4px 4px,
-        linear-gradient(45deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1))2px 2px / 4px 4px,
-        linear-gradient(#bc3e67, #961e45);
+.lbl-alt{
     color: white;
-font-size: 25px;
-font-weight: 700;
-padding: 5rem;
-border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 129rem;
+    height: 129rem;
+    background: url("/images/ribbon.png");
+    padding: 5px;
+    text-align: center;
+}
+.lbl-alt span{
+    transform: rotate(46deg);
+    padding-bottom: 50px;
 }
 
 /*FORMS*/
