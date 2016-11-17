@@ -1,0 +1,117 @@
+/*COMMON*/
+body > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    padding: 0px 10px;
+    max-width: 1024px;
+}
+
+/*HEADER*/
+header > .lwrap{
+    padding: 50rem 10px 50rem 10px;
+}
+
+/*PRESENTATION*/
+.presentation > div{
+    width: 50%;
+}
+.presentation > div:first-child{
+    background: #011627;
+}
+.presentation > div:last-child{   
+    background: #ff9f1c;
+}
+.presentation > div:first-child > div{
+    background: linear-gradient(rgba(1,22,39,.9), rgba(1,22,39,.9)), url("/images/img2.png")center / cover;    
+}
+.presentation > div:last-child > div{
+    background: linear-gradient(rgba(255,159,28,.9), rgba(255,159,28,.9)), url("/images/img3.png")center / cover;   
+}
+.presentation > div > div{
+    flex-grow: 1;
+    max-width: 512px;
+    padding: 50rem;
+}
+.presentation h1{
+    color: white;
+    font-family: Rubik;
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20rem;
+}
+.presentation > div:first-child h1{
+    color: #ffa326;
+}
+.presentation p{
+    color: white;
+    line-height: 20px;
+    margin-bottom: 20rem;
+}
+.presentation > div:last-child p{
+    color: #0d1e2d;
+}
+.presentation span{
+    font-weight: 700;
+}
+
+/*MENU*/
+.menu.lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+
+/*FOOTER*/
+footer{
+    flex-shrink: 0;
+    background: #0d1e2d;
+    color: white;
+}
+footer > .lwrap > form{
+    padding-bottom: 10px;    
+font-size: 12px;
+width: 40%;
+}
+footer form .btn-submit{
+    width: 100%;
+}
+footer > .lwrap{
+    padding: 10rem 10px 10rem 10px;
+}
+.contacts{
+    width: 50%;
+    font-size: 19px;
+}
+.contacts figure{
+    height: 172px;
+}
+.contacts iframe{
+    width: 100%;
+    height: 100%;
+}
+.contacts address{
+    font-style: normal;
+}
+.contacts big{
+    color: #ffa326;
+font-size: 47px;
+font-weight: 700;
+}
+.copyright{
+    background: #050b10;
+}
+.copyright > .lwrap{
+    padding: 10rem 10px 10rem 10px;
+}
+.copyright *{
+    color: #ffa326;
+    font-size: 12px;
+}
