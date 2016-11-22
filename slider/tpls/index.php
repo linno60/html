@@ -195,19 +195,19 @@
                     <label class='num2' for='slide31-2'><big><span>Bicycle</span></big></label>
                 </div>
                 <div class='arrowprev'>
-                    <label class='num0' for='slide30-0'></label>
-                    <label class='num1' for='slide30-1'></label>
-                    <label class='num2' for='slide30-2'></label>
+                    <label class='num0' for='slide31-0'></label>
+                    <label class='num1' for='slide31-1'></label>
+                    <label class='num2' for='slide31-2'></label>
                 </div>
                 <div class='arrownext'>
-                    <label class='num0' for='slide30-0'></label>
-                    <label class='num1' for='slide30-1'></label>
-                    <label class='num2' for='slide30-2'></label>
+                    <label class='num0' for='slide31-0'></label>
+                    <label class='num1' for='slide31-1'></label>
+                    <label class='num2' for='slide31-2'></label>
                 </div>
                 <div class='bullets' data-flex="center -center">
-                    <label class='num0' for='slide30-0'><figure><img src='/images/cloudssm.jpg' width="79" height="48" alt='Clouds' title='Clouds'></figure></label>
-                    <label class='num1' for='slide30-1'><figure><img src='/images/typewritersm.jpg' width="79" height="48" alt='Typewriter' title='Typewriter'></figure></label>
-                    <label class='num2' for='slide30-2'><figure><img src='/images/bicyclesm.jpg' width="79" height="48" alt='Bicycle' title='Bicycle'></figure></label>                    
+                    <label class='num0' for='slide31-0'><figure><img src='/images/cloudssm.jpg' width="79" height="48" alt='Clouds' title='Clouds'></figure></label>
+                    <label class='num1' for='slide31-1'><figure><img src='/images/typewritersm.jpg' width="79" height="48" alt='Typewriter' title='Typewriter'></figure></label>
+                    <label class='num2' for='slide31-2'><figure><img src='/images/bicyclesm.jpg' width="79" height="48" alt='Bicycle' title='Bicycle'></figure></label>                    
                 </div>
             </div>
         </div>

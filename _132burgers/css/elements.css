@@ -8,19 +8,18 @@ body{
     color: #0e1d2b;
     font-family: Martel;
     font-size: 16px;
-    height: 34px;
+    height: 31px;
     padding: 0px 2px;
     min-width: 72rem;
-    margin: 5rem;
+    margin: 6.5rem;
     text-transform: capitalize;
-    transition: all .3s;
+    letter-spacing: -0.01em;
 }
-.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
-    font-weight: 700;
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{    
     box-shadow: inset 0px -3px 0px 0px #ffa326;
 }
-.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
-    letter-spacing: -0.009em;
+.links-nav a.active{
+    font-weight: 700;
 }
 
 /*LISTS*/
@@ -29,21 +28,26 @@ body{
     font-size: 16px;
     max-width: 285px;
     border: 3px solid #ffa326;
-    padding: 20rem;
+    padding: 45rem 28rem 17rem 34rem;
+}
+.list-default li{
+    margin-bottom: 4.5rem;
 }
 .list-default dd{
-    width: 30px;
+    width: 35px;
     flex-shrink: 0;
+    padding-left: 5px;
 }
 
 /*BUTTONS*/
 .btn-submit{
-    padding: 0px 5px;
+    padding: 0px 2px;
     text-align: center;
     height: 30px;
     background: #ffa326;
     color: white;
     font-size: 16px;
+    line-height: 13px;
     font-weight: 700;
 }
 .btn-default{
@@ -55,9 +59,42 @@ body{
     color: #0d1e2d;
     font-size: 16px;
     font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .btn-default i[class^="icon-"]{
-    margin-left: 10rem;
+    margin-left: 12rem;
+    flex-shrink: 0;
+}
+
+/*LABELS*/
+.lbl-product{
+    min-width: 162rem;
+    height: 29px;
+    background: #e1e1e1;
+    justify-content: space-around;
+    padding: 0px 7rem;
+    text-align: center;
+}
+.lbl-product *{
+    margin: 1px;
+}
+.lbl-product strong{
+    color: #0b1d2c;
+    font-family: Rubik;
+    font-size: 20px;
+    text-indent: 7rem;
+}
+.lbl-product small{
+    color: #485058;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 12px;
+}
+.lbl-product i[class^="icon-"]{
+    flex-shrink: 0;
 }
 
 /*FORMS*/
@@ -65,16 +102,17 @@ body{
     border: none;
     background: linear-gradient(0deg,#dce0e4, #fefefe 26px, white 26px, white);
     font-size: 12px;
+    letter-spacing: 0.01em;
 }
 .input-default{
     height: 30px;
-    padding: 0px 10rem;
-    margin-bottom: 10rem;
+    padding: 0px 12rem;
+    margin-bottom: 7rem;
 }
 .textarea-default{
     height: 89px;
-    padding: 10rem;
-    margin-bottom: 20rem;
+    padding: 6rem 16rem;
+    margin-bottom: 9rem;
 }
 .input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #0b1d2c; }
 .input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #0b1d2c; }

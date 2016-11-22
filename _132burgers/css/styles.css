@@ -1,4 +1,7 @@
 /*COMMON*/
+body{
+    color: #0b1d2c;
+}
 body > div{
     flex-shrink: 0;
     flex-grow: 1;
@@ -12,83 +15,233 @@ figure > img:only-of-type, a > img:only-of-type{
 }
 .lwrap{
     padding: 0px 10px;
-    max-width: 1024px;
+    max-width: 744px;
+}
+.hdr{
+    text-align: center;
+}
+h1, h2{
+    font-family: Rubik;    
+    font-weight: 500;
+    line-height: 60rem;
+}
+h2{
+    font-size: 60rem;
+}
+.hdr h2{
+    color: #0d1624; 
+    margin-bottom: 1rem;
+}
+.hdr h6{    
+    font-size: 12px;
+    font-weight: 400;
 }
 
 /*HEADER*/
 header > .lwrap{
-    padding: 50rem 10px 50rem 10px;
+    padding: 36rem 10px 46rem 10px;
+    max-width: 890px;
+}
+header .links-nav{
+    flex-grow: 1;
+    max-width: 523px;
+}
+#logo{
+    margin-right: 5px;
 }
 
 /*PRESENTATION*/
-.presentation > div{
-    width: 50%;
-}
 .presentation > div:first-child{
-    background: #011627;
+    background: linear-gradient(rgba(1,22,39,.9), rgba(1,22,39,.9)), url("/images/img2.png")center / cover;  
+    width: 51%;
 }
 .presentation > div:last-child{   
-    background: #ff9f1c;
-}
-.presentation > div:first-child > div{
-    background: linear-gradient(rgba(1,22,39,.9), rgba(1,22,39,.9)), url("/images/img2.png")center / cover;    
-}
-.presentation > div:last-child > div{
-    background: linear-gradient(rgba(255,159,28,.9), rgba(255,159,28,.9)), url("/images/img3.png")center / cover;   
+    background: linear-gradient(rgba(255,159,28,.9), rgba(255,159,28,.9)), url("/images/img3.png")center / cover;
+    width: 49%;
 }
 .presentation > div > div{
     flex-grow: 1;
     max-width: 512px;
-    padding: 50rem;
 }
-.presentation h1{
-    color: white;
-    font-family: Rubik;
-    font-size: 65px;
-    font-weight: 500;
-    line-height: 60px;
-    margin-bottom: 20rem;
+.presentation > div:first-child > div{
+    padding: 102rem 93rem 85rem 56rem;
+}
+.presentation > div:last-child > div{
+    padding: 101rem 93rem 85rem 70rem;
+}
+.presentation h1{  
+    font-size: 65rem;
 }
 .presentation > div:first-child h1{
     color: #ffa326;
+    margin-bottom: 25rem;
+}
+.presentation > div:last-child h1{
+    color: white;
+    margin-bottom: 15rem;
 }
 .presentation p{
-    color: white;
     line-height: 20px;
-    margin-bottom: 20rem;
+    margin-bottom: 22rem;    
+}
+.presentation > div:first-child p{
+    color: white;
+    padding-left: 6rem;
 }
 .presentation > div:last-child p{
-    color: #0d1e2d;
+    color: #0d1e2d;  
+    padding-left: 9rem;
 }
 .presentation span{
-    font-weight: 700;
+    font-weight: 900;
+    display: inline-block;
+    padding: 6px 14rem 0px 13rem;
+    letter-spacing: 0.012em;
 }
 
 /*MENU*/
-.menu.lwrap{
-    padding: 30rem 10px 30rem 10px;
+.menu{
+    padding: 85rem 9px 90rem 9px;
+}
+.menu > div{
+    width: 22.7%;    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu figure:before{
+    content: "";
+    border: 3px solid #ffa326;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;    
+}
+.menu figure{
+    position: relative;
+}
+.menu > div:nth-child(3n+1) figure:before {
+    transform: rotate(22deg);
+    left: 21%;
+    top: -11%;
+    width: 60%;
+    height: 114%;
+}
+.menu > div:nth-child(3n+2) figure:before {
+    transform: rotate(-21deg);
+    left: 18%;
+    top: -7%;
+    width: 61%;
+    height: 115%;
+}
+.menu > div:nth-child(3n+3) figure:before {
+    transform: rotate(-68deg);
+    left: 16%;
+    top: -11%;
+    width: 64%;
+    height: 120%;
+}
+.menu h3{
+    font-family: Rubik;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 29rem 0px 10rem 0px;
+    text-transform: capitalize;
+}
+.menu h3 a{
+    color: #f39c22;    
+}
+.menu h3 a:active, .menu h3 a:hover, .menu h3 a:focus{
+    text-decoration: underline;
+}
+.menu p{
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 9rem;
+    letter-spacing: 0.01em;
+    width: 100%;
+}
+
+/*WAIT*/
+.wait{
+    background: linear-gradient(rgba(11,29,44,.9),rgba(188,118,29,.9)), url("/images/img1.png")center / cover;
+}
+.wait > .lwrap{
+    padding: 99rem 11px 79rem 10px;     
+}
+.wait dl{
+    flex-grow: 1;
+}
+.wait h2{
+    color: white;
+    width: 57.4%;
+    margin-bottom: 6rem;
+}
+
+/*GALLERY*/
+.gallery{
+    padding: 58rem 10px 92rem 10px;
+}
+.gallery figure{
+    flex-grow: 1;
+    flex-basis: calc(100% / 3);
+}
+.gallery .hdr{
+    margin-bottom: 57rem;
+}
+.gallery .hdr h2{
+    color: #0d1624; 
+    margin-bottom: 1rem;
+}
+.gallery hr + div figure{
+    flex-basis: calc(100% / 6);
+}
+.gallery hr{
+    width: 100%;
+    height: 8px;
+    border: 3px solid #ffa326;
+    background: none;
+    margin: -2px 0px -5px 0px;
+    position: relative;
+}
+.gallery figure + hr{
+    display: none;
 }
 
 /*FOOTER*/
 footer{
     flex-shrink: 0;
     background: #0d1e2d;
-    color: white;
+}
+footer .hdr{
+    background: white;
+    padding-bottom: 24rem;
+}
+footer .hdr h2{
+    margin-bottom: 4rem;
 }
 footer > .lwrap > form{
-    padding-bottom: 10px;    
-font-size: 12px;
-width: 40%;
+    padding: 0px 0px 10px 3rem;    
+    font-size: 12px;
+    width: 35.7%;
 }
 footer form .btn-submit{
     width: 100%;
 }
+footer form label{
+    padding-bottom: 19rem;
+    letter-spacing: 0.01em;
+}
 footer > .lwrap{
-    padding: 10rem 10px 10rem 10px;
+    padding: 47rem 10px 27rem 10px;
+    color: white;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
 }
 .contacts{
-    width: 50%;
+    width: 43.4%;
     font-size: 19px;
+    padding-top: 4rem;
 }
 .contacts figure{
     height: 172px;
@@ -99,19 +252,38 @@ footer > .lwrap{
 }
 .contacts address{
     font-style: normal;
+    letter-spacing: -0.015em;
+    padding-top: 14rem;
 }
 .contacts big{
     color: #ffa326;
-font-size: 47px;
-font-weight: 700;
+    font-size: 47rem;
+    font-weight: 700;
+    line-height: 58rem;
+    padding-left: 7rem;
+    letter-spacing: 0.015em;
+}
+.contacts small{
+    white-space: nowrap;
 }
 .copyright{
     background: #050b10;
 }
 .copyright > .lwrap{
-    padding: 10rem 10px 10rem 10px;
+    padding: 10.5rem 11px;
 }
 .copyright *{
     color: #ffa326;
     font-size: 12px;
+}
+.copyright span{
+    padding: 0px 6px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .menu > div{width: 30%;}
+    footer > .lwrap > form{width: 50%}
+    .gallery hr + div figure{flex-basis: calc(100% / 3);}
+    .gallery figure + hr{display: block;}
 }

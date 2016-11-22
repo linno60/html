@@ -231,6 +231,7 @@ header form button{
     border-radius: 6px; 
     background: linear-gradient(transparent, #2b2e2f);
     padding: 1px;
+    width: calc(100% - 62px - 8rem);
 }
 .subscription .form-subscribe{
     margin: 8rem 0px 29rem 1rem;
@@ -253,6 +254,7 @@ header form button{
     font-style: italic;
     margin: 14rem 13rem -10rem 18rem;
     letter-spacing: 0.012em;
+    width: calc(100% - 31rem);
 }
 .twit-box p span{
     color: #66665d;    
@@ -285,6 +287,7 @@ header form button{
     padding-bottom: 9rem;
 }
 .clients a{
+    display: inline-block;
     margin: 2px;
 }
 .footer > .flickr{

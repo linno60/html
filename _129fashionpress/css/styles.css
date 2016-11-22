@@ -183,6 +183,7 @@ header > .lwrap{
     content: "";
     width: 12px;
     height: 12px;
+    display: inline-block;
     box-shadow: 3px 3px 0px white;
 }
 .slider > .arrowprev:before{

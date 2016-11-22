@@ -1,0 +1,176 @@
+body{
+    font-family: Open Sans;
+    font-size: 14px;
+}
+
+/*LINKS*/
+.links-social a{
+    line-height: 1px;
+    margin: 9rem 1rem 0px 29rem;
+}
+
+/*BUTTONS*/
+.btn-default{
+    border-radius: 5px;
+    height: 39px;
+    min-width: 142rem;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    text-align: center;
+    line-height: 16px;
+}
+.btn-default, .btn-default.alt:active, .btn-default.alt:hover, .btn-default.alt:focus{    
+    background: #58d093;
+    box-shadow: 0 2px 0 #3c9066;
+}
+.btn-default.alt{
+    min-width: 132rem;
+    background: #425a5a;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.75);
+}
+
+/*FORMS*/
+.input-default, .textarea-default{    
+    background: #e6e6e6;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+}
+.input-default{
+    height: 41px;
+    padding: 0px 15rem;
+    margin-bottom: 24rem;
+}
+.textarea-default{
+    height: 168px;
+    padding: 12rem 16rem;
+    margin-bottom: 11rem;
+}
+.input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #a6a6a6; }
+.input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #a6a6a6; }
+.input-default:-ms-input-placeholder, .textarea-default:-ms-input-placeholder { color: #a6a6a6; }
+
+/*LABELS*/
+.lbl-default{
+    min-width: 80px;
+    min-height: 80px;
+    width: 108rem;
+    height: 108rem;
+    border-radius: 50%;
+    background: #425a5a;
+    box-shadow: 1.5px 2.6px 0 rgba(0, 0, 0, 0.13);
+    flex-direction: column;
+    color: white;
+    font-weight: 300;
+    padding: 10rem;
+}
+.lbl-default *{
+    display: inline-block;
+}
+.lbl-default span{
+    font-size: 20px;
+    line-height: 12px;
+    padding-top: 12px;
+}
+.lbl-default big{
+    font-size: 58rem;
+    line-height: 28rem;
+    padding-right: 4rem;
+}
+.lbl-default small{
+    text-align: right;
+    width: 94%;
+}
+
+/*LISTS*/
+.list-default li{
+    padding: 14rem;
+    color: #6f7d7c;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+/*CITES*/
+blockquote{
+    text-align: center;
+    color: #1e3536;
+}
+blockquote cite, blockquote q{
+    font-size: 20px;
+    font-weight: 300;
+}
+blockquote cite{
+    font-style: normal;
+}
+blockquote q{ 
+    line-height: 28px;
+    padding: 0px 35rem;
+    display: inline-block;
+    width: 100%;
+}
+blockquote big{
+    color: #1e3536;
+    font-family: PT Sans;
+    font-size: 104px;
+    line-height: 11px;
+    transform: rotate(180deg);
+    text-align: right;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+blockquote q + big{
+    transform: none;
+    line-height: 38px;
+    margin-bottom: 9rem;
+}
+blockquote cite figure{
+    margin-bottom: 21rem;
+}
+
+/*OTHER*/
+.hr{
+    height: 2px;
+    background: #d0d0d0;
+    max-width: 793px;
+    border-top: 1px solid #f4f4f4;
+    position: relative;
+    margin: auto;
+}
+.hr.upper:before, .hr.under:after{
+    width: 110.84%;
+    height: 65rem;
+}
+.hr.under:before, .hr.upper:after{
+    width: 101.13%;
+    height: 25rem;
+}
+.hr.upper:before{
+    background: url("/images/shadow1.png") center bottom / cover no-repeat;
+    bottom: 2px;
+}
+.hr.upper:after{
+    background: url("/images/shadow2.png") center top / cover no-repeat;
+    top: 1px;
+}
+.hr.under:before{
+    background: url("/images/shadow3.png") center bottom / cover no-repeat;
+    bottom: 1px;
+}
+.hr.under:after{
+    background: url("/images/shadow4.png") center bottom / cover no-repeat;
+    top: 2px;
+}
+.hr:before, .hr:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}

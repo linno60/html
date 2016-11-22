@@ -1,4 +1,4 @@
-<nav class="links-nav" data-flex="end w" data-childs="center -center">
+<nav class="links-nav" data-flex="center w" data-childs="center -center">
     <a href="#" class="active">home</a>
     <a href="#">our burgers</a>
     <a href="#">what else?</a>

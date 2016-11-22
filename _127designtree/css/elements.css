@@ -148,7 +148,7 @@ input[name=contact], textarea[name=contact]{
     width: 100%;
 }
 input[name=contact]{
-    max-width: 200px;
+    max-width: 250px;
     height: 26px; 
     padding: 0px 10px;
 }

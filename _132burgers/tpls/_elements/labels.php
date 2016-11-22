@@ -1,0 +1,1 @@
+<div class="lbl lbl-product"><i class="icon-barbecue"></i><small>345 kj</small><strong>$12.5</strong></div>

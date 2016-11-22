@@ -11,6 +11,7 @@ body{
 .links-nav a{
     margin: 0px 3px;    
     letter-spacing: 0.3em;
+    display: inline-block;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus, .links-menu a:active, .links-menu a:hover, .links-menu a:focus{
     text-decoration: underline;
@@ -28,6 +29,9 @@ body{
     background: linear-gradient(#c2beba, #c2beba) center bottom / 90% 1px no-repeat,
         linear-gradient(#c2beba, #c2beba) center top / 90% 1px no-repeat,
         url("/images/shadowmenulg.png")center center / 99% no-repeat;
+}
+.links-menu a{
+    display: inline-block;
 }
 .links-menu, .links-menu a{
     color: #56534c;
@@ -96,6 +100,7 @@ body{
     width: 9px;
     height: 9px;
     box-shadow: 2px 2px 0px #d8bba3;
+    display: inline-block;
 }
 .btn-slide.prev:before{
     transform: rotate(135deg);
@@ -122,6 +127,9 @@ body{
         url("/images/lbllg.png")center 10% / 89% 89% no-repeat,
         url("/images/label-shadow.png") center center / 100% 100% no-repeat;
     letter-spacing: 0.045em;
+}
+.lbl-lg span{
+    width: 100%;
 }
 .lbl-sm{
     width: 106rem;
@@ -176,6 +184,9 @@ body{
     font-size: 18px;
     display: block;
     letter-spacing: 0.1em;
+}
+.lbl *{
+    display: inline-block;
 }
 
 /*CITES*/

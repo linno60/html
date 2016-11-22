@@ -71,7 +71,7 @@
                     </blockquote>
                 </article>
                 <div class='gallery' data-flex="stripe w">
-                    <span class='lbl lbl-lg'>tastes so good!</span>
+                    <span class='lbl lbl-lg'><span>tastes so good!</span></span>
                     <figure><img src="/images/art1.png" width="295" height="250" alt=""></figure>
                     <figure><img src="/images/art2.png" width="295" height="250" alt=""></figure>
                     <figure><img src="/images/art3.png" width="295" height="250" alt=""></figure>
