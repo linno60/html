@@ -4,9 +4,6 @@ body{
 }
 
 /*LINKS*/
-.links-nav{
-    position: relative;
-}
 .links-nav > *{
     color: #e6e3bb;
     margin: 2px 15.5rem;
@@ -18,7 +15,7 @@ body{
 .links-nav > *.active, .links-nav > *:active, .links-nav > *:hover, .links-nav > *:focus{
     color: #8e4423;
 }
-.links-nav > div:hover > .links-dropdown{
+.links-nav > *:hover > .links-dropdown{
     display: flex;
 }
 .links-nav .links-dropdown{

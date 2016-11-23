@@ -26,9 +26,17 @@
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="272" height="63" alt="Design Tree">
                     </a>
-                    <nav class="links-nav" data-flex="end w" data-flex-480="center w" data-childs="center -center">
+                    <nav class="links-nav" data-flex="end w" data-childs="center -center">
                         <a href="#" class="active">home</a>
-                        <a href="#" class="dropdown-link">services</a>
+                        <div class="dropdown-link">services
+                            <ul class="links-dropdown" data-childs="-center">
+                                <li><a href="#">Web De&shy;sign</a></li>
+                                <li><a href="#">Gra&shy;phic De&shy;sign</a></li>
+                                <li><a href="#">Word&shy;press De&shy;ve&shy;lop&shy;ment</a></li>
+                                <li><a href="#">SEO Con&shy;sul&shy;ting</a></li>
+                                <li><a href="#">Iden&shy;ti&shy;ty</a></li>
+                            </ul>
+                        </div>
                         <a href="#">portfolio</a>
                         <a href="#">blog</a>
                         <a href="#">about us</a>

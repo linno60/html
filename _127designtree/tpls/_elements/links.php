@@ -6,19 +6,20 @@
 </div>
 <nav class="links-nav" data-flex="end w" data-childs="center -center">
     <a href="#" class="active">home</a>
-    <a href="#" class="dropdown-link">services</a>
+    <div class="dropdown-link">services
+        <ul class="links-dropdown" data-childs="-center">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Wordpress Development</a></li>
+            <li><a href="#">SEO Consulting</a></li>
+            <li><a href="#">Identity</a></li>
+        </ul>
+    </div>
     <a href="#">portfolio</a>
     <a href="#">blog</a>
     <a href="#">about us</a>
     <a href="#">contact</a>
 </nav>
-<ul class="links-dropdown">
-    <li><a href="#">&raquo; Web Design</a></li>
-    <li><a href="#">&raquo; Graphic Design</a></li>
-    <li><a href="#">&raquo; Wordpress Development</a></li>
-    <li><a href="#">&raquo; SEO Consulting</a></li>
-    <li><a href="#">&raquo; Identity</a></li>
-</ul>
 <div class="links-social" data-childs data-flex="col -start">
     <a href="#"><i class="icon-fb"></i>Like me on Facebook</a>
     <a href="#"><i class="icon-tw"></i>Follow me on Twitter</a>

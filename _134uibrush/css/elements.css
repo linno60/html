@@ -1,0 +1,119 @@
+body{
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: #464646;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 14rem;
+    padding: 0px 7rem;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    box-shadow: inset 0px -4px 0px 0px #e26d4e;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 168rem;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;background: #e26d4f;
+    color: white;    
+}
+.btn-default.alt{
+    background: white;
+    border: 1px solid #e26d4f;
+    color: #444;
+}
+.btn-default.lg{
+    min-width: 200rem;
+    border-radius: 2px;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+}
+.btn-default.available{
+    background: #455a95;
+}
+
+/*LABELS*/
+.lbl-default{
+    height: 50px;
+    background: #333; 
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+
+/*LISTS*/
+.list-default li{
+    border-top: 1px solid #b1b1b1;
+    color: #323232;
+    font-size: 16px;
+    padding: 13rem;
+    text-align: center;
+}
+.list-default{
+    border-right: 1px solid #b1b1b1;
+    border-left: 1px solid #b1b1b1;
+}
+.list-contacts address{
+    font-style: normal;
+}
+.list-contacts li, .list-contacts li a{
+    color: #858585;
+}
+.list-contacts li{    
+    margin-bottom: 17.5rem;
+}
+.list-contacts li div{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+}
+.list-contacts li a:active, .list-contacts li a:hover, .list-contacts li a:focus{
+    text-decoration: underline;
+}
+
+/*FORMS*/
+.input-default, .textarea-default{
+    border: 1px solid #c4c5c5;
+    color: black;
+    margin-bottom: 28rem;
+}
+.input-default{
+    height: 53px;
+    padding: 0px 11rem;
+}
+.textarea-default{
+    height: 142px;
+    padding: 14rem 11rem;
+    max-width: 562px;
+}
+.input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #858585; }
+.input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #858585; }
+.input-default:-ms-input-placeholder, .textarea-default:-ms-input-placeholder { color: #858585; }
+
+/*OTHER*/
+.hdr{
+    color: #464646;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 6rem 0px;   
+    text-transform: uppercase;
+    background: linear-gradient(#e26d4e,#e26d4e) center bottom / 75rem 1px no-repeat;
+}

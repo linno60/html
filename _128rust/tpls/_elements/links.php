@@ -5,16 +5,17 @@
 <nav class="links-nav">
     <a href="#">Home</a>
     <a href="#">About</a>
-    <a href="#">Work</a>
+    <div>Work
+        <div class="links-dropdown" data-flex="col">
+            <a href="#">Print</a>
+            <a href="#">Interactive</a>
+            <a href="#">Video</a>
+            <a href="#">Mis &amp; Labs</a>   
+        </div>
+    </div>
     <a href="#" class="active">Blog</a>
     <a href="#">Contact</a>
 </nav>
-<div class="links-dropdown" data-flex="col">
-    <a href="#">Print</a>
-    <a href="#">Interactive</a>
-    <a href="#">Video</a>
-    <a href="#">Mis & Labs</a>   
-</div>
 <div class="links-footer" data-flex="col -center">
     <a href="#">Home</a>
     <a href="#">About</a>
