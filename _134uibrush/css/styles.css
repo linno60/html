@@ -14,10 +14,6 @@ figure > img:only-of-type, a > img:only-of-type, figure > iframe{
     padding: 0px 10px;
     max-width: 1176px;
 }
-p{
-    color: #858585;
-    line-height: 24px;
-}
 
 /*HEADER*/
 #logo{
@@ -35,7 +31,7 @@ p{
 }
 .banner h1{
     color: white;
-    font-size: 36px;
+    font-size: 36rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 13rem;
@@ -49,21 +45,19 @@ p{
 
 /*ABOUT*/
 .about{
-    padding: 45rem 10px 57rem 10px;
+    padding: 45rem 10px 52rem 10px;
 }
 .about figure{
     width: 48.5%;
-    margin-left: 2rem;
-}
-.about article{
-    width: 49%;
+    margin: 0px 27rem 5px 2rem;
+    float: left;
 }
 .about p{
-    margin-top: 23rem;
-    padding-bottom: 1rem;
+    margin-top: 21rem;
+    padding-bottom: 3rem;
 }
 .about .btn-default{
-    margin-right: 6rem;
+    margin: 0px 6rem 2px 0px;
 }
 .about .hdr{
     margin-bottom: 60rem;
@@ -77,14 +71,14 @@ p{
     padding: 46rem 10px 59rem 10px;
     max-width: 1028px;
 }
-.features > div{
+.features > div:not(.figure){
     width: 29.25%;
     padding-top: 8rem;
 }
 .features > div:first-child{
     text-align: right;
 }
-.features figure{
+.features .figure{
     width: 32.5%;
 }
 .features h5{
@@ -102,7 +96,69 @@ p{
 
 /*TESTIMONIAL*/
 .testimonial{
-    height: 438px;
+    max-width: 535px;
+    padding: 46rem 10px 21rem 10px;
+}
+.testimonial .hdr{
+    margin-bottom: 30rem;
+}
+.slider-testimonial figure{
+    margin-bottom: 24rem;
+}
+.slider-testimonial > input[type=radio]{
+    display: none;
+}
+.slider-testimonial > .slide{
+    position: relative;
+    min-height: 238px;
+    overflow: hidden;
+    margin-bottom: 12rem;
+}
+.slider-testimonial > .slide > div{
+    width: 100%;
+    position: absolute;
+    transition: transform .3s;
+}
+.slider-testimonial > .slide article{
+    overflow: hidden;
+    max-height: 48px;
+}
+.slider-testimonial > .slide > .num1{
+    left: 0%;
+}
+.slider-testimonial > .slide > .num2{
+    left: 100%;
+}
+.slider-testimonial > .slide > .num3{
+    left: 200%;
+}
+.slider-testimonial > #tw1:checked ~ .slide > div{
+    transform: translateX(0%);
+}
+.slider-testimonial > #tw2:checked ~ .slide > div{
+    transform: translateX(-100%);
+}
+.slider-testimonial > #tw3:checked ~ .slide > div{
+    transform: translateX(-200%);
+}
+
+.slider-testimonial .bullets{
+    padding-bottom: 18rem;
+}
+.slider-testimonial .bullets label{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #b1b1b1;
+    transition: all ease .3s;
+    border-radius: 50%;
+    margin: 7rem;
+}
+.bullets > label:hover,
+.slider-testimonial > #tw1:checked ~ .bullets > .num1,
+.slider-testimonial > #tw2:checked ~ .bullets > .num2,
+.slider-testimonial > #tw3:checked ~ .bullets > .num3 {
+    background: #e26d4e;
+    border-color: #e26d4e;
 }
 
 /*PRICING*/
@@ -115,6 +171,9 @@ p{
 .pricing-item{
     width: 23.3%;
     margin-bottom: 10px;
+}
+.pricing-item > .list-default{
+    flex-grow: 1;
 }
 .pricing-item > strong{
     border: 1px solid #d9d9d9;
@@ -142,6 +201,10 @@ p{
 }
 .contacts p{
     margin: 0px 0px 24rem 2rem;
+    width: 98%;
+}
+.contacts form{
+    padding-bottom: 10px;
 }
 .contacts h4{
     color: #464646;
@@ -178,4 +241,13 @@ footer{
 }
 footer > .lwrap{
     padding: 19rem 10px 22rem 10px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 640px) {
+    .features .figure{display: none;}
+    .features > div:not(.figure){width: 48%;}
+}
+@media (max-width: 480px) {
+    .pricing-item{width: 49%;}
 }

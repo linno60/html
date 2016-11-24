@@ -1,4 +1,4 @@
-<nav class="links-nav" data-flex="end w">
+<nav class="links-nav" data-flex="end w" data-childs="center -center">
     <a href="#" class="active">ho&shy;me</a>
     <a href="#">ab&shy;out us</a>
     <a href="#">tes&shy;timo&shy;nial</a>

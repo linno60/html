@@ -2,6 +2,10 @@ body{
     font-size: 14px;
     font-family: Open Sans;
 }
+p, q{
+    color: #858585;
+    line-height: 24px;
+}
 
 /*LINKS*/
 .links-nav a{
@@ -10,9 +14,8 @@ body{
     text-transform: uppercase;
     margin-left: 14rem;
     padding: 0px 7rem;
-    height: 42px;
+    height: 66rem;
     text-align: center;
-    display: inline-block;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     box-shadow: inset 0px -4px 0px 0px #e26d4e;
@@ -26,11 +29,13 @@ body{
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;background: #e26d4f;
-    color: white;    
-}
-.btn-default.alt{
-    background: white;
+    color: white; 
+    padding: 0px 3px;
     border: 1px solid #e26d4f;
+    transition: all ease .3s;
+}
+.btn-default:active, .btn-default:hover, .btn-default:focus{
+    background: white;
     color: #444;
 }
 .btn-default.lg{
@@ -41,6 +46,7 @@ body{
 }
 .btn-default.available{
     background: #455a95;
+    border-color: #455a95;    
 }
 
 /*LABELS*/
@@ -53,6 +59,7 @@ body{
     font-weight: 600;
     padding: 0px 5px;
     text-transform: uppercase;
+    line-height: 16px;
 }
 
 /*LISTS*/
@@ -88,6 +95,20 @@ body{
     text-decoration: underline;
 }
 
+/*CITES*/
+blockquote{
+    text-align: center;
+}
+blockquote *, blockquote{
+    display: block;
+    width: 100%;
+}
+blockquote cite{
+    color: #e26d4e;
+    font-size: 13px;
+    margin-top: 6rem;
+}
+
 /*FORMS*/
 .input-default, .textarea-default{
     border: 1px solid #c4c5c5;
@@ -101,7 +122,6 @@ body{
 .textarea-default{
     height: 142px;
     padding: 14rem 11rem;
-    max-width: 562px;
 }
 .input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #858585; }
 .input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #858585; }
