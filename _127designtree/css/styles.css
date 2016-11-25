@@ -27,6 +27,7 @@ header > .lwrap{
 #logo{
     position: relative;
     margin: 0px 0px -6rem 2rem;
+    display: inline-block;
 }
 
 /*BANNER*/
@@ -35,14 +36,26 @@ header > .lwrap{
     box-shadow: 0px 1px 0px 0px #e5e2d0;
 }
 .banner .figure{
-    width: 70.3%;
+    width: 61.4%;
+    margin-left: 1rem;
 }
-.about{
-    background: url("/images/triangle.png")no-repeat left top;
-    background-size: cover;
-    margin-left: -153rem;
-    padding: 24rem 0px 56px 145rem;
-    width: 60%;
+.about{    
+    padding: 24rem 0px 56px 0px;
+    width: 38.6%;
+    position: relative;
+    margin: 0px 8rem 0px -8rem;
+}
+.about:before{
+    content: "";
+    position: absolute;
+    background: url("/images/triangle.png") left center / cover no-repeat;
+    width: calc(100% + 145rem);
+    height: 100%;
+    right: 0px;
+    top: 0px;
+}
+.about > *{
+    position: relative;
 }
 .about article{
     width: 100%;
@@ -334,10 +347,9 @@ footer > .lwrap{
 
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
-    .banner .figure, .latest-posts .hdr::after{display: none;}
-    .banner{background:url("/images/image.png")no-repeat center center;background-size: cover;}
-    .banner > .lwrap{background: rgba(255,255,255,.9);}
-    .about{margin:0px;background: none;padding: 0px 0px 50rem 0px;}
+    .banner .figure, .latest-posts .hdr:after{display: none;}
+    .banner{background: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)), url("/images/image.png") center / cover, no-repeat}
+    .about{margin:0px; padding: 5px 0px 50rem 0px;}
 }
 @media (max-width: 640px) {
     .footer > .text-widget{flex-basis: 100%;}

@@ -157,10 +157,10 @@ body{
     border-radius: 5px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.52);
     border: none;
-    outline: none;
-    color: transparent;
+    color: white;
     padding: 0px 12rem;
-    font-size: 14px;    
+    font-size: 14px;   
+    overflow: hidden;
 }
 .input-wrap{
     position: relative;
@@ -174,7 +174,8 @@ body{
     font-size: 14px;
     pointer-events: none;
     letter-spacing: -0.01em;
-    min-width: 178rem;
+    width: 90%;
+    overflow: hidden;
     white-space: nowrap;
 }
 .input-default + label span{
@@ -182,9 +183,6 @@ body{
 }
 .input-default:focus + label{
     display: none;
-}
-.input-default:focus{
-    color: white;
 }
 .input-default::-webkit-input-placeholder { color: #7b7a6d; letter-spacing: -0.01em;}
 .input-default::-moz-placeholder { color: #7b7a6d; letter-spacing: -0.01em; }

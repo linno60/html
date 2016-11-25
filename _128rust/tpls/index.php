@@ -272,5 +272,12 @@
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script>
+            document.querySelector('.input-default').onblur = function () {
+                if ((this.value)) {
+                    document.querySelector('.input-default + label').innerHTML = ' ';
+                }
+            };
+        </script>
     </body>
 </html>
