@@ -1,0 +1,88 @@
+body{
+    font-size: 17px;
+    font-family: Open Sans;
+    color: #444;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 181rem;
+    height: 61px;
+    background: #ecd407;
+    border-radius: 5px;
+    padding: 0px 5px;
+    color: #444;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 78px;
+    height: 78px;
+    background: #f4b939;
+}
+
+/*FORMS*/
+.input-default, .textarea-default{
+    border: none;
+    color: black;
+}
+.input-default{
+    height: 52px;
+    padding: 0px 10rem;
+}
+.textarea-default{
+    height: 111px;
+    padding: 10rem 10rem;
+}
+.input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #444; }
+.input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #444; }
+.input-default:-ms-input-placeholder, .textarea-default:-ms-input-placeholder { color: #444; }
+
+/*CITES*/
+.blockquote-testimonial{
+    text-align: center;
+}
+.blockquote-testimonial span{
+    color: #ecd407;
+    font-family: Sanchez;
+    font-size: 234px;
+    height: 100px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.blockquote-testimonial q{
+    color: #2f2f2f;
+    font-weight: 300;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 36px;
+}
+.blockquote-testimonial figure{
+    margin-right: 10rem;
+}
+.blockquote-testimonial cite{
+    color: #2f2f2f;
+    font-weight: 300;
+}
+.blockquote-testimonial cite big{
+    display: block;
+    font-size: 30px;
+}
+.blockquote-testimonial cite small{
+    font-size: 20px;
+}
+
+/*OTHER*/
+.hr-h{
+    width: 49px;
+    height: 3px;
+    background: #f4b939;
+}
+.hr-v{
+    margin: 0;
+    width: 2px;
+    height: 79px;
+    background: linear-gradient(white, white) left top / 50% 100% no-repeat, linear-gradient(transparent, white 25%) 50% top / 100% no-repeat;
+}

@@ -81,7 +81,7 @@ header{
     min-height: 176rem;
     margin-bottom: 10rem;
     letter-spacing: 0.1em;
-    display: inline-block;
+    display: inline-flex;
 }
 .header .lbl-sm{
     position: absolute;

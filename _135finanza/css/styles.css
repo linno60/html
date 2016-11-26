@@ -1,0 +1,84 @@
+/*COMMON*/
+body > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.lwrap{
+    max-width: 1120px;
+    padding: 0px 10px;
+}
+
+/*HEADER*/
+header{
+    background: url("/images/header.png")center / cover;
+}
+.header{
+    border-bottom: 1px solid #969696;
+}
+.header strong{
+    display: block;
+}
+
+/*ABOUT*/
+.about{
+    background: url("/images/bg.png") center / cover;
+}
+.about-item{
+    text-align: center;
+    width: 20%;
+}
+.about-item big{
+    color: #889eba;
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-item > div{
+    min-height: 100px;
+}
+.about-item span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/*TESTIMONIAL*/
+.testimonial{
+    background: url("/images/map.png")center top / 50% no-repeat;
+}
+.testimonial > .lwrap{
+    padding: 50rem 10px 50rem 10px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    flex-shrink: 0;
+    background:
+        url("/images/footer.png"),
+        repeating-linear-gradient(135deg, #00176c 0px, transparent 1px, transparent 5px, #00176c 5.5px),
+        linear-gradient(45deg, transparent, transparent 2px, #00176c 2px, #00176c 3px, transparent 3px, transparent) 0px 0px / 8px 8px, #001d8a;
+}
+footer, footer a{
+    color: white;
+}
+footer p{
+    color: white;
+font-size: 17px;
+font-style: italic;
+line-height: 36px;
+}
+footer > .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+.copyright{
+    background: #07195c;       
+}
+.copyright .lwrap{
+    padding: 30rem 10px 30rem 10px;
+}
+.copyright span{
+    font-style: italic; 
+}
