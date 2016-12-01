@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1120;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -36,19 +36,19 @@
                         </div>
                     </div>
                 </section>
-                <section class="lwrap form-wrap" data-flex="between -end">
+                <section class="lwrap form-wrap" data-flex="between -end" data-flex-800="vstripe">
                     <figure><img src="/images/girl.png" width="673" height="746" alt=""></figure>
-                    <div>
-                        <h1>Leave <span>Money Problem</span> to us and just <span>focus on you Business</span></h1>
+                    <div data-flex-800="vstripe">
+                        <h1>Leave <mark>Money Problem</mark> to us <span>and just <mark>focus on you Business</mark></span></h1>
                         <form action="#" method="post">
                             <label>
-                                <big></big>
-                                <span></span>
+                                <big>Leave your number and we will call you back</big>
+                                <span>Get up to $5000* within 10 minutes**</span>
                             </label>
                             <input class="input-default" type="text" name="form" placeholder="Full Name">
-                            <div data-flex="stripe">
-                                <input class="input-default" type="text" name="form" placeholder="Full Name">
-                                <input class="input-default" type="text" name="form" placeholder="Full Name">
+                            <div data-flex="stripe" data-flex-480="vstripe">
+                                <input class="input-default" type="email" name="form" placeholder="Email">
+                                <input class="input-default" type="tel" name="form" placeholder="Phone">
                             </div>
                             <textarea class="textarea-default" placeholder="Message"></textarea>
                             <button><span class="btn btn-default">Submit</span></button>
@@ -58,32 +58,32 @@
                 </section>
             </header>
             <section class="about">
-                <div class="lwrap" data-flex='stripe'>
+                <div class="lwrap" data-flex='stripe w'>
                     <div class='about-item'>
                         <big>23000</big>
                         <hr class='hr-h'>
-                        <div data-flex='-center'>
+                        <div data-flex='center -center'>
                             <span>happy clients</span>
                         </div>
                     </div>
                     <div class='about-item'>
                         <big>934</big>
                         <hr class='hr-h'>
-                        <div data-flex='-center'>
+                        <div data-flex='center -center'>
                             <span>branches around the worl</span>
                         </div>
                     </div>
                     <div class='about-item'>
                         <big>1.4</big>
                         <hr class='hr-h'>
-                        <div data-flex='-center'>
+                        <div data-flex='center -center'>
                             <span>billion dollars managed</span>
                         </div>
                     </div>
                     <div class='about-item'>
                         <big>6000</big>
                         <hr class='hr-h'>
-                        <div data-flex='-center'>
+                        <div data-flex='center -center'>
                             <span>cups of coffee</span>
                         </div>
                     </div>
@@ -91,6 +91,7 @@
             </section>
             <section class='testimonial'>
                 <div class='lwrap'>
+                    <h3>What Clients Say</h3>
                     <blockquote class="blockquote-testimonial" data-flex="vaxis">
                         <span>“</span>
                         <q>Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</q>
@@ -98,7 +99,7 @@
                             <figure><img src="/images/ava.png" width="84" height="84" alt=""></figure>
                             <cite>
                                 <big>Paul Smith</big>
-                                <small>businessman</small>
+                                <small>Businessman</small>
                             </cite>
                         </div>
                     </blockquote>
@@ -115,10 +116,10 @@
                     <hr class='hr-v'>
                     <div>
                         <div class="lbl lbl-default"><i class="icon-mail"></i></div>
-                        <a href='mailto:name@email.com'>mailto:name@email.com</a>
+                        <a href='mailto:name@email.com'>name@<wbr>email<wbr>.com</a>
                     </div>
                 </div>
-                <p>Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                <p>Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat port&shy;titor ligula, eget lacinia odio sem nec elit.Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             </section>
             <section class='copyright'>
                 <div class='lwrap'>

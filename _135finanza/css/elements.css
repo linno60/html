@@ -10,7 +10,7 @@ body{
     height: 61px;
     background: #ecd407;
     border-radius: 5px;
-    padding: 0px 5px;
+    padding: 0px 10px;
     color: #444;
     font-size: 20px;
     font-weight: 700;
@@ -18,8 +18,10 @@ body{
 
 /*LABELS*/
 .lbl-default{
-    width: 78px;
-    height: 78px;
+    width: 78rem;
+    height: 78rem;
+    min-height: 50px;
+    min-width: 50px;
     background: #f4b939;
 }
 
@@ -27,14 +29,19 @@ body{
 .input-default, .textarea-default{
     border: none;
     color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
 }
 .input-default{
     height: 52px;
-    padding: 0px 10rem;
+    padding: 0px 20rem;
+    margin-bottom: 25rem;
 }
 .textarea-default{
     height: 111px;
-    padding: 10rem 10rem;
+    padding: 10rem 20rem;
+    margin-bottom: 16rem;
 }
 .input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #444; }
 .input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #444; }
@@ -47,10 +54,12 @@ body{
 .blockquote-testimonial span{
     color: #ecd407;
     font-family: Sanchez;
-    font-size: 234px;
-    height: 100px;
+    font-size: 234rem;
+    height: 129rem;
     font-style: italic;
     text-transform: uppercase;
+    margin: -21rem 45rem 0px 0px;
+    display: inline-block;
 }
 .blockquote-testimonial q{
     color: #2f2f2f;
@@ -58,9 +67,12 @@ body{
     font-size: 22px;
     font-style: italic;
     line-height: 36px;
+    margin-bottom: 74rem;
+    display: inline-block;
+    width: 100%;
 }
 .blockquote-testimonial figure{
-    margin-right: 10rem;
+    margin: 0px 8rem 0px 60rem;
 }
 .blockquote-testimonial cite{
     color: #2f2f2f;
@@ -69,9 +81,13 @@ body{
 .blockquote-testimonial cite big{
     display: block;
     font-size: 30px;
+    line-height: 29px;
 }
 .blockquote-testimonial cite small{
     font-size: 20px;
+    margin-bottom: 5rem;
+    display: inline-block;
+    text-indent: 5rem;
 }
 
 /*OTHER*/
@@ -79,6 +95,7 @@ body{
     width: 49px;
     height: 3px;
     background: #f4b939;
+    margin: 33rem auto 8rem auto;
 }
 .hr-v{
     margin: 0;

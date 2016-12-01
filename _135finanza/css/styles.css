@@ -7,21 +7,118 @@ body > div{
     max-width: 1120px;
     padding: 0px 10px;
 }
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
 
 /*HEADER*/
 header{
     background: url("/images/header.png")center / cover;
 }
 .header{
-    border-bottom: 1px solid #969696;
+    border-bottom: 1px solid #969696;    
+}
+.header *{
+    color: white;
+    font-weight: 600;
 }
 .header strong{
     display: block;
+    font-size: 30rem;
+    line-height: 30rem;
+    letter-spacing: 0.012em;
+}
+.header small{  
+    font-size: 17rem;
+    letter-spacing: -0.04em;
+    text-indent: 4rem;
+    display: inline-block;
+}
+.header .icon-phone{
+    margin: 0px 14px;
+    flex-shrink: 0;
+}
+.header > .lwrap{
+    padding: 26rem 10px 37rem 10px;
+}
+.form-wrap{
+    padding: 61rem 32rem 0px 10px;
+    max-width: 1214px;
+}
+.form-wrap h1{
+    font-size: 55rem;
+    font-weight: 400;
+    color: white;
+    margin: 0px 0px 51rem -224rem;
+    letter-spacing: -0.047em;
+    line-height: 64rem;
+}
+.form-wrap h1 span{
+    font-size: 50rem;
+    padding-left: 27rem;
+    letter-spacing: -0.04em;
+    display: block;
+}
+.form-wrap h1 mark{
+    color: #ecd407;
+}
+.form-wrap figure{
+    width: 57.45%;
+    flex-shrink: 0;
+}
+.form-wrap form{   
+    background: #001d8a;
+    border-radius: 0px 50rem 0px 0px;
+    padding: 36rem 44rem 24rem 51rem;
+    margin: 0px 0px -53rem -85rem;
+    position: relative;
+    max-width: 584px;
+}
+.form-wrap form > div .input-default{
+    width: 47%;
+}
+.form-wrap .input-default, .form-wrap .textarea-default{
+    width: 100%;
+}
+.form-wrap form button{
+    margin-bottom: 25rem;
+}
+.form-wrap label{
+    margin-left: -4rem;
+}
+.form-wrap label *, .form-wrap small{
+    display: block;  
+}
+.form-wrap small{      
+    font-size: 13px;
+    text-indent: 5rem;
+    letter-spacing: -0.01em;
+}
+.form-wrap label, .form-wrap small{
+    color: white;
+}
+.form-wrap label big{
+    font-size: 35rem;
+    line-height: 42rem;
+    margin-bottom: 15rem;
+}
+.form-wrap label span{
+    font-size: 20px;
+    margin-bottom: 41rem;
+    letter-spacing: -0.01em;
 }
 
 /*ABOUT*/
 .about{
     background: url("/images/bg.png") center / cover;
+}
+.about > .lwrap{
+    max-width: 1192px;
+    padding: 151rem 10px 109rem 10px;
 }
 .about-item{
     text-align: center;
@@ -29,27 +126,36 @@ header{
 }
 .about-item big{
     color: #889eba;
-    font-size: 50px;
+    font-size: 50rem;
     font-weight: 700;
 }
 .about-item > div{
-    min-height: 100px;
+    min-height: 100rem;
 }
 .about-item span{
     color: white;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 600;
     text-transform: uppercase;
     vertical-align: middle;
     width: 100%;
+    line-height: 24rem;
 }
 
 /*TESTIMONIAL*/
 .testimonial{
-    background: url("/images/map.png")center top / 50% no-repeat;
+    background: url("/images/map.png")center top / 64% no-repeat;
 }
 .testimonial > .lwrap{
-    padding: 50rem 10px 50rem 10px;
+    padding: 61rem 10px 75rem 10px;
+    max-width: 1020px;
+}
+.testimonial h3{
+    color: #001d8a;
+    font-size: 35rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.005em;
 }
 
 /*FOOTER*/
@@ -64,21 +170,51 @@ footer{
 footer, footer a{
     color: white;
 }
+footer .lbl-default + *{
+    font-size: 25rem;
+    margin-top: 30rem;
+    display: inline-block;
+}
+footer > .lwrap > div{
+    max-width: 1040px;
+    margin: auto;
+}
 footer p{
     color: white;
-font-size: 17px;
-font-style: italic;
-line-height: 36px;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 36px;
+    margin-top: 51rem;
+    letter-spacing: -0.006em;
 }
 footer > .lwrap{
-    padding: 30rem 10px 30rem 10px;
+    padding: 68rem 10px 42rem 10px;
+    max-width: 1156px;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
 }
 .copyright{
     background: #07195c;       
 }
 .copyright .lwrap{
-    padding: 30rem 10px 30rem 10px;
+    padding: 24.5rem 10px;
 }
 .copyright span{
-    font-style: italic; 
+    font-style: italic;
+    letter-spacing: 0.005em;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 800px) {
+    .form-wrap figure{display:none;}
+    .form-wrap form{max-width: 800px;}
+    .header small{font-size: 12px;}
+    .form-wrap label big, .testimonial h3 {font-size: 25px;}
+    .form-wrap label big{line-height: 30px;}
+}
+@media (max-width: 640px) {
+    .header strong{font-size: 17px;line-height: 17px;}
+    footer .lbl-default + *{font-size: 14px;}
+    .about-item span{font-size: 11px;line-height: 13px;}
 }
