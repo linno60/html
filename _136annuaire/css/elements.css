@@ -1,0 +1,100 @@
+body{
+    font-size: 14px;
+    font-family: Ubuntu;
+}
+
+/*LINKS*/
+.links-social a{
+    margin: 10.5rem;
+    line-height: 1px;
+}
+.links-footer a{
+    margin-top: 6rem;
+    color: #a1a1a1;
+}
+.links-footer a:active, .links-footer a:hover, .links-footer a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+.btn-default{
+    height: 53px;
+    padding: 0px 20rem;
+    background: #ffcd00 linear-gradient(rgba(255, 255, 255, 0.02), rgba(0, 0, 1, 0.02));
+    box-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5), inset 3px 0 0 black;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+}
+.btn-default i[class^=icon-]{
+    margin-right: 10rem;
+}
+.btn-sign{
+    min-width: 97rem;
+    height: 34px;   
+    padding: 0px 11px;
+    border-radius: 17px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.btn-sign.active, .btn-sign:active, .btn-sign:hover, .btn-sign:focus{
+    background: black;
+    text-shadow: 0.5px 0.9px 1px rgba(1, 2, 2, 0.2);
+    color: white;
+}
+.btn-anchor{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background:
+        linear-gradient(135deg, transparent 4px, #1d1d1d 4px, #1d1d1d 5.5px, transparent 5.5px) 9px 10px / 10px 10px no-repeat,
+        linear-gradient(-135deg, transparent 4px, #1d1d1d 4px, #1d1d1d 5.5px, transparent 5.5px) 12px 10px / 10px 10px no-repeat,
+        linear-gradient(#eef2f2, #e1e5e5);
+    border: 2px solid #c7caca;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 110rem;
+    height: 110rem;
+    min-height: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(255, 215, 0, 0.9), rgba(255, 189, 0, 0.9));
+    border: 6px solid black;
+}
+.lbl-sm{
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 50%;
+}
+
+/*LISTS*/
+.list-default li{
+    list-style: circle;
+    margin-left: 30rem;
+}
+.list-default li, .list-default li a{
+    color: black;
+}
+.list-default li a:active, .list-default li a:hover, .list-default li a:focus{
+    text-decoration: underline;
+}
+
+/*FORMS*/
+.input-default{
+    height: 40px;
+    color: white;
+    padding: 0px 14rem;
+    font-size: 16px;
+    margin-bottom: 20rem;
+    background: rgba(48, 46, 46, 0.3) linear-gradient(rgba(255, 255, 255, 0.01), rgba(0, 0, 0, 0.01));
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5px 0.9px 4px rgba(0, 0, 0, 0.35), inset 1px 1.7px 0 rgba(255, 255, 255, 0.5);
+}
+.input-default::-webkit-input-placeholder { color: white; }
+.input-default::-moz-placeholder { color: white; }
+.input-default:-ms-input-placeholder { color: white; }

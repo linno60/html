@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+
+/* ICONS */
+.icon-arrow {width: 25px; height: 25px; background: url('/images/icons/arrow.png');}
+.icon-arrowaround {width: 47px; height: 72px; background: url('/images/icons/arrowaround.png');}
+.icon-comp {width: 43px; height: 28px; background: url('/images/icons/comp.png');}
+.icon-fb {width: 11px; height: 22px; background: url('/images/icons/fb.png');}
+.icon-globe {width: 40px; height: 40px; background: url('/images/icons/globe.png');}
+.icon-refresh {width: 28px; height: 28px; background: url('/images/icons/refresh.png');}
+.icon-rss {width: 20px; height: 20px; background: url('/images/icons/rss.png');}
+.icon-search {width: 130px; height: 73px; background: url('/images/icons/search.png');}
+.icon-sitemap {width: 28px; height: 28px; background: url('/images/icons/sitemap.png');}
+.icon-tw {width: 29px; height: 21px; background: url('/images/icons/tw.png');}
+.icon-userb {width: 18px; height: 19px; background: url('/images/icons/userb.png');}
+.icon-userw {width: 25px; height: 29px; background: url('/images/icons/userw.png');}
