@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=96807d93-0b43-48de-b296-d165e39870c1");
 
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/fonts.com/0b6110f9-6072-46b9-98af-7d09f7c895b8.woff2") format("woff2"), url("/fonts/fonts.com/c22866d7-ca67-4170-a113-cae280eea669.woff") format("woff");
+    font-weight: 600;
+}
 /* ICONS */
 .icon-arrow {width: 25px; height: 25px; background: url('/images/icons/arrow.png');}
 .icon-arrowaround {width: 47px; height: 72px; background: url('/images/icons/arrowaround.png');}
 .icon-comp {width: 43px; height: 28px; background: url('/images/icons/comp.png');}
 .icon-fb {width: 11px; height: 22px; background: url('/images/icons/fb.png');}
 .icon-globe {width: 40px; height: 40px; background: url('/images/icons/globe.png');}
-.icon-refresh {width: 28px; height: 28px; background: url('/images/icons/refresh.png');}
 .icon-rss {width: 20px; height: 20px; background: url('/images/icons/rss.png');}
 .icon-search {width: 130px; height: 73px; background: url('/images/icons/search.png');}
 .icon-sitemap {width: 28px; height: 28px; background: url('/images/icons/sitemap.png');}
 .icon-tw {width: 29px; height: 21px; background: url('/images/icons/tw.png');}
-.icon-userb {width: 18px; height: 19px; background: url('/images/icons/userb.png');}
-.icon-userw {width: 25px; height: 29px; background: url('/images/icons/userw.png');}
+.icon-refresh {width: 28px; height: 28px; background: url('/images/icons/refresh.png');}
+.icon-userlg {width: 25px; height: 29px; background: url('/images/icons/userlg.png');}
+.icon-usersm {width: 18px; height: 19px; background: url('/images/icons/usersm.png');}

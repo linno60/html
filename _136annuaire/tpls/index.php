@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 1044;
+            var LAYOUT_WIDTH = 1380;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -33,8 +33,8 @@
                     </div>
                 </div>
             </header> 
-            <section class='slider'>
-                <div class='lwrap' data-flex='stripe w'>
+            <section class='banner'>
+                <div class='lwrap' data-flex='stripe w' data-flex-640="vstripe">
                     <div data-flex="-end" class="figure"><figure><img src="/images/hand.png" width="429" height="476" alt=""></figure></div>
                     <form action='#' method='post'>
                         <label>
@@ -46,73 +46,90 @@
                             <input type="text" name="form" class="input-default" placeholder="Qui ?">
                             <input type="text" name="form" class="input-default" placeholder="Où ?">
                         </div>
-                        <button><span class="btn btn-default"><i class="icon-arrow"></i>je consulte l'annuaire</span></button>
+                        <button><span class="btn btn-default"><i class="icon-arrow"></i>je con&shy;sulte l'an&shy;nuai&shy;re</span></button>
                     </form>
                 </div>
             </section>
             <main class="content">
-                <div class='lwrap' data-flex='stripe w' data-childs="col">
-                    <div class="content-item" data-childs="col -center">
-                        <div class="hdr">
-                            <div class="lbl lbl-sm"><i class="icon-userw"></i></div>
-                            <h2>professionnels</h2>
+                <div class='lwrap' data-childs='stripe w'>
+                    <section data-childs="col between">
+                        <div class="hdr active">
+                            <div class="prompt">Ef&shy;fec&shy;tuer une re&shy;cher&shy;che</div>
+                            <h2>
+                                <div class="hidden" data-flex="center -center">
+                                    <div class="lbl lbl-sm"><i class="icon-usersm"></i></div>
+                                    <a href="#"></a>
+                                </div>
+                                pro&shy;fes&shy;sion&shy;nels
+                            </h2>
                         </div>
-                        <article>
+                        <div class="hdr">
+                            <div class="prompt">Ef&shy;fec&shy;tuer une re&shy;cher&shy;che</div>
+                            <h2>
+                                <div class="hidden" data-flex="center -center">
+                                    <div class="lbl lbl-sm"><i class="icon-userlg"></i></div>
+                                    <a href="#"></a>
+                                </div>
+                                par&shy;ti&shy;cu&shy;liers
+                            </h2>
+                        </div>
+                        <div class="hdr">
+                            <div class="prompt">Ef&shy;fec&shy;tuer une re&shy;cher&shy;che</div>
+                            <h2>
+                                <div class="hidden" data-flex="center -center">
+                                    <div class="lbl lbl-sm"><i class="icon-refresh"></i></div>
+                                    <a href="#"></a>
+                                </div>
+                                in&shy;ver&shy;sé
+                            </h2>
+                        </div>
+                    </section>
+                    <section data-flex-480="vstripe">                       
+                        <article class="content-item">
                             <h3>Tout en 1 !</h3>
                             <div data-flex="center -center"><div class="lbl lbl-default"><i class="icon-sitemap"></i></div></div>
-                            <p><strong>Annuaire,</strong> un annuaire téléphonique tout en 1 très performant pour la France et ses régions.</p>
-                        </article>
-                    </div>
-                    <div class="content-item" data-childs="col -center">
-                        <div class="hdr">
-                            <div class="lbl lbl-sm"><i class="icon-userw"></i></div>
-                            <h2>particuliers</h2>
-                        </div>
-                        <article>
-                            <h3>Multi-Opérateurs</h3>
+                            <p><strong>Annuaire,</strong> un annuaire télé&shy;phonique tout en 1 très perfor&shy;mant pour la France et ses régions.</p>
+                        </article> 
+                        <article class="content-item">
+                            <h3>Mul&shy;ti-Opé&shy;ra&shy;teurs</h3>
                             <div data-flex="center -center"><div class="lbl lbl-default"><i class="icon-comp"></i></div></div>
-                            <p><strong>Annuaire</strong> met à votre disposition un moteur de recherche très pertinent avec la collaboration des opérateurs téléphoniques.</p>
-                        </article>
-                    </div>
-                    <div class="content-item" data-childs="col -center">
-                        <div class="hdr">
-                            <div class="lbl lbl-sm"><i class="icon-refresh"></i></div>
-                            <h2>inversé</h2>
-                        </div>
-                        <article>
-                            <h3>32 millions</h3>
+                            <p><strong>Annuaire</strong> met à votre disposition un moteur de recherche très pertinent avec la colla&shy;boration des opérateurs télépho&shy;niques.</p>
+                        </article>                       
+                        <article class="content-item">
+                            <h3>32 mil&shy;lions</h3>
                             <div data-flex="center -center"><div class="lbl lbl-default"><i class="icon-globe"></i></div></div>
-                            <p>Vous avez accès à un annuaire téléphonique contenant près de <strong>32 millions</strong> de numéros de téléphone de professionnels et particuliers.</p>
+                            <p>Vous avez accès à un annuaire télépho&shy;nique contenant près de <strong>32 millions</strong> de numéros de téléphone de pro&shy;fession&shy;nels et par&shy;ticu&shy;liers.</p>
                         </article>
-                    </div>
+                    </section>                    
                 </div>
             </main>
         </div>
         <footer>
             <section class='lwrap footer' data-flex='stripe w'>
                 <div>
-                    <h5>annuaires</h5>
+                    <h5>an&shy;nuai&shy;res</h5>
                     <div class='links-footer' data-flex='col -start'>
-                        <a href='#'>Annuaire des particuliers</a>
-                        <a href='#'>Annuaire des professionnels</a>
-                        <a href='#'>Annuaire inversé</a>
+                        <a href='#'>An&shy;nuai&shy;re des parti&shy;culiers</a>
+                        <a href='#'>An&shy;nuai&shy;re des pro&shy;fession&shy;nels</a>
+                        <a href='#'>An&shy;nuai&shy;re in&shy;versé</a>
                     </div>
                 </div>
                 <div>
-                    <h5>conditions</h5>
-                    <span>Contact</span>
+                    <h5>con&shy;di&shy;tions</h5>
+                    <span>Con&shy;tact</span>
                     <ul class="list-default">
-                        <li><a href="#">Informations legalés</a></li>
+                        <li><a href="#">Infor&shy;mations lega&shy;lés</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h5>besoin d'assistance</h5>
+                    <h5>be&shy;soin d'assis&shy;tance</h5>
                     <strong>0000 000 000<mark>*</mark></strong>
                     <small><mark>*</mark>1€35/appel + 0€34/min</small>
                 </div>
                 <div>
-                    <h5>certification</h5>
-                    <a href="#"><img src="/images/stars.png" width="229" height="53" alt=""></a>
+                    <h5>cer&shy;tifi&shy;ca&shy;tion</h5>
+                    <a href="#" class="certification"><img src="/images/trust.png" width="134" height="15" alt=""></a>
+                    <div data-flex="axis"><span><big>Bon</big> <span>7,4 sur 10</span></span> <a href="#"><img src="/images/stars.png" width="229" height="53" alt=""></a></div>
                 </div>
             </section>
             <a href='#top' class='btn btn-anchor'></a>
