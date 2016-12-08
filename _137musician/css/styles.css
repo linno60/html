@@ -1,0 +1,163 @@
+body{
+    color: #798285;
+}
+body > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.lwrap{
+    max-width: 1200px;
+    padding: 0px 10px;
+}
+p{
+    color: #acacac;
+    font-family: "Myriad Pro";
+    line-height: 24px;
+}
+hgroup{
+    max-width: 800px;
+    text-align: center;
+    padding-bottom: 50rem;
+    margin: auto;
+}
+hgroup h6{
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30rem;
+}
+article h4{
+    color: black;
+    margin-bottom: 10rem;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/*HEADER*/
+header{
+    background: url("/images/headerbg.png")center / cover no-repeat;
+    min-height: 1000px;
+}
+.header{
+    background: rgba(0,8,12,.1);
+    width: 100%;
+}
+.logo{
+    padding-top: 155rem;
+}
+
+/*DISCOGRAPHY*/
+.discography{
+    background: url("/images/discographybg.png")center bottom / 100% auto repeat-x;
+    min-height: 1200px;
+}
+.discography article{
+    margin-bottom: 50rem;
+}
+.discography article > .title{
+    flex-shrink: 0;
+    width: 30%;
+}
+.discography article > div{
+    width: 68%;
+}
+
+/*TOURS*/
+.tours hgroup{
+    min-height: 500px;
+}
+.tours{
+    background: url("/images/concertbg.png")center bottom / 100% auto repeat-x;
+    padding-bottom: 200rem;
+}
+.tours article{
+    max-width: 500px;
+}
+.tours article .title{
+    min-height: 200px;
+}
+
+/*COMPOSITIONS*/
+.song-wrap{
+    background: #f5f6f6;
+    margin-bottom: 50rem;
+}
+.song-wrap > *{
+    width: 50%;
+}
+.song-wrap > article{
+    padding: 30rem;
+}
+.song-wrap > figure{
+    padding-top: 30%;
+}
+.song-wrap > article .title{
+    max-width: 400px;
+}
+.song-wrap:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+/*SLIDER*/
+.slider{
+    height: 600px;
+    background: url("/images/ocean.png")center / cover no-repeat;
+}
+
+/*NEWS*/
+.news > .lwrap{
+    padding: 50rem 10px;
+}
+.news article{
+    width: 32%;
+    margin-bottom: 20rem;
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+    padding: 20rem;
+}
+.news article:nth-child(1){
+    background: url("/images/new1.png")center / cover no-repeat;
+}
+.news article:nth-child(2){
+    background: url("/images/new2.png")center / cover no-repeat;
+}
+.news article:nth-child(3){
+    background: url("/images/new3.png")center / cover no-repeat;
+}
+.news article:nth-child(4){
+    background: url("/images/new4.png")center / cover no-repeat;
+}
+.news article:nth-child(5){
+    background: url("/images/new5.png")center / cover no-repeat;
+}
+.news article:nth-child(6){
+    background: url("/images/new6.png")center / cover no-repeat;
+}
+.news article b{
+    position: absolute;
+    right: 10rem;
+    bottom: -50rem;
+    color: rgba(0,0,0,.17);
+    font-size: 82rem;
+    text-transform: uppercase;
+}
+
+/*UPCOMING*/
+.upcoming{
+    min-height: 500px;
+    background: url("/images/upcomingbg.png")center / cover no-repeat;
+}
+.upcoming > .lwrap > div{
+    width: 50%;
+}
+
+/*HISTORY*/
+.history{
+    min-height: 500px;
+    background: url("/images/historybg.png")center / cover no-repeat;
+}
+
+/*FOOTER*/
+footer{
+    flex-shrink: 0;
+}

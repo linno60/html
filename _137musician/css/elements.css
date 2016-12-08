@@ -1,0 +1,154 @@
+body{
+    font-size: 14px;
+    font-family: Open Sans;    
+}
+body, body a{
+    color: black; 
+}
+
+/*LINKS*/
+.links-nav a{
+    font-family: Dosis;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 10rem;
+    color: #606060;
+    display: inline-block;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: black;
+    box-shadow: 0px 1px 0px 0px black;    
+}
+.links-media a, .links-social a{
+    line-height: 1px;
+}
+.links-media{
+    color: #999;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+}
+.links-media a{
+    margin-right: 5rem;
+}
+.links-media > span{
+    margin-right: 15rem;
+}
+.links-social{
+    max-width: 80px;
+    border-left: 1px solid black;
+}
+.links-social a{
+    margin: 5rem;
+}
+
+/*LISTS*/
+.list-history *{
+    text-align: center;
+}
+.list-history li{
+    flex-grow: 1;
+}
+.list-history hr{
+    width: 20px;
+    margin-top: 20rem;
+    height: 1px;
+    background: rgba(0,0,0,.28); 
+}
+.list-history li > input[type=checkbox]{
+    display: none;
+}
+.list-history label{
+    color: rgba(0,0,0,.28);   
+    font-family: Dosis;
+    font-size: 35px;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-history label:before, .list-history label:after{
+    content: "";
+    width: 8px;
+height: 8px;
+border-radius: 50%;
+display: inline-block;
+}
+.list-history input:checked + label:before, .list-history label:hover:before,
+.list-history input:checked + label:after, .list-history label:hover:after{
+background: #595c59;
+}
+.list-history label + span{
+    color: #5a5a58;
+    line-height: 19px;
+    visibility: hidden;
+    padding: 20rem;
+}
+.list-history input:checked + label, .list-history label:hover{
+    color: #575a59;
+}
+.list-history input:checked + label + span, .list-history label:hover + span{
+    visibility: visible;
+}
+
+/*BUTTONS*/
+.btn{
+    padding: 0px 5px;
+    font-weight: 700;
+    text-align: center;
+}
+.btn-default, .btn-decor{
+    min-width: 196rem;
+    height: 56px;
+}
+.btn-default i[class^=icon-]{
+    margin-left: 10rem;
+}
+.btn-decor, .btn-submit{
+    text-transform: uppercase;
+}
+.btn-default{ 
+    border: 1px solid rgba(99,99,99,.44);    
+}
+.btn-decor{
+    background: url("/images/btn2.png") center / cover no-repeat;
+}
+.btn-submit{
+    font-size: 20px;
+}
+
+/*FORMS*/
+.input-default, .textarea-default{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 32px!important;
+    vertical-align: middle;
+}
+.textarea-default{
+    padding-top: 5px;
+}
+.input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #798285; }
+.input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #798285; }
+.input-default:-ms-input-placeholder, .textarea-default:-ms-input-placeholder { color: #798285; }
+
+/*OTHER*/
+.hdr{
+    color: #454545;
+    font-family: Dosis;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-align: center;
+}
+.title time{
+    opacity: 0.65;
+}
+.title hr{
+    background: black;
+}
+.title{
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
