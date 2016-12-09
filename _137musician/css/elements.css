@@ -10,15 +10,16 @@ body, body a{
 .links-nav a{
     font-family: Dosis;
     font-size: 17px;
-    line-height: 22px;
+    padding-bottom: 7rem;
     text-transform: uppercase;
-    margin: 10rem;
+    margin: 5px;
     color: #606060;
     display: inline-block;
+    letter-spacing: 0.12em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     color: black;
-    box-shadow: 0px 1px 0px 0px black;    
+    box-shadow: 0px 2px 0px 0px black;    
 }
 .links-media a, .links-social a{
     line-height: 1px;
@@ -29,13 +30,14 @@ body, body a{
     font-size: 12px;
 }
 .links-media a{
-    margin-right: 5rem;
+    margin-right: 8rem;
 }
 .links-media > span{
-    margin-right: 15rem;
+    margin-right: 22rem;
 }
 .links-social{
-    max-width: 80px;
+    max-width: 100px;
+    margin-left: 5px;
     border-left: 1px solid black;
 }
 .links-social a{
@@ -70,13 +72,13 @@ body, body a{
 .list-history label:before, .list-history label:after{
     content: "";
     width: 8px;
-height: 8px;
-border-radius: 50%;
-display: inline-block;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
 }
 .list-history input:checked + label:before, .list-history label:hover:before,
 .list-history input:checked + label:after, .list-history label:hover:after{
-background: #595c59;
+    background: #595c59;
 }
 .list-history label + span{
     color: #5a5a58;
@@ -93,7 +95,6 @@ background: #595c59;
 
 /*BUTTONS*/
 .btn{
-    padding: 0px 5px;
     font-weight: 700;
     text-align: center;
 }
@@ -102,7 +103,7 @@ background: #595c59;
     height: 56px;
 }
 .btn-default i[class^=icon-]{
-    margin-left: 10rem;
+    margin-left: 13rem;
 }
 .btn-decor, .btn-submit{
     text-transform: uppercase;
@@ -111,10 +112,10 @@ background: #595c59;
     border: 1px solid rgba(99,99,99,.44);    
 }
 .btn-decor{
-    background: url("/images/btn2.png") center / cover no-repeat;
+    background: url("/images/btn1.png") center / cover no-repeat;
 }
 .btn-submit{
-    font-size: 20px;
+    font-size: 21px;
 }
 
 /*FORMS*/
@@ -123,9 +124,10 @@ background: #595c59;
     border-bottom: 1px solid black;
     height: 32px!important;
     vertical-align: middle;
+    background: none;
 }
 .textarea-default{
-    padding-top: 5px;
+    padding-top: 7px;
 }
 .input-default::-webkit-input-placeholder, .textarea-default::-webkit-input-placeholder { color: #798285; }
 .input-default::-moz-placeholder, .textarea-default::-moz-placeholder { color: #798285; }
@@ -133,22 +135,37 @@ background: #595c59;
 
 /*OTHER*/
 .hdr{
+    padding: 0px 20rem;
+    letter-spacing: 0.125em;
     color: #454545;
     font-family: Dosis;
     font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
-    text-decoration: line-through;
     text-align: center;
+    background: linear-gradient(black, black)center center / 100% 1px repeat-x;    
 }
 .title time{
-    opacity: 0.65;
+    color: rgba(0,0,0,.65);
 }
 .title hr{
     background: black;
+        margin: 8px 0 5px 0px;
 }
 .title{
     color: black;
     font-weight: 700;
     text-transform: uppercase;
+}
+.hr-h, .hr-v{
+    background: black;
+    margin: 0;
+}
+.hr-h{
+    height: 1px;
+    width: 132px;
+}
+.hr-v{
+    height: 51rem;
+    width: 1px;
 }

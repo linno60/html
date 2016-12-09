@@ -8,7 +8,7 @@
     <a href="#">his&shy;tory</a>
     <a href="#">con&shy;tact</a>   
 </nav>
-<div class="links-media" data-flex data-childs="-center">
+<div class="links-media" data-flex="end w" data-childs="-center">
     <span><a href="#"><i class="icon-volume"></i></a> 182.364</span>
     <span><a href="#"><i class="icon-like"></i></a> 10 k</span>
     <span><a href="#"><i class="icon-share"></i></a> 3 k</span>

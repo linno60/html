@@ -6,114 +6,198 @@ body > div{
     flex-grow: 1;
 }
 .lwrap{
-    max-width: 1200px;
-    padding: 0px 10px;
+    padding: 10px;
 }
 p{
     color: #acacac;
-    font-family: "Myriad Pro";
     line-height: 24px;
+    letter-spacing: 0.018em;
 }
-hgroup{
-    max-width: 800px;
+hgroup{    
     text-align: center;
-    padding-bottom: 50rem;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 882px;
 }
 hgroup h6{
     font-weight: 400;
     line-height: 24px;
-    margin-top: 30rem;
+    margin-top: 39rem;
+    letter-spacing: 0.118em;
 }
-article h4{
+h4{
     color: black;
-    margin-bottom: 10rem;
     font-size: 23px;
     font-weight: 400;
+    letter-spacing: 0.016em;
+    line-height: 25px;
+    width: 100%;
 }
 
 /*HEADER*/
 header{
     background: url("/images/headerbg.png")center / cover no-repeat;
-    min-height: 1000px;
+    min-height: 1062rem;
 }
 .header{
     background: rgba(0,8,12,.1);
     width: 100%;
 }
-.logo{
-    padding-top: 155rem;
+.header > .lwrap{
+    max-width: 1264px;
+    padding: 18rem 10px 6rem 10px;
+}
+#logo{
+    margin-top: 155rem;
 }
 
 /*DISCOGRAPHY*/
 .discography{
     background: url("/images/discographybg.png")center bottom / 100% auto repeat-x;
-    min-height: 1200px;
+    min-height: 1843rem;
+}
+.discography > .lwrap{
+    max-width: 1226px;
+}
+.discography hgroup{
+    max-width: 730px;
+    padding-top: 41rem;
+    min-height: 352rem;
+}
+.discography hgroup h6{
+    margin-top: 33rem;
 }
 .discography article{
-    margin-bottom: 50rem;
+    margin-bottom: 91rem;
+    min-height: 228px;
 }
-.discography article > .title{
-    flex-shrink: 0;
-    width: 30%;
+.discography .title{
+    width: 41.7%;
 }
-.discography article > div{
-    width: 68%;
+.discography h4{
+    padding-left: 43.7%;
+    line-height: 36px;
+}
+.discography article{
+    width: 56.3%;
+    padding-top: 9rem;
+}
+.discography .title{
+    margin-top: -13rem;
+}
+.discography .btn-decor{
+    margin-top: 15rem;
+}
+.discography .article-wrap > div:nth-child(3n + 1) .btn-decor{
+    background: url("/images/btn1.png") center / cover no-repeat;
+}
+.discography .article-wrap > div:nth-child(3n + 2) .btn-decor{
+    background: url("/images/btn2.png") center / cover no-repeat;
+}
+.discography .article-wrap > div:nth-child(3n + 3) .btn-decor{
+    background: url("/images/btn3.png") center / cover no-repeat;
 }
 
 /*TOURS*/
 .tours hgroup{
-    min-height: 500px;
+    min-height: 778rem;
+    padding-top: 141rem;
+    max-width: 882px;
+}
+.tours > .lwrap{
+    max-width: 1228px;
 }
 .tours{
     background: url("/images/concertbg.png")center bottom / 100% auto repeat-x;
-    padding-bottom: 200rem;
+    min-height: 1418rem;
+}
+.tours h4{
+    min-height: 44rem;
 }
 .tours article{
-    max-width: 500px;
+    max-width: 671px;
 }
 .tours article .title{
-    min-height: 200px;
+    min-height: 128rem;
+    max-width: 394px;
+}
+.tours p{
+    margin-bottom: 35rem;
 }
 
 /*COMPOSITIONS*/
+.compositions > .lwrap{
+    max-width: 1222px;
+    padding-bottom: 104rem;
+}
+.compositions hgroup{
+    padding-top: 138rem;
+    min-height: 446px;
+    max-width: 730px;
+}
 .song-wrap{
     background: #f5f6f6;
-    margin-bottom: 50rem;
+    margin-bottom: 54rem;
 }
 .song-wrap > *{
     width: 50%;
 }
 .song-wrap > article{
-    padding: 30rem;
+    padding: 15rem 60rem 22rem 35rem;
+    position: relative;
+}
+.song-wrap > article:after{
+    content: '';
+    position: absolute;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    z-index: 1;
+}
+.song-wrap:nth-of-type(odd) > article:after{
+    border-left: 12px solid #f5f6f6;
+    left: 100%;
+}
+.song-wrap:nth-of-type(even) > article:after{
+    border-right: 12px solid #f5f6f6;
+    right: 100%;
+}
+.song-wrap p{
+    margin-bottom: 26rem;
+}
+.song-wrap h4{
+    margin-top: 10rem;
 }
 .song-wrap > figure{
-    padding-top: 30%;
+    padding-top: 32.2%;
 }
 .song-wrap > article .title{
-    max-width: 400px;
+    max-width: 393px;
 }
 .song-wrap:nth-of-type(even){
     flex-direction: row-reverse;
 }
+.song-wrap .links-media{
+    flex-grow: 1;
+    padding: 4px;
+}
 
 /*SLIDER*/
 .slider{
-    height: 600px;
+    height: 642px;
     background: url("/images/ocean.png")center / cover no-repeat;
 }
 
 /*NEWS*/
 .news > .lwrap{
-    padding: 50rem 10px;
+    padding: 165rem 10px 94rem 10px;
+    max-width: 1222px;
 }
-.news article{
+.news article {
     width: 32%;
-    margin-bottom: 20rem;
-    min-height: 300px;
+    margin-bottom: 28rem;
+    min-height: 422px;
     overflow: hidden;
     position: relative;
-    padding: 20rem;
+    padding: 30rem 37rem;
 }
 .news article:nth-child(1){
     background: url("/images/new1.png")center / cover no-repeat;
@@ -135,29 +219,88 @@ header{
 }
 .news article b{
     position: absolute;
-    right: 10rem;
-    bottom: -50rem;
+    right: 8rem;
+    bottom: -39rem;
     color: rgba(0,0,0,.17);
     font-size: 82rem;
     text-transform: uppercase;
 }
+.news .title{
+    color: white;
+    max-width: 312px;
+    margin-bottom: 40rem;    
+}
+.news h4{    
+    min-height: 79px;
+}
 
 /*UPCOMING*/
 .upcoming{
-    min-height: 500px;
+    min-height: 1203px;
     background: url("/images/upcomingbg.png")center / cover no-repeat;
 }
-.upcoming > .lwrap > div{
+.upcoming hgroup{
+    padding-top: 190rem;
+    min-height: 500px;
+}
+.upcoming > .lwrap{
+    max-width: 1200px;
+}
+.upcoming > .lwrap > section, footer > .lwrap > section{
     width: 50%;
+}
+.upcoming .hdr, footer .hdr{
+    text-align: inherit;
 }
 
 /*HISTORY*/
 .history{
-    min-height: 500px;
+    min-height: 1250px;
     background: url("/images/historybg.png")center / cover no-repeat;
+}
+.history hgroup{
+    padding-top: 146rem;
+    min-height: 500px;
 }
 
 /*FOOTER*/
 footer{
     flex-shrink: 0;
+    min-height: 981px;
+    padding-top: 246rem;
+    background: url("/images/contactbg.png")center / cover no-repeat;
+}
+footer > .lwrap{
+    max-width: 1200px;
+}
+footer hgroup{
+    min-height: 208rem;
+}
+footer .hdr{
+    margin-bottom: 30rem;
+}
+footer .input-default, footer .textarea-default{
+    width: 100%;
+}
+footer .input-default{
+    margin-bottom: 42rem;
+}
+footer .textarea-default{
+    margin-bottom: 25rem;
+}
+footer address{
+    font-style: normal;
+    min-height: 29rem;
+}
+footer a, footer hgroup span{
+    color: #7b7b7b;
+}
+footer a:active, footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+footer form{
+    width: 65%;
+}
+footer .links-social{
+    width: 15%;
 }
