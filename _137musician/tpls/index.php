@@ -160,9 +160,59 @@
                     </div>
                 </div>
             </section>
-            <section class="slider">
-                <div class="lwrap">
-
+            <section class="slider" data-flex="axis w">
+                <input name="anchor" id='slide-0' type="radio">
+                <input name="anchor" id='slide-1' type="radio">
+                <input name="anchor" id='slide-2' type="radio">
+                <input name="anchor" id='play' type="radio" checked>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide-0'></label>
+                    <label class='num1' for='slide-1'></label>
+                    <label class='num2' for='slide-2'></label>
+                </div>
+                <ul data-childs="vaxis">
+                    <li>
+                        <i class="icon-note"></i>
+                        <article>                      
+                            <h2>in 2008, lead singer dan reynolds met<br> drummer andrew tolman at brigham young university where they were both students</h2>
+                            <p>Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</p>
+                        </article>
+                        <time>- Early years (2008-10)</time>
+                    </li>
+                    <li class='num0'>
+                        <i class="icon-note"></i>
+                        <article>                      
+                            <h2>in 2008, lead singer dan reynolds met<br> drummer andrew tolman at brigham young university where they were both students</h2>
+                            <p>Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</p>
+                        </article>
+                        <time>- Early years (2008-10)</time>
+                    </li>
+                    <li class='num1'>
+                        <i class="icon-note"></i>
+                        <article>                      
+                            <h2>in 2008, lead singer dan reynolds met<br> drummer andrew tolman at brigham young university where they were both students</h2>
+                            <p>Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</p>
+                        </article>
+                        <time>- Early years (2008-10)</time>
+                    </li>
+                    <li class='num2'>
+                        <i class="icon-note"></i>
+                        <article>                      
+                            <h2>in 2008, lead singer dan reynolds met<br> drummer andrew tolman at brigham young university where they were both students</h2>
+                            <p>Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music. Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys.</p>
+                        </article>
+                        <time>- Early years (2008-10)</time>
+                    </li>
+                </ul>                
+                <div class='arrownext'>
+                    <label class='num0' for='slide-0'></label>
+                    <label class='num1' for='slide-1'></label>
+                    <label class='num2' for='slide-2'></label>
+                </div>
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slide-0'></label>
+                    <label class='num1' for='slide-1'></label>
+                    <label class='num2' for='slide-2'></label>
                 </div>
             </section>
             <section class="news">
@@ -214,6 +264,21 @@
                         <hgroup data-flex="col -start">
                             <h2 class="hdr" data-flex="col -start">upcoming events</h2>
                         </hgroup>
+                        <article>
+                            <h4>Smoke + Mirrors Tour</h4>
+                            <hr class="hr-h">
+                            <address>2-2-15 Hokukoryokuschi, Konohana Ward, <br> 554-0042 Osaka Prefecture Osaka</address>
+                            <hr class="hr-v">
+                            <time>01.04.2015</time>
+                            <hr class="hr-v">
+                        </article>
+                        <article>
+                            <h4>Smoke + Mirrors Tour</h4>
+                            <hr class="hr-h">
+                            <p>When the last-minute request is for a focus group, it’s usually a sign that the request originated in Marketing. When Web sites are being designed, the folks in Marketing often feel like they don’t have much clout. Even though they’re the ones who spend the most time trying to figure out who the site’s audience is and what they want, the designers and developers are the ones with most of the</p>
+                            <hr class="hr-v">
+                            <time>27.05.2015</time>
+                        </article>
                     </section>
                 </div>
             </section>

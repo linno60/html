@@ -145,8 +145,11 @@ body, body a{
     text-align: center;
     background: linear-gradient(black, black)center center / 100% 1px repeat-x;    
 }
-.title time{
-    color: rgba(0,0,0,.65);
+time, .title{
+    font-weight: 700;
+}
+time {
+    color: rgba(0,0,0,.65);   
 }
 .title hr{
     background: black;
@@ -154,18 +157,20 @@ body, body a{
 }
 .title{
     color: black;
-    font-weight: 700;
     text-transform: uppercase;
 }
 .hr-h, .hr-v{
     background: black;
     margin: 0;
+    text-align: left;
 }
 .hr-h{
     height: 1px;
     width: 132px;
+    margin: 7rem 0px 11rem 0px;
 }
 .hr-v{
     height: 51rem;
     width: 1px;
+    margin: 16rem 0px 8rem 34rem;
 }

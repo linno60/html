@@ -59,7 +59,7 @@
 }
 /* IE 10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .csslider11  > #play25:checked ~ ul > li:not(:first-child) {
+    .csslider25  > #play25:checked ~ ul > li:not(:first-child) {
         animation: slide25-ie 12300ms infinite;
     }
 }
