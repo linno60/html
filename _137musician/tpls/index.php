@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1222;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -34,7 +34,7 @@
                         <a href="#">con&shy;tact</a>   
                     </nav>
                 </section>
-                <a href="/" title="Return to the homepage" id="logo">
+                <a href="/" title="Return to the homepage" id="logo" class="lwrap">
                     <img src="/images/logo.png" width="428" height="397" alt="Musician">
                 </a>
             </header>
@@ -44,7 +44,7 @@
                         <h2 class="hdr">discography</h2>
                         <h6>September 4 world heard Night Visions, the first full album. He reached the 2 position in the chart Billboard 200. The single «It's Time» took 22 th place in the Billboard Hot 100, 4th in the Billboard Alternative and Billboard Rock, and now went platinum.</h6>
                     </hgroup>
-                    <div class="article-wrap" data-childs="stripe w">
+                    <div class="article-wrap" data-childs="stripe w" data-childs-640="vstripe">
                         <div>
                             <h4>Hell and Silence is an EP by Las Vegas rock group</h4>
                             <h3 class="title"><time>2010</time><hr>hell and silence</h3>
@@ -99,7 +99,7 @@
                         <h2 class="hdr">latter compositions</h2>
                         <h6>"It's Time" was released as the lead single from Continued Silence and It's Time, both extended plays preceding Night Visions' release.</h6>
                     </hgroup>
-                    <div data-childs>
+                    <div data-childs data-childs-640="vstripe">
                         <div class="song-wrap">
                             <article data-flex="col around">
                                 <h3 class="title"><time>03.04.2015</time><hr>indian sammer</h3>
@@ -216,7 +216,7 @@
                 </div>
             </section>
             <section class="news">
-                <div class="lwrap" data-flex='stripe w'>
+                <div class="lwrap" data-flex='stripe w' data-flex-480="vstripe">
                     <article>
                         <h3 class="title"><time>03.04.2015</time><hr>chill nation</h3>
                         <h4>James Bay - Let It Go (Bear&shy;son Remix)</h4>
@@ -256,12 +256,10 @@
                 </div>
             </section>
             <section class="upcoming">
-                <div class="lwrap" data-flex='stripe'>
-                    <div>
-
-                    </div>
+                <div class="lwrap" data-flex='stripe' data-flex-640="vstripe">
+                    <div></div>
                     <section>
-                        <hgroup data-flex="col -start">
+                        <hgroup>
                             <h2 class="hdr" data-flex="col -start">upcoming events</h2>
                         </hgroup>
                         <article>
@@ -287,15 +285,40 @@
                     <h2 class="hdr">history</h2>
                     <h6>In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University where they were both students.Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music</h6>
                 </hgroup>
+                <ul class='list-history' data-flex='around' data-childs='col -center' data-flex-480="col" data-childs-480="-center">
+                    <li>
+                        <input type='checkbox' id='h1'>
+                        <label for='h1'><time>mar 16</time></label>
+                        <span>Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys</span>
+                    </li>
+                    <li>
+                        <input type='checkbox' id='h2'>
+                        <label for='h2'><time>apr 11</time></label>
+                        <span>Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys</span>
+                    </li>
+                    <li>
+                        <input type='checkbox' id='h3' checked>
+                        <label for='h3'><time>may 09</time></label>
+                        <span>Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys</span>
+                    </li>
+                    <li>
+                        <input type='checkbox' id='h4'>
+                        <label for='h4'><time>jun 06</time></label>
+                        <span>Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys</span>
+                    </li>
+                    <li>
+                        <input type='checkbox' id='h5'>
+                        <label for='h5'><time>jul 25</time></label>
+                        <span>Tolman later recruited his wife, Brittany Tolman, to sing backup and play keys</span>
+                    </li>
+                </ul>
             </section>
         </div>
         <footer>
-            <div class="lwrap" data-flex='stripe'>
-                <div>
-
-                </div>
+            <div class="lwrap" data-flex='stripe' data-flex-640="vstripe">
+                <div></div>
                 <section>
-                    <hgroup data-flex="col -start">
+                    <hgroup>
                         <h2 class="hdr">contact</h2>
                         <address>Canada Island, Division No. 23, Unorganized, MB, Canada</address>
                         <span>Tel. <a href='tel:+1(778) 288 5180'>+1(778) 288 5180</a></span>

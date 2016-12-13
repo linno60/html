@@ -6,7 +6,8 @@ body > div{
     flex-grow: 1;
 }
 .lwrap{
-    padding: 10px;
+    padding: 0 10px;
+    max-width: 1222px;
 }
 address{
     font-style: normal;
@@ -33,16 +34,16 @@ hgroup{
 hgroup h6{
     font-weight: 400;
     line-height: 24px;
-    margin-top: 39rem;
+    padding: 39rem 0;
     letter-spacing: 0.118em;
     width: 100%;
 }
 h4{
     color: black;
-    font-size: 23px;
+    font-size: 23rem;
     font-weight: 400;
     letter-spacing: 0.016em;
-    line-height: 25px;
+    line-height: 25rem;
     width: 100%;
 }
 
@@ -54,17 +55,19 @@ header{
 .header{
     background: rgba(0,8,12,.1);
     width: 100%;
+    margin-bottom: 157rem;
 }
 .header > .lwrap{
     max-width: 1264px;
     padding: 18rem 10px 6rem 10px;
 }
 #logo{
-    margin-top: 155rem;
+    max-width: 69%;
 }
 
 /*DISCOGRAPHY*/
 .discography{
+    padding-top: 51rem;
     background: url("/images/discographybg.png")center bottom / 100% auto repeat-x;
     min-height: 1843rem;
 }
@@ -73,22 +76,21 @@ header{
 }
 .discography hgroup{
     max-width: 730px;
-    padding-top: 41rem;
-    min-height: 352rem;
+    min-height: 311rem;
 }
 .discography hgroup h6{
-    margin-top: 33rem;
+    padding: 33rem 0px;
 }
 .discography article{
     margin-bottom: 91rem;
-    min-height: 228px;
+    min-height: 228rem;
 }
 .discography .title{
     width: 41.7%;
 }
 .discography h4{
     padding-left: 43.7%;
-    line-height: 36px;
+    line-height: 36rem;
 }
 .discography article{
     width: 56.3%;
@@ -115,9 +117,7 @@ header{
 
 /*TOURS*/
 .tours hgroup{
-    min-height: 778rem;
-    padding-top: 141rem;
-    max-width: 882px;
+    min-height: 637rem;  
 }
 .tours > .lwrap{
     max-width: 1228px;
@@ -125,6 +125,10 @@ header{
 .tours{
     background: url("/images/concertbg.png")center bottom / 100% auto repeat-x;
     min-height: 1418rem;
+    padding-top: 151rem;
+}
+.tours .btn-default{
+    margin-bottom: 5px;
 }
 .tours h4{
     min-height: 44rem;
@@ -141,13 +145,11 @@ header{
 }
 
 /*COMPOSITIONS*/
-.compositions > .lwrap{
-    max-width: 1222px;
-    padding-bottom: 104rem;
+.compositions{
+    padding: 148rem 0px 104rem 0px;
 }
 .compositions hgroup{
-    padding-top: 138rem;
-    min-height: 446px;
+    min-height: 308rem;
     max-width: 730px;
 }
 .song-wrap{
@@ -167,6 +169,8 @@ header{
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
     z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .song-wrap:nth-of-type(odd) > article:after{
     border-left: 12px solid #f5f6f6;
@@ -230,14 +234,13 @@ header{
 }
 .slider > ul{
     max-width: 1000px;
+    width: 90%;
     position: relative;
     overflow: hidden;
     text-align: center;
-
 }
 .slider > ul > li{   
-    padding: 0px 10px;
-    padding-top: 44rem;
+    padding: 44rem 10px 0px 10px;
 }
 .slider > ul > li:first-child {
     visibility: hidden;
@@ -373,14 +376,13 @@ header{
 }  
 
 /*NEWS*/
-.news > .lwrap{
-    padding: 165rem 10px 94rem 10px;
-    max-width: 1222px;
+.news{
+    padding: 165rem 0px 94rem 0px;
 }
 .news article {
     width: 32%;
     margin-bottom: 28rem;
-    min-height: 422px;
+    min-height: 422rem;
     overflow: hidden;
     position: relative;
     padding: 30rem 37rem;
@@ -417,25 +419,30 @@ header{
     margin-bottom: 40rem;    
 }
 .news h4{    
-    min-height: 79px;
+    min-height: 79rem;
 }
 
 /*UPCOMING*/
 .upcoming{
-    min-height: 1203px;
+    min-height: 1203rem;
+    padding-top: 200rem;
     background: url("/images/upcomingbg.png")center / cover no-repeat;
 }
-.upcoming hgroup{
-    padding-top: 190rem;
-    min-height: 356rem;
+.upcoming hgroup, footer hgroup{
+    max-width: 500px;
+    margin: 0px;
+    text-align: left;
+}
+.upcoming hgroup{    
+    min-height: 166rem;
 }
 .upcoming .hdr {
-    padding: 0px 31rem 0px 4rem;
+    padding: 0px 4rem;
 }
-.upcoming > .lwrap{
+.upcoming > .lwrap, footer > .lwrap{
     max-width: 1200px;
 }
-.upcoming > .lwrap > section, footer > .lwrap > section{
+.upcoming > .lwrap > section{
     width: 50.9%;
 }
 .upcoming .hdr, footer .hdr{
@@ -451,29 +458,31 @@ header{
 
 /*HISTORY*/
 .history{
-    min-height: 1250px;
+    min-height: 1250rem;
+    padding-top: 146rem;
     background: url("/images/historybg.png")center / cover no-repeat;
 }
-.history hgroup{
-    padding-top: 146rem;
-    min-height: 500px;
+.history hgroup{    
+    min-height: 362rem;
 }
 
 /*FOOTER*/
 footer{
     flex-shrink: 0;
-    min-height: 981px;
-    padding-top: 246rem;
+    min-height: 981rem;
+    padding-top: 256rem;
     background: url("/images/contactbg.png")center / cover no-repeat;
 }
-footer > .lwrap{
-    max-width: 1200px;
+footer > .lwrap > section{
+    width: 50.35%;
 }
-footer hgroup{
+footer hgroup{    
+    max-width: 503px;
     min-height: 208rem;
 }
 footer .hdr{
-    margin-bottom: 30rem;
+    margin-bottom: 19rem;
+    padding: 0px;    
 }
 footer .input-default, footer .textarea-default{
     width: 100%;
@@ -485,7 +494,8 @@ footer .textarea-default{
     margin-bottom: 25rem;
 }
 footer address{
-    min-height: 29rem;
+    min-height: 31rem;
+    letter-spacing: 0.018em;
 }
 footer a, footer hgroup span{
     color: #7b7b7b;
@@ -497,5 +507,33 @@ footer form{
     width: 65%;
 }
 footer .links-social{
-    width: 15%;
+    width: 30%;
+    margin: 20rem;
+}
+footer section > div{
+    margin-bottom: 10px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 960px) {
+    .links-nav a{font-size: 14px;}
+    h4, .discography h4{font-size: 18px; line-height: 20px;}
+    .list-history label, .list-history input:checked + label, .list-history label:hover{background: none;}
+}
+@media screen and (max-width: 640px) {
+    .hdr{font-size: 26px;}
+    .discography h4{padding: 0; order: 0;}
+    .discography *:not(h4){order: 1;}
+    .discography .title{margin-top: 5px;}
+    .song-wrap:nth-of-type(2n) {flex-direction: column;}
+    .song-wrap figure{min-height: 500rem;}
+    .news article{width: 49%}
+}
+@media screen and (max-width: 480px) {
+    .header{margin: 0;}
+    .news > .lwrap{padding-top: 10px;}
+    .list-history label time{font-size: 14px;}
+    .list-history label{width: 30%;}
+    .tours, .compositions, .slider, .news, .upcoming, .history, footer{padding: 0;}
+    .history, footer, .tours, .discography, .upcoming{background: none;}
 }

@@ -9,10 +9,10 @@ body, body a{
 /*LINKS*/
 .links-nav a{
     font-family: Dosis;
-    font-size: 17px;
+    font-size: 17rem;
     padding-bottom: 7rem;
     text-transform: uppercase;
-    margin: 5px;
+    margin: 5rem;
     color: #606060;
     display: inline-block;
     letter-spacing: 0.12em;
@@ -33,15 +33,16 @@ body, body a{
     margin-right: 8rem;
 }
 .links-media > span{
-    margin-right: 22rem;
+    margin: 10px 22px 0 0;
 }
 .links-social{
-    max-width: 100px;
+    max-width: 72.5px;
     margin-left: 5px;
     border-left: 1px solid black;
 }
 .links-social a{
-    margin: 5rem;
+    margin: 5px;
+    display: inline-block;
 }
 
 /*LISTS*/
@@ -51,30 +52,40 @@ body, body a{
 .list-history li{
     flex-grow: 1;
 }
-.list-history hr{
-    width: 20px;
-    margin-top: 20rem;
-    height: 1px;
-    background: rgba(0,0,0,.28); 
-}
 .list-history li > input[type=checkbox]{
     display: none;
 }
-.list-history label{
-    color: rgba(0,0,0,.28);   
-    font-family: Dosis;
-    font-size: 35px;
-    text-transform: uppercase;
+.list-history label{    
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)) left 22rem / 100rem 1rem no-repeat, 
+        linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)) right 22rem / 100rem 1rem no-repeat;
+    margin-bottom: 18rem;
+    width: 100%;
+}
+.list-history label time{
+    color: rgba(0,0,0,.28);
+    font-weight: inherit;
+    letter-spacing: 0.125em;
+    padding: 0px 2px;
+    font-family: Dosis;    
+    font-size: 35rem;
+    text-transform: uppercase;
 }
 .list-history label:before, .list-history label:after{
     content: "";
-    width: 8px;
-    height: 8px;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     display: inline-block;
+    flex-shrink: 0;
+}
+.list-history label:before{
+    margin-left: 40rem;
+}
+.list-history label:after{
+    margin-right: 40rem;
 }
 .list-history input:checked + label:before, .list-history label:hover:before,
 .list-history input:checked + label:after, .list-history label:hover:after{
@@ -84,9 +95,16 @@ body, body a{
     color: #5a5a58;
     line-height: 19px;
     visibility: hidden;
-    padding: 20rem;
+    max-width: 250px;
+    padding: 10px;
+    display: inline-block;
 }
 .list-history input:checked + label, .list-history label:hover{
+    background:
+        linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)) left 22rem / 30rem 1rem no-repeat, 
+        linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)) right 22rem / 30rem 1rem no-repeat;
+}
+.list-history input:checked + label time, .list-history label:hover time{
     color: #575a59;
 }
 .list-history input:checked + label + span, .list-history label:hover + span{
@@ -97,6 +115,7 @@ body, body a{
 .btn{
     font-weight: 700;
     text-align: center;
+    padding: 0 10px;
 }
 .btn-default, .btn-decor{
     min-width: 196rem;
@@ -104,6 +123,7 @@ body, body a{
 }
 .btn-default i[class^=icon-]{
     margin-left: 13rem;
+    flex-shrink: 0;
 }
 .btn-decor, .btn-submit{
     text-transform: uppercase;
@@ -116,6 +136,7 @@ body, body a{
 }
 .btn-submit{
     font-size: 21px;
+    padding: 0;
 }
 
 /*FORMS*/
@@ -139,7 +160,7 @@ body, body a{
     letter-spacing: 0.125em;
     color: #454545;
     font-family: Dosis;
-    font-size: 50px;
+    font-size: 50rem;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
@@ -153,7 +174,7 @@ time {
 }
 .title hr{
     background: black;
-        margin: 8px 0 5px 0px;
+    margin: 8px 0 5px 0px;
 }
 .title{
     color: black;
