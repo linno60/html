@@ -1,0 +1,156 @@
+body{
+    font-family: Roboto;
+    font-size: 18px;
+}
+body *{
+     color: #919191;
+}
+
+/*LINKS*/
+.links-nav{
+    margin-right: -19rem;
+}
+.links-nav a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 19rem;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    color: #2ecc71;
+}
+.links-social a{
+    width: 34px;
+    height: 34px;
+    background: #4b5456;
+    border-radius: 50%;
+    margin: 5rem;
+}
+.links-social a:hover > .icon-db {background: url('/images/icons/db-hover.png');}
+.links-social a:hover > .icon-fb {background: url('/images/icons/fb-hover.png');}
+.links-social a:hover > .icon-gp {background: url('/images/icons/gp-hover.png');}
+.links-social a:hover > .icon-in {background: url('/images/icons/in-hover.png');}
+.links-social a:hover > .icon-pt {background: url('/images/icons/pt-hover.png');}
+.links-social a:hover > .icon-tw {background: url('/images/icons/tw-hover.png');}
+.links-categories a{
+    margin-bottom: 5rem;
+}
+.links-categories a.active, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
+    color: white;
+}
+
+/*BUTTONS*/
+.btn, .lbl{    
+    font-weight: 700;
+}
+.btn-default, .btn-alt, .btn-submit{
+    min-width: 185rem;
+    height: 56px;
+    border: 2px solid;
+    text-transform: uppercase;
+    padding: 0px 19rem;
+}
+.btn-alt, .btn-submit{
+    color: white;
+}
+.btn-default{
+    border-color: #2ecc71;
+    color: #2ecc71;   
+}
+.btn-alt{
+    border-color: white;
+}
+.btn-submit{
+    border-color: transparent;
+    background: #191f21;
+}
+
+/*LABELS*/
+.lbl-default{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 71rem;
+    height: 29px;
+    background: #2ecc71;
+    padding: 0px 2px;
+}
+
+/*LISTS*/
+.list-skills li{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 35rem;
+}
+.list-skills span{    
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+        margin-top: 14rem;
+}
+.list-skills li:nth-child(1) span{    
+    background: linear-gradient(90deg, #2ecc71, #2ecc71 90%, #f2f2f1 90%, #f2f2f1);
+    padding-right: 12%;
+}
+.list-skills li:nth-child(2) span{    
+    background: linear-gradient(90deg, #2ecc71, #2ecc71 80%, #f2f2f1 80%, #f2f2f1);
+    padding-right: 22%;
+}
+.list-skills li:nth-child(3) span{    
+    background: linear-gradient(90deg, #2ecc71, #2ecc71 90%, #f2f2f1 90%, #f2f2f1);
+    padding-right: 12%;
+}
+.list-skills li:nth-child(4) span{    
+    background: linear-gradient(90deg, #2ecc71, #2ecc71 70%, #f2f2f1 70%, #f2f2f1);
+    padding-right: 32%;
+}
+
+/*FORMS*/
+.input-default, .textarea-default{
+    background: #4b5456;
+    border: none;
+    padding: 5px;
+    color: white;
+    width: 100%;    
+}
+.input-default{
+    height: 56px;
+    margin-bottom: 36rem;
+}
+.textarea-default{
+    height: 279px;
+    margin-bottom: 40rem;
+}
+label{
+    color: white;
+        margin-bottom: 15rem;
+}
+
+/*CITES*/
+.blockquote-testimonial{
+    text-align: center;
+}
+.blockquote-testimonial q{
+    font-size: 24px;
+    font-style: italic;
+    line-height: 36px;
+    display: inline-block;
+    margin-bottom: 36rem;
+}
+.blockquote-testimonial cite{
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+/*OTHER*/
+hr{
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+}
