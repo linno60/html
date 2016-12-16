@@ -3,7 +3,7 @@ body{
     font-size: 18px;
 }
 body *{
-     color: #919191;
+    color: #919191;
 }
 
 /*LINKS*/
@@ -33,8 +33,12 @@ body *{
 .links-social a:hover > .icon-in {background: url('/images/icons/in-hover.png');}
 .links-social a:hover > .icon-pt {background: url('/images/icons/pt-hover.png');}
 .links-social a:hover > .icon-tw {background: url('/images/icons/tw-hover.png');}
+.links-categories{
+    max-height: 160px;
+    overflow: hidden;
+}
 .links-categories a{
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 .links-categories a.active, .links-categories a:active, .links-categories a:hover, .links-categories a:focus{
     color: white;
@@ -90,7 +94,7 @@ body *{
     color: white;
     font-size: 18px;
     line-height: 30px;
-        margin-top: 14rem;
+    margin-top: 14rem;
 }
 .list-skills li:nth-child(1) span{    
     background: linear-gradient(90deg, #2ecc71, #2ecc71 90%, #f2f2f1 90%, #f2f2f1);
@@ -127,12 +131,13 @@ body *{
 }
 label{
     color: white;
-        margin-bottom: 15rem;
+    margin-bottom: 15rem;
 }
 
 /*CITES*/
 .blockquote-testimonial{
     text-align: center;
+    padding: 0px 10px;
 }
 .blockquote-testimonial q{
     font-size: 24px;
@@ -140,6 +145,7 @@ label{
     line-height: 36px;
     display: inline-block;
     margin-bottom: 36rem;
+    width: 100%;
 }
 .blockquote-testimonial cite{
     color: #566366;

@@ -22,10 +22,35 @@
     <body data-flex="col">
         <div>
             <header>
-                <section class="slider">
-                    <div class="lwrap" data-flex="col -center">
-                        <h1>web & graphic designer</h1>
-                        <a href="#" class="btn btn-alt">learn more</a>
+                <section class="header-wrap">
+                    <div class="slider-header lwrap">
+                        <input name="anchor-h" id='slideh-0' type="radio">
+                        <input name="anchor-h" id='slideh-1' type="radio">
+                        <input name="anchor-h" id='slideh-2' type="radio">
+                        <input name="anchor-h" id='play-h' type="radio" checked>
+                        <ul data-childs="vaxis">
+                            <li>
+                                <h1>web & graphic designer</h1>
+                                <a href="#" class="btn btn-alt">learn more</a>
+                            </li>
+                            <li class='num0'>
+                                <h1>web & graphic designer</h1>
+                                <a href="#" class="btn btn-alt">learn more</a>
+                            </li>
+                            <li class='num1'>
+                                <h1>web & graphic designer</h1>
+                                <a href="#" class="btn btn-alt">learn more</a>
+                            </li>
+                            <li class='num2'>
+                                <h1>web & graphic designer</h1>
+                                <a href="#" class="btn btn-alt">learn more</a>
+                            </li>
+                        </ul> 
+                        <div class='bullets' data-flex="col">
+                            <label class='num0' for='slideh-0'></label>
+                            <label class='num1' for='slideh-1'></label>
+                            <label class='num2' for='slideh-2'></label>
+                        </div>
                     </div>
                 </section>
                 <section class="nav">
@@ -62,46 +87,42 @@
                 </div>
             </section>
             <section class="about">
-                <div class="lwrap" data-flex="between -start w">
+                <div class="lwrap clearfix">
                     <figure><img src="/images/about.png" width="610" height="754" alt=""></figure>
-                    <div class="articles-wrap">
-                        <div>
-                            <article>
-                                <h2>about me</h2>
-                                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri.</p>
-                                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei.</p>
-                            </article>
-                            <div class="articles" data-flex="stripe w" data-childs data-flex-800="vstripe">
-                                <article>
-                                    <i class="icon-globe"></i>
-                                    <div>
-                                        <h3>web design</h3>
-                                        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-                                    </div>
-                                </article>
-                                <article>
-                                    <i class="icon-pen"></i>
-                                    <div>
-                                        <h3>graphic design</h3>
-                                        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-                                    </div>
-                                </article>
-                                <article>
-                                    <i class="icon-users"></i>
-                                    <div>
-                                        <h3>online marketing</h3>
-                                        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-                                    </div>
-                                </article>
-                                <article>
-                                    <i class="icon-clip"></i>
-                                    <div>
-                                        <h3>seo</h3>
-                                        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-                                    </div>
-                                </article> 
+                    <article data-flex="col">
+                        <h2>about me</h2>
+                        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri.</p>
+                        <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei.</p>
+                    </article>
+                    <div class="articles" data-flex="stripe w" data-childs data-flex-800="vstripe">
+                        <article>
+                            <i class="icon-globe"></i>
+                            <div>
+                                <h3>web design</h3>
+                                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
                             </div>
-                        </div>
+                        </article>
+                        <article>
+                            <i class="icon-pen"></i>
+                            <div>
+                                <h3>graphic design</h3>
+                                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="icon-users"></i>
+                            <div>
+                                <h3>online marketing</h3>
+                                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="icon-clip"></i>
+                            <div>
+                                <h3>seo</h3>
+                                <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
+                            </div>
+                        </article> 
                     </div>
                 </div>
             </section>
@@ -182,12 +203,41 @@
                     </div>
                 </div>
             </section>
-            <section class="testimonials">
-                <div class="lwrap">
-                    <blockquote class="blockquote-testimonial">
-                        <q>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</q>
-                        <cite>john stone</cite>
-                    </blockquote>
+            <section class="slider-testimonials">
+                <input name="anchor-t" id='slidet-0' type="radio">
+                <input name="anchor-t" id='slidet-1' type="radio">
+                <input name="anchor-t" id='slidet-2' type="radio">
+                <input name="anchor-t" id='play-t' type="radio" checked>
+                <ul class="lwrap">
+                    <li>
+                        <blockquote class="blockquote-testimonial" data-flex="vaxis">
+                            <q>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</q>
+                            <cite>john stone</cite>
+                        </blockquote>
+                    </li>
+                    <li class='num0'>
+                        <blockquote class="blockquote-testimonial" data-flex="vaxis">
+                            <q>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</q>
+                            <cite>john stone</cite>
+                        </blockquote>
+                    </li>
+                    <li class='num1'>
+                        <blockquote class="blockquote-testimonial" data-flex="vaxis">
+                            <q>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</q>
+                            <cite>john stone</cite>
+                        </blockquote>
+                    </li>
+                    <li class='num2'>
+                        <blockquote class="blockquote-testimonial" data-flex="vaxis">
+                            <q>“Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</q>
+                            <cite>john stone</cite>
+                        </blockquote>
+                    </li>
+                </ul> 
+                <div class='bullets' data-flex="center -center">
+                    <label class='num0' for='slidet-0'></label>
+                    <label class='num1' for='slidet-1'></label>
+                    <label class='num2' for='slidet-2'></label>
                 </div>
             </section>
             <section class="portfolio lwrap" data-flex="vaxis">
@@ -196,7 +246,7 @@
                 <div class="gallery" data-flex="stripe w" data-flex-480="vstripe">
                     <div>
                         <h4>filter by category</h4>
-                        <div class="links-categories" data-flex="col -start">
+                        <div class="links-categories" data-flex="col -start w">
                             <a href="#">All</a>
                             <a href="#">Themes</a>
                             <a href="#">Icons</a>
@@ -223,8 +273,8 @@
                     <p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.</p>
                     <address>122 33rd Street East<br>Saskatoon, SK<br>S7K 1R9</address>
                     <dl data-childs="w">
-                        <li><dd>Email:</dd><dt><a href="mailto:info@focal.com">info@focal.com</a></dt></li>
-                        <li><dd>Phone:</dd><dt>1-306-222-2323</dt></li>
+                        <li><dd>Email:&emsp; </dd> <dt><a href="mailto:info@focal.com">info@focal.com</a></dt></li>
+                        <li><dd>Phone:&emsp; </dd> <dt>1-306-222-2323</dt></li>
                     </dl>
                 </div>
                 <form action="#" method="post" data-flex="col -start">
