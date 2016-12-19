@@ -1,0 +1,119 @@
+body{
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: white;
+    text-transform: uppercase;
+    margin: 10rem;
+    text-align: right;
+}
+.links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-logos a{
+    margin: 5px;
+}
+.links-socialteam a:active, .links-socialteam a:hover, .links-socialteam a:focus{
+    border-color: transparent;
+}
+.links-socialteam .tw{
+    background-image: url(/images/icons/tw.png);
+}
+.links-socialfooter .tw, *[class^=links-social] .tw:active, *[class^=links-social] .tw:hover, *[class^=links-social] .tw:focus{
+    background-image: url(/images/icons/tw-hover.png);
+}
+.links-socialteam .fb{
+    background-image: url(/images/icons/fb.png);
+}
+.links-socialfooter .fb, *[class^=links-social] .fb:active, *[class^=links-social] .fb:hover, *[class^=links-social] .fb:focus{
+    background-image: url(/images/icons/fb-hover.png);
+}
+.links-socialteam .pt{
+    background-image: url(/images/icons/pt.png);
+}
+.links-socialfooter .pt, *[class^=links-social] .pt:active, *[class^=links-social] .pt:hover, *[class^=links-social] .pt:focus{
+    background-image: url(/images/icons/pt-hover.png);
+}
+.links-socialteam .gp{
+    background-image: url(/images/icons/gp.png);
+}
+.links-socialfooter .gp, *[class^=links-social] .gp:active, *[class^=links-social] .gp:hover, *[class^=links-social] .gp:focus{
+    background-image: url(/images/icons/gp-hover.png);
+}
+*[class^=links-social] .tw:active, *[class^=links-social] .tw:hover, *[class^=links-social] .tw:focus{
+    background-color: #00aced;
+}
+*[class^=links-social] .fb:active, *[class^=links-social] .fb:hover, *[class^=links-social] .fb:focus{
+    background-color: #3b5998;
+}
+*[class^=links-social] .pt:active, *[class^=links-social] .pt:hover, *[class^=links-social] .pt:focus{
+    background-color: #cb2028;
+}
+*[class^=links-social] .gp:active, *[class^=links-social] .gp:hover, *[class^=links-social] .gp:focus{
+    background-color: #da2713;
+}
+*[class^=links-social] a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5rem;
+    border: 2px solid transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.links-socialteam{
+    padding: 6rem;
+}
+.links-socialteam a{
+    border-color: #222;
+}
+.links-socialfooter a{
+    background-color: #222;
+}
+
+/*BUTTONS*/
+.btn-default{
+    min-width: 240rem;
+    height: 65px;
+    background: #fed136;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+/*LABELS*/
+.lbl-default{
+    width: 72rem;
+    height: 72rem;
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    border: 3px solid #fed136;
+}
+
+/*FORMS*/
+*[class*=-form]{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 460px;
+    color: black;
+    margin-bottom: 30rem;
+}
+.input-form{
+    height: 52px;
+    padding: 0px 22rem;
+}
+.textarea-form{
+    padding: 18rem 22rem;
+}
+*[class*=-form]::-webkit-input-placeholder { color: #bbb; font-weight: 700; text-transform: uppercase; }
+*[class*=-form]::-moz-placeholder { color: #bbb; font-weight: 700; text-transform: uppercase; }
+*[class*=-form]:-ms-input-placeholder { color: #bbb; font-weight: 700; text-transform: uppercase; }
