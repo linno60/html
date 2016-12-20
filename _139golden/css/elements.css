@@ -7,14 +7,16 @@ body{
 .links-nav a{
     color: white;
     text-transform: uppercase;
-    margin: 10rem;
+    margin: 7rem 20rem;
     text-align: right;
+    letter-spacing: -0.005em;
 }
 .links-nav a.active, .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     text-decoration: underline;
 }
 .links-logos a{
     margin: 5px;
+    display: inline-block;
 }
 .links-socialteam a:active, .links-socialteam a:hover, .links-socialteam a:focus{
     border-color: transparent;
@@ -63,6 +65,7 @@ body{
     border: 2px solid transparent;
     background-position: center;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 .links-socialteam{
     padding: 6rem;
@@ -77,7 +80,7 @@ body{
 /*BUTTONS*/
 .btn-default{
     min-width: 240rem;
-    height: 65px;
+    height: 65rem;
     background: #fed136;
     border-radius: 3px;
     color: white;
@@ -86,14 +89,15 @@ body{
     text-transform: uppercase;
     padding: 0px 5px;
     text-align: center;
+    letter-spacing: 0em;
 }
 
 /*LABELS*/
 .lbl-default{
     width: 72rem;
     height: 72rem;
-    min-height: 50px;
-    min-width: 50px;
+    min-height: 60px;
+    min-width: 60px;
     border-radius: 50%;
     border: 3px solid #fed136;
 }
@@ -103,16 +107,17 @@ body{
     border: 1px solid #ccc;
     border-radius: 2px;
     width: 100%;
-    max-width: 460px;
+    max-width: 457px;
     color: black;
-    margin-bottom: 30rem;
+    margin-bottom: 28rem;
 }
 .input-form{
     height: 52px;
-    padding: 0px 22rem;
+    padding: 0px 21rem;
 }
 .textarea-form{
-    padding: 18rem 22rem;
+    padding: 15rem 21rem;
+    min-height: 150px;
 }
 *[class*=-form]::-webkit-input-placeholder { color: #bbb; font-weight: 700; text-transform: uppercase; }
 *[class*=-form]::-moz-placeholder { color: #bbb; font-weight: 700; text-transform: uppercase; }

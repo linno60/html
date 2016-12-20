@@ -19,7 +19,7 @@ figure > img:only-of-type, a > img:only-of-type{
     padding-left: 10px;
     padding-right: 10px;
 }
-body > div > section{
+body > div > section, .contacts{
     padding-top: 110rem;
     padding-bottom: 110rem;
 }
@@ -28,24 +28,25 @@ body > div > section:nth-child(odd){
 }
 hgroup{
     text-align: center;
-    margin-bottom: 76rem;
+    margin-bottom: 75rem;
 }
 hgroup h2{
-    font-size: 40px;
+    font-size: 40rem;
     text-transform: uppercase;
     margin-bottom: 7rem;
 }
 hgroup h6{
     color: #777;
-    font-family: DroidSerif;
-    font-size: 18px;
+    font-family: Droid Serif;
+    font-size: 17px;
     font-style: italic;
     font-weight: normal;
+    letter-spacing: -0.028em;
 }
 p{
     color: #777;
     font-family: Roboto Slab;
-        line-height: 21.5px;
+    line-height: 22px;
 }
 
 /*HEADER*/
@@ -56,6 +57,10 @@ header{
 .header{
     min-height: 271rem;
     padding-top: 44rem;
+    max-width: 1000px;
+}
+#logo{
+    margin-left: 27rem;
 }
 .hdr-group{
     text-align: center;
@@ -67,22 +72,22 @@ header{
 }
 .hdr-group h3{
     font-family: Droid Serif;
-    font-size: 40px;
+    font-size: 40rem;
     font-style: italic;
     font-weight: normal;
     margin-bottom: 24rem;    
 }
 .hdr-group h1{  
-    font-size: 75px;
+    font-size: 75rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 40rem;
+    margin-bottom: 41rem;
 }
 
 /*SERVICES*/
 .services article{
     width: 30%;
-    margin-bottom: 6px;
+    padding: 2px 0px 3px 0px;
     text-align: center;
 }
 .services h4{
@@ -95,16 +100,19 @@ header{
     text-align: center;
 }
 .portfolio{
-    padding-bottom: 71rem;
+    padding-bottom: 70rem;
+}
+.portfolio > .lwrap{
+    max-width: 962px;
 }
 .portfolio figure{
-    width: 31%;
+    width: 30.9%;
     margin-bottom: 50rem;
 }
 .portfolio figcaption{
     background: white;
     padding: 2px;
-    height: 91px;
+    height: 93px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -113,10 +121,13 @@ header{
 .portfolio strong{
     color: #333;
     display: inline-block;
+    font-size: 18px;
 }
 .portfolio em{
     color: #737373;
-font-family: Droid Serif;
+    font-family: Droid Serif;
+    padding: 1rem 0px 2rem 0px;
+    letter-spacing: 0;
 }
 .portfolio figure > img:only-of-type{
     height: auto;
@@ -124,48 +135,49 @@ font-family: Droid Serif;
 
 /*ABOUT*/
 .about > div{
-    background: linear-gradient(#f1f1f1, #f1f1f1) center / 2px 100% no-repeat;
+    background: linear-gradient(#f1f1f1, #f1f1f1) center / 2px 90% no-repeat;
+    padding-top: 2rem;
 }
 .about{
-    max-width: 880px;
+    max-width: 932px;
 }
 .about article figure{
     border: 7px solid #f1f1f1;
     border-radius: 50%;
     position: relative;
+    flex-basis: 20%;
+    min-width: 108px;
 }
-.about article:not(:last-child){
-    min-height: 277.5rem;
+.about article > div, .about article:before, .about article:last-child:after{
+    flex-basis: 35.5%;
 }
-.about article:nth-child(even) figure{
-    float: left;
-    margin-right: 40rem;
+.about article:before, .about article:last-child:after{
+    content: '';  
+    display: block;
 }
-.about article:nth-child(odd) figure{
-    float: right;
-    margin-left: 40rem;
-}
-.about article:nth-child(even){
-    padding-left: calc(50% - 91px);
+.about article + article{
+    margin-top: 86rem;
 }
 .about article:nth-child(odd){
-    padding-right: calc(50% - 91px);
     text-align: right;
+    flex-direction: row-reverse;
+}
+.about p{
+    margin-bottom: 12rem;
 }
 .about h5{
     font-size: 18px;
     text-transform: capitalize;
-        margin-bottom: 11rem;
+    margin: 3rem 0px 11rem 0px;
 }
 .about h5 time{
     display: block;
     text-transform: uppercase;
-    margin: 3rem 0px 4rem 0px;
+    margin: 2rem 0px 4rem 0px;
 }
 .about figure .btn-default{
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
     position: absolute;
-    width: 100%;
     height: 100%;
     min-width: 100%;
     left: 0;
@@ -174,12 +186,15 @@ font-family: Droid Serif;
     word-spacing: 169px;
     padding: 10px;
     overflow: hidden;
-    line-height: 27px;
+    line-height: 27rem;    
+}
+.about article:last-child{
+    margin-bottom: 10rem;
 }
 
 /*TEAM*/
 .team > .lwrap{
-    max-width: 800px;
+    max-width: 860px;
 }
 .profiles{
     padding-bottom: 30rem;
@@ -187,22 +202,27 @@ font-family: Droid Serif;
 .profiles figure{
     border-radius: 50%;
     overflow: hidden;
+    border: 7px solid white;
 }
 .profiles > div{
-    width: 28.2%;
-        padding: 10rem 0px;
+    width: 29.5%;
+    padding: 6rem 0px;
 }
 .profiles strong{
     font-size: 16px;
-    margin: 24rem 0px 4rem 0px;
+    margin: 16rem 0px 3rem 0px;
+    display: inline-block;
 }
 .profiles small{
     color: #777;
+    font-family: Roboto Slab;
 }
 .team p{
     margin: auto;
-    max-width: 600px;
-    padding-bottom: 6rem;
+    max-width: 655px;
+    padding-bottom: 4rem;
+    letter-spacing: 0.044em;
+    line-height: 24px;
 }
 
 /*LOGOS*/
@@ -219,19 +239,41 @@ footer{
     color: white;
 }
 .contacts{
+    background: url(/images/map.png) 80.5% 399% no-repeat #222;
     padding-top: 100rem;
-    padding-bottom: 110rem;
-    background: url("/images/map.png") right center no-repeat #222;
 }
 .contacts > .lwrap{
-    max-width: 982px;
+    max-width: 980px;
+}
+.contacts form{
+    padding: 5rem 0;
 }
 .contacts form > *:not(button){
-    width: 48.4%;
+    width: 48.5%;
 }
 .copyright{
-    padding: 10rem 10px;
+    padding: 15rem 10px 25rem 10px;
 }
 .copyright > *{
     flex-basis: 33%;
+    color: #555;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 640px) {
+    .about article > div{flex-basis: 63%;}
+    .about article::before, .about article:last-child::after {flex-basis: 0%;}
+    .about > div{background: none;}
+    .about figure .btn-default{line-height: 18px;}
+}
+@media screen and (max-width: 480px) {
+    .portfolio figure, .profiles > div{width: 49%;}
+    .contacts form > *:not(button){width: 100%;}
+    .empty{display: none;}
+    .copyright > *{flex-basis: 50%;}
+    hgroup h2{font-size: 20px;}
+    .btn-default{height: 32px;}
+    body > div > section, .contacts, .links-logos.lwrap {padding: 10px;}
+    hgroup{margin-bottom: 5px;}
+    .portfolio{padding-bottom: 0px;}
 }

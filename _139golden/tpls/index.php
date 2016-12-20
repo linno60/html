@@ -47,7 +47,7 @@
                     <h2>services</h2>
                     <h6>Proin iaculis purus consequat sem cure.</h6>
                 </hgroup>
-                <div data-flex='stripe w'>
+                <div data-flex='stripe w' data-flex-480="vstripe">
                     <article>
                         <div class='lbl lbl-default'><i class="icon-basket"></i></div>
                         <h4>E-Commerce</h4>
@@ -122,28 +122,36 @@
                     <h2>about us</h2>
                     <h6>Proin iaculis purus consequat sem cure.</h6>
                 </hgroup>
-                <div>
-                    <article class='clearfix'>
+                <div data-childs="axis">
+                    <article>
                         <figure><img src="/images/a1.png" width="169" height="169" alt=""></figure>
-                        <h5><time>july 2010</time>Our Humble Beginnings</h5>
-                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+                        <div>
+                            <h5><time>july 2010</time>Our Humble Beginnings</h5>
+                            <p>Proin iaculis purus consequat sem cure<br> digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni<br> ssim. Donec porttitora entum suscipit.</p>
+                        </div>
                     </article>
-                    <article class='clearfix'>
+                    <article>
                         <figure><img src="/images/a2.png" width="169" height="169" alt=""></figure>
-                        <h5><time>january 2011</time>Facing Startup Battles</h5>
-                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+                        <div>
+                            <h5><time>january 2011</time>Facing Startup Battles</h5>
+                            <p>Proin iaculis purus consequat sem cure<br> digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni<br> ssim. Donec porttitora entum suscipit aenenan rhoncus posuere odio in tincidunt.</p>
+                        </div>
                     </article>
-                    <article class='clearfix'>
+                    <article>
                         <figure><img src="/images/a3.png" width="169" height="169" alt=""></figure>
-                        <h5><time>december 2012</time>Enter The Dark Days</h5>
-                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+                        <div>
+                            <h5><time>december 2012</time>Enter The Dark Days</h5>
+                            <p>Proin iaculis purus consequat sem cure<br> digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
+                        </div>
                     </article>
-                    <article class='clearfix'>
+                    <article>
                         <figure><img src="/images/a4.png" width="169" height="169" alt=""></figure>
-                        <h5><time>february 2014</time>Our Triumph</h5>
-                        <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+                        <div>
+                            <h5><time>february 2014</time>Our Triumph</h5>
+                            <p>Proin iaculis purus consequat sem cure<br> digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.<br> ssim. Donec porttitora entum suscipit aenenan.</p>
+                        </div>
                     </article>
-                    <article class='clearfix'>
+                    <article>
                         <figure><img src="/images/empty.png" width="169" height="169" alt=""><a href='#' class='btn btn-default'>our story con&shytinues <br>...</a></figure>
                     </article>
                 </div>
@@ -154,9 +162,9 @@
                         <h2>our amazing team</h2>
                         <h6>Proin iaculis purus consequat sem cure.</h6>
                     </hgroup>
-                    <div class='profiles' data-flex='stripe w' data-childs='col -center'>
+                    <div class='profiles' data-flex='around w' data-childs='col around -center'>
                         <div>
-                            <figure><img src="/images/photo1.jpg" width="234" height="234" alt=""></figure>
+                            <figure><img src="/images/photo1.jpg" width="220" height="220" alt=""></figure>
                             <strong>Kimberly Thompson</strong>
                             <small>Marketer</small>
                             <div class="links-socialteam" data-flex="center w">
@@ -166,7 +174,7 @@
                             </div>
                         </div>
                         <div>
-                            <figure><img src="/images/photo2.jpg" width="234" height="234" alt=""></figure>
+                            <figure><img src="/images/photo2.jpg" width="220" height="220" alt=""></figure>
                             <strong>Rico Massimo</strong>
                             <small>Coder</small>
                             <div class="links-socialteam" data-flex="center w">
@@ -176,7 +184,7 @@
                             </div>
                         </div>
                         <div>
-                            <figure><img src="/images/photo3.jpg" width="234" height="234" alt=""></figure>
+                            <figure><img src="/images/photo3.jpg" width="220" height="220" alt=""></figure>
                             <strong>Uku Mason</strong>
                             <small>Graphic Designer</small>
                             <div class="links-socialteam" data-flex="center w">
@@ -202,7 +210,7 @@
                         <h2>contact us</h2>
                         <h6>Proin iaculis purus consequat sem cure.</h6>
                     </hgroup>
-                    <form action='#' method='post' data-flex='around w'>
+                    <form action='#' method='post' data-flex='around w' data-flex-480="vaxis">
                         <div>
                             <input type="text" name="form" class="input-form" placeholder="your name *">
                             <input type="email" name="form" class="input-form" placeholder="your e-mail *">
@@ -215,13 +223,13 @@
             </section>
             <section class='copyright lwrap' data-flex='axis'>
                 <span>&copy; Copyright 2014 FreebiesXpress.com</span>
-                <div class="links-socialfooter" data-flex="center w">
+                <div class="links-socialfooter" data-flex="center w" data-flex-480="end w">
                     <a href="#" class="tw"></a>
                     <a href="#" class="fb"></a>
                     <a href="#" class="pt"></a>
                     <a href="#" class="gp"></a>
                 </div>
-                <div></div>
+                <div class="empty"></div>
             </section>
         </footer>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
