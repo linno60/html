@@ -1,0 +1,240 @@
+/*COMMON*/
+body > div{
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: #fd634e;
+}
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    max-width: 1180px;
+}
+a:active, a:hover, a:focus{
+    text-decoration: underline;
+}
+p{
+    line-height: 24px;
+    color: #656e74;
+}
+
+/*HEADER*/
+header{
+    background: url("/images/headerbg.png") center / cover no-repeat;
+}
+header > .lwrap{
+    max-width: 1514px;
+    padding: 39rem 10px 10px;
+}
+header section{
+    min-height: 641rem;
+}
+header hgroup{
+    min-height: 211rem;    
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    max-width: 417px;
+}
+header hgroup h1{
+    font-family: AvenirNextRoundedStd;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.002em;
+}
+header hgroup h5{
+    font-size: 15px;
+    font-weight: 700;
+    max-width: 367px;
+    letter-spacing: 0.2em;
+}
+header hgroup h1 mark{
+    color: #a2ca28;
+}
+header hgroup h5 mark{
+    color: #fd634e;
+}
+#logo{
+    margin-bottom: 6rem;
+}
+
+/*FEATURES*/
+main{
+    background: #a2ca28;
+}
+.features{
+    padding: 111rem 10px;
+    max-width: 1214px;
+}
+.features > article{
+    width: 23.2%;
+    margin-bottom: 7px;
+}
+.features > article *{
+    color: white;
+}
+.features > article > div{
+    width: 100%;
+}
+.features a, .features p{
+    font-size: 13px;
+}
+.features p{
+    margin-bottom: 20rem;
+}
+.features h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 7rem 0px 19rem 0px;
+}
+
+/*GRID*/
+.grid > *{
+    width: 66.1%;
+}
+.grid > *:nth-child(3n+1){
+    width: 33.9%;
+}
+.grid{
+    background: white;
+}
+.grid article{
+    padding: 5px;
+}
+main .grid article{
+    text-align: center;
+}
+.grid article{
+    flex-grow: 1;
+    position: relative;
+    min-height: 310rem;
+}
+.grid p{
+    letter-spacing: 0.015em;
+    line-height: 26px;
+    margin-top: 14rem;
+    max-width: 304px;
+}
+
+/*GALLERY*/
+.gallery > *:nth-child(2n){
+    background: #a2ca28; 
+}
+.gallery > *:nth-child(2n) *{ 
+    color: white;
+}
+.gallery article{
+    padding: 48rem 40rem;
+}
+.gallery > *:nth-child(2n) article{
+    padding: 50rem 61rem;
+}
+.gallery p{
+    margin-top: 10rem;
+    max-width: 670px;
+}
+.gallery > *:nth-child(2n) p{
+    font-size: 13px;
+    max-width: 633px;
+    line-height: 21px;
+    margin-top: 15rem;
+    letter-spacing: -0.01em;
+}
+.gallery article:hover{
+    box-shadow: 0 0 62px rgba(0, 0, 0, 0.2);
+}
+.gallery h5{
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.gallery > *:nth-child(3){
+    width: 66%;
+}
+.gallery > *:nth-child(4){
+    width: 34%;
+}
+
+/*BANNER*/
+.banner{
+    min-height: 802rem;
+    padding-top: 227rem;
+    background:
+        linear-gradient(2.5deg, transparent 30%, #fd634e 30%, #fd634e 60%, transparent 60%) 60% bottom / 400rem 14rem no-repeat,
+        linear-gradient(-4.5deg, transparent 30%, #0d1119 30%, #0d1119 60%, transparent 60%) right bottom / 51% 237px no-repeat,
+        linear-gradient(3.5deg, transparent 22%, #0d1119 22%, #0d1119 55%, transparent 55%) center bottom / 100% 195px no-repeat,
+        linear-gradient(1deg, transparent 30%, #0d1119 30%, #0d1119 60%, transparent 60%) center bottom / 100% 80px no-repeat,
+        linear-gradient(#0d1119, #0d1119) center calc(100% - 40rem) / 100% 60px no-repeat,
+        linear-gradient(transparent calc(100% - 100rem), #fd634e calc(100% - 100rem), #fd634e),       
+        url("/images/footerbg.png")center / cover no-repeat;   
+}
+.banner *{
+    text-align: center;
+    color: white;
+}
+.banner h3{
+    font-size: 45rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin-bottom: 18rem;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 539px;
+    letter-spacing: 0.01em;
+    margin: auto;
+}
+
+/*FOOTER*/
+footer{
+    min-height: 803rem;
+    flex-shrink: 0;
+    background: #0d1119;
+}
+footer > .lwrap{
+    padding: 62rem 10px 10px;
+}
+footer > .lwrap > article{
+    width: 33%;
+}
+footer > .lwrap > div{
+    width: 63.5%;
+}
+footer form{
+    padding-top: 52rem;
+    flex-grow: 1;
+}
+footer form > *{
+    margin-bottom: 5px;
+}
+footer form .input-default[type=text]{
+    flex-basis: 27.3%;
+}
+footer form .input-default[type=email]{
+    flex-basis: 46.2%;
+}
+footer form button{
+    flex-basis: 24.73%;
+}
+footer article{
+    max-width: 448px;
+}
+footer h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20rem;
+}
+footer p{
+    color: #8297a7;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1200px) {
+    .banner{background:url("/images/footerbg.png")center / cover no-repeat;}
+}

@@ -1,0 +1,30 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=9e86eda4-d8c0-489a-87b5-010485d4263b");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "AvenirNextRoundedStd";
+    src: url("/fonts/fonts.com/188b58ca-5489-4e70-8010-7b867980f487.woff2") format("woff2"), url("/fonts/fonts.com/832e487e-ca07-48d9-b664-9f641d3fd51b.woff") format("woff");
+}
+@font-face {
+    font-family: "AvenirNextRoundedStd";
+    src: url("/fonts/fonts.com/5559fceb-87c2-4a44-9925-ad308acec971.woff2") format("woff2"), url("/fonts/fonts.com/c4f4af3e-b5b8-4fb3-b707-670bbc765c69.woff") format("woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "AvenirNextRoundedStd";
+    src: url("/fonts/fonts.com/a0a87e49-3806-4285-adb4-3d8c713e526c.woff2") format("woff2"), url("/fonts/fonts.com/bfaf76ed-3cdf-4258-8336-eb4e18cbd68b.woff") format("woff");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/50c8f38e-4f2b-4a0a-b65b-7fc6e078563d.woff2") format("woff2"), url("/fonts/fonts.com/e96e70c4-309b-48dd-a8b8-3d0ac4fe93aa.woff") format("woff");
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/fonts/fonts.com/ae47a7f5-89da-4879-b934-29722c3dd451.woff2") format("woff2"), url("/fonts/fonts.com/70ae52ec-d89b-4c6a-9402-854ebe423c54.woff") format("woff");
+    font-weight: 600;
+}

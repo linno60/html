@@ -1,0 +1,100 @@
+body{
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: white;
+    font-family: AvenirNextRoundedStd;
+    text-transform: uppercase; 
+    margin: 5rem 15rem 5rem 51rem;
+    text-align: right;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    width: 50px;
+    height: 51px;
+    margin: 4rem 8rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+.links-social .fb{
+    background: url(/images/icons/fb.png) center no-repeat #2e3192;
+}
+.links-social .tw{
+    background: url(/images/icons/tw.png) center no-repeat #00aeef;
+}
+.links-social .yt{
+    background: url(/images/icons/yt.png) center no-repeat #ed3123;
+}
+.links-social .in{
+    background: url(/images/icons/in.png) center no-repeat #171a8f;
+}
+
+/*BUTTONS*/
+.btn-default{
+    background: #a2ca28;
+    border-radius: 3px;
+    padding: 0px 10rem;
+    height: 49px;
+    color: white;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+button > .btn-default{
+    width: 100%;
+}
+.btn-default i[class^=icon-]{
+    margin-left: 9rem;
+    flex-shrink: 0;
+}
+
+/*FORMS*/
+.input-default{
+    height: 49px;
+    border: none;
+    border-radius: 2px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    padding: 0px 22rem;
+}
+.input-default::-webkit-input-placeholder { color: #83969f; }
+.input-default::-moz-placeholder { color: #83969f; }
+.input-default:-ms-input-placeholder { color: #83969f; }
+
+/*OTHER*/
+.hdr{
+    text-transform: uppercase;
+}
+.hdr h2{
+    color: #a2ca28;
+    font-size: 35rem;
+    font-weight: 300;
+    margin-bottom: 14rem;
+    line-height: 46rem;
+}
+.hdr h6{
+    color: #fd634e;
+    font-family: Montserrat;
+    font-weight: 400;
+    margin-top: 5rem;
+    letter-spacing: 0.1em;
+}
+.more{
+    color: #a2ca28;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-bottom: 15rem;
+    margin-top: 3rem;
+}
+.more:active, .more:hover, .more:focus{
+    text-decoration: none;
+}
