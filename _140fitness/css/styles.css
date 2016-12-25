@@ -21,10 +21,14 @@ p{
     line-height: 24px;
     color: #656e74;
 }
+i[class^=icon-]{
+    flex-shrink: 0;
+}
 
 /*HEADER*/
 header{
-    background: url("/images/headerbg.png") center / cover no-repeat;
+    background: linear-gradient(177.5deg, transparent 50%, rgba(253, 99, 78, .3) 50%) center bottom / 100% 137rem no-repeat, url("/images/headerbg.png") center / cover no-repeat;
+    min-height: 891rem;  
 }
 header > .lwrap{
     max-width: 1514px;
@@ -33,8 +37,7 @@ header > .lwrap{
 header section{
     min-height: 641rem;
 }
-header hgroup{
-    min-height: 211rem;    
+header hgroup{      
     text-transform: uppercase;
     color: white;
     text-align: right;
@@ -42,7 +45,7 @@ header hgroup{
 }
 header hgroup h1{
     font-family: AvenirNextRoundedStd;
-    font-size: 40px;
+    font-size: 40rem;
     font-weight: 400;
     letter-spacing: -0.002em;
 }
@@ -68,7 +71,7 @@ main{
 }
 .features{
     padding: 111rem 10px;
-    max-width: 1214px;
+    max-width: 1194px;
 }
 .features > article{
     width: 23.2%;
@@ -87,76 +90,123 @@ main{
     margin-bottom: 20rem;
 }
 .features h4{
-    font-size: 24px;
+    font-size: 24rem;
     font-weight: 400;
     margin: 7rem 0px 19rem 0px;
 }
 
 /*GRID*/
-.grid > *{
-    width: 66.1%;
-}
-.grid > *:nth-child(3n+1){
-    width: 33.9%;
-}
 .grid{
     background: white;
 }
-.grid article{
-    padding: 5px;
+.grid .hdr .icon-dropgray{
+    margin: 14rem;
 }
-main .grid article{
-    text-align: center;
-}
-.grid article{
-    flex-grow: 1;
+.grid figure{
     position: relative;
-    min-height: 310rem;
 }
 .grid p{
     letter-spacing: 0.015em;
-    line-height: 26px;
-    margin-top: 14rem;
-    max-width: 304px;
+    line-height: 26px;    
 }
-
-/*GALLERY*/
-.gallery > *:nth-child(2n){
-    background: #a2ca28; 
+.row > *:nth-child(even){
+    width: 66.1%;
 }
-.gallery > *:nth-child(2n) *{ 
+.row > *:nth-child(odd){
+    width: 33.9%;
+}
+.row:nth-child(even){
+    flex-direction: row-reverse;
+}
+.details{
+    position: absolute;
+    bottom: 9.7%;    
+}
+.details, .details *{
+    vertical-align: middle;
     color: white;
 }
-.gallery article{
-    padding: 48rem 40rem;
+.details a:active, .details a:hover, .details a:focus{
+    color: #f7614c;
+    text-decoration: none;
 }
-.gallery > *:nth-child(2n) article{
+.details .icon-dropred{
+    margin: 0px 0px 7rem 13rem;
+}
+.details .icon-mark{
+    margin: 0px 0px 2rem 10rem;
+}
+.gallery-main .details{
+    font-size: 12px;
+}
+
+/*GALLERY-MAIN*/
+.gallery-main article{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 34rem;
+}
+.gallery-main p, .gallery-add .row > *:nth-child(odd) p{
+    max-width: 300px;
+}
+.gallery-main .row:nth-child(even) .details{
+    left: 6.3%;
+}
+.gallery-main .row:nth-child(odd) .details{
+    right: 5.2%;
+}
+
+/*GALLERY-ADD*/
+.gallery-add .row:nth-child(odd) > *:nth-child(even), .gallery-add .row:nth-child(even) > *:nth-child(odd){
+    background: #a2ca28; 
+}
+.gallery-add .row:nth-child(odd) > *:nth-child(even) *, .gallery-add .row:nth-child(even) > *:nth-child(odd) *{
+    color: white;
+}
+.gallery-add article{
+    padding: 48rem 40rem;
+    min-height: 310rem;
+    flex-grow: 1;
+}
+.gallery-add article:hover{
+    box-shadow: 0 0 62px rgba(0, 0, 0, 0.2);
+}
+.gallery-add .row:nth-child(odd) > *:nth-child(even) article{
     padding: 50rem 61rem;
 }
-.gallery p{
-    margin-top: 10rem;
+.gallery-add .row:nth-child(even) > *:nth-child(odd) .hdr h6{
+    font-size: 17px;
+}
+.gallery-add h5{
+    font-size: 40rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.gallery-add p{
+    margin-top: 24rem;    
+}
+.gallery-add .row > *:nth-child(even) p{
     max-width: 670px;
 }
-.gallery > *:nth-child(2n) p{
+.gallery-add .row:nth-child(odd) > *:nth-child(even) p{
     font-size: 13px;
     max-width: 633px;
     line-height: 21px;
     margin-top: 15rem;
     letter-spacing: -0.01em;
 }
-.gallery article:hover{
-    box-shadow: 0 0 62px rgba(0, 0, 0, 0.2);
-}
-.gallery h5{
-    font-size: 40px;
-    font-weight: 300;
+.gallery-add .details{
+    top: 17.7%;
+    width: 84.8%;
+    left: 7.8%;
+    display: flex;
+    justify-content: space-between;
     text-transform: uppercase;
+    font-family: Montserrat;
+    letter-spacing: 0.095em;
 }
-.gallery > *:nth-child(3){
-    width: 66%;
-}
-.gallery > *:nth-child(4){
-    width: 34%;
+.gallery-add .details a{
+    text-align: right;
 }
 
 /*BANNER*/
@@ -237,4 +287,18 @@ footer p{
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1200px) {
     .banner{background:url("/images/footerbg.png")center / cover no-repeat;}
+}
+@media screen and (max-width: 800px) {
+    .features h4{font-size: 16px;}
+    .grid .hdr .icon-dropgray{display: none;}
+}
+@media screen and (max-width: 640px) {
+    header hgroup h1{font-size: 21px;}
+    .features > article{width: 48%;}
+    .row > *:nth-child(even), .row > *:nth-child(odd){width: 50%;}
+}
+@media screen and (max-width: 480px) {
+    .grid p{max-width: 100%;}
+    .row:nth-child(even){flex-direction: column;}
+    .gallery-add h5{font-size: 16px;}
 }

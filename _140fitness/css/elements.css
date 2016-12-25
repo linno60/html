@@ -54,7 +54,6 @@ button > .btn-default{
 }
 .btn-default i[class^=icon-]{
     margin-left: 9rem;
-    flex-shrink: 0;
 }
 
 /*FORMS*/
@@ -78,7 +77,6 @@ button > .btn-default{
     color: #a2ca28;
     font-size: 35rem;
     font-weight: 300;
-    margin-bottom: 14rem;
     line-height: 46rem;
 }
 .hdr h6{
