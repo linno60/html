@@ -48,6 +48,7 @@ body{
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
+    line-height: 14px;
 }
 button > .btn-default{
     width: 100%;
@@ -64,6 +65,7 @@ button > .btn-default{
     font-family: ProximaNova;
     font-size: 14px;
     padding: 0px 22rem;
+    letter-spacing: 0.01em;
 }
 .input-default::-webkit-input-placeholder { color: #83969f; }
 .input-default::-moz-placeholder { color: #83969f; }

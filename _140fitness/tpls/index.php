@@ -165,29 +165,29 @@
             </section>
         </div>
         <footer>
-            <section class='lwrap' data-flex='stripe w'>
+            <section class='lwrap' data-flex='stripe w' data-flex-640="vstripe">
                 <article>
                     <h5>Resources</h5>
                     <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group</p>
                 </article>
-                <div data-flex='stripe w'>
+                <div data-flex='stripe w' data-flex-640="vstripe">
                     <article>
                         <h5>About us</h5>
                         <p>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group</p>
                     </article>
                     <div>
                         <h5>Stay in touch</h5>
-                        <div class="links-social" data-flex="end w">
+                        <div class="links-social" data-flex="end w" data-flex-640="w">
                             <a href="#" class="fb"></a>
                             <a href="#" class="tw"></a>
                             <a href="#" class="yt"></a>
                             <a href="#" class="in"></a>
                         </div>
                     </div>
-                    <form action='#' method='post' data-flex='stripe'>
+                    <form action='#' method='post' data-flex='stripe' data-flex-480="vstripe">
                         <input type="text" name="form" class="input-default" placeholder="Your Name">
                         <input type="email" name="form" class="input-default" placeholder="Your Email">
-                        <button><span class='btn btn-default'>join newsletter<i class="icon-arrow"></i></span></button>
+                        <button><span class='btn btn-default'>join news&shy;let&shy;ter<i class="icon-arrow"></i></span></button>
                     </form>
                 </div>
             </section>

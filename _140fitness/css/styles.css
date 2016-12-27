@@ -68,6 +68,7 @@ header hgroup h5 mark{
 /*FEATURES*/
 main{
     background: #a2ca28;
+    display: block;
 }
 .features{
     padding: 111rem 10px;
@@ -205,6 +206,9 @@ main{
     font-family: Montserrat;
     letter-spacing: 0.095em;
 }
+.gallery-add .details > *{
+    max-width: 48%;
+}
 .gallery-add .details a{
     text-align: right;
 }
@@ -256,23 +260,24 @@ footer > .lwrap > div{
     width: 63.5%;
 }
 footer form{
-    padding-top: 52rem;
+    padding: 41rem 2rem 0px 0px;
     flex-grow: 1;
 }
 footer form > *{
     margin-bottom: 5px;
 }
 footer form .input-default[type=text]{
-    flex-basis: 27.3%;
+    width: 27.4%;
 }
 footer form .input-default[type=email]{
-    flex-basis: 46.2%;
+    width: 46.2%;
 }
 footer form button{
-    flex-basis: 24.73%;
+    width: 24.75%;
 }
 footer article{
     max-width: 448px;
+    margin-bottom: 10px;
 }
 footer h5{
     color: white;
@@ -287,6 +292,7 @@ footer p{
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1200px) {
     .banner{background:url("/images/footerbg.png")center / cover no-repeat;}
+    footer article{max-width: 100%;}
 }
 @media screen and (max-width: 800px) {
     .features h4{font-size: 16px;}
@@ -296,9 +302,11 @@ footer p{
     header hgroup h1{font-size: 21px;}
     .features > article{width: 48%;}
     .row > *:nth-child(even), .row > *:nth-child(odd){width: 50%;}
+    .banner h3{font-size: 24px;}
 }
 @media screen and (max-width: 480px) {
     .grid p{max-width: 100%;}
     .row:nth-child(even){flex-direction: column;}
     .gallery-add h5{font-size: 16px;}
+    .banner{padding: 10px 0;}
 }
