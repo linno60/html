@@ -1,0 +1,133 @@
+body *{
+    font-size: 15px;
+    font-family: Open Sans;
+    color: #606060;
+}
+
+/*LINKS*/
+.links-nav a{
+    color: white;
+    font-size: 20px;
+    margin-left: 53rem;
+}
+.links-default a{
+    margin-bottom: 8rem;
+}
+.links-nav a:active, .links-nav a:hover, .links-nav a:focus,
+.links-default a:active, .links-default a:hover, .links-default a:focus{
+    text-decoration: underline;
+}
+.links-social a{
+    line-height: 1px;
+    margin-left: 20rem;
+}
+.links-follow a{
+    width: 44px;
+    height: 44px;
+    background: #47a0ff;
+    margin: 0px 20rem 20rem 0px;
+    border-radius: 50%;
+}
+
+/*LISTS*/
+.list-info *{
+    color: white;
+font-size: 13px;
+}
+.list-info > li{
+    margin-right: 20rem;
+}
+.list-info > li > i[class^=icon-]{
+    margin-right: 5rem;
+}
+.list-info a:active, .list-info a:hover, .list-info a:focus{
+    text-decoration: underline;
+}
+
+/*BUTTONS*/
+button > .btn{
+    width: 100%;
+}
+.btn-default, .btn-find{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn-default{
+    min-width: 199rem;
+    height: 55px;
+    background: #006fe6;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+.btn-default.md, .btn-default.sm{
+    font-size: 14px;
+}
+.btn-default.md{
+    height: 45px;
+    min-width: 76rem;
+}
+.btn-default.sm{
+    height: 43px;    
+}
+.btn-find{
+    width: 156rem;
+    height: 156rem;
+    min-width: 100px;
+    min-height: 100px;
+    background: #47a0ff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/*LABELS*/
+.lbl-price{
+    min-width: 169px;
+    height: 56px;
+    background: #47a0ff;        
+    justify-content: space-around;
+}
+.lbl-price > *{
+    padding: 15px 5px 5px;
+}
+.lbl-price *{
+    color: white;
+    font-family: BigNoodleTitling;
+}
+.lbl-price big{
+    font-size: 37px;
+}
+.lbl-price small{
+    font-size: 30px;
+}
+.lbl-price span{
+    background: linear-gradient(white, white) center 15px / 100% 1px no-repeat;
+}
+
+/*FORMS*/
+.input-default{
+    height: 55px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    padding: 0px 20rem;
+}
+.input-default::-webkit-input-placeholder { color: #606060; }
+.input-default::-moz-placeholder { color: #606060; }
+.input-default:-ms-input-placeholder { color: #606060; }
+.input-default:focus::-webkit-input-placeholder { color: transparent; }
+.input-default:focus::-moz-placeholder { color: transparent; }
+.input-default:focus:-ms-input-placeholder { color: transparent; }
+.input-default.sm{
+    font-size: 13px;
+    padding: 0px 15rem;
+}
+.input-search{
+    background: none;
+    border: none;
+    
+}

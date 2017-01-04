@@ -1,0 +1,264 @@
+/*COMMON*/
+body > section{
+    background: #ebebeb;
+}
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    max-width: 1180px;
+    padding: 0px 10px;
+}
+article p{
+    font-size: 15px;
+}
+p{
+    font-size: 20px;
+}
+i[class^=icon-]{
+    flex-shrink: 0;
+}
+hgroup{
+    text-align: center;
+}
+h2{
+    font-family: BigNoodleTitling;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*HEADER*/
+header{
+    background: url("/images/headerbg.png")center / cover no-repeat;
+}
+.header{
+    background: rgba(0,0,0,.75);
+    margin-bottom: 111rem;
+}
+.top-bar{
+    border-bottom: 1px solid rgba(255,255,255,.42);
+}
+#logo{
+    margin: 15.5rem 0px;
+}
+.form-search{
+    background: white;
+    padding: 47rem 39rem 64rem 39rem;
+    width: 64%;
+    margin-left: 10px;
+}
+.form-search h3{
+    font-family: BigNoodleTitling;
+    font-size: 70rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 58rem;
+}
+.form-search h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 27rem;
+    letter-spacing: 0.05em;
+}
+.form-search .input-default{
+    margin-bottom: 25rem;
+}
+.additional{
+    background: rgba(71,160,255,.85);
+    padding: 57rem 0px;
+    margin-top: -81rem;
+}
+.additional p{
+    color: white;
+    max-width: 500px;
+}
+header hgroup h1, header hgroup h5{
+    color: white;
+    font-weight: 400;
+}
+header hgroup h1{
+    font-family: BigNoodleTitling;
+    font-size: 62px;
+}
+header hgroup h5{
+    font-size: 30px;
+}
+.top-bar form{
+    border-left: 1px solid rgba(255,255,255,.42);
+}
+.top-bar .input-search{
+    margin: 4.5px;
+}
+
+/*TOURS*/
+.tours {
+    padding: 106rem 0px;
+    background: linear-gradient(rgba(255,255,255,.29), rgba(255,255,255,.29)), url("/images/toursbg.png") center / cover no-repeat;
+}
+.tours .lwrap{
+    max-width: 1190px;
+}
+.tours hgroup{
+    margin-bottom: 59rem;
+}
+.tours hgroup h2{
+    margin-bottom: 18rem;
+}
+.tours figure{
+    width: 22.735%;
+    position: relative;
+    border-radius: 50%;
+    margin-bottom: 40rem;
+    overflow: hidden;
+}
+.tours figure .overlay{
+    font-family: BigNoodleTitling;
+    font-size: 34px;
+    background: rgba(0,0,0,.61);
+    letter-spacing: 0.05em;
+}
+
+/*DEALS*/
+.deals{
+    background: linear-gradient(rgba(71,160,255,.85), rgba(71,160,255,.85)), url("/images/forrest.png") center / cover no-repeat;
+    padding: 116rem 0px 53rem;
+}
+.deals hgroup h2{
+    color: white;
+    margin-bottom: 57rem;
+}
+.deals article{
+    background: white;
+    width: 32%;
+    margin-bottom: 10px;
+}
+.deals article .lbl-price{
+    margin: -28rem 0px 23rem;
+}
+.deals article p{
+    margin-bottom: 51rem;
+}
+.deals article > div{
+    padding: 0px 20rem 37rem 20rem;
+}
+
+/*FIND-TRIPS*/
+.find-trips{
+    padding: 112rem 0px 95rem;
+}
+.find-trips hgroup{
+    margin-bottom: 87rem;
+}
+.find-trips figure{
+    width: 33.33%;
+}
+.find-trips > .lwrap{
+    max-width: 1620px;
+}
+
+/*NEWS*/
+.news{
+    padding-bottom: 108rem;
+}
+.news article{
+    width: 32%;
+    margin-bottom: 10px;
+    background: white;
+    padding: 8rem 8rem 53rem;
+}
+.news article p{
+    line-height: 24px;
+}
+.news h2{
+    margin-bottom: 20rem;
+}
+.news hgroup{
+    margin-bottom: 57rem;
+}
+.news article figure{
+    margin-bottom: 29rem;
+}
+.news h6{  
+    font-size: 18px;
+    margin-bottom: 26rem;
+}
+.news h6 a{
+    color: #47a0ff;
+}
+.news h6 a:active, .news h6 a:hover, .news h6 a:focus{
+    text-decoration: underline;
+}
+.news article > div{
+    padding-bottom: 33rem;
+}
+
+/*BANNER*/
+.banner{
+    padding: 152rem 0px;
+    background: linear-gradient(rgba(0,0,0,.47), rgba(0,0,0,.47)), url("/images/travelbg.png") center / cover no-repeat;
+}
+.banner hgroup *{
+    color: white;
+    font-family: BigNoodleTitling;
+    font-weight: 400;
+}
+.banner h2{
+    font-size: 148rem;
+}
+.banner h3{
+    font-size: 50px;
+    letter-spacing: 0.03em;
+}
+
+/*FOOTER*/
+.footer{
+    padding: 86rem 10px 93rem 10px;
+}
+.footer h5{
+    font-family: BigNoodleTitling;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 23rem;
+}
+.footer > div{
+    width: 24%;
+    margin-bottom: 10px;
+}
+.footer form{
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.footer form button{
+    margin: 5px;
+    flex-shrink: 0;
+}
+.footer address{
+    font-style: normal;
+}
+dt, dd{
+    display: inline;
+}
+.copyright{
+    padding: 10rem 0px;
+    border-top: 1px solid #d0d0d0;
+}
+.copyright span{
+    font-size: 12px;
+}
