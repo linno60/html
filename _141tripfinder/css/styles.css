@@ -125,8 +125,8 @@ header hgroup h1{
     font-family: BigNoodleTitling;
     font-size: 62rem;
     letter-spacing: 0.05em;
-        line-height: 76rem;
-        margin-top: 6rem;
+    line-height: 76rem;
+    margin-top: 6rem;
 }
 header hgroup h5{
     font-size: 30rem;
@@ -241,8 +241,8 @@ header hgroup h5{
 }
 .find-trips .overlay h6{
     font-size: 26rem;
-text-transform: uppercase;
-margin-top: 14rem;
+    text-transform: uppercase;
+    margin-top: 14rem;
 }
 .find-trips .overlay strong{
     margin: 14rem 0px 20rem 0px;  
@@ -324,7 +324,7 @@ margin-top: 14rem;
 }
 .banner h2{
     font-size: 148rem;
-        line-height: 102rem;
+    line-height: 102rem;
 }
 .banner h3{
     font-size: 50rem;
@@ -402,15 +402,17 @@ dt, dd{
     .form-search{margin: 10px 0px -60px 10px;width: 60%;}
     .header{margin: 0;}
     .find-trips .overlay h6{font-size: 17px;}
+    .footer h5{font-size: 20px;}
 }
 @media screen and (max-width: 640px) {
-     h2{font-size: 26px;}
+    h2{font-size: 26px;}
     .find-trips figure:nth-child(3n-2), .find-trips figure:nth-child(3n-1), .find-trips figure:nth-child(3n){width: 50%;}
     header hgroup h5 {font-size: 15.5px;line-height: 18px;}
     header hgroup h1 {font-size: 32px;line-height: 39px;}
     .tours figure .overlay{font-size: 18px;}
+    .footer > div:nth-child(1), .footer > div:nth-child(2), .footer > div:nth-child(3), .footer > div:nth-child(4) {width: 48%;}
 }
 @media screen and (max-width: 480px) { 
     .form-search h3{font-size: 27px;line-height: 25px;}
-    .tours figure{width: 48%;}
+    .tours figure{width: 48%;}   
 }

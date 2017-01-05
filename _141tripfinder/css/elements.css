@@ -36,7 +36,7 @@ body *{
 /*LISTS*/
 .list-info *{
     color: white;
-font-size: 13px;
+    font-size: 13px;
 }
 .list-info > li{
     margin-right: 48rem;
