@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
-            var LAYOUT_WIDTH = 960;
+            var LAYOUT_WIDTH = 1230;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -25,11 +25,11 @@
                 <div class="top-bar">
                     <div class="lwrap" data-flex="stripe">
                         <ul class="list-info" data-flex="w" data-childs="-center">
-                            <li><i class="icon-phone"></i><span>+1 420-000-6000</span></li>
+                            <li><i class="icon-phone"></i><span>&ensp;+1 420-000-6000</span></li>
                             <li><i class="icon-mail"></i><a href="mailto:hello@website.com">hello@website.com</a></li>
                             <li><i class="icon-clock"></i><time>6am - 11pm</time></li>
                         </ul>
-                        <div data-flex="end w">
+                        <div data-flex="end" data-flex-800="col -end">
                             <div class="links-social" data-flex="end -center w">
                                 <a href="#"><i class="icon-fb"></i></a>
                                 <a href="#"><i class="icon-tw"></i></a>
@@ -37,8 +37,9 @@
                                 <a href="#"><i class="icon-yt"></i></a>   
                                 <a href="#"><i class="icon-wa"></i></a>
                             </div>
-                            <form action="#" method="post">
-                                <input type="search" name="search" class="input-search">
+                            <form action="#" method="post" data-flex="-center">
+                                <input type="search" name="search" id="search" class="input-search" onblur="this.className = 'input-search visited';">
+                                <input type="image" src="/images/icons/search.png">
                             </form>
                         </div>
                     </div>
@@ -57,7 +58,7 @@
                     </nav>
                 </div>
             </section>
-            <section class="lwrap" data-flex="axis">
+            <section class="lwrap" data-flex="axis" data-flex-480="vstripe">
                 <hgroup>
                     <h1>where your journey begins.</h1>
                     <h5>Discover your next great adventure, become an explorer to get started!</h5>
@@ -71,7 +72,7 @@
                         <input type="search" name="form" class="input-default" placeholder="Search Tour">
                         <input type="text" name="form" class="input-default" placeholder="Destination">
                         <input type="text" name="form" class="input-default" placeholder="Tour Type">
-                        <input type="date" name="form" class="input-default" placeholder="Month">
+                        <input type="text" name="form" class="input-default" placeholder="Month">
                         <button><span class="btn btn-default">find tours</span></button>
                     </form>
                 </div>
@@ -88,11 +89,11 @@
                     <h2>find a tour by tour type</h2>
                     <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! Phasellus aliquam odio. </p>
                 </hgroup>
-                <div data-flex="stripe">
-                    <figure><img src="/images/tour1.png" width="266" height="266" alt=""><div class="overlay">north america</div></figure>
-                    <figure><img src="/images/tour2.png" width="266" height="266" alt=""><div class="overlay">north america</div></figure>
-                    <figure><img src="/images/tour3.png" width="266" height="266" alt=""><div class="overlay">san francisco</div></figure>
-                    <figure><img src="/images/tour4.png" width="266" height="266" alt=""><div class="overlay">amazon cruise</div></figure>
+                <div data-flex="stripe w">
+                    <figure><img src="/images/tour1.png" width="266" height="266" alt=""><figcaption class="overlay">north america</figcaption></figure>
+                    <figure><img src="/images/tour2.png" width="266" height="266" alt=""><figcaption class="overlay">north america</figcaption></figure>
+                    <figure><img src="/images/tour3.png" width="266" height="266" alt=""><figcaption class="overlay">san francisco</figcaption></figure>
+                    <figure><img src="/images/tour4.png" width="266" height="266" alt=""><figcaption class="overlay">amazon cruise</figcaption></figure>
                 </div>
             </div>
         </section>
@@ -101,7 +102,7 @@
                 <hgroup>
                     <h2>deals and discounts</h2>
                 </hgroup>
-                <div data-flex="stripe w">
+                <div data-flex="stripe w" data-flex-480="vstripe">
                     <article>
                         <figure><img src="/images/deals1.jpg" width="373" height="274" alt=""></figure>
                         <div data-flex="col -center">
@@ -133,18 +134,58 @@
             </div>
         </section>
         <section class="find-trips">
-            <div class="lwrap">
-                <hgroup>
-                    <h2>find a tour by beautiful trips</h2>
-                </hgroup>
-                <div data-flex="stripe w">
-                    <figure><img src="/images/trip1.jpg" width="530" height="407" alt=""></figure>
-                    <figure><img src="/images/trip2.png" width="530" height="407" alt=""></figure>
-                    <figure><img src="/images/trip3.png" width="530" height="407" alt=""></figure>
-                    <figure><img src="/images/trip4.png" width="530" height="407" alt=""></figure>
-                    <figure><img src="/images/trip5.png" width="530" height="407" alt=""></figure>
-                    <figure><img src="/images/trip6.png" width="530" height="407" alt=""></figure>
-                </div>
+            <hgroup>
+                <h2>find a tour by beautiful trips</h2>
+            </hgroup>
+            <div data-flex="stripe w" data-flex-480="vstripe">
+                <figure>
+                    <img src="/images/trip1.jpg" width="530" height="407" alt="">
+                    <figcaption class="overlay" data-flex="col center -center">
+                        <h6>promotional trip</h6>
+                        <strong>Orlando, Air/3 Nights</strong>
+                        <a href="#" class="btn btn-default sm">know more</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/trip2.png" width="530" height="407" alt="">
+                    <figcaption class="overlay" data-flex="col center -center">
+                        <h6>promotional trip</h6>
+                        <strong>Orlando, Air/3 Nights</strong>
+                        <a href="#" class="btn btn-default sm">know more</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/trip3.png" width="530" height="407" alt="">
+                    <figcaption class="overlay" data-flex="col center -center">
+                        <h6>promotional trip</h6>
+                        <strong>Orlando, Air/3 Nights</strong>
+                        <a href="#" class="btn btn-default sm">know more</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/trip4.png" width="530" height="407" alt="">
+                    <figcaption class="overlay" data-flex="col center -center">
+                        <h6>promotional trip</h6>
+                        <strong>Orlando, Air/3 Nights</strong>
+                        <a href="#" class="btn btn-default sm">know more</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/trip5.png" width="530" height="407" alt="">
+                    <figcaption class="overlay" data-flex="col center -center">
+                        <h6>promotional trip</h6>
+                        <strong>Orlando, Air/3 Nights</strong>
+                        <a href="#" class="btn btn-default sm">know more</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/trip6.png" width="530" height="407" alt="">
+                    <figcaption class="overlay" data-flex="col center -center">
+                        <h6>promotional trip</h6>
+                        <strong>Orlando, Air/3 Nights</strong>
+                        <a href="#" class="btn btn-default sm">know more</a>
+                    </figcaption>
+                </figure>
             </div>
         </section>
         <section class="news">
@@ -153,34 +194,40 @@
                     <h2>news & events</h2>
                     <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! Phasellus aliquam odio. </p>
                 </hgroup>
-                <div data-flex="stripe w">
-                    <article>
+                <div data-flex="stripe w" data-flex-480="vstripe">
+                    <div class="event-item">
                         <figure><img src="/images/event1.png" width="350" height="227" alt=""></figure>
-                        <h6><a href="#">Living the Travel Lifestyle</a></h6>
-                        <div data-flex="stripe w" data-childs="-center">
-                            <span><i class="icon-user"></i><span>Admin</span></span>
-                            <span><i class="icon-calendar"></i><time>May 11, 2015</time></span>
-                        </div>
-                        <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! </p>
-                    </article>
-                    <article>
-                        <figure><img src="/images/event2.png" width="350" height="227" alt=""></figure>
-                        <h6><a href="#">Living the Travel Lifestyle</a></h6>
-                        <div data-flex="stripe w" data-childs="-center">
-                            <span><i class="icon-user"></i><span>Admin</span></span>
-                            <span><i class="icon-calendar"></i><time>May 11, 2015</time></span>
-                        </div>
-                        <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! </p>
-                    </article>
-                    <article>
+                        <article>
+                            <h6><a href="#">Living the Travel Lifestyle</a></h6>
+                            <div class="details" data-flex="stripe w" data-childs="-center">
+                                <span><i class="icon-user"></i><span>Admin</span></span>
+                                <span><i class="icon-calendar"></i><time>May 11, 2015</time></span>
+                            </div>
+                            <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! </p>
+                        </article>                      
+                    </div>
+                    <div class="event-item">
+                        <figure><img src="/images/event2.jpg" width="350" height="227" alt=""></figure>
+                        <article>
+                            <h6><a href="#">Living the Travel Lifestyle</a></h6>
+                            <div class="details" data-flex="stripe w" data-childs="-center">
+                                <span><i class="icon-user"></i><span>Admin</span></span>
+                                <span><i class="icon-calendar"></i><time>May 11, 2015</time></span>
+                            </div>
+                            <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! </p>
+                        </article>
+                    </div>
+                    <div class="event-item">
                         <figure><img src="/images/event3.png" width="350" height="227" alt=""></figure>
-                        <h6><a href="#">Living the Travel Lifestyle</a></h6>
-                        <div data-flex="stripe w" data-childs="-center">
-                            <span><i class="icon-user"></i><span>Admin</span></span>
-                            <span><i class="icon-calendar"></i><time>May 11, 2015</time></span>
-                        </div>
-                        <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! </p>
-                    </article>
+                        <article>
+                            <h6><a href="#">Living the Travel Lifestyle</a></h6>
+                            <div class="details" data-flex="stripe w" data-childs="-center">
+                                <span><i class="icon-user"></i><span>Admin</span></span>
+                                <span><i class="icon-calendar"></i><time>May 11, 2015</time></span>
+                            </div>
+                            <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! </p>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
@@ -199,8 +246,8 @@
                     <h5>findfinder llc</h5>
                     <address>1400 Pennsylvania Ave. Washington, DC</address>
                     <ul>
-                        <li><dt>P:</dt><dd>24/7 customer support: 1-555-555-5555</dd></li>
-                        <li><dt>E:</dt><dd><a href="mailto:info@tripfinder.com">info@tripfinder.com</a></dd></li>
+                        <li><dt>P:</dt> <dd>24/7 customer support: 1-555-555-5555</dd></li>
+                        <li><dt>E:</dt> <dd><a href="mailto:info@tripfinder.com">info@tripfinder.com</a></dd></li>
                     </ul>
                 </div>
                 <div>
@@ -223,7 +270,7 @@
                 <div>
                     <h5>newsletter</h5>
                     <form action="#" method="post" data-flex="axis">
-                        <input type="text" name="footer" class="input-default" placeholder="Enter email">
+                        <input type="text" name="footer" class="input-default sm" placeholder="Enter email">
                         <button><div class="btn btn-default md">submit</div></button>
                     </form>
                 </div>
@@ -238,5 +285,8 @@
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script>
+
+        </script>
     </body>
 </html>

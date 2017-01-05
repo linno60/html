@@ -1,17 +1,21 @@
 body *{
     font-size: 15px;
-    font-family: Open Sans;
-    color: #606060;
+    font-family: Open Sans;    
 }
 
 /*LINKS*/
+.links-nav{
+    padding-right: 5rem;
+}
 .links-nav a{
     color: white;
     font-size: 20px;
     margin-left: 53rem;
 }
 .links-default a{
-    margin-bottom: 8rem;
+    margin-top: 8rem;
+    color: #606060;
+    display: inline-block;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus,
 .links-default a:active, .links-default a:hover, .links-default a:focus{
@@ -19,13 +23,13 @@ body *{
 }
 .links-social a{
     line-height: 1px;
-    margin-left: 20rem;
+    margin: 7px 0px 7px 33.5rem;
 }
 .links-follow a{
     width: 44px;
     height: 44px;
     background: #47a0ff;
-    margin: 0px 20rem 20rem 0px;
+    margin: 0px 11rem 11rem 0px;
     border-radius: 50%;
 }
 
@@ -35,10 +39,10 @@ body *{
 font-size: 13px;
 }
 .list-info > li{
-    margin-right: 20rem;
+    margin-right: 48rem;
 }
 .list-info > li > i[class^=icon-]{
-    margin-right: 5rem;
+    margin-right: 12rem;
 }
 .list-info a:active, .list-info a:hover, .list-info a:focus{
     text-decoration: underline;
@@ -70,7 +74,8 @@ button > .btn{
     min-width: 76rem;
 }
 .btn-default.sm{
-    height: 43px;    
+    height: 43px; 
+    min-width: 154rem;
 }
 .btn-find{
     width: 156rem;
@@ -84,26 +89,30 @@ button > .btn{
 
 /*LABELS*/
 .lbl-price{
-    min-width: 169px;
+    min-width: 169rem;
     height: 56px;
     background: #47a0ff;        
     justify-content: space-around;
+    padding: 0 8rem;
 }
 .lbl-price > *{
-    padding: 15px 5px 5px;
+    padding: 18rem 5rem 5rem;
 }
 .lbl-price *{
     color: white;
     font-family: BigNoodleTitling;
+    letter-spacing: 0.05em;
 }
 .lbl-price big{
     font-size: 37px;
 }
 .lbl-price small{
     font-size: 30px;
+    text-indent: 8rem;
 }
 .lbl-price span{
-    background: linear-gradient(white, white) center 15px / 100% 1px no-repeat;
+    font-size: inherit;
+    background: linear-gradient(white, white) center 13px / 100% 1px no-repeat;
 }
 
 /*FORMS*/
@@ -124,10 +133,11 @@ button > .btn{
 .input-default:focus:-ms-input-placeholder { color: transparent; }
 .input-default.sm{
     font-size: 13px;
-    padding: 0px 15rem;
+    padding: 0px 18rem;
 }
 .input-search{
     background: none;
     border: none;
-    
+    outline: none;
+    color: white;
 }

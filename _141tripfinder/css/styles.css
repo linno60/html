@@ -1,4 +1,7 @@
 /*COMMON*/
+body *{
+    color: #606060;
+}
 body > section{
     background: #ebebeb;
 }
@@ -10,7 +13,7 @@ figure > img:only-of-type, a > img:only-of-type{
     height: 100%;
 }
 .lwrap{
-    max-width: 1180px;
+    max-width: 1230px;
     padding: 0px 10px;
 }
 article p{
@@ -18,6 +21,8 @@ article p{
 }
 p{
     font-size: 20px;
+    line-height: 24px;
+    max-width: 968px;    
 }
 i[class^=icon-]{
     flex-shrink: 0;
@@ -25,9 +30,12 @@ i[class^=icon-]{
 hgroup{
     text-align: center;
 }
+hgroup p{
+    margin: auto;
+}
 h2{
     font-family: BigNoodleTitling;
-    font-size: 50px;
+    font-size: 50rem;
     font-weight: 400;
     letter-spacing: 0.05em;
 }
@@ -36,12 +44,16 @@ h2{
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
-    color: white;
+    left: 0;    
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+}
+.overlay, .overlay *{
+    color: white;
 }
 
 /*HEADER*/
@@ -52,17 +64,27 @@ header{
     background: rgba(0,0,0,.75);
     margin-bottom: 111rem;
 }
+.header > .lwrap{
+    max-width: 1172px;
+    padding: 14rem 10px;
+}
 .top-bar{
     border-bottom: 1px solid rgba(255,255,255,.42);
 }
+.top-bar .lwrap{
+    max-width: 1214px;
+}
 #logo{
-    margin: 15.5rem 0px;
+    margin-top: 3rem;
 }
 .form-search{
     background: white;
-    padding: 47rem 39rem 64rem 39rem;
-    width: 64%;
-    margin-left: 10px;
+    padding: 47rem 39rem;
+    min-height: 598rem;
+    width: 42%;
+    margin: 0 34rem -81rem 50rem;
+    flex-shrink: 0;
+    position: relative;
 }
 .form-search h3{
     font-family: BigNoodleTitling;
@@ -82,12 +104,18 @@ header{
 }
 .additional{
     background: rgba(71,160,255,.85);
-    padding: 57rem 0px;
-    margin-top: -81rem;
+    padding: 69px 0px 10px;
+    min-height: 196rem;
+}
+.additional > .lwrap{
+    max-width: 1172px;
 }
 .additional p{
     color: white;
-    max-width: 500px;
+    max-width: 571px;
+}
+header hgroup{
+    max-width: 617px;
 }
 header hgroup h1, header hgroup h5{
     color: white;
@@ -95,44 +123,61 @@ header hgroup h1, header hgroup h5{
 }
 header hgroup h1{
     font-family: BigNoodleTitling;
-    font-size: 62px;
+    font-size: 62rem;
+    letter-spacing: 0.05em;
+        line-height: 76rem;
+        margin-top: 6rem;
 }
 header hgroup h5{
-    font-size: 30px;
+    font-size: 30rem;
+    line-height: 36rem;
 }
 .top-bar form{
     border-left: 1px solid rgba(255,255,255,.42);
+    margin-left: 40rem;
+    min-width: 119rem;
+    flex-shrink: 0;
+}
+.top-bar form input[type=image]{
+    flex-shrink: 0;
 }
 .top-bar .input-search{
-    margin: 4.5px;
+    margin: 4.5rem;
+    flex-grow: 1;
+    width: 30px;
+    transition: all .5s ease;
+}
+.top-bar .input-search:focus, .top-bar .input-search.visited{
+    width: 200px;
+    flex-grow: 1;
 }
 
 /*TOURS*/
 .tours {
-    padding: 106rem 0px;
+    padding: 105rem 0px;
     background: linear-gradient(rgba(255,255,255,.29), rgba(255,255,255,.29)), url("/images/toursbg.png") center / cover no-repeat;
 }
 .tours .lwrap{
     max-width: 1190px;
 }
 .tours hgroup{
-    margin-bottom: 59rem;
+    margin-bottom: 63rem;
 }
 .tours hgroup h2{
-    margin-bottom: 18rem;
+    margin-bottom: 20rem;
 }
 .tours figure{
     width: 22.735%;
     position: relative;
     border-radius: 50%;
-    margin-bottom: 40rem;
+    margin-bottom: 41rem;
     overflow: hidden;
 }
 .tours figure .overlay{
     font-family: BigNoodleTitling;
-    font-size: 34px;
-    background: rgba(0,0,0,.61);
+    font-size: 34rem;    
     letter-spacing: 0.05em;
+    padding-top: 15rem;
 }
 
 /*DEALS*/
@@ -140,78 +185,136 @@ header hgroup h5{
     background: linear-gradient(rgba(71,160,255,.85), rgba(71,160,255,.85)), url("/images/forrest.png") center / cover no-repeat;
     padding: 116rem 0px 53rem;
 }
+.deals > .lwrap{
+    max-width: 1194px;
+}
 .deals hgroup h2{
     color: white;
     margin-bottom: 57rem;
 }
 .deals article{
     background: white;
-    width: 32%;
+    width: 31.8%;
     margin-bottom: 10px;
+    min-height: 587rem;
 }
 .deals article .lbl-price{
-    margin: -28rem 0px 23rem;
+    margin: -29rem 0px 23rem;
+    position: relative;
+}
+.deals article h2{
+    margin-bottom: 2rem;
 }
 .deals article p{
-    margin-bottom: 51rem;
+    padding: 0px 0px 37rem 24rem;
+    line-height: 18px;
+    width: 100%;
 }
 .deals article > div{
-    padding: 0px 20rem 37rem 20rem;
+    padding: 0px 20rem 20rem;
 }
 
 /*FIND-TRIPS*/
 .find-trips{
-    padding: 112rem 0px 95rem;
+    padding: 112rem 0px 98rem;
 }
 .find-trips hgroup{
     margin-bottom: 87rem;
 }
-.find-trips figure{
-    width: 33.33%;
+.find-trips figure{    
+    position: relative;
+}
+.find-trips figure:nth-child(3n-2){
+    width: 33.1%;
+}
+.find-trips figure:nth-child(3n-1){
+    width: 33.55%;
+}
+.find-trips figure:nth-child(3n){
+    width: 33.2%;
 }
 .find-trips > .lwrap{
-    max-width: 1620px;
+    max-width: 1621px;
+}
+.find-trips .overlay h6, .find-trips .overlay strong{
+    letter-spacing: 0.05em;
+}
+.find-trips .overlay h6{
+    font-size: 26rem;
+text-transform: uppercase;
+margin-top: 14rem;
+}
+.find-trips .overlay strong{
+    margin: 14rem 0px 20rem 0px;  
+    transition: all .3s ease;
+    display: inline-block;
+}
+.find-trips .overlay .btn-default{
+    display: none;
+}
+.find-trips .overlay:hover{
+    background: rgba(0,0,0,.69);
+}
+.find-trips .overlay:hover .btn-default{
+    display: flex;
+}
+.find-trips .overlay:hover strong{
+    margin-bottom: 39rem;
 }
 
 /*NEWS*/
 .news{
     padding-bottom: 108rem;
 }
-.news article{
-    width: 32%;
+.news > .lwrap{
+    max-width: 1195px;
+}
+.event-item{
+    width: 31.75%;
     margin-bottom: 10px;
     background: white;
-    padding: 8rem 8rem 53rem;
+    padding: 8rem 12rem;
+    min-height: 497rem;
 }
-.news article p{
+.event-item p{
     line-height: 24px;
+    max-width: 99%;
 }
 .news h2{
-    margin-bottom: 20rem;
+    margin-bottom: 25rem;
 }
 .news hgroup{
-    margin-bottom: 57rem;
+    margin-bottom: 58rem;
 }
-.news article figure{
-    margin-bottom: 29rem;
+.event-item figure{
+    margin-bottom: 32rem;
 }
-.news h6{  
-    font-size: 18px;
+.event-item h6{      
     margin-bottom: 26rem;
 }
-.news h6 a{
+.event-item a{
     color: #47a0ff;
+    font-size: 18px;
 }
-.news h6 a:active, .news h6 a:hover, .news h6 a:focus{
+.event-item h6 a:active, .event-item h6 a:hover, .event-item h6 a:focus{
     text-decoration: underline;
 }
-.news article > div{
+.event-item article > div{
     padding-bottom: 33rem;
+}
+.event-item .details{
+    max-width: 82%;
+}
+.event-item article{
+    padding: 0px 12rem;
+}
+.details i[class^=icon-]{
+    margin-right: 10rem;
 }
 
 /*BANNER*/
 .banner{
-    padding: 152rem 0px;
+    padding: 227rem 0px 138rem 0px;
     background: linear-gradient(rgba(0,0,0,.47), rgba(0,0,0,.47)), url("/images/travelbg.png") center / cover no-repeat;
 }
 .banner hgroup *{
@@ -221,25 +324,40 @@ header hgroup h5{
 }
 .banner h2{
     font-size: 148rem;
+        line-height: 102rem;
 }
 .banner h3{
-    font-size: 50px;
+    font-size: 50rem;
     letter-spacing: 0.03em;
+    margin-bottom: 14rem;
 }
 
 /*FOOTER*/
 .footer{
-    padding: 86rem 10px 93rem 10px;
+    padding: 86rem 10px;
+    max-width: 1188px;
 }
 .footer h5{
     font-family: BigNoodleTitling;
-    font-size: 30px;
+    font-size: 30rem;
     font-weight: 400;
     margin-bottom: 23rem;
+    letter-spacing: 0.05em;
 }
 .footer > div{
-    width: 24%;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
+}
+.footer > div:nth-child(1){
+    width: 28.3%;
+}
+.footer > div:nth-child(2){
+    width: 17%;
+}
+.footer > div:nth-child(3){
+    width: 22%;
+}
+.footer > div:nth-child(4){
+    width: 23.5%;
 }
 .footer form{
     background: #f2f2f2;
@@ -249,16 +367,50 @@ header hgroup h5{
     margin: 5px;
     flex-shrink: 0;
 }
+.footer form .input-default{
+    max-width: 69%;
+}
 .footer address{
     font-style: normal;
+    padding: 7rem 0px 5rem;
+}
+.footer ul li{
+    line-height: 29px;
 }
 dt, dd{
     display: inline;
 }
 .copyright{
-    padding: 10rem 0px;
+    padding: 13rem 0px 21rem 0px;
     border-top: 1px solid #d0d0d0;
+}
+.copyright > .lwrap{
+    max-width: 1182px;
 }
 .copyright span{
     font-size: 12px;
+    display: inline-block;
+}
+.copyright > .lwrap > span:last-child{
+    text-align: right;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    .top-bar form {border-top: 1px solid rgba(255,255,255,.42);}
+    .top-bar .input-search, .top-bar .input-search:focus, .top-bar .input-search.visited{width: 120px;}
+    .form-search{margin: 10px 0px -60px 10px;width: 60%;}
+    .header{margin: 0;}
+    .find-trips .overlay h6{font-size: 17px;}
+}
+@media screen and (max-width: 640px) {
+     h2{font-size: 26px;}
+    .find-trips figure:nth-child(3n-2), .find-trips figure:nth-child(3n-1), .find-trips figure:nth-child(3n){width: 50%;}
+    header hgroup h5 {font-size: 15.5px;line-height: 18px;}
+    header hgroup h1 {font-size: 32px;line-height: 39px;}
+    .tours figure .overlay{font-size: 18px;}
+}
+@media screen and (max-width: 480px) { 
+    .form-search h3{font-size: 27px;line-height: 25px;}
+    .tours figure{width: 48%;}
 }
