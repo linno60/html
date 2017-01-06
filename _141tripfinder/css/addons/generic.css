@@ -9,13 +9,13 @@
     font-style: normal;
 }
 /* ICONS */
-.icon-bed {width: 23px; height: 16px; background: url('/images/icons/bed.png');}
-.icon-calendar {width: 19px; height: 21px; background: url('/images/icons/calendar.png');}
+.icon-bed {width: 23px; height: 21px; background: url('/images/icons/bed.png');}
+.icon-calendar {width: 23px; height: 21px; background: url('/images/icons/calendar.png');}
 .icon-clock {width: 13px; height: 14px; background: url('/images/icons/clock.png');}
 .icon-fb {width: 9px; height: 16px; background: url('/images/icons/fb.png');}
-.icon-fly {width: 16px; height: 17px; background: url('/images/icons/fly.png');}
+.icon-fly {width: 23px; height: 21px; background: url('/images/icons/fly.png');}
 .icon-freebies {width: 29px; height: 26px; background: url('/images/icons/freebies.png');}
-.icon-glass {width: 19px; height: 19px; background: url('/images/icons/glass.png');}
+.icon-glass {width: 23px; height: 21px; background: url('/images/icons/glass.png');}
 .icon-in {width: 14px; height: 15px; background: url('/images/icons/in.png');}
 .icon-mail {width: 16px; height: 13px; background: url('/images/icons/mail.png');}
 .icon-phone {width: 12px; height: 13px; background: url('/images/icons/phone.png');}

@@ -58,20 +58,22 @@ button > .btn{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    line-height: 14px;
 }
-.btn-default{
-    min-width: 199rem;
-    height: 55px;
+.btn-default{    
     background: #006fe6;
     border-radius: 5px;
-    padding: 0px 10px;
+    padding: 0px 10rem;
 }
 .btn-default.md, .btn-default.sm{
     font-size: 14px;
 }
+.btn-default.lg{
+    min-width: 199rem;
+    height: 55px;
+}
 .btn-default.md{
     height: 45px;
-    min-width: 76rem;
 }
 .btn-default.sm{
     height: 43px; 
@@ -80,8 +82,8 @@ button > .btn{
 .btn-find{
     width: 156rem;
     height: 156rem;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 80px;
+    min-height: 80px;
     background: #47a0ff;
     border-radius: 50%;
     padding: 10px;
@@ -116,14 +118,16 @@ button > .btn{
 }
 
 /*FORMS*/
-.input-default{
+.input-default, .select-default{
     height: 55px;
-    background: #f2f2f2;
+    background-color: #f2f2f2;
     border-radius: 5px;
-    border: none;
-    color: black;
+    border: none;    
     font-size: 16px;
     padding: 0px 20rem;
+}
+.input-default{    
+    color: black;
 }
 .input-default::-webkit-input-placeholder { color: #606060; }
 .input-default::-moz-placeholder { color: #606060; }
@@ -138,6 +142,16 @@ button > .btn{
 .input-search{
     background: none;
     border: none;
-    outline: none;
     color: white;
+}
+.select-default::-ms-expand{display: none;}
+.select-default {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #606060;
+}
+.select-default option:first-child {
+    color: black;
+    font-weight: 700;
 }

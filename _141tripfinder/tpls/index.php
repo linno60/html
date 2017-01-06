@@ -38,7 +38,7 @@
                                 <a href="#"><i class="icon-wa"></i></a>
                             </div>
                             <form action="#" method="post" data-flex="-center">
-                                <input type="search" name="search" id="search" class="input-search" onblur="this.className = 'input-search visited';">
+                                <input type="search" name="search" id="search" class="input-search">
                                 <input type="image" src="/images/icons/search.png">
                             </form>
                         </div>
@@ -69,11 +69,34 @@
                         <h4>Find your dream tour today!</h4>
                     </hgroup>
                     <form action="#" method="post" data-flex="col">
-                        <input type="search" name="form" class="input-default" placeholder="Search Tour">
-                        <input type="text" name="form" class="input-default" placeholder="Destination">
-                        <input type="text" name="form" class="input-default" placeholder="Tour Type">
-                        <input type="text" name="form" class="input-default" placeholder="Month">
-                        <button><span class="btn btn-default">find tours</span></button>
+                        <input type="search" name="form" class="input-default search" placeholder="Search Tour">
+                        <input type="text" name="form" class="input-default destination" placeholder="Destination">
+                        <select class="select-default tour-type">
+                            <option selected="selected">Tour Type</option>
+                            <option>Luxury</option>
+                            <option>Holiday</option>
+                            <option>Romantic</option>
+                            <option>Relax</option>
+                            <option>Safari</option>
+                            <option>Thematic</option>
+                            <option>Alcoholic</option>
+                        </select>
+                        <select class="select-default months">
+                            <option selected>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                        <button><span class="btn btn-default lg">find tours</span></button>
                     </form>
                 </div>
             </section>
@@ -109,7 +132,7 @@
                             <span class="lbl lbl-price"><small>$<span>899</span></small><big>$499</big> </span>
                             <h2>surfing</h2>
                             <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! Phasellus aliquam odio. </p>
-                            <a href="#" class="btn btn-default">book now</a>
+                            <a href="#" class="btn btn-default lg">book now</a>
                         </div>
                     </article>
                     <article>
@@ -118,7 +141,7 @@
                             <span class="lbl lbl-price"><small>$<span>899</span></small><big>$499</big> </span>
                             <h2>surfing</h2>
                             <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! Phasellus aliquam odio. </p>
-                            <a href="#" class="btn btn-default">book now</a>
+                            <a href="#" class="btn btn-default lg">book now</a>
                         </div>
                     </article>
                     <article>
@@ -127,7 +150,7 @@
                             <span class="lbl lbl-price"><small>$<span>899</span></small><big>$499</big> </span>
                             <h2>surfing</h2>
                             <p>Egestas dignissim a enim lorem a mus egestas risus porta? Sed. Scelerisque, in nec velit augue aenean a, vut velit nec! Phasellus aliquam odio. </p>
-                            <a href="#" class="btn btn-default">book now</a>
+                            <a href="#" class="btn btn-default lg">book now</a>
                         </div>
                     </article>
                 </div>
@@ -271,14 +294,14 @@
                     <h5>newsletter</h5>
                     <form action="#" method="post" data-flex="axis">
                         <input type="text" name="footer" class="input-default sm" placeholder="Enter email">
-                        <button><div class="btn btn-default md">submit</div></button>
+                        <button><div class="btn btn-default md">sub&shy;mit</div></button>
                     </form>
                 </div>
             </section>
             <section class="copyright">
                 <div class="lwrap" data-flex="axis">
-                    <span>&copy; PSDFreebies.com 2015. All rights reserved.</span>
-                    <span>Design by: <i class="icon-freebies"></i> PSDFreebies.com</span>
+                    <span>&copy; PSDfreebies.com 2015. All rights reserved.</span>
+                    <span class="design-details" data-flex="end -center w">Design by: <i class="icon-freebies"></i> PSDFreebies.com</span>
                 </div>
             </section>
         </footer>
@@ -286,7 +309,9 @@
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
         <script>
-
+            document.getElementById('search').onblur = function () {
+                this.value === '' ? this.className = 'input-search' : this.className = 'input-search visited';
+            };
         </script>
     </body>
 </html>
