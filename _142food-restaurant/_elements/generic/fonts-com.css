@@ -1,0 +1,11 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=faf867b8-5745-4963-a932-43e1acc4e667");
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/fonts.com/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("/fonts/fonts.com/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff");
+}

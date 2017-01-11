@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=faf867b8-5745-4963-a932-43e1acc4e667");
+
+
+/* FONTS */
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/fonts.com/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"), url("/fonts/fonts.com/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff");
+}
+/* ICONS */
+.icon-clocksm {width: 16px; height: 17px; background: url('/images/icons/clocksm.png');}
+.icon-fb {width: 13px; height: 24px; background: url('/images/icons/fb.png');}
+.icon-fbsm {width: 10px; height: 18px; background: url('/images/icons/fbsm.png');}
+.icon-gp {width: 23px; height: 24px; background: url('/images/icons/gp.png');}
+.icon-gpsm {width: 18px; height: 18px; background: url('/images/icons/gpsm.png');}
+.icon-ig {width: 22px; height: 23px; background: url('/images/icons/ig.png');}
+.icon-igsm {width: 16px; height: 17px; background: url('/images/icons/igsm.png');}
+.icon-in {width: 22px; height: 22px; background: url('/images/icons/in.png');}
+.icon-insm {width: 16px; height: 16px; background: url('/images/icons/insm.png');}
+.icon-phonesm {width: 15px; height: 16px; background: url('/images/icons/phonesm.png');}
+.icon-pn {width: 19px; height: 24px; background: url('/images/icons/pn.png');}
+.icon-pnsm {width: 14px; height: 18px; background: url('/images/icons/pnsm.png');}
+.icon-tw {width: 23px; height: 20px; background: url('/images/icons/tw.png');}
+.icon-twsm {width: 16px; height: 14px; background: url('/images/icons/twsm.png');}
+.icon-wa {width: 23px; height: 23px; background: url('/images/icons/wa.png');}
+.icon-wasm {width: 16px; height: 17px; background: url('/images/icons/wasm.png');}
+.icon-yt {width: 23px; height: 23px; background: url('/images/icons/yt.png');}
+.icon-ytsm {width: 17px; height: 17px; background: url('/images/icons/ytsm.png');}
