@@ -13,42 +13,57 @@ figure > img:only-of-type, a > img:only-of-type{
     max-width: 1190px;
     padding: 0px 10px;
 }
+article p{
+    line-height: 18px;
+    letter-spacing: -0.018em;
+    margin-bottom: 18rem;
+}
+article p:last-of-type{
+    margin-bottom: 37rem;
+}
 
 /*HEADER*/
 header{
     background: url("/images/headerbg.png") center / cover no-repeat;
+    min-height: 804px;
 }
 .top-bar{
     background: white;    
 }
 .top-bar > .lwrap{
     position: relative;
-    padding: 5rem 10px;
+    padding: 3rem 10px;
+}
+.top-bar > .lwrap:before{
+    content: "";
+    width: 26.2%;
 }
 #logo{
     width: 40.93%;
-    height: 42.64%;
-    margin-top: 30rem;
+    height: 39.54%;
+    margin: 18rem 15rem 0px 0px;
 }
-.logo{
+.logo-wrap{
     position: absolute;
-    left: 0px;
-    top: -5rem;
+    top: -3rem;
+    left: -28rem;
     background:
-        linear-gradient(45deg, transparent 50%, #e7a331 50%) left / 50% 100% no-repeat,
-        linear-gradient(-45deg, transparent 50%, #e7a331 50%) right / 50% 100% no-repeat;
-    height: 204rem;
+        linear-gradient(45deg, transparent 51%, #e7a331 51%) left / 50% 100% no-repeat,
+        linear-gradient(-45deg, transparent 51%, #e7a331 51%) right / 50% 100% no-repeat;
+    height: 220rem;
     width: 408rem;
 }
 .nav-bar{
     background: rgba(0, 0, 0, 0.64);
 }
 .nav-bar > .lwrap{
-    padding: 20rem 10px;
+    padding: 22.5rem 10px;
 }
-.banner > .lwrap{
+.banner{
     text-align: center;
-    padding: 100rem 0px;
+    padding: 10px 10px 65rem;
+    flex-grow: 1;
+    max-width: 900px;
 }
 .banner h1{
     text-shadow: -1.5px 2.6px 7px black;
@@ -56,27 +71,33 @@ header{
     font-family: Pacifico;
     font-size: 106px;
     font-weight: 400;
+    margin-bottom: 10rem;
 }
 .banner p{
     font-size: 25px;
     color: white;
-    margin-bottom: 10rem;
+    margin-bottom: 39rem;
+    line-height: 30px;
+    width: 100%;
 }
 
 /*ABOUT*/
-.about, .experience{
-    background: url("/images/bg.png");
+.about{
+    min-height: 616rem;
+    background: url("/images/peppersr.png")right bottom no-repeat, url("/images/bg.png");
 }
 .about > .lwrap{
-    padding: 50rem 10px;
+    padding: 111rem 10px;
 }
 .about figure{
     border: 10px solid white;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
 }
 .about .figure{
-    width: 32%;
+    width: 31.7%;
     position: relative;
+    float: left;
+    margin: 23rem 78rem 30rem 54rem;
 }
 .about .figure figure{
     position: relative;
@@ -84,59 +105,75 @@ header{
 }
 .about .figure figure:last-child{
     position: absolute;
-    top: 0;
-    left: -8%;
+    top: 3.9%;
+    left: -7%;
     z-index: 0;
-    transform: rotate(-10deg);
-}
-.about article{
-    width: 65%;
+    transform: rotate(-11deg);
 }
 
 /*RECIPES*/
 .recipes{
     background: url("/images/recipesbg.png")center / cover no-repeat;
+    min-height: 787rem;
 }
 .recipes > .lwrap{
-    padding: 50rem 10px;
+    padding: 97rem 10px;
 }
 .recipes article{
     background: url("/images/bg.png");
-    padding: 20rem;
-    width: 49%;
+    padding: 40rem 41rem 53rem;
+    width: 45.56%;
+    margin-right: -17rem;
+    margin-bottom: 10rem;
+    position: relative;
+}
+.recipes figure{
+    width: 57.26%;
+    margin-left: -16rem;
+}
+.recipes .hdr h3{
+    margin-bottom: 25rem;
 }
 
 /*EXPERIENCE*/
 .experience{
     text-align: center;
+    background: url("/images/bg.png");
 }
 .experience > .lwrap{
-    padding: 50rem 10px;
+    padding: 59rem 10px;
+}
+.experience hgroup{
+    margin: 31rem 0px 58rem 0px;
 }
 .experience figure{
     width: 25%;
-    margin-bottom: 40rem;
+    margin-bottom: 58rem;
     position: relative;
 }
 .overlay{
     background: rgba(0,0,0,.8);
     position: absolute;
-    top: 10%;
-    left: 5%;
-    right: 5%;
-    bottom: 10%;
+    top: 14%;
+    left: 7.7%;
+    right: 7.7%;
+    bottom: 13.5%;
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 5px;
+    overflow: hidden;
 }
 .overlay span{
     font-size: 22px;
     text-transform: uppercase;
+    line-height: 27px;
 }
 .overlay big{
     font-size: 41px;
+    margin: 17rem 0px 17rem;
 }
 .experience figure:hover .overlay{
     display: flex;
@@ -144,35 +181,47 @@ header{
 
 /*MENU*/
 .menu{
-    background: url("/images/amazingbg.png")center / cover no-repeat;
+    background: url("/images/peppersl.png")left bottom no-repeat, url("/images/amazingbg.png")center / cover no-repeat;
+    min-height: 2135px;
 }
 .menu > .lwrap{
-    padding: 50rem 10px;
+    padding: 95rem 10px;
+}
+.menu hgroup{
+    margin-bottom: 48rem;
 }
 .menu .hdr *{
     text-align: center;
     color: white;
 }
 .menu-item + .menu-item{
-    margin-top: 40rem;
+    margin-top: 64rem;
 }
 .menu-item:nth-child(even){
     flex-direction: row-reverse;
 }
-.menu-item > div{
-    background: white;
-    padding: 40rem;
-    width: 50%;
+.menu-item:nth-child(even) > div, .menu-item:nth-child(odd) > figure{
+
+    margin-right: -49rem;
+}
+.menu-item:nth-child(even) > figure, .menu-item:nth-child(odd) > div{
+
+    margin-left: -49rem;
 }
 .menu-item > figure{
-    width: 50%;
+    width: 57.09%;
+}
+.menu-item > div{
+    background: white;
+    padding: 28rem 55rem 36rem 58rem; 
+    width: 51.11%;
 }
 .menu-item h4{
     color: black;
     font-family: Pacifico;
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 10rem;
+    margin-bottom: 27rem;
 }
 
 /*APPS*/
@@ -180,12 +229,12 @@ header{
     background: url("/images/appbg.png")center / cover no-repeat;
 }
 .apps > .lwrap{
-    padding: 50rem 10px;
-    max-width: 1000px;
+    padding: 47rem 10px;
+    max-width: 1010px;
 }
 .apps figure{
     box-shadow: -10.5px 18.2px 38px rgba(0, 0, 0, 0.62);
-    margin-left: 30rem;
+    margin: 0px 5px 57rem 88rem;
 }
 .apps hgroup *{
     font-weight: 400;
@@ -199,28 +248,53 @@ header{
 }
 .apps h2{
     font-size: 95px;
+    line-height: 88px;
 }
 .apps h6{    
     font-family: Pacifico;
+    margin-bottom: 6rem;
+}
+.apps a{
+    margin: 46rem 15rem 0px 5rem;
+}
+.apps hgroup{
+    padding-top: 78rem;
 }
 
 /*FOOTER*/
 footer *{
     color: white;
+    letter-spacing: -0.02em;
 }
 .footer{
-    background-color: #1d1d1d;
-    background-image: repeating-linear-gradient(135deg, #151515, #151515 1px, transparent 2px, transparent 6px, #151515 7px);
-    background-size: 10px 10px;
+    background: url("/images/plate.png")left center no-repeat,
+        url("/images/pasta.png")right center no-repeat,
+        repeating-linear-gradient(135deg, #151515, #151515 1px, transparent 2px, transparent 6px, #151515 7px) center / 10px 10px,
+        #1d1d1d;
 }
 .footer > .lwrap{
-    padding: 50rem 10px;
+    padding-top: 43rem;
 }
 .footer > .lwrap > div{
-    width: 30%;
-    margin-bottom: 10px;
+    margin-bottom: 33rem;
 }
-.footer > .lwrap > div:not(:last-child), .footer dl *, .copyright{
+.footer .contacts{
+    width: 25.6%;
+    padding-bottom: 21rem;
+}
+.footer .working{
+    width: 33%;
+}
+.footer .form-wrap{
+    width: 32.2%;
+}
+.footer > .lwrap > div:not(.form-wrap) h5{
+    margin-bottom: 53rem;
+}
+.footer .form-wrap h5{
+    margin-bottom: 11rem;
+}
+.footer > .lwrap > div:not(.form-wrap), .footer dl *, .copyright{
     text-align: center;
 }
 .footer dl li *{
@@ -228,7 +302,7 @@ footer *{
 }
 .footer address{
     font-style: normal;
-    margin-bottom: 10rem;
+    padding: 17rem 0px 19rem 0px;
 }
 .footer a:active, .footer a:hover, .footer a:focus{
     text-decoration: underline;
@@ -239,12 +313,19 @@ footer *{
     font-size: 30px;
     font-weight: 400;
 }
+.footer form{
+    padding-left: 5rem;
+}
+.footer form button{
+    margin-left: 4rem;
+}
 .footer h6{
-    margin-bottom: 10rem;
+    margin-bottom: 19rem;
 }
 .footer ul{
     margin-bottom: 20rem;
 }
 .copyright{
-    padding: 10rem 10px;
+    padding: 22.5rem 10px;
+    letter-spacing: -0.012em;
 }
