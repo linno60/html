@@ -21,44 +21,48 @@
     </head>
     <body>
         <header data-flex="col">
-            <section class="top-bar">
-                <div class="lwrap" data-flex="axis">
-                    <div class="logo-wrap" data-flex="center">
-                        <a href="/" title="Return to the homepage" id="logo">
-                            <img src="/images/logo.png" width="167" height="87" alt="Food Restaurant">
-                        </a> 
+            <div>
+                <section class="top-bar">
+                    <div class="lwrap" data-flex="axis">
+                        <div class="logo-wrap" data-flex="center">
+                            <a href="/" title="Return to the homepage" id="logo">
+                                <img src="/images/logo.png" width="167" height="87" alt="Food Restaurant">
+                            </a> 
+                        </div>
+                        <ul class="list-duty" data-childs="-start" data-flex="w">
+                            <li><i class="icon-clocksm"></i>Order Foods 24/7</li>
+                            <li><i class="icon-phonesm"></i>061 9876 5432</li>
+                        </ul>
+                        <div class="links-social sm" data-flex="-center end w">
+                            <a href="#"><i class="icon-fbsm"></i></a>
+                            <a href="#"><i class="icon-gpsm"></i></a>
+                            <a href="#"><i class="icon-twsm"></i></a>
+                            <a href="#"><i class="icon-insm"></i></a>
+                            <a href="#"><i class="icon-pnsm"></i></a>
+                            <a href="#"><i class="icon-ytsm"></i></a>
+                            <a href="#"><i class="icon-wasm"></i></a>
+                            <a href="#"><i class="icon-igsm"></i></a>
+                        </div>
                     </div>
-                    <ul class="list-duty" data-childs="-center" data-flex="w">
-                        <li><i class="icon-clocksm"></i>Order Foods 24/7</li>
-                        <li><i class="icon-phonesm"></i>061 9876 5432</li>
-                    </ul>
-                    <div class="links-social sm" data-flex="-center w">
-                        <a href="#"><i class="icon-fbsm"></i></a>
-                        <a href="#"><i class="icon-gpsm"></i></a>
-                        <a href="#"><i class="icon-twsm"></i></a>
-                        <a href="#"><i class="icon-insm"></i></a>
-                        <a href="#"><i class="icon-pnsm"></i></a>
-                        <a href="#"><i class="icon-ytsm"></i></a>
-                        <a href="#"><i class="icon-wasm"></i></a>
-                        <a href="#"><i class="icon-igsm"></i></a>
-                    </div>
+                </section>
+                <section class="nav-bar">
+                    <nav class="links-nav lwrap" data-childs="center -center" data-flex="end w">
+                        <a href="#">home</a>
+                        <a href="#">menu</a>
+                        <a href="#">pages</a>
+                        <a href="#">delivery</a>
+                        <a href="#">news</a>
+                        <a href="#">features</a>
+                        <a href="#" class="active">table booking</a>   
+                    </nav>
+                </section>
+            </div>
+            <section class="banner" data-flex="-center">
+                <div class="lwrap">
+                    <h1>Foody love</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
+                    <a href="#" class="btn btn-alt">Click here</a>
                 </div>
-            </section>
-            <section class="nav-bar">
-                <nav class="links-nav lwrap" data-childs="center -center" data-flex="end w">
-                    <a href="#">home</a>
-                    <a href="#">menu</a>
-                    <a href="#">pages</a>
-                    <a href="#">delivery</a>
-                    <a href="#">news</a>
-                    <a href="#">features</a>
-                    <a href="#" class="active">table booking</a>   
-                </nav>
-            </section>
-            <section class="banner lwrap" data-flex="col center -center">
-                <h1>Foody love</h1>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi. </p>
-                <a href="#" class="btn btn-alt">Click here</a>
             </section>
         </header>
         <section class="about">
@@ -79,7 +83,7 @@
             </div>
         </section>
         <section class="recipes">
-            <div class="lwrap" data-flex="axis">
+            <div class="lwrap" data-flex="axis" data-flex-640="vstripe r">
                 <article>
                     <hgroup class="hdr">
                         <h2>Special Recipes</h2>
@@ -140,11 +144,11 @@
                     <h2>Amazing</h2>
                     <h3>delicious</h3>
                 </hgroup>
-                <div data-childs="axis">
+                <div data-childs="axis" data-childs-480="vstripe">
                     <div class="menu-item">
                         <figure><img src="/images/drinks.png" width="668" height="536" alt=""></figure>
                         <div>
-                            <h4>Drinks</h4>
+                            <h2>Drinks</h2>
                             <dl class="list-menu" data-childs="axis">
                                 <li>
                                 <dd>
@@ -187,7 +191,7 @@
                     <div class="menu-item">
                         <figure><img src="/images/main.png" width="668" height="536" alt=""></figure>
                         <div>
-                            <h4>Main course</h4>
+                            <h2>Main course</h2>
                             <dl class="list-menu" data-childs="axis">
                                 <li>
                                 <dd>
@@ -230,7 +234,7 @@
                     <div class="menu-item">
                         <figure><img src="/images/dessert.png" width="668" height="536" alt=""></figure>
                         <div>
-                            <h4>Desserts</h4>
+                            <h2>Desserts</h2>
                             <dl class="list-menu" data-childs="axis">
                                 <li>
                                 <dd>
@@ -274,12 +278,12 @@
             </div>
         </section>
         <section class="apps">
-            <div class="lwrap" data-flex="stripe">
+            <div class="lwrap" data-flex="between -start">
                 <figure><img src="/images/iphone.png" width="271" height="553" alt=""></figure>
                 <div>
                     <hgroup>
-                        <h6>Happy to Announce</h6>
-                        <h2>mobile app</h2>
+                        <h2>Happy to Announce</h2>
+                        <h3>mobile app</h3>
                         <h5>is available in every os platform.</h5>
                     </hgroup>
                     <div data-flex="stripe w">
@@ -291,10 +295,10 @@
         </section>  
         <footer>
             <section class="footer">
-                <div class="lwrap" data-flex="stripe">
+                <div class="lwrap" data-flex="stripe w">
                     <div data-flex="vaxis" class="contacts">
                         <div>
-                            <h5>Take it easy with location</h5>
+                            <h2>Take it easy with location</h2>
                             <address>112-Legere ancillae vix ne.<br> Te elit putent propriae eum,<br> aliquip nominati</address>
                             <dl>
                                 <li>
@@ -303,7 +307,7 @@
                                 </li>
                                 <li>
                                 <dd>Email:</dd>
-                                <dt><a href="mailto:support@templatemela.com">support@templatemela.com</a></dt>
+                                <dt><a href="mailto:support@templatemela.com">support@<wbr>templatemela.com</a></dt>
                                 </li>
                             </dl> 
                         </div>
@@ -319,7 +323,7 @@
                         </div>
                     </div>
                     <div class="working">
-                        <h5>Working Hours</h5>
+                        <h2>Working Hours</h2>
                         <h6>Monday To Friday</h6>
                         <ul>
                             <li>8:00am to 10:00pm(Breakfast)</li>
@@ -332,7 +336,7 @@
                         </ul>
                     </div>
                     <div class="form-wrap">
-                        <h5>Feedback form</h5>
+                        <h2>Feedback form</h2>
                         <form action="#" method="post">
                             <input class="input-default" type="text" name="form" placeholder="Name">
                             <input class="input-default" type="email" name="form" placeholder="Email">
