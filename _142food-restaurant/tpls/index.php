@@ -46,7 +46,7 @@
                     </div>
                 </section>
                 <section class="nav-bar">
-                    <nav class="links-nav lwrap" data-childs="center -center" data-flex="end w">
+                    <nav class="links-nav lwrap" data-childs="center -center" data-flex="end w" data-flex-480="center w">
                         <a href="#">home</a>
                         <a href="#">menu</a>
                         <a href="#">pages</a>

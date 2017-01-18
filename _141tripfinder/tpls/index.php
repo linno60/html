@@ -309,8 +309,11 @@
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
         <script>
-            document.getElementById('search').onblur = function () {
-                this.value === '' ? this.className = 'input-search' : this.className = 'input-search visited';
+//            document.getElementById('search').onblur = function () {
+//                this.value === '' ? this.className = 'input-search' : this.className = 'input-search visited';
+//            };            
+            document.getElementById('search').onchange = function () {
+                this.className = 'input-search visited';
             };
         </script>
     </body>

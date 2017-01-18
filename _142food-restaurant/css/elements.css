@@ -36,7 +36,7 @@ body{
     margin-right: 44rem;
 }
 .list-duty li i[class^=icon-]{
-    margin: 5rem 11rem 0 0;
+    margin: 2rem 11rem 0 0;
     flex-shrink: 0;
 }
 dl li{
@@ -96,7 +96,7 @@ dl li{
 /*FORMS*/
 .input-default, .textarea-default{
     width: 100%;
-    max-width: 371px;
+    max-width: 460px;
     background: #323232;
     border-radius: 5px;    
     color: white;
@@ -118,8 +118,7 @@ dl li{
 
 /*OTHER*/
 .hdr *{
-    color: black;
-    font-weight: 400;
+    color: black;    
 }
 h2{
     font-family: Pacifico;
@@ -128,10 +127,12 @@ h2{
     letter-spacing: -0.02em;
 }
 .hdr h2{
-    text-indent: 6rem;   
+    text-indent: 6rem; 
+    line-height: 40px;
 }
 .hdr h3{
     font-size: 38rem;
     text-transform: uppercase;
     margin-bottom: 16rem;
+    font-weight: 400;
 }

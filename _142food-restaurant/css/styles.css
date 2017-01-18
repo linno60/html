@@ -39,7 +39,7 @@ header{
     content: "";
     width: 26.2%;
     display: inline-block;
-    min-width: 120px;
+    min-width: 100px;
 }
 #logo{
     width: 40.93%;
@@ -50,7 +50,7 @@ header{
 .logo-wrap{
     position: absolute;
     top: -3rem;
-    left: -28rem;
+    left: -28px;
     background:
         linear-gradient(45deg, transparent 51%, #e7a331 51%) left / 50% 100% no-repeat,
         linear-gradient(-45deg, transparent 51%, #e7a331 51%) right / 50% 100% no-repeat;
@@ -106,7 +106,7 @@ header{
     width: 31.7%;
     position: relative;
     float: left;
-    margin: 23rem 78rem 40rem 54rem;
+    margin: 23rem 78rem 40rem 52rem;
 }
 .about .figure figure{
     position: relative;
@@ -132,7 +132,7 @@ header{
 }
 .recipes article{
     background: url("/images/bg.png");
-    padding: 40rem 41rem 53rem;
+    padding: 44rem 41rem 51rem;
     width: 45.56%;
     margin-right: -17rem;
     margin-bottom: 10rem;
@@ -256,6 +256,7 @@ header{
 .menu-item h2{
     color: black;
     margin-bottom: 27rem;
+    text-indent: 10rem;
 }
 
 /*APPS*/
@@ -277,15 +278,17 @@ header{
 .apps h3, .apps h5{
     text-transform: uppercase;
 }
-.apps h6{
-    font-size: 30px;
+.apps h5{
+    font-size: 30rem;
 }
 .apps h3{
     font-size: 95rem;
     line-height: 88rem;
 }
-.apps h6{    
+.apps h2{    
     margin-bottom: 6rem;
+    text-indent: 3rem;
+    letter-spacing: -0.01em;
 }
 .apps a{
     margin: 46rem 15rem 0px 5rem;
@@ -321,11 +324,12 @@ footer *{
 }
 .footer .form-wrap{
     width: 32.2%;
+    padding-right: 1rem;
 }
 .footer > .lwrap > div:not(.form-wrap) h5{
     margin-bottom: 53rem;
 }
-.footer .form-wrap h5{
+.footer .form-wrap h2{
     margin-bottom: 11rem;
 }
 .footer > .lwrap > div:not(.form-wrap), .footer dl *, .copyright{
@@ -341,14 +345,14 @@ footer *{
 .footer a:active, .footer a:hover, .footer a:focus{
     text-decoration: underline;
 }
-.footer h2{
-    color: white;
-}
 .footer form{
     padding-left: 5rem;
 }
 .footer form button{
     margin-left: 4rem;
+}
+.footer h2{
+    margin-bottom: 53rem;
 }
 .footer h6{
     margin-bottom: 19rem;
@@ -363,18 +367,22 @@ footer *{
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1200px) {
-    .footer{background: repeating-linear-gradient(135deg, #151515, #151515 1px, transparent 2px, transparent 6px, #151515 7px) center / 10px 10px, #1d1d1d;}  
+    .footer{background: repeating-linear-gradient(135deg, #151515, #151515 1px, transparent 2px, transparent 6px, #151515 7px) center / 10px 10px, #1d1d1d;}
+}
+@media screen and (max-width: 800px) {
+    .top-bar > .lwrap::before{width: 31%;}
 }
 @media screen and (max-width: 640px) {
     .menu-item > figure{width: 30%;}
     .menu-item > div{width: 70%;}
     .experience figure{width: 50%;}
-    h2{font-size: 16px;}
+    .hdr h2, h2, .apps h5{font-size: 16px;line-height: 20px;}
     .hdr h3{font-size: 21px;}
     .banner p{font-size: 13px; line-height: 16px;}
     .links-nav a{height: 32px;}
-    .overlay span{font-size: 12px;}
+    .overlay span{font-size: 12px;line-height: 14px;}
     .overlay big{font-size: 22px;}
+    .top-bar > .lwrap::before{width: 36%;}
 }
 @media screen and (max-width: 480px) {
     .list-duty li{font-size: 12px;}
@@ -382,4 +390,6 @@ footer *{
     .menu-item:nth-child(even) {flex-direction: column;} 
     .footer .form-wrap{width: 100%;}
     .footer .contacts, .footer .working{width: 48%;}
+    .nav-bar{position: relative;z-index: 10;}
+    .nav-bar > .lwrap:before{display: none;}
 }
