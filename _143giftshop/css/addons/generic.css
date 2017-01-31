@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* FONTS */
+@font-face {
+    font-family: 'Aparajita';
+    src: url('/fonts/fontsquirel.com/aparaj.woff2') format('woff2'), url('/fonts/fontsquirel.com/aparaj.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ICONS */
+.icon-Facebook {width: 55px; height: 54px; background: url('/images/icons/Facebook.png');}
+.icon-Google {width: 54px; height: 53px; background: url('/images/icons/Google.png');}
+.icon-Rss {width: 55px; height: 54px; background: url('/images/icons/Rss.png');}
+.icon-Vector-Smart Object {width: 53px; height: 53px; background: url('/images/icons/Vector-Smart Object.png');}
+.icon-arrowcircle {width: 15px; height: 24px; background: url('/images/icons/arrowcircle.png');}
+.icon-arrows {width: 19px; height: 12px; background: url('/images/icons/arrows.png');}
+.icon-box {width: 23px; height: 25px; background: url('/images/icons/box.png');}
+.icon-boxsm {width: 15px; height: 17px; background: url('/images/icons/boxsm.png');}
+.icon-cart {width: 28px; height: 24px; background: url('/images/icons/cart.png');}
+.icon-cartsm {width: 17px; height: 15px; background: url('/images/icons/cartsm.png');}
+.icon-flickr {width: 55px; height: 54px; background: url('/images/icons/flickr.png');}
+.icon-next {width: 15px; height: 24px; background: url('/images/icons/next.png');}
+.icon-prev {width: 15px; height: 24px; background: url('/images/icons/prev.png');}
+.icon-search {width: 53px; height: 53px; background: url('/images/icons/search.png');}
+.icon-stepcheck {width: 130px; height: 182px; background: url('/images/icons/stepcheck.png');}
+.icon-stepchose {width: 144px; height: 182px; background: url('/images/icons/stepchose.png');}
+.icon-stepregister {width: 142px; height: 182px; background: url('/images/icons/stepregister.png');}
+.icon-twitter {width: 55px; height: 54px; background: url('/images/icons/twitter.png');}

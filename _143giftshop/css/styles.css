@@ -1,0 +1,156 @@
+/*COMMON*/
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    max-width: 1190px;
+    padding: 10px;
+}
+p{
+    line-height: 26px;
+    color: #464646;
+}
+i[class^=icon-]{
+    flex-shrink: 0;
+}
+
+/*HEADER*/
+#logo + div{
+    flex-grow: 1;
+}
+header .links-nav{
+    margin: 13rem 0 15rem 0;
+}
+
+/*SHOWING*/
+.form-search{
+    background: #f0626e;
+    flex-grow: 1;
+}
+.form-search .input-search{   
+    flex-basis: 80%;
+}
+.form-search > button{
+    flex-shrink: 0;
+    margin-left: 10rem;
+}
+.showing figure, .showing .form-search{
+    margin-top: 5rem;
+}
+.showing > .row > *:first-child{
+    width: 57.26%;
+}
+.showing > .row > *:last-child{
+    width: 42.22%;
+}
+.showing figure{
+    position: relative;
+}
+.showing figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 5%;  
+    max-width: 348px;
+}
+.title{
+    background: rgba(54,42,79,.8);
+    margin-bottom: 5rem;
+    padding: 15rem;
+}
+.title-sub{
+    background: rgba(239,89,102,.88);
+padding: 10rem;    
+}
+.title h2, .title h3, .title-sub{
+    font-family: Aparajita;
+}
+.title h2, .title h3, .title-sub, .title h5, .title h6{
+    font-weight: 400;       
+    text-transform: uppercase;
+    color: white;
+}
+.title h2, .title h3{
+    color: #ef5966;    
+}
+.title h2{
+    font-size: 58rem;
+}
+.title h3{
+    font-size: 35px;
+}
+.title h5{
+    font-size: 13px;
+}
+.title h6{
+    font-size: 12px;
+}
+.title-sub{
+    font-size: 20px;
+}
+
+/*ABOUT*/
+.steps{
+    width: 100%;
+}
+.steps > div{
+    width: 31%;
+    padding: 20rem;
+    margin-bottom: 20rem;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.steps > div:nth-child(3n+2){
+    background-color: #05aecc;
+}
+.steps > div:nth-child(3n+1){
+    background-color: #434343;
+}
+.steps > div:nth-child(3n){
+    background-color: #f0626e;
+}
+.steps span{
+    display: inline-block;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+/*FOOTER*/
+footer{
+    border-top: 1px solid #b9b9b9; 
+    padding-top: 30rem;
+    margin-top: 30rem;
+}
+footer h5{
+    color: #434343;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20rem;
+}
+footer h5:first-of-type{
+    margin-bottom: 50rem;  
+}
+footer form{
+    margin-bottom: 20rem;
+}
+footer > div:not(.copyright){
+    margin-bottom: 10px;
+}
+.copyright{
+    width: 100%;
+    padding: 20rem 0;
+    border-top: 1px solid #b9b9b9; 
+    border-bottom: 1px solid #b9b9b9;
+    color: #434343;
+}
+.copyright a{
+    color: #f0626e;
+}
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    text-decoration: underline;
+}

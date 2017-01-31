@@ -1,0 +1,1 @@
+<h2 class="hdr"><span>new products</span></h2>

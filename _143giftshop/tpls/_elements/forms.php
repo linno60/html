@@ -1,0 +1,2 @@
+<input type="search" name="search" class="input-search" placeholder="Search your product here ( e.g.: Silver diamond ring )">
+<input type="email" name="email" class="input-email" placeholder="e.g.:abc@domain.com">
