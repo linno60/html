@@ -89,7 +89,10 @@
                     <div class="row">
                         <div data-flex="col">
                             <form action="#" method="post" data-flex="center -center" class="form-search">
-                                <input type="search" name="search" class="input-search" placeholder="Search your product here ( e.g.: Silver diamond ring )">
+                                <fieldset class="input-wrap">
+                                    <input type="search" name="search" class="input-search" id="input-search">
+                                    <label for="input-search" id="label-placeholder">Search your product here <span id="placeholder-child">( e.g.: Silver diamond ring )</span></label>
+                                </fieldset>
                                 <button><i class="icon-search"></i></button>
                             </form>
                             <figure>
@@ -192,6 +195,14 @@
                 </div>
             </footer>
         </div>
+        <script>
+            document.getElementById('input-search').onblur = function () {
+                var placeholder = document.getElementById('label-placeholder');
+                var placeholderChild = document.getElementById('placeholder-child');
+                this.value === '' ? placeholder.style.color = '#424242' : placeholder.style.color = 'transparent';
+                this.value === '' ? placeholderChild.style.color = '#c2c2c2;' : placeholderChild.style.color = 'transparent';
+            };
+        </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>

@@ -21,21 +21,23 @@
     </head>
     <body data-flex="col">
         <div>
-            <header>
-                <section class="header lwrap" data-flex='between -start'>
-                    <a href="/" title="Return to the homepage" id='logo'>
-                        <img src="/images/logo.png" width="79" height="28" alt="Golden">
-                    </a>
-                    <nav class="links-nav" data-flex="end w">
-                        <a href="#">home</a>
-                        <a href="#">services</a>
-                        <a href="#">portfolio</a>
-                        <a href="#">about</a>
-                        <a href="#">contact</a>
-                    </nav>
+            <header data-flex="col">
+                <section class="header" data-flex="-center">
+                    <div class="lwrap" data-flex='axis'>
+                        <a href="/" title="Return to the homepage" id='logo'>
+                            <img src="/images/logo.png" width="79" height="28" alt="Golden">
+                        </a>
+                        <nav class="links-nav" data-flex="end w">
+                            <a href="#">home</a>
+                            <a href="#">services</a>
+                            <a href="#">portfolio</a>
+                            <a href="#">about</a>
+                            <a href="#">contact</a>
+                        </nav>
+                    </div>
                 </section>
-                <section class="hdr-group lwrap">
-                    <hgroup>
+                <section class="hdr-group" data-flex="center -center">
+                    <hgroup class="lwrap">
                         <h3>Welcome To Our Studio!</h3>
                         <h1>it's nice to meet you</h1>
                         <a href="#" class="btn btn-default">tell me more</a>

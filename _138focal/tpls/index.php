@@ -21,8 +21,8 @@
     </head>
     <body data-flex="col">
         <div>
-            <header>
-                <section class="header-wrap">
+            <header data-flex="col end">
+                <section class="header-wrap" data-flex="-end">
                     <div class="slider-header lwrap">
                         <input name="anchor-h" id='slideh-0' type="radio">
                         <input name="anchor-h" id='slideh-1' type="radio">

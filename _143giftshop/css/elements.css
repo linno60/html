@@ -145,22 +145,44 @@ body{
 }
 
 /*FORMS*/
-.input-email, .input-search{
-    height: 71px;
-    padding: 0px 23rem;
-    color: black;
-}
-.input-search{
+.input-wrap{
+    background: white;
     box-shadow: 1px 1.7px 7px rgba(0, 0, 0, 0.19);
+    position: relative;
+    overflow: hidden;
+}
+.input-wrap .input-search + label{
+    position: absolute;
+    left: 23rem;
+    color: #424242;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: auto;
+}
+.input-wrap .input-search + label > span{
+    color: #c2c2c2;
+}
+.input-wrap .input-search:focus + label{
+    display: none;
+}
+.input-wrap, .input-email, .input-search{
+    height: 71px;
+}
+.input-email, .input-search{
+    padding: 0px 23rem;
+    color: black;   
+}
+.input-search{    
     border: none;
+    width: 100%;
 }
 .input-email{
     border: 1px solid #dedede;
     text-align: center;
 }
-.input-search::-webkit-input-placeholder { color: #424242; }
-.input-search::-moz-placeholder { color: #424242; }
-.input-search:-ms-input-placeholder { color: #424242; }
+input[class^=input-]:focus::-webkit-input-placeholder { color: transparent; }
+input[class^=input-]:focus::-moz-placeholder { color: transparent; }
+input[class^=input-]:focus:-ms-input-placeholder { color: transparent; }
 .input-email::-webkit-input-placeholder { color: rgba(67,67,67,.99); text-transform: uppercase; }
 .input-email::-moz-placeholder { color: rgba(67,67,67,.99); text-transform: uppercase; }
 .input-email:-ms-input-placeholder { color: rgba(67,67,67,.99); text-transform: uppercase; }

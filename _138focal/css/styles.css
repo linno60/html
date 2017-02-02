@@ -107,11 +107,12 @@ body > div > section:not(.about), .about > .lwrap > article, footer{
 .header-wrap{
     background: url("/images/header.png") center / cover no-repeat;
     text-align: center;
+    min-height: 1000rem;
 }
 .slider-header{
-    padding: 502rem 30px 10px 30px;
-    min-height: 1000rem;
+    padding: 10px 30px;
     position: relative;
+    min-height: 508rem;
 }
 .slider-header h1{
     border-top: 2px solid white;

@@ -61,7 +61,7 @@ body, body a{
     align-items: center;
     background: linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)) left 22rem / 100rem 1rem no-repeat, 
         linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)) right 22rem / 100rem 1rem no-repeat;
-    margin-bottom: 18rem;
+    margin: 4rem 0 18rem;
     width: 100%;
 }
 .list-history label time{

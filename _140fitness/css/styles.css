@@ -27,21 +27,24 @@ i[class^=icon-]{
 
 /*HEADER*/
 header{
-    background: linear-gradient(177.5deg, transparent 50%, rgba(253, 99, 78, .3) 50%) center bottom / 100% 137rem no-repeat, url("/images/headerbg.png") center / cover no-repeat;
-    min-height: 891rem;  
+    padding-top: 29rem;
+    background: linear-gradient(177.5deg, transparent 50%, rgba(253, 99, 78, .3) 50%) center bottom / 100% 137rem no-repeat, url("/images/headerbg.png") center / cover no-repeat;           
 }
 header > .lwrap{
     max-width: 1514px;
-    padding: 39rem 10px 10px;
+    padding: 10px;   
 }
-header section{
-    min-height: 641rem;
+.header{
+    min-height: 789rem;
+    max-width: 1372px;
+    width: 100%;
+    margin: 0 auto;
 }
 header hgroup{      
     text-transform: uppercase;
     color: white;
-    text-align: right;
-    max-width: 417px;
+    text-align: right; 
+    min-height: 201rem;
 }
 header hgroup h1{
     font-family: AvenirNextRoundedStd;
@@ -52,7 +55,7 @@ header hgroup h1{
 header hgroup h5{
     font-size: 15px;
     font-weight: 700;
-    max-width: 367px;
+    max-width: 304px;
     letter-spacing: 0.2em;
 }
 header hgroup h1 mark{

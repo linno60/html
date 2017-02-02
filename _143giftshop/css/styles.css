@@ -31,7 +31,7 @@ header .links-nav{
     background: #f0626e;
     flex-grow: 1;
 }
-.form-search .input-search{   
+.form-search .input-wrap{   
     flex-basis: 80%;
 }
 .form-search > button{
@@ -63,7 +63,7 @@ header .links-nav{
 }
 .title-sub{
     background: rgba(239,89,102,.88);
-padding: 10rem;    
+    padding: 10rem;    
 }
 .title h2, .title h3, .title-sub{
     font-family: Aparajita;

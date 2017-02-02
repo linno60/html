@@ -21,8 +21,8 @@
     </head>
     <body data-flex="col">
         <div>
-            <header data-flex="col -center">
-                <section class="header">
+            <header data-flex="col">
+                <section class="header" data-flex="-end">
                     <nav class="links-nav lwrap" data-flex="around w">
                         <a href="#" class="active">about</a>
                         <a href="#">disco&shy;graphy</a>
@@ -34,13 +34,17 @@
                         <a href="#">con&shy;tact</a>   
                     </nav>
                 </section>
-                <a href="/" title="Return to the homepage" id="logo" class="lwrap">
-                    <img src="/images/logo.png" width="428" height="397" alt="Musician">
-                </a>
+                <section class="logo-wrap" data-flex="col -center around">
+                    <div class="lwrap">
+                        <a href="/" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="428" height="397" alt="Musician">
+                        </a> 
+                    </div>
+                </section>
             </header>
             <section class="discography" data-flex="col -center">
                 <div class="lwrap">
-                    <hgroup>
+                    <hgroup data-flex="col -center">
                         <h2 class="hdr">discography</h2>
                         <h6>September 4 world heard Night Visions, the first full album. He reached the 2 position in the chart Billboard 200. The single «It's Time» took 22 th place in the Billboard Hot 100, 4th in the Billboard Alternative and Billboard Rock, and now went platinum.</h6>
                     </hgroup>
@@ -80,17 +84,21 @@
                 </div> 
             </section>
             <section class="tours">
-                <div class="lwrap">
-                    <hgroup data-flex="col -center">
-                        <h2 class="hdr">concert tours</h2>
-                        <h6>Before the release of Night Visions, Imagine Dragons made appearances on American radio and television to promote their extended play, Continued Silence and debut single It's Time. The band performed "It's Time" on the July 16, 2012 airing of NBC late-night talk show The Tonight Show with Jay Leno"</h6>
-                    </hgroup>
-                    <article>
-                        <h3 class="title"><time>03.08.2015</time><hr>smoke + mirrors tour</h3>
-                        <h4>2015-present</h4>
-                        <p>At Lollapalooza in Sao Paulo, Brazil, the last date on the Into the Night Tour, the band announced a rest, and complemented saying, "This is our last show for a while, and had no better place to end this tour".[51] The conclusion of the Into the Night Tour signaled the end of the Night Visions album cycle. Lead singer Dan Reynolds joked about the end of the Night Visions cycle, saying that "We're always writing on the road, [so] that second album will come, unless we die. </p>
-                        <a href="#" class="btn btn-default">By online<i class="icon-btnar"></i></a>
-                    </article>
+                <div class="lwrap" data-flex="col">
+                    <div class="hdr-wrap" data-flex="col center -center">
+                        <hgroup data-flex="col -center">
+                            <h2 class="hdr">concert tours</h2>
+                            <h6>Before the release of Night Visions, Imagine Dragons made appearances on American radio and television to promote their extended play, Continued Silence and debut single It's Time. The band performed "It's Time" on the July 16, 2012 airing of NBC late-night talk show The Tonight Show with Jay Leno"</h6>
+                        </hgroup> 
+                    </div>
+                    <div class="articles" data-flex="col center">
+                        <article>
+                            <h3 class="title"><time>03.08.2015</time><hr>smoke + mirrors tour</h3>
+                            <h4>2015-present</h4>
+                            <p>At Lollapalooza in Sao Paulo, Brazil, the last date on the Into the Night Tour, the band announced a rest, and complemented saying, "This is our last show for a while, and had no better place to end this tour".[51] The conclusion of the Into the Night Tour signaled the end of the Night Visions album cycle. Lead singer Dan Reynolds joked about the end of the Night Visions cycle, saying that "We're always writing on the road, [so] that second album will come, unless we die. </p>
+                            <a href="#" class="btn btn-default">By online<i class="icon-btnar"></i></a>
+                        </article>
+                    </div>
                 </div>
             </section>
             <section class="compositions">
@@ -255,8 +263,8 @@
                     </article>
                 </div>
             </section>
-            <section class="upcoming">
-                <div class="lwrap" data-flex='stripe' data-flex-640="vstripe">
+            <section class="upcoming" data-flex="col -center">
+                <div class="lwrap" data-flex='axis' data-flex-640="vstripe">
                     <div></div>
                     <section>
                         <hgroup>
@@ -280,11 +288,13 @@
                     </section>
                 </div>
             </section>
-            <section class="history">
-                <hgroup data-flex="col -center">
-                    <h2 class="hdr">history</h2>
-                    <h6>In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University where they were both students.Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music</h6>
-                </hgroup>
+            <section class="history" data-flex="col -center">
+                <div class="hdr-wrap" data-flex="center">
+                    <hgroup data-flex="col center -center">
+                        <h2 class="hdr">history</h2>
+                        <h6>In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University where they were both students.Tolman recruited longtime high school friend Daniel Wayne "Wing" Sermon, who had graduated from Berklee College of Music</h6>
+                    </hgroup>
+                </div>
                 <ul class='list-history' data-flex='around' data-childs='col -center' data-flex-480="col" data-childs-480="-center">
                     <li>
                         <input type='checkbox' id='h1'>
@@ -314,8 +324,8 @@
                 </ul>
             </section>
         </div>
-        <footer>
-            <div class="lwrap" data-flex='stripe' data-flex-640="vstripe">
+        <footer data-flex="col">
+            <div class="lwrap" data-flex='axis' data-flex-640="vstripe">
                 <div></div>
                 <section>
                     <hgroup>

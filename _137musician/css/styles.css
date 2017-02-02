@@ -4,6 +4,7 @@ body{
 body > div{
     flex-shrink: 0;
     flex-grow: 1;
+    overflow: hidden;
 }
 .lwrap{
     padding: 0 10px;
@@ -50,19 +51,24 @@ h4{
 /*HEADER*/
 header{
     background: url("/images/headerbg.png")center / cover no-repeat;
-    min-height: 1062rem;
 }
 .header{
     background: rgba(0,8,12,.1);
-    width: 100%;
-    margin-bottom: 157rem;
+    min-height: 62px;
 }
 .header > .lwrap{
+    width: 100%;
     max-width: 1264px;
-    padding: 18rem 10px 6rem 10px;
+    padding: 6rem 10px;
 }
-#logo{
-    max-width: 69%;
+.logo-wrap{
+    min-height: 1000rem;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+.logo-wrap:after{
+    content: "";
+    display: inline-block;
 }
 
 /*DISCOGRAPHY*/
@@ -116,16 +122,14 @@ header{
 }
 
 /*TOURS*/
-.tours hgroup{
-    min-height: 637rem;  
-}
 .tours > .lwrap{
-    max-width: 1228px;
+    max-width: 1228px;    
+}
+.tours .hdr-wrap{
+    min-height: 514rem;
 }
 .tours{
-    background: url("/images/concertbg.png")center bottom / 100% auto repeat-x;
-    min-height: 1418rem;
-    padding-top: 151rem;
+    background: url("/images/concertbg.png")center bottom / 100% auto repeat-x;    
 }
 .tours .btn-default{
     margin-bottom: 5px;
@@ -142,6 +146,11 @@ header{
 }
 .tours p{
     margin-bottom: 35rem;
+}
+.tours .articles{
+    width: 100%;
+    min-height: 904rem;
+    padding-top: 31rem;
 }
 
 /*COMPOSITIONS*/
@@ -234,7 +243,7 @@ header{
 }
 .slider > ul{
     max-width: 1000px;
-    width: 90%;
+    width: 89.6%;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -281,7 +290,7 @@ header{
     66.666%, 91.869%  { margin-left: -200%; }  
 }
 .slider > #play:checked ~ ul > li:not(:first-child) {
-        animation: slide 12300ms infinite;	
+    animation: slide 12300ms infinite;	
 }
 /* IE 10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -422,10 +431,12 @@ header{
 }
 
 /*UPCOMING*/
-.upcoming{
-    min-height: 1203rem;
-    padding-top: 200rem;
+.upcoming{   
     background: url("/images/upcomingbg.png")center / cover no-repeat;
+}
+.upcoming > .lwrap{
+    padding: 22rem 10px 10px;
+    min-height: 1203rem;
 }
 .upcoming hgroup, footer hgroup{
     max-width: 500px;
@@ -458,19 +469,25 @@ header{
 /*HISTORY*/
 .history{
     min-height: 1250rem;
-    padding-top: 146rem;
     background: url("/images/historybg.png")center / cover no-repeat;
 }
 .history hgroup{    
-    min-height: 362rem;
+    min-height: 504rem;
+    width: 100%;
+}
+.history .list-history{
+    width: 100%;
 }
 
 /*FOOTER*/
 footer{
-    flex-shrink: 0;
-    min-height: 981rem;
-    padding-top: 256rem;
+    flex-shrink: 0;    
     background: url("/images/contactbg.png")center / cover no-repeat;
+}
+footer > .lwrap{
+    width: 100%;
+    min-height: 981rem;
+    padding: 10px;
 }
 footer > .lwrap > section{
     width: 50.35%;

@@ -50,21 +50,23 @@ p{
 }
 
 /*HEADER*/
-header{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/images/headerbg.png")center / cover no-repeat;
-    min-height: 700rem;
+#logo{
+    margin: 0 0 4rem 27rem;
 }
-.header{
-    min-height: 271rem;
-    padding-top: 44rem;
+header{
+    padding: 10px 0;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/images/headerbg.png")center / cover no-repeat;
+}
+.header > .lwrap{
+    width: 100%;
     max-width: 1000px;
 }
-#logo{
-    margin-left: 27rem;
+.header{    
+    min-height: 99rem;
 }
 .hdr-group{
     text-align: center;
-    padding-bottom: 10px;
+    min-height: 581rem;
 }
 .hdr-group *{
     color: white;  
@@ -75,7 +77,7 @@ header{
     font-size: 40rem;
     font-style: italic;
     font-weight: normal;
-    margin-bottom: 24rem;    
+    margin: 12rem 0 24rem;    
 }
 .hdr-group h1{  
     font-size: 75rem;

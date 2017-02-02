@@ -16,31 +16,31 @@
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
-            }
+            };
         </script>
     </head>
     <body data-flex="col">
         <div>
             <header>
-                <div class="lwrap">
-                    <section class="header">
-                        <div data-flex="axis">
-                            <a href="/" title="Return to the homepage" id="logo">
-                                <img src="/images/logo.png" width="151" height="47" alt="Fitness">
-                            </a>
-                            <nav class="links-nav" data-flex="end w">
-                                <a href="#">about</a>
-                                <a href="#">how it works</a>
-                                <a href="#">services</a>
-                                <a href="#">faq</a>
-                                <a href="#">contact</a>
-                            </nav>
-                        </div>
+                <div class="lwrap" data-flex="col">
+                    <section data-flex="axis">
+                        <a href="/" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="151" height="47" alt="Fitness">
+                        </a>
+                        <nav class="links-nav" data-flex="end w">
+                            <a href="#">about</a>
+                            <a href="#">how it works</a>
+                            <a href="#">services</a>
+                            <a href="#">faq</a>
+                            <a href="#">contact</a>
+                        </nav>
                     </section>
-                    <hgroup>
-                        <h1>fitness in a can<mark>/</mark></h1>
-                        <h5>yes you can<mark>/</mark></h5>
-                    </hgroup>
+                    <section class="header" data-flex="col end -start">
+                        <hgroup>
+                            <h1>fitness in a can<mark>/</mark></h1>
+                            <h5>yes you can<mark>/</mark></h5>
+                        </hgroup>
+                    </section>
                 </div>
             </header>
             <main>

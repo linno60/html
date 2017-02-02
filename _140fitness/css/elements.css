@@ -12,6 +12,7 @@ body{
     text-align: right;
     font-size: 13px;
     letter-spacing: 0.05em;
+    display: inline-block;
 }
 .links-nav a:active, .links-nav a:hover, .links-nav a:focus{
     text-decoration: underline;
