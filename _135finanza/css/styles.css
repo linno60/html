@@ -113,16 +113,21 @@ header{
 }
 
 /*ABOUT*/
-.about{
-    background: url("/images/bg.png") center / cover;
+.about{    
+    background: url("/images/bg.png") center / cover;    
+    padding: 53rem 0;
 }
-.about > .lwrap{
+.about > div{
+    min-height: 366rem;
+}
+.about .lwrap{
     max-width: 1192px;
-    padding: 151rem 10px 109rem 10px;
+    width: 100%;    
 }
 .about-item{
     text-align: center;
     width: 20%;
+    margin-top: 42rem;
 }
 .about-item big{
     color: #889eba;
@@ -140,6 +145,7 @@ header{
     vertical-align: middle;
     width: 100%;
     line-height: 24rem;
+    display: inline-block;
 }
 
 /*TESTIMONIAL*/

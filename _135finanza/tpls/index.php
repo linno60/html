@@ -57,34 +57,36 @@
                     </div>
                 </section>
             </header>
-            <section class="about">
-                <div class="lwrap" data-flex='stripe w'>
-                    <div class='about-item'>
-                        <big>23000</big>
-                        <hr class='hr-h'>
-                        <div data-flex='center -center'>
-                            <span>happy clients</span>
+            <section class="about" data-flex="col">
+                <div data-flex="-center">
+                    <div class="lwrap" data-flex='stripe w' data-childs="col">
+                        <div class='about-item'>
+                            <big>23000</big>
+                            <hr class='hr-h'>
+                            <div data-flex='center -center'>
+                                <span>happy clients</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class='about-item'>
-                        <big>934</big>
-                        <hr class='hr-h'>
-                        <div data-flex='center -center'>
-                            <span>branches around the worl</span>
+                        <div class='about-item'>
+                            <big>934</big>
+                            <hr class='hr-h'>
+                            <div data-flex='center -center'>
+                                <span>branches around the worl</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class='about-item'>
-                        <big>1.4</big>
-                        <hr class='hr-h'>
-                        <div data-flex='center -center'>
-                            <span>billion dollars managed</span>
+                        <div class='about-item'>
+                            <big>1.4</big>
+                            <hr class='hr-h'>
+                            <div data-flex='center -center'>
+                                <span>billion dollars managed</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class='about-item'>
-                        <big>6000</big>
-                        <hr class='hr-h'>
-                        <div data-flex='center -center'>
-                            <span>cups of coffee</span>
+                        <div class='about-item'>
+                            <big>6000</big>
+                            <hr class='hr-h'>
+                            <div data-flex='center -center'>
+                                <span>cups of coffee</span>
+                            </div>
                         </div>
                     </div>
                 </div>

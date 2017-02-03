@@ -18,12 +18,12 @@
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
-            }
+            };
         </script>
     </head>
     <body>
-        <header>
-            <div class="nav">
+        <header data-flex="col">
+            <section class="nav">
                 <div class="lwrap" data-flex="axis" data-flex-480="axis w">
                     <a href="/" title="Return to the homepage" id="logo">
                         <img src="/images/logo.png" width="140" height="44" alt="Gustoso">
@@ -41,14 +41,16 @@
                         <a href="#"><i class="icon-inst"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="header lwrap" data-flex="col around -center" data-childs='center -center'>
-                <h1><span>P</span>astry with love</h1>
-                <hr>
-                <p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
-                <a href="#" class="btn btn-header">our menu</a>
-                <span class="lbl lbl-sm"><i class="icon-broad"></i></span>
-            </div>
+            </section>
+            <section class="header" data-flex="-center">
+                <div class="lwrap" data-flex="col -center" data-childs='-center'>
+                    <h1><span>P</span>astry with love</h1>
+                    <hr>
+                    <div><p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p></div>
+                    <a href="#" class="btn btn-header">our menu</a>
+                    <span class="lbl lbl-sm"><i class="icon-broad"></i></span>
+                </div>
+            </section>
         </header>
         <section class="cakes">
             <div class="lwrap" data-flex="axis w" data-flex-640='vstripe'>
@@ -220,7 +222,7 @@
             $(document).ready(function () {
                 var owl = $("#owl-demo");
                 owl.owlCarousel({
-                    items : 3
+                    items: 3
                 });
                 $(".next").click(function () {
                     owl.trigger('owl.next');

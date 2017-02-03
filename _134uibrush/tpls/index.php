@@ -21,27 +21,29 @@
     </head>
     <body data-flex="col">
         <div>
-            <header>
-                <div class="lwrap" data-flex="between -end">
-                    <a href="/" title="Return to the homepage" id="logo">
-                        <img src="/images/logo.png" width="116" height="23" alt="UI Brush">
-                    </a>
-                    <nav class="links-nav" data-flex="end w" data-childs="center -center">
-                        <a href="#" class="active">ho­me</a>
-                        <a href="#">ab­out us</a>
-                        <a href="#">tes­timo­nial</a>
-                        <a href="#">pri­cing</a>
-                        <a href="#">con­tact us</a>
-                    </nav>
-                </div>
+            <header data-flex="col">
+                <section>
+                    <div class="lwrap" data-flex="between -end">
+                        <a href="/" title="Return to the homepage" id="logo">
+                            <img src="/images/logo.png" width="116" height="23" alt="UI Brush">
+                        </a>
+                        <nav class="links-nav" data-flex="end w" data-childs="center -center">
+                            <a href="#" class="active">ho­me</a>
+                            <a href="#">ab­out us</a>
+                            <a href="#">tes­timo­nial</a>
+                            <a href="#">pri­cing</a>
+                            <a href="#">con­tact us</a>
+                        </nav>
+                    </div>
+                </section>
+                <section class="banner" data-flex="-center">
+                    <div class="lwrap">
+                        <h1>lorem ipsum dolor sit amet</h1>
+                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn btn-default lg">download</a>
+                    </div>
+                </section>
             </header>
-            <section class="banner">
-                <div class="lwrap">
-                    <h1>lorem ipsum dolor sit amet</h1>
-                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" class="btn btn-default lg">download</a>
-                </div>
-            </section>
             <section class="about lwrap">
                 <h2 class="hdr">about us</h2>
                 <article class="clearfix">

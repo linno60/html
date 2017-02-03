@@ -25,16 +25,17 @@ figure > img:only-of-type, a > img:only-of-type, figure > iframe{
 .banner{
     background: url("/images/bgheader.png") -20px 38px;
     text-align: center;
+    min-height: 500rem;
 }
 .banner > .lwrap{
-    padding: 194rem 10px 144rem 10px;
+    padding: 10px;
 }
 .banner h1{
     color: white;
     font-size: 36rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 13rem;
+    margin: 50rem 0 13rem;
     letter-spacing: 0.01em;
 }
 .banner p{

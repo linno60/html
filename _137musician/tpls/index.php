@@ -102,11 +102,13 @@
                 </div>
             </section>
             <section class="compositions">
-                <div class="lwrap">
-                    <hgroup data-flex="col -center">
-                        <h2 class="hdr">latter compositions</h2>
-                        <h6>"It's Time" was released as the lead single from Continued Silence and It's Time, both extended plays preceding Night Visions' release.</h6>
-                    </hgroup>
+                <div class="lwrap" data-flex="col">
+                    <div class="hdr-wrap" data-flex="col center -center">
+                        <hgroup data-flex="col -center">
+                            <h2 class="hdr">latter compositions</h2>
+                            <h6>"It's Time" was released as the lead single from Continued Silence and It's Time, both extended plays preceding Night Visions' release.</h6>
+                        </hgroup>
+                    </div>
                     <div data-childs data-childs-640="vstripe">
                         <div class="song-wrap">
                             <article data-flex="col around">
@@ -263,10 +265,10 @@
                     </article>
                 </div>
             </section>
-            <section class="upcoming" data-flex="col -center">
-                <div class="lwrap" data-flex='axis' data-flex-640="vstripe">
+            <section class="upcoming">
+                <div class="lwrap" data-flex='stripe' data-flex-640="vstripe">
                     <div></div>
-                    <section>
+                    <section data-flex="col center">
                         <hgroup>
                             <h2 class="hdr" data-flex="col -start">upcoming events</h2>
                         </hgroup>

@@ -30,6 +30,9 @@ header{
     background: radial-gradient(circle 457px at center, rgba(86,79,76,.71), transparent), url("/images/header.png")center center;
     background-size: cover;
 }
+header .lwrap{
+    max-width: 1302px
+}
 .nav .links-nav{
     width: 63.36%;
 }
@@ -37,8 +40,7 @@ header{
     background: rgba(86, 83, 76, 0.53);
 }
 .nav > .lwrap{
-    padding: 12.5rem 10px;
-    max-width: 1302px
+    padding: 12.5rem 10px;    
 }
 .nav .links-social{
     padding-left: 33rem;
@@ -47,8 +49,9 @@ header{
     margin: 0 7rem;
 }
 .header{
+    min-height: 830px;
     text-align: center;
-    padding: 150rem 10px 214rem 10px;
+    padding: 0 10px 64rem 10px;
     position: relative;
 }
 .header hr{
@@ -68,20 +71,21 @@ header{
     font-weight: 700;
     min-height: 204rem;
     letter-spacing: 0.03em;
-    display: flex;
 }
 .header h1 span{
     font-size: 98rem;
+}
+.header hr + div{
+    min-height: 176rem;
 }
 .header p{  
     font-family: ProximaNova;
     font-size: 24rem;
     line-height: 36rem;
-    max-width: 560px;
-    min-height: 176rem;
+    max-width: 560px; 
     margin-bottom: 10rem;
     letter-spacing: 0.1em;
-    display: inline-flex;
+    display: inline-block;
 }
 .header .lbl-sm{
     position: absolute;
