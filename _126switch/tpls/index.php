@@ -16,34 +16,36 @@
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
             window.onresize = function () {
                 document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
-            }
+            };
         </script>
     </head>
     <body data-flex="col">        
         <div>
             <header>
-                <div class="lwrap" data-flex="vaxis">
-                    <div class="navigation" data-flex="between -start" data-flex-480="vstripe">
-                        <nav class="links-nav" data-flex="w" data-flex-480="around w">
-                            <a href="#" class="active">Home</a>
-                            <a href="#">What we do?</a>
-                            <a href="#">Testimonial</a>
-                            <a href="#">Contact Us</a>
-                        </nav>
-                        <div data-flex="center">
-                            <a href="/" title="Return to the homepage" id="logo">
-                                <img src="/images/logo.png" width="62" height="19" alt="Switch">
-                            </a> 
-                        </div>           
-                        <form action="#" method="post" data-flex="end" data-flex-480="center">
-                            <input type="search" placeholder="Search...">
-                        </form>
+                <div class="lwrap" data-flex="col">
+                    <div class="header" data-flex="vaxis">
+                        <div class="navigation" data-flex="between -start" data-flex-480="vstripe">
+                            <nav class="links-nav" data-flex="w" data-flex-480="around w">
+                                <a href="#" class="active">Home</a>
+                                <a href="#">What we do?</a>
+                                <a href="#">Testimonial</a>
+                                <a href="#">Contact Us</a>
+                            </nav>
+                            <div data-flex="center">
+                                <a href="/" title="Return to the homepage" id="logo">
+                                    <img src="/images/logo.png" width="62" height="19" alt="Switch">
+                                </a> 
+                            </div>           
+                            <form action="#" method="post" data-flex="end" data-flex-480="center">
+                                <input type="search" placeholder="Search...">
+                            </form>
+                        </div>
+                        <div data-flex="col -center">
+                            <h1>Art is Eternal Happiness</h1>
+                            <a href="#" class="btn btn-default lg">work with us</a>
+                        </div>
+                        <a href="#top" class="btn btn-scroll">scroll down</a>
                     </div>
-                    <div class="hdr-group" data-flex="col center -center">
-                        <h1>Art is Eternal Happiness</h1>
-                        <a href="#" class="btn btn-default lg">work with us</a>
-                    </div>
-                    <a href="#top" class="btn btn-scroll">scroll down</a>
                 </div>
             </header>            
             <section class="about">

@@ -44,9 +44,6 @@ header form{
     margin: 6px;
     display: inline-block;
 }
-.hdr-group{
-    flex-basis: 585rem;
-}
 .navigation{
     width: 100%;
 }
@@ -54,7 +51,7 @@ header form{
     flex-grow: 1;
     flex-basis: 33.33%
 }
-.hdr-group h1{
+.header h1{
     letter-spacing: 0.005em;
     color: white;
     font-family: Montserrat;
@@ -63,8 +60,9 @@ header form{
     text-align: center;
     margin: 22rem 0px 27rem 0px;
 }
-header > .lwrap{
+.header{
     padding-bottom: 12rem; 
+    min-height: 659rem;
 }
 
 /*ABOUT*/
@@ -421,7 +419,7 @@ footer > .lwrap hgroup h4{
     .works .tabs .tabpanel figure.hidden {display: none;}
     footer > .lwrap > div:first-child{width: 100%;}
     footer > .lwrap > div{width: 48%;}
-    .hdr-group h1{font-size: 31px;}
+    .header h1{font-size: 31px;}
 }
 @media screen and (max-width: 480px) {
     .works .tabs .tabpanel figure {width: 48%;}
