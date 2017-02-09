@@ -38,14 +38,39 @@
                         <div class="links-menu" data-flex="end w" data-childs="center -center">
                             <a href="#">register</a>
                             <a href="#">sign in</a>
-                            <a href="#">whislost</a>
-                            <a href="#">cart</a>
+                            <a href="#" class="drop">whislost<i class="icon-box"></i></a>
+                            <a href="#" class="drop">cart<i class="icon-cart"></i></a>
                         </div>
                     </div>
                 </section>
                 <nav class="links-nav" data-flex="center w" data-childs="center -center">
                     <a href="#">art</a>
-                    <a href="#" class="active">home &amp; living</a>
+                    <div class="active">
+                        <a href="#">home &amp; living</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <figure><img src="/images/horse.png" width="76" height="76" alt=""></figure> 
+                                    <h6><a href="#">item name here</a></h6>
+                                    <p>Lorem Ipsum is simply dummy text of the</p>
+                                    <a href="#" class="btn btn-default sm">more detail</a>
+                                </li>
+                                <li>
+                                    <figure><img src="/images/horse.png" width="76" height="76" alt=""></figure> 
+                                    <h6><a href="#">item name here</a></h6>
+                                    <p>Lorem Ipsum is simply dummy text of the</p>
+                                    <a href="#" class="btn btn-default sm">more detail</a>
+                                </li>
+                                <li>
+                                    <figure><img src="/images/horse.png" width="76" height="76" alt=""></figure> 
+                                    <h6><a href="#">item name here</a></h6>
+                                    <p>Lorem Ipsum is simply dummy text of the</p>
+                                    <a href="#" class="btn btn-default sm">more detail</a>
+                                </li>
+                            </ul>
+                            <a href="#">see all items</a>
+                        </div>
+                    </div>
                     <a href="#">jewelry</a>
                     <a href="#">women</a>
                     <a href="#">men</a>
@@ -80,9 +105,12 @@
                             </figure>
                             <figure>
                                 <img src="/images/kids.png" width="494" height="245" alt="">
-                                <figcaption>
-
-                                </figcaption>
+                                <div data-flex="end">
+                                    <span class="lbl lbl-default lg">baby shop</span>
+                                    <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                    <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                    <span class="lbl lbl-price lg">$99.00</span>
+                                </div>
                             </figure>
                         </div>
                     </div>
@@ -96,34 +124,287 @@
                                 <button><i class="icon-search"></i></button>
                             </form>
                             <figure>
-                                <img src="/images/Layer-34.png" width="670" height="335" alt="">
-                                <figcaption>
-
-                                </figcaption>
+                                <img src="/images/bijou.png" width="670" height="335" alt="">
+                                <div data-flex="end">
+                                    <figcaption class="title">crafts</figcaption>
+                                    <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                    <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                    <span class="lbl lbl-price lg">$99.00</span>
+                                </div>
                             </figure>
                         </div>
                         <figure>
                             <img src="/images/jewelry.png" width="494" height="510" alt="">
-                            <figcaption>
-
-                            </figcaption>
+                            <div>
+                                <figcaption class="title side" data-flex="axis"><span>jewelry</span><a href="#" class="btn btn-open"></a></figcaption>
+                            </div>
                         </figure>
                     </div>
                 </section>
-                <section>
-                    <h2 class="hdr"><span>new products</span></h2>
+                <section class="new-products">
+                    <h2 class="hdr" data-flex="between -end">
+                        <span>new products</span>
+                        <div class="btns" data-flex="end">
+                            <a class="btn btn-thumb prev" id="thumb1"></a>
+                            <a class="btn btn-thumb next" id="thumb2"></a>
+                        </div>
+                    </h2>
+                    <div class="carousel" id="carousel-1">
+                        <ul>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new1.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new2.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new3.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new1.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new2.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new3.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <figure>
+                                        <img data-src="/images/new1.png" src="" width="370" height="200" alt="">
+                                        <figcaption data-flex>
+                                            <span class="lbl lbl-default lg">baby shop</span>
+                                            <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
+                                            <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                            <span class="lbl lbl-price lg">$99.00</span>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
-                <section>
-                    <h2 class="hdr"><span>featured products</span></h2>
+                <section class="featured">
+                    <h2 class="hdr" data-flex="between -end">
+                        <span>featured products</span>
+                        <div class="btns" data-flex="end">
+                            <a class="btn btn-thumb prev" id="thumb3"></a>
+                            <a class="btn btn-thumb next" id="thumb4"></a>
+                        </div>
+                    </h2>
+                    <div class="carousel" id="carousel-2">
+                        <ul>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl1.png" src="" width="270" height="400" alt="">
+                                        <span class="lbl lbl-default sm discount">20% off</span>
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md discount">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl2.png" src="" width="270" height="400" alt="">
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md discount">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl3.png" src="" width="270" height="400" alt="">
+                                        <span class="lbl lbl-default sm new">new</span>
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md new">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl4.png" src="" width="270" height="400" alt="">
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md discount">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl1.png" src="" width="270" height="400" alt="">
+                                        <span class="lbl lbl-default sm discount">20% off</span>
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md discount">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl2.png" src="" width="270" height="400" alt="">
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md discount">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="featured-item">
+                                    <figure>
+                                        <img data-src="/images/girl3.png" src="" width="270" height="400" alt="">
+                                        <span class="lbl lbl-default sm new">new</span>
+                                        <figcaption>
+                                            <hgroup>
+                                                <h5><a href="#">Product Title here</a></h5>
+                                                <h6>Short Description here</h6>
+                                            </hgroup>
+                                            <div class="btns" data-flex="stripe">
+                                                <a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-boxsm"></i></a>
+                                                <a href="#" class="btn btn-simple"><i class="icon-cartsm"></i></a>
+                                                <span class="lbl lbl-price md new">$99.00</span>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
                 <section class="about">
                     <h2 class="hdr"><span>who we are</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <article>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </article>
                     <div data-flex="col -center">
                         <div class="steps" data-flex="stripe w" data-childs="around -center">
                             <div>
                                 <i class="icon-stepchose"></i>
-                                <span>choose products</span>
+                                <span>chose products</span>
                             </div>
                             <div>
                                 <i class="icon-stepregister"></i>
@@ -195,16 +476,33 @@
                 </div>
             </footer>
         </div>
+        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+        <script src="/js/tabs-accordions.js"></script>
+        <script src="/js/index.js"></script>
+        <script src="/js/jquery/plugins/jquery.anoslide.js"></script>
+        <script>
+            $('#carousel-1 ul').anoSlide({
+                items: 3,
+                speed: 500,
+                prev: '#thumb1',
+                next: '#thumb2',
+                lazy: true
+            });
+            $('#carousel-2 ul').anoSlide({
+                items: 4,
+                speed: 500,
+                prev: '#thumb3',
+                next: '#thumb4',
+                lazy: true
+            });
+        </script>
         <script>
             document.getElementById('input-search').onblur = function () {
                 var placeholder = document.getElementById('label-placeholder');
                 var placeholderChild = document.getElementById('placeholder-child');
                 this.value === '' ? placeholder.style.color = '#424242' : placeholder.style.color = 'transparent';
-                this.value === '' ? placeholderChild.style.color = '#c2c2c2;' : placeholderChild.style.color = 'transparent';
+                this.value === '' ? placeholderChild.style.color = '#c2c2c2' : placeholderChild.style.color = 'transparent';
             };
         </script>
-        <script src="/js/jquery/jquery-2.1.4.min.js"></script>
-        <script src="/js/tabs-accordions.js"></script>
-        <script src="/js/index.js"></script>
     </body>
 </html>

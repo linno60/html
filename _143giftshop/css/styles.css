@@ -23,10 +23,58 @@ i[class^=icon-]{
     flex-grow: 1;
 }
 header .links-nav{
-    margin: 13rem 0 15rem 0;
+    margin: 13rem 0 10rem 0;
+}
+.links-nav > *:hover > .dropdown, .dropdown:hover{
+    visibility: visible;
+}
+.dropdown{
+    min-width: 263rem;
+    position: absolute;
+    top: calc(100% + 5rem);
+    z-index: 10;
+    left: 0;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.33);
+    padding: 6rem 18rem 13rem 21rem;
+    visibility: visible;
+    letter-spacing: 0;
+}
+.dropdown li{
+    padding: 17.5rem 0;
+    border-bottom: 1px solid #cacaca;    
+}
+.dropdown ul{
+    margin-bottom: 11rem;
+}
+.dropdown ul ~ a{
+    letter-spacing: 0.08em;
+}
+.dropdown li figure{
+    float: left;
+    margin: 1rem 8rem 0 0;
+}
+.dropdown h6 a:active, .dropdown h6 a:hover, .dropdown h6 a:focus,
+.dropdown ul ~ a:active, .dropdown ul ~ a:hover, .dropdown ul ~ a:focus{
+    text-decoration: underline;
+}
+.dropdown h6{
+    font-weight: 400;
+    margin-bottom: 7rem;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+}
+.dropdown p{
+    color: #454545;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 5rem;
 }
 
 /*SHOWING*/
+.showing{
+    margin-bottom: 26rem;
+}
 .form-search{
     background: #f0626e;
     flex-grow: 1;
@@ -50,16 +98,55 @@ header .links-nav{
 .showing figure{
     position: relative;
 }
-.showing figcaption{
+.showing figure:before, .new-products figure:before{
     position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(rgba(20,34,81,.087),rgba(20,34,81,.087)), linear-gradient(rgba(255,204,0,.022),rgba(255,204,0,.022)), linear-gradient(rgba(39,15,15,.059),rgba(39,15,15,.059));
+}
+.showing figure img ~ *{
+    position: absolute;
+    right: 0;  
+    bottom: 0;
+}
+.showing figure > figcaption{
     left: 0;
     bottom: 5%;  
     max-width: 348px;
 }
+.row > div:last-child > figure > div{
+    bottom: 15%;
+}
 .title{
-    background: rgba(54,42,79,.8);
+    background: rgba(54,42,79,.8);    
+    padding: 9rem;
+    font-size: 30px;
+    min-width: 200rem;
+    text-align: center;
+}
+.title.side{
+    padding: 0;
+    min-width: 300rem;
+    transform: rotate(270deg) translate(100%, 0%);
+    transform-origin: right bottom;
+}
+.title.side span{
+    font-family: Aparajita;
+    font-size: 50px;
+    padding: 13rem 5px 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+.title.side .btn{
+    margin: -10px 10rem -1px 0;
+}
+.showing figcaption .title{
     margin-bottom: 5rem;
     padding: 15rem;
+    text-align: left;
 }
 .title-sub{
     background: rgba(239,89,102,.88);
@@ -68,7 +155,7 @@ header .links-nav{
 .title h2, .title h3, .title-sub{
     font-family: Aparajita;
 }
-.title h2, .title h3, .title-sub, .title h5, .title h6{
+.title h2, .title h3, .title-sub, .title h5, .title h6, .title{
     font-weight: 400;       
     text-transform: uppercase;
     color: white;
@@ -92,16 +179,120 @@ header .links-nav{
     font-size: 20px;
 }
 
+/*NEW PRODUCTS*/
+.carousel{
+    margin-bottom: 30rem;
+}
+.btns .btn-thumb {
+    width: 70px;
+    height: 79px;
+    cursor: pointer;
+    margin: 0 0 -1px 1px;
+}
+.btn-thumb.prev{
+    background: #3c3c3c url(/images/icons/prev.png) center no-repeat;
+}
+.btn-thumb.next{
+    background: #3c3c3c url(/images/icons/next.png) center no-repeat;
+}
+section:nth-child(even) .btn-thumb.prev:hover, section:nth-child(even) .btn-thumb.prev.disabled{
+    background: #05aecc url(/images/icons/prev.png) center no-repeat;
+}
+section:nth-child(even) .btn-thumb.next:hover, section:nth-child(even) .btn-thumb.next.disabled{
+    background: #05aecc url(/images/icons/next.png) center no-repeat;
+}
+section:nth-child(odd) .btn-thumb.prev:hover, section:nth-child(odd) .btn-thumb.prev.disabled{
+    background: #f0626e url(/images/icons/prev.png) center no-repeat;
+}
+section:nth-child(odd) .btn-thumb.next:hover, section:nth-child(odd) .btn-thumb.next.disabled{
+    background: #f0626e url(/images/icons/next.png) center no-repeat;
+}
+.carousel li {
+    padding: 0 15rem;
+}
+.carousel ul{
+    position: relative;
+    padding: 0;
+    margin: 0 -15rem;
+}
+
+/*FEATURED*/
+#carousel-2 li{
+    padding-bottom: 2px;
+}
+#carousel-2 .featured-item{
+    border: 1px solid #ddd;   
+}
+.btns > *{
+    flex-grow: 1;
+}
+.btns > .btn-simple{
+    border-right: 1px solid #ddd;
+}
+.carousel figure{
+    position: relative;
+}
+.new-products figure:hover:before{
+    background: linear-gradient(rgba(54,42,79,.88),rgba(54,42,79,.88)), linear-gradient(rgba(20,34,81,.087),rgba(20,34,81,.087)), linear-gradient(rgba(255,204,0,.022),rgba(255,204,0,.022)), linear-gradient(rgba(39,15,15,.059),rgba(39,15,15,.059));
+}
+.new-products figure:hover figcaption{
+    visibility: visible;
+}
+.new-products figcaption{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+
+}
+.featured-item .lbl-default{
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+.featured-item figcaption{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+.featured-item hgroup{
+    padding: 10rem;
+    border-bottom: 1px solid #ddd;
+}
+.featured-item hgroup *{
+    font-weight: 400;
+}
+.featured-item figcaption h6{
+    color: #f0626e;
+    font-size: 13px;
+}
+.featured-item figcaption a{
+    color: #434343;
+}
+.featured-item figcaption h5{
+    font-size: 18px;
+}
+.featured-item figcaption a:active, .featured-item figcaption a:hover, .featured-item figcaption a:focus{
+    text-decoration: underline;
+}
+
 /*ABOUT*/
+.about article{
+    padding-left: 28rem;
+}
 .steps{
     width: 100%;
+    padding-top: 38rem;
+}
+.steps i[class^=icon-]{
+    margin: 0px 20rem;
 }
 .steps > div{
-    width: 31%;
-    padding: 20rem;
-    margin-bottom: 20rem;
-    color: white;
-    font-size: 30px;
+    width: 31.7%;
+    padding: 25rem;
+    margin-bottom: 31rem;    
     text-transform: capitalize;
 }
 .steps > div:nth-child(3n+2){
@@ -117,33 +308,36 @@ header .links-nav{
     display: inline-block;
     max-width: 50%;
     flex-grow: 1;
+    color: white;
+    font-size: 30rem;
+    line-height: 30rem;
 }
 
 /*FOOTER*/
 footer{
     border-top: 1px solid #b9b9b9; 
-    padding-top: 30rem;
+    padding: 48rem 0 0 22rem;
     margin-top: 30rem;
+}
+footer form{
+    padding: 2rem 1rem 27rem 0;
 }
 footer h5{
     color: #434343;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 20rem;
+    margin-bottom: 14rem;
 }
 footer h5:first-of-type{
-    margin-bottom: 50rem;  
-}
-footer form{
-    margin-bottom: 20rem;
+    margin-bottom: 39rem;  
 }
 footer > div:not(.copyright){
-    margin-bottom: 10px;
+    margin-bottom: 37rem;
 }
 .copyright{
     width: 100%;
-    padding: 20rem 0;
+    padding: 22.5rem 8rem;
     border-top: 1px solid #b9b9b9; 
     border-bottom: 1px solid #b9b9b9;
     color: #434343;

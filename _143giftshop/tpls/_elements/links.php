@@ -9,8 +9,8 @@
 <div class="links-menu" data-flex="end w" data-childs="center -center">
     <a href="#">register</a>
     <a href="#">sign in</a>
-    <a href="#">whislost</a>
-    <a href="#">cart</a>
+    <a href="#" class="drop">whislost<i class="icon-box"></i></a>
+    <a href="#" class="drop">cart<i class="icon-cart"></i></a>
 </div>
 <nav class="links-nav" data-flex="center w" data-childs="center -center">
     <a href="#">art</a>
