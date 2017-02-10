@@ -14,8 +14,9 @@ body{
 .links-topbar a{
     color: #434343;
     text-align: right;
-    margin: -1rem -2rem 9rem 28rem;
-    letter-spacing: 0.11em;
+    margin: 0 -2rem 3px 28rem;
+    letter-spacing: 0.1em;
+    line-height: 18px;
 }
 .links-topbar a:active, .links-topbar a:hover, .links-topbar a:focus{
     text-decoration: underline;
@@ -26,8 +27,8 @@ body{
 }
 .links-menu a{
     min-width: 116rem;
-    height: 89px;
-    padding: 0 5px;
+    height: 89rem;
+    padding: 0 3px;
     margin-left: 5rem;
     letter-spacing: 0.1em;
 }
@@ -49,17 +50,9 @@ body{
 }
 .links-nav > *{
     padding: 0 25rem;
-    height: 71px;
+    height: 71rem;
     position: relative;
     letter-spacing: 0.092em;
-}
-.links-nav > div:after{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 5rem;
 }
 .links-nav > *.active, .links-nav > *:active, .links-nav > *:hover, .links-nav > *:focus{
     background: white;
@@ -93,12 +86,14 @@ body{
     min-width: 117rem;
     height: 23px;
     font-size: 12px;
+    line-height: 12px;
 }
 .btn-default.md{
     min-width: 377rem;
     height: 51px;
     text-transform: uppercase;
     font-size: 13px;
+    letter-spacing: 0.05em;
 }
 .btn-default.lg{
     min-width: 648rem;
@@ -106,13 +101,13 @@ body{
     font-size: 28px;
 }
 .btn-open{
-    height: 86px;
+    height: 97px;
     width: 86px;
     opacity: 0.99;
     background:
         url(/images/icons/arrowcircle.png)center no-repeat,
-        radial-gradient(circle closest-side, white 30px, transparent 31px),
-        linear-gradient(#f0626e, #f0626e 86px, transparent 86px);
+        radial-gradient(circle closest-side, white 26px, transparent 27px),
+        linear-gradient(#f0626e, #f0626e);
     position: relative;
 }
 .btn-open:after{
@@ -134,12 +129,42 @@ body{
 .btn-cart{
     background: #f0626e url(/images/icons/cart.png) center no-repeat;
 }
+.btn-thumb {
+    width: 70rem;
+    height: 79rem;
+    cursor: pointer;
+    min-height: 30px;
+    min-width: 30px;
+}
+.btn-thumb.prev{
+    background: #3c3c3c url(/images/icons/prev.png) center no-repeat;
+}
+.btn-thumb.next{
+    background: #3c3c3c url(/images/icons/next.png) center no-repeat;
+}
+.btn-thumb.prev:hover{
+    background: #05aecc url(/images/icons/prev.png) center no-repeat;
+}
+.btn-thumb.next:hover{
+    background: #05aecc url(/images/icons/next.png) center no-repeat;
+}
+.btn-simple{
+    background: white;
+    height: 50px;
+    min-width: 50rem;
+}
+button > .btn{
+    width: 100%;
+}
 
 /*LABELS*/
 .lbl-default, .lbl-price{   
     color: white;
     text-transform: capitalize;
     padding: 0px 5px;
+    min-width: 101rem;
+    text-align: center;
+    line-height: 14px;
 }
 .lbl.lg{
     height: 55px;
@@ -154,17 +179,31 @@ body{
 .lbl.sm{
     height: 34px;
     font-size: 14px;
+    min-width: 80rem;
 }
 .lbl.md{
     height: 50px;
 }
-.lbl-default{
-    min-width: 103rem;
+.lbl-default{    
+    letter-spacing: 0.09em;
 }
 .lbl-price{
-    background: rgba(67,67,67,.99);
-    min-width: 85rem;
+    background: rgba(67,67,67,.99);    
     font-size: 24px;
+    white-space: nowrap;
+}
+.lbl.sh{
+    min-width: 85rem;
+}
+.lbl-price sup {
+    font-size: 14px;
+    vertical-align: super;
+}
+.lbl-price small{
+    font-size: 16px;
+}
+.lbl-price > span{
+    padding: 0 5px;
 }
 
 /*FORMS*/
@@ -181,6 +220,8 @@ body{
     top: 50%;
     transform: translateY(-50%);
     cursor: auto;
+    letter-spacing: 0.09em;
+    line-height: 15px;
 }
 .input-wrap .input-search + label > span{
     color: #c2c2c2;
@@ -214,7 +255,7 @@ input[class^=input-]:focus:-ms-input-placeholder { color: transparent; }
 /*OTHER*/
 .hdr{
     color: #00a1be;
-    font-size: 30px;
+    font-size: 30rem;
     font-weight: 400;
     text-transform: capitalize;
     padding-left: 26rem;
@@ -223,7 +264,7 @@ input[class^=input-]:focus:-ms-input-placeholder { color: transparent; }
 }
 .hdr > span{
     display: inline-block;
-    padding: 0 15rem 10rem 3rem;
+    padding: 0 15rem 7rem 3rem;
     box-shadow: 0px 1px 0px 0px #f0626e;
 }
 [data-tooltip] {
@@ -244,8 +285,9 @@ input[class^=input-]:focus:-ms-input-placeholder { color: transparent; }
 [data-tooltip]:before {
     bottom: calc(100% + 2px);
     transform: translateX(-50%);
-    padding: 9.5rem;
-    min-width: 111rem;
+    padding: 5.5rem;
+    width: 50px;
+    min-width: 98rem;
     border-radius: 5px;
     background: white;
     color: #434343;
@@ -255,9 +297,9 @@ input[class^=input-]:focus:-ms-input-placeholder { color: transparent; }
     border: 1px solid;
 }
 [data-tooltip]:after {   
-    bottom: calc(100% - 7px);
-    width: 10px;
-    height: 10px;
+    bottom: calc(100% - 9px);
+    width: 12px;
+    height: 12px;
     transform: rotate(45deg) translateX(-50%);
     border-radius: 20px 0 0 0;
 }

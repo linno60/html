@@ -19,8 +19,17 @@ i[class^=icon-]{
 }
 
 /*HEADER*/
-#logo + div{
-    flex-grow: 1;
+#logo{
+    margin: -12px 1px 1px 0;
+    width: 14.61%;
+    min-width: 99px;
+}
+.links-topbar{
+    width: 100%;
+    padding-left: 171rem;
+}
+.links-menu{
+    width: 83.84%;
 }
 header .links-nav{
     margin: 13rem 0 10rem 0;
@@ -31,21 +40,24 @@ header .links-nav{
 .dropdown{
     min-width: 263rem;
     position: absolute;
-    top: calc(100% + 5rem);
+    top: 100%;
     z-index: 10;
     left: 0;
-    background: rgba(255,255,255,.9);
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.33);
-    padding: 6rem 18rem 13rem 21rem;
-    visibility: visible;
+    padding-top: 5rem;
+    visibility: hidden;
     letter-spacing: 0;
 }
 .dropdown li{
     padding: 17.5rem 0;
     border-bottom: 1px solid #cacaca;    
 }
+.dropdown > div{
+    padding: 6rem 18rem 13rem 21rem;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.33);
+}
 .dropdown ul{
-    margin-bottom: 11rem;
+    margin-bottom: 11rem;    
 }
 .dropdown ul ~ a{
     letter-spacing: 0.08em;
@@ -53,6 +65,7 @@ header .links-nav{
 .dropdown li figure{
     float: left;
     margin: 1rem 8rem 0 0;
+    width: 34%;
 }
 .dropdown h6 a:active, .dropdown h6 a:hover, .dropdown h6 a:focus,
 .dropdown ul ~ a:active, .dropdown ul ~ a:hover, .dropdown ul ~ a:focus{
@@ -75,17 +88,6 @@ header .links-nav{
 .showing{
     margin-bottom: 26rem;
 }
-.form-search{
-    background: #f0626e;
-    flex-grow: 1;
-}
-.form-search .input-wrap{   
-    flex-basis: 80%;
-}
-.form-search > button{
-    flex-shrink: 0;
-    margin-left: 10rem;
-}
 .showing figure, .showing .form-search{
     margin-top: 5rem;
 }
@@ -107,56 +109,85 @@ header .links-nav{
     content: "";
     background: linear-gradient(rgba(20,34,81,.087),rgba(20,34,81,.087)), linear-gradient(rgba(255,204,0,.022),rgba(255,204,0,.022)), linear-gradient(rgba(39,15,15,.059),rgba(39,15,15,.059));
 }
+.showing figure:hover:before{
+    background: linear-gradient(rgba(0,0,0,.59),rgba(0,0,0,.59)), linear-gradient(rgba(20,34,81,.087),rgba(20,34,81,.087)), linear-gradient(rgba(255,204,0,.022),rgba(255,204,0,.022)), linear-gradient(rgba(39,15,15,.059),rgba(39,15,15,.059));
+}
 .showing figure img ~ *{
     position: absolute;
     right: 0;  
-    bottom: 0;
+    bottom: 0;    
 }
-.showing figure > figcaption{
+.showing figure img ~ *, figcaption{
+    max-width: 100%;
+    max-height: 100%;
+}
+.row:first-child figure figcaption{
     left: 0;
-    bottom: 5%;  
+    bottom: 2%;  
+    max-width: 266px;
+}
+.row > figure:first-child figcaption{
     max-width: 348px;
+    bottom: 2.1%;
 }
 .row > div:last-child > figure > div{
-    bottom: 15%;
+    bottom: 11.5%;
+}
+.form-search{
+    background: #f0626e;
+    flex-grow: 1;
+    padding: 5px;
+}
+.form-search .input-wrap{   
+    flex-basis: 73.5%;
+}
+.form-search > input[type=image]{
+    flex-shrink: 0;
+    margin-left: 21rem;
 }
 .title{
     background: rgba(54,42,79,.8);    
     padding: 9rem;
-    font-size: 30px;
+    font-size: 30rem;
     min-width: 200rem;
     text-align: center;
 }
 .title.side{
-    padding: 0;
-    min-width: 300rem;
+    padding: 0 18rem 0 0;
     transform: rotate(270deg) translate(100%, 0%);
     transform-origin: right bottom;
 }
 .title.side span{
     font-family: Aparajita;
-    font-size: 50px;
-    padding: 13rem 5px 5px;
+    font-size: 65rem;
+    line-height: 57rem;
+    padding: 23rem 32rem 6px 23rem;
     text-align: center;
     flex-grow: 1;
+    letter-spacing: -0.005em;
 }
 .title.side .btn{
-    margin: -10px 10rem -1px 0;
+    margin: -10px 0 -1px 0;
+    flex-shrink: 0;
 }
-.showing figcaption .title{
-    margin-bottom: 5rem;
-    padding: 15rem;
+.row figcaption .title{
+    margin-bottom: 2rem;
+    padding: 19rem 17rem 12rem 14rem;
     text-align: left;
+}
+.row > figure:first-child .title{
+    padding: 23rem 15rem 15rem 22rem;
 }
 .title-sub{
     background: rgba(239,89,102,.88);
-    padding: 10rem;    
+    padding: 10rem 10rem 8rem 16rem;
+    font-size: 20px;
+    letter-spacing: 0.025em;    
 }
 .title h2, .title h3, .title-sub{
     font-family: Aparajita;
 }
-.title h2, .title h3, .title-sub, .title h5, .title h6, .title{
-    font-weight: 400;       
+.title h2, .title h3, .title-sub, .title h5, .title h6, .title{      
     text-transform: uppercase;
     color: white;
 }
@@ -165,35 +196,41 @@ header .links-nav{
 }
 .title h2{
     font-size: 58rem;
+    line-height: 35rem;
+    letter-spacing: 0.04em;
 }
 .title h3{
-    font-size: 35px;
+    font-size: 35rem;
+    line-height: 22rem;
+    letter-spacing: 0.035em;
 }
 .title h5{
     font-size: 13px;
+    letter-spacing: 0.025em;
 }
 .title h6{
     font-size: 12px;
 }
-.title-sub{
-    font-size: 20px;
-}
 
-/*NEW PRODUCTS*/
+/*CAROUSEL*/
 .carousel{
-    margin-bottom: 30rem;
+    overflow: hidden;
+    padding-bottom: 2px;
 }
-.btns .btn-thumb {
-    width: 70px;
-    height: 79px;
-    cursor: pointer;
+.carousel ul{
+    position: relative;
+    padding: 0;
+    margin: 0 -15rem;
+    overflow: visible!important;
+}
+.carousel li {
+    padding: 0 15rem;
+}
+.carousel figure{
+    position: relative;
+}
+.btn-thumb {
     margin: 0 0 -1px 1px;
-}
-.btn-thumb.prev{
-    background: #3c3c3c url(/images/icons/prev.png) center no-repeat;
-}
-.btn-thumb.next{
-    background: #3c3c3c url(/images/icons/next.png) center no-repeat;
 }
 section:nth-child(even) .btn-thumb.prev:hover, section:nth-child(even) .btn-thumb.prev.disabled{
     background: #05aecc url(/images/icons/prev.png) center no-repeat;
@@ -207,30 +244,10 @@ section:nth-child(odd) .btn-thumb.prev:hover, section:nth-child(odd) .btn-thumb.
 section:nth-child(odd) .btn-thumb.next:hover, section:nth-child(odd) .btn-thumb.next.disabled{
     background: #f0626e url(/images/icons/next.png) center no-repeat;
 }
-.carousel li {
-    padding: 0 15rem;
-}
-.carousel ul{
-    position: relative;
-    padding: 0;
-    margin: 0 -15rem;
-}
 
-/*FEATURED*/
-#carousel-2 li{
-    padding-bottom: 2px;
-}
-#carousel-2 .featured-item{
-    border: 1px solid #ddd;   
-}
-.btns > *{
-    flex-grow: 1;
-}
-.btns > .btn-simple{
-    border-right: 1px solid #ddd;
-}
-.carousel figure{
-    position: relative;
+/*NEW PRODUCTS*/
+.new-products{
+    margin-bottom: 28rem;
 }
 .new-products figure:hover:before{
     background: linear-gradient(rgba(54,42,79,.88),rgba(54,42,79,.88)), linear-gradient(rgba(20,34,81,.087),rgba(20,34,81,.087)), linear-gradient(rgba(255,204,0,.022),rgba(255,204,0,.022)), linear-gradient(rgba(39,15,15,.059),rgba(39,15,15,.059));
@@ -244,50 +261,85 @@ section:nth-child(odd) .btn-thumb.next:hover, section:nth-child(odd) .btn-thumb.
     top: 50%;
     transform: translate(-50%, -50%);
     visibility: hidden;
-
 }
-.featured-item .lbl-default{
+
+/*FEATURED*/
+.featured{
+    margin-bottom: 33rem;
+}
+.featured .btn-simple{
+    flex-grow: 1;
+}
+.featured .btn-simple:not(:last-of-type){
+    border-right: 2px solid #ddd;
+}
+.featured .carousel{
+    padding-top: 1rem;
+}
+.featured figure{
+    border: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+.featured .lbl-default{
     position: absolute;
     left: 0;
-    top: 5%;
+    top: 3%;
 }
-.featured-item figcaption{
+.featured figcaption{
     position: absolute;
     bottom: 0;
     width: 100%;
     background: white;
 }
-.featured-item hgroup{
-    padding: 10rem;
+.featured hgroup{
+    padding: 12rem 14rem 10rem;
     border-bottom: 1px solid #ddd;
 }
-.featured-item hgroup *{
+.featured hgroup *{
     font-weight: 400;
+    letter-spacing: 0.09em;
 }
-.featured-item figcaption h6{
+.featured figcaption h6{
     color: #f0626e;
     font-size: 13px;
 }
-.featured-item figcaption a{
+.featured .new figcaption h6{
+    color: #05aecc;
+}
+.featured figcaption a{
     color: #434343;
 }
-.featured-item figcaption h5{
+.featured figcaption h5{
     font-size: 18px;
+    line-height: 18px;   
 }
-.featured-item figcaption a:active, .featured-item figcaption a:hover, .featured-item figcaption a:focus{
+.featured figcaption a:active, .featured figcaption a:hover, .featured figcaption a:focus{
     text-decoration: underline;
 }
 
 /*ABOUT*/
 .about article{
-    padding-left: 28rem;
+    padding: 0 25rem 0 28rem;
 }
 .steps{
     width: 100%;
-    padding-top: 38rem;
+    padding-top: 36rem;
 }
 .steps i[class^=icon-]{
-    margin: 0px 20rem;
+    margin: 0px 20rem;    
+    background-size: cover;
+}
+.steps .icon-stepcheck{
+    width: 130rem;
+    height: 182rem;
+}
+.steps .icon-stepchose{
+    width: 144rem;
+    height: 182rem;
+}
+.steps .icon-stepregister{
+    width: 142rem;
+    height: 182rem;
 }
 .steps > div{
     width: 31.7%;
@@ -314,37 +366,66 @@ section:nth-child(odd) .btn-thumb.next:hover, section:nth-child(odd) .btn-thumb.
 }
 
 /*FOOTER*/
-footer{
+.footer{
     border-top: 1px solid #b9b9b9; 
     padding: 48rem 0 0 22rem;
     margin-top: 30rem;
 }
-footer form{
+.footer form{
     padding: 2rem 1rem 27rem 0;
 }
-footer h5{
+.footer h5{
     color: #434343;
-    font-size: 25px;
+    font-size: 25rem;
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 14rem;
+    min-height: 44rem;
 }
-footer h5:first-of-type{
-    margin-bottom: 39rem;  
+.footer h5:first-of-type{
+    min-height: 69rem;  
 }
-footer > div:not(.copyright){
+.footer > div:not(:last-child){
     margin-bottom: 37rem;
+    min-width: 16.8%;
+    max-width: 20.6%;
+}
+.footer > div:last-child{
+    width: 33%;
 }
 .copyright{
     width: 100%;
-    padding: 22.5rem 8rem;
+    padding: 23rem 8rem 24rem 25rem;
     border-top: 1px solid #b9b9b9; 
     border-bottom: 1px solid #b9b9b9;
     color: #434343;
+    font-size: 14px;
 }
 .copyright a{
     color: #f0626e;
 }
 .copyright a:active, .copyright a:hover, .copyright a:focus{
     text-decoration: underline;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    .hdr{font-size: 18px;}
+    .footer h5, .footer h5:first-of-type{font-size: 16px; min-height: 40px;}
+}
+@media screen and (max-width: 640px) {
+    .links-nav > *{height: 28px;}
+    .links-menu a{height: 35px;font-size: 14px;}
+    .row > div:last-child > figure > div, .row > figure:first-child figcaption, .row:first-child figure figcaption{bottom: 0;}
+    .footer > div:not(:last-child), .footer > div:last-child{width: 49%;max-width: 49%;}
+    .btn-default, .btn-box, .btn-cart, .lbl.lg{height: 34px;}
+    .title h2{font-size: 31px;line-height: 18px;}
+    .title h3{font-size: 18.5px; line-height: 11px;}
+    .title{font-size: 16px;}
+    #logo{margin: 0;order: 0;}
+    .links-menu{width: 100%;order: 2;}
+    .links-topbar{width: calc(100% - 99px);order: 1;padding: 0;}
+}
+@media screen and (max-width: 480px) {    
+    .footer > div:last-child{width: 100%;max-width: 100%;}
+    .steps span{font-size: 12px;line-height: 12px;}
 }

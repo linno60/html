@@ -4,3 +4,6 @@
 <a href="#" class="btn btn-open"></a>
 <a href="#" class="btn btn-box"></a>
 <a href="#" class="btn btn-cart"></a>
+<a href="#" class="btn btn-simple"><i class="icon-arrows"></i></a>
+<a class="btn btn-thumb prev"></a>
+<a class="btn btn-thumb next"></a>
