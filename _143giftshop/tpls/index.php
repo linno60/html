@@ -41,9 +41,9 @@
                         <a href="#" class="drop">cart<i class="icon-cart"></i></a>
                     </div>
                 </section>
-                <nav class="links-nav" data-flex="center w" data-childs="center -center">
+                <nav class="links-nav" id="nav" data-flex="center w" data-childs="center -center">
                     <a href="#">art</a>
-                    <div class="active">
+                    <div>
                         <a href="#">home &amp; living</a>
                         <div class="dropdown">
                             <div>
@@ -104,7 +104,34 @@
                     <a href="#">kids</a>
                     <a href="#">vintage</a>
                     <a href="#">weddings</a>
-                    <a href="#">more</a>
+                    <div>
+                        <a href="#">more</a>
+                        <div class="dropdown">
+                            <div>
+                                <ul>
+                                    <li class="clearfix">
+                                        <figure><img src="/images/horse.png" width="76" height="76" alt=""></figure> 
+                                        <h6><a href="#">item name here</a></h6>
+                                        <p>Lorem Ipsum is simply dummy text of the</p>
+                                        <a href="#" class="btn btn-default sm">more detail</a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <figure><img src="/images/horse.png" width="76" height="76" alt=""></figure> 
+                                        <h6><a href="#">item name here</a></h6>
+                                        <p>Lorem Ipsum is simply dummy text of the</p>
+                                        <a href="#" class="btn btn-default sm">more detail</a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <figure><img src="/images/horse.png" width="76" height="76" alt=""></figure> 
+                                        <h6><a href="#">item name here</a></h6>
+                                        <p>Lorem Ipsum is simply dummy text of the</p>
+                                        <a href="#" class="btn btn-default sm">more detail</a>
+                                    </li>
+                                </ul>
+                                <a href="#">see all items</a>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
             </header>
             <main>
@@ -510,6 +537,7 @@
         <script src="/js/index.js"></script>
         <script src="/js/jquery/plugins/jquery.anoslide.js"></script>
         <script>
+            // jquery carousel anoSlide.js
             $('#carousel-1 ul').anoSlide({
                 items: 3,
                 speed: 500,
@@ -531,12 +559,21 @@
             });
         </script>
         <script>
+            // multicolor placeholder
             document.getElementById('input-search').onblur = function () {
                 var placeholder = document.getElementById('label-placeholder');
                 var placeholderChild = document.getElementById('placeholder-child');
                 this.value === '' ? placeholder.style.color = '#424242' : placeholder.style.color = 'transparent';
                 this.value === '' ? placeholderChild.style.color = '#c2c2c2' : placeholderChild.style.color = 'transparent';
             };
+            // dropdown position by right side
+            var arr = document.getElementsByClassName('dropdown');
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].getBoundingClientRect().right >= nav.getBoundingClientRect().right) {
+                    arr[i].style.right = '0px';
+                    arr[i].style.left = 'auto';
+                }
+            }
         </script>
     </body>
 </html>

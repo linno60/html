@@ -38,7 +38,8 @@ header .links-nav{
     visibility: visible;
 }
 .dropdown{
-    min-width: 263rem;
+    min-width: 150px;
+    width: 263rem;
     position: absolute;
     top: 100%;
     z-index: 10;

@@ -53,6 +53,7 @@ body{
     height: 71rem;
     position: relative;
     letter-spacing: 0.092em;
+    cursor: pointer;
 }
 .links-nav > *.active, .links-nav > *:active, .links-nav > *:hover, .links-nav > *:focus{
     background: white;
