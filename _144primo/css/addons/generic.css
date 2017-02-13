@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,700|Droid+Sans|Open+Sans:300,400,600,700|Ubuntu');
+
+/* ICONS */
+.icon-flag {width: 19px; height: 11px; background: url('/images/icons/flag.png');}
+.icon-germany {width: 19px; height: 11px; background: url('/images/icons/germany.jpg');}
+.icon-select {width: 12px; height: 8px; background: url('/images/icons/select.png');}

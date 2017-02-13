@@ -1,10 +1,44 @@
 /*COMMON*/
 body{
-    font-size: 12px;
+    font-size: 14px;
     font-family: Open Sans;
 }
 
 /*LINKS*/
 .links-nav a{
-    
+
+}
+
+/*FORMS*/
+select::-ms-expand{display: none;}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select, .wSelect-theme-classic.wSelect{
+    min-width: 116rem;
+    height: 39px;
+    background: url(/images/icons/select.png)right 10px center no-repeat,  linear-gradient(white, white 36px, #d9d9d9 36px);
+    border-radius: 3px;
+    color: #709b1d;
+    border: none;
+    padding: 0px 10px;
+}
+.wSelect-theme-classic.wSelect{
+    display: flex;
+    align-items: center;
+}
+.wSelect-arrow {
+    display: none;
+}
+.wSelect-option-icon {
+    padding-left: 20px;
+}
+.wSelect-selected {
+    margin: 0;
+    padding: 0 20px;
+}
+select span{
+    background: red;
 }

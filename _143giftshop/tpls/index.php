@@ -161,8 +161,8 @@
                                 <img src="/images/kids.png" width="494" height="245" alt="">
                                 <div data-flex="end" data-flex-640="end w">
                                     <span class="lbl lbl-default lg">baby shop</span>
-                                    <a href="#" class="btn btn-box" data-tooltip="wishlist"></a>
-                                    <a href="#" class="btn btn-cart" data-tooltip="add to cart"></a>
+                                    <a href="/" class="btn btn-box" data-tooltip="wishlist"></a>
+                                    <a href="/" class="btn btn-cart" data-tooltip="add to cart"></a>
                                     <span class="lbl lbl-price lg sh"><span><small>$ </small>99.<sup>00</sup></span></span>
                                 </div>
                             </figure>
