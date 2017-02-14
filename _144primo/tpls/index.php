@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/js/jquery/plugins/wSelect-master/wSelect.css"> 
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css"> 
-         
+
         <script>
             var LAYOUT_WIDTH = 960;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -22,24 +22,23 @@
         </script>
     </head>
     <body>
-        <select id='select-lang'>
-            <option value="eng" data-icon="/images/icons/flag.png">English</option>
-            <option value="ger" data-icon="/images/icons/germany.jpg">German</option>
-            <option value="fra" data-icon="/images/icons/france.gif">French</option>
-            <option value="spa" data-icon="/images/icons/spain.gif">Spain</option>
+        <select class="select-default" id='select-lang'>
+            <option value="eng" data-icon="/images/icons/uk.png">English</option>
+            <option value="ger" data-icon="/images/icons/germany.png">German</option>
+            <option value="fra" data-icon="/images/icons/france.png">French</option>
+            <option value="spa" data-icon="/images/icons/spain.png">Spain</option>
         </select>
-        <select id='select-cur'>
-            <option value="usd" data-icon="/images/icons/flag.png">Doller</option>
-            <option value="gbp" data-icon="/images/icons/germany.jpg">Pound</option>
-            <option value="eur" data-icon="/images/icons/france.gif">Euro</option>
-            <option value="uah" data-icon="/images/icons/spain.gif">Hryvnya</option>
+        <select class="select-default" id='select-cur'>
+            <option value="usd" data-icon="/images/icons/usd.png">Doller</option>
+            <option value="gbp" data-icon="/images/icons/gbp.png">Pound</option>
+            <option value="eur" data-icon="/images/icons/eur.png">Euro</option>
         </select>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
         <script src="/js/jquery/plugins/wSelect-master/wSelect.js"></script>
-        <script type="text/javascript">
-           $('select').wSelect();
+        <script>
+            $('select').wSelect();
         </script>
     </body>
 </html>
