@@ -8,3 +8,5 @@
     <s>$ 2300</s>
     <span>$ 1150</span>
 </div>
+<h2 class="lbl lbl-default lg">our brand</h2>
+<h3 class="lbl lbl-default sm">we accept</h3>

@@ -1,3 +1,242 @@
+/*COMMON*/
 body{
+    background: url("/images/bg.png");
+}
+body > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    max-width: 960px;
+    padding: 0 10px;
+}
+.lwrap > section + section{
+    margin-top: 50rem;
+}
+body > div > .lwrap{
+    padding: 50rem 10px;
+}
+
+/*HEADER*/
+.topbar{
     background: #709b1d;
+}
+.header{
+    background: white;
+    margin-bottom: 2px;
+}
+.header > .lwrap{
+    padding: 20rem 10px;
+}
+.login{
+    color: #2b2b2b;
+}
+.login a{
+    color: #709b1d;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.login a:active, .login a:hover, .login a:focus{
+    text-decoration: underline;
+}
+.quick-start{
+    padding-right: 30rem;
+}
+.quick-start .btn-quick{
+    position: relative;
+    margin-left: 5rem;
+}
+.quick-start .btn-quick .lbl-counter{
+    top: -10px;
+    right: -10px;
+    z-index: 1;
+}
+.quick-start .btn-quick > *:not(i){
+    position: absolute;
+}
+.btn-quick > .dropdown{
+    cursor: default;
+}
+.quick-start .dropdown{
+    position: absolute;
+    right: -30rem;
+    padding-top: 10rem;
+    top: 100%;
+}
+.dropdown > div{
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-top: 3px solid #709b1d;
+    min-width: 290rem;
+}
+.dropdown b, .dropdown b + a{
+    display: block;
+    text-align: center;
+}
+.dropdown table:not(:last-of-type), .dropdown-ftr, .dropdown table:only-of-type{
+    width: 90%;
+}
+.dropdown-ftr{
+    padding: 10rem 0;
+}
+.dropdown figure{
+    margin-right: 20rem;
+    border: 1px solid white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.dropdown h6{ 
+    font-family: Ubuntu;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.dropdown h6 a{
+    color: #666666;
+}
+.dropdown h6 a:active, .dropdown h6 a:hover, .dropdown h6 a:focus{
+    text-decoration: underline;
+}
+.dropdown dd, .dropdown b{
+    color: #709b1d;
+}
+.dropdown b{
+    font-weight: 400;
+}
+.dropdown tbody b{
+    font-size: 16px;
+}
+.dropdown tfoot b{
+    font-size: 21px;
+}
+.dropdown tfoot{
+    font-size: 13px;
+}
+dl{
+    list-style: none;
+}
+dd, dt{
+    display: inline;
+}
+.nav{
+    background: #f3f3f3;
+}
+
+/*SLIDER*/
+.slider{
+    margin-bottom: 1px;
+    border-bottom: 1px solid #e8e8e8;
+    background: url("/images/slider-bg.png") center / cover no-repeat;
+    min-height: 463rem;
+}
+.infobar{
+    background: #709b1d;
+}
+
+/*OFFER*/
+.offer{
+    background: white;
+    border: 3px solid #efefef;
+}
+.offer figure{
+    position: relative;
+    width: 48%;
+}
+.offer figure .lbl-price{
+    position: absolute;
+    right: 0;
+}
+.offer article{
+    width: 48%;
+}
+.offer h1{    
+    font-size: 72rem;
+}
+.offer h2{
+    color: #434343;
+    font-size: 30px;
+}
+.offer h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.offer h2, .offer h1{
+    text-transform: uppercase;
+}
+.offer h1, .offer h3{
+    color: #709b1d;
+}
+.offer p{
+    color: #484848;
+    font-weight: 300;
+    line-height: 21px;
+}
+#countdown .lbl-time{
+    margin: 10rem;
+}
+
+
+/*SUBSCRIBE*/
+.subscribe{
+    background:url("/images/bg-alt.png"), url("/images/subscribe-bg.png") center / cover no-repeat;
+}
+.subscribe > .lwrap{
+    padding: 30rem 0;
+}
+.subscribe hgroup *{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.subscribe h2{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.subscribe h6{
+    font-size: 36px;
+    font-size: 12px;
+}
+
+/*BRANDS*/
+.brands li{
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+    margin: 5px;
+}
+
+/*FOOTER*/
+footer{
+    background: #f1f1f1;
+    flex-shrink: 0;
+}
+.footer{
+    padding: 20rem 10px;
+}
+.footer > div{
+    margin-top: 30rem;
+    width: 22%;
+}
+.footer h4{
+    color: #709b1d;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+    min-height: 30px;
+}
+.access-bar{
+    background: #e0e0e0;
+}
+.copyright{
+    background: #709b1d;
+    color: #c5ec78;
+    font-size: 16px;
 }

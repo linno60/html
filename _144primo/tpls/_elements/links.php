@@ -30,5 +30,5 @@
     <a href="/"><i class="icon-tw"></i></a>
     <a href="/"><i class="icon-gp"></i></a>
     <a href="/"><i class="icon-be"></i></a>
-    <a href="/"><i class="icon-be"></i></a>
+    <a href="/"><i class="icon-db"></i></a>
 </div>
