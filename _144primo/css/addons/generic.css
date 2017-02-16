@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,700|Droid+Sans|Open+Sans:300,400,600,700|Ubuntu');
 
 /* ICONS */
-.icon-addcart {width: 24px; height: 24px; background: url('/images/icons/addcart.png');}
 .icon-ae {width: 60px; height: 38px; background: url('/images/icons/ae.png');}
-.icon-arrows {width: 24px; height: 24px; background: url('/images/icons/arrows.png');}
 .icon-basket {width: 21px; height: 21px; background: url('/images/icons/basket.png');}
 .icon-be {width: 40px; height: 40px; background: url('/images/icons/be.png');}
-.icon-carg-lg {width: 30px; height: 30px; background: url('/images/icons/carg-lg.png');}
+.icon-cart-lg {width: 30px; height: 30px; background: url('/images/icons/cart-lg.png');}
 .icon-cirrus {width: 60px; height: 38px; background: url('/images/icons/cirrus.png');}
 .icon-clock {width: 36px; height: 36px; background: url('/images/icons/clock.png');}
 .icon-close-sm {width: 14px; height: 14px; background: url('/images/icons/close-sm.png');}
@@ -25,7 +23,6 @@
 .icon-next-md {width: 10px; height: 17px; background: url('/images/icons/next-md.png');}
 .icon-next {width: 28px; height: 43px; background: url('/images/icons/next.png');}
 .icon-note {width: 19px; height: 19px; background: url('/images/icons/note.png');}
-.icon-notemd {width: 24px; height: 24px; background: url('/images/icons/notemd.png');}
 .icon-phone {width: 7px; height: 14px; background: url('/images/icons/phone.png');}
 .icon-prev-md {width: 10px; height: 17px; background: url('/images/icons/prev-md.png');}
 .icon-prev {width: 28px; height: 43px; background: url('/images/icons/prev.png');}
@@ -43,6 +40,9 @@
 .icon-usd {width: 16px; height: 16px; background: url('/images/icons/usd.png');}
 .icon-visa {width: 60px; height: 38px; background: url('/images/icons/visa.png');}
 .icon-account {width: 13px; height: 13px; background: url('/images/icons/account.png');}
+.icon-addcart {width: 24px; height: 24px; background: url('/images/icons/addcart.png');}
+.icon-arrows {width: 24px; height: 24px; background: url('/images/icons/arrows.png');}
 .icon-cart {width: 13px; height: 12px; background: url('/images/icons/cart.png');}
 .icon-check {width: 15px; height: 12px; background: url('/images/icons/check.png');}
 .icon-home {width: 13px; height: 13px; background: url('/images/icons/home.png');}
+.icon-notemd {width: 24px; height: 24px; background: url('/images/icons/notemd.png');}

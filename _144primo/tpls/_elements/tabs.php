@@ -16,6 +16,33 @@
 
 </div>
 
+<div class="tabs" id="tabs1">
+    <div class="tablist" data-flex="between end">
+        <button id="prev1"><span class="btn btn-nav prev"></span></button>
+        <ul data-flex="center">
+            <li><a href="#tabs-1-1">Fetured</a></li>
+            <li><a href="#tabs-1-2">New Itme</a></li>
+            <li><a href="#tabs-1-3">Top Seller</a></li>
+            <li><a href="#tabs-1-4">Top Ratting</a></li>
+        </ul> 
+        <button id="next1"><span class="btn btn-nav next"></span></button>
+    </div>
+    <div class="tabset" data-childs="stripe">
+        <div id="tabs-1-1" class="tabpanel">
+            tab 1
+        </div>
+        <div id="tabs-1-2" class="tabpanel">
+            tab 2
+        </div>
+        <div id="tabs-1-3" class="tabpanel">
+            tab 3
+        </div>
+        <div id="tabs-1-4" class="tabpanel">
+            tab 4
+        </div>
+    </div>
+</div>
+
 <h>Accordion</h>
 
 <div class="accordion">

@@ -17,11 +17,11 @@ figure > img:only-of-type, a > img:only-of-type{
     max-width: 960px;
     padding: 0 10px;
 }
-.lwrap > section + section{
-    margin-top: 50rem;
-}
 body > div > .lwrap{
     padding: 50rem 10px;
+}
+.lwrap > section + section{
+    margin-top: 50rem;
 }
 
 /*HEADER*/
@@ -65,7 +65,6 @@ body > div > .lwrap{
     cursor: default;
 }
 .quick-start .dropdown{
-    position: absolute;
     right: -30rem;
     padding-top: 10rem;
     top: 100%;
@@ -118,6 +117,9 @@ body > div > .lwrap{
 .dropdown tfoot{
     font-size: 13px;
 }
+.dropdown tfoot td{
+    padding: 0 10rem;
+}
 dl{
     list-style: none;
 }
@@ -137,6 +139,71 @@ dd, dt{
 }
 .infobar{
     background: #709b1d;
+}
+
+/*PRODUCTS*/
+.product-item{
+    padding: 3px 3px 0;
+    background: #efefef;
+}
+.product-item:hover, .product-item:hover .overlay{
+    background: #709b1d;
+}
+.product-item figcaption{
+    display: block;
+    margin: auto;
+    max-width: 270px;
+    padding: 8rem;
+    background-color: white;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    transform: translateY(-51%);
+    color: #709b1d;
+    font-size: 16px;
+}
+.product-item figure{
+    text-align: center;
+    position: relative;
+}
+.product-item figure .lbl{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.product-actions{
+    position: relative;
+    flex-grow: 1;
+    text-align: center;
+}
+.product-actions .overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    top: auto;
+    visibility: hidden;
+    padding: 10rem;
+}
+.product-actions .overlay .btn{
+    margin: 1px;
+}
+.product-item:hover .overlay{
+    visibility: visible;
+}
+.rating{
+    line-height: 1px;   
+    margin: 0 auto;
+    width: 100px;
+}
+.product-actions strong{
+    font-size: 20px;
+font-weight: 700;
+color: #709b1d;
+margin-bottom: 5rem;
+}
+.product-actions strong s{
+    color: dimgrey;
 }
 
 /*OFFER*/
@@ -204,6 +271,9 @@ dd, dt{
 }
 
 /*BRANDS*/
+.brands .lbl-default{
+    margin-bottom: 20rem;
+}
 .brands li{
     background: white;
     border-radius: 3px;
@@ -235,8 +305,18 @@ footer{
 .access-bar{
     background: #e0e0e0;
 }
+.access-bar > .lwrap{
+    padding: 3px 10px;
+}
+.access-bar .lbl-default{
+    margin: 5px;
+}
+.copyright .lwrap{
+    padding: 15rem 10px;
+}
 .copyright{
     background: #709b1d;
     color: #c5ec78;
     font-size: 16px;
+    text-align: center;
 }

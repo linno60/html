@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="/js/jquery/plugins/wSelect-master/wSelect.css"> 
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css"> 
-
         <script>
             var LAYOUT_WIDTH = 960;
             document.documentElement.style.fontSize = window.innerWidth < LAYOUT_WIDTH ? window.innerWidth / LAYOUT_WIDTH + 'px' : '1px';
@@ -179,7 +178,7 @@
                         </nav>
                         <form action="#" method="post">
                             <input class="input-search" type="search" name="search" placeholder="Search Your Item........">
-                            <button><span class="btn btn-submit"></span></button>
+                            <button class="btn btn-search"></button>
                         </form>
                     </div>
                 </section>
@@ -221,7 +220,209 @@
             </section>
             <div class="lwrap">
                 <section class="products">
-
+                    <div class="tabs" id="tabs1">
+                        <div class="tablist" data-flex="between end">
+                            <button id="prev1"><span class="btn btn-nav prev"></span></button>
+                            <ul data-flex="center">
+                                <li><a href="#tabs-1-1">Fetured</a></li>
+                                <li><a href="#tabs-1-2">New Itme</a></li>
+                                <li><a href="#tabs-1-3">Top Seller</a></li>
+                                <li><a href="#tabs-1-4">Top Ratting</a></li>
+                            </ul> 
+                            <button id="next1"><span class="btn btn-nav next"></span></button>
+                        </div>
+                        <div class="tabset" data-childs="stripe">
+                            <div id="tabs-1-1">
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img1.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <span class="lbl lbl-discount"><span>-20%</span></span>
+                                        <img src="/images/img2.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img3.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-1-2">
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-1-3">
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs-1-4">
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="offer" data-flex="axis">
                     <figure><div class="lbl lbl-price"> <s>$ 2300</s> <span>$ 1150</span> </div><img src="/images/phones.png" width="463" height="342" alt=""></figure>
@@ -267,10 +468,126 @@
             </section>
             <div class="lwrap">
                 <section class="products">
-
+                    <div class="tabs" id="tabs2">
+                        <div class="tablist" data-flex="between end">
+                            <button id="prev2"><span class="btn btn-nav prev"></span></button>
+                            <ul data-flex="center">
+                                <li><a href="#tabs-2-1">Laptop</a></li>
+                            </ul> 
+                            <button id="next2"><span class="btn btn-nav next"></span></button>
+                        </div>
+                        <div class="tabset" data-childs="stripe">
+                            <div id="tabs-2-1">
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <span class="lbl lbl-discount"><span>-20%</span></span>
+                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="products">
-
+                    <div class="tabs" id="tabs3">
+                        <div class="tablist" data-flex="between end">
+                            <button id="prev3"><span class="btn btn-nav prev"></span></button>
+                            <ul data-flex="center">
+                                <li><a href="#tabs-3-1">Desktop</a></li>
+                            </ul> 
+                            <button id="next3"><span class="btn btn-nav next"></span></button>
+                        </div>
+                        <div class="tabset" data-childs="stripe">
+                            <div id="tabs-3-1">
+                                <div class="product-item">
+                                    <figure>
+                                        <span class="lbl lbl-discount"><span>new</span></span>
+                                        <img src="/images/img1.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img2.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <figure>
+                                        <img src="/images/img3.png" width="296" height="312" alt="">
+                                        <figcaption>Smart Phone Primo V1</figcaption>
+                                    </figure>
+                                    <div class="product-actions" data-flex="col end">
+                                        <strong><s>$10000</s> $8000</strong>
+                                        <div class="rating"></div>
+                                        <div class="overlay" data-flex="axis">
+                                            <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
+                                            <a href="/" class="btn btn-cart"><i class="icon-arrows"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="brands" data-flex="col -center">
                     <h2 class="lbl lbl-default lg">our brand</h2>
@@ -370,11 +687,45 @@
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script src="/js/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script> 
+        <script src="/js/jquery/plugins/jquery-ui.tabs.neighbors.js"></script>         
         <script src="/js/jquery/plugins/wSelect-master/wSelect.js"></script>
+
         <script>
-            $('select').wSelect();
-        </script>
-        <script>
+            $(function () {
+                $('#tabs1').tabs({
+                    neighbors: {
+                        prev: $('#prev1'),
+                        next: $('#next1')
+                    }
+                });
+                $('#tabs2').tabs({
+                    neighbors: {
+                        prev: $('#prev2'),
+                        next: $('#next2')
+                    }
+                });
+                $('#tabs3').tabs({
+                    neighbors: {
+                        prev: $('#prev3'),
+                        next: $('#next3')
+                    }
+                });
+            });
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36251023-1']);
+            _gaq.push(['_setDomainName', 'jqueryscript.net']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+////////////////////////////////////////////////////////////////////////////////////           
             function getTimeRemaining(endtime) {
                 var t = Date.parse(endtime) - Date.parse(new Date());
                 var seconds = Math.floor((t / 1000) % 60);
@@ -416,6 +767,8 @@
 
             var deadline = '2017-03-08';
             initializeClock('countdown', deadline);
+/////////////////////////////////////////////////////////////////////////////            
+            $('select').wSelect();
         </script>
     </body>
-</html>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
