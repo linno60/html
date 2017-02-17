@@ -49,7 +49,7 @@ header .lwrap{
     margin: 0 7rem;
 }
 .header{
-    min-height: 830px;
+    min-height: 830rem;
     text-align: center;
     padding: 0 10px 64rem 10px;
     position: relative;
@@ -192,7 +192,7 @@ header .lwrap{
         linear-gradient(white, white) left top / 100% calc(100% - 50px) no-repeat;
 }
 .pancakes-preview > div{
-    padding: 64rem 59rem 1px 61rem;
+    padding: 64rem 59rem 9rem 61rem;
     width: 56.55%;
 }
 .pancakes-preview .lbl-time, .pancakes-preview .btn-menu{
@@ -247,33 +247,47 @@ header .lwrap{
     margin-bottom: 40rem;
     letter-spacing: 0.1em;
 }
-.owl-carousel{
-    width: calc(100% - 64px);
+
+/*CAROUSEL*/
+.rating{
+    margin-bottom: 29rem;
 }
-#owl-demo .item{
-    margin: 0px 15.5rem;
+.carousel{
+    position: relative;
+    padding: 0 27px;
 }
-.owl-theme .owl-controls .owl-page span{
+.carousel ul{
+    min-height: 110rem;
+}
+.carousel li {
+    padding: 5px 17rem;
+}
+.carousel .btn-slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-90%);
+}
+.btn-slide.prev{
+    left: 0px;
+}
+.btn-slide.next{
+    right: 0px;
+}
+.paging{
+    display: flex;
+    justify-content: center;
+}
+.paging a{
     width: 10px;
     height: 10px;
-    border: 1px solid #d8bba3;
-    border-radius: 50%;
     background: #d8bba3;
-    opacity: 1;
-    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid #d8bba3;
+    display: inline-block;
+    margin: 3px 5px;
 }
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: none;
-}
-.pancakes-slider .btn-slide{
-    flex-shrink: 0;
-    margin-bottom: 39rem;
-}
-.owl-theme .owl-controls {
-    margin-top: 13rem;
-}
-.rating{
-    margin: 0px 0px 32rem 4rem;  
+.paging a.current{
+    background: white;
 }
 
 /*BREAKFAST*/

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/css/addons/reset-elements.css">
         <link rel="stylesheet" href="/css/addons/data-flex.css">
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
-        <link rel="stylesheet" href="/css/addons/generic.css">  
+        <link rel="stylesheet" href="/css/addons/generic.css"> 
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>

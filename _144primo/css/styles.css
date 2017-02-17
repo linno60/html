@@ -191,16 +191,19 @@ dd, dt{
 .product-item:hover .overlay{
     visibility: visible;
 }
-.rating{
-    line-height: 1px;   
+.rating i{
+    margin: 0 1px;
+}
+.rating{  
     margin: 0 auto;
     width: 100px;
+    height: 18px;
 }
 .product-actions strong{
     font-size: 20px;
-font-weight: 700;
-color: #709b1d;
-margin-bottom: 5rem;
+    font-weight: 700;
+    color: #709b1d;
+    margin-bottom: 5rem;
 }
 .product-actions strong s{
     color: dimgrey;

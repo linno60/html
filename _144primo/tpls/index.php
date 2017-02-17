@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="/css/addons/data-flex.css">
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
         <link rel="stylesheet" href="/css/addons/generic.css">
-        <link rel="stylesheet" href="/js/jquery/plugins/wSelect-master/wSelect.css"> 
+        <link rel="stylesheet" href="/js/jquery/plugins/wSelect-master/wSelect.css">
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css"> 
         <script>
@@ -210,7 +210,7 @@
                         </div>
                     </li>
                     <li>
-                        <i class="icon-carg-lg"></i>
+                        <i class="icon-cart-lg"></i>
                         <div>
                             <span>pay on delivery</span>
                             <small>get you every whare</small>
@@ -240,7 +240,7 @@
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
                                         <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -256,7 +256,7 @@
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
                                         <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -271,7 +271,7 @@
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
                                         <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -690,7 +690,7 @@
         <script src="/js/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script> 
         <script src="/js/jquery/plugins/jquery-ui.tabs.neighbors.js"></script>         
         <script src="/js/jquery/plugins/wSelect-master/wSelect.js"></script>
-
+        <script src="/js/jquery/plugins/rateit.js-master/scripts/jquery.rateit.min.js"></script>
         <script>
             $(function () {
                 $('#tabs1').tabs({
