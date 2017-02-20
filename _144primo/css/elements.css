@@ -9,12 +9,13 @@ i[class^='icon-']{
 
 /*LINKS*/
 .links-topnav a{
-    height: 39px;
+    height: 37px;
     color: white;
     border-radius: 0 0 3px 3px;
     text-transform: capitalize;
     padding: 0px 9rem;
-    margin: 0 2px 3px 0;
+    margin: 0 2.5px 3px 0;
+    letter-spacing: 0.005em;
 }
 .links-topnav a i[class^='icon-']{
     margin-right: 6rem;
@@ -24,7 +25,8 @@ i[class^='icon-']{
 .links-topnav a.active .icon-check, .links-topnav a:active .icon-check, .links-topnav a:hover .icon-check, .links-topnav a:focus .icon-check{background: url('/images/icons/check-hover.png');}
 .links-topnav a.active .icon-home, .links-topnav a:active .icon-home, .links-topnav a:hover .icon-home, .links-topnav a:focus .icon-home{background: url('/images/icons/home-hover.png');}
 .links-topnav a.active, .links-topnav a:active, .links-topnav a:hover, .links-topnav a:focus{
-    background: linear-gradient(white, white 36px, #d9d9d9 36px);
+    background: white;
+    box-shadow: inset 0px -2px 0px 0px #d9d9d9;
     color: #709b1d;
 }
 .links-menu a{
@@ -33,13 +35,13 @@ i[class^='icon-']{
     height: 28px;
     border-radius: 3px;
     padding: 0px 9rem;
-    margin: 5rem 0px;
+    margin: 5rem 0px 7rem;
 }
 .links-menu a + a{
-    margin-left: 5rem;
+    margin-left: 20rem;
 }
 .links-menu a.active, .links-menu a:active, .links-menu a:hover, .links-menu a:focus{
-    box-shadow: 0px 3px 0px 0px #58800b;
+    box-shadow: 0px 2px 0px 0px #58800b;
     background: #709b1d;
     color: white;
 }
@@ -152,8 +154,10 @@ i[class^='icon-']{
     text-transform: uppercase;
     height: 41px;
     padding: 0 20rem;
-    background: rgba(190,234,154,.27);
+    background: rgba(112,155,29,.27);
     box-shadow: 0px 4px 0 0 rgba(0,0,0,.27);
+    word-spacing: 1em;
+    letter-spacing: 0.1em;
 }
 .btn-subscribe{
     min-width: 146rem;
@@ -257,14 +261,15 @@ i[class^='icon-']{
     appearance: none;
 }
 .select-default, .wSelect-theme-classic.wSelect, .select2-container--default .select2-selection--single{
-    background: linear-gradient(white, white 36px, #d9d9d9 36px);
+    background: white;
+    box-shadow: inset 0px -2px 0px 0px #d9d9d9;
     border-radius: 0 0 3px 3px;
     color: #709b1d;
     border: none;   
 }
 .wSelect-theme-classic.wSelect, .select2-container--default .select2-selection--single{
     min-width: 116rem;
-    height: 39px;
+    height: 37px;
     padding: 0px 10px;
 }
 .wSelect-theme-classic .wSelect-options-holder{
@@ -275,6 +280,7 @@ i[class^='icon-']{
     height: auto!important;
 }
 .wSelect-hover .wSelect-arrow, .wSelect-arrow {
+    width: 38px;
     background: url(/images/icons/select-down.png)center no-repeat;
 }
 .wSelect-active .wSelect-arrow {
@@ -291,10 +297,14 @@ i[class^='icon-']{
 }
 .wSelect-selected {
     margin: 0;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 .wSelect-options {
     overflow-y: hidden;
+}
+.wSelect-theme-classic.wSelect{
+    font-size: 14px;
+    letter-spacing: -0.005em;
 }
 .input-search{
     max-width: 247px;
@@ -303,7 +313,7 @@ i[class^='icon-']{
     border-radius: 3px;
     font-size: 12px;
     color: black;
-    padding: 0 20rem;
+    padding: 0 14rem;
 }
 .input-search::-webkit-input-placeholder { color: #898888; }
 .input-search::-moz-placeholder { color: #898888; }
@@ -324,11 +334,13 @@ i[class^='icon-']{
 
 /*LISTS*/
 .list-info li{
-    margin: 10rem;
+    margin: 11rem 0;
     border-radius: 3px;
-    padding: 20rem;
-    background: linear-gradient(0deg, #83b228 3px, #83b228 2px, #658c19 2px);
+    padding: 15rem 18rem;
+    background: #83b228;
+    box-shadow: 0px 3px 0px 0px #658c19;
     text-transform: capitalize;
+    width: 23.3%;
 }
 .list-info span{
     display: block;
@@ -340,7 +352,7 @@ i[class^='icon-']{
     font-size: 12px;
 }
 .list-info i[class^='icon-']{
-    margin-right: 10rem;
+    margin-right: 15rem;
 }
 .list-default li{
     line-height: 23px;
@@ -400,13 +412,13 @@ tfoot{
     background: white;
 }
 .tablist > ul{
-    margin-bottom: -3rem;
+    margin: 1rem 0 -3rem;
 }
 .tablist a{
-    margin: 0 6rem;
+    margin: 0 5rem;
     outline: none;
     height: 37px;
-    padding: 5rem 10rem;
+    padding: 2rem 13rem 0rem 13rem;
     border-radius: 3px;
     display: inline-block;
     color: white;

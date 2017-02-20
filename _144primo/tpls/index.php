@@ -176,18 +176,66 @@
                             <a href="/">networking</a>
                             <a href="/">software</a>
                         </nav>
-                        <form action="#" method="post">
+                        <form action="#" method="post" data-flex="end">
                             <input class="input-search" type="search" name="search" placeholder="Search Your Item........">
                             <button class="btn btn-search"></button>
                         </form>
                     </div>
                 </section>
             </header>
-            <section class="slider">
-
+            <section class="slider" data-flex="axis w">
+                <input name="anchor16" id='slide16-0' type="radio">
+                <input name="anchor16" id='slide16-1' type="radio">
+                <input name="anchor16" id='slide16-2' type="radio">
+                <input name="anchor16" id='play16' type="radio" checked>
+                <ul class="lwrap" data-childs="center -center">
+                    <li>
+                        <figure><img src="/images/primo.png" width="491" height="465" alt=""></figure>
+                        <div data-flex="vaxis">
+                            <figure><img src="/images/logo-bg.png" width="191" height="120" alt=""></figure>
+                            <a href="/" class="btn btn-lg">born for shooting</a>
+                        </div>
+                    </li>
+                    <li class='num0'>
+                        <figure><img src="/images/primo.png" width="491" height="465" alt=""></figure>
+                        <div data-flex="vaxis">
+                            <figure><img src="/images/logo-bg.png" width="191" height="120" alt=""></figure>
+                            <a href="/" class="btn btn-lg">born for shooting</a>
+                        </div>
+                    </li>
+                    <li class='num1'>
+                        <figure><img src="/images/pad.png" width="491" height="465" alt=""></figure>
+                        <div data-flex="vaxis">
+                            <figure><img src="/images/logo-bg.png" width="191" height="120" alt=""></figure>
+                            <a href="/" class="btn btn-lg">born for shooting</a>
+                        </div>
+                    </li>
+                    <li class='num2'>
+                        <figure><img src="/images/gadget.png" width="491" height="465" alt=""></figure>
+                        <div data-flex="vaxis">
+                            <figure><img src="/images/logo-bg.png" width="191" height="120" alt=""></figure>
+                            <a href="/" class="btn btn-lg">born for shooting</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class='arrowprev'>
+                    <label class='num0' for='slide16-0'></label>
+                    <label class='num1' for='slide16-1'></label>
+                    <label class='num2' for='slide16-2'></label>
+                </div>
+                <div class='arrownext'>
+                    <label class='num0' for='slide16-0'></label>
+                    <label class='num1' for='slide16-1'></label>
+                    <label class='num2' for='slide16-2'></label>
+                </div>
+                <div class='bullets' data-flex="center">
+                    <label class='num0' for='slide16-0'></label>
+                    <label class='num1' for='slide16-1'></label>
+                    <label class='num2' for='slide16-2'></label>
+                </div>
             </section>
             <section class="infobar">
-                <ul class="list-info lwrap" data-flex="stripe" data-childs="center -center">
+                <ul class="list-info lwrap" data-flex="stripe" data-childs="-center">
                     <li>
                         <i class="icon-fly"></i>
                         <div>
@@ -235,11 +283,11 @@
                             <div id="tabs-1-1">
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img1.png" width="296" height="312" alt="">
+                                        <img src="/images/img1.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
+                                        <strong><s>$10000</s> <span>$8000</span></strong>
                                         <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
@@ -251,11 +299,11 @@
                                 <div class="product-item">
                                     <figure>
                                         <span class="lbl lbl-discount"><span>-20%</span></span>
-                                        <img src="/images/img2.png" width="296" height="312" alt="">
+                                        <img src="/images/img2.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
+                                        <strong><s>$10000</s> <span>$8000</span></strong>
                                         <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
@@ -266,11 +314,11 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img3.png" width="296" height="312" alt="">
+                                        <img src="/images/img3.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
+                                        <strong><span>$10299</span></strong>
                                         <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
@@ -283,12 +331,12 @@
                             <div id="tabs-1-2">
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <img src="/images/img4.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -298,12 +346,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <img src="/images/img4.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -313,12 +361,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <img src="/images/img4.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -330,12 +378,12 @@
                             <div id="tabs-1-3">
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <img src="/images/img5.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -345,12 +393,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <img src="/images/img5.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -360,12 +408,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <img src="/images/img5.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -377,12 +425,12 @@
                             <div id="tabs-1-4">
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <img src="/images/img6.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -392,12 +440,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <img src="/images/img6.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -407,12 +455,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <img src="/images/img6.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -480,12 +528,12 @@
                             <div id="tabs-2-1">
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img4.png" width="296" height="312" alt="">
+                                        <img src="/images/img4.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -496,12 +544,12 @@
                                 <div class="product-item">
                                     <figure>
                                         <span class="lbl lbl-discount"><span>-20%</span></span>
-                                        <img src="/images/img5.png" width="296" height="312" alt="">
+                                        <img src="/images/img5.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -511,12 +559,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img6.png" width="296" height="312" alt="">
+                                        <img src="/images/img6.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -542,12 +590,12 @@
                                 <div class="product-item">
                                     <figure>
                                         <span class="lbl lbl-discount"><span>new</span></span>
-                                        <img src="/images/img1.png" width="296" height="312" alt="">
+                                        <img src="/images/img1.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -557,12 +605,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img2.png" width="296" height="312" alt="">
+                                        <img src="/images/img2.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><s>$10000</s> <span>$8000</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -572,12 +620,12 @@
                                 </div>
                                 <div class="product-item">
                                     <figure>
-                                        <img src="/images/img3.png" width="296" height="312" alt="">
+                                        <img src="/images/img3.png" width="294" height="310" alt="">
                                         <figcaption>Smart Phone Primo V1</figcaption>
                                     </figure>
                                     <div class="product-actions" data-flex="col end">
-                                        <strong><s>$10000</s> $8000</strong>
-                                        <div class="rating"></div>
+                                        <strong><span>$10299</span></strong>
+                                        <div class="rating"><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r1"></i><i class="icon-r2"></i><i class="icon-r3"></i></div>
                                         <div class="overlay" data-flex="axis">
                                             <a href="/" class="btn btn-add"><i class="icon-addcart"></i>Add to cart</a>
                                             <a href="/" class="btn btn-cart"><i class="icon-notemd"></i></a>
@@ -690,7 +738,6 @@
         <script src="/js/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script> 
         <script src="/js/jquery/plugins/jquery-ui.tabs.neighbors.js"></script>         
         <script src="/js/jquery/plugins/wSelect-master/wSelect.js"></script>
-        <script src="/js/jquery/plugins/rateit.js-master/scripts/jquery.rateit.min.js"></script>
         <script>
             $(function () {
                 $('#tabs1').tabs({
@@ -721,7 +768,7 @@
                 var ga = document.createElement('script');
                 ga.type = 'text/javascript';
                 ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(ga, s);
             })();
