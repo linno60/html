@@ -6,10 +6,10 @@ body > div{
     flex-shrink: 0;
     flex-grow: 1;
 }
-figure > img:only-of-type{
+.brands li > img:only-of-type, figure > img:only-of-type{
     display: block;
 }
-figure > img:only-of-type, a > img:only-of-type{
+.brands li > img:only-of-type, figure > img:only-of-type, a > img:only-of-type{
     width: 100%;
     height: 100%;
 }
@@ -17,11 +17,17 @@ figure > img:only-of-type, a > img:only-of-type{
     max-width: 960px;
     padding: 0 10px;
 }
-body > div > .lwrap{
-    padding: 84rem 10px;
+.main{
+    padding: 86rem 10px 81rem 10px;
 }
-.lwrap > section + section{
-    margin-top: 77rem;
+.main-add{
+    padding: 88rem 10px 45rem 10px;
+}
+.main .products{
+    margin-bottom: 77rem;
+}
+.main-add .products{
+    margin-bottom: 69rem;
 }
 
 /*HEADER*/
@@ -33,7 +39,10 @@ body > div > .lwrap{
     margin-bottom: 2px;
 }
 .header > .lwrap{
-    padding: 28.5rem 10px;
+    padding: 27rem 10px;
+}
+#logo{
+    margin: 2px;
 }
 .login{
     color: #2b2b2b;
@@ -49,10 +58,13 @@ body > div > .lwrap{
 .quick-start{
     padding: 0 30rem 0 26rem;
 }
-.quick-start .btn-quick{
-    position: relative;    
+.quick-dropdown{
+    margin-bottom: 3rem;
 }
-.quick-start .btn-quick + .btn-quick{
+.quick-dropdown .btn-quick, .quick-dropdown{
+    position: relative;
+}
+.quick-start .quick-dropdown + .quick-dropdown{
     margin-left: 9rem;
 }
 .quick-start .btn-quick .lbl-counter{
@@ -60,18 +72,21 @@ body > div > .lwrap{
     right: -7px;
     z-index: 1;
 }
-.quick-start .btn-quick > *:not(i){
+.btn-quick > .lbl-counter, .quick-dropdown .dropdown{
     position: absolute;
 }
-.btn-quick > .dropdown{
-    cursor: default;
+.btn-quick:hover + .dropdown, .quick-dropdown.open .dropdown, .quick-start .dropdown:hover{
+    visibility: visible;
 }
-.quick-start .dropdown{
+.quick-dropdown .dropdown{
     right: -30rem;
-    padding-top: 10rem;
+    padding-top: 13px;
     top: 100%;
     z-index: 10;
-    visibility: hidden;
+    visibility: visible;
+    background:
+        linear-gradient(45deg, #709b1d 50%, transparent 50%) calc(100% - 39rem) 7px / 5px 6px no-repeat,
+        linear-gradient(-45deg, #709b1d 50%, transparent 50%) calc(100% - 44rem) 7px / 5px 7px no-repeat;
 }
 .dropdown > div{
     background: white;
@@ -84,13 +99,13 @@ body > div > .lwrap{
     text-align: center;
 }
 .dropdown table:not(:last-of-type), .dropdown-ftr, .dropdown table:only-of-type{
-    width: 90%;
+    width: 89%;
 }
 .dropdown-ftr{
     padding: 10rem 0;
 }
 .dropdown figure{
-    margin-right: 20rem;
+    margin-right: 18rem;
     border: 1px solid white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
 }
@@ -99,6 +114,7 @@ body > div > .lwrap{
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
+    margin: 7rem 0 5rem;
 }
 .dropdown h6 a{
     color: #666666;
@@ -114,6 +130,7 @@ body > div > .lwrap{
 }
 .dropdown tbody b{
     font-size: 16px;
+    margin: -3rem 0px 6rem 0px;
 }
 .dropdown tfoot b{
     font-size: 21px;
@@ -122,13 +139,15 @@ body > div > .lwrap{
     font-size: 13px;
 }
 .dropdown tfoot td{
-    padding: 0 10rem;
+    height: 41px;
+    padding: 5px;
 }
 dl{
     list-style: none;
 }
 dd, dt{
     display: inline;
+    line-height: 14px;
 }
 .nav{
     background: #f3f3f3;
@@ -358,17 +377,23 @@ dd, dt{
 }
 .offer figure{
     position: relative;
-    width: 48%;
+    width: 49.3%;
 }
 .offer figure .lbl-price{
     position: absolute;
-    right: 0;
+    right: 14rem;
+    top: -33rem;
+
 }
 .offer article{
-    width: 48%;
+    width: 48.3%;
+    padding-right: 14rem;
 }
 .offer h1{    
     font-size: 72rem;
+    line-height: 89rem;
+    margin-top: 19rem;
+    letter-spacing: 0.037em;
 }
 .offer h2{
     color: #434343;
@@ -378,7 +403,8 @@ dd, dt{
 .offer h3{
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 23rem;
+    margin-bottom: 24rem;
+    letter-spacing: 0.04em;
 }
 .offer h2, .offer h1{
     text-transform: uppercase;
@@ -390,55 +416,69 @@ dd, dt{
     color: #484848;
     font-weight: 300;
     line-height: 21px;
+    letter-spacing: 0.04em;
+    max-width: 415px;
+    margin-bottom: 7rem;
 }
 #countdown .lbl-time{
-    margin: 10rem;
+    margin: 6rem;
 }
 #countdown{
-    padding-top: 50rem;
+    padding: 11rem 0;
 }
-
 
 /*SUBSCRIBE*/
 .subscribe{
     background:url("/images/bg-alt.png"), url("/images/subscribe-bg.png") center / cover no-repeat;
 }
 .subscribe > .lwrap{
-    padding: 40rem 0;
+    padding: 39rem 0;
 }
 .subscribe hgroup *{
     text-align: center;
     font-weight: 400;
     color: white;
+    letter-spacing: 0.04em;
 }
 .subscribe h2{
     font-size: 36px;
     text-transform: uppercase;
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
 }
 .subscribe h6{
-    font-size: 36px;
     font-size: 12px;
 }
 .subscribe .input-subscribe{
     flex-grow: 1;
 }
 .subscribe hgroup{
-    margin-bottom: 20rem;
+    margin-bottom: 19rem;
 }
 .subscribe form{
     padding: 12rem 0px;
 }
+.subscribe form > *{
+    margin: 0 0 3px -3px;
+}
 
 /*BRANDS*/
+.brands{
+    padding-top: 10rem;
+}
 .brands .lbl-default{
-    margin-bottom: 20rem;
+    margin-bottom: 24rem;
+}
+.brands ul{
+    width: 100%;
 }
 .brands li{
     background: white;
     border-radius: 3px;
     border: 1px solid #efefef;
-    margin: 5px;
+    margin: 5px 0;
+}
+.brands li + li{
+    margin-left: 5px;
 }
 
 /*FOOTER*/
@@ -447,11 +487,11 @@ footer{
     flex-shrink: 0;
 }
 .footer{
-    padding: 20rem 10px;
+    padding: 24rem 10px;
 }
 .footer > div{
-    margin-top: 30rem;
-    width: 22%;
+    margin-top: 28rem;
+    width: 23.5%;
 }
 .footer h4{
     color: #709b1d;
@@ -459,20 +499,24 @@ footer{
     font-weight: 400;
     border-bottom: 1px solid black;
     text-transform: uppercase;
-    margin-bottom: 10rem;
-    min-height: 30px;
+    margin-bottom: 14rem;
+    min-height: 31px;
+    letter-spacing: 0.04em;
 }
 .access-bar{
     background: #e0e0e0;
 }
 .access-bar > .lwrap{
-    padding: 3px 10px;
+    padding: 4px 10px;
+}
+.access-bar > .lwrap > div{
+    width: 50%;
 }
 .access-bar .lbl-default{
     margin: 5px;
 }
 .copyright .lwrap{
-    padding: 15rem 10px;
+    padding: 14rem 10px;
 }
 .copyright{
     background: #709b1d;
