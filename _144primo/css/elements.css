@@ -16,6 +16,7 @@ i[class^='icon-']{
     padding: 0px 9rem;
     margin: 0 2.5px 3px 0;
     letter-spacing: 0.005em;
+    line-height: 15px;
 }
 .links-topnav a i[class^='icon-']{
     margin-right: 6rem;

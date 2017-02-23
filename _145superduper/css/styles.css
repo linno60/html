@@ -1,0 +1,140 @@
+/*COMMON*/
+body{
+    background: #dee1e3;
+}
+body > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+figure > img:only-of-type{
+    display: block;
+}
+figure > img:only-of-type, a > img:only-of-type{
+    width: 100%;
+    height: 100%;
+}
+.lwrap{
+    max-width: 1190px;
+    padding: 27rem 10px;
+}
+h2{
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 20rem;
+}
+
+/*HEADER*/
+.logo-wrap{
+    background: black;
+    padding: 5px;
+}
+.logo-wrap{
+    min-width: 150rem;
+    flex-shrink: 0;
+}
+.logo-wrap + div{
+    flex-grow: 1;
+}
+.menu{
+    margin-top: -2px;
+    box-shadow: inset 0px 2px 0px #f1f1f1;
+}
+.menu form{
+    padding: 13rem;
+}
+.menu .input-search, .menu form{
+    flex-grow: 1;
+}
+.login a{
+    color: #999;
+    margin: 5px;
+}
+.login a:active, .login a:hover, .login a:focus{
+    text-decoration: underline;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    width: 23.07%;
+}
+.sidebar > *, .main > *, footer, header{
+    background: white;
+    margin-bottom: 30rem;
+}
+/*.sidebar > * + *{
+    margin-top: 20rem;
+}*/
+.tags, .articles{
+    padding: 20rem;
+}
+
+.main{
+    width: 74.35%;
+}
+
+/*FOOTER*/
+footer section{
+    width: 100%;
+}
+.about, .twitter-box, .facebook-box{
+    padding: 20rem;
+}
+.about{
+    width: 50%;
+}
+.twitter-box{
+    width: 25%;
+    background: #3fccfd;
+}
+.facebook-box{
+    width: 25%;
+    background: #4966b6;
+}
+.twitter-box h2, .facebook-box h2{
+    color: white;
+}
+.footer{
+    background: #222429;
+    padding: 20rem;
+}
+.footer > div{
+    width: 24%;
+    margin: 10px 0;
+}
+.footer h4{
+    margin-bottom: 20rem;
+    color: white;
+font-size: 18px;
+font-weight: 900;
+font-style: italic;
+}
+.footer p{
+    color: #999;
+line-height: 18px;
+margin-bottom: 10rem;
+}
+.copyright{
+    background: #000009;
+    padding: 20rem;
+}
+.copyright span{
+    color: rgba(153,153,153,.7);
+}
+.copyright span a{
+    color: rgba(249,249,249,.7);
+}
+.copyright a:active, .copyright a:hover, .copyright a:focus{
+    text-decoration: underline;
+}
+.anchor{
+    color: white;
+font-size: 16px;
+font-weight: 700;
+font-style: italic;
+padding-right: 30px;
+background:
+        linear-gradient(-45deg, white 50%, transparent 50%) calc(100% - 8px) center / 8px 12px no-repeat,
+        linear-gradient(45deg, white 50%, transparent 50%) right center / 8px 12px no-repeat;
+}

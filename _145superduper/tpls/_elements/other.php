@@ -1,0 +1,1 @@
+<a href="/" class="more">view all →</a>

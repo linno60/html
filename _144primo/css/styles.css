@@ -46,6 +46,7 @@ body > div{
 }
 .login{
     color: #2b2b2b;
+    text-align: right;
 }
 .login a{
     color: #709b1d;
@@ -83,7 +84,7 @@ body > div{
     padding-top: 13px;
     top: 100%;
     z-index: 10;
-    visibility: visible;
+    visibility: hidden;
     background:
         linear-gradient(45deg, #709b1d 50%, transparent 50%) calc(100% - 39rem) 7px / 5px 6px no-repeat,
         linear-gradient(-45deg, #709b1d 50%, transparent 50%) calc(100% - 44rem) 7px / 5px 7px no-repeat;

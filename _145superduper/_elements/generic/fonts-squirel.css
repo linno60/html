@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender_black.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender_black.woff') format('woff');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender_black_italic.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender_black_italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender_bold.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender_bold.woff') format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender_bold_italic.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender_bold_italic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender_italic.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender_italic.woff') format('woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('/fonts/fontsquirel.com/bender_light.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender_light.woff') format('woff');
+    font-weight: 300;
+}
