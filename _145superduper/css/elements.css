@@ -47,7 +47,7 @@ i[class^='icon-']{
     line-height: 16px;
 }
 .links-social a{
-    margin: 3rem;
+    margin: 0 5rem 5rem 0;
 }
 .links-default a:active, .links-default a:hover, .links-default a:focus, .links-footer a:active, .links-footer a:hover, .links-footer a:focus{
     text-decoration: underline;
@@ -138,6 +138,9 @@ i[class^='icon-']{
 .tabset, .tablist > a.active, .tablist > a:hover{
     background: #faef03;
 }
+.tabset{
+    padding: 20rem 0;
+}
 
 /*FORMS*/
 input[class^='input-']{
@@ -185,6 +188,26 @@ select.select-alt{
         linear-gradient(-135deg, #999 49%, transparent 50%) calc(100% - 14px) 17px / 4px 6px no-repeat,
         #dee1e3;
     border-right: 2px solid #d0d0d0;
+}
+
+/*CITES*/
+.blockquote-twitter{
+    position: relative;
+    font-family: Roboto;
+    color: white;
+    z-index: 0;
+    margin-bottom: 15rem;
+}
+.blockquote-twitter:before{
+    position: absolute;
+    content: "“";
+    font-size: 100px;
+    color: rgba(0,114,159,.3);
+    font-family: Haettenschweiler;
+    left: -10rem;
+    top: -10rem;
+    line-height: 70px;
+    z-index: -1;
 }
 
 /*OTHER*/

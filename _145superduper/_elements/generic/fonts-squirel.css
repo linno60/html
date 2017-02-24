@@ -1,4 +1,8 @@
 @font-face {
+    font-family: 'Haettenschweiler';
+    src: url('/fonts/fontsquirel.com/haettenschweiler.woff2') format('woff2'), url('/fonts/fontsquirel.com/haettenschweiler.woff') format('woff');
+}
+@font-face {
     font-family: 'Bender';
     src: url('/fonts/fontsquirel.com/bender.woff2') format('woff2'), url('/fonts/fontsquirel.com/bender.woff') format('woff');
 }

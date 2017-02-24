@@ -22,7 +22,11 @@ h2{
     font-size: 24px;
     font-weight: 900;
     font-style: italic;
-    margin-bottom: 20rem;
+}
+p{
+    color: #222429;
+    font-family: Roboto;
+    line-height: 24px;
 }
 
 /*HEADER*/
@@ -55,34 +59,135 @@ h2{
     text-decoration: underline;
 }
 
+/*MAIN*/
+.main{
+    width: 74.35%;
+}
+.products-carousel .hdr{
+    padding: 0 20rem;
+}
+.products-carousel figure{
+    border: 1px solid #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.products-carousel figure .lbl{
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    z-index: 1;
+}
+.products-carousel figcaption > div{
+    width: 90%;
+}
+.products-carousel figcaption{
+    min-height: 100px;
+}
+.products-carousel figcaption b{
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+.products-carousel figcaption s{
+    display: inline-block;
+    min-height: 14px;
+    font-style: italic;
+    color: rgba(161,161,161,.6);
+}
+.products-carousel a{
+    color: #555;
+    font-weight: 700;
+    padding-right: 5px;
+}
+.products-carousel a:active, .products-carousel a:hover, .products-carousel a:focus{
+    text-decoration: underline;
+}
+.products-carousel .hdr{
+    min-height: 80px;
+}
+.custom-nav, .owl-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.custom-nav > div[class^=owl-], .owl-nav > div[class^=owl-]{
+    width: 13px;
+    height: 17px;
+    margin: 5rem;    
+}
+.custom-nav > div[class^=owl-]:not(.disabled), .owl-nav > div[class^=owl-]:not(.disabled){
+    cursor: pointer;
+}
+.owl-prev.disabled, .owl-prev:hover{
+    background: url(/images/icons/prev.png);
+}
+.owl-next.disabled, .owl-next:hover{
+    background: url(/images/icons/next.png);
+}
+.owl-prev{
+    background: url(/images/icons/prev-hover.png);
+}
+.owl-next{
+    background: url(/images/icons/next-hover.png);
+}
+
 /*SIDEBAR*/
 .sidebar{
     width: 23.07%;
+}
+.sidebar h2{
+    margin-bottom: 20rem;
 }
 .sidebar > *, .main > *, footer, header{
     background: white;
     margin-bottom: 30rem;
 }
-/*.sidebar > * + *{
-    margin-top: 20rem;
-}*/
 .tags, .articles{
     padding: 20rem;
 }
-
-.main{
-    width: 74.35%;
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+.banner h3{
+    position: absolute;
+    color: white;
+    left: 10%;
+    bottom: 10%;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 100%;
+    max-height: 100%;
+}
+.banner h3 strong{
+    font-weight: 900;
+    display: block;
+}
+.banner.alt h3{
+    top: 10%;
+    color: black;
 }
 
 /*FOOTER*/
 footer section{
     width: 100%;
 }
+footer h2{
+    margin-bottom: 10rem;
+}
 .about, .twitter-box, .facebook-box{
     padding: 20rem;
 }
 .about{
     width: 50%;
+}
+.about p{
+    margin-bottom: 10rem;
 }
 .twitter-box{
     width: 25%;
@@ -95,6 +200,14 @@ footer section{
 .twitter-box h2, .facebook-box h2{
     color: white;
 }
+.twitter-box article{
+    margin-bottom: 30rem;
+}
+.twitter-box time{
+    font-family: Roboto;
+    color: white;
+    font-style: italic;
+}
 .footer{
     background: #222429;
     padding: 20rem;
@@ -106,14 +219,20 @@ footer section{
 .footer h4{
     margin-bottom: 20rem;
     color: white;
-font-size: 18px;
-font-weight: 900;
-font-style: italic;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
 }
 .footer p{
     color: #999;
-line-height: 18px;
-margin-bottom: 10rem;
+    line-height: 18px;
+    margin-bottom: 10rem;
+}
+.footer form{
+    margin-bottom: 20rem;
+}
+.footer .input-email{
+    flex-grow: 1;
 }
 .copyright{
     background: #000009;
@@ -130,11 +249,11 @@ margin-bottom: 10rem;
 }
 .anchor{
     color: white;
-font-size: 16px;
-font-weight: 700;
-font-style: italic;
-padding-right: 30px;
-background:
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    padding-right: 30px;
+    background:
         linear-gradient(-45deg, white 50%, transparent 50%) calc(100% - 8px) center / 8px 12px no-repeat,
         linear-gradient(45deg, white 50%, transparent 50%) right center / 8px 12px no-repeat;
 }

@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="/css/addons/data-flex.css">
         <link rel="stylesheet" href="/css/addons/data-tabs.css">
         <link rel="stylesheet" href="/css/addons/generic.css">  
+        <link rel="stylesheet" href="/js/jquery/plugins/OwlCarousel2-2.2.0/dist/assets/owl.carousel.min.css" />
         <link rel="stylesheet" href="/css/elements.css">  
         <link rel="stylesheet" href="/css/styles.css">  
         <script>
@@ -74,11 +75,152 @@
                 </div>
             </header>
             <div data-flex="stripe">
-                <main>
-
+                <main class="main">
+                    <section class="products-carousel" data-flex="col">
+                        <div class="hdr" data-flex="axis">
+                            <h2>New products</h2>
+                            <div class="custom-nav" id="custom-nav1"></div>
+                        </div>
+                        <div class="owl-carousel" id="carousel1">
+                            <div>
+                                <figure>
+                                    <img src="/images/img1.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">Breach Snowboard Jacket</a><div><b>$549.95</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <span class="lbl lbl-new">new</span>
+                                    <img src="/images/img4.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">Leatt Adventure Body Protector Pressure</a><div><b>$179.99</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="/images/img2.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">Encore Snowboard Jacket</a><div><b>$770.15</b><s>$1,270.15</s></div></div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <span class="lbl lbl-hot">hot</span>
+                                    <img src="/images/img5.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">2L Swash Snowboard Jacket</a><div><b>$649.15</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="/images/img3.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">The White Collection Tracker Snowboard</a><div><b>$1,550.35</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/img6.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">Oneal 812 Graphic MX Lightweight Fiberglass</a><div><b>$288.99</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="/images/img1.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">Breach Snowboard Jacket</a><div><b>$549.95</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                                <figure>
+                                    <span class="lbl lbl-new">new</span>
+                                    <img src="/images/img4.jpg" width="289" height="236" alt="">
+                                    <figcaption data-flex="col center -center">
+                                        <div data-flex="stripe"><a href="/">Leatt Adventure Body Protector Pressure</a><div><b>$179.99</b><s></s></div></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>                        
+                    </section>
+                    <section class="products-carousel" data-flex="col">
+                        <div class="hdr" data-flex="axis">
+                            <h2>Bestseller products</h2>
+                            <div class="custom-nav" id="custom-nav2"></div>
+                        </div>
+                        <div class="owl-carousel" id="carousel2">
+                            <figure>
+                                <img src="/images/img7.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">Glissade Womens hat</a><div><b>$49.95</b><s>$100.15</s></div></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/images/img8.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">661 Comp II Entry Level Full Face Helmet</a><div><b>$159.15</b><s></s></div></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/images/img9.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">specialized demo 8 2014</a><div><b>$10,110.99</b><s></s></div></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/images/img7.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">Glissade Womens hat</a><div><b>$49.95</b><s>$100.15</s></div></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </section>
+                    <section class="products-carousel" data-flex="col">
+                        <div class="hdr" data-flex="axis">
+                            <h2>Featured products</h2>
+                            <div class="custom-nav" id="custom-nav3"></div>
+                        </div>
+                        <div class="owl-carousel" id="carousel3">
+                            <figure>
+                                <span class="lbl lbl-new">new</span>
+                                <img src="/images/img10.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">Men's House T-shirt</a><div><b>$49.95</b><s>$100.15</s></div></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="/images/img11.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">Encore Snowboard Jacket</a><div><b>$159.15</b><s></s></div></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <span class="lbl lbl-hot">hot</span>
+                                <img src="/images/img12.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">SixSixOne Evo Wired Full Face</a><div><b>$240.00</b><s></s></div></div>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <span class="lbl lbl-new">new</span>
+                                <img src="/images/img10.jpg" width="289" height="236" alt="">
+                                <figcaption data-flex="col center -center">
+                                    <div data-flex="stripe"><a href="/">Men's House T-shirt</a><div><b>$49.95</b><s>$100.15</s></div></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </section>
+                    <section class="products-carousel" data-flex="col">
+                        <div class="owl-carousel" id="carousel4">
+                            <figure><img src="/images/img13.jpg" width="261" height="236" alt=""></figure>
+                            <figure><img src="/images/img14.jpg" width="261" height="236" alt=""></figure>
+                            <figure><img src="/images/img15.jpg" width="261" height="236" alt=""></figure>
+                            <figure><img src="/images/img13.jpg" width="261" height="236" alt=""></figure>
+                        </div>
+                    </section>
                 </main>
                 <aside class="sidebar">
-                    <div class="tabs" data-tabs>
+                    <section class="tabs" data-tabs>
                         <div class="tablist">
                             <a href="#tab1" class="active"><i class="icon-men"></i>Men</a>
                             <a href="#tab2"><i class="icon-women"></i>Women</a>
@@ -111,8 +253,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tags">
+                    </section>
+                    <section class="tags">
                         <h2>Tags Widget</h2>
                         <div class="links-tags" data-flex="w" data-childs="-center">
                             <a href="/" class="active"><b>Themeforest</b></a>
@@ -135,9 +277,12 @@
                             <a href="/">Equipment</a>
                         </div>
                         <a href="/" class="more">view all tags →</a>
-                    </div>
-                    <figure><img src="/images/sidebar1.jpg" width="270" height="300" alt=""></figure>
-                    <div class="articles">
+                    </section>
+                    <figure class="banner">
+                        <img src="/images/sidebar1.jpg" width="270" height="300" alt="">
+                        <h3>the<strong>elevation project</strong></h3>
+                    </figure>
+                    <section class="articles">
                         <h2>Articles Experts</h2>
                         <div class="links-default" data-flex="col -start">
                             <a href="/">LG Spectrum review</a>
@@ -152,9 +297,15 @@
                             <a href="/">Nikon 1 J1</a>
                         </div>
                         <a href="/" class="more">view all →</a>
-                    </div>
-                    <figure><img src="/images/sidebar2.jpg" width="213" height="237" alt=""></figure>
-                    <figure><img src="/images/sidebar3.jpg" width="270" height="300" alt=""></figure>
+                    </section>
+                    <figure class="banner alt">
+                        <img src="/images/sidebar2.jpg" width="213" height="237" alt="">
+                        <h3><strong>get gear crab goals</strong></h3>
+                    </figure>
+                    <figure class="banner">
+                        <img src="/images/sidebar3.jpg" width="270" height="300" alt="">
+                        <h3><strong>how do you</strong> measure up?</h3>
+                    </figure>
                 </aside>
             </div>
             <footer data-flex="stripe w">
@@ -165,6 +316,14 @@
                 </section>
                 <section class="twitter-box">
                     <h2>Twitter</h2>
+                    <article>
+                        <blockquote class="blockquote-twitter">As a result of your previous reccomendation :)</blockquote>
+                        <time>31 minutes ago</time>
+                    </article>
+                    <article>
+                        <blockquote class="blockquote-twitter">Emails that start with "Dear contact" make me feel so special</blockquote>
+                        <time>50 minutes ago</time>
+                    </article>
                 </section>
                 <section class="facebook-box">
                     <h2>Facebook</h2>
@@ -228,5 +387,55 @@
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
+        <script src="/js/jquery/plugins/OwlCarousel2-2.2.0/dist/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#carousel1').owlCarousel({
+                    navContainer: '#custom-nav1',
+                    navText: false,
+                    nav: true,
+                    responsive: {
+                        0: {items: 1},
+                        480: {items: 2},
+                        640: {items: 3}
+                    }
+                });
+            });
+            $(document).ready(function () {
+                $('#carousel2').owlCarousel({
+                    navContainer: '#custom-nav2',
+                    navText: false,
+                    nav: true,
+                    responsive: {
+                        0: {items: 1},
+                        480: {items: 2},
+                        640: {items: 3}
+                    }
+                });
+            });
+            $(document).ready(function () {
+                $('#carousel3').owlCarousel({
+                    navContainer: '#custom-nav3',
+                    navText: false,
+                    nav: true,
+                    responsive: {
+                        0: {items: 1},
+                        480: {items: 2},
+                        640: {items: 3}
+                    }
+                });
+            });
+            $(document).ready(function () {
+                $('#carousel4').owlCarousel({
+                    navText: false,
+                    nav: true,
+                    responsive: {
+                        0: {items: 1},
+                        480: {items: 2},
+                        640: {items: 3}
+                    }
+                });
+            });
+        </script>
     </body>
 </html>
