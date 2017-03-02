@@ -132,6 +132,17 @@ p{
 .owl-next{
     background: url(/images/icons/next-hover.png);
 }
+#carousel4 .owl-nav{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 50%;
+}
+#carousel4 .owl-stage-outer{
+    margin: 0px 50px;
+}
 
 /*SIDEBAR*/
 .sidebar{
