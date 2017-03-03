@@ -21,6 +21,7 @@
         </script>
     </head>
     <body>
+        <a href="/" name="anchor"></a>
         <div class="lwrap">
             <header data-flex>
                 <div class="logo-wrap" data-flex="center -center">
@@ -41,7 +42,7 @@
                             <a href="/">about</a>
                             <a href="/">contact</a>
                         </nav>
-                        <form action="#" method="post">
+                        <form action="#" method="post" data-flex="around w">
                             <select class="select-default">
                                 <option>&dollar; US Dollar</option>
                                 <option>&euro; EU Euro</option>
@@ -63,9 +64,9 @@
                             <input class="input-search" type="search" name="search" placeholder="I want___">
                             <button class="btn btn-search"></button>
                         </form>
-                        <div class="login" data-flex="axis">
+                        <div class="login" data-flex="around -center">
                             <a href="/">Log in</a>
-                            <a href="/">Wish list <span>(0)</span></a>
+                            <a href="/">Wish list<span>(0)</span></a>
                         </div>
                         <a href="/" class="btn btn-cart">
                             <strong>$945.99</strong>
@@ -74,8 +75,54 @@
                     </div>
                 </div>
             </header>
-            <div data-flex="stripe">
+            <div data-flex="stripe" data-flex-640="vstripe">
                 <main class="main">
+                    <section class='slider'>
+                        <input name="anchor34" id='slide34-0' type="radio">
+                        <input name="anchor34" id='slide34-1' type="radio">
+                        <input name="anchor34" id='slide34-2' type="radio">
+                        <input name="anchor34" id='slide34-3' type="radio">
+                        <input name="anchor34" id='play34' type="radio" checked>
+                        <ul>
+                            <li><img src="/images/slider1.jpg" width="870" height="475" alt=""></li>
+                            <li class='num0'><img src="/images/slider1.jpg" width="870" height="475" alt=""><span>The Full-9</span></li>
+                            <li class='num1'><img src="/images/slider2.jpg" width="870" height="475" alt=""><span>The Full-9</span></li>
+                            <li class='num2'><img src="/images/slider3.jpg" width="870" height="475" alt=""><span>The Full-9</span></li>
+                            <li class='num3'><img src="/images/slider4.jpg" width="870" height="475" alt=""><span>The Full-9</span></li>
+                        </ul>
+                        <div class="actions" data-flex="col end">
+                            <div class='description' data-childs="col between -start">
+                                <label class='num0' for='slide34-0'>
+                                    <h1>fox fullface</h1>
+                                    <p>Dual-core A9 chip. The most powerful iPhone ever.</p>
+                                    <a href="/" class="btn btn-default">buy now</a>
+                                </label>
+                                <label class='num1' for='slide34-1'>
+                                    <h1>fox fullface</h1>
+                                    <p>Dual-core A9 chip. The most powerful iPhone ever.</p>
+                                    <a href="/" class="btn btn-default">buy now</a>
+                                </label>
+                                <label class='num2' for='slide34-2'>
+                                    <h1>fox fullface</h1>
+                                    <p>Dual-core A9 chip. The most powerful iPhone ever.</p>
+                                    <a href="/" class="btn btn-default">buy now</a>
+                                </label>
+                                <label class='num3' for='slide34-3'>
+                                    <h1>fox fullface</h1>
+                                    <p>Dual-core A9 chip. The most powerful iPhone ever.</p>
+                                    <a href="/" class="btn btn-default">buy now</a>
+                                </label>
+                            </div>
+                            <div class='bullets' data-flex="-center">
+                                <div data-flex="axis">
+                                    <label class='num0' for='slide34-0'></label>
+                                    <label class='num1' for='slide34-1'></label>
+                                    <label class='num2' for='slide34-2'></label>                    
+                                    <label class='num3' for='slide34-3'></label> 
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section class="products-carousel" data-flex="col">
                         <div class="hdr" data-flex="axis">
                             <h2>New products</h2>
@@ -219,7 +266,7 @@
                         </div>
                     </section>
                 </main>
-                <aside class="sidebar">
+                <aside class="sidebar" data-flex-640="stripe w">
                     <section class="tabs" data-tabs>
                         <div class="tablist">
                             <a href="#tab1" class="active"><i class="icon-men"></i>Men</a>
@@ -286,38 +333,38 @@
                         <h2>Articles Experts</h2>
                         <div class="links-default" data-flex="col -start">
                             <a href="/">LG Spectrum review</a>
-                            <a href="/">Verizon Droid Xyboard 8.2 and 10.1 review</a>
+                            <a href="/">Verizon Droid Xyboard 8.2&emsp;&ensp; and 10.1 review</a>
                             <a href="/">Mac mini review (mid 2011)</a>
                             <a href="/">Wacom Inkling review</a>
-                            <a href="/">Sonos Play: 3 review</a>
+                            <a href="/">Sonos Play:3 review</a>
                             <a href="/">HTC Radar 4G review</a>
                             <a href="/">Canon PowerShot S100</a>
                             <a href="/">Apple iMac</a>
-                            <a href="/">Apple MacBook Air (13-inch, mmid 2011)</a>
+                            <a href="/">Apple MacBook Air &nbsp;(13-inch,&nbsp; mid 2011)</a>
                             <a href="/">Nikon 1 J1</a>
                         </div>
                         <a href="/" class="more">view all →</a>
                     </section>
-                    <figure class="banner alt">
-                        <img src="/images/sidebar2.jpg" width="213" height="237" alt="">
-                        <h3><strong>get gear crab goals</strong></h3>
-                    </figure>
-                    <figure class="banner">
-                        <img src="/images/sidebar3.jpg" width="270" height="300" alt="">
-                        <h3><strong>how do you</strong> measure up?</h3>
-                    </figure>
+                        <figure class="banner alt">
+                            <img src="/images/sidebar2.jpg" width="213" height="237" alt="">
+                            <h3><strong>get gear crab goals</strong></h3>
+                        </figure>
+                        <figure class="banner">
+                            <img src="/images/sidebar3.jpg" width="270" height="300" alt="">
+                            <h3><strong>how do you</strong> measure up?</h3>
+                        </figure>
                 </aside>
             </div>
             <footer data-flex="stripe w">
                 <section class="about">
                     <h2>About SuperDuper</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
-                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper </p>
+                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vul&shy;putate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
                 </section>
                 <section class="twitter-box">
                     <h2>Twitter</h2>
                     <article>
-                        <blockquote class="blockquote-twitter">As a result of your previous reccomendation :)</blockquote>
+                        <blockquote class="blockquote-twitter">As a result of your previous recommendation :)</blockquote>
                         <time>31 minutes ago</time>
                     </article>
                     <article>
@@ -327,6 +374,7 @@
                 </section>
                 <section class="facebook-box">
                     <h2>Facebook</h2>
+                    <div class="fb-page" data-href="https://www.facebook.com/purmo.ua" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>
                 </section>
                 <section class="footer" data-flex="stripe w">
                     <div>
@@ -379,11 +427,22 @@
                     </div>
                 </section>
                 <section class="copyright" data-flex="axis">
-                    <span>Powered with love by <a href="/">Hezytheme</a>. SuperDuper - Premium Responsive Wordpress theme.</span>
-                    <a href="/" class="anchor">Top</a>
+                    <span>Powered with love by <a href="/">Hezytheme</a>. SuperDuper - &nbsp;Premium Responsive Wordpress theme.</span>
+                    <a href="#anchor" class="anchor">Top</a>
                 </section>
             </footer>
-        </div>        
+        </div> 
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
         <script src="/js/jquery/jquery-2.1.4.min.js"></script>
         <script src="/js/tabs-accordions.js"></script>
         <script src="/js/index.js"></script>
