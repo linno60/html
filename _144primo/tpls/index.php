@@ -743,6 +743,7 @@
         <script src="/js/jquery/plugins/jquery-ui.tabs.neighbors.js"></script>         
         <script src="/js/jquery/plugins/wSelect-master/wSelect.js"></script>
         <script>
+//------------------------------------------------------------- tabs with thumbs            
             $(function () {
                 $('#tabs1').tabs({
                     neighbors: {
@@ -776,7 +777,7 @@
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(ga, s);
             })();
-////////////////////////////////////////////////////////////////////////////////////           
+//------------------------------------------------------------------------ timer         
             function getTimeRemaining(endtime) {
                 var t = Date.parse(endtime) - Date.parse(new Date());
                 var seconds = Math.floor((t / 1000) % 60);
@@ -818,7 +819,7 @@
 
             var deadline = '2017-03-08';
             initializeClock('countdown', deadline);
-/////////////////////////////////////////////////////////////////////////////            
+//----------------------------------------------------------------------- select         
             $('select').wSelect();
 
             var menuElem = document.querySelector('.quick-dropdown');

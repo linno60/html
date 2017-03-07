@@ -42,7 +42,7 @@
                             <a href="/">about</a>
                             <a href="/">contact</a>
                         </nav>
-                        <form action="#" method="post" data-flex="around w">
+                        <form action="#" method="post" data-flex="end w">
                             <select class="select-default">
                                 <option>&dollar; US Dollar</option>
                                 <option>&euro; EU Euro</option>
@@ -56,7 +56,7 @@
                         </form>
                     </div>
                     <div class="menu" data-flex="stripe">
-                        <form action="#" method="post" data-flex="stripe">
+                        <form action="#" method="post" data-flex="axis">
                             <select class="select-alt">
                                 <option>Men</option>
                                 <option>Women</option>
@@ -65,7 +65,18 @@
                             <button class="btn btn-search"></button>
                         </form>
                         <div class="login" data-flex="around -center">
-                            <a href="/">Log in</a>
+                            <button id="show-button">Log in</button>
+                            <div id="prompt-form-container">
+                                <form id="prompt-form" data-flex="col around -center">
+                                    <figure><img src="/images/logoalt.png" width="144" height="78" alt=""></figure>
+                                    <fieldset>
+                                        <input type="text" name="text" placeholder="Login">
+                                        <input type="password" name="password" placeholder="Password">
+                                        <input type="submit" name="submit" value="login">
+                                    </fieldset>
+                                    <a href="/" id="forgot-pass">forgot password</a>
+                                </form>
+                            </div>
                             <a href="/">Wish list<span>(0)</span></a>
                         </div>
                         <a href="/" class="btn btn-cart">
@@ -266,7 +277,7 @@
                         </div>
                     </section>
                 </main>
-                <aside class="sidebar" data-flex-640="stripe w">
+                <aside class="sidebar" data-flex-640="between -start w" data-flex-480="vstripe">
                     <section class="tabs" data-tabs>
                         <div class="tablist">
                             <a href="#tab1" class="active"><i class="icon-men"></i>Men</a>
@@ -345,17 +356,17 @@
                         </div>
                         <a href="/" class="more">view all →</a>
                     </section>
-                        <figure class="banner alt">
-                            <img src="/images/sidebar2.jpg" width="213" height="237" alt="">
-                            <h3><strong>get gear crab goals</strong></h3>
-                        </figure>
-                        <figure class="banner">
-                            <img src="/images/sidebar3.jpg" width="270" height="300" alt="">
-                            <h3><strong>how do you</strong> measure up?</h3>
-                        </figure>
+                    <figure class="banner alt">
+                        <img src="/images/sidebar2.jpg" width="213" height="237" alt="">
+                        <h3><strong>get gear crab goals</strong></h3>
+                    </figure>
+                    <figure class="banner">
+                        <img src="/images/sidebar3.jpg" width="270" height="300" alt="">
+                        <h3><strong>how do you</strong> measure up?</h3>
+                    </figure>
                 </aside>
             </div>
-            <footer data-flex="stripe w">
+            <footer data-flex="stripe w" data-flex-480="vstripe">
                 <section class="about">
                     <h2>About SuperDuper</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
@@ -456,7 +467,7 @@
                     responsive: {
                         0: {items: 1},
                         480: {items: 2},
-                        640: {items: 3}
+                        800: {items: 3}
                     }
                 });
             });
@@ -468,7 +479,7 @@
                     responsive: {
                         0: {items: 1},
                         480: {items: 2},
-                        640: {items: 3}
+                        800: {items: 3}
                     }
                 });
             });
@@ -480,7 +491,7 @@
                     responsive: {
                         0: {items: 1},
                         480: {items: 2},
-                        640: {items: 3}
+                        800: {items: 3}
                     }
                 });
             });
@@ -495,6 +506,57 @@
                     }
                 });
             });
+
+            function showPrompt(callback) {                                       // функция попапа с формой
+                var form = document.getElementById('prompt-form');                // объявление переменной формы
+                var container = document.getElementById('prompt-form-container'); // объявление переменной фона
+                form.elements.text.value = '';                                    // определение результата ввода
+
+                function complete(value) {            // функция завершения отправки
+                    container.style.display = 'none'; // фон исчезает
+                    document.onkeydown = null;        // Для того, чтобы вместе с "закрытием" окна отменить следующее действие: функция в строке 69(escape)
+                    callback(value);                  // 
+                }
+
+                form.onsubmit = function () {             // функция отправки данных введенных в форму
+                    var value = form.elements.text.value; // значение введенное в input
+                    if (value === '')                     // если submit пустой...
+                        return false;                     // ...игнорировать
+                    complete(value);                      // 
+                    return false;                         // 
+                };
+
+                document.onkeydown = function (e) { // функция
+                    if (e.keyCode === 27) {         // если нажат escape
+                        complete(null);             // выводит null
+                    }
+                };
+
+                var lastElem = form.elements[form.elements.length - 1]; // Переключение только по полям формы. При нажатии Tab, фокус перемещается по возрастанию номера элемента. При нажатии Shift+Tab в обратном порядке. Если не ставить обработчики, то фокус будет перемещаться по ВСЕМ элементам страницы. Чтобы этого избежать, находятся первый и последний элемент формы (модального окна):
+                var firstElem = form.elements[0];                       // 
+
+                lastElem.onkeydown = function (e) {       // На последний элемент формы мы ставим обработчик, который при нажатии Tab, передает фокус на первый элемент формы и отменяет дальнейшие действия по умолчанию:
+                    if (e.keyCode === 9 && !e.shiftKey) { // 
+                        firstElem.focus();                // 
+                        return false;                     // 
+                    }
+                };
+
+                firstElem.onkeydown = function (e) {     // На первый элемент формы мы ставим обработчик, который при нажатии Shift+Tab, передает фокус на последний элемент формы и отменяет дальнейшие действия по умолчанию:
+                    if (e.keyCode === 9 && e.shiftKey) { // 
+                        lastElem.focus();                // 
+                        return false;                    // 
+                    }
+                };
+                container.style.display = 'flex'; // появление фона
+                form.elements.text.focus();       // 
+            }
+
+            document.getElementById('show-button').onclick = function () {         // нажатием на button...
+                showPrompt(function (value) {                                      // ...вызвана функция попапа 
+                    alert("Вы ввели: " + value);                                   // появление сообщения с введенными данными
+                });
+            };
         </script>
     </body>
 </html>

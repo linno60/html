@@ -52,25 +52,24 @@ p{
 .menu form{
     padding: 14rem 13rem;
 }
-.menu .input-search, .menu form{
+.menu .input-search, .menu > form{
     flex-grow: 1;
 }
 .login{
     min-width: 187rem;
     padding: 5rem;
 }
-.login a{
+.login a, .login button{
     color: #999;
     margin: 5px;
     letter-spacing: 0.02em;
 }
-.login a:active, .login a:hover, .login a:focus{
+.login a:active, .login a:hover, .login a:focus, .login button:active, .login button:hover, .login button:focus{
     text-decoration: underline;
 }
 .nav form{
-    flex-grow: 1;
     letter-spacing: 0.02em;
-    flex-shrink: 0;
+    padding-right: 13rem;
 }
 
 /*MAIN*/
@@ -251,6 +250,9 @@ p{
     margin-bottom: 10rem;
     width: 100%;
 }
+.description .btn-default{
+    flex-shrink: 0;
+}
 .slider > #slide34-0:checked ~ .actions > .description > .num0,
 .slider > #slide34-1:checked ~ .actions > .description > .num1,
 .slider > #slide34-2:checked ~ .actions > .description > .num2,
@@ -283,8 +285,12 @@ p{
     animation: description34-big 16000ms infinite 10600ms ease;
 }
 /*products-carousel*/
+.products-carousel{
+    overflow: hidden;
+}
 .products-carousel figure{
-    border: 1px solid #f6f6f6;
+    border-top: 2px solid #f6f6f6;
+    border-right: 2px solid #f6f6f6;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -299,8 +305,8 @@ p{
     width: 83%;
 }
 .products-carousel figcaption{
-    min-height: 79px;
-    margin-top: 7rem;
+    min-height: 83rem;
+    margin-top: 4rem;
 }
 .products-carousel figcaption a + div {
     text-align: right;
@@ -330,7 +336,7 @@ p{
     text-decoration: underline;
 }
 .products-carousel .hdr{
-    min-height: 78rem;
+    min-height: 76rem;
     padding: 0 24rem;
     text-indent: 1rem;
 }
@@ -370,7 +376,10 @@ p{
     padding: 0px 22px;
 }
 #carousel4{
-    padding: 0px 50px;
+    padding: 1.5rem 50px;
+}
+#carousel4 figure{
+    border: none;
 }
 
 /*SIDEBAR*/
@@ -490,6 +499,7 @@ footer section{
 }
 .footer .input-email{
     flex-grow: 1;
+    max-width: calc(100% - 34px);
 }
 .copyright{
     background: #000009;
@@ -518,12 +528,72 @@ footer section{
         linear-gradient(55deg, white 49%, transparent 50%) right center / 7px 12px no-repeat;
 }
 
+#prompt-form {
+    padding: 10px;
+    width: 320px;
+    text-align: center;
+}
+#prompt-form figure{
+    margin-bottom: 68rem;
+}
+#prompt-form-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #313f4c;
+}
+#prompt-form input[name=text], #prompt-form input[name=password], #prompt-form input[type=submit]{
+    width: 220px;
+    height: 40px;
+    padding: 0 5px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 12.5rem 0;
+    outline: none;
+    color: black;
+    display: block;
+}
+#prompt-form input[name=text], #prompt-form input[name=password] {    
+    background: #e9e9e9;      
+}
+#prompt-form input[type=submit]{
+    background: linear-gradient(to right, #70db99 0%, #55c4f3 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#prompt-form input::-webkit-input-placeholder { color: #999; }
+#prompt-form input::-moz-placeholder { color: #999; }
+#prompt-form input:-ms-input-placeholder { color: #999; }
+#forgot-pass{
+    color: #5c6c7b;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: italic;
+    display: block;
+    margin-top: 18rem;
+}
+#forgot-pass:active, #forgot-pass:hover, #forgot-pass:focus{
+    text-decoration: underline;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 800px) {
     .about{width: 100%;}
     .twitter-box, .facebook-box{width: 50%;}
 }
 @media (max-width: 640px) {
-    .sidebar > *{width: 49%;}
-    .sidebar > .banner.alt{margin-bottom: 30rem;}    
+    .footer > div, .sidebar > *{width: 49%;}
+    .sidebar > .banner.alt{margin-bottom: 30rem;} 
+}
+@media (max-width: 480px) {
+
 }

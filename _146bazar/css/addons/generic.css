@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
+
+/* ICONS */
+.icon-ae {width: 40px; height: 30px; background: url('/images/icons/ae.png');}
+.icon-calendar {width: 13px; height: 14px; background: url('/images/icons/calendar.png');}
+.icon-cartw {width: 20px; height: 17px; background: url('/images/icons/cartw.png');}
+.icon-cloud {width: 16px; height: 13px; background: url('/images/icons/cloud.png');}
+.icon-discover {width: 40px; height: 30px; background: url('/images/icons/discover.png');}
+.icon-lock {width: 12px; height: 14px; background: url('/images/icons/lock.png');}
+.icon-login {width: 13px; height: 15px; background: url('/images/icons/login.png');}
+.icon-mastercard {width: 40px; height: 30px; background: url('/images/icons/mastercard.png');}
+.icon-menu {width: 17px; height: 13px; background: url('/images/icons/menu.png');}
+.icon-next {width: 9px; height: 13px; background: url('/images/icons/next.png');}
+.icon-paypal {width: 40px; height: 30px; background: url('/images/icons/paypal.png');}
+.icon-phone {width: 19px; height: 32px; background: url('/images/icons/phone.png');}
+.icon-prev {width: 9px; height: 13px; background: url('/images/icons/prev.png');}
+.icon-prevsm {width: 6px; height: 11px; background: url('/images/icons/prevsm.png');}
+.icon-quotes {width: 23px; height: 19px; background: url('/images/icons/quotes.png');}
+.icon-search {width: 15px; height: 16px; background: url('/images/icons/search.png');}
+.icon-select {width: 23px; height: 18px; background: url('/images/icons/select.png');}
+.icon-visa {width: 40px; height: 30px; background: url('/images/icons/visa.png');}
+.icon-back {width: 26px; height: 24px; background: url('/images/icons/back.png');}
+.icon-cart {width: 20px; height: 17px; background: url('/images/icons/cart.png');}
+.icon-change {width: 17px; height: 13px; background: url('/images/icons/change.png');}
+.icon-eye {width: 17px; height: 12px; background: url('/images/icons/eye.png');}
+.icon-fb {width: 9px; height: 18px; background: url('/images/icons/fb.png');}
+.icon-gp {width: 24px; height: 15px; background: url('/images/icons/gp.png');}
+.icon-in {width: 17px; height: 15px; background: url('/images/icons/in.png');}
+.icon-like {width: 16px; height: 15px; background: url('/images/icons/like.png');}
+.icon-order {width: 27px; height: 23px; background: url('/images/icons/order.png');}
+.icon-pn {width: 13px; height: 18px; background: url('/images/icons/pn.png');}
+.icon-shipping {width: 25px; height: 21px; background: url('/images/icons/shipping.png');}
+.icon-support {width: 24px; height: 22px; background: url('/images/icons/support.png');}
+.icon-tw {width: 16px; height: 14px; background: url('/images/icons/tw.png');}
+.icon-yt {width: 16px; height: 19px; background: url('/images/icons/yt.png');}
