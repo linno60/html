@@ -1,0 +1,345 @@
+/*COMMON*/
+body{
+    font-size: 12px;
+    font-family: Open Sans;
+}
+
+/*LABELS*/
+.lbl-settings{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    background: #ccc;
+    border-radius: 50%;
+    color: white;
+}
+.lbl-stat{
+    font-size: 14px;
+    margin: 10px 10px 11px 0;
+    border-radius: 50%;
+    background: #e6e6e6;
+    color: #686868;
+    padding: 2px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+.lbl-badge{
+    background: #b7ced5 !important;
+    width: 30px;
+    height: 18px;
+    border-radius: 9px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+}
+.lbl-danger {
+    background: #f3565d;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.lbl-addon{
+    background: #e5e5e5;
+    min-width: 39px;
+    height: 34px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+/*BUTTONS*/
+/*common buttons*/
+.btn{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    height: 34px;
+    min-width: 34px;
+    padding: 0 14px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
+    transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);
+    cursor: pointer;
+}
+.btn.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: .65;
+}
+.btn > i[class^=fa]{
+    margin: 3px;    
+}
+.btn:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.26);
+}
+/*custom buttons*/
+.btn-green{    
+    background: #3cb878;        
+}
+.btn-green:hover{
+    background: #3ba667;
+}
+.btn-default{
+    color: #333;
+    background: #e5e5e5;
+}
+.btn-default:hover{
+    background: lightgray;
+}
+.btn-blue{
+    background: #3598dc;
+}
+.btn-blue:hover{
+    background: #2386ca;
+}
+
+/*LINKS*/
+.links-default a{
+    padding: 7px 15px;
+    color: #0070ba;
+    font-weight: 600;
+}
+.links-default a.active, .links-default a.active:hover{
+    color: white;
+    background: #166f9d;
+}
+.links-default a:hover{
+    background: #e1e1e1;
+    cursor: pointer;
+}
+.links-dropdown{
+    width: 234px;
+    background: #d7d7d7;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.links-dropdown a{
+    margin-top: 1px;
+    padding: 7px 18px;
+    font-size: 13px;
+    color: black;
+}
+.links-dropdown a:active, .links-dropdown a:hover, .links-dropdown a:focus{
+    background: #ececec;
+}
+.links-dropdown a.active, .links-dropdown a.active:active, .links-dropdown a.active:hover, .links-dropdown a.active:focus{
+    background: #166f9d;
+}
+
+/*FORMS*/
+/*inputs*/
+input, textarea, select{
+    outline: none;
+}
+.input-default{  
+    padding: 0 12px;
+    height: 35px;
+}
+.input-default, .textarea-default{
+    color: grey;
+    background: white;
+    border: 1px solid #e5e5e5;
+    transition: border-color ease-in-out .15s;
+}
+.textarea-default{
+    padding: 6px 12px;
+    min-height: 99px;
+    width: 100%;    
+}
+.input-default:focus, .textarea-default:focus{
+    border-color: #999;
+}
+.input-default.paginate{
+    width: 40px;
+    text-align: center;
+    padding: 0 2px;
+}
+select[class^=select-].form-underline, input[class^=input-].form-underline{
+    border: none;
+}
+.form-underline{
+    height: 34px;
+    color: #333;
+    background: linear-gradient(#0070ba, #0070ba) center bottom / 0% 3px no-repeat, linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;
+    transition: all ease-in-out .15s;
+}
+.form-underline:focus{
+    background: linear-gradient(#0070ba, #0070ba) center bottom / 100% 3px no-repeat, linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;
+}
+/*checkbox and radio buttons*/
+input[type=checkbox], input[type=radio] {
+    display: none;
+}
+input[type=radio] + label, input[type=checkbox] + label{
+    color: #333;
+    display: inline-flex;
+    margin-right: 10px;
+    position: relative;
+    padding-left: 30px; 
+}
+input[type=checkbox] + label:before, input[type=checkbox] + label:after, input[type=radio] + label:before, input[type=radio] + label:after { 
+    display: inline-block;
+    content: "";
+    transition: 0.3s ease 0.2s;
+    position: absolute;
+}
+/*radio*/
+input[type=radio] + label:before, input[type=radio] + label:after{
+    border-radius: 50%;
+}
+input[type=radio] + label:before{
+    background: white;
+    border: 2px solid #666;
+    height: 12px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+}
+input[type=radio] + label:after{
+    background: #0072bc;
+    height: 8px;
+    width: 8px;
+    transform: scale(0);
+    opacity: 0;
+    left: 4px;
+    top: 4px;
+}
+input[type=radio]:checked + label:after{
+    opacity: 1;
+    transform: scale(1);
+}
+/*checkboxes*/
+input[type=checkbox] + label:before     {
+    border: 2px solid #666;
+    height: 12px;
+    width: 12px;
+    top: 0px;
+    left: 4px;
+}
+input[type=checkbox] + label:after {
+    top: -2px;
+    left: 8px;
+    width: 5px;
+    height: 12px;
+    border-bottom: 3px solid #0072bc;
+    border-right: 3px solid #0072bc; 
+    opacity: 0; 
+    transform: rotate(180deg);
+}
+input[type=checkbox]:checked + label:before { 
+    opacity: 0;
+    transform: rotate(-180deg);
+}
+input[type=checkbox]:checked + label:after {
+    opacity: 1; 
+    transform: scale(1) rotate(45deg);
+}
+/*selects*/
+.select-default{
+    font-family: Roboto;
+    width: 220px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+}
+.wSelect-selected{
+    text-transform: uppercase;
+}
+
+/*TABLES*/
+
+/*LISTS*/
+
+/*PAGINATIONS*/
+.pagination-default{
+    color: #333;
+}
+.pagination-default > div{
+    padding: 0 5px;
+}
+.pagination-default .input-default{
+    margin: 2px 5px;
+}
+
+/*TABS*/
+.tabs-nav .tablist > a, .tabs-default .tablist > a, .tabs-sub .tablist > a{
+    font-size: 13px;
+    text-align: center;
+}
+.tabs-nav .tablist > a{
+    height: 43px;
+    padding: 0 8px;
+    color: #363636;
+    font-weight: 600;
+}
+.tabs-nav .tablist > a.active, .tabs-nav .tablist > a.active:hover{
+    background: #166f9d;
+    color: white;
+}
+.tabs-nav .tablist > a:hover{
+    color: #3b3b3b;
+    background: #eee;
+}
+.tabs-default .tablist{
+    border: 1px solid #e7e7e7;
+    background: #f8f8f8;
+}
+.tabs-default .tablist > a, .tabs-sub .tablist > a{
+    padding: 0 15px;
+}
+.tabs-default .tablist > a{ 
+    height: 40px;
+    color: black;
+    border-radius: 2px 2px 0 0;
+}
+.tabs-default .tablist > a.active, .tabs-default .tablist > a.active:hover{
+    background: #e7e7e7;
+}
+.tabs-default .tablist > a:hover{
+    background: #eee;
+}
+.tabs-sub .tablist > a{
+    height: 38px;
+    color: #333;
+    margin-bottom: 4px;
+}
+.tabs-sub .tablist > a + a{
+    margin-left: 2px;
+}
+.tabs-sub .tablist > a.active, .tabs-sub .tablist > a.active:hover{
+    box-shadow: 0 4px 0 0 #f3565d;
+}
+.tabs-sub .tablist > a:hover{
+    box-shadow: 0 4px 0 0 #fbcdcf;
+}
+
+/*MESSAGES*/
+
+/*OTHER*/
+.page-title{
+    margin: 20px 0 15px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #666;
+}
+.portlet-title{
+    padding: 10px;
+    background: #f5f5f5;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px 2px 0 0;
+}
+.portlet-title.blue{
+    background: #3598dc;
+    color: white;
+}
