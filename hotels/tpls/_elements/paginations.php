@@ -1,4 +1,4 @@
-<div class="pagination-default" data-flex="-center end">
+<div class="pagination-number" data-flex="-center end">
     <span>Page</span>
     <div data-flex="-end">
         <span class="btn btn-default disabled"><i class="fa fa-angle-left"></i></span>
@@ -6,4 +6,8 @@
         <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
     </div>
     <span>of 7</span>
+</div>
+<div class="pagination-default" data-flex="end">
+    <a href="/" class="disabled">Previous</a>
+    <a href="/">Next</a>
 </div>
