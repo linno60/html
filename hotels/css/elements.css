@@ -19,6 +19,9 @@ a {
     height: 9px;
     background: url(/images/icons/remove-small.png);
 }
+.disabled{
+    cursor: not-allowed;
+}
 
 /*LABELS*/
 .lbl-settings, .lbl-stat{
@@ -93,10 +96,9 @@ a {
 .btn, .btn i{
     color: white;
 }
-.btn.disabled{
+.disabled .btn{
     pointer-events: none;
     opacity: .65;
-    cursor: not-allowed;
 }
 .btn > i[class^=fa]{
     margin: 3px;    
@@ -268,7 +270,7 @@ select[class^=select-].form-underline, input[class^=input-].form-underline, text
 .form-underline{
     height: 34px;
     color: #333;
-    background: linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 1px no-repeat,
+    background: linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 3px no-repeat,
         linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;    
 }
 .form-underline:focus{
@@ -567,7 +569,6 @@ table tr:hover > td > .btn.edit-notes{
 .pagination-default a.disabled, .pagination-default a.disabled:hover{
     background: white;
     color: #777;
-    cursor: not-allowed;
 }
 
 /*TABS*/
@@ -627,7 +628,6 @@ table tr:hover > td > .btn.edit-notes{
 .tabs-vertical .tablist > a.disabled{
     background: #e5e5e5;
     color: lightslategray;
-    cursor: default;
     pointer-events: none;
 }
 .tabs-vertical .tablist > a.active, .tabs-vertical .tablist > a.active:hover{
