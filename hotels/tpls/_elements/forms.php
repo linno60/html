@@ -1,6 +1,8 @@
+<label class="label-form">Status Name<mark>*</mark></label>
 <input class="input-default paginate" type="text" value="0">
 <input class="input-default" type="text">
 <input class="input-default form-underline" type="search" name="find_reservations" placeholder="Enter Search Terms">
+<input class="input-default form-underline error" type="number" name="number">
 <input class="input-search" type="search" name="search" placeholder="Search Reservations">
 <input class="radio-btn" id="radio1" type="radio" name="allowOverbooking" checked>
 <label for="radio1">Yes</label>
@@ -46,6 +48,20 @@
     <span>
         <span class="on">on</span>
         <span class="off">off</span>
+    </span>
+</label>
+<input class="switch" type="checkbox" name="switch" id="switch2">
+<label for="switch2">
+    <span>
+        <span class="on"><i class="fa fa-check"></i></span>
+        <span class="off"><i class="fa fa-ban"></i></span>
+    </span>
+</label>
+<input class="switch alt" type="checkbox" name="switch" id="switch3" checked>
+<label for="switch3">
+    <span>
+        <span class="on">enabled</span>
+        <span class="off">disabled</span>
     </span>
 </label>
 <script src="/js/jquery/jquery-2.1.4.min.js"></script> 

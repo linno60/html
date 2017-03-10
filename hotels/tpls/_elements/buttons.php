@@ -6,3 +6,4 @@
 <a href="/" class="btn btn-blue">apply</a>
 <a href="/" class="btn btn-default edit-notes"><i class="fa fa-pencil"></i></a>
 <a href="/" class="btn btn-red sm">not setup, click to setup</a>
+<button><span class="btn btn-datepicker">Update</span></button>
