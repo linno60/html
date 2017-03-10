@@ -268,7 +268,7 @@ select[class^=select-].form-underline, input[class^=input-].form-underline, text
 .form-underline{
     height: 34px;
     color: #333;
-    background: linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 3px no-repeat,
+    background: linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 1px no-repeat,
         linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;    
 }
 .form-underline:focus{
