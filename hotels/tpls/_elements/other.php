@@ -11,6 +11,19 @@
 <div class="title-panel grey"><span>add status</span><div></div></div>
 <div class="title-panel blue"><span>reservations</span><div></div></div>
 <div class="dropdown-select"></div>
+<div class="popup-default">
+    <div class="popup-hdr" data-flex="between -start">
+        <h4>Information</h4>
+        <button class="close"></button>
+    </div>
+    <div class="popup-body">
+        <p>Please check at least one quick assign checkbox</p>
+    </div>
+    <div class="popup-ftr" data-flex="end w">
+        <a href="/" class="btn btn-blue">ok</a>
+        <a href="/" class="btn btn-default">cancel</a>
+    </div>
+</div>
 <div class="popup-default error">
     <div class="popup-hdr" data-flex="between -start">
         <h4>An error has occured</h4>
@@ -20,7 +33,8 @@
         <p>A bug report has been distributed to the Cloudbeds team. We apologize for the inconvenience and will have it fixed as soon as possible!</p>
     </div>
     <div class="popup-ftr" data-flex="end w">
-        <a href="/" class="btn btn-blue">continue without saving</a>
-        <a href="/" class="btn btn-default">cancel</a>
+        <a href="/" class="btn btn-default">close</a>
     </div>
 </div>
+<figure class="figure-img"><img src="/images/img.jpg" width="150" height="150" alt=""></figure>
+<figure class="figure-customer"><img src="/images/img.jpg" width="150" height="150" alt=""></figure>

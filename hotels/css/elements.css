@@ -8,6 +8,11 @@ a {
     color: #337ab7;
     display: inline-block;
 }
+* > img:only-of-type{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 p{
     line-height: 20px;
 }
@@ -21,22 +26,44 @@ p{
     width: 9px;
     height: 9px;
     background: url(/images/icons/remove-small.png);
+    opacity: .2;
+}
+.close:hover{
+    opacity: .5;
 }
 .disabled{
     cursor: not-allowed;
 }
 
 /*LABELS*/
-.lbl-settings, .lbl-stat{
+.lbl-stat, .lbl-number, .lbl-lg{
     border-radius: 50%;
     text-align: center; 
 }
-.lbl-settings{
+.lbl-number, .lbl-lg, .lbl-lg i{
+    color: white;
+}
+.lbl-lg{
+    font-size: 30px;
+}
+.lbl-lg{
+    width: 74px;
+    height: 74px;
+    background: #dce0ec;
+}
+.lbl-lg.alt{
     width: 70px;
     height: 70px;
     background: #ccc;
-    color: white;
-    font-size: 30px;
+}
+.lbl-number{
+    width: 40px;
+    height: 38px;
+    background: #cbcbcb;
+    font-weight: 700;
+}
+.lbl-number.active, .active .lbl-number{
+    background: #2a97d8;
 }
 .lbl-stat{
     width: 40px;
@@ -110,7 +137,7 @@ p{
 .btn:active, .btn:hover, .btn:focus{
     box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.26);
 }
-/*custom buttons*/
+/*button's colors*/
 .btn-default{    
     background: #e5e5e5;    
 }
@@ -124,8 +151,21 @@ p{
     color: #000;
     background: #999;
 }
+.btn-white{
+    background: white;
+}
+.btn-white, .btn-white i{
+    color: black;
+}
+.btn-white:active, .btn-white:hover, .btn-white:focus{
+    background: #f0f0f0;
+}
 .btn-green{    
     background: #3cb878;        
+}
+.btn-green.active{
+    background: #1f897f;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125); 
 }
 .btn-green:active, .btn-green:hover, .btn-green:focus{
     background: #3ba667;
@@ -133,29 +173,46 @@ p{
 .btn-blue{
     background: #3598dc;
 }
-.btn-blue:active, .btn-blue:hover, .btn-blue:focus{
+.btn-blue.active, .btn-blue:active, .btn-blue:hover, .btn-blue:focus{
     background: #2386ca;
 }
 .btn-red{
     background: #ba4644;
 }
-/*alt. buttons*/
+.btn-pink{
+    background: #e08283;
+}
+.btn-pink:active, .btn-pink:hover, .btn-pink:focus{
+    background: #d96567;
+}
+/*button's sizes*/
 .btn.sm{
     height: 20px;
     box-shadow: none;
 }
+.btn.lg{
+    height: 41px;
+    min-width: 46px;
+}
+.btn.lg i{
+    font-size: 16px;
+}
+.btn.md{
+    min-width: 28px;
+    height: 25px;
+    padding: 0 6px;
+}
 .btn.sm:active, .btn.sm:hover, .btn.sm:focus{
     box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
 }
-.btn.edit-notes{
-    min-width: 28px;
-    height: 25px;
-    opacity: .3;
-    padding: 0 6px;
+.btn.xs{
+    height: 16px;
+    min-width: 58px;    
 }
-.btn.edit-notes:active, .btn.edit-notes:hover, .btn.edit-notes:focus{
-    opacity: 1;
+.btn.xs i{
+    font-size: 14px;
 }
+/*custom buttons*/
 .btn-datepicker{
     height: 28px;
     background: #35aa47;
@@ -278,6 +335,22 @@ p{
     border-color: transparent transparent transparent white;
 }
 
+/*LISTS*/
+.list-steps li{
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    font-size: 13px;
+    margin-right: 17px;
+}
+.list-steps .lbl{
+    margin-right: 5px;
+}
+.list-steps li.active{
+    color: #2a97d8;
+    font-weight: 700;
+}
+
 /*FORMS*/
 .label-form{
     font-weight: 600;
@@ -287,12 +360,18 @@ p{
 .label-form mark{
     color: #f13e64;
 }
+.label-form.error, .label-form.error mark{
+    color: #ec113f; 
+}
 /*form effects*/
-select[class^=select-].form-underline, input[class^=input-].form-underline, textarea[class^=textarea-].form-underline{
-    border: none;
+select[class^=select-].form-underline, input[class^=input-].form-underline, textarea[class^=textarea-].form-underline{    
     padding: 6px 0;
     transition: all ease-in-out .15s;
     color: #333;
+}
+select[class^=select-].form-underline, input[class^=input-].form-underline, textarea[class^=textarea-].form-underline,
+select[class^=select-].form-underline.error, input[class^=input-].form-underline.error, textarea[class^=textarea-].form-underline.error{
+    border: none;
 }
 .form-underline{
     height: 34px;
@@ -334,6 +413,9 @@ input[type=number]::-webkit-outer-spin-button {
 .input-default, .textarea-default{
     border: 1px solid #e5e5e5;
     transition: border-color ease-in-out .15s;
+}
+.input-default.error, .textarea-default.error, .input-default.error:focus, .textarea-default.error:focus{
+    border: 1px solid #f13e64;
 }
 .textarea-default{
     min-height: 99px;
@@ -395,6 +477,13 @@ input[type=radio], input[type=checkbox] {
 .radio-btn:checked + label:after{
     opacity: 1;
     transform: scale(1);
+}
+.wrap-input.disabled{
+    cursor: not-allowed;
+}
+.disabled .radio-btn + label, .disabled .check-btn + label{
+    pointer-events: none;
+    opacity: .7;
 }
 /*checkboxes*/
 .check-btn + label:before     {
@@ -549,9 +638,6 @@ input[type=radio], input[type=checkbox] {
 .table > tbody > tr.warning, .table > tbody > tr.warning:nth-child(odd) {
     background: #fcf8e3;
 }
-table tr:hover > td > .btn.edit-notes{
-    opacity: 1;
-}
 /*table bordered*/
 .table-bordered{
     border: 1px solid #ddd;
@@ -573,6 +659,12 @@ table tr:hover > td > .btn.edit-notes{
 /*table hover*/
 .table-hover tbody tr:hover {
     background: #eef4f7;
+}
+.table .btn.edit{    
+    opacity: .3; 
+}
+.table tr:hover > td > .btn.edit{
+    opacity: 1;
 }
 
 /*PAGINATIONS*/
@@ -705,7 +797,7 @@ table tr:hover > td > .btn.edit-notes{
 }
 
 /*MESSAGES*/
-.alert {
+.msg-alert {
     display: flex; 
     align-items: center;
     border: 1px solid;
@@ -714,22 +806,33 @@ table tr:hover > td > .btn.edit-notes{
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     padding: 0 14px;    
 }
-.alert strong {
+.msg-alert strong {
     min-width: 81px;
     border-right: 1px dotted;
     text-transform: uppercase;
     padding: 8px 14px 8px 0;    
     margin-right: 9px;
 }
-.alert-green {
+.msg-alert.green {
     background: #dff0d8;
     border-color: #d6e9c6;       
 }
-.alert-green strong {
+.msg-alert.green strong {
     border-right-color: #468847;    
 }
-.alert-green, .alert-green strong{
+.msg-alert.green, .msg-alert.green strong{
     color: #468847;
+}
+.msg-letter{
+    background: #fafafa;
+    border-left: 3px solid #35aa47;
+    padding: 5px;
+}
+.msg-letter .name, .msg-letter time{
+    font-size: 13px;
+}
+.msg-letter .name{
+    color: #3590c1;
 }
 .msg-saved{
     height: 30px;
@@ -741,7 +844,7 @@ table tr:hover > td > .btn.edit-notes{
     padding: 0 10px;
     font-size: 13px;
 }
-.msg-default {
+.msg-warning {
     width: 300px;    
     display: flex;
     justify-content: space-between;
@@ -751,21 +854,21 @@ table tr:hover > td > .btn.edit-notes{
     box-shadow: 0 0 12px #999;
     opacity: .8;    
 }
-.msg-default.error{
+.msg-warning.error{
     background: #bd362f url(/images/icons/error.png) 10px center no-repeat;
 }
-.msg-default *{
+.msg-warning *{
     display: block;
     color: white;
     font-size: 13px;
 }
-.msg-default:hover {
+.msg-warning:hover {
     opacity: 1;
 }
-.msg-default .close{
+.msg-warning .close{
     opacity: .8;
 }
-.msg-default .close:hover{
+.msg-warning .close:hover{
     opacity: .4;
 }
 
@@ -862,6 +965,7 @@ table tr:hover > td > .btn.edit-notes{
     border-radius: 2px;
     box-shadow: 0 8px 18px rgba(0,0,0,0.18), 0 6px 6px rgba(0,0,0,0.23);
     overflow: hidden;
+    max-width: 500px;
 }
 .popup-default > *{
     padding: 15px;
@@ -885,8 +989,11 @@ table tr:hover > td > .btn.edit-notes{
 .popup-ftr .btn{
     margin-left: 5px;
 }
-.error .close{
+.error .close, .error .close:hover{
     background: url(/images/icons/remove-small-white.png);
+}
+.popup-default.error .close, .popup-default.error .close:hover{
+    opacity: 1;
 }
 a[class^=lnk-] i{
     color: #777474;
@@ -900,4 +1007,15 @@ a[class^=lnk-] i{
 }
 .lnk-delete:hover i{
     color: #f00;
+}
+figure[class^=figure-]{
+    background: white;
+    display: inline-block;
+    padding: 5px;
+}
+.figure-img{
+    border: 1px solid #c7c7c7; 
+}
+.figure-customer{
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.1);
 }

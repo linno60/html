@@ -159,7 +159,7 @@
             <td>17/02/2017 09:04</td>
             <td>17/02/2017 09:04</td>
             <td>SYSTEM</td>
-            <td><a href="/" class="btn btn-default edit-notes"><i class="fa fa-pencil"></i></a></td>
+            <td><a href="/" class="btn btn-default md edit"><i class="fa fa-pencil"></i></a></td>
         </tr>
         <tr>
             <td></td>
@@ -169,7 +169,7 @@
             <td>17/02/2017 09:04</td>
             <td>17/02/2017 09:04</td>
             <td>SYSTEM</td>
-            <td><a href="/" class="btn btn-default edit-notes"><i class="fa fa-pencil"></i></a></td>
+            <td><a href="/" class="btn btn-default md edit"><i class="fa fa-pencil"></i></a></td>
         </tr>
         <tr>
             <td></td>
@@ -179,7 +179,7 @@
             <td>17/02/2017 09:04</td>
             <td>17/02/2017 09:04</td>
             <td>SYSTEM</td>
-            <td><a href="/" class="btn btn-default edit-notes"><i class="fa fa-pencil"></i></a></td>
+            <td><a href="/" class="btn btn-default md edit"><i class="fa fa-pencil"></i></a></td>
         </tr>
         <tr>
             <td></td>
@@ -189,7 +189,7 @@
             <td>17/02/2017 09:04</td>
             <td>17/02/2017 09:04</td>
             <td>SYSTEM</td>
-            <td><a href="/" class="btn btn-default edit-notes"><i class="fa fa-pencil"></i></a></td>
+            <td><a href="/" class="btn btn-default md edit"><i class="fa fa-pencil"></i></a></td>
         </tr>
         <tr class="warning">
             <td></td>
@@ -199,7 +199,7 @@
             <td>17/02/2017 09:04</td>
             <td>17/02/2017 09:04</td>
             <td>SYSTEM</td>
-            <td><a href="/" class="btn btn-default edit-notes"><i class="fa fa-pencil"></i></a></td>
+            <td><a href="/" class="btn btn-default md edit"><i class="fa fa-pencil"></i></a></td>
         </tr>
     </tbody>
 </table>

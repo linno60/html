@@ -1,6 +1,8 @@
 <label class="label-form">Status Name<mark>*</mark></label>
+<label class="label-form error">Status Name<mark>*</mark></label>
 <input class="input-default paginate" type="text" value="0">
 <input class="input-default" type="text">
+<input class="input-default error" type="text">
 <input class="input-default form-underline" type="search" name="find_reservations" placeholder="Enter Search Terms">
 <input class="input-default form-underline error" type="number" name="number">
 <input class="input-search" type="search" name="search" placeholder="Search Reservations">
@@ -9,9 +11,13 @@
 <input class="radio-btn" id="radio2" type="radio" name="allowOverbooking">
 <label for="radio2">No</label>
 <input class="check-btn" id="check1" type="checkbox" name="show_all_countries" checked>
-<label for="check1">Show all countries</label>
+<label for="check1">Yes</label>
 <input class="check-btn" id="check2" type="checkbox" name="show_all_countries">
-<label for="check2">Show all countries</label>
+<label for="check2">No</label>
+<span class="wrap-input disabled">
+    <input class="check-btn" id="check3" type="checkbox" name="show_all_countries" checked>
+    <label for="check3">Yes</label>
+</span>
 <textarea class="textarea-default"></textarea>
 <textarea class="textarea-default form-underline"></textarea>
 <select class="select-default form-underline">
