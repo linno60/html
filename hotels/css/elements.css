@@ -19,59 +19,59 @@ a {
     height: 9px;
     background: url(/images/icons/remove-small.png);
 }
+.disabled{
+    pointer-events: none;
+}
 
 /*LABELS*/
+.lbl-settings, .lbl-stat{
+    border-radius: 50%;
+    text-align: center; 
+}
 .lbl-settings{
     width: 70px;
     height: 70px;
-    font-size: 30px;
-    text-align: center;
     background: #ccc;
-    border-radius: 50%;
     color: white;
+    font-size: 30px;
 }
 .lbl-stat{
-    font-size: 14px;
-    margin: 10px 10px 11px 0;
-    border-radius: 50%;
-    background: #e6e6e6;
-    color: #686868;
-    padding: 2px;
-    text-align: center;
     width: 40px;
     height: 40px;
+    background: #e6e6e6;
+    color: #686868;
+    font-size: 14px;       
 }
 .lbl-badge{
-    background: #b7ced5 !important;
     width: 30px;
     height: 18px;
+    background: #b7ced5;
     border-radius: 9px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
     font-size: 11px;
-    font-weight: 700;
-    color: white;
+    font-weight: 700;    
 }
-.lbl-danger {
-    background: #f3565d;
+.lbl-danger { 
     width: 10px;
     height: 10px;
+    background: #f3565d;
     border-radius: 50%;
 }
-.lbl-addon{
-    background: #e5e5e5;
-    min-width: 39px;
+.lbl-addon{ 
+    width: 39px;
     height: 34px;
-    font-size: 14px;
-    color: #555;
+    background: #e5e5e5;
     border: 1px solid #ccc;
+    color: #555;
+    font-size: 14px;
 }
 .lbl-tag{
     height: 26px; 
     background: #aaa;
-    padding: 0px 6px;
     border-radius: 2px;
+    padding: 0px 6px;
 }
-.lbl-tag, .lbl-tag a{
+.lbl-tag, .lbl-tag a, .lbl-badge{
     color: white;
 }
 .lbl-tag a{
@@ -82,15 +82,15 @@ a {
 /*BUTTONS*/
 /*common buttons*/
 .btn{
+    height: 34px;
+    min-width: 34px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
     color: white;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    height: 34px;
-    min-width: 34px;
-    padding: 0 14px;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
+    padding: 0 14px;    
     transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);
     cursor: pointer;
 }
@@ -107,9 +107,9 @@ a {
     box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.26);
 }
 /*custom buttons*/
-.btn-default{
-    color: #333;
+.btn-default{    
     background: #e5e5e5;
+    color: #333;
 }
 .btn-default:active, .btn-default:hover, .btn-default:focus{
     background: lightgray;
@@ -129,7 +129,7 @@ a {
 .btn-red{
     background: #ba4644;
 }
-/*-------------*/
+/*alt. buttons*/
 .btn.sm{
     height: 20px;
     box-shadow: none;
@@ -150,26 +150,29 @@ a {
 /*LINKS*/
 /*links-nav*/
 .links-nav > a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     height: 43px;
     padding: 0 12px;
-    font-size: 13px;
     color: #363636;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 600;    
 }
 .links-nav > a.dropdown-toggle:after{
-    font-size: 15px;
-    font-family: FontAwesome;
     content: "\f107";
+    font-family: FontAwesome;    
+    font-size: 15px;
     font-weight: 300;
     margin-left: 3px;
-}
-.links-nav > a:hover{
-    background: #eee;
-    color: #3b3b3b;
 }
 .links-nav a.active{
     background: #166f9d;
     color: white;
+}
+.links-nav > a:hover{
+    background: #eee;
+    color: #3b3b3b;
 }
 .links-nav > a:focus{
     background: #d7d7d7;
@@ -190,9 +193,9 @@ a {
     color: #0070ba;
     font-weight: 600;
 }
-.links-sidebar a.active, .links-sidebar a.active:hover{
-    color: white;
+.links-sidebar a.active, .links-sidebar a.active:hover{    
     background: #166f9d;
+    color: white;
 }
 .links-sidebar a:hover{
     background: #e1e1e1;
@@ -207,13 +210,13 @@ a {
     position: relative;
 }
 .links-dropdown a{
-    margin-top: 1px;
-    padding: 7px 18px;
-    font-size: 13px;
-    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: black;
+    font-size: 13px;
+    padding: 7px 18px;
+    margin-top: 1px;
 }
 .links-dropdown a:first-child{
     border-radius: 2px 2px 0 0;
@@ -241,11 +244,11 @@ a {
 }
 .dropdown-submenu > a:after {
     content: "";
+    display: inline-block;
     border-color: transparent transparent transparent #ccc;
     border-style: solid;
     border-width: 5px 0 5px 5px;
     color: #6c6c6c;
-    display: inline-block;
 }
 .dropdown-submenu > a:hover:after {
     border-color: transparent transparent transparent white;
@@ -270,9 +273,9 @@ select[class^=select-].form-underline, input[class^=input-].form-underline, text
 input, textarea, select{
     outline: none;
 }
-.input-default{  
-    padding: 0 12px;
+.input-default{ 
     height: 35px;
+    padding: 0 12px;   
 }
 .input-default, .textarea-default{
     color: grey;
@@ -280,9 +283,9 @@ input, textarea, select{
     transition: border-color ease-in-out .15s;
 }
 .textarea-default{
-    padding: 6px 12px;
     min-height: 99px;
-    width: 100%;    
+    width: 100%; 
+    padding: 6px 12px;      
 }
 .input-default:focus, .textarea-default:focus{
     border-color: #999;
@@ -293,49 +296,49 @@ input, textarea, select{
     padding: 0 2px;
 }
 .input-search{
-    padding: 0 12px;
     height: 43px;
-    color: #888;
-    font-size: 13px;
-    border: none;
+    padding: 0 12px;
     background: #eee;
+    border: none;
+    color: #888;
+    font-size: 13px; 
 }
 /*checkbox and radio buttons*/
 input[type=radio], input[type=checkbox] {
     display: none;
 }
 .radio-btn + label, .check-btn + label{
+    min-height: 12px;
     display: inline-flex;
     position: relative;
-    padding-left: 24px;
-    min-height: 12px;
+    padding-left: 24px; 
 }
 .check-btn + label:before, .check-btn + label:after, .radio-btn + label:before, .radio-btn + label:after { 
-    display: inline-block;
     content: "";
-    transition: 0.3s ease 0.2s;
+    display: inline-block;
     position: absolute;
+    transition: 0.3s ease 0.2s;    
 }
 /*radio*/
 .radio-btn + label:before, .radio-btn + label:after{
     border-radius: 50%;
 }
 .radio-btn + label:before{
-    background: white;
-    border: 2px solid #666;
     height: 12px;
     width: 12px;
+    background: white;
+    border: 2px solid #666;
     left: 0px;
     top: 0px;
 }
 .radio-btn + label:after{
-    background: #0072bc;
     height: 8px;
     width: 8px;
-    transform: scale(0);
-    opacity: 0;
+    background: #0072bc;
     left: 4px;
     top: 4px;
+    opacity: 0;
+    transform: scale(0);    
 }
 .radio-btn:checked + label:after{
     opacity: 1;
@@ -343,21 +346,21 @@ input[type=radio], input[type=checkbox] {
 }
 /*checkboxes*/
 .check-btn + label:before     {
-    border: 2px solid #666;
     height: 12px;
     width: 12px;
+    border: 2px solid #666;
     top: 0px;
     left: 4px;
 }
 .check-btn + label:after {
-    top: -2px;
-    left: 8px;
     width: 5px;
-    height: 12px;
+    height: 12px; 
     border-bottom: 3px solid #0072bc;
     border-right: 3px solid #0072bc; 
     opacity: 0; 
     transform: rotate(180deg);
+    top: -2px;
+    left: 8px;
 }
 .check-btn:checked + label:before { 
     opacity: 0;
@@ -369,15 +372,14 @@ input[type=radio], input[type=checkbox] {
 }
 /*selects*/
 .select-default{
-    font-family: Roboto;
-    width: 220px;
     height: 30px;
     border: 1px solid #ccc;
+    font-family: Roboto;
     padding: 4px 6px;
 }
 /*custom select jquery*/
 .wSelect-selected{
-    padding: 4.5px 0 4.5px 20px;
+    padding: 4px 0 5px 20px;
 }
 .wSelect-theme-classic.wSelect{
     background-color: white;
@@ -427,19 +429,16 @@ input[type=radio], input[type=checkbox] {
     cursor: default;
 }
 /*switch*/
-.switch:checked + label > span{
-    margin-left: -46px;
-}
 .switch + label {
     width: 92px;    
     display: inline-block;
-    border-radius: 4px;
     border: 1px solid #e5e5e5;
+    border-radius: 4px; 
     position: relative;
-    text-align: left;
     overflow: hidden;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: left;
 }
 .switch + label > span{
     width: 138px;
@@ -447,12 +446,15 @@ input[type=radio], input[type=checkbox] {
     justify-content: space-between;
     transition: margin-left .5s;
 }
+.switch:checked + label > span{
+    margin-left: -46px;
+}
 .switch + label .on, .switch + label .off{
     width: 46px;
+    height: 34px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 34px;
     padding: 2px;
 }
 .switch + label .on{
@@ -460,18 +462,15 @@ input[type=radio], input[type=checkbox] {
     color: white;
 }
 .switch + label .off{
-    color: #444;
     background: #ececec;
+    color: #444;
 }
 
 /*TABLES*/
 .table{
     width: 100%;
-    text-align: left;
-    background: white;    
-}
-.table td{
-    vertical-align: middle;
+    background: white; 
+    text-align: left;       
 }
 .table thead{
     border-bottom: 1px solid #ddd;
@@ -481,6 +480,9 @@ input[type=radio], input[type=checkbox] {
 }
 .table th{
     font-weight: 600;
+}
+.table td{
+    vertical-align: middle;
 }
 .table a{
     text-decoration: underline;
@@ -521,17 +523,16 @@ table tr:hover > td > .btn.edit-notes{
 .pagination-number .input-default{
     margin: 2px 5px;
 }
-/*--------------*/
 .pagination-default a{
     height: 32px;
-    padding: 0 12px;
-    color: #337ab7;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid #ddd;
     background: white;
+    border: 1px solid #ddd;
+    color: #337ab7;
+    padding: 0 12px;
 }
 .pagination-default a + a{
     border-left: none;
@@ -543,28 +544,28 @@ table tr:hover > td > .btn.edit-notes{
     border-radius: 0 4px 4px 0;
 }
 .pagination-default a:hover{
-    color: #23527c;
     background: #eee;
+    color: #23527c;
 }
 .pagination-default a.disabled, .pagination-default a.disabled:hover{
-    color: #777;
     background: white;
+    color: #777;
     cursor: not-allowed;
 }
 
 /*TABS*/
 /*tabs-default*/
 .tabs-default .tablist{
-    border: 1px solid #e7e7e7;
     background: #f8f8f8;
+    border: 1px solid #e7e7e7;
 }
 .tabs-default .tablist > a, .tabs-sub .tablist > a{
     padding: 0 15px;
 }
 .tabs-default .tablist > a{ 
     height: 40px;
-    color: black;
     border-radius: 2px 2px 0 0;
+    color: black;
 }
 .tabs-default .tablist > a.active, .tabs-default .tablist > a.active:hover{
     background: #e7e7e7;
@@ -591,31 +592,31 @@ table tr:hover > td > .btn.edit-notes{
     flex-direction: row;
 }
 .tabs-vertical .tablist{
-    flex-grow: 1;
-    border-radius: 2px;
     background: white;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.22);
+    border-radius: 2px;
+    flex-grow: 1;
 }
 .tabs-vertical .tablist > a{
     justify-content: flex-start;
-    font-size: 13px;
-    margin-bottom: 1px;
-    padding: 9px 10px;
-    color: #557386;
+    position: relative;
     background: #f0f6fa;
     border-left: 2px solid #c4d5df;
-    position: relative;
+    color: #557386;
+    font-size: 13px;
+    padding: 9px 10px;
+    margin-bottom: 1px;
 }
 .tabs-vertical .tablist > a.disabled{
+    background: #e5e5e5;
+    color: lightslategray;
     cursor: default;
     pointer-events: none;
-    color: lightslategray;
-    background: #e5e5e5;
 }
 .tabs-vertical .tablist > a.active, .tabs-vertical .tablist > a.active:hover{
-    color: #fff;
     background: #169ef4;
     border-left-color: #0c91e5;
+    color: #fff;
 }
 .tabs-vertical .tablist > a.active:after{
     content: '';
@@ -625,8 +626,8 @@ table tr:hover > td > .btn.edit-notes{
     border-left: 6px solid #169ef4;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     right: -5px;
+    transform: translateY(-50%);
 }
 .tabs-vertical .tablist > a:hover{
     background: #e0eaf0;
@@ -637,24 +638,24 @@ table tr:hover > td > .btn.edit-notes{
 
 /*MESSAGES*/
 .alert {
-    font-size: 14px;
-    border: 1px solid;
     display: flex; 
     align-items: center;
-    padding: 0 14px;
+    border: 1px solid;
     border-radius: 4px;
-    margin-bottom: 20px;
+    font-size: 14px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    padding: 0 14px;
+    margin-bottom: 20px;    
 }
 .alert strong {
+    min-width: 81px;
     border-right: 1px dotted;
     text-transform: uppercase;
     padding: 8px 14px 8px 0;    
     margin-right: 9px;
-    min-width: 81px;
 }
 .alert-green {
-    background-color: #dff0d8;
+    background: #dff0d8;
     border-color: #d6e9c6;       
 }
 .alert-green strong {
@@ -667,21 +668,21 @@ table tr:hover > td > .btn.edit-notes{
 /*OTHER*/
 /*titles*/
 .page-title{
-    margin: 20px 0 15px;
+    color: #666;
     font-size: 30px;
     font-weight: 300;
     line-height: 40px;
     letter-spacing: -1px;
-    color: #666;
+    margin: 20px 0 15px;
 }
-.portlet-title{
-    padding: 10px;
+.portlet-title{  
     background: #f5f5f5;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
     border-radius: 2px 2px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;    
+    padding: 10px;
 }
 .portlet-title.blue{
     background: #3598dc;
@@ -702,41 +703,41 @@ table tr:hover > td > .btn.edit-notes{
     transform: translateX(-50%);
 }
 [data-tooltip]:before {
-    background: #333;
-    bottom: calc(100% + 8px);
-    padding: 5px 10px;
-    color: white;
     content: attr(data-tooltip);
-    text-align: center;
+    background: #333;
     border-radius: 3px;
-    text-transform: none;
+    color: white;
     font-weight: 400;
+    text-align: center;
+    text-transform: none;
+    bottom: calc(100% + 8px);
+    padding: 5px 10px;    
 }
 [data-tooltip]:after {   
-    bottom: calc(100% + 3px);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid #333;
+    bottom: calc(100% + 3px);
 }
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after {
     visibility: visible;
 }
 .dropdown-select{
-    transition: opacity 1500ms cubic-bezier(0.23,1,0.32,1) .1ms;
-    opacity: 1;
-    margin-top: 1px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.22);
     min-width: 175px;
     min-height: 137px;
-    border-radius: 2px;
     background: white;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.22);
+    opacity: 1;
+    transition: opacity 1500ms cubic-bezier(0.23,1,0.32,1) .1ms;
+    margin-top: 1px;
 }
 /*popups*/
 .popup-default{
+    background: white;
     border-radius: 2px;
     box-shadow: 0 8px 18px rgba(0,0,0,0.18), 0 6px 6px rgba(0,0,0,0.23);
-    background: white;
     overflow: hidden;
 }
 .popup-default > *{
@@ -752,8 +753,8 @@ table tr:hover > td > .btn.edit-notes{
     color: white;    
 }
 .popup-hdr h4{
-    font-weight: 400;
     font-size: 17px;
+    font-weight: 400;
 }
 .popup-ftr{
     border-top: 1px solid #e5e5e5;

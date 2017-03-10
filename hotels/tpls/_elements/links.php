@@ -1,4 +1,4 @@
-<nav class="links-nav" data-flex="w" data-childs="center -center">
+<nav class="links-nav" data-flex="w">
     <a href="/" class="active">Dashboard</a>
     <a href="/">Calendar</a>
     <a href="/">Reservations</a>
