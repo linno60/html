@@ -11,3 +11,8 @@
     <a href="/" class="disabled">Previous</a>
     <a href="/">Next</a>
 </div>
+<div class="pagination-default" data-flex="end">
+    <a href="/" class="disabled"><i class="fa fa-angle-left"></i></a>
+    <span>1</span>
+    <a href="/" class="disabled"><i class="fa fa-angle-right"></i></a>
+</div>

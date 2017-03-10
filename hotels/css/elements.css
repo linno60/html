@@ -11,16 +11,13 @@ a {
 .uppercase{
     text-transform: uppercase;
 }
-.icon-blue{
+.icon-blue, .btn .icon-blue{
     color: #3598dc;
 }
 .close{
     width: 9px;
     height: 9px;
     background: url(/images/icons/remove-small.png);
-}
-.disabled{
-    pointer-events: none;
 }
 
 /*LABELS*/
@@ -85,8 +82,7 @@ a {
     height: 34px;
     min-width: 34px;
     border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
-    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);    
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -94,11 +90,13 @@ a {
     transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);
     cursor: pointer;
 }
+.btn, .btn i{
+    color: white;
+}
 .btn.disabled{
     pointer-events: none;
-    cursor: not-allowed;
-    box-shadow: none;
     opacity: .65;
+    cursor: not-allowed;
 }
 .btn > i[class^=fa]{
     margin: 3px;    
@@ -108,11 +106,17 @@ a {
 }
 /*custom buttons*/
 .btn-default{    
-    background: #e5e5e5;
+    background: #e5e5e5;    
+}
+.btn-default, .btn-default i{
     color: #333;
 }
 .btn-default:active, .btn-default:hover, .btn-default:focus{
     background: lightgray;
+}
+.btn-default.active{
+    color: #000;
+    background: #999;
 }
 .btn-green{    
     background: #3cb878;        
@@ -264,10 +268,12 @@ select[class^=select-].form-underline, input[class^=input-].form-underline, text
 .form-underline{
     height: 34px;
     color: #333;
-    background: linear-gradient(#0070ba, #0070ba) center bottom / 0% 3px no-repeat, linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;    
+    background: linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 3px no-repeat,
+        linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;    
 }
 .form-underline:focus{
-    background: linear-gradient(#0070ba, #0070ba) center bottom / 100% 3px no-repeat, linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;
+    background: linear-gradient(90deg, #0070ba, #0070ba) center bottom / 100% 3px no-repeat,
+        linear-gradient(#858585, #858585) center bottom / 100% 1px no-repeat;
 }
 /*inputs, textareas*/
 input, textarea, select{
@@ -523,18 +529,29 @@ table tr:hover > td > .btn.edit-notes{
 .pagination-number .input-default{
     margin: 2px 5px;
 }
-.pagination-default a{
+.pagination-default > a, .pagination-default > span{
     height: 32px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: white;
     border: 1px solid #ddd;
     color: #337ab7;
     padding: 0 12px;
+    min-width: 32px;
 }
-.pagination-default a + a{
+.pagination-default > a{
+    background: white;
+}
+.pagination-default > span{
+    background: #eee;
+    color: #333;
+    font-size: 13px;
+}
+.pagination-default i{
+    color: #777;
+}
+.pagination-default a + a, .pagination-default a + span, .pagination-default span + a{
     border-left: none;
 }
 .pagination-default a:first-child{
@@ -764,4 +781,17 @@ table tr:hover > td > .btn.edit-notes{
 }
 .error .close{
     background: url(/images/icons/remove-small-white.png);
+}
+a[class^=lnk-] i{
+    color: #777474;
+    margin: 5px;
+}
+.lnk-edit:hover i{
+    color: #363636;
+}
+.lnk-copy:hover i{
+    color: #13a749;
+}
+.lnk-delete:hover i{
+    color: #f00;
 }

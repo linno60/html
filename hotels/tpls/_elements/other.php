@@ -1,3 +1,6 @@
+<a href="/" data-tooltip="Edit" class="lnk-edit"><i class="fa fa-pencil"></i></a>
+<a href="/" data-tooltip="Copy" class="lnk-copy"><i class="fa fa-copy"></i></a>
+<a href="/" data-tooltip="Delete" class="lnk-delete"><i class="fa fa-times-circle"></i></a>
 <h3 class="page-title">House Accounts</h3>
 <div class="portlet-title"><span>filter</span><div></div></div>
 <div class="portlet-title blue"><span>reservations</span><div></div></div>
