@@ -1,4 +1,4 @@
-<div class="lwrap reservations">
+<div class="lwrap">
     <section class="hdr-page" data-flex="axis">
         <div data-flex="-center">
             <h2 class="title-page">Reservations</h2>
@@ -13,32 +13,32 @@
         <div class="panel-body">
             <form action="#" method="post" data-flex>
                 <fieldset>
-                    <label>Date Booked</label>
-                    <button><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations1">Date Booked</label>
+                    <button id="reservations1"><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
                 <fieldset>
-                    <label>Check in Date</label>
-                    <button><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations2">Check in Date</label>
+                    <button id="reservations2"><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
                 <fieldset>
-                    <label>Check out Date</label>
-                    <button><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations3">Check out Date</label>
+                    <button id="reservations3"><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
                 <fieldset>
-                    <label>Stay date</label>
-                    <button><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations4">Stay date</label>
+                    <button id="reservations4"><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
                 <fieldset>
-                    <label>Status</label>
-                    <button><span class="btn btn-default btn-dropdown selected"><span>6 of 6 selected</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations5">Status</label>
+                    <button id="reservations5"><span class="btn btn-default btn-dropdown selected"><span>6 of 6 selected</span><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
                 <fieldset>
-                    <label>Room Types</label>
-                    <button><span class="btn btn-default btn-dropdown selected"><span>19 of 19 selected</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations6">Room Types</label>
+                    <button id="reservations6"><span class="btn btn-default btn-dropdown selected"><span>19 of 19 selected</span><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
                 <fieldset>
-                    <label>Sources</label>
-                    <button><span class="btn btn-default btn-dropdown selected"><span>select all channels</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="reservations7">Sources</label>
+                    <button id="reservations7"><span class="btn btn-default btn-dropdown selected"><span>select all channels</span><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
             </form>
         </div>
@@ -49,9 +49,120 @@
     </section>
     <section>
         <div class="panel panel-default">
-            <div class="panel-title blue"><span>reservations</span><div></div></div>
+            <div class="panel-title blue" data-flex="axis">
+                <span>reservations</span>
+                <div data-flex="end w">
+                    <i class="fa fa-download" data-tooltip="Import Reservations from File"></i>
+                    <i class="fa fa-tasks" data-tooltip="Manual Quick Import"></i>
+                    <i class="fa fa-upload" data-tooltip="Export Reservations"></i>
+                    <i class="fa fa-print" data-tooltip="Print"></i>
+                </div>
+            </div>
             <div class='panel-body'>
-
+                <div data-flex="stripe">
+                    <form action="#" method="post">
+                        <label for="find-reservations" class="label-form">Search</label>
+                        <input id="find-reservations" class="input-default form-underline" type="search" name="find-reservations" placeholder="Enter Search Terms">
+                    </form>
+                    <div class="filter-table" data-flex="end -center">
+                        <span>
+                            <span class="filter-info">Showing 1 to 100 of 671 entries</span> | View 
+                            <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
+                            at a time
+                        </span>
+                        <div class="pagination-number" data-flex="-center end">
+                            <span>Page</span>
+                            <div data-flex="-end">
+                                <span class="btn btn-default disabled"><i class="fa fa-angle-left"></i></span>
+                                <input class="input-default paginate" type="text" value="0">
+                                <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                            </div>
+                            <span>of 7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-actions">
+                    <i class="fa fa-level-down"></i>
+                    <span><a href="/" class="btn btn-default md">bulk action <i class="fa fa-angle-down"></i></a></span>
+                </div>
+                <table class="table table-bordered-tr table-striped-th">
+                    <thead>
+                        <tr>
+                            <th>
+                                <input class="check-btn" id="reservationt1" type="checkbox" name="reservation-table">
+                                <label for="reservationt1"></label>
+                            </th>
+                            <th>Reservation</th>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>Date Booked</th>
+                            <th>Room Number(s)</th>
+                            <th>Check-In</th>
+                            <th>Check-Out</th>
+                            <th>Nights</th>
+                            <th>Total Price</th>
+                            <th>Status</th>
+                            <th>Source</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input class="check-btn" id="reservationt2" type="checkbox" name="reservation-table">
+                                <label for="reservationt2"></label>
+                            </td>
+                            <td>6379041803</td>
+                            <td><a href="/">Alona</a></td>
+                            <td><a href="/">1</a></td>
+                            <td>07/05/2015</td>
+                            <td>N/A</td>
+                            <td>01/03/2015</td>
+                            <td>07/05/2015</td>
+                            <td>67</td>
+                            <td>$ 8716,72</td>
+                            <td>No Show</td>
+                            <td>Phone</td>
+                            <td><a href="/" data-tooltip="Delete" class="lnk-delete"><i class="fa fa-times-circle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="check-btn" id="reservationt3" type="checkbox" name="reservation-table">
+                                <label for="reservationt3"></label>
+                            </td>
+                            <td>6379041803</td>
+                            <td><a href="/">Alona</a></td>
+                            <td><a href="/">1</a></td>
+                            <td>07/05/2015</td>
+                            <td>N/A</td>
+                            <td>01/03/2015</td>
+                            <td>07/05/2015</td>
+                            <td>67</td>
+                            <td>$ 8716,72</td>
+                            <td>No Show</td>
+                            <td>Phone</td>
+                            <td><a href="/" data-tooltip="Delete" class="lnk-delete"><i class="fa fa-times-circle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="check-btn" id="reservationt4" type="checkbox" name="reservation-table">
+                                <label for="reservationt4"></label>
+                            </td>
+                            <td>6379041803</td>
+                            <td><a href="/">Alona</a></td>
+                            <td><a href="/">1</a></td>
+                            <td>07/05/2015</td>
+                            <td>N/A</td>
+                            <td>01/03/2015</td>
+                            <td>07/05/2015</td>
+                            <td>67</td>
+                            <td>$ 8716,72</td>
+                            <td>No Show</td>
+                            <td>Phone</td>
+                            <td><a href="/" data-tooltip="Delete" class="lnk-delete"><i class="fa fa-times-circle"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

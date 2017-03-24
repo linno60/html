@@ -5,7 +5,7 @@
             <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
         </div>
         <div>
-            <span><a href="/" class="btn btn-green">create new reservation</a></span>
+
         </div>
     </section>
     <section class="subtitle">
@@ -13,13 +13,25 @@
     </section>
     <section class="panel panel-alt">
         <div class="panel-title">
-            <span>filter</span>
+            <span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span>
             <div>
-                
+
             </div>
         </div>
         <div class="panel-body">
-            
+            <form action="#" method="post" data-flex>
+                <fieldset>
+                    <label for="ha1">Room Types</label>
+                    <button id="ha1"><span class="btn btn-default btn-dropdown selected"><span>2 of 2 selected</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="ha2">Sources</label>
+                    <div data-flex>
+                        <input id="ha2" class="input-default" type="text">
+                        <span class="lbl lbl-addon"><i class="fa fa-calendar"></i></span>
+                    </div>
+                </fieldset>
+            </form>
         </div>
         <div class="panel-ftr" data-flex="end w">
             <a href="/" class="btn btn-blue">apply</a>
@@ -27,10 +39,65 @@
         </div>
     </section>
     <section>
+        <div class="btns" data-flex><span><a href="/" class="btn btn-green"><i class="fa fa-plus"></i>new house account</a></span></div>
         <div class="panel panel-default">
             <div class="panel-title blue"><span>reservations</span><div></div></div>
             <div class='panel-body'>
-
+                <div class="filter-table" data-flex="end -center">
+                    <span>
+                        <span class="filter-info">Showing 1 to 6 of 6 entries</span> | View 
+                        <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
+                        at a time
+                    </span>
+                </div>
+                <table class="table table-bordered table-bordered-td table-bordered-tr table-striped">
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Name</th>
+                            <th>Date Created</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Open</td>
+                            <td><a href="/" class="underline-act">1 new house</a></td>
+                            <td><time>12/10/2015</time></td>
+                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Open</td>
+                            <td><a href="/" class="underline-act">23232</a></td>
+                            <td><time>19/08/2016</time></td>
+                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Open</td>
+                            <td><a href="/" class="underline-act">alex</a></td>
+                            <td><time>20/12/2016</time></td>
+                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Open</td>
+                            <td><a href="/" class="underline-act">July</a></td>
+                            <td><time>08/07/2015</time></td>
+                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Open</td>
+                            <td><a href="/" class="underline-act">New acc</a></td>
+                            <td><time>01/03/2016</time></td>
+                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>Closed</td>
+                            <td><a href="/" class="underline-act">ии</a></td>
+                            <td><time>29/01/2015</time></td>
+                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

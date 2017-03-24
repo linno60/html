@@ -107,7 +107,6 @@ p{
     width: 39px;
     height: 34px;
     background: #e5e5e5;
-    border: 1px solid #ccc;
     color: #555;
     font-size: 14px;
 }
@@ -441,7 +440,6 @@ select[class^=select-].form-underline, input[class^=input-].form-underline, text
 select[class^=select-].form-underline.error, input[class^=input-].form-underline.error, textarea[class^=textarea-].form-underline.error{
     border: none;
 }
-
 .form-underline{
     height: 34px;
     background: linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 3px no-repeat,
@@ -459,7 +457,6 @@ select[class^=select-].form-underline.error, input[class^=input-].form-underline
     background: linear-gradient(90deg, #ec113f, #ec113f) center bottom / 100% 3px no-repeat,
         linear-gradient(#ec113f, #ec113f) center bottom / 100% 1px no-repeat;
 }
-
 .form-underline[type=search]{
     background: url(../images/icons/search.png) no-repeat right 5px center,
         linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 3px no-repeat,
@@ -497,7 +494,7 @@ input[type=number]::-webkit-outer-spin-button {
     appearance: none;
 }
 .input-default{ 
-    height: 35px;
+    height: 34px;
     padding: 0 12px;   
 }
 .input-default, .textarea-default{
@@ -722,9 +719,6 @@ input[type=radio], input[type=checkbox] {
 .table td{
     vertical-align: middle;
 }
-.table a{
-    text-decoration: underline;
-}
 .table > tbody > tr.warning, .table > tbody > tr.warning:nth-child(odd) {
     background: #fcf8e3;
 }
@@ -945,7 +939,7 @@ input[type=radio], input[type=checkbox] {
     opacity: .8;    
 }
 .msg-warning.error{
-    background: #bd362f url("/images/icons/error.png") 10px center no-repeat;
+    background: #bd362f url(/images/icons/error.png) 10px center no-repeat;
 }
 .msg-warning *{
     display: block;
@@ -980,8 +974,12 @@ input[type=radio], input[type=checkbox] {
     text-transform: uppercase;    
     padding: 10.5px;
 }
+.panel-title > * i.fa{
+    margin-right: 3px;
+}
 .panel-title a{
     margin-left: 5px;
+    cursor: help;
 }
 .panel-title.blue{
     background: #3598dc;
@@ -1088,17 +1086,19 @@ input[type=radio], input[type=checkbox] {
 .popup-default.error .close, .popup-default.error .close:hover{
     opacity: 1;
 }
+a[class^=lnk-]{
+    line-height: 1px;
+}
 a[class^=lnk-] i{
     color: #777474;
-    margin: 5px;
 }
-.lnk-edit:hover i{
+.lnk-icon i:hover, .lnk-icon i:focus{
     color: #363636;
 }
-.lnk-copy:hover i{
+.lnk-copy:hover i, .lnk-copy:focus i{
     color: #13a749;
 }
-.lnk-delete:hover i{
+.lnk-delete:hover i, .lnk-delete:focus i{
     color: #f00;
 }
 figure[class^=figure-]{
