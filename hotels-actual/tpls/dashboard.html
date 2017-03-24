@@ -1,0 +1,128 @@
+<div class="lwrap narrow">
+    <section class="hdr-page" data-flex="axis">
+        <div data-flex="-center w">
+            <time class="title-page">March 23, 2017</time>
+            <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
+        </div>
+        <div class="btns" data-flex="end w">
+            <button><span class="btn btn-default narrow" data-tooltip="Print"><i class="fa fa-print"></i></span></button>
+            <button><span class="btn btn-default narrow" data-tooltip="Refresh"><i class="fa fa-refresh"></i></span></button>
+            <span><a href="/" class="btn btn-green">create new reservation</a></span>
+        </div>
+    </section>
+    <section class="dashboard-stat" data-flex="stripe" data-childs="stripe w">
+        <div class="panel panel-default arrivals">
+            <div class="details"><span class="value">0</span></div>
+            <div><i class="fa fa-bell-o"></i></div>
+            <h2>arrivals</h2>
+        </div>
+        <div class="panel panel-default departures">
+            <div class="details"><span class="value">0</span></div>
+            <div><i class="fa fa-sign-out"></i></div>
+            <h2>departures</h2>
+        </div>
+        <div class="panel panel-default rooms-occupied">
+            <div class="details"><span class="value">0</span></div>
+            <div class="lbl lbl-stat"><div>0</div><div>%</div></div>
+            <h2>rooms occupied</h2>
+        </div>
+    </section>
+    <section data-flex="stripe w">
+        <div class="panel panel-default panel-half">
+            <div class="panel-title blue" data-flex="axis">
+                <span>reservations</span>
+                <div>
+                    <a href="/" data-tooltip="Refresh"><i class="fa fa-refresh"></i></a>
+                    <a href="/" data-tooltip="Print"><i class="fa fa-print"></i></a>
+                </div>    
+            </div>
+            <div class='panel-body'>
+                <div class="tabs tabs-default" data-tabs="">
+                    <div class="tablist">
+                        <a href="#tab1-1" class="active">Arrivals</a>
+                        <a href="#tab1-2">Departures</a>
+                        <a href="#tab1-3">Stayovers</a>
+                        <a href="#tab1-4">In-House Guests</a>
+                    </div>
+                    <div class="tabset">
+                        <a href="#tab1-1" class="active">Arrivals</a>
+                        <div id="tab1-1" class="tabpanel active">
+                            <div class="tabs tabs-sub" data-tabs="">
+                                <div class="tablist">
+                                    <a href="#tab3-1" class="active">Today</a>
+                                    <a href="#tab3-2">Tomorrow</a>
+                                </div>
+                                <div class="tabset">
+                                    <a href="#tab3-1" class="active">Today</a>
+                                    <div id="tab3-1" class="tabpanel active">Tab number 1</div>
+                                    <a href="#tab3-2">Tomorrow</a>
+                                    <div id="tab3-2" class="tabpanel">Tab number 2</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#tab2-2">Departures</a>
+                        <div id="tab1-2" class="tabpanel">Tab number 2</div>
+                        <a href="#tab1-3">Stayovers</a>
+                        <div id="tab1-3" class="tabpanel">Tab number 3</div>
+                        <a href="#tab1-4">In-House Guests</a>
+                        <div id="tab1-4" class="tabpanel">Tab number 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default panel-half">
+            <div class="panel-title blue" data-flex="axis">
+                <span>today's activity</span>
+                <div>
+                    <a href="/" data-tooltip="Refresh"><i class="fa fa-refresh"></i></a>
+                </div>  
+            </div>
+            <div class='panel-body'>
+                <div class="tabs tabs-default" data-tabs="">
+                    <div class="tablist">
+                        <a href="#tab2-1" class="active">Sales</a>
+                        <a href="#tab2-2">Cancellations</a>
+                        <a href="#tab2-3">Overbookings</a>
+                    </div>
+                    <div class="tabset">
+                        <a href="#tab2-1" class="active">Sales</a>
+                        <div id="tab2-1" class="tabpanel active">Tab number 1</div>
+                        <a href="#tab2-2">Cancellations</a>
+                        <div id="tab2-2" class="tabpanel">Tab number 2</div>
+                        <a href="#tab2-3">Overbookings</a>
+                        <div id="tab2-3" class="tabpanel">Tab number 3</div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="panel panel-default outlook">
+            <div class="panel-title blue" data-flex="axis">
+                <span>14 day outlook</span>
+                <div>
+
+                </div>
+            </div>
+            <div class='panel-body'>
+                <div data-flex="axis">
+                    <div class="details" data-flex>
+                        <div>
+                            <div class="value">0,00%</div>
+                            <span class="designation">rooms occupied &nbsp;</span>
+                        </div>
+                        <div>
+                            <div class="value">$ 0,00</div>
+                            <span class="designation">revenue &nbsp;</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span><a href="/" class="btn btn-default"><i class="fa fa-calendar"></i><time>march 23rd, 2017</time>&nbsp;-&nbsp;<time>april 5th, 2017</time></a></span>
+                    </div>
+                </div>
+                <div>
+                    <canvas></canvas>
+                    <div><span class="lbl lbl-danger"></span><span>High Occupancy</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

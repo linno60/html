@@ -1,0 +1,140 @@
+/* 
+    Created on : 23.03.2017, 9:57:15
+    Author     : Ivan
+*/
+
+/*COMMON*/
+.wrap{
+    height: 100%;
+    background: url(/images/icons/search.png)
+}
+.wrap > div{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.lwrap{
+    max-width: 1850px;
+    padding: 0 10px;
+}
+.lwrap.narrow{
+    max-width: 1300px;
+}
+.subtitle{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 10px;
+    background: #f5f5f5;
+    flex-shrink: 0;
+}
+footer .logged{
+    color: #545454;
+}
+footer *:not(.logged) *{
+    font-size: 13px;
+}
+.logo + a{
+    font-weight: 600;
+}
+
+/*HDR-PAGE*/
+.hdr-page{
+    padding: 17.5px 0;
+}
+.hdr-page .btns .btn{
+    margin: 5px 0 5px 10px;
+}
+
+/*PANELS*/
+.panel{  
+    border-radius: 2px;
+    margin-bottom: 40px;
+    width: 100%;
+    background: white;
+}
+.panel-alt{
+    border: 1px solid #d8d8d8;
+}
+.panel-default{
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.1);
+}
+.panel-half{
+        width: 48.83%;
+}
+.panel-body{
+    padding: 10px;
+}
+.panel-alt .panel-body{
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #e5e5e5;
+}
+.panel-alt .panel-ftr{
+    background: #f5f5f5;
+    padding: 10px;
+}
+.panel-ftr .btn{
+    margin-left: 10px;
+}
+
+/*DASHBOARD-STAT*/
+.dashboard-stat .panel{
+    padding: 10px;
+    width: 31.7%;
+    margin-bottom: 15px;
+}
+.dashboard-stat h2{
+    width: 100%;
+    font-weight: 700;
+    color: #363636;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 7px 0 0 4px;
+}
+.details .value{
+    font-size: 24px;
+}
+.dashboard-stat .fa{
+    font-size: 30px;
+    color: #ccc;
+    margin-top: 5px;
+}
+.dashboard-stat .details{
+    margin: 4px;
+    line-height: 31px;
+}
+.arrivals .details .value{
+    color: #00d9c3;
+}
+.departures .details .value{
+    color: #ea4c00;
+}
+.details .value{
+    color: #24aae3;
+}
+.details .designation{
+    font-weight: 700;
+    color: #363636;
+    text-transform: uppercase;
+}
+
+.outlook .btn-default{
+    font-size: 14px;
+    min-width: 390px;
+}
+.outlook .details > div{
+    padding: 15px;
+}
+.outlook .details .value{
+    margin-bottom: 5px;
+}
+
+/*RESERVATIONS*/
+.reservations fieldset{
+    margin-right: 20px;
+}
