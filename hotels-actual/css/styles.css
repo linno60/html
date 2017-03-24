@@ -24,6 +24,9 @@
     padding: 20px 0;
     margin-bottom: 20px;
 }
+.subtitle p + p{
+    margin-top: 10px;
+}
 
 /*FOOTER*/
 footer{

@@ -1,6 +1,6 @@
-MFD_baserates = {
+MFD_availabilitymatrix = {
     settings: {
-        name: 'baserates',
+        name: 'availabilitymatrix',
         layout: 'main'
     },
     init: function () {
@@ -10,3 +10,4 @@ MFD_baserates = {
 
     }
 };
+
