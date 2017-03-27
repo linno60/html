@@ -1,9 +1,211 @@
 <div class="lwrap">
-    <section class="hdr-page" data-flex="axis">
+    <section class="hdr-page">
         <div data-flex="-center">
             <h2 class="title-page">Avalability Matrix</h2>
         </div>
-        <div>   
-        </div>
+    </section>
+    <section>
+        <div class="tabs tabs-alt" data-tabs>
+            <div class="tablist">
+                <a href="#tab1-1" class="active">Rates and Availability</a>
+                <a href="#tab1-2">Logs</a>
+            </div>
+            <div class="tabset">
+                <a href="#tab1-1" class="active">Rates and Availability</a>
+                <div id="tab1-1" class="tabpanel active">
+                    <div class="subtitle">
+                        <p>Manage your rates, availability, and restrictions below. You can use the "Long Term Interval" button to update multiple dates and room types at the same time, or click within the table to update one day at a time.</p>
+                    </div>
+                    <div data-flex="axis w">
+                        <div class="btns-group left" data-flex='-center w'>
+                            <span><a href="/" class="btn btn-green">+ long-term interval</a></span>
+                            <form action="#" method="post" data-flex='-center w'>
+                                <p>
+                                    <span data-tooltip='Enabling overbookings will allow you to sell a higher quantity of accommodations than you have available. If enabled, the quantity sold can exceed 100% occupancy.'>
+                                        <i class="fa fa-question-circle"></i>
+                                    </span>
+                                    Allow Overbookings (Not Recommended For Most Properties)                                            
+                                </p>
+                                <input class="radio-btn" id="radio1" type="radio" name="allowOverbooking" checked=""> 
+                                <label for="radio1">Yes</label>
+                                <input class="radio-btn" id="radio2" type="radio" name="allowOverbooking">
+                                <label for="radio2">No</label>
+                            </form>
+                        </div>
+                        <div class="btns-group right">
+                            <a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-title blue">
+                            <span>intervals</span>   
+                        </div>
+                        <div class='panel-body'>
+                            <form action='#' method='post' data-flex='axis'>
+                                <div>
+                                    <label class='btn btn-default'><input type="text" class="datepicker">today<i class='fa fa-calendar'></i></label>
+                                </div>
+                                <div class='legends'>
+                                    <span class='weekend'>Weekend</span>
+                                    <span class='closed'>Closed</span>
+                                    <span class='modify'>Modified</span>
+                                    <span class='potential-overbooked'>Potential Overbooking Day</span>
+                                    <span class='already-overbooked'>Overbooked</span>
+                                    <span class='derived'>Derived Rate Plan</span>
+                                </div>
+                                <div data-flex='-center end'>
+                                    <label for="availability1">Display Options</label>
+                                    <button id="availability1"><span class="btn btn-default btn-dropdown selected"><span>8 of 9 selected</span><i class="fa fa-angle-down"></i></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <a href="#tab1-2">Logs</a>
+                <div id="tab1-2" class="tabpanel">
+                    <div class="panel panel-default">
+                        <div class="panel-title blue">
+                            <span>logs</span>   
+                        </div>
+                        <div class='panel-body'>
+                            <div class="filter-table" data-flex="end -center">
+                                <span>
+                                    <span class="filter-info">Showing 1 to 46 of 46 entries</span> | View 
+                                    <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
+                                    at a time
+                                </span>
+                            </div>
+                            <table class='table table-bordered-tr table-striped-th'>
+                                <thead>
+                                    <tr>
+                                        <th>User / Date / Time</th>
+                                        <th>Start Date</th>
+                                        <th>End Date</th>
+                                        <th>Room Types</th>
+                                        <th>Changes Made</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <time>02/02/2017 09:41</time>
+                                            <span>System</span>
+                                        </td>
+                                        <td>
+                                            <time>02/02/17</time>
+                                            <time>02/02/17</time>
+                                        </td>
+                                        <td>
+                                            <time>04/02/17</time>
+                                            <time>04/02/17</time>
+                                        </td>
+                                        <td>
+                                            <span>_V_</span>
+                                            <span>Luxory!</span>
+                                        </td>
+                                        <td>
+                                            <span>Min LOS(1->2)</span>
+                                            <span>Min LOS(1->2)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <time>02/02/2017 09:41</time>
+                                            <span>System</span>
+                                        </td>
+                                        <td>
+                                            <time>02/02/17</time>
+                                            <time>02/02/17</time>
+                                        </td>
+                                        <td>
+                                            <time>04/02/17</time>
+                                            <time>04/02/17</time>
+                                        </td>
+                                        <td>
+                                            <span>_V_</span>
+                                            <span>Luxory!</span>
+                                        </td>
+                                        <td>
+                                            <span>Min LOS(1->2)</span>
+                                            <span>Min LOS(1->2)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <time>02/02/2017 09:41</time>
+                                            <span>System</span>
+                                        </td>
+                                        <td>
+                                            <time>02/02/17</time>
+                                            <time>02/02/17</time>
+                                        </td>
+                                        <td>
+                                            <time>04/02/17</time>
+                                            <time>04/02/17</time>
+                                        </td>
+                                        <td>
+                                            <span>_V_</span>
+                                            <span>Luxory!</span>
+                                        </td>
+                                        <td>
+                                            <span>Min LOS(1->2)</span>
+                                            <span>Min LOS(1->2)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <time>02/02/2017 09:41</time>
+                                            <span>System</span>
+                                        </td>
+                                        <td>
+                                            <time>02/02/17</time>
+                                            <time>02/02/17</time>
+                                        </td>
+                                        <td>
+                                            <time>04/02/17</time>
+                                            <time>04/02/17</time>
+                                        </td>
+                                        <td>
+                                            <span>_V_</span>
+                                            <span>Luxory!</span>
+                                        </td>
+                                        <td>
+                                            <span>Min LOS(1->2)</span>
+                                            <span>Min LOS(1->2)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <time>02/02/2017 09:41</time>
+                                            <span>System</span>
+                                        </td>
+                                        <td>
+                                            <time>02/02/17</time>
+                                            <time>02/02/17</time>
+                                        </td>
+                                        <td>
+                                            <time>04/02/17</time>
+                                            <time>04/02/17</time>
+                                        </td>
+                                        <td>
+                                            <span>_V_</span>
+                                            <span>Luxory!</span>
+                                        </td>
+                                        <td>
+                                            <span>Min LOS(1->2)</span>
+                                            <span>Min LOS(1->2)</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 </div>
+<script>
+    $(function () {
+        $(".datepicker").datepicker();
+    });
+</script>

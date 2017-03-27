@@ -1,11 +1,8 @@
 <div class="lwrap">
-    <section class="hdr-page" data-flex="axis">
+    <section class="hdr-page">
         <div data-flex="-center">
             <h2 class="title-page">House Accounts</h2>
             <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
-        </div>
-        <div>
-
         </div>
     </section>
     <section class="subtitle">
@@ -27,19 +24,23 @@
                 <fieldset>
                     <label for="ha2">Sources</label>
                     <div data-flex>
-                        <input id="ha2" class="input-default" type="text">
-                        <span class="lbl lbl-addon"><i class="fa fa-calendar"></i></span>
+                        <input class="input-default datepicker" type="text">
+                        <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
                     </div>
                 </fieldset>
             </form>
         </div>
         <div class="panel-ftr" data-flex="end w">
-            <a href="/" class="btn btn-blue">apply</a>
-            <a href="/" class="btn btn-default">clear</a>
+            <div class='btns-group right'>
+                <a href="/" class="btn btn-blue">apply</a>
+                <a href="/" class="btn btn-default">clear</a> 
+            </div>
         </div>
     </section>
     <section>
-        <div class="btns" data-flex><span><a href="/" class="btn btn-green"><i class="fa fa-plus"></i>new house account</a></span></div>
+        <div class="btns-group left" data-flex='w'>
+            <span><a href="/" class="btn btn-green"><i class="fa fa-plus"></i>new house account</a></span>
+        </div>
         <div class="panel panel-default">
             <div class="panel-title blue-dark"><span>house account</span><div></div></div>
             <div class='panel-body'>
@@ -64,37 +65,37 @@
                             <td>Open</td>
                             <td><a href="/" class="underline-act">1 new house</a></td>
                             <td><time>12/10/2015</time></td>
-                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                            <td class="center"><a href="/" class="lnk-edit" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
                         </tr>
                         <tr>
                             <td>Open</td>
                             <td><a href="/" class="underline-act">23232</a></td>
                             <td><time>19/08/2016</time></td>
-                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                            <td class="center"><a href="/" class="lnk-edit" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
                         </tr>
                         <tr>
                             <td>Open</td>
                             <td><a href="/" class="underline-act">alex</a></td>
                             <td><time>20/12/2016</time></td>
-                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                            <td class="center"><a href="/" class="lnk-edit" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
                         </tr>
                         <tr>
                             <td>Open</td>
                             <td><a href="/" class="underline-act">July</a></td>
                             <td><time>08/07/2015</time></td>
-                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                            <td class="center"><a href="/" class="lnk-edit" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
                         </tr>
                         <tr>
                             <td>Open</td>
                             <td><a href="/" class="underline-act">New acc</a></td>
                             <td><time>01/03/2016</time></td>
-                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                            <td class="center"><a href="/" class="lnk-edit" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
                         </tr>
                         <tr>
                             <td>Closed</td>
                             <td><a href="/" class="underline-act">ии</a></td>
                             <td><time>29/01/2015</time></td>
-                            <td class="edit"><a href="/" class="lnk-icon" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
+                            <td class="center"><a href="/" class="lnk-edit" data-tooltip="Edit"><i class="fa fa-pencil"></i></a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -102,3 +103,9 @@
         </div>
     </section>
 </div>
+<script>
+    $(".datepicker").datepicker({
+        showOn: "both",
+        buttonText: ""
+    });
+</script>

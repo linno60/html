@@ -21,6 +21,10 @@ a:active, a:hover, a:focus{
 p{
     line-height: 20px;
 }
+h4{
+    font-size: 17px;
+    font-weight: 600;
+}
 .underline, .underline-act:active, .underline-act:hover, .underline-act:focus{
     text-decoration: underline;
 }
@@ -45,8 +49,8 @@ p{
 .hidden{
     display: none;
 }
-.status{
-    color: #079049;
+.center{
+    text-align: center;
 }
 
 /* ICONS */
@@ -107,11 +111,21 @@ p{
     margin: 5px;
 }
 .lbl-addon{ 
-    width: 39px;
-    height: 34px;
     background: #e5e5e5;
     color: #555;
-    font-size: 14px;
+    font-size: 14px;    
+}
+.lbl-addon, .ui-datepicker-trigger{ 
+    width: 39px;
+    height: 34px;   
+}
+.ui-datepicker-trigger{
+    position: relative;
+    z-index: 1;
+    cursor: default;
+}
+.ui-datepicker-trigger + .lbl-addon{
+    margin-left: -39px;
 }
 .lbl-tag{
     height: 26px; 
@@ -195,6 +209,9 @@ p{
 .btn-blue.active, .btn-blue:active, .btn-blue:hover, .btn-blue:focus{
     background: #2386ca;
 }
+.btn-darkblue{
+    background: #166f9d;
+}
 .btn-red{
     background: #ba4644;
 }
@@ -268,6 +285,15 @@ p{
 }
 .btn-dropdown{
     justify-content: space-between;
+}
+.btn.rect{
+    border-radius: 0;
+}
+.btn > .datepicker{
+    width: 0;
+    height: 100%;
+    border: none;
+    transform: translateX(-14px);
 }
 
 /*LINKS*/
@@ -508,6 +534,9 @@ input[type=number]::-webkit-outer-spin-button {
     height: 34px;
     padding: 0 12px;   
 }
+.input-default.datepicker{
+    width: 96px;
+}
 .input-default, .textarea-default{
     border: 1px solid #e5e5e5;
     transition: border-color ease-in-out .15s;
@@ -736,6 +765,9 @@ input[type=radio], input[type=checkbox] {
 .empty-table{
     text-align: center;
 }
+.table span.green{
+    color: #079049;
+}
 /*table bordered*/
 .table-bordered{
     border: 1px solid #ddd;
@@ -814,6 +846,9 @@ input[type=radio], input[type=checkbox] {
 
 /*TABS*/
 /*tabs-default*/
+.tablist > a{
+    font-size: 13px;
+}
 .tabs-default > .tablist{
     background: #f8f8f8;
     border: 1px solid #e7e7e7;
@@ -833,15 +868,22 @@ input[type=radio], input[type=checkbox] {
     background: #eee;
 }
 /*tabs-alt*/
+.tabs-alt .tablist{
+    border-bottom: 1px solid #eee;
+}
 .tabs-alt .tablist > a{
     height: 38px;
     margin-bottom: 4px;
+    color: #737373;
 }
 .tabs-alt .tablist > a + a{
     margin-left: 2px;
 }
 .tabs-alt .tablist > a.active, .tabs-alt .tablist > a.active:hover{
-    box-shadow: 0 4px 0 0 #f3565d;
+    box-shadow: 0 4px 0 0 #f3565d;    
+}
+.tabs-alt .tablist > a.active, .tabs-alt .tablist > a:hover{
+    color: #333;
 }
 .tabs-alt .tablist > a:hover{
     box-shadow: 0 4px 0 0 #fbcdcf;
@@ -893,7 +935,7 @@ input[type=radio], input[type=checkbox] {
 .tabs-vertical .tablist > a > i{
     margin-left: 3px;
 }
-.tabpanel{
+.tabs-default > .tabset > .tabpanel{
     animation: fadeIn .15s linear;
 }
 @-webkit-keyframes fadeIn {
@@ -1005,7 +1047,7 @@ input[type=radio], input[type=checkbox] {
     padding: 10.5px;
 }
 .panel-title > * i.fa{
-    margin-right: 3px;
+    margin: 3px;
 }
 .panel-title a{
     margin-left: 5px;
@@ -1051,6 +1093,7 @@ input[type=radio], input[type=checkbox] {
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
+    z-index: 10;
 }
 [data-tooltip]:before {
     content: attr(data-tooltip);
@@ -1122,11 +1165,12 @@ input[type=radio], input[type=checkbox] {
 }
 a[class^=lnk-]{
     line-height: 1px;
+    margin: 5px;
 }
 a[class^=lnk-] i{
     color: #777474;
 }
-.lnk-icon i:hover, .lnk-icon i:focus{
+.lnk-edit i:hover, .lnk-edit i:focus{
     color: #363636;
 }
 .lnk-copy:hover i, .lnk-copy:focus i{
