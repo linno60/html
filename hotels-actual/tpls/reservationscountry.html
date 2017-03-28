@@ -1,16 +1,168 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<div class="lwrap">
+    <section class="hdr-page">
+        <h2 class="title-page">Reports <small>/ Reservations By Country</small></h2>
+    </section>
+    <section>
+        <div class="panel panel-default">
+            <div class="panel-title blue">
+                <span>revservations by location</span>
+            </div>
+            <div class='panel-body map-wrap' data-flex>
+                <div class="map">
+                    <div id="chartdiv"></div>
+                </div>
+                <div class="locations">
+                    <div class="hdr" data-flex="axis">
+                        <h3 class="uppercase">top 10 locations</h3>
+                        <div>
+                            <input class="check-btn" id="allcountries" type="checkbox" name="countries">
+                            <label for="allcountries">Show all countries</label>
+                        </div>
+                    </div>
+                    <div class="tabs tabs-alt" data-tabs="">
+                        <div class="tablist">
+                            <a href="#tab1-1" class="active">Today</a>
+                            <a href="#tab1-2">This Week</a>
+                            <a href="#tab1-3">This Month</a>
+                            <a href="#tab1-4">All-Time</a>
+                            <a href="#tab1-5" class="datepicker-wrap"><i class="fa fa-calendar"></i>Custom<input type="text" class="datepicker"></a>
+                        </div>
+                        <div class="tabset">
+                            <a href="#tab1-1" class="active">Today</a>
+                            <div id="tab1-1" class="tabpanel active">
+                                <table class="table table-bordered-tr">
+                                    <thead class="uppercase">
+                                        <tr>
+                                            <th>country</th>
+                                            <th>%</th>
+                                            <th>reservations</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="3" class="center">None available</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="#tab1-2">This Week</a>
+                            <div id="tab1-2" class="tabpanel">
+                                <table class="table table-bordered-tr">
+                                    <thead class="uppercase">
+                                        <tr>
+                                            <th>country</th>
+                                            <th>%</th>
+                                            <th>reservations</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="3" class="center">None available</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="#tab1-3">This Month</a>
+                            <div id="tab1-3" class="tabpanel">
+                                <table class="table table-bordered-tr">
+                                    <thead class="uppercase">
+                                        <tr>
+                                            <th>country</th>
+                                            <th>%</th>
+                                            <th>reservations</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Taiwan</td>
+                                            <td>50%</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ukraine</td>
+                                            <td>50%</td>
+                                            <td>1</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="#tab1-4">All-Time</a>
+                            <div id="tab1-4" class="tabpanel">
+                                <table class="table table-bordered-tr">
+                                    <thead class="uppercase">
+                                        <tr>
+                                            <th>country</th>
+                                            <th>%</th>
+                                            <th>reservations</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Brazil</td>
+                                            <td>55.99%</td>
+                                            <td>318</td>
+                                        </tr>
+                                        <tr>
+                                            <td>United States</td>
+                                            <td>14.08%</td>
+                                            <td>80</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Canada</td>
+                                            <td>6.51%</td>
+                                            <td>37</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Afganistan</td>
+                                            <td>5.63%</td>
+                                            <td>32</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ukraine</td>
+                                            <td>4.58%</td>
+                                            <td>26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Aland Islands</td>
+                                            <td>4.05%</td>
+                                            <td>23</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Abania</td>
+                                            <td>3.52%</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Algeria</td>
+                                            <td>2.82%</td>
+                                            <td>16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Finland</td>
+                                            <td>1.41%</td>
+                                            <td>8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Angola</td>
+                                            <td>1.41%</td>
+                                            <td>8</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="#tab1-5">Custom</a>
+                            <div id="tab1-5" class="tabpanel">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    $(function () {
+        $('.datepicker').daterangepicker();
+    });
+</script>

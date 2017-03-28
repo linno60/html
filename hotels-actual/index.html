@@ -3,11 +3,20 @@
     <head>
         <title>Hotels</title>
         <link rel="shortcut icon" href="images/icons/cash.png" type="image/png">
+        <!--reset-->
         <link rel="stylesheet" href="css/reset.css"> 
-        <link rel="stylesheet" href="css/reset-elements.css">
-        <link rel="stylesheet" href="js/jquery/jquery-ui-1.12.1/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/reset-elements.css">   
+        <!--jquery ui-->
+        <link rel="stylesheet" href="js/jquery/jquery-ui-1.12.1/jquery-ui.min.css">     
+        <!--map-->
+        <link rel="stylesheet" href="js/plugins/ammap_3.21.0.free/ammap/plugins/export/export.css">
+        <!--daterangepicker-->        
+        <link rel="stylesheet" href="js/jquery/plugins/bootstrap-daterangepicker-master/daterangepicker.css">   
+        <!--flex-->
         <link rel="stylesheet" href="css/data-flex.css"> 
+        <!--tabs-->
         <link rel="stylesheet" href="css/data-tabs.css"> 
+        <!--styles-->
         <link rel="stylesheet" href="css/elements.css"> 
         <link rel="stylesheet" href="css/styles.css">
     </head>
@@ -15,11 +24,25 @@
 
         <div id="MFD" class="wrap" data-flex="col"><!-- MFD APP HOLDER --></div>
 
-        <script src="js/jquery/jquery-2.1.4.min.js"></script>
+        <!--jquery-->
+        <script src="js/jquery/jquery-2.1.4.min.js"></script>       
         <script src="js/jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <!--daterangepicker-->        
+        <script src="js/jquery/plugins/bootstrap-daterangepicker-master/moment.js"></script>        
+        <script src="js/jquery/plugins/bootstrap-daterangepicker-master/daterangepicker.js"></script>   
+        <!--tabs-->
         <script src="js/jquery/plugins/tabs-accordions.js"></script>
+        <!--scroll-->
         <script src="js/jquery/plugins/jQuery-slimScroll-1.3.8/jquery.slimscroll.min.js"></script>
+        <!--map-->
+        <script src="js/plugins/ammap_3.21.0.free/ammap/ammap.js"></script>
+        <script src="js/plugins/ammap_3.21.0.free/ammap/maps/js/worldLow.js"></script>
+        <script src="js/plugins/ammap_3.21.0.free/ammap/plugins/export/export.min.js"></script>
+        <script src="js/plugins/ammap_3.21.0.free/ammap/themes/light.js"></script>
+        <script src="js/map.js"></script>
+        <!--controller-->
         <script src="js/app/controller.js"></script>
+        <!--modules main-->
         <script src="js/app/modules/dashboard.js"></script>
         <script src="js/app/modules/calendar.js"></script>
         <script src="js/app/modules/reservations.js"></script>
@@ -34,6 +57,33 @@
         <script src="js/app/modules/channelproduction.js"></script>
         <script src="js/app/modules/reservationsrateplan.js"></script>
         <script src="js/app/modules/reservationscountry.js"></script>
+        <script src="js/app/modules/payoutcomission.js"></script>
+        <script src="js/app/modules/transactions.js"></script>
+        <script src="js/app/modules/dailyfinancial.js"></script>
+        <script src="js/app/modules/adjustments.js"></script>
+        <script src="js/app/modules/paymentledger.js"></script>
+        <script src="js/app/modules/accountbalances.js"></script>
+        <script src="js/app/modules/cashier.js"></script>
+        <script src="js/app/modules/arrivals.js"></script>
+        <script src="js/app/modules/departures.js"></script>
+        <script src="js/app/modules/inhouse.js"></script>
+        <script src="js/app/modules/noshow.js"></script>
+        <script src="js/app/modules/cancellations.js"></script>
+        <script src="js/app/modules/roomassignments.js"></script>
+        <script src="js/app/modules/notes.js"></script>
+        <script src="js/app/modules/paymentreconcillation.js"></script>
+        <script src="js/app/modules/userreconciliation.js"></script>
+        <script src="js/app/modules/dailyrevenue.js"></script>
+        <script src="js/app/modules/roommove.js"></script>
+        <script src="js/app/modules/tax.js"></script>
+        <script src="js/app/modules/police.js"></script>
+        <script src="js/app/modules/paymentprocessing.js"></script>
+        <script src="js/app/modules/cashdrawer.js"></script>
+        <script src="js/app/modules/housekeeping.js"></script>
+        <script src="js/app/modules/manage.js"></script>
+        <script src="js/app/modules/gethelp.js"></script>
+        <script src="js/app/modules/user.js"></script>
+        <!--modules settings-->
         <script>
             $(function () {
                 MFD_controller.init();

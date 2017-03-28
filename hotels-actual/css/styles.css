@@ -114,7 +114,6 @@ footer *:not(.logged) *{
     color: #363636;
     font-size: 16px;
     line-height: 20px;
-    text-transform: uppercase;
     margin: 7px 0 0 4px;
 }
 .dashboard-stat .fa{
@@ -132,7 +131,6 @@ footer *:not(.logged) *{
 .details .designation{
     font-weight: 700;
     color: #363636;
-    text-transform: uppercase;
 }
 .details .value.cyan{
     color: #00d9c3;
@@ -214,4 +212,41 @@ footer *:not(.logged) *{
 .legends .derived:before{
     content: "\f02b";
     color: #e7652b;
+}
+
+/*MAP*/
+.panel-body.map-wrap{
+    padding: 0;
+}
+.map-wrap .map{
+    width: 67%;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+.map-wrap .locations{
+    width: 33%;
+}
+.locations .hdr{
+    padding: 10px;
+}
+#chartdiv {
+    width: 100%;
+    height: 500px;
+}
+.datepicker-wrap{
+    position: relative;
+}
+.datepicker-wrap > .datepicker{
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 4px);
+    top: 0;
+    left: 0;
+    background: none;
+    border: none;
+    color: transparent;
+    cursor: pointer;
+}
+.daterangepicker{
+    display: none;
 }

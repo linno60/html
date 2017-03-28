@@ -762,9 +762,6 @@ input[type=radio], input[type=checkbox] {
 .table > tbody > tr.warning, .table > tbody > tr.warning:nth-child(odd) {
     background: #fcf8e3;
 }
-.empty-table{
-    text-align: center;
-}
 .table span.green{
     color: #079049;
 }
@@ -848,6 +845,7 @@ input[type=radio], input[type=checkbox] {
 /*tabs-default*/
 .tablist > a{
     font-size: 13px;
+    position: relative;
 }
 .tabs-default > .tablist{
     background: #f8f8f8;

@@ -9,4 +9,4 @@ MFD_reservationsrateplan = {
     destroy: function() {
         
     }
-};SS
+};

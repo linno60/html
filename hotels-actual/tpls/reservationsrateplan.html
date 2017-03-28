@@ -1,16 +1,136 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<div class="lwrap">
+    <section class="hdr-page" data-flex="axis">
+        <div data-flex="-center">
+            <h2 class="title-page">Reports <small>/Revenue per available rooms</small></h2>
+            <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
+        </div>
+        <div class="btns-group right" data-flex="end w">
+            <span><a href="/" class="btn btn-green"><i class="fa fa-envelope"></i>email</a></span>
+            <span><a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a></span>
+        </div>
+    </section>
+    <section class="panel panel-alt">
+        <div class="panel-title"><span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span></div>
+        <div class="panel-body">
+            <form action="#" method="post" data-flex="-center w">
+                <fieldset>
+                    <label for="revpar1">Year</label>
+                    <button id="revpar1"><span class="btn btn-default btn-dropdown">2017<i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset><i class="fa fa-arrows-h"></i></fieldset>
+                <fieldset>
+                    <label for="revpar2">Compare with</label>
+                    <button id="revpar2"><span class="btn btn-default btn-dropdown">year<i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="revpar3">Period</label>
+                    <div data-flex>
+                        <input class="input-default datepicker" id="revpar3" type="text">
+                        <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="revpar4">&nbsp;</label>
+                    <div data-flex>
+                        <input class="input-default datepicker" id="revpar4" type="text">
+                        <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="revpar5">Room types</label>
+                    <button id="revpar5"><span class="btn btn-default btn-dropdown selected"><span>all room types</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="revpar6">Sources</label>
+                    <button id="revpar6"><span class="btn btn-default btn-dropdown selected"><span>select all channels</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="panel-ftr" data-flex="end w">
+            <div class="btns-group right">
+                <span><a href="/" class="btn btn-blue">apply</a></span>
+                <span><a href="/" class="btn btn-default">clear</a></span>  
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="panel panel-default">
+            <div class="panel-title blue">
+                <span>revenue per available rooms</span>
+            </div>
+            <div class='panel-body'>
+                <div data-flex="end w">
+                    <div class="filter-table" data-flex="end -center">
+                        <span>
+                            <span class="filter-info">Showing 1 to 6 of 6 entries</span> | View 
+                            <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
+                            at a time
+                        </span>
+                    </div>
+                    <div class="pagination-number" data-flex="-center end">
+                        <span>Page</span>
+                        <div data-flex="-end">
+                            <span class="disabled"><span class="btn btn-default"><i class="fa fa-angle-left"></i></span></span>
+                            <input class="input-default paginate" type="text" value="0">
+                            <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                        </div>
+                        <span>of 7</span>
+                    </div>
+                </div>
+                <table class="table table-bordered-tr">
+                    <thead>
+                        <tr>
+                            <th>Reservation Number</th>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>Arrival Date</th>
+                            <th>Departure Date</th>
+                            <th>Room Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>6379041803</td>
+                            <td><a href="/" class="underline-act">Alona</a></td>
+                            <td><a href="/" class="underline-act">1</a></td>
+                            <td>01/03/2015</td>
+                            <td>07/05/2015</td>
+                            <td>Luxory!</td> 
+                        </tr>
+                        <tr>
+                            <td>6379041803</td>
+                            <td><a href="/" class="underline-act">Alona</a></td>
+                            <td><a href="/" class="underline-act">1</a></td>
+                            <td>01/03/2015</td>
+                            <td>07/05/2015</td>
+                            <td>Luxory!</td> 
+                        </tr>
+                        <tr>
+                            <td>6379041803</td>
+                            <td><a href="/" class="underline-act">Alona</a></td>
+                            <td><a href="/" class="underline-act">1</a></td>
+                            <td>01/03/2015</td>
+                            <td>07/05/2015</td>
+                            <td>Luxory!</td> 
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination-number" data-flex="-center end">
+                    <span>Page</span>
+                    <div data-flex="-end">
+                        <span class="disabled"><span class="btn btn-default"><i class="fa fa-angle-left"></i></span></span>
+                        <input class="input-default paginate" type="text" value="0">
+                        <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                    </div>
+                    <span>of 7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    $(".datepicker").datepicker({
+        showOn: "both",
+        buttonText: ""
+    });
+</script>
