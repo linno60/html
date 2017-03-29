@@ -1,16 +1,311 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<div class="lwrap">
+    <section class="hdr-page" data-flex="axis">
+        <div data-flex="-center">
+            <h2 class="title-page">Reports <small> /Daily Financial Report</small></h2>
+            <div class="btns-group left" data-flex="w">
+                <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
+                <div class="inputs-group">
+                    <input class="input-default datepicker" type="text">
+                    <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
+                </div>
+            </div>
+        </div>
+        <div class="btns-group right" data-flex="end w">
+            <span><a href="/" class="btn btn-green"><i class="fa fa-envelope"></i>email</a></span>
+            <span><a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a></span>
+        </div>
+    </section>
+    <section data-flex="stripe w">
+        <div class="half">
+            <div class="panel panel-default">
+                <div class="panel-title blue-dark">
+                    <span><i class="fa fa-money"></i>occupancy rate</span>
+                </div>
+                <div class='panel-body'>
+                    <canvas></canvas>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-title blue-dark">
+                    <span><i class="fa fa-money"></i>room revenue</span>
+                </div>
+                <div class='panel-body'>
+                    <table class="table table-bordered table-bordered-td table-bordered-tr table-bordered-th table-striped">
+                        <thead>
+                            <tr class="fontweight-normal">
+                                <th></th>
+                                <th>Today</th>
+                                <th>Month to Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">adr <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">revpar <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">room revenue <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="fontweight-normal">
+                                <td></td>
+                                <td><time>28/03/2017</time></td>
+                                <td><time>March 2017</time></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="half">
+            <div class="panel panel-default">
+                <div class="panel-title blue-dark">
+                    <span><i class="fa fa-money"></i>daily statistics for <time>28/03/2017</time></span>
+                </div>
+                <div class='panel-body'>
+                    <table class="table table-bordered table-bordered-td table-bordered-tr table-bordered-th table-striped">
+                        <thead>
+                            <tr class="fontweight-normal">
+                                <th></th>
+                                <th>Today</th>
+                                <th>Month to Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="uppercase">items & services revenue <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">payments <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">comps <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">walking <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">number of guests <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">check ins <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">check outs <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">avg los <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase">adr per guest <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr class="border-black">
+                                <td class="uppercase fontweight-semibold">no shows <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">blocks <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">adjustments <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr class="border-black">
+                                <td class="uppercase fontweight-semibold">total revenue <i class="fa fa-question-circle"></i></td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="border-black fontweight-normal">
+                                <td></td>
+                                <td><time>28/03/2017</time></td>
+                                <td><time>March 2017</time></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div> 
+            <div class="panel panel-default">
+                <div class="panel-title blue-dark">
+                    <span><i class="fa fa-money"></i>on the books forecast - <time>march 2017</time></span>
+                </div>
+                <div class='panel-body'>
+                    <table class="table table-bordered table-bordered-td table-bordered-tr table-striped">
+                        <tbody>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">total rooms sold <i class="fa fa-question-circle"></i></td>
+                                <td>3 Rooms ($ 0,06%)</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">adr <i class="fa fa-question-circle"></i></td>
+                                <td>$ 0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">revpar <i class="fa fa-question-circle"></i></td>
+                                <td>$ 0</td>
+                            </tr>
+                            <tr>
+                                <td class="uppercase fontweight-semibold">room revenue <i class="fa fa-question-circle"></i></td>
+                                <td>$ 0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div> 
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-title blue-dark">
+                <span><i class="fa fa-money"></i>14 day forecast</span>
+            </div>
+            <div class='panel-body'>
+                <table class="table table-bordered table-bordered-th table-bordered-td table-bordered-tr table-striped">
+                    <thead>
+                        <tr class="fontweight-normal">
+                            <th></th>
+                            <th><time>28/03/2017</time></th>
+                            <th><time>29/03/2017</time></th>
+                            <th><time>30/03/2017</time></th>
+                            <th><time>31/03/2017</time></th>
+                            <th><time>01/04/2017</time></th>
+                            <th><time>02/04/2017</time></th>
+                            <th><time>03/04/2017</time></th>
+                            <th><time>04/04/2017</time></th>
+                            <th><time>05/04/2017</time></th>
+                            <th><time>06/04/2017</time></th>
+                            <th><time>07/04/2017</time></th>
+                            <th><time>08/04/2017</time></th>
+                            <th><time>09/04/2017</time></th>
+                            <th><time>10/04/2017</time></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="uppercase fontweight-semibold">occ</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td class="uppercase fontweight-semibold">adr</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                        </tr>
+                        <tr>
+                            <td class="uppercase fontweight-semibold">revpar</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                        </tr>
+                        <tr>
+                            <td class="uppercase fontweight-semibold">room rev.</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                            <td>$ 0</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="fontweight-normal">
+                            <td></td>
+                            <td><time>28/03/2017</time></td>
+                            <td><time>29/03/2017</time></td>
+                            <td><time>30/03/2017</time></td>
+                            <td><time>31/03/2017</time></td>
+                            <td><time>01/04/2017</time></td>
+                            <td><time>02/04/2017</time></td>
+                            <td><time>03/04/2017</time></td>
+                            <td><time>04/04/2017</time></td>
+                            <td><time>05/04/2017</time></td>
+                            <td><time>06/04/2017</time></td>
+                            <td><time>07/04/2017</time></td>
+                            <td><time>08/04/2017</time></td>
+                            <td><time>09/04/2017</time></td>
+                            <td><time>10/04/2017</time></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    $(function () {
+        $('.datepicker').datepicker();
+    });
+</script>

@@ -1,16 +1,101 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<div class="lwrap">
+    <section class="hdr-page" data-flex="axis">
+        <div data-flex="-center">
+            <h2 class="title-page">Reports <small> /Payment Ledger</small></h2>
+        </div>
+        <div class="btns-group right" data-flex="end w">
+            <span><a href="/" class="btn btn-green"><i class="fa fa-envelope"></i>email</a></span>
+            <span><a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a></span>
+        </div>
+    </section>
+    <section class="panel panel-alt">
+        <input type="checkbox" class="panel-collapse" id="panel-collapse" name="panel-collapse">
+        <label class="panel-title" for="panel-collapse">
+            <span><i class="fa fa-angle-down"></i>filter</span>
+        </label>
+        <div>
+            <div class="panel-body">
+            <form action="#" method="post" data-flex="w">
+                <fieldset>
+                    <label for="paymentledger1">Payment Type <i class="fa fa-question-circle"> </i><mark> * </mark></label>
+                    <button id="paymentledger1"><span class="btn btn-default btn-dropdown"><span>multiple</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="paymentledger2">Payment Date <i class="fa fa-question-circle"> </i></label>
+                    <button id="paymentledger2"><span class="btn btn-default btn-dropdown"><span><time>29/03/2017 - 30/03/2017</time></span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="paymentledger3">Associated Transactions <i class="fa fa-question-circle"> </i><mark> * </mark></label>
+                    <button id="paymentledger3"><span class="btn btn-default btn-dropdown"><span>multiple</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="paymentledger4">Posted / Pending Transactions<i class="fa fa-question-circle"> </i></label>
+                    <button id="paymentledger4"><span class="btn btn-default btn-dropdown"><span>posted, pending</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="paymentledger5">Res #, Room #, Guest Name</label>
+                    <input class="input-default form-underline" id="paymentledger5" type="text" name="paymentledger">
+                </fieldset>
+            </form>
+        </div>
+        <div class="panel-ftr" data-flex="end w">
+            <div class="btns-group right">
+                <span><a href="/" class="btn btn-blue">apply</a></span>
+                <span><a href="/" class="btn btn-default">clear</a></span>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="panel panel-default">
+        <div class="panel-title blue-dark">
+            <span><i class="fa fa-money"></i>payment ledger</span>
+        </div>
+        <div class='panel-body'>
+            <table class="table table-bordered table-bordered-td table-bordered-tr table-striped">
+                <thead class="fontweight-semibold">
+                    <tr>
+                        <th>User</th>
+                        <th>Date/Time</th>
+                        <th>Room</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Res #</th>
+                        <th>Trn. Code</th>
+                        <th>Description</th>
+                        <th>Check-In</th>
+                        <th>Check-Out</th>
+                        <th>Status</th>
+                        <th>Note</th>
+                        <th>QTY</th>
+                        <th>Debit</th>
+                        <th>Credit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="15">None available</td>
+                    </tr>
+                </tbody>
+                <tfoot class="fontweight-semibold">
+                    <tr>
+                        <td>User</td>
+                        <td>Date/Time</td>
+                        <td>Room</td>
+                        <td>Name</td>
+                        <td>Surname</td>
+                        <td>Res #</td>
+                        <td>Trn. Code</td>
+                        <td>Description</td>
+                        <td>Check-In</td>
+                        <td>Check-Out</td>
+                        <td>Status</td>
+                        <td>Note</td>
+                        <td>QTY</td>
+                        <td>Debit</td>
+                        <td>Credit</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+</div>

@@ -14,7 +14,54 @@
         <div class="panel-body">
             <form action="#" method="post" data-flex>
                 <fieldset>
-                    
+                    <label for="transactions1">Res #, Room #, Guest Name, House Account</label>
+                    <input class="input-default form-underline" type="text" id="transactions1" name="transactions" placeholder="Enter Search Terms">
+                </fieldset>
+                <fieldset>
+                    <label for="transactions2">From</label>
+                    <div data-flex id="transactions2">
+                        <div class="inputs-group">
+                            <input class="input-default datepicker" type="text">
+                            <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
+                        </div>
+                        <div class="inputs-group" data-flex>
+                            <input class="input-default datepicker" type="text">
+                            <label class="lbl lbl-addon"><i class="fa fa-clock-o"></i></label>
+                        </div> 
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="transactions3">To</label>
+                    <div data-flex id="transactions3">
+                        <div class="inputs-group">
+                            <input class="input-default datepicker" type="text">
+                            <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
+                        </div>
+                        <div class="inputs-group">
+                            <input class="input-default datepicker" type="text">
+                            <label class="lbl lbl-addon"><i class="fa fa-clock-o"></i></label>
+                        </div> 
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="transactions4">User</label>
+                    <button id="transactions4"><span class="btn btn-default btn-dropdown"><span>all</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="transactions5">Description</label>
+                    <button id="transactions5"><span class="btn btn-default btn-dropdown"><span>multiple</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="transactions6">Group by</label>
+                    <button id="transactions6"><span class="btn btn-default btn-dropdown"><span>none</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="transactions7">Sub-group by</label>
+                    <button id="transactions7"><span class="btn btn-default btn-dropdown"><span>none</span><i class="fa fa-angle-down"></i></span></button>
+                </fieldset>
+                <fieldset>
+                    <label for="transactions8">Adjustments</label>
+                    <button id="transactions8"><span class="btn btn-default btn-dropdown"><span>all</span><i class="fa fa-angle-down"></i></span></button>
                 </fieldset>
             </form>
         </div>
@@ -25,21 +72,56 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="panel panel-default">
-            <div class="panel-title blue-dark">
-                <span><i class="fa fa-money"></i>transactions</span>
-            </div>
-            <div class='panel-body'>
-                <table>
-                    
-                </table>
-            </div>
+    <section class="panel panel-default">
+        <div class="panel-title blue-dark">
+            <span><i class="fa fa-money"></i>transactions</span>
+        </div>
+        <div class='panel-body'>
+            <table class="table table-bordered table-bordered-td table-bordered-tr table-striped">
+                <thead class="fontweight-semibold">
+                    <tr>
+                        <th>User</th>
+                        <th>Date/Time</th>
+                        <th>Room</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Res #</th>
+                        <th>Trn. Code</th>
+                        <th>Description</th>
+                        <th>Check-In</th>
+                        <th>Check-Out</th>
+                        <th>Status</th>
+                        <th>Note</th>
+                        <th>QTY</th>
+                        <th>Debit</th>
+                        <th>Credit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="15">None available</td>
+                    </tr>
+                </tbody>
+                <tfoot class="fontweight-semibold">
+                    <tr>
+                        <td>User</td>
+                        <td>Date/Time</td>
+                        <td>Room</td>
+                        <td>Name</td>
+                        <td>Surname</td>
+                        <td>Res #</td>
+                        <td>Trn. Code</td>
+                        <td>Description</td>
+                        <td>Check-In</td>
+                        <td>Check-Out</td>
+                        <td>Status</td>
+                        <td>Note</td>
+                        <td>QTY</td>
+                        <td>Debit</td>
+                        <td>Credit</td>
+                    </tr>
+                </tfoot>
+            </table>
         </div>
     </section>
 </div>
-<script>
-    $(function () {
-        $('.datepicker').datepicker();
-    });
-</script>

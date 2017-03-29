@@ -31,6 +31,9 @@
 .subtitle.bottom{
     border-bottom: 1px solid #eee;
 }
+.half, .panel.half{
+    width: 48.83%;
+}
 
 /*FOOTER*/
 footer{
@@ -73,9 +76,6 @@ footer *:not(.logged) *{
 .panel-default{
     box-shadow: 0 2px 5px 2px rgba(0,0,0,0.1);
 }
-.panel-half{
-    width: 48.83%;
-}
 .panel-body{
     padding: 10px;
 }
@@ -101,6 +101,53 @@ footer *:not(.logged) *{
 }
 .panel .tabs .slimScrollBar:hover{opacity:1!important;cursor:pointer;}
 .panel .tabs .slimScrollBar, .panel .tabs .slimScrollRail{box-shadow: inset 0 0 0 2px black;}
+.panel-collapse{
+    display: none;
+}
+.panel-collapse ~ div{
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height .35s ease;
+}
+.panel-collapse:checked ~ div{
+    max-height: 0px;
+    transition: max-height .35s ease;
+}
+.panel-collapse:checked + .panel-title i.fa-angle-down{
+    transform: rotate(-90deg);
+}
+.panel-collapse + .panel-title i.fa-angle-down{
+    transition: transform .35s ease;
+}
+
+/*.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.bootstrap-select.btn-group .dropdown-menu li a{
+    width: 100%;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.bootstrap-select{
+    position: relative;
+}*/
 
 /*DASHBOARD*/
 .dashboard-stat .panel{
@@ -249,4 +296,18 @@ footer *:not(.logged) *{
 }
 .daterangepicker{
     display: none;
+}
+
+/*TRANSACTIONS*/
+
+/*inputs-group*/
+.inputs-group{
+    display: flex;
+}
+.inputs-group + .inputs-group{
+    margin-left: 5px;
+}
+.panel-alt fieldset > label{
+    max-width: 200px;
+    height: 22px;
 }

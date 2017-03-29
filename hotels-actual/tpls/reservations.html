@@ -30,7 +30,29 @@
                 </fieldset>
                 <fieldset>
                     <label for="reservations5">Status</label>
-                    <button id="reservations5"><span class="btn btn-default btn-dropdown selected"><span>6 of 6 selected</span><i class="fa fa-angle-down"></i></span></button>
+                    <div class="select-wrap">
+                        <div class="material-click"></div>
+                        <select class="select-list btn-default" name="control_1[]" multiple="multiple" size="5">  
+                            <optgroup label="Optgroup 1">
+                                <option selected="" value="option_1">Option 1</option>
+                                <option selected="" value="option_2">Option 2</option>
+                            </optgroup>
+                            <optgroup label="Optgroup 2">
+                                <option value="option_3">Option 3</option>
+                                <option value="option_4">Option 4</option>
+                                <option value="option_5">Option 5</option>
+                                <option value="option_6">Option 6</option>
+                                <option value="option_7">Option 7</option>
+                                <option value="option_8">Option 8</option>
+                            </optgroup>
+                            <optgroup label="Optgroup 3">
+                                <option value="option_9">Option 9</option>
+                                <option value="option_10">Option 10</option>
+                                <option value="option_11">Option 11</option>
+                                <option value="option_12">Option 12</option>
+                            </optgroup>
+                        </select>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <label for="reservations6">Room Types</label>
@@ -169,3 +191,23 @@
         </div>
     </section>
 </div>
+<script>
+    $(".select-list").ultraselect({selectAll: true, optGroupSelectable: true});
+
+    $('.select').on('click', function (e) {
+        var element, circle, d, x, y;
+        element = $(this);
+        if (element.find(".md-click-circle").length == 0) {
+            element.prepend("<span class='md-click-circle'></span>");
+        }
+        circle = element.find(".md-click-circle");
+        circle.removeClass("md-click-animate");
+        if (!circle.height() && !circle.width()) {
+            d = Math.max(element.outerWidth(), element.outerHeight());
+            circle.css({height: d, width: d});
+        }
+        x = e.pageX - element.offset().left - circle.width() / 2;
+        y = e.pageY - element.offset().top - circle.height() / 2;
+        circle.css({top: y + 'px', left: x + 'px'}).addClass("md-click-animate");
+    });
+</script>

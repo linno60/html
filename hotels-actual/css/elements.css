@@ -52,6 +52,12 @@ h4{
 .center{
     text-align: center;
 }
+.fontweight-normal, .table .fontweight-normal th{
+    font-weight: 400;
+}
+.fontweight-semibold, .table .fontweight-semibold th{
+    font-weight: 600;
+}
 
 /* ICONS */
 .icon-cash {width: 19px; height: 14px; background: url('../images/icons/cash.png');}
@@ -451,17 +457,18 @@ h4{
 /*FORMS*/
 label{
     display: block;
+    line-height: 13px;
+}
+label mark{
+    color: #f13e64;
+}
+label.error, label.error mark{
+    color: #ec113f; 
 }
 .label-form{
     font-weight: 600;
     color: #333;
     cursor: default;
-}
-.label-form mark{
-    color: #f13e64;
-}
-.label-form.error, .label-form.error mark{
-    color: #ec113f; 
 }
 /*form effects*/
 select[class^=select-].form-underline, input[class^=input-].form-underline, textarea[class^=textarea-].form-underline{    
@@ -646,6 +653,7 @@ input[type=radio], input[type=checkbox] {
     padding: 4px 6px;
 }
 /*custom select jquery*/
+/*wSelect*/
 .wSelect-selected{
     padding: 4px 0 5px 20px;
 }
@@ -696,6 +704,85 @@ input[type=radio], input[type=checkbox] {
     padding-bottom: 1px;
     cursor: default;
 }
+/*ultraselect*/
+.ultraselectWrapper {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18); 
+    transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);
+    border-radius: 2px;
+}
+.ultraselectWrapper:active, .ultraselectWrapper:hover, .ultraselectWrapper:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.26);
+}
+.ultraselect .select span.selection {
+    margin: 0;
+}
+.select-list .select:focus{
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.select-list .select:hover, .select-list .select:focus{
+    background-color: lightgray;
+}
+.select-list .select{
+    height: 34px;
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    line-height: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 14px;    
+    cursor: pointer;
+    display: flex;
+    align-items: center;    
+}
+
+.md-click-circle{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
+    height: 150px;
+    width: 150px;
+}
+.md-click-circle.md-click-animate{
+    animation: mdClickEffect .55s linear;
+}
+@keyframes mdClickEffect {
+    0% {opacity: 1;transform: scale(0);}
+    100% {opacity: 0;transform: scale(2.5);}
+}
+.ultraselect .options{
+    overflow: auto;
+    height: auto!important;
+}
+.ultraselect .options label{
+    width: 100%;
+}
+.ultraselect .select span.arrow{
+    width: 20px;
+    height: 10px;
+    top: 10px;
+}
+.ultraselect .select span.arrow b {
+    border-color: transparent;
+}
+.ultraselect .select span.arrow:after{
+    content: "\f107";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
+.ultraselect .select.active, .ultraselect .select.focus {
+    border: none;
+    outline: none;
+}
+.ultraselect input[type=checkbox]:not(old)+label {
+    margin-left: 0;
+}
+
 /*switch*/
 .switch + label {        
     display: inline-block;
@@ -750,11 +837,11 @@ input[type=radio], input[type=checkbox] {
 .table thead{
     border-bottom: 1px solid #ddd;
 }
+.table tfoot{
+    border-top: 1px solid #ddd;
+}
 .table th, .table td{
     padding: 8px 14px;
-}
-.table th{
-    font-weight: 600;
 }
 .table td{
     vertical-align: middle;
@@ -774,6 +861,12 @@ input[type=radio], input[type=checkbox] {
 }
 .table-bordered-tr tr + tr{
     border-top: 1px solid #ddd;
+}
+.table-bordered-th thead th{
+    border-bottom: 2px solid #ddd;
+}
+.table .border-black{
+    border-top: 2px solid #000;
 }
 /*table stripped*/
 .table-striped > tbody > tr:nth-of-type(odd) {
@@ -935,11 +1028,7 @@ input[type=radio], input[type=checkbox] {
 }
 .tabs-default > .tabset > .tabpanel{
     animation: fadeIn .15s linear;
-}
-@-webkit-keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}  
+} 
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
