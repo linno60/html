@@ -1,59 +1,90 @@
 <div class="lwrap">
+
     <section class="hdr-page">
+
         <div data-flex="-center">
             <h2 class="title-page">House Accounts</h2>
             <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
         </div>
+
     </section>
+
     <section class="subtitle">
         <p>On this page, you may create multiple House Accounts, that enable users to register transactions that are not connected to any specific room, guest or reservations.</p>
     </section>
+
     <section class="panel panel-alt">
-        <div class="panel-title">
-            <span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span>
-            <div>
+
+        <input type="checkbox" class="panel-collapse" id="panel-collapse" name="panel-collapse">
+        <label class="panel-title" for="panel-collapse">
+            <span><i class="fa fa-angle-down"></i>filter</span>
+        </label>
+
+        <div> 
+            <div class="panel-body">
+
+                <form action="#" method="post" data-flex="w">
+
+                    <fieldset>
+                        <label for="houseaccount1">Status</label>
+                        <select class="select-all" id="houseaccount1" name="select-all" multiple="multiple">  
+                            <option selected value="Open">Open</option>
+                            <option selected value="Closed">Closed</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="houseaccount2">Sources</label>
+                        <div data-flex>
+                            <input class="input-default datepicker-group" id="houseaccount2" type="text">
+                            <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
+                        </div>
+                    </fieldset>
+
+                </form>
 
             </div>
-        </div>
-        <div class="panel-body">
-            <form action="#" method="post" data-flex>
-                <fieldset>
-                    <label for="ha1">Room Types</label>
-                    <button id="ha1"><span class="btn btn-default btn-dropdown selected"><span>2 of 2 selected</span><i class="fa fa-angle-down"></i></span></button>
-                </fieldset>
-                <fieldset>
-                    <label for="ha2">Sources</label>
-                    <div data-flex>
-                        <input class="input-default datepicker" id="ha2" type="text">
-                        <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <div class="panel-ftr" data-flex="end w">
-            <div class='btns-group right'>
-                <a href="/" class="btn btn-blue">apply</a>
-                <a href="/" class="btn btn-default">clear</a> 
+
+            <div class="panel-ftr">
+                <div class='btns-group right' data-flex="end w">
+                    <a href="/" class="btn btn-blue">apply</a>
+                    <a href="/" class="btn btn-default">clear</a> 
+                </div>
             </div>
+
         </div>
+
     </section>
+
     <section>
+
         <div class="btns-group left" data-flex='w'>
             <span><a href="/" class="btn btn-green"><i class="fa fa-plus"></i>new house account</a></span>
         </div>
+
         <div class="panel panel-default">
-            <div class="panel-title blue-dark"><span>house account</span><div></div></div>
+
+            <div class="panel-title blue-dark"><span>house account</span></div>
+
             <div class='panel-body'>
-                <div class="filter-table" data-flex="end -center">
-                    <span>
-                        <span class="filter-info">Showing 1 to 6 of 6 entries</span> | View 
-                        <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
+
+                <form action="/" method="post" class="filter-table" data-flex="end">
+                    <label for="select-length" data-flex="-center">
+                        <span>Showing 1 to 6 of 6 entries</span> | View 
+                        <select class="select-length" id="select-length" name="select-length">
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                            <option value="250">250</option>
+                        </select>
                         at a time
-                    </span>
-                </div>
+                    </label>
+                </form>
+
                 <table class="table table-bordered table-bordered-td table-bordered-tr table-striped">
                     <thead>
-                        <tr>
+                        <tr class="fontweight-semibold">
                             <th>Status</th>
                             <th>Name</th>
                             <th>Date Created</th>
@@ -99,13 +130,14 @@
                         </tr>
                     </tbody>
                 </table>
+
             </div>
+
         </div>
+
     </section>
+
 </div>
-<script>
-    $(".datepicker").datepicker({
-        showOn: "both",
-        buttonText: ""
-    });
-</script>
+<script src="js/jquery/plugins/datepickers.js"></script>
+<script src="js/jquery/plugins/ultraselect.js"></script>
+<script src="js/jquery/plugins/md-click-circle.js"></script>

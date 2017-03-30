@@ -1,50 +1,71 @@
 <div class="lwrap">
+
     <section class="hdr-page">
         <div data-flex="-center">
             <h2 class="title-page">Avalability Matrix</h2>
         </div>
     </section>
+
     <section>
+
         <div class="tabs tabs-alt" data-tabs>
+
             <div class="tablist">
                 <a href="#tab1-1" class="active">Rates and Availability</a>
                 <a href="#tab1-2">Logs</a>
             </div>
+
             <div class="tabset">
                 <a href="#tab1-1" class="active">Rates and Availability</a>
                 <div id="tab1-1" class="tabpanel active">
-                    <div class="subtitle">
+                    <div class="subtitle bottom">
                         <p>Manage your rates, availability, and restrictions below. You can use the "Long Term Interval" button to update multiple dates and room types at the same time, or click within the table to update one day at a time.</p>
                     </div>
-                    <div data-flex="axis w">
+
+                    <div class="hdr-availability" data-flex="axis">
+
                         <div class="btns-group left" data-flex='-center w'>
+
                             <span><a href="/" class="btn btn-green">+ long-term interval</a></span>
+
                             <form action="#" method="post" data-flex='-center w'>
-                                <p>
+                                <label>
                                     <span data-tooltip='Enabling overbookings will allow you to sell a higher quantity of accommodations than you have available. If enabled, the quantity sold can exceed 100% occupancy.'>
                                         <i class="fa fa-question-circle"></i>
                                     </span>
                                     Allow Overbookings (Not Recommended For Most Properties)                                            
-                                </p>
-                                <input class="radio-btn" id="radio1" type="radio" name="allowOverbooking" checked=""> 
+                                </label>
+                                <input class="radio-btn" id="radio1" type="radio" name="availability" checked=""> 
                                 <label for="radio1">Yes</label>
-                                <input class="radio-btn" id="radio2" type="radio" name="allowOverbooking">
+                                <input class="radio-btn" id="radio2" type="radio" name="availability">
                                 <label for="radio2">No</label>
                             </form>
+
                         </div>
+
                         <div class="btns-group right">
                             <a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a>
                         </div>
+
                     </div>
+
                     <div class="panel panel-default">
+
                         <div class="panel-title blue">
                             <span>intervals</span>   
                         </div>
+
                         <div class='panel-body'>
                             <form action='#' method='post' data-flex='axis'>
-                                <div>
-                                    <label class='btn btn-default'><input type="text" class="datepicker">today<i class='fa fa-calendar'></i></label>
-                                </div>
+
+                                <fieldset>
+                                    <label class='btn btn-default datepicker-wrap' for="availabilitydate">
+                                        <input class="datepicker" id="availabilitydate" type="text" name="availabilitydate" value="">
+                                        today
+                                        <i class='fa fa-calendar'></i>
+                                    </label>
+                                </fieldset>
+
                                 <div class='legends'>
                                     <span class='weekend'>Weekend</span>
                                     <span class='closed'>Closed</span>
@@ -53,31 +74,56 @@
                                     <span class='already-overbooked'>Overbooked</span>
                                     <span class='derived'>Derived Rate Plan</span>
                                 </div>
+
                                 <div data-flex='-center end'>
                                     <label for="availability1">Display Options</label>
-                                    <button id="availability1"><span class="btn btn-default btn-dropdown selected"><span>8 of 9 selected</span><i class="fa fa-angle-down"></i></span></button>
+                                    <select class="select-all" id="availability1" name="select-all" multiple="multiple">  
+                                        <option value="Sellable Quantity">Sellable Quantity</option>
+                                        <option value="Remaining Inventory">Remaining Inventory</option>
+                                        <option value="Base Rate">Base Rate</option>
+                                        <option selected value="Min LOS">Min LOS</option>
+                                        <option selected value="Max LOS">Max LOS</option>
+                                        <option selected value="Accomodation Blocked">Accomodation Blocked</option>
+                                        <option selected value="Closed to Arrival">Closed to Arrival</option>
+                                        <option selected value="Closed to Departure">Closed to Departure</option>
+                                        <option selected value="Per Person Pricing">Per Person Pricing</option>
+                                    </select>
                                 </div>
+
                             </form>
                         </div>
+                        
                     </div>
+                    
                 </div>
                 <a href="#tab1-2">Logs</a>
                 <div id="tab1-2" class="tabpanel">
+                    
                     <div class="panel panel-default">
+                        
                         <div class="panel-title blue">
                             <span>logs</span>   
                         </div>
+                        
                         <div class='panel-body'>
-                            <div class="filter-table" data-flex="end -center">
-                                <span>
-                                    <span class="filter-info">Showing 1 to 46 of 46 entries</span> | View 
-                                    <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
+                            
+                            <form action="/" method="post" class="filter-table" data-flex="end">
+                                <label for="select-length" data-flex="-center">
+                                    <span>Showing 1 to 46 of 46 entries</span> | View 
+                                    <select class="select-length" id="select-length" name="select-length">
+                                        <option value="10">10</option>
+                                        <option value="25">25</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                        <option value="250">250</option>
+                                    </select>
                                     at a time
-                                </span>
-                            </div>
+                                </label>
+                            </form>
+                            
                             <table class='table table-bordered-tr table-striped-th'>
                                 <thead>
-                                    <tr>
+                                    <tr class="fontweight-semibold">
                                         <th>User / Date / Time</th>
                                         <th>Start Date</th>
                                         <th>End Date</th>
@@ -198,14 +244,20 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            
                         </div>
+                        
                     </div>
                 </div>
+                
             </div>
+            
+        </div>
+        
     </section>
+
 </div>
-<script>
-    $(function () {
-        $(".datepicker").datepicker();
-    });
-</script>
+
+<script src="js/jquery/plugins/datepickers.js"></script>
+<script src="js/jquery/plugins/ultraselect.js"></script>
+<script src="js/jquery/plugins/md-click-circle.js"></script>

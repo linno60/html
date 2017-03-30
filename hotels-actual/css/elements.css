@@ -160,6 +160,7 @@ h4{
     padding: 0 14px;    
     transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);
     cursor: pointer;
+    outline: none;
 }
 .btn, .btn i{
     color: white;
@@ -289,9 +290,6 @@ h4{
     background: #1d943b;
     box-shadow: none;
 }
-.btn-dropdown{
-    justify-content: space-between;
-}
 .btn.rect{
     border-radius: 0;
 }
@@ -360,15 +358,6 @@ h4{
     position: absolute;
     visibility: hidden;
     z-index: 100;
-}
-/*links-default*/
-.links-default a{
-    padding: 8px 14px;
-    color: #555;
-    font-size: 14px;
-}
-.links-default a:hover{
-    background: #f6f6f6;    
 }
 /*links-sidebar*/
 .links-sidebar a{
@@ -455,9 +444,11 @@ h4{
 }
 
 /*FORMS*/
+/*label*/
 label{
     display: block;
     line-height: 13px;
+    margin-right: 10px;
 }
 label mark{
     color: #f13e64;
@@ -469,6 +460,13 @@ label.error, label.error mark{
     font-weight: 600;
     color: #333;
     cursor: default;
+}
+/*inputs-group*/
+.inputs-group{
+    display: flex;
+}
+.inputs-group + .inputs-group{
+    margin-left: 5px;
 }
 /*form effects*/
 select[class^=select-].form-underline, input[class^=input-].form-underline, textarea[class^=textarea-].form-underline{    
@@ -500,7 +498,11 @@ select[class^=select-].form-underline.error, input[class^=input-].form-underline
 .form-underline[type=search]::-webkit-search-cancel-button{
     -webkit-appearance: none;    
 }
+.form-underline[type=search].wide{
+    width: 428px;
+}
 .form-underline[type=search]{
+    width: 200px;
     padding-right: 20px;
     background: url(../images/icons/search.png) no-repeat right 5px center,
         linear-gradient(90deg, transparent, #0070ba, transparent) center bottom / 0% 3px no-repeat,
@@ -541,7 +543,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 34px;
     padding: 0 12px;   
 }
-.input-default.datepicker{
+.input-default.datepicker-group{
     width: 96px;
 }
 .input-default, .textarea-default{
@@ -575,13 +577,13 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=radio], input[type=checkbox] {
     display: none;
 }
-.radio-btn + label, .check-btn + label{
+.radio-btn + label, .check-btn + label, .selectable > label{
     min-height: 12px;
     display: inline-flex;
     position: relative;
     padding-left: 24px; 
 }
-.check-btn + label:before, .check-btn + label:after, .radio-btn + label:before, .radio-btn + label:after { 
+.check-btn + label:before, .check-btn + label:after, .radio-btn + label:before, .radio-btn + label:after, .selectable > label:before, .selectable > label:after { 
     content: "";
     display: inline-block;
     position: absolute;
@@ -620,28 +622,38 @@ input[type=radio], input[type=checkbox] {
     opacity: .7;
 }
 /*checkboxes*/
-.check-btn + label:before     {
+.check-btn + label:before, .selectable > label:before {
     height: 12px;
     width: 12px;
     border: 2px solid #666;
-    top: 0px;
     left: 4px;
 }
-.check-btn + label:after {
+.check-btn + label:before {
+    top: 0px;   
+}
+.selectable > label:before {
+    top: 5px;
+}
+.check-btn + label:after, .selectable > label:after {
     width: 5px;
     height: 12px; 
     border-bottom: 3px solid #0072bc;
     border-right: 3px solid #0072bc; 
     opacity: 0; 
     transform: rotate(180deg);
-    top: -2px;
     left: 8px;
 }
-.check-btn:checked + label:before { 
+.check-btn + label:after {
+    top: 3px;
+}
+.selectable > label:after {
+    top: 3px;
+}
+.check-btn:checked + label:before, .selectable > input:checked + label:before { 
     opacity: 0;
     transform: rotate(-180deg);
 }
-.check-btn:checked + label:after {
+.check-btn:checked + label:after, .selectable > input:checked + label:after {
     opacity: 1; 
     transform: scale(1) rotate(45deg);
 }
@@ -651,6 +663,19 @@ input[type=radio], input[type=checkbox] {
     border: 1px solid #ccc;
     font-family: Roboto;
     padding: 4px 6px;
+}
+.select-length{
+    width: 60px;
+}
+.select-length option{
+    background: white;
+    height: 40px;
+}
+.select-length .selectable > label {
+    padding-left: 0px;
+}
+.select-length .selectable > label:before, .select-length .selectable > label:after{
+    display: none;
 }
 /*custom select jquery*/
 /*wSelect*/
@@ -704,39 +729,7 @@ input[type=radio], input[type=checkbox] {
     padding-bottom: 1px;
     cursor: default;
 }
-/*ultraselect*/
-.ultraselectWrapper {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18); 
-    transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);
-    border-radius: 2px;
-}
-.ultraselectWrapper:active, .ultraselectWrapper:hover, .ultraselectWrapper:focus{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.26);
-}
-.ultraselect .select span.selection {
-    margin: 0;
-}
-.select-list .select:focus{
-    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
-}
-.select-list .select:hover, .select-list .select:focus{
-    background-color: lightgray;
-}
-.select-list .select{
-    height: 34px;
-    width: 200px;
-    border: none;
-    border-radius: 2px;
-    overflow: hidden;
-    line-height: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 0 14px;    
-    cursor: pointer;
-    display: flex;
-    align-items: center;    
-}
-
+/*md-click-circle*/
 .md-click-circle{
     content: '';
     display: block;
@@ -755,32 +748,88 @@ input[type=radio], input[type=checkbox] {
     0% {opacity: 1;transform: scale(0);}
     100% {opacity: 0;transform: scale(2.5);}
 }
-.ultraselect .options{
-    overflow: auto;
-    height: auto!important;
+/*ultraselect*/
+.ultraselectWrapper {
+    border-radius: 2px;
+    background: #e5e5e5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18); 
+    transition: box-shadow .28s cubic-bezier(0.4,0,0.2,1);    
 }
-.ultraselect .options label{
+.ultraselectWrapper:active, .ultraselectWrapper:hover, .ultraselectWrapper:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.26);
+}
+.ultraselectWrapper .select:focus{
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+.ultraselectWrapper .select:hover, .ultraselectWrapper .select:focus{
+    background-color: lightgray;
+}
+.ultraselectWrapper .select span.selection {
+    margin: 0;
+}
+.ultraselectWrapper .select{
+    height: 34px;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+    line-height: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 20px 0 14px;    
+    cursor: pointer;
+    display: flex;
+    align-items: center;    
+}
+.ultraselectWrapper .select-all .options label{
     width: 100%;
 }
-.ultraselect .select span.arrow{
+.ultraselectWrapper .select span.arrow{
     width: 20px;
     height: 10px;
     top: 10px;
 }
-.ultraselect .select span.arrow b {
+.ultraselectWrapper .select span.arrow b {
     border-color: transparent;
 }
-.ultraselect .select span.arrow:after{
+.ultraselectWrapper .select span.arrow:after{
     content: "\f107";
     font-family: FontAwesome;
     font-weight: normal;
 }
-.ultraselect .select.active, .ultraselect .select.focus {
+.ultraselectWrapper .select.active, .ultraselectWrapper .select.focus {
     border: none;
     outline: none;
 }
-.ultraselect input[type=checkbox]:not(old)+label {
+.ultraselectWrapper input[type=checkbox]:not(old)+label {
     margin-left: 0;
+}
+.ultraselectWrapper .options {
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    outline: none;
+    overflow: auto; 
+}
+.ultraselectWrapper .active + .options{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.22)
+}
+.ultraselectWrapper .options .selectable.checked {
+    background-color: transparent;
+}
+.ultraselectWrapper .options .selectable.selectAll {
+    border-bottom: none;
+}
+.ultraselectWrapper .options .optGroupLabel {
+    font-weight: 400;
+}
+.ultraselectWrapper input[type=checkbox]:not(old)+label>span {
+    display: none;
+}
+.ultraselectWrapper .options .selectable {
+    padding: 5px 15px; 
+}
+.ultraselectWrapper .options .selectable.hover, .ultraselectWrapper .options .hover {
+    background-color: #f6f6f6;
 }
 
 /*switch*/
@@ -1203,16 +1252,6 @@ input[type=radio], input[type=checkbox] {
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after {
     visibility: visible;
-}
-.dropdown-select{
-    min-width: 175px;
-    min-height: 137px;
-    background: white;
-    border-radius: 2px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.22);
-    opacity: 1;
-    transition: opacity 1500ms cubic-bezier(0.23,1,0.32,1) .1ms;
-    margin-top: 1px;
 }
 /*popups*/
 .popup-default{

@@ -20,7 +20,6 @@
 }
 .subtitle{
     padding: 20px 0;
-    margin-bottom: 20px;
 }
 .subtitle p + p{
     margin-top: 10px;
@@ -101,17 +100,13 @@ footer *:not(.logged) *{
 }
 .panel .tabs .slimScrollBar:hover{opacity:1!important;cursor:pointer;}
 .panel .tabs .slimScrollBar, .panel .tabs .slimScrollRail{box-shadow: inset 0 0 0 2px black;}
-.panel-collapse{
-    display: none;
-}
 .panel-collapse ~ div{
-    overflow: hidden;
-    max-height: 1000px;
-    transition: max-height .35s ease;
+    display: block;
+    transition: all .35s ease;
 }
 .panel-collapse:checked ~ div{
-    max-height: 0px;
-    transition: max-height .35s ease;
+    display: none;
+    transition: all .35s ease;
 }
 .panel-collapse:checked + .panel-title i.fa-angle-down{
     transform: rotate(-90deg);
@@ -119,35 +114,40 @@ footer *:not(.logged) *{
 .panel-collapse + .panel-title i.fa-angle-down{
     transition: transform .35s ease;
 }
+.panel-alt fieldset > label{
+    max-width: 200px;
+    height: 22px;
+}
 
-/*.dropdown-menu {
+/*DROPDOWN*/
+.dropdown-wrap{
+    position: relative;
+}
+.dropdown-menu{
+    background: white;
+    max-width: 300px;
+    min-width: 150px;
+    border-radius: 2px;
+    overflow: hidden;
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 1000;
     display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
+    z-index: 10;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.22);
+}
+.dropdown-menu > a{
+    padding: 8px 14px;
+    color: #555;
     font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-}
-.bootstrap-select.btn-group .dropdown-menu li a{
-    width: 100%;
-}
-.open>.dropdown-menu {
     display: block;
 }
-.bootstrap-select{
-    position: relative;
-}*/
+.dropdown-menu > a:hover{
+    background: #f6f6f6;    
+}
+.dropdown-wrap > .btn:focus + .dropdown-menu{
+    display: block;
+}
 
 /*DASHBOARD*/
 .dashboard-stat .panel{
@@ -190,7 +190,7 @@ footer *:not(.logged) *{
 }
 
 /*outlook*/
-.outlook .btn-default{
+.outlook .datepicker-wrap{
     font-size: 14px;
     min-width: 390px;
 }
@@ -199,18 +199,17 @@ footer *:not(.logged) *{
 
 
 /*RESERVATIONS*/
-.panel form fieldset{
-    margin-right: 20px;
+.panel form fieldset + fieldset{
+    margin-left: 20px;
 }
 .table-actions{
     background: #f2f2f2;
     padding: 15px;
 }
-.table-actions .btn{
-    margin: 5px;
-}
 .table-actions > i.fa{
     font-size: 18px;
+    margin-right: 15px;
+    transform: scale(-1,1);
 }
 
 /*HOUSE ACCOUNT*/
@@ -221,14 +220,28 @@ footer *:not(.logged) *{
 .filter-table > *{
     margin-left: 20px;
 }
+.filter-info{
+    padding: 5px;
+}
+.filter-table .ultraselectWrapper{
+    margin: 5px;
+}
 
 /*BASE RATES*/
-
+.hdr-interval{
+    padding-top: 30px;
+}
 
 /*RATE PLANS*/
 
 
 /*AVAILABILITY MATRIX*/
+.hdr-availability{
+    padding: 10px 0;
+}
+.hdr-availability form label{
+    margin-left: 10px;
+}
 .legends span:before{
     content: '';
     width: 16px;
@@ -280,8 +293,11 @@ footer *:not(.logged) *{
     width: 100%;
     height: 500px;
 }
+
+/*DATEPICKER*/
 .datepicker-wrap{
     position: relative;
+    min-width: 200px;
 }
 .datepicker-wrap > .datepicker{
     position: absolute;
@@ -294,20 +310,65 @@ footer *:not(.logged) *{
     color: transparent;
     cursor: pointer;
 }
-.daterangepicker{
+input.daterangepicker{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;   
+}
+input.daterangepicker.show-value{
+    text-shadow : 0 0 0 #000;
+    background: url('../images/icons/calendar.png') 80px 10px no-repeat;
+}
+input.daterangepicker.hide-value{
+    background: url('../images/icons/calendar.png') 14px 10px no-repeat;
+}
+.daterangepicker.dropdown-menu{
+    margin-top: 5px;
     display: none;
+}
+.daterangepicker:before, .daterangepicker:after{
+    display: none;
+}
+.ranges{
+    margin-top: 40px;
+}
+.daterangepicker .input-mini{
+    width: 70px;
+    position: absolute;
+    padding: 0 5px;
+    font-size: 11px;
+    border-radius: 0px;
+}
+.calendar.left .input-mini{
+    left: 508px;
+}
+.calendar.right .input-mini{
+    left: 320px;
+}
+.daterangepicker .input-mini.active {
+    border-color: #ccc;
+    border-radius: 0px;
+}
+.daterangepicker .daterangepicker_input i {
+    display: none;
+}
+.range_inputs{
+    width: 150px;
+}
+.daterangepicker .calendar {
+    margin: 4px!important;
+}
+.daterangepicker .calendar, .daterangepicker .calendar-table {
+    border: 1px solid #ddd!important;
+    padding: 4px;
+    border-radius: 4px!important;
 }
 
 /*TRANSACTIONS*/
-
-/*inputs-group*/
-.inputs-group{
-    display: flex;
-}
-.inputs-group + .inputs-group{
-    margin-left: 5px;
-}
-.panel-alt fieldset > label{
-    max-width: 200px;
-    height: 22px;
-}
