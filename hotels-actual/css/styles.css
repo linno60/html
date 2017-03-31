@@ -220,9 +220,6 @@ footer *:not(.logged) *{
 .filter-table > *{
     margin-left: 20px;
 }
-.filter-info{
-    padding: 5px;
-}
 .filter-table .ultraselectWrapper{
     margin: 5px;
 }
@@ -272,6 +269,12 @@ footer *:not(.logged) *{
 .legends .derived:before{
     content: "\f02b";
     color: #e7652b;
+}
+
+/*REVPAR*/
+.filter-arrow{
+    padding: 10px;
+    height: 10px;
 }
 
 /*MAP*/

@@ -45,6 +45,10 @@ h4{
 }
 .disabled{
     cursor: not-allowed;
+    opacity: .65;
+}
+.disabled *{
+    pointer-events: none;    
 }
 .hidden{
     display: none;
@@ -164,10 +168,6 @@ h4{
 }
 .btn, .btn i{
     color: white;
-}
-.disabled .btn{
-    pointer-events: none;
-    opacity: .65;
 }
 .btn > i[class^=fa]{
     margin: 4px;    
@@ -448,7 +448,6 @@ h4{
 label{
     display: block;
     line-height: 13px;
-    margin-right: 10px;
 }
 label mark{
     color: #f13e64;
@@ -823,7 +822,7 @@ input[type=radio], input[type=checkbox] {
     font-weight: 400;
 }
 .ultraselectWrapper input[type=checkbox]:not(old)+label>span {
-    display: none;
+    visibility: hidden;
 }
 .ultraselectWrapper .options .selectable {
     padding: 5px 15px; 
@@ -943,7 +942,10 @@ input[type=radio], input[type=checkbox] {
 .pagination-number .input-default{
     margin: 2px 5px;
 }
-.pagination-default > a, .pagination-default > span{
+.pagination-default{
+    margin-top: 10px;
+}
+.pagination-default > span, .pagination-default > div{
     height: 32px;
     display: inline-flex;
     align-items: center;
@@ -954,10 +956,10 @@ input[type=radio], input[type=checkbox] {
     padding: 0 12px;
     min-width: 32px;
 }
-.pagination-default > a{
+.pagination-default > span{
     background: white;
 }
-.pagination-default > span{
+.pagination-default > div{
     background: #eee;
     color: #333;
     font-size: 13px;
@@ -965,22 +967,20 @@ input[type=radio], input[type=checkbox] {
 .pagination-default i{
     color: #777;
 }
-.pagination-default a + a, .pagination-default a + span, .pagination-default span + a{
+.pagination-default > span:first-child{
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+.pagination-default > span:last-child{
+    border-radius: 0 4px 4px 0;
     border-left: none;
 }
-.pagination-default a:first-child{
-    border-radius: 4px 0 0 4px;
-}
-.pagination-default a:last-child{
-    border-radius: 0 4px 4px 0;
-}
-.pagination-default a:hover{
+.pagination-default > span:hover{
     background: #eee;
     color: #23527c;
 }
-.pagination-default a.disabled, .pagination-default a.disabled:hover{
+.pagination-default .disabled:hover{
     background: white;
-    color: #777;
 }
 
 /*TABS*/

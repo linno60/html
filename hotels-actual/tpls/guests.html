@@ -1,44 +1,122 @@
 <div class="lwrap">
+
     <section class="hdr-page">
         <div data-flex="-center">
             <h2 class="title-page">Guests</h2>
             <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
         </div>
     </section>
+
     <section class="panel panel-alt">
-        <div class="panel-title"><span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span></div>
+
+        <input type="checkbox" class="panel-collapse" id="panel-collapse" name="panel-collapse">
+        <label class="panel-title" for="panel-collapse">
+            <span><i class="fa fa-angle-down"></i>filter</span>
+        </label>
+
         <div class="panel-body">
-            <form action="#" method="post" data-flex>
+
+            <form action="#" method="post" data-flex="w">
+
                 <fieldset>
-                    <label for="guests1">New or repeat guests</label>
-                    <button id="guests1"><span class="btn btn-default btn-dropdown selected"><span>2 of 2 selected</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="guests1">Status</label>
+                    <select class="select-all" id="guests1" name="select-all" multiple="multiple">  
+                        <option selected value="New Guests">New Guests</option>
+                        <option selected value="Repeat Guests">Repeat Guests</option>
+                    </select>
                 </fieldset>
+
                 <fieldset>
-                    <label for="guests2">Country</label>
-                    <button id="guests2"><span class="btn btn-default btn-dropdown selected"><span>42 of 42 selected</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="guests2">Status</label>
+                    <select class="select-all" id="guests2" name="select-all" multiple="multiple">  
+                        <option selected value="Belarus">Belarus</option>
+                        <option selected value="Unknown">Unknown</option>
+                        <option selected value="Aruba">Aruba</option>
+                        <option selected value="Austria">Austria</option>
+                        <option selected value="Botswana">Botswana</option>
+                        <option selected value="Serbia">Serbia</option>
+                        <option selected value="Afganistan">Afganistan</option>
+                        <option selected value="Brazil">Brazil</option>
+                        <option selected value="Andorra">Andorra</option>
+                        <option selected value="Algeria">Algeria</option>
+                        <option selected value="Argentina">Argentina</option>
+                        <option selected value="Angola">Angola</option>
+                        <option selected value="Anguilla">Anguilla</option>
+                        <option selected value="Ukraine">Ukraine</option>
+                        <option selected value="Bulgaria">Bulgaria</option>
+                        <option selected value="Armenia">Armenia</option>
+                        <option selected value="Azerbaijan">Azerbaijan</option>
+                        <option selected value="Aland Islands">Aland Islands</option>
+                        <option selected value="Burundi">Burundi</option>
+                        <option selected value="Albania">Albania</option>
+                        <option selected value="Australia">Australia</option>
+                        <option selected value="United States">United States</option>
+                        <option selected value="Antarctica">Antarctica</option>
+                        <option selected value="Bahamas">Bahamas</option>
+                        <option selected value="Benin">Benin</option>
+                        <option selected value="Barbados">Barbados</option>
+                        <option selected value="Bahrain">Bahrain</option>
+                        <option selected value="American Samoa">American Samoa</option>
+                        <option selected value="Bangladesh">Bangladesh</option>
+                        <option selected value="Syria">Syria</option>
+                        <option selected value="United Kingdom">United Kingdom</option>
+                        <option selected value="Pakistan">Pakistan</option>
+                        <option selected value="Finland">Finland</option>
+                        <option selected value="Cayman Islands">Cayman Islands</option>
+                        <option selected value="China">China</option>
+                        <option selected value="Canada">Canada</option>
+                        <option selected value="Ghana">Ghana</option>
+                        <option selected value="Antigua & Barbuda">Antigua & Barbuda</option>
+                        <option selected value="Equatorial Guinea">Equatorial Guinea</option>
+                        <option selected value="Germany">Germany</option>
+                        <option selected value="Gibraltar">Gibraltar</option>
+                        <option selected value="Taiwan">Taiwan</option>
+                    </select>
                 </fieldset>
+
                 <fieldset>
                     <label for="guests3">Check in Date</label>
-                    <button id="guests3"><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
+                    <span class="btn btn-default datepicker-wrap">
+                        <input class="daterangepicker hide-value" id="guests3" type="text" name="daterange" value="">
+                    </span>
                 </fieldset>
+
                 <fieldset>
                     <label for="guests4">Check out Date</label>
-                    <button id="guests4"><span class="btn btn-default btn-dropdown calendar"><i class="fa fa-calendar"></i><i class="fa fa-angle-down"></i></span></button>
+                    <span class="btn btn-default datepicker-wrap">
+                        <input class="daterangepicker hide-value" id="guests4" type="text" name="daterange" value="">
+                    </span>
                 </fieldset>
+
                 <fieldset>
-                    <label for="guests5">Guest Status</label>
-                    <button id="guests5"><span class="btn btn-default btn-dropdown selected"><span>8 of 8 selected</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="guests5">Status</label>
+                    <select class="select-all" id="guests5" name="select-all" multiple="multiple">  
+                        <option selected value="N/A">N/A</option>
+                        <option selected value="abbp">abbp</option>
+                        <option selected value="iuiii">iuiii</option>
+                        <option selected value="54">54</option>
+                        <option selected value="5rt">5rt</option>
+                        <option selected value="56">56</option>
+                        <option selected value="A Cool status">A Cool status</option>
+                        <option selected value="vip">vip</option>
+                    </select>
                 </fieldset>
+
             </form>
+
         </div>
-        <div class="panel-ftr" data-flex="end w">
-            <div class="btns-group right">
+
+        <div class="panel-ftr">
+            <div class="btns-group right" data-flex="end w">
                 <span><a href="/" class="btn btn-blue">apply</a></span>
                 <span><a href="/" class="btn btn-default">clear</a></span>
             </div>
         </div>
+
     </section>
+
     <section>
+
         <div class="panel panel-default">
             <div class="panel-title blue" data-flex="axis">
                 <span>guests</span>
@@ -46,31 +124,48 @@
                     <a href="/" data-tooltip="Export Customers"><i class="fa fa-upload"></i></a>
                 </div>
             </div>
+
             <div class='panel-body'>
+
                 <div data-flex="stripe">
+
                     <form action="#" method="post">
                         <label for="search-guests" class="label-form">Search</label>
-                        <input id="search-guests" class="input-default form-underline" type="search" name="find-reservations" placeholder="Enter Search Terms">
+                        <input id="search-guests" class="input-default form-underline wide" type="search" name="find-reservations" placeholder="Enter Search Terms">
                     </form>
+
                     <div class="filter-table" data-flex="end -center">
-                        <span>
-                            <span class="filter-info">Showing 1 to 100 of 671 entries</span> | View 
-                            <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
-                            at a time
-                        </span>
+
+                        <form action="/" method="post">
+                            <label for="select-length" data-flex="-center">
+                                <span>Showing 1 to 46 of 46 entries</span> | View 
+                                <select class="select-length" id="select-length" name="select-length">
+                                    <option value="10">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option selected value="100">100</option>
+                                    <option value="250">250</option>
+                                </select>
+                                at a time
+                            </label>
+                        </form>
+
                         <div class="pagination-number" data-flex="-center end">
                             <span>Page</span>
                             <div data-flex="-end">
-                                <span class="btn btn-default disabled"><i class="fa fa-angle-left"></i></span>
+                                <span class="disabled"><span class="btn btn-default"><i class="fa fa-angle-left"></i></span></span>
                                 <input class="input-default paginate" type="text" value="0">
-                                <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                                <span><span class="btn btn-default"><i class="fa fa-angle-right"></i></span></span>
                             </div>
                             <span>of 7</span>
                         </div>
+
                     </div>
+
                 </div>
+
                 <table class="table table-bordered-tr table-striped-th">
-                    <thead class="uppercase">
+                    <thead class="uppercase fontweight-semibold">
                         <tr>
                             <th>name</th>
                             <th>surname</th>
@@ -111,16 +206,25 @@
                         </tr>
                     </tbody>
                 </table>
+
                 <div class="pagination-number" data-flex="-center end">
                     <span>Page</span>
                     <div data-flex="-end">
-                        <span class="btn btn-default disabled"><i class="fa fa-angle-left"></i></span>
+                        <span class="disabled"><span class="btn btn-default"><i class="fa fa-angle-left"></i></span></span>
                         <input class="input-default paginate" type="text" value="0">
-                        <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                        <span><span class="btn btn-default"><i class="fa fa-angle-right"></i></span></span>
                     </div>
                     <span>of 7</span>
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
 </div>
+
+<script src="js/jquery/plugins/datepickers.js"></script>
+<script src="js/jquery/plugins/ultraselect.js"></script>
+<script src="js/jquery/plugins/md-click-circle.js"></script>
