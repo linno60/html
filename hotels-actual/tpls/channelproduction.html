@@ -1,4 +1,5 @@
 <div class="lwrap">
+
     <section class="hdr-page" data-flex="axis">
         <div data-flex="-center">
             <h2 class="title-page">Reports <small>/ Channel Production</small></h2>
@@ -9,32 +10,91 @@
             <span><a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a></span>
         </div>
     </section>
+
     <section class="panel panel-alt">
-        <div class="panel-title"><span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span></div>
+
+        <input type="checkbox" class="panel-collapse" id="panel-collapse" name="panel-collapse">
+        <label class="panel-title" for="panel-collapse">
+            <span><i class="fa fa-angle-down"></i>filter</span>
+        </label>
+
         <div class="panel-body">
             <form action="#" method="post" data-flex="-center w">
+
                 <fieldset>
                     <label for="channelprod1">Period</label>
                     <div data-flex>
-                        <input class="input-default datepicker" id="channelprod1" type="text">
+                        <input class="input-default datepicker-group" id="channelprod1" type="text" value="01/01">
                         <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
                     </div>
                 </fieldset>
+
                 <fieldset>
                     <label for="channelprod2">&nbsp;</label>
                     <div data-flex>
-                        <input class="input-default datepicker" id="channelprod2" type="text">
+                        <input class="input-default datepicker-group" id="channelprod2" type="text" value="31/12">
                         <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
                     </div>
                 </fieldset>
+
                 <fieldset>
                     <label for="channelprod3">Room types</label>
-                    <button id="channelprod3"><span class="btn btn-default btn-dropdown selected"><span>all room types</span><i class="fa fa-angle-down"></i></span></button>
+                    <select class="select-all" id="channelprod3" name="select-all" multiple="multiple">  
+                        <option selected value="_V_">_V_</option>
+                        <option selected value="Luxory">Luxory</option>
+                        <option selected value="luxfm">luxfm</option>
+                        <option selected value="my own room Type">my own room Type</option>
+                        <option selected value="Standart">Standart</option>
+                        <option selected value="Brus A.">Test</option>
+                        <option selected value="">Brus A.</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test Alex K">Test Alex K</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                    </select>
                 </fieldset>
+
                 <fieldset>
                     <label for="channelprod4">Sources</label>
-                    <button id="channelprod4"><span class="btn btn-default btn-dropdown selected"><span>select all channels</span><i class="fa fa-angle-down"></i></span></button>
+                    <select class="select-groups" id="channelprod4" name="select-all" multiple="multiple">  
+                        <optgroup label="Direct">
+                            <option selected value="Website">Website</option>
+                            <option selected value="Walk-In">Walk-In</option>
+                            <option selected value="Phone">Phone</option>
+                            <option selected value="Front Desk">Front Desk</option>
+                            <option selected value="Email">Email</option>
+                            <option selected value="Import">Import</option>
+                            <option selected value="Facebook">Facebook</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Alex source1">Alex source1</option>
+                            <option selected value="r">r</option>
+                            <option selected value="Website">Website</option>
+                            <option selected value="Alona test source">Alona test source</option>
+                            <option selected value="new source">new source</option>
+                        </optgroup>
+                        <option selected value="Wholesaler">Wholesaler</option>
+                        <optgroup label="OTA">
+                            <option selected value="Trivago">Trivago</option>
+                            <option selected value="Booking.com">Booking.com</option>
+                            <option selected value="YourSpainHostel.com">YourSpainHostel.com</option>
+                            <option selected value="Unitravel">Unitravel</option>
+                            <option selected value="Worldpackers">Worldpackers</option>
+                        </optgroup>
+                        <option selected value="Corporate Client">Corporate Client</option>
+                        <optgroup label="Travel Agent">
+                            <option selected value="Alona Travelagent">Alona Travelagent</option>
+                        </optgroup>
+                    </select>
                 </fieldset>
+  
                 <fieldset>
                     <label>Sub Channels</label>
                     <input class="switch" type="checkbox" name="switch" id="channelprod5" checked>
@@ -45,41 +105,60 @@
                         </span>
                     </label>
                 </fieldset>
+                
             </form>
         </div>
-        <div class="panel-ftr" data-flex="end w">
-            <div class="btns-group right">
+
+        <div class="panel-ftr">
+            <div class="btns-group right" data-flex="end w">
                 <span><a href="/" class="btn btn-blue">apply</a></span>
                 <span><a href="/" class="btn btn-default">clear</a></span>  
             </div>
         </div>
+
     </section>
+
     <section>
+
         <div class="panel panel-default">
             <div class="panel-title blue-dark">
                 <span><i class="fa fa-bar-chart"></i>revenue</span>
             </div>
             <div class='panel-body'>
-
+                
             </div>
         </div>
+
     </section>
+
     <section>
+
         <div class="panel panel-default">
             <div class="panel-title blue-dark">
                 <span><i class="fa fa-bar-chart"></i>room nights</span>
             </div>
             <div class='panel-body'>
-
+                
             </div>
+        </div>
+
     </section>
+    
     <section>
+
         <div class="panel panel-default">
             <div class="panel-title blue-dark">
                 <span>average daily rate</span>
             </div>
             <div class='panel-body'>
-
+                
             </div>
+        </div>
+
     </section>
+
 </div>
+
+<script src="js/jquery/plugins/datepickers.js"></script>
+<script src="js/jquery/plugins/ultraselect.js"></script>
+<script src="js/jquery/plugins/md-click-circle.js"></script>

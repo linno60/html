@@ -71,7 +71,7 @@ for (var i = 0; i < mapData.length; i++) {
 }
 
 // build map
-var map = AmCharts.makeChart("chartdiv", {
+var map = AmCharts.makeChart("world-map", {
     "type": "map",
     "projection": "mercator",
     "areasSettings": {

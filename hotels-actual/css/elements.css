@@ -1316,3 +1316,13 @@ figure[class^=figure-]{
 .figure-customer{
     box-shadow: 0 2px 5px 2px rgba(0,0,0,0.1);
 }
+.collapse{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    background: linear-gradient(black, black) 3px 6px / 7px 1px no-repeat,
+        linear-gradient(black, black) 6px 3px / 1px 7px no-repeat;
+}
+.collapse.open{
+    background: linear-gradient(black, black) 3px 6px / 7px 1px no-repeat;
+}

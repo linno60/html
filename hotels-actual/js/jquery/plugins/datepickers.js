@@ -1,10 +1,25 @@
 $(function () {
 
-$(".datepicker").datepicker();
+    $(".datepicker").datepicker();
 
     $(".datepicker-group").datepicker({
+        dateFormat: "mm/dd",
         showOn: "both",
         buttonText: ""
+    });
+
+    $(".datepicker-group.start-date").datepicker({
+        dateFormat: "mm/dd",
+        showOn: "both",
+        buttonText: "",
+        defaultDate: new Date(2017, 00, 01)
+    });
+
+    $(".datepicker-group.end-date").datepicker({
+        dateFormat: "mm/dd",
+        showOn: "both",
+        buttonText: "",
+        defaultDate: new Date(2017, 11, 31)
     });
 
     $(".daterangepicker.show-value").daterangepicker({

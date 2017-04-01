@@ -1,84 +1,154 @@
 <div class="lwrap">
-    <section class="hdr-page" data-flex="axis">
+
+    <section class="hdr-page">
         <div data-flex="-center">
             <h2 class="title-page">Reports <small>/Revenue per available rooms</small></h2>
-            <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
-        </div>
-        <div class="btns-group right" data-flex="end w">
-            <span><a href="/" class="btn btn-green"><i class="fa fa-envelope"></i>email</a></span>
-            <span><a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a></span>
         </div>
     </section>
+
     <section class="panel panel-alt">
-        <div class="panel-title"><span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span></div>
-        <div class="panel-body">
-            <form action="#" method="post" data-flex="-center w">
-                <fieldset>
-                    <label for="revpar1">Year</label>
-                    <button id="revpar1"><span class="btn btn-default btn-dropdown">2017<i class="fa fa-angle-down"></i></span></button>
-                </fieldset>
-                <fieldset><i class="fa fa-arrows-h"></i></fieldset>
-                <fieldset>
-                    <label for="revpar2">Compare with</label>
-                    <button id="revpar2"><span class="btn btn-default btn-dropdown">year<i class="fa fa-angle-down"></i></span></button>
-                </fieldset>
-                <fieldset>
-                    <label for="revpar3">Period</label>
-                    <div data-flex>
-                        <input class="input-default datepicker" id="revpar3" type="text">
-                        <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <label for="revpar4">&nbsp;</label>
-                    <div data-flex>
-                        <input class="input-default datepicker" id="revpar4" type="text">
-                        <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <label for="revpar5">Room types</label>
-                    <button id="revpar5"><span class="btn btn-default btn-dropdown selected"><span>all room types</span><i class="fa fa-angle-down"></i></span></button>
-                </fieldset>
-                <fieldset>
-                    <label for="revpar6">Sources</label>
-                    <button id="revpar6"><span class="btn btn-default btn-dropdown selected"><span>select all channels</span><i class="fa fa-angle-down"></i></span></button>
-                </fieldset>
-            </form>
-        </div>
-        <div class="panel-ftr" data-flex="end w">
-            <div class="btns-group right">
-                <span><a href="/" class="btn btn-blue">apply</a></span>
-                <span><a href="/" class="btn btn-default">clear</a></span>  
+
+        <input type="checkbox" class="panel-collapse" id="panel-collapse" name="panel-collapse">
+        <label class="panel-title" for="panel-collapse">
+            <span><i class="fa fa-angle-down"></i>filter</span>
+        </label>
+
+        <div>  
+            <div class="panel-body">
+                <form action="#" method="post" data-flex="-center w">
+
+                    <fieldset>
+                        <label for="reservrateplan1">Search for reservation #, room # or name</label>
+                        <input class="input-default form-underline" id="reservrateplan1" type="search" name="find-reservations">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="reservrateplan2">Date Booked</label>
+                        <span class="btn btn-default datepicker-wrap">
+                            <input class="daterangepicker hide-value" id="reservrateplan2" type="text" name="daterange" value="">
+                        </span>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="reservrateplan3">Check in Date</label>
+                        <span class="btn btn-default datepicker-wrap">
+                            <input class="daterangepicker hide-value" id="reservrateplan3" type="text" name="daterange" value="">
+                        </span>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="reservrateplan4">Check out Date</label>
+                        <span class="btn btn-default datepicker-wrap">
+                            <input class="daterangepicker hide-value" id="reservrateplan4" type="text" name="daterange" value="">
+                        </span>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="reservrateplan5">Rate Plans</label>
+                        <select class="select-all" id="reservrateplan5" name="select-all" multiple="multiple">  
+                            <option selected value="_V_">_V_</option>
+                            <option selected value="Luxory">Luxory</option>
+                            <option selected value="luxfm">luxfm</option>
+                            <option selected value="my own room Type">my own room Type</option>
+                            <option selected value="Standart">Standart</option>
+                            <option selected value="Brus A.">Test</option>
+                            <option selected value="">Brus A.</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test Alex K">Test Alex K</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Test">Test</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="reservrateplan6">Room Type</label>
+                        <select class="select-groups" id="reservrateplan6" name="select-all" multiple="multiple">  
+                            <optgroup label="Direct">
+                                <option selected value="Website">Website</option>
+                                <option selected value="Walk-In">Walk-In</option>
+                                <option selected value="Phone">Phone</option>
+                                <option selected value="Front Desk">Front Desk</option>
+                                <option selected value="Email">Email</option>
+                                <option selected value="Import">Import</option>
+                                <option selected value="Facebook">Facebook</option>
+                                <option selected value="Test">Test</option>
+                                <option selected value="Alex source1">Alex source1</option>
+                                <option selected value="r">r</option>
+                                <option selected value="Website">Website</option>
+                                <option selected value="Alona test source">Alona test source</option>
+                                <option selected value="new source">new source</option>
+                            </optgroup>
+                            <option selected value="Wholesaler">Wholesaler</option>
+                            <optgroup label="OTA">
+                                <option selected value="Trivago">Trivago</option>
+                                <option selected value="Booking.com">Booking.com</option>
+                                <option selected value="YourSpainHostel.com">YourSpainHostel.com</option>
+                                <option selected value="Unitravel">Unitravel</option>
+                                <option selected value="Worldpackers">Worldpackers</option>
+                            </optgroup>
+                            <option selected value="Corporate Client">Corporate Client</option>
+                            <optgroup label="Travel Agent">
+                                <option selected value="Alona Travelagent">Alona Travelagent</option>
+                            </optgroup>
+                        </select>
+                    </fieldset>
+
+                </form>
             </div>
         </div>
+
+        <div class="panel-ftr">
+            <div class="btns-group right" data-flex="end w">
+                <span><a href="/" class="btn btn-blue">apply</a></span>
+                <span><a href="/" class="btn btn-default">clear</a></span> 
+            </div>
+        </div>
+
     </section>
+
     <section>
+
         <div class="panel panel-default">
+
             <div class="panel-title blue">
                 <span>revenue per available rooms</span>
             </div>
+
             <div class='panel-body'>
-                <div data-flex="end w">
-                    <div class="filter-table" data-flex="end -center">
-                        <span>
-                            <span class="filter-info">Showing 1 to 6 of 6 entries</span> | View 
-                            <a href="/" class="btn btn-default">100<i class="fa fa-angle-down"></i></a>
-                            at a time
-                        </span>
-                    </div>
+
+                <div class="filter-table" data-flex="end -center">
+                    <label for="select-length" data-flex="-center">
+                        <span>Showing 1 to 100 of 671 entries</span> | View 
+                        <select class="select-length" id="select-length" name="select-length">
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option selected value="100">100</option>
+                            <option value="250">250</option>
+                        </select>
+                        at a time
+                    </label>
                     <div class="pagination-number" data-flex="-center end">
                         <span>Page</span>
                         <div data-flex="-end">
                             <span class="disabled"><span class="btn btn-default"><i class="fa fa-angle-left"></i></span></span>
                             <input class="input-default paginate" type="text" value="0">
-                            <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                            <span><span class="btn btn-default"><i class="fa fa-angle-right"></i></span></span>
                         </div>
                         <span>of 7</span>
                     </div>
                 </div>
+
                 <table class="table table-bordered-tr">
-                    <thead>
+                    <thead class="fontweight-semibold">
                         <tr>
                             <th>Reservation Number</th>
                             <th>Name</th>
@@ -115,16 +185,25 @@
                         </tr>
                     </tbody>
                 </table>
+
                 <div class="pagination-number" data-flex="-center end">
                     <span>Page</span>
                     <div data-flex="-end">
                         <span class="disabled"><span class="btn btn-default"><i class="fa fa-angle-left"></i></span></span>
                         <input class="input-default paginate" type="text" value="0">
-                        <span class="btn btn-default"><i class="fa fa-angle-right"></i></span>
+                        <span><span class="btn btn-default"><i class="fa fa-angle-right"></i></span></span>
                     </div>
                     <span>of 7</span>
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
 </div>
+
+<script src="js/jquery/plugins/datepickers.js"></script>
+<script src="js/jquery/plugins/ultraselect.js"></script>
+<script src="js/jquery/plugins/md-click-circle.js"></script>

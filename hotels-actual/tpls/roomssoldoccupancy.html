@@ -1,7 +1,8 @@
 <div class="lwrap">
+
     <section class="hdr-page" data-flex="axis">
         <div data-flex="-center">
-            <h2 class="title-page">Reports <small>/Occupancy Report</small></h2>
+            <h2 class="title-page">Reports <small>/Occupancy report</small></h2>
             <button><span class="btn btn-default"><i class="fa fa-play-circle icon-blue"></i>learn to use</span></button>
         </div>
         <div class="btns-group right" data-flex="end w">
@@ -9,65 +10,158 @@
             <span><a href="/" class="btn btn-darkblue rect"><i class="fa fa-table"></i>export to<i class="fa fa-angle-down"></i></a></span>
         </div>
     </section>
+
     <section class="panel panel-alt">
-        <div class="panel-title"><span><i class="fa fa-angle-right fa-rotate-90"></i>filter</span></div>
+
+        <input type="checkbox" class="panel-collapse" id="panel-collapse" name="panel-collapse">
+        <label class="panel-title" for="panel-collapse">
+            <span><i class="fa fa-angle-down"></i>filter</span>
+        </label>
+
         <div class="panel-body">
             <form action="#" method="post" data-flex="-center w">
+
                 <fieldset>
-                    <label for="soldoccupancy1">Year</label>
-                    <button id="soldoccupancy1"><span class="btn btn-default btn-dropdown">2017<i class="fa fa-angle-down"></i></span></button>
+                    <label for="occupancy1">Year</label>
+                    <select class="select-length" id="occupancy1" name="select-length">
+                        <option value="2018">2018</option>
+                        <option selected value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                    </select>
                 </fieldset>
-                <fieldset><i class="fa fa-arrows-h"></i></fieldset>
+
+                <div class="filter-arrow"><i class="fa fa-arrows-h"></i></div>
+
                 <fieldset>
-                    <label for="soldoccupancy2">Compare with</label>
-                    <button id="soldoccupancy2"><span class="btn btn-default btn-dropdown">year<i class="fa fa-angle-down"></i></span></button>
+                    <label for="occupancy2">Compare with</label>
+                    <select class="select-all" id="occupancy2" name="select-all" multiple="multiple">  
+                        <option value="2018">2018</option>
+                        <option disabled value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                    </select>
                 </fieldset>
+
                 <fieldset>
-                    <label for="soldoccupancy3">Period</label>
+                    <label for="occupancy3">Period</label>
                     <div data-flex>
-                        <input class="input-default datepicker" id="soldoccupancy3" type="text">
+                        <input class="input-default datepicker-group" id="occupancy3" type="text" value="01/01">
                         <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
                     </div>
                 </fieldset>
+
                 <fieldset>
-                    <label for="soldoccupancy4">&nbsp;</label>
+                    <label for="occupancy4">&nbsp;</label>
                     <div data-flex>
-                        <input class="input-default datepicker" id="soldoccupancy4" type="text">
+                        <input class="input-default datepicker-group" id="occupancy4" type="text" value="31/12">
                         <label class="lbl lbl-addon"><i class="fa fa-calendar"></i></label>
                     </div>
                 </fieldset>
+
                 <fieldset>
-                    <label for="soldoccupancy5">Room types</label>
-                    <button id="soldoccupancy5"><span class="btn btn-default btn-dropdown selected"><span>all room types</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="occupancy5">Room types</label>
+                    <select class="select-length" id="occupancy5" name="select-length">  
+                        <option selected value="Room Nights">Room Nights</option>
+                        <option value="Percentage">Percentage</option>
+                    </select>
                 </fieldset>
+                
                 <fieldset>
-                    <label for="soldoccupancy6">Sources</label>
-                    <button id="soldoccupancy6"><span class="btn btn-default btn-dropdown selected"><span>select all channels</span><i class="fa fa-angle-down"></i></span></button>
+                    <label for="occupancy6">Room types</label>
+                    <select class="select-all" id="occupancy6" name="select-all" multiple="multiple">  
+                        <option selected value="_V_">_V_</option>
+                        <option selected value="Luxory">Luxory</option>
+                        <option selected value="luxfm">luxfm</option>
+                        <option selected value="my own room Type">my own room Type</option>
+                        <option selected value="Standart">Standart</option>
+                        <option selected value="Brus A.">Test</option>
+                        <option selected value="">Brus A.</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test Alex K">Test Alex K</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                        <option selected value="Test">Test</option>
+                    </select>
                 </fieldset>
+
+                <fieldset>
+                    <label for="occupancy7">Sources</label>
+                    <select class="select-groups" id="occupancy7" name="select-all" multiple="multiple">  
+                        <optgroup label="Direct">
+                            <option selected value="Website">Website</option>
+                            <option selected value="Walk-In">Walk-In</option>
+                            <option selected value="Phone">Phone</option>
+                            <option selected value="Front Desk">Front Desk</option>
+                            <option selected value="Email">Email</option>
+                            <option selected value="Import">Import</option>
+                            <option selected value="Facebook">Facebook</option>
+                            <option selected value="Test">Test</option>
+                            <option selected value="Alex source1">Alex source1</option>
+                            <option selected value="r">r</option>
+                            <option selected value="Website">Website</option>
+                            <option selected value="Alona test source">Alona test source</option>
+                            <option selected value="new source">new source</option>
+                        </optgroup>
+                        <option selected value="Wholesaler">Wholesaler</option>
+                        <optgroup label="OTA">
+                            <option selected value="Trivago">Trivago</option>
+                            <option selected value="Booking.com">Booking.com</option>
+                            <option selected value="YourSpainHostel.com">YourSpainHostel.com</option>
+                            <option selected value="Unitravel">Unitravel</option>
+                            <option selected value="Worldpackers">Worldpackers</option>
+                        </optgroup>
+                        <option selected value="Corporate Client">Corporate Client</option>
+                        <optgroup label="Travel Agent">
+                            <option selected value="Alona Travelagent">Alona Travelagent</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+
             </form>
         </div>
-        <div class="panel-ftr" data-flex="end w">
-            <div class="btns-group right">
+
+        <div class="panel-ftr">
+            <div class="btns-group right" data-flex="end w">
                 <span><a href="/" class="btn btn-blue">apply</a></span>
                 <span><a href="/" class="btn btn-default">clear</a></span>  
             </div>
         </div>
+
     </section>
+
     <section>
+
         <div class="panel panel-default">
             <div class="panel-title blue-dark">
                 <span><i class="fa fa-bar-chart"></i>revenue per available rooms</span>
             </div>
             <div class='panel-body'>
-
+                <div class="chart" id="chart"></div>
             </div>
         </div>
+
     </section>
-    <section class="btns-group" data-flex>
+
+    <section class="panel btns-group" data-flex>
         <span><a href="/" class="btn btn-default">day</a></span>
         <span><a href="/" class="btn btn-default">week</a></span>
         <span><a href="/" class="btn btn-default active">month</a></span>
     </section>
+
     <section>
         <div class="panel panel-default">
             <div class="panel-title blue-dark">
@@ -75,7 +169,7 @@
             </div>
             <div class='panel-body'>
                 <table class="table table-striped table-striped-th table-bordered table-bordered-td table-bordered-tr">
-                    <thead>
+                    <thead class="fontweight-semibold">
                         <tr>
                             <th>Date</th>
                             <th>RevPar 2017</th>
@@ -114,12 +208,31 @@
                 <div data-flex="axis">
                     <span>Showing 1 to 12 of 12 entries</span>
                     <div class="pagination-default" data-flex="end">
-                        <a href="/" class="disabled"><i class="fa fa-angle-left"></i></a>
-                        <span>1</span>
-                        <a href="/" class="disabled"><i class="fa fa-angle-right"></i></a>
+                        <span class="disabled"><a href="/"><i class="fa fa-angle-left"></i></a></span>
+                        <div>1</div>
+                        <span class="disabled"><a href="/"><i class="fa fa-angle-right"></i></a></span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 </div>
+<script>
+    $(function () {
+
+        $("#occupancy2").ultraselect({
+            oneOrMoreSelected: "% of ... selected",
+            noneSelected: "year",
+            listHeight: 300
+        });
+
+        $("#occupancy2_3 + label").attr('disabled', true);
+        $(".option:has(label[disabled])").addClass('disabled');
+
+    });
+</script>
+<script src="js/jquery/plugins/datepickers.js"></script>
+<script src="js/jquery/plugins/ultraselect.js"></script>
+<script src="js/jquery/plugins/md-click-circle.js"></script>
+
